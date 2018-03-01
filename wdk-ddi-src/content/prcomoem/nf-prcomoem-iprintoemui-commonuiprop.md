@@ -7,8 +7,8 @@ old-location: print\iprintoemui_commonuiprop.htm
 old-project: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUI::CommonUIProp, CommonUIProp method [Print Devices], print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml, CommonUIProp, print.iprintoemui_commonuiprop, IPrintOemUI::CommonUIProp, IPrintOemUI, CommonUIProp method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], CommonUIProp method
+ms.date: 2/23/2018
+ms.keywords: CommonUIProp method [Print Devices], CommonUIProp method [Print Devices], IPrintOemUI interface, CommonUIProp,IPrintOemUI.CommonUIProp, IPrintOemUI, IPrintOemUI interface [Print Devices], CommonUIProp method, IPrintOemUI::CommonUIProp, prcomoem/IPrintOemUI::CommonUIProp, print.iprintoemui_commonuiprop, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUI.CommonUIProp
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ HRESULT CommonUIProp(
 ### -param dwMode
 
 Caller-supplied integer constant indicating which property sheet page should be modified. The following constants are valid.
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,7 +98,8 @@ The method is being called to modify the Device Settings page of the printer pro
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pOemCUIPParam
@@ -108,7 +110,9 @@ Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemcuipparam.md"
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,11 +151,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When a user interface plug-in's <code>IPrintOemUI::CommonUIProp</code> method is called, it should return customized property sheet option items in order to modify an existing printer property sheet page.
@@ -163,6 +170,7 @@ You should expect the method to be called twice for each property sheet. The met
 The first time it is called, the method should just return the number of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures to be added. This number should be placed in the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure's <b>cOEMOptItems</b> member. The printer interface DLL then allocates enough memory to store the specified number of OPTITEMs, and calls <code>IPrintOemUI::CommonUIProp</code> again.
 
 The second time it is called, the <code>IPrintOemUI::CommonUIProp</code> method should do the following:
+
 <ul>
 <li>
 Fill the driver-supplied array of OPTITEM structures with option descriptions. This array is pointed to by the OEMCUIPPARAM structure's <b>pOEMOptItems</b> member, and the number of allocated array elements is contained in the structure's <b>cOEMOptItems</b> member. (For information about specifying OPTITEM member values, see the description of the OEMCUIPPARAM structure's <b>pOEMOptItems</b> member).
@@ -182,8 +190,10 @@ Optionally, return the address of a private data structure by placing it in the 
 Space for the private data structure should be allocated by calling the Microsoft Windows SDK <b>HeapAlloc</b> function, using the handle contained in the OEMCUIPPARAM structure's <b>hOEMHeap</b> member.
 
 </li>
-</ul>If <code>IPrintOemUI::CommonUIProp</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
+</ul>
+If <code>IPrintOemUI::CommonUIProp</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information, see <a href="https://msdn.microsoft.com/98338017-96a0-414c-9b80-bcb98eff61e5">Modifying a Driver-Supplied Property Sheet Page</a>.
+
 
 

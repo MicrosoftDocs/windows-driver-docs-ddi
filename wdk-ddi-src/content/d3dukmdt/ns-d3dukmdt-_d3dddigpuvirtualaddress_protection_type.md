@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dukmdt._D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-title: _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
+title: "_D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE"
 author: windows-driver-content
 description: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
 old-location: display\d3dddigpuvirtualaddress_protection_type.htm
 old-project: display
 ms.assetid: CA46EEC4-5F3D-4E4C-8C83-6D91BE301C68
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
+ms.date: 2/24/2018
+ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 product: Windows
 targetos: Windows
@@ -107,7 +107,7 @@ This member is for system use only and should not be set by the user mode driver
 This member is reserved and should be set to zero.
 
 
-### -field Value
+#### - Value
 
 The consolidated value of the structure's members.
 

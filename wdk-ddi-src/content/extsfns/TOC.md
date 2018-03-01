@@ -1,5 +1,6 @@
 # [Debugger](../_debugger/index.md)
 ## [Extsfns.h](index.md)
+### [EXT_ANALYSIS_PLUGIN callback](../extsfns/nc-extsfns-ext_analysis_plugin.md)
 ### [_DEBUG_FAILURE_TYPE enumeration](../extsfns/ne-extsfns-_debug_failure_type.md)
 ### [_DEBUG_FLR_PARAM_TYPE enumeration](../extsfns/ne-extsfns-_debug_flr_param_type.md)
 ### [_FA_ENTRY_TYPE enumeration](../extsfns/ne-extsfns-_fa_entry_type.md)

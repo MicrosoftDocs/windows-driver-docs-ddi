@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlcopywrite.htm
 old-project: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlCopyWrite routine [Installable File System Drivers], FsRtlCopyWrite, fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
+ms.date: 2/16/2018
+ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlCopyWrite
 product: Windows
 targetos: Windows
@@ -117,6 +117,7 @@ A pointer to the device object for the mounted volume that holds the file data.
 ## -returns
 
 
+
 <b>FsRtlCopyWrite</b>
       returns <b>TRUE</b> if the copy request was completed, <b>FALSE</b> otherwise. Note that a return value of <b>TRUE</b> does not necessarily mean that the copy operation was successful. 
 
@@ -124,10 +125,13 @@ If <b>FsRtlCopyWrite</b> returns <b>FALSE</b>, or if the contents of <i>IoStatus
 
 
 
+
 ## -remarks
 
 
+
 Rather than implementing a file-system-specific fast I/O write routine, developers of file systems that support file caching should consider using <b>FsRtlCopyWrite</b> as the file system's entry point for processing fast I/O write requests. This requires that the file system's <b>DriverEntry</b> routine set the FastIoWrite entry point to <b>FsRtlCopyWrite</b> in the FAST_IO_DISPATCH structure of the file system driver object. In addition, the file system must do the following:
+
 <ol>
 <li>
 For each file on which fast I/O might be performed, the file system must allocate and initialize an FSRTL_COMMON_FCB_HEADER structure. 
@@ -147,7 +151,8 @@ When caching a file, the file system must set the <b>IsFastIoPossible</b> member
 In particular, file systems should set the <b>IsFastIoPossible</b> member of the FSRTL_COMMON_FCB_HEADER structure to <b>FastIoIsQuestionable</b> as soon as any exclusive byte range lock on the cached file exists.
 
 </li>
-</ol>If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyWrite</b> is guaranteed to copy the data and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put into a wait state until all required pages have been made resident and the data can be copied.
+</ol>
+If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyWrite</b> is guaranteed to copy the data and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data will be copied immediately and no blocking will occur. If any needed pages are not resident, the caller will be put into a wait state until all required pages have been made resident and the data can be copied.
 
 If <i>Wait</i> is <b>FALSE</b>, <b>FsRtlCopyWrite</b> will refuse to block, and will return <b>FALSE</b>, if it cannot acquire the file's main resource or if the required pages of the cached file are not already resident in memory.
 
@@ -157,17 +162,24 @@ To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcI
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCopyWrite routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCopyWrite routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

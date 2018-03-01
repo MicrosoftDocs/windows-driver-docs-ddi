@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_listener_local_address.htm
 old-project: netvista
 ms.assetid: 7BF5322F-5283-445D-AC3F-19382CB28E2B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_get_listener_local_address, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], NdkGetListenerLocalAddress, NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NDK_FN_GET_LISTENER_LOCAL_ADDRESS, ndkpi/NdkGetListenerLocalAddress
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkGetListenerLocalAddress
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback
@@ -72,8 +72,9 @@ NTSTATUS NdkGetListenerLocalAddress(
 
 
 
-### -param *pNdkListener
+### -param *pNdkListener [in]
 
+A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
 ### -param pAddress
@@ -83,26 +84,16 @@ A local address for a listener is returned in this buffer.
 
 ### -param *pAddressLength
 
-
-
-
-
-
-#### - pAddressLength
-
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
-
-
-#### - pNdkListener [in]
-
-A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
 
 
 ## -returns
 
 
+
 The 
      <i>NdkGetListenerLocalAddress</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,14 +132,18 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkGetListenerLocalAddress</i> returns the local address for a listener. The local address is useful for retrieving port information for an AF_INET or AF_INET6 listener. For example, if the NDK consumer specifies zero as the ND port number in a listen request and the NDK provider specifies a port, the NDK consumer can use <i>NdkGetListenerLocalAddress</i> to  determine which port the provider specified.
+
 
 
 
@@ -156,11 +151,15 @@ An error occurred.
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
 
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

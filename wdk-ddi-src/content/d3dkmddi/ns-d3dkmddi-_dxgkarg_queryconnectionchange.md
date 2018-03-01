@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYCONNECTIONCHANGE
-title: _DXGKARG_QUERYCONNECTIONCHANGE
+title: "_DXGKARG_QUERYCONNECTIONCHANGE"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
 old-location: display\dxgkarg_queryconnectionchange.htm
 old-project: display
 ms.assetid: 6B91F3F0-B02D-46F3-9086-EA32F043FC16
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_queryconnectionchange, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, *IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE
+ms.date: 2/24/2018
+ms.keywords: "*IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, display.dxgkarg_queryconnectionchange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARG_QUERYCONNECTIONCHANGE
 product: Windows
 targetos: Windows

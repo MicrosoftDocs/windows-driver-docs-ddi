@@ -2,13 +2,13 @@
 UID: NC:ks.PFNKSPIN
 title: PFNKSPIN
 author: windows-driver-content
-description: An AVStream minidriver's callback routine is called when: There is data available for a KSPIN structure to process. Use this routine to perform Pin-Centric Processing.The relevant KSPIN is serving as a sink pin and is connected to an AVStream source pin.
+description: An AVStream minidriver's callback routine is called when:\_There is data available for a KSPIN structure to process. Use this routine to perform Pin-Centric Processing.The relevant KSPIN is serving as a sink pin and is connected to an AVStream source pin.
 old-location: stream\avstrminipinprocess.htm
 old-project: stream
 ms.assetid: d2315dd9-1643-4b8e-a010-8fccc582ca2b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.avstrminipinprocess, AVStrMiniPinProcess, AVStrMiniPinConnect, MyAVStrMiniPin routine [Streaming Media Devices], MyAVStrMiniPin, PFNKSPIN, PFNKSPIN, ks/MyAVStrMiniPin, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: (See Remarks section)
-topictype: 
+req.irql: "(See Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	MyAVStrMiniPin
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSPIN callback
@@ -81,11 +81,14 @@ Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> that has frame data ava
 ## -returns
 
 
+
 Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop processing until the next triggering event.
 
 
 
+
 ## -remarks
+
 
 
 <b>About AVStrMiniPinProcess</b>
@@ -114,21 +117,32 @@ Also see <a href="https://msdn.microsoft.com/04d0d17b-c326-417d-b2e8-58b33420455
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
+
+
 <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
 
 <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>
 
- 
+
+
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPIN routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPIN routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

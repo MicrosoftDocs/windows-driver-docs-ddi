@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_CO_CHARACTERISTICS
-title: _NDIS_PROTOCOL_CO_CHARACTERISTICS
+title: "_NDIS_PROTOCOL_CO_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_PROTOCOL_CO_CHARACTERISTICS structure specifies CoNDIS entry points for CoNDIS protocol drivers.
 old-location: netvista\ndis_protocol_co_characteristics.htm
 old-project: netvista
 ms.assetid: 855e3231-502c-4c6f-99f9-7ad85354ccd5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NDIS_PROTOCOL_CO_CHARACTERISTICS, netvista.ndis_protocol_co_characteristics, NDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, *PNDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_CO_CHARACTERISTICS, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS, netvista.ndis_protocol_co_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_PROTOCOL_CO_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS
+req.typenames: NDIS_PROTOCOL_CO_CHARACTERISTICS, *PNDIS_PROTOCOL_CO_CHARACTERISTICS
 ---
 
 # _NDIS_PROTOCOL_CO_CHARACTERISTICS structure
@@ -99,31 +99,32 @@ The entry point of the driver's
 ### -field CoAfRegisterNotifyHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> function.
 
 
 ### -field CoReceiveNetBufferListsHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-     ProtocolCoReceiveNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+     ProtocolCoReceiveNetBufferLists</a> function.
 
 
 ### -field CoSendNetBufferListsCompleteHandler
 
 The entry point of the driver's 
-     <mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
-     ProtocolCoSendNetBufferListsComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+     ProtocolCoSendNetBufferListsComplete</a> function.
 
 
 ## -remarks
 
 
+
 To specify entry points for CoNDIS, a protocol driver initializes an NDIS_PROTOCOL_CO_CHARACTERISTICS
     structure and passes it to the 
-    <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-    NdisSetOptionalHandlers</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    NdisSetOptionalHandlers</a> function.
 
 The protocol driver calls 
     <b>NdisSetOptionalHandlers</b> from the 
@@ -131,27 +132,42 @@ The protocol driver calls
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+   ProtocolCoSendNetBufferListsComplete</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
-<mshelp:link keywords="netvista.protocolcosendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolCoSendNetBufferListsComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROTOCOL_CO_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROTOCOL_CO_CHARACTERISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

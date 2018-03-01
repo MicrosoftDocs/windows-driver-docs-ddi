@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIRANGE
-title: _D3DDDIRANGE
+title: "_D3DDDIRANGE"
 author: windows-driver-content
 description: Specifies a range of memory within a buffer.
 old-location: display\d3dddirange.htm
 old-project: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], d3dumddi/D3DDDIRANGE, _D3DDDIRANGE, display.d3dddirange
+ms.date: 2/24/2018
+ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIRANGE
 product: Windows
 targetos: Windows

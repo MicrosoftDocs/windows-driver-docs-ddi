@@ -7,8 +7,8 @@ old-location: ifsk\rxcompleterequest_real.htm
 old-project: ifsk
 ms.assetid: 54d8fab2-bde3-4b8a-8542-075c5e30afbb
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxprocs/RxCompleteRequest_Real, ifsk.rxcompleterequest_real, RxCompleteRequest_Real function [Installable File System Drivers], rxref_9d779281-7e95-45b7-a633-62a4280a6bea.xml, RxCompleteRequest_Real
+ms.date: 2/16/2018
+ms.keywords: RxCompleteRequest_Real, RxCompleteRequest_Real function [Installable File System Drivers], ifsk.rxcompleterequest_real, rxprocs/RxCompleteRequest_Real, rxref_9d779281-7e95-45b7-a633-62a4280a6bea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rxprocs.h
-apiname: 
+api_name:
 -	RxCompleteRequest_Real
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ The status value to return when the IRP request is complete. This is the value t
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>RxCompleteRequest_Real</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally to complete an I/O request packet. 
@@ -101,29 +104,48 @@ If a <b>NULL</b> value is passed in for <i>Irp</i>, then <b>RxCompleteRequest_Re
 
 
 
+
 ## -see-also
-
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
-
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
 
 <a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 <a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCompleteRequest_Real function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCompleteRequest_Real function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

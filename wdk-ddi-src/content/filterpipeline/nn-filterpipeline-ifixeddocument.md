@@ -7,8 +7,8 @@ old-location: print\ifixeddocument.htm
 old-project: print
 ms.assetid: 3f9f64a1-8681-4b70-8cdc-7c944912f767
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.ifixeddocument, IFixedDocument interface [Print Devices], IFixedDocument interface [Print Devices], described, IFixedDocument, filterpipeline/IFixedDocument, filterpipeline_f295da8e-1444-40c4-8ecf-e3aadc1d324f.xml
+ms.date: 2/23/2018
+ms.keywords: IFixedDocument, IFixedDocument interface [Print Devices], IFixedDocument interface [Print Devices], described, filterpipeline/IFixedDocument, filterpipeline_f295da8e-1444-40c4-8ecf-e3aadc1d324f.xml, print.ifixeddocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IFixedDocument
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: EXpsFontRestriction
 
 The <b>IFixedDocument</b> interface represents a fixed document for an XPS document sequence.  An XPS fixed document sequence will have one or more fixed documents in it.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocument</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFixedDocument</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -87,11 +94,5 @@ The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.
 
 </td>
 </tr>
-</table>The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document.
-
-The <b>GetUri</b> method gets the URI of the fixed document.
-
-The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.
-
- 
+</table> 
 

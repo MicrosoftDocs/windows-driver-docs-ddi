@@ -7,8 +7,8 @@ old-location: kernel\pofxcompletedevicepowernotrequired.htm
 old-project: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteDevicePowerNotRequired, kernel.pofxcompletedevicepowernotrequired
+ms.date: 2/24/2018
+ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Ntoskrnl.exe
-apiname: 
+api_name:
 -	PoFxCompleteDevicePowerNotRequired
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A handle that represents the registration of the device with PoFx. The device dr
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 After PoFx calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a> callback routine, the driver must respond by calling <b>PoFxCompleteDevicePowerNotRequired</b>.
@@ -89,15 +92,20 @@ PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine to inform 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxCompleteDevicePowerNotRequired routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxCompleteDevicePowerNotRequired routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

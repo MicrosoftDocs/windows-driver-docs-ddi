@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_get_lb_provisioning_map_resources.htm
 old-project: storage
 ms.assetid: 117F6507-CA52-4EA7-9633-75ADB19F4DDA
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_storage_get_lb_provisioning_map_resources, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,7 +108,9 @@ The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVA
 ## -remarks
 
 
+
 If logical block provisioning is enabled on a LUN, resource mapping counts  may be reported from the storage device. Resource mapping information is obtained by using the <b>IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</b>  request. A storage monitoring application can use this IOCTL to query resource mapping conditions before a resource threshold or exhaustion event is logged.
+
 
 
 
@@ -112,9 +118,11 @@ If logical block provisioning is enabled on a LUN, resource mapping counts  may 
 
 <a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

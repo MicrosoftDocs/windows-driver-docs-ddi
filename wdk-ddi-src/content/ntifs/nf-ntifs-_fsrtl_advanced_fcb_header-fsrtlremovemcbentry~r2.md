@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlremovemcbentry.htm
 old-project: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/16/2018
 ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FsRtlRemoveMcbEntry
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_predication_op.htm
 old-project: display
 ms.assetid: 70676251-BCD7-4996-B5B7-96A8D9B107DB
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op, D3D12DDI_PREDICATION_OP enumeration [Display Devices], d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP enumeration [Display Devices], D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP, d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_PREDICATION_OP
 product: Windows
 targetos: Windows

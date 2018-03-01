@@ -2,13 +2,13 @@
 UID: NF:irb.AtaPortSetBusData
 title: AtaPortSetBusData function
 author: windows-driver-content
-description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportsetbusdata.htm
 old-project: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, AtaPortSetBusData, storage.ataportsetbusdata, AtaPortSetBusData routine [Storage Devices], irb/AtaPortSetBusData
+ms.date: 2/24/2018
+ms.keywords: AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices], atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, irb/AtaPortSetBusData, storage.ataportsetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Pciidex.lib
 -	Pciidex.dll
-apiname: 
+api_name:
 -	AtaPortSetBusData
 product: Windows
 targetos: Windows
@@ -100,14 +100,18 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 ## -returns
 
 
+
 <b>AtaPortSetBusData</b> returns the amount of the data that was written in bytes.
+
 
 
 
 ## -remarks
 
 
+
 <b>AtaPortSetBusData</b> completes a bitwise OR, one byte at a time, of the current PCI configuration space data with the new data in <i>Buffer</i>. Only those bits not indicated by <i>DataMask</i> are left untouched. The byte of data that follows <i>ConfigDataOffset</i>, therefore, is updated as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,13 +126,16 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportgetbusdata.md">AtaPortGetBusData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortSetBusData routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortSetBusData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

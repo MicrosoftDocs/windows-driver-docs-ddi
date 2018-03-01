@@ -7,8 +7,8 @@ old-location: ifsk\rxpdereferenceandfinalizenetfcb.htm
 old-project: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxpDereferenceAndFinalizeNetFcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], ifsk.rxpdereferenceandfinalizenetfcb, fcb/RxpDereferenceAndFinalizeNetFcb
+ms.date: 2/16/2018
+ms.keywords: RxpDereferenceAndFinalizeNetFcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], fcb/RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	fcb.h
-apiname: 
+api_name:
 -	RxpDereferenceAndFinalizeNetFcb
 product: Windows
 targetos: Windows
@@ -98,11 +98,14 @@ A pointer to the FCB structure to be dereferenced and finalized.
 ## -returns
 
 
+
 <b>RxpDereferenceAndFinalizeNetFcb</b> returns <b>TRUE</b> if the FCB was finalized. 
 
 
 
+
 ## -remarks
+
 
 
 The referencing and dereferencing of FCBs is different from those of the other data structures because of the embedded resource in the FCB. This implies that the caller requires information regarding the status of the FCB (whether it was finalized or not ).To finalize the FCB, two locks need to be held, the NET_ROOT name table lock as well as the FCB resource. <b>RxpDereferenceAndFinalizeNetFcb</b> acquires the additional lock if required to finalize the FCB.
@@ -111,17 +114,24 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 
 
+
 ## -see-also
-
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
-
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 <a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
- 
+
+
+<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpDereferenceAndFinalizeNetFcb function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpDereferenceAndFinalizeNetFcb function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

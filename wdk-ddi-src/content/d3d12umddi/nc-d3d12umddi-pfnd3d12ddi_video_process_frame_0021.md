@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_process_frame.htm
 old-project: display
 ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_video_process_frame, pfnProcessFrame callback function [Display Devices], pfnProcessFrame, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, d3d12umddi/pfnProcessFrame
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, d3d12umddi/pfnProcessFrame, display.pfnd3d12ddi_video_process_frame, pfnProcessFrame, pfnProcessFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnProcessFrame
 product: Windows
 targetos: Windows
@@ -92,44 +92,43 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 ### -param *pOutputParameters
 
+The output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
 
 
 ### -param *pInputStreamParameters
 
+Specifies an array of input parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
 
 
 ### -param NumInputStreams
 
 
-
-#### - pOutputParameters
-
-The output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
-
-
-#### - pInputStreamParameters
-
-Specifies an array of input parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -see-also
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
-
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a>
 
- 
+
+
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

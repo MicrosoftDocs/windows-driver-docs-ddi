@@ -1,14 +1,14 @@
 ---
 UID: NS:acpitabl._LPI_STATE_FLAGS
-title: _LPI_STATE_FLAGS
+title: "_LPI_STATE_FLAGS"
 author: windows-driver-content
 description: Defines LPI state flags, either as a structure or as an integer.
 old-location: acpi\lpi_state_flags.htm
 old-project: acpi
 ms.assetid: 3A9DECE8-E85A-49D5-8AF1-6C7BA8B1AB7D
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: LPI_STATE_FLAGS, _LPI_STATE_FLAGS, *PLPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices]
+ms.date: 2/15/2018
+ms.keywords: "*PLPI_STATE_FLAGS, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	acpitabl.h
-apiname: 
+api_name:
 -	LPI_STATE_FLAGS
 product: Windows
 targetos: Windows
@@ -70,21 +70,6 @@ typedef union _LPI_STATE_FLAGS {
 ## -struct-fields
 
 
-
-
-### -field Disabled
-
- 
-
-
-### -field CounterUnavailable
-
- 
-
-
-### -field Reserved
-
- 
 
 
 ### -field AsUlong

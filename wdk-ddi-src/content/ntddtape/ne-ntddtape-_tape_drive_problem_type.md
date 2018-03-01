@@ -1,19 +1,19 @@
 ---
 UID: NE:ntddtape._TAPE_DRIVE_PROBLEM_TYPE
-title: _TAPE_DRIVE_PROBLEM_TYPE
+title: "_TAPE_DRIVE_PROBLEM_TYPE"
 author: windows-driver-content
 description: The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive.
 old-location: storage\tape_drive_problem_type.htm
 old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveSnappedTape, TapeDriveTimetoClean, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveUnsupportedMedia, TapeDriveSnappedTape, TapeDriveWriteWarning, ntddtape/TapeDriveReadError, TapeDriveCleanDriveNow, TapeDriveProblemNone, ntddtape/TapeDriveProblemNone, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadWriteWarning, TapeDriveReadWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveMediaLifeExpired, ntddtape/TapeDriveReadWriteError, TapeDriveReadWriteError, ntddtape/TapeDriveHardwareError, TapeDriveScsiConnectionError, TapeDriveWriteError, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveReadWriteWarning, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], storage.tape_drive_problem_type, ntddtape/TapeDriveCleanDriveNow, TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveWriteWarning
+ms.date: 2/24/2018
+ms.keywords: TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveCleanDriveNow, TapeDriveHardwareError, TapeDriveMediaLifeExpired, TapeDriveProblemNone, TapeDriveReadError, TapeDriveReadWarning, TapeDriveReadWriteError, TapeDriveReadWriteWarning, TapeDriveScsiConnectionError, TapeDriveSnappedTape, TapeDriveTimetoClean, TapeDriveUnsupportedMedia, TapeDriveWriteError, TapeDriveWriteWarning, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveReadError, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveSnappedTape, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveWriteWarning, storage.tape_drive_problem_type, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddtape.h
-req.include-header: 
+req.include-header: Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddtape.h
-apiname: 
+api_name:
 -	TAPE_DRIVE_PROBLEM_TYPE
 product: Windows
 targetos: Windows
@@ -152,13 +152,17 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
-<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
 
- 
+
+
+<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_DRIVE_PROBLEM_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_DRIVE_PROBLEM_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprintpipelinefilter_startoperation.htm
 old-project: print
 ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: StartOperation method [Print Devices], IPrintPipelineFilter::StartOperation, filterpipeline/IPrintPipelineFilter::StartOperation, IPrintPipelineFilter, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation, StartOperation, StartOperation method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter interface [Print Devices], StartOperation method
+ms.date: 2/23/2018
+ms.keywords: IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], StartOperation method, IPrintPipelineFilter::StartOperation, StartOperation method [Print Devices], StartOperation method [Print Devices], IPrintPipelineFilter interface, StartOperation,IPrintPipelineFilter.StartOperation, filterpipeline/IPrintPipelineFilter::StartOperation, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Filterpipeline.h
-apiname: 
+api_name:
 -	IPrintPipelineFilter.StartOperation
 product: Windows
 targetos: Windows
@@ -68,20 +68,24 @@ HRESULT STDMETHODCALLTYPE StartOperation(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>StartOperation</code> returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
 
 
+
 A filter returns the <code>StartOperation</code> call only when the filter processing is complete.
+
 
 

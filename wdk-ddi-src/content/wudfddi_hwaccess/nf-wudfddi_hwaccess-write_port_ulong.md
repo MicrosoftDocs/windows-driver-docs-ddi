@@ -7,8 +7,8 @@ old-location: wdf\write_port_ulong.htm
 old-project: wdf
 ms.assetid: 400823C4-5F71-4334-9160-FAC0690F209F
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.write_port_ulong, WRITE_PORT_ULONG, umdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG, WRITE_PORT_ULONG function
+ms.date: 2/20/2018
+ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	WRITE_PORT_ULONG
 product: Windows
 targetos: Windows
@@ -92,13 +92,17 @@ Specifies a ULONG value to be written to the port.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

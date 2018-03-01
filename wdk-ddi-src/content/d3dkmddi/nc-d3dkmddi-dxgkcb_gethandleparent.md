@@ -7,8 +7,8 @@ old-location: display\dxgkcbgethandleparent.htm
 old-project: display
 ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbgethandleparent, DxgkCbGetHandleParent callback function [Display Devices], DxgkCbGetHandleParent, DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT, d3dkmddi/DxgkCbGetHandleParent, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_GETHANDLEPARENT, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DxgkCbGetHandleParent
 product: Windows
 targetos: Windows
@@ -78,21 +78,27 @@ D3DKMT_HANDLE APIENTRY DxgkCbGetHandleParent(
 ## -returns
 
 
+
 <b>DxgkCbGetHandleParent</b> returns a graphics subsystem-specific handle to the parent resource for the allocation that is associated with the handle that the <i>hAllocation</i> parameter specifies.
 
 If <i>DxgkCbGetHandleParent</i> returns a <b>NULL</b> handle, the DirectX graphics kernel subsystem was unable to resolve the handle to the parent resource because, for example, of the following possible reasons:
 
 
+
 <ul>
 <li>An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug.</li>
 <li>Allocations had lifetime issues. </li>
-</ul>If a <b>NULL</b> handle is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+</ul>
+If a <b>NULL</b> handle is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+
 
 
 
 ## -remarks
 
 
+
 For <b>DxgkCbGetHandleParent</b> to return a resource handle, the handle in <i>hAllocation</i> must be an allocation handle that is associated with a resource; otherwise, <b>DxgkCbGetHandleParent</b> returns <b>NULL</b>.
+
 
 

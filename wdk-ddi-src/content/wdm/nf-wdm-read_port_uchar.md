@@ -7,13 +7,13 @@ old-location: kernel\read_port_uchar.htm
 old-project: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.read_port_uchar, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_UCHAR, k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, READ_PORT_UCHAR
+ms.date: 2/24/2018
+ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+api_name:
 -	READ_PORT_UCHAR
 product: Windows
 targetos: Windows
@@ -77,13 +77,17 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>READ_PORT_UCHAR</b> returns the byte that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>READ_PORT_UCHAR</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:wiamicro._SCANINFO
-title: _SCANINFO
+title: "_SCANINFO"
 author: windows-driver-content
 description: The SCANINFO structure is used to store and communicate information about a scan acquisition.
 old-location: image\scaninfo.htm
 old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.scaninfo, *PSCANINFO, SCANINFO structure [Imaging Devices], MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO structure pointer [Imaging Devices], PSCANINFO, _SCANINFO, wiamicro/PSCANINFO, SCANINFO, wiamicro/SCANINFO
+ms.date: 2/23/2018
+ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiamicro.h
-apiname: 
+api_name:
 -	SCANINFO
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ typedef struct _SCANINFO {
 ### -field ADF
 
 Indicates whether the scanner supports an automatic document feeder (ADF). This member can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,7 +142,8 @@ The scanner supports an ADF with duplex capability.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TPA
@@ -200,6 +202,7 @@ Specifies a mask value of supported compression types. A value of zero indicates
 ### -field SupportedDataTypes
 
 Specifies a mask value of supported data types. A value of zero indicates that no data types are supported. This member can be the bitwise OR of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -235,7 +238,8 @@ The image is 8 bits-per-pixel grayscale.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field WidthPixels
@@ -256,6 +260,7 @@ Specifies the height of the current image in pixels.
 ### -field DataType
 
 Specifies the current data type set of the current image. This member can be set to one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -321,7 +326,8 @@ The driver supports 1 bit-per-pixel black and white.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PixelBits
@@ -460,19 +466,25 @@ Points to the microdriver's context. <i>This member is defined only for Microsof
 ## -remarks
 
 
+
 This structure is used as a parameter in the microdriver's <a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>, and <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a> functions.
+
 
 
 
 ## -see-also
 
-<a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
-
 <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
 
- 
+
+
+<a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20SCANINFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20SCANINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

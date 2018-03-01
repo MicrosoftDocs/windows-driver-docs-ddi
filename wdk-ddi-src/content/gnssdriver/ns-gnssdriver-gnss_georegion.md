@@ -7,8 +7,8 @@ old-location: sensors\gnss_georegion.htm
 old-project: sensors
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], sensors.gnss_georegion, PGNSS_GEOREGION structure pointer [Sensor Devices], GNSS_GEOREGION, *PGNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION, PGNSS_GEOREGION
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION, sensors.gnss_georegion"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_GEOREGION
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_GEOREGION, GNSS_GEOREGION
+req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
 ---
 
 # GNSS_GEOREGION structure
@@ -73,17 +73,6 @@ typedef struct {
 
 
 
-### -field Circle
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_georegion_circle.md">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
-
-
-### -field Unused
-
- 
-
-
 ### -field Size
 
 Structure size.
@@ -100,6 +89,12 @@ Version number.
 <a href="..\gnssdriver\ne-gnssdriver-gnss_georegiontype.md">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
 
 
+#### - Circle
+
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_georegion_circle.md">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
+
+
 #### - Unused[512]
 
 Padding buffer.
@@ -108,7 +103,9 @@ Padding buffer.
 ## -remarks
 
 
+
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
+
 
 
 

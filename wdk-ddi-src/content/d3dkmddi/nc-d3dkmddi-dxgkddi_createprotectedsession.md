@@ -7,8 +7,8 @@ old-location: display\dxgkddi_createprotectedsession.htm
 old-project: display
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_createprotectedsession, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], DXGKDDI_CREATEPROTECTEDSESSION, d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_CREATEPROTECTEDSESSION
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer to the arguments used to create a protected session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

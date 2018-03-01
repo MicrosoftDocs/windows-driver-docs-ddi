@@ -7,8 +7,8 @@ old-location: netvista\riluicccommand_2.htm
 old-project: netvista
 ms.assetid: 13861810-91a6-4027-81a0-297b049e3ee4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCCMD_READRECORD, rilapitypes/RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_READRECORD, rilapitypes/RIL_UICCCMD_UPDATEBINARY, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCCMD_MAX, RIL_UICCCMD_MAX, RIL_UICCCMD_UPDATEBINARY, rilapitypes/RILUICCCOMMAND, netvista.riluicccommand_2, RILUICCCOMMAND
+ms.date: 2/16/2018
+ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand_2, rilapitypes/RILUICCCOMMAND, rilapitypes/RIL_UICCCMD_MAX, rilapitypes/RIL_UICCCMD_READRECORD, rilapitypes/RIL_UICCCMD_UPDATEBINARY, rilapitypes/RIL_UICCCMD_UPDATERECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCCOMMAND
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILUICCCOMMAND {
 ### -field RIL_UICCCMD_READBINARY
 
 
-
 ### -field RIL_UICCCMD_READRECORD
-
 
 
 ### -field RIL_UICCCMD_UPDATEBINARY
 
 
-
 ### -field RIL_UICCCMD_UPDATERECORD
 
 
-
 ### -field RIL_UICCCMD_MAX
-
 

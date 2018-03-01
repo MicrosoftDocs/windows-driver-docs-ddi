@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbrequestcompletionparams.htm
 old-project: wdf
 ms.assetid: 50a0c8c9-06c6-48c9-a799-0949cf415f6e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbrequestcompletionparams, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface, described, IWDFUsbRequestCompletionParams, wudfusb/IWDFUsbRequestCompletionParams, UMDFRequestObjectRef_f55ce370-f488-405f-a104-9a85fcab6cbb.xml, umdf.iwdfusbrequestcompletionparams
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface, described, UMDFRequestObjectRef_f55ce370-f488-405f-a104-9a85fcab6cbb.xml, umdf.iwdfusbrequestcompletionparams, wdf.iwdfusbrequestcompletionparams, wudfusb/IWDFUsbRequestCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbRequestCompletionParams
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFUsbRequestCompletionParams</b> interface exposes the parameters object for the completion of a USB request object. The parameters object is primarily required for asynchronous I/O and layered drivers.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbRequestCompletionParams</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>. <b>IWDFUsbRequestCompletionParams</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -99,13 +106,5 @@ The <a href="https://msdn.microsoft.com/c6824215-0c16-471e-aea9-1b5cbeb2286b">Ge
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/ce20ed09-2f4d-4cc0-9185-a3a72dd73165">GetCompletedUsbRequestType</a> method retrieves the type of operation that the request to be completed contains.
-
-The <a href="https://msdn.microsoft.com/0c3fd576-48de-454b-8015-51767b21f17e">GetDeviceControlTransferParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
-
-The <a href="https://msdn.microsoft.com/e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c">GetPipeReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
-
-The <a href="https://msdn.microsoft.com/c6824215-0c16-471e-aea9-1b5cbeb2286b">GetPipeWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
-
- 
+</table> 
 

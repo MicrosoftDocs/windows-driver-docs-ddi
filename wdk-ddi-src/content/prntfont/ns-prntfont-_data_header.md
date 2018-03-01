@@ -1,14 +1,14 @@
 ---
 UID: NS:prntfont._DATA_HEADER
-title: _DATA_HEADER
+title: "_DATA_HEADER"
 author: windows-driver-content
 description: The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
 old-location: print\data_header.htm
 old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/PDATA_HEADER, PDATA_HEADER, prntfont/DATA_HEADER, _DATA_HEADER, DATA_HEADER structure [Print Devices], *PDATA_HEADER, DATA_HEADER, PDATA_HEADER structure pointer [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PDATA_HEADER, DATA_HEADER, DATA_HEADER structure [Print Devices], PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], _DATA_HEADER, print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/DATA_HEADER, prntfont/PDATA_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	prntfont.h
-apiname: 
+api_name:
 -	DATA_HEADER
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ typedef struct _DATA_HEADER {
 ### -field dwSignature
 
 Specifies the signature value identifying the type of data in the data section. Valid signature values are listed in the following table.
+
 <table>
 <tr>
 <th>Signature</th>
@@ -130,7 +131,8 @@ This data section contains data to be downloaded to the printer. See the followi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wSize
@@ -160,9 +162,11 @@ Not used. Must be set to zero.
 ## -remarks
 
 
+
 If <b>dwSignature</b> is DATA_VAR_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
 
 Each DATA_HEADER structure must be DWORD-aligned.
+
 
 
 
@@ -170,9 +174,11 @@ Each DATA_HEADER structure must be DWORD-aligned.
 
 <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DATA_HEADER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DATA_HEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: buses\ufxendpointinitseteventcallbacks.htm
 old-project: usbref
 ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxEndpointInitSetEventCallbacks method [Buses], UfxEndpointInitSetEventCallbacks, buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
+ms.date: 2/24/2018
+ms.keywords: UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ufxclient.h
-apiname: 
+api_name:
 -	UfxEndpointInitSetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ Pointer to a <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver calls <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a> from its <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_endpoint_add.md">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_default_endpoint_add.md">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a> event callback function in order to create a new endpoint.
@@ -94,5 +97,6 @@ The client driver calls <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md"
   The client driver first calls <a href="..\ufxclient\nf-ufxclient-ufx_endpoint_callbacks_init.md">UFX_ENDPOINT_CALLBACKS_INIT</a> to initialize a <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure. Then it calls <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a> with the initialized <b>UFX_ENDPOINT_CALLBACKS</b> structure.
 
 For an code example that shows how to create a UFXENDPOINT object and initialize its context, see the Remarks section of <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
+
 
 

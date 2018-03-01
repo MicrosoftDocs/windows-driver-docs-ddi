@@ -7,8 +7,8 @@ old-location: netvista\ndiscmmakecallcomplete.htm
 old-project: netvista
 ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCmMakeCallComplete, condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmMakeCallComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmMakeCallComplete function
@@ -117,11 +117,14 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager should call 
@@ -141,8 +144,8 @@ A stand-alone call manager must call
 Even if the attempted connection failed, neither NDIS nor the client can release the resources they
     allocated to maintain state until the CM's call to 
     <b>NdisCmMakeCallComplete</b> causes a call to that client's 
-    <mshelp:link keywords="netvista.protocolclmakecallcomplete" tabindex="0"><i>
-    ProtocolClMakeCallComplete</i></mshelp:link> function. In fact, neglecting to call 
+    <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
+    ProtocolClMakeCallComplete</a> function. In fact, neglecting to call 
     <b>NdisCmMakeCallComplete</b> for a failed attempt to set up such a connection causes a memory leak in the
     call manager as well; it prevents the client from tearing down the VC it created for its failed outgoing
     call, so the CM is not called to release the resources it allocated for that VC.
@@ -169,31 +172,46 @@ In the course of setting up a client-initiated outgoing call, the CM can modify 
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmMakeCallComplete</b>. Miniport drivers that provide integrated call-management support call 
-    <mshelp:link keywords="netvista.ndismcmmakecallcomplete" tabindex="0"><b>
-    NdisMCmMakeCallComplete</b></mshelp:link> instead.
+    <a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">
+    NdisMCmMakeCallComplete</a> instead.
+
 
 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
-
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 <a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmMakeCallComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmMakeCallComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

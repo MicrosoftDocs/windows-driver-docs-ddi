@@ -7,8 +7,8 @@ old-location: display\dxgkddiunload.htm
 old-project: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiunload, DxgkDdiUnload callback function [Display Devices], DxgkDdiUnload, DXGKDDI_UNLOAD, DXGKDDI_UNLOAD, dispmprt/DxgkDdiUnload, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_UNLOAD, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiUnload
 product: Windows
 targetos: Windows
@@ -76,14 +76,19 @@ VOID DxgkDdiUnload(
 
 
 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
@@ -92,13 +97,16 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_UNLOAD callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_UNLOAD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

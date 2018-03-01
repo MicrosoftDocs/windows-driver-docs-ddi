@@ -7,8 +7,8 @@ old-location: devtest\etwenablecallback.htm
 old-project: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+ms.date: 2/23/2018
+ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EtwEnableCallback
-req.alt-loc: wdm.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	UserDefined
+api_location:
+-	wdm.h
+api_name:
+-	EtwEnableCallback
+product: Windows
+targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # ETWENABLECALLBACK callback
 
 
-
 ## -description
+
+
 The <b>EtwEnableCallback</b> function is an optional driver-supplied callback function that is used to receive enable or disable notifications. 
 
 
-
 ## -prototype
+
 
 ````
 PETWENABLECALLBACK EtwEnableCallback;
@@ -64,14 +74,15 @@ VOID EtwEnableCallback(
 
 ## -parameters
 
+
+
+
 ### -param SourceId [in]
 
 The GUID that identifies the session that enabled the provider. 
 
 
-### -param IsEnabled [in]
-
-The parameter indicates whether the provider is being enabled or disabled. The value is <b>TRUE</b> if the session enabled the provider; otherwise, it is <b>FALSE</b>.
+### -param ControlCode
 
 
 ### -param Level [in]
@@ -105,11 +116,24 @@ The provider-defined data. This parameter is optional. The provider determines t
 The context of the callback function that is defined when the provider called <a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a> to register itself. This parameter is optional.
 
 
+#### - IsEnabled [in]
+
+The parameter indicates whether the provider is being enabled or disabled. The value is <b>TRUE</b> if the session enabled the provider; otherwise, it is <b>FALSE</b>.
+
+
 ## -returns
+
+
+
 None
 
 
+
+
 ## -remarks
+
+
+
 Use the EtwRegister function to specify a pointer to the <b>EtwEnableCallback </b>function.
 
 Use the <i>FilterData</i> parameter of the callback function to supply the provider with sophisticated filtering abilities. The <b>EtwEnableCallback </b>function does not replace the enable-status function calls (<b>EtwEventEnabled</b> and <b>EtwProviderEnabled</b>). However, it serves as a supplement to them. However, unless your level and keywords are currently enabled, the event will not be written, regardless of the <i>FilterData</i> that the callback function provides.
@@ -117,26 +141,37 @@ Use the <i>FilterData</i> parameter of the callback function to supply the provi
 Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 
+
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
-</dt>
-<dt>
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
-</dt>
-<dt>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
-</dt>
-<dt>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
-</dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a></dt>
-<dt><a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a></dt>
-</dl>
- 
+
+
+
+<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PETWENABLECALLBACK callback function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PETWENABLECALLBACK callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

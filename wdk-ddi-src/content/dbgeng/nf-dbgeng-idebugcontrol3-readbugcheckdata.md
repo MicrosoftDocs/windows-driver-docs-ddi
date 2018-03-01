@@ -7,8 +7,8 @@ old-location: debugger\readbugcheckdata.htm
 old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ReadBugCheckData, debugger.readbugcheckdata, ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl2::ReadBugCheckData, IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl3::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, IDebugControl2::ReadBugCheckData, IDebugControl3, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData method [Windows Debugging], ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, ReadBugCheckData,IDebugControl3.ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.ReadBugCheckData
 -	IDebugControl2.ReadBugCheckData
 -	IDebugControl3.ReadBugCheckData
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::ReadBugCheckData method
@@ -101,6 +101,7 @@ Receives the fourth parameter associated with the bug check.  The interpretation
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,17 +118,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
 
 For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450912">Bug Checks (Blue Screens)</a>.
+
 
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugplmclient3_suspendplmpackagewide.htm
 old-project: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide, IDebugPlmClient3
+ms.date: 2/23/2018
+ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, SuspendPlmPackageWide,IDebugPlmClient3.SuspendPlmPackageWide, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugPlmClient3.SuspendPlmPackageWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugPlmClient3::SuspendPlmPackageWide method
@@ -81,7 +81,9 @@ A pointer to the package name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
@@ -89,9 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugPlmClient3::SuspendPlmPackageWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugPlmClient3::SuspendPlmPackageWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

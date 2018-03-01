@@ -7,8 +7,8 @@ old-location: kernel\rtlulongmult.htm
 old-project: kernel
 ms.assetid: 2D5DA884-1746-4DBC-8ABC-2D307181CCAE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlULongMult, kernel.rtlulongmult, ntintsafe/RtlULongMult, RtlULongMult function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlULongMult, RtlULongMult function [Kernel-Mode Driver Architecture], kernel.rtlulongmult, ntintsafe/RtlULongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlULongMult
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

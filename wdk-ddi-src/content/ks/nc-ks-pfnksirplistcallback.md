@@ -7,8 +7,8 @@ old-location: stream\kstrirplistcallback.htm
 old-project: stream
 ms.assetid: acddecb5-f3e9-413e-a68c-91d71119e0f6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.kstrirplistcallback, KStrIrpListCallback routine [Streaming Media Devices], KStrIrpListCallback, PFNKSIRPLISTCALLBACK, PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml
+ms.date: 2/23/2018
+ms.keywords: KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KStrIrpListCallback
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSIRPLISTCALLBACK callback
@@ -84,11 +84,14 @@ Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCan
 ## -returns
 
 
+
 Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the source list to the destination list. Returns STATUS_NO_MATCH if the passed in IRP should not be moved. Returns any other value to terminate enumeration.
 
 
 
+
 ## -remarks
+
 
 
 <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL.
@@ -97,13 +100,16 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KStrIrpListCallback routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KStrIrpListCallback routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

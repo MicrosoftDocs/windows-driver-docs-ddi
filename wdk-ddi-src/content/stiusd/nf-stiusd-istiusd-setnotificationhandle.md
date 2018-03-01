@@ -7,8 +7,8 @@ old-location: image\istiusd_setnotificationhandle.htm
 old-project: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, image.istiusd_setnotificationhandle, IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD
+ms.date: 2/23/2018
+ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], SetNotificationHandle method, IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices], IStiUSD interface, SetNotificationHandle,IStiUSD.SetNotificationHandle, image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	stiusd.h
-apiname: 
+api_name:
 -	IStiUSD.SetNotificationHandle
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Caller-supplied handle to a Win32 event, created by calling <b>CreateEvent</b>.
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 If the driver (and device) supports asynchronous notification of <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a>, the minidriver's <b>IStiUSD::SetNotificationHandle</b> method is the means by which the event monitor requests the driver to notify it when an event occurs.
@@ -88,5 +91,6 @@ If the driver (and device) supports asynchronous notification of <a href="https:
 If <i>hEvent</i> is an event handle, the <b>IStiUSD::SetNotificationHandle</b> method should store the handle and use it as an input argument to <b>SetEvent</b> (described in the Microsoft Windows SDK documentation). The driver should call <b>SetEvent</b> each time a device event is detected, to notify the event monitor that an event has occurred.
 
 If <i>hEvent</i> is <b>NULL</b>, the method should disable notification of device events.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_RemovePort_IN
-title: _SM_RemovePort_IN
+title: "_SM_RemovePort_IN"
 author: windows-driver-content
 description: The SM_RemovePort_IN structure is used to provide input parameters to the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_in.htm
 old-project: storage
 ms.assetid: b8eb6321-928f-4366-9553-c75900fa1ac6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_RemovePort_IN, storage.sm_removeport_in, hbapiwmi/SM_RemovePort_IN, hbapiwmi/PSM_RemovePort_IN, _SM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], SM_RemovePort_IN structure [Storage Devices], structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml, *PSM_RemovePort_IN, PSM_RemovePort_IN
+ms.date: 2/24/2018
+ms.keywords: "*PSM_RemovePort_IN, PSM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], SM_RemovePort_IN, SM_RemovePort_IN structure [Storage Devices], _SM_RemovePort_IN, hbapiwmi/PSM_RemovePort_IN, hbapiwmi/SM_RemovePort_IN, storage.sm_removeport_in, structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_RemovePort_IN
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ An event type value.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_RemovePort_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+
 
 

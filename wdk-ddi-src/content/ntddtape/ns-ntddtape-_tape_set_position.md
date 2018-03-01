@@ -1,19 +1,19 @@
 ---
 UID: NS:ntddtape._TAPE_SET_POSITION
-title: _TAPE_SET_POSITION
+title: "_TAPE_SET_POSITION"
 author: windows-driver-content
 description: The TAPE_SET_POSITION structure is used in conjunction with the IOCTL_TAPE_SET_POSITION request to move the current position on the tape to the specified partition and offset.
 old-location: storage\tape_set_position.htm
 old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PTAPE_SET_POSITION, *PTAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], ntddtape/PTAPE_SET_POSITION, TAPE_SET_POSITION, _TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, ntddtape/TAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddtape.h
-req.include-header: Ntddtape.h
+req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddtape.h
-apiname: 
+api_name:
 -	TAPE_SET_POSITION
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_SET_POSITION, TAPE_SET_POSITION
+req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ---
 
 # _TAPE_SET_POSITION structure
@@ -77,6 +77,66 @@ Indicates the type of positioning to perform. This member must have one of the f
 
 
 
+
+#### TAPE_REWIND
+
+Positions the tape at the beginning of the partition indicated in <b>Partition</b> if the media is partitioned, and to the beginning of the media if the media is not partitioned. If the media is not partitioned, <b>Partition</b> must be set to zero. The <b>Offset</b> member is ignored. 
+
+
+
+#### TAPE_ABSOLUTE_BLOCK
+
+Positions the tape at the absolute block address located at the offset from the beginning specified by <b>Offset</b>. The value in the <b>Partition</b> member is ignored. 
+
+
+
+#### TAPE_LOGICAL_BLOCK
+
+Positions the tape to the logical block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be set to zero. 
+
+
+
+#### TAPE_PSEUDO_LOGICAL_BLOCK
+
+Positions the tape to the pseudological block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be to zero.
+
+
+
+#### TAPE_SPACE_END_OF_DATA
+
+Positions the tape at the end of the partition indicated in <b>Partition</b>, or if the media is not partitioned, at the end of the tape. The <b>Offset</b> member is ignored. 
+
+
+
+#### TAPE_SPACE_RELATIVE_BLOCKS
+
+Starting from the current position, positions the tape immediately after the number of blocks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+
+#### TAPE_SPACE_FILEMARKS
+
+Starting from the current position, positions the tape immediately after the number of filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+
+#### TAPE_SPACE_SEQUENTIAL_FMKS
+
+Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+
+#### TAPE_SPACE_SETMARKS
+
+Starting from the current position, positions the tape immediately after the number of setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+
+#### TAPE_SPACE_SEQUENTIAL_SMKS
+
+Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
 ### -field Partition
 
 Indicates the partition in which to set the tape's position. This member must have one of the following values:
@@ -102,57 +162,8 @@ Specifies an offset whose type depends on the value in <b>Method</b>. If the spe
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete. 
 
 
-##### - Method.TAPE_SPACE_END_OF_DATA
-
-Positions the tape at the end of the partition indicated in <b>Partition</b>, or if the media is not partitioned, at the end of the tape. The <b>Offset</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_RELATIVE_BLOCKS
-
-Starting from the current position, positions the tape immediately after the number of blocks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_ABSOLUTE_BLOCK
-
-Positions the tape at the absolute block address located at the offset from the beginning specified by <b>Offset</b>. The value in the <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_SEQUENTIAL_FMKS
-
-Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_PSEUDO_LOGICAL_BLOCK
-
-Positions the tape to the pseudological block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be to zero.
-
-
-##### - Method.TAPE_SPACE_SEQUENTIAL_SMKS
-
-Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_LOGICAL_BLOCK
-
-Positions the tape to the logical block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be set to zero. 
-
-
-##### - Method.TAPE_REWIND
-
-Positions the tape at the beginning of the partition indicated in <b>Partition</b> if the media is partitioned, and to the beginning of the media if the media is not partitioned. If the media is not partitioned, <b>Partition</b> must be set to zero. The <b>Offset</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_FILEMARKS
-
-Starting from the current position, positions the tape immediately after the number of filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
-##### - Method.TAPE_SPACE_SETMARKS
-
-Starting from the current position, positions the tape immediately after the number of setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
-
 ## -remarks
+
 
 
 Note that a drive or a tape may not support all <b>Method</b> values.
@@ -163,15 +174,20 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 
 
-## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
 
- 
+
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_POSITION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_POSITION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

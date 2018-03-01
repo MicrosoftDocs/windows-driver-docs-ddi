@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._KEY_VALUE_INFORMATION_CLASS
-title: _KEY_VALUE_INFORMATION_CLASS
+title: "_KEY_VALUE_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_VALUE_INFORMATION_CLASS enumeration type specifies the type of information to supply about the value of a registry key.
 old-location: kernel\key_value_information_class.htm
 old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeyValuePartialInformationAlign64, _KEY_VALUE_INFORMATION_CLASS, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueFullInformation, kernel.key_value_information_class, KeyValuePartialInformationAlign64, KeyValueFullInformation, KeyValueBasicInformation, wdm/KeyValuePartialInformation, KeyValuePartialInformation, wdm/KeyValueFullInformationAlign64, KEY_VALUE_INFORMATION_CLASS, wdm/MaxKeyValueInfoClass, MaxKeyValueInfoClass, KeyValueFullInformationAlign64, wdm/KeyValueBasicInformation
+ms.date: 2/24/2018
+ms.keywords: KEY_VALUE_INFORMATION_CLASS, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueBasicInformation, KeyValueFullInformation, KeyValueFullInformationAlign64, KeyValuePartialInformation, KeyValuePartialInformationAlign64, MaxKeyValueInfoClass, _KEY_VALUE_INFORMATION_CLASS, kernel.key_value_information_class, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueBasicInformation, wdm/KeyValueFullInformation, wdm/KeyValueFullInformationAlign64, wdm/KeyValuePartialInformation, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	KEY_VALUE_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -101,7 +101,6 @@ The information is stored as a <b>KEY_VALUE_PARTIAL_INFORMATION</b> structure th
 ### -field KeyValueLayerInformation
 
 
-
 ### -field MaxKeyValueInfoClass
 
 The maximum value in this enumeration type.
@@ -110,7 +109,9 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to be supplied by the <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a> and <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a> routines.
+
 
 
 
@@ -118,17 +119,27 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_INFORMATION_CLASS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KEY_VALUE_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

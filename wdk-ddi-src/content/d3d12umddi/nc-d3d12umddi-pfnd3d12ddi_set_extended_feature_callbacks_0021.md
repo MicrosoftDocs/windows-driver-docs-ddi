@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_set_extended_feature_callbacks_0021.htm
 old-project: display
 ms.assetid: 8380C972-D5A0-46D5-B32B-C31D5113BB95
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_set_extended_feature_callbacks_0021, pfnSetExtendedFeatureCallbacks callback function [Display Devices], pfnSetExtendedFeatureCallbacks, PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, d3d12umddi/pfnSetExtendedFeatureCallbacks
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, d3d12umddi/pfnSetExtendedFeatureCallbacks, display.pfnd3d12ddi_set_extended_feature_callbacks_0021, pfnSetExtendedFeatureCallbacks, pfnSetExtendedFeatureCallbacks callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnSetExtendedFeatureCallbacks
 product: Windows
 targetos: Windows
@@ -83,8 +83,9 @@ The handle of a device.
 A value for an implementation of video.
 
 
-### -param *pTable
+### -param *pTable [in]
 
+A pointer to a table value.
 
 
 ### -param TableSize
@@ -92,14 +93,11 @@ A value for an implementation of video.
 The size of the table. 
 
 
-#### - pTable [in]
-
-A pointer to a table value.
-
-
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

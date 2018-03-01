@@ -7,8 +7,8 @@ old-location: display\d3dkmtcheckvidpnexclusiveownership.htm
 old-project: display
 ms.assetid: 06333989-177c-4c58-b95a-60313c04fe35
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, D3DKMTCheckVidPnExclusiveOwnership, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMTCheckVidPnExclusiveOwnership function [Display Devices], display.d3dkmtcheckvidpnexclusiveownership
+ms.date: 2/24/2018
+ms.keywords: D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership callback function [Display Devices], OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,20 +26,17 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
+req.lib: NtosKrnl.exe
+req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
--	DllExport
-apilocation: 
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_type:
+-	UserDefined
+api_location:
+-	d3dkmthk.h
+api_name:
 -	D3DKMTCheckVidPnExclusiveOwnership
 product: Windows
 targetos: Windows
@@ -76,6 +73,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
@@ -84,7 +82,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveowner
 ## -returns
 
 
+
 <b>D3DKMTCheckVidPnExclusiveOwnership</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,9 +145,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
@@ -155,9 +157,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTCheckVidPnExclusiveOwnership function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:wlanihv._DOT11_MSONEX_RESULT
-title: _DOT11_MSONEX_RESULT
+title: "_DOT11_MSONEX_RESULT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_msonex_result.htm
 old-project: netvista
 ms.assetid: d5870125-2c0f-4cb9-ad2a-dc4939745504
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11_MSONEX_RESULT, DOT11_MSONEX_FAILURE, PDOT11_MSONEX_RESULT, wlanihv/PDOT11_MSONEX_RESULT, wlanihv/DOT11_MSONEX_IN_PROGRESS, *PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, wlanihv/DOT11_MSONEX_FAILURE, DOT11_MSONEX_SUCCESS, wlanihv/DOT11_MSONEX_SUCCESS, netvista.dot11_msonex_result, DOT11_MSONEX_IN_PROGRESS
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_MSONEX_RESULT, DOT11_MSONEX_FAILURE, DOT11_MSONEX_IN_PROGRESS, DOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], DOT11_MSONEX_SUCCESS, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, PDOT11_MSONEX_RESULT, PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_IN_PROGRESS, wlanihv/DOT11_MSONEX_RESULT, wlanihv/DOT11_MSONEX_SUCCESS, wlanihv/PDOT11_MSONEX_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	DOT11_MSONEX_RESULT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT
+req.typenames: DOT11_MSONEX_RESULT, *PDOT11_MSONEX_RESULT
 req.product: Windows 10 or later.
 ---
 
@@ -90,25 +90,31 @@ The 802.1X authentication operation is in progress.
 ## -remarks
 
 
+
 After the IHV Extensions DLL initiates an 802.1X authentication operation, the operating system calls
     the 
-    <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-    Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV handler function to complete the operation. When it calls this
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+    Dot11ExtIhvOneXIndicateResult</a> IHV handler function to complete the operation. When it calls this
     function, the operating system passes a DOT11_MSONEX_RESULT value to the 
     <i>OneXResult</i> parameter to specify the result of the authentication operation.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MSONEX_RESULT enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MSONEX_RESULT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

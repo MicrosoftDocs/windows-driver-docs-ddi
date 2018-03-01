@@ -7,8 +7,8 @@ old-location: netvista\rilsendrestricteduicccmdparams.htm
 old-project: netvista
 ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, *LPRILSENDRESTRICTEDUICCCMDPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSENDRESTRICTEDUICCCMDPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS
+req.typenames: RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS
 ---
 
 # RILSENDRESTRICTEDUICCCMDPARAMS structure
@@ -76,27 +76,20 @@ typedef struct _RILSENDRESTRICTEDUICCCMDPARAMS {
 ### -field cbSize
 
 
-
 ### -field dwCommand
-
 
 
 ### -field rscpParameters
 
 
-
 ### -field fHasLockVerification
-
 
 
 ### -field lockVerification
 
 
-
 ### -field dwDataSize
 
 
-
 ### -field pbData
-
 

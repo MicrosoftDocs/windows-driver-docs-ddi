@@ -7,8 +7,8 @@ old-location: display\dxgkcbreaddevicespace.htm
 old-project: display
 ms.assetid: 118ea0b9-6463-4050-9f33-192a3d42fdce
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbreaddevicespace, DxgkCbReadDeviceSpace callback function [Display Devices], DxgkCbReadDeviceSpace, DXGKCB_READ_DEVICE_SPACE, DXGKCB_READ_DEVICE_SPACE, dispmprt/DxgkCbReadDeviceSpace, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_READ_DEVICE_SPACE, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml, DxgkCbReadDeviceSpace, DxgkCbReadDeviceSpace callback function [Display Devices], display.dxgkcbreaddevicespace, dispmprt/DxgkCbReadDeviceSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbReadDeviceSpace
 product: Windows
 targetos: Windows
@@ -87,6 +87,30 @@ The type of read transaction to be performed. This parameter must be one of the 
 
 
 
+
+#### DXGK_WHICHSPACE_BRIDGE
+
+Read from the PCI Express (PCIe) root port's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_CONFIG
+
+Read from the display adapter's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_MCH
+
+Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
+
+#### DXGK_WHICHSPACE_ROM
+
+Read from the display adapter's expansion ROM.
+
+
 ### -param Buffer [in]
 
 A pointer to a caller-allocated buffer that receives the data read from the configuration space or ROM.
@@ -107,30 +131,12 @@ The number of bytes to be read.
 A pointer to a ULONG-typed variable that receives the number of bytes actually read.
 
 
-##### - DataType.DXGK_WHICHSPACE_BRIDGE
-
-Read from the PCI Express (PCIe) root port's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_CONFIG
-
-Read from the display adapter's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_ROM
-
-Read from the display adapter's expansion ROM.
-
-
-##### - DataType.DXGK_WHICHSPACE_MCH
-
-Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
-
-
 ## -returns
 
 
+
 <b>DxgkCbReadDeviceSpace</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -169,7 +175,9 @@ Read from the configuration space of a memory controller hub that is a peer to t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -177,9 +185,11 @@ Read from the configuration space of a memory controller hub that is a peer to t
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_READ_DEVICE_SPACE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_READ_DEVICE_SPACE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

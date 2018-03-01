@@ -7,8 +7,8 @@ old-location: netvista\ndismderegisterscattergatherdma.htm
 old-project: netvista
 ms.assetid: 44792a1f-c6d5-4491-a06d-e00e41e40059
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], NdisMDeregisterScatterGatherDma, ndis/NdisMDeregisterScatterGatherDma, netvista.ndismderegisterscattergatherdma
+ms.date: 2/16/2018
+ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMDeregisterScatterGatherDma
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDeregisterScatterGatherDma function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 Bus-master miniport drivers call 
   <b>NdisMDeregisterScatterGatherDma</b> to release DMA resources that were allocated with the 
-  <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-  NdisMRegisterScatterGatherDma</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+  NdisMRegisterScatterGatherDma</a> function.
 
 
 ## -syntax
@@ -81,11 +81,14 @@ A handle to a context area that NDIS uses to manage a DMA resource. The caller o
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An NDIS miniport driver calls 
@@ -96,24 +99,37 @@ An NDIS miniport driver calls
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
-
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
-
-<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
-
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+
+
+
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterScatterGatherDma function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterScatterGatherDma function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

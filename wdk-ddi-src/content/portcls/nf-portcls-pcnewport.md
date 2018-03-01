@@ -7,8 +7,8 @@ old-location: audio\pcnewport.htm
 old-project: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PcNewPort function [Audio Devices], PcNewPort, portcls/PcNewPort, audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml
+ms.date: 2/22/2018
+ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	PcNewPort
 product: Windows
 targetos: Windows
@@ -59,7 +59,7 @@ The <b>PcNewPort</b> function creates a new system-supplied port-driver object, 
 ````
 NTSTATUS PcNewPort(
   _Out_ PPORT    *OutPort,
-  _In_  REFCLSID ClassId
+  _In_  REFCLSID ClassID
 );
 ````
 
@@ -74,13 +74,7 @@ NTSTATUS PcNewPort(
 Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="..\portcls\nn-portcls-iport.md">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
-### -param ClassID
-
-TBD
-
-
-
-#### - ClassId [in]
+### -param ClassID [in]
 
 Specifies the type of port interface that is being requested. For more information, see the following Remarks section.
 
@@ -88,14 +82,18 @@ Specifies the type of port interface that is being requested. For more informati
 ## -returns
 
 
+
 <b>PcNewPort</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The <i>ClassId</i> parameter can be set to one of the GUIDs in the following table.
+
 <table>
 <tr>
 <th>Class GUID</th>
@@ -156,7 +154,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 </td>
@@ -173,7 +171,8 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>CLSID_PortDMus</b> is defined in header file dmusicks.h. The other four GUIDs in the preceding table are defined in portcls.h.
 
@@ -185,25 +184,40 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
+
 ## -see-also
-
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
-
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
+
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+
+
+
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+
+
+
 <a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewPort function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewPort function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

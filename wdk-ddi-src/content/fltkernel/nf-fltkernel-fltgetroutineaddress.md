@@ -7,8 +7,8 @@ old-location: ifsk\fltgetroutineaddress.htm
 old-project: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetroutineaddress, FltGetRoutineAddress routine [Installable File System Drivers], FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, fltkernel/FltGetRoutineAddress
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, FltGetRoutineAddress routine [Installable File System Drivers], fltkernel/FltGetRoutineAddress, ifsk.fltgetroutineaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	fltmgr.sys
-apiname: 
+api_name:
 -	FltGetRoutineAddress
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Name of the filter manager routine to resolve.
 ## -returns
 
 
+
 If the routine name can be resolved, <b>FltGetRoutineAddress</b> returns a pointer to the routine. Otherwise, it returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 <b>FltGetRoutineAddress</b> searches the filter manager's export table for the requested routine name. 
@@ -90,13 +93,16 @@ Note that in Windows 2000 and Windows XP, before FltGetRoutineAddress is called 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmgetsystemroutineaddress.md">MmGetSystemRoutineAddress</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetRoutineAddress routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetRoutineAddress routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

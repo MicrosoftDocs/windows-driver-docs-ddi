@@ -7,8 +7,8 @@ old-location: debugger\gettypesize.htm
 old-project: debugger
 ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: wdbgexts/GetTypeSize, debugger.gettypesize, GetTypeSize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml
+ms.date: 2/23/2018
+ms.keywords: GetTypeSize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, debugger.gettypesize, wdbgexts/GetTypeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	GetTypeSize
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Specifies the type to return the size of.
 ## -returns
 
 
+
 This function returns the size of an instance of the specified type.
+
 
 

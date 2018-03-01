@@ -7,8 +7,8 @@ old-location: debugger\findsourcefileandtoken.htm
 old-project: debugger
 ms.assetid: 92748e47-c536-4bf2-be10-91b8c5f1206d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced2::FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndToken, IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken
+ms.date: 2/23/2018
+ms.keywords: FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndToken,IDebugAdvanced3.FindSourceFileAndToken, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugAdvanced2.FindSourceFileAndToken
 -	IDebugAdvanced3.FindSourceFileAndToken
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::FindSourceFileAndToken method
@@ -144,7 +144,9 @@ Specifies the size in characters of the name of the file.  If <i>foundSize</i> i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,16 +174,20 @@ The method was successful.  However, the <i>Buffer</i> buffer was too small to h
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When the flag DEBUG_SRCFILE_SYMBOL_TOKEN is set in <i>Flags</i>, this method does not search for a file on the source path.  Instead, it looks up a variable associated with the file token provided in <i>FileToken</i>.  These variables are documented in the topic <a href="https://msdn.microsoft.com/library/windows/hardware/ff551958">Language Specification 1</a>.  For example, to retrieve the value of the variable SRCSRVCMD--the command to extract the source file from source control (also returned by the DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE function of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>)--set <i>File</i> to <b>%SRCSRVCMD%</b>.
 
 The engine uses the following steps--in order--to search for the file:  
+
 <ol>
 <li>
 If the source path contains any source servers and the flag DEBUG_FIND_SOURCE_NO_SRCSRV is not set, the source server in the source path is searched first.
@@ -205,11 +211,13 @@ The first match found is returned.
 The file <i>File</i> is looked up directly on the filing system.
 
 </li>
-</ol>For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
+</ol>
+For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
 
 The DEBUG_FIND_SOURCE_<i>XXX</i> bit-flags are used to control the behavior of the methods <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a> and <b>FindSourceFileAndToken</b> when searching for source files.
 
 The flags can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Constant</th>
@@ -259,29 +267,43 @@ If this flag is set, the other flags are ignored. This flag cannot be used in th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means that all of the flags in the previous table are turned off.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::FindSourceFileAndToken method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::FindSourceFileAndToken method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

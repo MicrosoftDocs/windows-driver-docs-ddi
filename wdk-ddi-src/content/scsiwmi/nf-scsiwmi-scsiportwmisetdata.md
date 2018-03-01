@@ -7,8 +7,8 @@ old-location: storage\scsiportwmisetdata.htm
 old-project: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: scsiwmi/ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], storage.scsiportwmisetdata, ScsiPortWmiSetData, scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml
+ms.date: 2/24/2018
+ms.keywords: ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Scsiwmi.h
-apiname: 
+api_name:
 -	ScsiPortWmiSetData
 product: Windows
 targetos: Windows
@@ -116,11 +116,14 @@ Indicates, on input,  the number of bytes needed to describe the entire WNODE <i
 ## -returns
 
 
+
 The <b>ScsiPortWmiSetData</b> routine returns a pointer to the buffer where the caller can store descriptive information about the instance identified by <i>InstanceIndex</i>. If <b>ScsiPortWmiSetData</b> cannot allocate enough memory for the instance data, or if the WNODE contained within the request context is not of type <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>, <b>ScsiPortWmiSetData</b> returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The minidriver must call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetinstancecount.md">ScsiPortWmiSetInstanceCount</a> before calling <b>ScsiPortWmiSetData</b>.
@@ -133,17 +136,24 @@ The memory allocated for the request context must remain valid until after the m
 
 
 
+
 ## -see-also
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
- 
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
+
+
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiSetData routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiSetData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

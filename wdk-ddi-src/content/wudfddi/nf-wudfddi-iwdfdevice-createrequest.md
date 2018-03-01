@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice_createrequest.htm
 old-project: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::CreateRequest, IWDFDevice, CreateRequest method, IWDFDevice interface, umdf.iwdfdevice_createrequest, CreateRequest, IWDFDevice interface, CreateRequest method, CreateRequest method, wdf.iwdfdevice_createrequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, IWDFDevice::CreateRequest
+ms.date: 2/20/2018
+ms.keywords: CreateRequest method, CreateRequest method, IWDFDevice interface, CreateRequest,IWDFDevice.CreateRequest, IWDFDevice, IWDFDevice interface, CreateRequest method, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice.CreateRequest
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -90,14 +90,18 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 <b>CreateRequest</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -remarks
 
 
+
 Before a UMDF driver uses the request object that <b>CreateRequest</b> creates, the driver must format the request object. To format an I/O request object, the driver calls one of the following methods:
+
 <ul>
 <li>
 
@@ -117,29 +121,96 @@ Before a UMDF driver uses the request object that <b>CreateRequest</b> creates, 
 
 
 </li>
-</ul>If a driver calls <b>CreateRequest</b> to create a request object, it must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> for the request object. Instead, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> when it has finished using the request object. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+</ul>
+If a driver calls <b>CreateRequest</b> to create a request object, it must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> for the request object. Instead, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> when it has finished using the request object. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 If <b>NULL</b> is specified in the <i>pParentObject</i> parameter, the device object becomes the default parent object for the newly created I/O request object. If a UMDF driver creates an I/O request object that the driver uses with a specific I/O queue object or another I/O request object, the driver should set that queue or request object as the created request object's parent object. When the parent object is deleted, the created request object is deleted. 
+
+
+#### Examples
+
+The following code example shows how to create a request, format the request for reading, and send the request on.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+CUmdfHidDevice::SendInterruptPipeRead(
+    VOID
+    )
+{
+    CComPtr&lt;IWDFDevice&gt; wdfDevice;
+
+    HRESULT hr;
+
+    IWDFFile *pTargetFile = NULL;
+
+    // Allocate a new WDF request to send on the interrupt pipe.
+    GetWdfDevice(&amp;wdfDevice);
+    hr = wdfDevice-&gt;CreateRequest(
+                                  static_cast&lt;IObjectCleanup*&gt;(this), 
+                                  wdfDevice, 
+                                  &amp;m_InterruptReadRequest
+                                  );
+
+    if (SUCCEEDED(hr))
+    {
+        m_InterruptPipe-&gt;GetTargetFile(&amp;pTargetFile);
+        hr = m_InterruptPipe-&gt;FormatRequestForRead(
+                                                   m_InterruptReadRequest,
+                                                   pTargetFile,
+                                                   m_ReadMemory,
+                                                   NULL,
+                                                   NULL
+                                                   );
+    }
+
+    // Issue the read to the pipe.
+    if (SUCCEEDED(hr))
+    {
+        hr = m_InterruptReadRequest-&gt;Send(m_InterruptPipe, 0, 0);
+    }
+
+    return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559230">IWDFIoTarget::FormatRequestForIoctl</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559230">IWDFIoTarget::FormatRequestForIoctl</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::CreateRequest method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::CreateRequest method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

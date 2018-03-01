@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlallocateresource.htm
 old-project: ifsk
 ms.assetid: a02f87ea-e7e5-48ff-94a2-a76b4f0cd04a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlAllocateResource, fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, FsRtlAllocateResource function [Installable File System Drivers], FsRtlAllocateResource
+ms.date: 2/16/2018
+ms.keywords: FsRtlAllocateResource, FsRtlAllocateResource function [Installable File System Drivers], fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, ntifs/FsRtlAllocateResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FsRtlAllocateResource
 product: Windows
 targetos: Windows

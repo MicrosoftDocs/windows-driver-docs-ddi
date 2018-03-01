@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECRYPTIONBLT
-title: _D3DDDIARG_DECRYPTIONBLT
+title: "_D3DDDIARG_DECRYPTIONBLT"
 author: windows-driver-content
 description: The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted bit-block transfer (bitblt) in a call to the DecryptionBlt function.
 old-location: display\d3dddiarg_decryptionblt.htm
 old-project: display
 ms.assetid: cc11e153-6be6-4fbc-9535-98bab7ed2b90
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_decryptionblt, _D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], D3DDDIARG_DECRYPTIONBLT, d3dumddi/D3DDDIARG_DECRYPTIONBLT, UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, _D3DDDIARG_DECRYPTIONBLT, d3dumddi/D3DDDIARG_DECRYPTIONBLT, display.d3dddiarg_decryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_DECRYPTIONBLT
 product: Windows
 targetos: Windows
@@ -123,7 +123,9 @@ typedef struct _D3DDDIARG_DECRYPTIONBLT {
 ## -remarks
 
 
+
 A pointer to a populated D3DDDIARG_DECRYPTIONBLT structure is passed to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a> function to write data to a protected surface. 
+
 
 
 
@@ -131,11 +133,15 @@ A pointer to a populated D3DDDIARG_DECRYPTIONBLT structure is passed to the driv
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiencrypted_block_info.md">D3DDDIENCRYPTED_BLOCK_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DECRYPTIONBLT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DECRYPTIONBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

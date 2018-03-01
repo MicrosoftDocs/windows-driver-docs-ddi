@@ -1,19 +1,19 @@
 ---
 UID: NE:ntpoapi.PPOWER_ACTION
-title: *PPOWER_ACTION
+title: "*PPOWER_ACTION"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
 old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.power_action, PPOWER_ACTION enumeration pointer, PowerActionShutdownReset, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, PowerActionWarmEject, wdf.power_action, wudfddi/PowerActionHibernate, PowerActionSleep, wudfddi/PowerActionWarmEject, wudfddi/PowerActionSleep, PowerActionReserved, wudfddi/POWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionShutdownOff, PowerActionNone, POWER_ACTION enumeration, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PPOWER_ACTION, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, *PPOWER_ACTION, PowerActionShutdown, PowerActionHibernate, POWER_ACTION, wudfddi/PowerActionShutdown
+ms.date: 2/20/2018
+ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, umdf.power_action, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wdf.power_action, wudfddi/POWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionHibernate, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionSleep, wudfddi/PowerActionWarmEject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntpoapi.h
-req.include-header: Wudfddi.h, Ntpoapi.h
+req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	POWER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 ---
 
 # *PPOWER_ACTION enumeration
@@ -124,7 +124,9 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 ## -remarks
 
 
+
 The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>.
+
 
 
 
@@ -132,9 +134,11 @@ The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="htt
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20POWER_ACTION enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20POWER_ACTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

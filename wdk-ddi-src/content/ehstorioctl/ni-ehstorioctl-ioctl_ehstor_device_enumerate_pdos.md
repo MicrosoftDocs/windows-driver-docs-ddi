@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_device_enumerate_pdos.htm
 old-project: storage
 ms.assetid: 900A8CAB-287D-4D92-B4CB-2959E87C8E67
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_ehstor_device_enumerate_pdos, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
+ms.date: 2/24/2018
+ms.keywords: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, storage.ioctl_ehstor_device_enumerate_pdos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorIoctl.h
-apiname: 
+api_name:
 -	IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -116,14 +116,18 @@ OutputBufferLength indicates a buffer size of sufficient length to include the e
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

@@ -2,13 +2,13 @@
 UID: NF:ndis.NdisReleaseReadWriteLock
 title: NdisReleaseReadWriteLock function
 author: windows-driver-content
-description: The NdisReleaseReadWriteLock function releases a lock that was acquired in a preceding call to NdisAcquireReadWriteLock.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisReleaseRWLock instead of NdisReleaseReadWriteLock. 
+description: The NdisReleaseReadWriteLock function releases a lock that was acquired in a preceding call to NdisAcquireReadWriteLock.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisReleaseRWLock instead of NdisReleaseReadWriteLock.
 old-location: netvista\ndisreleasereadwritelock.htm
 old-project: netvista
 ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, ndis/NdisReleaseReadWriteLock, NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], netvista.ndisreleasereadwritelock
+ms.date: 2/16/2018
+ms.keywords: NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	ndis.sys
-apiname: 
+api_name:
 -	NdisReleaseReadWriteLock
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisReleaseReadWriteLock function
@@ -81,6 +81,7 @@ TBD
 
 
 
+
 #### - LockState [in]
 
 A pointer to an opaque <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
@@ -90,11 +91,14 @@ A pointer to an opaque <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a> v
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver must initialize a lock before calling any other 
@@ -114,21 +118,32 @@ A driver must call the
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
 
-<a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
+
 
 <a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
- 
+
+
+<a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReleaseReadWriteLock function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReleaseReadWriteLock function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

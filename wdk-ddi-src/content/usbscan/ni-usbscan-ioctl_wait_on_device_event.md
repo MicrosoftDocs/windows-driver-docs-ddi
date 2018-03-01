@@ -7,8 +7,8 @@ old-location: image\ioctl_wait_on_device_event.htm
 old-project: image
 ms.assetid: 0895a19b-bb28-405a-98df-28522a18ec2b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_wait_on_device_event, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], IOCTL_WAIT_ON_DEVICE_EVENT, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_WAIT_ON_DEVICE_EVENT, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], image.ioctl_wait_on_device_event, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbscan.h
-apiname: 
+api_name:
 -	IOCTL_WAIT_ON_DEVICE_EVENT
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,14 +86,18 @@ Size of the output buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,12 +109,15 @@ Size of the output buffer.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_wait_on_device_event_si"></a><a id="DDK_IOCTL_WAIT_ON_DEVICE_EVENT_SI"></a>DeviceIoControl Parameters</h3>
+
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_WAIT_ON_DEVICE_EVENT control code, the caller must specify a buffer pointer as the function's <i>lpOutBuffer</i> parameter. The buffer must be large enough to hold the largest packet the device can send on its interrupt pipe.
 
 The type and size of information returned are device-specific. For example, a still image device might issue an interrupt when a user presses one of its buttons, and the return packet might indicate which button was pressed.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

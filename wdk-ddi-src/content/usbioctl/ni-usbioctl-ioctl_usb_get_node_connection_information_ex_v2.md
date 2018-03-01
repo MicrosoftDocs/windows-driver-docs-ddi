@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_node_connection_information_ex_v2.htm
 old-project: usbref
 ms.assetid: 6B9BB412-EF3E-4115-87C7-1CB0CF557F7A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_usb_get_node_connection_information_ex_v2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], buses.ioctl_usb_get_node_connection_information_ex_v2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbioctl.h
-apiname: 
+api_name:
 -	IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -104,14 +104,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -123,6 +127,7 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 ## -remarks
 
 
+
 The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</b> request queries the specified port's hub to get information about protocols supported by the port and the operating speed capability, if a device is attached to the port. 
 
 If the request completes successfully, the <b>SupportedUsbProtocols.Usb200</b> member of <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2.md">USB_NODE_CONNECTION_INFORMATION_EX_V2</a> indicates protocols supported by the port. For instance, if the port supports signaling protocol defined by the USB 2.0 specification, then <b>SupportedUsbProtocols.Usb200</b> is set to 1.   
@@ -130,5 +135,6 @@ If the request completes successfully, the <b>SupportedUsbProtocols.Usb200</b> m
 Note that  <b>SupportedUsbProtocols.Usb110</b> is always set to 1 for high-speed and full-speed hubs. That is because a high speed-capable hub  supports USB 1.1 protocol through split transactions and transaction translators. <b>SupportedUsbProtocols.Usb110</b> is never set to 1 for a USB 3.0 port. 
 
 In addition, the request also determines whether the port and the attached device are capable of operating at SuperSpeed. If they are, the <b>Flags.DeviceIsSuperSpeedCapableOrHigher</b> member is set to 1. If the device attached to the port is currently operating  at SuperSpeed, then <b>DeviceIsOperatingAtSuperSpeedOrHigher</b> is set to 1.
+
 
 

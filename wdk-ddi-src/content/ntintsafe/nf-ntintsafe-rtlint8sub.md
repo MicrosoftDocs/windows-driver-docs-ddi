@@ -7,8 +7,8 @@ old-location: kernel\rtlint8sub.htm
 old-project: kernel
 ms.assetid: 3648668C-65CD-45F9-80E0-490AE2FE405E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlInt8Sub function [Kernel-Mode Driver Architecture], RtlInt8Sub, ntintsafe/RtlInt8Sub, kernel.rtlint8sub
+ms.date: 2/24/2018
+ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlInt8Sub
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

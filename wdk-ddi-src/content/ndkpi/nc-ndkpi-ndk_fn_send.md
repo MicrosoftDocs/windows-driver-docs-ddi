@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_send.htm
 old-project: netvista
 ms.assetid: 6EDF95F1-AE00-4931-9B18-E316D56D57AF
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_send, NdkSend callback function [Network Drivers Starting with Windows Vista], NdkSend, NDK_FN_SEND, NDK_FN_SEND, ndkpi/NdkSend, NDK_OP_FLAG_SILENT_SUCCESS, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_DEFER
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_SEND, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, NdkSend, NdkSend callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSend, netvista.ndk_fn_send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkSend
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_SEND callback
@@ -74,8 +74,10 @@ NTSTATUS NdkSend(
 
 
 
-### -param *pNdkQp
+### -param *pNdkQp [in]
 
+A pointer to an NDK queue pair (QP) object
+(<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -87,7 +89,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 ### -param NDK_SGE
 
 
-
 ### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
@@ -97,6 +98,7 @@ parameter.
 ### -param Flags [in]
 
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,7 +161,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pSgl
@@ -167,17 +170,13 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)  that represent the buffers holding the data to send.
 
 
-#### - pNdkQp [in]
-
-A pointer to an NDK queue pair (QP) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
-
-
 ## -returns
+
 
 
 The 
      <i>NdkSend</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -217,11 +216,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>NdkSend</i> posts a send request on a queue pair (QP).
@@ -229,26 +231,41 @@ An error occurred.
 You can use the <b>NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT</b> flag if you issue multiple, related send requests. Set this flag on the last request in the group of related send requests.
 
 An NDK consumer can use this flag when issuing multiple, related send requests. The NDK consumer sets this flag only on the last, related send request. The peer will receive all the send requests as normal. However, when the peer receives the last send request (the request with the <b>NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT</b> flag set), the completion queue for the peer generates a notification. The notification is generated after the receive request completes. This flag has no meaning to the receiver (peer) unless the receiver has previously called the <i>NdkArmCq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>) function with the notification type set to <b>NDK_CQ_NOTIFY_SOLICITED</b>. 
-<div class="alert"><b>Note</b>  Requests that complete  with an error always match the <b>NDK_CQ_NOTIFY_SOLICITED</b> notification type.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Requests that complete  with an error always match the <b>NDK_CQ_NOTIFY_SOLICITED</b> notification type.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
 <a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
- 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_SEND callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_SEND callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

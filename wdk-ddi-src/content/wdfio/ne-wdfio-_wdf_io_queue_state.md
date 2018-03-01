@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_STATE
-title: _WDF_IO_QUEUE_STATE
+title: "_WDF_IO_QUEUE_STATE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 old-location: wdf\wdf_io_queue_state.htm
 old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueueDispatchRequests
+ms.date: 2/20/2018
+ms.keywords: DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, kmdf.wdf_io_queue_state, wdf.wdf_io_queue_state, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueNoRequests, wdfio/WdfIoQueuePnpHeld
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfio.h
-apiname: 
+api_name:
 -	WDF_IO_QUEUE_STATE
 product: Windows
 targetos: Windows
@@ -104,9 +104,11 @@ If set, the framework has stopped delivering requests to the driver because the 
 ## -remarks
 
 
+
 The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> method.
 
 The following functions are defined in <i>wdfio.h</i>:
+
 
 
 
@@ -116,9 +118,11 @@ The following functions are defined in <i>wdfio.h</i>:
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

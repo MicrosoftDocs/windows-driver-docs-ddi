@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FSRTL_PER_STREAM_CONTEXT
-title: _FSRTL_PER_STREAM_CONTEXT
+title: "_FSRTL_PER_STREAM_CONTEXT"
 author: windows-driver-content
 description: The FSRTL_PER_STREAM_CONTEXT structure contains context information that a file system filter driver maintains about a file stream.
 old-location: ifsk\fsrtl_per_stream_context.htm
 old-project: ifsk
 ms.assetid: 108c224c-ae42-414f-951d-cb225059d525
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FSRTL_PER_STREAM_CONTEXT structure [Installable File System Drivers], ntifs/FSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT, contextstructures_c3576880-65f8-4340-b1d2-82d66f8e4f30.xml, PFSRTL_PER_STREAM_CONTEXT structure pointer [Installable File System Drivers], ifsk.fsrtl_per_stream_context, FSRTL_PER_STREAM_CONTEXT, _FSRTL_PER_STREAM_CONTEXT, *PFSRTL_PER_STREAM_CONTEXT, ntifs/PFSRTL_PER_STREAM_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: "*PFSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_STREAM_CONTEXT, contextstructures_c3576880-65f8-4340-b1d2-82d66f8e4f30.xml, ifsk.fsrtl_per_stream_context, ntifs/FSRTL_PER_STREAM_CONTEXT, ntifs/PFSRTL_PER_STREAM_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FSRTL_PER_STREAM_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PFSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT
+req.typenames: FSRTL_PER_STREAM_CONTEXT, *PFSRTL_PER_STREAM_CONTEXT
 ---
 
 # _FSRTL_PER_STREAM_CONTEXT structure
@@ -90,6 +90,7 @@ This member is optional and can be <b>NULL</b>.
 ### -field FreeCallback
 
 Pointer to a callback routine that frees the per-stream context structure. This routine and its parameters are defined as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -105,7 +106,9 @@ Pointer to a callback routine that frees the per-stream context structure. This 
 </table></span></div>
 
 
-##### - FreeCallback.Buffer
+
+
+#### Buffer
 
 Pointer to the <b>FSRTL_PER_STREAM_CONTEXT</b> structure to free. 
 
@@ -113,16 +116,22 @@ Pointer to the <b>FSRTL_PER_STREAM_CONTEXT</b> structure to free.
 ## -remarks
 
 
+
 File system filter drivers can use a <b>FSRTL_PER_STREAM_CONTEXT</b> structure to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined, per-stream context structure. 
 
 When a file system tears down the stream context object for a file stream, it must call <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>, which in turn calls the <i>FreeCallback</i> routines of all per-stream context structures associated with the file stream. 
-<div class="alert"><b>Note</b>    The <i>FreeCallback</i> routine cannot recursively call down into the file system or acquire any file system resources. Also, this routine must assume that the file object for the file stream has already been freed. </div><div> </div>The <b>FSRTL_PER_STREAM_CONTEXT</b> structure can be allocated from paged or nonpaged pool. 
+
+<div class="alert"><b>Note</b>    The <i>FreeCallback</i> routine cannot recursively call down into the file system or acquire any file system resources. Also, this routine must assume that the file object for the file stream has already been freed. </div>
+<div> </div>
+The <b>FSRTL_PER_STREAM_CONTEXT</b> structure can be allocated from paged or nonpaged pool. 
 
 The <b>FsRtlSupportsPerStreamContexts</b> macro determines whether a file system supports per-stream contexts for a given file stream. 
+
 <pre class="syntax" xml:space="preserve"><code>BOOLEAN FsRtlSupportsPerStreamContexts(
   [in] PFILE_OBJECT FileObject
 );
-</code></pre>Parameters
+</code></pre>
+Parameters
 
 <i>FileObject [in]</i>
 
@@ -142,29 +151,48 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/d908ee30-a433-460c-8c14-883702b4f810">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
 
 <a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
 
- 
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_PER_STREAM_CONTEXT structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_PER_STREAM_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

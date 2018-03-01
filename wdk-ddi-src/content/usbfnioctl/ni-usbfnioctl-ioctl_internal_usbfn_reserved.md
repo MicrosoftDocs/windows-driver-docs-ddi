@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_reserved.htm
 old-project: usbref
 ms.assetid: F6935F5F-B6A8-4495-835D-151A26633F04
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_internal_usbfn_reserved, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], IOCTL_INTERNAL_USBFN_RESERVED, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_RESERVED, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], buses.ioctl_internal_usbfn_reserved, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbfnioctl.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_USBFN_RESERVED
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,22 +86,30 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

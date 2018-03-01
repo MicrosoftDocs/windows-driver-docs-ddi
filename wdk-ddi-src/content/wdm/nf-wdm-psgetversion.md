@@ -7,8 +7,8 @@ old-location: kernel\psgetversion.htm
 old-project: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.psgetversion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, PsGetVersion function [Kernel-Mode Driver Architecture], PsGetVersion, wdm/PsGetVersion
+ms.date: 2/24/2018
+ms.keywords: PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, wdm/PsGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PsGetVersion
 product: Windows
 targetos: Windows
@@ -96,7 +96,9 @@ Points to a caller-allocated buffer in which this routine returns the current se
 ## -returns
 
 
+
 <b>PsGetVersion</b> returns whether the system is a checked or free build, as follows:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,15 +126,19 @@ Free build of the operating system.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>PsGetVersion</b> returns the requested information, depending on which optional parameter(s) the caller supplies.
 
 To retrieve the current service-pack number, it is easier and more efficient to make an application-level call within the Win32 environment than to call <b>PsGetVersion</b> during system driver initialization, which then must parse the string it returns at <i>CSDVersion</i>. When the registry is initialized, a driver cannot obtain this string from <b>PsGetVersion</b>, but must read the <b>CmCSDVersionString</b> value from the registry. 
+
 
 

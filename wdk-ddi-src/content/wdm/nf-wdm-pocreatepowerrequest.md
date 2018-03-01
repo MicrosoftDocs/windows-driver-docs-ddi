@@ -7,8 +7,8 @@ old-location: kernel\pocreatepowerrequest.htm
 old-project: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PoCreatePowerRequest, kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], wdm/PoCreatePowerRequest
+ms.date: 2/24/2018
+ms.keywords: PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, wdm/PoCreatePowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PoCreatePowerRequest
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON
 ## -returns
 
 
+
 <b>PoCreatePowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,11 +118,14 @@ There is not enough memory available to create a power request object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
@@ -131,17 +136,24 @@ When the power request object is no longer needed, the caller must delete the ob
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
 
+
+
 <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoCreatePowerRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoCreatePowerRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

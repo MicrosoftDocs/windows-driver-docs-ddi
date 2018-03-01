@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_Frequency
-title: _DXVA_Frequency
+title: "_DXVA_Frequency"
 author: windows-driver-content
 description: The DXVA_Frequency structure is sent by the host decoder to the driver to specify the video frame rate, in Hz. For example, NTSC TV is 60000 over 1001.
 old-location: display\dxva_frequency.htm
 old-project: display
 ms.assetid: 4e7d9746-7dae-4f53-9bf8-e0acc807306a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVA_Frequency structure [Display Devices], display.dxva_frequency, DXVA_Frequency, dxvaref_a36a3edd-8f65-4d6d-85d0-360e0f03e978.xml, dxva/DXVA_Frequency, _DXVA_Frequency
+ms.date: 2/24/2018
+ms.keywords: DXVA_Frequency, DXVA_Frequency structure [Display Devices], _DXVA_Frequency, display.dxva_frequency, dxva/DXVA_Frequency, dxvaref_a36a3edd-8f65-4d6d-85d0-360e0f03e978.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_Frequency
 product: Windows
 targetos: Windows

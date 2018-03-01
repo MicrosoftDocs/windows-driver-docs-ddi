@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddstor._STORAGE_ZONE_DESCRIPTOR
-title: _STORAGE_ZONE_DESCRIPTOR
+title: "_STORAGE_ZONE_DESCRIPTOR"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zone_descriptor.htm
 old-project: storage
 ms.assetid: 33AE6D40-F54D-427D-B811-2188EA623A26
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], *PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, _STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], _STORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_ZONE_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -109,6 +109,7 @@ N/A
 ### -field WritePointerOffset
 
  
+
 
 
 

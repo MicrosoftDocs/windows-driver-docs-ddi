@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo.h
 old-project: display
 ms.assetid: 314b345c-a40b-418d-a2d8-c7b42e5fd27d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo callback function [Display Devices], pfnCreateNewModeInfo, DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO, DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO, d3dkmddi/pfnCreateNewModeInfo, VidPnFunctions_4b8b1581-4518-471d-a79e-ed05899ad500.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO, VidPnFunctions_4b8b1581-4518-471d-a79e-ed05899ad500.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnCreateNewModeInfo
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnCreateNewModeInfo(
 ## -returns
 
 
+
 The <b>pfnCreateNewModeInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,14 +114,18 @@ The function failed because it was unable to allocate enough memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After you call <b>pfnCreateNewModeInfo</b> to obtain a D3DKMDT_MONITOR SOURCE_MODE structure, you must do one, but not both, of the following:
+
 <ul>
 <li>
 Populate the structure and pass it to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_addmode.md">pfnAddMode</a>.
@@ -130,4 +136,5 @@ Release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monito
 
 </li>
 </ul>
+
 

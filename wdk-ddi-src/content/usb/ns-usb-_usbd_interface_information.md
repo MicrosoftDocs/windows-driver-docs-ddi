@@ -1,14 +1,14 @@
 ---
 UID: NS:usb._USBD_INTERFACE_INFORMATION
-title: _USBD_INTERFACE_INFORMATION
+title: "_USBD_INTERFACE_INFORMATION"
 author: windows-driver-content
 description: The USBD_INTERFACE_INFORMATION structure holds information about an interface for a configuration on a USB device.
 old-location: buses\usbd_interface_information.htm
 old-project: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION structure [Buses], USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, buses.usbd_interface_information, *PUSBD_INTERFACE_INFORMATION, usb/PUSBD_INTERFACE_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usb.h
-apiname: 
+api_name:
 -	USBD_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
@@ -130,21 +130,27 @@ Pointer to the first element in the array of <a href="..\usb\ns-usb-_usbd_pipe_i
 ## -remarks
 
 
+
 Members that are part of this structure, but not described here, should be treated as opaque and considered to be reserved for system use.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+## -see-also
 
 <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_INTERFACE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_INTERFACE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceinitsetremovelockoptions.htm
 old-project: wdf
 ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetremovelockoptions, kmdf.wdfdeviceinitsetremovelockoptions, PFN_WDFDEVICEINITSETREMOVELOCKOPTIONS, WdfDeviceInitSetRemoveLockOptions method, WdfDeviceInitSetRemoveLockOptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
+ms.date: 2/20/2018
+ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfDeviceInitSetRemoveLockOptions
 product: Windows
 targetos: Windows
@@ -86,11 +86,14 @@ A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">W
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 By default, the framework acquires a remove lock before it delivers IRPs of the following major types to the driver:
@@ -106,25 +109,60 @@ When the IRP completes, the framework releases the remove lock.
 Starting in KMDF 1.11, the driver can optionally call <b>WdfDeviceInitSetRemoveLockOptions</b> to cause the framework to acquire a remove lock before delivering all IRP types, not just those listed above.
 
 If your driver has kernel-mode clients that send I/O unsynchronized with the PnP state of your device, you may experience crashes due to I/O IRPs arriving after the framework device object has been removed. In this case, you can call <b>WdfDeviceInitSetRemoveLockOptions</b> to prevent the device object from being removed until I/O has completed.
-<div class="alert"><b>Note</b>  <b>WdfDeviceInitSetRemoveLockOptions</b> is not supported on control objects.</div><div> </div>Typically, a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b> from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function, just before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+
+<div class="alert"><b>Note</b>  <b>WdfDeviceInitSetRemoveLockOptions</b> is not supported on control objects.</div>
+<div> </div>
+Typically, a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b> from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function, just before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 After a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b>, the setting remains in effect for the lifetime of the framework device object.
 
 For more information about remove locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565504">Using Remove Locks</a>.
 
 
+#### Examples
+
+This code example initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure and calls <b>WdfDeviceInitSetRemoveLockOptions</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+WDF_REMOVE_LOCK_OPTIONS RemoveLockOptions;
+
+WDF_REMOVE_LOCK_OPTIONS_INIT(
+                             &amp;RemoveLockOptions,
+                             WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
+                             );
+WdfDeviceInitSetRemoveLockOptions(
+                                  DeviceInit,
+                                  &amp;RemoveLockOptions
+                                  );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
+
+
+
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetRemoveLockOptions method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetRemoveLockOptions method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\ufs_interconnect_descriptor.htm
 old-project: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR, storage.ufs_interconnect_descriptor, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR, ufs/PUFS_INTERCONNECT_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ufs.h
-apiname: 
+api_name:
 -	UFS_INTERCONNECT_DESCRIPTOR
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: print\ipartbase_setpartcompression.htm
 old-project: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filterpipeline/IPartBase::SetPartCompression, print.ipartbase_setpartcompression, SetPartCompression method [Print Devices], IPartBase interface, IPartBase::SetPartCompression, SetPartCompression method [Print Devices], IPartBase, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml
+ms.date: 2/23/2018
+ms.keywords: IPartBase, IPartBase interface [Print Devices], SetPartCompression method, IPartBase::SetPartCompression, SetPartCompression method [Print Devices], SetPartCompression method [Print Devices], IPartBase interface, SetPartCompression,IPartBase.SetPartCompression, filterpipeline/IPartBase::SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, print.ipartbase_setpartcompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPartBase.SetPartCompression
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_
 ## -returns
 
 
+
 <b>SetPartCompression</b> returns an <b>HRESULT</b> value.
+
 
 

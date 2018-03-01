@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiRequest.SetSchema
 title: IBidiRequest::SetSchema method
 author: windows-driver-content
-description: The IBidiRequest::SetSchema method sets the bidi schema string.
+description: The SetSchema method sets the bidi schema string.
 old-location: print\ibidirequest_ibidirequest__setschema.htm
 old-project: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest::SetSchema method, IBidiRequest::SetSchema method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__setschema, IBidiRequest::IBidiRequest::SetSchema, SetSchema, IBidiRequest::SetSchema method [Print Devices], _win32_IBidiRequest_SetSchema, IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, bidispl/IBidiRequest::IBidiRequest::SetSchema
+ms.date: 2/23/2018
+ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], SetSchema method, IBidiRequest::SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices], IBidiRequest interface, SetSchema,IBidiRequest.SetSchema, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	bidispl.dll
-apiname: 
--	IBidiRequest.IBidiRequest::SetSchema
+api_name:
+-	IBidiRequest.SetSchema
 product: Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
@@ -49,14 +49,14 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ## -description
 
 
-The <b>IBidiRequest::SetSchema</b> method sets the bidi schema string.
+The <b>SetSchema</b> method sets the bidi schema string.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiRequest::SetSchema(
+HRESULT SetSchema(
   [in] const LPCWSTR pszSchema
 );
 ````
@@ -75,7 +75,9 @@ Pointer to a schema string.
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,21 +116,29 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::IBidiRequest::SetSchema method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::SetSchema method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

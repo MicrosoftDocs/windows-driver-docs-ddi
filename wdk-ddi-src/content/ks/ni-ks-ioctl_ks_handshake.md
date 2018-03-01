@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_handshake.htm
 old-project: stream
 ms.assetid: 63c50af0-365b-4074-a703-9e43b1514a55
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_ks_handshake, IOCTL_KS_HANDSHAKE control code [Streaming Media Devices], IOCTL_KS_HANDSHAKE, ks/IOCTL_KS_HANDSHAKE, ks-ioctl_f848d65c-b795-439e-a8a1-d4c2e0764ef1.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_KS_HANDSHAKE, IOCTL_KS_HANDSHAKE control code [Streaming Media Devices], ks-ioctl_f848d65c-b795-439e-a8a1-d4c2e0764ef1.xml, ks/IOCTL_KS_HANDSHAKE, stream.ioctl_ks_handshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IOCTL_KS_HANDSHAKE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -90,14 +90,18 @@ The client places a pointer to a structure of type <a href="..\ks\ns-ks-kshandsh
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,17 +116,25 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
-
 <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
 
 <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
+
+
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
+
 <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_HANDSHAKE control code%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_HANDSHAKE control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

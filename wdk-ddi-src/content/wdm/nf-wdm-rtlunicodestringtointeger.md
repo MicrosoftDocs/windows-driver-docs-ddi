@@ -7,13 +7,13 @@ old-location: kernel\rtlunicodestringtointeger.htm
 old-project: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringtointeger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, wdm/RtlUnicodeStringToInteger, RtlUnicodeStringToInteger
+ms.date: 2/24/2018
+ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+api_name:
 -	RtlUnicodeStringToInteger
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 A numeric value that indicates the base (or radix) of the number that the Unicode string represents. This parameter value is optional and can be set to zero.
 
 If <i>Base</i> is zero, <b>RtlUnicodeStringToInteger</b> checks the prefix of the Unicode string to determine the base of the number:
+
 <ul>
 <li>
 If the prefix is "0x", <b>RtlUnicodeStringToInteger</b> interprets the number in the string as a hexadecimal integer.
@@ -94,7 +95,8 @@ If the prefix is "0o", <b>RtlUnicodeStringToInteger</b> interprets the number in
 If the prefix is "0b", <b>RtlUnicodeStringToInteger</b> interprets the number in the string as a binary integer.
 
 </li>
-</ul>If the Unicode string does not contain any of these prefixes, <b>RtlUnicodeStringToInteger</b> treats the string as a base-10 integer.
+</ul>
+If the Unicode string does not contain any of these prefixes, <b>RtlUnicodeStringToInteger</b> treats the string as a base-10 integer.
 
 
 ### -param Value [out]
@@ -105,11 +107,14 @@ A pointer to a ULONG variable to which <b>RtlUnicodeStringToInteger</b> writes t
 ## -returns
 
 
+
 If the conversion is successful, the <b>RtlUnicodeStringToInteger</b> routine returns STATUS_SUCCESS and sets *<i>Value</i> to the integer value represented by the number in the Unicode string. If the string is not empty, but does not start with a valid number representation, the routine returns STATUS_SUCCESS and sets *<i>Value</i> to zero. If the string is empty, the routine fails and returns STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -remarks
+
 
 
 This routine skips any white space at the start of the input string to find the start of the number.
@@ -121,6 +126,7 @@ If the first non-white space character in the string is a hyphen (-), the intege
 A substring that contains one or more valid digits is terminated by any character that is not a valid digit. For example, if <i>Base</i> = 2, valid digits are '0' and '1'. If <i>Base</i> = 8, valid digits are '0' to '7'. If <i>Base</i> = 10, valid digits are '0' to '9'. If <i>Base</i> = 16, valid digits are '0' to '9', 'a' to 'f', and 'A' to 'F'.
 
 The following table contains examples of output values that result from various combinations of input strings and <i>Base</i> parameter values.
+
 <table>
 <tr>
 <th>Input string</th>
@@ -172,21 +178,27 @@ The following table contains examples of output values that result from various 
 <td>10</td>
 <td>0</td>
 </tr>
-</table> 
+</table>
+ 
 
-A related routine, <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
+A related routine, <a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringToInteger routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringToInteger routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

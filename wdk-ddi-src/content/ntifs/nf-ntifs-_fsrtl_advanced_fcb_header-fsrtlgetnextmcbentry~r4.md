@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlgetnextmcbentry.htm
 old-project: ifsk
 ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], FsRtlGetNextMcbEntry, ifsk.fsrtlgetnextmcbentry, fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml
+ms.date: 2/16/2018
+ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FsRtlGetNextMcbEntry
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_register_mr.htm
 old-project: netvista
 ms.assetid: 082BBDE1-1B80-4306-96A1-DCD23910B0F7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_register_mr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], NdkRegisterMr, NDK_FN_REGISTER_MR, NDK_FN_REGISTER_MR, ndkpi/NdkRegisterMr, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_REGISTER_MR, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK, NdkRegisterMr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRegisterMr, netvista.ndk_fn_register_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkRegisterMr
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_REGISTER_MR callback
@@ -75,11 +75,15 @@ NTSTATUS NdkRegisterMr(
 
 
 
-### -param *pNdkMr
+### -param *pNdkMr [in]
+
+A pointer to an NDK memory region (MR) object
+(<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
 
 
+### -param *Mdl [in]
 
-### -param *Mdl
+An MDL or chain of MDLs that represent a virtually contiguous memory region from the starting virtual address up to the number of bytes specified in the <i>Length</i> parameter.
 
 
 
@@ -91,6 +95,7 @@ The number of bytes to register starting from the first MDL's virtual address. T
 ### -param Flags [in]
 
 A bitmask of flags that specify the access permissions for the registered memory region. The following flags can be set:
+
 <table>
 <tr>
 <th>Value</th>
@@ -136,7 +141,8 @@ A bitmask of flags that specify the access permissions for the registered memory
 </td>
 <td width="60%"></td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param RequestCompletion [in]
@@ -149,23 +155,13 @@ A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 
-#### - pNdkMr [in]
-
-A pointer to an NDK memory region (MR) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
-
-
-#### - Mdl [in]
-
-An MDL or chain of MDLs that represent a virtually contiguous memory region from the starting virtual address up to the number of bytes specified in the <i>Length</i> parameter.
-
-
-
 ## -returns
+
 
 
 The 
      <i>NdkRegisterMr</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -231,11 +227,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 On an <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a> object that was created with  the <i>FastRegister</i> parameter set to FALSE, <i>NdkRegisterMr</i> is used to register a virtually contiguous memory region with the adapter. 
@@ -249,29 +248,45 @@ The NDK consumer must not use the MDL chain while the registration request is pe
 <i>NdkRegisterMr</i> does not support zero-based virtual addresses.
 
 An NDK consumer must pass the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag when it registers memory that might be used as the sink buffer for an RDMA read request. Certain NDK providers might require enabling special access rights on the sink buffer for an RDMA read request on adapters for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is not set in the <b>AdapterFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure. The <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag allows such providers to support registration requests appropriately. 
-<div class="alert"><b>Note</b>  Buffers can be registered for multiple purposes.  Therefore, the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag might be accompanied by other flags. </div><div> </div>If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapter for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is set in the <b>AdapterFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, the provider is not required to handle the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag and must not fail the request  due to the presence of this flag.
+
+<div class="alert"><b>Note</b>  Buffers can be registered for multiple purposes.  Therefore, the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag might be accompanied by other flags. </div>
+<div> </div>
+If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapter for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is set in the <b>AdapterFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, the provider is not required to handle the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag and must not fail the request  due to the presence of this flag.
 
 To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>) function.
 
 
 
+
 ## -see-also
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_REGISTER_MR callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_REGISTER_MR callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

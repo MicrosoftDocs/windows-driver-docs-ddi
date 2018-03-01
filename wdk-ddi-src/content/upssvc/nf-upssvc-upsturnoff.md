@@ -7,8 +7,8 @@ old-location: battery\upsturnoff.htm
 old-project: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: UPSTurnOff function [Battery Devices], upssvc/UPSTurnOff, UPSTurnOff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff
+ms.date: 2/15/2018
+ms.keywords: UPSTurnOff, UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	upssvc.h
-apiname: 
+api_name:
 -	UPSTurnOff
 product: Windows
 targetos: Windows
@@ -76,19 +76,23 @@ Specifies the minimum amount of time, in seconds, to wait before turning off the
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The actual delay time should not be less than that specified by <i>aTurnOffDelay</i>, to ensure adequate time for the operating system to shut down. 
 
-The default value for <i>aTurnOffDelay </i>is 180 seconds.
+The default value for <i>aTurnOffDelay</i> is 180 seconds.
 
 The function must not postpone the request to turn off the power. Doing so could result in the operating system unloading the UPS service and the UPS minidriver.
 
 On the other hand, the function must not turn off power from a UPS system that does not have an internal turnoff delay. Doing so will result in a premature loss of power to the computer, which can cause system corruption.
+
 
 

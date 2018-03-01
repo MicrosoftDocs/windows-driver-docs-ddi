@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-crypto-session-transform-support-flags-0030.htm
 old-project: display
 ms.assetid: 9b8fea62-9947-42ce-acb6-1736ac6e3d86
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030 enumeration [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-crypto-session-transform-support-flags-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030 enumeration [Display Devices], D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAG_0030_SUPPORTED, display.d3d12ddi-crypto-session-transform-support-flags-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
 product: Windows
 targetos: Windows

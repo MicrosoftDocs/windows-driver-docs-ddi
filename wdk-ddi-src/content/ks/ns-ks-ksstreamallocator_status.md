@@ -7,8 +7,8 @@ old-location: stream\ksstreamallocator_status.htm
 old-project: stream
 ms.assetid: 95ef6c1e-c2b7-49ca-9aaf-caeb2dca7c3a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSSTREAMALLOCATOR_STATUS, ks/PKSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], stream.ksstreamallocator_status, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS, ks/KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS, ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, ks/KSSTREAMALLOCATOR_STATUS, ks/PKSSTREAMALLOCATOR_STATUS, stream.ksstreamallocator_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSSTREAMALLOCATOR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS
+req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
 ---
 
 # KSSTREAMALLOCATOR_STATUS structure
@@ -87,19 +87,25 @@ Reserved and set to zero.
 ## -remarks
 
 
+
 Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a> property request.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
 
- 
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_STATUS structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_STATUS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

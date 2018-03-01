@@ -7,8 +7,8 @@ old-location: kernel\wdmlibprocgrpinitialize.htm
 old-project: kernel
 ms.assetid: 760f7bd8-0957-4dd0-b201-64173961cbb2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: procgrp/WdmlibProcgrpInitialize, WdmlibProcgrpInitialize, kernel.wdmlibprocgrpinitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml
+ms.date: 2/24/2018
+ms.keywords: WdmlibProcgrpInitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], kernel.wdmlibprocgrpinitialize, procgrp/WdmlibProcgrpInitialize, procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Procgrp.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Procgrp.lib
 -	Procgrp.dll
-apiname: 
+api_name:
 -	WdmlibProcgrpInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PWIDTHTABLE, WIDTHTABLE
+req.typenames: WIDTHTABLE, *PWIDTHTABLE
 req.product: Windows 10 or later.
 ---
 
@@ -68,14 +68,18 @@ VOID WdmlibProcgrpInitialize(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 This function initializes the ProcGrp library. Call this function before calling any of the other functions in the ProcGrp library. The library implements wrapper functions that have the same names as the following processor-group <b>Ke<i>Xxx</i></b> routines in Windows 7:
@@ -137,5 +141,6 @@ This function initializes the ProcGrp library. Call this function before calling
 
 
 For more information about the ProcGrp library, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559909">Processor Group Compatibility Library</a>. 
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._COMPROPSHEETUI
-title: _COMPROPSHEETUI
+title: "_COMPROPSHEETUI"
 author: windows-driver-content
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
 old-location: print\compropsheetui.htm
 old-project: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: compstui/PCOMPROPSHEETUI, print.compropsheetui, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, _COMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], *PCOMPROPSHEETUI, PCOMPROPSHEETUI, compstui/COMPROPSHEETUI
+ms.date: 2/23/2018
+ms.keywords: "*PCOMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices], _COMPROPSHEETUI, compstui/COMPROPSHEETUI, compstui/PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	compstui.h
-apiname: 
+api_name:
 -	COMPROPSHEETUI
 product: Windows
 targetos: Windows
-req.typenames: *PCOMPROPSHEETUI, COMPROPSHEETUI
+req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
 ---
 
 # _COMPROPSHEETUI structure
@@ -49,7 +49,7 @@ req.typenames: *PCOMPROPSHEETUI, COMPROPSHEETUI
 ## -description
 
 
-The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
+The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
 
 
 ## -syntax
@@ -95,7 +95,27 @@ Optional caller-supplied bit flags, as described in the following list:
 
 
 
+#### CPSUIF_ABOUT_CALLBACK
 
+If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
+
+
+
+
+
+#### CPSUIF_ICONID_AS_HICON
+
+If set, the structure's <b>IconID</b> member contains an icon handle.
+
+If not set, the <b>IconID</b> member contains an icon resource identifier.
+
+
+
+
+
+#### CPSUIF_UPDATE_PERMISSION
+
+If set, the page's option values can be modified by the user.
 
 
 ### -field hInstCaller
@@ -135,6 +155,7 @@ Caller-supplied pointer to an array of <a href="..\compstui\ns-compstui-_optitem
 ### -field pDlgPage
 
 This member specifies <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
+
 <ul>
 <li>
 A pointer to an array of DLGPAGE structures.
@@ -201,6 +222,7 @@ Caller-supplied number of <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE<
 ### -field IconID
 
 Caller-supplied, can be one of the following:
+
 <ul>
 <li>
 An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
@@ -210,7 +232,8 @@ An icon resource identifier. This can be application-defined, or it can be one o
 An icon handle. If a handle is specified, CPSUIF_ICONID_AS_HICON must be set in the <b>Flags</b> member.
 
 </li>
-</ul>The specified icon is displayed in the root node of the property sheet page's treeview.
+</ul>
+The specified icon is displayed in the root node of the property sheet page's treeview.
 
 
 ### -field pOptItemName
@@ -231,21 +254,4 @@ Caller-supplied version number, representing the root-level option item's curren
 ### -field dwReserved
 
 Reserved. This array must be set to zero.
-
-
-##### - Flags.CPSUIF_ABOUT_CALLBACK
-
-If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
-
-
-##### - Flags.CPSUIF_UPDATE_PERMISSION
-
-If set, the page's option values can be modified by the user.
-
-
-##### - Flags.CPSUIF_ICONID_AS_HICON
-
-If set, the structure's <b>IconID</b> member contains an icon handle.
-
-If not set, the <b>IconID</b> member contains an icon resource identifier.
 

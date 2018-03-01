@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_HEALTH_CLASS
-title: _MPIO_DISK_HEALTH_CLASS
+title: "_MPIO_DISK_HEALTH_CLASS"
 author: windows-driver-content
 description: The MPIO_DISK_HEALTH_CLASS structure contains the health information for a multi-path disk.
 old-location: storage\mpio_disk_health_class.htm
 old-project: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mpiowmi/MPIO_DISK_HEALTH_CLASS, storage.mpio_disk_health_class, mpiowmi/PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml, *PMPIO_DISK_HEALTH_CLASS, _MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DISK_HEALTH_CLASS, mpiowmi/MPIO_DISK_HEALTH_CLASS, mpiowmi/PMPIO_DISK_HEALTH_CLASS, storage.mpio_disk_health_class, structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	MPIO_DISK_HEALTH_CLASS
 product: Windows
 targetos: Windows

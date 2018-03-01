@@ -7,8 +7,8 @@ old-location: debugger\idebugfailureanalysis2_addstring.htm
 old-project: debugger
 ms.assetid: 98023A9B-9091-4C0D-ADE0-978816E8F762
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_addstring, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, extsfns/IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, AddString, IDebugFailureAnalysis2, IDebugFailureAnalysis2::AddString
+ms.date: 2/23/2018
+ms.keywords: AddString method [Windows Debugging], AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, AddString,IDebugFailureAnalysis2.AddString, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method, IDebugFailureAnalysis2::AddString, debugger.idebugfailureanalysis2_addstring, extsfns/IDebugFailureAnalysis2::AddString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	extsfns.h
-apiname: 
+api_name:
 -	IDebugFailureAnalysis2.AddString
 product: Windows
 targetos: Windows
@@ -81,12 +81,15 @@ A pointer to a null-terminated ANSI string to be written to the data block of th
 ## -returns
 
 
+
 If this method succeeds, it returns a returns a pointer to the new <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. If this method fails, it returns <b>NULL</b>.
 
 
 
 
+
 ## -remarks
+
 
 
 This method sets the <b>DataSize</b> member of the new <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure to the length, in bytes, of the string including the <b>NULL</b> terminator.
@@ -97,23 +100,36 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 
 
+
 ## -see-also
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
 
+
+
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::AddString method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::AddString method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

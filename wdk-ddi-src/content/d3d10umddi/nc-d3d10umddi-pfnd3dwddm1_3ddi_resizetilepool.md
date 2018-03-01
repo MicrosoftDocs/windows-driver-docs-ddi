@@ -7,8 +7,8 @@ old-location: display\resizetilepool.htm
 old-project: display
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.resizetilepool, ResizeTilePool callback function [Display Devices], ResizeTilePool, PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL, d3d10umddi/ResizeTilePool
+ms.date: 2/24/2018
+ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	ResizeTilePool
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_RESIZETILEPOOL callback
@@ -92,9 +92,11 @@ The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB o
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,8 +124,10 @@ The driver had to allocate space for new page table mappings but ran out of memo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The Direct3D runtime performs minimal validation of parameters, but it will fail the call if the new tile pool size isn't a multiple of the tile size, or zero.
+
 
 

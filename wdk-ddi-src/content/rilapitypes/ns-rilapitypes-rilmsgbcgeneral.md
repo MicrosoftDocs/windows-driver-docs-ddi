@@ -7,8 +7,8 @@ old-location: netvista\rilmsgbcgeneral_2.htm
 old-project: netvista
 ms.assetid: 7202683f-5e02-48dd-b8b7-cb998fd660df
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgbcgeneral_2, *LPRILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], RILMSGBCGENERAL, rilapitypes/RILMSGBCGENERAL
+ms.date: 2/16/2018
+ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral_2, rilapitypes/RILMSGBCGENERAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGBCGENERAL
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMSGBCGENERAL, RILMSGBCGENERAL
+req.typenames: RILMSGBCGENERAL, *LPRILMSGBCGENERAL
 req.product: Windows 10 or later.
 ---
 
@@ -85,59 +85,44 @@ typedef struct _RILMSGBCGENERAL {
 ### -field dwGeoScope
 
 
-
 ### -field dwMsgCode
-
 
 
 ### -field dwUpdateNumber
 
 
-
 ### -field dwID
-
 
 
 ### -field dwSerialNumber
 
 
-
 ### -field rmdDataCoding
-
 
 
 ### -field dwTotalPages
 
 
-
 ### -field dwPageNumber
-
 
 
 ### -field dwWarningType
 
 
-
 ### -field bEmergencyUserAlert
-
 
 
 ### -field bMessagePopup
 
 
-
 ### -field stSCReceiveTime
-
 
 
 ### -field digSig
 
 
-
 ### -field cchMsgLength
 
 
-
 ### -field rgbMsg
-
 

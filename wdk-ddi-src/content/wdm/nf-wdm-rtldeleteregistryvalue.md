@@ -7,8 +7,8 @@ old-location: kernel\rtldeleteregistryvalue.htm
 old-project: kernel
 ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtldeleteregistryvalue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], wdm/RtlDeleteRegistryValue, RtlDeleteRegistryValue, k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml
+ms.date: 2/24/2018
+ms.keywords: RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml, kernel.rtldeleteregistryvalue, wdm/RtlDeleteRegistryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlDeleteRegistryValue
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ NTSTATUS RtlDeleteRegistryValue(
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -148,7 +149,8 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Path [in]
@@ -164,9 +166,11 @@ Pointer to the value name to be removed from the registry.
 ## -returns
 
 
+
 <b>RtlDeleteRegistryValue</b> returns STATUS_SUCCESS if the value entry was deleted.
 
 Note that if <i>RelativeTo</i> is set to RTL_REGISTRY_HANDLE, the following occurs:
+
 <ul>
 <li>
 On Windows 98/Me and Windows NT 4.0, the routine closes the specified handle before returning.
@@ -179,21 +183,32 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-
-<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlDeleteRegistryValue routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlDeleteRegistryValue routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

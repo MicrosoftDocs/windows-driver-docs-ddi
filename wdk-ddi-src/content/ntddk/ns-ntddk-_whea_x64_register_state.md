@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_X64_REGISTER_STATE
-title: _WHEA_X64_REGISTER_STATE
+title: "_WHEA_X64_REGISTER_STATE"
 author: windows-driver-content
 description: The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
 old-location: whea\whea_x64_register_state.htm
 old-project: whea
 ms.assetid: 690c900f-fba8-4712-9a05-bfbe633dd9cf
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: whea.whea_x64_register_state, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml, WHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], PWHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, _WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications]
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, whea.whea_x64_register_state, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_X64_REGISTER_STATE
 product: Windows
 targetos: Windows
@@ -259,6 +259,7 @@ The control register 8.
 ### -field Gdtr
 
 A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -272,6 +273,19 @@ A WHEA128A structure that contains the state of the global descriptor table regi
 </td>
 </tr>
 </table></span></div>
+
+
+
+
+#### Low
+
+The low order 64 bits of the 128-bit value.
+
+
+
+#### High
+
+The high order 64 bits of the 128-bit value.
 
 
 ### -field Idtr
@@ -289,20 +303,12 @@ The local descriptor table register.
 The task register.
 
 
-##### - Gdtr.Low
-
-The low order 64 bits of the 128-bit value.
-
-
-##### - Gdtr.High
-
-The high order 64 bits of the 128-bit value.
-
-
 ## -remarks
 
 
+
 If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
+
 
 
 
@@ -310,9 +316,11 @@ If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_x
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_X64_REGISTER_STATE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_X64_REGISTER_STATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

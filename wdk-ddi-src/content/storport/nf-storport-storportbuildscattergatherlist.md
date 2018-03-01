@@ -7,8 +7,8 @@ old-location: storage\storportbuildscattergatherlist.htm
 old-project: storage
 ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortBuildScatterGatherList routine [Storage Devices], storage.storportbuildscattergatherlist, storport/StorPortBuildScatterGatherList, StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
+ms.date: 2/24/2018
+ms.keywords: StorPortBuildScatterGatherList, StorPortBuildScatterGatherList routine [Storage Devices], storage.storportbuildscattergatherlist, storport/StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortBuildScatterGatherList
 product: Windows
 targetos: Windows
@@ -101,6 +101,7 @@ The length, in bytes, of the data buffer.
 A pointer to a miniport driver-supplied <i>ExecutionRoutine</i>. The Storport driver calls this routine after creating the scatter/gather list. The miniport driver should perform all operations that make use of the scatter/gather list inside the execution routine, not in the code that follows the call to the <b>StorPortBuildScatterGatherList</b> routine.
 
 An <i>ExecutionRoutine</i> is declared as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -117,6 +118,31 @@ ExecutionRoutine (
 </td>
 </tr>
 </table></span></div>
+
+
+
+
+#### DeviceObject
+
+Miniport drivers should ignore this parameter.
+
+
+
+#### Irp
+
+Miniport drivers should ignore this parameter.
+
+
+
+#### ScatterGather
+
+A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
+
+
+
+#### Context
+
+The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
 
 The Storport driver calls a miniport driver's <i>ExecutionRoutine</i> at IRQL = DISPATCH_LEVEL.
 
@@ -141,30 +167,12 @@ A pointer to a miniport-supplied buffer that receives the scatter/gather list. A
 The size, in bytes, of the buffer pointed to by the <i>ScatterGatherBuffer</i> parameter.
 
 
-##### - ExecutionRoutine.Irp
-
-Miniport drivers should ignore this parameter.
-
-
-##### - ExecutionRoutine.Context
-
-The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
-
-
-##### - ExecutionRoutine.ScatterGather
-
-A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
-
-
-##### - ExecutionRoutine.DeviceObject
-
-Miniport drivers should ignore this parameter.
-
-
 ## -returns
 
 
+
 <b>StorPortBuildScatterGatherList</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -238,30 +246,42 @@ The Length parameter is too big to fit within the buffer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver calls <a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a> to release the resources that <b>StorPortBuildScatterGatherList</b> allocated while constructing the scatter/gather list. 
 
 The miniport driver must call <a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a> before freeing or reusing the memory it allocated for the scatter/gather list.
-<div class="alert"><b>Note</b>  If <b>StorPortBuildScatterGatherList</b> returns STOR_STATUS_SUCCESS, then the callback in <i>ExecutionRoutine</i> was successfully queued to execute after the scatter/gather list is created. The miniport must not assume that <i>ExecutionRoutine</i> was called or that the scatter/gather list is ready when <b>StorPortBuildScatterGatherList</b> returns.   If necessary, the miniport can synchronize the execution of code following <b>StorPortBuildScatterGatherList</b> with the callback in <i>ExecutionRoutine</i> to ensure that the scatter/gather list is available.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If <b>StorPortBuildScatterGatherList</b> returns STOR_STATUS_SUCCESS, then the callback in <i>ExecutionRoutine</i> was successfully queued to execute after the scatter/gather list is created. The miniport must not assume that <i>ExecutionRoutine</i> was called or that the scatter/gather list is ready when <b>StorPortBuildScatterGatherList</b> returns.   If necessary, the miniport can synchronize the execution of code following <b>StorPortBuildScatterGatherList</b> with the callback in <i>ExecutionRoutine</i> to ensure that the scatter/gather list is available.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
+
+
+
 <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
+
+
 
 <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
 
-<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortBuildScatterGatherList routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortBuildScatterGatherList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

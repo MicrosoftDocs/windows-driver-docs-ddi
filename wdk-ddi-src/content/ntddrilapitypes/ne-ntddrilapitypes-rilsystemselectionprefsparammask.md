@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefsparammask.htm
 old-project: netvista
 ms.assetid: 69560c05-8a54-4a67-a441-2b3c2ec4c332
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_MODE, ntddrilapitypes/RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_SYSTEMTYPES, ntddrilapitypes/RIL_PARAM_SSP_SYSTEMTYPES, RIL_PARAM_SSP_ROAMINGMODE, ntddrilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, ntddrilapitypes/RIL_PARAM_SSP_ROAMINGMODE, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSP_ALL, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_PLMNINFO, netvista.rilsystemselectionprefsparammask, RILSYSTEMSELECTIONPREFSPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILSYSTEMSELECTIONPREFSPARAMMASK, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_SYSTEMTYPES, netvista.rilsystemselectionprefsparammask, ntddrilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_ALL, ntddrilapitypes/RIL_PARAM_SSP_MODE, ntddrilapitypes/RIL_PARAM_SSP_PLMNINFO, ntddrilapitypes/RIL_PARAM_SSP_ROAMINGMODE, ntddrilapitypes/RIL_PARAM_SSP_SYSTEMTYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSYSTEMSELECTIONPREFSPARAMMASK
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILSYSTEMSELECTIONPREFSPARAMMASK {
 ### -field RIL_PARAM_SSP_EXECUTOR
 
 
-
 ### -field RIL_PARAM_SSP_SYSTEMTYPES
-
 
 
 ### -field RIL_PARAM_SSP_MODE
 
 
-
 ### -field RIL_PARAM_SSP_PLMNINFO
-
 
 
 ### -field RIL_PARAM_SSP_ROAMINGMODE
 
 
-
 ### -field RIL_PARAM_SSP_ACQUISITIONORDERSIZE
-
 
 
 ### -field RIL_PARAM_SSP_ACQUISITIONORDER
 
 
-
 ### -field RIL_PARAM_SSP_ALL
-
 

@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_msr_authenticate_device.htm
 old-project: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.ioctl_point_of_service_msr_authenticate_device, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ Not used with this operation; set to <b>0</b> (zero).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,6 +122,9 @@ The device does not support authentication.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
+
+
 
 

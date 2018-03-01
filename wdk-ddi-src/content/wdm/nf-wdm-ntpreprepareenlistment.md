@@ -7,8 +7,8 @@ old-location: kernel\zwpreprepareenlistment.htm
 old-project: kernel
 ms.assetid: adf2513c-9a0e-4552-baad-010ab243e9dc
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtPrePrepareEnlistment, NtPrePrepareEnlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, kernel.zwpreprepareenlistment, ZwPrePrepareEnlistment
+ms.date: 2/24/2018
+ms.keywords: NtPrePrepareEnlistment, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ZwPrePrepareEnlistment
 -	NtPrePrepareEnlistment
 product: Windows
@@ -83,7 +83,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>ZwPrePrepareEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,13 +157,16 @@ The enlistment's transaction is not in a state that allows it to enter the prepa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Only superior transaction managers can call <b>ZwPrePrepareEnlistment</b>.
@@ -178,19 +183,28 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-tmpreprepareenlistment.md">TmPrePrepareEnlistment</a>
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-tmpreprepareenlistment.md">TmPrePrepareEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPrePrepareEnlistment routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPrePrepareEnlistment routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

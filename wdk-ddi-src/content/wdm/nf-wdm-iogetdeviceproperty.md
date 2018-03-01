@@ -7,8 +7,8 @@ old-location: kernel\iogetdeviceproperty.htm
 old-project: kernel
 ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iogetdeviceproperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, IoGetDeviceProperty
+ms.date: 2/24/2018
+ms.keywords: IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetDeviceProperty
 product: Windows
 targetos: Windows
@@ -84,6 +84,130 @@ Specifies the device property being requested. Must be one of the following <a h
 
 
 
+
+#### DevicePropertyAddress
+
+Requests the address of the device on the bus. <i>PropertyBuffer</i> points to a ULONG.
+
+The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the <b>DevicePropertyBusTypeGuid</b>, or possibly the <b>DevicePropertyLegacyBusType</b>, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
+
+
+
+#### DevicePropertyBootConfiguration
+
+Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
+
+
+
+#### DevicePropertyBootConfigurationTranslated
+
+The hardware resources assigned to the device by the firmware, in translated form. <i>PropertyBuffer</i> points to a <b>CM_RESOURCE_LIST</b> structure.
+
+
+
+#### DevicePropertyBusNumber
+
+Requests the legacy bus number of the bus the device is connected to. <i>PropertyBuffer</i> points to a ULONG.
+
+
+
+#### DevicePropertyBusTypeGuid
+
+Requests the GUID for the bus that the device is connected to. The system-defined bus type GUIDs are listed in the Wdmguid.h header file. <i>PropertyBuffer</i> points to a GUID, which is a 16-byte structure that contains the GUID in binary form.
+
+
+
+#### DevicePropertyClassGuid
+
+Requests the GUID for the device's setup class. <i>PropertyBuffer</i> points to a NULL-terminated array of WCHAR. This routine returns the GUID in a string format as follows, where each "c" represents a hexadecimal character: {cccccccc-cccc-cccc-cccc-cccccccccccc}
+
+
+
+#### DevicePropertyClassName
+
+Requests the name of the device's setup class, in text format. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
+
+
+
+#### DevicePropertyCompatibleIDs
+
+Requests the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">compatible IDs</a> reported by the device. <i>PropertyBuffer</i> points to a REG_MULTI_SZ value.
+
+
+
+#### DevicePropertyDeviceDescription
+
+Requests a string describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
+
+
+
+#### DevicePropertyDriverKeyName
+
+Requests the name of the driver-specific registry key. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
+
+
+
+#### DevicePropertyEnumeratorName
+
+Requests the name of the enumerator for the device, such as "PCI" or "root". <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
+
+
+
+#### DevicePropertyFriendlyName
+
+Requests a string that can be used to distinguish between two similar devices, typically defined by the class installer. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
+
+
+
+#### DevicePropertyHardwareID
+
+Requests the <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware IDs</a> provided by the device that identify the device. <i>PropertyBuffer</i> points to a REG_MULTI_SZ value.
+
+
+
+#### DevicePropertyInstallState
+
+(Windows XP and later versions of Windows.) Requests the device's installation state. The installation state is returned as a <a href="..\wdm\ne-wdm-_device_install_state.md">DEVICE_INSTALL_STATE</a> enumeration value (see the Ntddk.h header file). 
+
+
+
+#### DevicePropertyLegacyBusType
+
+Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
+
+
+
+#### DevicePropertyLocationInformation
+
+Requests information about the device's location on the bus; the interpretation of this information is bus-specific. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
+
+
+
+#### DevicePropertyManufacturer
+
+Requests a string identifying the manufacturer of the device. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
+
+
+
+#### DevicePropertyPhysicalDeviceObjectName
+
+Requests the name of the PDO for this device. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
+
+
+
+#### DevicePropertyRemovalPolicy
+
+(Windows XP and later versions of Windows.) Requests the device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. The <i>PropertyBuffer</i> parameter points to a <a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a> enumeration value.
+
+
+
+#### DevicePropertyUINumber
+
+Requests a number associated with the device that can be displayed in the user interface. <i>PropertyBuffer</i> points to a ULONG value.
+
+This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
+
+
 ### -param BufferLength [in]
 
 Specifies the size, in bytes, of the caller-supplied <i>PropertyBuffer</i>.
@@ -99,114 +223,12 @@ Pointer to a caller-supplied buffer to receive the property information. The buf
 Pointer to a ULONG to receive the size of the property information returned at <i>PropertyBuffer</i>. If <b>IoGetDeviceProperty</b> returns STATUS_BUFFER_TOO_SMALL, it sets this parameter to the required buffer length.
 
 
-##### - DeviceProperty.DevicePropertyRemovalPolicy
-
-(Windows XP and later versions of Windows.) Requests the device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. The <i>PropertyBuffer</i> parameter points to a <a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a> enumeration value.
-
-
-##### - DeviceProperty.DevicePropertyLegacyBusType
-
-Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
-
-
-##### - DeviceProperty.DevicePropertyBootConfigurationTranslated
-
-The hardware resources assigned to the device by the firmware, in translated form. <i>PropertyBuffer</i> points to a <b>CM_RESOURCE_LIST</b> structure.
-
-
-##### - DeviceProperty.DevicePropertyBusTypeGuid
-
-Requests the GUID for the bus that the device is connected to. The system-defined bus type GUIDs are listed in the Wdmguid.h header file. <i>PropertyBuffer</i> points to a GUID, which is a 16-byte structure that contains the GUID in binary form.
-
-
-##### - DeviceProperty.DevicePropertyEnumeratorName
-
-Requests the name of the enumerator for the device, such as "PCI" or "root". <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
-
-
-##### - DeviceProperty.DevicePropertyClassName
-
-Requests the name of the device's setup class, in text format. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
-
-
-##### - DeviceProperty.DevicePropertyCompatibleIDs
-
-Requests the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">compatible IDs</a> reported by the device. <i>PropertyBuffer</i> points to a REG_MULTI_SZ value.
-
-
-##### - DeviceProperty.DevicePropertyDeviceDescription
-
-Requests a string describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
-
-
-##### - DeviceProperty.DevicePropertyInstallState
-
-(Windows XP and later versions of Windows.) Requests the device's installation state. The installation state is returned as a <a href="..\wdm\ne-wdm-_device_install_state.md">DEVICE_INSTALL_STATE</a> enumeration value (see the Ntddk.h header file). 
-
-
-##### - DeviceProperty.DevicePropertyManufacturer
-
-Requests a string identifying the manufacturer of the device. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
-
-
-##### - DeviceProperty.DevicePropertyUINumber
-
-Requests a number associated with the device that can be displayed in the user interface. <i>PropertyBuffer</i> points to a ULONG value.
-
-This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
-
-
-##### - DeviceProperty.DevicePropertyLocationInformation
-
-Requests information about the device's location on the bus; the interpretation of this information is bus-specific. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
-
-
-##### - DeviceProperty.DevicePropertyDriverKeyName
-
-Requests the name of the driver-specific registry key. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
-
-
-##### - DeviceProperty.DevicePropertyBootConfiguration
-
-Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
-
-
-##### - DeviceProperty.DevicePropertyBusNumber
-
-Requests the legacy bus number of the bus the device is connected to. <i>PropertyBuffer</i> points to a ULONG.
-
-
-##### - DeviceProperty.DevicePropertyPhysicalDeviceObjectName
-
-Requests the name of the PDO for this device. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string.
-
-
-##### - DeviceProperty.DevicePropertyFriendlyName
-
-Requests a string that can be used to distinguish between two similar devices, typically defined by the class installer. <i>PropertyBuffer</i> points to a NULL-terminated WCHAR string. 
-
-
-##### - DeviceProperty.DevicePropertyHardwareID
-
-Requests the <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware IDs</a> provided by the device that identify the device. <i>PropertyBuffer</i> points to a REG_MULTI_SZ value.
-
-
-##### - DeviceProperty.DevicePropertyClassGuid
-
-Requests the GUID for the device's setup class. <i>PropertyBuffer</i> points to a NULL-terminated array of WCHAR. This routine returns the GUID in a string format as follows, where each "c" represents a hexadecimal character: {cccccccc-cccc-cccc-cccc-cccccccccccc}
-
-
-##### - DeviceProperty.DevicePropertyAddress
-
-Requests the address of the device on the bus. <i>PropertyBuffer</i> points to a ULONG.
-
-The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the <b>DevicePropertyBusTypeGuid</b>, or possibly the <b>DevicePropertyLegacyBusType</b>, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
-
-
 ## -returns
 
 
+
 <b>IoGetDeviceProperty</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -245,11 +267,14 @@ Possibly indicates that the given <i>DeviceObject</i> was not a valid PDO pointe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoGetDeviceProperty</b> retrieves device setup information from the registry. Use this routine, rather than accessing the registry directly, to insulate a driver from differences across platforms and from possible changes in the registry structure.
@@ -260,23 +285,36 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 
 
+
 ## -see-also
+
+<a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>
+
+
 
 <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
 
- 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceProperty routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceProperty routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

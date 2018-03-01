@@ -7,8 +7,8 @@ old-location: sensors\sensor_state.htm
 old-project: sensors
 ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SENSOR_STATE, sensors.sensor_state, SensorState_Initializing, SensorState_Idle, SENSOR_STATE enumeration [Sensor Devices], sensorsdef/SENSOR_STATE, SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Initializing, sensorsdef/SensorState_Active, sensorsdef/SensorState_Idle, SensorState_Error
+ms.date: 2/22/2018
+ms.keywords: SENSOR_STATE, SENSOR_STATE enumeration [Sensor Devices], SensorState_Active, SensorState_Error, SensorState_Idle, SensorState_Initializing, sensors.sensor_state, sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Sensorsdef.h
-apiname: 
+api_name:
 -	SENSOR_STATE
 product: Windows
 targetos: Windows

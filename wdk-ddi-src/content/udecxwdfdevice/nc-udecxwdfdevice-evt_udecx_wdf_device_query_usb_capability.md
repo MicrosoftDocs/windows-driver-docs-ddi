@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_wdf_device_query_usb_capability.htm
 old-project: usbref
 ms.assetid: 96F3128C-C334-4531-9C86-3FA918A902AC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_udecx_wdf_device_query_usb_capability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], EvtUdecxWdfDeviceQueryUsbCapability, EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
+ms.date: 2/24/2018
+ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	UdecxWdfDevice.h
-apiname: 
+api_name:
 -	EvtUdecxWdfDeviceQueryUsbCapability
 product: Windows
 targetos: Windows
@@ -83,6 +83,7 @@ A handle to a framework device object that represents the controller. The client
 ### -param CapabilityType [in]
 
 Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i>  values are  as follows:
+
 <ul>
 <li>GUID_USB_CAPABILITY_CHAINED_MDLS</li>
 <li>GUID_USB_CAPABILITY_SELECTIVE_SUSPEND</li>
@@ -91,7 +92,8 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </li>
 <li>GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE</li>
 <li>GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE</li>
-</ul>   For information about the capabilities, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>.
+</ul>
+   For information about the capabilities, see the Remarks section of <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>.
 
 
 ### -param OutputBufferLength [in]
@@ -113,22 +115,28 @@ A location that, on return, contains the size, in bytes, of the information that
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. If a capability is not supported, the client driver can return NT_SUCCESS(status) equals FALSE, such as STATUS_UNSUCCESSFUL.
+
 
 
 
 ## -remarks
 
 
+
 The class extension invokes this callback function implemented by the client driver when the class extension receives a request to determine the emulated controller's capabilities. The callback is invoked only after <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> has returned, typically in <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. This callback cannot be invoked after <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> has returned. 
 
 The class extension reports these capability GUIDs, as not supported: 
+
 <ul>
 <li>GUID_USB_CAPABILITY_STATIC_STREAMS</li>
 <li>GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL</li>
-</ul>The class extension reports the GUID_USB_CAPABILITY_SELECTIVE_SUSPEND capability GUID as supported without even invoking the callback function.
+</ul>
+The class extension reports the GUID_USB_CAPABILITY_SELECTIVE_SUSPEND capability GUID as supported without even invoking the callback function.
 
 For other GUIDs, the class extension invokes the client driver's implementation, such as GUID_USB_CAPABILITY_CHAINED_MDLS. The client driver is expected to determine support for I/O requests that use a chained MDL. If this capability is supported then, the <b>TransferBufferMdl</b> member of the <a href="..\usb\ns-usb-_urb.md">URB</a> contains the request buffer. If chained MDL is not supported, the client driver does not receive <b>TransferBufferMdl</b> values that  point to chained MDLs.
+
 
 
 
@@ -136,11 +144,15 @@ For other GUIDs, the class extension invokes the client driver's implementation,
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

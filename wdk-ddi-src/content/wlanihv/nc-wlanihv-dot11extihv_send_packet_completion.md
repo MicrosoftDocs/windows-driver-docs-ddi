@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvsendpacketcompletion.htm
 old-project: netvista
 ms.assetid: 117a9806-95a0-4f2f-8280-fec035df2811
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvsendpacketcompletion, Dot11ExtIhvSendPacketCompletion callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvSendPacketCompletion, DOT11EXTIHV_SEND_PACKET_COMPLETION, DOT11EXTIHV_SEND_PACKET_COMPLETION, wlanihv/Dot11ExtIhvSendPacketCompletion, Native_802.11_IHV_Ext_c0d3f967-28a9-4242-9a4b-2faed66ae5b1.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_SEND_PACKET_COMPLETION, Dot11ExtIhvSendPacketCompletion, Dot11ExtIhvSendPacketCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c0d3f967-28a9-4242-9a4b-2faed66ae5b1.xml, netvista.dot11extihvsendpacketcompletion, wlanihv/Dot11ExtIhvSendPacketCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvSendPacketCompletion
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -83,13 +83,16 @@ The handle value that the IHV Extensions DLL used to identify the packet when it
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When the operating system calls the 
@@ -98,13 +101,16 @@ When the operating system calls the
 
 
 
+
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_SEND_PACKET_COMPLETION callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_SEND_PACKET_COMPLETION callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

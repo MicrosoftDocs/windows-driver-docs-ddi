@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITOR_INTERFACE_V2
-title: _DXGK_MONITOR_INTERFACE_V2
+title: "_DXGK_MONITOR_INTERFACE_V2"
 author: windows-driver-content
 description: The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the Monitor Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitor_interface_v2.htm
 old-project: display
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], display.dxgk_monitor_interface_v2, _DXGK_MONITOR_INTERFACE_V2, DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2
+ms.date: 2/24/2018
+ms.keywords: DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, _DXGK_MONITOR_INTERFACE_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, display.dxgk_monitor_interface_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_MONITOR_INTERFACE_V2
 product: Windows
 targetos: Windows
@@ -113,16 +113,21 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalm
 ## -remarks
 
 
-<div class="alert"><b>Note</b>    A display miniport driver must verify the interface version specified in the <b>Version</b> member before using this structure. This structure is available beginning with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>    A display miniport driver must verify the interface version specified in the <b>Version</b> member before using this structure. This structure is available beginning with Windows 7.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MONITOR_INTERFACE_V2 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MONITOR_INTERFACE_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

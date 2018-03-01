@@ -7,8 +7,8 @@ old-location: netvista\ndisreadnetworkaddress.htm
 old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisReadNetworkAddress, netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml
+ms.date: 2/16/2018
+ms.keywords: NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisReadNetworkAddress
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisReadNetworkAddress function
@@ -82,6 +82,20 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+The caller can use the address returned at 
+       <i>NetworkAddress</i> for the NIC.
+
+
+
+#### NDIS_STATUS_FAILURE
+
+There was no NIC address information available in the caller's registry 
+       <b>Parameters</b> key or the value stored was not a string.
+
+
 ### -param NetworkAddress [out]
 
 A pointer to a caller-supplied variable in which this function returns a pointer to a buffer that contains the
@@ -98,30 +112,21 @@ A pointer to a caller-supplied variable in which this function returns the numbe
 ### -param ConfigurationHandle [in]
 
 The configuration handle returned by the 
-     <mshelp:link keywords="netvista.ndisopenconfigurationex" tabindex="0"><b>
-     NdisOpenConfigurationEx</b></mshelp:link> function.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-There was no NIC address information available in the caller's registry 
-       <b>Parameters</b> key or the value stored was not a string.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The caller can use the address returned at 
-       <i>NetworkAddress</i> for the NIC.
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     NdisOpenConfigurationEx</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisReadNetworkAddress</b> searches the registry 
@@ -165,15 +170,20 @@ Note that NDIS does not validate the value at
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReadNetworkAddress function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisReadNetworkAddress function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

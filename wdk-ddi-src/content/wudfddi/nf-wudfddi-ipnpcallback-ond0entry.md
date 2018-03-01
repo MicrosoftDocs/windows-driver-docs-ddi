@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallback_ond0entry.htm
 old-project: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallback_ond0entry, OnD0Entry method, IPnpCallback interface, OnD0Entry method, wudfddi/IPnpCallback::OnD0Entry, IPnpCallback, OnD0Entry, IPnpCallback::OnD0Entry, umdf.ipnpcallback_ond0entry, IPnpCallback interface, OnD0Entry method, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml
+ms.date: 2/20/2018
+ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Entry method, IPnpCallback::OnD0Entry, OnD0Entry method, OnD0Entry method, IPnpCallback interface, OnD0Entry,IPnpCallback.OnD0Entry, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IPnpCallback.OnD0Entry
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POW
 ## -returns
 
 
+
 If the <b>OnD0Entry</b> callback encounters no errors, it must return
        S_OK or another status code for which SUCCEEDED(status) equals <b>TRUE</b>.
 
@@ -94,26 +95,37 @@ HRESULT error codes are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 
 
+
 ## -see-also
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallback::OnD0Entry method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallback::OnD0Entry method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

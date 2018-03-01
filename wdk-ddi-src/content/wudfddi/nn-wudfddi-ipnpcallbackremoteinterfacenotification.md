@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackremoteinterfacenotification.htm
 old-project: wdf
 ms.assetid: 99d670dd-2358-4f1a-b111-72484bf3132c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallbackremoteinterfacenotification, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification interface, described, IPnpCallbackRemoteInterfaceNotification, wudfddi/IPnpCallbackRemoteInterfaceNotification, UMDFDeviceObjectRef_4701eb20-04aa-412f-8511-f44a2590ee5b.xml, umdf.ipnpcallbackremoteinterfacenotification
+ms.date: 2/20/2018
+ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification interface, described, UMDFDeviceObjectRef_4701eb20-04aa-412f-8511-f44a2590ee5b.xml, umdf.ipnpcallbackremoteinterfacenotification, wdf.ipnpcallbackremoteinterfacenotification, wudfddi/IPnpCallbackRemoteInterfaceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IPnpCallbackRemoteInterfaceNotification
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 A driver's <b>IPnpCallbackRemoteInterfaceNotification</b> interface provides a callback function that the framework calls to notify the driver when a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackRemoteInterfaceNotification</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallbackRemoteInterfaceNotification</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -72,14 +79,14 @@ A driver's <a href="https://msdn.microsoft.com/19a0eec7-1a67-42ad-86d2-20566a2c1
 
 </td>
 </tr>
-</table>A driver's <a href="https://msdn.microsoft.com/19a0eec7-1a67-42ad-86d2-20566a2c1268">OnRemoteInterfaceArrival</a> event callback function informs the driver when a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> is available. 
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 If your driver supports an <b>IPnpCallbackRemoteInterfaceNotification</b> interface for a device, the <b>IUnknown::QueryInterface</b> method that the driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> must return the interface. 
+
 
 

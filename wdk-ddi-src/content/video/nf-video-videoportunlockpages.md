@@ -7,8 +7,8 @@ old-location: display\videoportunlockpages.htm
 old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, VideoPortUnlockPages function [Display Devices], display.videoportunlockpages, VideoPortUnlockPages, video/VideoPortUnlockPages
+ms.date: 2/24/2018
+ms.keywords: VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, display.videoportunlockpages, video/VideoPortUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortUnlockPages
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Specifies a non-<b>NULL</b> DMA handle.
 ## -returns
 
 
+
 <b>VideoPortUnlockPages</b> always returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
@@ -97,13 +100,16 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortUnlockPages function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortUnlockPages function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

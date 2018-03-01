@@ -1,14 +1,14 @@
 ---
 UID: NS:sti._STI_DEVICE_INFORMATIONW
-title: _STI_DEVICE_INFORMATIONW
+title: "_STI_DEVICE_INFORMATIONW"
 author: windows-driver-content
 description: The STI_DEVICE_INFORMATION structure is used as an output parameter for the IStillImage::GetDeviceList and IStillImage::GetDeviceInfo functions. It is used as an input parameter for IStillImage::SetupDeviceParameters.
 old-location: image\sti_device_information.htm
 old-project: image
 ms.assetid: 0c285630-876d-4b06-aace-4a2c4c06c1cb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PSTI_DEVICE_INFORMATIONW, STI_DEVICE_INFORMATION structure [Imaging Devices], sti/STI_DEVICE_INFORMATIONW, STI_DEVICE_INFORMATION, _STI_DEVICE_INFORMATIONW, sti/PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], image.sti_device_information, STI_DEVICE_INFORMATIONW
+ms.date: 2/23/2018
+ms.keywords: "*PSTI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_DEVICE_INFORMATION, STI_DEVICE_INFORMATION structure [Imaging Devices], STI_DEVICE_INFORMATIONW, _STI_DEVICE_INFORMATIONW, image.sti_device_information, sti/PSTI_DEVICE_INFORMATION, sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	sti.h
-apiname: 
+api_name:
 -	STI_DEVICE_INFORMATION
 product: Windows
 targetos: Windows

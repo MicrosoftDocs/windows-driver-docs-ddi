@@ -7,8 +7,8 @@ old-location: netvista\protocolqueryoffloadcomplete.htm
 old-project: netvista
 ms.assetid: f521af88-eb96-4077-8882-9b1d02c6c87c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolqueryoffloadcomplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], ProtocolQueryOffloadComplete, QUERY_OFFLOAD_COMPLETE_HANDLER, QUERY_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolQueryOffloadComplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
+ms.date: 2/16/2018
+ms.keywords: ProtocolQueryOffloadComplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], QUERY_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolQueryOffloadComplete, netvista.protocolqueryoffloadcomplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndischimney.h
-apiname: 
+api_name:
 -	ProtocolQueryOffloadComplete
 product: Windows
 targetos: Windows
@@ -87,8 +87,8 @@ A handle to a context area allocated by the protocol driver. The driver maintain
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that can be a stand-alone structure or the root of a
+     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the state that was queried or that was
      attempted to be queried.
 
@@ -96,57 +96,73 @@ A pointer to an
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 In response to an underlying offload target's or intermediate driver's call to the 
-    <mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-    NdisMQueryOffloadStateComplete</b></mshelp:link> function, NDIS calls the overlying protocol driver's or intermediate
+    <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+    NdisMQueryOffloadStateComplete</a> function, NDIS calls the overlying protocol driver's or intermediate
     driver's 
     <i>ProtocolQueryOffloadComplete</i> function.
 
 An intermediate driver must propagate the completion of the query offload operation to the driver
     above it by calling 
     <b>NdisMQueryOffloadStateComplete</b>. For more information, see 
-    <mshelp:link keywords="netvista.propagating_the_completion_of_a_state_manipulation_operation" tabindex="0">
-    Propagating the Completion of a State-Manipulation Operation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/propagating-the-completion-of-a-state-manipulation-operation">
+    Propagating the Completion of a State-Manipulation Operation</a>.
 
 From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its 
     <i>ProtocolQueryOffloadComplete</i> function, the intermediate driver constructs an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. For more information, see 
-    <mshelp:link keywords="netvista.reusing_an_ndis_protocol_offload_block_list_structure" tabindex="0">Reusing an
-    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST Structure</mshelp:link>. When calling the 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. For more information, see 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-protocol-offload-block-list-structure">Reusing an
+    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST Structure</a>. When calling the 
     <b>NdisMQueryOffloadStateComplete</b> function, the intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this newly constructed NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure.
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-   NdisMQueryOffloadStateComplete</b></mshelp:link>
-
-<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20QUERY_OFFLOAD_COMPLETE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20QUERY_OFFLOAD_COMPLETE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

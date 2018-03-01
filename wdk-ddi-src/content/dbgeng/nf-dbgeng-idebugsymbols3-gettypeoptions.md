@@ -7,8 +7,8 @@ old-location: debugger\gettypeoptions.htm
 old-project: debugger
 ms.assetid: a21442e5-8237-4d00-8d8a-6fabd6cc0db2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.gettypeoptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetTypeOptions, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols3::GetTypeOptions, IDebugSymbols3, GetTypeOptions, dbgeng/IDebugSymbols2::GetTypeOptions
+ms.date: 2/23/2018
+ms.keywords: GetTypeOptions method [Windows Debugging], GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, GetTypeOptions,IDebugSymbols3.GetTypeOptions, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols2::GetTypeOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols3::GetTypeOptions, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, dbgeng/IDebugSymbols2::GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, debugger.gettypeoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols2.GetTypeOptions
 -	IDebugSymbols3.GetTypeOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetTypeOptions method
@@ -76,7 +76,9 @@ Receives the type formatting options.  <i>Options</i> is a bit-set; for a descri
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After the type options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
@@ -106,21 +111,32 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::GetTypeOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::GetTypeOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

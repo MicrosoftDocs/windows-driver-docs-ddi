@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookentry_2.htm
 old-project: netvista
 ms.assetid: 848afbe3-be29-4c20-b9d0-33db98dab7bb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKENTRY, netvista.rilphonebookentry_2, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
+ms.date: 2/16/2018
+ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookentry_2, rilapitypes/RILPHONEBOOKENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKENTRY
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY
+req.typenames: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -84,55 +84,41 @@ typedef struct _RILPHONEBOOKENTRY {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwIndex
 
 
-
 ### -field raAddress
-
 
 
 ### -field wszText
 
 
-
 ### -field wszSecondName
-
 
 
 ### -field dwGroupIdCount
 
 
-
 ### -field rgdwGroupId
-
 
 
 ### -field dwAdditionalNumCount
 
 
-
 ### -field dwAdditionalNumSize
-
 
 
 ### -field dwAdditionalNumOffset
 
 
-
 ### -field dwEmailCount
-
 
 
 ### -field dwEmailSize
 
 
-
 ### -field dwEmailOffset
-
 

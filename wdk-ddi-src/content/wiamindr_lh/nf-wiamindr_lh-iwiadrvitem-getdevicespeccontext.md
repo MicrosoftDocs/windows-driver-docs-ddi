@@ -7,8 +7,8 @@ old-location: image\iwiadrvitem_getdevicespeccontext.htm
 old-project: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetDeviceSpecContext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, IWiaDrvItem
+ms.date: 2/23/2018
+ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, GetDeviceSpecContext,IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wiamindr_lh.h
-apiname: 
+api_name:
 -	IWiaDrvItem.GetDeviceSpecContext
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT GetDeviceSpecContext(
 
 
 
+
 #### - ppSpecContext [out, optional]
 
 Points to a memory location that will receive the address of a device-specific context.
@@ -82,14 +83,18 @@ Points to a memory location that will receive the address of a device-specific c
 ## -returns
 
 
+
 If the method succeeds, it stores a pointer to the device-specific context in <i>ppSpecContext</i> and returns S_OK. If the method fails because the parameter <i>ppSpecContext</i> specifies an invalid pointer, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+
 
 
 
@@ -97,11 +102,15 @@ Minidrivers typically use this method to obtain a pointer to a device-specific c
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetDeviceSpecContext method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetDeviceSpecContext method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

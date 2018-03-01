@@ -7,8 +7,8 @@ old-location: netvista\rilconfparticipantstatusparammask_2.htm
 old-project: netvista
 ms.assetid: 1194f333-7422-4dc2-9110-3fca067430a8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_CALLTRANSFER, rilapitypes/RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ADDRESS, rilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_PARTICIPANTOP, netvista.rilconfparticipantstatusparammask_2, rilapitypes/RIL_PARAM_CPS_SIPSTATUS, RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_ID, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCONFPARTICIPANTSTATUSPARAMMASK, rilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, rilapitypes/RIL_PARAM_CPS_CALLTRANSFER, rilapitypes/RIL_PARAM_CPS_ID, RIL_PARAM_CPS_SIPSTATUS
+ms.date: 2/16/2018
+ms.keywords: RILCONFPARTICIPANTSTATUSPARAMMASK, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_ID, RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_SIPSTATUS, netvista.rilconfparticipantstatusparammask_2, rilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, rilapitypes/RIL_PARAM_CPS_ADDRESS, rilapitypes/RIL_PARAM_CPS_ALL, rilapitypes/RIL_PARAM_CPS_CALLTRANSFER, rilapitypes/RIL_PARAM_CPS_ID, rilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, rilapitypes/RIL_PARAM_CPS_SIPSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCONFPARTICIPANTSTATUSPARAMMASK
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum _RILCONFPARTICIPANTSTATUSPARAMMASK {
 ### -field RIL_PARAM_CPS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_CPS_ID
-
 
 
 ### -field RIL_PARAM_CPS_CALLTRANSFER
 
 
-
 ### -field RIL_PARAM_CPS_ADDRESS
-
 
 
 ### -field RIL_PARAM_CPS_PARTICIPANTOP
 
 
-
 ### -field RIL_PARAM_CPS_SIPSTATUS
 
 
-
 ### -field RIL_PARAM_CPS_ALL
-
 

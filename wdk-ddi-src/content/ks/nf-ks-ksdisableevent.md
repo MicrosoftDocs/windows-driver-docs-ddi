@@ -7,8 +7,8 @@ old-location: stream\ksdisableevent.htm
 old-project: stream
 ms.assetid: 4af94bc4-9df3-4b37-a810-303748cc4b75
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksdisableevent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml
+ms.date: 2/23/2018
+ms.keywords: KsDisableEvent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml, stream.ksdisableevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsDisableEvent
 product: Windows
 targetos: Windows
@@ -94,14 +94,18 @@ Used to synchronize access to an element on the list. After the element has been
 ## -returns
 
 
+
 The <b>KsDisableEvent </b>function returns STATUS_SUCCESS if successful, or an error specific to the event being enabled. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP.
+
 
 
 
 ## -remarks
 
 
+
 It is important that the remove handler synchronize with event generation to ensure that when the event is removed from the list, it is not currently being serviced. Access to this list is assumed to be controlled with the lock passed. 
+
 
 
 
@@ -109,9 +113,11 @@ It is important that the remove handler synchronize with event generation to ens
 
 <a href="..\ks\nf-ks-ksenableevent.md">KsEnableEvent</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDisableEvent function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDisableEvent function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: netvista\rilsystemtype.htm
 old-project: netvista
 ms.assetid: 5a95969c-d7cd-4afa-affa-7095979ee56b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SYSTEMTYPE_1XRTT, RILSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SYSTEMTYPE_GSM, RIL_SYSTEMTYPE_EVDO, RIL_SYSTEMTYPE_GSM, rilapitypes/RIL_SYSTEMTYPE_CDMA, RIL_SYSTEMTYPE_GSMUMTS, rilapitypes/RIL_SYSTEMTYPE_1XRTT, RIL_SYSTEMTYPE_UMTS, rilapitypes/RILSYSTEMTYPE, RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_LTE, netvista.rilsystemtype, rilapitypes/RIL_SYSTEMTYPE_ALL, RIL_SYSTEMTYPE_CDMA, rilapitypes/RIL_SYSTEMTYPE_UMTS, RILSYSTEMTYPE, RIL_SYSTEMTYPE_ALL, rilapitypes/RIL_SYSTEMTYPE_TDSCDMA, rilapitypes/RIL_SYSTEMTYPE_EVDO, rilapitypes/RIL_SYSTEMTYPE_GSMUMTS, RIL_SYSTEMTYPE_LTE, RIL_SYSTEMTYPE_TDSCDMA
+ms.date: 2/16/2018
+ms.keywords: RILSYSTEMTYPE, RILSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMTYPE_1XRTT, RIL_SYSTEMTYPE_ALL, RIL_SYSTEMTYPE_CDMA, RIL_SYSTEMTYPE_EVDO, RIL_SYSTEMTYPE_GSM, RIL_SYSTEMTYPE_GSMUMTS, RIL_SYSTEMTYPE_LTE, RIL_SYSTEMTYPE_NONE, RIL_SYSTEMTYPE_TDSCDMA, RIL_SYSTEMTYPE_UMTS, netvista.rilsystemtype, rilapitypes/RILSYSTEMTYPE, rilapitypes/RIL_SYSTEMTYPE_1XRTT, rilapitypes/RIL_SYSTEMTYPE_ALL, rilapitypes/RIL_SYSTEMTYPE_CDMA, rilapitypes/RIL_SYSTEMTYPE_EVDO, rilapitypes/RIL_SYSTEMTYPE_GSM, rilapitypes/RIL_SYSTEMTYPE_GSMUMTS, rilapitypes/RIL_SYSTEMTYPE_LTE, rilapitypes/RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_TDSCDMA, rilapitypes/RIL_SYSTEMTYPE_UMTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSYSTEMTYPE
 product: Windows
 targetos: Windows
@@ -81,62 +81,51 @@ enum RILSYSTEMTYPE {
 ### -field RIL_SYSTEMTYPE_NONE
 
 
-
 ### -field RIL_SYSTEMTYPE_1XRTT
-
 
 
 ### -field RIL_SYSTEMTYPE_EVDO
 
 
-
 ### -field RIL_SYSTEMTYPE_GSM
-
 
 
 ### -field RIL_SYSTEMTYPE_UMTS
 
 
-
 ### -field RIL_SYSTEMTYPE_LTE
-
 
 
 ### -field RIL_SYSTEMTYPE_TDSCDMA
 
 
-
 ### -field RIL_SYSTEMTYPE_CDMA
-
 
 
 ### -field RIL_SYSTEMTYPE_GSMUMTS
 
 
-
 ### -field RIL_SYSTEMTYPE_GSMTDS
-
 
 
 ### -field RIL_SYSTEMTYPE_GSMUMTSTDS
 
 
-
 ### -field RIL_SYSTEMTYPE_3GPP
 
 
-
 ### -field RIL_SYSTEMTYPE_ALL
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILSYSTEMTYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILSYSTEMTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

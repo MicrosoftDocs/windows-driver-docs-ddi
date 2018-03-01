@@ -7,8 +7,8 @@ old-location: nfpdrivers\ioctl_smartcard_transmit.htm
 old-project: nfpdrivers
 ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.ioctl_smartcard_transmit, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_TRANSMIT, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winsmcrd.h
-apiname: 
+api_name:
 -	IOCTL_SMARTCARD_TRANSMIT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -71,7 +71,9 @@ Bytes buffer contains a pointer to SCARD_IO_REQUEST structure followed by the da
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -83,27 +85,34 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <td>Return Code</td>
@@ -133,18 +142,23 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 <td>STATUS_DEVICE_POWERED_OFF</td>
 <td>This code is returned if the proximity radio control is off.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20IOCTL_SMARTCARD_TRANSMIT control code%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20IOCTL_SMARTCARD_TRANSMIT control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

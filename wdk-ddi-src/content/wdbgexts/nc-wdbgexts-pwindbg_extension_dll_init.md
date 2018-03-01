@@ -7,8 +7,8 @@ old-location: debugger\windbgextensiondllinit.htm
 old-project: debugger
 ms.assetid: 1c97ac8c-9b40-44e8-b669-6b7d4ee2d671
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.windbgextensiondllinit, WinDbgExtensionDllInit, WinDbgExtensionDllInit callback function [Windows Debugging], WinDbgExtensionDllInit, PWINDBG_EXTENSION_DLL_INIT, PWINDBG_EXTENSION_DLL_INIT, wdbgexts/WinDbgExtensionDllInit, WdbgExts_Callbacks_18383848-27f2-4d4e-a5b0-c6ce27377687.xml
+ms.date: 2/23/2018
+ms.keywords: PWINDBG_EXTENSION_DLL_INIT, WdbgExts_Callbacks_18383848-27f2-4d4e-a5b0-c6ce27377687.xml, WinDbgExtensionDllInit, WinDbgExtensionDllInit callback function [Windows Debugging], debugger.windbgextensiondllinit, wdbgexts/WinDbgExtensionDllInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	WinDbgExtensionDllInit
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
@@ -73,6 +73,7 @@ VOID WinDbgExtensionDllInit(
 ### -param lpExtensionApis
 
 A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to functions that you can use for standard operations. Copy the entire structure to a global variable in your DLL. For example, you could create a  global variable named ExtensionApis as shown in the following example.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -97,11 +98,14 @@ Specifies the Windows build number (for example 2600) of the target system. Save
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>WinDbgExtensionDllInit</i> is called by the debugger when the extension DLL is loaded.
@@ -109,5 +113,6 @@ None
 It is recommended that you always use 64-bit pointers in your code, since the debugger will automatically resize these pointers when necessary. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details. However, if you choose to use 32-bit pointers, the first parameter of <i>WinDbgExtensionDllInit</i> will have the type PWINDBG_EXTENSION_APIS instead of PWINDBG_EXTENSION_APIS64.
 
 For more details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560220">Using WdbgExts Extension Callbacks</a>.
+
 
 

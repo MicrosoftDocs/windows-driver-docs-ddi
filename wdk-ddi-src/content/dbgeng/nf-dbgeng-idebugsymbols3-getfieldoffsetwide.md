@@ -7,8 +7,8 @@ old-location: debugger\getfieldoffsetwide.htm
 old-project: debugger
 ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide, GetFieldOffsetWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface
+ms.date: 2/23/2018
+ms.keywords: GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffsetWide,IDebugSymbols3.GetFieldOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols3.GetFieldOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetFieldOffsetWide method
@@ -93,7 +93,9 @@ Receives the offset of the specified field from the base memory location of an i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,15 +123,19 @@ The field <i>Field</i> could not be found in the type specified by <i>TypeId</i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the location of this field relative to the location of MyStruct structure can be found by setting the <i>Field</i> parameter to "MyField.MySubField".
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfcompanion._WDF_COMPANION_EVENT_CALLBACKS
-title: _WDF_COMPANION_EVENT_CALLBACKS
+title: "_WDF_COMPANION_EVENT_CALLBACKS"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks.htm
 old-project: wdf
 ms.assetid: 6a9c5420-1847-4145-aea5-9e9c58d86ea1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, *PWDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	WDF_COMPANION_EVENT_CALLBACKS
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ typedef struct _WDF_COMPANION_EVENT_CALLBACKS {
 ### -field Size
 
 
-
 ### -field EvtCompanionPreD0Entry
-
 
 
 ### -field EvtCompanionPostD0Exit
 
 
-
 ### -field EvtCompanionPrePrepareHardware
 
 
-
 ### -field EvtCompanionPostReleaseHardware
-
 

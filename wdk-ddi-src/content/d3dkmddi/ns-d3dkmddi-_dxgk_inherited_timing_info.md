@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_INHERITED_TIMING_INFO
-title: _DXGK_INHERITED_TIMING_INFO
+title: "_DXGK_INHERITED_TIMING_INFO"
 author: windows-driver-content
 description: Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds.
 old-location: display\dxgk_inherited_timing_info.htm
 old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], d3dkmddi/DXGK_INHERITED_TIMING_INFO, _DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], display.dxgk_inherited_timing_info
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_INHERITED_TIMING_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO
+req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO
 ---
 
 # _DXGK_INHERITED_TIMING_INFO structure
@@ -77,14 +77,9 @@ typedef struct _DXGK_INHERITED_TIMING_INFO {
 
 
 
-### -field OutputColorSpace
+### -field SelectedWireFormat
 
-A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
-
-
-### -field OutputWireColorSpace
-
- 
+ A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE value which indicates the wire format which is actually being used.  Although the target mode pinned in the VidPn returned by the call to DxgkDdiRecommendFunctionalVidPn could be required to describe exactly one wire format, that might require the driver to prepare a special target mode just for the boot case.  Instead, this field should be used to report the current wire color encoding format and bits per color channel.  Whichever format is reported in this field should also have been reported as supported in the target mode reported through DxgkDdiRecommendFunctionalVidPn.
 
 
 ### -field GlitchCause
@@ -107,7 +102,7 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
-### -field DiagnosticInfo
+#### - DiagnosticInfo
 
 Set of information filled out by the driver for the boot display to describe any side-effects of the DxgkDdiStartDevice.  
 
@@ -117,7 +112,7 @@ In many cases, glitches are inevitable so these fields attempt to understand the
 
 
 
-### -field SelectedWireFormat
+#### - OutputColorSpace
 
- A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE value which indicates the wire format which is actually being used.  Although the target mode pinned in the VidPn returned by the call to DxgkDdiRecommendFunctionalVidPn could be required to describe exactly one wire format, that might require the driver to prepare a special target mode just for the boot case.  Instead, this field should be used to report the current wire color encoding format and bits per color channel.  Whichever format is reported in this field should also have been reported as supported in the target mode reported through DxgkDdiRecommendFunctionalVidPn.
+A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
 

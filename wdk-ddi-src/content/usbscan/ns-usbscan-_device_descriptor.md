@@ -1,14 +1,14 @@
 ---
 UID: NS:usbscan._DEVICE_DESCRIPTOR
-title: _DEVICE_DESCRIPTOR
+title: "_DEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_DESCRIPTOR structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_DEVICE_DESCRIPTOR.
 old-location: image\device_descriptor.htm
 old-project: image
 ms.assetid: 15ad337a-0b33-48ba-98cf-6aff2698e2ba
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR structure [Imaging Devices], image.device_descriptor, _DEVICE_DESCRIPTOR, usbscan/PDEVICE_DESCRIPTOR, usbscan/DEVICE_DESCRIPTOR, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR structure [Imaging Devices], PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], _DEVICE_DESCRIPTOR, image.device_descriptor, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, usbscan/DEVICE_DESCRIPTOR, usbscan/PDEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbscan.h
-apiname: 
+api_name:
 -	DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR
+req.typenames: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatebundleobject.htm
 old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject, D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTCreateBundleObject
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTCreateBundleObject(
 
 
 
+
 #### - D3dkmt_createbundleobject [in, out]
 
 Holds information to create a bundle object.
@@ -78,6 +79,8 @@ Holds information to create a bundle object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the call has been successfully completed.
+
 
 

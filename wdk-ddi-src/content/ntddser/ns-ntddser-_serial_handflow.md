@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddser._SERIAL_HANDFLOW
-title: _SERIAL_HANDFLOW
+title: "_SERIAL_HANDFLOW"
 author: windows-driver-content
 description: The SERIAL_HANDFLOW structure specifies the handshake and flow control settings for a serial port.
 old-location: serports\serial_handflow.htm
 old-project: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PSERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, *PSERIAL_HANDFLOW, serports.serial_handflow, SERIAL_HANDFLOW, _SERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports]
+ms.date: 2/15/2018
+ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	SERIAL_HANDFLOW
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _SERIAL_HANDFLOW {
 ### -field ControlHandShake
 
 A bitmask that specifies the control lines that the serial port uses for flow control. This member is set to zero or to the bitwise-OR or one or more of the following flags.
+
 <table>
 <tr>
 <th>Value</th>
@@ -106,7 +107,8 @@ A bitmask that specifies the control lines that the serial port uses for flow co
 <td>SERIAL_ERROR_ABORT</td>
 <td>Abort a transmit or receive operation if an error occurs.</td>
 </tr>
-</table> 
+</table>
+ 
 
 SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the first four flags in the preceding table. Serial.sys supports all of the flags in the preceding table.
 
@@ -114,6 +116,7 @@ SerCx2 supports the SERIAL_CTS_HANDSHAKE flag, and may or may not support the ot
 ### -field FlowReplace
 
 A bitmask that specifies flow control behavior. This member is set to zero or to the bitwise-OR or one or more of the following flags.
+
 <table>
 <tr>
 <th>Value</th>
@@ -155,7 +158,8 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 <td>Continue to transmit after sending XOFF to the device on the other end of the line.
         </td>
 </tr>
-</table> 
+</table>
+ 
 
 SerCx2 supports the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags, but typically does not support the other six flags defined for this member, depending on the serial controller driver and the capabilities of the serial controller hardware. SerCx supports only the SERIAL_RTS_CONTROL and SERIAL_RTS_HANDSHAKE flags. Serial.sys supports all of the flags in the preceding table.
 
@@ -173,6 +177,7 @@ XOFF limit. When the number of characters in the internal receive buffer reaches
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a> requests.
 
 After sending an XOFF (transmit off) character, the serial port stops transmitting immediately, without sending any more characters. This behavior supports serial ports that interpret any character that follows an XOFF as an implied XON (transmit on).
@@ -181,15 +186,20 @@ SerCx2 and SerCx support only subsets of the flags that are defined for the <b>C
 
 
 
-## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+## -see-also
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
 
- 
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_HANDFLOW structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_HANDFLOW structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

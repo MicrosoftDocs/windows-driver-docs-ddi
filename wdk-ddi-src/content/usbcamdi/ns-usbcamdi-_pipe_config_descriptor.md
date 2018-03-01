@@ -1,14 +1,14 @@
 ---
 UID: NS:usbcamdi._pipe_config_descriptor
-title: _pipe_config_descriptor
+title: "_pipe_config_descriptor"
 author: windows-driver-content
 description: The USBCAMD_Pipe_Config_Descriptor structure describes the association between pipes and streams.
 old-location: stream\usbcamd_pipe_config_descriptor.htm
 old-project: stream
 ms.assetid: 8554a5d1-07ea-4ad5-83a4-f0c15386b3d1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], usbcamdi/USBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor, stream.usbcamd_pipe_config_descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, *PUSBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], _pipe_config_descriptor, USBCAMD_Pipe_Config_Descriptor
+ms.date: 2/23/2018
+ms.keywords: "*PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], _pipe_config_descriptor, stream.usbcamd_pipe_config_descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, usbcamdi/USBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	USBCAMD_Pipe_Config_Descriptor
 product: Windows
 targetos: Windows
-req.typenames: *PUSBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor
+req.typenames: USBCAMD_Pipe_Config_Descriptor, *PUSBCAMD_Pipe_Config_Descriptor
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ typedef struct _pipe_config_descriptor {
 ### -field StreamAssociation
 
 Specifies the type of stream. This should be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -107,12 +108,14 @@ Indicates that the stream contains both video and still data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PipeConfigFlags
 
 Specifies the pipe characteristics. This should be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -158,10 +161,12 @@ Indicates a pipe that is not to be used for video or still streaming.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The camera minidriver indicates pipe stream associations by identifying all streams associated with a particular pipe. If there is more than one stream association, USBCAMD creates a virtual still pin. The still stream pin always follows the video stream pin (that is, the video stream pin is the first stream pin). 
@@ -176,13 +181,16 @@ The USBCAMD library requires that the camera must have a single configuration de
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_Pipe_Config_Descriptor structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_Pipe_Config_Descriptor structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

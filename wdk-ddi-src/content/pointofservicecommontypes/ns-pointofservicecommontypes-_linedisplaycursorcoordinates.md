@@ -1,14 +1,14 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplayCursorCoordinates
-title: _LineDisplayCursorCoordinates
+title: "_LineDisplayCursorCoordinates"
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
 old-project: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/LineDisplayCursorCoordinates, PLineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, LineDisplayCursorCoordinates
+ms.date: 2/23/2018
+ms.keywords: LineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, PLineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, pointofservicecommontypes/LineDisplayCursorCoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicecommontypes.h
-apiname: 
+api_name:
 -	LineDisplayCursorCoordinates
 product: Windows
 targetos: Windows
@@ -78,6 +78,6 @@ typedef struct _LineDisplayCursorCoordinates {
 
 
 
-####### - ...
 
+####### - ...
 

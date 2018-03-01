@@ -7,8 +7,8 @@ old-location: kernel\rtlextendcorrelationvector.htm
 old-project: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector, RtlExtendCorrelationVector
+ms.date: 2/24/2018
+ms.keywords: RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlExtendCorrelationVector
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlExtendCorrelationVector function
@@ -80,7 +80,9 @@ A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VE
 
 
 
+
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,6 +112,8 @@ Extending the correlation vector resulted in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

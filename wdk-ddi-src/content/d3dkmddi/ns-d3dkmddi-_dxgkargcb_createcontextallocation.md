@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_CREATECONTEXTALLOCATION
-title: _DXGKARGCB_CREATECONTEXTALLOCATION
+title: "_DXGKARGCB_CREATECONTEXTALLOCATION"
 author: windows-driver-content
 description: Specifies the allocation attributes of a GPU context or device-specific context.
 old-location: display\dxgkargcb_createcontextallocation.htm
 old-project: display
 ms.assetid: 2f5338a9-2a53-4fee-af6a-8a052ef8c423
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, display.dxgkargcb_createcontextallocation, DXGKARGCB_CREATECONTEXTALLOCATION, _DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], *INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION
+ms.date: 2/24/2018
+ms.keywords: "*INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_CREATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, display.dxgkargcb_createcontextallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARGCB_CREATECONTEXTALLOCATION
 product: Windows
 targetos: Windows
@@ -92,7 +92,9 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
 ### -field hDevice
 
 [in] A handle to the display device that was originally passed by the DirectX graphics subsystem to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function.
-<div class="alert"><b>Note</b>  The member is set to <b>NULL</b> for a system device.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The member is set to <b>NULL</b> for a system device.</div>
+<div> </div>
 
 ### -field hContext
 
@@ -101,7 +103,9 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
                                                                 the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a> function.
 
 If <b>ContextAllocationFlags.SharedAcrossContexts</b> is set to a value of 1, this member should be set to <b>NULL</b>.
-<div class="alert"><b>Note</b>  The member is also set to <b>NULL</b> for a system context.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The member is also set to <b>NULL</b> for a system context.</div>
+<div> </div>
 
 ### -field hDriverAllocation
 
@@ -155,28 +159,41 @@ A handle created by the display miniport driver that identifies the created allo
 
 
 
+
 ## -remarks
+
 
 
 The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a> to allocate a GPU context or device-specific context. When the driver calls this function, it passes a pointer to a <b>DXGKARGCB_CREATECONTEXTALLOCATION</b> structure through the <i>ContextAllocation</i> parameter.
 
 
 
+
 ## -see-also
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
 
- 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextallocationflags.md">DXGK_CREATECONTEXTALLOCATIONFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_CREATECONTEXTALLOCATION structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_CREATECONTEXTALLOCATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrCardType
-title: _MsrCardType
+title: "_MsrCardType"
 author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe cards.
 old-location: pos\msrcardtype.htm
 old-project: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrCardType_Bank, MsrCardType_Aamva, MsrCardType, pointofservicedriverinterface/MsrCardType_ExtendedBase, _MsrCardType, pointofservicedriverinterface/MsrCardType_Unknown, MsrCardType_Bank, MsrCardType enumeration, MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType, MsrCardType_Unknown, pos.msrcardtype, pointofservicedriverinterface/MsrCardType_Aamva
+ms.date: 2/23/2018
+ms.keywords: MsrCardType, MsrCardType enumeration, MsrCardType_Aamva, MsrCardType_Bank, MsrCardType_ExtendedBase, MsrCardType_Unknown, _MsrCardType, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, pos.msrcardtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	MsrCardType
 product: Windows
 targetos: Windows

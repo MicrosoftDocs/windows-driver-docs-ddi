@@ -7,8 +7,8 @@ old-location: print\logjobinfoforbranchoffice.htm
 old-project: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/LogJobInfoForBranchOffice, LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice
+ms.date: 2/23/2018
+ms.keywords: LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	LogJobInfoForBranchOffice
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ Specifies a pointer to an array of <a href="https://docs.microsoft.com/en-us/dot
 ## -returns
 
 
+
 Indicates success or failure.
+
 
 

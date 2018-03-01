@@ -1,14 +1,14 @@
 ---
 UID: NE:wditypes._WDI_ACTION_FRAME_CATEGORY
-title: _WDI_ACTION_FRAME_CATEGORY
+title: "_WDI_ACTION_FRAME_CATEGORY"
 author: windows-driver-content
 description: The WDI_ACTION_FRAME_CATEGORY enumeration defines the action frame categories.
 old-location: netvista\wdi_action_frame_category.htm
 old-project: netvista
 ms.assetid: F2A3D1F0-E6E7-46DC-875A-7F36E6ACBC6D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WDI_ACTION_FRAME_CATEGORY, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM, netvista.wdi_action_frame_category, WDI_ACTION_FRAME_CATEGORY_PUBLIC, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY, netvista.wifi_action_frame_category, _WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY_WNM, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation]
+ms.date: 2/16/2018
+ms.keywords: WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation], WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, WDI_ACTION_FRAME_CATEGORY_WNM, _WDI_ACTION_FRAME_CATEGORY, netvista.wdi_action_frame_category, netvista.wifi_action_frame_category, wditypes/WDI_ACTION_FRAME_CATEGORY, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_ACTION_FRAME_CATEGORY
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ typedef enum _WDI_ACTION_FRAME_CATEGORY {
 ### -field WDI_ACTION_FRAME_CATEGORY_PUBLIC
 
 Specifies a Public Action frame.  It is used in:
+
 <ul>
 <li>Inter-BSS and AP to unassociated-STA communications</li>
 <li>Intra-BSS communication</li>

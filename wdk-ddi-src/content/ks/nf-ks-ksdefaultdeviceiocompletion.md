@@ -7,8 +7,8 @@ old-location: stream\ksdefaultdeviceiocompletion.htm
 old-project: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsDefaultDeviceIoCompletion, stream.ksdefaultdeviceiocompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, KsDefaultDeviceIoCompletion function [Streaming Media Devices], KsDefaultDeviceIoCompletion
+ms.date: 2/23/2018
+ms.keywords: KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsDefaultDeviceIoCompletion
 product: Windows
 targetos: Windows
@@ -82,13 +82,17 @@ Specifies the IRP to return a default response to.
 ## -returns
 
 
+
 The <b>KsDefaultDeviceIoCompletion</b> function returns the default response to the possible IOCTLs.
+
 
 
 
 ## -remarks
 
 
+
 Note that this routine will complete the IRP.
+
 
 

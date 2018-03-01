@@ -7,8 +7,8 @@ old-location: netvista\rilcallbarringstatusparamsstatus.htm
 old-project: netvista
 ms.assetid: aff61006-8bc4-4916-9718-a852516fc4d2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_BARRINGSTATUS_MAX, RIL_BARRINGSTATUS_ENABLED, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, ntddrilapitypes/RIL_BARRINGSTATUS_ENABLED, RIL_BARRINGSTATUS_MAX, RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallbarringstatusparamsstatus
+ms.date: 2/16/2018
+ms.keywords: RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_BARRINGSTATUS_ENABLED, RIL_BARRINGSTATUS_MAX, netvista.rilcallbarringstatusparamsstatus, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, ntddrilapitypes/RIL_BARRINGSTATUS_ENABLED, ntddrilapitypes/RIL_BARRINGSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLBARRINGSTATUSPARAMSSTATUS
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILCALLBARRINGSTATUSPARAMSSTATUS {
 ### -field RIL_BARRINGSTATUS_DISABLED
 
 
-
 ### -field RIL_BARRINGSTATUS_ENABLED
 
 
-
 ### -field RIL_BARRINGSTATUS_MAX
-
 

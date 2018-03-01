@@ -7,8 +7,8 @@ old-location: display\idarg_in_maxdisplaypipelinerate.htm
 old-project: display
 ms.assetid: 035c3d04-56e8-48ec-91d4-6d6a1a5037c4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDARG_IN_MAXDISPLAYPIPELINERATE, display.idarg_in_maxdisplaypipelinerate, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices], iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_MAXDISPLAYPIPELINERATE, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices], display.idarg_in_maxdisplaypipelinerate, iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDARG_IN_MAXDISPLAYPIPELINERATE
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: audio\bthhfp_audio_device_capabilties_init.htm
 old-project: audio
 ms.assetid: c00b8f19-6708-4ec2-928b-610158850247
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+ms.date: 2/22/2018
+ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthhfpddi.h
-apiname: 
+api_name:
 -	BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
+req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
@@ -77,6 +77,8 @@ A pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

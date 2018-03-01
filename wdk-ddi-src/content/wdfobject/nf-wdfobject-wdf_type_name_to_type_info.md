@@ -7,8 +7,8 @@ old-location: wdf\wdf_type_name_to_type_info.htm
 old-project: wdf
 ms.assetid: e0ebbfee-cf47-4bcc-a828-13d51ba14622
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_TYPE_NAME_TO_TYPE_INFO, wdf.wdf_type_name_to_type_info, DFGenObjectRef_4f9f25c8-aa26-478f-a8e8-a83e979c109b.xml, wdfobject/WDF_TYPE_NAME_TO_TYPE_INFO, kmdf.wdf_type_name_to_type_info, WDF_TYPE_NAME_TO_TYPE_INFO macro
+ms.date: 2/20/2018
+ms.keywords: DFGenObjectRef_4f9f25c8-aa26-478f-a8e8-a83e979c109b.xml, WDF_TYPE_NAME_TO_TYPE_INFO, WDF_TYPE_NAME_TO_TYPE_INFO macro, kmdf.wdf_type_name_to_type_info, wdf.wdf_type_name_to_type_info, wdfobject/WDF_TYPE_NAME_TO_TYPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WDF_GET_CONTEXT_TYPE_INFO
 product: Windows
 targetos: Windows
@@ -72,5 +72,4 @@ void WDF_GET_CONTEXT_TYPE_INFO(
 
 
 ### -param _contexttype
-
 

@@ -7,8 +7,8 @@ old-location: netvista\rilvoicedomain_2.htm
 old-project: netvista
 ms.assetid: bc0e9ba8-c790-402a-900a-7ae2b4f76060
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILVOICEDOMAIN, netvista.rilvoicedomain_2, RIL_VOICE_DOMAIN_IMS, rilapitypes/RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_3GPP2, rilapitypes/RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_MAX, RIL_VOICE_DOMAIN_3GPP, rilapitypes/RIL_VOICE_DOMAIN_MAX, RILVOICEDOMAIN, rilapitypes/RIL_VOICE_DOMAIN_3GPP
+ms.date: 2/16/2018
+ms.keywords: RILVOICEDOMAIN, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_MAX, netvista.rilvoicedomain_2, rilapitypes/RILVOICEDOMAIN, rilapitypes/RIL_VOICE_DOMAIN_3GPP, rilapitypes/RIL_VOICE_DOMAIN_3GPP2, rilapitypes/RIL_VOICE_DOMAIN_IMS, rilapitypes/RIL_VOICE_DOMAIN_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILVOICEDOMAIN
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILVOICEDOMAIN {
 ### -field RIL_VOICE_DOMAIN_NONE
 
 
-
 ### -field RIL_VOICE_DOMAIN_3GPP
-
 
 
 ### -field RIL_VOICE_DOMAIN_3GPP2
 
 
-
 ### -field RIL_VOICE_DOMAIN_IMS
 
 
-
 ### -field RIL_VOICE_DOMAIN_MAX
-
 

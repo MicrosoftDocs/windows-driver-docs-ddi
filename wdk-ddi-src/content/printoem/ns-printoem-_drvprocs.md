@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._DRVPROCS
-title: _DRVPROCS
+title: "_DRVPROCS"
 author: windows-driver-content
 description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
 old-location: print\drvprocs.htm
 old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDRVPROCS structure pointer [Print Devices], PDRVPROCS, printoem/PDRVPROCS, printoem/DRVPROCS, _DRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], print.drvprocs, *PDRVPROCS, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml
+ms.date: 2/23/2018
+ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	DRVPROCS
 product: Windows
 targetos: Windows
-req.typenames: *PDRVPROCS, DRVPROCS
+req.typenames: DRVPROCS, *PDRVPROCS
 req.product: Windows 10 or later.
 ---
 
@@ -58,42 +58,42 @@ All of the functions pointed to by members of this structure are obsolete. For i
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
+<a href="..\printoem\nc-printoem-pfn_drvwritespoolbuf.md">DrvWriteSpoolBuf</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548665">DrvXMoveTo</a>
+<a href="..\printoem\nc-printoem-pfn_drvxmoveto.md">DrvXMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548673">DrvYMoveTo</a>
+<a href="..\printoem\nc-printoem-pfn_drvymoveto.md">DrvYMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a>
+<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548562">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
+<a href="..\printoem\nc-printoem-pfn_drvgetstandardvariable.md">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548638">DrvUnidriverTextOut</a>
+<a href="..\printoem\nc-printoem-pfn_drvunidrivertextout.md">DrvUnidriverTextOut</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548657">DrvWriteAbortBuf</a>
+<a href="..\printoem\nc-printoem-pfn_drvwriteabortbuf.md">DrvWriteAbortBuf</a>
 
 
 </dd>
@@ -123,27 +123,20 @@ typedef struct _DRVPROCS {
 ### -field DrvWriteSpoolBuf
 
 
-
 ### -field DrvXMoveTo
-
 
 
 ### -field DrvYMoveTo
 
 
-
 ### -field DrvGetDriverSetting
-
 
 
 ### -field BGetStandardVariable
 
 
-
 ### -field DrvUnidriverTextOut
 
 
-
 ### -field DrvWriteAbortBuf
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._FINVOCATION
-title: _FINVOCATION
+title: "_FINVOCATION"
 author: windows-driver-content
 description: The FINVOCATION structure is used as input to the IPrintOemUni::SendFontCmd method. The structure is defined in printoem.h.
 old-location: print\finvocation.htm
 old-project: print
 ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FINVOCATION, printoem/PFINVOCATION, *PFINVOCATION, printoem/FINVOCATION, PFINVOCATION structure pointer [Print Devices], print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, PFINVOCATION, FINVOCATION structure [Print Devices], _FINVOCATION
+ms.date: 2/23/2018
+ms.keywords: "*PFINVOCATION, FINVOCATION, FINVOCATION structure [Print Devices], PFINVOCATION, PFINVOCATION structure pointer [Print Devices], _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	FINVOCATION
 product: Windows
 targetos: Windows
-req.typenames: *PFINVOCATION, FINVOCATION
+req.typenames: FINVOCATION, *PFINVOCATION
 req.product: Windows 10 or later.
 ---
 
@@ -83,9 +83,11 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20FINVOCATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20FINVOCATION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

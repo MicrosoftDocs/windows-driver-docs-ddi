@@ -7,13 +7,13 @@ old-location: netvista\rilgsmmnmrparammask.htm
 old-project: netvista
 ms.assetid: a226956d-2881-4cff-a800-988b70eb99ea
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_LAC, RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_CELLID, netvista.rilgsmmnmrparammask, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_CELLID
+ms.date: 2/16/2018
+ms.keywords: RILGSMMNMRPARAMMASK, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_LAC, RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, netvista.rilgsmmnmrparammask, rilapitypes/RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_CELLID, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILGSMMNMRPARAMMASK
 product: Windows
 targetos: Windows
@@ -81,41 +81,35 @@ enum RILGSMMNMRPARAMMASK {
 ### -field RIL_PARAM_GSMNMR_MCC
 
 
-
 ### -field RIL_PARAM_GSMNMR_MNC
-
 
 
 ### -field RIL_PARAM_GSMNMR_LAC
 
 
-
 ### -field RIL_PARAM_GSMNMR_CELLID
-
 
 
 ### -field RIL_PARAM_GSMNMR_ARFCN
 
 
-
 ### -field RIL_PARAM_GSMNMR_BSID
-
 
 
 ### -field RIL_PARAM_GSMNMR_RXLEVEL
 
 
-
 ### -field RIL_PARAM_GSMNMR_ALL
-
 
 
 ## -remarks
 
 
+
 In most situations both serving and neighbor cell sites will return all of these values.
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -261,9 +255,11 @@ Serving cell Rx measurement; range is mapped to a measured signal level:
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>GSM neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -397,7 +393,9 @@ Same as RxLevel in serving cell
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -405,9 +403,11 @@ Same as RxLevel in serving cell
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILGSMMNMRPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILGSMMNMRPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

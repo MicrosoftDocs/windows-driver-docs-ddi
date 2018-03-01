@@ -7,8 +7,8 @@ old-location: storage\storportallocateregistrybuffer.htm
 old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storport/StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, StorPortAllocateRegistryBuffer
+ms.date: 2/24/2018
+ms.keywords: StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortAllocateRegistryBuffer
 product: Windows
 targetos: Windows
@@ -83,14 +83,18 @@ Pointer to a long that indicates, on input, the length in bytes of the registry 
 ## -returns
 
 
+
 <b>StorPortAllocateRegistryBuffer</b> returns a pointer to the registry buffer that the caller requested, or <b>NULL</b> if some error prevents the memory from being allocated. 
+
 
 
 
 ## -remarks
 
 
+
 Each instantiation of a miniport driver can only have one registry buffer allocated at a time. If a miniport driver attempts to allocate more than one registry buffer, the allocation will fail and <b>StorPortAllocateRegistryBuffer</b> will return <b>NULL</b>.
+
 
 
 
@@ -98,9 +102,11 @@ Each instantiation of a miniport driver can only have one registry buffer alloca
 
 <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortAllocateRegistryBuffer routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortAllocateRegistryBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

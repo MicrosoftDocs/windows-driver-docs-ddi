@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediastate_2.htm
 old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILCALLMEDIASTATE, netvista.rilcallmediastate_2, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIASTATE
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate_2, rilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
+req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
 req.product: Windows 10 or later.
 ---
 
@@ -85,78 +85,44 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-### -field mediaStateUnion
-
-
-
-### -field mediaStateUnion.stAudioState
-
- 
-
-
-### -field mediaStateUnion.stVideoState
-
- 
-
-
-### -field mediaStateUnion.dwCustomStateSpecific
-
- 
-
-
-### -field mediaStateUnion.pad
-
- 
-
-
-### -field RILCALLMEDIASTATEUNION
-
-
-
 ### -field dwDirection
-
 
 
 ### -field dwCallMediaType
 
 
-
-#### - dwCustomStateSpecific
-
+### -field mediaStateUnion
 
 
-#### - RIL_CALLMEDIATYPE_VIDEO
-
-
-
-#### - RIL_CALLMEDIATYPE_UNKNOWN
-
-
-
-#### - case
-
+### -field RILCALLMEDIASTATEUNION
 
 
 #### - RIL_CALLMEDIATYPE_AUDIO
 
 
+#### - RIL_CALLMEDIATYPE_CUSTOM
 
-#### - switch_is
 
+#### - RIL_CALLMEDIATYPE_UNKNOWN
+
+
+#### - RIL_CALLMEDIATYPE_VIDEO
+
+
+#### - case
+
+
+#### - dwCustomStateSpecific
 
 
 #### - pad
 
 
+#### - stAudioState
+
 
 #### - stVideoState
 
 
-
-#### - stAudioState
-
-
-
-#### - RIL_CALLMEDIATYPE_CUSTOM
-
+#### - switch_is
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:wudfddi_types._WDF_KPROCESSOR_MODE
-title: _WDF_KPROCESSOR_MODE
+title: "_WDF_KPROCESSOR_MODE"
 author: windows-driver-content
 description: The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute.
 old-location: wdf\wdf_kprocessor_mode.htm
 old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfKernelMode, WdfKernelMode, wudfddi_types/WDF_KPROCESSOR_MODE, _WDF_KPROCESSOR_MODE, WdfKProcessorModeInvalid, WdfUserMode, wudfddi_types/WdfUserMode, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeMaximum, wudfddi_types/PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, wdf.wdf_kprocessor_mode, PWDF_KPROCESSOR_MODE enumeration pointer, wudfddi_types/WdfKProcessorModeMaximum, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, *PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeInvalid, WdfKProcessorModeMaximum, WdfKernelMode, WdfUserMode, _WDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wdf.wdf_kprocessor_mode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, wudfddi_types/WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/WdfUserMode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_types.h
-apiname: 
+api_name:
 -	WDF_KPROCESSOR_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE
+req.typenames: WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>.
+
 
 
 
@@ -104,9 +106,11 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="http
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_KPROCESSOR_MODE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_KPROCESSOR_MODE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

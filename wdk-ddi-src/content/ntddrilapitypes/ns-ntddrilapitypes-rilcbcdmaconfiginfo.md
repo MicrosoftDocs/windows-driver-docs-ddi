@@ -7,8 +7,8 @@ old-location: netvista\rilcbcdmaconfiginfo.htm
 old-project: netvista
 ms.assetid: 6f8b19ee-a079-4408-8567-39ad832879f2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilcbcdmaconfiginfo, ntddrilapitypes/RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbcdmaconfiginfo, ntddrilapitypes/RILCBCDMACONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCBCDMACONFIGINFO
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef struct _RILCBCDMACONFIGINFO {
 ### -field fAccept
 
 
-
 ### -field dwBroadcastMsgLang
 
 
-
 ### -field dwBroadcastServiceCategory
-
 

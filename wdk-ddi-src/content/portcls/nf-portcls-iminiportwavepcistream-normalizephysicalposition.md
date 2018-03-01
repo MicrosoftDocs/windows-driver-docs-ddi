@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 4ae4dc8d-3502-40c1-8109-6935990a7091
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], NormalizePhysicalPosition method, audio.iminiportwavepcistream_normalizephysicalposition, NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream::NormalizePhysicalPosition
+ms.date: 2/22/2018
+ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWavePciStream interface, NormalizePhysicalPosition,IMiniportWavePciStream.NormalizePhysicalPosition, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWavePciStream.NormalizePhysicalPosition
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Pointer to a caller-allocated buffer that contains either the physical position 
 ## -returns
 
 
+
 <code>NormalizePhysicalPosition</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 Given a physical position based on the actual number of bytes transferred, the <code>NormalizePhysicalPosition</code> method converts the position to a time-based value that is expressed in 100-nanosecond units.
+
 
 

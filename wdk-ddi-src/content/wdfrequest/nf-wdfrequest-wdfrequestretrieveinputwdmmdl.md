@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestretrieveinputwdmmdl.htm
 old-project: wdf
 ms.assetid: 8046d9e4-d4a2-4aeb-92b2-a48277af8b41
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveInputWdmMdl, wdfrequest/WdfRequestRetrieveInputWdmMdl, wdf.wdfrequestretrieveinputwdmmdl, PFN_WDFREQUESTRETRIEVEINPUTWDMMDL, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, WdfRequestRetrieveInputWdmMdl, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfRequestRetrieveInputWdmMdl
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ A pointer to a location that receives a pointer to an MDL.
 ## -returns
 
 
+
 <b>WdfRequestRetrieveInputWdmMdl</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,7 +148,8 @@ There is insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -157,7 +160,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A request's input buffer contains information, such as data to be written to a disk, that was supplied by the originator of the request. Your driver can call <b>WdfRequestRetrieveInputWdmMdl</b> for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
@@ -171,14 +176,56 @@ The driver must not access a request's MDL after <a href="https://docs.microsoft
 For more information about <b>WdfRequestRetrieveInputWdmMdl</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_write.md">EvtIoWrite</a> callback function that obtains an MDL for an I/O request's input buffer. If the call to <b>WdfRequestRetrieveInputWdmMdl</b> fails, the driver completes the request with the error status that <b>WdfRequestRetrieveInputWdmMdl</b> returns.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+MyDrvEvtIoWrite(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+    NTSTATUS  status;
+    PMDL  mdl = NULL;
+
+...
+    status = WdfRequestRetrieveInputWdmMdl(
+                                           Request,
+                                           &amp;mdl
+                                           );
+    if (!NT_SUCCESS(status))
+    {
+        WdfRequestCompleteWithInformation(
+                                          Request,
+                                          status,
+                                          0
+                                          );
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestRetrieveInputWdmMdl method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestRetrieveInputWdmMdl method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

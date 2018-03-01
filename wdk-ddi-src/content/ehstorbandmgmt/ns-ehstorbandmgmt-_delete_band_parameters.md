@@ -1,14 +1,14 @@
 ---
 UID: NS:ehstorbandmgmt._DELETE_BAND_PARAMETERS
-title: _DELETE_BAND_PARAMETERS
+title: "_DELETE_BAND_PARAMETERS"
 author: windows-driver-content
 description: A configured band is deleted according to the parameters in a DELETE_BAND_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_DELETE_BAND request.
 old-location: storage\delete_band_parameters.htm
 old-project: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DELBAND_ERASE_BEFORE_DELETE, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], PDELETE_BAND_PARAMETERS, storage.delete_band_parameters, _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], *PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS
+ms.date: 2/24/2018
+ms.keywords: "*PDELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, storage.delete_band_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorBandMgmt.h
-apiname: 
+api_name:
 -	DELETE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS
+req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 ---
 
 # _DELETE_BAND_PARAMETERS structure
@@ -80,6 +80,7 @@ The size of this structure in bytes. Set to <b>sizeof</b>(DELETE_BAND_PARAMETERS
 ### -field Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -95,7 +96,8 @@ Perform a cryptographic erase of the band property data before delete.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -116,6 +118,7 @@ The starting byte location on the storage device to begin a band search. An atte
 ### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <b>DELETE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -131,20 +134,24 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authoriza
 </tr>
 </table></span></div>
 
-To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>. If <b>Flags</b> contains <b>DELBAND_ERASE_BEFORE_DELETE</b>, <b>AuthKeyOffset</b> must be set to <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-##### - AuthKeyOffset.KeySize
+
+#### KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-##### - AuthKeyOffset.Key
+
+#### Key
 
 A variable-length byte array containing the key data.
 
+To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>. If <b>Flags</b> contains <b>DELBAND_ERASE_BEFORE_DELETE</b>, <b>AuthKeyOffset</b> must be set to <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 ## -remarks
+
 
 
  Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>.
@@ -155,17 +162,24 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
 
+
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DELETE_BAND_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DELETE_BAND_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

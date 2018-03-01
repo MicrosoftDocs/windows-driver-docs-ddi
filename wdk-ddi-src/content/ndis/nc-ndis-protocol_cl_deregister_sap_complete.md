@@ -7,8 +7,8 @@ old-location: netvista\protocolclderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolclderegistersapcomplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], ProtocolClDeregisterSapComplete, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ndis/ProtocolClDeregisterSapComplete, condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml
+ms.date: 2/16/2018
+ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	ProtocolClDeregisterSapComplete
 product: Windows
 targetos: Windows
@@ -88,30 +88,8 @@ Specifies the final status of the client's request to deregister its SAP, which 
 
 
 
-### -param ProtocolSapContext [in]
 
-Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
-     <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
-     release its context area or prepare this context area for reuse.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
-       <i>NdisSapHandle</i> was already released when the client's call to 
-       <mshelp:link keywords="netvista.ndisclderegistersap" tabindex="0"><b>
-       NdisClDeregisterSap</b></mshelp:link> occurred.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager failed the request to close the SAP for some CM-determined reason, and NDIS
-       propagated the status returned by its 
-       <mshelp:link keywords="netvista.protocolcmderegistersap" tabindex="0"><i>
-       ProtocolCmDeregisterSap</i></mshelp:link> function to the client.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 The SAP was closed. The 
        <i>NdisSapHandle</i> that represented the client's previously registered SAP, which the client stored
@@ -119,14 +97,42 @@ The SAP was closed. The
        <i>ProtocolSapContext</i> area, is now invalid.
 
 
+
+#### NDIS_STATUS_FAILURE
+
+NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
+       <i>NdisSapHandle</i> was already released when the client's call to 
+       <a href="..\ndis\nf-ndis-ndisclderegistersap.md">
+       NdisClDeregisterSap</a> occurred.
+
+
+
+#### NDIS_STATUS_XXX
+
+The call manager failed the request to close the SAP for some CM-determined reason, and NDIS
+       propagated the status returned by its 
+       <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+       ProtocolCmDeregisterSap</a> function to the client.
+
+
+### -param ProtocolSapContext [in]
+
+Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
+     <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
+     release its context area or prepare this context area for reuse.
+
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 A call to 
@@ -141,9 +147,12 @@ Unless the call manager failed the deregistration for some CM-determined reason,
     <i>ProtocolClDeregisterSapComplete</i> can release the per-SAP context area that the client allocated or
     prepare it for reuse in a subsequent call to 
     <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolClDeregisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolClDeregisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClDeregisterSapComplete</i> function that is named "MyClDeregisterSapComplete", use the <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -153,7 +162,9 @@ For example, to define a <i>ProtocolClDeregisterSapComplete</i> function that is
 <pre>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE MyClDeregisterSapComplete;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -169,32 +180,48 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

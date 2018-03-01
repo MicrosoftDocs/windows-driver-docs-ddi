@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
-title: _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration is used to indicate the type of copy protection that is supported by a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection_type.htm
 old-project: display
 ms.assetid: ee9405a6-7d56-4ca6-98c2-fd04addef8cd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPMT_NOPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection_type, d3dkmdt/D3DKMDT_VPPMT_NOPROTECTION, D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, DmEnums_48fdc75d-b1cb-4bc2-80b1-0aa79b16f480.xml, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VPPMT_UNINITIALIZED, D3DKMDT_VPPMT_UNINITIALIZED
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration [Display Devices], D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VPPMT_NOPROTECTION, D3DKMDT_VPPMT_UNINITIALIZED, DmEnums_48fdc75d-b1cb-4bc2-80b1-0aa79b16f480.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, d3dkmdt/D3DKMDT_VPPMT_NOPROTECTION, d3dkmdt/D3DKMDT_VPPMT_UNINITIALIZED, display.d3dkmdt_vidpn_present_path_copyprotection_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Indicates that the path provides full Rovi (formerly Macrovision) copy protectio
 ## -remarks
 
 
+
 The <b>CopyProtectionType</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration.
+
 
 

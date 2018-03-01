@@ -7,8 +7,8 @@ old-location: display\startsessionkeyrefresh1.htm
 old-project: display
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh callback function [Display Devices], pfnStartSessionKeyRefresh, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH, d3d10umddi/pfnStartSessionKeyRefresh
+ms.date: 2/24/2018
+ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	pfnStartSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback
@@ -95,14 +95,7 @@ The size, in bytes, of the number in the buffer that is referenced by the <i>pRa
 
 
 
-### -param *pRandomNumber
-
-
-
-
-
-
-#### - pRandomNumber [in]
+### -param *pRandomNumber [in]
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
@@ -111,11 +104,14 @@ A pointer to a buffer that contains the status sequence number for the random st
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for all cryptographic types.
@@ -130,15 +126,20 @@ When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

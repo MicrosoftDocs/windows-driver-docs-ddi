@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcbcopyunicodestringex.htm
 old-project: kernel
 ms.assetid: 146f0e43-a9de-4d4d-8b8f-219c22cfa871
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml, RtlStringCbCopyUnicodeStringEx, ntstrsafe/RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestringex
+ms.date: 2/24/2018
+ms.keywords: RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestringex, ntstrsafe/RtlStringCbCopyUnicodeStringEx, safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCbCopyUnicodeStringEx
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCopyUnicodeStringEx function
@@ -105,27 +105,32 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 
 
 
-##### - dwFlags.STRSAFE_FILL_BEHIND_NULL
+
+#### STRSAFE_FILL_BEHIND_NULL
 
 If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the terminating null character. 
 
 
-##### - dwFlags.STRSAFE_IGNORE_NULLS
+
+#### STRSAFE_IGNORE_NULLS
 
 If this flag is set, either the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlStringCbCopyUnicodeStringEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings. 
 
 
-##### - dwFlags.STRSAFE_NULL_ON_FAILURE
 
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents. 
-
-
-##### - dwFlags.STRSAFE_FILL_ON_FAILURE
+#### STRSAFE_FILL_ON_FAILURE
 
 If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer, and the buffer is null-terminated. This operation overwrites any preexisting buffer contents. 
 
 
-##### - dwFlags.STRSAFE_NO_TRUNCATION
+
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents. 
+
+
+
+#### STRSAFE_NO_TRUNCATION
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
 
@@ -133,7 +138,9 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the content
 ## -returns
 
 
+
 <b>RtlStringCbCopyUnicodeStringEx</b> returns one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,9 +179,11 @@ This <i>error</i> status means that the function received an invalid input param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlStringCbCopyUnicodeStringEx</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>An invalid flag is specified in dwFlags.</li>
@@ -183,11 +192,14 @@ This <i>error</i> status means that the function received an invalid input param
 <li>A buffer pointer is <b>NULL</b> and the STRSAFE_IGNORE_NULLS flag is not specified.</li>
 <li>The destination buffer pointer is <b>NULL</b>, but the buffer size is not zero.</li>
 <li>The destination buffer pointer is <b>NULL</b> or its length is zero, but a nonzero length source string is present.</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlStringCbCopyUnicodeStringEx</b> function uses the destination buffer's size (which the <i>cbDest</i> parameter specifies) to ensure that the copy operation does not write past the end of the buffer.
@@ -202,17 +214,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestring.md">RtlStringCbCopyUnicodeString</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestringex.md">RtlStringCchCopyUnicodeStringEx</a>
 
- 
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestring.md">RtlStringCbCopyUnicodeString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCopyUnicodeStringEx function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCopyUnicodeStringEx function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

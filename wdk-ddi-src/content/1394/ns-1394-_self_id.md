@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._SELF_ID
-title: _SELF_ID
+title: "_SELF_ID"
 author: windows-driver-content
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
 old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PSELF_ID, PSELF_ID, 1394/PSELF_ID, _SELF_ID, SELF_ID structure [Buses], 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID structure pointer [Buses], SELF_ID, 1394/SELF_ID, IEEE.self_id
+ms.date: 2/15/2018
+ms.keywords: "*PSELF_ID, 1394/PSELF_ID, 1394/SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, IEEE.self_id, PSELF_ID, PSELF_ID structure pointer [Buses], SELF_ID, SELF_ID structure [Buses], _SELF_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	SELF_ID
 product: Windows
 targetos: Windows
@@ -141,6 +141,7 @@ Currently always zero. This member contains bits 4-5 of byte 2 of the self-ID pa
 ### -field SID_Speed
 
 Specifies the maximum data transfer rate that is supported by the node. This member must have one of the values specified in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -186,7 +187,8 @@ Reserved (generally treated as S400/S800 speed)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SID_More_Packets
@@ -227,7 +229,9 @@ Member <b>SID_Port1</b> contains bits 2-3 of byte 3 of the self-ID packet. Membe
 ## -remarks
 
 
+
 This structure corresponds to self ID packet 0, as described in the <i>P1394a</i> specification.
+
 
 
 
@@ -235,9 +239,11 @@ This structure corresponds to self ID packet 0, as described in the <i>P1394a</i
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

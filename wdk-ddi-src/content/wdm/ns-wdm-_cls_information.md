@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._CLS_INFORMATION
-title: _CLS_INFORMATION
+title: "_CLS_INFORMATION"
 author: windows-driver-content
 description: The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log.
 old-location: kernel\clfs_information.htm
 old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: *PPCLS_INFORMATION, wdm/CLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_INFORMATION structure [Kernel-Mode Driver Architecture], *PCLFS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/PCLFS_INFORMATION, PPCLS_INFORMATION, CLFS_INFORMATION, wdm/PPCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_information, wdm/CLFS_INFORMATION, PCLS_INFORMATION, wdm/PCLS_INFORMATION, PCLFS_INFORMATION, wdm/PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, PPCLFS_INFORMATION, *PCLS_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_INFORMATION, kernel.clfs_information, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/CLFS_INFORMATION, wdm/CLS_INFORMATION, wdm/PCLFS_INFORMATION, wdm/PCLS_INFORMATION, wdm/PPCLFS_INFORMATION, wdm/PPCLS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	CLS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: CLS_INFORMATION, *PPCLS_INFORMATION, *PCLS_INFORMATION
+req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -172,11 +172,13 @@ A GUID that serves as a unique identifier for the log.
 ## -remarks
 
 
+
 The <a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a> function returns information about a CLFS stream and/or its underlying physical log. The type of information returned depends on the <i>eInformationClass</i> parameter. 
 
 If the <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformationPhysical</b>, <b>ClfsQueryLogFileInformation</b> returns information in a <b>CLFS_INFORMATION</b> structure, and every structure member holds a piece of information about a physical CLFS log. Even if the log is multiplexed (that is, it has several streams), all structure members hold information about the underlying physical log rather than information about one of the streams.
 
 If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>, <b>ClfsQueryLogFileInformation</b> returns information in a <b>CLFS_INFORMATION</b> structure. Most of the structure members hold information about a CLFS physical log, but if the log is multiplexed, certain members hold information that is specific to a particular stream. The following structure members hold information that is specific to a stream rather than the underlying physical log:
+
 <ul>
 <li>
 <b>TotalUndoCommitment</b>
@@ -201,17 +203,24 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
-
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

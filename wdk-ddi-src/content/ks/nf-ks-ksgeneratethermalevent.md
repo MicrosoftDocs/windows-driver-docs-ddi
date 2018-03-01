@@ -7,8 +7,8 @@ old-location: stream\ksgeneratethermalevent.htm
 old-project: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], stream.ksgeneratethermalevent, KsGenerateThermalEvent
+ms.date: 2/23/2018
+ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ks.lib
 -	ks.dll
-apiname: 
+api_name:
 -	KsGenerateThermalEvent
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ KSDEVICE_THERMAL_STATE_LOW or KSDEVICE_THERMAL_STATE_HIGH
 ## -returns
 
 
+
  Returns STATUS_SUCCESS for success and STATUS_INVALID_DEVICE_REQUEST if the parameters are incorrect.
+
 
 

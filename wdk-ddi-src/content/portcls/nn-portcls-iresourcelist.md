@@ -7,8 +7,8 @@ old-location: audio\iresourcelist.htm
 old-project: audio
 ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iresourcelist, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices], described, IResourceList, portcls/IResourceList, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml
+ms.date: 2/22/2018
+ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices], described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IResourceList
 product: Windows
 targetos: Windows
@@ -217,7 +217,7 @@ SubAllocateFroms
 </tr>
 </table> 
 
-For the meanings of the resource type names in the left column above, see <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For the meanings of the resource type names in the left column above, see <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 The following table explicitly lists the four macros that portcls.h defines for each of the nine resource types. To the right of each macro is the equivalent call to an <code>IResourceList</code> method.
 <table>

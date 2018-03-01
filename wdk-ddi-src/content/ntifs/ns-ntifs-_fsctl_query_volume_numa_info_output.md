@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
-title: _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
+title: "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure specifies the Non-Uniform Memory Architecture (NUMA) node the volume resides on.
 old-location: ifsk\fsctl_query_volume_numa_info_output_.htm
 old-project: ifsk
 ms.assetid: 3BB6F409-A716-4990-B1C6-D0F8035DA7F0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ifsk.fsctl_query_volume_numa_info_output_, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure pointer [Installable File System Drivers], FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure [Installable File System Drivers], ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
+ms.date: 2/16/2018
+ms.keywords: "*PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure [Installable File System Drivers], PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ifsk.fsctl_query_volume_numa_info_output_, ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntifs.h
-apiname: 
+api_name:
 -	FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
 product: Windows
 targetos: Windows

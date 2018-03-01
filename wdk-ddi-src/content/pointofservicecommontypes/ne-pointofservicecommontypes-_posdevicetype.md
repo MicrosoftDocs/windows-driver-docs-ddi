@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicecommontypes._PosDeviceType
-title: _PosDeviceType
+title: "_PosDeviceType"
 author: windows-driver-content
 description: This enumeration defines values used in the PosDeviceBasicsType structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
 old-location: pos\posdevicetype.htm
 old-project: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PosDeviceType_Max, PosDeviceType enumeration, PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_BarcodeScanner, PosDeviceType, pointofservicecommontypes/PosDeviceType_Unknown, _PosDeviceType, pointofservicecommontypes/PosDeviceType, PosDeviceType_Unknown, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType_MagneticStripeReader, PosDeviceType_CashDrawer, PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_CashDrawer, pos.posdevicetype, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_Max
+ms.date: 2/23/2018
+ms.keywords: PosDeviceType, PosDeviceType enumeration, PosDeviceType_BarcodeScanner, PosDeviceType_CashDrawer, PosDeviceType_MagneticStripeReader, PosDeviceType_Max, PosDeviceType_Printer, PosDeviceType_Unknown, _PosDeviceType, pointofservicecommontypes/PosDeviceType, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType_Max, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_Unknown, pos.posdevicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicecommontypes.h
-apiname: 
+api_name:
 -	PosDeviceType
 product: Windows
 targetos: Windows
@@ -98,7 +98,6 @@ Indicates that the type of device is a cash drawer.
 
 
 ### -field PosDeviceType_LineDisplay
-
 
 
 ### -field PosDeviceType_Max

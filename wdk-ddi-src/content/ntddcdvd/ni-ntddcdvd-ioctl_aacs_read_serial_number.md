@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_serial_number.htm
 old-project: storage
 ms.assetid: 258224d7-adc1-4002-8c90-4487134dbfd7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_aacs_read_serial_number, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], IOCTL_AACS_READ_SERIAL_NUMBER, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_SERIAL_NUMBER, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, storage.ioctl_aacs_read_serial_number
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_AACS_READ_SERIAL_NUMBER
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_serial_number.md">AACS_SERIAL
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,8 +108,10 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -remarks
 
 
+
 The IOCTL_AACS_READ_SERIAL_NUMBER request corresponds to the part of the AACS authentication protocol that is responsible for transferring the prerecorded media serial number. For a complete description of this protocol, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA). 
 
 The AGID is automatically released after the IOCTL_AACS_READ_SERIAL_NUMBER request completes. 
+
 
 

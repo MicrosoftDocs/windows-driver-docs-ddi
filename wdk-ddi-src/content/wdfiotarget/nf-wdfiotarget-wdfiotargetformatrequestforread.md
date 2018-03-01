@@ -7,8 +7,8 @@ old-location: wdf\wdfiotargetformatrequestforread.htm
 old-project: wdf
 ms.assetid: e7c770de-0508-46e8-9820-aee6716fb7a7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetformatrequestforread, WdfIoTargetFormatRequestForRead method, wdf.wdfiotargetformatrequestforread, PFN_WDFIOTARGETFORMATREQUESTFORREAD, DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, wdfiotarget/WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead
+ms.date: 2/20/2018
+ms.keywords: DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead method, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, wdfiotarget/WdfIoTargetFormatRequestForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfIoTargetFormatRequestForRead
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,7 @@ A handle to a framework memory object. This object represents a buffer that will
 
 ### -param OutputBufferOffset [in, optional]
 
-A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the output buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the output buffer, and the transfer size is the buffer size.
+A pointer to a caller-allocated <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the output buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the output buffer, and the transfer size is the buffer size.
 
 
 ### -param DeviceOffset [in, optional]
@@ -105,7 +105,9 @@ A pointer to a variable that specifies a starting offset for the transfer. The I
 ## -returns
 
 
+
 <b>WdfIoTargetFormatRequestForRead</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,7 +157,8 @@ The I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the <i>Req
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -165,7 +168,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use the <b>WdfIoTargetFormatRequestForRead</b> method, followed by the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> method, to send read requests either synchronously or asynchronously. Alternatively, use the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a> method to send read requests synchronously. 
@@ -173,6 +178,7 @@ Use the <b>WdfIoTargetFormatRequestForRead</b> method, followed by the <a href="
 You can forward an I/O request that your driver received in an I/O queue, or you can create and send a new request. In either case, the framework requires a request object and some buffer space.
 
 To forward an I/O request that your driver received in an I/O queue:
+
 <ol>
 <li>
 Specify the received request's handle for the <b>WdfIoTargetFormatRequestForRead</b> method's <i>Request</i> parameter.
@@ -184,11 +190,13 @@ Use the received request's output buffer for the <b>WdfIoTargetFormatRequestForR
 The driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> to obtain a handle to a framework memory object that represents the request's output buffer and must use that handle as the value for <i>OutputBuffer</i>.
 
 </li>
-</ol>For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+</ol>
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
 To create a new I/O request:
+
 <ol>
 <li>
 Create a new request object and supply its handle for the <b>WdfIoTargetFormatRequestForRead</b> method's <i>Request</i> parameter.
@@ -208,7 +216,8 @@ Your driver must specify this buffer space as a WDFMEMORY handle to framework-ma
 Note that if your driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> and passes the memory handle to <b>WdfIoTargetFormatRequestForRead</b>, the driver must not complete the received I/O request until after the driver deletes, reuses, or reformats the new, driver-created request object. (<b>WdfIoTargetFormatRequestForRead</b> increments the memory object's reference count. Deleting, reusing, or reformatting a request object decrements the memory object's reference count.)
 
 </li>
-</ol>Some I/O targets accept read requests that have a zero-length buffer. For such I/O targets, your driver can specify <b>NULL</b> for the <i>OutputBuffer</i> parameter.
+</ol>
+Some I/O targets accept read requests that have a zero-length buffer. For such I/O targets, your driver can specify <b>NULL</b> for the <i>OutputBuffer</i> parameter.
 
 After a driver calls <b>WdfIoTargetFormatRequestForRead</b> to format an I/O request, it must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to send the request (either synchronously or asynchronously) to an I/O target.
 
@@ -221,38 +230,124 @@ For more information about <b>WdfIoTargetFormatRequestForRead</b>, see <a href="
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example creates a framework memory object for a read request's output buffer, formats the read request, registers a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, and sends the read request to an I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFREQUEST  request;
+NTSTATUS  status;
+WDFMEMORY  memory;
+WDF_OBJECT_ATTRIBUTES  attributes;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+status = WdfMemoryCreate(
+                         &amp;attributes,
+                         NonPagedPool,
+                         DRIVER_TAG,
+                         READ_BUF_SIZE,
+                         &amp;memory,
+                         NULL
+                         );
+
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+status = WdfIoTargetFormatRequestForRead(
+                                         IoTarget,
+                                         request,
+                                         memory,
+                                         NULL,
+                                         NULL
+                                         );
+if (!NT_SUCCESS(status)) {
+        return status;
+}
+WdfRequestSetCompletionRoutine(
+                               request,
+                               MyReadRequestCompletionRoutine,
+                               targetInfo
+                               );
+if (WdfRequestSend(
+                   request,
+                   IoTarget,
+                   WDF_NO_SEND_OPTIONS
+                   ) == FALSE) {
+        status = WdfRequestGetStatus(request);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforwrite.md">WdfIoTargetFormatRequestForWrite</a>
 
- 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetFormatRequestForRead method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetFormatRequestForRead method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

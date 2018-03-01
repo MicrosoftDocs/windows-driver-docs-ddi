@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_isoutendpoint.htm
 old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint, IWDFUsbTargetPipe::IsOutEndPoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, umdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsOutEndPoint method, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint method
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsOutEndPoint method, IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint method, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint,IWDFUsbTargetPipe.IsOutEndPoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, umdf.iwdfusbtargetpipe_isoutendpoint, wdf.iwdfusbtargetpipe_isoutendpoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbTargetPipe.IsOutEndPoint
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -69,29 +69,46 @@ BOOL  IsOutEndPoint();
 
 
 
+
 ## -returns
+
 
 
 <b>IsOutEndPoint</b> returns a BOOL value that indicates whether the USB pipe is an OUT pipe. <b>TRUE</b> indicates the pipe is an OUT pipe. <b>FALSE</b> indicates the pipe is not an OUT pipe.
 
 
 
+
 ## -remarks
 
 
+
 If the USB pipe is an OUT pipe, a UMDF driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a> method to format a write request. The framework can then send the request to the USB pipe.
-<div class="alert"><b>Note</b>    The meaning of IN and OUT is opposite in WDF and USB.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The meaning of IN and OUT is opposite in WDF and USB.</div>
+<div> </div>
+
+#### Examples
+
+For a code example of how to use the <b>IsOutEndPoint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>.
+
+<div class="code"></div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::IsOutEndPoint method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::IsOutEndPoint method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

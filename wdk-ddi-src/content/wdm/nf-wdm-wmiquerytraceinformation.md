@@ -7,8 +7,8 @@ old-location: kernel\wmiquerytraceinformation.htm
 old-project: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation, wdm/WmiQueryTraceInformation, kernel.wmiquerytraceinformation
+ms.date: 2/24/2018
+ms.keywords: WmiQueryTraceInformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, kernel.wmiquerytraceinformation, wdm/WmiQueryTraceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	WmiQueryTraceInformation
 product: Windows
 targetos: Windows
@@ -98,6 +98,7 @@ A pointer to the query-specific input information that a caller supplies. If cal
 
 
 ## -returns
+
 
 
 <table>
@@ -193,14 +194,18 @@ A global logger was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For each type of event trace information specified by <i>TraceInformationClass</i>, the following table provides:
+
 <ul>
 <li>
 Input requirements
@@ -210,7 +215,8 @@ Input requirements
 Information that <b>WmiQueryTraceInformation</b> returns in the <i>TraceInformation</i> buffer
 
 </li>
-</ul><table>
+</ul>
+<table>
 <tr>
 <th>Value of<i> TraceClassInformation </i></th>
 <th>Input requirements</th>
@@ -352,7 +358,8 @@ The size, in bytes, of the <i>TraceInformation</i> buffer must be greater than o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQueryTraceInformation</b> also returns the required length for the specified event trace information.
 
@@ -360,21 +367,32 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
-
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
- 
+
+
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiQueryTraceInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiQueryTraceInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
 old-project: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetCreateParametersEx method, IWDFIoRequest2::GetCreateParametersEx, IWDFIoRequest2 interface, GetCreateParametersEx method, GetCreateParametersEx, GetCreateParametersEx method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::GetCreateParametersEx, IWDFIoRequest2, wdf.iwdfiorequest2_getcreateparametersex, umdf.iwdfiorequest2_getcreateparametersex, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml
+ms.date: 2/20/2018
+ms.keywords: GetCreateParametersEx method, GetCreateParametersEx method, IWDFIoRequest2 interface, GetCreateParametersEx,IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2, IWDFIoRequest2 interface, GetCreateParametersEx method, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFIoRequest2.GetCreateParametersEx
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -108,11 +108,14 @@ This parameter is optional and can be <b>NULL</b>.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 After the framework calls a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a> method or the <b>IWDFIoRequest2::GetCreateParametersEx</b> method to obtain the file's creation parameters. 
@@ -120,18 +123,58 @@ After the framework calls a driver's <a href="https://msdn.microsoft.com/library
 For more information, see <a href="https://msdn.microsoft.com/1ba1fdcf-99bd-44e3-adbf-5dc93a790900">Obtaining Parameters for I/O Requests</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface and then call <b>GetCreateParametersEx</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+OnCreateFile(
+    __in IWDFIoQueue* FxQueue,
+    __in IWDFIoRequest* FxRequest,
+    __in IWDFFile* FxFile
+    )
+{
+    ULONG fileOptions;
+    USHORT fileAttributes,
+    USHORT shareAccess,
+    ACCESS_MASK desiredAccess;
+    ...
+    CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2(FxRequest);
+    fxRequest2-&gt;GetCreateParametersEx(&amp;fileOptions
+                                      &amp;fileAttributes,
+                                      &amp;shareAccess,
+                                      &amp;desiredAccess);
+    ...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::GetCreateParametersEx method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::GetCreateParametersEx method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

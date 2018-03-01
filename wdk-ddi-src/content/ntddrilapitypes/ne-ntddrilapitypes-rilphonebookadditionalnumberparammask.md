@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookadditionalnumberparammask.htm
 old-project: netvista
 ms.assetid: e4cebb97-29e4-4979-9fdc-8120850d8a1e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_PBAN_ALL, ntddrilapitypes/RIL_PARAM_PBAN_NUMID, ntddrilapitypes/RIL_PARAM_PBAN_ALL, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, netvista.rilphonebookadditionalnumberparammask, RIL_PARAM_PBAN_NUMID, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILPHONEBOOKADDITIONALNUMBERPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_PBAN_ALL, ntddrilapitypes/RIL_PARAM_PBAN_NUMID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKADDITIONALNUMBERPARAMMASK
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILPHONEBOOKADDITIONALNUMBERPARAMMASK {
 ### -field RIL_PARAM_PBAN_ADDRESS
 
 
-
 ### -field RIL_PARAM_PBAN_NUMID
 
 
-
 ### -field RIL_PARAM_PBAN_ALL
-
 

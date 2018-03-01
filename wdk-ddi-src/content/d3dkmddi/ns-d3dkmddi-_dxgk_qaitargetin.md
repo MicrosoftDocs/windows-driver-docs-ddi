@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_QAITARGETIN
-title: _DXGK_QAITARGETIN
+title: "_DXGK_QAITARGETIN"
 author: windows-driver-content
 description: Used to integrate a target.
 old-location: display\dxgk_qaitargetin.htm
 old-project: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, DXGK_QAITARGETIN, DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QAITARGETIN structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_QAITARGETIN
 product: Windows
 targetos: Windows

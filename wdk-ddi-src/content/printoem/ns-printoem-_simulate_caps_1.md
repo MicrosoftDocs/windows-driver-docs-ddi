@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._SIMULATE_CAPS_1
-title: _SIMULATE_CAPS_1
+title: "_SIMULATE_CAPS_1"
 author: windows-driver-content
 description: The SIMULATE_CAPS_1 structure contains information about the types of simulations a spooler supports.
 old-location: print\simulate_caps_1.htm
 old-project: print
 ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PSIMULATE_CAPS_1 structure pointer [Print Devices], SIMULATE_CAPS_1 structure [Print Devices], printoem/SIMULATE_CAPS_1, SIMULATE_CAPS_1, printoem/PSIMULATE_CAPS_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, print.simulate_caps_1, _SIMULATE_CAPS_1, PSIMULATE_CAPS_1, *PSIMULATE_CAPS_1
+ms.date: 2/23/2018
+ms.keywords: "*PSIMULATE_CAPS_1, PSIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], _SIMULATE_CAPS_1, print.simulate_caps_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, printoem/PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	SIMULATE_CAPS_1
 product: Windows
 targetos: Windows
-req.typenames: *PSIMULATE_CAPS_1, SIMULATE_CAPS_1
+req.typenames: SIMULATE_CAPS_1, *PSIMULATE_CAPS_1
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Specifies the version of this structure. This value must be 1.
 ### -field dwPageOrderFlags
 
 Specifies the order in which pages will be printed. This member can be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,7 +116,8 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwNumberOfCopies
@@ -136,7 +138,9 @@ Is a bitmask representing the various numbers of document pages the printer can 
 ## -remarks
 
 
+
 The <b>IPrintCoreUI2::QuerySimulationSupport</b> method uses this structure to report the spooler's level of simulation support to a user-interface plug-in.
+
 
 
 
@@ -144,9 +148,11 @@ The <b>IPrintCoreUI2::QuerySimulationSupport</b> method uses this structure to r
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553074">IPrintCoreUI2::QuerySimulationSupport</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20SIMULATE_CAPS_1 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20SIMULATE_CAPS_1 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

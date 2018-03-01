@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_FLIPOVERLAY
-title: _DXGKARG_FLIPOVERLAY
+title: "_DXGKARG_FLIPOVERLAY"
 author: windows-driver-content
 description: The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\dxgkarg_flipoverlay.htm
 old-project: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, display.dxgkarg_flipoverlay, DXGKARG_FLIPOVERLAY structure [Display Devices], d3dkmddi/DXGKARG_FLIPOVERLAY
+ms.date: 2/24/2018
+ms.keywords: DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, display.dxgkarg_flipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARG_FLIPOVERLAY
 product: Windows
 targetos: Windows
@@ -100,9 +100,11 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_flipoverlay.md">DxgkDdiFlipOverlay</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_FLIPOVERLAY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_FLIPOVERLAY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

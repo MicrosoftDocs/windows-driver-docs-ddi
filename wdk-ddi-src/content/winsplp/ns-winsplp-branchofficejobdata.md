@@ -7,8 +7,8 @@ old-location: print\branchofficejobdata.htm
 old-project: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobData structure pointer [Print Devices], winsplp/PBranchOfficeJobData, print.branchofficejobdata, winsplp/BranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, *PBranchOfficeJobData
+ms.date: 2/23/2018
+ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	BranchOfficeJobData
 product: Windows
 targetos: Windows
@@ -76,35 +76,6 @@ typedef struct {
 
 
 
-### -field JobInfo
-
-
-
-### -field JobInfo.LogJobPrinted
-
-Describes  the <b>BranchOfficeJobDataPrinted</b> type member <b>LogJobPrinted</b>.
-
-
-### -field JobInfo.LogJobRendered
-
-Describes the <b>BranchOfficeJobDataRendered</b> type member <b>LogJobRendered</b>.
-
-
-### -field JobInfo.LogJobError
-
-Describes the <b>BranchOfficeJobDataError</b> type member <b>LogJobError</b>.
-
-
-### -field JobInfo.LogPipelineFailed
-
-Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelineFailed</b>.
-
-
-### -field JobInfo.LogOfflineFileFull
-
-Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
-
-
 ### -field eEventType
 
 Specifies the type of event to be logged.
@@ -113,4 +84,37 @@ Specifies the type of event to be logged.
 ### -field JobId
 
 Specifies the ID of the job on the client.
+
+
+### -field JobInfo
+
+
+
+#### LogJobPrinted
+
+Describes  the <b>BranchOfficeJobDataPrinted</b> type member <b>LogJobPrinted</b>.
+
+
+
+#### LogJobRendered
+
+Describes the <b>BranchOfficeJobDataRendered</b> type member <b>LogJobRendered</b>.
+
+
+
+#### LogJobError
+
+Describes the <b>BranchOfficeJobDataError</b> type member <b>LogJobError</b>.
+
+
+
+#### LogPipelineFailed
+
+Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelineFailed</b>.
+
+
+
+#### LogOfflineFileFull
+
+Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
 

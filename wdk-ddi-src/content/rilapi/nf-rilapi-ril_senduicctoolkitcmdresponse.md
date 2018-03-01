@@ -7,8 +7,8 @@ old-location: netvista\ril_senduicctoolkitcmdresponse.htm
 old-project: netvista
 ms.assetid: 400e2172-803c-4b6c-a41e-3c322077ffa4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], RIL_SendUiccToolkitCmdResponse, rilapi/RIL_SendUiccToolkitCmdResponse, netvista.ril_senduicctoolkitcmdresponse
+ms.date: 2/16/2018
+ms.keywords: RIL_SendUiccToolkitCmdResponse, RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitcmdresponse, rilapi/RIL_SendUiccToolkitCmdResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SendUiccToolkitCmdResponse
 product: Windows
 targetos: Windows
@@ -77,26 +77,23 @@ HRESULT  RIL_SendUiccToolkitCmdResponse(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param pbDetails
-
 
 
 ### -param dwDetailSize
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

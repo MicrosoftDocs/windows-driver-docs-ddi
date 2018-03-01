@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvinitadapter.htm
 old-project: netvista
 ms.assetid: 96dc1718-ee35-440a-94e8-eba4a41c9559
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvinitadapter, Dot11ExtIhvInitAdapter callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvInitAdapter, DOT11EXTIHV_INIT_ADAPTER, DOT11EXTIHV_INIT_ADAPTER, wlanihv/Dot11ExtIhvInitAdapter, Native_802.11_IHV_Ext_c2fbb863-6b05-4444-90f1-37f375db9b9e.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_INIT_ADAPTER, Dot11ExtIhvInitAdapter, Dot11ExtIhvInitAdapter callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c2fbb863-6b05-4444-90f1-37f375db9b9e.xml, netvista.dot11extihvinitadapter, wlanihv/Dot11ExtIhvInitAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvInitAdapter
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,8 @@ A pointer to a
 A handle assigned by the operating system for the adapter. The IHV Extensions DLL must use this
      handle value when calling any IHV Extensibility function that declares an 
      <i>hDot11SvcHandle</i> parameter, such as 
-     <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-     Dot11ExtPreAssociateCompletion</b></mshelp:link>.
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+     Dot11ExtPreAssociateCompletion</a>.
 
 
 ### -param phIhvExtAdapter [out]
@@ -98,8 +98,8 @@ A pointer to a handle variable. The IHV Extensions DLL must assign a unique hand
      <i>phIhvExtAdapter</i> to the handle value. The operating system uses this handle value when it calls any
      IHV Handler function that declares an 
      <i>hIhvExtAdapter</i> parameter, such as 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link>. 
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a>. 
      
 
 Typically, the IHV Extensions DLL allocates a state array for the adapter context and returns the
@@ -109,13 +109,16 @@ Typically, the IHV Extensions DLL allocates a state array for the adapter contex
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the 
@@ -127,22 +130,31 @@ For more information about WLAN adapter initialization, see
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
-   Extensibility Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+   Extensibility Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
 
 <a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
 
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_INIT_ADAPTER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_INIT_ADAPTER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

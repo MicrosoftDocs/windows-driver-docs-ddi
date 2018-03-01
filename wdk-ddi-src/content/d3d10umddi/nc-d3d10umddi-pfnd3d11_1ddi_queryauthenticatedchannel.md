@@ -7,8 +7,8 @@ old-location: display\queryauthenticatedchannel1.htm
 old-project: display
 ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.queryauthenticatedchannel1, QueryAuthenticatedChannel callback function [Display Devices], QueryAuthenticatedChannel, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1
+ms.date: 2/24/2018
+ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	QueryAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback
@@ -94,8 +94,9 @@ The size, in bytes, of the data in the <i>pInputData</i> array.
 
 
 
-### -param *pInputData
+### -param *pInputData [out]
 
+A pointer to a buffer that describes the information to query. The data in this buffer is formatted as a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure.
 
 
 ### -param OutputDataSize [in]
@@ -105,19 +106,7 @@ The size, in bytes, of the data in the <i>pOutputData</i> array.
 
 
 
-### -param *pOutputData
-
-
-
-
-
-
-#### - pInputData [out]
-
-A pointer to a buffer that describes the information to query. The data in this buffer is formatted as a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure.
-
-
-#### - pOutputData [out]
+### -param *pOutputData [out]
 
 A pointer to a buffer that contains the queried information. For more information, see the Remarks section.
 
@@ -125,7 +114,9 @@ A pointer to a buffer that contains the queried information. For more informatio
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -176,11 +167,14 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>pInputData</i> parameter references a buffer that contains a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure. This structure contains the driver's handle to the authenticated channel, a sequence number, and a GUID that indicates the type of query to perform.  The driver must return  <b>E_INVALIDARG</b> if the sequence number was not previously initialized by using the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel.md">ConfigureAuthenticatedChannel(D3D11_1)</a> function.  The driver must  also return  <b>E_INVALIDARG</b> if the sequence number is not greater than the sequence number of the previous query call.
@@ -192,6 +186,7 @@ The byte array that is referenced by the <i>pOutputData</i> parameter is in a fo
 
 
 The driver prepares the output buffer that is referenced by the <i>pOutputData</i> parameter by following these steps:
+
 <ol>
 <li>
 Each structure that is returned based on the <b>QueryType</b> member starts with a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a> structure. The driver must copy the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> to the <b>D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</b> structure. 
@@ -213,7 +208,9 @@ The driver must sign the <i>pOutputData</i> buffer in a way that is identical to
 The <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a> structure contains an AES-based one-key CBC message authentication code (OMAC) of the data. The display miniport driver must calculate an OMAC over the data in the output buffer to authenticate the data. The driver does this by first setting the <b>omac</b> member to zero and then calculating an OMAC for the data in the buffer. The driver then sets the <b>omac</b> member to the OMAC that it calculated.
 
 </li>
-</ol>The display miniport driver must return  <b>E_INVALIDARG</b> for the <i>QueryAuthenticatedChannel(D3D11_1)</i> call under the following conditions:
+</ol>
+The display miniport driver must return  <b>E_INVALIDARG</b> for the <i>QueryAuthenticatedChannel(D3D11_1)</i> call under the following conditions:
+
 <ul>
 <li>
 The sequence number is not greater than a sequence number that was specified in a previous configuration call.
@@ -232,19 +229,28 @@ The <i>OutputDataSize</i> parameter is less than size of the structure specified
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel.md">ConfigureAuthenticatedChannel(D3D11_1)</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_input.md">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

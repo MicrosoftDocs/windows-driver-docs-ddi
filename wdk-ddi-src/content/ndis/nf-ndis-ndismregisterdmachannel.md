@@ -7,8 +7,8 @@ old-location: netvista\ndismregisterdmachannel.htm
 old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismregisterdmachannel, ndis/NdisMRegisterDmaChannel
+ms.date: 2/16/2018
+ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMRegisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterDmaChannel function
@@ -85,8 +85,8 @@ A pointer to a caller-supplied variable in which this function returns a handle 
 ### -param MiniportAdapterHandle [in]
 
 The miniport adapter handle input to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param DmaChannel [in]
@@ -105,6 +105,7 @@ A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, 
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,18 +123,36 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
 } NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;</pre>
 </td>
 </tr>
-</table></span></div>The driver should initialize this structure with zeros before filling in the following members:
+</table></span></div>
+The driver should initialize this structure with zeros before filling in the following members:
 
 
 
 
-### -param MaximumLength [in]
 
-The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
-     unlimited transfer capacity, set this parameter to -1.
+#### DemandMode
+
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
+       mode. Otherwise, it is <b>FALSE</b>.
 
 
-##### - DmaDescription.DmaWidth
+
+#### AutoInitialize
+
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
+       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
+
+
+
+#### DmaChannelSpecified
+
+A boolean value that is <b>TRUE</b> if 
+       <b>DmaChannel</b> is set to the bus-relative value of the system DMA controller channel used by the
+       NIC. Otherwise, it is <b>FALSE</b>.
+
+
+
+#### DmaWidth
 
 The transfer width for DMA operations, one of 
        <b>Width8Bits</b>, 
@@ -141,31 +160,8 @@ The transfer width for DMA operations, one of
        <b>Width32Bits</b>.
 
 
-##### - DmaDescription.DmaChannel
 
-The bus-relative number of the system DMA controller channel used by the NIC.
-
-
-##### - DmaDescription.DmaPort
-
-This member refers to the MCA bus, which is no longer supported. This member must be
-       zero.
-
-
-##### - DmaDescription.AutoInitialize
-
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
-       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
-
-
-##### - DmaDescription.DmaChannelSpecified
-
-A boolean value that is <b>TRUE</b> if 
-       <b>DmaChannel</b> is set to the bus-relative value of the system DMA controller channel used by the
-       NIC. Otherwise, it is <b>FALSE</b>.
-
-
-##### - DmaDescription.DmaSpeed
+#### DmaSpeed
 
 The DMA speed as one of 
        <b>Compatible</b>, 
@@ -174,16 +170,31 @@ The DMA speed as one of
        <b>TypeC</b>.
 
 
-##### - DmaDescription.DemandMode
 
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
-       mode. Otherwise, it is <b>FALSE</b>.
+#### DmaPort
+
+This member refers to the MCA bus, which is no longer supported. This member must be
+       zero.
+
+
+
+#### DmaChannel
+
+The bus-relative number of the system DMA controller channel used by the NIC.
+
+
+### -param MaximumLength [in]
+
+The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
+     unlimited transfer capacity, set this parameter to -1.
 
 
 ## -returns
 
 
+
 <b>NdisMRegisterDmaChannel</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -238,11 +249,14 @@ Either the bus type or bus number is out of range or the driver declared the NIC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver of a subordinate-DMA NIC must call 
@@ -255,8 +269,8 @@ The driver of an ISA bus-master NIC also must call
     <i>MiniportInitializeEx</i> to claim a system DMA controller channel for the NIC in the registry.
 
 <i>MiniportInitializeEx</i> must call the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function before calling 
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function before calling 
     <b>NdisMRegisterDmaChannel</b>.
 
 <i>MiniportInitializeEx</i> obtained the bus-relative values passed to 
@@ -268,8 +282,9 @@ If such a driver cannot allocate the system DMA resources that its device needs,
     initialization for that NIC.
 
 If the driver successfully registers the DMA channel, it must later call the 
-    <mshelp:link keywords="netvista.ndismderegisterdmachannel" tabindex="0"><b>
-    NdisMDeregisterDmaChannel</b></mshelp:link> function to deregister the DMA channel.
+    <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">
+    NdisMDeregisterDmaChannel</a> function to deregister the DMA channel.
+
 
 
 
@@ -277,15 +292,23 @@ If the driver successfully registers the DMA channel, it must later call the
 
 <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterDmaChannel function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterDmaChannel function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

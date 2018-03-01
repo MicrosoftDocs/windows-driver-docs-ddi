@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_buffer_ulong.htm
 old-project: wdf
 ms.assetid: 249D8FCF-6B63-467B-AEAA-BCF4900CFA48
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG, wdf.wdf_read_register_buffer_ulong, WDF_READ_REGISTER_BUFFER_ULONG
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG, WDF_READ_REGISTER_BUFFER_ULONG function, wdf.wdf_read_register_buffer_ulong, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdfhwaccess.h
-apiname: 
+api_name:
 -	WDF_READ_REGISTER_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -96,6 +96,8 @@ Specifies the number of ULONG values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtwaitforidle.htm
 old-project: display
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForIdle, display.d3dkmtwaitforidle, D3DKMTWaitForIdle function [Display Devices], d3dkmthk/D3DKMTWaitForIdle, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTWaitForIdle
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_W
 ## -returns
 
 
+
 <b>D3DKMTWaitForIdle</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,9 +115,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
@@ -122,9 +127,11 @@ This function might also return other NTSTATUS values.
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTWaitForIdle function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTWaitForIdle function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

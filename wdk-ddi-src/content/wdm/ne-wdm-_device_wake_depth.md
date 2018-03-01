@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._DEVICE_WAKE_DEPTH
-title: _DEVICE_WAKE_DEPTH
+title: "_DEVICE_WAKE_DEPTH"
 author: windows-driver-content
 description: The DEVICE_WAKE_DEPTH enumeration specifies the deepest device power state from which a device can trigger a wake signal.
 old-location: kernel\device_wake_depth.htm
 old-project: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], wdm/DeviceWakeDepthD3hot, DeviceWakeDepthD0, DeviceWakeDepthD2, DeviceWakeDepthD3cold, DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthNotWakeable, *PDEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD3cold, _DEVICE_WAKE_DEPTH, DeviceWakeDepthNotWakeable, DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD1, wdm/DEVICE_WAKE_DEPTH, kernel.device_wake_depth
+ms.date: 2/24/2018
+ms.keywords: "*PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], DeviceWakeDepthD0, DeviceWakeDepthD1, DeviceWakeDepthD2, DeviceWakeDepthD3cold, DeviceWakeDepthD3hot, DeviceWakeDepthMaximum, DeviceWakeDepthNotWakeable, _DEVICE_WAKE_DEPTH, kernel.device_wake_depth, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, wdm/DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthD3cold, wdm/DeviceWakeDepthD3hot, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthNotWakeable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	DEVICE_WAKE_DEPTH
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH
+req.typenames: DEVICE_WAKE_DEPTH, *PDEVICE_WAKE_DEPTH
 req.product: Windows 10 or later.
 ---
 
@@ -112,9 +112,11 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <i>DeepestWakeableDstate</i> parameter of the <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a> routine is a pointer to a variable of type <b>DEVICE_WAKE_DEPTH</b>.
 
 The drivers for most devices have no reason to arm a wake signal when the device is in D0. These drivers can treat the <b>DeviceWakeDepthD0</b> output value as equivalent to a call to the <i>GetIdleWakeInfo</i> routine that fails and returns an error status.
+
 
 
 
@@ -122,9 +124,11 @@ The drivers for most devices have no reason to arm a wake signal when the device
 
 <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_WAKE_DEPTH enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_WAKE_DEPTH enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

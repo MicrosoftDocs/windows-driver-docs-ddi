@@ -7,8 +7,8 @@ old-location: audio\iportwavepcistream_terminatepacket.htm
 old-project: audio
 ms.assetid: b85c37ff-b8f0-43df-bce2-f8a85ec050a7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IPortWavePciStream interface [Audio Devices], TerminatePacket method, TerminatePacket method [Audio Devices], IPortWavePciStream interface, audio.iportwavepcistream_terminatepacket, TerminatePacket, IPortWavePciStream, portcls/IPortWavePciStream::TerminatePacket, IPortWavePciStream::TerminatePacket, TerminatePacket method [Audio Devices], audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml
+ms.date: 2/22/2018
+ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], TerminatePacket method, IPortWavePciStream::TerminatePacket, TerminatePacket method [Audio Devices], TerminatePacket method [Audio Devices], IPortWavePciStream interface, TerminatePacket,IPortWavePciStream.TerminatePacket, audio.iportwavepcistream_terminatepacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, portcls/IPortWavePciStream::TerminatePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: portcls.h
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortWavePciStream.TerminatePacket
 product: Windows
 targetos: Windows
@@ -68,22 +68,26 @@ NTSTATUS TerminatePacket(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>TerminatePacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 This method is used primarily for capture situations in which I/O packets need to end at specific points in the stream (for example, to synchronize with video frames). The data buffer for a capture pin on an audio device consists of one or more I/O packets. Each I/O packet is the portion of the data buffer that is attached to a particular mapping IRP. By default, while a capture stream is in the KSSTATE_RUN state, the contents of an I/O packet become available to the client only when the last mapping in the packet has been filled. The <code>TerminatePacket</code> method makes a partially filled packet immediately available to the client without waiting for additional capture data.
 
 Changing the state of a capture stream from KSSTATE_RUN to KSSTATE_STOP automatically terminates the current I/O packet.
+
 
 

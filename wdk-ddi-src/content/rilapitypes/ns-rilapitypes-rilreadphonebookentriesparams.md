@@ -7,8 +7,8 @@ old-location: netvista\rilreadphonebookentriesparams_2.htm
 old-project: netvista
 ms.assetid: 4cf1b9ab-0082-4ad3-9fd5-a29b51ca6bc0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS, netvista.rilreadphonebookentriesparams_2, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREADPHONEBOOKENTRIESPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams_2, rilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILREADPHONEBOOKENTRIESPARAMS
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ typedef struct _RILREADPHONEBOOKENTRIESPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwStoreLocation
-
 
 
 ### -field dwStartIndex
 
 
-
 ### -field dwEndIndex
-
 

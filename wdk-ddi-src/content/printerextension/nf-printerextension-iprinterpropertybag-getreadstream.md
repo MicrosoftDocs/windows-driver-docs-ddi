@@ -7,8 +7,8 @@ old-location: print\iprinterpropertybag_getreadstream.htm
 old-project: print
 ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetReadStream method [Print Devices], IPrinterPropertyBag interface, GetReadStream method [Print Devices], print.iprinterpropertybag_getreadstream, GetReadStream, IPrinterPropertyBag interface [Print Devices], GetReadStream method, printerextension/IPrinterPropertyBag::GetReadStream, IPrinterPropertyBag::GetReadStream, IPrinterPropertyBag
+ms.date: 2/23/2018
+ms.keywords: GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterPropertyBag interface, GetReadStream,IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetReadStream method, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Printerextension.h
-apiname: 
+api_name:
 -	IPrinterPropertyBag.GetReadStream
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ The property to read.
 
 
 
+
 #### - ppValueStream [out]
 
 The returned stream.
@@ -88,14 +89,18 @@ The returned stream.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 This method does not work with non-stream properties.
+
 
 
 
@@ -103,9 +108,11 @@ This method does not work with non-stream properties.
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetReadStream method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetReadStream method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

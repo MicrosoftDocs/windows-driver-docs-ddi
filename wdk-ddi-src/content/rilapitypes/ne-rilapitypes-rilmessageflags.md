@@ -7,8 +7,8 @@ old-location: netvista\rilmessageflags_2.htm
 old-project: netvista
 ms.assetid: 49f8bd1b-5c8a-47d3-a5d5-817216562559
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, rilapitypes/RIL_MSGFLAG_ALL, rilapitypes/RILMESSAGEFLAGS, netvista.rilmessageflags_2, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_ALL, RIL_MSGFLAG_REPLYPATH, rilapitypes/RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_REJECTDUPS, rilapitypes/RIL_MSGFLAG_MORETOSEND, rilapitypes/RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RILMESSAGEFLAGS, rilapitypes/RIL_MSGFLAG_REJECTDUPS, rilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED, RIL_MSGFLAG_STATUSREPORTREQUESTED, rilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND
+ms.date: 2/16/2018
+ms.keywords: RILMESSAGEFLAGS, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_ALL, RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RIL_MSGFLAG_REJECTDUPS, RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, netvista.rilmessageflags_2, rilapitypes/RILMESSAGEFLAGS, rilapitypes/RIL_MSGFLAG_ALL, rilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND, rilapitypes/RIL_MSGFLAG_HEADER, rilapitypes/RIL_MSGFLAG_MORETOSEND, rilapitypes/RIL_MSGFLAG_REJECTDUPS, rilapitypes/RIL_MSGFLAG_REPLYPATH, rilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, rilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMESSAGEFLAGS
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ typedef enum _RILMESSAGEFLAGS {
 ### -field RIL_MSGFLAG_NONE
 
 
-
 ### -field RIL_MSGFLAG_MORETOSEND
-
 
 
 ### -field RIL_MSGFLAG_REPLYPATH
 
 
-
 ### -field RIL_MSGFLAG_HEADER
-
 
 
 ### -field RIL_MSGFLAG_REJECTDUPS
 
 
-
 ### -field RIL_MSGFLAG_STATUSREPORTRETURNED
-
 
 
 ### -field RIL_MSGFLAG_STATUSREPORTREQUESTED
 
 
-
 ### -field RIL_MSGFLAG_CAUSEDBYCOMMAND
 
 
-
 ### -field RIL_MSGFLAG_ALL
-
 

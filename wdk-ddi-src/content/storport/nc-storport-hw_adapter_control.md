@@ -7,8 +7,8 @@ old-location: storage\hwstoradaptercontrol.htm
 old-project: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.hwstoradaptercontrol, HwStorAdapterControl routine [Storage Devices], HwStorAdapterControl, HW_ADAPTER_CONTROL, HW_ADAPTER_CONTROL, storport/HwStorAdapterControl, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml
+ms.date: 2/24/2018
+ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	HwStorAdapterControl
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A pointer to the miniport driver's per-HBA storage area.
 ### -param ControlType [in]
 
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -364,12 +365,14 @@ None
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -889,13 +892,16 @@ The resume latency, in milliseconds, of the device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 Depending on the control type, <b>HwStorAdapterControl</b> returns one of the following SCSI_ADAPTER_CONTROL_STATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -925,16 +931,20 @@ The adapter control operation was not successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Because miniport drivers that work with the Storport driver must support Plug and Play (PnP), this function is required. The control types, <b>ScsiStopAdapter</b> and <b>ScsiRestartAdapter</b>, must be supported.
 
 The name <b>HwStorAdapterControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -952,22 +962,73 @@ HW_ADAPTER_CONTROL (
 </tr>
 </table></span></div>
 
+#### Examples
+
+To define an <b>HwStorAdapterControl</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+ For example, to define a <b>HwStorAdapterControl</b> callback routine that is named <i>MyHwAdapterControl</i>, use the <b>HW_ADAPTER_CONTROL</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HW_ADAPTER_CONTROL MyHwAdapterControl;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+SCSI_ADAPTER_CONTROL_STATUS
+MyHwAdapterControl (
+  _In_ PVOID  DeviceExtension,
+  _In_ SCSI_ADAPTER_CONTROL_TYPE  ControlType,
+  _In_ PVOID  Parameters
+  );
+  {
+      ...
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_ADAPTER_CONTROL</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+
+
+
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
 
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
 
 <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
 
- 
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_ADAPTER_CONTROL routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_ADAPTER_CONTROL routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

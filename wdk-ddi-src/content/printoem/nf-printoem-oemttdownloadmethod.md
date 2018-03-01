@@ -7,8 +7,8 @@ old-location: print\oemttdownloadmethod.htm
 old-project: print
 ms.assetid: 0807622e-0ed9-419a-8917-bba4b1b2a475
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMTTDownloadMethod, print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMTTDownloadMethod
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ DWORD APIENTRY OEMTTDownloadMethod(
 ### -param pdevobj
 
 
-
 ### -param pUFObj
-
 

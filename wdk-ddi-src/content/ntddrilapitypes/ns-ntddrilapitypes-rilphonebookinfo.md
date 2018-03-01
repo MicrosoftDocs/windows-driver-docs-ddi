@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookinfo.htm
 old-project: netvista
 ms.assetid: 626bfc9b-6d84-4b8c-89eb-c635d0cb61f0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, RILPHONEBOOKINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILPHONEBOOKINFO, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, ntddrilapitypes/RILPHONEBOOKINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKINFO
 product: Windows
 targetos: Windows
@@ -87,71 +87,53 @@ typedef struct _RILPHONEBOOKINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwUsed
 
 
-
 ### -field dwTotal
-
 
 
 ### -field dwMaxAddressLength
 
 
-
 ### -field dwMaxTextLength
-
 
 
 ### -field dwMaxAdditionalNumbers
 
 
-
 ### -field dwMaxAdditionalNumberLength
-
 
 
 ### -field dwMaxAdditionalNumberTextLength
 
 
-
 ### -field dwUsedAdditionalNumberStrings
-
 
 
 ### -field dwTotalAdditionalNumberStrings
 
 
-
 ### -field dwMaxEmails
-
 
 
 ### -field dwMaxEmailAddressLength
 
 
-
 ### -field dwMaxGroups
-
 
 
 ### -field dwMaxGroupStringLength
 
 
-
 ### -field dwUsedGroupStrings
-
 
 
 ### -field dwTotalGroupStrings
 
 
-
 ### -field dwMaxSecondNameStringLength
-
 

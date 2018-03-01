@@ -7,8 +7,8 @@ old-location: netvista\vmbpacketgetchannel.htm
 old-project: netvista
 ms.assetid: BE5BB8CD-6B2F-4CFE-8A1E-B13BD9D7DBE7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, VmbPacketGetChannel, VmbPacketGetChannel function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: VmbPacketGetChannel, VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+api_name:
 -	VmbPacketGetChannel
 product: Windows
 targetos: Windows
@@ -79,6 +79,8 @@ The packet object.
 ## -returns
 
 
+
 <b>VmbPacketGetChannel</b> returns a handle of the associated channel.
+
 
 

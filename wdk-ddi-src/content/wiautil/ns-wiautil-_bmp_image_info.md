@@ -1,14 +1,14 @@
 ---
 UID: NS:wiautil._BMP_IMAGE_INFO
-title: _BMP_IMAGE_INFO
+title: "_BMP_IMAGE_INFO"
 author: windows-driver-content
 description: The BMP_IMAGE_INFO structure contains information about a BMP image.
 old-location: image\bmp_image_info.htm
 old-project: image
 ms.assetid: 953e2f00-2275-49a2-b1e5-def7763a8ab7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: BMP_IMAGE_INFO, PBMP_IMAGE_INFO, wiautil/BMP_IMAGE_INFO, _BMP_IMAGE_INFO, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO structure pointer [Imaging Devices], *PBMP_IMAGE_INFO, image.bmp_image_info, wiautil/PBMP_IMAGE_INFO
+ms.date: 2/23/2018
+ms.keywords: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO, PBMP_IMAGE_INFO structure pointer [Imaging Devices], _BMP_IMAGE_INFO, image.bmp_image_info, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, wiautil/BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiautil.h
-apiname: 
+api_name:
 -	BMP_IMAGE_INFO
 product: Windows
 targetos: Windows

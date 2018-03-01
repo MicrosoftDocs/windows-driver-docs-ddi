@@ -7,8 +7,8 @@ old-location: kernel\zwloaddriver.htm
 old-project: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ZwLoadDriver, wdm/NtLoadDriver, kernel.zwloaddriver, ZwLoadDriver, k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, NtLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ZwLoadDriver
 -	NtLoadDriver
 product: Windows
@@ -71,40 +71,60 @@ NTSTATUS ZwLoadDriver(
 
 ### -param DriverServiceName [in]
 
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\</b><i>DriverName</i>, where <i>DriverName</i> is the name of the driver. 
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b>, where <i>DriverName</i> is the name of the driver. 
 
 
 ## -returns
+
 
 
 <b>ZwLoadDriver</b> returns STATUS_SUCCESS or an appropriate error NTSTATUS value. 
 
 
 
+
 ## -remarks
 
 
+
 <b>ZwLoadDriver</b> dynamically loads a device or file system driver into the currently running system. 
-<div class="alert"><b>Note</b>    If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, <b>ZwLoadDriver</b> returns STATUS_SUCCESS. </div><div> </div>A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwLoadDriver</b> function occurs in user mode, you should use the name "<b>NtLoadDriver</b>" instead of "<b>ZwLoadDriver</b>". </div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>    If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, <b>ZwLoadDriver</b> returns STATUS_SUCCESS. </div>
+<div> </div>
+A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwLoadDriver</b> function occurs in user mode, you should use the name "<b>NtLoadDriver</b>" instead of "<b>ZwLoadDriver</b>". </div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
- 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwLoadDriver routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwLoadDriver routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\iksreferenceclock_getcorrelatedtime.htm
 old-project: stream
 ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: GetCorrelatedTime method [Streaming Media Devices], stream.iksreferenceclock_getcorrelatedtime, GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, IKsReferenceClock, IKsReferenceClock::GetCorrelatedTime, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, ks/IKsReferenceClock::GetCorrelatedTime, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface
+ms.date: 2/23/2018
+ms.keywords: GetCorrelatedTime method [Streaming Media Devices], GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedTime,IKsReferenceClock.GetCorrelatedTime, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, IKsReferenceClock::GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, ks/IKsReferenceClock::GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsReferenceClock.GetCorrelatedTime
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to a LONGLONG-typed variable that receives the current system time in 
 ## -returns
 
 
+
 The <b>IKsReferenceClock::GetCorrelatedTime</b> method returns the stream time, specified by default in 100-nanosecond units. The correlated system time is returned in <i>SystemTime</i>.
 
 
 
+
 ## -remarks
+
 
 
 Use this method to determine the difference between stream time and system time. <b>IKsReferenceClock::GetCorrelatedTime</b> returns the times that both clocks show at the same moment.
@@ -94,13 +97,16 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetCorrelatedTime method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetCorrelatedTime method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

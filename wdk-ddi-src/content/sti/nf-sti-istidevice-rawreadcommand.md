@@ -7,8 +7,8 @@ old-location: image\istidevice_rawreadcommand.htm
 old-project: image
 ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RawReadCommand method [Imaging Devices], IStiDevice interface, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml, image.istidevice_rawreadcommand, IStiDevice, RawReadCommand method [Imaging Devices], IStiDevice interface [Imaging Devices], RawReadCommand method, IStiDevice::RawReadCommand, sti/IStiDevice::RawReadCommand, RawReadCommand
+ms.date: 2/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawReadCommand method, IStiDevice::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiDevice interface, RawReadCommand,IStiDevice.RawReadCommand, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	sti.h
-apiname: 
+api_name:
 -	IStiDevice.RawReadCommand
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ Optional, caller-supplied pointer to an OVERLAPPED structure (described in the M
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDevice::RawReadCommand</b> method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543831">IStiUSD::RawReadCommand</a>, which is exported by vendor-supplied minidrivers. The meaning of buffer contents are vendor-defined.
@@ -102,5 +105,6 @@ It is only necessary to call <b>IStiDevice::RawReadCommand</b> if command and da
 Before calling <b>IStiDevice::RawReadCommand</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 A call to <b>IStiDevice::RawReadCommand</b> must be preceded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a> and followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.
+
 
 

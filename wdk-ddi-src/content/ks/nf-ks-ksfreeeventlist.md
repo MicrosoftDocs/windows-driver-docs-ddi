@@ -7,8 +7,8 @@ old-location: stream\ksfreeeventlist.htm
 old-project: stream
 ms.assetid: 3ccbbf07-7d8d-423a-b50d-d202e1cb7ab2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsFreeEventList, stream.ksfreeeventlist, KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, KsFreeEventList function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsFreeEventList, KsFreeEventList function [Streaming Media Devices], ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, stream.ksfreeeventlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsFreeEventList
 product: Windows
 targetos: Windows
@@ -94,14 +94,18 @@ Used to synchronize access to an element on the list. After the element has been
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsFreeEventList</b> function calls the remove handler, and then it calls <b>KsDiscardEvent</b> for each event. It does not assume that the caller is the event owner.
+
 
 
 
@@ -109,9 +113,11 @@ The <b>KsFreeEventList</b> function calls the remove handler, and then it calls 
 
 <a href="..\ks\nf-ks-ksdiscardevent.md">KsDiscardEvent</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFreeEventList function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFreeEventList function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

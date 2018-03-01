@@ -1,14 +1,14 @@
 ---
 UID: NE:dot11wdi._WDI_FRAME_PAYLOAD_TYPE
-title: _WDI_FRAME_PAYLOAD_TYPE
+title: "_WDI_FRAME_PAYLOAD_TYPE"
 author: windows-driver-content
 description: The WDI_FRAME_PAYLOAD_TYPE enumeration defines the frame payload type.
 old-location: netvista\wdi_frame_payload_type.htm
 old-project: netvista
 ms.assetid: 28aef1bd-915a-4f05-a4b0-bec63ddfdfb5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wifi_frame_payload_type, WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_MSDU, netvista.wdi_frame_payload_type
+ms.date: 2/16/2018
+ms.keywords: WDI_FRAME_MSDU, WDI_FRAME_MSDU_FRAGMENT, WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_FRAME_PAYLOAD_TYPE, dot11wdi/WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, netvista.wdi_frame_payload_type, netvista.wifi_frame_payload_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dot11wdi.h
-apiname: 
+api_name:
 -	WDI_FRAME_PAYLOAD_TYPE
 product: Windows
 targetos: Windows

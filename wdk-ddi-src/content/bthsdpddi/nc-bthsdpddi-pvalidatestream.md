@@ -7,15 +7,15 @@ old-location: bltooth\sdpvalidatestream.htm
 old-project: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sdpvalidatestream, SdpValidateStream callback function [Bluetooth Devices], SdpValidateStream, PVALIDATESTREAM, PVALIDATESTREAM, bthsdpddi/SdpValidateStream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml
+ms.date: 2/15/2018
+ms.keywords: PVALIDATESTREAM, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	BthSdpddi.h
-apiname: 
+api_name:
 -	SdpValidateStream
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PVALIDATESTREAM callback
@@ -90,6 +90,7 @@ A pointer to a variable that receives the address of the first byte in the SDP r
 ## -returns
 
 
+
 Possible return values include:
 
 
@@ -102,7 +103,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -113,8 +116,9 @@ Bluetooth profile drivers should use this function to validate all SDP streams f
     Other SDP functions might not perform complete data validation.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
-    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
+
 
 
 
@@ -122,9 +126,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PVALIDATESTREAM callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PVALIDATESTREAM callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

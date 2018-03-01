@@ -7,8 +7,8 @@ old-location: kernel\mmallocatemdlforiospace.htm
 old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, MmAllocateMdlForIoSpace
+ms.date: 2/24/2018
+ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	MmAllocateMdlForIoSpace
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A pointer to a location to which the routine writes a pointer to the newly alloc
 ## -returns
 
 
+
 <b>MmAllocateMdlForIoSpace</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,24 +118,29 @@ Insufficient system resources are available to perform the requested operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Do not assume that the preceding list of error return codes is exhaustive. The routine might return error codes that do not appear in the list.
+
 
 
 
 ## -remarks
 
 
+
 This routine accepts, as an input parameter, an array of <b>MM_PHYSICAL_ADDRESS_LIST</b> structures that describe a set of physical address ranges in I/O address space, and allocates an MDL that describes these ranges. Consecutive physical address ranges in the array are not required to be contiguous.
 
 The physical address ranges in the <i>PhysicalAddressList</i> array must satisfy the following conditions:
+
 <ul>
 <li>The base physical address for each range must be aligned to a PAGE_SIZE boundary in memory.</li>
 <li>The size, in bytes, of each range must be an integer multiple of PAGE_SIZE.</li>
 <li>All physical address ranges must be in memory that is available for use as I/O address space. They cannot be in memory space that is used by the operating system for RAM.</li>
 <li>The total size of all the ranges must be less than 4 gigabytes. Specifically, the total size must not exceed 2³²-1 bytes.</li>
-</ul>The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a> routine. For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
+</ul>
+The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a> routine. For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 The MDL that is created by <b>MmAllocateMdlForIoSpace</b> is not mapped to virtual memory, but can be supplied to a routine such as <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a> to initiate a DMA transfer to or from the physical memory ranges described by the MDL. To map this MDL to a contiguous range of virtual addresses so that it can be accessed by the processor, call the <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a> routine.
 
@@ -142,22 +149,75 @@ Only ranges of the physical address space that are not reserved by the operating
 In some processor architectures, such as the x86, devices can be either memory-mapped or mapped to port addresses in a special  I/O address space that is dedicated to devices and is separate from the memory address space. Drivers can use <b>MmAllocateMdlForIoSpace</b> to allocate MDLs only for memory-mapped devices.
 
 
+#### Examples
+
+The following code example shows how to construct an array of <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>extern ULONG64 BasePhysicalAddress;
+extern SIZE_T ChunkSize;
+extern SIZE_T Stride;
+
+#define ARRAYSIZE(x)  (sizeof(x)/sizeof((x)[0]))
+ 
+NTSTATUS Status;
+PMDL Mdl;
+MM_PHYSICAL_ADDRESS_LIST AddressList[3];
+ 
+AddressList[0].PhysicalAddress.QuadPart = BasePhysicalAddress;
+AddressList[0].NumberOfBytes = ChunkSize;
+ 
+BasePhysicalAddress += Stride;
+ 
+AddressList[1].PhysicalAddress.QuadPart = BasePhysicalAddress;
+AddressList[1].NumberOfBytes = ChunkSize;
+ 
+BasePhysicalAddress += Stride;
+ 
+AddressList[2].PhysicalAddress.QuadPart = BasePhysicalAddress;
+AddressList[2].NumberOfBytes = ChunkSize;
+ 
+Status = MmAllocateMdlForIoSpace (AddressList, ARRAYSIZE(AddressList), &amp;Mdl);
+</pre>
+</td>
+</tr>
+</table></span></div>
+In this example, the starting physical address is specified by the <code>BasePhysicalAddress</code> variable. The number of bytes in each physical address range is specified by the <code>ChunkSize</code> variable. The byte offset from the start of one physical range to the start of the next is specified by the <code>Stride</code> variable. <code>BasePhysicalAddress</code> must be aligned to a page boundary in memory, and <code>ChunkSize</code> and <code>Stride</code> must be multiples of the page size.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
-
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+
+
 
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateMdlForIoSpace routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateMdlForIoSpace routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

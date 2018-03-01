@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestcompletewithinformation.htm
 old-project: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, wdfrequest/WdfRequestCompleteWithInformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, kmdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, wdf.wdfrequestcompletewithinformation
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, kmdf.wdfrequestcompletewithinformation, wdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestCompleteWithInformation
 product: Windows
 targetos: Windows
@@ -87,27 +87,31 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 
 
 
+
+#### STATUS_SUCCESS
+
+The driver successfully completed the request.
+
+
+
+#### STATUS_CANCELLED
+
+The driver canceled the request.
+
+
+
+#### STATUS_UNSUCCESSFUL
+
+The driver encountered an error while processing the request.
+
+
 ### -param Information [in]
 
 Driver-defined completion status information for the request, such as the number of bytes that were transferred.
 
 
-##### - Status.STATUS_UNSUCCESSFUL
-
-The driver encountered an error while processing the request.
-
-
-##### - Status.STATUS_SUCCESS
-
-The driver successfully completed the request.
-
-
-##### - Status.STATUS_CANCELLED
-
-The driver canceled the request.
-
-
 ## -returns
+
 
 
 None.
@@ -118,7 +122,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>WdfRequestCompleteWithInformation</b> is equivalent to calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a> and then calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>.
@@ -130,26 +136,97 @@ When your driver calls <b>WdfRequestCompleteWithInformation</b>, the framework s
 For more information about calling <b>WdfRequestCompleteWithInformation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example shows how a driver for a USB device might call <b>WdfRequestCompleteWithInformation</b> in a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function .
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+EvtRequestReadCompletionRoutine(
+    IN WDFREQUEST  Request,
+    IN WDFIOTARGET  Target,
+    PWDF_REQUEST_COMPLETION_PARAMS  CompletionParams,
+    IN WDFCONTEXT  Context
+    )
+{    
+    NTSTATUS  status;
+    size_t  bytesRead = 0;
+    PWDF_USB_REQUEST_COMPLETION_PARAMS  usbCompletionParams;
+
+    UNREFERENCED_PARAMETER(Target);
+    UNREFERENCED_PARAMETER(Context);
+
+    status = CompletionParams-&gt;IoStatus.Status;
+    usbCompletionParams = CompletionParams-&gt;Parameters.Usb.Completion;
+    bytesRead =  usbCompletionParams-&gt;Parameters.PipeRead.Length;
+ 
+    if (NT_SUCCESS(status)){
+        TraceEvents(
+                    TRACE_LEVEL_INFORMATION,
+                    DBG_READ,
+                    "Number of bytes read: %I64d\n",
+                    (INT64)bytesRead
+                    );
+    } else {
+        TraceEvents(
+                    TRACE_LEVEL_ERROR,
+                    DBG_READ,
+                    "Read failed - request status 0x%x UsbdStatus 0x%x\n",
+                    status,
+                    usbCompletionParams-&gt;UsbdStatus
+                    );
+    }
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      status,
+                                      bytesRead
+                                      );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
 
- 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithInformation method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithInformation method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

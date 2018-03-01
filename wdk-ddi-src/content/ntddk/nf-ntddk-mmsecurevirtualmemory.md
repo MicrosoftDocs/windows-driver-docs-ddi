@@ -7,8 +7,8 @@ old-location: kernel\mmsecurevirtualmemory.htm
 old-project: kernel
 ms.assetid: e5c2d5d5-550e-42e5-b86a-f17e361925dc
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MmSecureVirtualMemory, ntddk/MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory
+ms.date: 2/24/2018
+ms.keywords: MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	MmSecureVirtualMemory
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # MmSecureVirtualMemory function
@@ -87,11 +87,14 @@ The most restrictive protection type that is allowed. Use PAGE_READWRITE to spec
 ## -returns
 
 
+
 On success, <b>MmSecureVirtualMemory</b> returns an opaque pointer value that the driver passes to the <a href="..\ntddk\nf-ntddk-mmunsecurevirtualmemory.md">MmUnsecureVirtualMemory</a> routine to unsecure the memory address range. If the routine is unable to secure the memory address range, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. A driver that uses <b>MmSecureVirtualMemory</b> is guaranteed that if the requested protection mode is available, it cannot be changed until the driver calls <a href="..\ntddk\nf-ntddk-mmunsecurevirtualmemory.md">MmUnsecureVirtualMemory</a>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling those routines:<ul>
@@ -118,13 +121,16 @@ While calling <b>MmSecureVirtualMemory</b> on an address range prevents the addr
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-mmunsecurevirtualmemory.md">MmUnsecureVirtualMemory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmSecureVirtualMemory routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmSecureVirtualMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

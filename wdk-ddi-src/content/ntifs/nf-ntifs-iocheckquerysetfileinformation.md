@@ -7,8 +7,8 @@ old-location: ifsk\iocheckquerysetfileinformation.htm
 old-project: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.iocheckquerysetfileinformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], IoCheckQuerySetFileInformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
+ms.date: 2/16/2018
+ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	IoCheckQuerySetFileInformation
 product: Windows
 targetos: Windows

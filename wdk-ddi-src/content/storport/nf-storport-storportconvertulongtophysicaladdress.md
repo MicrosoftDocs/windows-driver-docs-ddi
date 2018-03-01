@@ -7,8 +7,8 @@ old-location: storage\storportconvertulongtophysicaladdress.htm
 old-project: storage
 ms.assetid: 772ca60b-a957-47de-b95d-486497b295ce
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml, storage.storportconvertulongtophysicaladdress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storport/StorPortConvertUlongToPhysicalAddress
+ms.date: 2/24/2018
+ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortConvertUlongToPhysicalAddress
 product: Windows
 targetos: Windows
@@ -77,14 +77,18 @@ Contains the address to be converted.
 ## -returns
 
 
+
 The <b>StorPortConvertUlongToPhysicalAddress</b> routine returns the physical address that corresponds to the unsigned long address that the caller passed in.
+
 
 
 
 ## -remarks
 
 
+
 <b>StorPortConvertUlongToPhysicalAddress</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -95,9 +99,11 @@ The <b>StorPortConvertUlongToPhysicalAddress</b> routine returns the physical ad
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+</table></span></div>
+The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
 
 The StorPortConvertPhysicalAddressToULong64 macro converts a physical address to a ULONG64 value.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -111,6 +117,8 @@ The StorPortConvertPhysicalAddressToULong64 macro converts a physical address to
 </td>
 </tr>
 </table></span></div>
+
+
 <table>
 <tr>
 <th>Term</th>
@@ -140,8 +148,10 @@ Specifies an address value of type STOR_PHYSICAL_ADDRESS.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 StorPortConvertPhysicalAddressToULong64 uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
+
 
 

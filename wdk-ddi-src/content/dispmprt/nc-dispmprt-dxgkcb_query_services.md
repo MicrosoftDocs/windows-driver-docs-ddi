@@ -7,8 +7,8 @@ old-location: display\dxgkcbqueryservices.htm
 old-project: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbqueryservices, DxgkCbQueryServices callback function [Display Devices], DxgkCbQueryServices, DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES, dispmprt/DxgkCbQueryServices, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_QUERY_SERVICES, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbQueryServices
 product: Windows
 targetos: Windows
@@ -90,16 +90,20 @@ A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure th
 ## -returns
 
 
+
 <b>DxgkCbQueryServices</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 An interface, in this context, is a set of functions implemented by the display port driver. The display port driver makes the functions of an interface available to other drivers by providing function pointers in response to <b>DxgkCbQueryServices</b>.
 
 To obtain an AGP interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a> structure.
@@ -121,7 +125,9 @@ Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesAgp</
 On return from <b>DxgkCbQueryServices</b>, your DXGK_AGP_INTERFACE structure will contain pointers to the interface functions: <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a> and the like.
 
 </li>
-</ol>To obtain a Debug Report interface, do the following:
+</ol>
+To obtain a Debug Report interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_debug_report_interface.md">DXGK_DEBUG_REPORT_INTERFACE</a> structure.
@@ -143,7 +149,9 @@ Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesDebug
 On return from <b>DxgkCbQueryServices</b>, your DXGK_DEBUG_REPORT_INTERFACE structure will contain pointers to the interface functions: <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> and the like.
 
 </li>
-</ol>To obtain a Timed Operation interface, do the following:
+</ol>
+To obtain a Timed Operation interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_timed_operation_interface.md">DXGK_TIMED_OPERATION_INTERFACE</a> structure.
@@ -168,19 +176,28 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 </ol>
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERY_SERVICES callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_QUERY_SERVICES callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

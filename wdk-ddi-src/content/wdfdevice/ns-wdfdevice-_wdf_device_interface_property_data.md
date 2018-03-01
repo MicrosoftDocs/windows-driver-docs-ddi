@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_INTERFACE_PROPERTY_DATA
-title: _WDF_DEVICE_INTERFACE_PROPERTY_DATA
+title: "_WDF_DEVICE_INTERFACE_PROPERTY_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA structure describes a device interface property.
 old-location: wdf\wdf_device_interface_property_data.htm
 old-project: wdf
 ms.assetid: 2AC9E23B-928E-480F-A208-5A2DE92AEF4B
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA, _WDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdf.wdf_device_interface_property_data, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer, WDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure, _WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdf.wdf_device_interface_property_data, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_DEVICE_INTERFACE_PROPERTY_DATA
 product: Windows
 targetos: Windows
@@ -111,7 +111,9 @@ Not currently used. Set this member to zero.
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure is used as input to the following methods:
+
 <ul>
 <li>
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
@@ -122,7 +124,15 @@ The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure is used as input to the 
 <li>
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
 </li>
-</ul>Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>.
+</ul>
+Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>.
+
+
+#### Examples
+
+For an example of how to use <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>.
+
+<div class="code"></div>
 
 
 
@@ -130,15 +140,23 @@ The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b> structure is used as input to the 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
 
- 
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_INTERFACE_PROPERTY_DATA structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_INTERFACE_PROPERTY_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

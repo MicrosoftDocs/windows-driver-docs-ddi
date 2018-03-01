@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_driver_report_capabilities.htm
 old-project: storage
 ms.assetid: AD78ABAD-5DCF-4E1A-B521-8063B5BEA6A6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_ehstor_driver_report_capabilities, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
+ms.date: 2/24/2018
+ms.keywords: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, storage.ioctl_ehstor_driver_report_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorIoctl.h
-apiname: 
+api_name:
 -	IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PDO_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,20 +85,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -124,10 +129,12 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_NOT_SUPPORTED</td>
 <td>The sending device is not a silo device.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 This IOCTL is used by the Trusted Computing Group (TCG) standard authentication silo driver in Windows 8. On device initialization, the TCG silo driver will notify the EHSTOR class driver (EhStorClass.sys) of its capabilities by sending a <b>IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</b> request with a <a href="..\ehstorioctl\ns-ehstorioctl-_silo_driver_capabilities.md">SILO_DRIVER_CAPABILITIES</a> structure.
@@ -140,13 +147,16 @@ IOCTL requests supported by a silo driver are included in an array following <a 
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorioctl\ns-ehstorioctl-_silo_driver_capabilities.md">SILO_DRIVER_CAPABILITIES</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

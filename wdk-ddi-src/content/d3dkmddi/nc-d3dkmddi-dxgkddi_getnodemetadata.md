@@ -7,8 +7,8 @@ old-location: display\dxgkddigetnodemetadata.htm
 old-project: display
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddigetnodemetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], DxgkDdiGetNodeMetadata, DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA, d3dkmddi/DxgkDdiGetNodeMetadata
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_GETNODEMETADATA, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DxgkDdiGetNodeMetadata
 product: Windows
 targetos: Windows
@@ -80,7 +80,6 @@ NTSTATUS APIENTRY DxgkDdiGetNodeMetadata(
 ### -param NodeOrdinalAndAdapterIndex
 
 
-
 ### -param pGetNodeMetadata [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a> structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
@@ -95,7 +94,9 @@ An index of a node for which engine information will be obtained. This node is w
 
 
 
+
       Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,16 +125,20 @@ The caller-provided <i>hAdapter</i> or <i>pGetNodeMetadata</i> parameters are in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the <i>hAdapter</i> and <i>pGetNodeMetadata</i> parameters are valid, and <i>NodeOrdinal</i> has a value in the range of 0 to (number of nodes - 1), all calls to this function must be successful.
+
 
 
 
 ## -remarks
 
 
+
 For more information on how to implement this function, see <a href="https://msdn.microsoft.com/822FEB3E-A39D-4B33-BD9D-F3166EF99AF8">Enumerating GPU engine capabilities</a>.
+
 
 
 
@@ -141,11 +146,15 @@ For more information on how to implement this function, see <a href="https://msd
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_GETNODEMETADATA callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_GETNODEMETADATA callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

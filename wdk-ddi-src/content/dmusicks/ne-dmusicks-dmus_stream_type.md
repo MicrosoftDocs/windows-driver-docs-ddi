@@ -7,8 +7,8 @@ old-location: audio\dmus_stream_type.htm
 old-project: audio
 ms.assetid: C4218B83-6D6D-4F3B-A90F-B92D08D80E24
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: DMUS_STREAM_TYPE, dmusicks/DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_WAVE_SINK, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_TYPE enumeration [Audio Devices], DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_TYPE, DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, DMUS_STREAM_MIDI_RENDER
+ms.date: 2/22/2018
+ms.keywords: DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_TYPE, DMUS_STREAM_TYPE enumeration [Audio Devices], DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, dmusicks/DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_TYPE, dmusicks/DMUS_STREAM_WAVE_SINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Dmusicks.h
-apiname: 
+api_name:
 -	DMUS_STREAM_TYPE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum  {
 ### -field DMUS_STREAM_MIDI_INVALID
 
 
-
 ### -field DMUS_STREAM_MIDI_RENDER
-
 
 
 ### -field DMUS_STREAM_MIDI_CAPTURE
 
 
-
 ### -field DMUS_STREAM_WAVE_SINK
-
 

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_read.htm
 old-project: netvista
 ms.assetid: A6D2C017-0D50-4AD7-9241-110C97F5FE92
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_read, NdkRead callback function [Network Drivers Starting with Windows Vista], NdkRead, NDK_FN_READ, NDK_FN_READ, ndkpi/NdkRead, NDK_OP_FLAG_SILENT_SUCCESS, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_DEFER
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_READ, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkRead, NdkRead callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRead, netvista.ndk_fn_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkRead
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_READ callback
@@ -76,8 +76,9 @@ NTSTATUS NdkRead(
 
 
 
-### -param *pNdkQp
+### -param *pNdkQp [in]
 
+A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -87,7 +88,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 ### -param NDK_SGE
-
 
 
 ### -param nSge [in]
@@ -110,6 +110,7 @@ A remotely-provided memory token that  is an opaque array of bytes from the NDK 
 ### -param Flags [in]
 
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
+
 <table>
 <tr>
 <th>Value</th>
@@ -163,7 +164,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pSgl
@@ -171,16 +173,13 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers to place incoming data into.
 
 
-#### - pNdkQp [in]
-
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
-
-
 ## -returns
+
 
 
 The 
      <i>NdkRead</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -232,36 +231,54 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkRead</i> posts a read request on a queue pair (QP).
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
 <a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_READ callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_READ callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

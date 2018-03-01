@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
-title: _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
+title: "_DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_frequency_adopted_parameters.htm
 old-project: netvista
 ms.assetid: c6f98202-b70e-4ef7-853a-b97bb5e6294e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
 product: Windows
 targetos: Windows
@@ -74,19 +74,6 @@ typedef struct _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS {
 
 
 
-### -field ulChannel
-
-The channel number of the 
-      <mshelp:link keywords="netvista.dsss__hrdsss__and_erp_phy_configuration" tabindex="0">DSSS, HRDSSS, and ERP PHY
-      configurations</mshelp:link> that the NIC has adopted to communicate over the BSS network.
-
-
-### -field ulFrequency
-
-The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has adopted to
-      communicate over the BSS network.
-
-
 ### -field Header
 
 The type, revision, and size of the DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure. This member
@@ -98,6 +85,25 @@ The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
+
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS).
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -119,29 +125,28 @@ The miniport driver sets
 This member should not be set to DOT11_PHY_ID_ANY.
 
 
-##### - Header.Revision
+#### - ulChannel
 
-This member must be set to DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+The channel number of the 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+      configurations</a> that the NIC has adopted to communicate over the BSS network.
 
 
-##### - Header.Size
+#### - ulFrequency
 
-This member must be set to 
-       <b>sizeof</b>(DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS).
+The orthogonal frequency division multiplexing (OFDM) frequency that the NIC has adopted to
+      communicate over the BSS network.
 
 
 ## -remarks
 
 
+
 The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure when the
     driver makes an 
-    <mshelp:link keywords="netvista.ndis_status_dot11_phy_frequency_adopted" tabindex="0">
-    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</mshelp:link> status indication.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a> status indication.
+
 
 
 
@@ -149,14 +154,20 @@ The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMET
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
+   NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndis_status_dot11_phy_frequency_adopted" tabindex="0">
-   NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

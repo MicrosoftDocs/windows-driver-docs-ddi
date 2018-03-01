@@ -7,8 +7,8 @@ old-location: storage\storportgetgroupaffinity.htm
 old-project: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, StorPortGetGroupAffinity routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortGetGroupAffinity
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A pointer to a variable that holds the affinity mask of the given group.
 ## -returns
 
 
+
 The <b>StorPortGetGroupAffinity</b> routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,6 +140,8 @@ The operation fails with this return value if one or more of the parameters are 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

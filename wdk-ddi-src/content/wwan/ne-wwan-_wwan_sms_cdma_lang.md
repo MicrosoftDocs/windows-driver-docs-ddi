@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_SMS_CDMA_LANG
-title: _WWAN_SMS_CDMA_LANG
+title: "_WWAN_SMS_CDMA_LANG"
 author: windows-driver-content
 description: The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that are supported by the MB device.
 old-location: netvista\wwan_sms_cdma_lang.htm
 old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangFrench, *PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangKorean, WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangEnglish, PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangChinese, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangJapanese, wwan/PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangJapanese, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, WwanSmsCdmaLangHebrew, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanSmsCdmaLangUnknown, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangMax, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsCdmaLangChinese, WWAN_SMS_CDMA_LANG, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, wwan/WwanSmsCdmaLangUnknown
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WwanSmsCdmaLangChinese, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangFrench, WwanSmsCdmaLangHebrew, WwanSmsCdmaLangJapanese, WwanSmsCdmaLangKorean, WwanSmsCdmaLangMax, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangUnknown, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, wwan/PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangEnglish, wwan/WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_SMS_CDMA_LANG
 product: Windows
 targetos: Windows
@@ -124,13 +124,17 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
-
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
- 
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_LANG enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_LANG enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

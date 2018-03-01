@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_createhwqueuecb.htm
 old-project: display
 ms.assetid: 1BA2E4DD-3E91-4D2E-AA90-9C85D53EE9E3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3dddi_createhwqueuecb, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], PFND3DDDI_CREATEHWQUEUECB, d3dumddi/PFND3DDDI_CREATEHWQUEUECB
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_CREATEHWQUEUECB, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWQUEUECB, display.pfnd3dddi_createhwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	PFND3DDDI_CREATEHWQUEUECB
 product: Windows
 targetos: Windows
@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - createHwQueue [in, out]
 
 A pointer to the structure holding information on creating the hardware queue.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

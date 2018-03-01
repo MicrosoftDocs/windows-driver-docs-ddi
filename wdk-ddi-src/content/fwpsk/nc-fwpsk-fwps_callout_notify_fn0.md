@@ -7,8 +7,8 @@ old-location: netvista\notifyfn0.htm
 old-project: netvista
 ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.notifyfn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], notifyFn0, FWPS_CALLOUT_NOTIFY_FN0, FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
+ms.date: 2/16/2018
+ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Fwpsk.h
-apiname: 
+api_name:
 -	notifyFn0
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_CALLOUT_NOTIFY_FN0 callback
@@ -83,42 +83,34 @@ A value that indicates the type of notification that the filter engine is sendin
 
 
 
-### -param *filterKey
+
+#### FWPS_CALLOUT_NOTIFY_ADD_FILTER
+
+A filter is being added to the filter engine that specifies the callout for the filter's
+       action.
 
 
 
-### -param *filter
+#### FWPS_CALLOUT_NOTIFY_DELETE_FILTER
+
+A filter is being deleted from the filter engine that specifies the callout for the filter's
+       action.
 
 
 
+#### FWPS_CALLOUT_NOTIFY_TYPE_MAX
+
+A maximum value for testing purposes.
 
 
-
-#### - filterKey [in]
+### -param *filterKey [in]
 
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be <b>NULL</b> if the 
      <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see Remarks.
 
 
-##### - notifyType.FWPS_CALLOUT_NOTIFY_TYPE_MAX
-
-A maximum value for testing purposes.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_DELETE_FILTER
-
-A filter is being deleted from the filter engine that specifies the callout for the filter's
-       action.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_ADD_FILTER
-
-A filter is being added to the filter engine that specifies the callout for the filter's
-       action.
-
-
-#### - filter [in]
+### -param *filter [in]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> structure. This structure
@@ -143,8 +135,10 @@ A callout's
 ## -returns
 
 
+
 A callout's 
      <i>notifyFn0</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -176,11 +170,14 @@ An error occurred. If the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
@@ -205,8 +202,8 @@ If a callout driver registers a callout with the filter engine after filters tha
     the callout for the filter's action, the callout driver must call the appropriate management functions to
     enumerate all the filters in the filter engine and sort through the resulting list of filters to find
     those that specify the callout for the filter's action. See 
-    <mshelp:link keywords="netvista.calling_other_windows_filtering_platform_functions" tabindex="0">Calling Other
-    Windows Filtering Platform Functions</mshelp:link> for more information about calling these functions.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
+    Windows Filtering Platform Functions</a> for more information about calling these functions.
 
 When a filter that specifies a callout for the filter's action is deleted from the filter engine, the
     filter engine calls the callout driver's 
@@ -217,25 +214,40 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+
+
 
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT_NOTIFY_FN0 callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT_NOTIFY_FN0 callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

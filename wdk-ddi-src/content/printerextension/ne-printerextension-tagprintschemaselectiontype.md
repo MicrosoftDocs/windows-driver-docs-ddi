@@ -7,8 +7,8 @@ old-location: print\printschemaselectiontype.htm
 old-project: print
 ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printerextension/PrintSchemaSelectionType_PickOne, printerextension/PrintSchemaSelectionType, PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, tagPrintSchemaSelectionType
+ms.date: 2/23/2018
+ms.keywords: PrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, printerextension/PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType_PickOne, tagPrintSchemaSelectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Printerextension.h
-apiname: 
+api_name:
 -	PrintSchemaSelectionType
 product: Windows
 targetos: Windows

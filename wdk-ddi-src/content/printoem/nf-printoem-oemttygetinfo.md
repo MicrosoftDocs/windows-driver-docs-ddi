@@ -7,8 +7,8 @@ old-location: print\oemttygetinfo.htm
 old-project: print
 ms.assetid: 9b6fcd4e-6472-4e46-b0b7-dd1279e534d0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMTTYGetInfo function [Print Devices], print.oemttygetinfo, OEMTTYGetInfo, printoem/OEMTTYGetInfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml
+ms.date: 2/23/2018
+ms.keywords: OEMTTYGetInfo, OEMTTYGetInfo function [Print Devices], print.oemttygetinfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, printoem/OEMTTYGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMTTYGetInfo
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ INT APIENTRY OEMTTYGetInfo(
 ### -param pdevobj
 
 
-
 ### -param dwInfoIndex
-
 
 
 ### -param pOutputBuf [out]
 
 
-
 ### -param dwSize
 
 
-
 ### -param pcbcNeeded [out]
-
 

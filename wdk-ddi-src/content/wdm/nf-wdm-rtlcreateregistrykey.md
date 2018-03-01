@@ -7,8 +7,8 @@ old-location: kernel\rtlcreateregistrykey.htm
 old-project: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey, k109_9a163bcc-501d-453b-b426-a4267d04135c.xml
+ms.date: 2/24/2018
+ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlCreateRegistryKey
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ NTSTATUS RtlCreateRegistryKey(
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -137,7 +138,8 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Path [in]
@@ -148,34 +150,50 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 ## -returns
 
 
+
 <b>RtlCreateRegistryKey</b> returns STATUS_SUCCESS if the key is created. 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlCreateRegistryKey</b> creates only the keys that you specify. It does not create missing keys in the path to the specified key. If any keys in the path are missing, the call will fail. To ensure that all keys in the path exist, you must call <b>RtlCreateRegistryKey</b> once for each key in the path. 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlCreateRegistryKey routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlCreateRegistryKey routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

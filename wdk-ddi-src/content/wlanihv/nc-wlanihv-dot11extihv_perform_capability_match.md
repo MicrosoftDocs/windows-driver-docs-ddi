@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvperformcapabilitymatch.htm
 old-project: netvista
 ms.assetid: c49b23c0-4707-4626-8035-a83ccf7638eb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvperformcapabilitymatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvPerformCapabilityMatch, DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, wlanihv/Dot11ExtIhvPerformCapabilityMatch, Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, Dot11ExtIhvPerformCapabilityMatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml, netvista.dot11extihvperformcapabilitymatch, wlanihv/Dot11ExtIhvPerformCapabilityMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvPerformCapabilityMatch
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -90,24 +90,24 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
 ### -param pIhvProfileParams [in, optional]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
-     DOT11EXT_IHV_PROFILE_PARAMS</b></mshelp:link> structure. This structure defines the attributes of the basic service
+     <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
+     DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
 
 
 ### -param pIhvConnProfile [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-     DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link> structure that contains connectivity settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+     DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
 
 
 ### -param pIhvSecProfile [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>
-     DOT11EXT_IHV_SECURITY_PROFILE</b></mshelp:link> structure that contains security settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
+     DOT11EXT_IHV_SECURITY_PROFILE</a> structure that contains security settings for the IHV
      profile.
 
 
@@ -120,8 +120,10 @@ A pointer to a
      scan operation, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
      
+
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
-     service set (BSS) networks.</div><div> </div>
+     service set (BSS) networks.</div>
+<div> </div>
 
 ### -param pdwReasonCode [out]
 
@@ -134,6 +136,7 @@ A pointer to a DWORD value, which provides additional information for the return
 ## -returns
 
 
+
 If all of the entries in the list of 802.11 Beacon and Probe Response frames support the
      connectivity and security attributes defined in the profile fragments, the function returns
      ERROR_SUCCESS. Otherwise, it returns an error code defined in 
@@ -141,7 +144,9 @@ If all of the entries in the list of 802.11 Beacon and Probe Response frames sup
 
 
 
+
 ## -remarks
+
 
 
 After the WLAN adapter has completed a scan operation to detect the BSS networks within range, the
@@ -152,6 +157,7 @@ After the WLAN adapter has completed a scan operation to detect the BSS networks
 When the 
     <i>Dot11ExtIhvPerformCapabilityMatch</i> function is called, the IHV Extensions DLL must follow these
     guidelines.
+
 <ul>
 <li>
 If the IHV Extensions DLL finds at least one IEEE 802.11 Beacon or Probe Response frame that matches
@@ -194,27 +200,39 @@ In this situation, the
       <i>Dot11ExtIhvPerformCapabilityMatch</i> function must not return ERROR_SUCCESS.
 
 </li>
-</ul>For more information about the Native 802.11 XML schema, refer to the Microsoft Windows SDK
+</ul>
+For more information about the Native 802.11 XML schema, refer to the Microsoft Windows SDK
     documentation.
+
 
 
 
 ## -see-also
 
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
-<mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link>
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_PERFORM_CAPABILITY_MATCH callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_PERFORM_CAPABILITY_MATCH callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

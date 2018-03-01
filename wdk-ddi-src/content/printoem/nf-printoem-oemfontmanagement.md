@@ -7,8 +7,8 @@ old-location: print\oemfontmanagement.htm
 old-project: print
 ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMFontManagement function [Print Devices], OEMFontManagement, printoem/OEMFontManagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, print.oemfontmanagement
+ms.date: 2/23/2018
+ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMFontManagement
 product: Windows
 targetos: Windows
@@ -77,27 +77,20 @@ ULONG APIENTRY OEMFontManagement(
 ### -param pso
 
 
-
 ### -param pfo
-
 
 
 ### -param iMode
 
 
-
 ### -param cjIn
-
 
 
 ### -param pvIn [in]
 
 
-
 ### -param cjOut
 
 
-
 ### -param pvOut [out]
-
 

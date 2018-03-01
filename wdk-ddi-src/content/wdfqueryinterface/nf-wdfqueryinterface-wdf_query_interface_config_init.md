@@ -7,8 +7,8 @@ old-location: wdf\wdf_query_interface_config_init.htm
 old-project: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT function, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, WDF_QUERY_INTERFACE_CONFIG_INIT, WDF_QUERY_INTERFACE_CONFIG_INIT function, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdfqueryinterface.h
-apiname: 
+api_name:
 -	WDF_QUERY_INTERFACE_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -96,28 +96,44 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/b56fef85-4058-4942
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For more information about driver-defined interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_QUERY_INTERFACE_CONFIG_INIT</b>, see <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+
+
 
 <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_QUERY_INTERFACE_CONFIG_INIT function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_QUERY_INTERFACE_CONFIG_INIT function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

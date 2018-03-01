@@ -7,8 +7,8 @@ old-location: netvista\ril_cancelsupservicedatasession.htm
 old-project: netvista
 ms.assetid: f4b247e4-65d5-47ec-879d-9718710a7b61
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession, netvista.ril_cancelsupservicedatasession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista], netvista.ril_cancelsupservicedatasession, rilapi/RIL_CancelSupServiceDataSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_CancelSupServiceDataSession
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_CancelSupServiceDataSession(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

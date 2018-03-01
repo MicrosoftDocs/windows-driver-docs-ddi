@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
-title: _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 old-location: display\d3dkmdt_vidpn_present_path_importance.htm
 old-project: display
 ms.assetid: a48eda3c-84cb-4413-a325-79c330be3f18
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_QUINARY, d3dkmdt/D3DKMDT_VPPI_DENARY, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_NONARY, d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_TERTIARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, display.d3dkmdt_vidpn_present_path_importance, d3dkmdt/D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SENARY, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, d3dkmdt/D3DKMDT_VPPI_QUINARY
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_QUINARY, D3DKMDT_VPPI_SECONDARY, D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_SEPTENARY, D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_UNINITIALIZED, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_DENARY, d3dkmdt/D3DKMDT_VPPI_NONARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, d3dkmdt/D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, d3dkmdt/D3DKMDT_VPPI_QUINARY, d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_SENARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, display.d3dkmdt_vidpn_present_path_importance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 product: Windows
 targetos: Windows
@@ -135,6 +135,7 @@ Indicates importance level 10.
 ## -remarks
 
 
+
 As the numeric value of a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value increases, the importance decreases. For example, level 3 is less important than level 2.
 
 A variable of type D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE can have any integer value in the range 0 through 255, but only the values 0 through 10 have names.
@@ -145,13 +146,16 @@ The <b>ImportanceOrdinal</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkm
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

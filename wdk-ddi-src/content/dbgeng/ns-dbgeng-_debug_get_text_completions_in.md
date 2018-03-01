@@ -1,14 +1,14 @@
 ---
 UID: NS:dbgeng._DEBUG_GET_TEXT_COMPLETIONS_IN
-title: _DEBUG_GET_TEXT_COMPLETIONS_IN
+title: "_DEBUG_GET_TEXT_COMPLETIONS_IN"
 author: windows-driver-content
 description: Defines information about text completions to get.
 old-location: debugger\debug_get_text_completions_in.htm
 old-project: debugger
 ms.assetid: 1B8B0B7D-346D-41FC-B718-60B04F10702C
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, debugger.debug_get_text_completions_in, _DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], *PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, PDEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], _DEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, debugger.debug_get_text_completions_in"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	DbgEng.h
-apiname: 
+api_name:
 -	DEBUG_GET_TEXT_COMPLETIONS_IN
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN
+req.typenames: DEBUG_GET_TEXT_COMPLETIONS_IN, *PDEBUG_GET_TEXT_COMPLETIONS_IN
 ---
 
 # _DEBUG_GET_TEXT_COMPLETIONS_IN structure
@@ -72,6 +72,7 @@ typedef struct _DEBUG_GET_TEXT_COMPLETIONS_IN {
 ### -field Flags
 
 Flags. Valid flag values include the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ Do not include completions with symbols.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MatchCountLimit

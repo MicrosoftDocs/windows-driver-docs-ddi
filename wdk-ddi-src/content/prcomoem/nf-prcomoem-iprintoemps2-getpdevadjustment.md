@@ -7,8 +7,8 @@ old-location: print\iprintoemps2_getpdevadjustment.htm
 old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetPDEVAdjustment method [Print Devices], IPrintOemPS2, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, print.iprintoemps2_getpdevadjustment, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method
+ms.date: 2/23/2018
+ms.keywords: GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment,IPrintOemPS2.GetPDEVAdjustment, IPrintOemPS2, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemPS2.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 ### -param dwAdjustType
 
 Specifies the type of adjustment asked for. The following flags are currently supported:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,7 +116,8 @@ Enable or disable color output for monochrome and color printers. See the <a hre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pBuf
@@ -136,11 +138,14 @@ Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actual
 ## -returns
 
 
+
 The <code>IPrintOemPS2::GetPDEVAdjustment</code> method should return S_OK if it recognizes the adjustment type, and S_FALSE if it does not. If the method fails, it should return E_FAIL. The chain of plug-ins is called until either S_OK or a failure code other than E_NOTIMPL is returned. That is, the chain of plug-ins is called until the first plug-in that is capable of handling the adjustment is found.
 
 
 
+
 ## -remarks
+
 
 
 This function is available in Windows XP and later.
@@ -149,17 +154,28 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
+
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemps2.md">IPrintOemPS2</a>
+
+
 
 <a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
+
+
 <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
- 
+
+
+<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS2::GetPDEVAdjustment method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS2::GetPDEVAdjustment method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

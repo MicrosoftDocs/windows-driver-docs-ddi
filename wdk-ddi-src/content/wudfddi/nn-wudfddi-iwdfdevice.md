@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice.htm
 old-project: wdf
 ms.assetid: b0f8a156-e0e0-48d1-9e23-4ac07795df07
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice, IWDFDevice interface, IWDFDevice interface, described, IWDFDevice, wudfddi/IWDFDevice, UMDFDeviceObjectRef_d0dc8041-1d51-457b-8632-e500bf4df724.xml, umdf.iwdfdevice
+ms.date: 2/20/2018
+ms.keywords: IWDFDevice, IWDFDevice interface, IWDFDevice interface, described, UMDFDeviceObjectRef_d0dc8041-1d51-457b-8632-e500bf4df724.xml, umdf.iwdfdevice, wdf.iwdfdevice, wudfddi/IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFDevice</b> interface exposes a device object, which is a representation of a device on the system.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFDevice</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -216,46 +223,14 @@ The <a href="https://msdn.microsoft.com/3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0">Se
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/466af310-f2a7-4bd7-b927-df644e2e9c24">AssignDeviceInterfaceState</a> method enables or disables the specified device interface instance for a device.
-
-The <a href="https://msdn.microsoft.com/650ad98a-81e5-4ec8-b276-a5dc79366652">CommitPnpState</a> method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a> method set.
-
-The <a href="https://msdn.microsoft.com/b3318695-e9f2-480a-9133-9008ef0002b7">ConfigureRequestDispatching</a> method configures the queuing of I/O requests of the specified type to the specified I/O queue.
-
-The <a href="https://msdn.microsoft.com/0a88cbb6-66be-4ef7-93da-27d7ce169779">CreateDeviceInterface</a> method creates an instance of a device interface class.
-
-The <a href="https://msdn.microsoft.com/54c19d8c-59eb-44b2-b406-8fe33cdfcd63">CreateIoQueue</a> method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
-
-The <a href="https://msdn.microsoft.com/031ce604-9d6f-4fdd-bacc-d1897f260a14">CreateRequest</a> method creates an unformatted request object.
-
-The <a href="https://msdn.microsoft.com/15984217-e789-457c-b20f-c3d51741f5d3">CreateSymbolicLink</a> method creates a symbolic link for the device.
-
-The <a href="https://msdn.microsoft.com/b356e3ac-451d-4a10-94e2-d03fcf76cb29">CreateWdfFile</a> method creates a file object for a driver to use.
-
-The <a href="https://msdn.microsoft.com/9e998e54-b4c9-41ed-bba8-6f11c013f681">GetDefaultIoQueue</a> method retrieves the interface of the default I/O queue for a device.
-
-The <a href="https://msdn.microsoft.com/27bc5f1b-128d-486b-ae09-0356b1164ae0">GetDefaultIoTarget</a> method retrieves the interface of the default I/O target for a device instance.
-
-The <a href="https://msdn.microsoft.com/5d17d970-56b7-494a-aa7b-d60065ff06d8">GetDriver</a> method retrieves the interface to the parent driver object of a device instance.
-
-The <a href="https://msdn.microsoft.com/7214a0e9-5519-4daa-bd2f-cc3c697dd867">GetPnpState</a> method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
-
-The <a href="https://msdn.microsoft.com/3df25c91-d421-48fe-958c-48bce3bc78b8">PostEvent</a> method asynchronously notifies applications that are waiting for the specified event from a driver.
-
-The <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> method retrieves the identifier of an instance of a device.
-
-The <a href="https://msdn.microsoft.com/75304f5d-8a07-4db5-9f20-5764ff5d2ef6">RetrieveDeviceName</a> method retrieves the name of an underlying kernel-mode device.
-
-The <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> method retrieves a property store interface that drivers can use to access the registry.
-
-The <a href="https://msdn.microsoft.com/3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0">SetPnpState</a> method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 Each device object has a parent driver object. When a new device arrives in the system, the framework calls the parent driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function to notify the driver about the arrival. The driver can then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to receive a pointer to the <b>IWDFDevice</b> interface for the new device object. 
+
 
 

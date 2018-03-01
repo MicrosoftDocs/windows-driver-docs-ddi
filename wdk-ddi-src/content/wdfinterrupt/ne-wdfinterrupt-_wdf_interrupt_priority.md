@@ -1,19 +1,19 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_PRIORITY
-title: _WDF_INTERRUPT_PRIORITY
+title: "_WDF_INTERRUPT_PRIORITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority.htm
 old-project: wdf
 ms.assetid: e3305a9c-8107-4631-974b-fe85779ec8dc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityHigh, WDF_INTERRUPT_PRIORITY enumeration, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityLow, PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, _WDF_INTERRUPT_PRIORITY, wdf.wdf_interrupt_priority, WdfIrqPriorityUndefined, WdfIrqPriorityLow, WdfIrqPriorityHigh, WdfIrqPriorityNormal, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, kmdf.wdf_interrupt_priority, PWDF_INTERRUPT_PRIORITY enumeration pointer, wdfinterrupt/WdfIrqPriorityNormal
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_INTERRUPT_PRIORITY, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityHigh, WdfIrqPriorityLow, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, wdf.wdf_interrupt_priority, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityHigh, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityUndefined"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdfinterrupt.h
-req.include-header: Wdf.h
+req.include-header: Wdf.h, Wudfddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: PASSIVE_LEVEL
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfinterrupt.h
-apiname: 
+api_name:
 -	WDF_INTERRUPT_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ The device's interrupt has a relatively high priority, typically because the int
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+
 
 
 
@@ -104,9 +106,11 @@ The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a hr
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_PRIORITY enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_PRIORITY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

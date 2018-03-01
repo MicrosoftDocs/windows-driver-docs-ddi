@@ -7,8 +7,8 @@ old-location: storage\storportsetunitattributes.htm
 old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortSetUnitAttributes, storport/StorPortSetUnitAttributes, storage.storportsetunitattributes, StorPortSetUnitAttributes routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	StorPortSetUnitAttributes
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A set of bitfields indicating the attributes supported for the unit device.
 ## -returns
 
 
+
 <b>StorPortSetUnitAttributes</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,26 +130,34 @@ A unit device is not found for the address given in <i>Address</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A miniport driver will call this routine to register the unit attributes with Storport during completion of an SRB containing a SCSIOP_INQUIRY command request.  The bitfields in <i>attributes</i> are set based on the data returned from the adapter for the inquiry command. Storport will issue an inquiry for the unit at <i>Address</i> during a bus enumeration.
+
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
-
 <a href="..\storport\ns-storport-_stor_unit_attributes.md">STOR_UNIT_ATTRIBUTES</a>
 
- 
+
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetUnitAttributes routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetUnitAttributes routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

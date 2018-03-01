@@ -7,8 +7,8 @@ old-location: ifsk\rtlunicodetocustomcpn.htm
 old-project: ifsk
 ms.assetid: db4335c1-b6c9-4afd-b30f-95b736be696b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlUnicodeToCustomCPN, ifsk.rtlunicodetocustomcpn, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml, RtlUnicodeToCustomCPN function [Installable File System Drivers], ntifs/RtlUnicodeToCustomCPN
+ms.date: 2/16/2018
+ms.keywords: RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	RtlUnicodeToCustomCPN
 product: Windows
 targetos: Windows

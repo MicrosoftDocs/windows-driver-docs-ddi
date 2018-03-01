@@ -7,8 +7,8 @@ old-location: print\oembitblt.htm
 old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt, OEMBitBlt
+ms.date: 2/23/2018
+ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMBitBlt
 product: Windows
 targetos: Windows
@@ -81,43 +81,32 @@ BOOL  APIENTRY OEMBitBlt(
 ### -param psoTrg
 
 
-
 ### -param psoSrc
-
 
 
 ### -param psoMask
 
 
-
 ### -param pco
-
 
 
 ### -param pxlo
 
 
-
 ### -param prclTrg
-
 
 
 ### -param pptlSrc
 
 
-
 ### -param pptlMask
-
 
 
 ### -param pbo
 
 
-
 ### -param pptlBrush
 
 
-
 ### -param rop4
-
 

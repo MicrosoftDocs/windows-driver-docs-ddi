@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddscsi._NV_FEATURE_PARAMETER
-title: _NV_FEATURE_PARAMETER
+title: "_NV_FEATURE_PARAMETER"
 author: windows-driver-content
 description: The NV_FEATURE_PARAMETER structure is used in conjunction with the IOCTL_SCSI_MINIPORT_NVCACHE request to get NV Cache Manager feature support information from the device.
 old-location: storage\nv_feature_parameter.htm
 old-project: storage
 ms.assetid: 06b07b50-577c-4762-aea6-38bd1ada8973
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml, ntddscsi/NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, storage.nv_feature_parameter, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], NV_FEATURE_PARAMETER, _NV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], *PNV_FEATURE_PARAMETER
+ms.date: 2/24/2018
+ms.keywords: "*PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], PNV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], _NV_FEATURE_PARAMETER, ntddscsi/NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, storage.nv_feature_parameter, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddscsi.h
-apiname: 
+api_name:
 -	NV_FEATURE_PARAMETER
 product: Windows
 targetos: Windows
-req.typenames: *PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER
+req.typenames: NV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER
 ---
 
 # _NV_FEATURE_PARAMETER structure
@@ -132,9 +132,11 @@ Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field co
 
 <a href="..\ntddscsi\ns-ntddscsi-_nvcache_request_block.md">NVCACHE_REQUEST_BLOCK</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20NV_FEATURE_PARAMETER structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20NV_FEATURE_PARAMETER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

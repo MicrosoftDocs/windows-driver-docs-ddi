@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientsubscribetoevents.htm
 old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], ISensorDriver, OnClientSubscribeToEvents, sensors.isensordriver_onclientsubscribetoevents
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents,ISensorDriver.OnClientSubscribeToEvents, sensors.isensordriver_onclientsubscribetoevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+api_name:
 -	OnClientSubscribeToEvents
 product: Windows
 targetos: Windows
@@ -83,11 +83,14 @@ LPWSTR that contains the ID for the sensor from which the client application is 
 ## -returns
 
 
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When a client application requests event notifications, the driver raises all events to the sensor class extension for the specified object ID. The class extension then forwards these events to the Sensor API as event notifications for applications. 
@@ -97,5 +100,6 @@ You can maintain a reference count of connected applications for each sensor to 
 Platform-defined events are defined in sensors.h.
 
 For more information about how to use this method, see <a href="https://msdn.microsoft.com/1895EC5C-08C1-4976-83F2-CD5A2B55338D">Filtering data</a>.
+
 
 

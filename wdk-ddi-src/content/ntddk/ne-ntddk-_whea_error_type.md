@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_TYPE
-title: _WHEA_ERROR_TYPE
+title: "_WHEA_ERROR_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 old-location: whea\whea_error_type.htm
 old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrTypeGeneric, whea.whea_error_type, WheaErrTypeMemory, WheaErrTypePCIExpress, ntddk/WheaErrTypeNMI, WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXBus, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, PWHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypePCIExpress, WheaErrTypeProcessor, WheaErrTypePCIXDevice, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], *PWHEA_ERROR_TYPE, WheaErrTypePCIXBus, WheaErrTypeGeneric, WheaErrTypeNMI, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeProcessor, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications]
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_ERROR_TYPE, PWHEA_ERROR_TYPE, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypeGeneric, WheaErrTypeMemory, WheaErrTypeNMI, WheaErrTypePCIExpress, WheaErrTypePCIXBus, WheaErrTypePCIXDevice, WheaErrTypeProcessor, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypeGeneric, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeNMI, ntddk/WheaErrTypePCIExpress, ntddk/WheaErrTypePCIXBus, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypeProcessor, whea.whea_error_type, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_ERROR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE
+req.typenames: WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE
 ---
 
 # _WHEA_ERROR_TYPE enumeration
@@ -111,7 +111,9 @@ A hardware component that does not conform to any of the other WHEA_ERROR_TYPE e
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_TYPE that specifies the type of hardware component that reported the hardware error.
+
 
 
 
@@ -119,9 +121,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

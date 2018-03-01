@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddpcm._PCMCIA_CONTROLLER_CLASS
-title: _PCMCIA_CONTROLLER_CLASS
+title: "_PCMCIA_CONTROLLER_CLASS"
 author: windows-driver-content
 description: The PCMCIA_CONTROLLER_CLASS enumeration lists the different sorts of PC Card and CardBus controllers.
 old-location: pcmcia\pcmcia_controller_class.htm
 old-project: PCMCIA
 ms.assetid: d834d97c-cf2d-430b-8f54-b0b47ab1503c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCMCIA_CONTROLLER_CLASS enumeration [Buses], ntddpcm/PcmciaTopic, PcmciaOpti, PcmciaCardBusCompatible, PcmciaDatabookCB, PCMCIA.pcmcia_controller_class, ntddpcm/PcmciaDatabook, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, PcmciaNEC, ntddpcm/PcmciaTrid, ntddpcm/PcmciaO2Micro, PcmciaRicoh, PcmciaIntelCompatible, PCMCIA_CONTROLLER_CLASS, PcmciaO2Micro, PcmciaPciPcmciaBridge, ntddpcm/PcmciaNEC, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaPciPcmciaBridge, PcmciaTrid, ntddpcm/PcmciaTI, PcmciaNEC_98, _PCMCIA_CONTROLLER_CLASS, PcmciaTopic, ntddpcm/PcmciaElcController, ntddpcm/PcmciaNEC_98, ntddpcm/PCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, PcmciaInvalidControllerClass, PcmciaTI, ntddpcm/PcmciaOpti, PPCMCIA_CONTROLLER_CLASS, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], PcmciaElcController, ntddpcm/PcmciaRicoh, *PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaIntelCompatible, PcmciaCirrusLogic, ntddpcm/PcmciaInvalidControllerClass, PcmciaDatabook, ntddpcm/PcmciaDatabookCB, ntddpcm/PcmciaCirrusLogic
+ms.date: 2/15/2018
+ms.keywords: "*PPCMCIA_CONTROLLER_CLASS, PCMCIA.pcmcia_controller_class, PCMCIA_CONTROLLER_CLASS, PCMCIA_CONTROLLER_CLASS enumeration [Buses], PPCMCIA_CONTROLLER_CLASS, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], PcmciaCardBusCompatible, PcmciaCirrusLogic, PcmciaDatabook, PcmciaDatabookCB, PcmciaElcController, PcmciaIntelCompatible, PcmciaInvalidControllerClass, PcmciaNEC, PcmciaNEC_98, PcmciaO2Micro, PcmciaOpti, PcmciaPciPcmciaBridge, PcmciaRicoh, PcmciaTI, PcmciaTopic, PcmciaTrid, _PCMCIA_CONTROLLER_CLASS, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, ntddpcm/PCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaCirrusLogic, ntddpcm/PcmciaDatabook, ntddpcm/PcmciaDatabookCB, ntddpcm/PcmciaElcController, ntddpcm/PcmciaIntelCompatible, ntddpcm/PcmciaInvalidControllerClass, ntddpcm/PcmciaNEC, ntddpcm/PcmciaNEC_98, ntddpcm/PcmciaO2Micro, ntddpcm/PcmciaOpti, ntddpcm/PcmciaPciPcmciaBridge, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaTI, ntddpcm/PcmciaTopic, ntddpcm/PcmciaTrid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddpcm.h
-apiname: 
+api_name:
 -	PCMCIA_CONTROLLER_CLASS
 product: Windows
 targetos: Windows
@@ -166,9 +166,11 @@ Indicates a NEC cardbus controller.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_CONTROLLER_CLASS enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_CONTROLLER_CLASS enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\kspingetconnectedpininterface.htm
 old-project: stream
 ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml
+ms.date: 2/23/2018
+ms.keywords: KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, ks/KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsPinGetConnectedPinInterface
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ A pointer to a pointer that AVStream sets to the location of the COM interface.
 ## -returns
 
 
+
 <b>KsPinGetConnectedPinInterface</b> returns STATUS_SUCCESS or STATUS_NOINTERFACE. See details below.
 
 
 
+
 ## -remarks
+
 
 
 <i>Interface</i> has a corresponding reference count and <b>must</b> be released by the caller as in COM.
@@ -104,6 +107,7 @@ By default, objects support the <b>IUnknown</b> interface and the <a href="..\ks
 The most common usage of <b>KsPinGetConnectedPinInterface</b> is to acquire the control interface for the connected pin. This control interface can be used for property, method, or event calls down to the connected pin or can query for interfaces that have been aggregated onto the connected pin. If the connected pin is an AVStream pin; AVStream only provides thunking for <b>IKsControl</b> and <b>IUnknown</b> for non-AVStream pins.
 
 The thunk is only created if<i> Pin</i> is a source pin; thus, the calls only work if one or more of the following is true:
+
 <ul>
 <li>
 The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin).
@@ -113,29 +117,45 @@ The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin)
 <i>Pin</i> is a source pin.
 
 </li>
-</ul>Otherwise, STATUS_UNSUCCESSFUL is returned.
+</ul>
+Otherwise, STATUS_UNSUCCESSFUL is returned.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
 
 <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
 
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
- 
+
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetConnectedPinInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetConnectedPinInterface function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

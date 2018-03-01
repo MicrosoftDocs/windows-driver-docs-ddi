@@ -7,8 +7,8 @@ old-location: netvista\rilsmssupportcaps_2.htm
 old-project: netvista
 ms.assetid: 38dac27d-1415-44bb-8dd6-2a6b6bd2a774
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSMSSUPPORTCAPS, rilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RILSMSSUPPORTCAPS, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps_2, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CAPS_SMSSUPPORT_ALL
+ms.date: 2/16/2018
+ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps_2, rilapitypes/RILSMSSUPPORTCAPS, rilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, rilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSMSSUPPORTCAPS
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSMSSUPPORTCAPS {
 ### -field RIL_CAPS_SMSSUPPORT_PERSISTLINK
 
 
-
 ### -field RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER
 
 
-
 ### -field RIL_CAPS_SMSSUPPORT_ALL
-
 

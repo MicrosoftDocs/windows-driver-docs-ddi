@@ -7,8 +7,8 @@ old-location: netvista\riluiccapppersocheckstatus.htm
 old-project: netvista
 ms.assetid: 6438f692-75b0-4a41-a2f9-68b0fe3f23cf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS, *LPRILUICCAPPPERSOCHECKSTATUS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCAPPPERSOCHECKSTATUS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS
+req.typenames: RILUICCAPPPERSOCHECKSTATUS, *LPRILUICCAPPPERSOCHECKSTATUS
 ---
 
 # RILUICCAPPPERSOCHECKSTATUS structure
@@ -74,19 +74,14 @@ typedef struct _RILUICCAPPPERSOCHECKSTATUS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwPersoFeature
 
 
-
 ### -field dwPersoCheckState
-
 

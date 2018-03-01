@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
-title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
+title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
 author: windows-driver-content
 description: Specifies information about any additional transforms that should occur after the planes are composed.
 old-location: display\dxgk_multiplane_overlay_post_composition.htm
 old-project: display
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], display.dxgk_multiplane_overlay_post_composition, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
+ms.date: 2/24/2018
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 product: Windows
 targetos: Windows
@@ -93,9 +93,11 @@ Indicates additional rotation that should occur on the final image.
 ## -remarks
 
 
+
 The source mode contains the virtual mode size and the destination rectangle indicates how the virtual mode maps to the physical mode.
 
 For example, if a 1024x768 virtual mode is used with 1920x1080 physical mode, the following configurations are possible:
+
 
 
 

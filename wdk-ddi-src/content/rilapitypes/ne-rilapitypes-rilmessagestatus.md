@@ -7,8 +7,8 @@ old-location: netvista\rilmessagestatus_2.htm
 old-project: netvista
 ms.assetid: 30ae1eff-447c-4f6f-8f6c-cd8bc657d32d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMESSAGESTATUS, RIL_MSGSTATUS_STOSENT, rilapitypes/RIL_MSGSTATUS_MAX, rilapitypes/RIL_MSGSTATUS_RECREAD, netvista.rilmessagestatus_2, RIL_MSGSTATUS_RECUNREAD, rilapitypes/RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, rilapitypes/RIL_MSGSTATUS_RECUNREAD, rilapitypes/RIL_MSGSTATUS_STOUNSENT, rilapitypes/RILMESSAGESTATUS, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_STOUNSENT
+ms.date: 2/16/2018
+ms.keywords: RILMESSAGESTATUS, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_STOUNSENT, netvista.rilmessagestatus_2, rilapitypes/RILMESSAGESTATUS, rilapitypes/RIL_MSGSTATUS_MAX, rilapitypes/RIL_MSGSTATUS_RECREAD, rilapitypes/RIL_MSGSTATUS_RECUNREAD, rilapitypes/RIL_MSGSTATUS_STOSENT, rilapitypes/RIL_MSGSTATUS_STOUNSENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMESSAGESTATUS
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILMESSAGESTATUS {
 ### -field RIL_MSGSTATUS_UNKNOWN
 
 
-
 ### -field RIL_MSGSTATUS_RECUNREAD
-
 
 
 ### -field RIL_MSGSTATUS_RECREAD
 
 
-
 ### -field RIL_MSGSTATUS_STOUNSENT
-
 
 
 ### -field RIL_MSGSTATUS_STOSENT
 
 
-
 ### -field RIL_MSGSTATUS_MAX
-
 

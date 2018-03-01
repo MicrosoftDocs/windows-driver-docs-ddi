@@ -7,8 +7,8 @@ old-location: wdf\iwdfremoteinterfaceinitialize.htm
 old-project: wdf
 ms.assetid: 54954874-d67a-4e8b-b791-105e8018f8ca
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfremoteinterfaceinitialize, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface, described, IWDFRemoteInterfaceInitialize, wudfddi/IWDFRemoteInterfaceInitialize, UMDFIoTargetObjectRef_0536631b-c316-41e7-856b-94a3c991c318.xml, umdf.iwdfremoteinterfaceinitialize
+ms.date: 2/20/2018
+ms.keywords: IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface, described, UMDFIoTargetObjectRef_0536631b-c316-41e7-856b-94a3c991c318.xml, umdf.iwdfremoteinterfaceinitialize, wdf.iwdfremoteinterfaceinitialize, wudfddi/IWDFRemoteInterfaceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRemoteInterfaceInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 UMDF-based drivers receive the <b>IWDFRemoteInterfaceInitialize</b> interface as input to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRemoteInterfaceInitialize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFRemoteInterfaceInitialize</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -81,9 +88,5 @@ The <a href="https://msdn.microsoft.com/e3203542-177c-440a-8d41-4d70d77f804d">Re
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/3c68d458-9b34-4e45-993a-67f915347637">GetInterfaceGuid</a> method retrieves the GUID that identifies a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
-The <a href="https://msdn.microsoft.com/e3203542-177c-440a-8d41-4d70d77f804d">RetrieveSymbolicLink</a> method retrieves the symbolic link name that the operating system assigned to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
- 
+</table> 
 

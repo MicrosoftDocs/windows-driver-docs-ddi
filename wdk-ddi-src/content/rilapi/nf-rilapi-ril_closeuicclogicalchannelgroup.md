@@ -7,8 +7,8 @@ old-location: netvista\ril_closeuicclogicalchannelgroup.htm
 old-project: netvista
 ms.assetid: de761fd9-5637-40be-a4bb-9e29ed19a434
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_CloseUiccLogicalChannelGroup, netvista.ril_closeuicclogicalchannelgroup, RIL_CloseUiccLogicalChannelGroup, RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RIL_CloseUiccLogicalChannelGroup, RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannelgroup, rilapi/RIL_CloseUiccLogicalChannelGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_CloseUiccLogicalChannelGroup
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_CloseUiccLogicalChannelGroup(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param dwChannelGroup
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:avc._tagAvcResponseCode
-title: _tagAvcResponseCode
+title: "_tagAvcResponseCode"
 author: windows-driver-content
 description: The AvcResponseCode enumeration type is used to indicate the type of response received by a subunit driver from its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_SEND_RESPONSE function codes.
 old-location: stream\avcresponsecode.htm
 old-project: stream
 ms.assetid: 81a0ff7f-60a0-437e-8db2-ac364000d580
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: AvcResponseCode enumeration [Streaming Media Devices], avc/AVC_RESPONSE_REJECTED, AVC_RESPONSE_CHANGED, AVC_RESPONSE_REJECTED, AvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_IN_TRANSITION, _tagAvcResponseCode, avc/AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_STABLE, AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_INTERIM, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_IMPLEMENTED, avc/AvcResponseCode, AVC_RESPONSE_STABLE, avc/AVC_RESPONSE_ACCEPTED, stream.avcresponsecode
+ms.date: 2/23/2018
+ms.keywords: AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_CHANGED, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_INTERIM, AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_REJECTED, AVC_RESPONSE_STABLE, AvcResponseCode, AvcResponseCode enumeration [Streaming Media Devices], _tagAvcResponseCode, avc/AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_IMPLEMENTED, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_IN_TRANSITION, avc/AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_STABLE, avc/AvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, stream.avcresponsecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	avc.h
-apiname: 
+api_name:
 -	AvcResponseCode
 product: Windows
 targetos: Windows
@@ -116,15 +116,21 @@ Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED<
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
+
+
 
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AvcResponseCode enumeration%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AvcResponseCode enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

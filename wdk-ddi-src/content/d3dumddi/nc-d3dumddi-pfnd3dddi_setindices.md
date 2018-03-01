@@ -7,8 +7,8 @@ old-location: display\setindices.htm
 old-project: display
 ms.assetid: 5348b3f9-78c5-4915-ba68-296d6f9f916c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setindices, SetIndices callback function [Display Devices], SetIndices, PFND3DDDI_SETINDICES, PFND3DDDI_SETINDICES, d3dumddi/SetIndices, UserModeDisplayDriver_Functions_c51c5796-e271-4b76-a013-88038767d356.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETINDICES, SetIndices, SetIndices callback function [Display Devices], UserModeDisplayDriver_Functions_c51c5796-e271-4b76-a013-88038767d356.xml, d3dumddi/SetIndices, display.setindices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	SetIndices
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetIndices(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setindices.md">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
@@ -91,14 +93,18 @@ __checkReturn HRESULT APIENTRY SetIndices(
 ## -returns
 
 
+
 <i>SetIndices</i> returns S_OK or an appropriate error result if the index buffer is not successfully set.
+
 
 
 
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexBuffer</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setindices.md">D3DDDIARG_SETINDICES</a> structure that is pointed to by the <i>pData</i> parameter to clear the current index buffer. The driver should handle subsequent attempts to draw indexed primitives (before a new current index buffer is established) so that a crash does not occur. The debug version of your driver should display informative messages to the debug output stream when this error condition is detected.
+
 
 
 
@@ -106,11 +112,15 @@ The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexB
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setindices.md">D3DDDIARG_SETINDICES</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETINDICES callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETINDICES callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

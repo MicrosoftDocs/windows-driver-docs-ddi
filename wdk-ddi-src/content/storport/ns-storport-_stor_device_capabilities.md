@@ -1,19 +1,19 @@
 ---
 UID: NS:storport._STOR_DEVICE_CAPABILITIES
-title: _STOR_DEVICE_CAPABILITIES
+title: "_STOR_DEVICE_CAPABILITIES"
 author: windows-driver-content
 description: The STOR_DEVICE_CAPABILITIES structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities.htm
 old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], storage.stor_device_capabilities, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES, _STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
+ms.date: 2/24/2018
+ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
-req.include-header: Storport.h
+req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	STOR_DEVICE_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -149,6 +149,7 @@ If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug
 ## -remarks
 
 
+
 When a miniport driver receives an SRB in its <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If the <b>PnPAction</b> member of the SRB is <b>StorQueryCapabilities</b>, the miniport can return a <b>STOR_DEVICE_CAPABILITIES</b> structure in the <b>DataBuffer</b> member of the SRB.
 
 Storport sends this structure to the miniport with all members initialized to 0. On return, only the <b>Removable</b> field is used from this structure.
@@ -157,17 +158,24 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 
 
+
 ## -see-also
-
-<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
-
-<a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
 
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
- 
+
+
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_DEVICE_CAPABILITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

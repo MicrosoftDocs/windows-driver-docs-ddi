@@ -7,8 +7,8 @@ old-location: display\getcryptokeyexchangetype.htm
 old-project: display
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.getcryptokeyexchangetype, GetCryptoKeyExchangeType callback function [Display Devices], GetCryptoKeyExchangeType, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType
+ms.date: 2/24/2018
+ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	GetCryptoKeyExchangeType
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback
@@ -81,12 +81,14 @@ A handle to the display device (graphics context).
 
 
 
-### -param *pCryptoType
+### -param *pCryptoType [in]
+
+A pointer to a GUID that specifies the type of encryption algorithm to query.
 
 
+### -param *pDecodeProfile [in]
 
-### -param *pDecodeProfile
-
+A pointer to a GUID that specifies the decoder profile to query.
 
 
 ### -param Index [in]
@@ -94,24 +96,7 @@ A handle to the display device (graphics context).
 The zero-based index of the key exchange type.
 
 
-### -param *pKeyExchangeType
-
-
-
-
-
-
-#### - pDecodeProfile [in]
-
-A pointer to a GUID that specifies the decoder profile to query.
-
-
-#### - pCryptoType [in]
-
-A pointer to a GUID that specifies the type of encryption algorithm to query.
-
-
-#### - pKeyExchangeType [out]
+### -param *pKeyExchangeType [out]
 
 A pointer to a GUID that specifies the supported key exchange type for the specified index.
 
@@ -119,7 +104,9 @@ A pointer to a GUID that specifies the supported key exchange type for the speci
 ## -returns
 
 
+
 <b>GetCryptoKeyExchangeType</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,16 +134,20 @@ The encryption algorithm specified by the <i>pCryptoType</i> parameter is not su
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>GetCryptoKeyExchangeType</b> function can be called to query the key exchange types for any index from 0 to (<b>D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS.KeyExchangeTypeCount</b>– 1). 
 
 The <i>pCryptoType</i> parameter can contain one of the following values:
+
 <ul>
 <li>
 <b>D3DCRYPTOTYPE_AES128_CTR</b> if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher. 
@@ -172,18 +163,25 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 <b>NULL_GUID</b> if the driver is not configured to use any encryption algorithm.
 
 </li>
-</ul><div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i>, <i>pCryptoType</i>, and <i>Index</i> parameter data is valid before it calls the <i>GetCryptoKeyExchangeType</i> function.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i>, <i>pCryptoType</i>, and <i>Index</i> parameter data is valid before it calls the <i>GetCryptoKeyExchangeType</i> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
 old-project: stream
 ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsGetPhysicalTime method [Streaming Media Devices], stream.iksclockpropertyset_ksgetphysicaltime, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, IKsClockPropertySet, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, KsGetPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method, KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet::KsGetPhysicalTime
+ms.date: 2/23/2018
+ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime method [Streaming Media Devices], KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetPhysicalTime,IKsClockPropertySet.KsGetPhysicalTime, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, stream.iksclockpropertyset_ksgetphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsClockPropertySet.KsGetPhysicalTime
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Pointer to a variable that receives the current physical time.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The physical time is based on some underlying physical clock that always progresses, even if the physical type of clock must be changed in real time. Other physical clocks use an underlying clock's physical time for rate matching.
@@ -88,15 +91,20 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559760">IKsClockPropertySet::KsSetPhysicalTime</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsGetPhysicalTime method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsGetPhysicalTime method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

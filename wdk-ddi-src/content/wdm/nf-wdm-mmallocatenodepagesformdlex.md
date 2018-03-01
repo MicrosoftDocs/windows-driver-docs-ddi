@@ -7,8 +7,8 @@ old-location: kernel\mmallocatenodepagesformdlex.htm
 old-project: kernel
 ms.assetid: 491327A4-87B5-4206-9D47-007CE14E1327
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MmAllocateNodePagesForMdlEx, wdm/MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex
+ms.date: 2/24/2018
+ms.keywords: MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (See Remarks section.)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	MmAllocateNodePagesForMdlEx
 product: Windows
 targetos: Windows
@@ -96,7 +96,7 @@ The total number of bytes to allocate for the MDL.
 
 ### -param CacheType [in]
 
-A <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
+A <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
 ### -param IdealNode [in]
@@ -107,6 +107,7 @@ The ideal node number. If a multiprocessor system contains N nodes, valid node n
 ### -param Flags [in]
 
 Flags for this operation. Set this parameter to zero or to the bitwise-OR of one or more of the following flag bits:
+
 <ul>
 <li>
 MM_DONT_ZERO_ALLOCATION
@@ -132,10 +133,12 @@ MM_ALLOCATE_PREFER_CONTIGUOUS
 MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS
 
 </li>
-</ul>The MM_ALLOCATE_PREFER_CONTIGUOUS and MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bits are mutually exclusive. For more information about these flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.
+</ul>
+The MM_ALLOCATE_PREFER_CONTIGUOUS and MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bits are mutually exclusive. For more information about these flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.
 
 
 ## -returns
+
 
 
 <b>MmAllocateNodePagesForMdlEx</b> returns a pointer to an MDL structure if it is successful. Otherwise, if the routine fails to allocate any memory, the routine returns <b>NULL</b>.
@@ -146,7 +149,9 @@ If the routine successfully allocates some, but not all, of the requested memory
 
 
 
+
 ## -remarks
+
 
 
 In a non-uniform memory access (NUMA) multiprocessor system, the caller can specify an ideal node from which to allocate the memory. A node is a collection of processors that share fast access to a region of memory. In a non-NUMA multiprocessor or a single-processor system, <b>MmAllocateNodePagesForMdlEx</b> treats all memory as belonging to a single node and allocates memory from this node.
@@ -162,9 +167,13 @@ Depending on how much physical memory is currently available in the requested ra
 The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocateNodePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory allocated for the MDL structure.
 
 By default, <b>MmAllocateNodePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
-<div class="alert"><b>Note</b>    Memory that <b>MmAllocateNodePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.</div><div> </div>The maximum amount of memory that <b>MmAllocateNodePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
+
+<div class="alert"><b>Note</b>    Memory that <b>MmAllocateNodePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.</div>
+<div> </div>
+The maximum amount of memory that <b>MmAllocateNodePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
 <b>MmAllocateNodePagesForMdlEx</b> runs at IRQL &lt;= APC_LEVEL. If necessary, your driver can call <b>MmAllocateNodePagesForMdlEx</b> at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
+
 
 
 
@@ -172,21 +181,35 @@ By default, <b>MmAllocateNodePagesForMdlEx</b> fills the pages that it allocates
 
 <a href="..\wdm\nf-wdm-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateNodePagesForMdlEx routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAllocateNodePagesForMdlEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

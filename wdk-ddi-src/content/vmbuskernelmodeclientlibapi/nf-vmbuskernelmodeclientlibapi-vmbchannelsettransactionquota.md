@@ -7,8 +7,8 @@ old-location: netvista\vmbchannelsettransactionquota.htm
 old-project: netvista
 ms.assetid: C88F03BE-96D3-46A7-8269-1ECBFA539111
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VmbChannelSetTransactionQuota, vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota, netvista.vmbchannelsettransactionquota, VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: VmbChannelSetTransactionQuota, VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsettransactionquota, vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+api_name:
 -	VmbChannelSetTransactionQuota
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ A handle for a channel.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The incoming packet quota can be set to be lower than the current
@@ -98,5 +101,6 @@ the queue until sufficient packets have been completed.
 
 
  If the queue is currently blocked due to quota, this operation does not restart it. The queue only restarts once a packet is completed.
+
 
 

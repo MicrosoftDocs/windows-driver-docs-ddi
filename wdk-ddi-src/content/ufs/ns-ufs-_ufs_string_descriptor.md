@@ -1,14 +1,14 @@
 ---
 UID: NS:ufs._UFS_STRING_DESCRIPTOR
-title: _UFS_STRING_DESCRIPTOR
+title: "_UFS_STRING_DESCRIPTOR"
 author: windows-driver-content
 description: The UFS_STRING_DESCRIPTOR structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string.
 old-location: storage\ufs_string_descriptor.htm
 old-project: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ufs/UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, _UFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ufs.h
-apiname: 
+api_name:
 -	UFS_STRING_DESCRIPTOR
 product: Windows
 targetos: Windows

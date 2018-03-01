@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_USAGE
-title: _DXGK_DISPLAY_USAGE
+title: "_DXGK_DISPLAY_USAGE"
 author: windows-driver-content
 description: Enum used to specify the display type being used.
 old-location: display\dxgk_display_usage.htm
 old-project: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_DU_VR, DXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], DXGK_DU_INVALID, *PDXGK_DISPLAY_USAGE, DXGK_DU_AR, DXGK_DU_GENERIC, DXGK_DU_VR, d3dkmdt/DXGK_DU_AR, _DXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], d3dkmdt/DXGK_DU_INVALID, d3dkmdt/DXGK_DU_GENERIC, d3dkmdt/DXGK_DISPLAY_USAGE, display.dxgk_display_usage, d3dkmdt/PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DU_AR, DXGK_DU_GENERIC, DXGK_DU_INVALID, DXGK_DU_VR, PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], _DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_INVALID, d3dkmdt/DXGK_DU_VR, d3dkmdt/PDXGK_DISPLAY_USAGE, display.dxgk_display_usage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	DXGK_DISPLAY_USAGE
 product: Windows
 targetos: Windows
@@ -91,7 +91,6 @@ A head mounted virtual reality display.
 
 
 ### -field DXGK_DU_MAX
-
 
 
 ### -field BYTE

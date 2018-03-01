@@ -1,14 +1,14 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_OUTPUT_BUFFER_V2
-title: _ACPI_EVAL_OUTPUT_BUFFER_V2
+title: "_ACPI_EVAL_OUTPUT_BUFFER_V2"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_OUTPUT_BUFFER_V2 structure.
 old-location: acpi\acpi_eval_output_buffer_v2.htm
 old-project: acpi
 ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, *PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, _ACPI_EVAL_OUTPUT_BUFFER_V2
+ms.date: 2/15/2018
+ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	ACPI_EVAL_OUTPUT_BUFFER_V2
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ Defines the <b>ULONG</b> member <b>Count</b>.
 ### -field Argument
 
  
+
 
 
 

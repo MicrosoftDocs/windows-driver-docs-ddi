@@ -7,8 +7,8 @@ old-location: debugger\assemble.htm
 old-project: debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Assemble method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, Assemble method [Windows Debugging], IDebugControl3 interface [Windows Debugging], Assemble method, dbgeng/IDebugControl::Assemble, Assemble, IDebugControl::Assemble, debugger.assemble, dbgeng/IDebugControl2::Assemble, IDebugControl interface [Windows Debugging], Assemble method, Assemble method [Windows Debugging], IDebugControl3 interface, IDebugControl3::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, Assemble method [Windows Debugging], IDebugControl interface, IDebugControl3, dbgeng/IDebugControl3::Assemble
+ms.date: 2/23/2018
+ms.keywords: Assemble method [Windows Debugging], Assemble method [Windows Debugging], IDebugControl interface, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble method [Windows Debugging], IDebugControl3 interface, Assemble,IDebugControl3.Assemble, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, IDebugControl3, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.Assemble
 -	IDebugControl2.Assemble
 -	IDebugControl3.Assemble
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::Assemble method
@@ -89,6 +89,7 @@ Receives the location in the target's memory immediately following the assembled
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,20 +106,27 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 The assembly language depends on the effective processor type of the target machine.  For information about the assembly language, see the processor documentation.
+
 <div class="alert"><b>Note</b>  
-      The <b>Assemble</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538126">AssembleWide</a> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div><div> </div>The assembly language options--returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>--affect the operation of this method.
+      The <b>Assemble</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538126">AssembleWide</a> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
+<div> </div>
+The assembly language options--returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>--affect the operation of this method.
 
 For an overview of using assembly in debugger applications, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540661">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="https://msdn.microsoft.com/e4d53375-c82e-493b-9ccb-444c211fbc79">debugger engine API</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
+
 
 
 
@@ -126,17 +134,27 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Assemble method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Assemble method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

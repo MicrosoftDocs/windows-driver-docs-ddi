@@ -7,8 +7,8 @@ old-location: wdf\iwdffile_retrievefilename.htm
 old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFFile::RetrieveFileName, RetrieveFileName method, IWDFFile interface, wdf.iwdffile_retrievefilename, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, RetrieveFileName, umdf.iwdffile_retrievefilename, IWDFFile, IWDFFile::RetrieveFileName, IWDFFile interface, RetrieveFileName method, RetrieveFileName method
+ms.date: 2/20/2018
+ms.keywords: IWDFFile, IWDFFile interface, RetrieveFileName method, IWDFFile::RetrieveFileName, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, RetrieveFileName,IWDFFile.RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, umdf.iwdffile_retrievefilename, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFFile.RetrieveFileName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,7 @@ On input, the driver sets this variable to the size, in characters, of the buffe
 ## -returns
 
 
+
 <b>RetrieveFileName</b> returns S_OK for the following scenarios:
 
 
@@ -107,10 +108,56 @@ The buffer at <i>pFileName</i> was <b>NULL</b>, the driver preset the variable a
 
 
 
+
 ## -remarks
 
 
+
 Your driver might call <b>RetrieveFileName</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function.  For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how to retrieve the name of a file.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    ULONG fileNameCch = 0;
+    PWSTR fileName = NULL;
+    ULONG index;
+
+    CComObject&lt;CUmdfHidFile&gt; *file = NULL;
+
+    HRESULT hr;
+
+    // Get the length of the file name to allocate a buffer.
+    hr = WdfFile-&gt;RetrieveFileName(NULL, &amp;fileNameCch);
+    //
+    // Allocate the buffer.
+    //
+    if (SUCCEEDED(hr))
+    {
+        fileName = new WCHAR[fileNameCch];
+
+        if (fileName == NULL)
+        {
+            hr = E_OUTOFMEMORY;
+        }
+    }
+    //
+    // Get the file name.
+    //
+    if (SUCCEEDED(hr))
+    {
+        hr = WdfFile-&gt;RetrieveFileName(fileName, &amp;fileNameCch);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -118,9 +165,11 @@ Your driver might call <b>RetrieveFileName</b> from its <a href="https://msdn.mi
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFFile::RetrieveFileName method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFFile::RetrieveFileName method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

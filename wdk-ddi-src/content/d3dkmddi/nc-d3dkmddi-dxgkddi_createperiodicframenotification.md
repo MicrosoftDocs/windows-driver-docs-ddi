@@ -7,8 +7,8 @@ old-location: display\dxgkddi_createperiodicframenotification.htm
 old-project: display
 ms.assetid: EE11227A-E576-49C6-AEF1-CBE0AD788275
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_createperiodicframenotification, DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function [Display Devices], DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, display.dxgkddi_createperiodicframenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: requires_max_(PASSIVE_LEVEL)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_CREATEPERIODICFRAMENOTIFICATION</i> containing t
 ## -returns
 
 
+
 DXGKDDI_CREATEPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,6 +127,8 @@ When a periodic frame notification has not been successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

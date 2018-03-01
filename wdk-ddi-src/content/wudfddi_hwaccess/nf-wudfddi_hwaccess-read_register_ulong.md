@@ -7,8 +7,8 @@ old-location: wdf\read_register_ulong.htm
 old-project: wdf
 ms.assetid: F10D3091-BA9D-47FF-A457-380D86D9F205
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.read_register_ulong, READ_REGISTER_ULONG, READ_REGISTER_ULONG function, wudfddi_hwaccess/READ_REGISTER_ULONG, wdf.read_register_ulong
+ms.date: 2/20/2018
+ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG function, umdf.read_register_ulong, wdf.read_register_ulong, wudfddi_hwaccess/READ_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	READ_REGISTER_ULONG
 product: Windows
 targetos: Windows
@@ -84,13 +84,17 @@ A pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_ULONG</b> returns the ULONG value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

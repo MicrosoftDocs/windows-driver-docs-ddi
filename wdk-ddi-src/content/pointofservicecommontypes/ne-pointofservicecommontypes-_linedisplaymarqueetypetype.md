@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayMarqueeTypeType
-title: _LineDisplayMarqueeTypeType
+title: "_LineDisplayMarqueeTypeType"
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueetypetype.htm
 old-project: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/PLineDisplayMarqueeTypeType, _LineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, LineDisplayMarqueeTypeType enumeration, LineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType
+ms.date: 2/23/2018
+ms.keywords: LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicecommontypes.h
-apiname: 
+api_name:
 -	LineDisplayMarqueeTypeType
 product: Windows
 targetos: Windows
@@ -70,25 +70,19 @@ typedef enum _LineDisplayMarqueeTypeType {
 ### -field MarqueeTypeNone
 
 
-
 ### -field MarqueeTypeUp
-
 
 
 ### -field MarqueeTypeDown
 
 
-
 ### -field MarqueeTypeLeft
-
 
 
 ### -field MarqueeTypeRight
 
 
-
 ### -field MarqueeTypeInit
-
 
 
 

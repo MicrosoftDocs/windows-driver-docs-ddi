@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCINFO_VALIDBITS
-title: _WHEA_XPF_PROCINFO_VALIDBITS
+title: "_WHEA_XPF_PROCINFO_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a WHEA_XPF_PROCINFO structure contain valid data.
 old-location: whea\whea_xpf_procinfo_validbits.htm
 old-project: whea
 ms.assetid: ca0eef79-d990-4a82-b2d6-a51e3790cfc2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, _WHEA_XPF_PROCINFO_VALIDBITS, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml, *PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], whea.whea_xpf_procinfo_validbits, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, ntddk/WHEA_XPF_PROCINFO_VALIDBITS
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, ntddk/WHEA_XPF_PROCINFO_VALIDBITS, whea.whea_xpf_procinfo_validbits, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_XPF_PROCINFO_VALIDBITS
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS
+req.typenames: WHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS
 ---
 
 # _WHEA_XPF_PROCINFO_VALIDBITS structure
@@ -80,59 +80,9 @@ typedef union _WHEA_XPF_PROCINFO_VALIDBITS {
  
 
 
-### -field DUMMYSTRUCTNAME.CheckInfo
-
- 
-
-
-### -field DUMMYSTRUCTNAME.TargetId
-
- 
-
-
-### -field DUMMYSTRUCTNAME.RequesterId
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ResponderId
-
- 
-
-
-### -field DUMMYSTRUCTNAME.InstructionPointer
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved
-
- 
-
-
 ### -field ValidBits
 
 A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - RequesterId
-
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - TargetId
-
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
-
-
-#### - ResponderId
-
-A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 #### - CheckInfo
@@ -145,10 +95,32 @@ A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PRO
 A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
+#### - RequesterId
+
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - ResponderId
+
+A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
+#### - TargetId
+
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
 ## -remarks
 
 
+
 A WHEA_XPF_PROCINFO_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure.
+
 
 
 
@@ -156,9 +128,11 @@ A WHEA_XPF_PROCINFO_VALIDBITS union is contained within the <a href="..\ntddk\ns
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_PROCINFO_VALIDBITS union%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_PROCINFO_VALIDBITS union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

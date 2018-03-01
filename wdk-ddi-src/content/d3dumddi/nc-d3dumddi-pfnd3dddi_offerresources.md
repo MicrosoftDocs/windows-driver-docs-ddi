@@ -7,8 +7,8 @@ old-location: display\offerresources.htm
 old-project: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.offerresources, OfferResources callback function [Display Devices], OfferResources, PFND3DDDI_OFFERRESOURCES, PFND3DDDI_OFFERRESOURCES, d3dumddi/OfferResources
+ms.date: 2/24/2018
+ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, d3dumddi/OfferResources, display.offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	OfferResources
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ _Check_return_ HRESULT APIENTRY* OfferResources(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a> structure that defines the video memory resources that the driver offers.
@@ -92,7 +94,9 @@ _Check_return_ HRESULT APIENTRY* OfferResources(
 
 
 
+
        Returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +127,14 @@ If the driver is not aware of the adapter removal, the driver is not required to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the user-mode driver does not have outstanding work queued that references an allocation that it has been asked to offer, then it can offer the allocation immediately or postpone the offer until the next call is made to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> functions. However, the driver must always process all batched offer calls that have been submitted through <i>Flush</i> or <i>Present</i>.
@@ -136,21 +143,32 @@ If the driver uses the <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
- 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_OFFERRESOURCES callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_OFFERRESOURCES callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmthk._QAI_DRIVERVERSION
-title: _QAI_DRIVERVERSION
+title: "_QAI_DRIVERVERSION"
 author: windows-driver-content
 description: The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the version of the display driver model that the display miniport driver supports.
 old-location: display\d3dkmt_driverversion.htm
 old-project: display
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_1, _QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/, KMT_DRIVERVERSION_WDDM_1_3, display.d3dkmt_driverversion, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, D3DKMT_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_0, _QAI_DRIVERVERSION enumeration [Display Devices], OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, d3dkmthk/_QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_DRIVERVERSION, D3DKMT_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_0, KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, KMT_DRIVERVERSION_WDDM_1_2, KMT_DRIVERVERSION_WDDM_1_3, KMT_DRIVERVERSION_WDDM_2_0, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, _QAI_DRIVERVERSION, _QAI_DRIVERVERSION enumeration [Display Devices], d3dkmthk/, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/_QAI_DRIVERVERSION, display.d3dkmt_driverversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_DRIVERVERSION
 product: Windows
 targetos: Windows
@@ -118,9 +118,7 @@ Supported starting with Windows 10.
 ### -field KMT_DRIVERVERSION_WDDM_2_1
 
 
-
 ### -field KMT_DRIVERVERSION_WDDM_2_2
-
 
 
 ### -field KMT_DRIVERVERSION_WDDM_2_3
@@ -130,23 +128,28 @@ Supported starting with Windows 10.
 
 
 
-
 ## -remarks
+
 
 
 The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a> returns a D3DKMT_DRIVERVERSION value in a variable that the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a> structure points to when the OpenGL installable client driver (ICD) sets the <b>Type</b> member of <b>D3DKMT_QUERYADAPTERINFO</b> to KMTQAITYPE_DRIVERVERSION.
 
 
 
-## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
- 
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20_QAI_DRIVERVERSION enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20_QAI_DRIVERVERSION enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

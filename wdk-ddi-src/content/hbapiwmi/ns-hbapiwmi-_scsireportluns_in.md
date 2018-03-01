@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._ScsiReportLuns_IN
-title: _ScsiReportLuns_IN
+title: "_ScsiReportLuns_IN"
 author: windows-driver-content
 description: The ScsiReportLuns_IN structure is used to deliver input parameter data to the ScsiReportLuns WMI method.
 old-location: storage\scsireportluns_in2.htm
 old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, _ScsiReportLuns_IN, ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], hbapiwmi/ScsiReportLuns_IN, PScsiReportLuns_IN, *PScsiReportLuns_IN, storage.scsireportluns_in2
+ms.date: 2/24/2018
+ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, storage.scsireportluns_in2, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Hbapiwmi.h
-apiname: 
+api_name:
 -	ScsiReportLuns_IN
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -101,9 +103,11 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReportLuns_IN structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReportLuns_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntnls._NLSTABLEINFO
-title: _NLSTABLEINFO
+title: "_NLSTABLEINFO"
 author: windows-driver-content
 description: Stores the NLS file formats .
 old-location: kernel\nlstableinfo.htm
 old-project: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntnls/NLSTABLEINFO, ntnls/PNLSTABLEINFO, kernel.nlstableinfo, NLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], NLSTABLEINFO structure [Kernel-Mode Driver Architecture], _NLSTABLEINFO, *PNLSTABLEINFO, PNLSTABLEINFO
+ms.date: 2/24/2018
+ms.keywords: "*PNLSTABLEINFO, NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], PNLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _NLSTABLEINFO, kernel.nlstableinfo, ntnls/NLSTABLEINFO, ntnls/PNLSTABLEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntnls.h
-apiname: 
+api_name:
 -	NLSTABLEINFO
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ Specifies an 844 format uppercase table.
 ### -field LowerCaseTable
 
  
+
 
 
 

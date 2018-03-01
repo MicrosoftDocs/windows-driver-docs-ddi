@@ -7,8 +7,8 @@ old-location: stream\transportstatus.htm
 old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS structure [Streaming Media Devices], stream.transportstatus, TRANSPORTSTATUS, PTRANSPORTSTATUS, *PTRANSPORTSTATUS, ksmedia/PTRANSPORTSTATUS, tagTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml
+ms.date: 2/23/2018
+ms.keywords: "*PTRANSPORTSTATUS, PTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, tagTRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	TRANSPORTSTATUS
 product: Windows
 targetos: Windows
-req.typenames: *PTRANSPORTSTATUS, TRANSPORTSTATUS
+req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 ---
 
 # tagTRANSPORTSTATUS structure
@@ -147,6 +147,8 @@ Specifies event notification. <b>TRUE</b> enables event notification, <b>FALSE</
 ## -remarks
 
 
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
 
 

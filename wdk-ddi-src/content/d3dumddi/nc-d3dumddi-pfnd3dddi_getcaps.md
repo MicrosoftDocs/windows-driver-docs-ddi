@@ -7,8 +7,8 @@ old-location: display\getcaps.htm
 old-project: display
 ms.assetid: cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.getcaps, GetCaps callback function [Display Devices], GetCaps, PFND3DDDI_GETCAPS, PFND3DDDI_GETCAPS, d3dumddi/GetCaps, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml
+ms.date: 2/24/2018
+ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3DDDI_GETCAPS, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml, d3dumddi/GetCaps, display.getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	GetCaps
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY GetCaps(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY GetCaps(
 ## -returns
 
 
+
 <i>GetCaps</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,16 +124,20 @@ The capabilities were successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The data that is returned by the <i>GetCaps</i> function in the <b>pData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of <b>D3DDDIARG_GETCAPS</b> and sometimes on the <b>pInfo</b> member).
 
 Here are examples of how to set up the <i>GetCaps</i> call depending on the value of <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>.<b>Type</b>.
+
 <table>
 <tr>
 <th>
@@ -162,28 +170,42 @@ Here are examples of how to set up the <i>GetCaps</i> call depending on the valu
 <td>Driver must fill in the <a href="..\d3dumddi\ns-d3dumddi-_ddraw_caps.md">DDRAW_CAPS</a> structure pointed to by <b>pData</b> with Microsoft DirectDraw capabilities that it supports.</td>
 <td>Driver must fill the buffer pointed to by <b>pData</b> with a UINT value that represents the number of <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> surface formats that the device supports.</td>
 </tr>
-</table> 
+</table>
+ 
 
 See the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> enumeration topic for explanations of other values for <b>D3DDDIARG_GETCAPS</b>.<b>Type</b> that are used for multiplane overlays.
-<h3><a id="Simple_instancing"></a><a id="simple_instancing"></a><a id="SIMPLE_INSTANCING"></a>Simple instancing</h3>If a Microsoft Direct3D Level 9 driver that supports Windows Display Driver Model (WDDM) 1.3 and later completes a call to <i>GetCaps</i> and returns <b>S_OK</b> but doesn't change the data in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure, it indicates to the Direct3D runtime that the hardware and driver don't support simple instancing. For more info, see <a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_simple_instancing_support.md">D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT</a>.
+
+<h3><a id="Simple_instancing"></a><a id="simple_instancing"></a><a id="SIMPLE_INSTANCING"></a>Simple instancing</h3>
+If a Microsoft Direct3D Level 9 driver that supports Windows Display Driver Model (WDDM) 1.3 and later completes a call to <i>GetCaps</i> and returns <b>S_OK</b> but doesn't change the data in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure, it indicates to the Direct3D runtime that the hardware and driver don't support simple instancing. For more info, see <a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_simple_instancing_support.md">D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_ddraw_caps.md">DDRAW_CAPS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
+
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_simple_instancing_support.md">D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddraw_caps.md">DDRAW_CAPS</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_GETCAPS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_GETCAPS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

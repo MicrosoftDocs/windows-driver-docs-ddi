@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._FILE_STANDARD_INFORMATION_EX
-title: _FILE_STANDARD_INFORMATION_EX
+title: "_FILE_STANDARD_INFORMATION_EX"
 author: windows-driver-content
 description: The FILE_STANDARD_INFORMATION_EX structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_standard_information_ex.htm
 old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], *PFILE_STANDARD_INFORMATION_EX
+ms.date: 2/24/2018
+ms.keywords: "*PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], _FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	FILE_STANDARD_INFORMATION_EX
 product: Windows
 targetos: Windows
@@ -112,7 +112,9 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 ## -remarks
 
 
+
 <b>EndOfFile</b> specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file; that is, it is the offset to the byte immediately following the last valid byte in the file. 
+
 
 
 
@@ -120,13 +122,19 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_STANDARD_INFORMATION_EX structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_STANDARD_INFORMATION_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

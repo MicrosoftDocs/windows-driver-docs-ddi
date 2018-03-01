@@ -7,8 +7,8 @@ old-location: stream\ksfiltergetandgate.htm
 old-project: stream
 ms.assetid: b5f7c4ed-0596-4e88-b987-fd454e4b4971
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksfiltergetandgate, KsFilterGetAndGate, avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, KsFilterGetAndGate function [Streaming Media Devices], ks/KsFilterGetAndGate
+ms.date: 2/23/2018
+ms.keywords: KsFilterGetAndGate, KsFilterGetAndGate function [Streaming Media Devices], avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, ks/KsFilterGetAndGate, stream.ksfiltergetandgate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsFilterGetAndGate
 product: Windows
 targetos: Windows
@@ -76,34 +76,50 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for w
 ## -returns
 
 
+
 <b>KsFilterGetAndGate</b> returns <i>Filter</i>'s AND gate as a pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure.
+
 
 
 
 ## -remarks
 
 
+
 A minidriver can use AND gates on a filter as a processing control mechanism for that filter.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
-
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
 
 <a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+
+
+
+<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetAndGate function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetAndGate function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

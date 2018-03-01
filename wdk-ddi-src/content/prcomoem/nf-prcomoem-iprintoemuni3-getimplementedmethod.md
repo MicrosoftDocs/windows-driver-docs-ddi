@@ -7,8 +7,8 @@ old-location: print\iprintoemuni3_getimplementedmethod.htm
 old-project: print
 ms.assetid: a1de8e8f-eca1-4630-b689-585027184a08
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni3::GetImplementedMethod, GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, prcomoem/IPrintOemUni3::GetImplementedMethod, print.iprintoemuni3_getimplementedmethod, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml, IPrintOemUni3, GetImplementedMethod method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, GetImplementedMethod,IPrintOemUni3.GetImplementedMethod, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, IPrintOemUni3::GetImplementedMethod, prcomoem/IPrintOemUni3::GetImplementedMethod, print.iprintoemuni3_getimplementedmethod, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUni3.GetImplementedMethod
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Caller-supplied pointer to a string that represents the name of an <b>IPrintOemU
 ## -returns
 
 
+
 <code>GetImplementedMethod</code> must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The operation failed (that is, the specified method is not implemented).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni3::GetImplementedMethod</code> method, together with several other methods in this interface. For those methods that are optional, <code>IPrintOemUni3::GetImplementedMethod</code> examines the input method name string and returns a value that indicates whether the associated method is implemented within the plug-in. For example, if <code>IPrintOemUni3::GetImplementedMethod</code> is called with the string "ImageProcessing", it should return S_OK if the <b>IPrintOemUni3::ImageProcessing</b> method is implemented and S_FALSE otherwise.  
@@ -148,5 +153,6 @@ The <code>IPrintOemUni3::GetImplementedMethod</code> method must recognize the f
 "TTYGetInfo"
 
 "WritePrinter"
+
 
 

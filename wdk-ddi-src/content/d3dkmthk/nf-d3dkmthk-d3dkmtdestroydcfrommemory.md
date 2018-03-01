@@ -7,8 +7,8 @@ old-location: display\d3dkmtdestroydcfrommemory.htm
 old-project: display
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyDCFromMemory function [Display Devices], D3DKMTDestroyDCFromMemory, display.d3dkmtdestroydcfrommemory, OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml, d3dkmthk/D3DKMTDestroyDCFromMemory
+ms.date: 2/24/2018
+ms.keywords: D3DKMTDestroyDCFromMemory, D3DKMTDestroyDCFromMemory function [Display Devices], OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml, d3dkmthk/D3DKMTDestroyDCFromMemory, display.d3dkmtdestroydcfrommemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTDestroyDCFromMemory
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
@@ -84,7 +85,9 @@ TBD
 ## -returns
 
 
+
 <b>D3DKMTDestroyDCFromMemory</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,9 +115,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
@@ -122,9 +127,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTDestroyDCFromMemory function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTDestroyDCFromMemory function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

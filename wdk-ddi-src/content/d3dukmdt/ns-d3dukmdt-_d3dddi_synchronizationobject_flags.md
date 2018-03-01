@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
-title: _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+title: "_D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS"
 author: windows-driver-content
 description: Identifies attributes of a synchronization object.
 old-location: display\d3dddi_synchronizationobject_flags.htm
 old-project: display
 ms.assetid: 57e5ea18-ccdd-40a7-9ff5-4d6b94908e7c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 product: Windows
 targetos: Windows
@@ -104,7 +104,10 @@ For more information, see the Remarks section.
 A UINT value that specifies whether the synchronization object is shared with an NT handle, meaning that it  does not have a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource.
 
 If <b>NtSecuritySharing</b> is set to 1 (<b>TRUE</b>), the synchronization object is shared but does not have a global <b>D3DKMT_HANDLE</b> handle to the resource.
-<div class="alert"><b>Note</b>  If <b>NtSecuritySharing</b> is set to 1,  <b>Shared</b>  must be set to 1.</div><div> </div>For more information, see the Remarks section.
+
+<div class="alert"><b>Note</b>  If <b>NtSecuritySharing</b> is set to 1,  <b>Shared</b>  must be set to 1.</div>
+<div> </div>
+For more information, see the Remarks section.
 
 Supported starting with Windows 8.
 
@@ -147,7 +150,8 @@ The synchronization object is signaled after the preceding command buffers compl
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -183,7 +187,8 @@ The synchronization object can be signaled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -219,7 +224,8 @@ The synchronization object can be waited on.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -259,7 +265,8 @@ The GPU scheduler will signal the monitored fence to the maximum value when a de
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Supported starting with Windows 10.
 
@@ -285,7 +292,7 @@ This member is reserved and should be set to zero.
 Supported starting with Windows 8.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that is contained in <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> that can hold one 32-bit value that identifies attributes of a synchronization object.
 
@@ -293,9 +300,11 @@ Supported starting with Windows 8.
 ## -remarks
 
 
+
 Objects to be shared by using the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a> function must first be created with the <b>NtSecuritySharing</b> flag value set. This flag value is available in the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>, <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>, and <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> structures.
 
 Drivers should follow these guidelines on <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> flags:
+
 <ul>
 <li>If the synchronization object is not shared, set both  <b>Shared</b> and <b>NtSecuritySharing</b> to 0.</li>
 <li>If the synchronization object is shared with a <b>D3DKMT_HANDLE</b> data type, set <b>Shared</b> = 1 and <b>NtSecuritySharing</b> = 0.</li>
@@ -303,21 +312,32 @@ Drivers should follow these guidelines on <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS<
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
+
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

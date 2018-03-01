@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxinitialize.htm
 old-project: netvista
 ms.assetid: C297D681-D43F-4105-9E08-7FF42807E9A0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.miniportwditaltxrxinitialize, MiniportWdiTalTxRxInitialize callback function [Network Drivers Starting with Windows Vista], MiniportWdiTalTxRxInitialize, MINIPORT_WDI_TAL_TXRX_INITIALIZE, MINIPORT_WDI_TAL_TXRX_INITIALIZE, dot11wdi/MiniportWdiTalTxRxInitialize
+ms.date: 2/16/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_INITIALIZE, MiniportWdiTalTxRxInitialize, MiniportWdiTalTxRxInitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxInitialize, netvista.miniportwditaltxrxinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dot11wdi.h
-apiname: 
+api_name:
 -	MiniportWdiTalTxRxInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_TAL_TXRX_INITIALIZE callback
@@ -104,14 +104,7 @@ The TAL device handle is a control path handle for the device (for example, Mini
 The UE initializes the NDIS Header field so the LE can determine the revision and size that is safe to initialize according to traditional NDIS versioning rules.  The LE is responsible for updating the Header with the revision and size that the LE actually implements and supports before returning.
 
 
-### -param *pMiniportWdiFrameMetadataExtraSpace
-
-
-
-
-
-
-#### - pMiniportWdiFrameMetadataExtraSpace [out]
+### -param *pMiniportWdiFrameMetadataExtraSpace [out]
 
 The LE sets the value pointed to by this parameter to the amount of space that WDI should reserve after the <a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a> for the LE to use.
 
@@ -119,7 +112,10 @@ The LE sets the value pointed to by this parameter to the amount of space that W
 ## -returns
 
 
-<div class="alert"><b>Note</b>  Non-<b>NDIS_STATUS_SUCCESS</b> return values indicate a generic failure.</div><div> </div><table>
+
+<div class="alert"><b>Note</b>  Non-<b>NDIS_STATUS_SUCCESS</b> return values indicate a generic failure.</div>
+<div> </div>
+<table>
 <tr>
 <th>Return code</th>
 <th>Description</th>
@@ -135,23 +131,33 @@ Indicates that the miniport driver successfully exchanged datapath component han
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/5B40171C-4E5F-4C35-A6E7-1EA5181C02E8">WDI general datapath interfaces</a>
+
+
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_WDI_TAL_TXRX_INITIALIZE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_WDI_TAL_TXRX_INITIALIZE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

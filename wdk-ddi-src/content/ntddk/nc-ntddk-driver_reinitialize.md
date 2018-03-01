@@ -7,8 +7,8 @@ old-location: kernel\reinitialize.htm
 old-project: kernel
 ms.assetid: 5e883b80-a6e6-44b4-9e1c-78402b91edb9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.reinitialize, Reinitialize routine [Kernel-Mode Driver Architecture], Reinitialize, DRIVER_REINITIALIZE, DRIVER_REINITIALIZE, ntddk/Reinitialize, DrvrRtns_193becfd-0e72-48f0-b6da-b916851c31a4.xml
+ms.date: 2/24/2018
+ms.keywords: DRIVER_REINITIALIZE, DrvrRtns_193becfd-0e72-48f0-b6da-b916851c31a4.xml, Reinitialize, Reinitialize routine [Kernel-Mode Driver Architecture], kernel.reinitialize, ntddk/Reinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ntddk.h
-apiname: 
+api_name:
 -	Reinitialize
 product: Windows
 targetos: Windows
@@ -72,8 +72,9 @@ VOID Reinitialize(
 
 
 
-### -param *DriverObject
+### -param *DriverObject [in]
 
+Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
 ### -param Context [in, optional]
@@ -86,23 +87,64 @@ Caller-supplied pointer to context information, specified in a previous call to 
 Caller-supplied value representing the number of times the <i>Reinitialize</i> routine has been called, including the current call.
 
 
-#### - DriverObject [in]
-
-Caller-supplied pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. This is the driver's driver object.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
-To queue a <i>Reinitialize</i> routine for execution, a driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine must call either <a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a> or <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>. The <i>Reinitialize</i> routine can also call <b>IoRegisterDriverReinitialization</b> itself, which causes the routine to be requeued. This requeuing can occur multiple times, and the routine's <i>Count</i> parameter indicates the number of times it has been called. The first call to <b>IoRegisterDriverReinitialization</b> must be made from <b>DriverEntry</b>, and <b>DriverEntry</b> must return STATUS_SUCCESS.
+
+To queue a <i>Reinitialize</i> routine for execution, a driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine must call either <a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a> or <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>. The <i>Reinitialize</i> routine can also call <b>IoRegisterDriverReinitialization</b> itself, which causes the routine to be requeued. This requeuing can occur multiple times, and the routine's <i>Count</i> parameter indicates the number of times it has been called. The first call to <b>IoRegisterDriverReinitialization</b> must be made from <b>DriverEntry</b>, and <b>DriverEntry</b> must return STATUS_SUCCESS.
 
 For more information about implementing a <i>Reinitialize</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566403">Writing a Reinitialize Routine</a>.
+
+
+#### Examples
+
+To define a <i>Reinitialize</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+For example, to define a <i>Reinitialize</i> callback routine that is named <code>MyReinitialize</code>, use the DRIVER_REINITIALIZE type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DRIVER_REINITIALIZE MyReinitialize;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+  MyReinitialize(
+    struct _DRIVER_OBJECT  *DriverObject,
+    PVOID  Context,
+    ULONG  Count
+    )
+  {
+      // Function body
+  }
+</pre>
+</td>
+</tr>
+</table></span></div>
+The DRIVER_REINITIALIZE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_REINITIALIZE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+
+<div class="code"></div>
 
 

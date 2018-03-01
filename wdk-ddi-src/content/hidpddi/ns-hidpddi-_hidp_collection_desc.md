@@ -1,14 +1,14 @@
 ---
 UID: NS:hidpddi._HIDP_COLLECTION_DESC
-title: _HIDP_COLLECTION_DESC
+title: "_HIDP_COLLECTION_DESC"
 author: windows-driver-content
 description: Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_collection_desc.htm
 old-project: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], hid.hidp_collection_desc, _HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC
+ms.date: 2/24/2018
+ms.keywords: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Hidpddi.h
-apiname: 
+api_name:
 -	HIDP_COLLECTION_DESC
 product: Windows
 targetos: Windows
-req.typenames: *PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC
+req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
 ---
 
 # _HIDP_COLLECTION_DESC structure
@@ -124,9 +124,11 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardwar
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_COLLECTION_DESC structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_COLLECTION_DESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

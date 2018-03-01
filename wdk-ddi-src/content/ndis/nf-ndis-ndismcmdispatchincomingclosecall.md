@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdispatchincomingclosecall.htm
 old-project: netvista
 ms.assetid: 843050e1-a1ec-4313-b527-529c4ff6ca07
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, netvista.ndismcmdispatchincomingclosecall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], NdisMCmDispatchIncomingCloseCall, ndis/NdisMCmDispatchIncomingCloseCall
+ms.date: 2/16/2018
+ms.keywords: NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NdisMCmDispatchIncomingCloseCall
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDispatchIncomingCloseCall macro
@@ -93,10 +93,12 @@ TBD
 
 
 
-#### - Size [in]
 
-Specifies the size in bytes of the buffer, zero if 
-     <i>Buffer</i> is <b>NULL</b>.
+
+#### - Buffer [in, optional]
+
+Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
+     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
 
 
 #### - CloseStatus [in]
@@ -115,13 +117,14 @@ Specifies the handle to the VC of the call being disconnected. This handle was s
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - Buffer [in, optional]
+#### - Size [in]
 
-Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
-     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
+Specifies the size in bytes of the buffer, zero if 
+     <i>Buffer</i> is <b>NULL</b>.
 
 
 ## -remarks
+
 
 
 In the course of normal network operations, an MCM driver calls 
@@ -132,11 +135,12 @@ In the course of normal network operations, an MCM driver calls
 
 However, an MCM driver also can call 
     <b>NdisMCmDispatchIncomingCloseCall</b> if either of the following occur:
+
 <ul>
 <li>
 The MCM driver has notified a client of an incoming call offer. When the miniport driver's 
-      <mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-      ProtocolCmIncomingCallComplete</i></mshelp:link> function is called with the client's acceptance, it validates the
+      <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+      ProtocolCmIncomingCallComplete</a> function is called with the client's acceptance, it validates the
       input call parameters, which that client has modified. 
       <i>ProtocolCmIncomingCallComplete</i> determines that the client is proposing unsupportable call
       parameters for the connection, so it calls 
@@ -151,7 +155,8 @@ Abormal network conditions force the MCM driver to tear down active calls. For e
       transfers on such a broken connection.
 
 </li>
-</ul>After the client calls 
+</ul>
+After the client calls 
     <b>NdisClCloseCall</b> thereby causing the deactivation of the VC, the original creator of the VC is
     responsible for destroying the VC. Either the client calls 
     <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>, which causes NDIS to call
@@ -164,8 +169,8 @@ Abormal network conditions force the MCM driver to tear down active calls. For e
 
 A call to 
     <b>NdisMCmDispatchIncomingCloseCall</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclincomingclosecall" tabindex="0"><i>
-    ProtocolClIncomingCloseCall</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    ProtocolClIncomingCloseCall</a> function.
 
 Only connection-oriented miniport drivers that provide call-management support can call 
     <b>NdisMCmDispatchIncomingCall</b>. Stand-alone call managers, which register themselves with NDIS as
@@ -174,28 +179,45 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndismcmdispatchincomingdropparty" tabindex="0"><b>
-   NdisMCmDispatchIncomingDropParty</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
+   NdisMCmDispatchIncomingDropParty</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCloseCall macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDispatchIncomingCloseCall macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

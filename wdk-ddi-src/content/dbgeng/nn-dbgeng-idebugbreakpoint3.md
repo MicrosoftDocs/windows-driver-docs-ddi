@@ -2,13 +2,13 @@
 UID: NN:dbgeng.IDebugBreakpoint3
 title: IDebugBreakpoint3
 author: windows-driver-content
-description: .
+description: "."
 old-location: debugger\idebugbreakpoint3.htm
 old-project: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugbreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging], described, IDebugBreakpoint3, dbgeng/IDebugBreakpoint3
+ms.date: 2/23/2018
+ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging], described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint3
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint3 interface
@@ -51,6 +51,13 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugBreakpoint3</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,7 +76,5 @@ Returns a GUID for the breakpoint.
 
 </td>
 </tr>
-</table>Returns a GUID for the breakpoint.
-
- 
+</table> 
 

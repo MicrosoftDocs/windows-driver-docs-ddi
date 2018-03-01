@@ -7,15 +7,15 @@ old-location: bltooth\sdpconvertstreamtotree.htm
 old-project: bltooth
 ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sdpconvertstreamtotree, SdpConvertStreamToTree callback function [Bluetooth Devices], SdpConvertStreamToTree, PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE, bthsdpddi/SdpConvertStreamToTree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml
+ms.date: 2/15/2018
+ms.keywords: PCONVERTSTREAMTOTREE, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	BthSdpddi.h
-apiname: 
+api_name:
 -	SdpConvertStreamToTree
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PCONVERTSTREAMTOTREE callback
@@ -87,6 +87,9 @@ The size of the source SDP record stream.
 
 ### -param *Node
 
+A pointer to the 
+     <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a> structure that serves
+     as the root of the SDP tree-based representation of the SDP record.
 
 
 ### -param tag
@@ -97,14 +100,8 @@ Specifies a 4-byte
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
-#### - Node
-
-A pointer to the 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a> structure that serves
-     as the root of the SDP tree-based representation of the SDP record.
-
-
 ## -returns
+
 
 
 Possible return values include:
@@ -121,7 +118,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 Because a tree can be traversed by evaluating pointers, the 
@@ -173,27 +172,44 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
 <a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
 
- 
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PCONVERTSTREAMTOTREE callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PCONVERTSTREAMTOTREE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

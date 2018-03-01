@@ -7,8 +7,8 @@ old-location: powermeter\ioctl_pmi_set_configuration.htm
 old-project: powermeter
 ms.assetid: c8eff87f-b8af-4876-9327-545eeff958c3
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: powermeter.ioctl_pmi_set_configuration, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], IOCTL_PMI_SET_CONFIGURATION, pmi/IOCTL_PMI_SET_CONFIGURATION, PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pmi.h
-apiname: 
+api_name:
 -	IOCTL_PMI_SET_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PMI_MEASUREMENT_UNIT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,25 +122,37 @@ The WDM driver that supports the PMI interface has completed the IOCTL request s
 ## -remarks
 
 
+
 The <b>IOCTL_PMI_SET_CONFIGURATION</b> request sets the configuration parameters for the power meter. The <b>AssociatedIrp.SystemBuffer</b> member of the IRP references a buffer that contains a <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a> structure. The <b>ConfigurationType</b> member of this structure contains information about the type of PMI configuration data to set in the power meter.
 
 Only PMI configuration data that the power meter supports with read/write permissions can be changed by using a set request of <b>IOCTL_PMI_SET_CONFIGURATION</b>. A set request of <b>IOCTL_PMI_SET_CONFIGURATION</b> to change read-only PMI configuration data will fail, and the data will not be changed on the power meter.
-<div class="alert"><b>Note</b>  Beginning with Windows 7 and Windows Server 2008 R2, the power meter can also support read/write permissions to its budgeting information. For more information, see <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Beginning with Windows 7 and Windows Server 2008 R2, the power meter can also support read/write permissions to its budgeting information. For more information, see <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
+
+
 <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20IOCTL_PMI_SET_CONFIGURATION control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20IOCTL_PMI_SET_CONFIGURATION control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

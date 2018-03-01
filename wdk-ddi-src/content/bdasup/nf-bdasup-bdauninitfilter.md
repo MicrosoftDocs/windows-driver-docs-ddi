@@ -7,8 +7,8 @@ old-location: stream\bdauninitfilter.htm
 old-project: stream
 ms.assetid: c74f5633-49bf-4c8d-8702-89723067753a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, BdaUninitFilter, bdasup/BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], stream.bdauninitfilter
+ms.date: 2/23/2018
+ms.keywords: BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter, stream.bdauninitfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+api_name:
 -	BdaUninitFilter
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Points to the filter from which to remove the BDA filter context.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>BdaUninitFilter</b> function exists only to support legacy drivers and is, therefore, obsolete. That is, new BDA minidriver implementations should not call <b>BdaUninitFilter</b>. 
@@ -89,15 +92,20 @@ In Windows XP and later, the BDA support driver (<i>Bdasup.sys</i>) automaticall
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
+
+
 <a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaUninitFilter function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaUninitFilter function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

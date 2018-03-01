@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicewdmgetphysicaldevice.htm
 old-project: wdf
 ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDeviceWdmGetPhysicalDevice, kmdf.wdfdevicewdmgetphysicaldevice, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, wdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice method, wdfdevice/WdfDeviceWdmGetPhysicalDevice, PFN_WDFDEVICEWDMGETPHYSICALDEVICE
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method, kmdf.wdfdevicewdmgetphysicaldevice, wdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfDeviceWdmGetPhysicalDevice
 product: Windows
 targetos: Windows
@@ -79,15 +79,25 @@ A handle to a framework device object.
 ## -returns
 
 
+
 <b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
+
+
+#### Examples
+
+For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetattacheddevice.md">WdfDeviceWdmGetAttachedDevice</a>.
+
+<div class="code"></div>
 
 

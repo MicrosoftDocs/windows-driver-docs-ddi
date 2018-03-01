@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmabroadcastserviceid_2.htm
 old-project: netvista
 ms.assetid: d991a0f6-54ba-4951-8bdb-865a537d797a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_1xBROADCAST_CMAS_AMBER, RILMSGCDMABROADCASTSERVICEID, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_TEST, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid_2, rilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, rilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, rilapitypes/RILMSGCDMABROADCASTSERVICEID, RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_SEVERE
+ms.date: 2/16/2018
+ms.keywords: RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid_2, rilapitypes/RILMSGCDMABROADCASTSERVICEID, rilapitypes/RIL_1xBROADCAST_CMAS_AMBER, rilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, rilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, rilapitypes/RIL_1xBROADCAST_CMAS_TEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCDMABROADCASTSERVICEID
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGCDMABROADCASTSERVICEID {
 ### -field RIL_1xBROADCAST_CMAS_PRESIDENTIAL
 
 
-
 ### -field RIL_1xBROADCAST_CMAS_EXTREME
-
 
 
 ### -field RIL_1xBROADCAST_CMAS_SEVERE
 
 
-
 ### -field RIL_1xBROADCAST_CMAS_AMBER
 
 
-
 ### -field RIL_1xBROADCAST_CMAS_TEST
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntdddisk._DISK_PERFORMANCE
-title: _DISK_PERFORMANCE
+title: "_DISK_PERFORMANCE"
 author: windows-driver-content
 description: The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance.
 old-location: storage\disk_performance.htm
 old-project: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DISK_PERFORMANCE structure [Storage Devices], storage.disk_performance, ntdddisk/DISK_PERFORMANCE, _DISK_PERFORMANCE, *PDISK_PERFORMANCE, DISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], PDISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml
+ms.date: 2/24/2018
+ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], _DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, storage.disk_performance, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddisk.h
-apiname: 
+api_name:
 -	DISK_PERFORMANCE
 product: Windows
 targetos: Windows
-req.typenames: *PDISK_PERFORMANCE, DISK_PERFORMANCE
+req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 ---
 
 # _DISK_PERFORMANCE structure
@@ -141,7 +141,9 @@ Contains an 8-character string that indicates which device driver provided the p
 ## -remarks
 
 
+
 Counting halts whenever the performance counters are disabled, but the counters are not reset, so the cumulative values assigned to the structure members might potentially reflect disk activity across several enablings and disablings of the counters. 
+
 
 
 
@@ -149,11 +151,15 @@ Counting halts whenever the performance counters are disabled, but the counters 
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance_off.md">IOCTL_DISK_PERFORMANCE_OFF</a>
 
+
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_PERFORMANCE structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_PERFORMANCE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

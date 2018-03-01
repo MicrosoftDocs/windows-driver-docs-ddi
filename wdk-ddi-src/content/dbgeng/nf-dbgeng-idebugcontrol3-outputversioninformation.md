@@ -7,8 +7,8 @@ old-location: debugger\outputversioninformation.htm
 old-project: debugger
 ms.assetid: cbf688b4-a174-4ab0-af98-2c0db1b2ab3a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], dbgeng/IDebugControl2::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl3::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], IDebugControl interface, OutputVersionInformation, debugger.outputversioninformation, IDebugControl3, IDebugControl interface [Windows Debugging], OutputVersionInformation method, IDebugControl2::OutputVersionInformation
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], OutputVersionInformation method, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, IDebugControl2::OutputVersionInformation, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation method [Windows Debugging], OutputVersionInformation method [Windows Debugging], IDebugControl interface, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, OutputVersionInformation,IDebugControl3.OutputVersionInformation, dbgeng/IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, dbgeng/IDebugControl::OutputVersionInformation, debugger.outputversioninformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.OutputVersionInformation
 -	IDebugControl2.OutputVersionInformation
 -	IDebugControl3.OutputVersionInformation
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputVersionInformation method
@@ -77,7 +77,9 @@ Specifies where to send the output.  For possible values, see <a href="https://m
 ## -returns
 
 
+
 This method may also return other error values, including error values caused by the engine being busy.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,15 +96,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The information that is sent to the output can include the mode of the debugger, the path and version of the debugger DLLs, the extension DLL search path, the extension DLL chain, and the version of the operating system that is running on the host computer.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 

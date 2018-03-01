@@ -7,8 +7,8 @@ old-location: ifsk\fsrtltestansicharacter.htm
 old-project: ifsk
 ms.assetid: b667f0c9-7746-432e-ae58-3fe5b48309e0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ntifs/FsRtlTestAnsiCharacter, ifsk.fsrtltestansicharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], FsRtlTestAnsiCharacter
+ms.date: 2/16/2018
+ms.keywords: FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ifsk.fsrtltestansicharacter, ntifs/FsRtlTestAnsiCharacter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FsRtlTestAnsiCharacter
 product: Windows
 targetos: Windows
@@ -92,9 +92,11 @@ TBD
 
 
 
-#### - WildCardsPermissible
 
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
+
+#### - Character
+
+Pointer to the character to be tested.
 
 
 #### - DefaultReturnValue
@@ -105,6 +107,7 @@ Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0
 #### - Flags
 
 Combination of one or more of the flag values described following.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -170,18 +173,21 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
-#### - Character
+#### - WildCardsPermissible
 
-Pointer to the character to be tested.
+Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
 ## -remarks
 
 
+
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 
@@ -189,15 +195,23 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlTestAnsiCharacter function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlTestAnsiCharacter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

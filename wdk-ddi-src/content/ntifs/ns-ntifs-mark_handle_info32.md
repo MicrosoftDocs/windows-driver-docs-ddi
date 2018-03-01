@@ -7,8 +7,8 @@ old-location: ifsk\mark_handle_info32.htm
 old-project: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: MARK_HANDLE_PROTECT_CLUSTERS, *PMARK_HANDLE_INFO32, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, ntifs/PMARK_HANDLE_INFO32, USN_SOURCE_DATA_MANAGEMENT, MARK_HANDLE_TXF_SYSTEM_LOG, MARK_HANDLE_NOT_REALTIME, USN_SOURCE_AUXILIARY_DATA, PMARK_HANDLE_INFO32, USN_SOURCE_REPLICATION_MANAGEMENT, MARK_HANDLE_INFO32, ifsk.mark_handle_info32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], ntifs/MARK_HANDLE_INFO32, MARK_HANDLE_REALTIME, MARK_HANDLE_INFO32 structure [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Installable File System Drivers], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, ifsk.mark_handle_info32, ntifs/MARK_HANDLE_INFO32, ntifs/PMARK_HANDLE_INFO32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	MARK_HANDLE_INFO32
 product: Windows
 targetos: Windows
@@ -85,16 +85,6 @@ typedef struct {
  
 
 
-### -field DUMMYUNIONNAME.UsnSourceInfo
-
- 
-
-
-### -field DUMMYUNIONNAME.CopyNumber
-
- 
-
-
 ### -field UsnSourceInfo
 
 The type of changes being made.
@@ -107,6 +97,7 @@ When a thread writes a new USN record, the source information flags in the prior
        applications to filter out USN records that are set only by a known source, such as an antivirus filter.
 
 The following values are defined.
+
 <table>
 <tr>
 <th>Value</th>
@@ -160,7 +151,8 @@ For example, the file replication service sets this flag when it creates or upda
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The type of changes being made.
 
@@ -172,6 +164,7 @@ When a thread writes a new USN record, the source information flags in the prior
        applications to filter out USN records that are set only by a known source, such as an antivirus filter.
 
 The following values are defined.
+
 <table>
 <tr>
 <th>Value</th>
@@ -225,7 +218,8 @@ For example, the file replication service sets this flag when it creates or upda
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VolumeHandle
@@ -243,6 +237,7 @@ The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more inform
 
 The flag that specifies additional information about the file or directory identified by the handle value 
        in the <b>VolumeHandle</b> member.
+
 <table>
 <tr>
 <th>Value</th>
@@ -307,7 +302,8 @@ The file previously marked for real-time read behavior using the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - CopyNumber
@@ -321,7 +317,9 @@ The zero-based copy number to use for subsequent reads. This is for use on  on S
 ## -remarks
 
 
+
 When running on a 64-bit system, file system minifilters must interpret the input data sent by a 32-bit process in the system buffer for the <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a> control code as a <b>MARK_HANDLE_INFO32</b> structure. A minifilter may check the process word length by calling <a href="..\fltkernel\nf-fltkernel-fltis32bitprocess.md">FltIs32bitProcess</a>.
+
 
 
 
@@ -329,13 +327,19 @@ When running on a 64-bit system, file system minifilters must interpret the inpu
 
 <a href="..\fltkernel\nf-fltkernel-fltis32bitprocess.md">FltIs32bitProcess</a>
 
-<a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a>
+
 
 <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MARK_HANDLE_INFO32 structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MARK_HANDLE_INFO32 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

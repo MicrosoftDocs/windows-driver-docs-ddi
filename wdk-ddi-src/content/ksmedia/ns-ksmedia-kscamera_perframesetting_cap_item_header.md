@@ -7,8 +7,8 @@ old-location: stream\kscamera_perframesetting_cap_item_header.htm
 old-project: stream
 ms.assetid: 6E68CACB-4E0E-41E4-BAB6-0B7ECEFA92F6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, stream.kscamera_perframesetting_cap_item_header, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure pointer [Streaming Media Devices], KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, stream.kscamera_perframesetting_cap_item_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ksmedia.h
-apiname: 
+api_name:
 -	KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER
+req.typenames: KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER
 ---
 
 # KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure

@@ -1,14 +1,14 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_STATUS
-title: _DXGK_CHILD_STATUS
+title: "_DXGK_CHILD_STATUS"
 author: windows-driver-content
 description: The DXGK_CHILD_STATUS structure contains members that indicate the status of a child device of the display adapter.
 old-location: display\dxgk_child_status.htm
 old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_child_status, DXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], *PDXGK_CHILD_STATUS, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, dispmprt/DXGK_CHILD_STATUS, PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], _DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DXGK_CHILD_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS
+req.typenames: DXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS
 ---
 
 # _DXGK_CHILD_STATUS structure
@@ -82,8 +82,17 @@ typedef struct _DXGK_CHILD_STATUS {
 
 
 
-### -field HotPlug
+### -field Type
 
+A member of the <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
+
+
+### -field ChildUid
+
+An integer, created previously by the display miniport driver, that identifies the child device for which status is being requested.
+
+
+### -field HotPlug
 
 
 ### -field HotPlug.Connected
@@ -92,7 +101,6 @@ If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_t
 
 
 ### -field Rotation
-
 
 
 ### -field Rotation.Angle
@@ -123,31 +131,31 @@ If the driver doesn't know the monitor connection state, it should set this valu
 For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6DF0466D2B1A">Wireless displays (Miracast)</a>.
 
 
-### -field Type
-
-A member of the <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
-
-
-### -field ChildUid
-
-An integer, created previously by the display miniport driver, that identifies the child device for which status is being requested.
-
-
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+
+
+
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
+
+
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
- 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols5.htm
 old-project: debugger
 ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], described, IDebugSymbols5, dbgeng/IDebugSymbols5
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols5
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols5 interface
@@ -51,6 +51,13 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 This interface supports using index values for the current frame. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols5</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugSymbols5</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -78,9 +85,5 @@ Sets the current frame by using an index.
 
 </td>
 </tr>
-</table>Gets the index of the current frame.
-
-Sets the current frame by using an index.
-
- 
+</table> 
 

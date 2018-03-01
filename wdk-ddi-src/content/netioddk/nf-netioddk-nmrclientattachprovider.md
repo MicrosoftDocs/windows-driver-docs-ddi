@@ -7,8 +7,8 @@ old-location: netvista\nmrclientattachprovider.htm
 old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NmrClientAttachProvider, netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
+ms.date: 2/16/2018
+ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	netio.lib
 -	netio.dll
-apiname: 
+api_name:
 -	NmrClientAttachProvider
 product: Windows
 targetos: Windows
@@ -126,8 +126,10 @@ A pointer to a variable that receives a pointer to a structure that contains the
 ## -returns
 
 
+
 The 
      <b>NmrClientAttachProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,11 +168,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A client module calls the 
@@ -196,8 +201,8 @@ If the
     <b>NmrClientAttachProvider</b> function returns STATUS_SUCCESS and the client module dynamically allocated
     the memory for its binding context, the client module should free that allocated memory when the NMR
     calls the client module's 
-    <mshelp:link keywords="netvista.clientcleanupbindingcontext" tabindex="0"><i>
-    ClientCleanupBindingContext</i></mshelp:link> callback function after the client module and provider module are
+    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    ClientCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
 If the 
@@ -209,17 +214,24 @@ If the
 
 
 
+
 ## -see-also
 
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
+
+
 <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
 
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrClientAttachProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrClientAttachProvider function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 old-project: display
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_setviewinstancemask_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], PFND3D12DDI_SETVIEWINSTANCEMASK_0033, d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_SETVIEWINSTANCEMASK_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033, display.pfnd3d12ddi_setviewinstancemask_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_SETVIEWINSTANCEMASK_0033
 product: Windows
 targetos: Windows
@@ -71,7 +71,6 @@ VOID APIENTRY* PFND3D12DDI_SETVIEWINSTANCEMASK_0033(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param Mask
 
 The mask that will be set.
@@ -85,6 +84,8 @@ The command list.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

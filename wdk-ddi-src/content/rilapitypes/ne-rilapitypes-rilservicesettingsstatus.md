@@ -7,8 +7,8 @@ old-location: netvista\rilservicesettingsstatus_2.htm
 old-project: netvista
 ms.assetid: 4d193398-752f-4aef-8ae6-59c9afabd79a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SVCSTAT_MAX, rilapitypes/RILSERVICESETTINGSSTATUS, rilapitypes/RIL_SVCSTAT_MAX, RIL_SVCSTAT_DISABLED, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_DEFAULT, rilapitypes/RIL_SVCSTAT_ENABLED, rilapitypes/RIL_SVCSTAT_DISABLED, netvista.rilservicesettingsstatus_2, RIL_SVCSTAT_ENABLED, rilapitypes/RIL_SVCSTAT_DEFAULT, RILSERVICESETTINGSSTATUS
+ms.date: 2/16/2018
+ms.keywords: RILSERVICESETTINGSSTATUS, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_DISABLED, RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_MAX, netvista.rilservicesettingsstatus_2, rilapitypes/RILSERVICESETTINGSSTATUS, rilapitypes/RIL_SVCSTAT_DEFAULT, rilapitypes/RIL_SVCSTAT_DISABLED, rilapitypes/RIL_SVCSTAT_ENABLED, rilapitypes/RIL_SVCSTAT_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSERVICESETTINGSSTATUS
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILSERVICESETTINGSSTATUS {
 ### -field RIL_SVCSTAT_UNKNOWN
 
 
-
 ### -field RIL_SVCSTAT_DISABLED
-
 
 
 ### -field RIL_SVCSTAT_ENABLED
 
 
-
 ### -field RIL_SVCSTAT_DEFAULT
 
 
-
 ### -field RIL_SVCSTAT_MAX
-
 

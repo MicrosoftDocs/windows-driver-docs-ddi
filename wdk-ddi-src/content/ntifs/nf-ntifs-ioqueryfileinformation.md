@@ -7,8 +7,8 @@ old-location: ifsk\ioqueryfileinformation.htm
 old-project: ifsk
 ms.assetid: cfaa6068-979c-49c3-b671-c51ede023776
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, IoQueryFileInformation, ntifs/IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers], ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, ntifs/IoQueryFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	IoQueryFileInformation
 product: Windows
 targetos: Windows

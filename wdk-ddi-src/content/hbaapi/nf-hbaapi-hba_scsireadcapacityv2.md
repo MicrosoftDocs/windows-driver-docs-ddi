@@ -7,8 +7,8 @@ old-location: storage\hba_scsireadcapacityv2.htm
 old-project: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, HBA_ScsiReadCapacityV2 routine [Storage Devices], hbaapi/HBA_ScsiReadCapacityV2, storage.hba_scsireadcapacityv2, HBA_ScsiReadCapacityV2
+ms.date: 2/24/2018
+ms.keywords: HBA_ScsiReadCapacityV2, HBA_ScsiReadCapacityV2 routine [Storage Devices], fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, hbaapi/HBA_ScsiReadCapacityV2, storage.hba_scsireadcapacityv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_ScsiReadCapacityV2
 product: Windows
 targetos: Windows
@@ -133,7 +133,9 @@ Indicates the fibre channel logical unit number of the logical unit to which the
 ## -returns
 
 
+
 The <b>HBA_ScsiReadCapacityV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReadCapacityV2</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -205,19 +207,25 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_ScsiReadCapacityV2 routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_ScsiReadCapacityV2 routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

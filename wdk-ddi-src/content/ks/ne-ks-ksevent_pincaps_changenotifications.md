@@ -2,13 +2,13 @@
 UID: NE:ks.KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksevent_pincaps_changenotifications.htm
 old-project: stream
 ms.assetid: FC46144A-8343-4C1F-8061-4C9DCAB22370
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_PINCAPS_JACKINFOCHANGE, KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_FORMATCHANGE, ks/KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_JACKINFOCHANGE, stream.ksevent_pincaps_changenotifications, ks/KSEVENT_PINCAPS_FORMATCHANGE, KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration [Streaming Media Devices], KSEVENT_PINCAPS_FORMATCHANGE, KSEVENT_PINCAPS_JACKINFOCHANGE, ks/KSEVENT_PINCAPS_CHANGENOTIFICATIONS, ks/KSEVENT_PINCAPS_FORMATCHANGE, ks/KSEVENT_PINCAPS_JACKINFOCHANGE, stream.ksevent_pincaps_changenotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ks.h
-apiname: 
+api_name:
 -	KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSEVENT_PINCAPS_FORMATCHANGE
 
 
-
 ### -field KSEVENT_PINCAPS_JACKINFOCHANGE
-
 

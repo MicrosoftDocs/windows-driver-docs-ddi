@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
-title: _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
+title: "_DXGK_RECOMMENDVIDPNTOPOLOGY_REASON"
 author: windows-driver-content
 description: Indicates the reason for calling the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgk_recommendvidpntopology_reason.htm
 old-project: display
 ms.assetid: 2a67a119-863b-4cde-9308-e4862823bad1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_RECOMMENDVIDPNTOPOLOGY_REASON enumeration [Display Devices], d3dkmddi/DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, DXGK_RVT_AUGMENTATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_AUGMENTATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_INITIALIZATION_LKGOVERRIDE, DXGK_RVT_INITIALIZATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_INITIALIZATION_NOLKG, _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, d3dkmddi/DXGK_RVT_UNINITIALIZED, display.dxgk_recommendvidpntopology_reason, DmEnums_b03f6fe2-5501-45ef-b841-48c6c3cc729a.xml, DXGK_RVT_INITIALIZATION_NOLKG, d3dkmddi/DXGK_RVT_AUGMENTATION_NOLKG, DXGK_RVT_UNINITIALIZED, DXGK_RVT_AUGMENTATION_NOLKG, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
+ms.date: 2/24/2018
+ms.keywords: DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, DXGK_RECOMMENDVIDPNTOPOLOGY_REASON enumeration [Display Devices], DXGK_RVT_AUGMENTATION_LKGOVERRIDE, DXGK_RVT_AUGMENTATION_NOLKG, DXGK_RVT_INITIALIZATION_LKGOVERRIDE, DXGK_RVT_INITIALIZATION_NOLKG, DXGK_RVT_UNINITIALIZED, DmEnums_b03f6fe2-5501-45ef-b841-48c6c3cc729a.xml, _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, d3dkmddi/DXGK_RECOMMENDVIDPNTOPOLOGY_REASON, d3dkmddi/DXGK_RVT_AUGMENTATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_AUGMENTATION_NOLKG, d3dkmddi/DXGK_RVT_INITIALIZATION_LKGOVERRIDE, d3dkmddi/DXGK_RVT_INITIALIZATION_NOLKG, d3dkmddi/DXGK_RVT_UNINITIALIZED, display.dxgk_recommendvidpntopology_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\ioreporttargetdevicechange.htm
 old-project: kernel
 ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoReportTargetDeviceChange, k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], kernel.ioreporttargetdevicechange, IoReportTargetDeviceChange
+ms.date: 2/24/2018
+ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoReportTargetDeviceChange
 product: Windows
 targetos: Windows
@@ -86,7 +86,9 @@ The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> fiel
 ## -returns
 
 
+
 <b>IoReportTargetDeviceChange</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,11 +105,14 @@ The caller specified a system PnP event, such as GUID_TARGET_DEVICE_QUERY_REMOVE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After <b>IoReportTargetDeviceChange</b> notifies the PnP manager that a custom event has occurred on a device, the PnP manager sends notification of the event to drivers that registered for notification on the device. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
@@ -126,15 +131,20 @@ Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_L
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
 
+
+
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportTargetDeviceChange routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportTargetDeviceChange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

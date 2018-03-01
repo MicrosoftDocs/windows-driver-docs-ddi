@@ -7,15 +7,15 @@ old-location: bltooth\sdpfindattributeintree.htm
 old-project: bltooth
 ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: SdpFindAttributeInTree, bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	sdplib.h
-apiname: 
+api_name:
 -	SdpFindAttributeInTree
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ TBD
 
 
 
+
 #### - AttribValue [out]
 
 A pointer to a variable that receives the address of the located attribute node.
@@ -96,11 +97,14 @@ A pointer to a variable that receives the address of the located attribute node.
 ## -returns
 
 
+
 Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -108,8 +112,9 @@ The
     perform a copy. This node pointer is valid until the SDP tree that it references is freed.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_parse_interface" tabindex="0"><b>
-    BTHDDI_SDP_PARSE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    BTHDDI_SDP_PARSE_INTERFACE</a> structure.
+
 
 
 
@@ -117,9 +122,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFindAttributeInTree function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFindAttributeInTree function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

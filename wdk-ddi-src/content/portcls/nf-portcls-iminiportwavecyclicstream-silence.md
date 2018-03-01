@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_silence.htm
 old-project: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], IMiniportWaveCyclicStream interface [Audio Devices], Silence method, IMiniportWaveCyclicStream, Silence, Silence method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream::Silence, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], Silence method, IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], Silence method [Audio Devices], IMiniportWaveCyclicStream interface, Silence,IMiniportWaveCyclicStream.Silence, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWaveCyclicStream.Silence
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ Specifies the number of bytes of silence to be written to the buffer.
 ## -returns
 
 
+
 <code>Silence</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 Windows treats 8-bit PCM values as unsigned, and it treats 16-bit and larger PCM values as signed. When filling a portion of an 8-bit PCM buffer with silence, the <code>Silence</code> method sets each byte to the value 0x80. When writing silence to a buffer containing 16-bit or larger PCM values, the method fills the specified portion of the buffer with zeros.
+
 
 

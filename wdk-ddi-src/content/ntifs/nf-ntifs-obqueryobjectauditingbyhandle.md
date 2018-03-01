@@ -7,8 +7,8 @@ old-location: ifsk\obqueryobjectauditingbyhandle.htm
 old-project: ifsk
 ms.assetid: 7287b060-ab4c-48af-b5cd-67bae7bc1a73
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.obqueryobjectauditingbyhandle, ObQueryObjectAuditingByHandle function [Installable File System Drivers], ObQueryObjectAuditingByHandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml
+ms.date: 2/16/2018
+ms.keywords: ObQueryObjectAuditingByHandle, ObQueryObjectAuditingByHandle function [Installable File System Drivers], ifsk.obqueryobjectauditingbyhandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	ObQueryObjectAuditingByHandle
 product: Windows
 targetos: Windows

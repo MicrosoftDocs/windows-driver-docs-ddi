@@ -7,8 +7,8 @@ old-location: audio\pcaddadapterdevice.htm
 old-project: audio
 ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PcAddAdapterDevice function [Audio Devices], PcAddAdapterDevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, audio.pcaddadapterdevice, portcls/PcAddAdapterDevice
+ms.date: 2/22/2018
+ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	PcAddAdapterDevice
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ Specifies the device extension size. Use zero for default size. See the followin
 ## -returns
 
 
+
 <b>PcAddAdapterDevice</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 This function does most of the work that the audio adapter driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler needs to perform. <b>PcAddAdapterDevice</b> creates the device object, initializes the device context, and attaches the device object to the device stack.
@@ -114,6 +117,7 @@ An adapter driver calls <b>PcAddAdapterDevice</b> when it receives a call to its
 <i>DeviceExtensionSize</i> is typically zero. Some adapter drivers might need to reserve additional space in the device extension, in which case they should specify a <i>DeviceExtensionSize</i> greater than PORT_CLASS_DEVICE_EXTENSION_SIZE, which is the default size. Any value greater than zero and less than PORT_CLASS_DEVICE_EXTENSION_SIZE is illegal. Adapter drivers are free to use any part of the device extension after offset PORT_CLASS_DEVICE_EXTENSION_SIZE. They are also free to use bytes in the offset range of 16 to 31 inclusive in a system with 32-bit addressing and bytes in the offset range 32 to 63 in a system with 64-bit addressing. If the extension is regarded as an array of ULONG_PTR, array elements four through seven are available for use by the adapter driver.
 
 The <i>StartDevice</i> parameter points to a function of type PCPFNSTARTDEVICE, which header file <i>portcls.h </i>defines as:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -128,9 +132,11 @@ The <i>StartDevice</i> parameter points to a function of type PCPFNSTARTDEVICE, 
       );</pre>
 </td>
 </tr>
-</table></span></div>For more information about <b>PcAddAdapterDevice</b> and the adapter driver's device-startup and <i>AddDevice </i>routines, see <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>.
+</table></span></div>
+For more information about <b>PcAddAdapterDevice</b> and the adapter driver's device-startup and <i>AddDevice </i>routines, see <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>.
 
 The following example code shows how an adapter driver can use the <i>DeviceExtensionSize </i>parameter to append 64 bytes of device-specific extension data to the end of the storage block that PortCls allocates for the device context:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -143,9 +149,11 @@ The following example code shows how an adapter driver can use the <i>DeviceExte
                                           MY_EXTENSION_SIZE + PORT_CLASS_DEVICE_EXTENSION_SIZE);</pre>
 </td>
 </tr>
-</table></span></div>The <b>PcAddAdapterDevice</b> call above is similar to the example in <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>, except that the last parameter that is passed to <b>PcAddAdapterDevice</b> is nonzero.
+</table></span></div>
+The <b>PcAddAdapterDevice</b> call above is similar to the example in <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>, except that the last parameter that is passed to <b>PcAddAdapterDevice</b> is nonzero.
 
 The adapter driver can then access the device-specific extension data, as shown in the following code fragment:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -156,23 +164,33 @@ The adapter driver can then access the device-specific extension data, as shown 
                                               PORT_CLASS_DEVICE_EXTENSION_SIZE);</pre>
 </td>
 </tr>
-</table></span></div>Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, and <i>pMyExtensionData</i> is a temporary pointer to the extension data. Avoid confusing the FDO with the PDO, which belongs to the PCI bus driver. The adapter driver must not modify data in the PDO because doing so corrupts memory owned by the PCI bus driver and can cause the system to crash.
+</table></span></div>
+Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, and <i>pMyExtensionData</i> is a temporary pointer to the extension data. Avoid confusing the FDO with the PDO, which belongs to the PCI bus driver. The adapter driver must not modify data in the PDO because doing so corrupts memory owned by the PCI bus driver and can cause the system to crash.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
 <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcAddAdapterDevice function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcAddAdapterDevice function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

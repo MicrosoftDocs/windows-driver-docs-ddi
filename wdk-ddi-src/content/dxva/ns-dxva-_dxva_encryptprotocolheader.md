@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_EncryptProtocolHeader
-title: _DXVA_EncryptProtocolHeader
+title: "_DXVA_EncryptProtocolHeader"
 author: windows-driver-content
 description: The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 old-location: display\dxva_encryptprotocolheader.htm
 old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, _DXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_EncryptProtocolHeader
 product: Windows
 targetos: Windows
@@ -89,6 +89,8 @@ Contains the GUID associated with the encryption protocol.
 ## -remarks
 
 
+
 The encryption protocol in use is externally defined and operates as described in <a href="https://msdn.microsoft.com/d5ce9c02-7126-4775-bb87-dae45b93b652">Encryption Support</a>.
+
 
 

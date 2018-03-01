@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
-title: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
+title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject2 function signals.
 old-location: display\d3dkmt_signalsynchronizationobject2.htm
 old-project: display
 ms.assetid: a4bdafeb-310a-4ceb-966e-a1e3660fc5f2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dkmt_signalsynchronizationobject2, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, OpenGL_Structs_ac490d8c-5ab9-4a1f-8908-5c2e7786b65b.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_ac490d8c-5ab9-4a1f-8908-5c2e7786b65b.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dkmt_signalsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
 product: Windows
 targetos: Windows
@@ -81,28 +81,6 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 {
 
 
 
-### -field Fence
-
-A structure that contains information about a fence. The union in D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 can hold a Fence structure, which contains the following member:
-
-
-### -field Fence.FenceValue
-
-A 64-bit value that specifies the fence value to signal. 
-
-
-### -field CpuEventHandle
-
-A handle to a CPU event that is to be signaled.
-
-Supported starting with Windows 8.
-
-
-### -field Reserved
-
-An array of 64-bit values that are reserved for future use. The union in D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 can hold this array. 
-
-
 ### -field hContext
 
 [in] A kernel-mode handle to a context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
@@ -135,15 +113,41 @@ An array of 64-bit values that are reserved for future use. The union in D3DKMT_
 The original context that the <b>hContext</b> member specifies and that owns the event is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the OpenGL ICD sends the event to the owning context (<b>hContext</b>) and broadcasts to that one additional context. 
 
 
-## -see-also
+### -field Fence
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a>
+A structure that contains information about a fence. The union in D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 can hold a Fence structure, which contains the following member:
+
+
+### -field Fence.FenceValue
+
+A 64-bit value that specifies the fence value to signal. 
+
+
+#### - CpuEventHandle
+
+A handle to a CPU event that is to be signaled.
+
+Supported starting with Windows 8.
+
+
+#### - Reserved
+
+An array of 64-bit values that are reserved for future use. The union in D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 can hold this array. 
+
+
+## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
 
- 
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsenduicctoolkitcmdresponseparams_2.htm
 old-project: netvista
 ms.assetid: ae203f95-3568-4c78-b799-e1eef6218c7f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDUICCTOOLKITCMDRESPONSEPARAMS, netvista.rilsenduicctoolkitcmdresponseparams_2, rilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitcmdresponseparams_2, rilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSENDUICCTOOLKITCMDRESPONSEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS
+req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,11 +73,8 @@ typedef struct _RILSENDUICCTOOLKITCMDRESPONSEPARAMS {
 ### -field dwSlotIndex
 
 
-
 ### -field dwDetailsSize
 
 
-
 ### -field bDetails
-
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfdeviceinitialize2_setiotypepreference.htm
 old-project: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize2 interface, SetIoTypePreference method, SetIoTypePreference method, IWDFDeviceInitialize2 interface, IWDFDeviceInitialize2, SetIoTypePreference method, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, IWDFDeviceInitialize2::SetIoTypePreference, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference
+ms.date: 2/20/2018
+ms.keywords: IWDFDeviceInitialize2, IWDFDeviceInitialize2 interface, SetIoTypePreference method, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method, IWDFDeviceInitialize2 interface, SetIoTypePreference,IWDFDeviceInitialize2.SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDeviceInitialize2.SetIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,14 @@ A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that yo
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls <b>SetIoTypePreference</b> for a device, it must do so from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function, before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
@@ -108,24 +111,74 @@ A driver cannot set the buffer access method to <b>WdfDeviceIoDirect</b> or <b>W
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows a segment of a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function. The segment obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a> interface and then calls <b>SetIoTypePreference</b>. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+ CMyDriver::OnDeviceAdd(
+    __in IWDFDriver *FxWdfDriver,
+    __in IWDFDeviceInitialize *FxDeviceInit
+    )
+{
+...
+    //
+    // Declare an IWDFDeviceInitialize2 interface pointer and obtain the
+    // IWDFDeviceInitialize2 interface from the IWDFDeviceInitialize interface.
+    //
+    CComQIPtr&lt;IWDFDeviceInitialize2&gt; di2 = FxDeviceInit;
+
+    //
+    // For this device, set the retrieval mode to deferred, set
+    // the access method to buffered for read and write requests,
+    // and set the access mode to direct for device I/O control requests.
+    // 
+    di2-&gt;SetIoTypePreference(WdfDeviceIoBufferRetrievalDeferred,
+                             WdfDeviceIoBuffered,
+                             WdfDeviceIoDirect);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
- 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize2::SetIoTypePreference method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize2::SetIoTypePreference method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

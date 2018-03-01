@@ -7,8 +7,8 @@ old-location: netvista\rilpersodeactivationstatedepersostate.htm
 old-project: netvista
 ms.assetid: 81147a47-b5aa-4f00-812d-2c6cf9d5ab8b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilpersodeactivationstatedepersostate, RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_MAX, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE
+ms.date: 2/16/2018
+ms.keywords: RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, netvista.rilpersodeactivationstatedepersostate, ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILPERSODEACTIVATIONSTATEDEPERSOSTATE {
 ### -field RIL_DEPERSOSTATE_READY
 
 
-
 ### -field RIL_DEPERSOSTATE_CK_REQUIRED
-
 
 
 ### -field RIL_DEPERSOSTATE_PUK_REQUIRED
 
 
-
 ### -field RIL_DEPERSOSTATE_PUK_BLOCKED
 
 
-
 ### -field RIL_DEPERSOSTATE_MAX
-
 

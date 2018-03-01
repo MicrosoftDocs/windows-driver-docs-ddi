@@ -7,8 +7,8 @@ old-location: display\iasetvertexbuffers.htm
 old-project: display
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.iasetvertexbuffers, IaSetVertexBuffers callback function [Display Devices], IaSetVertexBuffers, PFND3D10DDI_IA_SETVERTEXBUFFERS, PFND3D10DDI_IA_SETVERTEXBUFFERS, d3d10umddi/IaSetVertexBuffers, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml
+ms.date: 2/24/2018
+ms.keywords: IaSetVertexBuffers, IaSetVertexBuffers callback function [Display Devices], PFND3D10DDI_IA_SETVERTEXBUFFERS, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml, d3d10umddi/IaSetVertexBuffers, display.iasetvertexbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	IaSetVertexBuffers
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_IA_SETVERTEXBUFFERS callback
@@ -78,9 +78,7 @@ VOID APIENTRY IaSetVertexBuffers(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param StartSlot
-
 
 
 ### -param NumBuffers [in]
@@ -95,14 +93,11 @@ VOID APIENTRY IaSetVertexBuffers(
 
 
 
+
+
 #### - StartBuffer [in]
 
  The starting vertex buffer to set. 
-
-
-#### - phBuffers [in]
-
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 #### - hDevice [in]
@@ -110,17 +105,23 @@ VOID APIENTRY IaSetVertexBuffers(
  A handle to the display device (graphics context).
 
 
-#### - pStrides [in]
-
- An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
-
-
 #### - pOffsets [in]
 
  An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
+#### - pStrides [in]
+
+ An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
+
+
+#### - phBuffers [in]
+
+ An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+
+
 ## -returns
+
 
 
 None
@@ -129,22 +130,29 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetVertexBuffers</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_IA_SETVERTEXBUFFERS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_IA_SETVERTEXBUFFERS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\netallocatesharedmemory.htm
 old-project: netvista
 ms.assetid: d85b4f28-707b-4525-afd8-83e1ceb2674e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.netallocatesharedmemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], NetAllocateSharedMemory, ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER, ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml
+ms.date: 2/16/2018
+ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	NetAllocateSharedMemory
 product: Windows
 targetos: Windows
@@ -79,15 +79,15 @@ NDIS_STATUS NetAllocateSharedMemory(
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
 ### -param SharedMemoryParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_shared_memory_parameters" tabindex="0"><b>
-     NDIS_SHARED_MEMORY_PARAMETERS</b></mshelp:link> structure that defines the requested attributes for the shared
+     <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+     NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
 
@@ -100,7 +100,9 @@ A pointer to a handle for a shared memory context area. The shared memory provid
 ## -returns
 
 
+
 <i>NetAllocateSharedMemory</i> can return the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,22 +152,26 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 NDIS calls the 
     <i>NetAllocateSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <mshelp:link keywords="netvista.ndisallocatesharedmemory" tabindex="0"><b>
-    NdisAllocateSharedMemory</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+    NdisAllocateSharedMemory</a> function.
 
 The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HANDLER) for 
     <i>NetAllocateSharedMemory</i> in the 
-    <mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
+
 
 
 
@@ -173,14 +179,20 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
+
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20ALLOCATE_SHARED_MEMORY_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20ALLOCATE_SHARED_MEMORY_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

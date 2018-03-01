@@ -7,8 +7,8 @@ old-location: sensors\gnss_supl_hslp_config.htm
 old-project: sensors
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], sensors.gnss_supl_hslp_config, gnssdriver/GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG, sensors.gnss_supl_hslp_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_SUPL_HSLP_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG
+req.typenames: GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG
 ---
 
 # GNSS_SUPL_HSLP_CONFIG structure
@@ -100,6 +100,7 @@ Reserved for future use.
 ### -field Unused
 
  
+
 
 
 

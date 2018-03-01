@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_property.htm
 old-project: stream
 ms.assetid: 66f29543-9677-4bae-baa4-6be8ebc52b66
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_ks_property, IOCTL_KS_PROPERTY control code [Streaming Media Devices], IOCTL_KS_PROPERTY, ks/IOCTL_KS_PROPERTY, ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IOCTL_KS_PROPERTY
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames:
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ The application places the size, in bytes, of the output buffer in the <b>OutLen
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,31 +111,45 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 ## -remarks
 
 
+
 For more information about input and output buffers and their sizes, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
 Filters and pins support property sets using the <b>IOCTL_KS_PROPERTY</b> device I/O control. Although this IOCTL is defined with the METHOD_NEITHER flag, the property data is passed as the output buffer to the IOCTL and probed for read access. The <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a> function handles properties requested through <b>IOCTL_KS_PROPERTY</b>.
 
-For a list of valid flags and corresponding descriptions, see the reference page for the <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure.
+For a list of valid flags and corresponding descriptions, see the reference page for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
 
 <a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_PROPERTY control code%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_PROPERTY control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

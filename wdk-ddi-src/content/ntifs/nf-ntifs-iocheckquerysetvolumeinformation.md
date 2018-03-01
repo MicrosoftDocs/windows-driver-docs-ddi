@@ -7,8 +7,8 @@ old-location: ifsk\iocheckquerysetvolumeinformation.htm
 old-project: ifsk
 ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], IoCheckQuerySetVolumeInformation, ntifs/IoCheckQuerySetVolumeInformation, ifsk.iocheckquerysetvolumeinformation
+ms.date: 2/16/2018
+ms.keywords: IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ntifs/IoCheckQuerySetVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	IoCheckQuerySetVolumeInformation
 product: Windows
 targetos: Windows

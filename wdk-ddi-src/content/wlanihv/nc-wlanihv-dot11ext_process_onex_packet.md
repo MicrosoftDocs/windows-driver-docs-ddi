@@ -7,8 +7,8 @@ old-location: netvista\dot11extprocessonexpacket.htm
 old-project: netvista
 ms.assetid: 796c2976-b7b1-49ea-bf23-c018efd228ee
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extprocessonexpacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Dot11ExtProcessOneXPacket, DOT11EXT_PROCESS_ONEX_PACKET, DOT11EXT_PROCESS_ONEX_PACKET, wlanihv/Dot11ExtProcessOneXPacket, Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_PROCESS_ONEX_PACKET, Dot11ExtProcessOneXPacket, Dot11ExtProcessOneXPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_261bf893-01bf-45d2-96da-b11745a2ae56.xml, netvista.dot11extprocessonexpacket, wlanihv/Dot11ExtProcessOneXPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtProcessOneXPacket
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -98,13 +98,16 @@ The EAPOL packet received from the AP. The
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When it calls the 
@@ -119,12 +122,16 @@ While the 802.1X authentication operation is pending, the IHV Extensions DLL for
     packets through the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a> IHV
     Handler function.
+
 <div class="alert"><b>Note</b>  The IHV Extensions DLL is responsible for processing EAPOL-Key packets and must not
-    forward these to the operating system.</div><div> </div>For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
+    forward these to the operating system.</div>
+<div> </div>
+For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
 
 For more information about using the 802.1X module for authentication, see 
-    <mshelp:link keywords="netvista.interface_to_the_native_802_11_802_1x_module" tabindex="0">Interface to the Native
-    802.11 802.1X Module</mshelp:link>
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    802.11 802.1X Module</a>
+
 
 
 
@@ -133,18 +140,28 @@ For more information about using the 802.1X module for authentication, see
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_PROCESS_ONEX_PACKET callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_PROCESS_ONEX_PACKET callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

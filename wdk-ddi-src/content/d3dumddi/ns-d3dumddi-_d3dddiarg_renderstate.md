@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENDERSTATE
-title: _D3DDDIARG_RENDERSTATE
+title: "_D3DDDIARG_RENDERSTATE"
 author: windows-driver-content
 description: The D3DDDIARG_RENDERSTATE structure describes how to update a specific render state.
 old-location: display\d3dddiarg_renderstate.htm
 old-project: display
 ms.assetid: 177a2578-2bd4-4a11-a3fd-fec226a64c22
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], d3dumddi/D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, display.d3dddiarg_renderstate
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, _D3DDDIARG_RENDERSTATE, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_RENDERSTATE
 product: Windows
 targetos: Windows
@@ -82,9 +82,11 @@ typedef struct _D3DDDIARG_RENDERSTATE {
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrenderstate.md">SetRenderState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_RENDERSTATE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_RENDERSTATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

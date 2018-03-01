@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestgetrequestormode.htm
 old-project: wdf
 ms.assetid: 63fc77c8-756c-4872-b608-539d8419154b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestgetrequestormode, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, wdfrequest/WdfRequestGetRequestorMode, PFN_WDFREQUESTGETREQUESTORMODE, wdf.wdfrequestgetrequestormode
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, kmdf.wdfrequestgetrequestormode, wdf.wdfrequestgetrequestormode, wdfrequest/WdfRequestGetRequestorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestGetRequestorMode
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestGetRequestorMode</b> returns <b>KernelMode</b> if the originator of the I/O request is executing in kernel mode. Otherwise, this method returns <b>UserMode</b>. The <b>KernelMode</b> and <b>UserMode</b> constants are defined in <i>wdm.h</i>.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,9 +90,38 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about <b>WdfRequestGetRequestorMode</b>, see <a href="https://msdn.microsoft.com/a686ea00-6987-480a-a4ce-892e1efbed87">Obtaining Information About an I/O Request</a>.
+
+
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver. This example checks for a valid MAC address if the I/O request came from a user-mode application.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
+// To prevent applications from sending packets with spoofed MAC address,
+// perform the following check to make sure the source address 
+// in the packet is the same as the current MAC address of the NIC.
+//
+if ((WdfRequestGetRequestorMode(Request) == UserMode) &amp;&amp; 
+    !NPROT_MEM_CMP(pEthHeader-&gt;SrcAddr, pOpenContext-&gt;CurrentAddress, NPROT_MAC_ADDR_LEN))
+{
+    DEBUGP(DL_WARN, ("Write: Failing with invalid Source address"));
+    NtStatus = STATUS_INVALID_PARAMETER;
+    break;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -1,19 +1,19 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_DESCRIPTOR
-title: _CM_PARTIAL_RESOURCE_DESCRIPTOR
+title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
 old-project: kernel
 ms.assetid: 96bf7bab-b8f5-439c-8717-ea6956ed0213
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, CmResourceShareDeviceExclusive, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CmResourceShareShared, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareDriverExclusive, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, kernel.cm_partial_resource_descriptor, PCM_PARTIAL_RESOURCE_DESCRIPTOR, _CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: "*PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CmResourceShareDeviceExclusive, CmResourceShareDriverExclusive, CmResourceShareShared, PCM_PARTIAL_RESOURCE_DESCRIPTOR, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_DESCRIPTOR, kernel.cm_partial_resource_descriptor, kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	CM_PARTIAL_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR
+req.typenames: CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure specifies one or more system hardware resources, of a single type, assigned to a device. This structure is used to create an array within a <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> structure.
+The <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure specifies one or more system hardware resources, of a single type, assigned to a device. This structure is used to create an array within a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> structure.
    
   
 
@@ -166,462 +166,10 @@ typedef struct _CM_PARTIAL_RESOURCE_DESCRIPTOR {
 
 
 
-### -field u
-
-
-
-### -field u.Generic
-
-Not used.
-
-
-### -field u.Generic.Start
-
- 
-
-
-### -field u.Generic.Length
-
- 
-
-
-### -field u.Port
-
-Specifies a range of I/O port addresses, using the following members.
-
-Drivers for Windows Vista and later versions of the Windows operating system can use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update the <b>u.Port</b> member, rather than updating it directly.
-
-
-### -field u.Port.Start
-
-For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous I/O port addresses allocated to the device.
-
-For translated resources: Specifies the system physical address of the lowest of a range of contiguous I/O port addresses allocated to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Port.Length
-
-The length, in bytes, of the range of allocated I/O port addresses.
-
-
-### -field u.Interrupt
-
-Specifies an interrupt vector and level, using the following members:
-
-
-### -field u.Interrupt.Group
-
-Specifies the processor group number. This member exists only if the NT_PROCESSOR_GROUPS constant is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Group</b> and <b>Affinity</b> members together specify a group affinity that indicates which processors the device can interrupt. To specify an affinity for any group, set <b>Group</b> to ALL_PROCESSOR_GROUPS.
-
-
-### -field u.Interrupt.Level
-
-For raw resources: Specifies the device's bus-specific IRQL (if appropriate for the platform and bus).
-
-For translated resources: Specifies the DIRQL assigned to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Interrupt.Vector
-
-For raw resources: Specifies the device's bus-specific interrupt vector (if appropriate for the platform and bus).
-
-For translated resources: Specifies the global system interrupt vector assigned to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Interrupt.Affinity
-
-Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed bitmask value indicating the set of processors the device can interrupt. To indicate that the device can interrupt any processor, this member is set to -1.
-
-
-### -field u.MessageInterrupt
-
-Specifies a message-signaled interrupt. This member is a union. Use <b>u.MessageInterrupt.Raw</b> for raw resources, and <b>u.MessageInterrupt.Translated</b> for translated resources. This type of resource is only returned on Windows Vista and later versions of the Windows operating system.
-
-For more information about raw and translated resources, see Remarks.
-
-The <b>u.MessageInterrupt.Raw</b> member has the following members:
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Group
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Reserved
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.MessageCount
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Vector
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Affinity
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Group
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Level
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Vector
-
- 
-
-
-### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Affinity
-
- 
-
-
-### -field u.Memory
-
-Specifies a range of memory addresses, using the following members.
-
-Drivers for Windows Vista and later versions of the Windows operating system can use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update the <b>u.Memory</b> member, rather than updating it directly.
-
-
-### -field u.Memory.Start
-
-For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses allocated to the device.
-
-For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses allocated to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Memory.Length
-
-Specifies the length, in bytes, of the range of allocated memory addresses.
-
-
-### -field u.Dma
-
-Specifies a DMA setting, using one of the following members:
-
-
-### -field u.Dma.Channel
-
-Specifies the number of the DMA channel on a system DMA controller that the device can use.
-
-
-### -field u.Dma.Port
-
-Specifies the number of the DMA port that an MCA-type device can use.
-
-
-### -field u.Dma.Reserved1
-
-Not used.
-
-
-### -field u.DmaV3
-
-Specifies the DMA settings for a driver that uses version 3 of the <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure.
-
-The <b>u.DmaV3</b> member is available starting with Windows 8.
-
-
-### -field u.DmaV3.Channel
-
-Specifies the number of the DMA channel on the system DMA controller that is allocated to the device.
-
-
-### -field u.DmaV3.RequestLine
-
-Specifies the number of the request line on the system DMA controller that is allocated to the device.
-
-
-### -field u.DmaV3.TransferWidth
-
-Specifies the width, in bits, of the data bus that the system DMA controller that is allocated to the device uses to transfer data to or from the device.
-
-
-### -field u.DmaV3.Reserved1
-
-Not used.
-
-
-### -field u.DmaV3.Reserved2
-
-Not used.
-
-
-### -field u.DmaV3.Reserved3
-
-Not used.
-
-
-### -field u.DevicePrivate
-
-Reserved for system use.
-
-
-### -field u.DevicePrivate.Data
-
- 
-
-
-### -field u.BusNumber
-
-Specifies bus numbers, using the following members:
-
-
-### -field u.BusNumber.Start
-
-Specifies the lowest-numbered of a range of contiguous buses allocated to the device.
-
-
-### -field u.BusNumber.Length
-
-Specifies the number of buses allocated to the device.
-
-
-### -field u.BusNumber.Reserved
-
-Not used.
-
-
-### -field u.DeviceSpecificData
-
-Specifies the size of a device-specific, private structure that is appended to the end of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure. If <b>u.DeviceSpecificData</b> is used, the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure must be the last one in the <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> array.
-
-Examples of device-specific structures include <a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>, <a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>, <a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>, and <a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>.
-
-
-### -field u.DeviceSpecificData.DataSize
-
-Specifies the number of bytes appended to the end of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
-
-
-### -field u.DeviceSpecificData.Reserved1
-
-Not used.
-
-
-### -field u.DeviceSpecificData.Reserved2
-
-Not used.
-
-
-### -field u.Memory40
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory40</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-### -field u.Memory40.Start
-
-For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Memory40.Length40
-
-Contains the high 32 bits of the 40-bit length, in bytes, of the range of allocated memory addresses. The lowest 8 bits are treated as zero.
-
-
-### -field u.Memory48
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory48</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-### -field u.Memory48.Start
-
-For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Memory48.Length48
-
-Contains the high 32 bits of the 48-bit length, in bytes, of the range of allocated memory addresses. The lowest 16 bits are treated as zero.
-
-
-### -field u.Memory64
-
-Specifies a range of memory addresses, using the following members.
-
-The <b>u.Memory64</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-### -field u.Memory64.Start
-
-For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
-
-For more information about raw and translated resources, see Remarks.
-
-
-### -field u.Memory64.Length64
-
-Contains the high 32 bits of the 64-bit length, in bytes, of the range of allocated memory addresses. The lowest 32 bits are treated as zero.
-
-
-### -field u.Connection
-
-Specifies a connection to a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">serial bus</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/">serial port</a>, or to a set of one or more <a href="https://msdn.microsoft.com/450E7F80-D9AC-4F52-8062-2DA5343C8D0F">general-purpose I/O</a> (GPIO) pins. The following members describe this connection.
-
-The <b>u.Connection</b> member is available starting with Windows 8.
-
-
-### -field u.Connection.Class
-
-Specifies the connection class. This member is set to one of the following values.
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_GPIO"></a><a id="cm_resource_connection_class_gpio"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_CLASS_GPIO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through one or more pins on a GPIO controller.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_SERIAL"></a><a id="cm_resource_connection_class_serial"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_CLASS_SERIAL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through a serial bus or serial port.
-
-</td>
-</tr>
-</table> 
-
-
-### -field u.Connection.Type
-
-Specifies the connection type.
-
-If <b>Class</b> = CM_RESOURCE_CONNECTION_CLASS_GPIO, <b>Type</b> is set to the following value.
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_GPIO_IO"></a><a id="cm_resource_connection_type_gpio_io"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_GPIO_IO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Access the device through GPIO pins that are configured for I/O.
-
-</td>
-</tr>
-</table> 
-<div class="alert"><b>Note</b>  A GPIO pin that is configured as an interrupt request input is accessed as an ordinary interrupt resource (<b>CmResourceTypeInterrupt</b>).</div><div> </div>If <b>Class</b> = CM_RESOURCE_CONNECTION_CLASS_SERIAL, <b>Type</b> is set to one of the following values.
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C"></a><a id="cm_resource_connection_type_serial_i2c"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to an I²C bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI"></a><a id="cm_resource_connection_type_serial_spi"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to an SPI bus.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART"></a><a id="cm_resource_connection_type_serial_uart"></a><dl>
-<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device is connected to a serial port.
-
-</td>
-</tr>
-</table> 
-
-
-### -field u.Connection.Reserved1
-
-Not used.
-
-
-### -field u.Connection.Reserved2
-
-Not used.
-
-
-### -field u.Connection.IdLowPart
-
-Contains the lower 32 bits of the 64-bit connection ID.
-
-
-### -field u.Connection.IdHighPart
-
-Contains the upper 32 bits of the 64-bit connection ID.
-
-
 ### -field Type
 
 Identifies the resource type. The constant value specified for <b>Type</b> indicates which structure within the <b>u</b> union is valid, as indicated in the following table. (These flags are used within both <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> and <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structures, except where noted.)
+
 <table>
 <tr>
 <th>Type value</th>
@@ -756,12 +304,14 @@ Identifies the resource type. The constant value specified for <b>Type</b> indic
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ShareDisposition
 
 Indicates whether the described resource can be shared. Valid constant values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -797,12 +347,14 @@ The resource can be shared without restriction.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
 
 Contains flag bits that are specific to the resource type, as indicated in the following table. Flags can be bitwise-ORed together as appropriate.
+
 <table>
 <tr>
 <th>Resource type</th>
@@ -1203,69 +755,477 @@ Use the <b>DmaV3</b> member instead of the <b>Dma</b> member. The <b>DmaV3</b> m
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
-####### - u.MessageInterrupt.Translated.Vector
-
-Specifies the device's interrupt vector.
+### -field u
 
 
-####### - u.MessageInterrupt.Translated.Level
-
-Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
-
-Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
-
-
-####### - u.MessageInterrupt.Raw.Vector
-
-Specifies the device's interrupt vector.
-
-
-####### - u.MessageInterrupt.Raw.Affinity
-
-Specifies a KAFFINITY value that indicates the processors that receive the device's interrupts.
-
-
-####### - u.MessageInterrupt.Raw.MessageCount
-
-Specifies the number of message-signaled interrupts generated for this driver.
-
-
-####### - u.MessageInterrupt.Raw.Reserved
+### -field u.Generic
 
 Not used.
 
 
-####### - u.MessageInterrupt.Translated.Affinity
+### -field u.Generic.Start
 
-Specifies a KAFFINITY value that identifies the processors that receive the device's interrupts.
-
-
-####### - u.MessageInterrupt.Translated.Group
-
-Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Translated.Group</b> and <b>Translated.Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Translated.Group</b> to ALL_PROCESSOR_GROUPS.
+ 
 
 
-####### - u.MessageInterrupt.Raw.Group
+### -field u.Generic.Length
+
+ 
+
+
+### -field u.Port
+
+Specifies a range of I/O port addresses, using the following members.
+
+Drivers for Windows Vista and later versions of the Windows operating system can use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update the <b>u.Port</b> member, rather than updating it directly.
+
+
+### -field u.Port.Start
+
+For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous I/O port addresses allocated to the device.
+
+For translated resources: Specifies the system physical address of the lowest of a range of contiguous I/O port addresses allocated to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Port.Length
+
+The length, in bytes, of the range of allocated I/O port addresses.
+
+
+### -field u.Interrupt
+
+Specifies an interrupt vector and level, using the following members:
+
+
+### -field u.Interrupt.Group
+
+Specifies the processor group number. This member exists only if the NT_PROCESSOR_GROUPS constant is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Group</b> and <b>Affinity</b> members together specify a group affinity that indicates which processors the device can interrupt. To specify an affinity for any group, set <b>Group</b> to ALL_PROCESSOR_GROUPS.
+
+
+### -field u.Interrupt.Level
+
+For raw resources: Specifies the device's bus-specific IRQL (if appropriate for the platform and bus).
+
+For translated resources: Specifies the DIRQL assigned to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Interrupt.Vector
+
+For raw resources: Specifies the device's bus-specific interrupt vector (if appropriate for the platform and bus).
+
+For translated resources: Specifies the global system interrupt vector assigned to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Interrupt.Affinity
+
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>-typed bitmask value indicating the set of processors the device can interrupt. To indicate that the device can interrupt any processor, this member is set to -1.
+
+
+### -field u.MessageInterrupt
+
+Specifies a message-signaled interrupt. This member is a union. Use <b>u.MessageInterrupt.Raw</b> for raw resources, and <b>u.MessageInterrupt.Translated</b> for translated resources. This type of resource is only returned on Windows Vista and later versions of the Windows operating system.
+
+For more information about raw and translated resources, see Remarks.
+
+The <b>u.MessageInterrupt.Raw</b> member has the following members:
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME
+
+ 
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Group
 
 Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Group</b> and <b>Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Group</b> to ALL_PROCESSOR_GROUPS.
 
 
-###### - u.MessageInterrupt.Translated
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Reserved
+
+Not used.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.MessageCount
+
+Specifies the number of message-signaled interrupts generated for this driver.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Vector
+
+Specifies the device's interrupt vector.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Raw.Affinity
+
+Specifies a KAFFINITY value that indicates the processors that receive the device's interrupts.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated
 
 The <b>u.MessageInterrupt.Translated</b> member has the following members:
 
 
-###### - u.MessageInterrupt.Raw
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Group
 
+Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Translated.Group</b> and <b>Translated.Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Translated.Group</b> to ALL_PROCESSOR_GROUPS.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Level
+
+Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
+
+Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Vector
+
+Specifies the device's interrupt vector.
+
+
+### -field u.MessageInterrupt.DUMMYUNIONNAME.Translated.Affinity
+
+Specifies a KAFFINITY value that identifies the processors that receive the device's interrupts.
+
+
+### -field u.Memory
+
+Specifies a range of memory addresses, using the following members.
+
+Drivers for Windows Vista and later versions of the Windows operating system can use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update the <b>u.Memory</b> member, rather than updating it directly.
+
+
+### -field u.Memory.Start
+
+For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses allocated to the device.
+
+For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses allocated to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Memory.Length
+
+Specifies the length, in bytes, of the range of allocated memory addresses.
+
+
+### -field u.Dma
+
+Specifies a DMA setting, using one of the following members:
+
+
+### -field u.Dma.Channel
+
+Specifies the number of the DMA channel on a system DMA controller that the device can use.
+
+
+### -field u.Dma.Port
+
+Specifies the number of the DMA port that an MCA-type device can use.
+
+
+### -field u.Dma.Reserved1
+
+Not used.
+
+
+### -field u.DmaV3
+
+Specifies the DMA settings for a driver that uses version 3 of the <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure.
+
+The <b>u.DmaV3</b> member is available starting with Windows 8.
+
+
+### -field u.DmaV3.Channel
+
+Specifies the number of the DMA channel on the system DMA controller that is allocated to the device.
+
+
+### -field u.DmaV3.RequestLine
+
+Specifies the number of the request line on the system DMA controller that is allocated to the device.
+
+
+### -field u.DmaV3.TransferWidth
+
+Specifies the width, in bits, of the data bus that the system DMA controller that is allocated to the device uses to transfer data to or from the device.
+
+
+### -field u.DmaV3.Reserved1
+
+Not used.
+
+
+### -field u.DmaV3.Reserved2
+
+Not used.
+
+
+### -field u.DmaV3.Reserved3
+
+Not used.
+
+
+### -field u.DevicePrivate
+
+Reserved for system use.
+
+
+### -field u.DevicePrivate.Data
+
+ 
+
+
+### -field u.BusNumber
+
+Specifies bus numbers, using the following members:
+
+
+### -field u.BusNumber.Start
+
+Specifies the lowest-numbered of a range of contiguous buses allocated to the device.
+
+
+### -field u.BusNumber.Length
+
+Specifies the number of buses allocated to the device.
+
+
+### -field u.BusNumber.Reserved
+
+Not used.
+
+
+### -field u.DeviceSpecificData
+
+Specifies the size of a device-specific, private structure that is appended to the end of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure. If <b>u.DeviceSpecificData</b> is used, the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure must be the last one in the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a> array.
+
+Examples of device-specific structures include <a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>, <a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>, <a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>, and <a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>.
+
+
+### -field u.DeviceSpecificData.DataSize
+
+Specifies the number of bytes appended to the end of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
+
+
+### -field u.DeviceSpecificData.Reserved1
+
+Not used.
+
+
+### -field u.DeviceSpecificData.Reserved2
+
+Not used.
+
+
+### -field u.Memory40
+
+Specifies a range of memory addresses, using the following members.
+
+The <b>u.Memory40</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+### -field u.Memory40.Start
+
+For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Memory40.Length40
+
+Contains the high 32 bits of the 40-bit length, in bytes, of the range of allocated memory addresses. The lowest 8 bits are treated as zero.
+
+
+### -field u.Memory48
+
+Specifies a range of memory addresses, using the following members.
+
+The <b>u.Memory48</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+### -field u.Memory48.Start
+
+For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Memory48.Length48
+
+Contains the high 32 bits of the 48-bit length, in bytes, of the range of allocated memory addresses. The lowest 16 bits are treated as zero.
+
+
+### -field u.Memory64
+
+Specifies a range of memory addresses, using the following members.
+
+The <b>u.Memory64</b> member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+### -field u.Memory64.Start
+
+For raw resources: Specifies the bus-relative physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For translated resources: Specifies the system physical address of the lowest of a range of contiguous memory addresses that are allocated to the device.
+
+For more information about raw and translated resources, see Remarks.
+
+
+### -field u.Memory64.Length64
+
+Contains the high 32 bits of the 64-bit length, in bytes, of the range of allocated memory addresses. The lowest 32 bits are treated as zero.
+
+
+### -field u.Connection
+
+Specifies a connection to a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">serial bus</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/">serial port</a>, or to a set of one or more <a href="https://msdn.microsoft.com/450E7F80-D9AC-4F52-8062-2DA5343C8D0F">general-purpose I/O</a> (GPIO) pins. The following members describe this connection.
+
+The <b>u.Connection</b> member is available starting with Windows 8.
+
+
+### -field u.Connection.Class
+
+Specifies the connection class. This member is set to one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_GPIO"></a><a id="cm_resource_connection_class_gpio"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_CLASS_GPIO</b></dt>
+</dl>
+</td>
+<td width="60%">
+Access the device through one or more pins on a GPIO controller.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_CLASS_SERIAL"></a><a id="cm_resource_connection_class_serial"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_CLASS_SERIAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Access the device through a serial bus or serial port.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field u.Connection.Type
+
+Specifies the connection type.
+
+If <b>Class</b> = CM_RESOURCE_CONNECTION_CLASS_GPIO, <b>Type</b> is set to the following value.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_GPIO_IO"></a><a id="cm_resource_connection_type_gpio_io"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_TYPE_GPIO_IO</b></dt>
+</dl>
+</td>
+<td width="60%">
+Access the device through GPIO pins that are configured for I/O.
+
+</td>
+</tr>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  A GPIO pin that is configured as an interrupt request input is accessed as an ordinary interrupt resource (<b>CmResourceTypeInterrupt</b>).</div>
+<div> </div>
+If <b>Class</b> = CM_RESOURCE_CONNECTION_CLASS_SERIAL, <b>Type</b> is set to one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C"></a><a id="cm_resource_connection_type_serial_i2c"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device is connected to an I²C bus.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI"></a><a id="cm_resource_connection_type_serial_spi"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device is connected to an SPI bus.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART"></a><a id="cm_resource_connection_type_serial_uart"></a><dl>
+<dt><b>CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device is connected to a serial port.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field u.Connection.Reserved1
+
+Not used.
+
+
+### -field u.Connection.Reserved2
+
+Not used.
+
+
+### -field u.Connection.IdLowPart
+
+Contains the lower 32 bits of the 64-bit connection ID.
+
+
+### -field u.Connection.IdHighPart
+
+Contains the upper 32 bits of the 64-bit connection ID.
 
 
 ## -remarks
 
 
+
 A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus-relative) resource or a translated (system physical) resource, depending on the routine or IRP with which it is being used. For more information, see <a href="https://msdn.microsoft.com/dfc1376d-7a1a-421c-82ae-e183cac77ec8">Raw and Translated Resources</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>.
+
 
 
 
@@ -1273,39 +1233,71 @@ A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus
 
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
-<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
 
-<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
-
-<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
-
-<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 <a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
-
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-
-<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
-
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CM_PARTIAL_RESOURCE_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CM_PARTIAL_RESOURCE_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdf_wmi_buffer_append_string.htm
 old-project: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING
+ms.date: 2/20/2018
+ms.keywords: DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	None
 -	None.dll
-apiname: 
+api_name:
 -	WDF_WMI_BUFFER_APPEND_STRING
 product: Windows
 targetos: Windows
@@ -97,11 +97,14 @@ A pointer to a location that receives the number of bytes that are required to s
 ## -returns
 
 
+
 <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns STATUS_SUCCESS if the operation succeeds. If the destination buffer is too small to hold the Unicode string that the <i>String</i> parameter specifies, the function returns STATUS_BUFFER_TOO_SMALL.
 
 
 
+
 ## -remarks
+
 
 
 WMI requires that strings that an <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a> callback function returns be preceded by a byte count. The <b>WDF_WMI_BUFFER_APPEND_STRING</b> function calculates the byte count, stores it in the destination buffer, and then copies the string from the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure into the destination buffer. 
@@ -109,16 +112,74 @@ WMI requires that strings that an <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_insta
 When <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns, the location that the <i>RequiredSize</i> parameter points to contains the total number of bytes that were written to the buffer. To find the first buffer address that follows the string, your driver can pass the <i>RequiredSize</i> value to the WDF_PTR_ADD_OFFSET macro that is defined in <i>Wdfcore.h</i>.
 
 
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example is an <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a> callback function that obtains a device's symbolic name and copies the name into the callback function's output buffer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+EvtWmiQueryPortName(
+    IN  WDFWMIINSTANCE WmiInstance,
+    IN  ULONG OutBufferSize,
+    IN  PVOID OutBuffer,
+    OUT PULONG BufferUsed
+    )
+{
+    WDFDEVICE device;
+    PSERIAL_DEVICE_EXTENSION pDevExt;
+    WCHAR pRegName[SYMBOLIC_NAME_LENGTH];
+    UNICODE_STRING string;
+    USHORT nameSize = sizeof(pRegName);
+    NTSTATUS status;
+
+    PAGED_CODE();
+
+    device = WdfWmiInstanceGetDevice(WmiInstance);
+    pDevExt = SerialGetDeviceExtension(device);
+
+    status = SerialReadSymName(
+                               device,
+                               pRegName,
+                               &amp;nameSize
+                               );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+    RtlInitUnicodeString(
+                         &amp;string,
+                         pRegName
+                         );
+    return WDF_WMI_BUFFER_APPEND_STRING(
+                                        OutBuffer,
+                                        OutBufferSize,
+                                        &amp;string,
+                                        BufferUsed
+                                        );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_BUFFER_APPEND_STRING function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_BUFFER_APPEND_STRING function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

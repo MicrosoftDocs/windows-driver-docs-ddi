@@ -7,8 +7,8 @@ old-location: storage\storportvalidaterange.htm
 old-project: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml, storport/StorPortValidateRange, storage.storportvalidaterange, StorPortValidateRange, StorPortValidateRange routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortValidateRange
 product: Windows
 targetos: Windows
@@ -112,11 +112,14 @@ Contains an integer identifying a system bus.
 ## -returns
 
 
+
 <b>StorPortValidateRange</b> returns <b>TRUE</b> if a specified range of addresses is not claimed by another driver. This routine returns <b>FALSE</b> if another driver has claimed the address range. 
 
 
 
+
 ## -remarks
+
 
 
 For compatibility with older versions of Windows, this routine always returns <b>TRUE</b>.
@@ -124,6 +127,7 @@ For compatibility with older versions of Windows, this routine always returns <b
  Miniport drivers are given valid I/O ranges in the <b>AccessRanges</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure when the Storport driver calls the miniport's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> callback routine.
 
 <b>StorPortValidateRange</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent bus-relative addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -134,7 +138,9 @@ For compatibility with older versions of Windows, this routine always returns <b
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+</table></span></div>
+The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+
 
 
 
@@ -142,9 +148,11 @@ For compatibility with older versions of Windows, this routine always returns <b
 
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortValidateRange routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortValidateRange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR4
-title: _DXGK_SEGMENTDESCRIPTOR4
+title: "_DXGK_SEGMENTDESCRIPTOR4"
 author: windows-driver-content
 description: The DXGK_SEGMENTDESCRIPTOR4 structure describes a programmable CPU host aperture.
 old-location: display\dxgk_segmentdescriptor4.htm
 old-project: display
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_segmentdescriptor4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4
+ms.date: 2/24/2018
+ms.keywords: DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_SEGMENTDESCRIPTOR4
 product: Windows
 targetos: Windows
@@ -76,16 +76,6 @@ typedef struct _DXGK_SEGMENTDESCRIPTOR4 {
 
 
 
-### -field CpuTranslatedAddress
-
-If <b>Flags.SupportsCpuHostAperture</b>==<b>FALSE</b> and the segment is CPU visible, this will be the CPU physical base address of the segment.
-
-
-### -field CpuHostAperture
-
-If <b>Flags.SupportsCpuHostAperture</b>==<b>TRUE</b>, this will have the CPU address and size of the <b>CPUHostAperture</b>.
-
-
 ### -field Flags
 
 Segment bit field flags
@@ -104,7 +94,9 @@ The size of the segment in bytes.
 ### -field CommitLimit
 
 The maximum number of bytes that can be committed to this segment. 
-<div class="alert"><b>Note</b>  This applies to the aperture segment only.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This applies to the aperture segment only.</div>
+<div> </div>
 
 ### -field SystemMemoryEndAddress
 
@@ -145,4 +137,15 @@ The number of invalid memory ranges in the segment. If this value is not zero, t
 
  
 
+
+
+
+#### - CpuHostAperture
+
+If <b>Flags.SupportsCpuHostAperture</b>==<b>TRUE</b>, this will have the CPU address and size of the <b>CPUHostAperture</b>.
+
+
+#### - CpuTranslatedAddress
+
+If <b>Flags.SupportsCpuHostAperture</b>==<b>FALSE</b> and the segment is CPU visible, this will be the CPU physical base address of the segment.
 

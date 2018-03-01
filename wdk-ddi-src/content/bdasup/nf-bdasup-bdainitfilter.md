@@ -7,8 +7,8 @@ old-location: stream\bdainitfilter.htm
 old-project: stream
 ms.assetid: d6f5c6e5-d944-42a6-bfc2-decc7606cba1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: BdaInitFilter function [Streaming Media Devices], bdasup/BdaInitFilter, BdaInitFilter, stream.bdainitfilter, bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml
+ms.date: 2/23/2018
+ms.keywords: BdaInitFilter, BdaInitFilter function [Streaming Media Devices], bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, bdasup/BdaInitFilter, stream.bdainitfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+api_name:
 -	BdaInitFilter
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Points to a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEM
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 A BDA minidriver calls the <b>BdaInitFilter</b> function to initialize an instance of a filter using a specific BDA filter template and a filter factory that was previously created through a call to the <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a> function. The BDA minidriver can subsequently use this filter instance in calls to other BDA support functions, such as, <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>. 
@@ -95,19 +98,28 @@ When a BDA minidriver calls <b>BdaInitFilter</b>, the BDA support driver (<i>Bda
 
 
 
+
 ## -see-also
 
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaInitFilter function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaInitFilter function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

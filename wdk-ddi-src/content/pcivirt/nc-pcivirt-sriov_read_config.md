@@ -7,8 +7,8 @@ old-location: pci\sriov_read_config.htm
 old-project: PCI
 ms.assetid: 0fef9d53-b8af-4c9b-9914-982bcfc26517
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.sriov_read_config, SRIOV_READ_CONFIG callback function [Buses], SRIOV_READ_CONFIG, pcivirt/SRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], *PSRIOV_READ_CONFIG
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], PCI.sriov_read_config, SRIOV_READ_CONFIG, SRIOV_READ_CONFIG callback function [Buses], pcivirt/SRIOV_READ_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	*PSRIOV_READ_CONFIG
 product: Windows
 targetos: Windows
@@ -104,15 +104,19 @@ The length, in bytes, of the data to read from the configuration space.
 
 
 
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+
 
 
 
 ## -remarks
 
 
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to read from the configuration space of a specific virtual function. 
 
 The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
 
 

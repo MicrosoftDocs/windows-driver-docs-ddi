@@ -7,8 +7,8 @@ old-location: stream\ksaddevent.htm
 old-project: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent, KsAddEvent function [Streaming Media Devices], KsAddEvent
+ms.date: 2/23/2018
+ms.keywords: KsAddEvent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsAddEvent
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to an <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> struct
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers typically do not call this routine directly; instead, they use <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a> or <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>. 
@@ -95,21 +98,32 @@ After events have been added to the event list, these events can be generated as
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
-
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
 
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAddEvent function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAddEvent function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\rtluintsub.htm
 old-project: kernel
 ms.assetid: 0886578A-C1CF-4A48-86A3-407A0C16ADEC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUIntSub, kernel.rtluintsub, RtlUIntSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntSub
+ms.date: 2/24/2018
+ms.keywords: RtlUIntSub, RtlUIntSub function [Kernel-Mode Driver Architecture], kernel.rtluintsub, ntintsafe/RtlUIntSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntSub
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUInt32Sub
 </li>
 </ul>
+
 

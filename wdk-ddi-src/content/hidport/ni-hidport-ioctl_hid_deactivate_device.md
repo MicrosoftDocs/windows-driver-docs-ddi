@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_deactivate_device.htm
 old-project: hid
 ms.assetid: 87af450c-0f62-481d-8c7d-24c77f221fc5
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hid.ioctl_hid_deactivate_device, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], IOCTL_HID_DEACTIVATE_DEVICE, hidport/IOCTL_HID_DEACTIVATE_DEVICE, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_HID_DEACTIVATE_DEVICE, IOCTL_HID_DEACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_deactivate_device, hidioreq_35c75bec-696b-4043-bdb4-2425ff0ad6db.xml, hidport/IOCTL_HID_DEACTIVATE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hidport.h
-apiname: 
+api_name:
 -	IOCTL_HID_DEACTIVATE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # IOCTL_HID_DEACTIVATE_DEVICE IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,14 +87,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -102,6 +106,7 @@ None
 
 
        HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+
 <ul>
 <li>
 <b>Information</b> is set to zero.
@@ -111,16 +116,19 @@ None
 <b>Status</b> is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
 </li>
-</ul>HID minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and must not change the contents of the <b>Status</b> field.
+</ul>
+HID minidrivers that call other drivers with this IRP to carry out the I/O to their device should ensure that the <b>Information</b> field of the status block is zero and must not change the contents of the <b>Status</b> field.
 
 
 ## -see-also
 
 <a href="..\hidport\ni-hidport-ioctl_hid_activate_device.md">IOCTL_HID_ACTIVATE_DEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_DEACTIVATE_DEVICE control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_DEACTIVATE_DEVICE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

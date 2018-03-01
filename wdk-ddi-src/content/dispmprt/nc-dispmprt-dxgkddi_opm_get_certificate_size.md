@@ -7,8 +7,8 @@ old-location: display\dxgkddiopmgetcertificatesize.htm
 old-project: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiopmgetcertificatesize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], DxgkDdiOPMGetCertificateSize, DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE, dispmprt/DxgkDdiOPMGetCertificateSize, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiOPMGetCertificateSize
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ A pointer to a variable that receives the size, in bytes, of the certificate who
 ## -returns
 
 
+
 <i>DxgkDdiOPMGetCertificateSize</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,13 +153,16 @@ The display miniport driver's hardware functionality scan (HFS) failed or the di
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
@@ -166,15 +171,20 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgkcbwritedevicespace.htm
 old-project: display
 ms.assetid: 797d6b0c-91a4-4923-ad40-937cfde50067
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbwritedevicespace, DxgkCbWriteDeviceSpace callback function [Display Devices], DxgkCbWriteDeviceSpace, DXGKCB_WRITE_DEVICE_SPACE, DXGKCB_WRITE_DEVICE_SPACE, dispmprt/DxgkCbWriteDeviceSpace, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_WRITE_DEVICE_SPACE, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml, DxgkCbWriteDeviceSpace, DxgkCbWriteDeviceSpace callback function [Display Devices], display.dxgkcbwritedevicespace, dispmprt/DxgkCbWriteDeviceSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbWriteDeviceSpace
 product: Windows
 targetos: Windows
@@ -87,6 +87,30 @@ The type of write transaction to be performed. This parameter must be one of the
 
 
 
+
+#### DXGK_WHICHSPACE_BRIDGE
+
+Write to the parent bus device's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_CONFIG
+
+Write to the display adapter's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_MCH
+
+Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
+
+#### DXGK_WHICHSPACE_ROM
+
+Write to the display adapter's expansion ROM.
+
+
 ### -param Buffer [in]
 
 A pointer to a buffer that supplies the data to be written to the configuration space.
@@ -107,30 +131,12 @@ The number of bytes to be written.
 A pointer to a ULONG-typed variable that receives the number of bytes actually written.
 
 
-##### - DataType.DXGK_WHICHSPACE_BRIDGE
-
-Write to the parent bus device's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_CONFIG
-
-Write to the display adapter's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_ROM
-
-Write to the display adapter's expansion ROM.
-
-
-##### - DataType.DXGK_WHICHSPACE_MCH
-
-Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
-
-
 ## -returns
 
 
+
 <b>DxgkCbWriteDeviceSpace</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -169,7 +175,9 @@ Write to the configuration space of a memory controller hub that is a peer to th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -177,9 +185,11 @@ Write to the configuration space of a memory controller hub that is a peer to th
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_read_device_space.md">DxgkCbReadDeviceSpace</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_WRITE_DEVICE_SPACE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_WRITE_DEVICE_SPACE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

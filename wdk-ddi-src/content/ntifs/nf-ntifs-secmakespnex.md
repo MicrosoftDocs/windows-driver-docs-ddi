@@ -7,8 +7,8 @@ old-location: ifsk\secmakespnex.htm
 old-project: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.secmakespnex, ntifs/SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, SecMakeSPNEx
+ms.date: 2/16/2018
+ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ksecdd.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname: 
+api_name:
 -	SecMakeSPNEx
 product: Windows
 targetos: Windows
@@ -101,21 +101,6 @@ A pointer to a Unicode string for storing the security service provider name str
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
 
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
-#### - TargetInfo [in]
-
-A pointer to an optional Unicode string specifying target information for connecting with the security service provider. 
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
-
-
 #### - InstanceName [in]
 
 A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
@@ -126,10 +111,27 @@ A pointer to an optional Unicode string specifying the instance name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
+
+
+#### - Referrer [in]
+
+A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+
+
+#### - TargetInfo [in]
+
+A pointer to an optional Unicode string specifying target information for connecting with the security service provider. 
+
+
 ## -returns
 
 
+
 <b>SecMakeSPNEx</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,14 +174,18 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>SecMakeSPNEx</b> is an enhanced version of <b>SecMakeSPN</b>. 
+
 
 
 
@@ -187,11 +193,15 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 <a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPNEx function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPNEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

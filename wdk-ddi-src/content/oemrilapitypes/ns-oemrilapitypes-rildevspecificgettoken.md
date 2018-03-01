@@ -7,8 +7,8 @@ old-location: netvista\rildevspecificgettoken.htm
 old-project: netvista
 ms.assetid: b0a534e0-1527-4ef3-a53f-c18cacbb5445
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILDEVSPECIFICGETTOKEN, netvista.rildevspecificgettoken, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], *LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/RILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificgettoken, oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/RILDEVSPECIFICGETTOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	oemrilapitypes.h
-apiname: 
+api_name:
 -	RILDEVSPECIFICGETTOKEN
 product: Windows
 targetos: Windows
-req.typenames: *LPRILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN
+req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 ---
 
 # RILDEVSPECIFICGETTOKEN structure
@@ -75,23 +75,17 @@ typedef struct _RILDEVSPECIFICGETTOKEN {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwTimeout
 
 
-
 ### -field bProtocolId
-
 
 
 ### -field cbHeaderSize
 
 
-
 ### -field bHeader
-
 

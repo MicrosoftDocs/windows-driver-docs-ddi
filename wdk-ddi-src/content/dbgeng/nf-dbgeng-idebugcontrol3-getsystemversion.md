@@ -7,8 +7,8 @@ old-location: debugger\getsystemversion.htm
 old-project: debugger
 ms.assetid: 9418ac12-3de0-4477-a725-437700c4d83c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetSystemVersion, IDebugControl3::GetSystemVersion, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, dbgeng/IDebugControl3::GetSystemVersion, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl interface [Windows Debugging], GetSystemVersion method, GetSystemVersion, debugger.getsystemversion, IDebugControl2::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetSystemVersion, IDebugControl3, GetSystemVersion method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: GetSystemVersion method [Windows Debugging], GetSystemVersion method [Windows Debugging], IDebugControl interface, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, GetSystemVersion,IDebugControl3.GetSystemVersion, IDebugControl interface [Windows Debugging], GetSystemVersion method, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, IDebugControl2::GetSystemVersion, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl3::GetSystemVersion, IDebugControl::GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, dbgeng/IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, debugger.getsystemversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.GetSystemVersion
 -	IDebugControl2.GetSystemVersion
 -	IDebugControl3.GetSystemVersion
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetSystemVersion method
@@ -131,7 +131,9 @@ Receives the size, in characters, of the string that identifies the build.  If <
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -159,32 +161,46 @@ The method was successful. However, the <i>ServicePackString</i> buffer or the <
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetSystemVersion method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetSystemVersion method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

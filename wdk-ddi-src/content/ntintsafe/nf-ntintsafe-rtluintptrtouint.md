@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtouint.htm
 old-project: kernel
 ms.assetid: DA00BB09-7559-439A-935C-55A1304C6BBC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToUInt, kernel.rtluintptrtouint, RtlUIntPtrToUInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToUInt
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrToUInt, RtlUIntPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint, ntintsafe/RtlUIntPtrToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrToUInt
 product: Windows
 targetos: Windows
@@ -86,9 +86,11 @@ The value to be converted.
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUIntPtrToUInt32
 </li>
@@ -97,4 +99,5 @@ This function uses the following alternate name:
 <li>RtlSizeTToUInt32
 </li>
 </ul>
+
 

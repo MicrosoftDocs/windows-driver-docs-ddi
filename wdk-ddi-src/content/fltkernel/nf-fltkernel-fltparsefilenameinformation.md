@@ -7,8 +7,8 @@ old-location: ifsk\fltparsefilenameinformation.htm
 old-project: ifsk
 ms.assetid: f588f59b-5efa-4783-bb45-935b91c69cb5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltParseFileNameInformation function [Installable File System Drivers], FltParseFileNameInformation, FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, fltkernel/FltParseFileNameInformation, ifsk.fltparsefilenameinformation
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, FltParseFileNameInformation, FltParseFileNameInformation function [Installable File System Drivers], fltkernel/FltParseFileNameInformation, ifsk.fltparsefilenameinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	fltmgr.sys
-apiname: 
+api_name:
 -	FltParseFileNameInformation
 product: Windows
 targetos: Windows
@@ -75,16 +75,20 @@ Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">
 ## -returns
 
 
+
 <b>FltParseFileNameInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS error code. 
+
 
 
 
 ## -remarks
 
 
+
 <b>FltParseFileNameInformation</b> parses the <b>Name</b> member of a FLT_FILE_NAME_INFORMATION structure and uses the results to set the values of the <b>Volume</b>, <b>Share</b>, <b>Extension</b>, <b>Stream</b>, <b>FinalComponent</b>, <b>ParentDir</b>, and <b>NamesParsed</b> members of this structure. For more information, see <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>. 
 
 The following is an example of a normalized name for a remote file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -94,7 +98,8 @@ The following is an example of a normalized name for a remote file:
 <pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
 </td>
 </tr>
-</table></span></div><b>FltParseFileNameInformation</b> parses this normalized name as follows: 
+</table></span></div>
+<b>FltParseFileNameInformation</b> parses this normalized name as follows: 
 
 <b>Volume</b>: "\Device\LanManRedirector" 
 
@@ -109,6 +114,7 @@ The following is an example of a normalized name for a remote file:
 <b>ParentDir</b>: "\Documents and Settings\MyUser\My Documents\" 
 
 The following is an example of an opened name for a local file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -118,7 +124,8 @@ The following is an example of an opened name for a local file:
 <pre>\Device\HarddiskVolume1\Docume~1\MyUser\My Documents\TestRe~1.txt:stream1:$DATA</pre>
 </td>
 </tr>
-</table></span></div><b>FltParseFileNameInformation</b> parses this opened name as follows: 
+</table></span></div>
+<b>FltParseFileNameInformation</b> parses this opened name as follows: 
 
 <b>Volume</b>: "\Device\HarddiskVolume1" 
 
@@ -133,6 +140,7 @@ The following is an example of an opened name for a local file:
 <b>ParentDir</b>: "\Docume~1\MyUser\My Documents\" 
 
 The following is an example of a short name for a file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -142,7 +150,8 @@ The following is an example of a short name for a file:
 <pre>TestRe~1.txt</pre>
 </td>
 </tr>
-</table></span></div><b>FltParseFileNameInformation</b> parses this short name as follows: 
+</table></span></div>
+<b>FltParseFileNameInformation</b> parses this short name as follows: 
 
 <b>Volume</b>: <b>NULL</b>
 
@@ -157,26 +166,41 @@ The following is an example of a short name for a file:
 <b>ParentDir</b>: <b>NULL</b>
 
 The caller must not modify the contents of the <i>FileNameInformation</i> structure, because the Filter Manager caches this structure so that all minifilter drivers can use it. 
-<div class="alert"><b>Note</b>  If the caller is trying to parse a string, not an FLT_FILE_NAME_INFORMATION structure, use the <a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a> routine instead of <b>FltParseFileNameInformation</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the caller is trying to parse a string, not an FLT_FILE_NAME_INFORMATION structure, use the <a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a> routine instead of <b>FltParseFileNameInformation</b>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileNameInformation function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileNameInformation function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

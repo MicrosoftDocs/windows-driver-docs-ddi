@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_LINK_STATE
-title: _NDIS_LINK_STATE
+title: "_NDIS_LINK_STATE"
 author: windows-driver-content
 description: The NDIS_LINK_STATE structure specifies the current link state of a miniport adapter.
 old-location: netvista\ndis_link_state.htm
 old-project: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], NDIS_LINK_STATE, PNDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE, ntddndis/NDIS_LINK_STATE, netvista.ndis_link_state
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_LINK_STATE, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_LINK_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_LINK_STATE, NDIS_LINK_STATE
+req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
 ---
 
 # _NDIS_LINK_STATE structure
@@ -87,30 +87,34 @@ The
 ### -field MediaConnectState
 
 The media connect state for the miniport adapter. For more information, see  
-      <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
- OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link> OID.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+ OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID.
 
 
 ### -field MediaDuplexState
 
-The media duplex state for the miniport adapter. For more information, see <mshelp:link keywords="netvista.oid_gen_media_duplex_state" tabindex="0">
- OID_GEN_MEDIA_DUPLEX_STATE</mshelp:link> OID.
+The media duplex state for the miniport adapter. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
+ OID_GEN_MEDIA_DUPLEX_STATE</a> OID.
 
 
 ### -field XmitLinkSpeed
 
 The current transmit link speed of the miniport adapter in bits per second. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>.
  
+
 <div class="alert"><b>Note</b>  A value of NDIS_LINK_SPEED_UNKNOWN indicates that the
- transmit link speed is unknown.</div><div> </div>
+ transmit link speed is unknown.</div>
+<div> </div>
 
 ### -field RcvLinkSpeed
 
 The current receive link speed of the miniport adapter in bits per second. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>.
 
  
+
 <div class="alert"><b>Note</b>  A value of NDIS_LINK_SPEED_UNKNOWN indicates that the
- receive link speed is unknown.</div><div> </div>
+ receive link speed is unknown.</div>
+<div> </div>
 
 ### -field PauseFunctions
 
@@ -119,6 +123,39 @@ The type of support for the IEEE 802.3 pause frames. This member must be one of 
       
 
 
+
+
+
+#### NdisPauseFunctionsUnsupported
+
+the miniport adapter or link partner does not support pause frames.
+
+
+
+#### NdisPauseFunctionsSendOnly
+
+the miniport adapter and link partner support only sending pause frames from the miniport adapter to the link
+ partner.
+
+
+
+#### NdisPauseFunctionsReceiveOnly
+
+the miniport adapter and link partner support only sending pause frames from the link partner to the miniport adapter
+
+
+
+#### NdisPauseFunctionsSendAndReceive
+
+the miniport adapter and link partner support sending and receiving pause frames in both transmit and
+ receive directions.
+
+
+
+#### NdisPauseFunctionsUnknown
+
+Pause frame negotiation is in progress. The pause frame support that the link partner provides
+ is unknown.
 
 
 ### -field AutoNegotiationFlags
@@ -130,55 +167,32 @@ The auto-negotiation settings for the miniport adapter. This member is created f
 
 
 
-##### - AutoNegotiationFlags.NDIS_LINK_STATE_RCV_LINK_SPEED_AUTO_NEGOTIATED
 
-the miniport adapter has auto-negotiated the receive link speed with the link partner.
-
-
-##### - PauseFunctions.NdisPauseFunctionsUnsupported
-
-the miniport adapter or link partner does not support pause frames.
-
-
-##### - PauseFunctions.NdisPauseFunctionsSendAndReceive
-
-the miniport adapter and link partner support sending and receiving pause frames in both transmit and
- receive directions.
-
-
-##### - PauseFunctions.NdisPauseFunctionsReceiveOnly
-
-the miniport adapter and link partner support only sending pause frames from the link partner to the miniport adapter
-
-
-##### - AutoNegotiationFlags.NDIS_LINK_STATE_DUPLEX_AUTO_NEGOTIATED
-
-the miniport adapter has auto-negotiated the duplex state with the link partner.
-
-
-##### - PauseFunctions.NdisPauseFunctionsSendOnly
-
-the miniport adapter and link partner support only sending pause frames from the miniport adapter to the link
- partner.
-
-
-##### - AutoNegotiationFlags.NDIS_LINK_STATE_XMIT_LINK_SPEED_AUTO_NEGOTIATED
+#### NDIS_LINK_STATE_XMIT_LINK_SPEED_AUTO_NEGOTIATED
 
 the miniport adapter has auto-negotiated the transmit link speed with the link partner.
 
 
-##### - AutoNegotiationFlags.NDIS_LINK_STATE_PAUSE_FUNCTIONS_AUTO_NEGOTIATED
+
+#### NDIS_LINK_STATE_RCV_LINK_SPEED_AUTO_NEGOTIATED
+
+the miniport adapter has auto-negotiated the receive link speed with the link partner.
+
+
+
+#### NDIS_LINK_STATE_DUPLEX_AUTO_NEGOTIATED
+
+the miniport adapter has auto-negotiated the duplex state with the link partner.
+
+
+
+#### NDIS_LINK_STATE_PAUSE_FUNCTIONS_AUTO_NEGOTIATED
 
 the miniport adapter has auto-negotiated the pause functions with the link partner.
 
 
-##### - PauseFunctions.NdisPauseFunctionsUnknown
-
-Pause frame negotiation is in progress. The pause frame support that the link partner provides
- is unknown.
-
-
 ## -remarks
+
 
 
 Miniport drivers use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a> status indication to notify NDIS and overlying drivers that there has been a change in the physical characteristics of a medium.
@@ -191,27 +205,42 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
 
-<mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
- OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
+ OID_GEN_MEDIA_DUPLEX_STATE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+ OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
-<mshelp:link keywords="netvista.oid_gen_media_duplex_state" tabindex="0">
- OID_GEN_MEDIA_DUPLEX_STATE</mshelp:link>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_LINK_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_LINK_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

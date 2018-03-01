@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlnotifyvolumeevent.htm
 old-project: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlnotifyvolumeevent, FsRtlNotifyVolumeEvent, fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ntifs/FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlNotifyVolumeEvent
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ A pointer to a file object for the given volume.
 ### -param EventCode [in]
 
 Specifies an event code for the event that is occurring. This code can be one of the following values.
+
 <table>
 <tr>
 <th>Event Code</th>
@@ -278,17 +279,21 @@ The volume is a write-once, read-many (WORM) volume and it is nearly full. This 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>FsRtlNotifyVolumeEvent</b> returns the status of the notification. 
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>FsRtlNotifyVolumeEvent</b> to notify any registered user-mode applications that a volume event is occurring. 
@@ -299,15 +304,20 @@ To register for volume event notification, applications must call the Microsoft 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyVolumeEvent routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyVolumeEvent routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

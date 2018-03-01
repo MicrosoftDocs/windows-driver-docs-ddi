@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_FLUSHTLB
-title: _DXGK_BUILDPAGINGBUFFER_FLUSHTLB
+title: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_FLUSHTLB is used as part of a flush translation look-aside buffer (TLB) operation.
 old-location: display\dxgk_buildpagingbuffer_flushtlb.htm
 old-project: display
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb, DXGK_BUILDPAGINGBUFFER_FLUSHTLB
+ms.date: 2/24/2018
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 product: Windows
 targetos: Windows

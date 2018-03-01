@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V3
-title: _D3DDeviceDesc_V3
+title: "_D3DDeviceDesc_V3"
 author: windows-driver-content
 description: The D3DDEVICEDESC_V3 structure contains fields that are already reported in the D3DHAL_D3DEXTENDEDCAPS structure when responding to the GUID_D3DExtendedCaps GUID in DdGetDriverInfo.
 old-location: display\d3ddevicedesc_v3.htm
 old-project: display
 ms.assetid: 36a7b29a-f744-42c8-9e60-9b5dbba3a32f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _D3DDeviceDesc_V3, D3DDEVICEDESC_V3 structure [Display Devices], d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3, d3dhal/, display.d3ddevicedesc_v3
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dhal.h
-apiname: 
+api_name:
 -	D3DDEVICEDESC_V3
 product: Windows
 targetos: Windows

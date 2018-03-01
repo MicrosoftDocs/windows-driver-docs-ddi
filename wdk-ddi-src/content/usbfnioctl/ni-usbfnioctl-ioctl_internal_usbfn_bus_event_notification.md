@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_bus_event_notification.htm
 old-project: usbref
 ms.assetid: 737EDB43-FAFF-4EFD-A7A1-206D646F23E1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_internal_usbfn_bus_event_notification, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbfnioctl.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -89,14 +89,18 @@ The size of a <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_N
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,19 +112,25 @@ If the request is successful, the USB function class extension (UFX) returns STA
 ## -remarks
 
 
+
 UFX completes this request in response to an event on the bus. It is recommended that class drivers send multiple requests at a time to make sure that critical notifications are not missed. 
+
 
 
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
 
- 
+
+
+<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

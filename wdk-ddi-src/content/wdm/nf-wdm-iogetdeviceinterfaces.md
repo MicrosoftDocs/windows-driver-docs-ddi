@@ -7,8 +7,8 @@ old-location: kernel\iogetdeviceinterfaces.htm
 old-project: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, wdm/IoGetDeviceInterfaces, kernel.iogetdeviceinterfaces
+ms.date: 2/24/2018
+ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetDeviceInterfaces
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ Pointer to an optional PDO that narrows the search to only the device interface 
 ### -param Flags [in]
 
 Specifies flags that modify the search for device interfaces. Only one flag is currently defined, and is described in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -99,7 +100,8 @@ Return disabled device interface instances in addition to enabled interface inst
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 When searching for a device that supports a particular interface class, the caller requires an enabled interface instance and thus does not set the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag.
 
@@ -116,7 +118,9 @@ If no device interface instances match the search criteria, this routine returns
 ## -returns
 
 
+
 <b>IoGetDeviceInterfaces</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +137,14 @@ Possibly indicates that <i>PhysicalDeviceObject</i> was not a valid PDO pointer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoGetDeviceInterfaces</b> returns a list of device interface instances that match the search criteria. A kernel-mode component typically calls this routine to get a list of all enabled device interface instances of a particular device interface class. Such a component can get a pointer to the file object and/or the device object for an interface by calling the <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a> or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> routine. The device object pointer returned by <b>IoGetDeviceObjectPointer</b> points to the top of the device stack for the device and can be used in calls to the <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> routine.
@@ -154,25 +161,40 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
+
+
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaces routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaces routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

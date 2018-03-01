@@ -7,8 +7,8 @@ old-location: netvista\rilregstatusinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 22751b8b-f19c-4480-b8f4-6ee2322419ca
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_REGSI_NETWORKCODE, rilapitypes/RIL_PARAM_REGSI_ACCESSTECHNOLOGY, RIL_PARAM_REGSI_REGREJECTREASON, RIL_PARAM_REGSI_SYSTEMCAPS, RIL_PARAM_REGSI_VOICEDOMAIN, RIL_PARAM_REGSI_REGSTATUS, RILREGSTATUSINFOPARAMMASK, rilapitypes/RIL_PARAM_REGSI_NETWORKCODE, rilapitypes/RIL_PARAM_REGSI_ALL, rilapitypes/RIL_PARAM_REGSI_HUICCAPP, rilapitypes/RIL_PARAM_REGSI_REGREJECTREASON, rilapitypes/RIL_PARAM_REGSI_CURRENTOPERATOR, RIL_PARAM_REGSI_HUICCAPP, netvista.rilregstatusinfoparammask_2, RIL_PARAM_REGSI_CURRENTOPERATOR, RIL_PARAM_REGSI_ACCESSTECHNOLOGY, RIL_PARAM_REGSI_ALL, rilapitypes/RILREGSTATUSINFOPARAMMASK, rilapitypes/RIL_PARAM_REGSI_REGSTATUS, rilapitypes/RIL_PARAM_REGSI_SYSTEMCAPS, rilapitypes/RIL_PARAM_REGSI_VOICEDOMAIN, RILREGSTATUSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILREGSTATUSINFOPARAMMASK, RILREGSTATUSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_REGSI_ACCESSTECHNOLOGY, RIL_PARAM_REGSI_ALL, RIL_PARAM_REGSI_CURRENTOPERATOR, RIL_PARAM_REGSI_HUICCAPP, RIL_PARAM_REGSI_NETWORKCODE, RIL_PARAM_REGSI_REGREJECTREASON, RIL_PARAM_REGSI_REGSTATUS, RIL_PARAM_REGSI_SYSTEMCAPS, RIL_PARAM_REGSI_VOICEDOMAIN, netvista.rilregstatusinfoparammask_2, rilapitypes/RILREGSTATUSINFOPARAMMASK, rilapitypes/RIL_PARAM_REGSI_ACCESSTECHNOLOGY, rilapitypes/RIL_PARAM_REGSI_ALL, rilapitypes/RIL_PARAM_REGSI_CURRENTOPERATOR, rilapitypes/RIL_PARAM_REGSI_HUICCAPP, rilapitypes/RIL_PARAM_REGSI_NETWORKCODE, rilapitypes/RIL_PARAM_REGSI_REGREJECTREASON, rilapitypes/RIL_PARAM_REGSI_REGSTATUS, rilapitypes/RIL_PARAM_REGSI_SYSTEMCAPS, rilapitypes/RIL_PARAM_REGSI_VOICEDOMAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILREGSTATUSINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -79,39 +79,29 @@ typedef enum _RILREGSTATUSINFOPARAMMASK {
 ### -field RIL_PARAM_REGSI_EXECUTOR
 
 
-
 ### -field RIL_PARAM_REGSI_HUICCAPP
-
 
 
 ### -field RIL_PARAM_REGSI_REGSTATUS
 
 
-
 ### -field RIL_PARAM_REGSI_ACCESSTECHNOLOGY
-
 
 
 ### -field RIL_PARAM_REGSI_SYSTEMCAPS
 
 
-
 ### -field RIL_PARAM_REGSI_REGREJECTREASON
-
 
 
 ### -field RIL_PARAM_REGSI_CURRENTOPERATOR
 
 
-
 ### -field RIL_PARAM_REGSI_VOICEDOMAIN
-
 
 
 ### -field RIL_PARAM_REGSI_NETWORKCODE
 
 
-
 ### -field RIL_PARAM_REGSI_ALL
-
 

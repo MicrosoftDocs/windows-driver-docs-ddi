@@ -7,8 +7,8 @@ old-location: image\ioctl_reset_pipe.htm
 old-project: image
 ms.assetid: aeca126a-449a-4a10-a4ce-1cd3939ac076
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_reset_pipe, IOCTL_RESET_PIPE control code [Imaging Devices], IOCTL_RESET_PIPE, usbscan/IOCTL_RESET_PIPE, stifnc_907d0aea-158a-4219-9235-85a16d6da30f.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_RESET_PIPE, IOCTL_RESET_PIPE control code [Imaging Devices], image.ioctl_reset_pipe, stifnc_907d0aea-158a-4219-9235-85a16d6da30f.xml, usbscan/IOCTL_RESET_PIPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbscan.h
-apiname: 
+api_name:
 -	IOCTL_RESET_PIPE
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -89,14 +89,18 @@ Zero.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,8 +112,11 @@ Zero.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_reset_pipe_si"></a><a id="DDK_IOCTL_RESET_PIPE_SI"></a>DeviceIoControl Parameters</h3>
 
+
 When the <b>DeviceloControl</b> function is called with the IOCTL_RESET_PIPE I/O control code, the caller must specify one of the <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

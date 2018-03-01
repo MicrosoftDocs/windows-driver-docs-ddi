@@ -7,8 +7,8 @@ old-location: display\setrendertargets.htm
 old-project: display
 ms.assetid: 852893e6-1f1c-470a-ab72-f52c1e06e0c0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setrendertargets, SetRenderTargets callback function [Display Devices], SetRenderTargets, PFND3D10DDI_SETRENDERTARGETS, PFND3D10DDI_SETRENDERTARGETS, d3d10umddi/SetRenderTargets, UserModeDisplayDriverDx10_Functions_6d202eaa-50bb-4ffd-9217-a0c172974e49.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3D10DDI_SETRENDERTARGETS, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6d202eaa-50bb-4ffd-9217-a0c172974e49.xml, d3d10umddi/SetRenderTargets, display.setrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback
@@ -77,17 +77,13 @@ VOID APIENTRY SetRenderTargets(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param NumViews
 
 
-
 ### -param ClearSlots
-
 
 
 ### -param D3D10DDI_HDEPTHSTENCILVIEW
@@ -97,19 +93,6 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-#### - hDepthStencilView [in]
-
- A handle to the depth stencil buffer to set. 
-
-
-#### - RTargets [in]
-
- The number of elements in the array that <i>phRenderTargetView</i> specifies. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - ClearTargets [in]
@@ -117,6 +100,21 @@ VOID APIENTRY SetRenderTargets(
  The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+
+
+#### - RTargets [in]
+
+ The number of elements in the array that <i>phRenderTargetView</i> specifies. 
+
+
+#### - hDepthStencilView [in]
+
+ A handle to the depth stencil buffer to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - phRenderTargetView [in]
@@ -127,13 +125,16 @@ Note that the number that <i>ClearTargets</i> specifies is only an optimization 
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The user-mode display driver must set all render target surfaces and the depth stencil buffer atomically as one operation. 
@@ -150,15 +151,20 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETRENDERTARGETS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETRENDERTARGETS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

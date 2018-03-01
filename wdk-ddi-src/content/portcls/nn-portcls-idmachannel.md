@@ -7,8 +7,8 @@ old-location: audio\idmachannel.htm
 old-project: audio
 ms.assetid: 85fad1fb-d088-46ad-917c-bdbc31134690
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.idmachannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, IDmaChannel, portcls/IDmaChannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml
+ms.date: 2/22/2018
+ms.keywords: IDmaChannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, audio.idmachannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml, portcls/IDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IDmaChannel
 product: Windows
 targetos: Windows

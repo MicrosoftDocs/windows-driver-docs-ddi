@@ -7,8 +7,8 @@ old-location: image\iwiaminidrv_drvgetwiaformatinfo.htm
 old-project: image
 ms.assetid: f0b7d982-735f-489c-b9f8-81a287f6722a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: drvGetWiaFormatInfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo method [Imaging Devices], IWiaMiniDrv interface, drvGetWiaFormatInfo method [Imaging Devices], IWiaMiniDrv::drvGetWiaFormatInfo, IWiaMiniDrv interface [Imaging Devices], drvGetWiaFormatInfo method, IWiaMiniDrv, image.iwiaminidrv_drvgetwiaformatinfo
+ms.date: 2/23/2018
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvGetWiaFormatInfo method, IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices], IWiaMiniDrv interface, drvGetWiaFormatInfo,IWiaMiniDrv.drvGetWiaFormatInfo, image.iwiaminidrv_drvgetwiaformatinfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wiamindr_lh.h
-apiname: 
+api_name:
 -	IWiaMiniDrv.drvGetWiaFormatInfo
 product: Windows
 targetos: Windows
@@ -98,24 +98,10 @@ HRESULT drvGetWiaFormatInfo(
 
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
 
 #### - lFlags [in]
 
 Is currently unused. 
-
-
-#### - ppwfi [out, optional]
-
-Points to a memory location that will receive the address of the first element of an array of WIA_FORMAT_INFO structures (described in the Microsoft Windows SDK documentation).
-
-
-#### - pcelt [out]
-
-Points to a memory location that will receive the number of items in the array pointed to by <i>ppwfi</i>.
 
 
 #### - pWiasContext [in]
@@ -123,7 +109,23 @@ Points to a memory location that will receive the number of items in the array p
 Pointer to a WIA item context.
 
 
+#### - pcelt [out]
+
+Points to a memory location that will receive the number of items in the array pointed to by <i>ppwfi</i>.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+
+#### - ppwfi [out, optional]
+
+Points to a memory location that will receive the address of the first element of an array of WIA_FORMAT_INFO structures (described in the Microsoft Windows SDK documentation).
+
+
 ## -returns
+
 
 
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If this method is called for items that do not contain any data, it should return E_INVALIDARG. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
@@ -132,7 +134,9 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 
+
 ## -remarks
+
 
 
 This method creates an array of WIA_FORMAT_INFO structures (defined in the Windows SDK documentation) that describe the media types and image formats that the WIA hardware device supports. For each element in the array, the media type can be one of TYMED_CALLBACK, TYMED_MULTIPAGE_CALLBACK, TYMED_FILE, or TYMED_MULTIPAGE_FILE (constants defined in the Windows SDK documentation). Typical values for the image format include WiaImgFmt_JPEG, and WiaImgFmt_BMP (also defined in the Windows SDK documentation), among others. 
@@ -141,17 +145,24 @@ The minidriver can define a global array to hold the WIA_FORMAT_INFO structures,
 
 
 
-## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543972">IWiaMiniDrv::drvFreeDrvItemContext</a>
 
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvGetWiaFormatInfo method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvGetWiaFormatInfo method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

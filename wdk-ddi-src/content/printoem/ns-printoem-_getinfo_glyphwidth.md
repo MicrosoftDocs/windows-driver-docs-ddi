@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHWIDTH
-title: _GETINFO_GLYPHWIDTH
+title: "_GETINFO_GLYPHWIDTH"
 author: windows-driver-content
 description: The GETINFO_GLYPHWIDTH structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphwidth.htm
 old-project: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/GETINFO_GLYPHWIDTH, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, _GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], GETINFO_GLYPHWIDTH structure [Print Devices], GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH
+ms.date: 2/23/2018
+ms.keywords: "*PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH structure [Print Devices], PGETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], _GETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, printoem/GETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	GETINFO_GLYPHWIDTH
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ Pointer to a location into which Unidrv's <a href="https://msdn.microsoft.com/li
 ## -remarks
 
 
+
 To obtain the width of a set of glyphs, a rendering plug-in can supply the address of a GETINFO_GLYPHWIDTH structure when calling Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function. The callback function calculates the total width of all the glyphs described by the input array, and places the calculated value in the location pointed to by <b>plWidth</b>.
+
 
 
 
@@ -114,9 +116,11 @@ To obtain the width of a set of glyphs, a rendering plug-in can supply the addre
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHWIDTH structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHWIDTH structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

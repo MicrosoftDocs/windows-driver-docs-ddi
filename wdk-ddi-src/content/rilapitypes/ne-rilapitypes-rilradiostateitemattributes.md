@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitemattributes_2.htm
 old-project: netvista
 ms.assetid: d13c1946-1283-4ed6-953e-626fda91a782
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostateitemattributes_2, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, rilapitypes/RILRADIOSTATEITEMATTRIBUTES, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, RILRADIOSTATEITEMATTRIBUTES, RILRADIOSTATEITEMATTRIBUTES enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE
+ms.date: 2/16/2018
+ms.keywords: RILRADIOSTATEITEMATTRIBUTES, RILRADIOSTATEITEMATTRIBUTES enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, netvista.rilradiostateitemattributes_2, rilapitypes/RILRADIOSTATEITEMATTRIBUTES, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, rilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILRADIOSTATEITEMATTRIBUTES
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILRADIOSTATEITEMATTRIBUTES {
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_NO_ATTRIBUTE
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY
-
 
 
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL
-
 

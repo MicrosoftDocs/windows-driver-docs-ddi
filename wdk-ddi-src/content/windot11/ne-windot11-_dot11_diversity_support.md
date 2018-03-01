@@ -1,14 +1,14 @@
 ---
 UID: NE:windot11._DOT11_DIVERSITY_SUPPORT
-title: _DOT11_DIVERSITY_SUPPORT
+title: "_DOT11_DIVERSITY_SUPPORT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_diversity_support.htm
 old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], DOT11_DIVERSITY_SUPPORT, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_notsupported, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_unknown, _DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, windot11/PDOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, PDOT11_DIVERSITY_SUPPORT, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, dot11_diversity_support_unknown, netvista.dot11_diversity_support, windot11/DOT11_DIVERSITY_SUPPORT, windot11/PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_dynamic, windot11/dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_DIVERSITY_SUPPORT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT
+req.typenames: DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT
 req.product: Windows 10 or later.
 ---
 
@@ -82,8 +82,8 @@ An uninitialized or unknown diversity support type.
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the 
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-     OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+     OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
 
 ### -field dot11_diversity_support_notsupported
@@ -100,12 +100,14 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-   OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+   OID_DOT11_DIVERSITY_SELECTION_RX</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

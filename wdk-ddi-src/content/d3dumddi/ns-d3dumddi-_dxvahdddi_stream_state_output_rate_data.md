@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
-title: _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
+title: "_DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure describes stream-state data that specifies the output rate of the input stream.
 old-location: display\dxvahdddi_stream_state_output_rate_data.htm
 old-project: display
 ms.assetid: 97523719-d22a-4390-ac4a-6240f24144bf
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure [Display Devices], display.dxvahdddi_stream_state_output_rate_data, DXVA2_Structs_32dedbf1-1052-4765-a0dd-4f536389dbb6.xml, _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_32dedbf1-1052-4765-a0dd-4f536389dbb6.xml, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, display.dxvahdddi_stream_state_output_rate_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
 product: Windows
 targetos: Windows
@@ -87,27 +87,39 @@ typedef struct _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA {
 ## -remarks
 
 
+
 The driver uses the <b>RepeatFrame</b> member to control the frame rate conversion. For example, when the driver converts from 60i to 60p, if the video processor is capable of both the inverse telecine (60i to 24p) and the frame rate conversion (24p to 60p), then the converted frames contains interpolated frames. Sometimes the interpolation results in artifacts, and the application might require to repeat the frames instead.
 
 The <b>CustomRate</b> member must specify one of the custom rates that the driver supplied in the members of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function was called with the D3DDDICAPS_DXVAHD_GETVPCUSTOMRATES value set; otherwise, the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a> function returns an error.
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
-
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
 
- 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

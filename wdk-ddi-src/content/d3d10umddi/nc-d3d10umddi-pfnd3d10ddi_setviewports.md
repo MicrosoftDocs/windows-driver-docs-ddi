@@ -7,8 +7,8 @@ old-location: display\setviewports.htm
 old-project: display
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setviewports, SetViewports callback function [Display Devices], SetViewports, PFND3D10DDI_SETVIEWPORTS, PFND3D10DDI_SETVIEWPORTS, d3d10umddi/SetViewports, UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3D10DDI_SETVIEWPORTS, SetViewports, SetViewports callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml, d3d10umddi/SetViewports, display.setviewports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	SetViewports
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETVIEWPORTS callback
@@ -76,7 +76,6 @@ VOID APIENTRY SetViewports(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param NumViewports [in]
 
  The total number of viewports that the <i>pViewports</i> parameter specifies. 
@@ -96,9 +95,6 @@ Note that the number that <i>ClearViewports</i> specifies is only an optimizatio
 
 
 
-#### - pViewports [in]
-
- An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
 
 
 #### - hDevice [in]
@@ -106,7 +102,13 @@ Note that the number that <i>ClearViewports</i> specifies is only an optimizatio
  A handle to the display device (graphics context).
 
 
+#### - pViewports [in]
+
+ An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
+
+
 ## -returns
+
 
 
 None
@@ -115,10 +117,13 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
 
 
+
 Viewports specify the transformation post clip to the output render target and depth stencil resources. Any viewports that are not defined in a call to <i>SetViewports</i> are set to <b>NULL</b>. A <b>NULL</b> viewport is defined as follows. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,7 +140,8 @@ Viewports specify the transformation post clip to the output render target and d
 } D3D10_DDI_VIEWPORT;</pre>
 </td>
 </tr>
-</table></span></div>This definition implies that the viewport is off.
+</table></span></div>
+This definition implies that the viewport is off.
 
 The user-mode display driver must set all viewports atomically as one operation. 
 
@@ -153,17 +159,24 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETVIEWPORTS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETVIEWPORTS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

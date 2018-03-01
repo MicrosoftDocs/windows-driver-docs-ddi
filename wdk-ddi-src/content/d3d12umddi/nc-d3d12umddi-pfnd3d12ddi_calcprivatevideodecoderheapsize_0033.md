@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecoderheapsize_0033.htm
 old-project: display
 ms.assetid: 4E635513-690F-4C23-8B2B-1B5FCAFE7F07
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0033, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
 product: Windows
 targetos: Windows
@@ -73,14 +73,7 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033(
 The hardware device being processed.
 
 
-### -param *pArgs
-
-
-
-
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a video decoder heap.
 
@@ -88,6 +81,8 @@ The arguments used to create a video decoder heap.
 ## -returns
 
 
+
 Returns the size of the heap in bytes.
+
 
 

@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_finduntranslatedentry.htm
 old-project: audio
 ms.assetid: 3578eb3a-e9c8-4de3-b959-daff9ac7f1a2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: FindUntranslatedEntry method [Audio Devices], IResourceList interface [Audio Devices], FindUntranslatedEntry method, audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, audio.iresourcelist_finduntranslatedentry, FindUntranslatedEntry, portcls/IResourceList::FindUntranslatedEntry, IResourceList, IResourceList::FindUntranslatedEntry, FindUntranslatedEntry method [Audio Devices], IResourceList interface
+ms.date: 2/22/2018
+ms.keywords: FindUntranslatedEntry method [Audio Devices], FindUntranslatedEntry method [Audio Devices], IResourceList interface, FindUntranslatedEntry,IResourceList.FindUntranslatedEntry, IResourceList, IResourceList interface [Audio Devices], FindUntranslatedEntry method, IResourceList::FindUntranslatedEntry, audio.iresourcelist_finduntranslatedentry, audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, portcls/IResourceList::FindUntranslatedEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IResourceList.FindUntranslatedEntry
 product: Windows
 targetos: Windows
@@ -70,7 +70,7 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR FindUntranslatedEntry(
 
 ### -param Type [in]
 
-Identifies the resource type of the entries that are to be counted. For a list of valid values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+Identifies the resource type of the entries that are to be counted. For a list of valid values, see the <b>Type</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ### -param Index [in]
@@ -81,11 +81,14 @@ Specifies the index of the entry to find. If the <a href="https://msdn.microsoft
 ## -returns
 
 
+
 <code>FindUntranslatedEntry</code> returns a pointer to the specified entry or is <b>NULL</b> if the entry does not exist. This pointer remains valid until the resource object is deleted.
 
 
 
+
 ## -remarks
+
 
 
 For each resource type, a macro is defined to call this method. See <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>.
@@ -94,23 +97,32 @@ The <i>Index</i> parameter indicates which occurrence of an entry of the specifi
 
 For each resource type, a macro is defined to call this method. See <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>.
 
-For more information about translated and untranslated (or "raw") resources, see <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For more information about translated and untranslated (or "raw") resources, see <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536982">IResourceList::FindTranslatedEntry</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::FindUntranslatedEntry method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::FindUntranslatedEntry method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

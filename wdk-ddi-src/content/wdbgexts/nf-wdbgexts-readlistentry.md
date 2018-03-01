@@ -7,8 +7,8 @@ old-location: debugger\readlistentry.htm
 old-project: debugger
 ms.assetid: b5bfbb6d-4797-4e5f-bc66-398527b13d85
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.readlistentry, ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, wdbgexts/ReadListEntry
+ms.date: 2/23/2018
+ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	ReadListEntry
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Receives a LIST_ENTRY64 structure that contains pointers to the previous and nex
 ## -returns
 
 
+
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the LIST_ENTRY structures, see the Windows Driver Kit (WDK) documentation.
@@ -95,5 +98,6 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 LIST_ENTRY64 and LIST_ENTRY32 are defined in <b>winnt.h</b>.
+
 
 

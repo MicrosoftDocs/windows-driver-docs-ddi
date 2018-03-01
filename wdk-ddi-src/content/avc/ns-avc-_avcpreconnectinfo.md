@@ -1,14 +1,14 @@
 ---
 UID: NS:avc._AVCPRECONNECTINFO
-title: _AVCPRECONNECTINFO
+title: "_AVCPRECONNECTINFO"
 author: windows-driver-content
 description: The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcpreconnectinfo.htm
 old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avc/PAVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], avc/AVCPRECONNECTINFO, PAVCPRECONNECTINFO, stream.avcpreconnectinfo, _AVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], *PAVCPRECONNECTINFO, AVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml
+ms.date: 2/23/2018
+ms.keywords: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], PAVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], _AVCPRECONNECTINFO, avc/AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, stream.avcpreconnectinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	avc.h
-apiname: 
+api_name:
 -	AVCPRECONNECTINFO
 product: Windows
 targetos: Windows
-req.typenames: *PAVCPRECONNECTINFO, AVCPRECONNECTINFO
+req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
 ---
 
 # _AVCPRECONNECTINFO structure
@@ -105,21 +105,27 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
 
 This structure is used only as member of the AVC_PRECONNECT_INFO structure. It is not used by itself.
 
 
 
-## -see-also
 
-<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
+## -see-also
 
 <a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
 
- 
+
+
+<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCPRECONNECTINFO structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCPRECONNECTINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

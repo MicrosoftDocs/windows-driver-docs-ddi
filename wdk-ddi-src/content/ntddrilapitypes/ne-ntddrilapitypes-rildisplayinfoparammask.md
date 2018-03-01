@@ -7,8 +7,8 @@ old-location: netvista\rildisplayinfoparammask.htm
 old-project: netvista
 ms.assetid: deb9da97-7a61-4642-bebd-ab0e4082b410
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_MESSAGE, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_ALL, RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, ntddrilapitypes/RIL_PARAM_DISPLAY_TYPE, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfoparammask, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE
+ms.date: 2/16/2018
+ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask, ntddrilapitypes/RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_ALL, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGE, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, ntddrilapitypes/RIL_PARAM_DISPLAY_TAG, ntddrilapitypes/RIL_PARAM_DISPLAY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILDISPLAYINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILDISPLAYINFOPARAMMASK {
 ### -field RIL_PARAM_DISPLAY_EXECUTOR
 
 
-
 ### -field RIL_PARAM_DISPLAY_TYPE
-
 
 
 ### -field RIL_PARAM_DISPLAY_TAG
 
 
-
 ### -field RIL_PARAM_DISPLAY_MESSAGESIZE
-
 
 
 ### -field RIL_PARAM_DISPLAY_MESSAGE
 
 
-
 ### -field RIL_PARAM_DISPLAY_ALL
-
 

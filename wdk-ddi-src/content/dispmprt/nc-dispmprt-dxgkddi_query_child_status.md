@@ -7,8 +7,8 @@ old-location: display\dxgkddiquerychildstatus.htm
 old-project: display
 ms.assetid: 478e0c52-4324-4062-8e1e-381808b0f481
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiquerychildstatus, DxgkDdiQueryChildStatus callback function [Display Devices], DxgkDdiQueryChildStatus, DXGKDDI_QUERY_CHILD_STATUS, DXGKDDI_QUERY_CHILD_STATUS, dispmprt/DxgkDdiQueryChildStatus, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_QUERY_CHILD_STATUS, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml, DxgkDdiQueryChildStatus, DxgkDdiQueryChildStatus callback function [Display Devices], display.dxgkddiquerychildstatus, dispmprt/DxgkDdiQueryChildStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiQueryChildStatus
 product: Windows
 targetos: Windows
@@ -90,16 +90,20 @@ A BOOLEAN value that specifies whether the display miniport driver is permitted 
 ## -returns
 
 
+
 <i>DxgkDdiQueryChildStatus </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 During initialization, the display port driver calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> to get a list of devices that are children of the display adapter represented by <i>MiniportDeviceContext</i>. Then for each child that has an HPD awareness value of <b>HpdAwarenessPolled</b> or <b>HpdAwarenessInterruptible</b>, the display port driver calls <i>DxgkDdiQueryChildStatus</i> to determine whether the child currently has hardware (for example a monitor) connected to it.
 
 <i>DxgkDdiQueryChildStatus</i> must perform the following actions:
+
 <ul>
 <li>
 If ChildStatus-&gt;Type is equal to <b>StatusConnection</b>, return a Boolean value in ChildStatus-&gt;HotPlug.Connected. Return <b>TRUE</b> if the child device identified by ChildStatus-&gt;ChildUid has external hardware connected to it; otherwise return <b>FALSE</b>.
@@ -109,21 +113,29 @@ If ChildStatus-&gt;Type is equal to <b>StatusConnection</b>, return a Boolean va
 If ChildStatus-&gt;Type is equal to <b>StatusRotation</b>, return (in ChildStatus-&gt;Rotation.Angle) the angle of rotation for the display connected to the child device identified by ChildStatus-&gt;ChildUid.
 
 </li>
-</ul><i>DxgkDdiQueryChildStatus</i> should be made pageable.
+</ul>
+<i>DxgkDdiQueryChildStatus</i> should be made pageable.
+
 
 
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
+
 
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_CHILD_STATUS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_CHILD_STATUS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

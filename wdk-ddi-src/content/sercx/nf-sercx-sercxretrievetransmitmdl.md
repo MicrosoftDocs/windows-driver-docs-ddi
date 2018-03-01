@@ -7,8 +7,8 @@ old-location: serports\sercxretrievetransmitmdl.htm
 old-project: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitMdl, serports.sercxretrievetransmitmdl, SerCxRetrieveTransmitMdl method [Serial Ports], 1/SerCxRetrieveTransmitMdl
+ms.date: 2/15/2018
+ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	1.0\Sercx.h
-apiname: 
+api_name:
 -	SerCxRetrieveTransmitMdl
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ A pointer to a location into which the method writes a pointer to the MDL.
 ## -returns
 
 
+
 <b>SerCxRetrieveTransmitMdl</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +107,14 @@ This value is returned if one of the following occurs:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
@@ -118,13 +123,16 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxRetrieveTransmitMdl method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxRetrieveTransmitMdl method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\checkmultisamplequalitylevels_d3d11_2_.htm
 old-project: display
 ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.checkmultisamplequalitylevels_d3d11_2_, CheckMultisampleQualityLevels callback function [Display Devices], CheckMultisampleQualityLevels, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels
+ms.date: 2/24/2018
+ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
@@ -94,19 +94,13 @@ The number of samples to retrieve the quality levels for.
 A combination of <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a> values that are combined by using a bitwise <b>OR</b> operation.
 
 
-### -param *pNumQualityLevels
-
-
-
-
-
-
-#### - pNumQualityLevels [out]
+### -param *pNumQualityLevels [out]
 
 A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
 
 
 ## -returns
+
 
 
 None
@@ -115,7 +109,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return zero in the variable that the <i>pNumQualityLevels</i> parameter points to.
@@ -128,19 +124,28 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 
+
 ## -see-also
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels</a>
-
-<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
- 
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels</a>
+
+
+
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

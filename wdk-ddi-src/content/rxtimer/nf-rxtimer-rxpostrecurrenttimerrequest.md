@@ -7,8 +7,8 @@ old-location: ifsk\rxpostrecurrenttimerrequest.htm
 old-project: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxPostRecurrentTimerRequest, ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, RxPostRecurrentTimerRequest routine [Installable File System Drivers], rxtimer/RxPostRecurrentTimerRequest
+ms.date: 2/16/2018
+ms.keywords: RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rxtimer.h
-apiname: 
+api_name:
 -	RxPostRecurrentTimerRequest
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ The time interval, in 100-nanosecond ticks.
 ## -returns
 
 
+
 <b>RxPostRecurrentTimerRequest</b> returns STATUS_SUCCESS on success or one of the following error codes: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,26 +113,34 @@ The allocation of non-paged pool memory required by this routine failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
+
 
 
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
-
 <a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
 
- 
+
+
+<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPostRecurrentTimerRequest routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPostRecurrentTimerRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

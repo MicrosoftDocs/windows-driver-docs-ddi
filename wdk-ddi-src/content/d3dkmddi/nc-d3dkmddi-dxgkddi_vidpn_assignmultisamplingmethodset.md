@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpn_interface_pfnassignmultisamplingmethodset.htm
 old-project: display
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet callback function [Display Devices], pfnAssignMultisamplingMethodSet, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, d3dkmddi/pfnAssignMultisamplingMethodSet, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml, d3dkmddi/pfnAssignMultisamplingMethodSet, display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet, pfnAssignMultisamplingMethodSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnAssignMultisamplingMethodSet
 product: Windows
 targetos: Windows
@@ -95,6 +95,8 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 
 
+
+
 #### - pSupportedMethodSet [in]
 
 [in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
@@ -103,7 +105,9 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 ## -returns
 
 
+
 The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,9 +157,11 @@ The function failed because it was unable to allocate enough memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
+
 
 
 
@@ -163,9 +169,11 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

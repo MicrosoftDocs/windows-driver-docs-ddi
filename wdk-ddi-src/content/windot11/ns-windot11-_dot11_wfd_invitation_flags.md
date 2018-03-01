@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_WFD_INVITATION_FLAGS
-title: _DOT11_WFD_INVITATION_FLAGS
+title: "_DOT11_WFD_INVITATION_FLAGS"
 author: windows-driver-content
 description: The DOT11_WFD_INVITATION_FLAGS structure represents the Invitation Attributes used during the Invitation procedure.
 old-location: netvista\dot11_wfd_invitation_flags.htm
 old-project: netvista
 ms.assetid: 9743FF37-0E8A-499F-AADB-9CD7BDC381E0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_invitation_flags, Join, Reinvoke, PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_INVITATION_FLAGS, _DOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS, windot11/DOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista], Join, PDOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], Reinvoke, _DOT11_WFD_INVITATION_FLAGS, netvista.dot11_wfd_invitation_flags, windot11/DOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Windot11.h
-apiname: 
+api_name:
 -	DOT11_WFD_INVITATION_FLAGS
 product: Windows
 targetos: Windows
@@ -80,9 +80,11 @@ typedef struct _DOT11_WFD_INVITATION_FLAGS {
 
 
 
+
 #### - InvitationType:1
 
 The type of group invitation. The invitation types have the following meanings.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +112,8 @@ The invitation is reinvoked.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - Reserved:7

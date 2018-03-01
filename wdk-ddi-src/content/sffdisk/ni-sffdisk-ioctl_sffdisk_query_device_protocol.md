@@ -7,8 +7,8 @@ old-location: sd\ioctl_sffdisk_query_device_protocol.htm
 old-project: SD
 ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SD.ioctl_sffdisk_query_device_protocol, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], SD.ioctl_sffdisk_query_device_protocol, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	sffdisk.h
-apiname: 
+api_name:
 -	IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

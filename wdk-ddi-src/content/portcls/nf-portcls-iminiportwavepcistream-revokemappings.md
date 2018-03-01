@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_revokemappings.htm
 old-project: audio
 ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IMiniportWavePciStream::RevokeMappings, portcls/IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, RevokeMappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, IMiniportWavePciStream
+ms.date: 2/22/2018
+ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, RevokeMappings,IMiniportWavePciStream.RevokeMappings, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWavePciStream.RevokeMappings
 product: Windows
 targetos: Windows
@@ -87,14 +87,18 @@ Output pointer for the count of revoked mappings. This parameter points to a ULO
 ## -returns
 
 
+
 <code>RevokeMappings</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The port driver calls <code>RevokeMappings</code> to revoke the stream's mappings when:
+
 <ul>
 <li>
 An I/O request (IRP) is canceled and the previously mapped memory might no longer be available.
@@ -104,7 +108,8 @@ An I/O request (IRP) is canceled and the previously mapped memory might no longe
 The stream state changes to KSSTATE_STOP (see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>) and the device no longer has need for the mappings.
 
 </li>
-</ul>The miniport driver keeps track of the order in which it acquires its mappings from calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>. The <code>RevokeMapping</code> method revokes all mappings in the sequence that begins with the mapping identified by <i>FirstTag</i> and ends with the mapping identified by <i>LastTag</i>. This includes the mappings identified by <i>FirstTag</i> and <i>LastTag</i> and all mappings in between. The miniport driver revokes each mapping by removing it from the list of available mappings.
+</ul>
+The miniport driver keeps track of the order in which it acquires its mappings from calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>. The <code>RevokeMapping</code> method revokes all mappings in the sequence that begins with the mapping identified by <i>FirstTag</i> and ends with the mapping identified by <i>LastTag</i>. This includes the mappings identified by <i>FirstTag</i> and <i>LastTag</i> and all mappings in between. The miniport driver revokes each mapping by removing it from the list of available mappings.
 
 The <code>RevokeMapping</code> method can be used to remove a single mapping by setting <i>FirstTag</i> and <i>LastTag</i> to the same value.
 
@@ -114,23 +119,36 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::RevokeMappings method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::RevokeMappings method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

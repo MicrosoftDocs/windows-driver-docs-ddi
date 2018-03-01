@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvinitvirtualstation.htm
 old-project: netvista
 ms.assetid: 1e18515c-2f24-4690-b5fd-0915ef30307b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvinitvirtualstation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvInitVirtualStation, DOT11EXTIHV_INIT_VIRTUAL_STATION, DOT11EXTIHV_INIT_VIRTUAL_STATION, wlanihv/Dot11ExtIhvInitVirtualStation, Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_INIT_VIRTUAL_STATION, Dot11ExtIhvInitVirtualStation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml, netvista.dot11extihvinitvirtualstation, wlanihv/Dot11ExtIhvInitVirtualStation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvInitVirtualStation
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -77,8 +77,8 @@ DWORD APIENTRY Dot11ExtIhvInitVirtualStation(
 ### -param pDot11ExtVSAPI [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_virtual_station_apis" tabindex="0"><b>
-     DOT11EXT_VIRTUAL_STATION_APIS</b></mshelp:link> structure, which contains the addresses of the IHV Extensibility
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_apis.md">
+     DOT11EXT_VIRTUAL_STATION_APIS</a> structure, which contains the addresses of the IHV Extensibility
      virtual station functions that are supported by the operating system. The operating system formats this
      parameter with the function addresses before making a call to the 
      <i>Dot11ExtIhvInitVirtualStation</i> function.
@@ -92,13 +92,16 @@ This parameter is reserved for use by the operating system and should be <b>NULL
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 It is optional for the IHV Extensions DLL to implement and export this function.
@@ -107,20 +110,24 @@ The operating system calls the
     <i>Dot11ExtIhvInitVirtualStation</i> function immediately after it calls the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> function,
     but before it calls the 
-    <mshelp:link keywords="netvista.dot11extihvinitadapter" tabindex="0"><i>
-    Dot11ExtIhvInitAdapter</i></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
+    Dot11ExtIhvInitAdapter</a> function.
 
 In response to a call to 
     <i>Dot11ExtIhvInitVirtualStation</i>, the IHV Extensions DLL can initialize its internal data structures
     with the information provided from the 
     <i>Dot11ExtIhvInitService</i> function call.
+
 <div class="alert"><b>Note</b>  The IHV Extensions DLL is allowed to call the virtual station API functions that
     the 
     <i>pDot11ExtVSAPI</i> parameter points to only after the 
-    <i>Dot11ExtIhvInitVirtualStation</i> function returns.</div><div> </div>The operating system resolves the address of the 
+    <i>Dot11ExtIhvInitVirtualStation</i> function returns.</div>
+<div> </div>
+The operating system resolves the address of the 
     <i>Dot11ExtIhvInitVirtualStation</i> function by calling the 
     <b>GetProcAddress</b> function. As a result, the developer of the IHV Extensions DLL must follow these
     guidelines if this function is implemented.
+
 <ul>
 <li>
 The DLL must implement a function named Dot11ExtIhvInitVirtualStation, which has the format that is
@@ -134,22 +141,30 @@ The
       <i>Dot11ExtIhvInitVirtualStation</i> function.
 
 </li>
-</ul>For more information about 
+</ul>
+For more information about 
     <b>GetProcAddress</b>, see the Microsoft Windows SDK documentation.
+
 
 
 
 ## -see-also
 
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
+
+
+
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_INIT_VIRTUAL_STATION callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_INIT_VIRTUAL_STATION callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

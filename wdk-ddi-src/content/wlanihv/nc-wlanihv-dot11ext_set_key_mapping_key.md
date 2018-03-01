@@ -7,8 +7,8 @@ old-location: netvista\dot11extsetkeymappingkey.htm
 old-project: netvista
 ms.assetid: 7fbca90d-c5cd-40d4-a284-ca059aa6cacf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extsetkeymappingkey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetKeyMappingKey, DOT11EXT_SET_KEY_MAPPING_KEY, DOT11EXT_SET_KEY_MAPPING_KEY, wlanihv/Dot11ExtSetKeyMappingKey, Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_SET_KEY_MAPPING_KEY, Dot11ExtSetKeyMappingKey, Dot11ExtSetKeyMappingKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_a96af10f-97f4-406e-bc75-2cdc19564df0.xml, netvista.dot11extsetkeymappingkey, wlanihv/Dot11ExtSetKeyMappingKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtSetKeyMappingKey
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -83,11 +83,12 @@ The handle used by the operating system to reference the WLAN adapter. This hand
 ### -param pKey [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-     DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link> structure, which defines the cipher key.
+     <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+     DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure, which defines the cipher key.
 
 
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -96,37 +97,48 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -remarks
+
 
 
 A key-mapping cipher key is deleted from the adapter's key tables if the 
     <b>bDelete</b> member of the 
-    <mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link> structure is set to <b>TRUE</b>.
+    <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure is set to <b>TRUE</b>.
 
 A call to the 
     <b>Dot11ExtSetKeyMappingKey</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link> object identifier (OID) to the Native 802.11 miniport driver that
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
+
 
 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
 <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
 
-<mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_KEY_MAPPING_KEY callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_KEY_MAPPING_KEY callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

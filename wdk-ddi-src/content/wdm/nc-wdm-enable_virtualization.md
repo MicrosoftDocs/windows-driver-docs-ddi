@@ -7,8 +7,8 @@ old-location: pci\enablevirtualization.htm
 old-project: PCI
 ms.assetid: BC833231-CA7B-4E68-9498-46F1D4B32B88
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.enablevirtualization, EnableVirtualization routine, EnableVirtualization, ENABLE_VIRTUALIZATION, ENABLE_VIRTUALIZATION, wdm/EnableVirtualization
+ms.date: 2/24/2018
+ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	EnableVirtualization
 product: Windows
 targetos: Windows
@@ -85,19 +85,25 @@ A pointer to interface-specific context information. The caller passes the value
 The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
 
 
+
 <div class="alert"><b>Note</b>  If the <i>EnableVirtualization</i> parameter is <b>FALSE</b>, the <i>NumVFs</i> parameter must be set to zero.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -param EnableVfMigration [in]
 
 A BOOLEAN value that indicates whether the multi-root I/O virtualization (MR-IOV) base function (BF) can dynamically reprovision the PCIe physical function (PF) of the device   as a VF at run time.
-<div class="alert"><b>Note</b>  This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to <b>FALSE</b> if the device supports only the SR-IOV interface and not the MR-IOV interface.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This parameter is only applicable to devices that support both the SR-IOV and MR-IOV interfaces. The driver must set this parameter to <b>FALSE</b> if the device supports only the SR-IOV interface and not the MR-IOV interface.</div>
+<div> </div>
 
 ### -param EnableMigrationInterrupt [in]
 
 A BOOLEAN value that indicates whether the interrupt associated with the PF should be masked or unmasked during VF migration.
-<div class="alert"><b>Note</b>  If the <i>EnableVfMigration</i> parameters is <b>FALSE</b>, the driver must also set this parameter to <b>FALSE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the <i>EnableVfMigration</i> parameters is <b>FALSE</b>, the driver must also set this parameter to <b>FALSE</b>.</div>
+<div> </div>
 
 ### -param EnableVirtualization [in]
 
@@ -109,7 +115,9 @@ A BOOLEAN value that indicates whether virtualization is enabled on the PCIe con
 ## -returns
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +156,14 @@ Virtualization is already enabled on the device and the <i>EnableVirtualization<
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Drivers call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
@@ -163,17 +174,24 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">Enabl
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
 <b></b>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20ENABLE_VIRTUALIZATION routine%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20ENABLE_VIRTUALIZATION routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

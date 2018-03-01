@@ -1,17 +1,17 @@
 ---
 UID: NF:wdm.RtlUshortByteSwap
-title: RtlUshortByteSwap function
+title: RtlUshortByteSwap macro
 author: windows-driver-content
 description: The RtlUshortByteSwap routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
 old-location: kernel\rtlushortbyteswap.htm
 old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap, RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlUshortByteSwap
 product: Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# RtlUshortByteSwap function
+# RtlUshortByteSwap macro
 
 
 ## -description
@@ -68,19 +68,22 @@ USHORT RtlUshortByteSwap(
 
 
 
-### -param Source [in]
+### -param _x
+
+TBD
+
+
+
+
+
+
+#### - Source [in]
 
 A USHORT value to convert to a byte-swapped version.
 
 
-## -returns
-
-
-The byte-swapped version of the <i>Source</i> input parameter value.
-
-
-
 ## -remarks
+
 
 
 For example, if the <i>Source</i> parameter value is 0x1234, the routine returns 0x3412.
@@ -93,15 +96,20 @@ To reverse the ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wd
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUshortByteSwap routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUshortByteSwap routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

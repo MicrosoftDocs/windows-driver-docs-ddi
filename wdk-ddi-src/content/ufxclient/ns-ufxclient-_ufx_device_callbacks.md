@@ -1,14 +1,14 @@
 ---
 UID: NS:ufxclient._UFX_DEVICE_CALLBACKS
-title: _UFX_DEVICE_CALLBACKS
+title: "_UFX_DEVICE_CALLBACKS"
 author: windows-driver-content
 description: The UFX_DEVICE_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_device_callbacks.htm
 old-project: usbref
 ms.assetid: 71D83E2C-8557-45FC-9769-DB71F5FF61FF
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUFX_DEVICE_CALLBACKS structure pointer [Buses], _UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], ufxclient/UFX_DEVICE_CALLBACKS, ufxclient/PUFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, PUFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS
+ms.date: 2/24/2018
+ms.keywords: "*PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ufxclient.h
-apiname: 
+api_name:
 -	UFX_DEVICE_CALLBACKS
 product: Windows
 targetos: Windows
@@ -172,6 +172,8 @@ A pointer to the client driver’s <a href="..\ufxclient\nc-ufxclient-evt_ufx_de
 ## -remarks
 
 
+
 The client driver shall use the <a href="..\ufxclient\nf-ufxclient-ufx_device_callbacks_init.md">UFX_DEVICE_CALLBACKS_INIT</a> macro to initialize the <b>UFX_DEVICE_CALLBACKS</b> structure, and then shall set fields of structure to the appropriate event callback routines prior to calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> export function.
+
 
 

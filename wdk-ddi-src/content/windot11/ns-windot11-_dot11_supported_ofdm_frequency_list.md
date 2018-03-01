@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
-title: _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+title: "_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_ofdm_frequency_list.htm
 old-project: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 product: Windows
 targetos: Windows
@@ -87,30 +87,36 @@ The maximum number of entries that the
 
 An array that specifies the list of supported channel center frequencies that the NIC can operate
      with. Each element in this list is formatted as a 
-     <mshelp:link keywords="netvista.dot11_supported_ofdm_frequency" tabindex="0"><b>
-     DOT11_SUPPORTED_OFDM_FREQUENCY</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency.md">
+     DOT11_SUPPORTED_OFDM_FREQUENCY</a> structure.
 
 
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when queried by 
-    <mshelp:link keywords="netvista.oid_dot11_supported_ofdm_frequency_list" tabindex="0">
-    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11_supported_ofdm_frequency" tabindex="0"><b>
-   DOT11_SUPPORTED_OFDM_FREQUENCY</b></mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
+   OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_ofdm_frequency_list" tabindex="0">
-   OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</mshelp:link>
+
+
+<a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency.md">
+   DOT11_SUPPORTED_OFDM_FREQUENCY</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

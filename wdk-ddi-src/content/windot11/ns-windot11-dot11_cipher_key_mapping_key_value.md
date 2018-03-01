@@ -7,8 +7,8 @@ old-location: netvista\dot11_cipher_key_mapping_key_value.htm
 old-project: netvista
 ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 product: Windows
 targetos: Windows
@@ -123,6 +123,7 @@ A Boolean value that specifies whether the miniport driver should delete the def
 
 If set to <b>FALSE</b>, the miniport driver must delete the default key referenced by 
      <b>uKeyIndex</b> whenever:
+
 <ul>
 <li>
 The 802.11 station disconnects from the BSS network.
@@ -136,13 +137,15 @@ The peer station disconnects from the BSS network.
 The 802.11 station reconnects to the same BSS network.
 
 </li>
-</ul>If set to <b>TRUE</b>, the default key referenced by 
+</ul>
+If set to <b>TRUE</b>, the default key referenced by 
      <b>uKeyIndex</b> must not be deleted unless it is:
+
 <ul>
 <li>
 Explicitly deleted through a set request of 
-       <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-       OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+       OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
 
 </li>
 <li>
@@ -158,21 +161,6 @@ The length, in bytes, of the key material in the
      <b>ucKey</b> array.
 
 
-### -field ucKey.unique
-
- 
-
-
-### -field ucKey.size_is
-
- 
-
-
-### -field ucKey.size_is.usKeyLength
-
- 
-
-
 ### -field ucKey
 
 The key material.
@@ -182,31 +170,33 @@ If
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_TKIP</b>, the 
      <b>ucKey</b> array defines the key material through the 
-     <mshelp:link keywords="netvista.dot11_key_algo_tkip_mic" tabindex="0"><b>
-     DOT11_KEY_ALGO_TKIP_MIC</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">
+     DOT11_KEY_ALGO_TKIP_MIC</a> structure.
 
 If 
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_CCMP</b>, the 
      <b>ucKey</b> array defines the key material through the 
-     <mshelp:link keywords="netvista.dot11_key_algo_ccmp" tabindex="0"><b>
-     DOT11_KEY_ALGO_CCMP</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">
+     DOT11_KEY_ALGO_CCMP</a> structure.
 
 
 ## -remarks
 
 
+
 The Native 802.11 miniport driver uniquely identifies key-mapping keys through the 
     <b>PeerMacAddr</b> and 
     <b>Direction</b> members. When the 
-    <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link> is set, the miniport driver can modify or delete an existing key
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> is set, the miniport driver can modify or delete an existing key
     only if the values of the 
     <b>PeerMacAddr</b> and 
     <b>Direction</b> members from the set request match the members of the existing key.
 
 If the 
     <b>bDelete</b> member is <b>TRUE</b>, the following members are not valid and must be ignored:
+
 <ul>
 <li>
 <b>bStatic</b>
@@ -223,26 +213,41 @@ If the
 </ul>
 
 
+
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
-<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
 <a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
+
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
- 
+
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
+
+
+
+<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

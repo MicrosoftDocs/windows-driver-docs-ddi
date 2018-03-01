@@ -7,8 +7,8 @@ old-location: stream\usbcamd_cancelbulkreadwrite.htm
 old-project: stream
 ms.assetid: e63a56d8-fdd8-468d-b0f9-2c46c5ff7a00
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.usbcamd_cancelbulkreadwrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], USBCAMD_CancelBulkReadWrite, PFNUSBCAMD_CancelBulkReadWrite, PFNUSBCAMD_CancelBulkReadWrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
+ms.date: 2/23/2018
+ms.keywords: PFNUSBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], stream.usbcamd_cancelbulkreadwrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	USBCAMD_CancelBulkReadWrite
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ Specifies the index of the bulk pipe to cancel the read or write request.
 ## -returns
 
 
+
 <b>USBCAMD_CancelBulkReadWrite</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,14 +110,18 @@ The current IRQL &gt;= DISPATCH_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>USBCAMD_CancelBulkReadWrite</b> is not available in USBCAMD version 1.0.
+
 
 
 
@@ -123,9 +129,11 @@ The current IRQL &gt;= DISPATCH_LEVEL.
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_CancelBulkReadWrite routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_CancelBulkReadWrite routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

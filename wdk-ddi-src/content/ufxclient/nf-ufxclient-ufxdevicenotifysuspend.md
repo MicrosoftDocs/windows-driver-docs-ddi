@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifysuspend.htm
 old-project: usbref
 ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufxdevicenotifysuspend, UfxDeviceNotifySuspend method [Buses], UfxDeviceNotifySuspend, ufxclient/UfxDeviceNotifySuspend
+ms.date: 2/24/2018
+ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ufxclient.h
-apiname: 
+api_name:
 -	UfxDeviceNotifySuspend
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -76,16 +76,20 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceNotifySuspend</b> when it receives a bus suspend event. The default endpoint should be reset on a bus suspend.  The device should move to a low power mode.
 
 The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a suspend event.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -102,4 +106,5 @@ The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href
 </td>
 </tr>
 </table></span></div>
+
 

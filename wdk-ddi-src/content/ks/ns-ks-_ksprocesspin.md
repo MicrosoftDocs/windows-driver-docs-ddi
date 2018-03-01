@@ -1,14 +1,14 @@
 ---
 UID: NS:ks._KSPROCESSPIN
-title: _KSPROCESSPIN
+title: "_KSPROCESSPIN"
 author: windows-driver-content
 description: The KSPROCESSPIN structure describes the process state of a specific pin.
 old-location: stream\ksprocesspin.htm
 old-project: stream
 ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPROCESSPIN, PKSPROCESSPIN, stream.ksprocesspin, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, PKSPROCESSPIN structure pointer [Streaming Media Devices], *PKSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], _KSPROCESSPIN
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROCESSPIN, KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSPROCESSPIN
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROCESSPIN, KSPROCESSPIN
+req.typenames: KSPROCESSPIN, *PKSPROCESSPIN
 ---
 
 # _KSPROCESSPIN structure
@@ -76,58 +76,58 @@ typedef struct _KSPROCESSPIN {
 
 
 
-
-#### - DelegateBranch
-
-A pointer to a KSPROCESSPIN structure. If frames coming out of this KSPROCESSPIN are being split and sent to multiple sink pins, and the split does not cause a data copy (that is, the split sends the frames in a read-only manner and all of the split pin instances are in the same pipe), <b>DelegateBranch</b> points to the first instance of the process pin. The splitter automatically handles any process pin that has a non-<b>NULL</b><b>DelegateBranch</b>.
-
-
-#### - Terminate
-
-This member indicates whether the current data frame should be sent downstream after the process dispatch finishes. If <b>TRUE</b>, the frame is sent downstream even if all data has not been consumed. If <b>FALSE</b>, the frame is not released until all data is consumed.
-
-
-#### - StreamPointer
-
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> (ProcessPin-&gt;StreamPointer-&gt;StreamHeader-&gt;Flags=...).
-
-
-#### - BytesUsed
-
-This member specifies how many bytes of this data frame have been used by the process function. AVStream drivers should set this member to update how much they have read or written.
-
-
-#### - BytesAvailable
-
-This member specifies how many bytes of data are available in <b>Data</b>.
-
-
-#### - InPlaceCounterpart
-
-A pointer to a KSPROCESSPIN structure. If this KSPROCESSPIN is not part of an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">inplace</a> transform, AVStream sets <b>InPlaceCounterpart</b> to <b>NULL</b>. If this KSPROCESSPIN is the input to an inplace transform, <b>InPlaceCounterpart</b> points to the output process pin for the transform. If this KSPROCESSPIN is the output of an inplace transform, <b>InPlaceCounterpart</b> points to the input process pin for the transform.
-
-
-#### - Flags
-
-This member contains a copy of the flags from the relevant <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
-
-
-#### - Pin
+### -field Pin
 
 A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that the KSPROCESSPIN structure is describing. Everything in the structure refers to this KSPIN.
 
 
-#### - CopySource
+### -field StreamPointer
+
+A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> (ProcessPin-&gt;StreamPointer-&gt;StreamHeader-&gt;Flags=...).
+
+
+### -field InPlaceCounterpart
+
+A pointer to a KSPROCESSPIN structure. If this KSPROCESSPIN is not part of an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">inplace</a> transform, AVStream sets <b>InPlaceCounterpart</b> to <b>NULL</b>. If this KSPROCESSPIN is the input to an inplace transform, <b>InPlaceCounterpart</b> points to the output process pin for the transform. If this KSPROCESSPIN is the output of an inplace transform, <b>InPlaceCounterpart</b> points to the input process pin for the transform.
+
+
+### -field DelegateBranch
+
+A pointer to a KSPROCESSPIN structure. If frames coming out of this KSPROCESSPIN are being split and sent to multiple sink pins, and the split does not cause a data copy (that is, the split sends the frames in a read-only manner and all of the split pin instances are in the same pipe), <b>DelegateBranch</b> points to the first instance of the process pin. The splitter automatically handles any process pin that has a non-<b>NULL</b><b>DelegateBranch</b>.
+
+
+### -field CopySource
 
 A pointer to a KSPROCESSPIN structure. If frames coming out of this process pin are being split and sent to multiple sink pins in a manner that causes a data copy (that is, one of the downstream filters is modifying the data frame by using an in-place transform), <b>CopySource</b> points to the process pin from which the frame was copied. The splitter automatically handles any process pin that has a non-<b>NULL</b><b>CopySource</b>.
 
 
-#### - Data
+### -field Data
 
 A pointer to a buffer. If the pin described by this process entry is an input pin, <b>Data</b> points to the next available byte of data to be input. If the pin described by this process entry is an output pin, <b>Data</b> points to an output buffer in which processed data is placed.
 
 
+### -field BytesAvailable
+
+This member specifies how many bytes of data are available in <b>Data</b>.
+
+
+### -field BytesUsed
+
+This member specifies how many bytes of this data frame have been used by the process function. AVStream drivers should set this member to update how much they have read or written.
+
+
+### -field Flags
+
+This member contains a copy of the flags from the relevant <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
+
+
+### -field Terminate
+
+This member indicates whether the current data frame should be sent downstream after the process dispatch finishes. If <b>TRUE</b>, the frame is sent downstream even if all data has not been consumed. If <b>FALSE</b>, the frame is not released until all data is consumed.
+
+
 ## -remarks
+
 
 
 The KSPROCESSPIN structure is used in the <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">filter-centric processing</a> model. You can use this structure to access data on a specific input pin or to write out processed data to an output pin.
@@ -138,19 +138,28 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
-
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+
+
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROCESSPIN structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROCESSPIN structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

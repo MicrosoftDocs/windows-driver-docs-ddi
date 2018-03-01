@@ -7,8 +7,8 @@ old-location: debugger\setengineoptions.htm
 old-project: debugger
 ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl3::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl2::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, debugger.setengineoptions, dbgeng/IDebugControl::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, dbgeng/IDebugControl2::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetEngineOptions method
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions method [Windows Debugging], SetEngineOptions method [Windows Debugging], IDebugControl interface, SetEngineOptions method [Windows Debugging], IDebugControl2 interface, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions,IDebugControl3.SetEngineOptions, dbgeng/IDebugControl2::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, dbgeng/IDebugControl::SetEngineOptions, debugger.setengineoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.SetEngineOptions
 -	IDebugControl2.SetEngineOptions
 -	IDebugControl3.SetEngineOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::SetEngineOptions method
@@ -77,7 +77,9 @@ Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replac
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method will set the engine's options to those specified in <i>Options</i>.  Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>, any symbol options that are not listed in the <i>Options</i> bit-set  will be removed.
@@ -106,6 +111,7 @@ This method will set the engine's options to those specified in <i>Options</i>. 
 After the engine options have been changed, the engine sends out notification to each client's event callback object by passing the DEBUG_CES_ENGINE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> method.
 
 The following global options affect the behavior of the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>:
+
 <table>
 <tr>
 <th>Constant</th>
@@ -338,7 +344,9 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -346,19 +354,31 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetEngineOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetEngineOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

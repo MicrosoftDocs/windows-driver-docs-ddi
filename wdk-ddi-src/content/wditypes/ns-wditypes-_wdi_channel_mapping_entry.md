@@ -1,14 +1,14 @@
 ---
 UID: NS:wditypes._WDI_CHANNEL_MAPPING_ENTRY
-title: _WDI_CHANNEL_MAPPING_ENTRY
+title: "_WDI_CHANNEL_MAPPING_ENTRY"
 author: windows-driver-content
 description: The WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping entry.
 old-location: netvista\wdi_channel_mapping_entry.htm
 old-project: netvista
 ms.assetid: F05DAD5F-C0A4-46E0-8069-7CEF5B6C5707
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PWDI_CHANNEL_MAPPING_ENTRY, wditypes/PWDI_CHANNEL_MAPPING_ENTRY, wditypes/WDI_CHANNEL_MAPPING_ENTRY, netvista.wdi_channel_mapping_entry, PWDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], netvista.wifi_channel_mapping_entry, WDI_CHANNEL_MAPPING_ENTRY, _WDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation]
+ms.date: 2/16/2018
+ms.keywords: "*PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation], WDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], _WDI_CHANNEL_MAPPING_ENTRY, netvista.wdi_channel_mapping_entry, netvista.wifi_channel_mapping_entry, wditypes/PWDI_CHANNEL_MAPPING_ENTRY, wditypes/WDI_CHANNEL_MAPPING_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_CHANNEL_MAPPING_ENTRY
 product: Windows
 targetos: Windows

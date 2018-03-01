@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._TRANSACTION_OUTCOME
-title: _TRANSACTION_OUTCOME
+title: "_TRANSACTION_OUTCOME"
 author: windows-driver-content
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
 old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TransactionOutcomeUndetermined, TransactionOutcomeUndetermined, kernel.transaction_outcome, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, _TRANSACTION_OUTCOME, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME, TransactionOutcomeCommitted, TransactionOutcomeAborted
+ms.date: 2/24/2018
+ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, kernel.transaction_outcome, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TRANSACTION_OUTCOME, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeUndetermined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	TRANSACTION_OUTCOME
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ The transaction has been rolled back.
 ## -remarks
 
 
+
 The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
+
 
 
 
@@ -96,9 +98,11 @@ The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="..\wdm\ns-wdm
 
 <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_OUTCOME enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_OUTCOME enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

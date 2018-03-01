@@ -7,8 +7,8 @@ old-location: netvista\fwps_incoming_metadata_values0.htm
 old-project: netvista
 ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, fwpsk/FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, netvista.fwps_incoming_metadata_values0, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE
+ms.date: 2/16/2018
+ms.keywords: FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, fwpsk/FWPS_INCOMING_METADATA_VALUES0, netvista.fwps_incoming_metadata_values0, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	fwpsk.h
-apiname: 
+api_name:
 -	FWPS_INCOMING_METADATA_VALUES0
 product: Windows
 targetos: Windows
@@ -274,8 +274,8 @@ The identifier of the routing compartment in which the packet either was receive
 ### -field fragmentMetadata
 
 An 
-     <mshelp:link keywords="netvista.fwps_inbound_fragment_metadata0" tabindex="0"><b>
-     FWPS_INBOUND_FRAGMENT_METADATA0</b></mshelp:link> structure that describes the fragment data for a received packet
+     <a href="https://msdn.microsoft.com/9bead001-7ea7-4a51-8a7c-82fe01017dd7">
+     FWPS_INBOUND_FRAGMENT_METADATA0</a> structure that describes the fragment data for a received packet
      fragment. This member contains valid data only if the FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in
      the 
      <b>currentMetadataValues</b> member.
@@ -333,70 +333,93 @@ The direction of network traffic (inbound or outbound) as specified by one of th
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>. This member is set at the
       application layer enforcement (ALE) connect or receive/accept layers during a reauthorization classify
       operation. For more information, see the Remarks section.
+
 <div class="alert"><b>Note</b>  This member contains valid data only if the FWPS_METADATA_FIELD_PACKET_DIRECTION
       flag is set in the 
-      <b>currentMetadataValues</b> member.</div><div> </div>
+      <b>currentMetadataValues</b> member.</div>
+<div> </div>
 
 ### -field headerIncludeHeader
 
 A pointer to the IP header if the packet is sent from a raw socket.
      
+
 <div class="alert"><b>Note</b>  Available only in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field headerIncludeHeaderLength
 
 The length, in bytes, of the IP header that is pointed to by 
      <b>headerIncludeHeader</b>.
      
+
 <div class="alert"><b>Note</b>  Available only in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field destinationPrefix
 
 The destination prefix.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field frameLength
 
 The frame length.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field parentEndpointHandle
 
 The handle of the endpoint's parent.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field icmpIdAndSequence
 
 The ICMP identifier and sequence.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field localRedirectTargetPID
 
 The PID of the process that is responsible for a redirected connection.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field originalDestination
 
 The original destination of a redirected connection.
      
-<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in Windows 7 and later versions of Windows.</div>
+<div> </div>
 
 ### -field redirectRecords
 
 A redirect records handle that can be passed to the <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field currentL2MetadataValues
 
 A bitmask that contains flags  that specify which layer 2 values are set. One or more values can be combined with a bitwise OR.
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div><table>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
+<table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
@@ -461,14 +484,18 @@ The value of the  <b>vSwitchDestinationPortId</b> member indicates the identifie
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field l2Flags
 
 A bitmask containing layer 2 flags that can be combined with a bitwise OR.
      
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div><table>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
+<table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
@@ -511,60 +538,81 @@ For all subsequent indications, you should block and absorb the original packet 
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ethernetMacHeaderSize
 
 The size, in bytes,  of the MAC header if the FWPS_L2_METADATA_FIELD_802_3_MAC_HEADER_SIZE flag is set. This flag is set for the inbound 802.3 layer only.
      
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field wiFiOperationMode
 
 The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>.
      
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field vSwitchSourcePortId
 
 A unique identifier for the source port on the   virtual switch. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field vSwitchSourceNicIndex
 
 A index for the source NIC on the   virtual switch. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field vSwitchDestinationPortId
 
 A unique identifier for the destination port on the   virtual switch. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field padding0
 
 Reserved. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field padding1
 
 Reserved. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field padding2
 
 Reserved. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field vSwitchPacketContext
 
 A handle to the virtual switch packet context. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field subProcessTag
 
 Reserved. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ### -field reserved1
 
@@ -572,17 +620,23 @@ Reserved.
 
 
 
-#### - l2ConnectionProfileIndex
-
-A the layer 2 connection profile index. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
 
 #### - Reserved1
 
 Reserved. 
-<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
+
+#### - l2ConnectionProfileIndex
+
+A the layer 2 connection profile index. 
+
+<div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structure to a callout's 
@@ -593,6 +647,7 @@ The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structur
 
 A callout driver can use the following macro to test if a specific metadata value is present in an
     FWPS_INCOMING_METADATA_VALUES0 structure:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -604,6 +659,7 @@ A callout driver can use the following macro to test if a specific metadata valu
 </tr>
 </table></span></div>
 
+
 If the FWPS_METADATA_FIELD_PACKET_DIRECTION metadata value is present in an
     FWPS_INCOMING_METADATA_VALUES0 structure, the 
     <b>packetDirection</b> member specifies whether the packet was inbound or outbound
@@ -611,6 +667,7 @@ If the FWPS_METADATA_FIELD_PACKET_DIRECTION metadata value is present in an
     value is not present.
 
 The callout driver must follow these guidelines when it inspects the packet:
+
 <ul>
 <li>At the ALE connect or receive/accept layers, the callout driver should not assume that the packet
      contains a valid IP header if 
@@ -623,28 +680,45 @@ The callout driver must follow these guidelines when it inspects the packet:
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
-
-<mshelp:link keywords="netvista.fwps_inbound_fragment_metadata0" tabindex="0"><b>
-   FWPS_INBOUND_FRAGMENT_METADATA0</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
 
- 
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
+
+
+
+<a href="https://msdn.microsoft.com/9bead001-7ea7-4a51-8a7c-82fe01017dd7">
+   FWPS_INBOUND_FRAGMENT_METADATA0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_INCOMING_METADATA_VALUES0 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_INCOMING_METADATA_VALUES0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

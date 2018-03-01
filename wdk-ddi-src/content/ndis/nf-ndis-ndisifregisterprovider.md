@@ -7,8 +7,8 @@ old-location: netvista\ndisifregisterprovider.htm
 old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisIfRegisterProvider, netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisIfRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfRegisterProvider function
@@ -74,8 +74,8 @@ NDIS_STATUS NdisIfRegisterProvider(
 ### -param ProviderCharacteristics [in]
 
 A pointer to a caller-provided 
-     <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-     NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure. This structure defines the characteristics of the
+     <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+     NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
 
@@ -91,6 +91,7 @@ TBD
 
 
 
+
 #### - pNdisProviderHandle [out]
 
 A pointer to a caller-provided handle variable. If the registration operation succeeds, NDIS
@@ -101,7 +102,9 @@ A pointer to a caller-provided handle variable. If the registration operation su
 ## -returns
 
 
+
 <b>NdisIfRegisterProvider</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,8 +140,8 @@ The operation failed because of insufficient resources.
 </td>
 <td width="60%">
 <b>NdisIfRegisterProvider</b> failed to register the provider because the 
-       <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-       NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
+       <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+       NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
        <i>ProviderCharacteristics</i> parameter contained invalid member data.
 
 </td>
@@ -156,25 +159,28 @@ The operation failed because of insufficient resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 NDIS drivers call the 
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
     provider. For example, the driver can call 
     <b>NdisIfRegisterProvider</b> from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 
-    <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-    NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure at the 
+    <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+    NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NdisIfRegisterProvider</b>.
 
@@ -196,20 +202,29 @@ A component that is no longer an interface provider can call the
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
-   NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+   NDIS_IF_PROVIDER_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
- 
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfRegisterProvider function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

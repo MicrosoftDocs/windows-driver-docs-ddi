@@ -7,8 +7,8 @@ old-location: kernel\kequerytotalcycletimethread_.htm
 old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], kernel.kequerytotalcycletimethread_, wdm/KeQueryTotalCycleTimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	KeQueryTotalCycleTimeThread
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ A pointer to the cycle counter value at the time of the query.
 ## -returns
 
 
+
 The accumulated cycle time for the thread.
+
 
 

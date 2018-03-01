@@ -1,17 +1,17 @@
 ---
 UID: NF:wdm.ExInterlockedPopEntrySList
-title: ExInterlockedPopEntrySList function
+title: ExInterlockedPopEntrySList macro
 author: windows-driver-content
 description: The ExInterlockedPopEntrySList routine atomically removes the first entry from a sequenced singly linked list.
 old-location: kernel\exinterlockedpopentryslist.htm
 old-project: kernel
 ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList, k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, ExInterlockedPopEntrySList
+ms.date: 2/24/2018
+ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ExInterlockedPopEntrySList
 product: Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# ExInterlockedPopEntrySList function
+# ExInterlockedPopEntrySList macro
 
 
 ## -description
@@ -69,9 +69,9 @@ PSLIST_ENTRY ExInterlockedPopEntrySList(
 
 
 
-### -param ListHead [in, out]
+### -param Head
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
+TBD
 
 
 ### -param Lock [in, out]
@@ -79,14 +79,13 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 
-## -returns
+#### - ListHead [in, out]
 
-
-<b>ExInterlockedPopEntrySList</b> returns a pointer to the first <a href="..\wdm\ns-wdm-_slist_entry.md">SLIST_ENTRY</a> structure on the list. If the list was empty, the routine returns <b>NULL</b>.
-
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
 
 
 ## -remarks
+
 
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>. 
@@ -97,21 +96,32 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPopEntrySList routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPopEntrySList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

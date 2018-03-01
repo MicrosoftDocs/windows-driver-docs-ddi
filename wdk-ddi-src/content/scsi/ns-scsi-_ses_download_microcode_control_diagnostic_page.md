@@ -1,14 +1,14 @@
 ---
 UID: NS:scsi._SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
-title: _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+title: "_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
 author: windows-driver-content
 description: The SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure contains a vendor specific microcode (i.e., firmware) image for use by the enclosure services process.
 old-location: storage\ses_download_microcode_control_diagnostic_page.htm
 old-project: storage
 ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: Reserved, Activate deferred microcode, Download microcode with offsets, save, and activate, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Download microcode with offsets, save, and defer activate, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page, _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, Download microcode with offsets, save, and activate, Download microcode with offsets, save, and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 product: Windows
 targetos: Windows
-req.typenames: *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+req.typenames: SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 req.product: Windows 10 or later.
 ---
 
@@ -105,6 +105,7 @@ process shall abort the download microcode operation with a status of 0x80.
 ### -field Mode
 
 Specifies which mode to download the microcode with. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -199,7 +200,8 @@ Reserved for future use.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved

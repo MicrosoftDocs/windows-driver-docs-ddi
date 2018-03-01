@@ -7,8 +7,8 @@ old-location: debugger\evaluate.htm
 old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Evaluate, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl interface [Windows Debugging], Evaluate method, debugger.evaluate, IDebugControl2::Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate method [Windows Debugging], IDebugControl interface, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, Evaluate method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl2 interface [Windows Debugging], Evaluate method, IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, dbgeng/IDebugControl2::Evaluate, IDebugControl3, Evaluate method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: Evaluate method [Windows Debugging], Evaluate method [Windows Debugging], IDebugControl interface, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate method [Windows Debugging], IDebugControl3 interface, Evaluate,IDebugControl3.Evaluate, IDebugControl interface [Windows Debugging], Evaluate method, IDebugControl2 interface [Windows Debugging], Evaluate method, IDebugControl2::Evaluate, IDebugControl3, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.Evaluate
 -	IDebugControl2.Evaluate
 -	IDebugControl3.Evaluate
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::Evaluate method
@@ -95,7 +95,9 @@ Receives the index of the first character of the expression not used in the eval
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ An error occurred while evaluating the expression.  For example, there was a syn
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Expressions are evaluated by the current <i>expression evaluator</i>.  The engine contains multiple expression evaluators; each supports a different syntax.  The current expression evaluator can be chosen by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>.
@@ -138,23 +143,36 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Evaluate method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Evaluate method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\ksac3_bit_stream_mode.htm
 old-project: audio
 ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], ksmedia/KSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, ksmedia/PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, *PKSAC3_BIT_STREAM_MODE
+ms.date: 2/22/2018
+ms.keywords: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSAC3_BIT_STREAM_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE
+req.typenames: KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE
 ---
 
 # KSAC3_BIT_STREAM_MODE structure
@@ -70,6 +70,7 @@ typedef struct {
 ### -field BitStreamMode
 
 Specifies the bit-stream mode. The <b>BitStreamMode</b> member is set to a value in the range 0 to 7. Specify the value of this member as one of the following constants:
+
 <table>
 <tr>
 <th>Constant name</th>
@@ -155,12 +156,14 @@ KSAC3_SERVICE_VOICE_OVER
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 These constants correspond to the bit-stream modes that are defined in the AC-3 specification. For more information, see the following Remarks section.
 
 
 ## -remarks
+
 
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a> property.
@@ -169,13 +172,16 @@ For more information about bit stream modes, see the AC-3 specification at the <
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAC3_BIT_STREAM_MODE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAC3_BIT_STREAM_MODE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_delete_drive_layout.htm
 old-project: storage
 ms.assetid: 787fa1ce-5305-4159-8710-3c6971133c4c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_disk_delete_drive_layout, IOCTL_DISK_DELETE_DRIVE_LAYOUT control code [Storage Devices], IOCTL_DISK_DELETE_DRIVE_LAYOUT, ntdddisk/IOCTL_DISK_DELETE_DRIVE_LAYOUT, k307_7319c33d-d8ab-438c-9908-ac380bff54b5.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DISK_DELETE_DRIVE_LAYOUT, IOCTL_DISK_DELETE_DRIVE_LAYOUT control code [Storage Devices], k307_7319c33d-d8ab-438c-9908-ac380bff54b5.xml, ntdddisk/IOCTL_DISK_DELETE_DRIVE_LAYOUT, storage.ioctl_disk_delete_drive_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntdddisk.h
-apiname: 
+api_name:
 -	IOCTL_DISK_DELETE_DRIVE_LAYOUT
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

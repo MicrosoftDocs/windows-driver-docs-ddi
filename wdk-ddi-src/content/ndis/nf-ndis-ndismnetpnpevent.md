@@ -7,8 +7,8 @@ old-location: netvista\ndismnetpnpevent.htm
 old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMNetPnPEvent, netvista.ndismnetpnpevent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisMNetPnPEvent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml
+ms.date: 2/16/2018
+ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMNetPnPEvent function
@@ -86,18 +86,21 @@ TBD
 
 
 
+
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-     NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure, which describes the network Plug and Play event, NDIS PnP
+     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network Plug and Play event, NDIS PnP
      event, or Power Management event.
 
 
 ## -returns
 
 
+
 <b>NdisMNetPnPEvent</b> can return the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -189,7 +192,8 @@ The overlying drivers' attempts to process the propagated Plug and Play or Power
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The return value is significant only when the propagated event is a 
       <b>NetEventQueryPower</b> or 
@@ -202,20 +206,25 @@ If the event is
 
 
 
+
 ## -remarks
+
 
 
 Any miniport driver can call 
     <b>NdisMNetPnPEvent</b> to generate 
     <b>NetEventPortActivation</b> and 
     <b>NetEventPortDeactivation</b> events. Only intermediate drivers can make other event notifications.
+
 <div class="alert"><b>Note</b>  To prevent deadlocks, an NDIS driver must do the following:<ul>
 <li>Its <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function must not call 
     <b>NdisMNetPnPEvent</b>.</li>
 <li> If its <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function returns NDIS_STATUS_PENDING for an OID request, the NDIS driver must not call 
     <b>NdisMNetPnPEvent</b> until after it has completed the OID request by calling <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>.</li>
 </ul>
-</div><div> </div>To propagate notification of a network Plug and Play event, an NDIS PnP event, or Power Management
+</div>
+<div> </div>
+To propagate notification of a network Plug and Play event, an NDIS PnP event, or Power Management
     event to overlying drivers, an NDIS intermediate driver calls 
     <b>NdisMNetPnPEvent</b> in the context of the driver's 
     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function.
@@ -275,19 +284,28 @@ For all other propagated events, the intermediate driver's
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
- 
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMNetPnPEvent function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMNetPnPEvent function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

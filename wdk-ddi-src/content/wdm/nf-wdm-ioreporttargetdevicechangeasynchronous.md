@@ -7,8 +7,8 @@ old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 old-project: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, wdm/IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], IoReportTargetDeviceChangeAsynchronous, kernel.ioreporttargetdevicechangeasynchronous
+ms.date: 2/24/2018
+ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoReportTargetDeviceChangeAsynchronous
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The PnP manager fills in the <i>NotificationStructure</i>.<b>FileObject</b> fiel
 Optionally points to a caller-supplied routine that the PnP manager calls after it finishes notifying drivers that registered for this custom event.
 
 The callback routine has the following type:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -103,7 +104,8 @@ VOID
     );</pre>
 </td>
 </tr>
-</table></span></div>A device-change-complete callback routine should not block and must not call synchronous routines that generate PnP events.
+</table></span></div>
+A device-change-complete callback routine should not block and must not call synchronous routines that generate PnP events.
 
 The PnP manager calls device-change-complete callback routines at IRQL = PASSIVE_LEVEL.
 
@@ -116,7 +118,9 @@ Optionally points to a caller-supplied context structure that the PnP manager pa
 ## -returns
 
 
+
 <b>IoReportTargetDeviceChangeAsynchronous</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +137,14 @@ The caller specified a system PnP event, such as GUID_TARGET_DEVICE_QUERY_REMOVE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After the <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manager that a custom event has occurred on a device, the routine returns immediately; it does not wait while the PnP manager sends notification of the event to drivers that registered for notification on the device. Do not use this routine to report system PnP events, such as GUID_TARGET_DEVICE_REMOVE_COMPLETE.
@@ -152,15 +159,20 @@ Callers of <b>IoReportTargetDeviceChangeAsynchronous</b> must be running at IRQL
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportTargetDeviceChangeAsynchronous routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReportTargetDeviceChangeAsynchronous routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\miniportidlenotification.htm
 old-project: netvista
 ms.assetid: D679DEF0-1229-4731-8024-4DEDAE5B0185
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.miniportidlenotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], MiniportIdleNotification, MINIPORT_IDLE_NOTIFICATION, MINIPORT_IDLE_NOTIFICATION, ndis/MiniportIdleNotification
+ms.date: 2/16/2018
+ms.keywords: MINIPORT_IDLE_NOTIFICATION, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	MiniportIdleNotification
 product: Windows
 targetos: Windows
@@ -89,7 +89,9 @@ For more information about the <i>ForceIdle</i> parameter, see the Remarks secti
 ## -returns
 
 
+
 <i>MiniportIdleNotification</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>MiniportIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="https://msdn.microsoft.com/D4125F14-8356-4D9E-A287-D35D3BF69182">Registering NDIS Selective Suspend Handler Functions</a>.
@@ -150,10 +155,17 @@ NDIS sets the <i>ForceIdle</i> parameter to <b>FALSE</b> when the network adapte
 The duration of the idle time-out period is specified by the value of the <b>*SSIdleTimeout</b> INF keyword. For more information about this keyword, see <a href="https://msdn.microsoft.com/A45EE23D-1C60-4DA4-82A5-89DB5CE48E21">Standardized INF Keywords for NDIS Selective Suspend</a>. 
 
 
-<div class="alert"><b>Note</b>  NDIS sets the <i>ForceIdle</i> parameter to <b>TRUE</b> only when a system that is compliant with the Always On Always Connected (AOAC) technology is transitioning to a Connected Standby state. </div><div> </div>If the miniport driver determines that the network adapter is being used, it can veto the idle notification request by returning NDIS_STATUS_BUSY. This causes NDIS to restart the monitor of activity on the network adapter. 
+
+<div class="alert"><b>Note</b>  NDIS sets the <i>ForceIdle</i> parameter to <b>TRUE</b> only when a system that is compliant with the Always On Always Connected (AOAC) technology is transitioning to a Connected Standby state. </div>
+<div> </div>
+If the miniport driver determines that the network adapter is being used, it can veto the idle notification request by returning NDIS_STATUS_BUSY. This causes NDIS to restart the monitor of activity on the network adapter. 
 
 If the adapter becomes inactive again within the idle time-out period, NDIS calls <i>MiniportIdleNotification</i>. 
-<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_BUSY  if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div><div> </div>After the idle notification is issued, it can be canceled and completed in the following way:
+
+<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_BUSY  if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div>
+<div> </div>
+After the idle notification is issued, it can be canceled and completed in the following way:
+
 <ul>
 <li>
 NDIS can cancel the outstanding idle notification if the following conditions are true:
@@ -180,9 +192,11 @@ Finally, the miniport driver calls <a href="..\ndis\nf-ndis-ndismidlenotificatio
 The miniport driver completes the idle notification  by calling <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>. For more information about how the miniport driver completes the idle notification, see <a href="https://msdn.microsoft.com/2330A8EE-DC8B-4244-935C-DEF20A6EB5E7">Completing the NDIS Selective Suspend Idle Notification</a>.
 
 </li>
-</ul>For more information on how to handle idle notifications for NDIS selective suspend, see <a href="https://msdn.microsoft.com/02D13260-5816-4621-8527-E1E79C9AE975">Handling the NDIS Selective Suspend Idle Notification</a>.
+</ul>
+For more information on how to handle idle notifications for NDIS selective suspend, see <a href="https://msdn.microsoft.com/02D13260-5816-4621-8527-E1E79C9AE975">Handling the NDIS Selective Suspend Idle Notification</a>.
 
 For guidelines on how to implement the <i>MiniportIdleNotification</i> handler function, see <a href="https://msdn.microsoft.com/F2F8C98F-D8B3-49A6-819D-BC0EC936F41E">Implementing a MiniportIdleNotification Handler Function</a>.
+
 
 
 
@@ -190,13 +204,19 @@ For guidelines on how to implement the <i>MiniportIdleNotification</i> handler f
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+
 
 <b></b>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_IDLE_NOTIFICATION callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_IDLE_NOTIFICATION callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

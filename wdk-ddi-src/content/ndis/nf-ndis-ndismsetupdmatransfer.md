@@ -7,8 +7,8 @@ old-location: netvista\ndismsetupdmatransfer.htm
 old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], ndis/NdisMSetupDmaTransfer, NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml
+ms.date: 2/16/2018
+ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NdisMSetupDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMSetupDmaTransfer macro
@@ -105,6 +105,14 @@ TBD
 
 
 
+
+
+#### - Buffer [in]
+
+A pointer to the buffer descriptor mapping the range of host memory from which or into which the
+     data will be transferred.
+
+
 #### - Length [in]
 
 The number of bytes of data to be transferred. The range specified by 
@@ -120,10 +128,11 @@ The DMA handle returned by the
      during initialization.
 
 
-#### - WriteToDevice [in]
+#### - Offset [in]
 
-A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
-     it is <b>FALSE</b>.
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
 
 
 #### - Status [out]
@@ -135,26 +144,15 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-#### - Offset [in]
 
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor mapping the range of host memory from which or into which the
-     data will be transferred.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 The DMA controller has been set up to transfer the specified data, which has been flushed to or
        from the device to maintain data integrity.
 
 
-##### - Status.NDIS_STATUS_RESOURCES
+
+#### NDIS_STATUS_RESOURCES
 
 An attempt to set up the DMA controller for the transfer has failed, either because the channel
        designated by 
@@ -162,7 +160,14 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        <i>Length</i> is invalid.
 
 
+#### - WriteToDevice [in]
+
+A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
+     it is <b>FALSE</b>.
+
+
 ## -remarks
+
 
 
 Drivers of subordinate-DMA NICs call 
@@ -182,8 +187,8 @@ The caller must supply a buffer descriptor that specifies the host range into wh
     be transferred from the NIC when 
     <i>WriteToDevice</i> is <b>FALSE</b>. Otherwise, the buffer descriptor at 
     <i>Buffer</i> was chained to a packet descriptor input to the miniport driver's 
-    <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-    MiniportSendNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    MiniportSendNetBufferLists</a> function.
 
 To improve performance for small transmit requests, such as a send request of less than 256 bytes in
     length, a miniport driver can copy the packet data into an internal staging buffer and pass a
@@ -195,22 +200,29 @@ On return from
     driver then programs the NIC for the transfer operation.
 
 When the transfer is complete, the miniport driver must call the 
-    <mshelp:link keywords="netvista.ndismcompletedmatransfer" tabindex="0"><b>
-    NdisMCompleteDmaTransfer</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">
+    NdisMCompleteDmaTransfer</a> function.
+
 
 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetupDmaTransfer macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetupDmaTransfer macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

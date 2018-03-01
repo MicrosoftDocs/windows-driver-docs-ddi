@@ -7,8 +7,8 @@ old-location: stream\devcaps.htm
 old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PDEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS structure pointer [Streaming Media Devices], stream.devcaps, DEVCAPS, PDEVCAPS, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml
+ms.date: 2/23/2018
+ms.keywords: "*PDEVCAPS, DEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	DEVCAPS
 product: Windows
 targetos: Windows
-req.typenames: *PDEVCAPS, DEVCAPS
+req.typenames: DEVCAPS, *PDEVCAPS
 ---
 
 # tagDEVCAPS structure
@@ -122,6 +122,7 @@ Specifies if the external device can save.
 ### -field DeviceType
 
 Specifies the type of the external device. See Remarks.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -187,7 +188,8 @@ Unknown type
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TCRead
@@ -263,6 +265,7 @@ Indicates if the external device requires calibrating.
 ### -field SeekType
 
 Specifies the type of seeking the external device is capable of. For example:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -298,7 +301,8 @@ Indicates slow seeking (like a tape transport).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SimulatedHardware
@@ -309,6 +313,7 @@ Must be set to zero.
 ## -remarks
 
 
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
 All members of the DEVCAPS structure are <b>TRUE</b>/<b>FALSE</b> unless otherwise specified.
@@ -317,15 +322,20 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20DEVCAPS structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20DEVCAPS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

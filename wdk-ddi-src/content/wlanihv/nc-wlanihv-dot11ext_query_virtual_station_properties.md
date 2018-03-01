@@ -7,8 +7,8 @@ old-location: netvista\dot11extqueryvirtualstationproperties.htm
 old-project: netvista
 ms.assetid: 4ea71ef7-c897-413c-a542-e8068bcc66a6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extqueryvirtualstationproperties, Dot11ExtQueryVirtualStationProperties callback function [Network Drivers Starting with Windows Vista], Dot11ExtQueryVirtualStationProperties, DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, wlanihv/Dot11ExtQueryVirtualStationProperties, Native_802.11_IHV_Ext_c8da5f60-0502-4381-b9e4-f9b8e245e5e8.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES, Dot11ExtQueryVirtualStationProperties, Dot11ExtQueryVirtualStationProperties callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c8da5f60-0502-4381-b9e4-f9b8e245e5e8.xml, netvista.dot11extqueryvirtualstationproperties, wlanihv/Dot11ExtQueryVirtualStationProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtQueryVirtualStationProperties
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -82,27 +82,7 @@ A handle used by the operating system to reference the primary physical wireless
      Handler function.
 
 
-### -param *pbIsVirtualStation
-
-
-
-### -param *pgPrimary
-
-
-
-### -param pvReserved
-
-This parameter is reserved for use by the operating system and should be <b>NULL</b>.
-
-
-#### - pgPrimary [out]
-
-A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
-     station. This parameter is valid only if 
-     <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
-
-
-#### - pbIsVirtualStation [out]
+### -param *pbIsVirtualStation [out]
 
 A pointer to a Boolean value that indicates whether the primary physical WLAN adapter pointed to
      by the 
@@ -110,7 +90,20 @@ A pointer to a Boolean value that indicates whether the primary physical WLAN ad
      adapter is a virtual station, otherwise it is not a virtual station.
 
 
+### -param *pgPrimary [out]
+
+A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
+     station. This parameter is valid only if 
+     <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
+
+
+### -param pvReserved
+
+This parameter is reserved for use by the operating system and should be <b>NULL</b>.
+
+
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -119,13 +112,16 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

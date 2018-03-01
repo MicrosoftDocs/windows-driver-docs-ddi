@@ -7,8 +7,8 @@ old-location: sensors\sensorscxdeviceinitconfig.htm
 old-project: sensors
 ms.assetid: E347F2E1-5AF5-411A-8F05-DA4826240E02
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig
+ms.date: 2/22/2018
+ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	SensorsCx.h
-apiname: 
+api_name:
 -	SensorsCxDeviceInitConfig
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ The flags for the sensor driver. Reserved set to 0.
 ## -returns
 
 
+
 This function returns STATUS_SUCCESS when completed successfully. When an invalid parameter is supplied or this function fails, STATUS_INVALID_PARAMETER is returned. This function can also return other NTSTATUS values.
+
 
 
 

@@ -2,13 +2,13 @@
 UID: NF:winspool.FreePrintNamedPropertyArray
 title: FreePrintNamedPropertyArray function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\freeprintnamedpropertyarray.htm
 old-project: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray, FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winspool.h
-apiname: 
+api_name:
 -	FreePrintNamedPropertyArray
 product: Windows
 targetos: Windows
@@ -72,14 +72,14 @@ void WINAPI FreePrintNamedPropertyArray(
 ### -param cProperties [in]
 
 
-
 ### -param ppProperties [in, out, optional]
-
 
 
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: debugger\setscope.htm
 old-project: debugger
 ms.assetid: 78a32ba6-5546-486a-aede-9a597b27f9fb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetScope, SetScope method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::SetScope, SetScope method [Windows Debugging], IDebugSymbols2::SetScope, SetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, IDebugSymbols::SetScope, IDebugSymbols3::SetScope, IDebugSymbols3 interface [Windows Debugging], SetScope method, IDebugSymbols2 interface [Windows Debugging], SetScope method, IDebugSymbols interface [Windows Debugging], SetScope method, dbgeng/IDebugSymbols2::SetScope, debugger.setscope, dbgeng/IDebugSymbols::SetScope, SetScope method [Windows Debugging], IDebugSymbols2 interface
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], SetScope method, IDebugSymbols2 interface [Windows Debugging], SetScope method, IDebugSymbols2::SetScope, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScope method, IDebugSymbols3::SetScope, IDebugSymbols::SetScope, IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, SetScope method [Windows Debugging], SetScope method [Windows Debugging], IDebugSymbols interface, SetScope method [Windows Debugging], IDebugSymbols2 interface, SetScope method [Windows Debugging], IDebugSymbols3 interface, SetScope,IDebugSymbols3.SetScope, dbgeng/IDebugSymbols2::SetScope, dbgeng/IDebugSymbols3::SetScope, dbgeng/IDebugSymbols::SetScope, debugger.setscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols.SetScope
 -	IDebugSymbols2.SetScope
 -	IDebugSymbols3.SetScope
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::SetScope method
@@ -95,7 +95,9 @@ Specifies the size of the buffer <i>ScopeContext</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ The scope has changed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If only <i>InstructionOffset</i> is provided, the scope can be used to look up symbol names; however, the values of these symbols will not be available.
@@ -138,23 +143,36 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetScope method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetScope method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgkcbnotifyinterrupt.htm
 old-project: display
 ms.assetid: 7968d26d-0195-463d-8954-e7ebef4f9dea
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbnotifyinterrupt, DxgkCbNotifyInterrupt callback function [Display Devices], DxgkCbNotifyInterrupt, DXGKCB_NOTIFY_INTERRUPT, DXGKCB_NOTIFY_INTERRUPT, d3dkmddi/DxgkCbNotifyInterrupt, DpFunctions_fdb60c96-9eec-4e57-a4bd-1b97ad99769b.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_NOTIFY_INTERRUPT, DpFunctions_fdb60c96-9eec-4e57-a4bd-1b97ad99769b.xml, DxgkCbNotifyInterrupt, DxgkCbNotifyInterrupt callback function [Display Devices], d3dkmddi/DxgkCbNotifyInterrupt, display.dxgkcbnotifyinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DxgkCbNotifyInterrupt
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ VOID APIENTRY DxgkCbNotifyInterrupt(
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A display miniport driver calls the <b>DxgkCbNotifyInterrupt</b> function to report a graphics hardware interrupt that the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> enumeration type defines. Typically, <b>DxgkCbNotifyInterrupt</b> is called from the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function (ISR), which is called when graphics hardware interrupts occur. The <b>DxgkCbNotifyInterrupt</b> function informs the GPU scheduler about an update to a fence through a direct memory access (DMA) stream to the graphics hardware. 
@@ -104,30 +107,104 @@ If the display miniport driver determines that more than one interrupt was trigg
 Callers of <b>DxgkCbNotifyInterrupt</b> run at interrupt level (that is, DIRQL, which is some IRQL between DISPATCH_LEVEL and PROFILE_LEVEL, not inclusive).
 
 
+#### Examples
+
+The following code example shows software engine code that monitors a software queue and notifies the GPU scheduler about packet completion.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _SubmitParams {
+    HW_DEVICE_EXTENSION *pHwDeviceExtension;
+    UINT                NodeOrdinal;
+    UINT                FenceID;
+    UINT                PreemptionFenceID;
+} SubmitParams;
+
+BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
+{
+    SubmitParams  *pSchNotifyParams = (SubmitParams*)params;
+    DXGKCB_NOTIFY_INTERRUPT  DxgkCbNotifyInterrupt;
+    DXGKARGCB_NOTIFY_INTERRUPT_DATA  notifyInt = {0};
+
+    DxgkCbNotifyInterrupt = (DXGKCB_NOTIFY_INTERRUPT)pSchNotifyParams-&gt;pHwDeviceExtension-&gt;pVidSchINTCB;
+
+    if(!DxgkCbNotifyInterrupt) {
+        return FALSE;
+    }
+
+    if(pSchNotifyParams-&gt;PreemptionFenceID) {
+        notifyInt.InterruptType = DXGK_INTERRUPT_DMA_PREEMPTED;
+        notifyInt.DmaPreempted.PreemptionFenceId = pSchNotifyParams-&gt;PreemptionFenceID;
+        notifyInt.DmaPreempted.LastCompletedFenceId = pSchNotifyParams-&gt;FenceID;
+        notifyInt.DmaPreempted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+    }
+    else {
+        notifyInt.InterruptType = DXGK_INTERRUPT_DMA_COMPLETED;
+        notifyInt.DmaCompleted.SubmissionFenceId = pSchNotifyParams-&gt;FenceID;
+        notifyInt.DmaCompleted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+    }
+
+    DxgkCbNotifyInterrupt(pSchNotifyParams-&gt;pHwDeviceExtension-&gt;DeviceHandle, &amp;notifyInt);
+
+    pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevSubmitFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;FenceID;
+
+    if(pSchNotifyParams-&gt;PreemptionFenceID) {
+        pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevPreemptFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;PreemptionFenceID;
+    }
+
+    return TRUE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
- 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_NOTIFY_INTERRUPT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_NOTIFY_INTERRUPT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

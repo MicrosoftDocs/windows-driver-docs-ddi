@@ -7,8 +7,8 @@ old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 old-project: display
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 product: Windows
 targetos: Windows
@@ -79,7 +79,9 @@ typedef struct D3D11_1_DDI_RENDER_TARGET_BLEND_DESC {
 ### -field BlendEnable
 
 [in] A Boolean value that specifies whether blending is enabled for the associated render target. <b>TRUE</b> indicates blending is enabled; <b>FALSE</b> indicates blending is disabled.
-<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div>
+<div> </div>
 
 ### -field LogicOpEnable
 
@@ -88,7 +90,9 @@ Specifies whether shader logic operations given by the <b>LogicOp</b> member are
 This member is <b>FALSE</b> if the   driver supports Direct3D feature level 9.1, 9.2, and 9.3. This member is optional if the driver supports feature level 10, 10.1, and 11.
 
 This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
-<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>LogicOpEnable</b> and <b>BlendEnable</b> members must not both be <b>TRUE</b>.</div>
+<div> </div>
 
 ### -field SrcBlend
 
@@ -128,6 +132,7 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 ### -field RenderTargetWriteMask
 
 [in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
+
 <table>
 <tr>
 <th>Value</th>
@@ -183,26 +188,39 @@ Writes red, green, blue, and a transparency level
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

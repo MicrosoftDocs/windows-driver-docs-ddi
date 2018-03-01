@@ -7,8 +7,8 @@ old-location: debugger\seteventcallbackswide.htm
 old-project: debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, SetEventCallbacksWide method [Windows Debugging], dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide, IDebugClient5, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide
+ms.date: 2/23/2018
+ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide,IDebugClient5.SetEventCallbacksWide, dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient5.SetEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::SetEventCallbacksWide method
@@ -75,7 +75,9 @@ Specifies the interface pointer to the event callbacks object to register with t
 ## -returns
 
 
+
 Depending on the implementation of the method <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a> in the object specified by <i>Callbacks</i>, other values may be returned, as described in the Remarks section.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the value of <i>Callbacks</i> is not <b>NULL</b>, the method <b>IDebugEventCallbacks::GetInterestMask</b> is called.  If the return value is not S_OK, <b>SetEventCallbacks</b> and <b>SetEventCallbacksWide</b> have no effect and they return this value.
@@ -109,17 +114,24 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::SetEventCallbacksWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::SetEventCallbacksWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

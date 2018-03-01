@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
-title: _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+title: "_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration is used to indicate where a monitor's capability information was obtained.
 old-location: display\d3dkmdt_monitor_capabilities_origin.htm
 old-project: display
 ms.assetid: fbbea7d7-2bd7-4dd0-bcb8-3fc93c7474a3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_MCO_DEFAULTMONITORPROFILE, _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MCO_UNINITIALIZED, DmEnums_fc03a227-b0c7-4152-a4f0-c8badee981e5.xml, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration [Display Devices], d3dkmdt/D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MCO_MONITORDESCRIPTOR, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_UNINITIALIZED, d3dkmdt/D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_DEFAULTMONITORPROFILE, d3dkmdt/D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, display.d3dkmdt_monitor_capabilities_origin, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_MCO_DEFAULTMONITORPROFILE, D3DKMDT_MCO_DRIVER, D3DKMDT_MCO_MONITORDESCRIPTOR, D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, D3DKMDT_MCO_UNINITIALIZED, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration [Display Devices], DmEnums_fc03a227-b0c7-4152-a4f0-c8badee981e5.xml, _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, d3dkmdt/D3DKMDT_MCO_DEFAULTMONITORPROFILE, d3dkmdt/D3DKMDT_MCO_DRIVER, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR, d3dkmdt/D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE, d3dkmdt/D3DKMDT_MCO_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_CAPABILITIES_ORIGIN, display.d3dkmdt_monitor_capabilities_origin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ Indicates that the capability information was obtained by a call to the display 
 ## -remarks
 
 
+
 The <b>Origin</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a> structure is a constant from the D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration.
+
 
 
 
@@ -113,9 +115,11 @@ The <b>Origin</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

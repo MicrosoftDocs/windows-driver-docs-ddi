@@ -7,8 +7,8 @@ old-location: debugger\attachprocess.htm
 old-project: debugger
 ms.assetid: 0787da49-23e0-43e3-bb32-1221db32a449
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], AttachProcess method, AttachProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient2::AttachProcess, IDebugClient4::AttachProcess, IDebugClient3 interface [Windows Debugging], AttachProcess method, AttachProcess, IDebugClient5, IDebugClient::AttachProcess, IDebugClient5 interface [Windows Debugging], AttachProcess method, IDebugClient4 interface [Windows Debugging], AttachProcess method, IDebugClient interface [Windows Debugging], AttachProcess method, AttachProcess method [Windows Debugging], IDebugClient2 interface, AttachProcess method [Windows Debugging], debugger.attachprocess, IDebugClient3::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient4::AttachProcess, IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, dbgeng/IDebugClient2::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient3::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient4 interface
+ms.date: 2/23/2018
+ms.keywords: AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging], IDebugClient interface, AttachProcess method [Windows Debugging], IDebugClient2 interface, AttachProcess method [Windows Debugging], IDebugClient3 interface, AttachProcess method [Windows Debugging], IDebugClient4 interface, AttachProcess method [Windows Debugging], IDebugClient5 interface, AttachProcess,IDebugClient5.AttachProcess, IDebugClient interface [Windows Debugging], AttachProcess method, IDebugClient2 interface [Windows Debugging], AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3 interface [Windows Debugging], AttachProcess method, IDebugClient3::AttachProcess, IDebugClient4 interface [Windows Debugging], AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient.AttachProcess
 -	IDebugClient2.AttachProcess
 -	IDebugClient3.AttachProcess
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.AttachProcess
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AttachProcess method
@@ -91,7 +91,9 @@ Specifies the flags that control how the debugger attaches to the target process
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,19 +110,26 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is available only for live user-mode debugging.
-<div class="alert"><b>Note</b>    The engine doesn't completely attach to the process until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  Only after the process has generated an event -- for example, the create-process event -- does it become available in the debugger session.</div><div> </div>For more information about creating and attaching to live user-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552020">Live User-Mode Targets</a>.
+
+<div class="alert"><b>Note</b>    The engine doesn't completely attach to the process until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  Only after the process has generated an event -- for example, the create-process event -- does it become available in the debugger session.</div>
+<div> </div>
+For more information about creating and attaching to live user-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552020">Live User-Mode Targets</a>.
 
 The DEBUG_ATTACH_<i>XXX</i> bit-flags control how the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> attaches to a user-mode process.  For the DEBUG_ATTACH_<i>XXX</i> options used when attaching to a kernel target, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>.
 
 The following table describes the possible flag values.
+
 
 
 <table>
@@ -186,47 +195,81 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
-<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AttachProcess method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AttachProcess method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

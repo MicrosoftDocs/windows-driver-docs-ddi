@@ -1,14 +1,14 @@
 ---
 UID: NS:avc._AVCCONNECTINFO
-title: _AVCCONNECTINFO
+title: "_AVCCONNECTINFO"
 author: windows-driver-content
 description: The AVCCONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcconnectinfo.htm
 old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: AVCCONNECTINFO structure [Streaming Media Devices], stream.avcconnectinfo, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, *PAVCCONNECTINFO, avc/AVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], AVCCONNECTINFO, PAVCCONNECTINFO, _AVCCONNECTINFO
+ms.date: 2/23/2018
+ms.keywords: "*PAVCCONNECTINFO, AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], _AVCCONNECTINFO, avc/AVCCONNECTINFO, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, stream.avcconnectinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	avc.h
-apiname: 
+api_name:
 -	AVCCONNECTINFO
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 ## -remarks
 
 
+
 This structure is used only as member inside the <a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
+
 
 
 
@@ -113,9 +115,11 @@ This structure is used only as member inside the <a href="..\avc\ns-avc-_avc_set
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCCONNECTINFO structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCCONNECTINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

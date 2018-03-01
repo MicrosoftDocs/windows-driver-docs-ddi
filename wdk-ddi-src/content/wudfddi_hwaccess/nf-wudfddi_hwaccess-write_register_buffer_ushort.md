@@ -7,8 +7,8 @@ old-location: wdf\write_register_buffer_ushort.htm
 old-project: wdf
 ms.assetid: 45E51355-9570-4548-B056-D1655BED5462
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.write_register_buffer_ushort, WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT function, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT, umdf.write_register_buffer_ushort
+ms.date: 2/20/2018
+ms.keywords: WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT function, umdf.write_register_buffer_ushort, wdf.write_register_buffer_ushort, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	WRITE_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows
@@ -96,15 +96,19 @@ Specifies the number of USHORT values to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

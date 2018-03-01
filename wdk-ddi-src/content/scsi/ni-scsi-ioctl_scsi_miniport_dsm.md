@@ -7,13 +7,13 @@ old-location: storage\ioctl_scsi_miniport_dsm.htm
 old-project: storage
 ms.assetid: CA91B623-F926-453D-A348-92655875D801
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_scsi_miniport_dsm, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], IOCTL_SCSI_MINIPORT_DSM, scsi/IOCTL_SCSI_MINIPORT_DSM
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: scsi.h
-req.include-header: Ntddscsi.h
+req.include-header: Ntddscsi.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.1.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	IOCTL_SCSI_MINIPORT_DSM
 product: Windows
 targetos: Windows
-req.typenames: *PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE
+req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,20 +87,25 @@ The length of an <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CON
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The resulting status of the function request is set in the <b>SrbStatus</b> member of <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>. The following are the  DSM disk IOCTL status codes.
+
 <table>
 <tr>
 <th>SRB Status</th>
@@ -114,15 +119,18 @@ The resulting status of the function request is set in the <b>SrbStatus</b> memb
 <td>SRB_STATUS_INVALID_REQUEST</td>
 <td>The request contains an invalid buffer size</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 <b>DSM_NOTIFICATION_REQUEST_BLOCK</b>
 
 A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the data buffer of the SRB.  <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -142,9 +150,11 @@ A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a hre
 </tr>
 </table></span></div>
 
+
 <b>MP_DEVICE_DATA_SET_RANGE</b>
 
 The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> as an array of <b>MP_DEVICE_DATA_SET_RANGE</b> structures. <b>MP_DEVICE_DATA_SET_RANGE</b> is defined in ntddscsi.h as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -159,23 +169,31 @@ The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOT
 </tr>
 </table></span></div>
 
+
 The <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure is located after the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB.
 
 The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure for this IOCTL contains IOCTL_MINIPORT_SIGNATURE_DSM_NOTIFICATION in its <b>Signature</b> member and <b>IOCTL_SCSI_MINIPORT_DSM</b> in the <b>ControlCode</b> member.
 
 
 
+
 ## -see-also
-
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
 
- 
+
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_MINIPORT_DSM control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_MINIPORT_DSM control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

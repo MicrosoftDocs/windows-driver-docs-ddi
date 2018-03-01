@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_PicResample
-title: _DXVA_PicResample
+title: "_DXVA_PicResample"
 author: windows-driver-content
 description: The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the bDXVA_Func variable is equal to 4.
 old-location: display\dxva_picresample.htm
 old-project: display
 ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxva_picresample, *LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, _DXVA_PicResample, DXVA_PicResample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_PicResample
 product: Windows
 targetos: Windows
@@ -135,8 +135,10 @@ Specifies the full height of the area of the destination picture in units of lum
 ## -remarks
 
 
+
 The clipping performed by <b>dwPicResampleFullDestHeight</b> is used to generate any samples outside the source resampling area. (This value is necessary for H.263 Annex P support of custom source formats in which the luminance width or height is not divisible by 16.)
 
 In the case of H.263 Annex O Spatial Scalability, the value of <b>wPicResampleRcontrol </b>is 1. This value corresponds to the value of <i>RCRPR</i> in H.263 Annex P that is equivalent to the upsampling needed for H.263 Annex O spatial scalability. In the case of H.263 Annex P Reference Picture Resampling, <b>wPicResampleRcontrol</b> is equal to the H.263 variable <i>RCRPR</i>.
+
 
 

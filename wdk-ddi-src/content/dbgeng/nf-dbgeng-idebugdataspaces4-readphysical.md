@@ -7,8 +7,8 @@ old-location: debugger\readphysical3.htm
 old-project: debugger
 ms.assetid: 8df51985-9208-46ce-8802-6bc5ec707ab2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.readphysical3, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method, ReadPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces::ReadPhysical, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, dbgeng/IDebugDataSpaces2::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2::ReadPhysical, ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical,IDebugDataSpaces4.ReadPhysical, dbgeng/IDebugDataSpaces2::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces.ReadPhysical
 -	IDebugDataSpaces2.ReadPhysical
 -	IDebugDataSpaces3.ReadPhysical
 -	IDebugDataSpaces4.ReadPhysical
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadPhysical method
@@ -96,6 +96,7 @@ Receives the number of bytes read from the target's memory.  If <i>BytesRead</i>
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +113,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

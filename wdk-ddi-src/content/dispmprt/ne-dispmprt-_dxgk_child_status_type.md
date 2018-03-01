@@ -1,14 +1,14 @@
 ---
 UID: NE:dispmprt._DXGK_CHILD_STATUS_TYPE
-title: _DXGK_CHILD_STATUS_TYPE
+title: "_DXGK_CHILD_STATUS_TYPE"
 author: windows-driver-content
 description: The DXGK_CHILD_STATUS_TYPE enumeration indicates the type of status being requested or reported for a child device of the display adapter.
 old-location: display\dxgk_child_status_type.htm
 old-project: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DXGK_CHILD_STATUS_TYPE, dispmprt/StatusRotation, dispmprt/StatusConnection, StatusMiracast, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], StatusConnection, DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE, DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, *PDXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], display.dxgk_child_status_type, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/DXGK_CHILD_STATUS_TYPE, StatusRotation, StatusUninitialized, dispmprt/StatusMiracast, dispmprt/StatusUninitialized
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, PDXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], StatusConnection, StatusMiracast, StatusRotation, StatusUninitialized, _DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, dispmprt/DXGK_CHILD_STATUS_TYPE, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, dispmprt/StatusMiracast, dispmprt/StatusRotation, dispmprt/StatusUninitialized"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DXGK_CHILD_STATUS_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE
+req.typenames: DXGK_CHILD_STATUS_TYPE, *PDXGK_CHILD_STATUS_TYPE
 ---
 
 # _DXGK_CHILD_STATUS_TYPE enumeration
@@ -102,7 +102,9 @@ Supported by WDDM 1.3 and later drivers running on Windows 8.1 and later.
 ## -remarks
 
 
+
 The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a> structure is a member of the <b>DXGK_CHILD_STATUS_TYPE</b> enumeration.
+
 
 
 
@@ -110,11 +112,15 @@ The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS_TYPE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:wditypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
-title: _WDI_ETHERTYPE_ENCAPSULATION_ENTRY
+title: "_WDI_ETHERTYPE_ENCAPSULATION_ENTRY"
 author: windows-driver-content
 description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure defines an EtherType encapsulation entry.
 old-location: netvista\wdi_ethertype_encapsulation_entry.htm
 old-project: netvista
 ms.assetid: 49FE4EC0-B735-48C0-B26E-E165CA840D12
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wditypes/PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, PWDI_ETHERTYPE_ENCAPSULATION_ENTRY structure pointer [Device and Driver Installation], PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, _WDI_ETHERTYPE_ENCAPSULATION_ENTRY, netvista.wdi_ethertype_encapsulation_entry, WDI_ETHERTYPE_ENCAPSULATION_ENTRY, wditypes/WDI_ETHERTYPE_ENCAPSULATION_ENTRY, *PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, netvista.wifi_ethertype_encapsulation_entry, WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure [Device and Driver Installation]
+ms.date: 2/16/2018
+ms.keywords: "*PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, PWDI_ETHERTYPE_ENCAPSULATION_ENTRY structure pointer [Device and Driver Installation], WDI_ETHERTYPE_ENCAPSULATION_ENTRY, WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure [Device and Driver Installation], _WDI_ETHERTYPE_ENCAPSULATION_ENTRY, netvista.wdi_ethertype_encapsulation_entry, netvista.wifi_ethertype_encapsulation_entry, wditypes/PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, wditypes/WDI_ETHERTYPE_ENCAPSULATION_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 product: Windows
 targetos: Windows

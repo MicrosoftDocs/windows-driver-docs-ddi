@@ -7,8 +7,8 @@ old-location: kernel\iosetthreadharderrormode.htm
 old-project: kernel
 ms.assetid: bedb6399-8f79-477a-9a90-4a7dec5c5dae
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iosetthreadharderrormode, IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], IoSetThreadHardErrorMode, ntddk/IoSetThreadHardErrorMode, k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml
+ms.date: 2/24/2018
+ms.keywords: IoSetThreadHardErrorMode, IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml, kernel.iosetthreadharderrormode, ntddk/IoSetThreadHardErrorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoSetThreadHardErrorMode
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetThreadHardErrorMode function
@@ -75,26 +75,34 @@ Specifies whether hard error reporting to the user should be enabled or disabled
 ## -returns
 
 
+
 <b>IoSetThreadHardErrorMode</b> returns <b>TRUE</b> if hard errors were enabled from this thread before this routine completed execution. Otherwise, this routine returns <b>FALSE</b>. 
+
 
 
 
 ## -remarks
 
 
+
 If hard errors are disabled for a given thread, calls to <b>IoRaiseHardError</b> will not display a message to the user indicating that a serious error has occurred. In addition, the IRP that is passed to <b>IoRaiseHardError </b>is completed without any data being copied into user buffers. Calling <b>IoRaiseInformationalHardError</b> after disabling hard errors causes that routine to always return <b>FALSE</b> for this thread.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
-
 <a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
 
- 
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetThreadHardErrorMode routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetThreadHardErrorMode routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

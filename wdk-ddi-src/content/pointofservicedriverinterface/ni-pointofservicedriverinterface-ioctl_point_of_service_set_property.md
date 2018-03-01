@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_set_property.htm
 old-project: pos
 ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.ioctl_point_of_service_set_property, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_SET_PROPERTY, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pos.ioctl_point_of_service_set_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	IOCTL_POINT_OF_SERVICE_SET_PROPERTY
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,14 +86,18 @@ Not used with this operation; set to <b>0</b> (zero).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -114,8 +118,11 @@ The device is currently claimed by another client.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
+
 The client must successfully call <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
+
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RequestShutdown method [Print Devices], filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, IPrintPipelineManagerControl, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method
+ms.date: 2/23/2018
+ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown,IPrintPipelineManagerControl.RequestShutdown, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPrintPipelineManagerControl.RequestShutdown
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ Not used. Set to <b>NULL</b>.
 ## -returns
 
 
+
 <code>RequestShutdown</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A filter that uses the <a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a> interface must call <code>IPrintPipelineManagerControl::RequestShutdown</code> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556293">IXpsDocumentConsumer::CloseSender</a> to shut down the pipeline. Calling <b>IXpsDocumentConsumer::CloseSender</b> first can produce an invalid XPS document and cause an error. 
+
 
 

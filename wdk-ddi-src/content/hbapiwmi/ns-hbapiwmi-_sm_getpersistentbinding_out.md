@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_GetPersistentBinding_OUT
-title: _SM_GetPersistentBinding_OUT
+title: "_SM_GetPersistentBinding_OUT"
 author: windows-driver-content
 description: The SM_GetPersistentBinding_OUT structure is used to receive output parameters from the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_out.htm
 old-project: storage
 ms.assetid: aa80e05c-e322-4350-80e7-28d53821c510
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], hbapiwmi/SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml, SM_GetPersistentBinding_OUT structure [Storage Devices], hbapiwmi/PSM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, _SM_GetPersistentBinding_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], SM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT structure [Storage Devices], _SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, hbapiwmi/SM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_GetPersistentBinding_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT
+req.typenames: SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT
 ---
 
 # _SM_GetPersistentBinding_OUT structure
@@ -93,6 +93,8 @@ An array of structures of type SMHBA_SCSIENTRY that describes an HBA's bindings 
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetPersistentBinding_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

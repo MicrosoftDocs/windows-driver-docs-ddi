@@ -7,8 +7,8 @@ old-location: display\videoportcreateevent.htm
 old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.videoportcreateevent, VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], video/VideoPortCreateEvent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, display.videoportcreateevent, video/VideoPortCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortCreateEvent
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Pointer to the miniport driver's device extension.
 ### -param EventFlag [in]
 
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -104,7 +105,8 @@ Set this flag to create a notification event. If this flag is not set, a synchro
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Unused [in]
@@ -120,11 +122,14 @@ Pointer to the memory location at which a pointer to the event object will be re
 ## -returns
 
 
+
 <b>VideoPortCreateEvent</b> returns NO_ERROR if the event object is successfully created.
 
 
 
+
 ## -remarks
+
 
 
 When a synchronization event is set to the signaled state, a single thread that was waiting for the signaled state is released (its dispatch state transitions from waiting to ready, standby, or running), and the event is automatically reset to the nonsignaled state.
@@ -133,13 +138,16 @@ When a notification event is set to the signaled state, all threads that were wa
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportdeleteevent.md">VideoPortDeleteEvent</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortCreateEvent function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortCreateEvent function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

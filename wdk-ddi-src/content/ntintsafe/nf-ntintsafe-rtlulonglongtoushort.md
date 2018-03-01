@@ -7,8 +7,8 @@ old-location: kernel\rtlulonglongtoushort.htm
 old-project: kernel
 ms.assetid: 209EDB33-34DB-429F-BDEB-B84960E6F20F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlULongLongToUShort, kernel.rtlulonglongtoushort, ntintsafe/RtlULongLongToUShort, RtlULongLongToUShort function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlULongLongToUShort, RtlULongLongToUShort function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoushort, ntintsafe/RtlULongLongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlULongLongToUShort
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUInt64ToDWord
 </li>
@@ -116,4 +118,5 @@ This function uses the following alternate name:
 <li>RtlUInt64ToWord
 </li>
 </ul>
+
 

@@ -7,8 +7,8 @@ old-location: ifsk\exadjustlookasidedepth.htm
 old-project: ifsk
 ms.assetid: 2c108eda-ab46-48ed-b43a-7a3da390c64b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ntifs/ExAdjustLookasideDepth, ifsk.exadjustlookasidedepth, ExAdjustLookasideDepth
+ms.date: 2/16/2018
+ms.keywords: ExAdjustLookasideDepth, ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	ExAdjustLookasideDepth
 product: Windows
 targetos: Windows

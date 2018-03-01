@@ -7,8 +7,8 @@ old-location: stream\ikscontrol_ksmethod.htm
 old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsMethod method [Streaming Media Devices], IKsControl::KsMethod, ksproxy/IKsControl::KsMethod, IKsControl, stream.ikscontrol_ksmethod, KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsMethod method
+ms.date: 2/23/2018
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl::KsMethod, KsMethod method [Streaming Media Devices], KsMethod method [Streaming Media Devices], IKsControl interface, KsMethod,IKsControl.KsMethod, ksproxy/IKsControl::KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, stream.ikscontrol_ksmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsControl.KsMethod
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ HRESULT KsMethod(
 
 ### -param Method [in]
 
-Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a> structure that describes a method and the request type of the method request. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a> structure that describes a method and the request type of the method request. 
 
 
 ### -param MethodLength [in]
@@ -99,11 +99,14 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsMe
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 This is a synchronous call. It will not complete until the method is completed from kernel-mode.
@@ -112,13 +115,16 @@ To determine the buffer size that is required for a specific method request, you
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsMethod method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsMethod method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

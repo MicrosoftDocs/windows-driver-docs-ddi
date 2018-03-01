@@ -7,8 +7,8 @@ old-location: display\dxgk_engine_type.htm
 old-project: display
 ms.assetid: D94EF91A-784D-4AA2-A43D-6A4AE88CF0A3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, d3dkmdt/DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_OVERLAY, DXGK_ENGINE_TYPE_VIDEO_ENCODE, DXGK_ENGINE_TYPE_COPY, d3dkmdt/DXGK_ENGINE_TYPE_COPY, DXGK_ENGINE_TYPE_VIDEO_DECODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_ENCODE, d3dkmdt/DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, DXGK_ENGINE_TYPE_3D, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_DECODE, DXGK_ENGINE_TYPE enumeration [Display Devices], DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_3D, DXGK_ENGINE_TYPE_VIDEO_PROCESSING, DXGK_ENGINE_TYPE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_PROCESSING, DXGK_ENGINE_TYPE_OVERLAY, d3dkmdt/DXGK_ENGINE_TYPE, display.dxgk_engine_type
+ms.date: 2/24/2018
+ms.keywords: DXGK_ENGINE_TYPE, DXGK_ENGINE_TYPE enumeration [Display Devices], DXGK_ENGINE_TYPE_3D, DXGK_ENGINE_TYPE_COPY, DXGK_ENGINE_TYPE_OTHER, DXGK_ENGINE_TYPE_OVERLAY, DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, DXGK_ENGINE_TYPE_VIDEO_DECODE, DXGK_ENGINE_TYPE_VIDEO_ENCODE, DXGK_ENGINE_TYPE_VIDEO_PROCESSING, d3dkmdt/DXGK_ENGINE_TYPE, d3dkmdt/DXGK_ENGINE_TYPE_3D, d3dkmdt/DXGK_ENGINE_TYPE_COPY, d3dkmdt/DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_OVERLAY, d3dkmdt/DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_DECODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_ENCODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_PROCESSING, display.dxgk_engine_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmdt.h
-apiname: 
+api_name:
 -	DXGK_ENGINE_TYPE
 product: Windows
 targetos: Windows
@@ -123,7 +123,6 @@ The virtual engine that is used for synchronized flipping of overlays in Direct3
 ### -field DXGK_ENGINE_TYPE_CRYPTO
 
 
-
 ### -field DXGK_ENGINE_TYPE_MAX
 
 
@@ -132,7 +131,9 @@ The virtual engine that is used for synchronized flipping of overlays in Direct3
 ## -remarks
 
 
+
 The display miniport driver should follow these rules to determine the engine type:
+
 <ol>
 <li>If the engine performs the adapter's 3-D workloads, the driver must specify only <b>DXGK_ENGINE_TYPE_3D</b>.<div class="alert"><b>Note</b>  The driver must expose exactly one 3-D engine per adapter.</div>
 <div> </div>
@@ -140,6 +141,8 @@ The display miniport driver should follow these rules to determine the engine ty
 <li>If the engine's functionality can be described by any of the <b>DXGK_ENGINE_TYPE</b> enumeration values (except for <b>DXGK_ENGINE_TYPE_OTHER</b>), the driver must select that value.</li>
 <li>If more than one <b>DXGK_ENGINE_TYPE</b> enumeration value describes the engine type, the driver should select the one that reflects the dominant capability of that engine. If two capabilities are roughly equal, such as when an engine is used equally for video decode and encode, than the driver can choose either value.</li>
 <li>If none of the conditions in steps 1-3 are met, only then should the driver select a value of <b>DXGK_ENGINE_TYPE_OTHER</b>.</li>
-</ol>For more information on how to use this enumeration, see <a href="https://msdn.microsoft.com/822FEB3E-A39D-4B33-BD9D-F3166EF99AF8">Enumerating GPU engine capabilities</a>.
+</ol>
+For more information on how to use this enumeration, see <a href="https://msdn.microsoft.com/822FEB3E-A39D-4B33-BD9D-F3166EF99AF8">Enumerating GPU engine capabilities</a>.
+
 
 

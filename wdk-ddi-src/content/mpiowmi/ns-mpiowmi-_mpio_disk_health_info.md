@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_HEALTH_INFO
-title: _MPIO_DISK_HEALTH_INFO
+title: "_MPIO_DISK_HEALTH_INFO"
 author: windows-driver-content
 description: The MPIO_DISK_HEALTH_INFO structure is used to query the available health information for every multi-path disk in the system.
 old-location: storage\mpio_disk_health_info.htm
 old-project: storage
 ms.assetid: 20813e29-907f-42b0-9229-a9ef78f46e1d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMPIO_DISK_HEALTH_INFO, PMPIO_DISK_HEALTH_INFO structure pointer [Storage Devices], mpiowmi/MPIO_DISK_HEALTH_INFO, MPIO_DISK_HEALTH_INFO, *PMPIO_DISK_HEALTH_INFO, storage.mpio_disk_health_info, MPIO_DISK_HEALTH_INFO structure [Storage Devices], mpiowmi/PMPIO_DISK_HEALTH_INFO, _MPIO_DISK_HEALTH_INFO, structs-scsibus_d802e57e-d591-4a38-809c-0e8a1ae84eea.xml
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_DISK_HEALTH_INFO, MPIO_DISK_HEALTH_INFO, MPIO_DISK_HEALTH_INFO structure [Storage Devices], PMPIO_DISK_HEALTH_INFO, PMPIO_DISK_HEALTH_INFO structure pointer [Storage Devices], _MPIO_DISK_HEALTH_INFO, mpiowmi/MPIO_DISK_HEALTH_INFO, mpiowmi/PMPIO_DISK_HEALTH_INFO, storage.mpio_disk_health_info, structs-scsibus_d802e57e-d591-4a38-809c-0e8a1ae84eea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	MPIO_DISK_HEALTH_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PMPIO_DISK_HEALTH_INFO, MPIO_DISK_HEALTH_INFO
+req.typenames: MPIO_DISK_HEALTH_INFO, *PMPIO_DISK_HEALTH_INFO
 ---
 
 # _MPIO_DISK_HEALTH_INFO structure

@@ -7,8 +7,8 @@ old-location: sensors\sensor_property_list.htm
 old-project: sensors
 ms.assetid: 03E03BB9-95DB-49C0-AF14-FFF1998C98A7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensorsdef/PSENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], PSENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], sensors.sensor_property_list, SENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST
+ms.date: 2/22/2018
+ms.keywords: "*PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], SENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Sensorsdef.h
-apiname: 
+api_name:
 -	SENSOR_PROPERTY_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST
+req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -88,9 +88,11 @@ A list of PROPERTYKEY values.
 ## -remarks
 
 
+
 Note that the <i>List[1]</i> parameter is a variable-sized buffer. The first element is a place-holder and may not accurately the buffer size.
 
 The SENSOR_COLLECTION_LIST structure works with the following helper functions:
+
 <ul>
 <li>
 <a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_init.md">SENSOR_COLLECTION_LIST_INIT</a>
@@ -102,4 +104,5 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 <a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_calculate_max_count.md">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
+
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX
-title: _D3DKMT_ACQUIREKEYEDMUTEX
+title: "_D3DKMT_ACQUIREKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
 old-location: display\d3dkmt_acquirekeyedmutex.htm
 old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, _D3DKMT_ACQUIREKEYEDMUTEX
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_ACQUIREKEYEDMUTEX
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: D3DKMT_ACQUIREKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function acquires. 
+The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function acquires. 
 
 
 ## -syntax
@@ -86,7 +86,7 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX {
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
 
-If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state. 
+If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state. 
 
 
 ### -field FenceValue
@@ -96,11 +96,13 @@ If *<b>pTimeout</b> = 0, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmute
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_ACQUIREKEYEDMUTEX structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_ACQUIREKEYEDMUTEX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

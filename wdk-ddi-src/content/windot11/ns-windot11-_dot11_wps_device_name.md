@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_WPS_DEVICE_NAME
-title: _DOT11_WPS_DEVICE_NAME
+title: "_DOT11_WPS_DEVICE_NAME"
 author: windows-driver-content
 description: The DOT11_WPS_DEVICE_NAME structure contains a friendly name of the P2P device.
 old-location: netvista\dot11_wps_device_name.htm
 old-project: netvista
 ms.assetid: 6C2B8E87-A88F-4244-81B2-0241E2DAE756
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_WPS_DEVICE_NAME structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WPS_DEVICE_NAME, windot11/DOT11_WPS_DEVICE_NAME, netvista.dot11_wps_device_name, PDOT11_WPS_DEVICE_NAME, _DOT11_WPS_DEVICE_NAME, PDOT11_WPS_DEVICE_NAME structure pointer [Network Drivers Starting with Windows Vista], DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME structure [Network Drivers Starting with Windows Vista], PDOT11_WPS_DEVICE_NAME, PDOT11_WPS_DEVICE_NAME structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WPS_DEVICE_NAME, netvista.dot11_wps_device_name, windot11/DOT11_WPS_DEVICE_NAME, windot11/PDOT11_WPS_DEVICE_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Windot11.h
-apiname: 
+api_name:
 -	DOT11_WPS_DEVICE_NAME
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ The length, in bytes, of the device name.
 ### -field ucDeviceName
 
  
+
 
 
 

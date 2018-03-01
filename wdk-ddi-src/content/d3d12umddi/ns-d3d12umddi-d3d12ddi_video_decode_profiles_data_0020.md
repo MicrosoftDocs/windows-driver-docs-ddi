@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_decode_profiles_data.htm
 old-project: display
 ms.assetid: D6615DE8-5103-470D-A895-6663B2CC9261
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure [Display Devices], display.d3d12ddi_video_decode_profiles_data, d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, display.d3d12ddi_video_decode_profiles_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020
 product: Windows
 targetos: Windows

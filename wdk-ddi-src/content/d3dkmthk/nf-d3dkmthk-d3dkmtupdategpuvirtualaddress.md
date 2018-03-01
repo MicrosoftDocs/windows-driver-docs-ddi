@@ -7,8 +7,8 @@ old-location: display\d3dkmtupdategpuvirtualaddress.htm
 old-project: display
 ms.assetid: 3390A01D-BD4B-4399-AA3E-91BB32264A13
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTUpdateGpuVirtualAddress function [Display Devices], display.d3dkmtupdategpuvirtualaddress, d3dkmthk/D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress
+ms.date: 2/24/2018
+ms.keywords: D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTUpdateGpuVirtualAddress
 product: Windows
 targetos: Windows
@@ -77,12 +77,14 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md">D3DKMT_UPDATEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns
+
 
 
 <table>
@@ -112,13 +114,16 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
+
 ## -remarks
+
 
 
 The range of graphics processing unit (GPU) virtual addresses in all operations (except the source of the copy operations) must belong to a single virtual address range which was obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>.   Similarly, the virtual address ranges of all sources in copy operations must belong to a single virtual address range, which was obtained by calling <i>ReserveGpuVirtualAddressRange</i>.
@@ -128,23 +133,30 @@ The page table updates are executed on a paging context, dedicated to the render
 The virtual address ranges in the update operations are allowed to intersect. The operations will be applied in the order they are submitted.
 
 In a single <b>UpdateVirtualAddress</b> call:
+
 <ul>
 <li>All virtual address ranges in mapping operations and the destination range in copy operations must belong to the same reserved (zero) range.</li>
 <li>The source virtual address range in copy operations is allowed to be from a different reserved (zero) range.</li>
 <li>The source virtual address range in all copy operations must belong to the same reserved (zero) range.</li>
-</ul>Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+</ul>
+Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md">D3DKMT_UPDATEGPUVIRTUALADDRESS</a>
 
- 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTUpdateGpuVirtualAddress function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTUpdateGpuVirtualAddress function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDFLAGS
-title: _D3DDDICB_SUBMITCOMMANDFLAGS
+title: "_D3DDDICB_SUBMITCOMMANDFLAGS"
 author: windows-driver-content
 description: D3DDDICB_SUBMITCOMMANDFLAGS is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dddicb_submitcommandflags.htm
 old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, _D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], D3DDDICB_SUBMITCOMMANDFLAGS
+ms.date: 2/24/2018
+ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDICB_SUBMITCOMMANDFLAGS
 product: Windows
 targetos: Windows
@@ -90,7 +90,7 @@ This member is reserved and should be set to zero.
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 The consolidated value of the bit-field members in this structure.
 

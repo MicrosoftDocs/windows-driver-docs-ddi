@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANEOVERLAYCAPS
-title: _DXGK_MULTIPLANEOVERLAYCAPS
+title: "_DXGK_MULTIPLANEOVERLAYCAPS"
 author: windows-driver-content
 description: Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgk_multiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
+ms.date: 2/24/2018
+ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_MULTIPLANEOVERLAYCAPS
 product: Windows
 targetos: Windows
@@ -155,6 +155,5 @@ When TRUE, the hardware will always apply the stretch factor of plane 0 to the h
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
-
+#### - Value
 

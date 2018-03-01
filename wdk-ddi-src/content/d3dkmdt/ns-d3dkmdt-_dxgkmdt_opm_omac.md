@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_OMAC
-title: _DXGKMDT_OPM_OMAC
+title: "_DXGKMDT_OPM_OMAC"
 author: windows-driver-content
 description: The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity.
 old-location: display\dxgkmdt_opm_omac.htm
 old-project: display
 ms.assetid: caa64a32-3772-45b5-898a-78dc51b7f24b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, DXGKMDT_OPM_OMAC structure [Display Devices], PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC
+ms.date: 2/24/2018
+ms.keywords: "*PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC structure [Display Devices], DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, PDXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	DXGKMDT_OPM_OMAC
 product: Windows
 targetos: Windows
@@ -75,9 +75,11 @@ A 16-byte array that comprises the OMAC.
 ## -remarks
 
 
+
 For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 The OMAC-1 parameters that OPM and COPP use are:
+
 <ul>
 <li>
 <i>E</i> = AES (Advanced Encryption Standard)
@@ -95,7 +97,9 @@ The OMAC-1 parameters that OPM and COPP use are:
 <i>n</i> = 128 bits 
 
 </li>
-</ul>For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+</ul>
+For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+
 
 
 
@@ -103,13 +107,19 @@ The OMAC-1 parameters that OPM and COPP use are:
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a>
 
- 
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_OMAC structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_OMAC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvdeinitservice.htm
 old-project: netvista
 ms.assetid: 5ee52306-4229-4d81-af1f-6eb37f41ad41
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvdeinitservice, Dot11ExtIhvDeinitService callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvDeinitService, DOT11EXTIHV_DEINIT_SERVICE, DOT11EXTIHV_DEINIT_SERVICE, wlanihv/Dot11ExtIhvDeinitService, Native_802.11_IHV_Ext_02e9e301-f950-47e3-9a1f-4212ae55387e.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_DEINIT_SERVICE, Dot11ExtIhvDeinitService, Dot11ExtIhvDeinitService callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_02e9e301-f950-47e3-9a1f-4212ae55387e.xml, netvista.dot11extihvdeinitservice, wlanihv/Dot11ExtIhvDeinitService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvDeinitService
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -82,25 +82,30 @@ VOID APIENTRY Dot11ExtIhvDeinitService(
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 When the 
     <i>Dot11ExtIhvDeinitService</i> function is called, the IHV Extensions DLL must be brought to a state that
     it can safely be unloaded by the operating system. The DLL must follow these guidelines when this
     function is called.
+
 <ul>
 <li>
 The operating system calls the 
-      <mshelp:link keywords="netvista.dot11extihvdeinitadapter" tabindex="0"><i>
-      Dot11ExtIhvDeinitAdapter</i></mshelp:link> function prior to calling the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">
+      Dot11ExtIhvDeinitAdapter</a> function prior to calling the 
       <i>Dot11ExtIhvDeinitService</i> function. As a result, the 
       <i>Dot11ExtIhvDeinitService</i> function should not initiate any operations on the WLAN adapter.
       Instead, 
@@ -123,17 +128,24 @@ The DLL must free any allocated resources for the DLL itself. In particular, all
 </ul>
 
 
-## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
- 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_DEINIT_SERVICE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_DEINIT_SERVICE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

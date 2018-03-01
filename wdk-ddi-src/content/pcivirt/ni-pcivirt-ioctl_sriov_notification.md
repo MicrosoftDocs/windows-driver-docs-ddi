@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-notification.htm
 old-project: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.ioctl-sriov-notification, IOCTL_SRIOV_NOTIFICATION control code [Buses], IOCTL_SRIOV_NOTIFICATION, pcivirt/IOCTL_SRIOV_NOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	IOCTL_SRIOV_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_NOTIFICATION IOCTL
@@ -66,14 +66,18 @@ The  request indicates that the virtualization stack wants to be notified when o
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -91,14 +95,18 @@ A pointer to the variable, which is assigned the number of
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +116,7 @@ A pointer to the variable, which is assigned the number of
 
 
 ## -remarks
+
 
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
@@ -126,6 +135,7 @@ The virtualization stack can send the <b>IOCTL_SRIOV_NOTIFICATION</b> request im
 that an event notification has been delivered and must not complete two IOCTL requests for the same event twice.
 
   It is pended by the PF driver until it is canceled by the sender or until the PF driver experiences one of several PnP events, at which point it is completed. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -160,7 +170,8 @@ that an event notification has been delivered and must not complete two IOCTL re
 </pre>
 </td>
 </tr>
-</table></span></div><div class="code"><span codelanguage=""><table>
+</table></span></div>
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -231,4 +242,5 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
+
 

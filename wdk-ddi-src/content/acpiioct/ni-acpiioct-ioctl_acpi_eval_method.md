@@ -7,8 +7,8 @@ old-location: acpi\ioctl_acpi_eval_method.htm
 old-project: acpi
 ms.assetid: 3f7f904c-1d5e-4647-a566-1ec447a4cd13
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: acpi.ioctl_acpi_eval_method, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], IOCTL_ACPI_EVAL_METHOD, acpiioct/IOCTL_ACPI_EVAL_METHOD, acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	IOCTL_ACPI_EVAL_METHOD
 product: Windows
 targetos: Windows
-req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_EVAL_METHOD IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,6 +65,7 @@ A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request 
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
+
 <ul>
 <li>
 <i>IoControlCode</i> is set to IOCTL_ACPI_EVAL_METHOD.
@@ -104,13 +105,14 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 ### -output-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
+
 <ul>
 <li>
 <i>OutputBuffer</i> supplies a pointer to an <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>
@@ -123,14 +125,18 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -142,6 +148,7 @@ If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member 
 
 
 ## -remarks
+
 
 
 A driver for a device can use IOCTL_ACPI_EVAL_METHOD to synchronously evaluate a control method that the device supports. For example, if the device is named 'ABCD' in an ACPI namespace and the 'ABCD' device supports a method named '_FOO,' this IOCTL can be used to evaluate control method '_FOO' by sending the sending the request to the 'ABCD' device and supplying the control method name '_FOO.' 
@@ -176,29 +183,48 @@ IOCTL_ACPI_EVAL_METHOD can be used only at IRQL &lt; DISPATCH_LEVEL.
 
 
 
+
 ## -see-also
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+
+
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
- 
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20IOCTL_ACPI_EVAL_METHOD control code%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20IOCTL_ACPI_EVAL_METHOD control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

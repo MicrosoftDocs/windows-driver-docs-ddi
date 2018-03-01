@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._DSM_PARAMETERS
-title: _DSM_PARAMETERS
+title: "_DSM_PARAMETERS"
 author: windows-driver-content
 description: The DSM_PARAMETERS structure holds the DSM version and timer counters information.
 old-location: storage\dsm_parameters.htm
 old-project: storage
 ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml, PDSM_PARAMETERS structure pointer [Storage Devices], storage.dsm_parameters, mpiowmi/PDSM_PARAMETERS, _DSM_PARAMETERS, *PDSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, DSM_PARAMETERS
+ms.date: 2/24/2018
+ms.keywords: "*PDSM_PARAMETERS, DSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], _DSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, mpiowmi/PDSM_PARAMETERS, storage.dsm_parameters, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	DSM_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDSM_PARAMETERS, DSM_PARAMETERS
+req.typenames: DSM_PARAMETERS, *PDSM_PARAMETERS
 ---
 
 # _DSM_PARAMETERS structure

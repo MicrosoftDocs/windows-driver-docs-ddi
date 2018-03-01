@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_process_max_input_streams_data.htm
 old-project: display
 ms.assetid: 41518F04-4AD1-4057-8988-5934F3875B8E
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_process_max_input_streams_data, d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, display.d3d12ddi_video_process_max_input_streams_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
 product: Windows
 targetos: Windows

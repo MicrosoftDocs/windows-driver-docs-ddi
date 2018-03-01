@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RECLAIMALLOCATIONS2
-title: _D3DKMT_RECLAIMALLOCATIONS2
+title: "_D3DKMT_RECLAIMALLOCATIONS2"
 author: windows-driver-content
 description: D3DKMT_RECLAIMALLOCATIONS2 describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations2 function.
 old-location: display\d3dkmt_reclaimallocations2.htm
 old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_reclaimallocations2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, _D3DKMT_RECLAIMALLOCATIONS2
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_RECLAIMALLOCATIONS2
 product: Windows
 targetos: Windows
@@ -75,11 +75,6 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
 
 
 
-### -field pResults
-
-[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
-
-
 ### -field hPagingQueue
 
 [in] A handle to the device that created the allocations.
@@ -110,4 +105,9 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 ### -field PagingFenceValue
 
 The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
+
+
+#### - pResults
+
+[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
 

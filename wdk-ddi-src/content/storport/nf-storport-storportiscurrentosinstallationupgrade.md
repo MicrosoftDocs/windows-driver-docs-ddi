@@ -7,8 +7,8 @@ old-location: storage\storportiscurrentosinstallationupgrade.htm
 old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], StorPortIsCurrentOsInstallationUpgrade, storport/StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade
+ms.date: 2/24/2018
+ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortIsCurrentOsInstallationUpgrade
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ The value pointed to by <i>Upgraded</i> is set to <b>TRUE</b> if the current ope
 ## -returns
 
 
+
 The <b>StorPortIsCurrentOsInstallationUpgrade</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,6 +123,8 @@ The current IRQL &gt; PASSIVE_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

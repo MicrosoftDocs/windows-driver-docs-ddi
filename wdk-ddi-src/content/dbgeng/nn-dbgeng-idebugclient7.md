@@ -7,8 +7,8 @@ old-location: debugger\idebugclient7.htm
 old-project: debugger
 ms.assetid: 16FBD831-D7AE-4B10-B76E-6CA42C9CABEB
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging], described, IDebugClient7, dbgeng/IDebugClient7
+ms.date: 2/23/2018
+ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging], described, dbgeng/IDebugClient7, debugger.idebugclient7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient7
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient7 interface
@@ -51,6 +51,13 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 The <b>IDebugClient7</b> interface is reserved for internal use.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient7</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugClient7</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,7 +76,5 @@ The <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">Se
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">SetClientContext</a> method is reserved for internal use.
-
- 
+</table> 
 

@@ -7,8 +7,8 @@ old-location: biometric\ioctl_biometric_get_supported_algorithms.htm
 old-project: biometric
 ms.assetid: 0bc373a8-af60-419a-88e1-58888b88f24d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: biometric.ioctl_biometric_get_supported_algorithms, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml
+ms.date: 2/20/2018
+ms.keywords: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], biometric.ioctl_biometric_get_supported_algorithms, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winbio_ioctl.h
-apiname: 
+api_name:
 -	IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,14 +86,18 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -102,6 +106,7 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 Indicates whether the DeviceIoControl call to the driver completed and the OUT payload is valid.
 
 The <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -157,15 +162,18 @@ Any other failure that prevents the payload from being filled in.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
 
 Here are examples of OID strings for hash algorithms.
+
 <table>
 <tr>
 <th>
@@ -215,13 +223,15 @@ SHA-512
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS must be implemented if the device supports WINBIO_CAPABILITY_SECURE_STORAGE.  The device must support at least SHA-1 ("1.3.14.3.2.26") to be used for storing WinBio templates.
 
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_supported_algorithms.md">WINBIO_SUPPORTED_ALGORITHMS</a> with the status of the Biometric operation.
 
 Possible values include:
+
 
 
 

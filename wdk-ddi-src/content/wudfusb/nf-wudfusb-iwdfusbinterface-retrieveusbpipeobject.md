@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
 old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, IWDFUsbInterface interface, RetrieveUsbPipeObject method, umdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject, wdf.iwdfusbinterface_retrieveusbpipeobject, IWDFUsbInterface
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, RetrieveUsbPipeObject,IWDFUsbInterface.RetrieveUsbPipeObject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbInterface.RetrieveUsbPipeObject
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfusb\nn-wu
 ## -returns
 
 
+
 <b>RetrieveUsbPipeObject</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,14 +127,24 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
+
+
+#### Examples
+
+For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>.
+
+<div class="code"></div>
 
 
 
@@ -140,11 +152,15 @@ A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusb
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::RetrieveUsbPipeObject method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::RetrieveUsbPipeObject method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

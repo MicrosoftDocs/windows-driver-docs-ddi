@@ -7,8 +7,8 @@ old-location: netvista\providerallocatedmachannel.htm
 old-project: netvista
 ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providerallocatedmachannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], ProviderAllocateDmaChannel, DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER, netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml
+ms.date: 2/16/2018
+ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	ProviderAllocateDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNEL_ALLOCATE_HANDLER callback
@@ -80,15 +80,15 @@ NTSTATUS ProviderAllocateDmaChannel(
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ### -param ChannelParameters [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-     NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure that defines the configuration parameters for the DMA
+     <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+     NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
 
@@ -98,14 +98,7 @@ A handle that identifies the DMA channel. Provider drivers pass this handle to
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
 
-### -param *pProviderChannelContext
-
-
-
-
-
-
-#### - pProviderChannelContext [out]
+### -param *pProviderChannelContext [out]
 
 A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
      DMA provider driver allocates this context area before returning from 
@@ -116,7 +109,9 @@ A pointer to a value that is a pointer to a DMA provider's context area for the 
 ## -returns
 
 
+
 <i>ProviderAllocateDmaChannel</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +150,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -169,8 +167,8 @@ The NetDMA interface calls a DMA provider driver's
 The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU affinity that matches
     a bit that is specified in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure at the 
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
@@ -201,19 +199,28 @@ NetDMA calls
 
 
 
-## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+## -see-also
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
 
 <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
- 
+
+
+<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_CHANNEL_ALLOCATE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_CHANNEL_ALLOCATE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgackparams_v1.htm
 old-project: netvista
 ms.assetid: 96f1e6c2-f2cc-44f0-af9c-4a17ab22bdf4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSENDMSGACKPARAMS_V1, netvista.rilsendmsgackparams_v1, RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v1, ntddrilapitypes/RILSENDMSGACKPARAMS_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSENDMSGACKPARAMS_V1
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef struct _RILSENDMSGACKPARAMS_V1 {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwAckID
 
 
-
 ### -field dwMsgStatus
-
 

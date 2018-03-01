@@ -7,8 +7,8 @@ old-location: stream\ksclock_create.htm
 old-project: stream
 ms.assetid: 72986a01-de40-4b8f-9dfc-d26f4999e66b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSCLOCK_CREATE structure [Streaming Media Devices], ks/KSCLOCK_CREATE, PKSCLOCK_CREATE, *PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], ks/PKSCLOCK_CREATE, ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, stream.ksclock_create, KSCLOCK_CREATE
+ms.date: 2/23/2018
+ms.keywords: "*PKSCLOCK_CREATE, KSCLOCK_CREATE, KSCLOCK_CREATE structure [Streaming Media Devices], PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, ks/KSCLOCK_CREATE, ks/PKSCLOCK_CREATE, stream.ksclock_create"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSCLOCK_CREATE
 product: Windows
 targetos: Windows
-req.typenames: *PKSCLOCK_CREATE, KSCLOCK_CREATE
+req.typenames: KSCLOCK_CREATE, *PKSCLOCK_CREATE
 ---
 
 # KSCLOCK_CREATE structure
@@ -76,9 +76,11 @@ Currently consists of a flags item, which must be set to zero.
 
 <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCLOCK_CREATE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCLOCK_CREATE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

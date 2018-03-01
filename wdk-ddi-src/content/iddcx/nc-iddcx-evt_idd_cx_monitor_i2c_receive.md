@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_i2c_receive.htm
 old-project: display
 ms.assetid: f4d55fb9-57da-4f75-a0ab-89cc9516ac49
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.evt_idd_cx_monitor_i2c_receive, EvtIddCxMonitorI2cReceive callback function [Display Devices], EvtIddCxMonitorI2cReceive, EVT_IDD_CX_MONITOR_I2C_RECEIVE, EVT_IDD_CX_MONITOR_I2C_RECEIVE, iddcx/EvtIddCxMonitorI2cReceive, PFN_IDD_CX_MONITOR_I2C_RECEIVE callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_I2C_RECEIVE
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_MONITOR_I2C_RECEIVE, EvtIddCxMonitorI2cReceive, EvtIddCxMonitorI2cReceive callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_RECEIVE, PFN_IDD_CX_MONITOR_I2C_RECEIVE callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_receive, iddcx/EvtIddCxMonitorI2cReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	PFN_IDD_CX_MONITOR_I2C_RECEIVE
 product: Windows
 targetos: Windows
@@ -91,12 +91,15 @@ typedef EVT_IDD_CX_MONITOR_I2C_RECEIVE PFN_IDD_CX_MONITOR_I2C_RECEIVE;
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
 
 
 
+
 ## -remarks
+
 
 
 The <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> function is responsible for signaling the I2C start condition, sending the I2C address,
@@ -118,5 +121,6 @@ If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECIEVE</b> must
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
+
 
 

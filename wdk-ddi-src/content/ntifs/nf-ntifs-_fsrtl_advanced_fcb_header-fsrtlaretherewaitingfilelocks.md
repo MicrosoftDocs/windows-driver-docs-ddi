@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks, ifsk.fsrtlaretherewaitingfilelocks
+ms.date: 2/16/2018
+ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlAreThereWaitingFileLocks
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ The file lock that specifies locked ranges.
 
 
 
+
       Returns <b>TRUE</b> if waiting file  locks are present;  <b>FALSE</b> otherwise.
+
 
 

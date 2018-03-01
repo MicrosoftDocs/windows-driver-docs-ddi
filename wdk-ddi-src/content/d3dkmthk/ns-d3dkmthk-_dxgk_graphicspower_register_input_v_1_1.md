@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
-title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
+title: "_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1"
 author: windows-driver-content
 description: Used to register the power state of a new input.
 old-location: display\dxgk-graphicspower-register-input-v-1-1.htm
 old-project: display
 ms.assetid: 5b120f3c-43d2-447a-9959-0788d7decf50
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure pointer [Display Devices], DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure [Display Devices], d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, display.dxgk-graphicspower-register-input-v-1-1, DXGK_GRAPHICSPOWER_REGISTER_INPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_GRAPHICSPOWER_REGISTER_INPUT, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure [Display Devices], PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 structure pointer [Display Devices], _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, display.dxgk-graphicspower-register-input-v-1-1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:netdma._NET_DMA_DESCRIPTOR
-title: _NET_DMA_DESCRIPTOR
+title: "_NET_DMA_DESCRIPTOR"
 author: windows-driver-content
 description: The NET_DMA_DESCRIPTOR structure specifies the DMA transfer information for each entry in a linked list of DMA descriptors.
 old-location: netvista\net_dma_descriptor.htm
 old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_OP_TYPE_MASK, NET_DMA_NULL_TRANSFER, netvista.net_dma_descriptor, NET_DMA_DESTINATION_PAGE_BREAK, *PNET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_RESERVED_MASK, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], netdma/NET_DMA_DESCRIPTOR, NET_DMA_STATUS_UPDATE_ON_COMPLETION
+ms.date: 2/16/2018
+ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_NULL_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_OP_TYPE_MASK, NET_DMA_RESERVED_MASK, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma/NET_DMA_DESCRIPTOR, netdma/PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netvista.net_dma_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	NET_DMA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR
+req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
 ---
 
 # _NET_DMA_DESCRIPTOR structure
@@ -135,57 +135,12 @@ A DCA context.
 Reserved bits.
 
 
-### -field TransferSize
-
-The size, in bytes, of the memory block that is associated with this DMA descriptor. 
-      
-
-NetDMA 2.0 and later provider drivers use the 
-      <b>DCAContext32</b>, 
-      <b>DCAContext16</b>, and 
-      <b>DCAContext8</b> members of the union with 
-      <b>TransferSize</b> to support 
-      <mshelp:link keywords="netvista.direct_cache_access__dca_" tabindex="0">Direct Cache Access
-      (DCA)</mshelp:link>.
-
-
-### -field Reserved1
-
-A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
-      and later provider drivers use the 
-      <b>NextSourceAddress</b> member of the union with 
-      <b>Reserved1</b> to support 
-      <mshelp:link keywords="netvista.source_and_destination_page_break" tabindex="0">Source and Destination Page
-      Break</mshelp:link>.
-
-
-### -field NextSourceAddress
-
-The physical address of the second page of source address that is used in source page
-      break.
-
-
-### -field Reserved2
-
-A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
-      2.0 and later provider drivers use the 
-      <b>NextDestinationAddress</b> member of the union with 
-      <b>Reserved2</b> to support 
-      <mshelp:link keywords="netvista.source_and_destination_page_break" tabindex="0">Source and Destination Page
-      Break</mshelp:link>.
-
-
-### -field NextDestinationAddress
-
-The physical address of the second page of destination address that is used in destination page
-      break.
-
-
 ### -field ControlFlags
 
 A set of flags that specify the operations that the DMA engine should perform for this DMA
      descriptor. This member must contain one or more of the following values (combined with a bitwise OR
      operation):
+
 <table>
 <tr>
 <th>Unless otherwise noted, descriptions apply to when the bit is set.</th>
@@ -316,8 +271,8 @@ When this bit is cleared, the destination address is in coherent memory space, a
 The 
        <b>CompletionVirtualAddress</b> and 
        <b>CompletionPhysicalAddress</b> members in the 
-       <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-       NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure reference a completion status value. The DMA engine updates
+       <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+       NET_DMA_CHANNEL_PARAMETERS</a> structure reference a completion status value. The DMA engine updates
        the completion status value when it completes the processing of this descriptor. 
        
 
@@ -368,10 +323,12 @@ When this bit is cleared, a DMA transfer might be required or it might be a zero
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following bitmasks identify the remaining bits in the 
       <b>ControlFlags</b> member:
+
 <table>
 <tr>
 <th>Value</th>
@@ -399,7 +356,8 @@ A bit mask that specifies bits that are reserved for future applications. The Ne
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SourceAddress
@@ -429,7 +387,54 @@ A ULONG64 value that is reserved for the NetDMA interface to use.
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
+#### - NextDestinationAddress
+
+The physical address of the second page of destination address that is used in destination page
+      break.
+
+
+#### - NextSourceAddress
+
+The physical address of the second page of source address that is used in source page
+      break.
+
+
+#### - Reserved1
+
+A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
+      and later provider drivers use the 
+      <b>NextSourceAddress</b> member of the union with 
+      <b>Reserved1</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      Break</a>.
+
+
+#### - Reserved2
+
+A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
+      2.0 and later provider drivers use the 
+      <b>NextDestinationAddress</b> member of the union with 
+      <b>Reserved2</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      Break</a>.
+
+
+#### - TransferSize
+
+The size, in bytes, of the memory block that is associated with this DMA descriptor. 
+      
+
+NetDMA 2.0 and later provider drivers use the 
+      <b>DCAContext32</b>, 
+      <b>DCAContext16</b>, and 
+      <b>DCAContext8</b> members of the union with 
+      <b>TransferSize</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      (DCA)</a>.
+
+
 ## -remarks
+
 
 
 The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control information for a
@@ -451,17 +456,24 @@ The NetDMA interface calls a DMA provider driver's
 
 
 
-## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+## -see-also
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ksstreamallocator_functiontable.htm
 old-project: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSSTREAMALLOCATOR_FUNCTIONTABLE
 product: Windows
 targetos: Windows
-req.typenames: *PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE
+req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
 ---
 
 # KSSTREAMALLOCATOR_FUNCTIONTABLE structure
@@ -81,6 +81,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56717
 ## -remarks
 
 
+
 This property is only supported by allocators supporting the DISPATCH_LEVEL function interface. Allocators supporting this property must be able to allocate and free frames at IRQL &lt;= DISPATCH_LEVEL.
 
 Because the DISPATCH_LEVEL interface is closely associated with the IRP-based interface, acquiring the function table is likely to result in the creation of an internal notification event to allow pending I/O to be completed when frames are returned to the free list. When the handle to the allocator is closed, the function table pointers are invalid and the associated events are automatically disabled.
@@ -89,17 +90,24 @@ This property is only accessible from kernel-mode.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_FUNCTIONTABLE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_FUNCTIONTABLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

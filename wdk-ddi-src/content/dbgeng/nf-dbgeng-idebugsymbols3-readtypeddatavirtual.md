@@ -7,8 +7,8 @@ old-location: debugger\readtypeddatavirtual.htm
 old-project: debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::ReadTypedDataVirtual, debugger.readtypeddatavirtual, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols3, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataVirtual,IDebugSymbols3.ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, debugger.readtypeddatavirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols.ReadTypedDataVirtual
 -	IDebugSymbols2.ReadTypedDataVirtual
 -	IDebugSymbols3.ReadTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::ReadTypedDataVirtual method
@@ -107,6 +107,7 @@ Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +135,16 @@ The method was successful.  However, the buffer <i>Buffer</i> was not large enou
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The number of bytes this method attempts to read is the smaller of the size of the buffer and the size of the variable.
@@ -148,5 +152,6 @@ The number of bytes this method attempts to read is the smaller of the size of t
 This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
 
 

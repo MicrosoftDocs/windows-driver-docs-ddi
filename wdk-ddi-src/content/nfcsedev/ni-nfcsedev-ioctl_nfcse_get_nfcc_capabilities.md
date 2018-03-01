@@ -7,8 +7,8 @@ old-location: nfpdrivers\ioctl_nfcse_get_nfcc_capabilities.htm
 old-project: nfpdrivers
 ms.assetid: 4323FEDF-A7D0-4B67-BC3D-ECAA7AD1CC08
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.ioctl_nfcse_get_nfcc_capabilities, IOCTL_NFCSE_GET_NFCC_CAPABILITIES, _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES
+ms.date: 2/15/2018
+ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfcsedev.h
-apiname: 
+api_name:
 -	IOCTL_NFCSE_GET_NFCC_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,20 +87,25 @@ sizeof(SECURE_ELEMENT_NFCC_CAPABILITIES)
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -118,5 +123,6 @@ sizeof(SECURE_ELEMENT_NFCC_CAPABILITIES)
 <td><b>STATUS_INVALID_DEVICE_STATE</b></td>
 <td>If the IOCTL is sent on a handle other than with the relative name 'SEManage'.</td>
 </tr>
-</table> 
+</table>
+ 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._GetFCPStatistics_IN
-title: _GetFCPStatistics_IN
+title: "_GetFCPStatistics_IN"
 author: windows-driver-content
 description: The GetFCPStatistics_IN structure is used to deliver input parameter data to the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_in.htm
 old-project: storage
 ms.assetid: f6cb4532-fc66-45e7-a779-0981465d69fc
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.getfcpstatistics_in, hbapiwmi/GetFCPStatistics_IN, PGetFCPStatistics_IN structure pointer [Storage Devices], PGetFCPStatistics_IN, structs-Fibre_409be852-67ff-45c4-bce1-291076c1a70b.xml, GetFCPStatistics_IN, *PGetFCPStatistics_IN, _GetFCPStatistics_IN, hbapiwmi/PGetFCPStatistics_IN, GetFCPStatistics_IN structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PGetFCPStatistics_IN, GetFCPStatistics_IN, GetFCPStatistics_IN structure [Storage Devices], PGetFCPStatistics_IN, PGetFCPStatistics_IN structure pointer [Storage Devices], _GetFCPStatistics_IN, hbapiwmi/GetFCPStatistics_IN, hbapiwmi/PGetFCPStatistics_IN, storage.getfcpstatistics_in, structs-Fibre_409be852-67ff-45c4-bce1-291076c1a70b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	GetFCPStatistics_IN
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -83,11 +85,15 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFCPStatistics_IN structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFCPStatistics_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

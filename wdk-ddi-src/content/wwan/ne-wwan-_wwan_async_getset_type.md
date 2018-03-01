@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_ASYNC_GETSET_TYPE
-title: _WWAN_ASYNC_GETSET_TYPE
+title: "_WWAN_ASYNC_GETSET_TYPE"
 author: windows-driver-content
 description: The WWAN_ASYNC_GETSET_TYPE enumeration lists the different asynchronous OID get/set requests.
 old-location: netvista\wwan_async_getset_type.htm
 old-project: netvista
 ms.assetid: 2FECDA17-7B38-4636-AFAF-D923AECFAF68
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanAsyncGetDeviceServices, wwan/WwanAsyncSmsDelete, WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncGetDeviceServices, netvista.wwan_async_getset_type, WwanAsyncGetDeviceCaps, wwan/WwanAsyncGetSmsConfiguration, WwanAsyncSetDeviceServiceCommand, WwanAsyncGetVisibleProviders, wwan/WwanAsyncGetPacketService, *PWWAN_ASYNC_GETSET_TYPE, WwanAsyncGetConnect, WwanAsyncSetProvisionedContext, WwanAsyncGetPreferredProviders, WwanAsyncSetSignalState, wwan/WwanAsyncSetPinEx, wwan/WwanAsyncGetConnect, WwanAsyncSmsSend, WwanAsyncGetReadyInfo, WwanAsyncUssdRequest, wwan/WwanAsyncGetHomeProvider, WwanAsyncGetProvisionedContexts, wwan/WwanAsyncSetPin, _WWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncSmsSend, wwan/WwanAsyncGetProvisionedContexts, wwan/WwanAsyncSetProfileIndex, WwanAsyncSetPacketService, WWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncGetPinList, WwanAsyncSetConnect, WwanAsyncSmsRead, WwanAsyncSetProfileIndex, WwanAsyncSetRegisterState, wwan/WwanAsyncSetPacketService, wwan/WwanAsyncGetRegisterState, WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncSetSmsConfiguration, WwanAsyncAuthChallenge, wwan/WwanAsyncGetDeviceServiceCommand get request., WwanAsyncGetPacketService, WwanAsyncSetPin, WwanAsyncGetSmsConfiguration, wwan/WwanAsyncSetRadioState, wwan/WwanAsyncSetConnect, WWAN_ASYNC_GETSET_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanAsyncGetRadioState, WwanAsyncGetHomeProvider, wwan/WwanAsyncUssdRequest, wwan/WwanAsyncGetPinEx get request., WwanAsyncSetPreferredProviders, wwan/WwanAsyncGetRadioState, WwanAsyncSmsStatus, wwan/WwanAsyncSetRegisterState, wwan/WwanAsyncSubscribeDeviceServiceEvents, WwanAsyncSmsDelete, wwan/WwanAsyncSetSignalState, wwan/WwanAsyncSetHomeProvider, wwan/WwanAsyncSetVendorSpecific, wwan/WwanAsyncSetProvisionedContext, WwanAsyncGetRegisterState, wwan/WwanAsyncGetDeviceCaps, wwan/WwanAsyncSetServiceActivation, WwanAsyncGetSignalState, WwanAsyncGetPin, WwanAsyncGetPinList, WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetPreferredProviders, wwan/WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncSetPinEx, WwanAsyncGetPinEx get request., WwanAsyncSetVendorSpecific, wwan/WwanAsyncSmsStatus, wwan/WwanAsyncSetPreferredProviders, WwanAsyncSetRadioState, WwanAsyncSetHomeProvider, wwan/WwanAsyncAuthChallenge, wwan/WwanAsyncSetDeviceServiceCommand, wwan/WwanAsyncSmsRead, wwan/WwanAsyncGetReadyInfo, wwan/WwanAsyncGetSignalState, wwan/WwanAsyncGetVisibleProviders, WwanAsyncSetSmsConfiguration, WwanAsyncSetServiceActivation, wwan/WwanAsyncGetPin, wwan/WWAN_ASYNC_GETSET_TYPE
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_ASYNC_GETSET_TYPE, WWAN_ASYNC_GETSET_TYPE, WWAN_ASYNC_GETSET_TYPE enumeration [Network Drivers Starting with Windows Vista], WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncAuthChallenge, WwanAsyncGetConnect, WwanAsyncGetDeviceCaps, WwanAsyncGetDeviceServiceCommand get request., WwanAsyncGetDeviceServices, WwanAsyncGetHomeProvider, WwanAsyncGetPacketService, WwanAsyncGetPin, WwanAsyncGetPinEx get request., WwanAsyncGetPinList, WwanAsyncGetPreferredProviders, WwanAsyncGetProvisionedContexts, WwanAsyncGetRadioState, WwanAsyncGetReadyInfo, WwanAsyncGetRegisterState, WwanAsyncGetSignalState, WwanAsyncGetSmsConfiguration, WwanAsyncGetVisibleProviders, WwanAsyncSetConnect, WwanAsyncSetDeviceServiceCommand, WwanAsyncSetHomeProvider, WwanAsyncSetPacketService, WwanAsyncSetPin, WwanAsyncSetPinEx, WwanAsyncSetPreferredProviders, WwanAsyncSetProfileIndex, WwanAsyncSetProvisionedContext, WwanAsyncSetRadioState, WwanAsyncSetRegisterState, WwanAsyncSetServiceActivation, WwanAsyncSetSignalState, WwanAsyncSetSmsConfiguration, WwanAsyncSetVendorSpecific, WwanAsyncSmsDelete, WwanAsyncSmsRead, WwanAsyncSmsSend, WwanAsyncSmsStatus, WwanAsyncSubscribeDeviceServiceEvents, WwanAsyncUssdRequest, _WWAN_ASYNC_GETSET_TYPE, netvista.wwan_async_getset_type, wwan/WWAN_ASYNC_GETSET_TYPE, wwan/WWAN_ASYNC_GETSET_TYPE_MAX, wwan/WwanAsyncAuthChallenge, wwan/WwanAsyncGetConnect, wwan/WwanAsyncGetDeviceCaps, wwan/WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetDeviceServices, wwan/WwanAsyncGetHomeProvider, wwan/WwanAsyncGetPacketService, wwan/WwanAsyncGetPin, wwan/WwanAsyncGetPinEx get request., wwan/WwanAsyncGetPinList, wwan/WwanAsyncGetPreferredProviders, wwan/WwanAsyncGetProvisionedContexts, wwan/WwanAsyncGetRadioState, wwan/WwanAsyncGetReadyInfo, wwan/WwanAsyncGetRegisterState, wwan/WwanAsyncGetSignalState, wwan/WwanAsyncGetSmsConfiguration, wwan/WwanAsyncGetVisibleProviders, wwan/WwanAsyncSetConnect, wwan/WwanAsyncSetDeviceServiceCommand, wwan/WwanAsyncSetHomeProvider, wwan/WwanAsyncSetPacketService, wwan/WwanAsyncSetPin, wwan/WwanAsyncSetPinEx, wwan/WwanAsyncSetPreferredProviders, wwan/WwanAsyncSetProfileIndex, wwan/WwanAsyncSetProvisionedContext, wwan/WwanAsyncSetRadioState, wwan/WwanAsyncSetRegisterState, wwan/WwanAsyncSetServiceActivation, wwan/WwanAsyncSetSignalState, wwan/WwanAsyncSetSmsConfiguration, wwan/WwanAsyncSetVendorSpecific, wwan/WwanAsyncSmsDelete, wwan/WwanAsyncSmsRead, wwan/WwanAsyncSmsSend, wwan/WwanAsyncSmsStatus, wwan/WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncUssdRequest"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_ASYNC_GETSET_TYPE
 product: Windows
 targetos: Windows
@@ -298,9 +298,7 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/hh4400
 ### -field WwanAsyncGetPinEx
 
 
-
 ### -field WwanAsyncGetDeviceServiceCommand
-
 
 
 ### -field WwanAsyncSetDeviceServiceCommand
@@ -311,163 +309,120 @@ Asynchronous OID_WWAN_DEVICE_SERVICE_COMMAND set request.
 ### -field WwanAsyncQueryDeviceServiceSupportedCommands
 
 
-
 ### -field WwanAsyncGetPreferredMultiCarrierProviders
-
 
 
 ### -field WwanAsyncSetPreferredMultiCarrierProviders
 
 
-
 ### -field WwanAsyncSetDeviceServiceSession
-
 
 
 ### -field WwanAsyncWriteDeviceServiceSession
 
 
-
 ### -field WwanAsyncSetNetworkIdleHint
-
 
 
 ### -field WwanAsyncSetPreshutdown
 
 
-
 ### -field WwanAsyncGetAtr
-
 
 
 ### -field WwanAsyncUiccOpenChannel
 
 
-
 ### -field WwanAsyncUiccCloseChannel
-
 
 
 ### -field WwanAsyncUiccSendApdu
 
 
-
 ### -field WwanAsyncUiccGetTerminalCapability
-
 
 
 ### -field WwanAsyncUiccSetTerminalCapability
 
 
-
 ### -field WwanAsyncGetPsMediaConfig
-
 
 
 ### -field WwanAsyncSetPsMediaConfig
 
 
-
 ### -field WwanAsyncGetSarConfig
-
 
 
 ### -field WwanAsyncSetSarConfig
 
 
-
 ### -field WwanAsyncGetSarTransmissionStatus
-
 
 
 ### -field WwanAsyncSetSarTransmissionStatus
 
 
-
 ### -field WwanAsyncGetNetworkBlacklist
-
 
 
 ### -field WwanAsyncSetNetworkBlacklist
 
 
-
 ### -field WwanAsyncGetLteAttachConfig
-
 
 
 ### -field WwanAsyncSetLteAttachConfig
 
 
-
 ### -field WwanAsyncGetLteAttachStatus
-
 
 
 ### -field WwanAsyncSetLteAttachStatus
 
 
-
 ### -field WwanAsyncGetProvisionedContextsV2
-
 
 
 ### -field WwanAsyncSetProvisionedContextV2
 
 
-
 ### -field WwanAsyncGetSysCap
-
 
 
 ### -field WwanAsyncGetDeviceCapsEx
 
 
-
 ### -field WwanAsyncGetUiccSlotMapping
-
 
 
 ### -field WwanAsyncSetUiccSlotMapping
 
 
-
 ### -field WwanAsyncGetUiccSlotInfo
-
 
 
 ### -field WwanAsyncGetModemConfigInfo
 
 
-
 ### -field WwanAsyncGetPcoStatus
-
 
 
 ### -field WwanAsyncUiccGetReset
 
 
-
 ### -field WwanAsyncUiccSetReset
-
 
 
 ### -field WwanAsyncSetDeviceReset
 
 
-
 ### -field WwanAsyncGetCellInfo
-
 
 
 ### -field WWAN_ASYNC_GETSET_TYPE_MAX
 
 The maximum number of entries in the WWAN_ASYNC_GETSET_TYPE enumeration.
-
-
-##### - WwanAsyncGetPinEx get request.
-
-Asynchronous OID_WWAN_PIN_EX get request.
 
 
 ##### - WwanAsyncGetDeviceServiceCommand get request.
@@ -476,13 +431,20 @@ Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/hh4400
 
 
 
+##### - WwanAsyncGetPinEx get request.
+
+Asynchronous OID_WWAN_PIN_EX get request.
+
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/922b6b55-c332-4721-bbd1-571b0e154df3">MB Data Model</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_ASYNC_GETSET_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_ASYNC_GETSET_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

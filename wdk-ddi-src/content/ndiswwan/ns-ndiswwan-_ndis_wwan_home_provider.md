@@ -1,14 +1,14 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_HOME_PROVIDER
-title: _NDIS_WWAN_HOME_PROVIDER
+title: "_NDIS_WWAN_HOME_PROVIDER"
 author: windows-driver-content
 description: The NDIS_WWAN_HOME_PROVIDER structure represents details about the home network provider.
 old-location: netvista\ndis_wwan_home_provider.htm
 old-project: netvista
 ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider, *PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, ndiswwan/NDIS_WWAN_HOME_PROVIDER, _NDIS_WWAN_HOME_PROVIDER
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, _NDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndiswwan.h
-apiname: 
+api_name:
 -	NDIS_WWAN_HOME_PROVIDER
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_HOME_PR
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_HOME_PROVIDER)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -123,6 +125,7 @@ For more information about these members, see
 The status of the home provider operation. The following table shows the possible values for this
      member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -192,7 +195,8 @@ The operation failed because a bad SIM card was detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Provider
@@ -206,11 +210,15 @@ A formatted
 
 <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_HOME_PROVIDER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_HOME_PROVIDER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

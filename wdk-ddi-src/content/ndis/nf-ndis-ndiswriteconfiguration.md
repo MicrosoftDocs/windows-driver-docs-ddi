@@ -7,8 +7,8 @@ old-location: netvista\ndiswriteconfiguration.htm
 old-project: netvista
 ms.assetid: 63c94f4d-1c8c-43c2-ae58-993da42a80a4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], netvista.ndiswriteconfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, NdisWriteConfiguration
+ms.date: 2/16/2018
+ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisWriteConfiguration
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisWriteConfiguration function
@@ -82,14 +82,42 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+The supplied value at 
+       <i>ParameterValue</i> was written into the registry. If this is a new entry, the name at 
+       <i>Keyword</i> also was written into the registry.
+
+
+
+#### NDIS_STATUS_NOT_SUPPORTED
+
+The supplied 
+       <b>ParameterType</b> is invalid.
+
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS could not allocate resources, usually enough memory, to transfer the requested information
+       to the registry.
+
+
+
+#### NDIS_STATUS_FAILURE
+
+The requested information could not be written.
+
+
 ### -param ConfigurationHandle [in]
 
 The handle to a registry key that was returned by the 
      <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>, 
-     <mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-     NdisOpenConfigurationKeyByIndex</b></mshelp:link>, or 
-     <mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-     NdisOpenConfigurationKeyByName</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+     NdisOpenConfigurationKeyByIndex</a>, or 
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+     NdisOpenConfigurationKeyByName</a> function.
 
 
 ### -param Keyword [in]
@@ -104,42 +132,21 @@ A pointer to an NDIS_STRING type describing a caller-supplied counted string, in
 ### -param ParameterValue [in]
 
 Pointer to a caller-supplied 
-     <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-     NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-The requested information could not be written.
-
-
-##### - Status.NDIS_STATUS_NOT_SUPPORTED
-
-The supplied 
-       <b>ParameterType</b> is invalid.
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS could not allocate resources, usually enough memory, to transfer the requested information
-       to the registry.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The supplied value at 
-       <i>ParameterValue</i> was written into the registry. If this is a new entry, the name at 
-       <i>Keyword</i> also was written into the registry.
+     <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+     NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 If an entry of the same name as at 
@@ -161,16 +168,17 @@ In the configuration registry of Windows 2000 and later versions, an NDIS
     The caller of 
     <b>NdisWriteConfiguration</b> is responsible for releasing the buffered string at 
     <i>Keyword</i> and the memory allocated for the 
-    <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-    NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 As an alternative to calling 
     <b>NdisWriteConfiguration</b>, every NDIS driver can set up configuration information in the registry for
     itself using the AddReg directive in the driver's INF file.
 
 For more information about setup and installation files for Windows 2000 and later versions, see 
-    <mshelp:link keywords="devinst.overview_of_device_and_driver_installation" tabindex="0">Device Installation
-    Overview</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-device-and-driver-installation">Device Installation
+    Overview</a>.
+
 
 
 
@@ -178,43 +186,75 @@ For more information about setup and installation files for Windows 2000 and lat
 
 <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
-
-<mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
-   NdisUnicodeStringToAnsiString</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-   NdisOpenConfigurationKeyByName</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
-   NdisAnsiStringToUnicodeString</b></mshelp:link>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+   NdisOpenConfigurationKeyByIndex</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
+   NdisUnicodeStringToAnsiString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisansistringtounicodestring.md">
+   NdisAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteConfiguration function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteConfiguration function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

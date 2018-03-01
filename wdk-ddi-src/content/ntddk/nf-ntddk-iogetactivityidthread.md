@@ -7,8 +7,8 @@ old-location: kernel\iogetactivityidthread.htm
 old-project: kernel
 ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/IoGetActivityIdThread, kernel.iogetactivityidthread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], IoGetActivityIdThread
+ms.date: 2/24/2018
+ms.keywords: IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread, ntddk/IoGetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetActivityIdThread
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetActivityIdThread function
@@ -68,13 +68,15 @@ LPCGUID IoGetActivityIdThread(
 
 
 
-##### - None.
 
+##### - None.
 
 
 ## -returns
 
 
+
 The activity ID associated with the current thread.
+
 
 

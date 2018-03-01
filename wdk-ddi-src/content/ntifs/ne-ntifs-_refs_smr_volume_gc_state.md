@@ -1,14 +1,14 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_STATE
-title: _REFS_SMR_VOLUME_GC_STATE
+title: "_REFS_SMR_VOLUME_GC_STATE"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_STATE enum specifies the garbage collection's current state.
 old-location: ifsk\refs_smr_volume_gc_state.htm
 old-project: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SmrGcStateActiveFullSpeed, PREFS_SMR_VOLUME_GC_STATE, SmrGcStateInactive, *PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActiveFullSpeed, _REFS_SMR_VOLUME_GC_STATE, SmrGcStateActive, ntifs/SmrGcStatePaused, ntifs/SmrGcStateActive, ntifs/SmrGcStateInactive, ntifs/REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE, SmrGcStatePaused, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: "*PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], SmrGcStateActive, SmrGcStateActiveFullSpeed, SmrGcStateInactive, SmrGcStatePaused, _REFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, ntifs/SmrGcStateActiveFullSpeed, ntifs/SmrGcStateInactive, ntifs/SmrGcStatePaused"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntifs.h
-apiname: 
+api_name:
 -	REFS_SMR_VOLUME_GC_STATE
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:scsi._SES_CONFIGURATION_DIAGNOSTIC_PAGE
-title: _SES_CONFIGURATION_DIAGNOSTIC_PAGE
+title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE"
 author: windows-driver-content
 description: TBD.
 old-location: storage\ses_configuration_diagnostic_page.htm
 old-project: storage
 ms.assetid: 0FD748D6-F598-44D1-A8D3-E63764CB90C6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page
+ms.date: 2/24/2018
+ms.keywords: "*PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	SES_CONFIGURATION_DIAGNOSTIC_PAGE
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UNLOCK2
-title: _D3DDDICB_UNLOCK2
+title: "_D3DDDICB_UNLOCK2"
 author: windows-driver-content
 description: D3DDDICB_UNLOCK2 describes an allocation to unlock.
 old-location: display\d3dddicb_unlock2.htm
 old-project: display
 ms.assetid: 3ACE32ED-75C5-440D-BAA1-470C4E043299
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDICB_UNLOCK2 structure [Display Devices], _D3DDDICB_UNLOCK2, d3dumddi/D3DDDICB_UNLOCK2, display.d3dddicb_unlock2, D3DDDICB_UNLOCK2
+ms.date: 2/24/2018
+ms.keywords: D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], _D3DDDICB_UNLOCK2, d3dumddi/D3DDDICB_UNLOCK2, display.d3dddicb_unlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDICB_UNLOCK2
 product: Windows
 targetos: Windows

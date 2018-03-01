@@ -7,8 +7,8 @@ old-location: netvista\ndisadvancenetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 49b69282-137d-4bb5-92f5-4d27cedbb6d4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart, netvista.ndisadvancenetbufferdatastart
+ms.date: 2/16/2018
+ms.keywords: NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferDataStart, ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, netvista.ndisadvancenetbufferdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisAdvanceNetBufferDataStart
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAdvanceNetBufferDataStart function
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisAdvanceNetBufferDataStart</b> function to release the 
   <i>used data space</i> that was added with the 
-  <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-  NdisRetreatNetBufferDataStart</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+  NdisRetreatNetBufferDataStart</a> function.
 
 
 ## -syntax
@@ -107,16 +107,19 @@ An optional entry point for an
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If NDIS allocated memory to satisfy a corresponding call to the 
-    <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-    NdisRetreatNetBufferDataStart</b></mshelp:link> function, then 
+    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    NdisRetreatNetBufferDataStart</a> function, then 
     <b>NdisAdvanceNetBufferDataStart</b> frees the memory that 
     <b>NdisRetreatNetBufferDataStart</b> allocated. Otherwise, the memory remains in the MDL and only the
     value of the 
@@ -137,20 +140,29 @@ When protocol drivers call
 
 
 
-## -see-also
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferDataStart</b></mshelp:link>
+## -see-also
 
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 
+
+
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAdvanceNetBufferDataStart function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAdvanceNetBufferDataStart function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlquerycachedvdl.htm
 old-project: ifsk
 ms.assetid: 5D4F3D70-6E2B-4B2E-91A4-6852AF8FEAD0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlQueryCachedVdl routine [Installable File System Drivers], ifsk.fsrtlquerycachedvdl, FsRtlQueryCachedVdl, ntifs/FsRtlQueryCachedVdl
+ms.date: 2/16/2018
+ms.keywords: FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], ifsk.fsrtlquerycachedvdl, ntifs/FsRtlQueryCachedVdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlQueryCachedVdl
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ The file object to retrieve the cached VDL for.
 ## -returns
 
 
+
 <b>FsRtlQueryCachedVdl</b> returns <b>STATUS_SUCCESS</b> if the cached VDL is obtained successfully for the <i>FileObject</i> specified. Otherwise, another appropriate <b>NTSTATUS</b> value is returned.
+
 
 
 
 ## -remarks
 
 
+
 The <b>FsRtlQueryCachedVdl</b> routine will return the VDL for a full span file region. This is a region beginning at an offset of 0 and having a length of <b>MAXLONGLONG</b>.
+
 
 

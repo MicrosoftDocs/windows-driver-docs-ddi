@@ -7,8 +7,8 @@ old-location: audio\waveformatextensible.htm
 old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], ksmedia/WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], PWAVEFORMATEXTENSIBLE, ksmedia/PWAVEFORMATEXTENSIBLE
+ms.date: 2/22/2018
+ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	WAVEFORMATEXTENSIBLE
 product: Windows
 targetos: Windows
@@ -74,28 +74,30 @@ typedef struct {
 
 
 
+### -field Format
+
+Specifies the stream's wave-data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>. The <b>wFormat</b> member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The <b>wBitsPerSample</b> member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and <b>wBitsPerSample</b> must be a multiple of eight.
+
+
 ### -field Samples
 
 
 
-### -field Samples.wValidBitsPerSample
+#### wValidBitsPerSample
 
 Specifies the precision of the sample in bits. The value of this member should be less than or equal to the container size specified in the <b>Format</b>.<b>wBitsPerSample</b> member. For more information, see the following Remarks section.
 
 
-### -field Samples.wSamplesPerBlock
+
+#### wSamplesPerBlock
 
 Specifies the number of samples contained in one compressed block. This value is useful for estimating buffer requirements for compressed formats that have a fixed number of samples within each block. Set this member to zero if each block of compressed audio data contains a variable number of samples. In this case, buffer-estimation and buffer-position information must be obtained in other ways.
 
 
-### -field Samples.wReserved
+
+#### wReserved
 
 Reserved for internal use by operating system. Initialize to zero.
-
-
-### -field Format
-
-Specifies the stream's wave-data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>. The <b>wFormat</b> member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The <b>wBitsPerSample</b> member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and <b>wBitsPerSample</b> must be a multiple of eight.
 
 
 ### -field dwChannelMask
@@ -111,6 +113,7 @@ Specifies the subformat. For more information, see the following Remarks section
 ## -remarks
 
 
+
 WAVEFORMATEXTENSIBLE is an extended form of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see <a href="https://msdn.microsoft.com/85aa74b4-8e33-49f4-82e7-561baa55c265">Audio Data Formats and Data Ranges</a>.
 
 Frequently, the <b>wValidBitsPerSample</b> member, which specifies the sample precision, contains the same value as the <b>Format</b>.<b>wBitsPerSample</b> member, which specifies the sample container size. However, these values can be different. For example, if the wave data originated from a 20-bit A/D converter, then <b>wValidBitsPerSample</b> should be 20 but <b>Format</b>.<b>wBitsPerSample</b> might be 24 or 32. If <b>wValidBitsPerSample</b> is less than <b>Format</b>.<b>wBitsPerSample</b>, the valid bits (the actual PCM data) are left-aligned within the container. The unused bits in the least-significant portion of the container should be set to zero.
@@ -118,6 +121,7 @@ Frequently, the <b>wValidBitsPerSample</b> member, which specifies the sample pr
 Sample containers begin and end on byte boundaries, and the value of <b>Format</b>.<b>wBitsPerSample</b> should always be a multiple of eight. Also, the value of <b>wValidBitsPerSample</b> should never exceed that of <b>Format</b>.<b>wBitsPerSample</b>. Drivers should reject wave formats that violate these rules.
 
 The WAVEFORMATEXTENSIBLE structure's <b>dwChannelMask</b> member contains a mask indicating which channels are present in the multichannel stream. The least-significant bit represents the front-left speaker, the next bit corresponds to the front-right speaker, and so on. The following flag bits are defined in the header file Ksmedia.h.
+
 <table>
 <tr>
 <th>Speaker position</th>
@@ -303,7 +307,8 @@ SPEAKER_TOP_BACK_RIGHT
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The channels that are specified in <b>dwChannelMask</b> should be present in the order shown in the preceding table, beginning at the top.
 
@@ -344,6 +349,7 @@ Before WAVEFORMATEXTENSIBLE was introduced in Windows 98 Second Edition, WAVEFOR
 With WAVEFORMATEXTENSIBLE, registering formats is no longer necessary. Vendors can independently assign <b>SubFormat</b> GUIDs to their new formats as needed. However, Microsoft lists some of the more popular <b>SubFormat</b> GUIDs in public header file Ksmedia.h. Before defining a new <b>SubFormat</b> GUID, vendors should check the list of KSDATAFORMAT_SUBTYPE_<i>Xxx</i> constants in Ksmedia.h to see if an appropriate GUID has already been defined for a particular format.
 
 For backward compatibility, any wave format that can be specified by a stand-alone WAVEFORMATEX structure can also be defined by a WAVEFORMATEXTENSIBLE structure. Thus, every format tag in Mmreg.h has a corresponding <b>SubFormat</b> GUID. The following table shows some typical format tags and their corresponding <b>SubFormat</b> GUIDs.
+
 <table>
 <tr>
 <th>Format tag</th>
@@ -409,7 +415,8 @@ KSDATAFORMAT_SUBTYPE_ADPCM
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information, see <a href="https://msdn.microsoft.com/299ad5d3-df62-41cf-a18f-daa83cc60ef3">Converting Between Format Tags and Subformat GUIDs</a>.
 
@@ -417,15 +424,20 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20WAVEFORMATEXTENSIBLE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20WAVEFORMATEXTENSIBLE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

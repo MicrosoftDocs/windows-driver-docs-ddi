@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_field.htm
 old-project: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped, ExtRemoteTyped::Field, Field method [Windows Debugging], Field method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], Field method, Field
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Field method, ExtRemoteTyped::Field, Field method [Windows Debugging], Field method [Windows Debugging], ExtRemoteTyped interface, Field,ExtRemoteTyped.Field, debugger.extremotetyped_field
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	engextcpp.hpp
-apiname: 
+api_name:
 -	ExtRemoteTyped.Field
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ The name of the member whose typed data is requested.  Sub-members can be specif
 ## -returns
 
 
+
 <b>Field</b> returns a new <b>ExtRemoteTyped</b> object that represents the typed data for the specified member.
+
 
 

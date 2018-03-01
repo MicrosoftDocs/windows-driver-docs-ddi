@@ -7,8 +7,8 @@ old-location: netvista\ndismcmcloseaddressfamilycomplete.htm
 old-project: netvista
 ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMCmCloseAddressFamilyComplete, ndis/NdisMCmCloseAddressFamilyComplete, condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, netvista.ndismcmcloseaddressfamilycomplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NdisMCmCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmCloseAddressFamilyComplete macro
@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle passed to the MCM driver's 
@@ -96,6 +98,7 @@ The caller sets this to NDIS_STATUS_SUCCESS.
 ## -remarks
 
 
+
 An MCM driver must call 
     <b>NdisMCmCloseAddressFamilyComplete</b> if its 
     <a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a> function previously
@@ -107,8 +110,8 @@ An MCM driver must call
 
 A call to 
     <b>NdisMCmCloseAddressFamilyComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclcloseafcomplete" tabindex="0"><i>
-    ProtocolClCloseAfComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">
+    ProtocolClCloseAfComplete</a> function.
 
 The MCM driver cannot subsequently use the 
     <i>NdisAfHandle</i>, which is invalid for the MCM driver when 
@@ -121,22 +124,33 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
-<mshelp:link keywords="netvista.ndiscmcloseaddressfamilycomplete" tabindex="0"><b>
-   NdisCmCloseAddressFamilyComplete</b></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+   NdisCmCloseAddressFamilyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCloseAddressFamilyComplete macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCloseAddressFamilyComplete macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

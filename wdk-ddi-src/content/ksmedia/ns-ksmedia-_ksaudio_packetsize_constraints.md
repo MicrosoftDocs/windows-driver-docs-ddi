@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_CONSTRAINTS
-title: _KSAUDIO_PACKETSIZE_CONSTRAINTS
+title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS"
 author: windows-driver-content
 description: The KSAUDIO_PACKETSIZE_CONSTRAINTS structure describes the physical hardware constraints.
 old-location: audio\ksaudio_packetsize_constraints.htm
 old-project: audio
 ms.assetid: 6BD3E98A-A2A5-4285-8F41-1445F90DD8EB
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: FILE_32_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_QUAD_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], FILE_LONG_ALIGNMENT, FILE_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_OCTA_ALIGNMENT, FILE_WORD_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], KSAUDIO_PACKETSIZE_CONSTRAINTS, _KSAUDIO_PACKETSIZE_CONSTRAINTS
+ms.date: 2/22/2018
+ms.keywords: FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_WORD_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], _KSAUDIO_PACKETSIZE_CONSTRAINTS, audio.ksaudio_packetsize_constraints, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSAUDIO_PACKETSIZE_CONSTRAINTS
 product: Windows
 targetos: Windows
@@ -80,7 +80,67 @@ The absolute minimum processing period supported by the driver expressed in hund
 ### -field PacketSizeFileAlignment
 
 The byte size alignment requirement. Use one of these defined file alignment values:
-<a id="FILE_BYTE_ALIGNMENT"></a><a id="file_byte_alignment"></a>
+
+<a id="FILE_BYTE_ALIGNMENT"></a>
+<a id="file_byte_alignment"></a>
+
+
+#### FILE_BYTE_ALIGNMENT
+
+<a id="FILE_WORD_ALIGNMENT"></a>
+<a id="file_word_alignment"></a>
+
+
+#### FILE_WORD_ALIGNMENT
+
+<a id="FILE_LONG_ALIGNMENT"></a>
+<a id="file_long_alignment"></a>
+
+
+#### FILE_LONG_ALIGNMENT
+
+<a id="FILE_QUAD_ALIGNMENT"></a>
+<a id="file_quad_alignment"></a>
+
+
+#### FILE_QUAD_ALIGNMENT
+
+<a id="FILE_OCTA_ALIGNMENT"></a>
+<a id="file_octa_alignment"></a>
+
+
+#### FILE_OCTA_ALIGNMENT
+
+<a id="FILE_32_BYTE_ALIGNMENT"></a>
+<a id="file_32_byte_alignment"></a>
+
+
+#### FILE_32_BYTE_ALIGNMENT
+
+<a id="FILE_64_BYTE_ALIGNMENT"></a>
+<a id="file_64_byte_alignment"></a>
+
+
+#### FILE_64_BYTE_ALIGNMENT
+
+<a id="FILE_128_BYTE_ALIGNMENT"></a>
+<a id="file_128_byte_alignment"></a>
+
+
+#### FILE_128_BYTE_ALIGNMENT
+
+<a id="FILE_256_BYTE_ALIGNMENT"></a>
+<a id="file_256_byte_alignment"></a>
+
+
+#### FILE_256_BYTE_ALIGNMENT
+
+<a id="FILE_512_BYTE_ALIGNMENT"></a>
+<a id="file_512_byte_alignment"></a>
+
+
+#### FILE_512_BYTE_ALIGNMENT
+
 
 ### -field Reserved
 
@@ -98,47 +158,8 @@ An array of 0 or more processing mode constraints.
 
 
 
-##### - PacketSizeFileAlignment.FILE_512_BYTE_ALIGNMENT
-
-
-
-##### - PacketSizeFileAlignment.FILE_BYTE_ALIGNMENT
-
-<a id="FILE_WORD_ALIGNMENT"></a><a id="file_word_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_QUAD_ALIGNMENT
-
-<a id="FILE_OCTA_ALIGNMENT"></a><a id="file_octa_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_64_BYTE_ALIGNMENT
-
-<a id="FILE_128_BYTE_ALIGNMENT"></a><a id="file_128_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_256_BYTE_ALIGNMENT
-
-<a id="FILE_512_BYTE_ALIGNMENT"></a><a id="file_512_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_OCTA_ALIGNMENT
-
-<a id="FILE_32_BYTE_ALIGNMENT"></a><a id="file_32_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_WORD_ALIGNMENT
-
-<a id="FILE_LONG_ALIGNMENT"></a><a id="file_long_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_LONG_ALIGNMENT
-
-<a id="FILE_QUAD_ALIGNMENT"></a><a id="file_quad_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_128_BYTE_ALIGNMENT
-
-<a id="FILE_256_BYTE_ALIGNMENT"></a><a id="file_256_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_32_BYTE_ALIGNMENT
-
-<a id="FILE_64_BYTE_ALIGNMENT"></a><a id="file_64_byte_alignment"></a>
-
 ## -remarks
+
 
 
 The driver sets this variable length data structure as the value of the DEVPKEY_KsAudio_PacketSize_Constraints property on the PnP interface of the KS filter that has the streaming pins with the constraints. 
@@ -148,15 +169,20 @@ For WaveRT drivers, this data structure describes the constraints for a WaveRT p
 
 
 
-## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a>
+## -see-also
 
 <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
- 
+
+
+<a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_PACKETSIZE_CONSTRAINTS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_PACKETSIZE_CONSTRAINTS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

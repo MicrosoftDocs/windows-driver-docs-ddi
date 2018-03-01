@@ -1,14 +1,14 @@
 ---
 UID: NS:fltkernel._FLT_OPERATION_REGISTRATION
-title: _FLT_OPERATION_REGISTRATION
+title: "_FLT_OPERATION_REGISTRATION"
 author: windows-driver-content
 description: The FLT_OPERATION_REGISTRATION structure is used to register operation callback routines.
 old-location: ifsk\flt_operation_registration.htm
 old-project: ifsk
 ms.assetid: 5e3f9a29-660e-46f1-bf25-5bad8b91e32c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PFLT_OPERATION_REGISTRATION, ifsk.flt_operation_registration, fltkernel/PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], _FLT_OPERATION_REGISTRATION, FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, FLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION structure [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: "*PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], _FLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION, fltkernel/PFLT_OPERATION_REGISTRATION, ifsk.flt_operation_registration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	fltkernel.h
-apiname: 
+api_name:
 -	FLT_OPERATION_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: *PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION
+req.typenames: FLT_OPERATION_REGISTRATION, *PFLT_OPERATION_REGISTRATION
 ---
 
 # _FLT_OPERATION_REGISTRATION structure
@@ -79,6 +79,7 @@ Major function code specifying the type of I/O operation. This member is require
 ### -field Flags
 
 Bitmask of flags specifying when to call the preoperation (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) and postoperation (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) callback routines for cached I/O or paging I/O operations. This member is optional and can be zero. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -104,7 +105,8 @@ A minifilter sets this flag for read or write operations to specify that its pre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PreOperation
@@ -125,6 +127,7 @@ Reserved for system use. Minifilters must set this member to <b>NULL</b>.
 ## -remarks
 
 
+
 When a minifilter calls <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <b>DriverEntry</b> routine, it can register a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine and a postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine for each type of I/O operation that it must handle. 
 
 To register these callback routines, the minifilter creates a variable-length array of FLT_OPERATION_REGISTRATION structures and stores a pointer to the array in the <b>OperationRegistration</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> structure that the minifilter passes as the <i>Registration</i> parameter of <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>. The last element of this array must be {IRP_MJ_OPERATION_END}. 
@@ -141,19 +144,28 @@ A single preoperation or postoperation callback routine can be used to process m
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
- 
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_OPERATION_REGISTRATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_OPERATION_REGISTRATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

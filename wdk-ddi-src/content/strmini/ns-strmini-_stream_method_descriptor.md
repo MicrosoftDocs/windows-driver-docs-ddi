@@ -1,14 +1,14 @@
 ---
 UID: NS:strmini._STREAM_METHOD_DESCRIPTOR
-title: _STREAM_METHOD_DESCRIPTOR
+title: "_STREAM_METHOD_DESCRIPTOR"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\stream_method_descriptor.htm
 old-project: stream
 ms.assetid: 2C35EF9F-143C-4DE2-93D0-5BCF8AADF11B
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PSTREAM_METHOD_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR, strmini/STREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR structure [Streaming Media Devices], stream.stream_method_descriptor, *PSTREAM_METHOD_DESCRIPTOR, _STREAM_METHOD_DESCRIPTOR
+ms.date: 2/23/2018
+ms.keywords: "*PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR structure pointer [Streaming Media Devices], STREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR structure [Streaming Media Devices], _STREAM_METHOD_DESCRIPTOR, stream.stream_method_descriptor, strmini/PSTREAM_METHOD_DESCRIPTOR, strmini/STREAM_METHOD_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Strmini.h
-apiname: 
+api_name:
 -	STREAM_METHOD_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ typedef struct _STREAM_METHOD_DESCRIPTOR {
 ### -field MethodSetID
 
 
-
 ### -field Method
-
 
 
 ### -field MethodInfo
 
 
-
 ### -field MethodInputSize
 
 
-
 ### -field MethodOutputSize
-
 

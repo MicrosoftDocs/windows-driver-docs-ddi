@@ -7,8 +7,8 @@ old-location: ieee\pbus_reset_routine.htm
 old-project: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.pbus_reset_routine, BusResetRoutine callback function [Buses], BusResetRoutine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE, 61883/BusResetRoutine, BusResetRoutine callback function [Buses], BusResetRoutine
+ms.date: 2/15/2018
+ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	61883.h
-apiname: 
+api_name:
 -	BusResetRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PBUS_RESET_ROUTINE callback
@@ -86,7 +86,9 @@ The bus reset information.
 ## -returns
 
 
+
 This callback does not return a value.
+
 
 
 
@@ -94,9 +96,11 @@ This callback does not return a value.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20PBUS_RESET_ROUTINE callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20PBUS_RESET_ROUTINE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

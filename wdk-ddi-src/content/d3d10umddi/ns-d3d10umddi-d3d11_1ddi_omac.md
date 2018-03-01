@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_omac.htm
 old-project: display
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_OMAC, D3D11_1DDI_OMAC, D3D11_1DDI_OMAC structure [Display Devices], display.d3d11_1ddi_omac
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDI_OMAC, D3D11_1DDI_OMAC structure [Display Devices], d3d10umddi/D3D11_1DDI_OMAC, display.d3d11_1ddi_omac
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	D3D11_1DDI_OMAC
 product: Windows
 targetos: Windows

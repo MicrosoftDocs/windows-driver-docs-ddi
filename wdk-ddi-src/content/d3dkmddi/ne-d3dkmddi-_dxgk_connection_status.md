@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_CONNECTION_STATUS
-title: _DXGK_CONNECTION_STATUS
+title: "_DXGK_CONNECTION_STATUS"
 author: windows-driver-content
 description: Enumeration indicating the connection status values which can be reported.
 old-location: display\dxgk_connection_status.htm
 old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/TargetStatusJoined, *PDXGK_CONNECTION_STATUS, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, TargetStatusDisconnected, display.dxgk_connection_status, d3dkmddi/LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusConnected, d3dkmddi/DXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, MonitorStatusDisconnected, d3dkmddi/TargetStatusConnected, TargetStatusJoined, TargetStatusConnected, LinkConfigurationFailed, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/LinkConfigurationStarted, d3dkmddi/MonitorStatusDisconnected, MonitorStatusConnected, DXGK_CONNECTION_STATUS enumeration [Display Devices], MonitorStatusUnknown, d3dkmddi/TargetStatusDisconnected, d3dkmddi/MonitorStatusUnknown
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS enumeration [Display Devices], LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, MonitorStatusConnected, MonitorStatusDisconnected, MonitorStatusUnknown, TargetStatusConnected, TargetStatusDisconnected, TargetStatusJoined, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationFailed, d3dkmddi/LinkConfigurationStarted, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusConnected, d3dkmddi/MonitorStatusDisconnected, d3dkmddi/MonitorStatusUnknown, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusDisconnected, d3dkmddi/TargetStatusJoined, display.dxgk_connection_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_CONNECTION_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS
+req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
 ---
 
 # _DXGK_CONNECTION_STATUS enumeration
@@ -141,6 +141,8 @@ If the target was previously enabled, then scan-out of pixels has resumed.  The 
 ## -remarks
 
 
+
 Other than the uninitialized state, the values fall into three categories: target changes, monitor changes and link configuration changes.  Target changes represent the addition and removal of targets; monitor changes report the connection status of monitors which are attached to targets and link configuration changes report the status of the link to a monitor.
+
 
 

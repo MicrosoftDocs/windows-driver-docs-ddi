@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_ENUM_FILTERS
-title: _NDIS_ENUM_FILTERS
+title: "_NDIS_ENUM_FILTERS"
 author: windows-driver-content
 description: The NDIS_ENUM_FILTERS structure is returned from the call to the NdisEnumerateFilterModules function to provide filter information for a filter stack.
 old-location: netvista\ndis_enum_filters.htm
 old-project: netvista
 ms.assetid: 0f57e226-dd60-4e62-8622-bfab5c66f537
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS structure [Network Drivers Starting with Windows Vista], _NDIS_ENUM_FILTERS, netvista.ndis_enum_filters, NDIS_ENUM_FILTERS, ndis/PNDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS, filter_structures_ref_4fe2a9d2-2539-40bc-9131-735a6337831e.xml
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS structure [Network Drivers Starting with Windows Vista], PNDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENUM_FILTERS, filter_structures_ref_4fe2a9d2-2539-40bc-9131-735a6337831e.xml, ndis/NDIS_ENUM_FILTERS, ndis/PNDIS_ENUM_FILTERS, netvista.ndis_enum_filters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_ENUM_FILTERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS
+req.typenames: NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS
 ---
 
 # _NDIS_ENUM_FILTERS structure
@@ -50,8 +50,8 @@ req.typenames: *PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS
 
 
 The NDIS_ENUM_FILTERS structure is returned from the call to the 
-  <mshelp:link keywords="netvista.ndisenumeratefiltermodules" tabindex="0"><b>
-  NdisEnumerateFilterModules</b></mshelp:link> function to provide filter information for a filter stack.
+  <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">
+  NdisEnumerateFilterModules</a> function to provide filter information for a filter stack.
 
 
 ## -syntax
@@ -111,9 +111,10 @@ An array that contains zero or more
 ## -remarks
 
 
+
 The 
-    <mshelp:link keywords="netvista.ndisenumeratefiltermodules" tabindex="0"><b>
-    NdisEnumerateFilterModules</b></mshelp:link> function returns an NDIS_ENUM_FILTERS structure and the 
+    <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">
+    NdisEnumerateFilterModules</a> function returns an NDIS_ENUM_FILTERS structure and the 
     <b>Filter</b> member of that structure contains an array of 
     <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a> structures. The
     array contains one NDIS_FILTER_INTERFACE structure for each NDIS 5.1 or earlier filter intermediate
@@ -121,17 +122,24 @@ The
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_ENUM_FILTERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_ENUM_FILTERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

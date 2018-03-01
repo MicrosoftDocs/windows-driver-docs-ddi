@@ -7,8 +7,8 @@ old-location: stream\usbcamd_setvideoformat.htm
 old-project: stream
 ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.usbcamd_setvideoformat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], USBCAMD_SetVideoFormat, PFNUSBCAMD_SetVideoFormat, PFNUSBCAMD_SetVideoFormat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
+ms.date: 2/23/2018
+ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	USBCAMD_SetVideoFormat
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ Pointer to a stream request block (SRB).
 ## -returns
 
 
+
 <b>USBCAMD_SetVideoFormat</b> returns <b>TRUE</b> if the call was successful, otherwise it returns <b>FALSE</b> and sets <i>pSrb-&gt;Status</i> to one of the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,11 +119,14 @@ There are insufficient resources to allocate the video info header.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Note that this function returns <b>TRUE</b> to indicate success and not STATUS_SUCCESS.
@@ -132,15 +137,20 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SetVideoFormat routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SetVideoFormat routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

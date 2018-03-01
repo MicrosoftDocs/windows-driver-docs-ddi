@@ -1,14 +1,14 @@
 ---
 UID: NS:irb._IDE_REQUEST_BLOCK
-title: _IDE_REQUEST_BLOCK
+title: "_IDE_REQUEST_BLOCK"
 author: windows-driver-content
 description: The IDE_REQUEST_BLOCK structure defines an IDE request block.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_request_block.htm
 old-project: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], *PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, irb/IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, storage.ide_request_block, PIDE_REQUEST_BLOCK
+ms.date: 2/24/2018
+ms.keywords: "*PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], _IDE_REQUEST_BLOCK, irb/IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, storage.ide_request_block, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IDE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -92,29 +92,10 @@ typedef struct _IDE_REQUEST_BLOCK {
 
 
 
-### -field IdeTaskFile
-
-Contains a structure of type <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
-
-
-### -field Cdb
-
-Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
-
-
-### -field PowerChange
-
-Indicates an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
-
-
-### -field AsUChar
-
-Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
-
-
 ### -field Function
 
 Specifies the category that the request belongs to. The table below describes the classification of the I/O requests.
+
 <table>
 <tr>
 <td>
@@ -190,12 +171,14 @@ Indicates that the IRB is for the miniport. It is the responsibility of the mini
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IrbStatus
 
 The miniport must set this member to indicates the status of the specified operation. The table below describes the various <b>IrbStatus</b> values and their meaning.
+
 <table>
 <tr>
 <td>
@@ -307,7 +290,8 @@ IRB_STATUS_RETURN_TASKFILE_VALID is a bitmask that indicates a valid return task
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AtaStatus
@@ -365,6 +349,7 @@ Reserved for future use.
 ### -field IrbFlags
 
 Qualifies the request with ceratin actions that need to be performed. The table below describes them in detail.
+
 <table>
 <tr>
 <td>
@@ -476,7 +461,8 @@ Indicates that this IRB is to be processed as soon as possible, before non-high-
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TimeOutValue
@@ -514,26 +500,56 @@ Pointer to the next IRB to be processed. The port driver sets this to <b>NULL</b
 Reserved for future use.
 
 
+#### - AsUChar
+
+Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
+
+
+#### - Cdb
+
+Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
+
+
+#### - IdeTaskFile
+
+Contains a structure of type <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
+
+
+#### - PowerChange
+
+Indicates an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
+
+
 ## -remarks
 
 
-The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
+
+The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
+
 
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a>
 
+
+
 <a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
 
-<a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_REQUEST_BLOCK structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_REQUEST_BLOCK structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

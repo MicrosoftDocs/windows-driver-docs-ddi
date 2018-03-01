@@ -7,8 +7,8 @@ old-location: storage\hba_sendreportluns.htm
 old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.hba_sendreportluns, hbaapi/HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], HBA_SendReportLUNs, fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml
+ms.date: 2/24/2018
+ms.keywords: HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, hbaapi/HBA_SendReportLUNs, storage.hba_sendreportluns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_SendReportLUNs
 product: Windows
 targetos: Windows
@@ -115,7 +115,9 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote targe
 ## -returns
 
 
+
 The <b>HBA_ScsiReportLUNs</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReportLUNs</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,19 +189,25 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendReportLUNs routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendReportLUNs routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: kernel\pep_acpi_initialize_spb_uart_resource.htm
 old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: 5, 3, 0, 1, 7, 2, kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 6, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 4, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+ms.date: 2/24/2018
+ms.keywords: 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
@@ -100,6 +100,7 @@ Specifies the stop bits used in the connection.
 ### -param LinesInUse [in]
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -185,7 +186,8 @@ Request to Send (RTS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param IsBigEndian [in]
@@ -196,6 +198,7 @@ Indicates if the most significant bits of data are in the lowest address.
 ### -param Parity [in]
 
 Specifies the parity of the connection.
+
 <table>
 <tr>
 <th>Value</th>
@@ -256,7 +259,8 @@ Space
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param FlowControl [in]
@@ -315,7 +319,9 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
@@ -323,9 +329,11 @@ This function does not return a value.
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

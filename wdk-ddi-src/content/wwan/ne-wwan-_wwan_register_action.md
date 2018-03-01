@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_ACTION
-title: _WWAN_REGISTER_ACTION
+title: "_WWAN_REGISTER_ACTION"
 author: windows-driver-content
 description: The WWAN_REGISTER_ACTION enumeration lists the different provider network registration actions that are supported by the MB device.
 old-location: netvista\wwan_register_action.htm
 old-project: netvista
 ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanRegisterActionAutomatic, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterActionMax, *PWWAN_REGISTER_ACTION, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, wwan/WwanRegisterActionMax, PWWAN_REGISTER_ACTION, WwanRegisterActionManual, wwan/WwanRegisterActionManual, WWAN_REGISTER_ACTION, WwanRegisterActionAutomatic, netvista.wwan_register_action, wwan/WWAN_REGISTER_ACTION, _WWAN_REGISTER_ACTION
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionAutomatic, WwanRegisterActionManual, WwanRegisterActionMax, _WWAN_REGISTER_ACTION, netvista.wwan_register_action, wwan/PWWAN_REGISTER_ACTION, wwan/WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, wwan/WwanRegisterActionManual, wwan/WwanRegisterActionMax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_REGISTER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION
+req.typenames: WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -90,9 +90,11 @@ The total number of supported registration actions.
 
 <a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_ACTION enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_ACTION enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: sensors\ioctl_gnss_listen_nmea.htm
 old-project: sensors
 ms.assetid: 975F5FB4-503D-44E7-8D4C-2AEFE72B672B
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.ioctl_gnss_listen_nmea, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], IOCTL_GNSS_LISTEN_NMEA, gnssdriver/IOCTL_GNSS_LISTEN_NMEA
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NMEA, sensors.ioctl_gnss_listen_nmea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	IOCTL_GNSS_LISTEN_NMEA
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -91,14 +91,18 @@ Set to sizeof(GNSS_EVENT).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,11 +114,17 @@ Set to sizeof(GNSS_EVENT).
 ## -remarks
 
 
+
 The <b>EventType</b> must be set to <b>GNSS_Event_NmeaData</b>.
-<h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>The GNSS adapter does not use this IOCTL.
-<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>The driver can complete this call when it has NMEA data to send to the calling client. This calling client will typically be a test tool created by the OEM.
+
+<h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
+The GNSS adapter does not use this IOCTL.
+
+<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>
+The driver can complete this call when it has NMEA data to send to the calling client. This calling client will typically be a test tool created by the OEM.
 
 The calling client that wishes to receive NMEA data needs to do the following tasks:
+
 <ul>
 <li>
 Ensure that NMEA logging is active.
@@ -124,23 +134,33 @@ Ensure that NMEA logging is active.
 Ensures that this request is always pending, so that the driver can return NMEA data when available.
 
 </li>
-</ul>When the driver completes the I/O call, the calling client will need to issue another IOCTL to continue waiting for further NMEA data.
+</ul>
+When the driver completes the I/O call, the calling client will need to issue another IOCTL to continue waiting for further NMEA data.
+
 
 
 
 ## -see-also
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_LISTEN_NMEA control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_LISTEN_NMEA control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

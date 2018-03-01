@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_ushort.htm
 old-project: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_USHORT function, wdfhwaccess/WDF_READ_REGISTER_USHORT, wdf.wdf_read_register_ushort, WDF_READ_REGISTER_USHORT
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT function, wdf.wdf_read_register_ushort, wdfhwaccess/WDF_READ_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdfhwaccess.h
-apiname: 
+api_name:
 -	WDF_READ_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,8 @@ A pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>WDF_READ_REGISTER_USHORT</b> returns the USHORT value that is read from the specified port address.
+
 
 

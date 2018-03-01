@@ -1,14 +1,14 @@
 ---
 UID: NS:acpiioct._ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-title: _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+title: "_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 author: windows-driver-content
 description: This topic describes the ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure.
 old-location: acpi\acpi_manipulate_global_lock_buffer.htm
 old-project: acpi
 ms.assetid: 841CC16D-BDFC-4A3F-9DDD-940A591EBEF2
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: acpi.acpi_manipulate_global_lock_buffer, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices], *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+ms.date: 2/15/2018
+ms.keywords: "*PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices], _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpi.acpi_manipulate_global_lock_buffer, acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 ---
 
 # _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure

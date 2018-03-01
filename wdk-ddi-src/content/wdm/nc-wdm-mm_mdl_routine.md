@@ -7,8 +7,8 @@ old-location: kernel\mm_mdl_routine.htm
 old-project: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.mm_mdl_routine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], MmMdlRoutine, MM_MDL_ROUTINE, MM_MDL_ROUTINE, wdm/MmMdlRoutine, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], *PMM_MDL_ROUTINE
+ms.date: 2/24/2018
+ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	*PMM_MDL_ROUTINE
 product: Windows
 targetos: Windows
@@ -89,7 +89,9 @@ A pointer to a buffer that contains the system virtual address of the
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -97,9 +99,11 @@ This callback function does not return a value.
 
 <a href="..\wdm\nf-wdm-mmmapmdl.md">MmMapMdl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MM_MDL_ROUTINE callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MM_MDL_ROUTINE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

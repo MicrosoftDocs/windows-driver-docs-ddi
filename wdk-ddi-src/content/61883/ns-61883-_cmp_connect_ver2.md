@@ -1,14 +1,14 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER2
-title: _CMP_CONNECT_VER2
+title: "_CMP_CONNECT_VER2"
 author: windows-driver-content
 description: This structure contains information for a connection request. The request attempts to make a connection to a plug control register on the local host.
 old-location: ieee\cmp_connect_ver2.htm
 old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PCMP_CONNECT_VER2, _CMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, PCMP_CONNECT_VER2, CMP_CONNECT, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2 structure pointer, *PCMP_CONNECT, CMP_CONNECT_VER2 structure
+ms.date: 2/15/2018
+ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	61883.h
-apiname: 
+api_name:
 -	CMP_CONNECT_VER2
 product: Windows
 targetos: Windows
@@ -90,6 +90,18 @@ The type of connection to make. Can be one of the following:
 
 
 
+
+#### CMP_Broadcast
+
+A broadcast connection.  
+
+
+
+#### CMP_PointToPoint
+
+A connection between a single output plug and one or more input plugs. 
+
+
 ### -field Format
 
 The requested data format.
@@ -102,17 +114,8 @@ On input, a pointer to a <a href="..\61883\ns-61883-_cip_data_format_ver2.md">CI
 On output, the handle for the created connection.
 
 
-##### - Type.CMP_Broadcast
-
-A broadcast connection.  
-
-
-##### - Type.CMP_PointToPoint
-
-A connection between a single output plug and one or more input plugs. 
-
-
 ## -remarks
+
 
 
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
@@ -123,13 +126,16 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\ieee]:%20CMP_CONNECT_VER2 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\ieee]:%20CMP_CONNECT_VER2 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

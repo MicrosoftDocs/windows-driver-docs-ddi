@@ -7,8 +7,8 @@ old-location: hid\hidregisterminidriver.htm
 old-project: hid
 ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: HidRegisterMinidriver routine [Human Input Devices], HidRegisterMinidriver, hidport/HidRegisterMinidriver, hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml
+ms.date: 2/24/2018
+ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Hid.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hid.lib
 -	Hid.dll
-apiname: 
+api_name:
 -	HidRegisterMinidriver
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # HidRegisterMinidriver function
@@ -76,7 +76,9 @@ Pointer to a caller-allocated buffer that contains an initialized <a href="..\hi
 ## -returns
 
 
+
 <b>HidRegisterMinidriver</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,11 +117,14 @@ Indicates that the HID revision number provided in <i>MinidriverRegistration-&gt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before calling this routine, HID minidrivers must initialize all members of the HID_MINIDRIVER_REGISTRATION structure that is provided at <i>MinidriverRegistration</i>. For information about these members, see <a href="..\hidport\ns-hidport-_hid_minidriver_registration.md">HID_MINIDRIVER_REGISTRATION</a>.
@@ -128,13 +133,16 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="..\hidport\ns-hidport-_hid_minidriver_registration.md">HID_MINIDRIVER_REGISTRATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidRegisterMinidriver routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidRegisterMinidriver routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

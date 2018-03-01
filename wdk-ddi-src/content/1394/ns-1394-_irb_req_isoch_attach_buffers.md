@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ATTACH_BUFFERS
-title: _IRB_REQ_ISOCH_ATTACH_BUFFERS
+title: "_IRB_REQ_ISOCH_ATTACH_BUFFERS"
 author: windows-driver-content
 description: This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
 old-location: ieee\irb_req_isoch_attach_buffers.htm
 old-project: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, _IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_ISOCH_ATTACH_BUFFERS
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: kernel\zwgetnotificationresourcemanager.htm
 old-project: kernel
 ms.assetid: 53892fd1-d83c-4b6e-9c39-2f64ba0ab310
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/NtGetNotificationResourceManager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, NtGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], wdm/ZwGetNotificationResourceManager, ZwGetNotificationResourceManager, kernel.zwgetnotificationresourcemanager
+ms.date: 2/24/2018
+ms.keywords: NtGetNotificationResourceManager, ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwgetnotificationresourcemanager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, wdm/NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: = PASSIVE_LEVEL
-topictype: 
+req.irql: "= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ZwGetNotificationResourceManager
 -	NtGetNotificationResourceManager
 product: Windows
@@ -121,7 +121,9 @@ A pointer to a ULONG value. This pointer must be <b>NULL</b>.
 ## -returns
 
 
+
 <b>ZwGetNotificationResourceManager</b> returns STATUS_SUCCESS if the operation succeeds and a notification is available. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -182,13 +184,16 @@ The <i>NotificationLength</i> parameter's value is too small.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Use the <b>ZwGetNotificationResourceManager</b> routine to obtain notifications synchronously. Use the <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a> routine to enable asynchronous notifications. 
@@ -203,23 +208,36 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
-
-<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
 
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwGetNotificationResourceManager routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwGetNotificationResourceManager routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

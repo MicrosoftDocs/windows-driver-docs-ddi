@@ -7,8 +7,8 @@ old-location: ifsk\rxpreparetoreparsesymboliclink.htm
 old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rxprocs.h
-apiname: 
+api_name:
 -	RxPrepareToReparseSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ A pointer to a Boolean value that indicates whether a reparse is required. If th
 ## -returns
 
 
+
 <b>RxPrepareToReparseSymbolicLink</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ An invalid parameter was passed to the routine. This error will be returned if t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>RxPrepareToReparseSymbolicLink</b> routine would only be used by a network mini-redirector that supports symbolic links and uses reparse points to implement symbolic links. The <b>RxPrepareToReparseSymbolicLink</b> routine would normally be called by a network mini-redirector from its <b>MrxCreate</b> callback routine.
@@ -158,13 +163,16 @@ The value of the <i>ReparseRequired</i> parameter assumes significance only if S
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPrepareToReparseSymbolicLink routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPrepareToReparseSymbolicLink routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

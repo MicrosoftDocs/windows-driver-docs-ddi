@@ -7,8 +7,8 @@ old-location: stream\kswritefile.htm
 old-project: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, KsWriteFile function [Streaming Media Devices], stream.kswritefile, KsWriteFile, ks/KsWriteFile
+ms.date: 2/23/2018
+ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsWriteFile
 product: Windows
 targetos: Windows
@@ -123,6 +123,8 @@ Optionally contains a key, or zero if none.
 ## -returns
 
 
+
 The <b>KsWriteFile</b> function returns STATUS_SUCCESS if successful, STATUS_PENDING if action is pending, or it returns a read error if unsuccessful.
+
 
 

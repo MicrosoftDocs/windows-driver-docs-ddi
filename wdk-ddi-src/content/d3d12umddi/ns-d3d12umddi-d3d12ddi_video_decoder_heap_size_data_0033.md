@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-decoder-heap-size-data-0033.htm
 old-project: display
 ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure [Display Devices], D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, display.d3d12ddi-video-decoder-heap-size-data-0033, d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, display.d3d12ddi-video-decoder-heap-size-data-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 product: Windows
 targetos: Windows

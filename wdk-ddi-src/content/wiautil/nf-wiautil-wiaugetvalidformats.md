@@ -7,8 +7,8 @@ old-location: image\wiaugetvalidformats.htm
 old-project: image
 ms.assetid: 8bf1d76a-2e5b-4e9a-85fc-187fea72d38c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiauGetValidFormats function [Imaging Devices], image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiautil/wiauGetValidFormats
+ms.date: 2/23/2018
+ms.keywords: image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiauGetValidFormats function [Imaging Devices], wiautil/wiauGetValidFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiautil.h
-apiname: 
+api_name:
 -	wiauGetValidFormats
 product: Windows
 targetos: Windows
@@ -100,13 +100,17 @@ Pointer to a memory location that receives the address of the array of format GU
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -remarks
 
 
+
 The caller of this function is responsible for freeing the format array, using the <b>delete[]</b> operator.
+
 
 

@@ -2,13 +2,13 @@
 UID: NE:ksi.KSPROPERTY_SERVICE
 title: KSPROPERTY_SERVICE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_service.htm
 old-project: stream
 ms.assetid: 771027AA-E64D-4AC8-9C52-D1F96A761FAD
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_service, ksi/KSPROPERTY_SERVICE, KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE_MERIT
+ms.date: 2/23/2018
+ms.keywords: KSPROPERTY_SERVICE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_BUILDCACHE, ksi/KSPROPERTY_SERVICE_MERIT, stream.ksproperty_service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ksi.h
-apiname: 
+api_name:
 -	KSPROPERTY_SERVICE
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSPROPERTY_SERVICE_BUILDCACHE
 
 
-
 ### -field KSPROPERTY_SERVICE_MERIT
-
 

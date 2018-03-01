@@ -7,8 +7,8 @@ old-location: netvista\rilradiostategroupid.htm
 old-project: netvista
 ms.assetid: 147eb9f7-da0c-41c2-83b3-766164dbc905
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], RILRADIOSTATEGROUPID, netvista.rilradiostategroupid
+ms.date: 2/16/2018
+ms.keywords: RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupid, ntddrilapitypes/RILRADIOSTATEGROUPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILRADIOSTATEGROUPID
 product: Windows
 targetos: Windows

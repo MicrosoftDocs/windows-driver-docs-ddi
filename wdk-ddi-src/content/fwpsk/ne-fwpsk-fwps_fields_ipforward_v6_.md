@@ -7,8 +7,8 @@ old-location: netvista\fwps_fields_ipforward_v6.htm
 old-project: netvista
 ms.assetid: 6c3d1da8-0498-4d0f-a4d1-89763a8420f6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FWPS_FIELD_IPFORWARD_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPFORWARD_V6_DESTINATION_INTERFACE_INDEX, netvista.fwps_fields_ipforward_v6, FWPS_FIELDS_IPFORWARD_V6, FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE, FWPS_FIELD_IPFORWARD_V6_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_IPFORWARD_V6_NEXTHOP_INTERFACE_PROFILE_ID, FWPS_FIELD_IPFORWARD_V6_FLAGS, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_ARRIVAL_INTERFACE, FWPS_FIELDS_IPFORWARD_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_IPFORWARD_V6_SOURCE_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_MAX, FWPS_FIELD_IPFORWARD_V6_DESTINATION_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS, fwpsk/FWPS_FIELD_IPFORWARD_V6_DESTINATION_SUB_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_MAX, fwpsk/FWPS_FIELDS_IPFORWARD_V6, fwpsk/FWPS_FIELD_IPFORWARD_V6_SOURCE_SUB_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_IPFORWARD_V6_IP_FORWARD_INTERFACE, FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_ARRIVAL_INTERFACE, wfp_ref_5_const_3_data_fields_026b178c-e371-48aa-969c-defb3d26aea3.xml, FWPS_FIELD_IPFORWARD_V6_SOURCE_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_IP_SOURCE_ADDRESS, fwpsk/FWPS_FIELD_IPFORWARD_V6_FLAGS, FWPS_FIELDS_IPFORWARD_V6_, FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_IPFORWARD_V6_NEXTHOP_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_IPFORWARD_V6_DESTINATION_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_FORWARD_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_ARRIVAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_IPFORWARD_V6_SOURCE_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_SOURCE_ADDRESS
+ms.date: 2/16/2018
+ms.keywords: FWPS_FIELDS_IPFORWARD_V6, FWPS_FIELDS_IPFORWARD_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPFORWARD_V6_, FWPS_FIELD_IPFORWARD_V6_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_IPFORWARD_V6_DESTINATION_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_DESTINATION_SUB_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_FLAGS, FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS, FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_IPFORWARD_V6_IP_FORWARD_INTERFACE, FWPS_FIELD_IPFORWARD_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_ARRIVAL_INTERFACE, FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE, FWPS_FIELD_IPFORWARD_V6_IP_SOURCE_ADDRESS, FWPS_FIELD_IPFORWARD_V6_MAX, FWPS_FIELD_IPFORWARD_V6_NEXTHOP_INTERFACE_PROFILE_ID, FWPS_FIELD_IPFORWARD_V6_SOURCE_INTERFACE_INDEX, FWPS_FIELD_IPFORWARD_V6_SOURCE_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELDS_IPFORWARD_V6, fwpsk/FWPS_FIELD_IPFORWARD_V6_ARRIVAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_IPFORWARD_V6_DESTINATION_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_DESTINATION_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_FLAGS, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_FORWARD_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE, fwpsk/FWPS_FIELD_IPFORWARD_V6_IP_SOURCE_ADDRESS, fwpsk/FWPS_FIELD_IPFORWARD_V6_MAX, fwpsk/FWPS_FIELD_IPFORWARD_V6_NEXTHOP_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_IPFORWARD_V6_SOURCE_INTERFACE_INDEX, fwpsk/FWPS_FIELD_IPFORWARD_V6_SOURCE_SUB_INTERFACE_INDEX, netvista.fwps_fields_ipforward_v6, wfp_ref_5_const_3_data_fields_026b178c-e371-48aa-969c-defb3d26aea3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	fwpsk.h
-apiname: 
+api_name:
 -	FWPS_FIELDS_IPFORWARD_V6
 product: Windows
 targetos: Windows
@@ -145,14 +145,18 @@ The
      <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> for the physical network interface that the
      packet first arrived on.
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V6_ARRIVAL_INTERFACE_PROFILE_ID
 
 The profile identifier (network category) of the arrival interface. The possible network category
      values are: public (1), private (2), or domain (3).
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE
 
@@ -160,17 +164,20 @@ The
      <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> for the physical network interface that will be
      used to continue forwarding of the outbound packet.
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V6_NEXTHOP_INTERFACE_PROFILE_ID
 
 The profile identifier (network category) of the next-hop interface. The possible network category
      values are: public (1), private (2), or domain (3).
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IPFORWARD_V6_COMPARTMENT_ID
-
 
 
 ### -field FWPS_FIELD_IPFORWARD_V6_MAX
@@ -183,11 +190,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_IPFORWARD_V6 enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_IPFORWARD_V6 enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

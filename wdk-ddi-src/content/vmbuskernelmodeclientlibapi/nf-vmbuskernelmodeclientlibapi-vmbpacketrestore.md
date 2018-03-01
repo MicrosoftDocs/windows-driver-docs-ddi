@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketrestore.htm
 old-project: netvista
 ms.assetid: CE8BBFB7-FC6C-458B-89EC-355A6DD18399
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: VmbPacketRestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista], netvista.vmbpacketrestore, vmbuskernelmodeclientlibapi/VmbPacketRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+api_name:
 -	VmbPacketRestore
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ The size, in bytes, of buffer.
 ## -returns
 
 
+
 <b>VmbPacketRestore</b> returns a status code.
+
 
 

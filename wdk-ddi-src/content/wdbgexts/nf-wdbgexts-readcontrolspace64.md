@@ -7,8 +7,8 @@ old-location: debugger\readcontrolspace64.htm
 old-project: debugger
 ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], wdbgexts/ReadControlSpace64
+ms.date: 2/23/2018
+ms.keywords: ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	ReadControlSpace64
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Specifies the number of bytes in the array pointed to by <i>buf</i>.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If you are writing 32-bit code, you should use <a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace.md">ReadControlSpace</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
@@ -107,6 +110,7 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 The <b>ReadTypedControlSpace32</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -120,7 +124,8 @@ The <b>ReadTypedControlSpace32</b> macro is a thin wrapper around the <b>ReadCon
 );</pre>
 </td>
 </tr>
-</table></span></div><i>_Proc</i>
+</table></span></div>
+<i>_Proc</i>
 
 Specifies the number of the processor whose control space is to be read.
 
@@ -141,6 +146,7 @@ This macro does not return a value.
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
 
 The <b>ReadTypedControlSpace64</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -154,7 +160,8 @@ The <b>ReadTypedControlSpace64</b> macro is a thin wrapper around the <b>ReadCon
 );</pre>
 </td>
 </tr>
-</table></span></div><i>_Proc</i>
+</table></span></div>
+<i>_Proc</i>
 
 Specifies the number of the processor whose control space is to be read.
 
@@ -173,5 +180,6 @@ This macro does not return a value.
 
 
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
+
 
 

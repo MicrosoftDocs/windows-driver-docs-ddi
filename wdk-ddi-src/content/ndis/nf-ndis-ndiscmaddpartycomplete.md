@@ -7,8 +7,8 @@ old-location: netvista\ndiscmaddpartycomplete.htm
 old-project: netvista
 ms.assetid: 00833038-1fff-4103-9508-07cb8cbfa846
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], NdisCmAddPartyComplete
+ms.date: 2/16/2018
+ms.keywords: NdisCmAddPartyComplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmAddPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmAddPartyComplete function
@@ -101,11 +101,14 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a stand-alone call manager's 
@@ -118,6 +121,7 @@ If the client passed in traffic parameters at
     <i>CallParameters</i> that did not match those already established for the multipoint VC, the designer of
     the call manager must determine how to handle this condition, subject to any constraints imposed by the
     network medium. Possibilities include the following:
+
 <ul>
 <li>
 Set up the per-party traffic parameters if the underlying network medium supports this feature on
@@ -147,7 +151,8 @@ Fail the client's attempt to add a party. (This alternative implicitly forces cl
       VC.)
 
 </li>
-</ul>For some connection-oriented media , traffic parameters are per-VC in nature and, consequently,
+</ul>
+For some connection-oriented media , traffic parameters are per-VC in nature and, consequently,
     identical for all parties on a multipoint VC.
 
 If the CM sets 
@@ -158,8 +163,8 @@ If the CM sets
 
 A call to 
     <b>NdisCmAddPartyComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolcladdpartycomplete" tabindex="0"><i>
-    ProtocolClAddPartyComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">
+    ProtocolClAddPartyComplete</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmAddPartyComplete</b>. Connection-oriented miniport drivers that provide integrated
@@ -168,24 +173,37 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmAddPartyComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmAddPartyComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

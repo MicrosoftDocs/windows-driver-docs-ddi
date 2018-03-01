@@ -7,8 +7,8 @@ old-location: wdf\iqueuecallbackstatechange.htm
 old-project: wdf
 ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iqueuecallbackstatechange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, described, IQueueCallbackStateChange, wudfddi/IQueueCallbackStateChange, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange
+ms.date: 2/20/2018
+ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, described, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange, wdf.iqueuecallbackstatechange, wudfddi/IQueueCallbackStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wudfddi.h
-apiname: 
+api_name:
 -	IQueueCallbackStateChange
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 An I/O queue object raises an event when it changes state. A driver can consume the event by registering the <b>IQueueCallbackStateChange</b> interface.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackStateChange</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackStateChange</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -72,14 +79,14 @@ The <a href="https://msdn.microsoft.com/69a422a1-b878-496e-b1b9-e04b7c3db121">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/69a422a1-b878-496e-b1b9-e04b7c3db121">OnStateChange</a> method is called when the state of the I/O queue object changes. 
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 A driver registers the <b>IQueueCallbackStateChange</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
+
 
 

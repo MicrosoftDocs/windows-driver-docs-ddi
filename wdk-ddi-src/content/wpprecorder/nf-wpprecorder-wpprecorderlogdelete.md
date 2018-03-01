@@ -7,8 +7,8 @@ old-location: devtest\wpprecorderlogdelete.htm
 old-project: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: WppRecorderLogDelete
+ms.date: 2/23/2018
+ms.keywords: WppRecorderLogDelete, devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], wpprecorder/imp_WppRecorderLogDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -19,8 +19,6 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: WppRecorderLogDelete
-req.alt-loc: Wpprecorder.h
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -28,26 +26,38 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wpprecorder.h
 req.dll: 
 req.irql: 
-req.typenames: *PWNODE_HEADER, WNODE_HEADER
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	HeaderDef
+api_location:
+-	Wpprecorder.h
+api_name:
+-	imp_WppRecorderLogDelete
+product: Windows
+targetos: Windows
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 
 # WppRecorderLogDelete macro
 
 
-
 ## -description
-The <a href="..\wpprecorder\nf-wpprecorder-wpprecorderlogdelete.md">WppRecorderLogDelete</a> method deletes the specified recorder log.
 
+
+The <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogdelete.md">WppRecorderLogDelete</a> method deletes the specified recorder log.
 
 
 ## -syntax
 
+
 ````
-NTSTATUS WppRecorderLogDelete(
+NTSTATUS imp_WppRecorderLogDelete(
    NULL RecorderLog
 );
 ````
@@ -55,10 +65,19 @@ NTSTATUS WppRecorderLogDelete(
 
 ## -parameters
 
-### -param RecorderLog 
+
+
+
+### -param RecorderLog
 
 Handle to the recorder log to delete.
 
 
 ## -remarks
-When a thread enters this function, no threads can subsequently  log to this buffer.</p>
+
+
+
+When a thread enters this function, no threads can subsequently  log to this buffer.
+
+
+

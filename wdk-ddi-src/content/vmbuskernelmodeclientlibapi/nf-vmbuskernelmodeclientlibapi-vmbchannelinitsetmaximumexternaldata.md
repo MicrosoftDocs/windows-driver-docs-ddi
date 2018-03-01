@@ -7,8 +7,8 @@ old-location: netvista\vmbchannelinitsetmaximumexternaldata.htm
 old-project: netvista
 ms.assetid: 558E8162-7B1F-41AB-A04C-113E94C97DB6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VmbChannelInitSetMaximumExternalData, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData, netvista.vmbchannelinitsetmaximumexternaldata, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetmaximumexternaldata, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+api_name:
 -	VmbChannelInitSetMaximumExternalData
 product: Windows
 targetos: Windows
@@ -95,7 +95,9 @@ The maximum number of Memory Descriptor Lists (MDLs) in an incoming MDL chain.
 ## -returns
 
 
+
 <b>VmbChannelInitSetMaximumExternalData</b> can return one of the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,10 +147,12 @@ The <i>ChainLength</i> value is  invalid. Zero (0) is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
  KMCL ensures
 that your ring buffers are large enough to send packets that contain
 buffers in the specified limits.
+
 
 

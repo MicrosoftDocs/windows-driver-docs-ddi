@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._KBUGCHECK_ADD_PAGES
-title: _KBUGCHECK_ADD_PAGES
+title: "_KBUGCHECK_ADD_PAGES"
 author: windows-driver-content
 description: The KBUGCHECK_ADD_PAGES structure describes one or more pages of driver-supplied data to be written by a BugCheckAddPagesCallback callback routine to the crash dump file.
 old-location: kernel\kbugcheck_add_pages.htm
 old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages
+ms.date: 2/24/2018
+ms.keywords: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	KBUGCHECK_ADD_PAGES
 product: Windows
 targetos: Windows
@@ -85,6 +85,24 @@ Contains private context data for the exclusive use of the callback routine. The
 
 
 
+
+
+#### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a virtual address.
+
+
+
+#### KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a physical address.
+
+
+
+#### KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
+
+Indicates that the callback routine requests that it be called again so that it can add more pages.
+
 The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
 
 
@@ -103,22 +121,8 @@ Specifies the physical or virtual address of the page or pages that the callback
 Specifies the number of contiguous pages to add to the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> &gt; 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> &gt; 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to add any pages to the crash dump file.
 
 
-##### - Flags.KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a physical address.
-
-
-##### - Flags.KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a virtual address.
-
-
-##### - Flags.KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
-
-Indicates that the callback routine requests that it be called again so that it can add more pages.
-
-
 ## -remarks
+
 
 
 In a call to the <i>BugCheckAddPagesCallback</i> callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackAddPages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_ADD_PAGES</b> structure.
@@ -127,13 +131,16 @@ For more information about how this structure is used, see <a href="..\wdm\nc-wd
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KBUGCHECK_ADD_PAGES structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KBUGCHECK_ADD_PAGES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

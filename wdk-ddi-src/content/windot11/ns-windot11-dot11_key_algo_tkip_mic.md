@@ -7,8 +7,8 @@ old-location: netvista\dot11_key_algo_tkip_mic.htm
 old-project: netvista
 ms.assetid: 2f6e08e3-50cf-4d2e-aac8-185a5c0b38ed
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_key_algo_tkip_mic, windot11/DOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC, Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_tkip_mic, windot11/DOT11_KEY_ALGO_TKIP_MIC, windot11/PDOT11_KEY_ALGO_TKIP_MIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_KEY_ALGO_TKIP_MIC
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC
+req.typenames: DOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC
 req.product: Windows 10 or later.
 ---
 
@@ -103,6 +103,7 @@ The TKIP and MIC key material.
 ## -remarks
 
 
+
 The TKIP key starts at 
     <b>ucTKIPMICKeys</b> [0]. The MIC key starts at 
     <b>ucTKIPMICKeys</b> [
@@ -110,6 +111,7 @@ The TKIP key starts at
 
 When the TKIP key is created, the 802.11 station must maintain separate TSC counters for the key for
     the send and receive path. The station must initialize the TSC counters in the following way:
+
 <ul>
 <li>
 Initialize the TSC counter used for the receive path to the value specified in the 
@@ -123,19 +125,26 @@ Initialize the TSC counter used for the send path to any value.
 </ul>
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
-<mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
-   DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link>
+
 
 <a href="https://msdn.microsoft.com/4f0c45f0-3125-4b19-82c1-3681b2e31c96">TKIP</a>
 
- 
+
+
+<a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
+   DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_KEY_ALGO_TKIP_MIC structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_KEY_ALGO_TKIP_MIC structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

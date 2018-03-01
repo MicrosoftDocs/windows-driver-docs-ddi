@@ -7,8 +7,8 @@ old-location: image\iwiaimagefilter_initializefilter.htm
 old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices], IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, IWiaImageFilter::InitializeFilter, IWiaImageFilter, InitializeFilter, IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, wia_lh/IWiaImageFilter::InitializeFilter
+ms.date: 2/23/2018
+ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices], IWiaImageFilter interface, InitializeFilter,IWiaImageFilter.InitializeFilter, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wia_lh.h
-apiname: 
+api_name:
 -	IWiaImageFilter.InitializeFilter
 product: Windows
 targetos: Windows
@@ -83,13 +83,16 @@ Points to a <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCa
 ## -returns
 
 
+
 Returns S_OK on success, or a standard COM error code on failure.
 
 
 
 
 
+
 ## -remarks
+
 
 
 This method is called by the COM proxy object (described in the Microsoft Windows SDK documentation) before the download call reaches the WIA service. This happens in two cases: when an application calls <b>IWiaTransfer::Download</b> method and when an application calls the <b>IWiaPreview::GetNewPreview</b> method. 
@@ -104,15 +107,20 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 
 
-## -see-also
 
-<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
+## -see-also
 
 <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback Interface</a>
 
- 
+
+
+<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaImageFilter::InitializeFilter method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaImageFilter::InitializeFilter method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

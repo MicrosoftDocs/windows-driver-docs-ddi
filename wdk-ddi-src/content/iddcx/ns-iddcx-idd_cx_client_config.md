@@ -7,8 +7,8 @@ old-location: display\idd_cx_client_config.htm
 old-project: display
 ms.assetid: 8e286cb2-87f4-483b-bc55-f174e7de5989
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDD_CX_CLIENT_CONFIG structure [Display Devices], IDD_CX_CLIENT_CONFIG, display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
+ms.date: 2/24/2018
+ms.keywords: IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices], display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDD_CX_CLIENT_CONFIG
 product: Windows
 targetos: Windows

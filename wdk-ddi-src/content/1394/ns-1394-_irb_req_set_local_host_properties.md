@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_SET_LOCAL_HOST_PROPERTIES
-title: _IRB_REQ_SET_LOCAL_HOST_PROPERTIES
+title: "_IRB_REQ_SET_LOCAL_HOST_PROPERTIES"
 author: windows-driver-content
 description: This structure contains the fields required to carry out a SetLocalHostProperties request.
 old-location: ieee\irb_req_set_local_host_properties.htm
 old-project: IEEE
 ms.assetid: 59C1BBEF-ECC8-4852-B2E2-75751B5B25B2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IEEE.irb_req_set_local_host_properties, IRB_REQ_SET_LOCAL_HOST_PROPERTIES structure [Buses], _IRB_REQ_SET_LOCAL_HOST_PROPERTIES, 1394/IRB_REQ_SET_LOCAL_HOST_PROPERTIES
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IEEE.irb_req_set_local_host_properties, IRB_REQ_SET_LOCAL_HOST_PROPERTIES, IRB_REQ_SET_LOCAL_HOST_PROPERTIES structure [Buses], _IRB_REQ_SET_LOCAL_HOST_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_SET_LOCAL_HOST_PROPERTIES
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ typedef struct _IRB_REQ_SET_LOCAL_HOST_PROPERTIES {
 ### -field nLevel
 
 Specifies what level of information is desired from this call. The following flags are provided.  
+
 <table>
 <tr>
 <th>Flag</th>
@@ -96,12 +97,14 @@ Used to add or remove unit directories. This request cannot be used to modify in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Information
 
 Points to an information block to be filled in. The information returned depends on the value in <b>u.SetLocalHostProperties.nLevel</b>. Each block has its own particular structure.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -127,5 +130,6 @@ SET_LOCAL_HOST_PROPS3
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dumddi._DXVADDI_SAMPLEFORMAT
-title: _DXVADDI_SAMPLEFORMAT
+title: "_DXVADDI_SAMPLEFORMAT"
 author: windows-driver-content
 description: The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 old-location: display\dxvaddi_sampleformat.htm
 old-project: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFormatMask, DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFormatMask, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleProgressiveFrame, display.dxvaddi_sampleformat, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SAMPLEFORMAT
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleUnknown, display.dxvaddi_sampleformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVADDI_SAMPLEFORMAT
 product: Windows
 targetos: Windows
@@ -117,7 +117,9 @@ The sample contains a video substream.
 ## -remarks
 
 
+
 One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+
 
 
 
@@ -125,9 +127,11 @@ One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleForma
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_SAMPLEFORMAT enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_SAMPLEFORMAT enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

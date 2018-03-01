@@ -7,8 +7,8 @@ old-location: netvista\miniportcancelsend.htm
 old-project: netvista
 ms.assetid: 17111aa3-c02f-494a-af97-5ab34c152451
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.miniportcancelsend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], MiniportCancelSend, MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND, ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml
+ms.date: 2/16/2018
+ms.keywords: MINIPORT_CANCEL_SEND, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	MiniportCancelSend
 product: Windows
 targetos: Windows
@@ -91,11 +91,14 @@ A cancellation identifier. This identifier specifies the <a href="..\ndis\ns-ndi
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers and intermediate drivers that queue send 
@@ -105,19 +108,20 @@ Miniport drivers and intermediate drivers that queue send
     structures.
 
 When an overlying NDIS driver calls the 
-    <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-    NdisCancelSendNetBufferLists</b></mshelp:link> function, NDIS calls the 
+    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    NdisCancelSendNetBufferLists</a> function, NDIS calls the 
     <i>MiniportCancelSend</i> function of the appropriate lower-level driver on the binding. NDIS makes this
     call only if the lower-level driver exports a 
     <i>MiniportCancelSend</i> function.
 
 A miniport driver's 
     <i>MiniportCancelSend</i> function performs the following operations:
+
 <ol>
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified adapter and calls the 
-      <mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link> macro to obtain the cancellation identifier for each queued
+      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+      NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The miniport driver compares the cancellation identifier that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation identifier that NDIS passed to 
       <i>MiniportCancelSend</i>.
@@ -130,14 +134,16 @@ Removes from the send queue (un-links) all NET_BUFFER_LIST structures whose canc
 </li>
 <li>
 Calls the 
-      <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-      NdisMSendNetBufferListsComplete</b></mshelp:link> function for all unlinked NET_BUFFER_LIST structures to return
+      <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+      NdisMSendNetBufferListsComplete</a> function for all unlinked NET_BUFFER_LIST structures to return
       the structures .The miniport driver sets the status field of the NET_BUFFER_LIST structures to
       NDIS_STATUS_SEND_ABORTED.
 
 </li>
-</ol>An intermediate driver's 
+</ol>
+An intermediate driver's 
     <i>MiniportCancelSend</i> function performs the following operations:
+
 <ol>
 <li>
 Performs the operations in the preceding list for a miniport driver's
@@ -146,17 +152,21 @@ Performs the operations in the preceding list for a miniport driver's
 </li>
 <li>
 Calls the 
-      <mshelp:link keywords="netvista.ndiscancelsendnetbufferlists" tabindex="0"><b>
-      NdisCancelSendNetBufferLists</b></mshelp:link> function, specifying the binding that maps to the adapter that NDIS
+      <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+      NdisCancelSendNetBufferLists</a> function, specifying the binding that maps to the adapter that NDIS
       specified in the call to 
       <i>MiniportCancelSend</i>.
 
 </li>
-</ol>NDIS calls 
+</ol>
+NDIS calls 
     <i>MiniportCancelSend</i> at IRQL &lt;= DISPATCH_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportCancelSend</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>MiniportCancelSend</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportCancelSend</i> function that is named "MyCancelSend", use the <b>MINIPORT_CANCEL_SEND</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -166,7 +176,9 @@ For example, to define a <i>MiniportCancelSend</i> function that is named "MyCan
 <pre>MINIPORT_CANCEL_SEND MyCancelSend;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -182,31 +194,45 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_CANCEL_SEND</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CANCEL_SEND</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_CANCEL_SEND</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CANCEL_SEND</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
-   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
+   NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_CANCEL_SEND callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_CANCEL_SEND callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

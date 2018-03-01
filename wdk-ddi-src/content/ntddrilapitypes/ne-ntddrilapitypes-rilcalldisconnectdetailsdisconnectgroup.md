@@ -7,8 +7,8 @@ old-location: netvista\rilcalldisconnectdetailsdisconnectgroup.htm
 old-project: netvista
 ms.assetid: d546e936-f8c6-45ad-8027-a8495b4633dc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_3GPP_REJECT_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_OTHER_CAUSE, RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE, RIL_CD_IMS_SIP_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE
+ms.date: 2/16/2018
+ms.keywords: RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILCALLDISCONNECTDETAILSDISCONNECTGROUP {
 ### -field RIL_CD_UNKNOWN_CAUSE
 
 
-
 ### -field RIL_CD_AS_CAUSE
-
 
 
 ### -field RIL_CD_3GPP_NETWORK_CAUSE
 
 
-
 ### -field RIL_CD_3GPP2_VENDOR_CAUSE
-
 
 
 ### -field RIL_CD_OTHER_CAUSE
 
 
-
 ### -field RIL_CD_3GPP_REJECT_CAUSE
-
 
 
 ### -field RIL_CD_IMS_SIP_CAUSE
 
 
-
 ### -field RIL_CD_CAUSE_MAX
-
 

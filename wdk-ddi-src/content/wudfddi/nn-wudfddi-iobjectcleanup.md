@@ -7,8 +7,8 @@ old-location: wdf\iobjectcleanup.htm
 old-project: wdf
 ms.assetid: 5e465c90-3290-4c89-bf47-521280c0fe5c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iobjectcleanup, IObjectCleanup interface, IObjectCleanup interface, described, IObjectCleanup, wudfddi/IObjectCleanup, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup
+ms.date: 2/20/2018
+ms.keywords: IObjectCleanup, IObjectCleanup interface, IObjectCleanup interface, described, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup, wdf.iobjectcleanup, wudfddi/IObjectCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IObjectCleanup
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 Any driver that stores a reference-counted COM interface to a WDF object must support the <b>IObjectCleanup</b> interface to prevent interface leakage. Note that drivers, in general, are not required to hold references to WDF objects.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCleanup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IObjectCleanup</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -72,16 +79,16 @@ The <a href="https://msdn.microsoft.com/6b66c496-d1cc-4b7a-ae50-f18fffa7275a">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/6b66c496-d1cc-4b7a-ae50-f18fffa7275a">OnCleanup</a> method releases any references to a WDF object to prevent interface leakage.
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 The framework calls the method of the <b>IObjectCleanup</b> interface when the associated framework object is about to be released.
 
 A driver can register the <b>IObjectCleanup</b> interface when the driver calls any method that creates a WDF object. 
+
 
 

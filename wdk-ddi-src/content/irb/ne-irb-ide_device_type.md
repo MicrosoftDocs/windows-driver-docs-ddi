@@ -7,8 +7,8 @@ old-location: storage\ide_device_type.htm
 old-project: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DeviceIsAta, irb/DeviceUnknown, IDE_DEVICE_TYPE, irb/DeviceIsAtapi, irb/IDE_DEVICE_TYPE, DeviceIsAtapi, DeviceUnknown, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml, irb/DeviceNotExist, irb/DeviceIsAta, DeviceNotExist, IDE_DEVICE_TYPE enumeration [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: DeviceIsAta, DeviceIsAtapi, DeviceNotExist, DeviceUnknown, IDE_DEVICE_TYPE, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, irb/DeviceIsAtapi, irb/DeviceNotExist, irb/DeviceUnknown, irb/IDE_DEVICE_TYPE, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IDE_DEVICE_TYPE
 product: Windows
 targetos: Windows

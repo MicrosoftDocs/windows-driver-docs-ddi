@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_WFD_GROUP_JOIN_PARAMETERS
-title: _DOT11_WFD_GROUP_JOIN_PARAMETERS
+title: "_DOT11_WFD_GROUP_JOIN_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_WFD_GROUP_JOIN_PARAMETERS structure is included with an OID_DOT11_WFD_GROUP_JOIN_PARAMETERS request. The structure contains startup parameters for a Client.
 old-location: netvista\dot11_wfd_group_join_parameters.htm
 old-project: netvista
 ms.assetid: 7E526179-97B6-4BA3-8F78-C4C04FFF9085
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS, _DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_group_join_parameters, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_JOIN_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_JOIN_PARAMETERS, netvista.dot11_wfd_group_join_parameters, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Windot11.h
-apiname: 
+api_name:
 -	DOT11_WFD_GROUP_JOIN_PARAMETERS
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ typedef struct _DOT11_WFD_GROUP_JOIN_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -92,7 +93,8 @@ The type, revision, and size of the <b>DOT11_WFD_GROUP_JOIN_PARAMETERS</b> struc
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_GROUP_JOIN_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field GOOperatingChannel
@@ -119,9 +121,11 @@ If set to TRUE, special handling of <a href="https://msdn.microsoft.com/67B02FD9
 
 <a href="https://msdn.microsoft.com/8BA9DC85-41DA-4021-BFBC-2C64A38146E9">OID_DOT11_WFD_GROUP_JOIN_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_GROUP_JOIN_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_GROUP_JOIN_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

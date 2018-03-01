@@ -7,8 +7,8 @@ old-location: wdf\iwdfremotetarget_openfilebyname.htm
 old-project: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget interface, OpenFileByName method, wudfddi/IWDFRemoteTarget::OpenFileByName, umdf.iwdfremotetarget_openfilebyname, OpenFileByName, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, IWDFRemoteTarget::OpenFileByName, wdf.iwdfremotetarget_openfilebyname, OpenFileByName method, IWDFRemoteTarget interface, IWDFRemoteTarget, OpenFileByName method
+ms.date: 2/20/2018
+ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, OpenFileByName method, IWDFRemoteTarget::OpenFileByName, OpenFileByName method, OpenFileByName method, IWDFRemoteTarget interface, OpenFileByName,IWDFRemoteTarget.OpenFileByName, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRemoteTarget.OpenFileByName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,9 @@ A pointer to a caller-allocated <a href="..\wudfddi\ns-wudfddi-_umdf_io_target_o
 ## -returns
 
 
+
 <b>OpenFileByName</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,7 +109,8 @@ The framework's attempt to allocate memory failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -117,7 +120,9 @@ The framework's <a href="https://msdn.microsoft.com/e84993e1-da10-4041-8fc7-7f40
 
 
 
+
 ## -remarks
+
 
 
 Your driver can use <b>OpenFileByName</b> to open a file, if the driver stack to which your driver belongs does not support the file's device. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff558930">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a> to open a file, if the driver stack to which your driver belongs does support the file's device.
@@ -129,18 +134,63 @@ Do not call <b>OpenFileByName</b> to open a remote target to a control device ob
 For more information about the <b>OpenFileByName</b> method and remote I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">General I/O Targets in UMDF</a>.
 
 
+#### Examples
+
+The following code example creates a remote target object and opens an existing file with read-only access.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>UMDF_IO_TARGET_OPEN_PARAMS openParams;
+HRESULT hr;
+
+//
+// Create a new remote target object and provide a callback 
+// object to handle remote target events.
+//
+CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
+hr = FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
+                                  fxRemoteInterface,
+                                  &amp;fxTarget);
+if (FAILED(hr)) goto Error;
+
+//
+// Open existing file for read-only access.
+//
+openParams.dwShareMode = 0;
+openParams.dwCreationDisposition = OPEN_EXISTING;
+openParams.dwFlagsAndAttributes = FILE_ATTRIBUTE_READONLY;
+
+hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
+                              GENERIC_READ,
+                              &amp;openParams);
+ </pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::OpenFileByName method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::OpenFileByName method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

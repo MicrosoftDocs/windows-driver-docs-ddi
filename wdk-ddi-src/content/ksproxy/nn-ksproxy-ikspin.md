@@ -7,8 +7,8 @@ old-location: stream\ikspin.htm
 old-project: stream
 ms.assetid: 4717300c-bc98-4e1f-83c3-cbd368b45140
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ikspin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices], described, IKsPin, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml
+ms.date: 2/23/2018
+ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices], described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsPin
 -	IKsPin.KsReceiveAllocator
 -	IKsPin.KsRenegotiateAllocator
@@ -56,6 +56,13 @@ The <b>IKsPin</b> interface provides methods that control and retrieve informati
 
 The IID for this interface is IID_IKsPin.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -176,36 +183,11 @@ Obsolete. Do not use.
 
 </td>
 </tr>
-</table>For proxy use and not recommended for application use. Creates a pin handle and stores it in the KS pin object. 
-
-Decrements the number of I/O operations that are in progress on a pin.
-
-Delivers a media sample from an output pin to an input pin. 
-
-Retrieves the current communication direction, interface, and medium of a pin. 
-
-Increments the number of I/O operations that are in progress on a pin.
-
-Informs a pin that a stream segment completed. Used by interface handlers.
-
-For proxy use and not recommended for application use. Returns a pointer to a <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
-For proxy use and not recommended for application use.
-
-For proxy use and not recommended for application use. Receives quality-management reports from the kernel-mode equivalent of a DirectShow pin.
-
-Retrieves interfaces that a pin supports.
-
-Retrieves mediums that a pin supports.
-
-For proxy use and not recommended for application use. Provides an allocator for an output pin. 
-
-Obsolete. Do not use.
-
- 
+</table> 
 
 
 ## -remarks
+
 
 
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
@@ -213,13 +195,16 @@ An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKs
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin interface%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\idarg_out_querytargetmodes.htm
 old-project: display
 ms.assetid: 427af891-1fb7-4042-89bc-a40191ec5a31
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES, display.idarg_out_querytargetmodes, IDARG_OUT_QUERYTARGETMODES structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDARG_OUT_QUERYTARGETMODES
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: pos\ioctl_point_of_service_check_health.htm
 old-project: pos
 ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.ioctl_point_of_service_check_health, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
+ms.date: 2/23/2018
+ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosPropertyId
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosStringType</i>) + enoug
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -113,6 +117,9 @@ The driver does not provide health strings.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
+
+
 
 

@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 old-project: hid
 ms.assetid: C83C6086-369D-41DB-BEB5-33B3A0C1C0AE
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hid.ioctl_hid_get_ms_genre_descriptor, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_ms_genre_descriptor, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hidclass.h
-apiname: 
+api_name:
 -	IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
+req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---
 
 # IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,14 +87,18 @@ The size of a status code.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

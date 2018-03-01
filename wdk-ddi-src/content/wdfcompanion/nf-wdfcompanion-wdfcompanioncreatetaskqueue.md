@@ -7,8 +7,8 @@ old-location: wdf\wdfcompanioncreatetaskqueue.htm
 old-project: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfcompanioncreatetaskqueue, WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdfcompanion/WdfCompanionCreateTaskQueue
+ms.date: 2/20/2018
+ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	WdfCompanionCreateTaskQueue
 product: Windows
 targetos: Windows
@@ -75,15 +75,11 @@ NTSTATUS WdfCompanionCreateTaskQueue(
 ### -param Companion [in]
 
 
-
 ### -param Config [in]
-
 
 
 ### -param QueueAttributes [in, optional]
 
 
-
 ### -param Queue [out, optional]
-
 

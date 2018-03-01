@@ -7,8 +7,8 @@ old-location: netvista\riluicctoolkitprofile.htm
 old-project: netvista
 ms.assetid: ff1f5839-78be-48ab-9c26-f8fee6788d51
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], *LPRILUICCTOOLKITPROFILE
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCTOOLKITPROFILE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE
+req.typenames: RILUICCTOOLKITPROFILE, *LPRILUICCTOOLKITPROFILE
 ---
 
 # RILUICCTOOLKITPROFILE structure
@@ -72,11 +72,8 @@ typedef struct _RILUICCTOOLKITPROFILE {
 ### -field cbSize
 
 
-
 ### -field dwProfileSize
 
 
-
 ### -field bProfile
-
 

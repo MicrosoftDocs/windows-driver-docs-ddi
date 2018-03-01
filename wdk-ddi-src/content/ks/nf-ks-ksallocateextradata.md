@@ -7,8 +7,8 @@ old-location: stream\ksallocateextradata.htm
 old-project: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, stream.ksallocateextradata, KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml
+ms.date: 2/23/2018
+ms.keywords: KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsAllocateExtraData
 product: Windows
 targetos: Windows
@@ -88,14 +88,20 @@ Points to a caller-allocated pointer that, on successful completion, points to a
 ## -returns
 
 
+
 The <b>KsAllocateExtraData</b> function returns STATUS_SUCCESS if successful, or it returns a resource or access error.
+
 
 
 
 ## -remarks
 
 
+
 When <b>KsAllocateExtraData</b> completes successfully, a pointer to a block of memory is returned that contains both the stream data headers from the IRP, specified at <i>Irp</i>, and padding between each header of size specified in <i>ExtraSize</i>. An example of such a resultant buffer is shown below:
-<img alt="Diagram illustrating a resultant buffer" src="images/ksexdata.png"/>When the extra buffer is no longer needed, the memory should be freed using <b>ExFreePool</b>.
+
+<img alt="Diagram illustrating a resultant buffer" src="images/ksexdata.png"/>
+When the extra buffer is no longer needed, the memory should be freed using <b>ExFreePool</b>.
+
 
 

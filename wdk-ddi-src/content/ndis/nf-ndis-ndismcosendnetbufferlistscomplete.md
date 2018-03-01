@@ -7,8 +7,8 @@ old-location: netvista\ndismcosendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: c4978122-6d13-4e9b-8eb7-d06cd7372268
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete, NdisMCoSendNetBufferListsComplete, condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml
+ms.date: 2/16/2018
+ms.keywords: NdisMCoSendNetBufferListsComplete, NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml, ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMCoSendNetBufferListsComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCoSendNetBufferListsComplete function
@@ -87,8 +87,8 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
 A pointer to a linked list of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. The miniport
      driver received the NET_BUFFER_LIST structures in previous calls to its 
-     <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
-     MiniportCoSendNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
+     MiniportCoSendNetBufferLists</a> function.
 
 
 ### -param SendCompleteFlags [in]
@@ -104,17 +104,20 @@ NDIS flags that can be combined with a bitwise OR operation. To clear all of the
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A miniport driver calls 
     <b>NdisMCoSendNetBufferListsComplete</b> to complete send requests that NDIS made to the driver's 
-    <mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
-    MiniportCoSendNetBufferLists</i></mshelp:link> function. The miniport driver specifies a linked list of 
+    <a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
+    MiniportCoSendNetBufferLists</a> function. The miniport driver specifies a linked list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are
     associated with the completed send requests.
 
@@ -144,22 +147,33 @@ A miniport driver's call to
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.miniportcosendnetbufferlists" tabindex="0"><i>
-   MiniportCoSendNetBufferLists</i></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_co_send_net_buffer_lists.md">
+   MiniportCoSendNetBufferLists</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCoSendNetBufferListsComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCoSendNetBufferListsComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

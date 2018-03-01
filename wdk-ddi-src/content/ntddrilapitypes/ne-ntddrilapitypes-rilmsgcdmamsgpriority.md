@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgpriority.htm
 old-project: netvista
 ms.assetid: aec67cd5-9ac9-41da-b5e6-a4e416923afb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGPRIORITY_URGENT, RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_HIGH, netvista.rilmsgcdmamsgpriority, ntddrilapitypes/RILMSGCDMAMSGPRIORITY, RIL_MSGPRIORITY_URGENT, ntddrilapitypes/RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_EMERGENCY, RILMSGCDMAMSGPRIORITY, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGPRIORITY_HIGH
+ms.date: 2/16/2018
+ms.keywords: RILMSGCDMAMSGPRIORITY, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_HIGH, RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_URGENT, netvista.rilmsgcdmamsgpriority, ntddrilapitypes/RILMSGCDMAMSGPRIORITY, ntddrilapitypes/RIL_MSGPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGPRIORITY_HIGH, ntddrilapitypes/RIL_MSGPRIORITY_MAX, ntddrilapitypes/RIL_MSGPRIORITY_URGENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCDMAMSGPRIORITY
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGCDMAMSGPRIORITY {
 ### -field RIL_MSGPRIORITY_NORMAL
 
 
-
 ### -field RIL_MSGPRIORITY_HIGH
-
 
 
 ### -field RIL_MSGPRIORITY_URGENT
 
 
-
 ### -field RIL_MSGPRIORITY_EMERGENCY
 
 
-
 ### -field RIL_MSGPRIORITY_MAX
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_GetBindingSupport_OUT
-title: _SM_GetBindingSupport_OUT
+title: "_SM_GetBindingSupport_OUT"
 author: windows-driver-content
 description: The SM_GetBindingSupport_OUT structure is used to receive output parameters from the SM_GetBindingSupport method.
 old-location: storage\sm_getbindingsupport_out.htm
 old-project: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], PSM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, storage.sm_getbindingsupport_out, _SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], hbapiwmi/PSM_GetBindingSupport_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], _SM_GetBindingSupport_OUT, hbapiwmi/PSM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, storage.sm_getbindingsupport_out, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_GetBindingSupport_OUT
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The HBA_BIND_CAPABILITY binding capabilities.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetBindingSupport_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

@@ -7,8 +7,8 @@ old-location: kernel\rtlnumberofsetbitsulongptr.htm
 old-project: kernel
 ms.assetid: CD619018-7E6D-4B45-93C3-AD89FDFEB1E9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], RtlNumberOfSetBitsUlongPtr
+ms.date: 2/24/2018
+ms.keywords: RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any IRQL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlNumberOfSetBitsUlongPtr
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ A ULONG_PTR integer value.
 ## -returns
 
 
+
 <b>RtlNumberOfSetBitsUlongPtr</b> returns a count of the bits in the <i>Target</i> parameter that are set to one.
+
 
 

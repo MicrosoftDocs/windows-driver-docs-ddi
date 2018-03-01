@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._DXGK_PAGE_FAULT_FLAGS
-title: _DXGK_PAGE_FAULT_FLAGS
+title: "_DXGK_PAGE_FAULT_FLAGS"
 author: windows-driver-content
 description: DXGK_PAGE_FAULT_FLAGS enumeration describes the nature of the page fault that has occurred and the prescribed OS recovery action.
 old-location: display\dxgk_page_fault_flags.htm
 old-project: display
 ms.assetid: 3AF0646D-5405-4A35-8352-7E32BCA5DD24
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, _DXGK_PAGE_FAULT_FLAGS, DXGK_PAGE_FAULT_FLAGS enumeration [Display Devices], d3dkmdt/DXGK_PAGE_FAULT_FENCE_INVALID, DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, DXGK_PAGE_FAULT_FENCE_INVALID, d3dkmdt/DXGK_PAGE_FAULT_FLAGS, DXGK_PAGE_FAULT_FLAGS, display.dxgk_page_fault_flags, d3dkmdt/DXGK_PAGE_FAULT_WRITE, DXGK_PAGE_FAULT_WRITE, d3dkmdt/DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_IOMMU, DXGK_PAGE_FAULT_IOMMU
+ms.date: 2/24/2018
+ms.keywords: DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, DXGK_PAGE_FAULT_FENCE_INVALID, DXGK_PAGE_FAULT_FLAGS, DXGK_PAGE_FAULT_FLAGS enumeration [Display Devices], DXGK_PAGE_FAULT_IOMMU, DXGK_PAGE_FAULT_WRITE, _DXGK_PAGE_FAULT_FLAGS, d3dkmdt/DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED, d3dkmdt/DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR, d3dkmdt/DXGK_PAGE_FAULT_FENCE_INVALID, d3dkmdt/DXGK_PAGE_FAULT_FLAGS, d3dkmdt/DXGK_PAGE_FAULT_IOMMU, d3dkmdt/DXGK_PAGE_FAULT_WRITE, display.dxgk_page_fault_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmdt.h
-apiname: 
+api_name:
 -	DXGK_PAGE_FAULT_FLAGS
 product: Windows
 targetos: Windows
@@ -109,7 +109,6 @@ When set, this indicates that the faulting GPU's virtual address was mapped usin
 ### -field DXGK_PAGE_FAULT_HW_CONTEXT_VALID
 
 
-
 ### -field DXGK_PAGE_FAULT_PROCESS_HANDLE_VALID
 
 
@@ -119,9 +118,11 @@ When set, this indicates that the faulting GPU's virtual address was mapped usin
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_PAGE_FAULT_FLAGS enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_PAGE_FAULT_FLAGS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

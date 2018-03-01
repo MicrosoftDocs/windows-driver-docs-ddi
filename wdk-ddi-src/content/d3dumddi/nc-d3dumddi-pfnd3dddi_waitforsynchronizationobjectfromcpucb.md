@@ -7,8 +7,8 @@ old-location: display\pfnwaitforsynchronizationobjectfromcpucb.htm
 old-project: display
 ms.assetid: 304A5BCE-19E6-4F92-B840-FD3BE1CFB856
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnwaitforsynchronizationobjectfromcpucb, pfnWaitForSynchronizationObjectFromCpuCb callback function [Display Devices], pfnWaitForSynchronizationObjectFromCpuCb, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB, d3dumddi/pfnWaitForSynchronizationObjectFromCpuCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB, d3dumddi/pfnWaitForSynchronizationObjectFromCpuCb, display.pfnwaitforsynchronizationobjectfromcpucb, pfnWaitForSynchronizationObjectFromCpuCb, pfnWaitForSynchronizationObjectFromCpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnWaitForSynchronizationObjectFromCpuCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_signalsynchronizationobjectfromcpu.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
@@ -91,6 +93,8 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_signalsynchronizationob
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

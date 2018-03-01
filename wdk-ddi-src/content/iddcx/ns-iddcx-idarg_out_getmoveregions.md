@@ -7,8 +7,8 @@ old-location: display\idarg_out_getmoveregions.htm
 old-project: display
 ms.assetid: b95b2da7-8078-4e71-91db-a1b399bc44a2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_GETMOVEREGIONS structure [Display Devices], IDARG_OUT_GETMOVEREGIONS, display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS
+ms.date: 2/24/2018
+ms.keywords: IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDARG_OUT_GETMOVEREGIONS
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: stream\kstrfasthandler.htm
 old-project: stream
 ms.assetid: 9a72cdb5-2b57-4331-9836-82653732decf
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.kstrfasthandler, KStrFastHandler routine [Streaming Media Devices], KStrFastHandler, PFNKSFASTHANDLER, PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml
+ms.date: 2/23/2018
+ms.keywords: KStrFastHandler, KStrFastHandler routine [Streaming Media Devices], PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml, stream.kstrfasthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KStrFastHandler
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSFASTHANDLER callback
@@ -108,13 +108,17 @@ Specifies an aligned structure that is used to return error status and informati
 ## -returns
 
 
+
 <i>KStrFastHandler</i> returns <b>TRUE</b> if the call was handled. If the call was not handled, it returns <b>FALSE</b> and an IRP is generated to handle the request.
+
 
 
 
 ## -remarks
 
 
+
 The minidriver provides an entry point for this routine in <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM</a> or <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>.
+
 
 

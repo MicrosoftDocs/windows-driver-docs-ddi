@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
-title: _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure contains information about the copy protection that is supported (as well as the copy protection that is currently active) on a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection.htm
 old-project: display
 ms.assetid: 661e70c6-d99e-4c5a-ad88-3dd854747de4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices], display.d3dkmdt_vidpn_present_path_copyprotection, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices], DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection_supp
 ## -remarks
 
 
+
 The <b>CopyProtection</b> member of the  <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure.
+
 
 

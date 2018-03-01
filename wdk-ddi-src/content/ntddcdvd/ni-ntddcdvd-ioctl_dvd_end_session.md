@@ -7,8 +7,8 @@ old-location: storage\ioctl_dvd_end_session.htm
 old-project: storage
 ms.assetid: 70908275-211b-4112-bad3-35584ec1ef10
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_dvd_end_session, IOCTL_DVD_END_SESSION control code [Storage Devices], IOCTL_DVD_END_SESSION, ntddcdvd/IOCTL_DVD_END_SESSION, k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DVD_END_SESSION, IOCTL_DVD_END_SESSION control code [Storage Devices], k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml, ntddcdvd/IOCTL_DVD_END_SESSION, storage.ioctl_dvd_end_session
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_DVD_END_SESSION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

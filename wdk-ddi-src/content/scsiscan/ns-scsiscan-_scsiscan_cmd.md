@@ -1,14 +1,14 @@
 ---
 UID: NS:scsiscan._SCSISCAN_CMD
-title: _SCSISCAN_CMD
+title: "_SCSISCAN_CMD"
 author: windows-driver-content
 description: The SCSISCAN_CMD structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SCSISCAN_CMD.
 old-location: image\scsiscan_cmd.htm
 old-project: image
 ms.assetid: 412c35b2-eb08-43a3-b776-053645806f5d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml, PSCSISCAN_CMD, image.scsiscan_cmd, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], scsiscan/SCSISCAN_CMD, *PSCSISCAN_CMD, scsiscan/PSCSISCAN_CMD, SCSISCAN_CMD
+ms.date: 2/23/2018
+ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsiscan.h
-apiname: 
+api_name:
 -	SCSISCAN_CMD
 product: Windows
 targetos: Windows
-req.typenames: *PSCSISCAN_CMD, SCSISCAN_CMD
+req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
 req.product: Windows 10 or later.
 ---
 

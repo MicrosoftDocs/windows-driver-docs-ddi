@@ -7,8 +7,8 @@ old-location: pos\poscxclaimdevice.htm
 old-project: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PosCxClaimDevice, pos.poscxclaimdevice, poscx/PosCxClaimDevice, PosCxClaimDevice function
+ms.date: 2/23/2018
+ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	PosCxClaimDevice
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A handle to a framework request object that represents the request. This request
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -106,6 +108,8 @@ Possible return values are:
 <td><b>STATUS_ACCESS_DENIED</b></td>
 <td>The current owner has retained device ownership.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

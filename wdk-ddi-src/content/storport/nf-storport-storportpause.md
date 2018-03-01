@@ -7,8 +7,8 @@ old-location: storage\storportpause.htm
 old-project: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortPause routine [Storage Devices], storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, storport/StorPortPause, storage.storportpause, StorPortPause
+ms.date: 2/24/2018
+ms.keywords: StorPortPause, StorPortPause routine [Storage Devices], storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortPause
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ TBD
 
 
 
+
 #### - TimeOut [in]
 
 Specifies the interval of time, in seconds, that the adapter is to be paused. 
@@ -89,14 +90,18 @@ Specifies the interval of time, in seconds, that the adapter is to be paused.
 ## -returns
 
 
+
 <b>StorPortPause</b> returns <b>TRUE</b> if the miniport driver succeeded in pausing the adapter, <b>FALSE</b> if not. 
+
 
 
 
 ## -remarks
 
 
+
 All requests to the adapter are held until the time-out expires or the device resumes. All requests to all targets attached to the adapter will be held until the adapter is resumed or the time-out expires.
+
 
 
 
@@ -104,9 +109,11 @@ All requests to the adapter are held until the time-out expires or the device re
 
 <a href="..\storport\nf-storport-storportresume.md">StorPortResume</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPause routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPause routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugplmclient3.htm
 old-project: debugger
 ms.assetid: 5B0580FF-0829-406A-B511-C0CD91A08D5F
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugplmclient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], described, IDebugPlmClient3, dbgeng/IDebugPlmClient3
+ms.date: 2/23/2018
+ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], described, dbgeng/IDebugPlmClient3, debugger.idebugplmclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugPlmClient3
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugPlmClient3 interface
@@ -51,6 +51,13 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 This interface supports Process Lifecycle Management (PLM) for the debug client.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugPlmClient3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugPlmClient3</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -141,23 +148,5 @@ Ends a Process Lifecycle Management (PLM) package.
 
 </td>
 </tr>
-</table>    Launches and attaches to a Process Lifecycle Management (PLM) background task.
-
-Disables a Process Lifecycle Management (PLM) package debug.
-
-Enables a Process Lifecycle Management (PLM) package debug.
-
-    Launches and attaches to a Process Lifecycle Management (PLM) application. 
-
-Query a Process Lifecycle Management (PLM) package list.
-
-Query a Process Lifecycle Management (PLM) package.
-
-Resumes a Process Lifecycle Management (PLM) package.
-
-Suspends a Process Lifecycle Management (PLM) package.
-
-Ends a Process Lifecycle Management (PLM) package.
-
- 
+</table> 
 

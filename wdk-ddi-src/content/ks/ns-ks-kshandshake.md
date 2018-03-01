@@ -7,8 +7,8 @@ old-location: stream\kshandshake.htm
 old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.kshandshake, ks/PKSHANDSHAKE, ks/KSHANDSHAKE, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], PKSHANDSHAKE, *PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKSHANDSHAKE, KSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, ks/KSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSHANDSHAKE
 product: Windows
 targetos: Windows
@@ -87,21 +87,27 @@ A pointer to an interface-dependent argument.
 ## -remarks
 
 
+
 See <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
 
 Pin handshaking is a concept that is usable only between two pins that support IOCTL_KS_HANDSHAKE. Currently, only AVStream pins support this interface; thus this is only useful for negotiating private interfaces between two AVStream pins. Currently, connections between AVStream pins are negotiated via this mechanism.
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+## -see-also
 
 <a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
- 
+
+
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSHANDSHAKE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSHANDSHAKE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

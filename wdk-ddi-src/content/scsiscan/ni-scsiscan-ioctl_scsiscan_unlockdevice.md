@@ -7,8 +7,8 @@ old-location: image\ioctl_scsiscan_unlockdevice.htm
 old-project: image
 ms.assetid: 6dc380a9-b983-453e-949d-f49f85df4c7b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_scsiscan_unlockdevice, IOCTL_SCSISCAN_UNLOCKDEVICE control code [Imaging Devices], IOCTL_SCSISCAN_UNLOCKDEVICE, scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE, stifnc_b3d77638-dbcf-41ae-90f9-50611e562590.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_SCSISCAN_UNLOCKDEVICE, IOCTL_SCSISCAN_UNLOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_unlockdevice, scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE, stifnc_b3d77638-dbcf-41ae-90f9-50611e562590.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsiscan.h
-apiname: 
+api_name:
 -	IOCTL_SCSISCAN_UNLOCKDEVICE
 product: Windows
 targetos: Windows

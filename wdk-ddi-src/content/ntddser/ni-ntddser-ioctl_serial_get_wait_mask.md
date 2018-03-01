@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_wait_mask.htm
 old-project: serports
 ms.assetid: 2ee8591a-f48e-43ad-8b88-74a1401aad07
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.ioctl_serial_get_wait_mask, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], IOCTL_SERIAL_GET_WAIT_MASK, ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SERIAL_GET_WAIT_MASK, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serports.ioctl_serial_get_wait_mask, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	IOCTL_SERIAL_GET_WAIT_MASK
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -89,14 +89,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 ## -remarks
+
 
 
 
@@ -139,6 +144,7 @@ The <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_S
 The client sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> control request to wait for an event in the currently set wait mask. The serial controller driver completes this request when an event in the wait mask occurs.
 
 The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are supported by SerCx2, SerCx, and Serial.sys. A <b>Yes</b> entry in the table indicates that the serial framework extension or driver supports the corresponding flag bit. A <b>No</b> entry indicates that the flag bit is <u>not</u> supported.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -224,28 +230,45 @@ The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are suppor
 <td>No</td>
 <td>No</td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  SerCx2 may or may not support the flag bit in the indicated table entry, depending on the serial controller driver and the capabilities of the serial controller hardware.</div><div> </div>For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
+</table>
+ 
+
+<div class="alert"><b>Note</b>  SerCx2 may or may not support the flag bit in the indicated table entry, depending on the serial controller driver and the capabilities of the serial controller hardware.</div>
+<div> </div>
+For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_WAIT_MASK control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_WAIT_MASK control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

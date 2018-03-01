@@ -7,8 +7,8 @@ old-location: wdf\iwdfremotetarget_openremoteinterface.htm
 old-project: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget::OpenRemoteInterface, wdf.iwdfremotetarget_openremoteinterface, OpenRemoteInterface method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface, IWDFRemoteTarget, OpenRemoteInterface method, IWDFRemoteTarget interface, OpenRemoteInterface method
+ms.date: 2/20/2018
+ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, OpenRemoteInterface method, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method, IWDFRemoteTarget interface, OpenRemoteInterface,IWDFRemoteTarget.OpenRemoteInterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRemoteTarget.OpenRemoteInterface
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ A pointer to a caller-allocated <a href="..\wudfddi\ns-wudfddi-_umdf_io_target_o
 ## -returns
 
 
+
 <b>OpenRemoteInterface</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,7 +115,8 @@ The framework's attempt to allocate memory failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -123,7 +126,9 @@ The framework's <a href="https://msdn.microsoft.com/e84993e1-da10-4041-8fc7-7f40
 
 
 
+
 ## -remarks
+
 
 
 After a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function receives notification that a device interface is available, and after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a> to create a remote interface object, the driver can call <b>OpenRemoteInterface</b> so that it can send I/O requests to the device interface.
@@ -133,16 +138,60 @@ The device interface must be accessible by the account that loaded the UMDF-base
 For more information about <b>OpenRemoteInterface</b> and how to use device interfaces in UMDF-based drivers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function can create a remote interface and remote target objects for a device interface and then open the interface for I/O operations.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+STDMETHODCALLTYPE
+CMyDevice::OnRemoteInterfaceArrival(
+    __in IWDFRemoteInterfaceInitialize * FxRemoteInterfaceInit
+    )
+...
+    HRESULT hr;
+    CComPtr&lt;IWDFRemoteInterface&gt; fxRemoteInterface;
+    CComPtr&lt;IWDFRemoteTarget&gt; m_FxTarget;
+
+    hr = m_FxDevice-&gt;CreateRemoteInterface(FxRemoteInterfaceInit, 
+                                           NULL, 
+                                           &amp;fxRemoteInterface);
+    if (FAILED(hr)) goto Error;
+    hr = FxDevice-&gt;CreateRemoteTarget(unknown,
+                                      fxRemoteInterface,
+                                      &amp;m_FxTarget);
+    if (FAILED(hr)) goto Error;
+    hr = m_FxTarget-&gt;OpenRemoteInterface(fxRemoteInterface, 
+                                         NULL,
+                                         GENERIC_READ | GENERIC_WRITE,
+                                         NULL);
+...
+Error:
+...</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
- 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::OpenRemoteInterface method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::OpenRemoteInterface method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

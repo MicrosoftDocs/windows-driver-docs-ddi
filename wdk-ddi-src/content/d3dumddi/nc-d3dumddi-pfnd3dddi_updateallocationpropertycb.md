@@ -7,8 +7,8 @@ old-location: display\pfnupdateallocationpropertycb.htm
 old-project: display
 ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb callback function [Display Devices], pfnUpdateAllocationPropertyCb, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, d3dumddi/pfnUpdateAllocationPropertyCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnUpdateAllocationPropertyCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device associated with the allocation
 
 
 
+
+
 #### - *pUpdateAllocationProperty [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761856">D3DDDI_UPDATEALLOCPROPERTY</a> structure that describes how to update the allocation with the desired properties.
@@ -91,7 +93,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt76
 ## -returns
 
 
+
 <b>pfnUpdateAllocationPropertyCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,6 +156,8 @@ An unknown error has occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

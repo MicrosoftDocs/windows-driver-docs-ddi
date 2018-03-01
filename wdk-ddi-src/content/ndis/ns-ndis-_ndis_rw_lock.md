@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_RW_LOCK
-title: _NDIS_RW_LOCK
+title: "_NDIS_RW_LOCK"
 author: windows-driver-content
 description: The NDIS_RW_LOCK structure defines the attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock.htm
 old-project: netvista
 ms.assetid: b44e62ec-d36a-46df-846c-3f1cf6cef003
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, PNDIS_RW_LOCK, _NDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], netvista.ndis_rw_lock, NDIS_RW_LOCK, ndis/NDIS_RW_LOCK
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_RW_LOCK
 product: Windows
 targetos: Windows
@@ -70,9 +70,11 @@ typedef struct _NDIS_RW_LOCK {
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RW_LOCK structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RW_LOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

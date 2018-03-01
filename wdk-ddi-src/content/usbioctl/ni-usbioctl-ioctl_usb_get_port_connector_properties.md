@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_port_connector_properties.htm
 old-project: usbref
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_usb_get_port_connector_properties, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbioctl.h
-apiname: 
+api_name:
 -	IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -103,14 +103,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -122,23 +126,31 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 ## -remarks
 
 
+
 The caller must supply a buffer that is large enough to hold a <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a> structure and  the symbolic link name of a companion hub, if such a hub is associated with the specified port. To obtain the size of the buffer to allocate, the caller must send a <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request. In the request, <b>AssociatedIrp.SystemBuffer</b> must be a caller-allocated <b>USB_PORT_CONNECTOR_PROPERTIES</b> structure and <b>Parameters.DeviceIoControl.InputBufferLength</b> must be  <code>sizeof(USB_PORT_CONNECTOR_PROPERTIES)</code>. Upon successful completion, the <b>ActualLength</b> member of <b>USB_PORT_CONNECTOR_PROPERTIES</b> indicates the actual size of the  buffer. If a symbolic link name exists, the received value includes the size of the string that stores the link name. 
 
 Based on the <b>ActualLength</b> value, the caller can then allocate a buffer and send the  <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request again. After the request completes, the buffer is filled with port information and the <b>CompanionHubSymbolicLinkName</b> member is a Unicode string that contains the symbolic link  name of the companion hub.
 
 
 
-## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+## -see-also
 
 <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
+
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
- 
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

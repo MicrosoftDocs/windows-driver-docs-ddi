@@ -7,8 +7,8 @@ old-location: netvista\rilgetmsginuiccstatusparams.htm
 old-project: netvista
 ms.assetid: 8f8ccc6e-ceb5-49df-bf1f-7a804850728a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS, *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetmsginuiccstatusparams, RILGETMSGINUICCSTATUSPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetmsginuiccstatusparams, ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILGETMSGINUICCSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS
+req.typenames: RILGETMSGINUICCSTATUSPARAMS, *LPRILGETMSGINUICCSTATUSPARAMS
 ---
 
 # RILGETMSGINUICCSTATUSPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILGETMSGINUICCSTATUSPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwIndex
-
 

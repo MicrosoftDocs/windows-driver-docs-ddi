@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 old-project: usbref
 ms.assetid: 2C010516-500A-4CA2-B6FE-20333E7CCC39
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_internal_usbfn_set_power_filter_state, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbfnioctl.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,22 +88,30 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

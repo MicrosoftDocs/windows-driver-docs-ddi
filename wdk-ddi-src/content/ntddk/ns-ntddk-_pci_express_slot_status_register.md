@@ -1,19 +1,19 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_SLOT_STATUS_REGISTER
-title: _PCI_EXPRESS_SLOT_STATUS_REGISTER
+title: "_PCI_EXPRESS_SLOT_STATUS_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) slot status register of a PCIe capability structure.
 old-location: pci\pci_express_slot_status_register.htm
 old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], *PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, _PCI_EXPRESS_SLOT_STATUS_REGISTER
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PCI_EXPRESS_SLOT_STATUS_REGISTER
 product: Windows
 targetos: Windows
@@ -84,81 +84,9 @@ typedef union _PCI_EXPRESS_SLOT_STATUS_REGISTER {
  
 
 
-### -field DUMMYSTRUCTNAME.AttentionButtonPressed
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PowerFaultDetected
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MRLSensorChanged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PresenceDetectChanged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.CommandCompleted
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MRLSensorState
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PresenceDetectState
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ElectromechanicalLockEngaged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.DataLinkStateChanged
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd
-
- 
-
-
 ### -field AsUSHORT
 
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER structure.
-
-
-#### - MRLSensorChanged
-
-A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
-
-
-#### - ElectromechanicalLockEngaged
-
-A single bit that indicates if the slot's electromechanical interlock is engaged.
-
-
-#### - MRLSensorState
-
-The slot's manually operated retention latch (MRL) sensor state. Possible values are:
-
-
-
-
-##### - PresenceDetectState.SlotEmpty
-
-The slot is empty.
 
 
 #### - AttentionButtonPressed
@@ -171,19 +99,48 @@ A single bit that indicates that the attention button for the slot is being pres
 A single bit that indicates that a command has been completed by the slot's hot-plug controller.
 
 
-##### - MRLSensorState.MRLOpen
+#### - DataLinkStateChanged
 
-The MRL is open.
+A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
 
 
-##### - MRLSensorState.MRLClosed
+#### - ElectromechanicalLockEngaged
+
+A single bit that indicates if the slot's electromechanical interlock is engaged.
+
+
+#### - MRLSensorChanged
+
+A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
+
+
+#### - MRLSensorState
+
+The slot's manually operated retention latch (MRL) sensor state. Possible values are:
+
+
+
+
+
+#### MRLClosed
 
 The MRL is closed.
+
+
+
+#### MRLOpen
+
+The MRL is open.
 
 
 #### - PowerFaultDetected
 
 A single bit that indicates that a power fault at the slot has been detected.
+
+
+#### - PresenceDetectChanged
+
+A single bit that indicates that the card presence detection state for the slot has changed.
 
 
 #### - PresenceDetectState
@@ -193,27 +150,25 @@ The slot's card presence detection state. Possible values are:
 
 
 
+
+#### SlotEmpty
+
+The slot is empty.
+
+
+
+#### CardPresent
+
+A card is present in the slot.
+
+
 #### - Rsvd
 
 Reserved.
 
 
-#### - PresenceDetectChanged
-
-A single bit that indicates that the card presence detection state for the slot has changed.
-
-
-##### - PresenceDetectState.CardPresent
-
-A card is present in the slot.
-
-
-#### - DataLinkStateChanged
-
-A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
-
-
 ## -remarks
+
 
 
 The PCI_EXPRESS_SLOT_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
@@ -222,13 +177,16 @@ A PCI_EXPRESS_SLOT_STATUS_REGISTER structure is contained in the <a href="https:
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SLOT_STATUS_REGISTER union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SLOT_STATUS_REGISTER union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

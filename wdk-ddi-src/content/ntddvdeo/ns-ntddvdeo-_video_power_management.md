@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POWER_MANAGEMENT
-title: _VIDEO_POWER_MANAGEMENT
+title: "_VIDEO_POWER_MANAGEMENT"
 author: windows-driver-content
 description: The VIDEO_POWER_MANAGEMENT structure contains information required by the miniport driver to perform power management.
 old-location: display\video_power_management.htm
 old-project: display
 ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PVIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], *PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], _VIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, display.video_power_management, VIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, _VIDEO_POWER_MANAGEMENT, display.video_power_management, ntddvdeo/PVIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddvdeo.h
-apiname: 
+api_name:
 -	VIDEO_POWER_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT
+req.typenames: VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT
 ---
 
 # _VIDEO_POWER_MANAGEMENT structure
@@ -86,32 +86,38 @@ Specifies the power management state to be set or queried. This member can be on
 
 
 
-##### - PowerState.VideoPowerHibernate
+
+#### VideoPowerOn
 
 The monitor and graphics adapter are both fully powered on and operational.
 
 
-##### - PowerState.VideoPowerOn
 
-The monitor and graphics adapter are both fully powered on and operational.
-
-
-##### - PowerState.VideoPowerStandBy
+#### VideoPowerStandBy
 
 The monitor is running at a reduced power level that requires a short recovery time to <b>VideoPowerOn</b>. The graphics adapter is powered on (registers are still active and video memory is refreshed); however, clocks might be lost.
 
 
-##### - PowerState.VideoPowerSuspend
+
+#### VideoPowerSuspend
 
 The monitor is running at a substantially reduced power level that requires a possibly longer recovery time than <b>VideoPowerStandBy</b> to <b>VideoPowerOn</b>. The graphics adapter is off.
 
 
-##### - PowerState.VideoPowerOff
+
+#### VideoPowerOff
 
 The monitor and graphics adapter are both off, consuming no power at all.
 
 
+
+#### VideoPowerHibernate
+
+The monitor and graphics adapter are both fully powered on and operational.
+
+
 ## -remarks
+
 
 
 The video port driver allocates and fills in the VIDEO_POWER_MANAGEMENT structure. Depending on the power management request dispatched to the video port, the video port driver passes this structure to the miniport driver's <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a> or <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a> routine.
@@ -122,15 +128,20 @@ A driver will always enter all other power states from the <b>VideoPowerOn</b> s
 
 
 
+
 ## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
 
+
+
 <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_POWER_MANAGEMENT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_POWER_MANAGEMENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

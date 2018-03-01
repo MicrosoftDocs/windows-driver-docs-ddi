@@ -7,8 +7,8 @@ old-location: storage\storportinitializeworker.htm
 old-project: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storport/StorPortInitializeWorker, storage.storportinitializeworker
+ms.date: 2/24/2018
+ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storage.storportinitializeworker, storport/StorPortInitializeWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortInitializeWorker
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ A pointer to an opaque buffer that holds context information for the work item.
 ## -returns
 
 
+
 The <b>StorPortInitializeWorker</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ The work item was successfully initialized.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a> or <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>.
@@ -145,17 +150,24 @@ If the miniport uses the work item during IO processing, we recommended that <b>
 
 
 
-## -see-also
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
+
+
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+
+
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortInitializeWorker routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortInitializeWorker routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

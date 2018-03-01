@@ -7,8 +7,8 @@ old-location: netvista\rilimsfailureparammask.htm
 old-project: netvista
 ms.assetid: ba1542e9-da6f-4696-8f71-575000a7724e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_ERRORCODE, RILIMSFAILUREPARAMMASK, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, RIL_PARAM_IMSFAILURE_ERRORSTRING, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILIMSFAILUREPARAMMASK, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_MESSAGETYPE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE, netvista.rilimsfailureparammask
+ms.date: 2/16/2018
+ms.keywords: RILIMSFAILUREPARAMMASK, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_ERRORCODE, RIL_PARAM_IMSFAILURE_ERRORSTRING, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_MESSAGETYPE, netvista.rilimsfailureparammask, ntddrilapitypes/RILIMSFAILUREPARAMMASK, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ALL, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILIMSFAILUREPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILIMSFAILUREPARAMMASK {
 ### -field RIL_PARAM_IMSFAILURE_EXECUTOR
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_MESSAGETYPE
-
 
 
 ### -field RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_ERRORCODE
-
 
 
 ### -field RIL_PARAM_IMSFAILURE_ERRORSTRING
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_ALL
-
 

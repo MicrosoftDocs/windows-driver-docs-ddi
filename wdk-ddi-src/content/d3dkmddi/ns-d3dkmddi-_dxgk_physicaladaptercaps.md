@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICALADAPTERCAPS
-title: _DXGK_PHYSICALADAPTERCAPS
+title: "_DXGK_PHYSICALADAPTERCAPS"
 author: windows-driver-content
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
 old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PHYSICALADAPTERCAPS, Flags.MovePagingSupported, Flags.IoMmuSupported, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, display.dxgk_physicaladaptercaps, Flags.VPRPagingContextRequired
+ms.date: 2/24/2018
+ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_PHYSICALADAPTERCAPS
 product: Windows
 targetos: Windows
@@ -137,7 +137,8 @@ The adapter requires the index of the VPR paging node.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VPRPagingNode

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-title: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
+title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS"
 author: windows-driver-content
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 product: Windows
 targetos: Windows
@@ -227,11 +227,6 @@ Supported starting with Windows 8.
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
-
-A 32-bit value that identifies the flip present-history operation.
-
-
 #### - ScatterBlt
 
 This member is reserved for system use and should be set to zero.
@@ -241,13 +236,20 @@ Setting this member is equivalent to setting the    seventh bit of the 32-bit <b
 Supported starting with Windows 8.
 
 
+#### - Value
+
+A 32-bit value that identifies the flip present-history operation.
+
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

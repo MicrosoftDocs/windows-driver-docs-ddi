@@ -7,8 +7,8 @@ old-location: debugger\ispointer64bit.htm
 old-project: debugger
 ms.assetid: 01003268-844e-4613-ac13-0306396e56b9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl2::IsPointer64Bit, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IsPointer64Bit, IDebugControl::IsPointer64Bit, IDebugControl3, debugger.ispointer64bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], IsPointer64Bit method, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, IDebugControl2::IsPointer64Bit, IDebugControl3, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl3::IsPointer64Bit, IDebugControl::IsPointer64Bit, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IsPointer64Bit method [Windows Debugging], IsPointer64Bit method [Windows Debugging], IDebugControl interface, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IsPointer64Bit,IDebugControl3.IsPointer64Bit, dbgeng/IDebugControl2::IsPointer64Bit, dbgeng/IDebugControl3::IsPointer64Bit, dbgeng/IDebugControl::IsPointer64Bit, debugger.ispointer64bit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.IsPointer64Bit
 -	IDebugControl2.IsPointer64Bit
 -	IDebugControl3.IsPointer64Bit
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::IsPointer64Bit method
@@ -68,7 +68,9 @@ HRESULT IsPointer64Bit();
 
 
 
+
 ## -returns
+
 
 
 <table>
@@ -98,8 +100,10 @@ The effective processor does not use 64-bit pointers.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 

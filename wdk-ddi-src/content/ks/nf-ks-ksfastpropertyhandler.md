@@ -7,8 +7,8 @@ old-location: stream\ksfastpropertyhandler.htm
 old-project: stream
 ms.assetid: 39a216f8-297d-45cc-9bec-4c0ee9941441
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler, KsFastPropertyHandler function [Streaming Media Devices], KsFastPropertyHandler
+ms.date: 2/23/2018
+ms.keywords: KsFastPropertyHandler, KsFastPropertyHandler function [Streaming Media Devices], ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsFastPropertyHandler
 product: Windows
 targetos: Windows
@@ -107,17 +107,22 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 The <b>KsFastPropertyHandler</b> function returns <b>TRUE</b> if the request was handled, or <b>FALSE</b> if the request was not handled. If <b>FALSE</b> is returned, an IRP is generated. If the request was handled, the function sets the IoStatus-&gt;Information element, either through setting it to zero because of an internal error, or through a property handler setting it. The property handler also sets the IoStatus-&gt;Status field when the property is actually handled.
 
 
 
+
 ## -remarks
 
 
+
 The owner of a property set can perform prefiltering or postfiltering of the property handling, as well as processing requests made through the fast I/O dispatch interface for device control. The <b>KsFastPropertyHandler</b> function is only used to process requests that can be fulfilled quickly.  The <i>Wait</i> parameter of the fast I/O function is not passed and is assumed to be <b>TRUE</b>. 
+
 
 
 
@@ -125,9 +130,11 @@ The owner of a property set can perform prefiltering or postfiltering of the pro
 
 <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFastPropertyHandler function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFastPropertyHandler function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

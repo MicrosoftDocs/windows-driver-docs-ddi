@@ -7,8 +7,8 @@ old-location: kernel\clfsmgmtinstallpolicy.htm
 old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], ClfsMgmtInstallPolicy, wdm/ClfsMgmtInstallPolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy
+ms.date: 2/24/2018
+ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+api_name:
 -	ClfsMgmtInstallPolicy
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS ClfsMgmtInstallPolicy(
 
 ### -param LogFile [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log that this instance of the <b>CLFS_MGMT_POLICY</b> structure will apply to. The policy applies to all streams within the log, even if a single stream within the log was specified. 
 
 
 ### -param Policy [in]
@@ -89,7 +89,9 @@ The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter
 ## -returns
 
 
+
 The <b>ClfsMgmtInstallPolicy</b> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -197,13 +199,16 @@ There is insufficient memory to complete the operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Policies are volatile. When all handles to the log are closed, the policies will be lost. You should install policies each time you register the first client.
@@ -214,13 +219,16 @@ The log policy that is installed applies to the physical log, even if the <i>Log
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtInstallPolicy routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtInstallPolicy routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

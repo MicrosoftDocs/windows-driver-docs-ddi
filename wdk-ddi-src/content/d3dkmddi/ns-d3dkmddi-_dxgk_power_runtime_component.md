@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_RUNTIME_COMPONENT
-title: _DXGK_POWER_RUNTIME_COMPONENT
+title: "_DXGK_POWER_RUNTIME_COMPONENT"
 author: windows-driver-content
 description: Describes information about a power component&#8212;for example, a graphics processing engine, a display device, or a block of memory.
 old-location: display\dxgk_power_runtime_component.htm
 old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_power_runtime_component, _DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT
+ms.date: 2/24/2018
+ms.keywords: DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_POWER_RUNTIME_COMPONENT
 product: Windows
 targetos: Windows
@@ -119,8 +119,13 @@ Specifies the indices of other power components that need to be active before th
 ## -remarks
 
 
+
 Each power component must be mapped to an engine, a display, a memory segment, or another similar device component. The DirectX graphics kernel subsystem detects the idle state of engines, displays, and memory segments.
-<div class="alert"><b>Note</b>  Memory segments were removed from Windows 8 but are available in Windows 8.1 and later.</div><div> </div>Multiple power components should not be mapped to the same engine (node), to the same memory segment, or to the same VidPN source or target. A power component can be used with only one engine, memory segment, or VidPN source.
+
+<div class="alert"><b>Note</b>  Memory segments were removed from Windows 8 but are available in Windows 8.1 and later.</div>
+<div> </div>
+Multiple power components should not be mapped to the same engine (node), to the same memory segment, or to the same VidPN source or target. A power component can be used with only one engine, memory segment, or VidPN source.
+
 
 
 
@@ -128,13 +133,19 @@ Each power component must be mapped to an engine, a display, a memory segment, o
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
 
- 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_POWER_RUNTIME_COMPONENT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_POWER_RUNTIME_COMPONENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

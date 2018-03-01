@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_TYPE
-title: _STORAGE_PROTOCOL_TYPE
+title: "_STORAGE_PROTOCOL_TYPE"
 author: windows-driver-content
 description: This enumeration is used to define the different storage command protocols that are used between software and hardware.
 old-location: storage\storage_protocol_type.htm
 old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeNvme, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, storage.storage_protocol_type, ntddstor/ProtocolTypeUfs, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeSd
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, ProtocolTypeAta, ProtocolTypeMaxReserved, ProtocolTypeNvme, ProtocolTypeProprietary, ProtocolTypeScsi, ProtocolTypeSd, ProtocolTypeUfs, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, ntddstor/ProtocolTypeMaxReserved, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeUfs, ntddstor/ProtocolTypeUnknown, ntddstor/STORAGE_PROTOCOL_TYPE, storage.storage_protocol_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
@@ -117,6 +117,8 @@ Reserved.
 ## -remarks
 
 
+
 Protocol types that are 128 (0x80) and above in value are reserved for Microsoft use.
+
 
 

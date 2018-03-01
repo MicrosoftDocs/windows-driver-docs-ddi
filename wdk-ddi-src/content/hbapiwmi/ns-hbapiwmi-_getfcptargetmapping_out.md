@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._GetFcpTargetMapping_OUT
-title: _GetFcpTargetMapping_OUT
+title: "_GetFcpTargetMapping_OUT"
 author: windows-driver-content
 description: The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_out.htm
 old-project: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PGetFcpTargetMapping_OUT, _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, GetFcpTargetMapping_OUT structure [Storage Devices], *PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], GetFcpTargetMapping_OUT, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml
+ms.date: 2/24/2018
+ms.keywords: "*PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	GetFcpTargetMapping_OUT
 product: Windows
 targetos: Windows
@@ -93,25 +93,35 @@ Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcp
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method reports mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for these logical units.
 
 The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFcpTargetMapping_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetFcpTargetMapping_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

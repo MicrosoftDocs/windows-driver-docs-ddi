@@ -7,8 +7,8 @@ old-location: display\volblt1.htm
 old-project: display
 ms.assetid: 81B9AB74-9CD1-4181-BE13-32D519069FD4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.volblt1, VolBlt1 callback function [Display Devices], VolBlt1, PFND3DDDI_VOLBLT1, PFND3DDDI_VOLBLT1, d3dumddi/VolBlt1
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_VOLBLT1, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	VolBlt1
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY* VolBlt1(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt1.md">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
@@ -92,7 +94,9 @@ __checkReturn HRESULT APIENTRY* VolBlt1(
 
 
 
+
       Returns S_OK or an appropriate error result if the volume bitblt operation is not successfully performed.
+
 
 
 
@@ -100,11 +104,15 @@ __checkReturn HRESULT APIENTRY* VolBlt1(
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt1.md">D3DDDIARG_VOLUMEBLT1</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_VOLBLT1 callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_VOLBLT1 callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

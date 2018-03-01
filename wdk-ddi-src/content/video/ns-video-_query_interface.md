@@ -1,14 +1,14 @@
 ---
 UID: NS:video._QUERY_INTERFACE
-title: _QUERY_INTERFACE
+title: "_QUERY_INTERFACE"
 author: windows-driver-content
 description: The QUERY_INTERFACE structure describes the interface being requested.
 old-location: display\query_interface.htm
 old-project: display
 ms.assetid: 0d813870-10bd-4b41-9f36-1cb45c462697
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: video/PQUERY_INTERFACE, *PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], video/QUERY_INTERFACE, _QUERY_INTERFACE, QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, PQUERY_INTERFACE, display.query_interface
+ms.date: 2/24/2018
+ms.keywords: "*PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	QUERY_INTERFACE
 product: Windows
 targetos: Windows
@@ -107,10 +107,13 @@ Specifies additional information about the interface being requested. Typically,
 
 
 
+
 ## -remarks
 
 
+
 The <i>QueryInterface</i> parameter of the video miniport driver's <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> function is a pointer to a QUERY_INTERFACE structure. 
+
 
 
 
@@ -118,9 +121,11 @@ The <i>QueryInterface</i> parameter of the video miniport driver's <a href="..\v
 
 <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20QUERY_INTERFACE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20QUERY_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYALLOCATIONRESIDENCY
-title: _D3DKMT_QUERYALLOCATIONRESIDENCY
+title: "_D3DKMT_QUERYALLOCATIONRESIDENCY"
 author: windows-driver-content
 description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 old-location: display\d3dkmt_queryallocationresidency.htm
 old-project: display
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_QUERYALLOCATIONRESIDENCY
 product: Windows
 targetos: Windows
@@ -102,6 +102,7 @@ If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NUL
 ### -field pResidencyStatus
 
 [out] A pointer to an array of D3DKMT_ALLOCATIONRESIDENCYSTATUS enumerators. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the enumerators that are listed in the following table to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>AllocationCount</b> member, and each element receives one of the following enumerators to indicate the residency status of the corresponding allocation in the <b>phAllocationList</b> array.
+
 <table>
 <tr>
 <th>Enumerator</th>
@@ -137,16 +138,19 @@ The resource or allocation is nonresident.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryallocationresidency.md">D3DKMTQueryAllocationResidency</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_QUERYALLOCATIONRESIDENCY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_QUERYALLOCATIONRESIDENCY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -2,13 +2,13 @@
 UID: NE:ks.KSPROPERTY_GENERAL
 title: KSPROPERTY_GENERAL
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_general.htm
 old-project: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL, KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID
+ms.date: 2/23/2018
+ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ks.h
-apiname: 
+api_name:
 -	KSPROPERTY_GENERAL
 product: Windows
 targetos: Windows

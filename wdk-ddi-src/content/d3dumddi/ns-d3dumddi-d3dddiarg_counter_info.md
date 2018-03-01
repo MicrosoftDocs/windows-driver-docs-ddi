@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_counter_info.htm
 old-project: display
 ms.assetid: FB2B8FBF-908D-4668-8C5B-263903BA1EF5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_counter_info, D3DDDIARG_COUNTER_INFO, D3DDDIARG_COUNTER_INFO structure [Display Devices], d3dumddi/D3DDDIARG_COUNTER_INFO
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_COUNTER_INFO, D3DDDIARG_COUNTER_INFO structure [Display Devices], d3dumddi/D3DDDIARG_COUNTER_INFO, display.d3dddiarg_counter_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_COUNTER_INFO
 product: Windows
 targetos: Windows

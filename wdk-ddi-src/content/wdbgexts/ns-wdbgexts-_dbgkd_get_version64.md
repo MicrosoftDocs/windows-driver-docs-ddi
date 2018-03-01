@@ -1,14 +1,14 @@
 ---
 UID: NS:wdbgexts._DBGKD_GET_VERSION64
-title: _DBGKD_GET_VERSION64
+title: "_DBGKD_GET_VERSION64"
 author: windows-driver-content
 description: The IG_GET_KERNEL_VERSION Ioctl operation receives information related to the operating system version of the target.
 old-location: debugger\ig_get_kernel_version.htm
 old-project: debugger
 ms.assetid: 692e58b5-74ea-48f3-a9c2-81953b7d600d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], debugger.ig_get_kernel_version, *PDBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], wdbgexts/DBGKD_GET_VERSION64, WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64
+ms.date: 2/23/2018
+ms.keywords: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, wdbgexts/DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	DBGKD_GET_VERSION64
 product: Windows
 targetos: Windows
-req.typenames: *PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64
+req.typenames: DBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64
 req.product: Windows 10 or later.
 ---
 
@@ -104,6 +104,7 @@ Receives a secondary version number that is used to distinguish among older, dep
 ### -field Flags
 
 Receives a set of bit flags for the current debugging session.  The following flags can be present.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -169,12 +170,14 @@ Multiple operating system partitions exist.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MachineType
 
 Receives the type of the target's processor.  Possible processor types are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -230,7 +233,8 @@ EFI byte code architecture
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxPacketType
@@ -251,6 +255,7 @@ Receives one more that the highest number, recognized by the target, for a comma
 ### -field Simulation
 
 Receives an indication if the target is in simulated execution.  Possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -276,7 +281,8 @@ EXDI simulation is used.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Unused
@@ -302,9 +308,11 @@ Receives the value of the kernel variable <b>KdDebuggerDataBlock</b>.  This a po
 ## -remarks
 
 
+
 The parameters for the IG_GET_KERNEL_VERSION <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the DBGKD_GET_VERSION64 structure.
 
 This operation is only available in kernel-mode debugging.
+
 
 
 
@@ -312,11 +320,15 @@ This operation is only available in kernel-mode debugging.
 
 <a href="..\wdbgexts\nf-wdbgexts-getdebuggerdata.md">GetDebuggerData</a>
 
+
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DBGKD_GET_VERSION64 structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DBGKD_GET_VERSION64 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\oemplgblt.htm
 old-project: print
 ms.assetid: c33a9592-8e1b-4028-bd34-72cc4885f17f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMPlgBlt, print.oemplgblt, OEMPlgBlt function [Print Devices], OEMPlgBlt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml
+ms.date: 2/23/2018
+ms.keywords: OEMPlgBlt, OEMPlgBlt function [Print Devices], print.oemplgblt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMPlgBlt
 product: Windows
 targetos: Windows
@@ -81,43 +81,32 @@ BOOL APIENTRY OEMPlgBlt(
 ### -param psoDst
 
 
-
 ### -param psoSrc
-
 
 
 ### -param psoMask
 
 
-
 ### -param pco
-
 
 
 ### -param pxlo
 
 
-
 ### -param pca
-
 
 
 ### -param pptlBrushOrg
 
 
-
 ### -param pptfixDest
-
 
 
 ### -param prclSrc
 
 
-
 ### -param pptlMask
 
 
-
 ### -param iMode
-
 

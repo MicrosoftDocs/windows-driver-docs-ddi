@@ -1,14 +1,14 @@
 ---
 UID: NS:dbgeng._DEBUG_REGISTER_DESCRIPTION
-title: _DEBUG_REGISTER_DESCRIPTION
+title: "_DEBUG_REGISTER_DESCRIPTION"
 author: windows-driver-content
 description: The DEBUG_REGISTER_DESCRIPTION structure is returned by GetDescription to describe a processor's register.
 old-location: debugger\debug_register_description.htm
 old-project: debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], dbgeng/PDEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description, dbgeng/DEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, dbgeng/PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	DbgEng.h
-apiname: 
+api_name:
 -	DEBUG_REGISTER_DESCRIPTION
 product: Windows
 targetos: Windows
@@ -111,8 +111,10 @@ Reserved for system use.
 ## -remarks
 
 
+
 If this register is a subregister, the value of the full register can be turned into the value of the sub-register by first shifting <b>SubregShift</b> bits to the right and then combining the result with <b>SubregMask</b> using the bitwise-AND operator.  The size of the sub-register (<b>SubregLength</b>) is the number of bits set in <b>SubregMask</b>.
 
 For general information about registers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 

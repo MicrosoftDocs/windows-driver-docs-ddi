@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroycryptosession_0030_.htm
 old-project: display
 ms.assetid: 1A16AE54-8A39-419E-B664-366287CF396D
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_destroycryptosession_0030_, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], PFND3D12DDI_DESTROYCRYPTOSESSION_0030, d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSION_0030, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030, display.pfnd3d12ddi_destroycryptosession_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_DESTROYCRYPTOSESSION_0030
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The crypto session
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: storage\hwstorunitcontrol.htm
 old-project: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.hwstorunitcontrol, HwStorUnitControl routine [Storage Devices], HwStorUnitControl, HW_UNIT_CONTROL, HW_UNIT_CONTROL, storport/HwStorUnitControl
+ms.date: 2/24/2018
+ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	HwStorUnitControl
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A pointer to the miniport driver's per-unit storage area.
 ### -param ControlType [in]
 
 Specifies  an unit control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings.
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -305,12 +306,14 @@ None
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -792,9 +795,11 @@ The address of the device for which the rich device description is desired.  Thi
 </dl>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the following definition in <i>storport.h</i>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -812,25 +817,31 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </table></span></div>
 
 
-##### - Parameters.Address
-
-The address of the unit the control operation is specified for.
 
 
-##### - Parameters.Version
+#### Version
 
 The version of the parent structure.
 
 
-##### - Parameters.Size
+
+#### Size
 
 The size, in bytes, of the parent structure.
+
+
+
+#### Address
+
+The address of the unit the control operation is specified for.
 
 
 ## -returns
 
 
+
 Depending on the control type, <b>HwStorUnitControl</b> returns one of the following SCSI_UNIT_CONTROL_STATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -860,14 +871,18 @@ The unit control operation was not successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The name <b>HwStorUnitControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -886,13 +901,16 @@ HW_UNIT_CONTROL (
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_UNIT_CONTROL routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_UNIT_CONTROL routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\hba_registerforadapterportevents.htm
 old-project: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RegisterForAdapterPortEvents, fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, storage.hba_registerforadapterportevents, HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices], fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, hbaapi/HBA_RegisterForAdapterPortEvents, storage.hba_registerforadapterportevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_RegisterForAdapterPortEvents
 product: Windows
 targetos: Windows
@@ -97,9 +97,10 @@ TBD
 
 
 
-#### - userData
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+#### - callbackHandle
+
+Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
@@ -107,15 +108,17 @@ Pointer to a buffer that is passed to the callback routine with each event. This
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
-#### - callbackHandle
+#### - userData
 
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns
 
 
+
 The <b>HBA_RegisterForAdapterPortEvents</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, this member should have one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,30 +157,42 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For a list of port events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
+
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForAdapterPortEvents routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForAdapterPortEvents routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

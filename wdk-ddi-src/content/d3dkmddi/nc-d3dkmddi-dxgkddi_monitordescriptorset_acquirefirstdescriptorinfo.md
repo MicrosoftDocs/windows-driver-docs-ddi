@@ -7,8 +7,8 @@ old-location: display\dxgk_monitordescriptorset_interface_pfnacquirefirstdescrip
 old-project: display
 ms.assetid: 228f6947-a7e5-4b76-8224-fac6889fc77a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo, pfnAcquireFirstDescriptorInfo callback function [Display Devices], pfnAcquireFirstDescriptorInfo, DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, d3dkmddi/pfnAcquireFirstDescriptorInfo, VidPnFunctions_fae7b938-60d5-41c0-92a8-9381e67aa411.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, VidPnFunctions_fae7b938-60d5-41c0-92a8-9381e67aa411.xml, d3dkmddi/pfnAcquireFirstDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo, pfnAcquireFirstDescriptorInfo, pfnAcquireFirstDescriptorInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnAcquireFirstDescriptorInfo
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnAcquireFirstDescriptorInfo(
 ## -returns
 
 
+
 The <b>pfnAcquireFirstDescriptorInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,15 +136,19 @@ The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using the D3DKMDT_MONITOR_DESCRIPTOR structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo.md">pfnReleaseDescriptorInfo</a>.
 
 You can obtain all the descriptors in a monitor descriptor set by calling <b>pfnAcquireFirstDescriptorInfo</b> and then making a sequence of calls to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo.md">pfnAcquireNextDescriptorInfo</a>.
+
 
 

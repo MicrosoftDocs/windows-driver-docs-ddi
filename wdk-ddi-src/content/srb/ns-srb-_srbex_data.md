@@ -1,19 +1,19 @@
 ---
 UID: NS:srb._SRBEX_DATA
-title: _SRBEX_DATA
+title: "_SRBEX_DATA"
 author: windows-driver-content
 description: The SRBEX_DATA structure is the generalized format for containing extended SRB data.
 old-location: storage\srbex_data.htm
 old-project: storage
 ms.assetid: 15FB9877-6339-484B-83D5-6AD44EEE1D6E
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SrbExDataTypeScsiCdb16, SRBEX_DATA structure [Storage Devices], SrbExDataTypePower, SrbExDataTypeIoInfo, PSRBEX_DATA, *PSRBEX_DATA, SrbExDataTypeScsiCdb32, storage.srbex_data, SrbExDataTypePnp, SrbExDataTypeWmi, storport/PSRBEX_DATA, SrbExDataTypeBidirectional, SrbExDataTypeScsiCdbVar, _SRBEX_DATA, SRBEX_DATA, storport/SRBEX_DATA, SrbExDataTypeUnknown, PSRBEX_DATA structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSRBEX_DATA, PSRBEX_DATA, PSRBEX_DATA structure pointer [Storage Devices], SRBEX_DATA, SRBEX_DATA structure [Storage Devices], SrbExDataTypeBidirectional, SrbExDataTypeIoInfo, SrbExDataTypePnp, SrbExDataTypePower, SrbExDataTypeScsiCdb16, SrbExDataTypeScsiCdb32, SrbExDataTypeScsiCdbVar, SrbExDataTypeUnknown, SrbExDataTypeWmi, _SRBEX_DATA, storage.srbex_data, storport/PSRBEX_DATA, storport/SRBEX_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: srb.h
-req.include-header: Storport.h, Srb.h
+req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	SRBEX_DATA
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _SRBEX_DATA {
 ### -field Type
 
 Data type indicator for the extended SRB data structure. The possible values for <b>Type</b> are one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -168,7 +169,8 @@ The SRB extended data is formatted as an <a href="..\storport\ns-storport-_srbex
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Length
@@ -184,9 +186,11 @@ The extended SRB data block contents.
 ## -remarks
 
 
+
 The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
 
 The following example code fragment shows how to access the extended data for the an SRB function of SRB_FUNCTION_PNP.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -263,27 +267,44 @@ The following example code fragment shows how to access the extended data for th
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
-
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
-
-<a href="..\storport\ns-storport-_srbex_data_power.md">SRBEX_DATA_POWER</a>
-
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
-
-<a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
-
-<a href="..\storport\ns-storport-_srbex_data_wmi.md">SRBEX_DATA_WMI</a>
-
-<a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 
 <a href="..\storport\ns-storport-_srbex_data_pnp.md">SRBEX_DATA_PNP</a>
 
- 
+
+
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_wmi.md">SRBEX_DATA_WMI</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_power.md">SRBEX_DATA_POWER</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+
+
+
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

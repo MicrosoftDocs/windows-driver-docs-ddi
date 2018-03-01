@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetdevice_formatrequestforcontroltransfer.htm
 old-project: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method
+ms.date: 2/20/2018
+ms.keywords: FormatRequestForControlTransfer method, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer,IWDFUsbTargetDevice.FormatRequestForControlTransfer, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbTargetDevice.FormatRequestForControlTransfer
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 ## -returns
 
 
+
 <b>FormatRequestForControlTransfer</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,14 +139,102 @@ The memory offset that the <i>TransferOffset</i> parameter specified was invalid
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/O request for a control transfer operation, the framework can subsequently send the request to the I/O target.
+
+
+#### Examples
+
+The following code example is taken from the <a href="http://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    WINUSB_CONTROL_SETUP_PACKET setupPacket;
+
+    ULONG bytesTransferred;
+
+    HRESULT hr = S_OK;
+
+    //
+    // Setup the control packet.
+    //
+
+    WINUSB_CONTROL_SETUP_PACKET_INIT( &amp;setupPacket,
+                                      BmRequestHostToDevice,
+                                      BmRequestToDevice,
+                                      USBFX2LK_SET_BARGRAPH_DISPLAY,
+                                      0,
+                                      0 );
+
+    //
+    // Issue the request to WinUsb.
+    //
+
+    hr = SendControlTransferSynchronously(
+                &amp;(setupPacket.WinUsb),
+                (PUCHAR) BarGraphState,
+                sizeof(BAR_GRAPH_STATE),
+                &amp;bytesTransferred
+                );
+...
+
+HRESULT
+CMyDevice::SendControlTransferSynchronously(
+    _In_ PWINUSB_SETUP_PACKET SetupPacket,
+    _Inout_updates_(BufferLength) PBYTE Buffer,
+    _In_ ULONG BufferLength,
+    _Out_ PULONG LengthTransferred
+    )
+{
+    HRESULT hr = S_OK;
+    IWDFIoRequest *pWdfRequest = NULL;
+    IWDFDriver * FxDriver = NULL;
+    IWDFMemory * FxMemory = NULL; 
+    IWDFRequestCompletionParams * FxComplParams = NULL;
+    IWDFUsbRequestCompletionParams * FxUsbComplParams = NULL;
+
+    *LengthTransferred = 0;
+    
+    hr = m_FxDevice-&gt;CreateRequest( NULL, //pCallbackInterface
+                                    NULL, //pParentObject
+                                    &amp;pWdfRequest);
+
+    if (SUCCEEDED(hr))
+    {
+        m_FxDevice-&gt;GetDriver(&amp;FxDriver);
+
+        hr = FxDriver-&gt;CreatePreallocatedWdfMemory( Buffer,
+                                                    BufferLength,
+                                                    NULL, //pCallbackInterface
+                                                    pWdfRequest, //pParetObject
+                                                    &amp;FxMemory );
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        hr = m_pIUsbTargetDevice-&gt;FormatRequestForControlTransfer( pWdfRequest,
+                                                                   SetupPacket,
+                                                                   FxMemory,
+                                                                   NULL); //TransferOffset
+    }                                                          
+      
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -152,15 +242,23 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
- 
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::FormatRequestForControlTransfer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::FormatRequestForControlTransfer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

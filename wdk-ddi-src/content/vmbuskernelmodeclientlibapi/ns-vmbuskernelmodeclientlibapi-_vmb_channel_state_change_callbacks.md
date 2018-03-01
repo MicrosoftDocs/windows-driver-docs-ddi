@@ -1,14 +1,14 @@
 ---
 UID: NS:vmbuskernelmodeclientlibapi._VMB_CHANNEL_STATE_CHANGE_CALLBACKS
-title: _VMB_CHANNEL_STATE_CHANGE_CALLBACKS
+title: "_VMB_CHANNEL_STATE_CHANGE_CALLBACKS"
 author: windows-driver-content
 description: The VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure contains callback functions that relate to the state changes for a channel.
 old-location: netvista\vmb_channel_state_change_callbacks.htm
 old-project: netvista
 ms.assetid: 01A9A947-76F0-407C-8480-B2721A9A8A7B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure [Network Drivers Starting with Windows Vista], *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS structure pointer [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS, vmbuskernelmodeclientlibapi/PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, netvista.vmb_channel_state_change_callbacks, VMB_CHANNEL_STATE_CHANGE_CALLBACKS, _VMB_CHANNEL_STATE_CHANGE_CALLBACKS
+ms.date: 2/16/2018
+ms.keywords: "*PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS structure pointer [Network Drivers Starting with Windows Vista], VMB_CHANNEL_STATE_CHANGE_CALLBACKS, VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure [Network Drivers Starting with Windows Vista], _VMB_CHANNEL_STATE_CHANGE_CALLBACKS, netvista.vmb_channel_state_change_callbacks, vmbuskernelmodeclientlibapi/PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+api_name:
 -	VMB_CHANNEL_STATE_CHANGE_CALLBACKS
 product: Windows
 targetos: Windows

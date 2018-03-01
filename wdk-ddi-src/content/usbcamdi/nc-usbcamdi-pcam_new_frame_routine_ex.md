@@ -7,8 +7,8 @@ old-location: stream\camnewvideoframeex.htm
 old-project: stream
 ms.assetid: 739e434e-9621-4927-bf1d-2e7c3b2828d7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.camnewvideoframeex, CamNewVideoFrameEx, CamNewVideoFrameEx routine [Streaming Media Devices], CamNewVideoFrameEx, PCAM_NEW_FRAME_ROUTINE_EX, PCAM_NEW_FRAME_ROUTINE_EX, usbcamdi/CamNewVideoFrameEx, usbcmdpr_e7d56a12-73a6-4778-91be-24962683c475.xml
+ms.date: 2/23/2018
+ms.keywords: CamNewVideoFrameEx, CamNewVideoFrameEx routine [Streaming Media Devices], PCAM_NEW_FRAME_ROUTINE_EX, stream.camnewvideoframeex, usbcamdi/CamNewVideoFrameEx, usbcmdpr_e7d56a12-73a6-4778-91be-24962683c475.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	CamNewVideoFrameEx
 product: Windows
 targetos: Windows
@@ -97,11 +97,14 @@ Pointer to the raw frame buffer length. The length is expressed in bytes. The ca
 ## -returns
 
 
+
 <b>CamNewVideoFrameEx</b> does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 USBCAMD calls the camera minidriver's <b>CamNewVideoFrameEx</b> callback function at IRQL = DISPATCH_LEVEL.
@@ -109,5 +112,6 @@ USBCAMD calls the camera minidriver's <b>CamNewVideoFrameEx</b> callback functio
 The original USBCAMD does not call <b>CamNewVideoFrameEx</b>.
 
 This function is optional.
+
 
 

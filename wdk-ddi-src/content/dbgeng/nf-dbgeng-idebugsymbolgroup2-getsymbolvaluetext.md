@@ -7,8 +7,8 @@ old-location: debugger\getsymbolvaluetext.htm
 old-project: debugger
 ms.assetid: 587b8769-86b6-48bd-b238-84aeb5611668
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2::GetSymbolValueText, ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueText method, GetSymbolValueText, debugger.getsymbolvaluetext, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, IDebugSymbolGroup2
+ms.date: 2/23/2018
+ms.keywords: ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml, GetSymbolValueText method [Windows Debugging], GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueText,IDebugSymbolGroup2.GetSymbolValueText, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueText method, IDebugSymbolGroup2::GetSymbolValueText, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, debugger.getsymbolvaluetext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbolGroup2.GetSymbolValueText
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetSymbolValueText method
@@ -93,6 +93,7 @@ The size, in characters, of the value of the symbol.  If <i>NameSize</i> is <b>N
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,13 +121,16 @@ The method was successful.  However, the value of the symbol would not fit in th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 If you added the symbol to the symbol group by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a> method, the string that is returned to <i>Buffer</i> is the name of the symbol that is passed to <b>AddSymbol</b>.
@@ -135,17 +139,24 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561457">WriteSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561457">WriteSymbol</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolValueText method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolValueText method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

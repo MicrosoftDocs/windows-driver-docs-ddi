@@ -7,8 +7,8 @@ old-location: netvista\rilemergencymodecontrolparams.htm
 old-project: netvista
 ms.assetid: b25ecc96-1ed2-4d8f-8dc8-0fafe58eca24
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilemergencymodecontrolparams, *LPRILEMERGENCYMODECONTROLPARAMS, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilemergencymodecontrolparams, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILEMERGENCYMODECONTROLPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS
+req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 ---
 
 # RILEMERGENCYMODECONTROLPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILEMERGENCYMODECONTROLPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwEmergencyModeControl
-
 

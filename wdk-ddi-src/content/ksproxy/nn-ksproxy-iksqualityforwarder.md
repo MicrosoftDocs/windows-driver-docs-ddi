@@ -7,8 +7,8 @@ old-location: stream\iksqualityforwarder.htm
 old-project: stream
 ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.iksqualityforwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], described, IKsQualityForwarder, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml
+ms.date: 2/23/2018
+ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsQualityForwarder
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: PIPE_STATE
 
 The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,14 +76,14 @@ Flushes information from a pin.
 
 </td>
 </tr>
-</table>Flushes information from a pin. 
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsQualityForwarder.
+
 
 

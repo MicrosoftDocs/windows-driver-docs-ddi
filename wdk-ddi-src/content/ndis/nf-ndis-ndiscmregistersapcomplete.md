@@ -7,8 +7,8 @@ old-location: netvista\ndiscmregistersapcomplete.htm
 old-project: netvista
 ms.assetid: 0419bbf5-02aa-482f-9e2c-a435302751c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndiscmregistersapcomplete, ndis/NdisCmRegisterSapComplete, NdisCmRegisterSapComplete, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml
+ms.date: 2/16/2018
+ms.keywords: NdisCmRegisterSapComplete, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml, ndis/NdisCmRegisterSapComplete, netvista.ndiscmregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmRegisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmRegisterSapComplete function
@@ -81,8 +81,8 @@ Specifies the final status of the client's original request to register the SAP,
 
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
-     <mshelp:link keywords="netvista.protocolcmregistersap" tabindex="0"><i>
-     ProtocolCmRegisterSap</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     ProtocolCmRegisterSap</a> function.
 
 
 ### -param CallMgrSapContext [in]
@@ -96,11 +96,14 @@ Specifies the handle to a caller-supplied resident context area in which the CM 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager must call 
@@ -109,8 +112,8 @@ A stand-alone call manager must call
     returned NDIS_STATUS_PENDING when it was called with the given 
     <i>NdisSapHandle</i> . The call to 
     <b>NdisCmRegisterSapComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclregistersapcomplete" tabindex="0"><i>
-    ProtocolClRegisterSapComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+    ProtocolClRegisterSapComplete</a> function.
 
 If the call manager sets 
     <i>Status</i> to anything other than NDIS_STATUS_SUCCESS, it should consider the 
@@ -127,23 +130,34 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
-
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolclregistersapcomplete" tabindex="0"><i>
-   ProtocolClRegisterSapComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+   ProtocolClRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmRegisterSapComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmRegisterSapComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

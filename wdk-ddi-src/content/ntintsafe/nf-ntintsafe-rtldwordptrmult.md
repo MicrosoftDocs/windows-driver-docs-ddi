@@ -7,8 +7,8 @@ old-location: kernel\rtldwordptrmult.htm
 old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlDWordPtrMult function [Kernel-Mode Driver Architecture], RtlDWordPtrMult, kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
+ms.date: 2/24/2018
+ms.keywords: RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlDWordPtrMult
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

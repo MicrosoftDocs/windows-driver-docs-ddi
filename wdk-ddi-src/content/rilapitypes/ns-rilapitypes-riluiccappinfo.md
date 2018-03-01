@@ -7,8 +7,8 @@ old-location: netvista\riluiccappinfo_2.htm
 old-project: netvista
 ms.assetid: 7673163e-3663-4dc0-b454-bf358b87d62d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUICCAPPINFO, netvista.riluiccappinfo_2, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], *LPRILUICCAPPINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo_2, rilapitypes/RILUICCAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCAPPINFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCAPPINFO, RILUICCAPPINFO
+req.typenames: RILUICCAPPINFO, *LPRILUICCAPPINFO
 req.product: Windows 10 or later.
 ---
 
@@ -80,39 +80,29 @@ typedef struct _RILUICCAPPINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwUiccAppType
-
 
 
 ### -field dwAppIdLength
 
 
-
 ### -field bAppId
-
 
 
 ### -field dwAppNameLength
 
 
-
 ### -field cszAppName
-
 
 
 ### -field dwNumPins
 
 
-
 ### -field bPinRef
-
 

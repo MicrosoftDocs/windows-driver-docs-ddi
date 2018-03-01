@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice_setpnpstate.htm
 old-project: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice_setpnpstate, IWDFDevice, SetPnpState method, wudfddi/IWDFDevice::SetPnpState, wdf.iwdfdevice_setpnpstate, IWDFDevice::SetPnpState, SetPnpState method, IWDFDevice interface, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, SetPnpState, IWDFDevice interface, SetPnpState method
+ms.date: 2/20/2018
+ms.keywords: IWDFDevice, IWDFDevice interface, SetPnpState method, IWDFDevice::SetPnpState, SetPnpState method, SetPnpState method, IWDFDevice interface, SetPnpState,IWDFDevice.SetPnpState, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate, wdf.iwdfdevice_setpnpstate, wudfddi/IWDFDevice::SetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice.SetPnpState
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a
 ### -param Value [in]
 
 A WDF_TRI_STATE-typed value that identifies how to set the PnP property that <i>State</i> specifies. The following table shows the possible values for <i>Value</i>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,36 +115,98 @@ Turn on the PnP property.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Before the state of the PnP property that <b>SetPnpState</b> set can take effect, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a> method.
 
 
+#### Examples
+
+The following code example shows how to indicate that a device failed as the result of a request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+CUmdfHidDevice::OnCompletion(
+    __in IWDFIoRequest* WdfRequest,
+    __in IWDFIoTarget* /* WdfTarget */,
+    __in IWDFRequestCompletionParams* WdfCompletionParams,
+    __in PVOID /* Context */
+    )
+{
+    ULONG_PTR bytesRead;
+
+ if (!SUCCEEDED(WdfCompletionParams-&gt;GetCompletionStatus()))
+    {
+        m_WdfDevice-&gt;SetPnpState(WdfPnpStateFailed, WdfTrue);
+        m_WdfDevice-&gt;CommitPnpState();
+        return;
+    }
+
+    // Lock the device to prevent files from closing.
+    m_WdfDevice-&gt;AcquireLock();
+
+    // Retrieve the number of bytes that were read.
+    bytesRead = WdfCompletionParams-&gt;GetInformation();
+
+    // Process the reports.
+    ProcessInputReports((PBYTE) m_ReadMemory-&gt;GetDataBuffer(NULL), bytesRead);
+
+    m_WdfDevice-&gt;ReleaseLock();
+
+    // Release the request.
+    m_InterruptReadRequest = NULL;
+    WdfRequest-&gt;DeleteWdfObject();
+
+    // Send a new request.
+    SendInterruptPipeRead();
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::SetPnpState method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::SetPnpState method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\fwpscalloutunregisterbykey0.htm
 old-project: netvista
 ms.assetid: 24254e56-c7f5-4424-98b5-3b99bf210d5b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.fwpscalloutunregisterbykey0, fwpsk/FwpsCalloutUnregisterByKey0, FwpsCalloutUnregisterByKey0, wfp_ref_2_funct_3_fwps_C_e5a98dbf-23ee-4383-96d5-d8ce8a85614e.xml, FwpsCalloutUnregisterByKey0 function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: FwpsCalloutUnregisterByKey0, FwpsCalloutUnregisterByKey0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterByKey0, netvista.fwpscalloutunregisterbykey0, wfp_ref_2_funct_3_fwps_C_e5a98dbf-23ee-4383-96d5-d8ce8a85614e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsCalloutUnregisterByKey0
 product: Windows
 targetos: Windows
@@ -82,8 +82,10 @@ A pointer to a GUID that uniquely identifies the callout that is being unregiste
 ## -returns
 
 
+
 The 
      <b>FwpsCalloutUnregisterByKey0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,11 +154,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -172,21 +177,32 @@ A callout driver cannot be unloaded until all of the callouts that were previous
 
 
 
+
 ## -see-also
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
-
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutUnregisterByKey0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutUnregisterByKey0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

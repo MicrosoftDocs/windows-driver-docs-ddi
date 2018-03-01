@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
-title: _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
+title: "_DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure describes data that specifies the alpha-fill mode of the output.
 old-location: display\dxvahdddi_blt_state_alpha_fill_data.htm
 old-project: display
 ms.assetid: 67fb316e-359f-4bf0-b061-a4b18e359f38
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_blt_state_alpha_fill_data, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, display.dxvahdddi_blt_state_alpha_fill_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ typedef struct _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA {
 ## -remarks
 
 
+
 The Direct3D runtime specifies the DXVAHDDDI_BLT_STATE_ALPHA_FILL state in the <b>State</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a> function only when the output format is a format type with alpha (for example, D3DDDIFMT_A8R8G8B8 from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration).
 
 The DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM mode requires the following conditions:
+
 <ul>
 <li>
 The DXVAHDDDI_BLT_STATE_ALPHA_FILL state only affects alpha within the destination rectangle. The rest of the output remains unchanged. 
@@ -100,21 +102,32 @@ If the input stream is disabled or unavailable, the output remains unchanged.
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
- 
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

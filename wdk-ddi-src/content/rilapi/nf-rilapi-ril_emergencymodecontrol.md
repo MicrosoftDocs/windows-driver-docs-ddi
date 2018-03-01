@@ -7,8 +7,8 @@ old-location: netvista\ril_emergencymodecontrol.htm
 old-project: netvista
 ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], rilapi/RIL_EmergencyModeControl, RIL_EmergencyModeControl, netvista.ril_emergencymodecontrol
+ms.date: 2/16/2018
+ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_EmergencyModeControl
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_EmergencyModeControl(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwEmergencyModeControl
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

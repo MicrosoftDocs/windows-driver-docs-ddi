@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_GetRNIDMgmtInfo_OUT
-title: _SM_GetRNIDMgmtInfo_OUT
+title: "_SM_GetRNIDMgmtInfo_OUT"
 author: windows-driver-content
 description: The SM_GetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_GetRNIDMgmtInfo method.
 old-location: storage\sm_getrnidmgmtinfo_out.htm
 old-project: storage
 ms.assetid: e12bd494-4d2a-44a9-95dc-0bc78fa73a97
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _SM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], *PSM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_GetRNIDMgmtInfo_OUT, hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_GetRNIDMgmtInfo_OUT
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A structure of type HBAFC3MgmtInfo that holds FC3 management information. The FC
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetRNIDMgmtInfo_OUTstructure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

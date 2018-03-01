@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-event-complete.htm
 old-project: PCI
 ms.assetid: 5299ec17-1fcb-4449-9ec4-73a4d818df0d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.ioctl-sriov-event-complete, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], IOCTL_SRIOV_EVENT_COMPLETE, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	IOCTL_SRIOV_EVENT_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_EVENT_COMPLETE IOCTL
@@ -76,28 +76,36 @@ The size of the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1a
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,10 +117,12 @@ The size of the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1a
 ## -remarks
 
 
+
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="https://msdn.microsoft.com/3f2d67e0-abab-40a1-b4a9-cb65e81884e9">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
 synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1ab3dadc95">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer. The code indicates the status code o use for completion of the event.
+
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -148,7 +158,8 @@ synchronously.  The stack provides the NTSTATUS code to set for the <a href="htt
 </pre>
 </td>
 </tr>
-</table></span></div><div class="code"><span codelanguage=""><table>
+</table></span></div>
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -219,4 +230,5 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
+
 

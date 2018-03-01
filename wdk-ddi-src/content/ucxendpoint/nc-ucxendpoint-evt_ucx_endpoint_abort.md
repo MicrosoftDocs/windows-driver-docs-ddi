@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_abort.htm
 old-project: usbref
 ms.assetid: b457d0b5-30a2-42f9-9194-8c60af790f75
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucx_endpoint_abort, EvtUcxEndpointAbort callback function [Buses], EvtUcxEndpointAbort, EVT_UCX_ENDPOINT_ABORT, EVT_UCX_ENDPOINT_ABORT, ucxendpoint/EvtUcxEndpointAbort, PEVT_UCX_ENDPOINT_ABORT callback function pointer [Buses], PEVT_UCX_ENDPOINT_ABORT
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ENDPOINT_ABORT, EvtUcxEndpointAbort, EvtUcxEndpointAbort callback function [Buses], PEVT_UCX_ENDPOINT_ABORT, PEVT_UCX_ENDPOINT_ABORT callback function pointer [Buses], buses.evt_ucx_endpoint_abort, ucxendpoint/EvtUcxEndpointAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ucxendpoint.h
-apiname: 
+api_name:
 -	PEVT_UCX_ENDPOINT_ABORT
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ typedef EVT_UCX_ENDPOINT_ABORT PEVT_UCX_ENDPOINT_ABORT;
 
 
 
+
+
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object.
@@ -94,16 +96,43 @@ A handle to a UCXENDPOINT object.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
  method.
 
 This function completes all requests associated with the endpoint, typically by calling <a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md">WdfIoQueueStopAndPurge</a>.
+
+
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+Endpoint_UcxEvtEndpointAbort(
+    UCXCONTROLLER   UcxController,
+	   UCXENDPOINT     UcxEndpoint
+	  )
+	{
+	            WdfIoQueueStopAndPurge(endpointContext-&gt;WdfQueue,
+	                                   Endpoint_WdfEvtAbortComplete,
+	                                   UcxEndpoint);
+	}
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

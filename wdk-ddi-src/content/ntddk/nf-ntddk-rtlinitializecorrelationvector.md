@@ -7,8 +7,8 @@ old-location: kernel\rtlinitializecorrelationvector.htm
 old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlinitializecorrelationvector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], ntddk/RtlInitializeCorrelationVector, RtlInitializeCorrelationVector
+ms.date: 2/24/2018
+ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlInitializeCorrelationVector
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInitializeCorrelationVector function
@@ -80,6 +80,7 @@ A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VE
 ### -param Version [in]
 
 The version of the correlation vector. Possible values are: 
+
 <ul>
 <li>RTL_CORRELATION_VECTOR_VERSION_1</li>
 <li>RTL_CORRELATION_VECTOR_VERSION_2</li>
@@ -96,7 +97,9 @@ The GUID to initialize the correlation vector. The first 22 bytes
 
 
 
+
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,7 +127,9 @@ The supplied GUID is null.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -132,9 +137,11 @@ The supplied GUID is null.
 
 <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInitializeCorrelationVector function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlInitializeCorrelationVector function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

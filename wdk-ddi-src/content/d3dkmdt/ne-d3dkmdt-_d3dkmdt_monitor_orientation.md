@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_ORIENTATION
-title: _D3DKMDT_MONITOR_ORIENTATION
+title: "_D3DKMDT_MONITOR_ORIENTATION"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_ORIENTATION enumeration is used to describe the orientation (rotation angle) of a connected external display device.
 old-location: display\d3dkmdt_monitor_orientation.htm
 old-project: display
 ms.assetid: 16e7d91c-04de-4a8c-97c2-c500d0d3697d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_monitor_orientation, D3DKMDT_MO_90DEG, D3DKMDT_MO_180DEG, d3dkmdt/D3DKMDT_MO_180DEG, D3DKMDT_MO_270DEG, D3DKMDT_MO_UNINITIALIZED, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, d3dkmdt/D3DKMDT_MO_0DEG, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], d3dkmdt/D3DKMDT_MO_UNINITIALIZED, D3DKMDT_MO_0DEG, d3dkmdt/D3DKMDT_MO_90DEG, _D3DKMDT_MONITOR_ORIENTATION
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], D3DKMDT_MO_0DEG, D3DKMDT_MO_180DEG, D3DKMDT_MO_270DEG, D3DKMDT_MO_90DEG, D3DKMDT_MO_UNINITIALIZED, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, _D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_0DEG, d3dkmdt/D3DKMDT_MO_180DEG, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, display.d3dkmdt_monitor_orientation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_MONITOR_ORIENTATION
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_requeue.htm
 old-project: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue, IWDFIoRequest2 interface, Requeue method, Requeue, Requeue method, IWDFIoRequest2, Requeue method, IWDFIoRequest2 interface, IWDFIoRequest2::Requeue
+ms.date: 2/20/2018
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, Requeue method, IWDFIoRequest2::Requeue, Requeue method, Requeue method, IWDFIoRequest2 interface, Requeue,IWDFIoRequest2.Requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFIoRequest2.Requeue
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT Requeue();
 
 
 
+
 ## -returns
 
 
+
 <b>Requeue</b> returns S_OK if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,9 +110,11 @@ The queue's dispatching method is not manual.
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
@@ -120,19 +125,70 @@ This method might return one of the other values that Winerror.h contains.
 ## -remarks
 
 
+
 A driver can call <b>Requeue</b> only if it uses the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">manual dispatching method</a> for the I/O queue.
+
+
+#### Examples
+
+The following code example shows a segment of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556880">IQueueCallbackStateChange::OnStateChange</a> callback function. The segment obtains an I/O request from the I/O and then returns the request to the queue.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+CMyQueue::OnStateChange(
+    __in IWDFIoQueue* pWdfQueue,
+    __in WDF_IO_QUEUE_STATE 
+    )
+{
+    HRESULT hr;
+    IWDFIoRequest* Request;
+...
+    //
+    // Get the IWDFIoRequest interface of the next request.
+    //
+    hr = pWdfQueue-&gt;RetrieveNextRequest(&amp;Request);
+...
+    //
+    // Declare an IWDFIoRequest2 interface pointer and obtain the
+    // IWDFIoRequest2 interface from the IWDFIoRequest interface.
+    //
+    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = Request;
+
+    //
+    // Add code here to determine whether to process or requeue the request.
+    //
+...
+    //
+    // Requeue the request.
+    //
+    hr = r2-&gt;Requeue();
+    if (FAILED(hr)) goto Error;
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
- 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::Requeue method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::Requeue method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

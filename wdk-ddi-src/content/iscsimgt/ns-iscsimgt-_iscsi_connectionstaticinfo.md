@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsimgt._ISCSI_ConnectionStaticInfo
-title: _ISCSI_ConnectionStaticInfo
+title: "_ISCSI_ConnectionStaticInfo"
 author: windows-driver-content
 description: The ISCSI_ConnectionStaticInfo structure contains information about the characteristics of an established connection.
 old-location: storage\iscsi_connectionstaticinfo.htm
 old-project: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], ISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, PISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, *PISCSI_ConnectionStaticInfo, _ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], iscsimgt/PISCSI_ConnectionStaticInfo
+ms.date: 2/24/2018
+ms.keywords: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], _ISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsimgt.h
-apiname: 
+api_name:
 -	ISCSI_ConnectionStaticInfo
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo
+req.typenames: ISCSI_ConnectionStaticInfo, *PISCSI_ConnectionStaticInfo
 ---
 
 # _ISCSI_ConnectionStaticInfo structure
@@ -94,6 +94,7 @@ The iSCSI connection ID (CID) for this connection instance. The iSCSI protocol u
 ### -field State
 
 The type of connection state. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
+
 <table>
 <tr>
 <th>State</th>
@@ -129,7 +130,8 @@ The initiator has sent a valid logoff command, but the connection has not yet be
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Protocol
@@ -140,6 +142,7 @@ The transport protocol that is used to establish this connection instance. For a
 ### -field HeaderIntegrity
 
 The name of the iSCSI header digest scheme that is associated with this connection session. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
+
 <table>
 <tr>
 <th>HeaderIntegrity</th>
@@ -165,12 +168,14 @@ The session is using a 32-bit CRC digest.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DataIntegrity
 
 The name of the iSCSI data digest scheme that is associated with this connection session. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
+
 <table>
 <tr>
 <th>HeaderIntegrity</th>
@@ -196,7 +201,8 @@ The session is using a 32-bit CRC digest.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -246,21 +252,33 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 ## -see-also
 
-<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
+
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
+
+
+<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561494">ISCSI_CONNECTION_PROTOCOL_TYPE_QUALIFIERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_ConnectionStaticInfo structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_ConnectionStaticInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION
-title: _WHEA_MEMORY_ERROR_SECTION
+title: "_WHEA_MEMORY_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 old-location: whea\whea_memory_error_section.htm
 old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, *PWHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR, PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR_SECTION
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_MEMORY_ERROR_SECTION
 product: Windows
 targetos: Windows
@@ -191,94 +191,117 @@ The type of memory error that occurred. Possible values are:
 
 
 
-This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MIRRORBROKEN
-
-A broken memory mirror.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_NOERROR
-
-No error occurred.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_PARITYERROR
-
-A parity error.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
-
-A watchdog timeout.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_TARGETABORT
-
-A target abort.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_UNKNOWN
+#### WHEA_MEMERRTYPE_UNKNOWN
 
 An unknown error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_INVALIDADDRESS
 
-An invalid memory address.
+#### WHEA_MEMERRTYPE_NOERROR
 
-
-##### - ErrorType.WHEA_MEMERRTYPE_MEMORYSPARING
-
-A memory sparing error.
+No error occurred.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_SINGLEBITECC
+
+#### WHEA_MEMERRTYPE_SINGLEBITECC
 
 A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MULTIBITECC
+
+#### WHEA_MEMERRTYPE_MULTIBITECC
 
 A multibit ECC error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MASTERABORT
 
-A master abort.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_MULTISYMCHIPKILL
-
-A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
+#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
 
 A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
 
 
+
+#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
+
+A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+
+
+
+#### WHEA_MEMERRTYPE_MASTERABORT
+
+A master abort.
+
+
+
+#### WHEA_MEMERRTYPE_TARGETABORT
+
+A target abort.
+
+
+
+#### WHEA_MEMERRTYPE_PARITYERROR
+
+A parity error.
+
+
+
+#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
+
+A watchdog timeout.
+
+
+
+#### WHEA_MEMERRTYPE_INVALIDADDRESS
+
+An invalid memory address.
+
+
+
+#### WHEA_MEMERRTYPE_MIRRORBROKEN
+
+A broken memory mirror.
+
+
+
+#### WHEA_MEMERRTYPE_MEMORYSPARING
+
+A memory sparing error.
+
+This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
+
+
 ## -remarks
+
 
 
 The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
- 
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_MEMORY_ERROR_SECTION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_MEMORY_ERROR_SECTION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

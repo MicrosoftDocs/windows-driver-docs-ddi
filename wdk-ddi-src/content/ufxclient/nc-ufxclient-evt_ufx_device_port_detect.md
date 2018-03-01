@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_port_detect.htm
 old-project: usbref
 ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ufx_device_port_detect, EvtUfxDevicePortDetect callback function [Buses], EvtUfxDevicePortDetect, EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT, ufxclient/EvtUfxDevicePortDetect, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], PFN_UFX_DEVICE_PORT_DETECT
+ms.date: 2/24/2018
+ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ufxclient.h
-apiname: 
+api_name:
 -	PFN_UFX_DEVICE_PORT_DETECT
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,9 @@ typedef EVT_UFX_DEVICE_PORT_DETECT PFN_UFX_DEVICE_PORT_DETECT;
 
 
 
+
+
+
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
@@ -84,11 +87,14 @@ The handle to a  USB device object that the client driver received in a previous
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_DETECT</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
@@ -96,16 +102,69 @@ The client driver for the function host controller registers its <i>EVT_UFX_DEVI
 The client driver must indicate completion of port detection by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceportdetectcomplete.md">UfxDevicePortDetectComplete</a> or <a href="..\ufxclient\nf-ufxclient-ufxdeviceportdetectcompleteex.md">UfxDevicePortDetectCompleteEx</a> methods.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+EVT_UFX_DEVICE_PORT_DETECT UfxDevice_EvtDevicePortDetect;
+
+VOID
+UfxDevice_EvtDevicePortDetect (
+    _In_ UFXDEVICE UfxDevice
+    )
+/*++
+Routine Description:
+
+    Starts the port detection state machine
+
+Arguments:
+
+    UfxDevice - UFXDEVICE object representing the device.
+
+--*/
+{
+    PUFXDEVICE_CONTEXT DeviceContext;
+    PCONTROLLER_CONTEXT ControllerContext;
+
+    DeviceContext = UfxDeviceGetContext(UfxDevice);
+    ControllerContext = DeviceGetControllerContext(DeviceContext-&gt;FdoWdfDevice);
+
+    //
+    // #### TODO: Insert code to determine port/charger type ####
+    // 
+    // In this example we will return an unknown port type.  
+    // This will allow UFX to connect to a host if one is present.  
+    // UFX will timeout after 5 seconds if no host is present and transition to
+    // an invalid charger type, which will allow the controller to exit D0.
+    //
+
+    UfxDevicePortDetectComplete(ControllerContext-&gt;UfxDevice, UsbfnUnknownPort);
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
- 
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UFX_DEVICE_PORT_DETECT callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UFX_DEVICE_PORT_DETECT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_gettypefieldoffset.htm
 old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetTypeFieldOffset, ExtRemoteTyped, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped::GetTypeFieldOffset, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_gettypefieldoffset
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped::GetTypeFieldOffset, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, GetTypeFieldOffset,ExtRemoteTyped.GetTypeFieldOffset, debugger.extremotetyped_gettypefieldoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	engextcpp.hpp
-apiname: 
+api_name:
 -	ExtRemoteTyped.GetTypeFieldOffset
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The name of the member in the structure.  You can specify sub-members  by using 
 ## -returns
 
 
+
 <b>GetTypeFieldOffset</b> returns the number of bytes between the address of an instance of the structure and address of the instance's member.
+
 
 

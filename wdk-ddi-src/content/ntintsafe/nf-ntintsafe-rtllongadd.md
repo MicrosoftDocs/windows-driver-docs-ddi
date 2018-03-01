@@ -7,8 +7,8 @@ old-location: kernel\rtllongadd.htm
 old-project: kernel
 ms.assetid: E8CF5E74-2EDA-4B27-A9C0-053930FF741D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtllongadd, ntintsafe/RtlLongAdd, RtlLongAdd function [Kernel-Mode Driver Architecture], RtlLongAdd
+ms.date: 2/24/2018
+ms.keywords: RtlLongAdd, RtlLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllongadd, ntintsafe/RtlLongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlLongAdd
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

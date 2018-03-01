@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverps_drvgetdriversetting.htm
 old-project: print
 ms.assetid: c3e9775b-a5ab-42e4-a889-a746a7243b37
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, IPrintOemDriverPS, DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml, print.iprintoemdriverps_drvgetdriversetting, DrvGetDriverSetting, IPrintOemDriverPS::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices], DrvGetDriverSetting method
+ms.date: 2/23/2018
+ms.keywords: DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintOemDriverPS interface, DrvGetDriverSetting,IPrintOemDriverPS.DrvGetDriverSetting, IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverPS::DrvGetDriverSetting, prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, print.iprintoemdriverps_drvgetdriversetting, print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemDriverPS.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Caller-supplied pointer to a location to receive the number of option strings pl
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When the <code>IPrintOemDriverPS::DrvGetDriverSetting</code> method is called, either a string pointer or a constant value can be specified for <i>pFeatureKeyword</i>.
+
 <ul>
 <li>
 If <i>pFeatureKeyword</i> is a string, it must represent a keyword argument to an *<b>OpenUI</b> entry in a Pscript5 minidriver's PPD file.
@@ -165,4 +171,5 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
+
 

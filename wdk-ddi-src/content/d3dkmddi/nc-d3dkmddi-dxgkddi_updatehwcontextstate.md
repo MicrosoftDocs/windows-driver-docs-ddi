@@ -7,8 +7,8 @@ old-location: display\dxgkddi_updatehwcontextstate.htm
 old-project: display
 ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_updatehwcontextstate, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], DXGKDDI_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_UPDATEHWCONTEXTSTATE, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE, display.dxgkddi_updatehwcontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_UPDATEHWCONTEXTSTATE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer used by the function to update the hardware context state.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

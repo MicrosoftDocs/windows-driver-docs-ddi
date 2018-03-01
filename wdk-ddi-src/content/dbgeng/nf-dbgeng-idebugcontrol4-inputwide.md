@@ -7,8 +7,8 @@ old-location: debugger\inputwide.htm
 old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: InputWide, InputWide method [Windows Debugging], dbgeng/IDebugControl4::InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, debugger.inputwide, IDebugControl4, IDebugControl4::InputWide, InputWide method [Windows Debugging], IDebugControl4 interface
+ms.date: 2/23/2018
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4::InputWide, InputWide method [Windows Debugging], InputWide method [Windows Debugging], IDebugControl4 interface, InputWide,IDebugControl4.InputWide, dbgeng/IDebugControl4::InputWide, debugger.inputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl4.InputWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::InputWide method
@@ -87,7 +87,9 @@ Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +117,17 @@ The method was successful. However, the buffer was not big enough to hold the wh
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of input in the debugger engine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

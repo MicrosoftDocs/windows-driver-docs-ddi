@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbinterface_selectsetting.htm
 old-project: wdf
 ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: SelectSetting, IWDFUsbInterface::SelectSetting, IWDFUsbInterface, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, SelectSetting method, IWDFUsbInterface interface, wdf.iwdfusbinterface_selectsetting, SelectSetting method, umdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting, IWDFUsbInterface interface, SelectSetting method
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, SelectSetting method, IWDFUsbInterface::SelectSetting, SelectSetting method, SelectSetting method, IWDFUsbInterface interface, SelectSetting,IWDFUsbInterface.SelectSetting, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, umdf.iwdfusbinterface_selectsetting, wdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbInterface.SelectSetting
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,9 @@ The setting to select on the USB interface.
 ## -returns
 
 
+
 <b>SelectSetting</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +121,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The framework automatically selects configuration zero, its interface zero, and the alternate setting zero. To change the alternate setting, the driver can call <b>SelectSetting</b>.
@@ -132,14 +137,22 @@ For more info <a href="https://msdn.microsoft.com/library/windows/hardware/ff539
 
 
 
+#### Examples
+
+<pre class="syntax" xml:space="preserve"><code>
+hr = pIWDFUsbInterface-&gt;SelectSetting(SettingNumber);</code></pre>
+
+
 
 ## -see-also
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::SelectSetting method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::SelectSetting method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilremotepartyinfovalue.htm
 old-project: netvista
 ms.assetid: 9cc766c4-a2c0-4b84-a4d8-b005cddd9eea
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilremotepartyinfovalue, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_WITHHELD, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD, RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_MAX, ntddrilapitypes/RILREMOTEPARTYINFOVALUE
+ms.date: 2/16/2018
+ms.keywords: RILREMOTEPARTYINFOVALUE, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_MAX, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_WITHHELD, netvista.rilremotepartyinfovalue, ntddrilapitypes/RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILREMOTEPARTYINFOVALUE
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILREMOTEPARTYINFOVALUE {
 ### -field RIL_REMOTEPARTYINFO_VALID
 
 
-
 ### -field RIL_REMOTEPARTYINFO_WITHHELD
-
 
 
 ### -field RIL_REMOTEPARTYINFO_UNAVAILABLE
 
 
-
 ### -field RIL_REMOTEPARTYINFO_MAX
-
 

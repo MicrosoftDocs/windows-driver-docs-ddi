@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_opm_get_certificate_size.htm
 old-project: display
 ms.assetid: f5293625-19eb-4df9-9934-1e1990b7d608
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.evt_idd_cx_monitor_opm_get_certificate_size, EvtIddCxMonitorOpmGetCertificateSize callback function [Display Devices], EvtIddCxMonitorOpmGetCertificateSize, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, iddcx/EvtIddCxMonitorOpmGetCertificateSize, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, EvtIddCxMonitorOpmGetCertificateSize, EvtIddCxMonitorOpmGetCertificateSize callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate_size, iddcx/EvtIddCxMonitorOpmGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE PFN_IDD_CX_MONITOR_OPM_GET_C
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
+
 
 

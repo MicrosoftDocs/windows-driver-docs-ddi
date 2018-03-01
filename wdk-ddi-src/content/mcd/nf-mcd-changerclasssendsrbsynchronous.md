@@ -7,8 +7,8 @@ old-location: storage\changerclasssendsrbsynchronous.htm
 old-project: storage
 ms.assetid: 6765d7d5-528f-42c5-98c3-0484608a020b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mcd/ChangerClassSendSrbSynchronous, chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, ChangerClassSendSrbSynchronous routine [Storage Devices], ChangerClassSendSrbSynchronous, storage.changerclasssendsrbsynchronous
+ms.date: 2/24/2018
+ms.keywords: ChangerClassSendSrbSynchronous, ChangerClassSendSrbSynchronous routine [Storage Devices], chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, mcd/ChangerClassSendSrbSynchronous, storage.changerclasssendsrbsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+api_name:
 -	ChangerClassSendSrbSynchronous
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ Indicates a write operation when <b>TRUE</b> and read operation when <b>FALSE</b
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the SRB is transmitted successfully or the appropriate error code if the SRB fails or cannot be sent for some reason. 
 
 
 
+
 ## -remarks
+
 
 
 Changer miniclass drivers can call this class driver routine in Microsoft Windows XP and later operating systems. Miniclass drivers should use this routine to send an SRB to the port driver instead of calling the <i>classpnp.sys</i> library routine <b>ClassSendSrbSynchronous</b> directly. Although <i>classpnp.sys </i>is shipped with the Windows Driver Kit (WDK), it is not a supported API, and drivers that call this library's routines directly might not function properly in future releases. 
@@ -115,13 +118,16 @@ If the IRP fails and the sense request data indicates that the IRP should be ret
 
 
 
+
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassSendSrbSynchronous routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassSendSrbSynchronous routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

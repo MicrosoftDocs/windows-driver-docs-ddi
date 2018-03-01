@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_exclusive_access.htm
 old-project: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_cdrom_exclusive_access, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], IOCTL_CDROM_EXCLUSIVE_ACCESS, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdrm.h
-apiname: 
+api_name:
 -	IOCTL_CDROM_EXCLUSIVE_ACCESS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -81,6 +81,7 @@ A valid FileObject handle must exist in order for this IOCTL to succeed. The Fil
 ### -input-buffer
 
 Depending on the operation that the caller requests, the caller must provide one of the following structures as input at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>:
+
 <ul>
 <li>
 
@@ -117,14 +118,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member in the I/O stack
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -155,6 +160,7 @@ The input buffer was too small.
 #### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
@@ -174,6 +180,7 @@ The caller attempted to lock a device while the file system driver was mounted o
 #### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
@@ -188,6 +195,7 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 #### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The <b>RequestType</b> that was specified is not a valid member of <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
@@ -203,17 +211,27 @@ The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\n
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
+
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
+
+
 <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
+
+
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_EXCLUSIVE_ACCESS control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_EXCLUSIVE_ACCESS control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\gettype.htm
 old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::GetType, IDebugBreakpoint interface [Windows Debugging], GetType method, GetType, IDebugBreakpoint2::GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface, debugger.gettype, GetType method [Windows Debugging], IDebugBreakpoint interface, GetType method [Windows Debugging], IDebugBreakpoint::GetType, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetType, IDebugBreakpoint2 interface [Windows Debugging], GetType method
+ms.date: 2/23/2018
+ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugBreakpoint interface, GetType method [Windows Debugging], IDebugBreakpoint2 interface, GetType,IDebugBreakpoint2.GetType, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetType method, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.GetType
 -	IDebugBreakpoint2.GetType
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetType method
@@ -72,6 +72,7 @@ HRESULT GetType(
 ### -param BreakType [out]
 
 The type of the breakpoint.  The type can be one of the following  values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,7 +98,8 @@ Processor breakpoint
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ProcType [out]
@@ -106,6 +108,7 @@ The type of the processor that the breakpoint is set for.
 
 
 ## -returns
+
 
 
 <table>
@@ -124,13 +127,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 If changes are made to the breakpoint, the processor type might change.
@@ -138,5 +144,6 @@ If changes are made to the breakpoint, the processor type might change.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the information that is returned in <i>BreakType</i> and <i>ProcType</i>.
 
 For more information about breakpoint types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
+
 
 

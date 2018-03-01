@@ -7,8 +7,8 @@ old-location: stream\ksremoveirpfromcancelablequeue.htm
 old-project: stream
 ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, stream.ksremoveirpfromcancelablequeue, KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml
+ms.date: 2/23/2018
+ms.keywords: KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsRemoveIrpFromCancelableQueue
 product: Windows
 targetos: Windows
@@ -94,14 +94,18 @@ Specifies whether the IRP is removed from the list or just acquired by setting t
 ## -returns
 
 
+
 The <b>KsRemoveIrpFromCancelableQueue</b> function returns the next noncanceled IRP on the list, or it returns <b>NULL</b> if none is found or if an IRP that has not already been acquired cannot be found.
+
 
 
 
 ## -remarks
 
 
+
 These enumerations are used in the previous parameters to control where the IRP is removed from and how.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -123,15 +127,20 @@ typedef enum {
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksreleaseirponcancelablequeue.md">KsReleaseIrpOnCancelableQueue</a>
 
+
+
 <a href="..\ks\nf-ks-ksremovespecificirpfromcancelablequeue.md">KsRemoveSpecificIrpFromCancelableQueue</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveIrpFromCancelableQueue function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveIrpFromCancelableQueue function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

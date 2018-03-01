@@ -7,8 +7,8 @@ old-location: kernel\kesaveextendedprocessorstate.htm
 old-project: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: KeSaveExtendedProcessorState, kernel.kesaveextendedprocessorstate, XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, XSTATE_MASK_GSSE, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_FLOATING_POINT, wdm/KeSaveExtendedProcessorState, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml
+ms.date: 2/24/2018
+ms.keywords: KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, kernel.kesaveextendedprocessorstate, wdm/KeSaveExtendedProcessorState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Ntoskrnl.exe
-apiname: 
+api_name:
 -	KeSaveExtendedProcessorState
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ NTSTATUS KeSaveExtendedProcessorState(
 A 64-bit feature mask. The bits in this mask identify the extended processor feature states to save. If a mask bit is one, the routine saves the state of the feature that is identified by this bit. If a mask bit is zero, the state for the corresponding feature is not saved. This mask must not identify extended processor features that the operating system has not enabled. To obtain a mask of the enabled features, call the <a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a> routine.
 
 A caller can set this parameter to the bitwise OR of one or more of the following <b>XSTATE_MASK_<i>XXX</i></b> flag bits:
+
 <table>
 <tr>
 <th>Value</th>
@@ -119,7 +120,8 @@ The Intel Sandy Bridge (formerly Gesher) SSE extension.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param XStateSave [out]
@@ -130,7 +132,9 @@ A pointer to a caller-allocated buffer into which the routine writes an <a href=
 ## -returns
 
 
+
 <b>KeSaveExtendedProcessorState</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,11 +151,14 @@ A memory allocation operation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 On x86-based processors that support the XSAVE and XRSTOR instructions, these instructions provide a flexible mechanism to save and restore extended processor state information. <b>KeSaveExtendedProcessorState</b> uses these instructions if they are available.
@@ -168,21 +175,32 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-
-<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
-
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
 <a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+
+
+
+<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSaveExtendedProcessorState routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSaveExtendedProcessorState routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

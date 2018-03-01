@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CAPABILITIES
-title: _NDIS_NDK_CAPABILITIES
+title: "_NDIS_NDK_CAPABILITIES"
 author: windows-driver-content
 description: The NDIS_NDK_CAPABILITIES structure specifies the capabilities of an NDK adapter.
 old-location: netvista\ndis_ndk_capabilities.htm
 old-project: netvista
 ms.assetid: 4E8AD6FA-BB89-4CB0-A06E-7B4917390311
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CAPABILITIES, _NDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, *PNDIS_NDK_CAPABILITIES, ntddndis/NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, ntddndis/NDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_NDK_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES
+req.typenames: NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES
 ---
 
 # _NDIS_NDK_CAPABILITIES structure
@@ -80,6 +80,7 @@ typedef struct _NDIS_NDK_CAPABILITIES {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CAPABILITIES</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
 <li>Set the <b>Revision</b> member to <b>NDIS_NDK_CAPABILITIES_REVISION_1</b>.</li>
@@ -150,9 +151,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh4
 ## -remarks
 
 
+
 <b>NDIS_NDK_CAPABILITIES</b> specifies capacity limits that are relevant for
     system-wide management or partitioning of resources that are available on a given NDK adapter.
-    
 
 Independent of whether NDK functionality of an adapter is currently enabled or disabled,
     an NDK-capable adapter must always indicate its capabilities during miniport initialization.
@@ -162,19 +163,28 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="..\ndis\ns-nd
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_CAPABILITIES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

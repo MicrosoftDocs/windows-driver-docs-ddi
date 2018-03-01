@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._REG_NOTIFY_CLASS
-title: _REG_NOTIFY_CLASS
+title: "_REG_NOTIFY_CLASS"
 author: windows-driver-content
 description: The REG_NOTIFY_CLASS enumeration type specifies the type of registry operation that the configuration manager is passing to a RegistryCallback routine.
 old-location: kernel\reg_notify_class.htm
 old-project: kernel
 ms.assetid: 2ec47d47-1de3-43af-9a71-7fa366ba2d1a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RegNtSetInformationKey, RegNtPreReplaceKey, wdm/RegNtPostDeleteKey, RegNtPostQueryKeySecurity, RegNtPostOpenKeyEx, RegNtPreQueryValueKey, RegNtPostEnumerateKey, wdm/RegNtPostKeyHandleClose, RegNtPreEnumerateKey, wdm/RegNtPreCreateKeyEx, wdm/RegNtPreOpenKey, wdm/RegNtPostRestoreKey, RegNtPreRestoreKey, wdm/RegNtPreSetInformationKey, RegNtPreQueryKeyName, RegNtPreKeyHandleClose, wdm/RegNtQueryValueKey, wdm/RegNtPreQueryKeySecurity, RegNtSetValueKey, wdm/RegNtPreEnumerateKey, RegNtPreQueryKey, RegNtDeleteKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtDeleteKey, RegNtPostQueryKeyName, wdm/RegNtPostCreateKeyEx, RegNtPostQueryKey, RegNtPostQueryMultipleValueKey, RegNtPostDeleteValueKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPreSaveKey, RegNtPreSetInformationKey, wdm/RegNtPreFlushKey, RegNtPostRenameKey, RegNtPostEnumerateValueKey, wdm/MaxRegNtNotifyClass, RegNtPostQueryValueKey, RegNtPostDeleteKey, RegNtPostSetValueKey, RegNtPostCreateKeyEx, RegNtPreOpenKeyEx, wdm/RegNtDeleteValueKey, RegNtPreCreateKey, wdm/RegNtPreOpenKeyEx, wdm/RegNtPreDeleteValueKey, wdm/RegNtSetInformationKey, RegNtQueryMultipleValueKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPreSetKeySecurity, RegNtPostSaveKey, wdm/RegNtKeyHandleClose, RegNtPreRenameKey, wdm/RegNtPostDeleteValueKey, wdm/RegNtPostOpenKeyEx, wdm/RegNtPostRenameKey, RegNtPreSaveKey, RegNtPreDeleteValueKey, wdm/REG_NOTIFY_CLASS, RegNtPreQueryMultipleValueKey, RegNtPostLoadKey, RegNtPreSetKeySecurity, wdm/RegNtPostOpenKey, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], RegNtPreFlushKey, wdm/RegNtPreRestoreKey, RegNtCallbackObjectContextCleanup, wdm/RegNtPostLoadKey, wdm/RegNtRenameKey, wdm/RegNtPreReplaceKey, RegNtPostRestoreKey, wdm/RegNtPostSetValueKey, wdm/RegNtPreSetValueKey, wdm/RegNtPreQueryValueKey, wdm/RegNtPostEnumerateValueKey, wdm/RegNtPostEnumerateKey, RegNtQueryValueKey, wdm/RegNtPostSetInformationKey, RegNtPreCreateKeyEx, REG_NOTIFY_CLASS, RegNtPreQueryKeySecurity, wdm/RegNtPreCreateKey, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, RegNtPostOpenKey, wdm/RegNtPostCreateKey, wdm/RegNtPreRenameKey, wdm/RegNtPostQueryKeySecurity, wdm/RegNtPreQueryMultipleValueKey, wdm/RegNtQueryKey, wdm/RegNtPostUnLoadKey, wdm/RegNtPostSaveKey, RegNtPreEnumerateValueKey, MaxRegNtNotifyClass, wdm/RegNtPreUnLoadKey, RegNtQueryKey, RegNtPostKeyHandleClose, wdm/RegNtQueryMultipleValueKey, RegNtPostFlushKey, wdm/RegNtPostReplaceKey, RegNtPreSetValueKey, kernel.reg_notify_class, wdm/RegNtEnumerateKey, RegNtPostSetInformationKey, wdm/RegNtPostQueryMultipleValueKey, RegNtPreOpenKey, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtPostQueryKey, _REG_NOTIFY_CLASS, RegNtPreDeleteKey, RegNtPreUnLoadKey, RegNtKeyHandleClose, wdm/RegNtPreDeleteKey, RegNtPostSetKeySecurity, wdm/RegNtSetValueKey, wdm/RegNtPreQueryKeyName, wdm/RegNtPreLoadKey, wdm/RegNtEnumerateValueKey, wdm/RegNtPreQueryKey, RegNtPreLoadKey, RegNtEnumerateKey, RegNtDeleteValueKey, RegNtPostUnLoadKey, wdm/RegNtPostQueryValueKey, RegNtRenameKey, RegNtEnumerateValueKey, wdm/RegNtPreKeyHandleClose, RegNtPostReplaceKey, wdm/RegNtPostFlushKey, RegNtPostCreateKey
+ms.date: 2/24/2018
+ms.keywords: MaxRegNtNotifyClass, REG_NOTIFY_CLASS, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], RegNtCallbackObjectContextCleanup, RegNtDeleteKey, RegNtDeleteValueKey, RegNtEnumerateKey, RegNtEnumerateValueKey, RegNtKeyHandleClose, RegNtPostCreateKey, RegNtPostCreateKeyEx, RegNtPostDeleteKey, RegNtPostDeleteValueKey, RegNtPostEnumerateKey, RegNtPostEnumerateValueKey, RegNtPostFlushKey, RegNtPostKeyHandleClose, RegNtPostLoadKey, RegNtPostOpenKey, RegNtPostOpenKeyEx, RegNtPostQueryKey, RegNtPostQueryKeyName, RegNtPostQueryKeySecurity, RegNtPostQueryMultipleValueKey, RegNtPostQueryValueKey, RegNtPostRenameKey, RegNtPostReplaceKey, RegNtPostRestoreKey, RegNtPostSaveKey, RegNtPostSetInformationKey, RegNtPostSetKeySecurity, RegNtPostSetValueKey, RegNtPostUnLoadKey, RegNtPreCreateKey, RegNtPreCreateKeyEx, RegNtPreDeleteKey, RegNtPreDeleteValueKey, RegNtPreEnumerateKey, RegNtPreEnumerateValueKey, RegNtPreFlushKey, RegNtPreKeyHandleClose, RegNtPreLoadKey, RegNtPreOpenKey, RegNtPreOpenKeyEx, RegNtPreQueryKey, RegNtPreQueryKeyName, RegNtPreQueryKeySecurity, RegNtPreQueryMultipleValueKey, RegNtPreQueryValueKey, RegNtPreRenameKey, RegNtPreReplaceKey, RegNtPreRestoreKey, RegNtPreSaveKey, RegNtPreSetInformationKey, RegNtPreSetKeySecurity, RegNtPreSetValueKey, RegNtPreUnLoadKey, RegNtQueryKey, RegNtQueryMultipleValueKey, RegNtQueryValueKey, RegNtRenameKey, RegNtSetInformationKey, RegNtSetValueKey, _REG_NOTIFY_CLASS, kernel.reg_notify_class, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, wdm/MaxRegNtNotifyClass, wdm/REG_NOTIFY_CLASS, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtDeleteKey, wdm/RegNtDeleteValueKey, wdm/RegNtEnumerateKey, wdm/RegNtEnumerateValueKey, wdm/RegNtKeyHandleClose, wdm/RegNtPostCreateKey, wdm/RegNtPostCreateKeyEx, wdm/RegNtPostDeleteKey, wdm/RegNtPostDeleteValueKey, wdm/RegNtPostEnumerateKey, wdm/RegNtPostEnumerateValueKey, wdm/RegNtPostFlushKey, wdm/RegNtPostKeyHandleClose, wdm/RegNtPostLoadKey, wdm/RegNtPostOpenKey, wdm/RegNtPostOpenKeyEx, wdm/RegNtPostQueryKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPostQueryKeySecurity, wdm/RegNtPostQueryMultipleValueKey, wdm/RegNtPostQueryValueKey, wdm/RegNtPostRenameKey, wdm/RegNtPostReplaceKey, wdm/RegNtPostRestoreKey, wdm/RegNtPostSaveKey, wdm/RegNtPostSetInformationKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPostSetValueKey, wdm/RegNtPostUnLoadKey, wdm/RegNtPreCreateKey, wdm/RegNtPreCreateKeyEx, wdm/RegNtPreDeleteKey, wdm/RegNtPreDeleteValueKey, wdm/RegNtPreEnumerateKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtPreFlushKey, wdm/RegNtPreKeyHandleClose, wdm/RegNtPreLoadKey, wdm/RegNtPreOpenKey, wdm/RegNtPreOpenKeyEx, wdm/RegNtPreQueryKey, wdm/RegNtPreQueryKeyName, wdm/RegNtPreQueryKeySecurity, wdm/RegNtPreQueryMultipleValueKey, wdm/RegNtPreQueryValueKey, wdm/RegNtPreRenameKey, wdm/RegNtPreReplaceKey, wdm/RegNtPreRestoreKey, wdm/RegNtPreSaveKey, wdm/RegNtPreSetInformationKey, wdm/RegNtPreSetKeySecurity, wdm/RegNtPreSetValueKey, wdm/RegNtPreUnLoadKey, wdm/RegNtQueryKey, wdm/RegNtQueryMultipleValueKey, wdm/RegNtQueryValueKey, wdm/RegNtRenameKey, wdm/RegNtSetInformationKey, wdm/RegNtSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	REG_NOTIFY_CLASS
 product: Windows
 targetos: Windows
@@ -438,19 +438,25 @@ Specifies the maximum value in this enumeration type.
 ## -remarks
 
 
+
 When the configuration manager calls a driver's <i>RegistryCallback</i> routine, it passes a <b>REG_NOTIFY_CLASS</b> enumeration value to the routine. The configuration manager also passes a notification-specific structure that contains information about the notification. For a list of these structures, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
 <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_NOTIFY_CLASS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_NOTIFY_CLASS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

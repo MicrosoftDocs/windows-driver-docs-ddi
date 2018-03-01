@@ -1,19 +1,19 @@
 ---
 UID: NS:scsi._TRACK_INFORMATION2
-title: _TRACK_INFORMATION2
+title: "_TRACK_INFORMATION2"
 author: windows-driver-content
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
 old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PTRACK_INFORMATION2 structure pointer [Storage Devices], storage.track_information2, *PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, TRACK_INFORMATION2 structure [Storage Devices], TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, _TRACK_INFORMATION2, PTRACK_INFORMATION2
+ms.date: 2/24/2018
+ms.keywords: "*PTRACK_INFORMATION2, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, storage.track_information2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: scsi.h
-req.include-header: Scsi.h
+req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	TRACK_INFORMATION2
 product: Windows
 targetos: Windows
-req.typenames: *PTRACK_INFORMATION2, TRACK_INFORMATION2
+req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
 req.product: Windows 10 or later.
 ---
 
@@ -135,6 +135,7 @@ Reserved.
 ### -field DataMode
 
 The data mode. This member can have any of the following values:
+
 <table>
 <tr>
 <td>
@@ -176,7 +177,8 @@ There is no track descriptor block, and therefore the data block type of the tra
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field FixedPacket
@@ -240,7 +242,6 @@ Track Size is the number of user data blocks in the track.
 
 
 ### -field LastRecordedAddress
-
 
 
 ### -field TrackNumberMsb

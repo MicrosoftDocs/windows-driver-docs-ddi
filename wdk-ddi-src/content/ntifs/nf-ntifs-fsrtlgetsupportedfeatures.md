@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlgetsupportedfeatures.htm
 old-project: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlGetSupportedFeatures, ntifs/FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures
+ms.date: 2/16/2018
+ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlGetSupportedFeatures
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A pointer to a caller supplied <b>ULONG</b> value. On return, this value contain
 The supported features are a bitwise OR combination of the following flags.
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -108,13 +109,16 @@ The volume supports offloaded write operations.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>FsRtlGetSupportedFeatures</b> returns <b>STATUS_SUCCESS</b> if the supported features for the volume attached to <i>DeviceObject</i> are returned successfully. Otherwise, one of the following <b>NTSTATUS</b> values is returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,6 +146,8 @@ The device object specified by <i>DeviceObject</i> is not in a file system devic
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

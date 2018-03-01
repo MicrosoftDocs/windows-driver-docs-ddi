@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_WDDMVERSION
-title: _DXGK_WDDMVERSION
+title: "_DXGK_WDDMVERSION"
 author: windows-driver-content
 description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
 old-location: display\dxgk_wddmversion.htm
 old-project: display
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_wddmversion, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1_2, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, d3dkmddi/DXGKDDI_WDDMv2, DXGKDDI_WDDMv1, DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv1, DXGK_WDDMVERSION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, display.dxgk_wddmversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_WDDMVERSION
 product: Windows
 targetos: Windows
@@ -90,7 +90,6 @@ Reserved for system use.
 ### -field DXGKDDI_WDDMv1_3
 
 
-
 ### -field DXGKDDI_WDDMv2
 
 Reserved for system use.
@@ -99,9 +98,7 @@ Reserved for system use.
 ### -field DXGKDDI_WDDMv2_1
 
 
-
 ### -field DXGKDDI_WDDMv2_2
-
 
 
 ### -field DXGKDDI_WDDMv2_3
@@ -113,9 +110,11 @@ Reserved for system use.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn Interface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_WDDMVERSION enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_WDDMVERSION enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

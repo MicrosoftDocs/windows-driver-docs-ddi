@@ -7,8 +7,8 @@ old-location: netvista\rilsupsvctype.htm
 old-project: netvista
 ms.assetid: 3d9415f7-cc28-4e45-8d88-b8693aa57116
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SUPSVCTYPE_COLP, ntddrilapitypes/RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE, RIL_SUPSVCTYPE_COLR, netvista.rilsupsvctype, RIL_SUPSVCTYPE_MAX, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_COLR
+ms.date: 2/16/2018
+ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype, ntddrilapitypes/RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_COLP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, ntddrilapitypes/RIL_SUPSVCTYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSUPSVCTYPE
 product: Windows
 targetos: Windows
@@ -75,27 +75,20 @@ typedef enum _RILSUPSVCTYPE {
 ### -field RIL_SUPSVCTYPE_CALLWAITING
 
 
-
 ### -field RIL_SUPSVCTYPE_CLIP
-
 
 
 ### -field RIL_SUPSVCTYPE_CLIR
 
 
-
 ### -field RIL_SUPSVCTYPE_COLP
-
 
 
 ### -field RIL_SUPSVCTYPE_COLR
 
 
-
 ### -field RIL_SUPSVCTYPE_CNAP
 
 
-
 ### -field RIL_SUPSVCTYPE_MAX
-
 

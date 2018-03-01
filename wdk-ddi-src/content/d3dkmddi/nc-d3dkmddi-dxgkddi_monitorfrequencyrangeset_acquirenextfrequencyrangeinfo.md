@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfreq
 old-project: display
 ms.assetid: b5490af8-ef25-4d5c-9154-08660e3d8780
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein, (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], (*pfnAcquireNextFrequencyRangeInfo), DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml
+ms.date: 2/24/2018
+ms.keywords: "(*pfnAcquireNextFrequencyRangeInfo), (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	(*pfnAcquireNextFrequencyRangeInfo)
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ NTSTATUS APIENTRY (*pfnAcquireNextFrequencyRangeInfo)(
 ## -returns
 
 
+
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,17 +150,21 @@ The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using the D3DKMDT_MONITOR_FREQUENCY_RANGE structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo.md">pfnReleaseFrequencyRangeInfo</a>.
 
 You can obtain all the descriptors in a monitor frequency range set by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo.md">pfnAcquireFirstFrequencyRangeInfo</a> and then making a sequence of calls to <b>pfnAcquireNextFrequencyRangeInfo</b>.
+
 
 

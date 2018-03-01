@@ -7,8 +7,8 @@ old-location: stream\usbcamd_controlvendorcommand.htm
 old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: usbcamdi/USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand, stream.usbcamd_controlvendorcommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Usbcamd2.lib
 req.dll: 
-req.irql: >= PASSIVE_LEVEL (See Remarks section)
-topictype: 
+req.irql: ">= PASSIVE_LEVEL (See Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+api_name:
 -	USBCAMD_ControlVendorCommand
 product: Windows
 targetos: Windows
@@ -125,7 +125,9 @@ Pointer to a block of memory, that is passed as an argument to the camera minidr
 ## -returns
 
 
+
 <b>USBCAMD_ControlVendorCommand </b>returns the NTSTATUS code from vendor command. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,14 +155,18 @@ There are insufficient resources to allocate the vendor command.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
+
 
 
 
@@ -168,9 +174,11 @@ This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is call
 
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_ControlVendorCommand function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_ControlVendorCommand function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

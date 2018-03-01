@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-decode-input-stream-arguments-0032.htm
 old-project: display
 ms.assetid: ca647cd3-357b-4cd6-aa1c-6a03d5a77f10
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddi-video-decode-input-stream-arguments-0032, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddi-video-decode-input-stream-arguments-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
 product: Windows
 targetos: Windows

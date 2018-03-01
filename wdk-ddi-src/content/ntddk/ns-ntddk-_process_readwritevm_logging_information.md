@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._PROCESS_READWRITEVM_LOGGING_INFORMATION
-title: _PROCESS_READWRITEVM_LOGGING_INFORMATION
+title: "_PROCESS_READWRITEVM_LOGGING_INFORMATION"
 author: windows-driver-content
 description: Stores options for read/write access for telemetry per process.
 old-location: kernel\process_readwritevm_logging_information.htm
 old-project: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], _PROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information, *PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture], _PROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information, ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddk.h
-apiname: 
+api_name:
 -	PROCESS_READWRITEVM_LOGGING_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PPROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION
+req.typenames: PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION
 ---
 
 # _PROCESS_READWRITEVM_LOGGING_INFORMATION structure
@@ -72,22 +72,22 @@ typedef union _PROCESS_READWRITEVM_LOGGING_INFORMATION {
 
 
 
-### -field EnableReadVmLogging
+### -field Flags
+
+Reserved.
+
+
+#### - EnableReadVmLogging
 
 Enables or disables read access. Non-zero values enables telemetry, zero disables it.
 
 
-### -field EnableWriteVmLogging
+#### - EnableWriteVmLogging
 
 Enables or disables write access. Non-zero values enables telemetry, zero disables it.
 
 
-### -field Unused
+#### - Unused
 
 Do not use.
-
-
-### -field Flags
-
-Reserved.
 

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_start.htm
 old-project: usbref
 ms.assetid: 8b801255-ee6a-413f-8ce3-3a3696283e6b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucx_endpoint_start, EvtUcxEndpointStart callback function [Buses], EvtUcxEndpointStart, EVT_UCX_ENDPOINT_START, EVT_UCX_ENDPOINT_START, ucxendpoint/EvtUcxEndpointStart, PEVT_UCX_ENDPOINT_START callback function pointer [Buses], PEVT_UCX_ENDPOINT_START
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ENDPOINT_START, EvtUcxEndpointStart, EvtUcxEndpointStart callback function [Buses], PEVT_UCX_ENDPOINT_START, PEVT_UCX_ENDPOINT_START callback function pointer [Buses], buses.evt_ucx_endpoint_start, ucxendpoint/EvtUcxEndpointStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ucxendpoint.h
-apiname: 
+api_name:
 -	PEVT_UCX_ENDPOINT_START
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ typedef EVT_UCX_ENDPOINT_START PEVT_UCX_ENDPOINT_START;
 
 
 
+
+
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
@@ -94,14 +96,42 @@ A handle to a UCXENDPOINT object that represents the endpoint.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
  method.
+
+
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+Endpoint_EvtUcxEndpointStart(
+    UCXCONTROLLER   UcxController,
+    UCXENDPOINT     UcxEndpoint
+)
+
+{
+    UNREFERENCED_PARAMETER(UcxController);
+    UNREFERENCED_PARAMETER(UcxEndpoint);
+
+    DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStart");
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

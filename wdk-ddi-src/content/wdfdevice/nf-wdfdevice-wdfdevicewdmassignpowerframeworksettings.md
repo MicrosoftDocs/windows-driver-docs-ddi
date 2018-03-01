@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 old-project: wdf
 ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings, kmdf.wdfdevicewdmassignpowerframeworksettings, WdfDeviceWdmAssignPowerFrameworkSettings method, PFN_WDFDEVICEWDMASSIGNPOWERFRAMEWORKSETTINGS, WdfDeviceWdmAssignPowerFrameworkSettings, wdf.wdfdevicewdmassignpowerframeworksettings
+ms.date: 2/20/2018
+ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfDeviceWdmAssignPowerFrameworkSettings
 product: Windows
 targetos: Windows
@@ -86,7 +86,9 @@ A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.
 ## -returns
 
 
+
 The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method returns an NTSTATUS value that indicates success or failure of the operation.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,13 +127,16 @@ An invalid <i>Settings</i> value is detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfDeviceWdmAssignPowerFrameworkSettings</b> method applies only to single-component devices.
@@ -149,20 +154,59 @@ The power management framework (PoFx) is available only on Windows 8 and later.
 For more information, see <a href="https://msdn.microsoft.com/F96214C9-702D-402E-B873-5DF57C521B34">Supporting Functional Power States</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406637">Overview of the Power Management Framework</a>.
 
 
+#### Examples
+
+In the following code example, the driver initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure by calling the <a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>  function. The driver then manually sets some of the members of the structure, and then calls <b>WdfDeviceWdmAssignPowerFrameworkSettings</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+WDF_POWER_FRAMEWORK_SETTINGS poFxSettings;
+
+WDF_POWER_FRAMEWORK_SETTINGS_INIT(&amp;poFxSettings);
+
+poFxSettings.EvtDeviceWdmPostPoFxRegisterDevice = 
+                        SingleCompWdmEvtDeviceWdmPostPoFxRegisterDevice;
+poFxSettings.EvtDeviceWdmPrePoFxUnregisterDevice =
+                        SingleCompWdmEvtDeviceWdmPrePoFxUnregisterDevice;
+
+poFxSettings.Component = &amp;component;
+poFxSettings.ComponentIdleStateCallback = 
+                        SingleCompWdmIdleStateCallback;
+poFxSettings.PoFxDeviceContext = (PVOID) Device;
+    
+status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &amp;poFxSettings);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
+
+
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceWdmAssignPowerFrameworkSettings method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceWdmAssignPowerFrameworkSettings method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

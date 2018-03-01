@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._IMAGE_POLICY_ENTRY_TYPE
-title: _IMAGE_POLICY_ENTRY_TYPE
+title: "_IMAGE_POLICY_ENTRY_TYPE"
 author: windows-driver-content
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_entry_type.htm
 old-project: kernel
 ms.assetid: f8ce3297-5a57-4ece-a74c-ae5e4e15ce3e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeInt16, wdm/IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeInt64, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ImagePolicyEntryTypeUnicodeString, ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeInt64, kernel._image_policy_entry_type, wdm/ImagePolicyEntryTypeInt16, _IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeUInt16, IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeBool, ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUnicodeString
+ms.date: 2/24/2018
+ms.keywords: IMAGE_POLICY_ENTRY_TYPE, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeBool, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUnicodeString, _IMAGE_POLICY_ENTRY_TYPE, kernel._image_policy_entry_type, wdm/IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeInt16, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeInt64, wdm/ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	IMAGE_POLICY_ENTRY_TYPE
 product: Windows
 targetos: Windows
@@ -80,7 +80,6 @@ typedef enum _IMAGE_POLICY_ENTRY_TYPE {
 
 
 ### -field ImagePolicyEntryTypeNone
-
 
 
 ### -field ImagePolicyEntryTypeBool

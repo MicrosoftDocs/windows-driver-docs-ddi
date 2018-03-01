@@ -7,8 +7,8 @@ old-location: netvista\rilalphaidentifidertype.htm
 old-project: netvista
 ms.assetid: e7be6f28-b6f0-4b95-9145-abbb98e7f5a5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RILALPHAIDENTIFIDERTYPE, netvista.rilalphaidentifidertype, RIL_ALPHAIDENTIFIERTYPE_MAX, RIL_ALPHAIDENTIFIERTYPE_PRESENT, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, ntddrilapitypes/RILALPHAIDENTIFIDERTYPE, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT
+ms.date: 2/16/2018
+ms.keywords: RILALPHAIDENTIFIDERTYPE, RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ALPHAIDENTIFIERTYPE_MAX, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RIL_ALPHAIDENTIFIERTYPE_PRESENT, netvista.rilalphaidentifidertype, ntddrilapitypes/RILALPHAIDENTIFIDERTYPE, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILALPHAIDENTIFIDERTYPE
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILALPHAIDENTIFIDERTYPE {
 ### -field RIL_ALPHAIDENTIFIERTYPE_UNKNOWN
 
 
-
 ### -field RIL_ALPHAIDENTIFIERTYPE_PRESENT
-
 
 
 ### -field RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT
 
 
-
 ### -field RIL_ALPHAIDENTIFIERTYPE_MAX
-
 

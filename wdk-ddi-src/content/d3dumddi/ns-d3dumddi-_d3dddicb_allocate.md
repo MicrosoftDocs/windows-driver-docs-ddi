@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_ALLOCATE
-title: _D3DDDICB_ALLOCATE
+title: "_D3DDDICB_ALLOCATE"
 author: windows-driver-content
 description: The D3DDDICB_ALLOCATE structure contains information for allocating memory.
 old-location: display\d3dddicb_allocate.htm
 old-project: display
 ms.assetid: 76ebc960-ff63-40eb-842b-acdb549ecdaa
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDICB_ALLOCATE, D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, _D3DDDICB_ALLOCATE, d3dumddi/D3DDDICB_ALLOCATE, display.d3dddicb_allocate, D3DDDICB_ALLOCATE structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices], D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, _D3DDDICB_ALLOCATE, d3dumddi/D3DDDICB_ALLOCATE, display.d3dddicb_allocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDICB_ALLOCATE
 product: Windows
 targetos: Windows
@@ -76,13 +76,6 @@ typedef struct _D3DDDICB_ALLOCATE {
 ## -struct-fields
 
 
-
-
-### -field pAllocationInfo2
-
-[in] This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
 
 
 ### -field pPrivateDriverData
@@ -125,27 +118,50 @@ The Direct3D runtime generates a unique handle and passes it back to the user-mo
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
 
 
+#### - pAllocationInfo2
+
+[in] This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ## -see-also
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_ALLOCATE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_ALLOCATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

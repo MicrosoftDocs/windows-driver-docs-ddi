@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_FILTER_RANGE_DATA
-title: _DXVAHDDDI_FILTER_RANGE_DATA
+title: "_DXVAHDDDI_FILTER_RANGE_DATA"
 author: windows-driver-content
 description: Describes a filter range.
 old-location: display\dxvahdddi_filter_range_data.htm
 old-project: display
 ms.assetid: 46f5ee68-ed1a-4da4-b761-60157efb3252
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_filter_range_data, DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, _DXVAHDDDI_FILTER_RANGE_DATA
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], _DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_FILTER_RANGE_DATA
 product: Windows
 targetos: Windows
@@ -95,6 +95,7 @@ typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
 ## -remarks
 
 
+
 A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size with a default value of 0.0 has the members of the <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure set to the following values, which are normalized by an implicit step size of 1:
 
 
@@ -108,5 +109,6 @@ A hue ProcAmp filter that is defined from –180.0 to 180.0 at 0.25 step size wi
 
 
      Multiplier = 0.25
+
 
 

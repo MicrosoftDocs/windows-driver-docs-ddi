@@ -7,8 +7,8 @@ old-location: kernel\rtlutf8tounicoden.htm
 old-project: kernel
 ms.assetid: 0b5f791a-9814-4058-8ee0-8f113ca3ade2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUTF8ToUnicodeN, k109_67399c4f-a942-4493-b141-6824b6de570c.xml, wdm/RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], kernel.rtlutf8tounicoden
+ms.date: 2/24/2018
+ms.keywords: RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], k109_67399c4f-a942-4493-b141-6824b6de570c.xml, kernel.rtlutf8tounicoden, wdm/RtlUTF8ToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlUTF8ToUnicodeN
 product: Windows
 targetos: Windows
@@ -100,7 +100,9 @@ Specifies the number of bytes in the UTF-8 source string that the <i>UTF8StringS
 ## -returns
 
 
+
 <b>RtlUTF8ToUnicodeN</b> returns STATUS_SUCCESS if the call is successful and all UTF-8 character codes in the input string were converted to the corresponding Unicode character codes in the output string. It returns STATUS_SOME_NOT_MAPPED if the call is successful but one or more input characters were invalid and were converted to the Unicode replacement character, U+FFFD. Possible error return values include the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ The <i>UTF8StringSource</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Unicode output string is null-terminated only if the UTF-8 input string is null-terminated.
@@ -162,13 +167,16 @@ You can use the <b>RtlUTF8ToUnicode</b> and <b>RtlUnicodeToUTF8N</b> routines to
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlunicodetoutf8n.md">RtlUnicodeToUTF8N</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUTF8ToUnicodeN routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUTF8ToUnicodeN routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

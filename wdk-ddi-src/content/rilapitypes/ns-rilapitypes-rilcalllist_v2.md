@@ -7,8 +7,8 @@ old-location: netvista\rilcalllist_v2_2.htm
 old-project: netvista
 ms.assetid: ecc08fed-deee-4b94-84ae-05159447abf3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILCALLLIST_V2, netvista.rilcalllist_v2_2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], RILCALLLIST_V2, rilapitypes/RILCALLLIST_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLLIST_V2, RILCALLLIST_V2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v2_2, rilapitypes/RILCALLLIST_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLLIST_V2
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLLIST_V2, RILCALLLIST_V2
+req.typenames: RILCALLLIST_V2, *LPRILCALLLIST_V2
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILCALLLIST_V2 {
 ### -field dwNumberOfCalls
 
 
-
 ### -field rciCallInfo
-
 

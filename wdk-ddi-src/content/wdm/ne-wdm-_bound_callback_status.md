@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._BOUND_CALLBACK_STATUS
-title: _BOUND_CALLBACK_STATUS
+title: "_BOUND_CALLBACK_STATUS"
 author: windows-driver-content
 description: The BOUND_CALLBACK_STATUS enumeration indicates how a user-mode bounds exception was processed by the BoundCallback function.
 old-location: kernel\bound_callback_status.htm
 old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BoundExceptionContinueSearch, BoundExceptionHandled, wdm/BOUND_CALLBACK_STATUS, BoundExceptionError, BOUND_CALLBACK_STATUS, BoundExceptionMaximum, wdm/BoundExceptionError, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], kernel.bound_callback_status, wdm/BoundExceptionContinueSearch, _BOUND_CALLBACK_STATUS
+ms.date: 2/24/2018
+ms.keywords: "*PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionContinueSearch, BoundExceptionError, BoundExceptionHandled, BoundExceptionMaximum, _BOUND_CALLBACK_STATUS, kernel.bound_callback_status, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionError, wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	BOUND_CALLBACK_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS
+req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ This value is not currently used.
 ## -remarks
 
 
+
 The return value of the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
+
 
 
 
@@ -102,9 +104,11 @@ The return value of the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback<
 
 <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BOUND_CALLBACK_STATUS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BOUND_CALLBACK_STATUS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

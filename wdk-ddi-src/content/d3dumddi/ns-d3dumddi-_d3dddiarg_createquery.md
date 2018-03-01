@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEQUERY
-title: _D3DDDIARG_CREATEQUERY
+title: "_D3DDDIARG_CREATEQUERY"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 old-location: display\d3dddiarg_createquery.htm
 old-project: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], _D3DDDIARG_CREATEQUERY, UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, _D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_CREATEQUERY
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ typedef struct _D3DDDIARG_CREATEQUERY {
 ### -field QueryType
 
 [in] A D3DDDIQUERYTYPE-typed value that indicates the query type to create resources for. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -214,7 +215,8 @@ Query for device-dependent counters.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hQuery
@@ -225,7 +227,9 @@ Query for device-dependent counters.
 ## -remarks
 
 
+
 The Direct3D runtime uses the handle that is specified by the <b>hQuery</b> member when the runtime calls:
+
 <ul>
 <li>
 The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function to process a query.
@@ -242,19 +246,28 @@ The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEQUERY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEQUERY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

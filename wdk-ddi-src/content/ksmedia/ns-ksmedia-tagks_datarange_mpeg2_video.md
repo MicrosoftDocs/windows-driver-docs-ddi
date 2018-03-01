@@ -7,8 +7,8 @@ old-location: stream\ks_datarange_mpeg2_video.htm
 old-project: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], ksmedia/PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, PKS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO, ksmedia/KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_MPEG2_VIDEO, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, tagKS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KS_DATARANGE_MPEG2_VIDEO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO
+req.typenames: KS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO
 ---
 
 # tagKS_DATARANGE_MPEG2_VIDEO structure
@@ -112,13 +112,19 @@ Specifies the details of the video stream.
 
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_MPEG2_VIDEO structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_MPEG2_VIDEO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

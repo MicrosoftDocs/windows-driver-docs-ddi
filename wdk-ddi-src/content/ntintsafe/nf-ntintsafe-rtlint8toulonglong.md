@@ -7,8 +7,8 @@ old-location: kernel\rtlint8toulonglong.htm
 old-project: kernel
 ms.assetid: C840CDA4-36C8-4D7C-88EB-19292429C45C
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8ToULongLong, RtlInt8ToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulonglong, RtlInt8ToULongLong
+ms.date: 2/24/2018
+ms.keywords: RtlInt8ToULongLong, RtlInt8ToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulonglong, ntintsafe/RtlInt8ToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlInt8ToULongLong
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt8ToDWordLong</li>
 <li>
@@ -94,4 +96,5 @@ RtlInt8ToDWord64</li>
 RtlInt8ToUInt64
 </li>
 </ul>
+
 

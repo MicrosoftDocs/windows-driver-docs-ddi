@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-view-instancing-flags.htm
 old-project: display
 ms.assetid: fa44933f-aa3b-466a-8ee2-2d34d0311562
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-view-instancing-flags, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAG_NONE, D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_NONE, D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAGS enumeration [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAGS enumeration [Display Devices], D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, D3D12DDI_VIEW_INSTANCING_FLAG_NONE, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAGS, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_NONE, display.d3d12ddi-view-instancing-flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIEW_INSTANCING_FLAGS
 product: Windows
 targetos: Windows

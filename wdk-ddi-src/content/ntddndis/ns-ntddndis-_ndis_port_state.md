@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_STATE
-title: _NDIS_PORT_STATE
+title: "_NDIS_PORT_STATE"
 author: windows-driver-content
 description: The NDIS_PORT_STATE structure specifies the port state information for an NDIS port.
 old-location: netvista\ndis_port_state.htm
 old-project: netvista
 ms.assetid: 57d76d1e-4276-4dbd-b651-2bba6de898b2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PNDIS_PORT_STATE, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_STATE, PNDIS_PORT_STATE, netvista.ndis_port_state, _NDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, ntddndis/NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PORT_STATE, NDIS_PORT_STATE, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, netvista.ndis_port_state, ntddndis/NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_PORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PORT_STATE, NDIS_PORT_STATE
+req.typenames: NDIS_PORT_STATE, *PNDIS_PORT_STATE
 ---
 
 # _NDIS_PORT_STATE structure
@@ -90,8 +90,8 @@ The
 ### -field MediaConnectState
 
 The media connection state of the port. This state is the same information that the 
-     <mshelp:link keywords="netvista.oid_gen_media_connect_status_ex" tabindex="0">
-     OID_GEN_MEDIA_CONNECT_STATUS_EX</mshelp:link> OID returns.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
+     OID_GEN_MEDIA_CONNECT_STATUS_EX</a> OID returns.
 
 
 ### -field XmitLinkSpeed
@@ -122,6 +122,26 @@ The current control state of the port for send operations. This member must cont
 
 
 
+
+#### NdisPortControlStateUnknown
+
+The port's control state for send operations is unknown.
+
+
+
+#### NdisPortControlStateControlled
+
+The port is in a controlled state for send operations. That is, the port requires
+       authorization.
+
+
+
+#### NdisPortControlStateUncontrolled
+
+The port is in an uncontrolled state for send operations. That is, the port does not require
+       authorization.
+
+
 ### -field RcvControlState
 
 The current control state of the port for receive operations. This member must contain one of the
@@ -129,6 +149,26 @@ The current control state of the port for receive operations. This member must c
      
 
 
+
+
+
+#### NdisPortControlStateUnknown
+
+The port's control state for receive operations is unknown.
+
+
+
+#### NdisPortControlStateControlled
+
+The port is in a controlled state for receive operations. That is, the port requires
+       authorization.
+
+
+
+#### NdisPortControlStateUncontrolled
+
+The port is in an uncontrolled state for receive operations. That is, the port does not require
+       authorization.
 
 
 ### -field SendAuthorizationState
@@ -143,6 +183,30 @@ The current authorization state of the port for send operations. Ignore this mem
 
 
 
+
+#### NdisPortAuthorizationUnknown
+
+The port's authorization state for send operations is unknown.
+
+
+
+#### NdisPortAuthorized
+
+The port is authorized for send operations.
+
+
+
+#### NdisPortUnauthorized
+
+The port is not authorized for send operations.
+
+
+
+#### NdisPortReauthorizing
+
+The port is re-authorizing for send operations.
+
+
 ### -field RcvAuthorizationState
 
 The current authorization state of the port for receive operations. Ignore this member if the 
@@ -155,86 +219,37 @@ The current authorization state of the port for receive operations. Ignore this 
 
 
 
+
+#### NdisPortAuthorizationUnknown
+
+The port's authorization state for receive operations is unknown.
+
+
+
+#### NdisPortAuthorized
+
+The port is authorized for receive operations.
+
+
+
+#### NdisPortUnauthorized
+
+The port is not authorized for receive operations.
+
+
+
+#### NdisPortReauthorizing
+
+The port is re-authorizing for receive operations.
+
+
 ### -field Flags
 
 Reserved for NDIS.
 
 
-##### - RcvControlState.NdisPortControlStateUncontrolled
-
-The port is in an uncontrolled state for receive operations. That is, the port does not require
-       authorization.
-
-
-##### - SendControlState.NdisPortControlStateUnknown
-
-The port's control state for send operations is unknown.
-
-
-##### - SendControlState.NdisPortControlStateControlled
-
-The port is in a controlled state for send operations. That is, the port requires
-       authorization.
-
-
-##### - SendAuthorizationState.NdisPortReauthorizing
-
-The port is re-authorizing for send operations.
-
-
-##### - RcvAuthorizationState.NdisPortAuthorized
-
-The port is authorized for receive operations.
-
-
-##### - RcvControlState.NdisPortControlStateControlled
-
-The port is in a controlled state for receive operations. That is, the port requires
-       authorization.
-
-
-##### - SendAuthorizationState.NdisPortAuthorizationUnknown
-
-The port's authorization state for send operations is unknown.
-
-
-##### - SendAuthorizationState.NdisPortAuthorized
-
-The port is authorized for send operations.
-
-
-##### - RcvControlState.NdisPortControlStateUnknown
-
-The port's control state for receive operations is unknown.
-
-
-##### - RcvAuthorizationState.NdisPortAuthorizationUnknown
-
-The port's authorization state for receive operations is unknown.
-
-
-##### - RcvAuthorizationState.NdisPortReauthorizing
-
-The port is re-authorizing for receive operations.
-
-
-##### - SendAuthorizationState.NdisPortUnauthorized
-
-The port is not authorized for send operations.
-
-
-##### - SendControlState.NdisPortControlStateUncontrolled
-
-The port is in an uncontrolled state for send operations. That is, the port does not require
-       authorization.
-
-
-##### - RcvAuthorizationState.NdisPortUnauthorized
-
-The port is not authorized for receive operations.
-
-
 ## -remarks
+
 
 
 The NDIS_PORT_STATE structure is used in the 
@@ -244,21 +259,32 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\storportetwevent4.htm
 old-project: storage
 ms.assetid: 0F0750A1-142B-4834-85F5-3F5E40EC72F7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent4 routine [Storage Devices], StorportEtwEventOpcodeInfo, StorportEtwLevelError, storage.storportetwevent4, StorPortEtwEvent4, StorportEtwEventOpcodeResume, StorportEtwLevelInformational, StorportEtwEventOpcodeDC_Stop, StorportEtwLevelWarning, StorportEtwEventOpcodeSuspend, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, storport/StorPortEtwEvent4, StorportEtwLevelVerbose, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeDC_Start, StorportEtwLevelCritical, StorportEtwLevelLogAlways, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeStop
+ms.date: 2/24/2018
+ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent4, StorPortEtwEvent4 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent4, storport/StorPortEtwEvent4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortEtwEvent4
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ The description text for the event. This text string must be &lt;= STORPORT_ETW_
 ### -param EventKeywords [in]
 
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -151,12 +152,14 @@ The event is related to device enumeration.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param EventLevel [in]
 
 The event level. This value can indicate the importance or severity of the event. This is one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -222,12 +225,14 @@ Verbose event information provided.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param EventOpcode [in]
 
 The operational nature of the event. This is one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -333,7 +338,8 @@ Device or unit is  suspended pending completion of another operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Srb [in, optional]
@@ -384,7 +390,9 @@ The value for parameter 4.
 ## -returns
 
 
+
 <b>StorPortEtwEvent4</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -435,11 +443,14 @@ An ETW parameter name is greater than the maximum name length.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If any parameter is not named, ParameterXName = NULL, the routine will set the corresponding parameter value to 0.
@@ -448,15 +459,20 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 
 
-## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportetwevent8.md">StorPortEtwEvent8</a>
 
- 
+
+
+<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortEtwEvent4 routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortEtwEvent4 routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

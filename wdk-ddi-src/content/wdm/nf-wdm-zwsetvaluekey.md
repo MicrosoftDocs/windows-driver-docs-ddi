@@ -7,8 +7,8 @@ old-location: kernel\zwsetvaluekey.htm
 old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], NtSetValueKey, kernel.zwsetvaluekey, wdm/ZwSetValueKey, ZwSetValueKey
+ms.date: 2/24/2018
+ms.keywords: NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, kernel.zwsetvaluekey, wdm/NtSetValueKey, wdm/ZwSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ZwSetValueKey
 -	NtSetValueKey
 product: Windows
@@ -92,6 +92,7 @@ This parameter is reserved. Device and intermediate drivers should set this para
 ### -param Type [in]
 
 One of the following system-defined types of data to write.
+
 <table>
 <tr>
 <th><i>Type</i> Value</th>
@@ -217,8 +218,11 @@ A list of hardware resources that a physical device is using, detected and writt
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>   Device drivers should not attempt to call <b>ZwSetValueKey</b> to explicitly write value entries in a subkey of the <b>\Registry...\ResourceMap</b> key. Only the system can write value entries to the <b>\Registry...\HardwareDescription</b> tree.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Note</b>   Device drivers should not attempt to call <b>ZwSetValueKey</b> to explicitly write value entries in a subkey of the <b>\Registry...\ResourceMap</b> key. Only the system can write value entries to the <b>\Registry...\HardwareDescription</b> tree.</div>
+<div> </div>
 
 ### -param Data [in, optional]
 
@@ -233,11 +237,14 @@ Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<
 ## -returns
 
 
+
 <b>ZwSetValueKey</b> returns an NTSTATUS value. Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The<i> KeyHandle</i> passed to <b>ZwSetValueKey</b> must have been opened with the KEY_SET_VALUE <i>DesiredAccess</i> flag set for this call to succeed. For a description of possible values for <i>DesiredAccess</i>, see <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
@@ -245,33 +252,55 @@ The<i> KeyHandle</i> passed to <b>ZwSetValueKey</b> must have been opened with t
 If the given key has no existing value entry with a name matching the given <i>ValueName</i>, <b>ZwSetValueKey</b> creates a new value entry with the given name. If a matching value entry name exists, this routine overwrites the original value entry for the given <i>ValueName</i>. Thus, <b>ZwSetValueKey</b> preserves a unique name for each value entry of any particular key. While each value entry name must be unique to its containing key, many different keys in the registry can have value entries with the same names.
 
 For more information about working with registry keys, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565537">Using the Registry in a Driver</a>.
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557688">NtSetValueKey</a>" instead of "<b>ZwSetValueKey</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557688">NtSetValueKey</a>" instead of "<b>ZwSetValueKey</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
 <a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetValueKey routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetValueKey routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_setuicctoolkitprofile.htm
 old-project: netvista
 ms.assetid: 123bf713-d238-491a-bc53-1f35dbb34feb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], RIL_SetUiccToolkitProfile, netvista.ril_setuicctoolkitprofile
+ms.date: 2/16/2018
+ms.keywords: RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile, rilapi/RIL_SetUiccToolkitProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SetUiccToolkitProfile
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_SetUiccToolkitProfile(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpToolkitProfile
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

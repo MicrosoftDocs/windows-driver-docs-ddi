@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchprintf.htm
 old-project: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintf, ntstrsafe/RtlStringCchPrintfW
+ms.date: 2/24/2018
+ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCchPrintfW
 -	RtlStringCchPrintfA
 -	RtlStringCchPrintfW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchPrintfA function
@@ -94,6 +94,7 @@ TBD
 
 
 
+
 ####### - ...
 
 A list of arguments that are interpreted by the function, based on formatting directives contained in the <i>pszFormat</i> string.
@@ -102,7 +103,9 @@ A list of arguments that are interpreted by the function, based on formatting di
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,14 +152,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> should be used instead of the following functions:
+
 <ul>
 <li>
 <b>sprintf</b>
@@ -174,9 +181,11 @@ _<b>snprintf</b>
 _<b>snwprintf</b>
 
 </li>
-</ul>All of these functions accept a format string and a list of arguments and return a formatted string. <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> accept the size, in characters, of the destination buffer to ensure that the functions do not write past the end of the buffer.
+</ul>
+All of these functions accept a format string and a list of arguments and return a formatted string. <b>RtlStringCchPrintfW</b> and <b>RtlStringCchPrintfA</b> accept the size, in characters, of the destination buffer to ensure that the functions do not write past the end of the buffer.
 
 Use <b>RtlStringCchPrintfW</b> to handle Unicode strings and <b>RtlStringCchPrintfA</b> to handle ANSI strings. The form you use depends on your data.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -211,25 +220,60 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If  <i>pszDest </i>and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, behavior of the function is undefined.
 
 Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>.
 
 
+#### Examples
+
+The following example shows a simple use of <b>RtlStringCchPrintfW</b> using four arguments.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR pszDest[30]; 
+size_t cchDest = 30;
+
+LPCWSTR pszFormat = L"%s %d + %d = %d.";
+WCHAR* pszTxt = L"The answer is";
+
+NTSTATUS status = 
+    RtlStringCchPrintfW(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);</pre>
+</td>
+</tr>
+</table></span></div>
+The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
+
+For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchPrintfW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchPrintfW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

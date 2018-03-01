@@ -7,8 +7,8 @@ old-location: netvista\rilmsgmwitype.htm
 old-project: netvista
 ms.assetid: e5faa899-194a-412c-9308-a84227a31a6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_VIDEOMAIL, RILMSGMWITYPE, ntddrilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, ntddrilapitypes/RILMSGMWITYPE, RIL_MSGMWITYPE_VOICEMAIL, RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MULTIMEDIA, netvista.rilmsgmwitype, ntddrilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, ntddrilapitypes/RIL_MSGMWITYPE_FAX, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGMWITYPE_PAGER, ntddrilapitypes/RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_MAX, ntddrilapitypes/RIL_MSGMWITYPE_VOICEMAIL
+ms.date: 2/16/2018
+ms.keywords: RILMSGMWITYPE, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype, ntddrilapitypes/RILMSGMWITYPE, ntddrilapitypes/RIL_MSGMWITYPE_FAX, ntddrilapitypes/RIL_MSGMWITYPE_MAX, ntddrilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, ntddrilapitypes/RIL_MSGMWITYPE_PAGER, ntddrilapitypes/RIL_MSGMWITYPE_TEXT, ntddrilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, ntddrilapitypes/RIL_MSGMWITYPE_VOICEMAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILMSGMWITYPE
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILMSGMWITYPE {
 ### -field RIL_MSGMWITYPE_NONE
 
 
-
 ### -field RIL_MSGMWITYPE_VOICEMAIL
-
 
 
 ### -field RIL_MSGMWITYPE_VIDEOMAIL
 
 
-
 ### -field RIL_MSGMWITYPE_FAX
-
 
 
 ### -field RIL_MSGMWITYPE_PAGER
 
 
-
 ### -field RIL_MSGMWITYPE_MULTIMEDIA
-
 
 
 ### -field RIL_MSGMWITYPE_TEXT
 
 
-
 ### -field RIL_MSGMWITYPE_MAX
-
 

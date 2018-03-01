@@ -7,8 +7,8 @@ old-location: nfpdrivers\ioctl_smartcard_power.htm
 old-project: nfpdrivers
 ms.assetid: 1B6F95FB-E7DC-4D36-A319-F5EB576F8D7A
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.ioctl_smartcard_power, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], IOCTL_SMARTCARD_POWER, winsmcrd/IOCTL_SMARTCARD_POWER
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winsmcrd.h
-apiname: 
+api_name:
 -	IOCTL_SMARTCARD_POWER
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,7 +88,9 @@ The <b>IOCTL_SMARTCARD_POWER</b>
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -100,27 +102,34 @@ None.
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -138,13 +147,16 @@ None.
 <td>STATUS_DEVICE_POWERED_OFF</td>
 <td>This code is returned if the proximity radio control is off.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Virtual power is set to TRUE for COLD_RESET and WARM_RESET; otherwise, virtual power is set to FALSE.
+
 
 
 
@@ -152,11 +164,15 @@ Virtual power is set to TRUE for COLD_RESET and WARM_RESET; otherwise, virtual p
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20IOCTL_SMARTCARD_POWER control code%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20IOCTL_SMARTCARD_POWER control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

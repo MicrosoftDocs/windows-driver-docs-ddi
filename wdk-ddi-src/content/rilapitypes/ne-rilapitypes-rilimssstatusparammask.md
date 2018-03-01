@@ -7,8 +7,8 @@ old-location: netvista\rilimssstatusparammask_2.htm
 old-project: netvista
 ms.assetid: 0d5896e8-b85e-407c-8b3e-cc8ad95c2ab1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILIMSSSTATUSPARAMMASK, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, rilapitypes/RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_ALL, rilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, rilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask_2, rilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, rilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, rilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, rilapitypes/RILIMSSSTATUSPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILIMSSSTATUSPARAMMASK, RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask_2, rilapitypes/RILIMSSSTATUSPARAMMASK, rilapitypes/RIL_PARAM_IMSSTATUS_ALL, rilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, rilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, rilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, rilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, rilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILIMSSSTATUSPARAMMASK
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum _RILIMSSSTATUSPARAMMASK {
 ### -field RIL_PARAM_IMSSTATUS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_IMSSTATUS_HUICCAPP
-
 
 
 ### -field RIL_PARAM_IMSSTATUS_AVAILABLESERVICES
 
 
-
 ### -field RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT
-
 
 
 ### -field RIL_PARAM_IMSSTATUS_SERVINGDOMAIN
 
 
-
 ### -field RIL_PARAM_IMSSTATUS_SYSTEMTYPE
 
 
-
 ### -field RIL_PARAM_IMSSTATUS_ALL
-
 

@@ -7,13 +7,13 @@ old-location: netvista\rilc2kmrlparammask.htm
 old-project: netvista
 ms.assetid: 145300be-6db8-48fd-9b8a-3b6d8532a1b1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_C2KMRL_REFPN, RIL_PARAM_C2KMRL_BSID, RIL_PARAM_C2KMRL_NID, rilapitypes/RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KMRL_BASELONG, RIL_PARAM_C2KMRL_BASELONG, rilapitypes/RIL_PARAM_C2KMRL_BSID, RIL_PARAM_C2KMRL_PILOTSTRENGTH, RIL_PARAM_C2KMRL_SID, rilapitypes/RIL_PARAM_C2KMRL_SID, rilapitypes/RIL_PARAM_C2KMRL_REFPN, RIL_PARAM_C2KMRL_SERVING, rilapitypes/RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_BASELAT, RILC2KMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_C2KRML_ALL, netvista.rilc2kmrlparammask, rilapitypes/RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KMRL_NID, rilapitypes/RIL_PARAM_C2KMRL_PILOTSTRENGTH, RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KRML_ALL, RIL_PARAM_C2KMRL_GPSSECONDS
+ms.date: 2/16/2018
+ms.keywords: RILC2KMRLPARAMMASK, RILC2KMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_C2KMRL_BASELAT, RIL_PARAM_C2KMRL_BASELONG, RIL_PARAM_C2KMRL_BSID, RIL_PARAM_C2KMRL_GPSSECONDS, RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KMRL_PILOTSTRENGTH, RIL_PARAM_C2KMRL_REFPN, RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_SID, RIL_PARAM_C2KRML_ALL, netvista.rilc2kmrlparammask, rilapitypes/RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RIL_PARAM_C2KMRL_BASELONG, rilapitypes/RIL_PARAM_C2KMRL_BSID, rilapitypes/RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KMRL_NID, rilapitypes/RIL_PARAM_C2KMRL_PILOTSTRENGTH, rilapitypes/RIL_PARAM_C2KMRL_REFPN, rilapitypes/RIL_PARAM_C2KMRL_SERVING, rilapitypes/RIL_PARAM_C2KMRL_SID, rilapitypes/RIL_PARAM_C2KRML_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILC2KMRLPARAMMASK
 product: Windows
 targetos: Windows
@@ -81,49 +81,41 @@ enum RILC2KMRLPARAMMASK {
 ### -field RIL_PARAM_C2KMRL_SERVING
 
 
-
 ### -field RIL_PARAM_C2KMRL_NID
-
 
 
 ### -field RIL_PARAM_C2KMRL_SID
 
 
-
 ### -field RIL_PARAM_C2KMRL_BSID
-
 
 
 ### -field RIL_PARAM_C2KMRL_BASELAT
 
 
-
 ### -field RIL_PARAM_C2KMRL_BASELONG
-
 
 
 ### -field RIL_PARAM_C2KMRL_REFPN
 
 
-
 ### -field RIL_PARAM_C2KMRL_GPSSECONDS
-
 
 
 ### -field RIL_PARAM_C2KMRL_PILOTSTRENGTH
 
 
-
 ### -field RIL_PARAM_C2KRML_ALL
-
 
 
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for typical CDMA networks.
 
 <b>Serving and neighbor networks</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -293,7 +285,9 @@ Yes
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -301,9 +295,11 @@ Yes
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILC2KMRLPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILC2KMRLPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

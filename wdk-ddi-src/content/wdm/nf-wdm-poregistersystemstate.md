@@ -7,8 +7,8 @@ old-location: kernel\poregistersystemstate.htm
 old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, wdm/PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], PoRegisterSystemState
+ms.date: 2/24/2018
+ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PoRegisterSystemState
 product: Windows
 targetos: Windows
@@ -81,34 +81,41 @@ Indicates the type of activity, as specified by a bitwise OR of one or more of t
 
 
 
-##### - Flags.ES_CONTINUOUS
 
-The settings are continuous and should remain in effect until explicitly changed.
-
-
-##### - Flags.ES_USER_PRESENT
-
-A user is present.
-
-
-##### - Flags.ES_SYSTEM_REQUIRED
+#### ES_SYSTEM_REQUIRED
 
 The system is not idle, regardless of apparent load.
 
 
-##### - Flags.ES_DISPLAY_REQUIRED
+
+#### ES_DISPLAY_REQUIRED
 
 Use of the display is required.
 
 
+
+#### ES_USER_PRESENT
+
+A user is present.
+
+
+
+#### ES_CONTINUOUS
+
+The settings are continuous and should remain in effect until explicitly changed.
+
+
 ## -returns
+
 
 
 <b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
 
 
 
+
 ## -remarks
+
 
 
 <b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>.
@@ -123,15 +130,20 @@ To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
 
+
+
 <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoRegisterSystemState routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoRegisterSystemState routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

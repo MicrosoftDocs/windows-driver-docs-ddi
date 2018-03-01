@@ -7,8 +7,8 @@ old-location: sd\psdbus_initialize_interface_routine.htm
 old-project: SD
 ms.assetid: 90d36eb1-d122-4266-9c33-206c9c9b44e8
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SD.psdbus_initialize_interface_routine, InitializeInterface callback function [Buses], InitializeInterface, PSDBUS_INITIALIZE_INTERFACE_ROUTINE, PSDBUS_INITIALIZE_INTERFACE_ROUTINE, ntddsd/InitializeInterface, sd-rtns_7716bd48-1f82-4b8e-b688-016bb0716e57.xml
+ms.date: 2/15/2018
+ms.keywords: InitializeInterface, InitializeInterface callback function [Buses], PSDBUS_INITIALIZE_INTERFACE_ROUTINE, SD.psdbus_initialize_interface_routine, ntddsd/InitializeInterface, sd-rtns_7716bd48-1f82-4b8e-b688-016bb0716e57.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddsd.h
-apiname: 
+api_name:
 -	InitializeInterface
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Pointer to a structure of type <a href="https://msdn.microsoft.com/d407131e-5dda
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error status if the operation fails.
 
 
 
+
 ## -remarks
+
 
 
 An SD card driver typically calls its initialization routine immediately after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a> routine returns with a value of STATUS_SUCCESS. 
@@ -97,15 +100,20 @@ An SD card driver must call its initialization routine before attempting to send
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback function%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

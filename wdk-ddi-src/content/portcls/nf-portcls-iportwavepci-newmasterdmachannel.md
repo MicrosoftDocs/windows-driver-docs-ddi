@@ -7,8 +7,8 @@ old-location: audio\iportwavepci_newmasterdmachannel.htm
 old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel method [Audio Devices], audio.iportwavepci_newmasterdmachannel, portcls/IPortWavePci::NewMasterDmaChannel, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, IPortWavePci, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml
+ms.date: 2/22/2018
+ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel,IPortWavePci.NewMasterDmaChannel, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortWavePci.NewMasterDmaChannel
 product: Windows
 targetos: Windows
@@ -90,7 +90,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
+Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
 ### -param ResourceList [in, optional]
@@ -146,11 +146,14 @@ Output pointer for the DMA channel. This parameter points to a caller-allocated 
 ## -returns
 
 
+
 <code>NewMasterDmaChannel</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 The definitions of the call parameters for the <code>NewMasterDmaChannel</code> method are similar to those for the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
@@ -161,21 +164,32 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::NewMasterDmaChannel method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::NewMasterDmaChannel method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

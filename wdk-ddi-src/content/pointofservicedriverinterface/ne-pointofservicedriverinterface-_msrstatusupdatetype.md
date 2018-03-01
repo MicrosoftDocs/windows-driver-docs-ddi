@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrStatusUpdateType
-title: _MsrStatusUpdateType
+title: "_MsrStatusUpdateType"
 author: windows-driver-content
 description: This enumeration defines the constants that indicate the magnetic stripe reader (MSR) status.
 old-location: pos\msrstatusupdatetype.htm
 old-project: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType enumeration, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Off, MsrStatusUpdateType, pos.msrstatusupdatetype, pointofservicedriverinterface/MsrStatusUpdateType_Extended, MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType, MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Offline, _MsrStatusUpdateType, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Unauthenticated, pointofservicedriverinterface/MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Online
+ms.date: 2/23/2018
+ms.keywords: MsrStatusUpdateType, MsrStatusUpdateType enumeration, MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Off, MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Offline, MsrStatusUpdateType_Online, MsrStatusUpdateType_Unauthenticated, _MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_Extended, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, pos.msrstatusupdatetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	MsrStatusUpdateType
 product: Windows
 targetos: Windows

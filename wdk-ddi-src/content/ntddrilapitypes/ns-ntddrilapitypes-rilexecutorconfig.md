@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorconfig.htm
 old-project: netvista
 ms.assetid: d53c3df2-fd75-4008-a740-0afa293e36eb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilexecutorconfig, *LPRILEXECUTORCONFIG, ntddrilapitypes/RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], RILEXECUTORCONFIG
+ms.date: 2/16/2018
+ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILEXECUTORCONFIG
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef struct _RILEXECUTORCONFIG {
 ### -field cbSize
 
 
-
 ### -field dwFlags
-
 
 
 ### -field dwNumApps
 
 
-
 ### -field lphUiccApps
-
 

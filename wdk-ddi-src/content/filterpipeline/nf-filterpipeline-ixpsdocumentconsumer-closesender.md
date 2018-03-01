@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentconsumer_closesender.htm
 old-project: print
 ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: CloseSender method [Print Devices], CloseSender method [Print Devices], IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer interface [Print Devices], CloseSender method, print.ixpsdocumentconsumer_closesender, CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer
+ms.date: 2/23/2018
+ms.keywords: CloseSender method [Print Devices], CloseSender method [Print Devices], IXpsDocumentConsumer interface, CloseSender,IXpsDocumentConsumer.CloseSender, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], CloseSender method, IXpsDocumentConsumer::CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Filterpipeline.h
-apiname: 
+api_name:
 -	IXpsDocumentConsumer.CloseSender
 product: Windows
 targetos: Windows
@@ -68,20 +68,24 @@ HRESULT STDMETHODCALLTYPE CloseSender(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 The filter must call the <code>CloseSender</code> method when it has finished sending the XPS parts to the pipeline.
+
 
 

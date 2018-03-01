@@ -7,8 +7,8 @@ old-location: netvista\wskgetnameinfo.htm
 old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskgetnameinfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], WskGetNameInfo, PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_GET_NAME_INFO, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskGetNameInfo
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,8 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <mshelp:link keywords="netvista.wskcaptureprovidernpi" tabindex="0"><b>
-     WskCaptureProviderNPI</b></mshelp:link> function.
+     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     WskCaptureProviderNPI</a> function.
 
 
 ### -param SockAddr [in]
@@ -140,6 +140,42 @@ The following flags are available:
 
 
 
+
+#### NI_DGRAM
+
+Indicates that the service is a datagram service. This flag is necessary for the few services
+       that provide different port numbers for UDP and TCP service.
+
+
+
+#### NI_NAMEREQD
+
+Indicates that a host name that cannot be resolved by DNS results in an error.
+
+
+
+#### NI_NOFQDN
+
+Results in a local host having only its Relative Distinguished Name (RDN) returned in the 
+       <i>NodeName</i> parameter.
+
+
+
+#### NI_NUMERICHOST
+
+Indicates that the function returns the numeric form of the host name instead of its name, a
+       reverse DNS lookup. The numeric form of the host name is also returned if the host name cannot be
+       resolved by DNS.
+
+
+
+#### NI_NUMERICSERV
+
+Indicates that the function returns the port number of the service instead of its name. Also, if
+       a host name is not found for an IP address (127.0.0.2, for example), the host name is returned as the
+       IP address.
+
+
 ### -param OwningProcess [in, optional]
 
 [in] An optional pointer to the process from which the function retrieves the security context.
@@ -173,41 +209,12 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      <b>Iostatus.Information</b> will hold the returned status code.
 
 
-##### - Flags.NI_NAMEREQD
-
-Indicates that a host name that cannot be resolved by DNS results in an error.
-
-
-##### - Flags.NI_NUMERICHOST
-
-Indicates that the function returns the numeric form of the host name instead of its name, a
-       reverse DNS lookup. The numeric form of the host name is also returned if the host name cannot be
-       resolved by DNS.
-
-
-##### - Flags.NI_DGRAM
-
-Indicates that the service is a datagram service. This flag is necessary for the few services
-       that provide different port numbers for UDP and TCP service.
-
-
-##### - Flags.NI_NOFQDN
-
-Results in a local host having only its Relative Distinguished Name (RDN) returned in the 
-       <i>NodeName</i> parameter.
-
-
-##### - Flags.NI_NUMERICSERV
-
-Indicates that the function returns the port number of the service instead of its name. Also, if
-       a host name is not found for an IP address (127.0.0.2, for example), the host name is returned as the
-       IP address.
-
-
 ## -returns
 
 
+
 <b>WskGetNameInfo</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -273,11 +280,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The process to which the 
@@ -288,23 +298,36 @@ The process to which the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
- 
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_NAME_INFO callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_NAME_INFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

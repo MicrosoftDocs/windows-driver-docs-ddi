@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._CLFS_MGMT_POLICY_TYPE
-title: _CLFS_MGMT_POLICY_TYPE
+title: "_CLFS_MGMT_POLICY_TYPE"
 author: windows-driver-content
 description: The CLFS_MGMT_POLICY_TYPE enumeration type identifies the type of a CLFS management policy.
 old-location: kernel\clfs_mgmt_policy_type.htm
 old-project: kernel
 ms.assetid: 50e31ff1-07f2-4781-81f2-8db6e3cf9cc6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ClfsMgmtPolicyLogTail, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyLogTail, CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyNewContainerPrefix, PCLFS_MGMT_POLICY_TYPE, _CLFS_MGMT_POLICY_TYPE, kernel.clfs_mgmt_policy_type, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ClfsMgmtPolicyGrowthRate, wdm/ClfsMgmtPolicyNewContainerSize, wdm/PCLFS_MGMT_POLICY_TYPE, ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyNewContainerSuffix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyGrowthRate, sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, ClfsMgmtPolicyMinimumSize, wdm/ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyAutoGrow, wdm/ClfsMgmtPolicyNewContainerPrefix, wdm/ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerExtension
+ms.date: 2/24/2018
+ms.keywords: "*PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyGrowthRate, ClfsMgmtPolicyInvalid, ClfsMgmtPolicyLogTail, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyNewContainerSuffix, PCLFS_MGMT_POLICY_TYPE, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY_TYPE, kernel.clfs_mgmt_policy_type, sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, wdm/CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyAutoGrow, wdm/ClfsMgmtPolicyAutoShrink, wdm/ClfsMgmtPolicyGrowthRate, wdm/ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyLogTail, wdm/ClfsMgmtPolicyMaximumSize, wdm/ClfsMgmtPolicyMinimumSize, wdm/ClfsMgmtPolicyNewContainerExtension, wdm/ClfsMgmtPolicyNewContainerPrefix, wdm/ClfsMgmtPolicyNewContainerSize, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/PCLFS_MGMT_POLICY_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	CLFS_MGMT_POLICY_TYPE
 product: Windows
 targetos: Windows
@@ -136,7 +136,9 @@ Reserved for internal use.
 ## -remarks
 
 
+
 Each type of CLFS management policy corresponds to a specific interpretation of the <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure. The <b>PolicyType</b> member of the <b>CLFS_MGMT_POLICY</b> structure is a valid value of the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
+
 
 
 
@@ -144,9 +146,11 @@ Each type of CLFS management policy corresponds to a specific interpretation of 
 
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

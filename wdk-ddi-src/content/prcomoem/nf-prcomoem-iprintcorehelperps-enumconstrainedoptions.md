@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 106119cd-80ed-4d26-a7c1-fda5a49b080c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, IPrintCoreHelperPS::EnumConstrainedOptions, EnumConstrainedOptions, IPrintCoreHelperPS interface [Print Devices], EnumConstrainedOptions method, print.iprintcorehelperps_enumconstrainedoptions, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml, EnumConstrainedOptions method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreHelperPS interface, EnumConstrainedOptions,IPrintCoreHelperPS.EnumConstrainedOptions, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelperPS::EnumConstrainedOptions, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, print.iprintcorehelperps_enumconstrainedoptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintCoreHelperPS.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to an array of ANSI character strings. When <b>IPrintCoreHelperPS::Enu
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,7 +168,9 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -174,9 +178,15 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
 
- 
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::EnumConstrainedOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::EnumConstrainedOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

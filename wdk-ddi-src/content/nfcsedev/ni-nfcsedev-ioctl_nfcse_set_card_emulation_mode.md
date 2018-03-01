@@ -7,8 +7,8 @@ old-location: nfpdrivers\ioctl_nfcse_set_card_emulation_mode.htm
 old-project: nfpdrivers
 ms.assetid: B7E55FDE-573C-4F45-869C-A3EE253BD777
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.ioctl_nfcse_set_card_emulation_mode, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code [Near-Field Proximity Drivers], IOCTL_NFCSE_SET_CARD_EMULATION_MODE, nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE
+ms.date: 2/15/2018
+ms.keywords: IOCTL_NFCSE_SET_CARD_EMULATION_MODE, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE, nfpdrivers.ioctl_nfcse_set_card_emulation_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfcsedev.h
-apiname: 
+api_name:
 -	IOCTL_NFCSE_SET_CARD_EMULATION_MODE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -72,7 +72,9 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -84,27 +86,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -118,10 +127,12 @@ None
 <td><b>STATUS_INVALID_DEVICE_STATE</b></td>
 <td>  If the IOCTL is sent on a handle other than with the relative name 'SEManage'.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to. <ul>
@@ -131,6 +142,7 @@ The following are requirements that the driver must adhere to. <ul>
 <li>When the SEManage opened file handle is closed, the driver must set the card emulation mode settings of all secure elements to be EmulationOff except when the last set card emulation mode state is EmulationOnPowerIndependent. If the last set card emulation mode state is EmulationOnPowerIndependent, the driver must remain with the card emulation mode setting to On with the PbF option for the specific secure elements.</li>
 <li>The driver must grant exclusive access to the client to manage card emulation mode. Subsequent calls to open a file handle using relative filename SEManage would fail with STATUS_ACCCESS_DENIED until the client with exclusive access closes its file handle.</li>
 </ul>
+
 
 
 

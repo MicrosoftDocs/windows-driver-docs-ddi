@@ -7,13 +7,13 @@ old-location: kernel\enumerateunmaskedinterrupts.htm
 old-project: kernel
 ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.enumerateunmaskedinterrupts, EnumerateUnmaskedInterruptsext, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterrupts, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, pepfx/EnumerateUnmaskedInterrupts
+ms.date: 2/24/2018
+ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= HIGH_LEVEL
-topictype: 
+req.irql: "<= HIGH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	EnumerateUnmaskedInterrupts
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback
@@ -102,7 +102,9 @@ A pointer to a caller-allocated buffer whose size is at least <b>sizeof</b>(<a h
 ## -returns
 
 
+
 <b>EnumerateUnmaskedInterrupts</b> returns STATUS_SUCCESS if the call successfully enumerates the interrupts. Possible error return values include the following status code.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -119,11 +121,14 @@ The <b>Size</b> or <b>Version</b> member of the <b>PEP_UNMASKED_INTERRUPT_INFORM
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUnmaskedInterrupts</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>EnumerateUnmaskedInterrupts</b> routine.
@@ -134,17 +139,24 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
 
+
 ## -see-also
-
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
- 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

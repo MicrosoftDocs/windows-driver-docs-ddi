@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_NOTIFY_COMPONENT_IDLE_STATE
-title: _PEP_NOTIFY_COMPONENT_IDLE_STATE
+title: "_PEP_NOTIFY_COMPONENT_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state.
 old-location: kernel\pep_notify_component_idle_state.htm
 old-project: kernel
 ms.assetid: 63DB9626-BB05-43C4-BBC0-3A63ED5D6E94
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_NOTIFY_COMPONENT_IDLE_STATE, _PEP_NOTIFY_COMPONENT_IDLE_STATE, pepfx/PPEP_NOTIFY_COMPONENT_IDLE_STATE, *PPEP_NOTIFY_COMPONENT_IDLE_STATE, kernel.pep_notify_component_idle_state, PPEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_NOTIFY_COMPONENT_IDLE_STATE, PPEP_NOTIFY_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_NOTIFY_COMPONENT_IDLE_STATE, PPEP_NOTIFY_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_NOTIFY_COMPONENT_IDLE_STATE, kernel.pep_notify_component_idle_state, pepfx/PEP_NOTIFY_COMPONENT_IDLE_STATE, pepfx/PPEP_NOTIFY_COMPONENT_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_NOTIFY_COMPONENT_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE
+req.typenames: PEP_NOTIFY_COMPONENT_IDLE_STATE, *PPEP_NOTIFY_COMPONENT_IDLE_STATE
 ---
 
 # _PEP_NOTIFY_COMPONENT_IDLE_STATE structure
@@ -101,7 +101,9 @@ If FALSE, the PEP must complete the necessary preparations at a later time and t
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186759">PEP_DPM_NOTIFY_COMPONENT_IDLE_STATE</a> notification. The first four members of this structure contain input values that are supplied by PoFx. The <b>Completed</b> member contains an output value that the PEP writes to the structure in response to this notification.
+
 
 
 
@@ -109,17 +111,27 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
 
 <a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186759">PEP_DPM_NOTIFY_COMPONENT_IDLE_STATE</a>
 
- 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_NOTIFY_COMPONENT_IDLE_STATE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_NOTIFY_COMPONENT_IDLE_STATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

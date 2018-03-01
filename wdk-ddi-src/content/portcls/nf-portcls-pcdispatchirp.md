@@ -7,8 +7,8 @@ old-location: audio\pcdispatchirp.htm
 old-project: audio
 ms.assetid: 01add66e-a007-4b1d-add6-c5be71dd0d61
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.pcdispatchirp, portcls/PcDispatchIrp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, PcDispatchIrp function [Audio Devices], PcDispatchIrp
+ms.date: 2/22/2018
+ms.keywords: PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, portcls/PcDispatchIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	PcDispatchIrp
 product: Windows
 targetos: Windows
@@ -58,8 +58,8 @@ The <b>PcDispatchIrp</b> function dispatches an IRP to the PortCls system driver
 
 ````
 PORTCLASSAPI NTSTATUS NTAPI PcDispatchIrp(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp
+  _In_ PDEVICE_OBJECT pDeviceObject,
+  _In_ PIRP           pIrp
 );
 ````
 
@@ -69,35 +69,27 @@ PORTCLASSAPI NTSTATUS NTAPI PcDispatchIrp(
 
 
 
-### -param pDeviceObject
-
-TBD
-
-
-### -param pIrp
-
-TBD
-
-
-
-#### - Irp [in]
-
-Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be dispatched
-
-
-#### - DeviceObject [in]
+### -param pDeviceObject [in]
 
 Pointer to the device object. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
+### -param pIrp [in]
+
+Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be dispatched
+
+
 ## -returns
+
 
 
 <b>PcDispatchIrp</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 As part of its initialization process, the <a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a> function loads pointers to handlers for several IRPs into the driver object. Following the call to <b>PcInitializeAdapterDriver</b>, an adapter driver can choose to overwrite one or more of the PortCls handler pointers with pointers to its own IRP handlers.
@@ -108,17 +100,24 @@ For a code example, see the SB16 sample audio driver in the Microsoft Windows Dr
 
 
 
-## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
+
+
 <a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcDispatchIrp function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcDispatchIrp function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

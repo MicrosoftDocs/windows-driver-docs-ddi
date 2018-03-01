@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._WORK_QUEUE_ITEM
-title: _WORK_QUEUE_ITEM
+title: "_WORK_QUEUE_ITEM"
 author: windows-driver-content
 description: The WORK_QUEUE_ITEM structure is used to post a work items to a system work queue.
 old-location: ifsk\work_queue_item.htm
 old-project: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: WORK_QUEUE_ITEM structure [Installable File System Drivers], wdm/PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], wdm/WORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, WORK_QUEUE_ITEM, ifsk.work_queue_item, *PWORK_QUEUE_ITEM, _WORK_QUEUE_ITEM
+ms.date: 2/16/2018
+ms.keywords: "*PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], WORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], _WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, wdm/PWORK_QUEUE_ITEM, wdm/WORK_QUEUE_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	WORK_QUEUE_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ Doubly linked list structure. This structure is used to add the work item to the
 ### -field WorkerRoutine
 
 Pointer to a callback routine that processes this work item when the work item is dequeued. This callback routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -93,17 +94,20 @@ Pointer to a callback routine that processes this work item when the work item i
 </table></span></div>
 
 
+
+
+#### Parameter
+
+Context information pointer specified in the <b>Parameter</b> member. 
+
+
 ### -field Parameter
 
 Pointer to context information to be passed to the callback routine specified in the <b>WorkerRoutine</b> member. 
 
 
-##### - WorkerRoutine.Parameter
-
-Context information pointer specified in the <b>Parameter</b> member. 
-
-
 ## -remarks
+
 
 
 To initialize a WORK_QUEUE_ITEM structure, call <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>. 
@@ -114,21 +118,32 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
 
-<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20WORK_QUEUE_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20WORK_QUEUE_ITEM structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

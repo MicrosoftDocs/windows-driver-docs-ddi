@@ -1,14 +1,14 @@
 ---
 UID: NS:dbgeng._DEBUG_CREATE_PROCESS_OPTIONS
-title: _DEBUG_CREATE_PROCESS_OPTIONS
+title: "_DEBUG_CREATE_PROCESS_OPTIONS"
 author: windows-driver-content
 description: The DEBUG_CREATE_PROCESS_OPTIONS structure specifies the process creation options to use when creating a new process.
 old-location: debugger\debug_create_process_options.htm
 old-project: debugger
 ms.assetid: b4b279c2-d44a-442d-9f1d-0ac0d2304eb8
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: _DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options, *PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging], Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, DEBUG_CREATE_PROCESS_OPTIONS
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging], Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, _DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	DbgEng.h
-apiname: 
+api_name:
 -	DEBUG_CREATE_PROCESS_OPTIONS
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _DEBUG_CREATE_PROCESS_OPTIONS {
 ### -field CreateFlags
 
 The flags to use when creating the process.   In addition to the flags described in the "Process Creation Flags" topic in the Platform SDK documentation, the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> uses the following flags when creating a process.
+
 <table>
 <tr>
 <th>Values</th>
@@ -98,7 +99,8 @@ The native NT RTL process creation routines should be used instead of Win32.  Th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 When creating and attaching to a process through the debugger engine, set one of the Platform SDK's process creation flags: DEBUG_PROCESS or DEBUG_ONLY_THIS_PROCESS.
 
@@ -106,6 +108,7 @@ When creating and attaching to a process through the debugger engine, set one of
 ### -field EngCreateFlags
 
 The engine specific flags used when creating the process.  <b>EngCreateFlags</b> is a combination of the following bit-flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,7 +144,8 @@ Use the debugger's or process server's implicit command line to start the proces
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VerifierFlags

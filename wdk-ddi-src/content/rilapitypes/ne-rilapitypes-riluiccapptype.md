@@ -7,13 +7,13 @@ old-location: netvista\riluiccapptype.htm
 old-project: netvista
 ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccapptype, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RILUICCAPPTYPE, RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_MF, RILUICCAPPTYPE, RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_CSIM
+ms.date: 2/16/2018
+ms.keywords: RILUICCAPPTYPE, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_CSIM, RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_MF, RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, netvista.riluiccapptype, rilapitypes/RILUICCAPPTYPE, rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RIL_UICCAPPTYPE_USIM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCAPPTYPE
 product: Windows
 targetos: Windows
@@ -78,29 +78,22 @@ enum RILUICCAPPTYPE {
 ### -field RIL_UICCAPPTYPE_UNKNOWN
 
 
-
 ### -field RIL_UICCAPPTYPE_MF
-
 
 
 ### -field RIL_UICCAPPTYPE_MF_SIM
 
 
-
 ### -field RIL_UICCAPPTYPE_MF_RUIM
-
 
 
 ### -field RIL_UICCAPPTYPE_USIM
 
 
-
 ### -field RIL_UICCAPPTYPE_CSIM
 
 
-
 ### -field RIL_UICCAPPTYPE_ISIM
-
 
 
 ### -field RIL_UICCAPPTYPE_MAX
@@ -111,9 +104,11 @@ enum RILUICCAPPTYPE {
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -283,9 +278,11 @@ Path loss of serving cell in dBs
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>TD-SCDMA neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -455,7 +452,9 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -463,9 +462,11 @@ No
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCAPPTYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCAPPTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

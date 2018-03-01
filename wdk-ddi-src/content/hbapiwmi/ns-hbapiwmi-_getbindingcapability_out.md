@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._GetBindingCapability_OUT
-title: _GetBindingCapability_OUT
+title: "_GetBindingCapability_OUT"
 author: windows-driver-content
 description: The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingCapability WMI method to the WMI client.
 old-location: storage\getbindingcapability_out.htm
 old-project: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PGetBindingCapability_OUT structure pointer [Storage Devices], PGetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], *PGetBindingCapability_OUT, _GetBindingCapability_OUT, storage.getbindingcapability_out, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, GetBindingCapability_OUT, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml
+ms.date: 2/24/2018
+ms.keywords: "*PGetBindingCapability_OUT, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, PGetBindingCapability_OUT structure pointer [Storage Devices], _GetBindingCapability_OUT, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, storage.getbindingcapability_out, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	GetBindingCapability_OUT
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ Indicates the ability of an HBA and its miniport driver to provide a specific se
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetBindingCapability_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
@@ -89,9 +91,11 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

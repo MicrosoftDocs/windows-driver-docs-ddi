@@ -7,8 +7,8 @@ old-location: stream\streamclassgetphysicaladdress.htm
 old-project: stream
 ms.assetid: 5a8e7130-00e7-4bff-8939-7cfcc1a2b9aa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: StreamClassGetPhysicalAddress, strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, strmini/StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], stream.streamclassgetphysicaladdress
+ms.date: 2/23/2018
+ms.keywords: StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+api_name:
 -	StreamClassGetPhysicalAddress
 product: Windows
 targetos: Windows
@@ -101,14 +101,18 @@ Specifies the length, in bytes, of the buffer.
 ## -returns
 
 
+
 <b>StreamClassGetPhysicalAddress</b> returns the translated virtual address as a physical memory address.
+
 
 
 
 ## -remarks
 
 
+
 The type of buffer to be used is specified in the <i>Type</i> parameter. The meanings of these values are shown in the following table.
+
 <table>
 <tr>
 <th>Buffer Type</th>
@@ -144,6 +148,8 @@ Indicates the physical address of the data buffer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

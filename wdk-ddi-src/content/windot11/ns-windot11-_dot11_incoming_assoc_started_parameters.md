@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
-title: _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+title: "_DOT11_INCOMING_ASSOC_STARTED_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_started_parameters.htm
 old-project: netvista
 ms.assetid: 8bf8d69a-0c47-48c1-83f5-d436a3ab8323
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, netvista.dot11_incoming_assoc_started_parameters, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, netvista.dot11_incoming_assoc_started_parameters, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+req.typenames: DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
+
 <table>
 <tr>
 <th>Term</th>
@@ -117,7 +118,8 @@ This member must be set to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -132,23 +134,29 @@ The media access control (MAC) address of the peer station that sent an 802.11 a
 ## -remarks
 
 
+
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure when
     the driver makes an 
-    <mshelp:link keywords="netvista.ndis_status_dot11_incoming_assoc_started" tabindex="0">
-    NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</mshelp:link> status indication.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
+    NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</a> status indication.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_status_dot11_incoming_assoc_started" tabindex="0">
-   NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-started">
+   NDIS_STATUS_DOT11_INCOMING_ASSOC_STARTED</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\keacquirespinlock.htm
 old-project: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], kernel.keacquirespinlock, k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, KeAcquireSpinLock, wdm/KeAcquireSpinLock
+ms.date: 2/24/2018
+ms.keywords: KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, wdm/KeAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Hal.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+api_name:
 -	KeAcquireSpinLock
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ TBD
 
 
 
+
+
 #### - OldIrql [out]
 
 Pointer to a variable that is set to the current IRQL when this call occurs.
@@ -95,6 +97,7 @@ Pointer to an initialized spin lock for which the caller provides the storage.
 ## -remarks
 
 
+
 <b>KeAcquireSpinLock</b> first resets the IRQL to DISPATCH_LEVEL and then acquires the lock. The previous IRQL is written to <i>OldIrql</i> after the lock is acquired.
 
 The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>.
@@ -102,6 +105,7 @@ The <i>OldIrql</i> value must be specified when the spin lock is released with <
 Most drivers use a local variable to store the old IRQL value. A driver can also use a shared memory location, such as a global variable, but the driver must not use the same location for two different locks. Otherwise, a race condition can occur.
 
 Spin locks can cause serious problems if not used judiciously. In particular, no deadlock protection is performed and dispatching is disabled while the spin lock is held. Therefore:
+
 <ul>
 <li>
 The code within a critical region guarded by an spin lock must neither be pageable nor make any references to pageable data.
@@ -115,23 +119,33 @@ The code within a critical region guarded by a spin lock can neither call any ex
 The caller should release the spin lock with <b>KeReleaseSpinLock</b> as quickly as possible.
 
 </li>
-</ul>Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock. For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
+</ul>
+Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock. For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
-
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeAcquireSpinLock routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeAcquireSpinLock routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

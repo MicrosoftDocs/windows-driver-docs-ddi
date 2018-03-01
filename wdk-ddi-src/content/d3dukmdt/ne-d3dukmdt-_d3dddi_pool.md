@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_POOL
-title: _D3DDDI_POOL
+title: "_D3DDDI_POOL"
 author: windows-driver-content
 description: The D3DDDI_POOL enumeration type contains values that identify particular types of memory pool.
 old-location: display\d3dddi_pool.htm
 old-project: display
 ms.assetid: b3f34183-7595-47b6-a2f1-c32650734a04
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_STAGINGMEM, _D3DDDI_POOL, display.d3dddi_pool, D3DDDI_POOL, D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDIPOOL_STAGINGMEM, D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDI_POOL enumeration [Display Devices], D3DDDIPOOL_VIDEOMEMORY
+ms.date: 2/24/2018
+ms.keywords: D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_STAGINGMEM, D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_VIDEOMEMORY, D3DDDI_POOL, D3DDDI_POOL enumeration [Display Devices], D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, _D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_STAGINGMEM, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDI_POOL, display.d3dddi_pool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDI_POOL
 product: Windows
 targetos: Windows
@@ -103,9 +103,11 @@ Must be supported by WDDM 1.3 and later drivers. Available starting with Windows
 ## -remarks
 
 
+
 Pool memory types are defined as an enumeration type rather than separate flags because the types are all mutually exclusive.
 
 Note that the D3DDDIPOOL_LOCALVIDMEM and D3DDDIPOOL_NONLOCALVIDMEM values are provided as hints to the user-mode display driver so it can improve performance. For more information about these values, see <a href="https://msdn.microsoft.com/b4691de0-d3c9-4a6f-a9f4-aafb22ea3e97">Specifying Memory Type for a Resource</a>.
+
 
 
 
@@ -113,9 +115,11 @@ Note that the D3DDDIPOOL_LOCALVIDMEM and D3DDDIPOOL_NONLOCALVIDMEM values are pr
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_POOL enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_POOL enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

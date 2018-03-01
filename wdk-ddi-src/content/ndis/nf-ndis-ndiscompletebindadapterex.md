@@ -7,8 +7,8 @@ old-location: netvista\ndiscompletebindadapterex.htm
 old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, NdisCompleteBindAdapterEx, ndis/NdisCompleteBindAdapterEx
+ms.date: 2/16/2018
+ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCompleteBindAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCompleteBindAdapterEx function
@@ -86,7 +86,14 @@ The final status of the completed bind operation. This parameter can be one of t
 
 
 
-##### - Status.NDIS_STATUS_XXX or NTSTATUS_XXX
+
+#### NDIS_STATUS_SUCCESS
+
+The driver successfully completed the binding to the underlying NIC.
+
+
+
+#### NDIS_STATUS_XXX or NTSTATUS_XXX
 
 The protocol driver's attempt to set up a binding failed or the protocol driver could not
        allocate the resources it needed to carry out network I/O operations. Usually, such an error status is
@@ -98,23 +105,21 @@ The protocol driver's attempt to set up a binding failed or the protocol driver 
 
 The handle that NDIS passed to the 
      <i>BindContext</i> parameter of the 
-     <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-     ProtocolBindAdapterEx</i></mshelp:link> function.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The driver successfully completed the binding to the underlying NIC.
+     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+     ProtocolBindAdapterEx</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 If a protocol driver returns NDIS_STATUS_PENDING from its 
@@ -129,15 +134,20 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCompleteBindAdapterEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCompleteBindAdapterEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

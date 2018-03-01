@@ -7,8 +7,8 @@ old-location: netvista\rilerrordetailsparammask_2.htm
 old-project: netvista
 ms.assetid: aa728681-fe86-40f1-853d-ad37abe924b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILERRORDETAILSPARAMMASK, netvista.rilerrordetailsparammask_2
+ms.date: 2/16/2018
+ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask_2, rilapitypes/RILERRORDETAILSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILERRORDETAILSPARAMMASK
 product: Windows
 targetos: Windows

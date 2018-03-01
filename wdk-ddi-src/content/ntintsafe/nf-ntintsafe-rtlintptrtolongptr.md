@@ -7,8 +7,8 @@ old-location: kernel\rtlintptrtolongptr.htm
 old-project: kernel
 ms.assetid: B04AE198-6677-4975-BAA0-96C228EFB038
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlIntPtrToLongPtr, ntintsafe/RtlIntPtrToLongPtr, kernel.rtlintptrtolongptr, RtlIntPtrToLongPtr function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlIntPtrToLongPtr, RtlIntPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtolongptr, ntintsafe/RtlIntPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlIntPtrToLongPtr
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlPtrdiffTToLongPtr
 </li>
 </ul>
+
 

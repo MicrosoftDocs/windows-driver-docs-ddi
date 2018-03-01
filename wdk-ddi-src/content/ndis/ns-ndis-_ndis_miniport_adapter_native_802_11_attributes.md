@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
-title: _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+title: "_NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\ndis_miniport_adapter_native_802_11_attributes.htm
 old-project: netvista
 ms.assetid: f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, netvista.ndis_miniport_adapter_native_802_11_attributes
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, netvista.ndis_miniport_adapter_native_802_11_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -94,6 +94,32 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES.
+
+
+
+#### Revision
+
+For the Windows Vista or Windows Server 2008 operating systems, this member must be set to
+        NDIS_MINIPORT_ADAPTER_802_11_ATTRIBUTES_REVISION_1.
+
+For later versions of the Windows operating systems, this member must be set to
+        NDIS_MINIPORT_ADAPTER_802_11_ATTRIBUTES_REVISION_2.
+
+
+
+#### Size
+
+For the Windows Vista or Windows Server 2008 operating systems, this member must be set to
+        NDIS_SIZEOF_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES_REVISION_1.
+
+For later versions of the Windows operating systems, this member must be set to
+        NDIS_SIZEOF_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES_REVISION_2.
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -106,9 +132,31 @@ A bitmask of the miniport driver's supported operation modes. This bitmask is de
 
 
 
+
+
+#### DOT11_OPERATION_MODE_EXTENSIBLE_AP
+
+Specifies that the miniport driver supports the Extensible Access Point (ExtAP) operation mode.
+       
+
+This value is available beginning with Windows 7.
+
+
+
+#### DOT11_OPERATION_MODE_EXTENSIBLE_STATION
+
+Specifies that the miniport driver supports the Extensible Station (ExtSTA) operation
+       mode.
+
+
+
+#### DOT11_OPERATION_MODE_NETWORK_MONITOR
+
+Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
+
 For more information about operation modes, see 
-     <mshelp:link keywords="netvista.native_802_11_operation_modes" tabindex="0">Native 802.11 Operation
-     Modes</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
+     Modes</a>.
 
 
 ### -field NumOfTXBuffers
@@ -147,18 +195,8 @@ A pointer to an array of
      array must have 
      <b>NumSupportedPhys</b> entries and must be sorted in the same order as the list of PHY types returned
      through a query of 
-     <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
-     OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
-
-
-### -field SupportedPhyAttributes.size_is
-
- 
-
-
-### -field SupportedPhyAttributes.size_is.NumSupportedPhys
-
- 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 
 ### -field ExtSTAAttributes
@@ -167,8 +205,8 @@ A pointer to a
      <a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a> structure
      that specifies the attributes of the miniport driver and 802.11 station when operating in Extensible
      Station (ExtSTA) mode. For more information about this operation mode, see 
-     <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-     Mode</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+     Mode</a>.
 
 
 ### -field VWiFiAttributes
@@ -200,58 +238,18 @@ A pointer to a
 This member is available beginning with Windows 8.
 
 
-##### - Header.Revision
-
-For the Windows Vista or Windows Server 2008 operating systems, this member must be set to
-        NDIS_MINIPORT_ADAPTER_802_11_ATTRIBUTES_REVISION_1.
-
-For later versions of the Windows operating systems, this member must be set to
-        NDIS_MINIPORT_ADAPTER_802_11_ATTRIBUTES_REVISION_2.
-
-
-##### - OpModeCapability.DOT11_OPERATION_MODE_EXTENSIBLE_AP
-
-Specifies that the miniport driver supports the Extensible Access Point (ExtAP) operation mode.
-       
-
-This value is available beginning with Windows 7.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES.
-
-
-##### - Header.Size
-
-For the Windows Vista or Windows Server 2008 operating systems, this member must be set to
-        NDIS_SIZEOF_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES_REVISION_1.
-
-For later versions of the Windows operating systems, this member must be set to
-        NDIS_SIZEOF_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES_REVISION_2.
-
-
-##### - OpModeCapability.DOT11_OPERATION_MODE_NETWORK_MONITOR
-
-Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
-
-
-##### - OpModeCapability.DOT11_OPERATION_MODE_EXTENSIBLE_STATION
-
-Specifies that the miniport driver supports the Extensible Station (ExtSTA) operation
-       mode.
-
-
 ## -remarks
+
 
 
 When its 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function is
     called, the miniport driver must call the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function to define the Native 802.11 attributes of the driver and 802.11
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function to define the Native 802.11 attributes of the driver and 802.11
     station. The miniport driver must follow these guidelines when it makes the call to 
     <b>NdisMSetMiniportAttributes</b>:
+
 <ul>
 <li>
 The 
@@ -276,43 +274,69 @@ The
       <i>MiniportAttributes</i> parameter.
 
 </li>
-</ul>For more information about the initialization requirements for a Native 802.11 miniport driver, see 
-    <mshelp:link keywords="netvista.native_802_11_miniport_driver_initialization" tabindex="0">Native 802.11 Miniport
-    Driver Initialization</mshelp:link>.
+</ul>
+For more information about the initialization requirements for a Native 802.11 miniport driver, see 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+    Driver Initialization</a>.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-   Mode</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+   Mode</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
-<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
-
-<a href="..\windot11\ns-windot11-dot11_vwifi_attributes.md">DOT11_VWIFI_ATTRIBUTES</a>
-
-<a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a>
-
-<mshelp:link keywords="netvista.native_802_11_miniport_driver_initialization" tabindex="0">Native 802.11 Miniport
-   Driver Initialization</mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\windot11\ns-windot11-_dot11_wfd_attributes.md">DOT11_WFD_ATTRIBUTES</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
- 
+
+
+<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_extsta_attributes.md">DOT11_EXTSTA_ATTRIBUTES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-miniport-drivers2">Native 802.11 Miniport
+   Driver Initialization</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_wfd_attributes.md">DOT11_WFD_ATTRIBUTES</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_vwifi_attributes.md">DOT11_VWIFI_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

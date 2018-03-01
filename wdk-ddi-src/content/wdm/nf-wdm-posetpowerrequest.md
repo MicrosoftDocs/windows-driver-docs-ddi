@@ -7,8 +7,8 @@ old-location: kernel\posetpowerrequest.htm
 old-project: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, PoSetPowerRequest, wdm/PoSetPowerRequest
+ms.date: 2/24/2018
+ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PoSetPowerRequest
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ A pointer to a power request object that was created by the <a href="..\wdm\nf-w
 ### -param Type [in]
 
 The type of power request. Set this parameter to the following <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
+
 <ul>
 <li>
 <b>PowerRequestSystemRequired</b>
@@ -87,7 +88,9 @@ The type of power request. Set this parameter to the following <a href="..\wdm\n
 ## -returns
 
 
+
 <b>PoSetPowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +107,14 @@ The <i>Type</i> parameter is set to an unsupported value.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver can call the <b>PoSetPowerRequest</b> routine to request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> override several types of default power behavior, which are specified as <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration values. To restore the default behavior, the driver cancels the request by calling the <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routine.
@@ -117,17 +123,24 @@ The power manager maintains a count of the active requests for each power reques
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
-
-<a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a>
 
 <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
 
- 
+
+
+<a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetPowerRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoSetPowerRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

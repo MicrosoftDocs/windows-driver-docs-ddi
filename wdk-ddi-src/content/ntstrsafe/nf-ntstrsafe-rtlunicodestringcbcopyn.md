@@ -7,8 +7,8 @@ old-location: kernel\rtlunicodestringcbcopyn.htm
 old-project: kernel
 ms.assetid: 296a936b-83e3-457d-bfa8-e361da7706bf
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: safestrings_7fb0b8bb-9687-4fdb-899d-5fdaa6cf1c0c.xml, RtlUnicodeStringCbCopyN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopyn, RtlUnicodeStringCbCopyN, ntstrsafe/RtlUnicodeStringCbCopyN
+ms.date: 2/24/2018
+ms.keywords: RtlUnicodeStringCbCopyN, RtlUnicodeStringCbCopyN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopyn, ntstrsafe/RtlUnicodeStringCbCopyN, safestrings_7fb0b8bb-9687-4fdb-899d-5fdaa6cf1c0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlUnicodeStringCbCopyN
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringCbCopyN function
@@ -88,7 +88,9 @@ The number of bytes to be copied from the source to the destination.
 ## -returns
 
 
+
 <b>RtlUnicodeStringCbCopyN</b> returns one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,20 +129,25 @@ This <i>error</i> status means the function received an invalid input parameter.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlUnicodeStringCbCopyN</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>The destination buffer is already full.</li>
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
 <li>The <i>cbToCopy</i> parameter's value is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlUnicodeStringCbCopyN</b> function uses the destination buffer's size to ensure that the copy operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
@@ -153,17 +160,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopynex.md">RtlUnicodeStringCbCopyNEx</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCopyN function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCopyN function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

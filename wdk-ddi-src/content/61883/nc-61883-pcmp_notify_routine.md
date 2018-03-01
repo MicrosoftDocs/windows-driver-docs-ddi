@@ -7,8 +7,8 @@ old-location: ieee\pcmp_notify_routine.htm
 old-project: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.pcmp_notify_routine, CmpNotifyRoutine callback function, CmpNotifyRoutine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE, 61883/CmpNotifyRoutine, CmpNotifyRoutine callback function, CmpNotifyRoutine
+ms.date: 2/15/2018
+ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	61883.h
-apiname: 
+api_name:
 -	CmpNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
 
 # PCMP_NOTIFY_ROUTINE callback
@@ -80,6 +80,8 @@ Specifies the notification information.
 ## -returns
 
 
+
 This callback does not return a value.
+
 
 

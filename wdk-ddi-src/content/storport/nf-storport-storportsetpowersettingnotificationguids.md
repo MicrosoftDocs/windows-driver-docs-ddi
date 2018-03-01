@@ -7,8 +7,8 @@ old-location: storage\storportsetpowersettingnotificationguids.htm
 old-project: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortSetPowerSettingNotificationGuids routine [Storage Devices], StorPortSetPowerSettingNotificationGuids, Adaptive Setting, storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids, HIPM/DIPM Setting
+ms.date: 2/24/2018
+ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortSetPowerSettingNotificationGuids
 product: Windows
 targetos: Windows
@@ -84,35 +84,12 @@ The number of GUIDs in the <i>Guid</i> array.
 
 An array of power setting GUIDs to register for notification. A typical use for registering these GUIDs is for SATA miniports to receive notifications for AHCI Link Power Management setting changes. The  AHCI Link Power Management settings defined by the Microsoft AHCI StorPort miniport driver are the following.
 
-Other miniports may define and register their own power setting GUIDs.
 
 
-##### - Guid.Adaptive Setting (dab60367-53fe-4fbc-825e-521d069d2456)
-
-The period of AHCI link idle time before the link is put into a slumber state when HIPM or DIPM is enabled.
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0</td>
-<td>Minimum value in milliseconds (only use Partial state).</td>
-</tr>
-<tr>
-<td>...</td>
-<td>Any intermediate value.</td>
-</tr>
-<tr>
-<td>300000</td>
-<td>Maximum value in milliseconds (5 minutes).</td>
-</tr>
-</table> 
-
-
-##### - Guid.HIPM/DIPM Setting (0b2d69d7-a2a1-449c-9680-f91c70521c60)
+#### HIPM/DIPM Setting (0b2d69d7-a2a1-449c-9680-f91c70521c60)
 
 Configures the link power management mode for disk and storage devices that are attached to the system through an AHCI interface.
+
 <table>
 <tr>
 <th>Index</th>
@@ -134,13 +111,44 @@ Configures the link power management mode for disk and storage devices that are 
 <td>HIPM and DIPM</td>
 <td>HIPM and Device-Initiated Power Management (DIPM) are used.</td>
 </tr>
-</table> 
+</table>
+ 
+
+
+
+#### Adaptive Setting (dab60367-53fe-4fbc-825e-521d069d2456)
+
+The period of AHCI link idle time before the link is put into a slumber state when HIPM or DIPM is enabled.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>0</td>
+<td>Minimum value in milliseconds (only use Partial state).</td>
+</tr>
+<tr>
+<td>...</td>
+<td>Any intermediate value.</td>
+</tr>
+<tr>
+<td>300000</td>
+<td>Maximum value in milliseconds (5 minutes).</td>
+</tr>
+</table>
+ 
+
+Other miniports may define and register their own power setting GUIDs.
 
 
 ## -returns
 
 
+
 The <b>StorPortSetPowerSettingNotificationGuids</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -168,11 +176,14 @@ The notification GUIDs were registered successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
@@ -183,15 +194,20 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
+
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetPowerSettingNotificationGuids routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortSetPowerSettingNotificationGuids routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

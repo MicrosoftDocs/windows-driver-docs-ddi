@@ -7,8 +7,8 @@ old-location: netvista\rilsignalquality_2.htm
 old-project: netvista
 ms.assetid: cc5bf370-3996-46de-b27d-8a390a6f407e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], *LPRILSIGNALQUALITY, RILSIGNALQUALITY, rilapitypes/RILSIGNALQUALITY, netvista.rilsignalquality_2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality_2, rilapitypes/RILSIGNALQUALITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSIGNALQUALITY
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSIGNALQUALITY, RILSIGNALQUALITY
+req.typenames: RILSIGNALQUALITY, *LPRILSIGNALQUALITY
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,20 @@ typedef struct _RILSIGNALQUALITY {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwSystemType
-
 
 
 ### -field nNumSignalBars
 
 
-
 ### -field nSignalStrength
 
 
-
 ### -field nSNRStrength
-
 

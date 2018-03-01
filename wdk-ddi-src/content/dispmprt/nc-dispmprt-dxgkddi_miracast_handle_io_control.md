@@ -7,8 +7,8 @@ old-location: display\dxgkddimiracastiocontrol.htm
 old-project: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddimiracastiocontrol, DxgkDdiMiracastIoControl callback function [Display Devices], DxgkDdiMiracastIoControl, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, dispmprt/DxgkDdiMiracastIoControl
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiMiracastIoControl
 product: Windows
 targetos: Windows
@@ -91,30 +91,26 @@ The Miracast device context, supplied by the operating system. This context was 
 Supplied by the operating system as the size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 
-### -param *pInputBuffer
+### -param *pInputBuffer [in]
 
+Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
+
+<i>InputBufferSize</i> specifies the size of the buffer.
 
 
 ### -param OutputBufferSize
 
 
-
-### -param *pOutputBuffer
-
-
-
-### -param *BytesReturned
-
-
-
-
-
-
-#### - pOutputBuffer [out]
+### -param *pOutputBuffer [out]
 
 Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
 
 <i>OutBufferSize</i> specifies the size of the buffer.
+
+
+### -param *BytesReturned [out]
+
+Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
 
 
 #### - OutBufferSize [in]
@@ -124,26 +120,17 @@ Supplied by the operating system as the size, in bytes, of the output buffer poi
 This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 
-#### - BytesReturned [out]
-
-Supplied by the operating system as a pointer to a buffer that holds a <b>ULONG</b>-type value that is the number of bytes that the display miniport driver returned in the buffer pointed to by <i>pOutputBuffer</i>.
-
-
-#### - pInputBuffer [in]
-
-Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
-
-<i>InputBufferSize</i> specifies the size of the buffer.
-
-
 ## -returns
+
 
 
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system guarantees that a call to <i>DxgkDdiMiracastIoControl</i> occurs in the same process space as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> request is called in. 
@@ -151,7 +138,9 @@ The operating system guarantees that a call to <i>DxgkDdiMiracastIoControl</i> o
 Even though the operating system merely copies the values of the input and output buffer sizes from the respective parameters of <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>, the display miniport driver is responsible for checking buffer sizes before using the buffers. Also, the driver should perform probing operations within a try/except calling block, using <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a> and/or <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a> functions, to verify any user-mode memory that input buffers point to.
 
 This I/O control operation is processed synchronously with a call to the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function.
-<h3><a id="Synchronization"></a><a id="synchronization"></a><a id="SYNCHRONIZATION"></a>Synchronization</h3>The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>, <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>, and <i>DxgkDdiMiracastIoControl</i> functions as a <i>Miracast</i> class. 
+
+<h3><a id="Synchronization"></a><a id="synchronization"></a><a id="SYNCHRONIZATION"></a>Synchronization</h3>
+The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>, <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>, and <i>DxgkDdiMiracastIoControl</i> functions as a <i>Miracast</i> class. 
 
 The threading and synchronization level for this function is set by how the user-mode driver sets the <i>HardwareAccess</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function:<ul>
 <li>If <i>HardwareAccess</i> is <b>FALSE</b>, then the operating system guarantees that <i>DxgkDdiMiracastIoControl</i> follows the second-level synchronization mode as defined in <a href="https://msdn.microsoft.com/2b7c1eae-6527-469e-a2fa-74d2a1246bd3">Threading and Synchronization Second Level</a>. <i>DxgkDdiMiracastIoControl</i> can be called when other level 0, 1, or non-Miracast classes of level 2 functions are being called on another thread context. However, only one of the level 2 Miracast-class functions can be called at a time.</li>
@@ -161,21 +150,32 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
 <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+
+
+
 <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

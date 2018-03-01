@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CORE
-title: _FEATURE_DATA_CORE
+title: "_FEATURE_DATA_CORE"
 author: windows-driver-content
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
 old-project: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE structure pointer [Storage Devices], storage.feature_data_core, PFEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, *PFEATURE_DATA_CORE, _FEATURE_DATA_CORE, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, ntddmmc/FEATURE_DATA_CORE
+ms.date: 2/24/2018
+ms.keywords: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], _FEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, storage.feature_data_core, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddmmc.h
-apiname: 
+api_name:
 -	FEATURE_DATA_CORE
 product: Windows
 targetos: Windows
-req.typenames: *PFEATURE_DATA_CORE, FEATURE_DATA_CORE
+req.typenames: FEATURE_DATA_CORE, *PFEATURE_DATA_CORE
 ---
 
 # _FEATURE_DATA_CORE structure
@@ -85,35 +85,37 @@ Must be set to the current communication path between initiator and device, as d
 ### -field DeviceBusyEvent
 
 
-
 ### -field INQUIRY2
-
 
 
 ### -field Reserved1
 
 
-
 ### -field Reserved2
 
 
-
 ## -remarks
+
 
 
 Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This feature encompasses the basic functionality which is mandatory for all devices that support the <i>MMC-3</i> standard. See the <i>MMC-3</i> specification for a description of the capabilities included in the Core feature. 
 
 
 
-## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+## -see-also
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
- 
+
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_CORE structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_CORE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

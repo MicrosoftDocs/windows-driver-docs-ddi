@@ -1,19 +1,19 @@
 ---
 UID: NS:ntddtape._TAPE_PREPARE
-title: _TAPE_PREPARE
+title: "_TAPE_PREPARE"
 author: windows-driver-content
 description: The TAPE_PREPARE structure is used in conjunction with the IOCTL_TAPE_PREPARE request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 old-location: storage\tape_prepare.htm
 old-project: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_PREPARE, TAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE structure [Storage Devices], structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml, storage.tape_prepare, *PTAPE_PREPARE, _TAPE_PREPARE, ntddtape/TAPE_PREPARE
+ms.date: 2/24/2018
+ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE, TAPE_PREPARE structure [Storage Devices], _TAPE_PREPARE, ntddtape/PTAPE_PREPARE, ntddtape/TAPE_PREPARE, storage.tape_prepare, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddtape.h
-req.include-header: Ntddtape.h
+req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddtape.h
-apiname: 
+api_name:
 -	TAPE_PREPARE
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_PREPARE, TAPE_PREPARE
+req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 ---
 
 # _TAPE_PREPARE structure
@@ -71,6 +71,7 @@ typedef struct _TAPE_PREPARE {
 ### -field Operation
 
 Indicates the type of operation to perform. This member can be one of the following:
+
 <table>
 <tr>
 <th>Operation</th>
@@ -136,7 +137,8 @@ Performs a low-level format of the tape. Not all devices support this feature. T
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Immediate
@@ -148,11 +150,15 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_PREPARE structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_PREPARE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

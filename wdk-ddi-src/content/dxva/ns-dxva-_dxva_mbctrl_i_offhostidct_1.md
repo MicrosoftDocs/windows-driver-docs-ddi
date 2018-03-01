@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_I_OffHostIDCT_1
-title: _DXVA_MBctrl_I_OffHostIDCT_1
+title: "_DXVA_MBctrl_I_OffHostIDCT_1"
 author: windows-driver-content
 description: The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT.
 old-location: display\dxva_mbctrl_i_offhostidct_1.htm
 old-project: display
 ms.assetid: c088a923-0600-48ae-8d3e-95b6bbcb59c7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxva_mbctrl_i_offhostidct_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], dxva/DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1, _DXVA_MBctrl_I_OffHostIDCT_1, *LPDXVA_MBctrl_I_OffHostIDCT_1
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_MBctrl_I_OffHostIDCT_1
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 ### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -240,12 +241,17 @@ Must be 1.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwMB_SNL
 
 
+
+
+
+######### 
 
 
 ### -field wPatternCode
@@ -266,30 +272,36 @@ This member is used only when the <i>HostResidDiff</i> flag (bit 10 in <b>wMBtyp
 The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for each block in the residual difference data buffer, expressed as the number of coefficients present. When the <b>bConfig4GroupedCoefs</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, <b>bNumCoef</b> may contain either the actual number of coefficients sent for the block or that value rounded up to be a multiple of four. The data for these coefficients is found in the residual difference buffer in the same order.
 
 
-########## - dwMB_SNL.Specifies the number of skipped macroblocks to be generated following the current macroblock, and indicates the location of the residual difference data for the blocks of the current macroblock. This member contains two variables: MBskipsFollowing in the most significant 8 bits, and MBdataLocation in the least significant 24 bits. MBskipsFollowing indicates the number of skipped macroblocks to be generated following the current macroblock. MBdataLocation is an index into the residual difference block data buffer. This index indicates the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits.
-
-
-
 ## -remarks
+
 
 
 Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</i> variable must be zero. The <i>MBdataLocation</i> variable must be zero for the first macroblock in the macroblock control command buffer. For more information about how skipped macroblocks are generated, see <a href="https://msdn.microsoft.com/98ea004b-347d-4299-a23c-da0a9d0e844f">Generating Skipped Macroblocks</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
-
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
- 
+
+
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_I_OffHostIDCT_1 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_I_OffHostIDCT_1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

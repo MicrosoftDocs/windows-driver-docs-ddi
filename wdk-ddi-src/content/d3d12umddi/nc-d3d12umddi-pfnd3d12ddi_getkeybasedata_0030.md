@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_getkeybasedata_0030.htm
 old-project: display
 ms.assetid: D4F893E9-6B7B-4E35-A92F-B31FFD55A2C0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_getkeybasedata_0030, PFND3D12DDI_GETKEYBASEDATA_0030 callback function [Display Devices], PFND3D12DDI_GETKEYBASEDATA_0030, d3d12umddi/PFND3D12DDI_GETKEYBASEDATA_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_GETKEYBASEDATA_0030, PFND3D12DDI_GETKEYBASEDATA_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_GETKEYBASEDATA_0030, display.pfnd3d12ddi_getkeybasedata_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_GETKEYBASEDATA_0030
 product: Windows
 targetos: Windows
@@ -82,8 +82,9 @@ The device being processed.
 The crypto session.
 
 
-### -param *pKeyInputData
+### -param *pKeyInputData [in]
 
+A pointer to key input data.
 
 
 ### -param KeyInputDataSize
@@ -91,8 +92,9 @@ The crypto session.
 The size of the key input data.
 
 
-### -param *pKeyBaseData
+### -param *pKeyBaseData [out]
 
+A pointer to key base data.
 
 
 ### -param KeyBaseDataSize
@@ -100,19 +102,11 @@ The size of the key input data.
 The size of the key base data.
 
 
-#### - pKeyInputData [in]
-
-A pointer to key input data.
-
-
-#### - pKeyBaseData [out]
-
-A pointer to key base data.
-
-
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

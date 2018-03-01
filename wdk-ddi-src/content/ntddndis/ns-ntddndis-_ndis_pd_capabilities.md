@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CAPABILITIES
-title: _NDIS_PD_CAPABILITIES
+title: "_NDIS_PD_CAPABILITIES"
 author: windows-driver-content
 description: This structure indicates the PD capabilities for a provider.
 old-location: netvista\ndis_pd_capabilities.htm
 old-project: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_PD_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ typedef struct _NDIS_PD_CAPABILITIES {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_CAPABILITIES_REVISION_1</b></li>
@@ -117,6 +118,7 @@ The filter context width that the provider supports. A provider can support up t
 ### -field CapabilityFlags
 
 Flags that contain additional capabilities that the provider supports.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -126,7 +128,8 @@ Flags that contain additional capabilities that the provider supports.
 <td><b>NDIS_PD_CAPS_RECEIVE_FILTER_COUNTERS_SUPPORTED</b></td>
 <td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER</a> enumeration</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxNumberOfRxQueues
@@ -217,12 +220,14 @@ The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structure
 
 
 
+
 #### - DmaAddressWidth
 
 The DMA address width that the provider supports. Ideally, providers would support a 64-bit wide DMA address width, and setting this value to 0 indicates that a 64-bit wide DMA address. Providers must support a minimum of 32-bits in width, this means that valid values are either 0 or between 32-64 inclusive.
 
 
 ## -remarks
+
 
 
 This structure must be aligned on an 8-byte boundary.
@@ -233,13 +238,16 @@ If a provider can partition Rx or Tx queues flexibly between virtual ports then 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_CAPABILITIES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: kernel\read_register_buffer_uchar.htm
 old-project: kernel
 ms.assetid: 4ce9f377-ca5e-4574-9d80-60b74ee0de85
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, READ_REGISTER_BUFFER_UCHAR, kernel.read_register_buffer_uchar, wdm/READ_REGISTER_BUFFER_UCHAR
+ms.date: 2/24/2018
+ms.keywords: READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar, wdm/READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
@@ -88,15 +88,19 @@ Specifies the number of bytes to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>READ_REGISTER_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
 
 

@@ -7,8 +7,8 @@ old-location: sensors\gnss_cwtestdata.htm
 old-project: sensors
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_CWTESTDATA structure [Sensor Devices], sensors.gnss_cwtestdata, PGNSS_CWTESTDATA, *PGNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, GNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, sensors.gnss_cwtestdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_CWTESTDATA
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_CWTESTDATA, GNSS_CWTESTDATA
+req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
 ---
 
 # GNSS_CWTESTDATA structure
@@ -85,6 +85,7 @@ Version number.
 ### -field TestResultStatus
 
 NTSTATUS value indicating whether this fix contains a valid data, or if the GNSS engine or driver encountered any errors in getting the measurements for the carrier wave test.
+
 <ul>
 <li>
 Success - carrier wave test successfully started.
@@ -111,6 +112,7 @@ This frequency is provided as a difference to GPS frequency (1575.42 MHz) in kHz
 ### -field Unused
 
  
+
 
 
 

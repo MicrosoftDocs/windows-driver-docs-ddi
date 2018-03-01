@@ -7,8 +7,8 @@ old-location: kernel\argument_present.htm
 old-project: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT, kernel.argument_present, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: ARGUMENT_PRESENT, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, kernel.argument_present, wudfwdm/ARGUMENT_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfwdm.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wudfwdm.h
-apiname: 
+api_name:
 -	ARGUMENT_PRESENT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,8 @@ Specifies the value of the pointer argument to be tested.
 ## -remarks
 
 
+
 This macro can be called in conditional code to determine whether an optional argument has been passed in a call. 
+
 
 

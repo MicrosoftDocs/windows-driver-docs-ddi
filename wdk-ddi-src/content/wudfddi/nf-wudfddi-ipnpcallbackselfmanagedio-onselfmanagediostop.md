@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediostop.htm
 old-project: wdf
 ms.assetid: 490c95f5-ea93-4521-8fa5-4ca1f83ff19d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo, OnSelfManagedIoStop method, OnSelfManagedIoStop, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop
+ms.date: 2/20/2018
+ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, OnSelfManagedIoStop method, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoStop,IPnpCallbackSelfManagedIo.OnSelfManagedIoStop, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,10 +73,11 @@ HRESULT OnSelfManagedIoStop(
 ### -param pWdfDevice [in]
 
 
-
 ## -returns
 
 
+
 This method is not currently used.
+
 
 

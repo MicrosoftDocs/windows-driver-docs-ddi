@@ -7,8 +7,8 @@ old-location: netvista\rilhideidsettingsparammask_2.htm
 old-project: netvista
 ms.assetid: 5c951b21-1fa9-4b76-8631-3ab4148176ef
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_HIDS_STATUS, rilapitypes/RIL_PARAM_HIDS_PROVISIONING, rilapitypes/RIL_PARAM_HIDS_STATUS, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilhideidsettingsparammask_2, rilapitypes/RILHIDEIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RILHIDEIDSETTINGSPARAMMASK, RIL_PARAM_HIDS_ALL
+ms.date: 2/16/2018
+ms.keywords: RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RIL_PARAM_HIDS_STATUS, netvista.rilhideidsettingsparammask_2, rilapitypes/RILHIDEIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_HIDS_ALL, rilapitypes/RIL_PARAM_HIDS_PROVISIONING, rilapitypes/RIL_PARAM_HIDS_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILHIDEIDSETTINGSPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILHIDEIDSETTINGSPARAMMASK {
 ### -field RIL_PARAM_HIDS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_HIDS_STATUS
-
 
 
 ### -field RIL_PARAM_HIDS_PROVISIONING
 
 
-
 ### -field RIL_PARAM_HIDS_ALL
-
 

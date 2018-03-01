@@ -7,8 +7,8 @@ old-location: display\drawtripatch.htm
 old-project: display
 ms.assetid: 98e5f2c5-2795-4226-b5c0-9498b37c22df
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.drawtripatch, DrawTriPatch callback function [Display Devices], DrawTriPatch, PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH, d3dumddi/DrawTriPatch, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml
+ms.date: 2/24/2018
+ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DrawTriPatch
 product: Windows
 targetos: Windows
@@ -85,14 +85,16 @@ __checkReturn HRESULT APIENTRY DrawTriPatch(
 
 
 
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
+
+
+#### - pInfo [in]
+
+ Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
 #### - pPatch [in]
@@ -103,11 +105,14 @@ __checkReturn HRESULT APIENTRY DrawTriPatch(
 ## -returns
 
 
+
 <b>DrawTriPatch</b> returns S_OK or an appropriate error result if the triangular patch is not successfully drawn.
 
 
 
+
 ## -remarks
+
 
 
 When the Microsoft Direct3D runtime calls the user-mode display driver's <b>DrawTriPatch</b> function, it can optionally supply information in the <i>pInfo</i> and <i>pPatch</i> parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
@@ -119,6 +124,7 @@ The actual value in <b>Handle</b> is determined by the application and is not un
 The special <b>Handle</b> value of zero indicates that the patch is dynamic; therefore, the driver cannot precompute or cache information for the patch. A nonzero value for <b>Handle</b> indicates that the patch is static (or updated with low frequency); therefore, the driver can precompute and cache information for the patch.
 
 The driver must handle the following scenarios in its <b>DrawTriPatch</b> function: 
+
 <ul>
 <li>
 If the <b>Handle</b> member is zero, the patch is dynamic. The driver should neither precompute nor cache information for the patch. In this situation, the runtime passes a pointer to a D3DDDITRIPATCH_INFO structure in the <i>pInfo</i> parameter and sets the RTPATCHFLAG_HASINFO flag in the <b>Flags</b> member of the D3DDDIARG_DRAWTRIPATCH structure to indicate the presence of the D3DDDITRIPATCH_INFO structure at <i>pInfo</i>. Optionally, the runtime can also set the RTPATCHFLAG_HASSEGS flag in <b>Flags</b> to indicate the presence of the segment information that is specified the <i>pPatch</i> parameter. However, if the runtime does not supply segment information at <i>pPatch</i>, the runtime should instead use the D3DRS_PATCHSEGMENTS render state value.
@@ -136,7 +142,9 @@ If a nonzero <b>Handle</b> value has been previously specified in an earlier cal
 If a nonzero <b>Handle</b> value has been previously specified in an earlier call to the driver's <b>DrawTriPatch</b> function and the RTPATCHFLAG_HASINFO flag is not set, the runtime redraws the patch. The driver should use the cached information to draw the patch. In this situation, the driver ignores the current vertex streams and the cached information is used instead. However, the runtime can still specify new segment information; therefore, the driver should check for the RTPATCHFLAG_HASSEGS flag and handle specified segment information even if it uses a cached patch.
 
 </li>
-</ul>The driver receives notification to release cached patch information through the D3DRS_DELETERTPATCH render state. The value of this render state is the patch to delete.
+</ul>
+The driver receives notification to release cached patch information through the D3DRS_DELETERTPATCH render state. The value of this render state is the patch to delete.
+
 
 
 
@@ -144,11 +152,15 @@ If a nonzero <b>Handle</b> value has been previously specified in an earlier cal
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DRAWTRIPATCH callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DRAWTRIPATCH callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

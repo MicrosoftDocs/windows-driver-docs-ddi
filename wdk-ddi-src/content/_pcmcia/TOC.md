@@ -2,6 +2,7 @@
 ## [Ntddpcm.h](../ntddpcm/index.md)
 ### [IOCTL_GET_TUPLE_DATA IOCTL](../ntddpcm/ni-ntddpcm-ioctl_get_tuple_data.md)
 ### [IOCTL_SOCKET_INFORMATION IOCTL](../ntddpcm/ni-ntddpcm-ioctl_socket_information.md)
+### [PCMCIA_IS_WRITE_PROTECTED callback](../ntddpcm/nc-ntddpcm-pcmcia_is_write_protected.md)
 ### [PCMCIA_MODIFY_MEMORY_WINDOW callback](../ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window.md)
 ### [PCMCIA_SET_VPP callback](../ntddpcm/nc-ntddpcm-pcmcia_set_vpp.md)
 ### [_PCMCIA_CONTROLLER_CLASS enumeration](../ntddpcm/ne-ntddpcm-_pcmcia_controller_class.md)

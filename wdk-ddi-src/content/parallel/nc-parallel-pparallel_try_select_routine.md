@@ -7,8 +7,8 @@ old-location: parports\pparallel_try_select_routine.htm
 old-project: parports
 ms.assetid: e7ecc2ac-fb86-40fe-829b-ee5851c6ae5f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.pparallel_try_select_routine, (*PPARALLEL_TRY_SELECT_ROUTINE) callback function [Parallel Ports], (*PPARALLEL_TRY_SELECT_ROUTINE), parallel/(*PPARALLEL_TRY_SELECT_ROUTINE), cisspd_ec7d6b68-7fbd-493e-9787-3e2f78327bdd.xml
+ms.date: 2/15/2018
+ms.keywords: "(*PPARALLEL_TRY_SELECT_ROUTINE), (*PPARALLEL_TRY_SELECT_ROUTINE) callback function [Parallel Ports], cisspd_ec7d6b68-7fbd-493e-9787-3e2f78327bdd.xml, parallel/(*PPARALLEL_TRY_SELECT_ROUTINE), parports.pparallel_try_select_routine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	parallel.h
-apiname: 
+api_name:
 -	(*PPARALLEL_TRY_SELECT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGBATOKEN, RILGBATOKEN
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_TRY_SELECT_ROUTINE callback
@@ -80,14 +80,17 @@ Pointer to a <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLE
 
 
 
-##### - TrySelectCommand.ID
+
+#### ID
 
 Specifies the 1284.3 device ID. 
 
 
-##### - TrySelectCommand.CommandFlags
+
+#### CommandFlags
 
 Specifies a bitwise OR of zero or more of the following flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,10 +116,12 @@ Specifies that the caller has the port allocated and to keep the port allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <table>
@@ -168,38 +173,57 @@ The caller has allocated the parallel port, but the system-supplied function dri
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To obtain a pointer to the system-supplied <i>PPARALLEL_TRY_SELECT_ROUTINE</i> callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a> request, which returns a <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a> structure. The <b>TrySelectDevice</b> member of the PARALLEL_PNP_INFORMATION structure is a pointer to this callback.
 
 A kernel-mode driver can use an <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a> request or the <i>PPARALLEL_TRY_SELECT_ROUTINE</i> callback to select a parallel device on a parallel port. The parallel port function driver queues a select request if the parallel port is already allocated. However, the <i>PPARALLEL_TRY_SELECT_ROUTINE</i> callback does not queue a select request, and the routine returns immediately if the port cannot be allocated.
+
 <div class="alert"><b>Note</b>  
-     If a client uses only the <i>PPARALLEL_TRY_SELECT_ROUTINE</i> callback to attempt to select a parallel device, and other clients are contending for the parallel port, the system-supplied function driver for parallel ports might never allocate the port to the client. To ensure success, a client must use an <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a> request. (The parallel port function driver queues, and subsequently processes, port allocate requests and device select requests in the order in which select device requests are received.)</div><div> </div>For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71-8740-70c6fbe9a885">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
+     If a client uses only the <i>PPARALLEL_TRY_SELECT_ROUTINE</i> callback to attempt to select a parallel device, and other clients are contending for the parallel port, the system-supplied function driver for parallel ports might never allocate the port to the client. To ensure success, a client must use an <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a> request. (The parallel port function driver queues, and subsequently processes, port allocate requests and device select requests in the order in which select device requests are received.)</div>
+<div> </div>
+For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71-8740-70c6fbe9a885">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
 
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+
+
+
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+
+
 
 <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PPARALLEL_TRY_SELECT_ROUTINE callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PPARALLEL_TRY_SELECT_ROUTINE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

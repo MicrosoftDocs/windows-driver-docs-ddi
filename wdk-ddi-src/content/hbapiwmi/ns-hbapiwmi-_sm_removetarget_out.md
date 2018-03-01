@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_RemoveTarget_OUT
-title: _SM_RemoveTarget_OUT
+title: "_SM_RemoveTarget_OUT"
 author: windows-driver-content
 description: The SM_RemoveTarget_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_out.htm
 old-project: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_RemoveTarget_OUT structure [Storage Devices], hbapiwmi/PSM_RemoveTarget_OUT, _SM_RemoveTarget_OUT, storage.sm_removetarget_out, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, hbapiwmi/SM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT, SM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], SM_RemoveTarget_OUT, SM_RemoveTarget_OUT structure [Storage Devices], _SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, hbapiwmi/SM_RemoveTarget_OUT, storage.sm_removetarget_out, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_RemoveTarget_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSM_RemoveTarget_OUT, SM_RemoveTarget_OUT
+req.typenames: SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT
 ---
 
 # _SM_RemoveTarget_OUT structure
@@ -75,6 +75,8 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_RemoveTarget_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+
 
 

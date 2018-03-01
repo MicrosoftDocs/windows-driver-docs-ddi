@@ -7,8 +7,8 @@ old-location: stream\ksopendefaultdevice.htm
 old-project: stream
 ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, KsOpenDefaultDevice, stream.ksopendefaultdevice
+ms.date: 2/23/2018
+ms.keywords: KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, stream.ksopendefaultdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+api_name:
 -	KsOpenDefaultDevice
 product: Windows
 targetos: Windows
@@ -88,13 +88,17 @@ Pointer to a variable that receives the handle to the default device that is ope
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsOpenDefaultDevice</b> function passes a pointer to <i>Category</i> in a call to the <b>SetupDiGetClassDevs</b> function to obtain a handle to the list of PnP devices. For more information about the ACCESS_MASK bitmask and <b>SetupDiGetClassDevs</b>, see the Microsoft Windows SDK documentation.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
-title: _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+title: "_MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA"
 author: windows-driver-content
 description: This structure contains authentication information retrieved from the device.
 old-location: pos\msr_retrieve_device_authentication_data.htm
 old-project: pos
 ms.assetid: e355ca5b-d396-4748-a0ec-b12294a6dcfa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure, _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pos.msr_retrieve_device_authentication_data, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure pointer, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+ms.date: 2/23/2018
+ms.keywords: "*PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure pointer, _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pointofservicedriverinterface/PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, pos.msr_retrieve_device_authentication_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname: 
+api_name:
 -	MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+req.typenames: MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 ---
 
 # _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA structure

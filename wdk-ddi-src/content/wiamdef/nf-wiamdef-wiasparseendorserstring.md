@@ -7,8 +7,8 @@ old-location: image\wiasparseendorserstring.htm
 old-project: image
 ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, image.wiasparseendorserstring, wiasParseEndorserString function [Imaging Devices], wiamdef/wiasParseEndorserString, wiasParseEndorserString
+ms.date: 2/23/2018
+ms.keywords: image.wiasparseendorserstring, wiamdef/wiasParseEndorserString, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Wiaservc.dll
-apiname: 
+api_name:
 -	wiasParseEndorserString
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -94,11 +94,14 @@ Pointer to a memory location that receives the address of the parsed endorser st
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 An application sets the WIA_DPS_ENDORSER_STRING property to a string that can contain the WIA service-defined tokens $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$, as well as vendor-defined tokens. After a driver calls <b>wiasParseEndorserString</b>, the string pointed to by <i>pOutputString</i> contains a copy of the string in WIA_DPS_ENDORSER_STRING property, but with any tokens replaced by the values the tokens represent. For example, if the application set the endorser string to "This page was scanned on $DATE$", and the current date was October 1, 2000, the resulting output string would be "This page was scanned on 2000/10/1".
@@ -106,6 +109,7 @@ An application sets the WIA_DPS_ENDORSER_STRING property to a string that can co
 The list of standard WIA endorser tokens can be found in <i>wiadef.h</i>.
 
 Drivers can request that <b>wiasParseEndorserString</b> substitute values for vendor-defined tokens by filling out a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a> structure for each token/value pair, and packaging all of these structures in a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a> structure. The following example shows how this function can be used.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -120,19 +124,25 @@ hr = wiasParseEndorserString(pWiasContext, 0,
                              &amp;Info, &amp;bstrResultingEndorser);</pre>
 </td>
 </tr>
-</table></span></div>Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$", and that the call to <b>wiasParseEndorserString</b> was successful, <i>bstrResultingEndorser</i> will now contain "This is My value".
+</table></span></div>
+Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$", and that the call to <b>wiasParseEndorserString</b> was successful, <i>bstrResultingEndorser</i> will now contain "This is My value".
+
 
 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
 
- 
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasParseEndorserString function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasParseEndorserString function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

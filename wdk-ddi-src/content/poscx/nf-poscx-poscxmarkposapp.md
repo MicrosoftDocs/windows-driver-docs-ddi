@@ -7,8 +7,8 @@ old-location: pos\poscxmarkposapp.htm
 old-project: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.poscxmarkposapp, PosCxMarkPosApp, PosCxMarkPosApp function, poscx/PosCxMarkPosApp
+ms.date: 2/23/2018
+ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	PosCxMarkPosApp
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ Specifies if the open instance is associated with a point-of-service application
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -100,6 +102,8 @@ Possible return values are:
 <td><b>INVALID_PARAMETER</b></td>
 <td>The specified <i>fileObject</i> is invalid.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

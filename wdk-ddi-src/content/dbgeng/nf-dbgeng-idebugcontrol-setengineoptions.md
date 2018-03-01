@@ -1,0 +1,384 @@
+---
+UID: NF:dbgeng.IDebugControl.SetEngineOptions
+title: IDebugControl::SetEngineOptions method
+author: windows-driver-content
+description: The SetEngineOptions method changes the engine's options.
+old-location: debugger\setengineoptions.htm
+old-project: debugger
+ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
+ms.author: windowsdriverdev
+ms.date: 2/23/2018
+ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions method [Windows Debugging], SetEngineOptions method [Windows Debugging], IDebugControl interface, SetEngineOptions method [Windows Debugging], IDebugControl2 interface, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions,IDebugControl.SetEngineOptions, dbgeng/IDebugControl2::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, dbgeng/IDebugControl::SetEngineOptions, debugger.setengineoptions
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: dbgeng.h
+req.include-header: Dbgeng.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: dbgeng.h
+req.dll: 
+req.irql: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	dbgeng.h
+api_name:
+-	IDebugControl.SetEngineOptions
+-	IDebugControl2.SetEngineOptions
+-	IDebugControl3.SetEngineOptions
+product: Windows
+targetos: Windows
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+---
+
+# IDebugControl::SetEngineOptions method
+
+
+## -description
+
+
+The <b>SetEngineOptions</b> method changes the engine's options.
+
+
+## -syntax
+
+
+````
+HRESULT SetEngineOptions(
+  [in] ULONG Options
+);
+````
+
+
+## -parameters
+
+
+
+
+### -param Options [in]
+
+Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replace the existing symbol options.  For a description of the engine options, see Remarks.
+
+
+## -returns
+
+
+
+This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method will set the engine's options to those specified in <i>Options</i>.  Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>, any symbol options that are not listed in the <i>Options</i> bit-set  will be removed.
+
+After the engine options have been changed, the engine sends out notification to each client's event callback object by passing the DEBUG_CES_ENGINE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> method.
+
+The following global options affect the behavior of the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>:
+
+<table>
+<tr>
+<th>Constant</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_IGNORE_DBGHELP_VERSION</b>
+
+</td>
+<td>
+The debugger engine generates a warning instead of an error if the version of the DbgHelp DLL does not match the version of the debugger engine.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_IGNORE_EXTENSION_VERSIONS</b>
+
+</td>
+<td>
+Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="..\wdbgexts\nc-wdbgexts-pwindbg_check_version.md">CheckVersion</a>.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_ALLOW_NETWORK_PATHS</b>
+
+</td>
+<td>
+Network shares can be used for loading symbols and extensions. This option prevents the engine from disallowing network paths when debugging some system processes and should be used with caution.
+
+This option cannot be set if DEBUG_ENGOPT_DISALLOW_NETWORK_PATHS is set.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISALLOW_NETWORK_PATHS</b>
+
+</td>
+<td>
+Network shares cannot be used for loading symbols and extensions. The engine attempts to set this option when debugging some system processes.
+
+This option cannot be set if DEBUG_ENGOPT_ALLOW_NETWORK_PATHS is set.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_NETWORK_PATHS</b>
+
+</td>
+<td>
+Bitwise OR of DEBUG_ENGOPT_ALLOW_NETWORK_PATHS and DEBUG_ENGOPT_DISALLOW_NETWORK_PATHS.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_IGNORE_LOADER_EXCEPTIONS</b>
+
+</td>
+<td>
+Ignore expected first-chance exceptions that are generated by the loader in certain versions of Windows.
+
+For example, this option allows Windows 3.51 binaries to run when debugging Windows 3.1 and 3.5 systems.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_INITIAL_BREAK</b>
+
+</td>
+<td>
+Break into the debugger at the target's initial event.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_INITIAL_MODULE_BREAK</b>
+
+</td>
+<td>
+Break into the debugger when the target loads its first module.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_FINAL_BREAK</b>
+
+</td>
+<td>
+Break into the debugger at the target's final event. In a live user-mode target, this is when the process exits. It has no effect in kernel mode.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_NO_EXECUTE_REPEAT</b>
+
+</td>
+<td>
+When given an empty command, the debugger engine does not repeat the last command.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_FAIL_INCOMPLETE_INFORMATION</b>
+
+</td>
+<td>
+Prevent the debugger from loading modules whose images cannot be mapped.
+
+The debugger attempts to load images when debugging minidumps that do not contain images.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_ALLOW_READ_ONLY_BREAKPOINTS</b>
+
+</td>
+<td>
+Allow the debugger engine to manipulate page protections on the target to allow for setting software breakpoints in a read-only section of memory.
+
+When setting software breakpoints, the engine transparently alters the target's memory to insert an interrupt instruction.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_SYNCHRONIZE_BREAKPOINTS</b>
+
+</td>
+<td>
+In live user-mode debugging, the engine  performs extra work when inserting and removing breakpoints to ensure that all <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> in the target have a consistent breakpoint state at all times.
+
+This option is useful when multiple threads can use the code for which the breakpoint is set. However, it can introduce the possibility of deadlocks.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISALLOW_SHELL_COMMANDS</b>
+
+</td>
+<td>
+Disallow executing shell commands through the debugger.
+
+After this option has been set, it cannot be unset.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_KD_QUIET_MODE</b>
+
+</td>
+<td>
+Turn on quiet mode. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558789">sq (Set Quiet Mode)</a>. 
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISABLE_MANAGED_SUPPORT</b>
+
+</td>
+<td>
+Disables debugger engine support for managed code. If support for managed code is already in use, this option has no effect.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISABLE_MODULE_SYMBOL_LOAD</b>
+
+</td>
+<td>
+The debugger does not load symbols for modules that are loaded while this flag is set.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISABLE_EXECUTION_COMMANDS</b>
+
+</td>
+<td>
+Prevents any commands that would cause the target to begin executing.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISALLOW_IMAGE_FILE_MAPPING</b>
+
+</td>
+<td>
+Disallows mapping of image files from disk. For example, this option disallows image mapping for memory
+content during debugging of minidump files.
+ This option does not affect existing mappings; it affects only subsequent attempts to map image files.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_PREFER_DML</b>
+
+</td>
+<td>
+The debugger runs DML-enhanced versions of commands
+and operations by default.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>DEBUG_ENGOPT_DISABLESQM</b>
+
+</td>
+<td>
+Disables upload of Software Quality Metrics (SQM) data.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+
+
+
+ 
+
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetEngineOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+

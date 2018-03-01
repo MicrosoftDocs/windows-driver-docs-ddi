@@ -7,8 +7,8 @@ old-location: stream\ksquerysoftwarebusinterface.htm
 old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksquerysoftwarebusinterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, swenum/KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], KsQuerySoftwareBusInterface
+ms.date: 2/23/2018
+ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	swenum.h
-apiname: 
+api_name:
 -	KsQuerySoftwareBusInterface
 product: Windows
 targetos: Windows
@@ -84,14 +84,18 @@ Pointer to the demand-load bus enumerator's interface.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the request is handled. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 A minidriver can access this function through the <b>QueryReferenceString</b> member of the BUS_INTERFACE_SWENUM structure.
+
 
 
 
@@ -99,13 +103,19 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+
 
 <a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
- 
+
+
+<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsQuerySoftwareBusInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsQuerySoftwareBusInterface function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

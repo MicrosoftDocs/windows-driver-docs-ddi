@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_fifo_control.htm
 old-project: serports
 ms.assetid: b41a13a6-4573-495f-8dfd-9405917d8e66
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.ioctl_serial_set_fifo_control, IOCTL_SERIAL_SET_FIFO_CONTROL control code [Serial Ports], IOCTL_SERIAL_SET_FIFO_CONTROL, ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL, serref_5e21a668-7fca-4d1e-baf2-3356ba2087d9.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SERIAL_SET_FIFO_CONTROL, IOCTL_SERIAL_SET_FIFO_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL, serports.ioctl_serial_set_fifo_control, serref_5e21a668-7fca-4d1e-baf2-3356ba2087d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	IOCTL_SERIAL_SET_FIFO_CONTROL
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

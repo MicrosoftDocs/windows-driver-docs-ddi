@@ -7,8 +7,8 @@ old-location: image\iwiasegmentationfilter_interface.htm
 old-project: image
 ms.assetid: 93f2942b-3c01-43e7-9b8a-9542ab7bfd74
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.iwiasegmentationfilter_interface, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], described, IWiaSegmentationFilter, wia_lh/IWiaSegmentationFilter, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml
+ms.date: 2/23/2018
+ms.keywords: IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], described, image.iwiasegmentationfilter_interface, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml, wia_lh/IWiaSegmentationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wia_lh.h
-apiname: 
+api_name:
 -	IWiaSegmentationFilter
 product: Windows
 targetos: Windows
@@ -56,6 +56,13 @@ The <b>IWiaSegmentationFilter</b> interface provides the <a href="https://msdn.m
 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaSegmentationFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaSegmentationFilter</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWiaSegmentationFilter</b> interface has these methods.
@@ -73,7 +80,5 @@ The <b>IWiaSegmentationFilter::DetectRegions</b> method determines the subregion
 
 </td>
 </tr>
-</table>The <b>IWiaSegmentationFilter::DetectRegions</b> method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
-
- 
+</table> 
 

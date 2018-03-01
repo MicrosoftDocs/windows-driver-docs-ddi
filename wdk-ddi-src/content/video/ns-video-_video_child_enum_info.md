@@ -1,14 +1,14 @@
 ---
 UID: NS:video._VIDEO_CHILD_ENUM_INFO
-title: _VIDEO_CHILD_ENUM_INFO
+title: "_VIDEO_CHILD_ENUM_INFO"
 author: windows-driver-content
 description: Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 old-location: display\video_child_enum_info.htm
 old-project: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO, _VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], display.video_child_enum_info, Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, video/PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, _VIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, video/PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	VIDEO_CHILD_ENUM_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO
+req.typenames: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -102,21 +102,27 @@ A pointer to a device extension specific to this child device. This member is va
 ## -remarks
 
 
+
 One parameter of the <i>HwVidGetVideoChildDescriptor</i> function is an instance of a VIDEO_CHILD_ENUM_INFO structure. 
 
 The ACPI_METHOD_DISPLAY_DOD alias, defined in Dispmprt.h, represents the method used to enumerate the devices attached to the display adapter. This method is required if the integrated device controller supports switching of output devices.
 
 
 
-## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+## -see-also
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
- 
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_CHILD_ENUM_INFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_CHILD_ENUM_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

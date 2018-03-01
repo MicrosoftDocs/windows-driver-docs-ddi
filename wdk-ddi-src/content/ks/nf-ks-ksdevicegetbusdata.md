@@ -7,8 +7,8 @@ old-location: stream\ksdevicegetbusdata.htm
 old-project: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], KsDeviceGetBusData, stream.ksdevicegetbusdata
+ms.date: 2/23/2018
+ms.keywords: KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, stream.ksdevicegetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsDeviceGetBusData
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ This parameter specifies the number of bytes to read into <i>Buffer</i>.
 ## -returns
 
 
+
 <b>KsDeviceGetBusData </b>returns the number of bytes actually read from the bus. If an errors occurs, this value is zero.
 
 
 
+
 ## -remarks
+
 
 
 Depending on the driver for the bus where the specified device resides, there are two possible behaviors and restriction sets on this function. If the given bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceGetBusData</b> returns the actual number of bytes read from the requested space. If, however, the given bus driver does not support the bus interface standard, then AVStream communicates with the bus driver through <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. Note that this restricts use of <b>KsDeviceGetBusData</b> to IRQL = PASSIVE_LEVEL and also means that the return value is either 0, in the case of failure, or equal to<i> Length</i> if data acquisition was successful<i>.</i>
@@ -113,15 +116,20 @@ To ensure compatibility, minidriver writers may want to restrict use of <b>KsDev
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
+
+
 <a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetBusData function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetBusData function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

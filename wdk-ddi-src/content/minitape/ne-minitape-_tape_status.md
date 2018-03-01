@@ -1,14 +1,14 @@
 ---
 UID: NE:minitape._TAPE_STATUS
-title: _TAPE_STATUS
+title: "_TAPE_STATUS"
 author: windows-driver-content
 description: The TAPE_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
 old-location: storage\tape_status.htm
 old-project: storage
 ms.assetid: 45e85ad1-5b75-410e-b9dd-061051bbaa74
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: minitape/TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/TAPE_STATUS_BUS_RESET, TAPE_STATUS_REQUIRES_CLEANING, TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_UNRECOGNIZED_MEDIA, minitape/TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_MEDIA_CHANGED, TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/PTAPE_STATUS, TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS, TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_INVALID_BLOCK_LENGTH, minitape/TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_BEGINNING_OF_MEDIA, TAPE_STATUS_NO_DATA_DETECTED, structs-tape_c79a2dd4-8c91-4735-9440-de39b23aa982.xml, minitape/TAPE_STATUS_CALLBACK, minitape/TAPE_STATUS_CHECK_TEST_UNIT_READY, *PTAPE_STATUS, TAPE_STATUS_NO_SUCH_DEVICE, TAPE_STATUS enumeration [Storage Devices], minitape/TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_MEDIA_WRITE_PROTECTED, _TAPE_STATUS, TAPE_STATUS_BUS_RESET, minitape/TAPE_STATUS_UNRECOGNIZED_MEDIA, TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_DEVICE_BUSY, storage.tape_status, minitape/TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_NO_DATA_DETECTED, minitape/TAPE_STATUS_NO_SUCH_DEVICE, TAPE_STATUS_INVALID_BLOCK_LENGTH, TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_BEGINNING_OF_MEDIA, minitape/TAPE_STATUS_INVALID_DEVICE_REQUEST, TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_NO_MEDIA, TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_MEDIA_WRITE_PROTECTED, minitape/TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_INVALID_PARAMETER, minitape/TAPE_STATUS_INVALID_PARAMETER, minitape/TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_DEVICE_BUSY, minitape/TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, minitape/TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_CALLBACK, TAPE_STATUS_MEDIA_CHANGED, minitape/TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_SEND_SRB_AND_CALLBACK, PTAPE_STATUS enumeration pointer [Storage Devices], minitape/TAPE_STATUS_REQUIRES_CLEANING, minitape/TAPE_STATUS, TAPE_STATUS_NO_MEDIA, minitape/TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_INVALID_DEVICE_REQUEST, minitape/TAPE_STATUS_END_OF_MEDIA, PTAPE_STATUS
+ms.date: 2/24/2018
+ms.keywords: "*PTAPE_STATUS, PTAPE_STATUS, PTAPE_STATUS enumeration pointer [Storage Devices], TAPE_STATUS, TAPE_STATUS enumeration [Storage Devices], TAPE_STATUS_BEGINNING_OF_MEDIA, TAPE_STATUS_BUFFER_OVERFLOW, TAPE_STATUS_BUS_RESET, TAPE_STATUS_CALLBACK, TAPE_STATUS_CHECK_TEST_UNIT_READY, TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, TAPE_STATUS_DATA_OVERRUN, TAPE_STATUS_DEVICE_BUSY, TAPE_STATUS_DEVICE_DATA_ERROR, TAPE_STATUS_DEVICE_NOT_CONNECTED, TAPE_STATUS_DEVICE_NOT_READY, TAPE_STATUS_END_OF_MEDIA, TAPE_STATUS_EOM_OVERFLOW, TAPE_STATUS_FILEMARK_DETECTED, TAPE_STATUS_INSUFFICIENT_RESOURCES, TAPE_STATUS_INVALID_BLOCK_LENGTH, TAPE_STATUS_INVALID_DEVICE_REQUEST, TAPE_STATUS_INVALID_PARAMETER, TAPE_STATUS_IO_DEVICE_ERROR, TAPE_STATUS_IO_TIMEOUT, TAPE_STATUS_MEDIA_CHANGED, TAPE_STATUS_MEDIA_WRITE_PROTECTED, TAPE_STATUS_NOT_IMPLEMENTED, TAPE_STATUS_NO_DATA_DETECTED, TAPE_STATUS_NO_MEDIA, TAPE_STATUS_NO_SUCH_DEVICE, TAPE_STATUS_REQUIRES_CLEANING, TAPE_STATUS_SEND_SRB_AND_CALLBACK, TAPE_STATUS_SETMARK_DETECTED, TAPE_STATUS_SUCCESS, TAPE_STATUS_UNRECOGNIZED_MEDIA, _TAPE_STATUS, minitape/PTAPE_STATUS, minitape/TAPE_STATUS, minitape/TAPE_STATUS_BEGINNING_OF_MEDIA, minitape/TAPE_STATUS_BUFFER_OVERFLOW, minitape/TAPE_STATUS_BUS_RESET, minitape/TAPE_STATUS_CALLBACK, minitape/TAPE_STATUS_CHECK_TEST_UNIT_READY, minitape/TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED, minitape/TAPE_STATUS_DATA_OVERRUN, minitape/TAPE_STATUS_DEVICE_BUSY, minitape/TAPE_STATUS_DEVICE_DATA_ERROR, minitape/TAPE_STATUS_DEVICE_NOT_CONNECTED, minitape/TAPE_STATUS_DEVICE_NOT_READY, minitape/TAPE_STATUS_END_OF_MEDIA, minitape/TAPE_STATUS_EOM_OVERFLOW, minitape/TAPE_STATUS_FILEMARK_DETECTED, minitape/TAPE_STATUS_INSUFFICIENT_RESOURCES, minitape/TAPE_STATUS_INVALID_BLOCK_LENGTH, minitape/TAPE_STATUS_INVALID_DEVICE_REQUEST, minitape/TAPE_STATUS_INVALID_PARAMETER, minitape/TAPE_STATUS_IO_DEVICE_ERROR, minitape/TAPE_STATUS_IO_TIMEOUT, minitape/TAPE_STATUS_MEDIA_CHANGED, minitape/TAPE_STATUS_MEDIA_WRITE_PROTECTED, minitape/TAPE_STATUS_NOT_IMPLEMENTED, minitape/TAPE_STATUS_NO_DATA_DETECTED, minitape/TAPE_STATUS_NO_MEDIA, minitape/TAPE_STATUS_NO_SUCH_DEVICE, minitape/TAPE_STATUS_REQUIRES_CLEANING, minitape/TAPE_STATUS_SEND_SRB_AND_CALLBACK, minitape/TAPE_STATUS_SETMARK_DETECTED, minitape/TAPE_STATUS_SUCCESS, minitape/TAPE_STATUS_UNRECOGNIZED_MEDIA, storage.tape_status, structs-tape_c79a2dd4-8c91-4735-9440-de39b23aa982.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	minitape.h
-apiname: 
+api_name:
 -	TAPE_STATUS
 product: Windows
 targetos: Windows
@@ -256,9 +256,11 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_status.md">IOCTL_TAPE_GET_STATUS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_STATUS enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_STATUS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

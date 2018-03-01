@@ -7,8 +7,8 @@ old-location: kernel\dpwmisetdatablock.htm
 old-project: kernel
 ms.assetid: 429c84e4-16da-452a-b26d-a71546299f0b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.dpwmisetdatablock, DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], DpWmiSetDataBlock, WMI_SET_DATABLOCK_CALLBACK, WMI_SET_DATABLOCK_CALLBACK, wmilib/DpWmiSetDataBlock, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml
+ms.date: 2/24/2018
+ms.keywords: DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], WMI_SET_DATABLOCK_CALLBACK, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml, kernel.dpwmisetdatablock, wmilib/DpWmiSetDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wmilib.h
-apiname: 
+api_name:
 -	DpWmiSetDataBlock
 product: Windows
 targetos: Windows
-req.typenames: *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -109,18 +109,22 @@ Pointer to a buffer that contains new values for the instance.
 ## -returns
 
 
+
 <i>DpWmiSetDataBlock</i> returns STATUS_SUCCESS or an appropriate error status such as the following:
 
 If the driver cannot complete the request immediately, it can return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 WMI calls a driver's <i>DpWmiSetDataBlock</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
+
 <ul>
 <li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
@@ -142,7 +146,8 @@ Verify that <i>Buffer</i> and <i>BufferSize</i> describe a valid-sized data bloc
 Verify that the specified data block is one for which the driver allows caller-initiated modifications. In other words, the driver should not allow modifications to data blocks that you intended to be read-only.
 
 </li>
-</ul>Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
+</ul>
+Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
 
 If a driver implements a <i>DpWmiSetDataBlock</i> routine, the driver must place the routine's address in the <b>SetWmiDataBlock</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiSetDataBlock</i> routine, it must set <b>SetWmiDataBlock</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
 
@@ -152,17 +157,24 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
+## -see-also
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
+
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_SET_DATABLOCK_CALLBACK callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_SET_DATABLOCK_CALLBACK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

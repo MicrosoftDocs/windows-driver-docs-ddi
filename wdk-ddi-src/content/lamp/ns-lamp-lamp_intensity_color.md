@@ -7,8 +7,8 @@ old-location: stream\lamp_intensity_color.htm
 old-project: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.lamp_intensity_color, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], LAMP_INTENSITY_COLOR, lamp/LAMP_INTENSITY_COLOR
+ms.date: 2/23/2018
+ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	lamp.h
-apiname: 
+api_name:
 -	LAMP_INTENSITY_COLOR
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: image\iwialog_interface.htm
 old-project: image
 ms.assetid: b56cb3f0-1053-4104-b223-e7448a832f33
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.iwialog_interface, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices], described, IWiaLog, wia_lh/IWiaLog, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml
+ms.date: 2/23/2018
+ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices], described, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml, image.iwialog_interface, wia_lh/IWiaLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wia_lh.h
-apiname: 
+api_name:
 -	IWiaLog
 product: Windows
 targetos: Windows
@@ -57,6 +57,13 @@ The <b>IWiaLog</b> interface provides methods to enable minidrivers to log trace
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLog</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaLog</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -97,15 +104,5 @@ The <b>IWiaLog</b> interface is obsolete for Windows XP and later, and is no lon
 
 </td>
 </tr>
-</table>Note that the <b>IWiaLog</b> interface is <b>obsolete </b>for Microsoft Windows XP and later, and is no longer supported. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540599">Diagnostic Log Macros</a>.
-
-The <b>IWiaLog::hResult</b> method translates an HRESULT value into a string and writes the string to <i>Wiaservc.log</i>.
-
-Note that the <b>IWiaLog</b> interface is <b>obsolete</b> for Microsoft Windows XP and later, and is no longer supported. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540599">Diagnostic Log Macros</a>.
-
-The <b>IWiaLog::InitializeLog</b> method initializes the <b>lWiaLog</b> interface.
-
-The <b>IWiaLog</b> interface is obsolete for Windows XP and later, and is no longer supported. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540599">Diagnostic Log Macros</a> instead.The <b>IWiaLog::Log</b> method writes a diagnostic log message to <i>Wiaservc.log</i>.
-
- 
+</table> 
 

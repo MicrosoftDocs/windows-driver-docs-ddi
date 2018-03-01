@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_PPM_PARK_SELECTION_V2
-title: _PEP_PPM_PARK_SELECTION_V2
+title: "_PEP_PPM_PARK_SELECTION_V2"
 author: windows-driver-content
 description: The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection_v2.htm
 old-project: kernel
 ms.assetid: D1EFB30D-E8E2-4585-AB0E-B7903F4D6656
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PPM_PARK_SELECTION_V2, kernel.pep_ppm_park_selection_v2, PEP_PPM_PARK_SELECTION_V2, PROCESSOR_PARK_TYPE_CORE_PARKING, PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_PARK_SELECTION_V2, PPEP_PPM_PARK_SELECTION_V2, _PEP_PPM_PARK_SELECTION_V2, *PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], PROCESSOR_PARK_TYPE_INTERRUPT_STEERING
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION_V2, PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_PARK_TYPE_CORE_PARKING, PROCESSOR_PARK_TYPE_INTERRUPT_STEERING, _PEP_PPM_PARK_SELECTION_V2, kernel.pep_ppm_park_selection_v2, pepfx/PEP_PPM_PARK_SELECTION_V2, pepfx/PPEP_PPM_PARK_SELECTION_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_PPM_PARK_SELECTION_V2
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2
+req.typenames: PEP_PPM_PARK_SELECTION_V2, *PPEP_PPM_PARK_SELECTION_V2
 ---
 
 # _PEP_PPM_PARK_SELECTION_V2 structure
@@ -98,6 +98,7 @@ The interrupt time of the performance check evaluation that initiated this notif
 ### -field EvaluationType
 
 The type of evaluation being performed. This can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,12 +126,15 @@ Interrupts should be steered away from the processor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186770">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) before this notification is sent to the PEP.
+
 
 

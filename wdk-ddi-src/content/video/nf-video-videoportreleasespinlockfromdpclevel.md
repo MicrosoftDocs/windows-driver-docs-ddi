@@ -7,8 +7,8 @@ old-location: display\videoportreleasespinlockfromdpclevel.htm
 old-project: display
 ms.assetid: 375158e7-3fb5-4e49-a7cf-ee9a1e5c07ca
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, video/VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel, display.videoportreleasespinlockfromdpclevel
+ms.date: 2/24/2018
+ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortReleaseSpinLockFromDpcLevel
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - SpinLock [in, out]
 
 Pointer to a memory location that contains the spin lock to be released.
@@ -88,11 +89,14 @@ Pointer to a memory location that contains the spin lock to be released.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers call <b>VideoPortReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>.
@@ -101,15 +105,20 @@ It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given 
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+## -see-also
 
 <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortReleaseSpinLockFromDpcLevel function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortReleaseSpinLockFromDpcLevel function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

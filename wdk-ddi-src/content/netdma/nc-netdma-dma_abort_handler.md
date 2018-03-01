@@ -7,8 +7,8 @@ old-location: netvista\providerabortdma.htm
 old-project: netvista
 ms.assetid: b9c23f36-0885-49fd-b92e-dac38d5f363f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providerabortdma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], ProviderAbortDma, DMA_ABORT_HANDLER, DMA_ABORT_HANDLER, netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml
+ms.date: 2/16/2018
+ms.keywords: DMA_ABORT_HANDLER, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	ProviderAbortDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_ABORT_HANDLER callback
@@ -78,14 +78,16 @@ NTSTATUS ProviderAbortDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ## -returns
 
 
+
 <i>ProviderAbortDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +115,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -132,8 +137,8 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the abort operation completes, the DMA channel must be ready for the NetDMA interface to call
     the 
@@ -147,19 +152,28 @@ NetDMA calls
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_ABORT_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_ABORT_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

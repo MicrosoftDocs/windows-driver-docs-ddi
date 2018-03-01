@@ -7,8 +7,8 @@ old-location: pos\linedisplaycursortypeflags.htm
 old-project: pos
 ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LineDisplayCursorTypeFlags, pointofservicecommontypes/LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pos.linedisplaycursortypeflags, pointofservicecommontypes/
+ms.date: 2/23/2018
+ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicecommontypes.h
-apiname: 
+api_name:
 -	LineDisplayCursorTypeFlags
 product: Windows
 targetos: Windows
@@ -70,33 +70,25 @@ typedef enum _LineDisplayCursorTypeFlags {
 ### -field CursorTypeNone
 
 
-
 ### -field CursorTypeFixed
-
 
 
 ### -field CursorTypeBlock
 
 
-
 ### -field CursorTypeHalfBlock
-
 
 
 ### -field CursorTypeUnderline
 
 
-
 ### -field CursorTypeReverse
-
 
 
 ### -field CursorTypeOther
 
 
-
 ### -field CursorTypeBlink
-
 
 
 

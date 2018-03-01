@@ -7,8 +7,8 @@ old-location: storage\changeradditionalextensionsize.htm
 old-project: storage
 ms.assetid: d9bcbad5-ce2c-4968-9544-4fb024b1e933
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, storage.changeradditionalextensionsize, mcd/ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize function [Storage Devices], ChangerAdditionalExtensionSize
+ms.date: 2/24/2018
+ms.keywords: ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize function [Storage Devices], chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, mcd/ChangerAdditionalExtensionSize, storage.changeradditionalextensionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mcd.h
-apiname: 
+api_name:
 -	ChangerAdditionalExtensionSize
 product: Windows
 targetos: Windows
@@ -66,14 +66,18 @@ ULONG ChangerAdditionalExtensionSize(void);
 
 
 
+
 ## -returns
+
 
 
 <b>ChangerAdditionalExtensionSize</b> returns the size, in bytes, of the additional device extension space required by the changer miniclass driver. 
 
 
 
+
 ## -remarks
+
 
 
 The changer class driver calls <b>ChangerAdditionalExtensionSize</b> to determine the number of bytes the miniclass driver requires in the device extension for a particular changer before creating the device object to represent that changer.
@@ -82,13 +86,16 @@ The device-specific information stored by a changer miniclass driver is determin
 
 
 
+
 ## -see-also
 
 <a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerAdditionalExtensionSize function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerAdditionalExtensionSize function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

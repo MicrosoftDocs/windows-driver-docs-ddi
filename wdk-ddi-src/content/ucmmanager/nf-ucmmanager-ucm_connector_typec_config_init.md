@@ -7,8 +7,8 @@ old-location: buses\ucm_connector_type_c_config_init.htm
 old-project: usbref
 ms.assetid: 10E155C2-907D-4D0E-87E9-A6B32E99D133
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UCM_CONNECTOR_TYPE_C_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPEC_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses], buses.ucm_connector_type_c_config_init
+ms.date: 2/24/2018
+ms.keywords: UCM_CONNECTOR_TYPEC_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses], buses.ucm_connector_type_c_config_init, ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ucmmanager.h
-apiname: 
+api_name:
 -	UCM_CONNECTOR_TYPE_C_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,8 @@ Indicates the power source capabilities of the connector. This value is a bitwis
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

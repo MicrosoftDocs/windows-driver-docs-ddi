@@ -7,8 +7,8 @@ old-location: kernel\silo_monitor_create_callback.htm
 old-project: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.silo_monitor_create_callback, CreateCallback callback function [Kernel-Mode Driver Architecture], CreateCallback, SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK, ntddk/CreateCallback
+ms.date: 2/24/2018
+ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, kernel.silo_monitor_create_callback, ntddk/CreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	CreateCallback
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ The silo that was created.
 ## -returns
 
 
+
 The NT code returned by the operation.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:storport._STOR_REQUEST_INFO_V1
-title: _STOR_REQUEST_INFO_V1
+title: "_STOR_REQUEST_INFO_V1"
 author: windows-driver-content
 description: The _STOR_REQUEST_INFO_V1 structure contains details about the storage driver IO request associated with a SCSI request block (SRB). _STOR_REQUEST_INFO_V1 is returned by the StorPortGetRequestInfo routine.
 old-location: storage\stor_request_info.htm
 old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PSTOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storport/_STOR_REQUEST_INFO_V1, StorIoPriorityLow, StorIoPriorityVeryLow, REQUEST_INFO_SEQUENTIAL_IO_FLAG, STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_WRITE_THROUGH_FLAG, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], STOR_REQUEST_INFO_V1, storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityNormal, _STOR_REQUEST_INFO_V1, StorIoPriorityHigh, StorIoPriorityCritical, *PSTOR_REQUEST_INFO_V1, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG
+ms.date: 2/24/2018
+ms.keywords: "*PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityHigh, StorIoPriorityLow, StorIoPriorityNormal, StorIoPriorityVeryLow, _STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	STOR_REQUEST_INFO_V1
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The size of this structure. Set this value to <b>sizeof</b>(STOR_REQUEST_INFO).
 ### -field PriorityHint
 
 The priority hint set for the IO request.
+
 <table>
 <tr>
 <th>Value</th>
@@ -150,12 +151,14 @@ Critical priority.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
 
 Flags set for handling the request. May be a combination of these values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -211,7 +214,8 @@ No system buffering for the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Key
@@ -237,7 +241,9 @@ Reserved.
 ## -remarks
 
 
+
 The caller to <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
+
 
 
 
@@ -245,9 +251,11 @@ The caller to <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPo
 
 <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_STOR_REQUEST_INFO_V1 structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_STOR_REQUEST_INFO_V1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

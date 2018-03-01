@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverui_drvupgraderegistrysetting.htm
 old-project: print
 ms.assetid: 9249dd75-7d90-414a-b6b5-4be0fc4f3170
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.iprintoemdriverui_drvupgraderegistrysetting, IPrintOemDriverUI interface [Print Devices], DrvUpgradeRegistrySetting method, DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI interface, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, IPrintOemDriverUI::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI
+ms.date: 2/23/2018
+ms.keywords: DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI interface, DrvUpgradeRegistrySetting,IPrintOemDriverUI.DrvUpgradeRegistrySetting, IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], DrvUpgradeRegistrySetting method, IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemDriverUI.DrvUpgradeRegistrySetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Caller-supplied pointer to a string identifying an option name, associated with 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +129,17 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is meant to be called from a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554189">IPrintOemUI::UpgradePrinter</a> method, when it is necessary to update registry settings that were stored in private registry keys for an earlier version of the driver, but are now contained in a GPD or PPD file.
+
 
 

@@ -2,13 +2,13 @@
 UID: NF:winspool.GetPrintOutputInfo
 title: GetPrintOutputInfo function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\getprintoutputinfo.htm
 old-project: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetPrintOutputInfo function [Print Devices], GetPrintOutputInfo, winspool/GetPrintOutputInfo, print.getprintoutputinfo
+ms.date: 2/23/2018
+ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winspool.h
-apiname: 
+api_name:
 -	GetPrintOutputInfo
 product: Windows
 targetos: Windows
@@ -74,22 +74,20 @@ HRESULT WINAPI GetPrintOutputInfo(
 ### -param hWnd [in]
 
 
-
 ### -param pszPrinter [in]
-
 
 
 ### -param phFile [out]
 
 
-
 ### -param ppszOutputFile [out]
-
 
 
 ## -returns
 
 
+
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_outputcharstr.htm
 old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, prcomoem/IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml, print.iprintoemuni_outputcharstr, OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr,IPrintOemUni.OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUni.OutputCharStr
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UN
 ### -param dwType
 
 Caller-supplied value indicating the type of glyph specifier array pointed to by <i>pGlyph</i>. Valid values are as follows:
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ The <i>pGlyph</i> array elements are glyph identifiers of type DWORD.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param dwCount
@@ -126,7 +128,9 @@ Caller-supplied pointer to an array of glyph specifiers, where the array element
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -165,11 +169,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::OutputCharStr</code> method is used for supporting printers that do not recognize the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a>, CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
@@ -183,6 +190,7 @@ If the specified font is a device font, the array contains glyph handles. The ha
 If the specified font is a soft (TrueType) font, the array contains glyph identifiers. The identifiers represent previously downloaded glyphs that need to be printed.
 
 If the specified font is a device font, the method must do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\printoem\ns-printoem-_getinfo_glyphstring.md">GETINFO_GLYPHSTRING</a> structure with <i>dwTypeIn</i> set to TYPE_GLYPHHANDLE and <i>dwTypeOut</i> set to TYPE_TRANSDATA.
@@ -196,10 +204,12 @@ Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">
 Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> to send TRANSDATA structure contents to the print spooler, in order to print the glyphs.
 
 </li>
-</ol>If the specified font is a soft font, the method can just call <b>IPrintOemDriverUni::DrvWriteSpoolBuf</b> to send commands to the print spooler that will cause the specified previously-downloaded glyphs to be printed.
+</ol>
+If the specified font is a soft font, the method can just call <b>IPrintOemDriverUni::DrvWriteSpoolBuf</b> to send commands to the print spooler that will cause the specified previously-downloaded glyphs to be printed.
 
 The <code>IPrintOemUni::OutputCharStr</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "OutputCharStr" as input.
 
 For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Customized Font Management</a>.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:usbfnbase._ALTERNATE_INTERFACE
-title: _ALTERNATE_INTERFACE
+title: "_ALTERNATE_INTERFACE"
 author: windows-driver-content
 description: The ALTERNATE_INTERFACE structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 old-location: buses\alternate_interface.htm
 old-project: usbref
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: _ALTERNATE_INTERFACE, ALTERNATE_INTERFACE, buses.alternate_interface, PALTERNATE_INTERFACE structure pointer [Buses], ALTERNATE_INTERFACE structure [Buses], *PALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE, usbfnbase/ALTERNATE_INTERFACE, PALTERNATE_INTERFACE
+ms.date: 2/24/2018
+ms.keywords: "*PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], _ALTERNATE_INTERFACE, buses.alternate_interface, usbfnbase/ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbfnbase.h
-apiname: 
+api_name:
 -	ALTERNATE_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PALTERNATE_INTERFACE, ALTERNATE_INTERFACE
+req.typenames: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -83,9 +83,11 @@ The index number for the alternate USB interface setting.
 
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ALTERNATE_INTERFACE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ALTERNATE_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

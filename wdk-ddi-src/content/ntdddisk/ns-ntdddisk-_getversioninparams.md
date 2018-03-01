@@ -1,14 +1,14 @@
 ---
 UID: NS:ntdddisk._GETVERSIONINPARAMS
-title: _GETVERSIONINPARAMS
+title: "_GETVERSIONINPARAMS"
 author: windows-driver-content
 description: The GETVERSIONINPARAMS structure is used in conjunction with the SMART_GET_VERSION request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 old-location: storage\getversioninparams.htm
 old-project: storage
 ms.assetid: dcbfa8d2-c2ea-43ae-9d77-ce95a430a514
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml, storage.getversioninparams, _GETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, PGETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, GETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], LPGETVERSIONINPARAMS structure pointer [Storage Devices], *LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, LPGETVERSIONINPARAMS
+ms.date: 2/24/2018
+ms.keywords: "*LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], LPGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], _GETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, storage.getversioninparams, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddisk.h
-apiname: 
+api_name:
 -	GETVERSIONINPARAMS
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Reserved.
 ### -field bIDEDeviceMap
 
 Contains the bitmap. The following table explains the meaning of the bitmap:
+
 <table>
 <tr>
 <th>Bitmap Flags</th>
@@ -175,12 +176,14 @@ The device is an ATAPI drive, and it is the subordinate device on the secondary 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fCapabilities
 
 Contains the bitmask of driver capabilities. 
+
 <table>
 <tr>
 <th>Bitmask Flags</th>
@@ -216,7 +219,8 @@ The device supports SMART commands.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved
@@ -228,9 +232,11 @@ Reserved.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566202">SMART_GET_VERSION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GETVERSIONINPARAMS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GETVERSIONINPARAMS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

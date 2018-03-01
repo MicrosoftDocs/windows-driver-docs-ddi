@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._PSCRIPT5_PRIVATE_DEVMODE
-title: _PSCRIPT5_PRIVATE_DEVMODE
+title: "_PSCRIPT5_PRIVATE_DEVMODE"
 author: windows-driver-content
 description: The PSCRIPT5_PRIVATE_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5's DEVMODEW structure.
 old-location: print\pscript5_private_devmode.htm
 old-project: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], PPSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, printoem/PPSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], _PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, printoem/PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	PSCRIPT5_PRIVATE_DEVMODE
 product: Windows
 targetos: Windows
@@ -82,9 +82,11 @@ The size, in bytes, of the private portion of Pscript5's <a href="https://msdn.m
 ## -remarks
 
 
+
 This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see <a href="https://msdn.microsoft.com/26212e3b-a591-4ed6-b441-b130d8d4d948">The DEVMODEW Structure</a>. 
 
 Printoem.h defines a macro that you can use to determine the size of the private portion of Pscript5's DEVMODEW structure.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -96,9 +98,11 @@ Printoem.h defines a macro that you can use to determine the size of the private
 ((PPSCRIPT5_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)-&gt; dmSize)) -&gt; wSize : 0 )</pre>
 </td>
 </tr>
-</table></span></div>The <i>pdm</i> argument in the <b>GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE</b> macro is a pointer to a DEVMODEW structure. The macro determines whether the value of the <b>dmDriverExtra</b> member of the DEVMODEW structure is larger than the byte offset of the <b>wSize</b> member of the PSCRIPT5_PRIVATE_DEVMODE structure. If so, the macro returns the value of the <b>wSize</b> member in the PSCRIPT5_PRIVATE_DEVMODE structure. If not, the macro returns zero.
+</table></span></div>
+The <i>pdm</i> argument in the <b>GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE</b> macro is a pointer to a DEVMODEW structure. The macro determines whether the value of the <b>dmDriverExtra</b> member of the DEVMODEW structure is larger than the byte offset of the <b>wSize</b> member of the PSCRIPT5_PRIVATE_DEVMODE structure. If so, the macro returns the value of the <b>wSize</b> member in the PSCRIPT5_PRIVATE_DEVMODE structure. If not, the macro returns zero.
 
 To safely determine the address of the private portion of your plug-in's DEVMODEW structure, do the following:
+
 <ol>
 <li>
 Call the <b>GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE</b> macro, passing the address of the DEVMODEW structure in the call.
@@ -128,13 +132,16 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 </ol>
 
 
+
 ## -see-also
 
 <a href="..\printoem\ns-printoem-_unidrv_private_devmode.md">UNIDRV_PRIVATE_DEVMODE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PSCRIPT5_PRIVATE_DEVMODE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PSCRIPT5_PRIVATE_DEVMODE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

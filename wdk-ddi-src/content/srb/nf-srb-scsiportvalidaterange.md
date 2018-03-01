@@ -7,8 +7,8 @@ old-location: storage\scsiportvalidaterange.htm
 old-project: storage
 ms.assetid: a9ad58c2-16fc-410a-abc7-01c3f2354b88
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange, ScsiPortValidateRange routine [Storage Devices], ScsiPortValidateRange
+ms.date: 2/24/2018
+ms.keywords: ScsiPortValidateRange, ScsiPortValidateRange routine [Storage Devices], scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+api_name:
 -	ScsiPortValidateRange
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -107,14 +107,17 @@ Indicates when TRUE that the range is in I/O space, rather than in memory. When 
 ## -returns
 
 
+
 <b>ScsiPortValidateRange</b> returns <b>TRUE</b> if the HwScsiFindAdapter routine can safely map and use the mapped range to access the adapter. <b>ScsiPortValidateRange</b> returns <b>FALSE</b> if the specified access range values have already been claimed in the registry by another driver.
+
 
 
 
 ## -remarks
 
 
-<b>ScsiPortValidateRange </b>can be called only from a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+
+<b>ScsiPortValidateRange </b>can be called only from a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 If the operating system-specific port driver initializes any <b>AccessRanges</b> element of the PORT_CONFIGURATION_INFORMATION structure before it calls the miniport driver's <i>HwScsiFindAdapter</i> routine, the miniport driver must pass the supplied values to <b>ScsiPortGetDeviceBase</b> and use the mapped logical addresses for the range to determine whether an HBA is one that it supports.
 
@@ -125,6 +128,7 @@ For input <b>AccessRanges</b> elements set with default zeros, the <i>HwScsiFind
 If <b>ScsiPortValidateRange</b> returns <b>FALSE</b>, <i>HwScsiFindAdapter</i> must not attempt to map the input range addresses because another driver has already claimed the range in the registry.
 
 If <b>ScsiPortValidateRange</b> returns <b>TRUE</b>, <i>HwScsiFindAdapter</i> can safely do the following:
+
 <ol>
 <li>
 Map the bus-relative range addresses to system-space logical range addresses with <b>ScsiPortGetDeviceBase</b>.
@@ -134,9 +138,11 @@ Map the bus-relative range addresses to system-space logical range addresses wit
 Use the mapped logical addresses with the <b>ScsiPortRead/Write</b><i>Xxx</i> to determine whether the adapter actually is an HBA that the driver supports.
 
 </li>
-</ol>If a miniport driver uses a range successfully passed to <b>ScsiPortValidateRange</b> for an HBA it supports, that driver must invert the <i>InIoSpace</i> value when it sets the <b>RangeInMemory</b> member of an <b>AccessRanges</b> element in the PORT_CONFIGURATION_INFORMATION.
+</ol>
+If a miniport driver uses a range successfully passed to <b>ScsiPortValidateRange</b> for an HBA it supports, that driver must invert the <i>InIoSpace</i> value when it sets the <b>RangeInMemory</b> member of an <b>AccessRanges</b> element in the PORT_CONFIGURATION_INFORMATION.
 
 <b>ScsiPortValidateRange</b> uses <b>SCSI_PHYSICAL_ADDRESS</b> to represent bus-relative addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -147,25 +153,39 @@ Use the mapped logical addresses with the <b>ScsiPortRead/Write</b><i>Xxx</i> to
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that SCSI miniport drivers use to represent either a physical addresses or a bus-relative address. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+</table></span></div>
+The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that SCSI miniport drivers use to represent either a physical addresses or a bus-relative address. 
+
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
 <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+
+
+<a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
+
+
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
-<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
+
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortValidateRange routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortValidateRange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

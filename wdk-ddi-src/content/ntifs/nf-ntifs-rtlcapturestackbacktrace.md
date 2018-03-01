@@ -7,8 +7,8 @@ old-location: ifsk\rtlcapturestackbacktrace.htm
 old-project: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, RtlCaptureStackBackTrace
+ms.date: 2/16/2018
+ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-RTLSupport-l1-1-0.dll
 -	API-MS-Win-Core-RTLSupport-l1-2-0.dll
-apiname: 
+api_name:
 -	RtlCaptureStackBackTrace
 product: Windows
 targetos: Windows
@@ -98,6 +98,8 @@ This value is calculated based on the values of the pointers returned in the <i>
 ## -returns
 
 
+
 The number of captured frames.
+
 
 

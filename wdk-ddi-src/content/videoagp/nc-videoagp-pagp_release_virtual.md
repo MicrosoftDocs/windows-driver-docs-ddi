@@ -7,8 +7,8 @@ old-location: display\agpreleasevirtual.htm
 old-project: display
 ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.agpreleasevirtual, AgpReleaseVirtual callback function [Display Devices], AgpReleaseVirtual, PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL, videoagp/AgpReleaseVirtual, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml
+ms.date: 2/24/2018
+ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	videoagp.h
-apiname: 
+api_name:
 -	AgpReleaseVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -85,14 +85,18 @@ Is the context handle that identifies the reserved virtual address range to be r
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver must call <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> to unmap all committed memory within the range identified by <b>VirtualReserveContext</b> before calling <b>AgpReleaseVirtual</b> to release it.
+
 
 
 
@@ -100,11 +104,15 @@ The miniport driver must call <a href="..\videoagp\nc-videoagp-pagp_free_virtual
 
 <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
 
+
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RELEASE_VIRTUAL callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RELEASE_VIRTUAL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilcallrttaction_2.htm
 old-project: netvista
 ms.assetid: e4a28382-25f9-427d-ba7a-3b35c01f50fd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CALLRTTACTION_ASK, rilapitypes/RILCALLRTTACTION, netvista.rilcallrttaction_2, rilapitypes/RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_ASK, rilapitypes/RIL_CALLRTTACTION_ACCEPT, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RILCALLRTTACTION, RIL_CALLRTTACTION_ACCEPT, rilapitypes/RIL_CALLRTTACTION_REJECT, RIL_CALLRTTACTION_REJECT, RIL_CALLRTTACTION_MAX
+ms.date: 2/16/2018
+ms.keywords: RILCALLRTTACTION, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction_2, rilapitypes/RILCALLRTTACTION, rilapitypes/RIL_CALLRTTACTION_ACCEPT, rilapitypes/RIL_CALLRTTACTION_ASK, rilapitypes/RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLRTTACTION
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILCALLRTTACTION {
 ### -field RIL_CALLRTTACTION_NONE
 
 
-
 ### -field RIL_CALLRTTACTION_REJECT
-
 
 
 ### -field RIL_CALLRTTACTION_ASK
 
 
-
 ### -field RIL_CALLRTTACTION_ACCEPT
 
 
-
 ### -field RIL_CALLRTTACTION_MAX
-
 

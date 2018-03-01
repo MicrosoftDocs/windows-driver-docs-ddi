@@ -7,8 +7,8 @@ old-location: kernel\iogetdeviceobjectpointer.htm
 old-project: kernel
 ms.assetid: aeb088f3-92c3-4619-9c3b-756bd70307e7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], IoGetDeviceObjectPointer, kernel.iogetdeviceobjectpointer, k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, wdm/IoGetDeviceObjectPointer
+ms.date: 2/24/2018
+ms.keywords: IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, kernel.iogetdeviceobjectpointer, wdm/IoGetDeviceObjectPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetDeviceObjectPointer
 product: Windows
 targetos: Windows
@@ -94,6 +94,7 @@ Pointer to the device object that represents the named logical, virtual, or phys
 ## -returns
 
 
+
 <b>IoGetDeviceObjectPointer</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes:
 
 STATUS_OBJECT_TYPE_MISMATCH
@@ -108,7 +109,9 @@ STATUS_OBJECT_NAME_INVALID
 
 
 
+
 ## -remarks
+
 
 
 <b>IoGetDeviceObjectPointer</b> establishes a "connection" between the caller and the next-lower-level driver. A successful caller can use the returned device object pointer to initialize its own device objects. It can also be used as an argument to <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>, <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, and any routine that creates IRPs for lower drivers. The returned pointer is a required argument to <b>IoCallDriver</b>.
@@ -123,27 +126,44 @@ Callers of <b>IoGetDeviceObjectPointer</b> must be running at IRQL = PASSIVE_LEV
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceObjectPointer routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceObjectPointer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

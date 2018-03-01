@@ -7,8 +7,8 @@ old-location: stream\ksstream_header.htm
 old-project: stream
 ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, KSSTREAM_HEADER structure [Streaming Media Devices], KSSTREAM_HEADER, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header, PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], *PKSSTREAM_HEADER
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTREAM_HEADER, KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSSTREAM_HEADER
 product: Windows
 targetos: Windows
@@ -114,6 +114,7 @@ Specifies the virtual address of the data buffer.
 
 
   Specifies a variety of attributes of the data stream. The <b>OptionsFlags</b> member can have the values listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -280,7 +281,8 @@ KSSTREAM_HEADER_OPTIONSF_BUFFEREDTRANSFER
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -291,11 +293,13 @@ Reserved for internal use.
 ## -remarks
 
 
+
 This structure can be followed in memory by additional information specific to the type of data in the data packet.
 
 The presentation time is typically in 100-nanosecond units; however, the standard format of this time is based on the data format. You can normalize presentation time by using as a scaling fractional the KSSTREAM_HEADER.PresentationTime.Numerator divided by the KSSTREAM_HEADER.PresentationTime.Denominator .
 
 A conversion should use the numerator first, then the denominator, in order to reduce rounding errors. For example, an audio stream might present the current time as a byte offset in the data stream:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -311,7 +315,8 @@ StreamHdr-&gt;PresentationTime.Time = ByteOffset;
 StreamHdr-&gt;Duration = ByteLength;</pre>
 </td>
 </tr>
-</table></span></div>On an IOCTL_KS_READ_STREAM, portions of the stream header are filled in by the call. Each KSSTREAM_HEADER.DataUsed element contains the actual number of bytes read, which is less than or equal to each KSSTREAM_HEADER.FrameExtent. The pIrp-&gt;IoStatus.Information element contains the total size of the header data to return, which is at least one <b>sizeof</b>(KSSTREAM_HEADER).
+</table></span></div>
+On an IOCTL_KS_READ_STREAM, portions of the stream header are filled in by the call. Each KSSTREAM_HEADER.DataUsed element contains the actual number of bytes read, which is less than or equal to each KSSTREAM_HEADER.FrameExtent. The pIrp-&gt;IoStatus.Information element contains the total size of the header data to return, which is at least one <b>sizeof</b>(KSSTREAM_HEADER).
 
 On an IOCTL_KS_WRITE_STREAM, the member elements must be initialized, and each KSSTREAM_HEADER.DataUsed element contains the number of bytes to write. The actual number of total bytes written is returned in pIrp-&gt;IoStatus.Information. This is less than or equal to the total of all KSSTREAM_HEADER.DataUsed elements in the headers.
 
@@ -319,13 +324,16 @@ If you are using the <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceCloc
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAM_HEADER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAM_HEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

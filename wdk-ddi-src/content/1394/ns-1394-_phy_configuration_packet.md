@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._PHY_CONFIGURATION_PACKET
-title: _PHY_CONFIGURATION_PACKET
+title: "_PHY_CONFIGURATION_PACKET"
 author: windows-driver-content
 description: The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 old-location: ieee\phy_configuration_packet.htm
 old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PHY_CONFIGURATION_PACKET, _PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, *PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PPHY_CONFIGURATION_PACKET structure pointer [Buses]
+ms.date: 2/15/2018
+ms.keywords: "*PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, IEEE.phy_configuration_packet, PHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], _PHY_CONFIGURATION_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	PHY_CONFIGURATION_PACKET
 product: Windows
 targetos: Windows
@@ -117,7 +117,9 @@ Specifies the logical inverse of the first quadlet of the packet.
 ## -remarks
 
 
+
 For an explanation of the function of the PHY configuration packet, see the IEEE 1394 specification.
+
 
 
 
@@ -125,9 +127,11 @@ For an explanation of the function of the PHY configuration packet, see the IEEE
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20PHY_CONFIGURATION_PACKET structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20PHY_CONFIGURATION_PACKET structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

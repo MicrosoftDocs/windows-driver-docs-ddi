@@ -7,8 +7,8 @@ old-location: wdf\iwdfdeviceinitialize_autoforwardcreatecleanupclose.htm
 old-project: wdf
 ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
+ms.date: 2/20/2018
+ms.keywords: AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose,IWDFDeviceInitialize.AutoForwardCreateCleanupClose, IWDFDeviceInitialize, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDeviceInitialize.AutoForwardCreateCleanupClose
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -73,6 +73,7 @@ void AutoForwardCreateCleanupClose(
 ### -param State [in]
 
 A WDF_TRI_STATE-typed value that identifies the state of automatic forwarding. The following table shows the possible values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -108,20 +109,25 @@ The framework synchronously forwards create, cleanup, and close notifications to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 If the UMDF driver passes <b>WdfUseDefault</b> for the <i>State</i> parameter in a call to <b>AutoForwardCreateCleanupClose</b>, the framework uses a default forwarding scheme for create, cleanup, and close notifications that depends on whether the driver is a filter or function driver:
+
 <ul>
 <li>
 If the driver is a filter driver, the default forwarding scheme is to synchronously forward notifications to the next lower driver.
@@ -131,25 +137,35 @@ If the driver is a filter driver, the default forwarding scheme is to synchronou
 If the driver is a function driver, the default forwarding scheme is not to forward notifications to the next lower driver.
 
 </li>
-</ul>If the framework is set up for forwarding, it forwards cleanup and close notifications regardless of whether the driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a> interface methods. However, the framework automatically forwards create requests only if the driver does not support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> method. If the driver supports <b>IQueueCallbackCreate::OnCreateFile</b>, the framework forwards create requests only if the driver explicitly set up forwarding (<b>WdfTrue</b>) to the next lower driver. 
+</ul>
+If the framework is set up for forwarding, it forwards cleanup and close notifications regardless of whether the driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a> interface methods. However, the framework automatically forwards create requests only if the driver does not support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> method. If the driver supports <b>IQueueCallbackCreate::OnCreateFile</b>, the framework forwards create requests only if the driver explicitly set up forwarding (<b>WdfTrue</b>) to the next lower driver. 
 
 For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClose</b>, see <a href="https://msdn.microsoft.com/e6678226-44d3-4b1d-a296-2017bc9c7c37">Preventing an Imbalance of Create and Close Notifications to a Driver</a>. 
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize::AutoForwardCreateCleanupClose method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize::AutoForwardCreateCleanupClose method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ril3gpp2isdnalerting_2.htm
 old-project: netvista
 ms.assetid: 9fff629b-ad85-4158-b8c4-f5f6abe8e3f5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_3GPP2ISDNALERTING_PINGRING, rilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, RIL_3GPP2ISDNALERTING_INTERGROUP, rilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL, RIL3GPP2ISDNALERTING, netvista.ril3gpp2isdnalerting_2, rilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, rilapitypes/RIL_3GPP2ISDNALERTING_MAX, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_NORMAL, rilapitypes/RIL3GPP2ISDNALERTING, rilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX
+ms.date: 2/16/2018
+ms.keywords: RIL3GPP2ISDNALERTING, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX, RIL_3GPP2ISDNALERTING_NORMAL, RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, netvista.ril3gpp2isdnalerting_2, rilapitypes/RIL3GPP2ISDNALERTING, rilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, rilapitypes/RIL_3GPP2ISDNALERTING_MAX, rilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, rilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, rilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RIL3GPP2ISDNALERTING
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RIL3GPP2ISDNALERTING {
 ### -field RIL_3GPP2ISDNALERTING_ALERTINGOFF
 
 
-
 ### -field RIL_3GPP2ISDNALERTING_NORMAL
-
 
 
 ### -field RIL_3GPP2ISDNALERTING_INTERGROUP
 
 
-
 ### -field RIL_3GPP2ISDNALERTING_SPECIAL
-
 
 
 ### -field RIL_3GPP2ISDNALERTING_PINGRING
 
 
-
 ### -field RIL_3GPP2ISDNALERTING_MAX
-
 

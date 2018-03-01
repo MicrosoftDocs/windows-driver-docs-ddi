@@ -7,8 +7,8 @@ old-location: kernel\pssetloadimagenotifyroutineex.htm
 old-project: kernel
 ms.assetid: 792cdb59-e0c2-4697-9934-b7e45a7a31a8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], kernel.pssetloadimagenotifyroutineex
+ms.date: 2/24/2018
+ms.keywords: PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], kernel.pssetloadimagenotifyroutineex, ntddk/PsSetLoadImageNotifyRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PsSetLoadImageNotifyRoutineEx
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsSetLoadImageNotifyRoutineEx function
@@ -76,6 +76,7 @@ A pointer to the caller-implemented <a href="..\ntddk\nc-ntddk-pload_image_notif
 ### -param Flags [in]
 
 Supplies a bitmask of flags that control the callback function. Here are the possible values:
+
 <ul>
 <li>PS_IMAGE_NOTIFY_CONFLICTING_ARCHITECTURE indicates that the callback routine should be invoked for all potentially executable images, including images that have a different architecture from the native architecture of the operating system.
 
@@ -83,6 +84,7 @@ Supplies a bitmask of flags that control the callback function. Here are the pos
 </ul>
 
 ## -returns
+
 
 
 <table>
@@ -123,6 +125,8 @@ The routine failed allocate a callback block due to lack of resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

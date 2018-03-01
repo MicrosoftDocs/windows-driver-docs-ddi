@@ -7,8 +7,8 @@ old-location: display\iddcxadapterupdatemaxdisplaypipelinerate.htm
 old-project: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], IddCxAdapterUpdateMaxDisplayPipelineRate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, display.iddcxadapterupdatemaxdisplaypipelinerate
+ms.date: 2/24/2018
+ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _Must_inspect_result_
-topictype: 
+req.irql: "_Must_inspect_result_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IddCxAdapterUpdateMaxDisplayPipelineRate
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Input arguments to the function
 
 
 
+
 (NTSTATUS) The method returns S_OK if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

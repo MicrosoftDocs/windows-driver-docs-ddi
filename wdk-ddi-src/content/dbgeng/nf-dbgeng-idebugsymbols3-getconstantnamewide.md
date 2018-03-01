@@ -7,8 +7,8 @@ old-location: debugger\getconstantnamewide.htm
 old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetConstantNameWide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, GetConstantNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetConstantNameWide
+ms.date: 2/23/2018
+ms.keywords: GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide,IDebugSymbols3.GetConstantNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols3.GetConstantNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetConstantNameWide method
@@ -105,7 +105,9 @@ Receives the size in characters of the constant's name.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,17 @@ The method was successful. However, the buffer was not large enough for the cons
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 

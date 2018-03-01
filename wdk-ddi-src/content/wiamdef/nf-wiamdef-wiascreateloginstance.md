@@ -7,8 +7,8 @@ old-location: image\wiascreateloginstance.htm
 old-project: image
 ms.assetid: 7a340187-51c5-4997-b4d0-5b89ea8e16c0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml, image.wiascreateloginstance, wiasCreateLogInstance, wiamdef/wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: image.wiascreateloginstance, wiamdef/wiasCreateLogInstance, wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices], wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Wiaservc.dll
-apiname: 
+api_name:
 -	wiasCreateLogInstance
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,8 @@ Pointer to a memory location that receives the address of the logging interface.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 

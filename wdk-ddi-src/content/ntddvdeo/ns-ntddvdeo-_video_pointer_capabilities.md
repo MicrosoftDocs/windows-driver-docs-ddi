@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POINTER_CAPABILITIES
-title: _VIDEO_POINTER_CAPABILITIES
+title: "_VIDEO_POINTER_CAPABILITIES"
 author: windows-driver-content
 description: Contains capabilities of the screen pointer.
 old-location: display\video_pointer_capabilities.htm
 old-project: display
 ms.assetid: bc5f98da-1e2e-421b-9c76-97359e51b526
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.video_pointer_capabilities, Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, VIDEO_POINTER_CAPABILITIES structure [Display Devices], VIDEO_POINTER_CAPABILITIES, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], ntddvdeo/VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES, _VIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, _VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddvdeo.h
-apiname: 
+api_name:
 -	VIDEO_POINTER_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ typedef struct _VIDEO_POINTER_CAPABILITIES {
 ### -field Flags
 
 A set of flags that specify certain capabilities of the pointer. Flags can be a combination of the following values.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -129,7 +130,8 @@ The current pointer has the same hotspot as the previous pointer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxWidth

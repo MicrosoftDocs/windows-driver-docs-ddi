@@ -7,8 +7,8 @@ old-location: image\devicedialogdata.htm
 old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/LPDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, PDEVICEDIALOGDATA structure pointer [Imaging Devices], *PDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: "*LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, image.devicedialogdata, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiadevd.h
-apiname: 
+api_name:
 -	DEVICEDIALOGDATA
 product: Windows
 targetos: Windows
-req.typenames: *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA
+req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,7 @@ Array of IWiaItem interface pointers. Array must
 ## -remarks
 
 
+
 The DEVICEDIALOGDATA structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a> method.
 
 The array specified in <i>ppIWiaItems</i> must be allocated using <b>CoTaskMemAlloc</b>. All interface pointers indicated in the array must be initialized using the <b>AddRef</b> COM method. See the Windows SDK documentation for descriptions of these functions.
@@ -120,13 +121,16 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

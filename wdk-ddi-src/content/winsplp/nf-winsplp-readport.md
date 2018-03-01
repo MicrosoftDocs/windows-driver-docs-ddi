@@ -7,8 +7,8 @@ old-location: print\readport.htm
 old-project: print
 ms.assetid: ab1fb259-edcb-4e19-9afb-18aa6688764a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], ReadPort, print.readport, winsplp/ReadPort
+ms.date: 2/2/2018
+ms.keywords: ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], print.readport, winsplp/ReadPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	ReadPort
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Caller-supplied pointer to a location to receive the number of bytes successfull
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -124,21 +127,32 @@ It is acceptable for a language monitor to call a port monitor's <code>ReadPort<
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
 
-<a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ReadPort function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ReadPort function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

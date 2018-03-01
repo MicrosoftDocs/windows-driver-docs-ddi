@@ -7,8 +7,8 @@ old-location: wdf\iwdfioqueue_retrievenextrequestbyfileobject.htm
 old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, RetrieveNextRequestByFileObject method, IWDFIoQueue
+ms.date: 2/20/2018
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, RetrieveNextRequestByFileObject,IWDFIoQueue.RetrieveNextRequestByFileObject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFIoQueue.RetrieveNextRequestByFileObject
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -89,7 +89,9 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interf
 ## -returns
 
 
+
 <b>RetrieveNextRequestByFileObject</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,13 +141,16 @@ The call was made to retrieve the request from a parallel queue.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RetrieveNextRequestByFileObject</b> might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 If a driver configures an I/O queue for manual dispatching of I/O requests, the driver can call the <b>RetrieveNextRequestByFileObject</b> method to obtain the next request whose file object matches the supplied file object from the queue. For more information about manually dispatching I/O requests, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">Configuring Dispatch Mode for an I/O Queue</a>. 
@@ -153,22 +158,39 @@ If a driver configures an I/O queue for manual dispatching of I/O requests, the 
 If multiple I/O requests whose file objects match the file object that the <i>pFileObject</i> parameter points to exist in the I/O queue, the first I/O request is returned.
 
 
+#### Examples
+
+For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::RetrieveNextRequestByFileObject method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::RetrieveNextRequestByFileObject method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

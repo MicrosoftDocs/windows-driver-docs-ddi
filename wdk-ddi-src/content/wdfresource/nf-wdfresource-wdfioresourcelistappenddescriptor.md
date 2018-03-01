@@ -7,8 +7,8 @@ old-location: wdf\wdfioresourcelistappenddescriptor.htm
 old-project: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListAppendDescriptor, kmdf.wdfioresourcelistappenddescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, WdfIoResourceListAppendDescriptor method, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, wdfresource/WdfIoResourceListAppendDescriptor, wdf.wdfioresourcelistappenddescriptor
+ms.date: 2/20/2018
+ms.keywords: DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfIoResourceListAppendDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,9 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_D
 ## -returns
 
 
+
 <b>WdfIoResourceListAppendDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,13 +126,16 @@ The framework could not allocate space to store the descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The framework copies the contents of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that the <i>Descriptor</i> parameter points to into internal storage, so the driver routine that calls <b>WdfIoResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfIoResourceListAppendDescriptor</b>, the driver can reuse the <b>IO_RESOURCE_DESCRIPTOR</b> structure.
@@ -138,18 +143,78 @@ The framework copies the contents of the <a href="..\wdm\ns-wdm-_io_resource_des
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example creates an empty logical configuration and adds it to a resource requirements list. Then, the example initializes a resource descriptor and adds the descriptor to the logical configuration.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_RESOURCE_DESCRIPTOR  descriptor;
+NTSTATUS  status;
+WDFIORESLIST  logConfig;
+
+status = WdfIoResourceListCreate(
+                                 RequirementsList,
+                                 WDF_NO_OBJECT_ATTRIBUTES,
+                                 &amp;logConfig
+                                 );
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+status = WdfIoResourceRequirementsListAppendIoResList(
+                                                      RequirementsList,
+                                                      logConfig
+                                                      );
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+RtlZeroMemory(
+              &amp;descriptor,
+              sizeof(descriptor)
+              );
+
+descriptor.Option = 0;
+descriptor.Type = CmResourceTypePort;
+descriptor.ShareDisposition = CmResourceShareDeviceExclusive;
+descriptor.Flags = CM_RESOURCE_PORT_IO|CM_RESOURCE_PORT_16_BIT_DECODE;
+descriptor.u.Port.Length = 1;
+descriptor.u.Port.Alignment = 0x01;
+descriptor.u.Port.MinimumAddress.QuadPart = 0;
+descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
+
+status = WdfIoResourceListAppendDescriptor(
+                                           logConfig,
+                                           &amp;descriptor
+                                           );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
 
+
+
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md">WdfIoResourceListInsertDescriptor</a>
+
+
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceListAppendDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceListAppendDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

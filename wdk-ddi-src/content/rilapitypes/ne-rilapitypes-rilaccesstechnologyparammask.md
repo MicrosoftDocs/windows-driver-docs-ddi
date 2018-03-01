@@ -7,8 +7,8 @@ old-location: netvista\rilaccesstechnologyparammask_2.htm
 old-project: netvista
 ms.assetid: 9acb41d8-502f-404e-a03f-d222eff6d0ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, rilapitypes/RIL_PARAM_ACCTECH_ALL, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND, rilapitypes/RILACCESSTECHNOLOGYPARAMMASK, RIL_PARAM_ACCTECH_SYSTEMKIND, RIL_PARAM_ACCTECH_ALL, netvista.rilaccesstechnologyparammask_2
+ms.date: 2/16/2018
+ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ACCTECH_ALL, RIL_PARAM_ACCTECH_SYSTEMKIND, netvista.rilaccesstechnologyparammask_2, rilapitypes/RILACCESSTECHNOLOGYPARAMMASK, rilapitypes/RIL_PARAM_ACCTECH_ALL, rilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILACCESSTECHNOLOGYPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILACCESSTECHNOLOGYPARAMMASK {
 ### -field RIL_PARAM_ACCTECH_SYSTEMTYPE
 
 
-
 ### -field RIL_PARAM_ACCTECH_SYSTEMKIND
 
 
-
 ### -field RIL_PARAM_ACCTECH_ALL
-
 

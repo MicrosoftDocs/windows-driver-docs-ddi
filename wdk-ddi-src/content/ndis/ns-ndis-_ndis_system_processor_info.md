@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_SYSTEM_PROCESSOR_INFO
-title: _NDIS_SYSTEM_PROCESSOR_INFO
+title: "_NDIS_SYSTEM_PROCESSOR_INFO"
 author: windows-driver-content
 description: The NDIS_SYSTEM_PROCESSOR_INFO structure specifies information about the CPU topology of the local computer and the receive side scaling (RSS) processor set.
 old-location: netvista\ndis_system_processor_info.htm
 old-project: netvista
 ms.assetid: f59b9394-7742-423d-9a6e-3a429ccb0740
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, *PNDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO, _NDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_system_processor_info
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO, ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, netvista.ndis_system_processor_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_SYSTEM_PROCESSOR_INFO
 product: Windows
 targetos: Windows
@@ -97,8 +97,8 @@ Reserved. Set this member to zero.
 ### -field ProcessorVendor
 
 The processor vendor specified as one of the values from the 
-     <mshelp:link keywords="netvista.ndis_processor_vendor" tabindex="0"><b>
-     NDIS_PROCESSOR_VENDOR</b></mshelp:link> enumeration.
+     <a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">
+     NDIS_PROCESSOR_VENDOR</a> enumeration.
 
 
 ### -field NumPhysicalPackages
@@ -142,8 +142,8 @@ A pointer to an optional caller-provided buffer that will contain the CPU number
      obtain CPU numbers, this member must contain a valid pointer and the size of this buffer must be at
      least 
      <b>MAXIMUM_PROCESSORS * sizeof (UCHAR)</b>. After the 
-     <mshelp:link keywords="netvista.ndisgetprocessorinformation" tabindex="0"><b>
-     NdisGetProcessorInformation</b></mshelp:link> function returns successfully, the buffer contains CPU numbers
+     <a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">
+     NdisGetProcessorInformation</a> function returns successfully, the buffer contains CPU numbers
      followed by undefined data.
 
 
@@ -155,39 +155,53 @@ An array of
      <b>NdisGetProcessorInformation</b> function returns successfully, this array provides information for
      each processor in the local computer. The number of values in the array is equal to the number of
      processors in the local computer, as the 
-     <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
-     NdisSystemActiveProcessorCount</b></mshelp:link> function reports.
+     <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+     NdisSystemActiveProcessorCount</a> function reports.
 
 
 ## -remarks
 
 
+
 NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to the 
-    <mshelp:link keywords="netvista.ndisgetprocessorinformation" tabindex="0"><b>
-    NdisGetProcessorInformation</b></mshelp:link> function. After 
+    <a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">
+    NdisGetProcessorInformation</a> function. After 
     <b>NdisGetProcessorInformation</b> returns, this structure contains information about the CPU topology of
     the system and the set of processors that will be used for receive side scaling (RSS).
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
-   NdisSystemActiveProcessorCount</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">NDIS_PROCESSOR_VENDOR</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 <a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
 
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">NDIS_PROCESSOR_VENDOR</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+   NdisSystemActiveProcessorCount</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SYSTEM_PROCESSOR_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SYSTEM_PROCESSOR_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

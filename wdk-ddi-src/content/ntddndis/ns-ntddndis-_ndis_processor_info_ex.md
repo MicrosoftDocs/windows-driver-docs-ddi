@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_PROCESSOR_INFO_EX
-title: _NDIS_PROCESSOR_INFO_EX
+title: "_NDIS_PROCESSOR_INFO_EX"
 author: windows-driver-content
 description: The NDIS_PROCESSOR_INFO_EX structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info_ex.htm
 old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, ntddndis/PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, _NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, netvista.ndis_processor_info_ex, ntddndis/NDIS_PROCESSOR_INFO_EX, ntddndis/PNDIS_PROCESSOR_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_PROCESSOR_INFO_EX
 product: Windows
 targetos: Windows
@@ -110,8 +110,8 @@ The node identifier of the processor. This is the number of the NUMA node to whi
 
 The node distance of the processor. If the handle at the 
      <i>NdisHandle</i> parameter that the caller passed to the 
-     <mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-     NdisGetProcessorInformationEx</b></mshelp:link> function is not <b>NULL</b> and is a miniport adapter handle, this member
+     <a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+     NdisGetProcessorInformationEx</a> function is not <b>NULL</b> and is a miniport adapter handle, this member
      contains the distance of the corresponding NIC from this processor's NUMA node. Otherwise, this member
      is zero for miniport drivers or USHORT_MAX (0xffff) for other drivers.
 
@@ -119,24 +119,32 @@ The node distance of the processor. If the handle at the
 ## -remarks
 
 
+
 The NDIS_PROCESSOR_INFO_EX structure is used in the 
-    <mshelp:link keywords="netvista.ndis_system_processor_info_ex" tabindex="0"><b>
-    NDIS_SYSTEM_PROCESSOR_INFO_EX</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">
+    NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
-<mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-   NdisGetProcessorInformationEx</b></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROCESSOR_INFO_EX structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROCESSOR_INFO_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

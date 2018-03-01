@@ -7,8 +7,8 @@ old-location: netvista\ndismfreesharedmemory.htm
 old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, ndis/NdisMFreeSharedMemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMFreeSharedMemory function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMFreeSharedMemory</b> frees memory that was previously allocated by 
   <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-  <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-  NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> by the driver of a DMA NIC.
+  <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+  NdisMAllocateSharedMemoryAsyncEx</a> by the driver of a DMA NIC.
 
 
 ## -syntax
@@ -108,18 +108,22 @@ Specifies the corresponding physical address returned by
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If it has already made a successful call to 
     <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>, the miniport driver of a DMA device calls 
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a>, the miniport driver of a DMA device calls 
     <b>NdisMFreeSharedMemory</b> if any of the following occurs:
+
 <ul>
 <li>
 Its 
@@ -142,7 +146,8 @@ The driver allocated additional shared memory with
       subsided to an average level.
 
 </li>
-</ul>A miniport driver cannot call 
+</ul>
+A miniport driver cannot call 
     <b>NdisMFreeSharedMemory</b> to free a subrange within an allocated shared memory range. The parameters
     passed to 
     <b>NdisMFreeSharedMemory</b> must match exactly those that were passed to 
@@ -159,25 +164,38 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
 
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMFreeSharedMemory function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMFreeSharedMemory function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

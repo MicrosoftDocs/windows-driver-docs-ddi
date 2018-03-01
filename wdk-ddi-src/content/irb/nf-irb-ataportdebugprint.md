@@ -7,8 +7,8 @@ old-location: storage\ataportdebugprint.htm
 old-project: storage
 ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: irb/AtaPortDebugPrint, storage.ataportdebugprint, atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, AtaPortDebugPrint routine [Storage Devices], AtaPortDebugPrint
+ms.date: 2/24/2018
+ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+api_name:
 -	AtaPortDebugPrint
 product: Windows
 targetos: Windows
@@ -87,16 +87,21 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 None 
 
 
 
+
 ## -remarks
 
 
+
 The verbosity of debug output is determined by <i>DebugPrintLevel</i> and a port driver-specific mask. Use the <b>nt!kd_idep_mask</b> command to set the desired level of verbosity. For more information about the kernel debugger, see the <a href="https://msdn.microsoft.com/e2490442-9d90-454b-95e0-db8c5d7fa19a">Using a Debugger</a> topic 
+
 
 

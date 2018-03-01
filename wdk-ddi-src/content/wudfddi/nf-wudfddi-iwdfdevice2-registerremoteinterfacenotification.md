@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
 old-project: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, IWDFDevice2::RegisterRemoteInterfaceNotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml
+ms.date: 2/20/2018
+ms.keywords: IWDFDevice2, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, RegisterRemoteInterfaceNotification,IWDFDevice2.RegisterRemoteInterfaceNotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice2.RegisterRemoteInterfaceNotification
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -86,11 +86,14 @@ If the driver sets this value to <b>FALSE</b>, the framework notifies the driver
 ## -returns
 
 
+
 <b>RegisterRemoteInterfaceNotification</b> returns S_OK of the operation succeeds. Otherwise, this method returns another value that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the callback interface that the driver previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> supports the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a> interface.
@@ -98,16 +101,67 @@ Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the call
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function can register for notification of the arrival of a device interface.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+CMyDriver::OnDeviceAdd(
+    __in IWDFDriver  *FxDriver,
+    __in IWDFDeviceInitialize  *FxDeviceInit
+    )
+{
+    CComPtr&lt;IWDFDevice&gt; fxDevice;
+    HRESULT hr;
+
+    //
+    // Create a device object and obtain the IWDFDevice interface.
+    //
+    hr = FxDriver-&gt;CreateDevice(FxDeviceInit,
+                                MyDeviceIUnknown,
+                                &amp;fxDevice);
+    if (FAILED(hr)) goto Error;
+
+    //
+    // Obtain the IWDFDevice2 interface from IWDFDevice.
+    //
+    CComPtr&lt;IWDFDevice2&gt; fxDevice2;
+    if (FAILED(hr)) goto Error;
+    hr = fxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;fxDevice2));
+    if (S_OK != hr) goto Error;
+    //
+    // Register for notification when a device interface
+    // arrives.
+    //
+    hr = fxDevice2-&gt;RegisterRemoteInterfaceNotification(&amp;GUID_DEVINTERFACE_TOASTER,
+                                                        true);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::RegisterRemoteInterfaceNotification method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::RegisterRemoteInterfaceNotification method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._SCSI_ADDR
-title: _SCSI_ADDR
+title: "_SCSI_ADDR"
 author: windows-driver-content
 description: The SCSI_ADDR structure represents a SCSI address.
 old-location: storage\scsi_addr.htm
 old-project: storage
 ms.assetid: d53e0b05-8761-4b88-a7d5-081244b3dc93
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SCSI_ADDR, mpiowmi/PSCSI_ADDR, SCSI_ADDR structure [Storage Devices], storage.scsi_addr, PSCSI_ADDR structure pointer [Storage Devices], PSCSI_ADDR, *PSCSI_ADDR, mpiowmi/SCSI_ADDR, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml, _SCSI_ADDR
+ms.date: 2/24/2018
+ms.keywords: "*PSCSI_ADDR, PSCSI_ADDR, PSCSI_ADDR structure pointer [Storage Devices], SCSI_ADDR, SCSI_ADDR structure [Storage Devices], _SCSI_ADDR, mpiowmi/PSCSI_ADDR, mpiowmi/SCSI_ADDR, storage.scsi_addr, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	SCSI_ADDR
 product: Windows
 targetos: Windows

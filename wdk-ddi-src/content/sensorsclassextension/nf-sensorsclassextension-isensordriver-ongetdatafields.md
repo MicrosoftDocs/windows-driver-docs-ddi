@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetdatafields.htm
 old-project: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_ongetdatafields, ISensorDriver::OnGetDataFields, OnGetDataFields, ISensorDriver, OnGetDataFields method [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: ISensorDriver, ISensorDriver::OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields,ISensorDriver.OnGetDataFields, sensors.isensordriver_ongetdatafields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+api_name:
 -	OnGetDataFields
 product: Windows
 targetos: Windows
@@ -95,7 +95,9 @@ Address of an IPortableDeviceValues pointer that receives the requested data.
 ## -returns
 
 
+
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ The sensor has no data to report. Each of the data fields returned in the <i>ppD
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Data fields contain sensor-generated data, as opposed to properties, which describe the sensor device. Platform-defined data fields are defined in sensors.h.
@@ -139,5 +144,7 @@ The sensor class extension is responsibile for freeing any <b>PROPVARIANT</b> st
 The sensor class extension calls this method only for sensors for which the user has granted permission through Control Panel.
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> are documented in Windows Portable Devices.
+
 <div class="code"></div>
+
 

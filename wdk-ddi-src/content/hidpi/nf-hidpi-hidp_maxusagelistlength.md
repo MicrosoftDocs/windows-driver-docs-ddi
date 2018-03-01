@@ -7,8 +7,8 @@ old-location: hid\hidp_maxusagelistlength.htm
 old-project: hid
 ms.assetid: 90491024-f623-4528-8d37-4a6acb394473
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_MaxUsageListLength, HidP_MaxUsageListLength, hid.hidp_maxusagelistlength, HidP_MaxUsageListLength routine [Human Input Devices], hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml
+ms.date: 2/24/2018
+ms.keywords: HidP_MaxUsageListLength, HidP_MaxUsageListLength routine [Human Input Devices], hid.hidp_maxusagelistlength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, hidpi/HidP_MaxUsageListLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+api_name:
 -	HidP_MaxUsageListLength
 product: Windows
 targetos: Windows
@@ -88,28 +88,38 @@ Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877
 ## -returns
 
 
+
 If successful, <b>HidP_MaxUsageListLength</b> returns the maximum number of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a> that <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>. If the specified preparsed data or report type is not valid, the routine returns zero.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_MaxUsageListLength routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_MaxUsageListLength routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

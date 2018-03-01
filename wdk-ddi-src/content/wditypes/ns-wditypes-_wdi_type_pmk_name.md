@@ -1,14 +1,14 @@
 ---
 UID: NS:wditypes._WDI_TYPE_PMK_NAME
-title: _WDI_TYPE_PMK_NAME
+title: "_WDI_TYPE_PMK_NAME"
 author: windows-driver-content
 description: The WDI_TYPE_PMK_NAME structure defines the PMKR0Name or PMKR1Name (802.11r).
 old-location: netvista\wdi_type_pmk_name.htm
 old-project: netvista
 ms.assetid: 71020A3E-0839-4D73-B1B7-8A979BD0F5E0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wdi_type_pmk_name, *PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], wditypes/PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME
+ms.date: 2/16/2018
+ms.keywords: "*PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, netvista.wdi_type_pmk_name, wditypes/PWDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_TYPE_PMK_NAME
 product: Windows
 targetos: Windows

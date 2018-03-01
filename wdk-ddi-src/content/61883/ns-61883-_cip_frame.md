@@ -1,14 +1,14 @@
 ---
 UID: NS:61883._CIP_FRAME
-title: _CIP_FRAME
+title: "_CIP_FRAME"
 author: windows-driver-content
 description: The CIP_FRAME structure describes a frame to be attached to an input or output plug.
 old-location: ieee\cip_frame.htm
 old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.cip_frame, 61883/PCIP_FRAME, PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME structure [Buses], CIP_FRAME, *PCIP_FRAME, PCIP_FRAME structure pointer [Buses], 61883/CIP_FRAME, _CIP_FRAME
+ms.date: 2/15/2018
+ms.keywords: "*PCIP_FRAME, 61883/CIP_FRAME, 61883/PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, CIP_FRAME, CIP_FRAME structure [Buses], IEEE.cip_frame, PCIP_FRAME, PCIP_FRAME structure pointer [Buses], _CIP_FRAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	61883.h
-apiname: 
+api_name:
 -	CIP_FRAME
 product: Windows
 targetos: Windows
@@ -79,15 +79,6 @@ typedef struct _CIP_FRAME {
 
 
 
-### -field Reserved
-
-
-
-### -field pNext
-
-Reserved for internal use.
-
-
 ### -field Flags
 
 Specifies options associated with this frame. 
@@ -96,22 +87,65 @@ For packets to be received, <b>Flags</b> can be one of the following:
 
 
 
+
+
+#### CIP_VALIDATE_FIRST_SOURCE
+
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
+
+
+
+#### CIP_VALIDATE_ALL_SOURCE
+
+Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
+
 For packets to be received, CIP_VALIDATE_XXX can be combined with either or both of the following:
 
 
 
+
+
+#### CIP_STRIP_SOURCE_HEADER
+
+Instructs the protocol driver to strip the source header packet within a source packet.
+
+
+
+#### CIP_USE_SOURCE_HEADER_TIMESTAMP
+
+Instructs the protocol driver to timestamp the frame with the timestamp found within the source header packet.
+
 For packets to be transmitted, <b>Flags</b> can be one of the following:
 
 
+
+
+
+#### CIP_DV_STYLE_SYT
+
+The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
+
+
+
+#### CIP_AUDIO_STYLE_SYT
+
+The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
 
 For packets to be transmitted or received, <b>Flags</b> can also be set with the following:
 
 
 
 
+
+#### CIP_RESET_FRAME_ON_DISCONTINUITY
+
+Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
+
+
 ### -field pfnValidate
 
 Points to a caller-supplied function to validate a source packet. This function uses the following prototype: The parameter <b>ValidateInfo</b> must point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537048">CIP_VALIDATE_INFO</a> structure that contains information about the frame. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -136,6 +170,7 @@ Points to an optional caller-defined context for the function at <b>pfnValidate<
 Points to a caller-supplied function to be called by the protocol driver when the requested frame is completed. The protocol driver calls this function at IRQL = DISPATCH_LEVEL.
 
 This function uses the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -149,6 +184,11 @@ This function uses the following prototype:
 </td>
 </tr>
 </table></span></div>
+
+
+
+
+##### 
 
 
 ### -field NotifyContext
@@ -184,55 +224,27 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 ### -field CompletedBytes
 
 
-
-##### - Flags.CIP_USE_SOURCE_HEADER_TIMESTAMP
-
-Instructs the protocol driver to timestamp the frame with the timestamp found within the source header packet.
+#### - Reserved
 
 
-##### - Flags.CIP_RESET_FRAME_ON_DISCONTINUITY
+#### - pNext
 
-Instructs the protocol driver to resume a stopped stream at the beginning of the frame instead of the next source packet. 
-
-
-##### - Flags.CIP_DV_STYLE_SYT
-
-The value at <b>TimeStamp</b> is formatted for data transmission to digital video devices (SD-DVCR, HD-DVCR, or SDL-DVCR).
-
-
-##### - Flags.CIP_VALIDATE_FIRST_SOURCE
-
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate only the first source packet.
-
-
-##### - Flags.CIP_STRIP_SOURCE_HEADER
-
-Instructs the protocol driver to strip the source header packet within a source packet.
-
-
-##### - Flags.CIP_VALIDATE_ALL_SOURCE
-
-Instructs the IEC-61883 protocol driver to call the client-driver-supplied function at <b>pfnValidate</b> to validate all source packets.
-
-
-##### - Flags.CIP_AUDIO_STYLE_SYT
-
-The value at <b>TimeStamp</b> is formatted for audio and music data transmission to audio devices.
-
-
-###### - pfnNotify.The NotifyInfo parameter points to a CIP_NOTIFY_INFO structure that contains information about the frame.
-
+Reserved for internal use.
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536950">Av61883_AttachFrame</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_FRAME structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_FRAME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

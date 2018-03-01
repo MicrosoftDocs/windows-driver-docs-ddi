@@ -1,14 +1,14 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
-title: _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+title: "_IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\identify_device_data_log_page_zoned_device_info.htm
 old-project: storage
 ms.assetid: 2F0B6C1F-54CC-47CF-B0D0-A53FAB80AF91
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, storage.identify_device_data_log_page_zoned_device_info, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices], _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, storage.identify_device_data_log_page_zoned_device_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ata.h
-apiname: 
+api_name:
 -	IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+req.typenames: IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ---
 
 # _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure
@@ -102,21 +102,28 @@ typedef struct _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO {
 
 
 
+### -field Header
+
+N/A
+
+
 ### -field ZonedDeviceCapabilities
 
 
 
-### -field ZonedDeviceCapabilities.URSWRZ
+#### URSWRZ
 
 N/A
 
 
-### -field ZonedDeviceCapabilities.Reserved
+
+#### Reserved
 
 N/A
 
 
-### -field ZonedDeviceCapabilities.Valid
+
+#### Valid
 
 N/A
 
@@ -125,12 +132,13 @@ N/A
 
 
 
-### -field ZonedDeviceSettings.Reserved
+#### Reserved
 
 N/A
 
 
-### -field ZonedDeviceSettings.Valid
+
+#### Valid
 
 N/A
 
@@ -139,17 +147,19 @@ N/A
 
 
 
-### -field OptimalNumberOfOpenSequentialWritePreferredZones.Number
+#### Number
 
 N/A
 
 
-### -field OptimalNumberOfOpenSequentialWritePreferredZones.Reserved
+
+#### Reserved
 
 N/A
 
 
-### -field OptimalNumberOfOpenSequentialWritePreferredZones.Valid
+
+#### Valid
 
 N/A
 
@@ -158,17 +168,19 @@ N/A
 
 
 
-### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Number
+#### Number
 
 N/A
 
 
-### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Reserved
+
+#### Reserved
 
 N/A
 
 
-### -field OptimalNumberOfNonSequentiallyWrittenSequentialWritePreferredZones.Valid
+
+#### Valid
 
 N/A
 
@@ -177,17 +189,19 @@ N/A
 
 
 
-### -field MaxNumberOfOpenSequentialWriteRequiredZones.Number
+#### Number
 
 N/A
 
 
-### -field MaxNumberOfOpenSequentialWriteRequiredZones.Reserved
+
+#### Reserved
 
 N/A
 
 
-### -field MaxNumberOfOpenSequentialWriteRequiredZones.Valid
+
+#### Valid
 
 N/A
 
@@ -196,22 +210,19 @@ N/A
 
 
 
-### -field Version.ZacMinorVersion
+#### ZacMinorVersion
 
 N/A
 
 
-### -field Version.Reserved0
+
+#### Reserved0
 
 N/A
 
 
-### -field Version.Valid
 
-N/A
-
-
-### -field Header
+#### Valid
 
 N/A
 

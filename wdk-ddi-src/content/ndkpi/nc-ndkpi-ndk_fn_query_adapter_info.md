@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_query_adapter_info.htm
 old-project: netvista
 ms.assetid: A307584E-CBF6-4CEB-8A0F-D519DA7599D3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_query_adapter_info, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], NdkQueryAdapterInfo, NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO, ndkpi/NdkQueryAdapterInfo
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkQueryAdapterInfo
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_QUERY_ADAPTER_INFO callback
@@ -72,42 +72,29 @@ NTSTATUS NdkQueryAdapterInfo(
 
 
 
-### -param *pNdkAdapter
+### -param *pNdkAdapter [in]
 
+A pointer to an NDK adapter (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER)</a> instance.
 
 
 ### -param *pInfo
 
-
-
-### -param *pBufferSize
-
-
-
-
-
-
-#### - pInfo
-
 A pointer to a buffer that contains an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information. 
 
 
-#### - pBufferSize
+### -param *pBufferSize
 
 On input, this parameter is a pointer to a variable that holds the size, in bytes, of the buffer that the  <i>pInfo</i> parameter  points to. On output, the variable receives the size, in bytes,  of the adapter information that was written into the buffer.
 
 
 
-#### - pNdkAdapter [in]
-
-A pointer to an NDK adapter (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER)</a> instance.
-
-
 ## -returns
+
 
 
 The 
      <i>NdkQueryAdapterInfo</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,11 +136,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>NdkQueryAdapterInfo</i> retrieves the adapter information in an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure. The structure  contains information on various limits and capabilities of the adapter.
@@ -162,17 +152,24 @@ An error occurred.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_QUERY_ADAPTER_INFO callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_QUERY_ADAPTER_INFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndisgetdatabuffer.htm
 old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisGetDataBuffer, ndis/NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetdatabuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml
+ms.date: 2/16/2018
+ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisGetDataBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetDataBuffer function
@@ -107,6 +107,7 @@ The offset, in bytes, from the alignment multiple.
 ## -returns
 
 
+
 <b>NdisGetDataBuffer</b> returns a pointer to the start of the contiguous data or it returns <b>NULL</b>.
 
 If the 
@@ -119,6 +120,7 @@ If the
 If the requested data in the buffer is contiguous, the return value is a pointer to a location that
       NDIS provides. If the data is not contiguous, NDIS uses the 
       <i>Storage</i> parameter as follows:
+
 <ul>
 <li>If the 
        <i>Storage</i> parameter is non-<b>NULL</b>, NDIS copies the data to the buffer at 
@@ -126,11 +128,14 @@ If the requested data in the buffer is contiguous, the return value is a pointer
        <i>Storage</i> parameter.</li>
 <li>If the 
        <i>Storage</i> parameter is <b>NULL</b>, the return value is <b>NULL</b>.</li>
-</ul>The return value can also be <b>NULL</b> due to a low resource condition where a data buffer cannot be mapped. This may occur even if the data is contiguous or the <i>Storage</i> parameter is non-<b>NULL</b>.
+</ul>
+The return value can also be <b>NULL</b> due to a low resource condition where a data buffer cannot be mapped. This may occur even if the data is contiguous or the <i>Storage</i> parameter is non-<b>NULL</b>.
+
 
 
 
 ## -remarks
+
 
 
 Call this function to get a pointer to a network data header contained in the 
@@ -145,15 +150,20 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetDataBuffer function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetDataBuffer function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\drmforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, drmk/DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject
+ms.date: 2/22/2018
+ms.keywords: DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Drmk.lib
 -	Drmk.dll
-apiname: 
+api_name:
 -	DrmForwardContentToDeviceObject
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Pointer to a <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure
 ## -returns
 
 
+
 <code>DrmForwardContentToDeviceObject</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Before allowing protected content to flow through a data path, the system verifies that the data path is secure. To do so, the system authenticates each module in the data path beginning at the upstream end of the data path and moving downstream. As each module is authenticated, that module gives the system information about the next module in the data path so that it can also be authenticated. To be successfully authenticated, a module's binary file must be signed as DRM-compliant.
@@ -100,6 +103,7 @@ Before allowing protected content to flow through a data path, the system verifi
 Two adjacent modules in the data path can communicate with each other in one of several ways. If the upstream module calls the downstream module through <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, the downstream module is part of a WDM driver. In this case, the upstream module calls the <code>DrmForwardContentToDeviceObject</code> function to provide the system with the device object representing the downstream module. (If the two modules communicate through the downstream module's COM interface or content handlers, the upstream module calls <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a> or <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a> instead.)
 
 The caller fills in the <b>DeviceObject</b>, <b>FileObject</b>, and <b>Context</b> members of the <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure that parameter <i>DrmForward</i> points to. <code>DrmForwardContentToDeviceObject</code> uses these values as follows:
+
 <ul>
 <li>
 <b>DeviceObject</b> specifies the device object that represents the driver (the downstream module). <code>DrmForwardContentToDeviceObject</code> uses the device object to authenticate the driver. If successful, the function sets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a> property on the device by sending a set-property request to a KS pin on the device.
@@ -113,12 +117,16 @@ The caller fills in the <b>DeviceObject</b>, <b>FileObject</b>, and <b>Context</
 <b>Context</b> specifies a context value that the caller passes to the driver through the property request. <code>DrmForwardContentToDeviceObject</code> copies the context value into the request's property descriptor. The context value is typically a pointer to a buffer containing data in some custom format that both the caller and driver understand. By convention, if the downstream module is a KS filter, the <b>Context</b> member points to a file object that specifies the KS pin to which the <code>DrmForwardContentToDeviceObject</code> function sends the property request. In other words, the <b>Context</b> member points to the same file object as the <b>FileObject</b> member. USB audio drivers must set the <b>Context</b> parameter to a USBD_PIPE_HANDLE value.
 
 </li>
-</ul>The property request also contains the DRM content ID from parameter <i>ContentId</i> and the DRM content rights belonging to that content ID. <code>DrmForwardContentToDeviceObject</code> copies these values into the request's property value. <code>DrmForwardContentToDeviceObject</code> makes no further use of the device object after returning.
+</ul>
+The property request also contains the DRM content ID from parameter <i>ContentId</i> and the DRM content rights belonging to that content ID. <code>DrmForwardContentToDeviceObject</code> copies these values into the request's property value. <code>DrmForwardContentToDeviceObject</code> makes no further use of the device object after returning.
 
 <code>DrmForwardContentToDeviceObject</code> performs the same function as <a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>. For more information, see <a href="https://msdn.microsoft.com/62c739da-91e8-428e-b76c-ec9621b12597">DRM Functions and Interfaces</a>.
 
 The KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property assigns the DRM content ID and DRM content rights to a KS audio pin.
-<h3><a id="ddk_ksproperty_drmaudiostream_contentid_ks"></a><a id="DDK_KSPROPERTY_DRMAUDIOSTREAM_CONTENTID_KS"></a></h3><h3><a id="Usage_Summary_Table"></a><a id="usage_summary_table"></a><a id="USAGE_SUMMARY_TABLE"></a>Usage Summary Table</h3><table>
+
+<h3><a id="ddk_ksproperty_drmaudiostream_contentid_ks"></a><a id="DDK_KSPROPERTY_DRMAUDIOSTREAM_CONTENTID_KS"></a></h3>
+<h3><a id="Usage_Summary_Table"></a><a id="usage_summary_table"></a><a id="USAGE_SUMMARY_TABLE"></a>Usage Summary Table</h3>
+<table>
 <tr>
 <th>Get</th>
 <th>Set</th>
@@ -152,10 +160,14 @@ Pin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The property value (operation data) is a KSDRMAUDIOSTREAM_CONTENTID structure that specifies the stream's DRM content ID and DRM content rights.
-<h3><a id="Return_Value"></a><a id="return_value"></a><a id="RETURN_VALUE"></a>Return Value</h3>A KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property request returns a status code that indicates whether the KS filter can enforce the specified DRM content rights, as shown in the following table.
+
+<h3><a id="Return_Value"></a><a id="return_value"></a><a id="RETURN_VALUE"></a>Return Value</h3>
+A KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property request returns a status code that indicates whether the KS filter can enforce the specified DRM content rights, as shown in the following table.
+
 <table>
 <tr>
 <th>Status Code</th>
@@ -181,7 +193,8 @@ The KS filter cannot enforce the specified DRM content rights.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The <b>DrmForwardContentToDeviceObject</b> function uses this property to set the DRM content ID and content rights on the audio stream entering the KS pin that is the target of the property request.
 
@@ -195,25 +208,40 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
+
 ## -see-also
-
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
- 
+
+
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmForwardContentToDeviceObject function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmForwardContentToDeviceObject function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

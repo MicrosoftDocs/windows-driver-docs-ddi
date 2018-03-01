@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvisuirequestpending.htm
 old-project: netvista
 ms.assetid: e8747dc5-7ef7-4914-baf7-683ddfe68313
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvisuirequestpending, Dot11ExtIhvIsUIRequestPending callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvIsUIRequestPending, DOT11EXTIHV_IS_UI_REQUEST_PENDING, DOT11EXTIHV_IS_UI_REQUEST_PENDING, wlanihv/Dot11ExtIhvIsUIRequestPending, Native_802.11_IHV_Ext_88488999-ecad-4845-a4b3-051b96c506dd.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_IS_UI_REQUEST_PENDING, Dot11ExtIhvIsUIRequestPending, Dot11ExtIhvIsUIRequestPending callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_88488999-ecad-4845-a4b3-051b96c506dd.xml, netvista.dot11extihvisuirequestpending, wlanihv/Dot11ExtIhvIsUIRequestPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvIsUIRequestPending
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -92,21 +92,24 @@ A pointer to a Boolean value. If the UI request, identified by the
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL to interact with the user.
     Examples of such requests are thedisplay of notifications during the pre-association operation or the
     input of credentials for the post-association operation. For more information about the IHV UI Extensions
     DLL, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-    DLL</mshelp:link>.
+    <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+    DLL</a>.
 
 The IHV Extensions DLL initiates these requests for user interaction through calls to the 
     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a> function. For
@@ -127,15 +130,20 @@ The operating system can periodically call the
 
 
 
-## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+## -see-also
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
 
- 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_IS_UI_REQUEST_PENDING callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_IS_UI_REQUEST_PENDING callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

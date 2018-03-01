@@ -7,8 +7,8 @@ old-location: debugger\writephysical.htm
 old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: WritePhysical function [Windows Debugging], debugger.writephysical, dbgeng/WritePhysical, WritePhysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml
+ms.date: 2/23/2018
+ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	WritePhysical
 product: Windows
 targetos: Windows
@@ -94,13 +94,17 @@ Receives the number of bytes actually written.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

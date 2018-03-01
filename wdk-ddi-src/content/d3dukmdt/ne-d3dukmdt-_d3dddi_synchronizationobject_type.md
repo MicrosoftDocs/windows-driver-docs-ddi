@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
-title: _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
+title: "_D3DDDI_SYNCHRONIZATIONOBJECT_TYPE"
 author: windows-driver-content
 description: The D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration indicates the type of synchronization object.
 old-location: display\d3dddi_synchronizationobject_type.htm
 old-project: display
 ms.assetid: afd1aad4-d4cd-420f-bd3f-f171dc818a3e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDI_FENCE, D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SEMAPHORE, d3dukmdt/, d3dukmdt/D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, D3DDDI_SYNCHRONIZATION_MUTEX, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_MONITORED_FENCE, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SEMAPHORE, display.d3dddi_synchronizationobject_type, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_CPU_NOTIFICATION, D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, D3DDDI_SEMAPHORE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], D3DDDI_SYNCHRONIZATION_MUTEX, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_FENCE, d3dukmdt/D3DDDI_MONITORED_FENCE, d3dukmdt/D3DDDI_SEMAPHORE, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, display.d3dddi_synchronizationobject_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 product: Windows
 targetos: Windows
@@ -119,7 +119,6 @@ Supported starting with Windows 10.
 
 
 ### -field D3DDDI_PERIODIC_MONITORED_FENCE
-
 
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilregstatusinfo_2.htm
 old-project: netvista
 ms.assetid: 6f5a96c2-03c3-4a44-b351-188aa39e9817
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo_2, *LPRILREGSTATUSINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo_2, rilapitypes/RILREGSTATUSINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILREGSTATUSINFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILREGSTATUSINFO, RILREGSTATUSINFO
+req.typenames: RILREGSTATUSINFO, *LPRILREGSTATUSINFO
 req.product: Windows 10 or later.
 ---
 
@@ -81,43 +81,32 @@ typedef struct _RILREGSTATUSINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwRegStatus
 
 
-
 ### -field ratAccessTechnology
-
 
 
 ### -field dwSystemCaps
 
 
-
 ### -field dwRegRejectReason
-
 
 
 ### -field ronCurrentOperator
 
 
-
 ### -field dwVoiceDomain
 
 
-
 ### -field rncNetworkCode
-
 

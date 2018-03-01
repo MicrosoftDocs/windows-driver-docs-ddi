@@ -1,14 +1,14 @@
 ---
 UID: NS:aux_klib._KBUGCHECK_DATA
-title: _KBUGCHECK_DATA
+title: "_KBUGCHECK_DATA"
 author: windows-driver-content
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
 old-project: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: *PKBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, PKBUGCHECK_DATA, KBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data, _KBUGCHECK_DATA
+ms.date: 2/24/2018
+ms.keywords: "*PKBUGCHECK_DATA, KBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	aux_klib.h
-apiname: 
+api_name:
 -	KBUGCHECK_DATA
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ Bug check parameter 4. For more information about this parameter, see specific <
 ## -remarks
 
 
+
 The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>. 
+
 
 
 
@@ -113,9 +115,11 @@ The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="..\aux_kl
 
 <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KBUGCHECK_DATA structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KBUGCHECK_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

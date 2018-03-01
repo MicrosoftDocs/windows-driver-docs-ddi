@@ -7,8 +7,8 @@ old-location: stream\ksvalidateallocatorcreaterequest.htm
 old-project: stream
 ms.assetid: 9275257b-50d8-4272-b340-4344644b3e15
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest, stream.ksvalidateallocatorcreaterequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml
+ms.date: 2/23/2018
+ms.keywords: KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ks/KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, stream.ksvalidateallocatorcreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsValidateAllocatorCreateRequest
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ Caller-defined pointer that on successful completion contains an address to the 
 ## -returns
 
 
+
 The <b>KsValidateAllocatorCreateRequest</b> function returns STATUS_SUCCESS if successful, or an error if the allocator request is not valid.
+
 
 

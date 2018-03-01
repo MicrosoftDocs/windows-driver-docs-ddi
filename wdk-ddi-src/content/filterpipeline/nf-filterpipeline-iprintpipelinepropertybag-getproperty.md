@@ -7,8 +7,8 @@ old-location: print\iprintpipelinepropertybag_getproperty.htm
 old-project: print
 ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintPipelinePropertyBag interface [Print Devices], GetProperty method, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, GetProperty method [Print Devices], GetProperty method [Print Devices], IPrintPipelinePropertyBag interface, GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag::GetProperty, print.iprintpipelinepropertybag_getproperty
+ms.date: 2/23/2018
+ms.keywords: GetProperty method [Print Devices], GetProperty method [Print Devices], IPrintPipelinePropertyBag interface, GetProperty,IPrintPipelinePropertyBag.GetProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], GetProperty method, IPrintPipelinePropertyBag::GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, print.iprintpipelinepropertybag_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPrintPipelinePropertyBag.GetProperty
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The <b>VARIANT</b> value to get from the property bag.
 ## -returns
 
 
+
 <code>GetProperty</code> returns an <b>HRESULT</b> value.
+
 
 

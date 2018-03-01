@@ -7,8 +7,8 @@ old-location: stream\ksproperty_memberslist.htm
 old-project: stream
 ms.assetid: 2354da98-8663-4758-add7-3ac4350f563c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_MEMBERSLIST, ks/PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist, *PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml, ks/KSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], PKSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices], ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml, ks/KSPROPERTY_MEMBERSLIST, ks/PKSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSPROPERTY_MEMBERSLIST
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST
+req.typenames: KSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST
 ---
 
 # KSPROPERTY_MEMBERSLIST structure
@@ -81,6 +81,7 @@ Points to an array of entries that specify legal values or ranges for a property
 ## -remarks
 
 
+
 The type of structures pointed to in the <b>Members</b> array depends on the value of <b>MembersHeader.MembersFlags</b>. See <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> for details on possible flag values.  
 
 The <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a> structure contains a pointer to an array of KSPROPERTY_MEMBERSLIST structures that specify valid range and value information for a property. In turn, a <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a> structure contains a pointer to a KSPROPERTY_VALUES structure.
@@ -89,27 +90,44 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
-
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
-
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
-<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
 
 <a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
 
+
+
+<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
 
- 
+
+
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_MEMBERSLIST structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_MEMBERSLIST structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

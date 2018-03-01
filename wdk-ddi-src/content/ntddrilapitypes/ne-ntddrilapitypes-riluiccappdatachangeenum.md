@@ -7,8 +7,8 @@ old-location: netvista\riluiccappdatachangeenum.htm
 old-project: netvista
 ms.assetid: 6960080f-03dc-4c5f-8cd8-b96d030f2bd3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_MBDN, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, RILUICCAPPDATACHANGEENUM, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachangeenum
+ms.date: 2/16/2018
+ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, netvista.riluiccappdatachangeenum, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCAPPDATACHANGEENUM
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILUICCAPPDATACHANGEENUM {
 ### -field RIL_UICCAPP_DATACHANGE_MSISDN
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_MBDN
-
 
 
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET
-
 
 
 ### -field RIL_UICCAPP_DATACHANGE_ESNME
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_MAX
-
 

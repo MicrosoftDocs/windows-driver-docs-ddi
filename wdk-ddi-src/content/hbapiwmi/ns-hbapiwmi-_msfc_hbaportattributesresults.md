@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._MSFC_HBAPortAttributesResults
-title: _MSFC_HBAPortAttributesResults
+title: "_MSFC_HBAPortAttributesResults"
 author: windows-driver-content
 description: The structure is used by the GetDiscoveredPortAttributes WMI method to report the attributes for a specified remote fibre channel port.
 old-location: storage\msfc_hbaportattributesresults.htm
 old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, hbapiwmi/MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, _MSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults
+ms.date: 2/24/2018
+ms.keywords: "*PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], PMSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], _MSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	MSFC_HBAPortAttributesResults
 product: Windows
 targetos: Windows
@@ -97,6 +97,7 @@ Contains the current fibre channel address of <b>PortWWN</b>. The high order byt
 ### -field PortType
 
 Indicates the port type. This member must have one of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -212,12 +213,14 @@ Point to point.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortState
 
 Contains the state of the port indicated by <b>PortWWN</b>. This member must have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -303,7 +306,8 @@ Loopback.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortSupportedClassofService
@@ -329,6 +333,7 @@ Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a lis
 ### -field PortSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> is currently operating. This member must have one of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -394,7 +399,8 @@ The speed at which the port will operate has not yet been established.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortMaxFrameSize
@@ -416,9 +422,11 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_HBAPortAttributesResults structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_HBAPortAttributesResults structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

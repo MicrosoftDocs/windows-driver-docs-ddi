@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvreceiveindication.htm
 old-project: netvista
 ms.assetid: b4d5c33e-563d-459c-90da-a2912c82d1cd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvreceiveindication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvReceiveIndication, DOT11EXTIHV_RECEIVE_INDICATION, DOT11EXTIHV_RECEIVE_INDICATION, wlanihv/Dot11ExtIhvReceiveIndication, Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_RECEIVE_INDICATION, Dot11ExtIhvReceiveIndication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml, netvista.dot11extihvreceiveindication, wlanihv/Dot11ExtIhvReceiveIndication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvReceiveIndication
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,8 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
 ### -param indicationType [in]
 
 The 
-     <mshelp:link keywords="netvista.dot11ext_ihv_indication_type" tabindex="0"><b>
-     DOT11EXT_IHV_INDICATION_TYPE</b></mshelp:link> indication type.
+     <a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">
+     DOT11EXT_IHV_INDICATION_TYPE</a> indication type.
 
 
 ### -param uBufferLength [in]
@@ -106,35 +106,45 @@ The pointer to a buffer, allocated by the operating system, which contains the n
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
 
 
+
 When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an 
-    <mshelp:link keywords="netvista.ndis_status_media_specific_indication" tabindex="0"><b>
-    NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</b></mshelp:link> indication, the operating system forwards the notification
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
+    NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a> indication, the operating system forwards the notification
     data to the IHV Extensions DLL by calling the 
     <i>Dot11ExtIhvReceiveIndication</i> function.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_status_media_specific_indication" tabindex="0"><b>
-   NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567399">
+   NDIS_STATUS_MEDIA_SPECIFIC_INDICATION</a>
+
+
 
 <a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">DOT11EXT_IHV_INDICATION_TYPE</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_RECEIVE_INDICATION callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_RECEIVE_INDICATION callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

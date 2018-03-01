@@ -7,8 +7,8 @@ old-location: storage\hba_portattributes.htm
 old-project: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], HBA_PORTATTRIBUTES, storage.hba_portattributes, hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, HBA_PortAttributes, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes structure [Storage Devices], structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml, *PHBA_PORTATTRIBUTES
+ms.date: 2/24/2018
+ms.keywords: "*PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes, HBA_PortAttributes structure [Storage Devices], PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, storage.hba_portattributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbaapi.h
-apiname: 
+api_name:
 -	HBA_PORTATTRIBUTES
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ Contains the current fibre channel address of <b>PortWWN</b>. The high order byt
 ### -field PortType
 
 Indicates the port type. This member must have one of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -214,12 +215,14 @@ Point to point.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortState
 
 Contains the state of the port indicated by <b>PortWWN</b>. This member must have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -305,7 +308,8 @@ Loopback.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortSupportedClassofService
@@ -331,7 +335,6 @@ Contains the symbolic name of the port.
 ### -field OSDeviceName
 
 
-
 ### -field PortSupportedSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a list of the values that this member supports, see <b>PortSpeed</b>. 
@@ -340,6 +343,7 @@ Indicates the signaling bit rates at which <b>PortWWN</b> can operate. For a lis
 ### -field PortSpeed
 
 Indicates the signaling bit rates at which <b>PortWWN</b> is currently operating. This member must have one of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -405,7 +409,8 @@ The speed at which the port will operate has not yet been established.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PortMaxFrameSize
@@ -426,19 +431,25 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 ## -remarks
 
 
+
 The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPortAttributesResults structure that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to report port attributes.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortAttributes structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_PortAttributes structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

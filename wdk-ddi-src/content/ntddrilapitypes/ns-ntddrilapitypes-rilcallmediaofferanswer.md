@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferanswer.htm
 old-project: netvista
 ms.assetid: 6d8ad287-a4bf-4db8-9fff-a4cb1df42dda
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIAOFFERANSWER
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER
+req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
 ---
 
 # RILCALLMEDIAOFFERANSWER structure
@@ -76,27 +76,20 @@ typedef struct _RILCALLMEDIAOFFERANSWER {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field stID
 
 
-
 ### -field fChange
-
 
 
 ### -field dwMediaAction
 
 
-
 ### -field stOldState
 
 
-
 ### -field stNewState
-
 

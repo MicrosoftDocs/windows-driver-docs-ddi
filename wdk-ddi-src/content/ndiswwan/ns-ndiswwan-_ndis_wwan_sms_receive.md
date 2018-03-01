@@ -1,14 +1,14 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_RECEIVE
-title: _NDIS_WWAN_SMS_RECEIVE
+title: "_NDIS_WWAN_SMS_RECEIVE"
 author: windows-driver-content
 description: The NDIS_WWAN_SMS_RECEIVE structure represents a list of received SMS messages and the number of messages in the list.
 old-location: netvista\ndis_wwan_sms_receive.htm
 old-project: netvista
 ms.assetid: 2ff53520-5ba0-47dc-816d-6245924356ee
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, PNDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_RECEIVE, ndiswwan/NDIS_WWAN_SMS_RECEIVE
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, _NDIS_WWAN_SMS_RECEIVE, ndiswwan/NDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndiswwan.h
-apiname: 
+api_name:
 -	NDIS_WWAN_SMS_RECEIVE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE
+req.typenames: NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE
 ---
 
 # _NDIS_WWAN_SMS_RECEIVE structure
@@ -78,6 +78,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SMS_REC
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -113,7 +114,8 @@ sizeof(NDIS_WWAN_SMS_RECEIVE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -133,13 +135,17 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
- 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_RECEIVE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_RECEIVE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

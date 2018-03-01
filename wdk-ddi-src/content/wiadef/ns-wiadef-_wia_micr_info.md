@@ -1,14 +1,14 @@
 ---
 UID: NS:wiadef._WIA_MICR_INFO
-title: _WIA_MICR_INFO
+title: "_WIA_MICR_INFO"
 author: windows-driver-content
 description: The WIA_MICR_INFO structure stores information for one decoded MICR code.
 old-location: image\wia_micr_info.htm
 old-project: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], WIA_MICR_INFO, wiadef/WIA_MICR_INFO, image.wia_micr_info
+ms.date: 2/23/2018
+ms.keywords: WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiadef.h
-apiname: 
+api_name:
 -	WIA_MICR_INFO
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEHWQUEUE
-title: _D3DDDICB_CREATEHWQUEUE
+title: "_D3DDDICB_CREATEHWQUEUE"
 author: windows-driver-content
 description: A structure that holds information to create a hardware queue.
 old-location: display\d3dddicb_createhwqueue.htm
 old-project: display
 ms.assetid: 085CEF61-2C2E-4F9C-B143-2E2D58C51643
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_createhwqueue, D3DDDICB_CREATEHWQUEUE, _D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEHWQUEUE
+ms.date: 2/24/2018
+ms.keywords: D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], _D3DDDICB_CREATEHWQUEUE, d3dumddi/D3DDDICB_CREATEHWQUEUE, display.d3dddicb_createhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDICB_CREATEHWQUEUE
 product: Windows
 targetos: Windows

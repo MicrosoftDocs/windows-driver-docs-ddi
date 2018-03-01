@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_postevent.htm
 old-project: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, ISensorClassExtension::PostEvent, PostEvent method [Sensor Devices], sensors.isensorclassextension_postevent, PostEvent
+ms.date: 2/22/2018
+ms.keywords: ISensorClassExtension, ISensorClassExtension::PostEvent, PostEvent method [Sensor Devices], PostEvent,ISensorClassExtension.PostEvent, sensors.isensorclassextension_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+api_name:
 -	PostEvent
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ Pointer to an IPortableDeviceValuesCollection interface that contains the list o
 ## -returns
 
 
+
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,11 +168,14 @@ No client programs are currently subscribed to events. Do not post events when n
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The sensor class extension forwards these events to the Sensor API and Location API, which in turn, raise events in client programs.
@@ -187,6 +192,10 @@ For an example of a class that creates an event thread, see <a href="https://msd
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=131487">IPortableDeviceValuesCollection</a> are documented in Windows Portable Devices.
-<div class="alert"><b>Note</b>  The sensor class extension will call PropVariantClear for PROPVARIANTs that you pass  to the sensor class extension.</div><div> </div>Raise state change events by calling <a href="https://msdn.microsoft.com/ae3bc846-df63-4186-9554-f4600e1f2066">ISensorClassExtension::PostStateChange</a>.
+
+<div class="alert"><b>Note</b>  The sensor class extension will call PropVariantClear for PROPVARIANTs that you pass  to the sensor class extension.</div>
+<div> </div>
+Raise state change events by calling <a href="https://msdn.microsoft.com/ae3bc846-df63-4186-9554-f4600e1f2066">ISensorClassExtension::PostStateChange</a>.
+
 
 

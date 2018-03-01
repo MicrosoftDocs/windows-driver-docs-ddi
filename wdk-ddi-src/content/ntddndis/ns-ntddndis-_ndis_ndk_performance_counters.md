@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
-title: _NDIS_NDK_PERFORMANCE_COUNTERS
+title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
 author: windows-driver-content
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
 old-project: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, _NDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_NDK_PERFORMANCE_COUNTERS
 product: Windows
 targetos: Windows
@@ -249,6 +249,7 @@ The number, in frames,  of layer two frames that carry outgoing <i>RDMA</i> traf
 ## -remarks
 
 
+
 The <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure is used in the <b>CounterSet</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a> structure. 
 
 NDK providers are required to support all the performance counters that are included
@@ -261,15 +262,20 @@ All <b>ReservedXX</b> counters must be set to zero by providers and are ignored 
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
+## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a>
 
- 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_PERFORMANCE_COUNTERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_PERFORMANCE_COUNTERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

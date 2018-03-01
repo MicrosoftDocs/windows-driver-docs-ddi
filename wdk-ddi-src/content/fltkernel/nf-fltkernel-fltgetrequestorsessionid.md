@@ -7,8 +7,8 @@ old-location: ifsk\fltgetrequestorsessionid.htm
 old-project: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltGetRequestorSessionId routine [Installable File System Drivers], FltGetRequestorSessionId, fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
+ms.date: 2/16/2018
+ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	fltmgr.sys
-apiname: 
+api_name:
 -	FltGetRequestorSessionId
 product: Windows
 targetos: Windows
@@ -81,15 +81,19 @@ A pointer to the session ID for the requesting operation.
 ## -returns
 
 
+
 The <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS on success or STATUS_UNSUCCESSFUL on failure.
+
 
 
 
 ## -remarks
 
 
+
 If a process has no session ID, the SessionId parameter refers to -1 and the <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS.
 
 If the <b>FltGetRequestorSessionId</b> routine returns STATUS_UNSUCCESSFUL, <i>SessionId</i> is not valid.
+
 
 

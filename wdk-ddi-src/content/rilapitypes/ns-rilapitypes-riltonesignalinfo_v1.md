@@ -7,8 +7,8 @@ old-location: netvista\riltonesignalinfo_v1_2.htm
 old-project: netvista
 ms.assetid: c6685a19-73d3-4725-90b8-7c859791381a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1, netvista.riltonesignalinfo_v1_2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v1_2, rilapitypes/RILTONESIGNALINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILTONESIGNALINFO_V1
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ typedef struct _RILTONESIGNALINFO_V1 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwGPPTone
 
 
-
 ### -field dwGPP2Tone
 
 
-
 ### -field dwGPP2IsdnAlerting
-
 

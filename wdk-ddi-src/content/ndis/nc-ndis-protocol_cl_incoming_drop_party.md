@@ -7,8 +7,8 @@ old-location: netvista\protocolclincomingdropparty.htm
 old-project: netvista
 ms.assetid: 3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolclincomingdropparty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], ProtocolClIncomingDropParty, PROTOCOL_CL_INCOMING_DROP_PARTY, PROTOCOL_CL_INCOMING_DROP_PARTY, ndis/ProtocolClIncomingDropParty, condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml
+ms.date: 2/16/2018
+ms.keywords: PROTOCOL_CL_INCOMING_DROP_PARTY, ProtocolClIncomingDropParty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml, ndis/ProtocolClIncomingDropParty, netvista.protocolclincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	ProtocolClIncomingDropParty
 product: Windows
 targetos: Windows
@@ -117,15 +117,19 @@ Specifies the length, in bytes, of the buffer at
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A call to 
     <i>ProtocolClIncomingDropParty</i> indicates that the one of the following has occurred:
+
 <ul>
 <li>
 The call manager has received a request over the network to close an established connection,
@@ -139,7 +143,8 @@ The call manager has detected that network problems will prevent further data tr
       established connection.
 
 </li>
-</ul>In either case, 
+</ul>
+In either case, 
     <i>ProtocolClIncomingDropParty</i> should carry out any protocol-determined operations for dropping the
     party from the client's multipoint VC. 
     <i>ProtocolClIncomingDropParty</i> must call 
@@ -154,9 +159,12 @@ The call manager has detected that network problems will prevent further data tr
     <i>ProtocolClIncomingDropParty</i> can either release the client's per-party context area or prepare it
     for reuse in a subsequent call to 
     <b>NdisClAddParty</b>.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolClIncomingDropParty</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolClIncomingDropParty</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClIncomingDropParty</i> function that is named "MyClIncomingDropParty", use the <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -166,7 +174,9 @@ For example, to define a <i>ProtocolClIncomingDropParty</i> function that is nam
 <pre>PROTOCOL_CL_INCOMING_DROP_PARTY MyClIncomingDropParty;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -184,36 +194,54 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
-   NdisCmDispatchIncomingDropParty</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
+   NdisMCmDispatchIncomingDropParty</a>
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingdropparty" tabindex="0"><b>
-   NdisMCmDispatchIncomingDropParty</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+   NdisCmDispatchIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_INCOMING_DROP_PARTY callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_INCOMING_DROP_PARTY callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: stream\streamclassquerymasterclock.htm
 old-project: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/23/2018
 ms.keywords: StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+api_name:
 -	StreamClassQueryMasterClock
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Specifies what time function to query the master clock for. See <a href="..\strm
 ### -param ClockCallbackRoutine [in]
 
 Specifies the routine to which the class driver passes the results. The function prototype must be:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,11 +105,14 @@ Specifies the routine to which the class driver passes the results. The function
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The class driver queries the master clock and passes the results in the <i>TimeContext</i> parameter (of type <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>) of the callback. In particular, it sets the <b>Time</b> member of this structure to the time value requested in the <i>TimeFunction</i> parameter, the current system time in the <b>SystemTime</b> member of the same structure, and the minidriver's device extension in the <b>HwDeviceExtension</b> member of that structure.
@@ -119,17 +123,24 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 
 
+
 ## -see-also
-
-<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
-
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
- 
+
+
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassQueryMasterClock routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassQueryMasterClock routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

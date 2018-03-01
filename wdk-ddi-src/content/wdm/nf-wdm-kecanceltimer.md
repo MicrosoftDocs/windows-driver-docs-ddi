@@ -7,8 +7,8 @@ old-location: kernel\kecanceltimer.htm
 old-project: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, KeCancelTimer routine [Kernel-Mode Driver Architecture], KeCancelTimer, kernel.kecanceltimer, wdm/KeCancelTimer
+ms.date: 2/24/2018
+ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeCancelTimer
 product: Windows
 targetos: Windows
@@ -69,6 +69,7 @@ BOOLEAN KeCancelTimer(
 
 
 
+
 #### - Timer [in, out]
 
 Pointer to an initialized timer object, for which the caller provides the storage.
@@ -77,11 +78,14 @@ Pointer to an initialized timer object, for which the caller provides the storag
 ## -returns
 
 
+
 If the specified timer object is in the system timer queue, <b>KeCancelTimer</b> returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the timer object is currently in the system timer queue, it is removed from the queue. If a DPC object is associated with the timer, it too is canceled. Otherwise, no operation is performed.
@@ -98,17 +102,24 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
+
+
 <a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+
 
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeCancelTimer routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeCancelTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

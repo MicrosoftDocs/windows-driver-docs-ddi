@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_DEVICE_OBJECT_ATTRIBUTES
-title: _NDIS_DEVICE_OBJECT_ATTRIBUTES
+title: "_NDIS_DEVICE_OBJECT_ATTRIBUTES"
 author: windows-driver-content
 description: The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device that an NDIS filter or miniport driver can pass to the NdisRegisterDeviceEx function.
 old-location: netvista\ndis_device_object_attributes.htm
 old-project: netvista
 ms.assetid: 658e1597-eacf-4e9e-9f10-37f7646d38ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, *PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.ndis_device_object_attributes, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, netvista.ndis_device_object_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_DEVICE_OBJECT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES
+req.typenames: NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
 ---
 
 # _NDIS_DEVICE_OBJECT_ATTRIBUTES structure
@@ -108,6 +108,7 @@ A pointer to an array of one or more entry points for the device driver's dispat
      driver must set the same number of separate dispatch entry points as the number of IRP_MJ_<i>XXX</i> codes that the driver handles for the device object. Each dispatch routine is declared as
      follows:
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -121,9 +122,22 @@ A pointer to an array of one or more entry points for the device driver's dispat
 );</pre>
 </td>
 </tr>
-</table></span></div>The dispatch routine has the following parameters:
+</table></span></div>
+The dispatch routine has the following parameters:
 
 
+
+
+
+#### DeviceObject
+
+The device object for the dispatch routine.
+
+
+
+#### Irp
+
+The IRP for the dispatch routine.
 
 A driver must not supply entry points for PnP or Power Management handlers, because the created
      device object is not for a physical device and therefore does not receive PnP or Power Management
@@ -152,17 +166,8 @@ The security setting is specified in a subset of Security Descriptor Definition 
 Reserved for NDIS. Set this member to <b>NULL</b>.
 
 
-##### - MajorFunctions.DeviceObject
-
-The device object for the dispatch routine.
-
-
-##### - MajorFunctions.Irp
-
-The IRP for the dispatch routine.
-
-
 ## -remarks
+
 
 
 An NDIS filter or miniport driver can call the 
@@ -174,17 +179,24 @@ An NDIS filter or miniport driver can call the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_OBJECT_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_OBJECT_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

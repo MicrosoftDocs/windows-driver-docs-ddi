@@ -1,14 +1,14 @@
 ---
 UID: NS:video._VIDEO_PORT_CONFIG_INFO
-title: _VIDEO_PORT_CONFIG_INFO
+title: "_VIDEO_PORT_CONFIG_INFO"
 author: windows-driver-content
 description: The VIDEO_PORT_CONFIG_INFO structure contains bus-specific adapter configuration information.
 old-location: display\video_port_config_info.htm
 old-project: display
 ms.assetid: 5861efcb-1792-406a-820a-38fbfb283c1f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: video/PVIDEO_PORT_CONFIG_INFO, Video_Structs_5566366c-4ec3-4983-873f-28af2fe51bd6.xml, *PVIDEO_PORT_CONFIG_INFO, video/VIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO structure pointer [Display Devices], display.video_port_config_info, _VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO structure pointer [Display Devices], VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO structure [Display Devices], Video_Structs_5566366c-4ec3-4983-873f-28af2fe51bd6.xml, _VIDEO_PORT_CONFIG_INFO, display.video_port_config_info, video/PVIDEO_PORT_CONFIG_INFO, video/VIDEO_PORT_CONFIG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	VIDEO_PORT_CONFIG_INFO
 product: Windows
 targetos: Windows
@@ -248,27 +248,45 @@ Indicates to a driver the amount, in bytes, of physical memory in the system.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_save_hardware_state.md">IOCTL_VIDEO_SAVE_HARDWARE_STATE</a>
-
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
-<a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a>
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+<a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a>
+
+
 
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_save_hardware_state.md">IOCTL_VIDEO_SAVE_HARDWARE_STATE</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_CONFIG_INFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_CONFIG_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

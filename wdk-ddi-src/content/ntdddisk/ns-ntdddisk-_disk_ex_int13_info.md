@@ -1,14 +1,14 @@
 ---
 UID: NS:ntdddisk._DISK_EX_INT13_INFO
-title: _DISK_EX_INT13_INFO
+title: "_DISK_EX_INT13_INFO"
 author: windows-driver-content
 description: The DISK_EX_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an extended INT13 format.
 old-location: storage\disk_ex_int13_info.htm
 old-project: storage
 ms.assetid: 82e3a1e9-275a-489a-9e6e-d76007a1abb9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_EX_INT13_INFO, storage.disk_ex_int13_info, PDISK_EX_INT13_INFO, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices], ntdddisk/PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], _DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], _DISK_EX_INT13_INFO, ntdddisk/DISK_EX_INT13_INFO, ntdddisk/PDISK_EX_INT13_INFO, storage.disk_ex_int13_info, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddisk.h
-apiname: 
+api_name:
 -	DISK_EX_INT13_INFO
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ Indicates the size of the buffer that the caller provides to the BIOS in which t
 ### -field ExFlags
 
 Provides information about the drive. The following table describes the significance of each bit, where bit 0 is the least significant bit and bit 15 the most significant bit. A value of one in the indicated bit means that the feature described in the "Meaning" column is available. A value of zero in the indicated bit means that the feature is not available with this drive.
+
 <table>
 <tr>
 <th>Bit number </th>
@@ -167,7 +168,8 @@ Reserved, must be 0.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ExCylinders
@@ -204,11 +206,15 @@ Reserved.
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
 
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_EX_INT13_INFO structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_EX_INT13_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

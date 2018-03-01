@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 old-project: display
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode callback function [Display Devices], pfnPinMode, DXGKDDI_VIDPNTARGETMODESET_PINMODE, DXGKDDI_VIDPNTARGETMODESET_PINMODE, d3dkmddi/pfnPinMode, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnPinMode
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnPinMode(
 ## -returns
 
 
+
 The <b>pfnPinMode</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,15 +125,19 @@ The mode identified by <i>VidPnTargetModeId</i> does not belong to the source mo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 VidPN target mode identifiers are assigned by the operating system. The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> function generates a mode identifier, assigns the identifier to the <b>Id</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a> structure, and returns the structure to the display miniport driver.
 
 The D3DKMDT_HVIDPNTARGETMODESET data type is defined in <i>D3dkmdt.h</i>. 
+
 
 

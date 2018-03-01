@@ -7,8 +7,8 @@ old-location: netvista\nmrregisterprovider.htm
 old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider
+ms.date: 2/16/2018
+ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+api_name:
 -	NmrRegisterProvider
 product: Windows
 targetos: Windows
@@ -74,8 +74,8 @@ NTSTATUS NmrRegisterProvider(
 ### -param ProviderCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_provider_characteristics" tabindex="0"><b>
-     NPI_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure that describes the characteristics of the provider module.
+     <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">
+     NPI_PROVIDER_CHARACTERISTICS</a> structure that describes the characteristics of the provider module.
      The provider module must make sure that this structure remains valid and resident in memory as long as
      the provider module is registered with the NMR.
 
@@ -102,8 +102,10 @@ A pointer to a variable that receives a handle used by the NMR to represent the 
 ## -returns
 
 
+
 The 
      <b>NmrRegisterProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +144,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A provider module calls the 
@@ -157,7 +162,7 @@ A provider module calls the
 
 A provider module typically calls the 
     <b>NmrRegisterProvider</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterProvider</b> function indicates to the NMR that the provider module is ready to attach to
     any client modules that have registered or will register as clients of the same 
@@ -166,17 +171,24 @@ A provider module typically calls the
 
 
 
-## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+## -see-also
 
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
+
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
- 
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrRegisterProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrRegisterProvider function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

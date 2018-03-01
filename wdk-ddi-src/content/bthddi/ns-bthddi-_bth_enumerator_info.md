@@ -1,21 +1,21 @@
 ---
 UID: NS:bthddi._BTH_ENUMERATOR_INFO
-title: _BTH_ENUMERATOR_INFO
+title: "_BTH_ENUMERATOR_INFO"
 author: windows-driver-content
 description: The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\bth_enumerator_info.htm
 old-project: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, *PBTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], _BTH_ENUMERATOR_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], _BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	BTH_ENUMERATOR_INFO
 product: Windows
 targetos: Windows
@@ -103,6 +103,7 @@ If the enumeration was caused by a connection request, this member contains the 
 ### -field Flags
 
 A flag that indicates the direction of the request. Possible values include:
+
 <ul>
 <li>BTH_ENUMERATORFL_INCOMING</li>
 <li>BTH_ENUMERATORFL_OUTGOING</li>
@@ -176,26 +177,34 @@ The device string for the remote device.
 ## -remarks
 
 
+
 The 
-    <mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
-    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link> call's output buffer contains the information about an
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> call's output buffer contains the information about an
     underlying device and the service that caused the Plug and Play (PnP) manager to load the profile
     driver.
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="bltooth.ioctl_internal_bthenum_get_enuminfo" tabindex="0"><b>
-   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</b></mshelp:link>
-
-<a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
 
 <a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
 
- 
+
+
+<a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+   IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_ENUMERATOR_INFO structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_ENUMERATOR_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

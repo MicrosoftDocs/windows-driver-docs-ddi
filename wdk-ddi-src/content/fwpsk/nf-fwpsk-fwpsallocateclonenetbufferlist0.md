@@ -7,8 +7,8 @@ old-location: netvista\fwpsallocateclonenetbufferlist0.htm
 old-project: netvista
 ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsallocateclonenetbufferlist0, fwpsk/FwpsAllocateCloneNetBufferList0
+ms.date: 2/16/2018
+ms.keywords: FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsAllocateCloneNetBufferList0
 product: Windows
 targetos: Windows
@@ -87,8 +87,8 @@ A pointer to the original
 A 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-     NdisAllocateNetBufferListPool</b></mshelp:link> function. This parameter is optional and can be <b>NULL</b>.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param netBufferPoolHandle [in, optional]
@@ -114,8 +114,10 @@ A pointer to a variable that receives a pointer to the clone
 ## -returns
 
 
+
 The 
      <b>FwpsAllocateCloneNetBufferList0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,11 +147,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -158,8 +163,8 @@ A callout driver calls the
     NET_BUFFER_LIST structure.
 
 This function is a wrapper around the 
-    <mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
-    NdisAllocateCloneNetBufferList</b></mshelp:link> function, but it is specialized for use by WFP 
+    <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+    NdisAllocateCloneNetBufferList</a> function, but it is specialized for use by WFP 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>.
 
 If the clone NET_BUFFER_LIST structure should have attributes that are associated with a specific pool,
@@ -173,8 +178,8 @@ The clone NET_BUFFER_LIST structure describes the same data that is described by
     <b>FwpsAllocateCloneNetBufferList0</b> function does not copy the data that is described by the original
     MDLs to new data buffers. Instead, the clone NET_BUFFER_LIST structure references the original data
     buffers. The clone NET_BUFFER_LIST structure does not include an initial 
-    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
-    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    NET_BUFFER_LIST_CONTEXT</a> structure.
 
 This function sets the 
     <b>ParentNetBufferList</b> member of the newly created clone NET_BUFFER_LIST structure to point to the
@@ -190,9 +195,11 @@ A callout driver can modify the clone NET_BUFFER_LIST structure and inject it in
 
 A callout driver can insert or replace individual net buffers (<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>) or MDLs inside the clone net buffer
     list. Such a driver must also undo the modifications before it calls the 
-    <mshelp:link keywords="netvista.fwpsfreeclonenetbufferlist0" tabindex="0"><b>
-    FwpsFreeCloneNetBufferList0</b></mshelp:link> function.
-<h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
+    <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">
+    FwpsFreeCloneNetBufferList0</a> function.
+
+<h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>
+A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
      management operations on an idle computer.
 
 The intended use for cloned packets in WFP is to get clarification from a user-mode application or
@@ -202,33 +209,48 @@ The intended use for cloned packets in WFP is to get clarification from a user-m
 
 If the callout driver needs to wait for a potentially lengthy operation, it makes a deep copy of
      the packet using 
-     <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
-     FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>, and it blocks and absorbs the original packet.
+     <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+     FwpsAllocateNetBufferAndNetBufferList0</a>, and it blocks and absorbs the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
 
 
 
+
 ## -see-also
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAllocateCloneNetBufferList0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAllocateCloneNetBufferList0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

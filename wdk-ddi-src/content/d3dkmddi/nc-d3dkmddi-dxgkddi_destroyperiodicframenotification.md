@@ -7,8 +7,8 @@ old-location: display\dxgkddi_destroyperiodicframenotification.htm
 old-project: display
 ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_destroyperiodicframenotification, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkddi_destroyperiodicframenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION</i> containing 
 ## -returns
 
 
+
 DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,6 +105,8 @@ Indicates that there was an invalid parameter passed to the call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

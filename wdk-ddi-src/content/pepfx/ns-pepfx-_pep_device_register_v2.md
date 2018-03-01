@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_DEVICE_REGISTER_V2
-title: _PEP_DEVICE_REGISTER_V2
+title: "_PEP_DEVICE_REGISTER_V2"
 author: windows-driver-content
 description: The PEP_DEVICE_REGISTER structure describes all the components in a particular device.
 old-location: kernel\pep_device_register_v2.htm
 old-project: kernel
 ms.assetid: 67747FF9-4808-45BB-8809-24B2CE56546B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], *PPEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, _PEP_DEVICE_REGISTER_V2, pepfx/PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER, kernel.pep_device_register_v2
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_REGISTER_V2, kernel.pep_device_register_v2, pepfx/PEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	kbSyntax
-apitype: 
+api_type:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+api_location:
+-
+api_name:
 -	PEP_DEVICE_REGISTER_V2
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2
+req.typenames: PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2
 ---
 
 # _PEP_DEVICE_REGISTER_V2 structure
@@ -86,7 +86,9 @@ The first element in an array of pointers to <a href="..\pepfx\ns-pepfx-_pep_com
 ## -remarks
 
 
+
 The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
+
 
 
 
@@ -94,11 +96,15 @@ The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</
 
 <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_DEVICE_REGISTER_V2 structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_DEVICE_REGISTER_V2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

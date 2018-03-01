@@ -1,14 +1,14 @@
 ---
 UID: NS:wsk._WSK_BUF
-title: _WSK_BUF
+title: "_WSK_BUF"
 author: windows-driver-content
 description: The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a socket.
 old-location: netvista\wsk_buf.htm
 old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, *PWSK_BUF, WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_buf, wsk/WSK_BUF, wsk/PWSK_BUF
+ms.date: 2/16/2018
+ms.keywords: "*PWSK_BUF, PWSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WSK_BUF
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_BUF, WSK_BUF
+req.typenames: WSK_BUF, *PWSK_BUF
 req.product: Windows 10 or later.
 ---
 
@@ -105,6 +105,7 @@ When a WSK_BUF structure is contained within either a
 ## -remarks
 
 
+
 Each MDL in the MDL chain that is pointed to by the 
     <b>Mdl</b> member describes memory that is either locked or from non-paged pool.
 
@@ -116,25 +117,40 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
- 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_BUF structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_BUF structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

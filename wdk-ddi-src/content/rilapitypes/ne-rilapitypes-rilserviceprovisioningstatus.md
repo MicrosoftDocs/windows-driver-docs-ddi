@@ -7,8 +7,8 @@ old-location: netvista\rilserviceprovisioningstatus_2.htm
 old-project: netvista
 ms.assetid: 044d89f7-6167-4e85-b4b4-d706a1499480
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SVCPROV_TEMPMODERESTRICTED, RIL_SVCPROV_MAX, rilapitypes/RIL_SVCPROV_MAX, RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, rilapitypes/RILSERVICEPROVISIONINGSTATUS, rilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilserviceprovisioningstatus_2, rilapitypes/RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_NOTPROVISIONED
+ms.date: 2/16/2018
+ms.keywords: RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_TEMPMODERESTRICTED, netvista.rilserviceprovisioningstatus_2, rilapitypes/RILSERVICEPROVISIONINGSTATUS, rilapitypes/RIL_SVCPROV_MAX, rilapitypes/RIL_SVCPROV_NOTPROVISIONED, rilapitypes/RIL_SVCPROV_PROVISIONED, rilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSERVICEPROVISIONINGSTATUS
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILSERVICEPROVISIONINGSTATUS {
 ### -field RIL_SVCPROV_UNKNOWN
 
 
-
 ### -field RIL_SVCPROV_NOTPROVISIONED
-
 
 
 ### -field RIL_SVCPROV_PROVISIONED
 
 
-
 ### -field RIL_SVCPROV_TEMPMODERESTRICTED
-
 
 
 ### -field RIL_SVCPROV_TEMPMODEALLOWED
 
 
-
 ### -field RIL_SVCPROV_MAX
-
 

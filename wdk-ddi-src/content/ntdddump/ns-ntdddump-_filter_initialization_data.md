@@ -1,14 +1,14 @@
 ---
 UID: NS:ntdddump._FILTER_INITIALIZATION_DATA
-title: _FILTER_INITIALIZATION_DATA
+title: "_FILTER_INITIALIZATION_DATA"
 author: windows-driver-content
 description: The filter driver fills in a FILTER_INITIALIZATION_DATA structure and returns it to the crash dump driver.
 old-location: storage\filter_initialization_data.htm
 old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, storage.filter_initialization_data, PFILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], ntdddump/FILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, ntdddump/PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA structure [Storage Devices], _FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL
+ms.date: 2/24/2018
+ms.keywords: "*PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddump.h
-apiname: 
+api_name:
 -	FILTER_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
@@ -81,6 +81,14 @@ typedef struct _FILTER_INITIALIZATION_DATA {
 Set to one of the following major version values:
 
 
+
+#### DUMP_FILTER_MAJOR_VERSION_1 (0x1)
+
+
+
+#### DUMP_FILTER_MAJOR_VERSION (0x2)
+
+
 ### -field MinorVersion
 
 Set to <b>DUMP_FILTER_MINOR_VERSION</b>.
@@ -119,6 +127,7 @@ The maximum number of pages for each dump read or write request.
 ### -field Flags
 
 A set of flags for  dump filter initialization. This value is set to either 0 or the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,7 +153,8 @@ Fail the filter initialization  immediately if the  dump filter driver's <b>Driv
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DumpRead
@@ -152,43 +162,51 @@ Fail the filter initialization  immediately if the  dump filter driver's <b>Driv
 A pointer to the read routine. This routine is called after every crash dump read request. This member is available starting in Windows 8.
 
 
-##### - MajorVersion.DUMP_FILTER_MAJOR_VERSION (0x2)
-
-
-
-##### - MajorVersion.DUMP_FILTER_MAJOR_VERSION_1 (0x1)
-
-
-
 ## -remarks
 
 
+
 For a dump filter driver to support read filtering, the following settings are required:
+
 <ul>
 <li>The <b>DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ</b> flag is set in <b>Flags</b>.</li>
 <li><b>MajorVersion</b> is set to <b>DUMP_FILTER_MAJOR_VERSION</b> = 2.</li>
 <li>The <b>DumpRead</b> pointer is set to the dump filter driver's read routine.</li>
-</ul>If any of these members are not set, the dump filter driver will be marked as not supporting dump reads by the crashdump stack.
+</ul>
+If any of these members are not set, the dump filter driver will be marked as not supporting dump reads by the crashdump stack.
+
 
 
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
 
 <a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
 
+
+
+<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+
+
+
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+
+
+
 <a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+
+
+<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_INITIALIZATION_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_INITIALIZATION_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

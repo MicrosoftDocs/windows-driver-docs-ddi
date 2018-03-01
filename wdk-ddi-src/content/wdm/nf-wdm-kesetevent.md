@@ -7,8 +7,8 @@ old-location: kernel\kesetevent.htm
 old-project: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeSetEvent, KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], kernel.kesetevent, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml
+ms.date: 2/24/2018
+ms.keywords: KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeSetEvent
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by
 ## -returns
 
 
+
 If the previous state of the event object was signaled, a nonzero value is returned.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>KeSetEvent</b> causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a> or <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a> clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
@@ -109,27 +112,44 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 
+
 ## -see-also
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetEvent routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetEvent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

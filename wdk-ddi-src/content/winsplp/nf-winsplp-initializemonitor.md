@@ -2,13 +2,13 @@
 UID: NF:winsplp.InitializeMonitor
 title: InitializeMonitor function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\initializemonitor.htm
 old-project: print
 ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, InitializeMonitor, InitializeMonitor function [Print Devices], winsplp/InitializeMonitor, print.initializemonitor
+ms.date: 2/23/2018
+ms.keywords: InitializeMonitor, InitializeMonitor function [Print Devices], print.initializemonitor, spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, winsplp/InitializeMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winsplp.h
-apiname: 
+api_name:
 -	InitializeMonitor
 product: Windows
 targetos: Windows
@@ -69,5 +69,4 @@ BOOL WINAPI InitializeMonitor(
 
 
 ### -param pRegistryRoot [in]
-
 

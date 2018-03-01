@@ -7,8 +7,8 @@ old-location: stream\camstopcaptureex.htm
 old-project: stream
 ms.assetid: b8b6e3f0-f5c8-449f-9001-3182b3547d8d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.camstopcaptureex, CamStopCaptureEx routine [Streaming Media Devices], CamStopCaptureEx, PCAM_STOP_CAPTURE_ROUTINE_EX, PCAM_STOP_CAPTURE_ROUTINE_EX, usbcamdi/CamStopCaptureEx, usbcmdpr_ce30ba35-3109-454c-bef4-30ff5d6805de.xml
+ms.date: 2/23/2018
+ms.keywords: CamStopCaptureEx, CamStopCaptureEx routine [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE_EX, stream.camstopcaptureex, usbcamdi/CamStopCaptureEx, usbcmdpr_ce30ba35-3109-454c-bef4-30ff5d6805de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	CamStopCaptureEx
 product: Windows
 targetos: Windows
@@ -91,11 +91,14 @@ Indicates the stream number.
 ## -returns
 
 
+
 <b>CamStopCaptureEx</b> returns STATUS_SUCCESS or an appropriate error code. This return value is the completion code for the read IRP.
 
 
 
+
 ## -remarks
+
 
 
 USBCAMD calls the minidriver's <b>CamStopCaptureEx</b> callback function immediately after the isochronous video stream is stopped. Typically, a camera minidriver selects an alternate setting within the USB video streaming interface that uses no additional bandwidth.
@@ -103,5 +106,6 @@ USBCAMD calls the minidriver's <b>CamStopCaptureEx</b> callback function immedia
 The original USBCAMD does not call <b>CamStopCaptureEx</b>.
 
 This function is required.
+
 
 

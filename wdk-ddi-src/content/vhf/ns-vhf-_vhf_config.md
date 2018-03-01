@@ -1,14 +1,14 @@
 ---
 UID: NS:vhf._VHF_CONFIG
-title: _VHF_CONFIG
+title: "_VHF_CONFIG"
 author: windows-driver-content
 description: Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device.
 old-location: hid\vhf_config.htm
 old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: vhf/VHF_CONFIG, hid.vhf_config, _VHF_CONFIG, *PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices], PVHF_CONFIG structure pointer [Human Input Devices], vhf/PVHF_CONFIG, VHF_CONFIG, PVHF_CONFIG
+ms.date: 2/24/2018
+ms.keywords: "*PVHF_CONFIG, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	vhf.h
-apiname: 
+api_name:
 -	VHF_CONFIG
 product: Windows
 targetos: Windows
@@ -190,13 +190,16 @@ Optional. A pointer to a <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanu
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20VHF_CONFIG structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20VHF_CONFIG structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

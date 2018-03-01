@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_SetRNIDMgmtInfo_IN
-title: _SM_SetRNIDMgmtInfo_IN
+title: "_SM_SetRNIDMgmtInfo_IN"
 author: windows-driver-content
 description: The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_in.htm
 old-project: storage
 ms.assetid: 4b248886-8f1d-42c3-89dc-f6f0cd9ae683
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_SetRNIDMgmtInfo_IN structure [Storage Devices], hbapiwmi/SM_SetRNIDMgmtInfo_IN, _SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_SetRNIDMgmtInfo_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN
+req.typenames: SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN
 ---
 
 # _SM_SetRNIDMgmtInfo_IN structure
@@ -75,6 +75,8 @@ A structure of type HBAFC3MgmtInfo that holds FC3 management information. This i
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SetRNIDMgmtInfo_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

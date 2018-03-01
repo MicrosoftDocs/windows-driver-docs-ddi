@@ -7,15 +7,15 @@ old-location: bltooth\sco_callback_function.htm
 old-project: bltooth
 ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sco_callback_function, SCOIndicationCallback callback function [Bluetooth Devices], SCOIndicationCallback, PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK, bthddi/SCOIndicationCallback, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml
+ms.date: 2/15/2018
+ms.keywords: PFNSCO_INDICATION_CALLBACK, SCOIndicationCallback, SCOIndicationCallback callback function [Bluetooth Devices], bltooth.sco_callback_function, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml, bthddi/SCOIndicationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	SCOIndicationCallback
 product: Windows
 targetos: Windows
@@ -96,8 +96,8 @@ A
 ### -param Parameters [in]
 
 A 
-     <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
-     SCO_INDICATION_PARAMETERS</b></mshelp:link> structure that contains parameter information based on the value passed
+     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+     SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed
      to the 
      <i>Indication</i> parameter.
 
@@ -105,11 +105,14 @@ A
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -132,8 +135,8 @@ In the second case, the profile driver acts as a client and attempts to connect 
     <b>Callback</b> member of the 
     <a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a> structure passed
     with the specified BRB when one of them is submitted through 
-    <mshelp:link keywords="bltooth.ioctl_internal_bth_submit_brb" tabindex="0"><b>
-    IOCTL_INTERNAL_BTH_SUBMIT_BRB</b></mshelp:link>.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">
+    IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>.
 
 After it is registered, the callback function is only associated with the channel that the BRB opened,
     and the function notifies the profile driver of actions that occur over the open channel to the remote
@@ -148,21 +151,32 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 
 
+
 ## -see-also
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-
-<a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
-
-<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
- 
+
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNSCO_INDICATION_CALLBACK callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNSCO_INDICATION_CALLBACK callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

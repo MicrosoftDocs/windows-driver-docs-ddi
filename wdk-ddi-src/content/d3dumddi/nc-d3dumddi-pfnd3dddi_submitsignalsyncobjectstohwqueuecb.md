@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_submitsignalsyncobjectstohwqueuecb.htm
 old-project: display
 ms.assetid: D952A432-7B2C-43AC-9BC4-4335D2F37301
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
 product: Windows
 targetos: Windows
@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - submitSignalSyncoObjectsToHwQueue [in]
 
 A pointer to the structure holding information on submitting a signal command to the hardware queue.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

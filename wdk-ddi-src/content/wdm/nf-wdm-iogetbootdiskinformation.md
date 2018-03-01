@@ -7,8 +7,8 @@ old-location: kernel\iogetbootdiskinformation.htm
 old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], IoGetBootDiskInformation, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml
+ms.date: 2/24/2018
+ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetBootDiskInformation
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Specifies the size, in bytes, of the buffer specified by <i>BootDiskInformation<
 ## -returns
 
 
+
 <b>IoGetBootDiskInformation</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,15 +119,18 @@ The value of <i>Size</i> is less than the size, in bytes, of a <b>BOOTDISK_INFOR
 </dl>
 </td>
 <td width="60%">
-The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoGetBootDiskInformation</b> can be called only by a boot driver. This driver should call <b>IoGetBootDiskInformation</b> in a <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> callback routine that the driver registers by calling the <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a> routine.
@@ -136,19 +141,28 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
-
-<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
 
 <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
 
+
+
+<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
- 
+
+
+<a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

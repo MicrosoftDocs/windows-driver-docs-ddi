@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_VideoSample2
-title: _DXVA_VideoSample2
+title: "_DXVA_VideoSample2"
 author: windows-driver-content
 description: The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample2.htm
 old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoSample2, LPDXVA_VideoSample2, DXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, display.dxva_videosample2, dxva/LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], DXVA_VideoSample2 structure [Display Devices], *LPDXVA_VideoSample2, _DXVA_VideoSample2
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, display.dxva_videosample2, dxva/DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_VideoSample2
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_VideoSample2, DXVA_VideoSample2
+req.typenames: DXVA_VideoSample2, *LPDXVA_VideoSample2
 ---
 
 # _DXVA_VideoSample2 structure
@@ -135,6 +135,7 @@ Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsa
 ## -remarks
 
 
+
 For video substream samples, the <b>rtStart</b> and <b>rtEnd</b> members are set to 0. 
 
 The <b>SampleFormat</b> member indicates whether the sample is a reference for a deinterlace operation or a video substream sample that must be combined with the deinterlaced video frame. The DXVA_SampleSubStream value (new for Windows Server 2003 with SP1 and later and Windows XP with SP2 and later) of the <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> enumeration type specifies the format for a video substream sample.
@@ -145,27 +146,44 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
+
 ## -see-also
-
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-
-<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoSample2 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoSample2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

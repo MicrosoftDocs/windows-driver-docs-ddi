@@ -7,8 +7,8 @@ old-location: netvista\wskreceivefromevent.htm
 old-project: netvista
 ms.assetid: 1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskreceivefromevent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], WskReceiveFromEvent, PFN_WSK_RECEIVE_FROM_EVENT, PFN_WSK_RECEIVE_FROM_EVENT, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskReceiveFromEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,29 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
+
+#### MSG_BCAST
+
+The datagrams were received as a link-layer broadcast or with a destination transport address
+       that is a broadcast address.
+
+
+
+#### MSG_MCAST
+
+The datagrams were received with a destination transport address that is a multicast
+       address.
+
+
+
+#### WSK_FLAG_AT_DISPATCH_LEVEL
+
+The WSK subsystem called the 
+       <i>WskReceiveFromEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
+       the WSK subsystem might have called the 
+       <i>WskReceiveFromEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+
+
 ### -param DataIndication [in, optional]
 
 A pointer to a linked list of 
@@ -101,31 +124,13 @@ A pointer to a linked list of
      socket as soon as possible.
 
 
-##### - Flags.WSK_FLAG_AT_DISPATCH_LEVEL
-
-The WSK subsystem called the 
-       <i>WskReceiveFromEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
-       the WSK subsystem might have called the 
-       <i>WskReceiveFromEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
-
-
-##### - Flags.MSG_MCAST
-
-The datagrams were received with a destination transport address that is a multicast
-       address.
-
-
-##### - Flags.MSG_BCAST
-
-The datagrams were received as a link-layer broadcast or with a destination transport address
-       that is a broadcast address.
-
-
 ## -returns
+
 
 
 A WSK application's 
      <i>WskReceiveFromEvent</i> event callback function can return one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,8 +145,8 @@ A WSK application's
 <td width="60%">
 The WSK application accepted the datagrams and retrieved all of the datagrams from the linked
        list of 
-       <mshelp:link keywords="netvista.wsk_datagram_indication" tabindex="0"><b>
-       WSK_DATAGRAM_INDICATION</b></mshelp:link> structures. The WSK subsystem can call the 
+       <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">
+       WSK_DATAGRAM_INDICATION</a> structures. The WSK subsystem can call the 
        <i>WskReceiveFromEvent</i> event callback function again when new datagrams are received on the
        socket.
 
@@ -156,8 +161,8 @@ The WSK application accepted the datagrams and retrieved all of the datagrams fr
 <td width="60%">
 The WSK application accepted the datagrams but did not retrieve all of the datagrams from the
        linked list of 
-       <mshelp:link keywords="netvista.wsk_datagram_indication" tabindex="0"><b>
-       WSK_DATAGRAM_INDICATION</b></mshelp:link> structures. The WSK application retains the linked list of
+       <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">
+       WSK_DATAGRAM_INDICATION</a> structures. The WSK application retains the linked list of
        WSK_DATAGRAM_INDICATION structures until all of the datagrams have been retrieved. After the WSK
        application has retrieved all of the datagrams, it calls the 
        <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a> function to release the linked
@@ -198,8 +203,8 @@ If the WSK application enabled the
 <li>
 If the WSK application enabled the 
          <i>WskReceiveFromEvent</i> event callback function by using the 
-         <mshelp:link keywords="netvista.wsk_set_static_event_callbacks" tabindex="0"><b>
-         WSK_SET_STATIC_EVENT_CALLBACKS</b></mshelp:link> client control operation, the WSK subsystem will not disable
+         <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+         WSK_SET_STATIC_EVENT_CALLBACKS</a> client control operation, the WSK subsystem will not disable
          the 
          <i>WskReceiveFromEvent</i> event callback function. The WSK subsystem will continue calling the 
          <i>WskReceiveFromEvent</i> event callback function when new datagrams are received on the socket.
@@ -208,11 +213,14 @@ If the WSK application enabled the
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The WSK subsystem calls a WSK application's 
@@ -220,8 +228,8 @@ The WSK subsystem calls a WSK application's
     only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
-    Disabling Event Callback Functions</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    Disabling Event Callback Functions</a>.
 
 If a WSK application's 
     <i>WskReceiveFromEvent</i> event callback function is enabled on a datagram socket and the application
@@ -249,27 +257,44 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
+
 ## -see-also
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
- 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM_EVENT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM_EVENT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

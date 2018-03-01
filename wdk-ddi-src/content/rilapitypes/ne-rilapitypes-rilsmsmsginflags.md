@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmsginflags_2.htm
 old-project: netvista
 ms.assetid: 83842f98-6ec5-443a-ad48-492a487a6dae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilsmsmsginflags_2, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSMSMSGINFLAGS, RILSMSMSGINFLAGS, rilapitypes/RIL_SMSMSGIN_ALL, RIL_SMSMSGIN_ALL, rilapitypes/RIL_SMSMSGIN_IMS, RIL_SMSMSGIN_IMS
+ms.date: 2/16/2018
+ms.keywords: RILSMSMSGINFLAGS, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_ALL, RIL_SMSMSGIN_IMS, netvista.rilsmsmsginflags_2, rilapitypes/RILSMSMSGINFLAGS, rilapitypes/RIL_SMSMSGIN_ALL, rilapitypes/RIL_SMSMSGIN_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSMSMSGINFLAGS
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSMSMSGINFLAGS {
 ### -field RIL_SMSMSGIN_NONE
 
 
-
 ### -field RIL_SMSMSGIN_IMS
 
 
-
 ### -field RIL_SMSMSGIN_ALL
-
 

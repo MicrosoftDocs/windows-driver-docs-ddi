@@ -7,8 +7,8 @@ old-location: display\setindicesum.htm
 old-project: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setindicesum, SetIndicesUM callback function [Display Devices], SetIndicesUM, PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM, d3dumddi/SetIndicesUM, UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETINDICESUM, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	SetIndicesUM
 product: Windows
 targetos: Windows
@@ -80,7 +80,6 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 ### -param UINT
 
 
-
 ### -param *
 
 
@@ -88,9 +87,6 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 
 
-#### - pUMBuffer [in]
-
- A pointer to the user-memory buffer that supplies the indices for the index buffer.
 
 
 #### - IndexSize [in]
@@ -98,10 +94,17 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
  The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities. 
 
 
+#### - pUMBuffer [in]
+
+ A pointer to the user-memory buffer that supplies the indices for the index buffer.
+
+
 ## -returns
 
 
+
 <i>SetIndicesUM</i> returns S_OK or an appropriate error result if the index buffer is not successfully set to the given user memory buffer.
+
 
 
 
@@ -109,9 +112,11 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETINDICESUM callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETINDICESUM callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

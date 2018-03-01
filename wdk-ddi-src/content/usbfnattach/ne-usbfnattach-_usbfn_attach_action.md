@@ -1,14 +1,14 @@
 ---
 UID: NE:usbfnattach._USBFN_ATTACH_ACTION
-title: _USBFN_ATTACH_ACTION
+title: "_USBFN_ATTACH_ACTION"
 author: windows-driver-content
 description: Defines the actions that the Universal Serial Bus (USB) function stack takes when a device is attached to a USB port.
 old-location: buses\usbfn_attach_action.htm
 old-project: usbref
 ms.assetid: 4470EBAB-6B1F-43D3-B036-F0DD07BC8321
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnattach/UsbfnProceedWithAttach, UsbfnPortDetected, buses.usbfn_attach_action, UsbfnPortDetectedNoCad, usbfnattach/UsbfnDetectProprietaryCharger, *PUSBFN_ATTACH_ACTION, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnPortDetected, usbfnattach/UsbfnIgnoreAttach, USBFN_ATTACH_ACTION enumeration [Buses], usbfnattach/UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, UsbfnDetectProprietaryCharger, UsbfnIgnoreAttach, _USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION
+ms.date: 2/24/2018
+ms.keywords: "*PUSBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION enumeration [Buses], UsbfnDetectProprietaryCharger, UsbfnIgnoreAttach, UsbfnPortDetected, UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, _USBFN_ATTACH_ACTION, buses.usbfn_attach_action, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnDetectProprietaryCharger, usbfnattach/UsbfnIgnoreAttach, usbfnattach/UsbfnPortDetected, usbfnattach/UsbfnPortDetectedNoCad, usbfnattach/UsbfnProceedWithAttach"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbfnattach.h
-apiname: 
+api_name:
 -	USBFN_ATTACH_ACTION
 product: Windows
 targetos: Windows
@@ -106,9 +106,11 @@ The USB function stack calls the <a href="..\ufxproprietarycharger\nc-ufxproprie
 
 <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_ATTACH_ACTION enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_ATTACH_ACTION enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

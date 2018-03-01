@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH
-title: _SCSI_PASS_THROUGH
+title: "_SCSI_PASS_THROUGH"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through.htm
 old-project: storage
 ms.assetid: 7470af45-3ebe-44d4-8066-62a69636c20e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddscsi/SCSI_PASS_THROUGH, PSCSI_PASS_THROUGH structure pointer [Storage Devices], ntddscsi/PSCSI_PASS_THROUGH, structs-scsibus_6d017ae1-d61d-49b8-bfaf-b6b15341732b.xml, storage.scsi_pass_through, PSCSI_PASS_THROUGH, SCSI_PASS_THROUGH structure [Storage Devices], _SCSI_PASS_THROUGH, SCSI_PASS_THROUGH, *PSCSI_PASS_THROUGH
+ms.date: 2/24/2018
+ms.keywords: "*PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH structure pointer [Storage Devices], SCSI_PASS_THROUGH, SCSI_PASS_THROUGH structure [Storage Devices], _SCSI_PASS_THROUGH, ntddscsi/PSCSI_PASS_THROUGH, ntddscsi/SCSI_PASS_THROUGH, storage.scsi_pass_through, structs-scsibus_6d017ae1-d61d-49b8-bfaf-b6b15341732b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddscsi.h
-apiname: 
+api_name:
 -	SCSI_PASS_THROUGH
 product: Windows
 targetos: Windows
-req.typenames: *PSCSI_PASS_THROUGH, SCSI_PASS_THROUGH
+req.typenames: SCSI_PASS_THROUGH, *PSCSI_PASS_THROUGH
 ---
 
 # _SCSI_PASS_THROUGH structure
@@ -118,6 +118,13 @@ Indicates the size in bytes of the request-sense buffer.
 
 
 
+#####  This field must have one of three values:
+
+
+
+####### 
+
+
 ### -field DataTransferLength
 
 Indicates the size in bytes of the data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
@@ -143,60 +150,38 @@ Offset from the beginning of this structure to the request-sense buffer.
 Specifies the SCSI command descriptor block to be sent to the target device. 
 
 
-######## - DataIn.Data Transfer Type
-Meaning
-
-
-
-SCSI_IOCTL_DATA_IN
-
-
-Read data from the device.
-
-
-
-
-SCSI_IOCTL_DATA_OUT
-
-
-Write data to the device.
-
-
-
-
-SCSI_IOCTL_DATA_UNSPECIFIED
-
-
-No data is transferred.
-
-
-
-###### - DataIn.Indicates whether the SCSI command will read or write data. This field must have one of three values:
-
-
-
 ## -remarks
+
 
 
 The SCSI_PASS_THROUGH structure is used with <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>, which is a buffered device control request. To bypass buffering in system memory, callers should use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an IOCTL_SCSI_PASS_THROUGH_DIRECT request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
-The members of SCSI_PASS_THROUGH correspond roughly to the members of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. The values of the <b>DataIn</b> member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to <b>SrbFlags</b> member of SCSI_REQUEST_BLOCK. 
+The members of SCSI_PASS_THROUGH correspond roughly to the members of a <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. The values of the <b>DataIn</b> member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to <b>SrbFlags</b> member of SCSI_REQUEST_BLOCK. 
+
 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

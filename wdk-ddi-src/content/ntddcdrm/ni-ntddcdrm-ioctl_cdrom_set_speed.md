@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_set_speed.htm
 old-project: storage
 ms.assetid: 14acc5f4-1346-4da4-b692-01396cff776e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_cdrom_set_speed, IOCTL_CDROM_SET_SPEED control code [Storage Devices], IOCTL_CDROM_SET_SPEED, ntddcdrm/IOCTL_CDROM_SET_SPEED, k307_df26ae09-2af1-4290-812a-b0f279112d97.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_SET_SPEED, IOCTL_CDROM_SET_SPEED control code [Storage Devices], k307_df26ae09-2af1-4290-812a-b0f279112d97.xml, ntddcdrm/IOCTL_CDROM_SET_SPEED, storage.ioctl_cdrom_set_speed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdrm.h
-apiname: 
+api_name:
 -	IOCTL_CDROM_SET_SPEED
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,8 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 ## -remarks
 
 
+
 For an explanation of function and purpose of this request, see <a href="https://msdn.microsoft.com/25a46b23-f823-4fc7-a370-cab1c9418a94">CD-ROM Set Speed</a>.
+
 
 

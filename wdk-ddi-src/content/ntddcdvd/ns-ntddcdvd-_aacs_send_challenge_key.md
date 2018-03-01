@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddcdvd._AACS_SEND_CHALLENGE_KEY
-title: _AACS_SEND_CHALLENGE_KEY
+title: "_AACS_SEND_CHALLENGE_KEY"
 author: windows-driver-content
 description: The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 old-location: storage\aacs_send_challenge_key.htm
 old-project: storage
 ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: AACS_SEND_CHALLENGE_KEY structure [Storage Devices], structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml, storage.aacs_send_challenge_key, AACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], PAACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, _AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY
+ms.date: 2/24/2018
+ms.keywords: "*PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY structure [Storage Devices], PAACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], _AACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, storage.aacs_send_challenge_key, structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdvd.h
-apiname: 
+api_name:
 -	AACS_SEND_CHALLENGE_KEY
 product: Windows
 targetos: Windows
-req.typenames: *PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY
+req.typenames: AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY
 ---
 
 # _AACS_SEND_CHALLENGE_KEY structure
@@ -81,21 +81,29 @@ A structure of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AAC
 ## -remarks
 
 
+
 Host software send this challenge key to an AACS-compliant device with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
+
+
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SEND_CHALLENGE_KEY structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SEND_CHALLENGE_KEY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

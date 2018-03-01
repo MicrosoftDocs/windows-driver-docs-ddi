@@ -7,8 +7,8 @@ old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnection.h
 old-project: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, audio.iunregisterphysicalconnection_unregisterphysicalconnection
+ms.date: 2/22/2018
+ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnection,IUnregisterPhysicalConnection.UnregisterPhysicalConnection, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IUnregisterPhysicalConnection.UnregisterPhysicalConnection
 product: Windows
 targetos: Windows
@@ -99,14 +99,18 @@ Specifies a pin ID. This parameter identifies the data sink (input) pin on the f
 ## -returns
 
 
+
 <code>UnregisterPhysicalConnection</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890-aae1-5ecf58f2e22a">Dynamic Audio Subdevices</a>.
+
 
 
 
@@ -114,15 +118,23 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
 
 <a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 
- 
+
+
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
+
+
+
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IUnregisterPhysicalConnection::UnregisterPhysicalConnection method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IUnregisterPhysicalConnection::UnregisterPhysicalConnection method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

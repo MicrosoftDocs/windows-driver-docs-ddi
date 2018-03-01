@@ -7,8 +7,8 @@ old-location: netvista\dot11extstartonex.htm
 old-project: netvista
 ms.assetid: d4117da4-349a-4143-b2a8-d4edf6c02e7b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extstartonex, Dot11ExtStartOneX callback function [Network Drivers Starting with Windows Vista], Dot11ExtStartOneX, DOT11EXT_ONEX_START, DOT11EXT_ONEX_START, wlanihv/Dot11ExtStartOneX, Native_802.11_IHV_Ext_71199b82-64e0-4b96-89f0-e964dd959077.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_ONEX_START, Dot11ExtStartOneX, Dot11ExtStartOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_71199b82-64e0-4b96-89f0-e964dd959077.xml, netvista.dot11extstartonex, wlanihv/Dot11ExtStartOneX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtStartOneX
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,8 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 
 
+
+
 #### - pEapAttribute [in, optional]
 
 A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes returned by the
@@ -97,13 +99,16 @@ A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes 
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL can initiate an 802.1X authentication operation by using the 802.1X module of
@@ -120,12 +125,13 @@ When the
     <b>Dot11ExtStartOneX</b> function is called, the operating system sends an EAP
     over LAN (EAPOL) Start packet to the AP. If the AP fails to respond after three transmissions of the
     EAPOL-Start packet, the operating system fails the 802.1X authentication operation and calls the 
-    <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-    Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV Handler function. For more information about the EAPOL-Start
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+    Dot11ExtIhvOneXIndicateResult</a> IHV Handler function. For more information about the EAPOL-Start
     packet, refer to Clause 7.5 and Clause 8.4.2 of the IEEE 802.1X-1999 standard.
 
 After the 802.1X authentication operation is initiated, the IHV Extensions DLL must follow these
     guidelines.
+
 <ul>
 <li>
 The IHV Extensions must forward all EAPOL packets to the operating system for processing. When the
@@ -143,8 +149,8 @@ For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2
 </li>
 <li>
 When the 802.1X authentication operation is completed, the operating system calls the 
-      <mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-      Dot11ExtIhvOneXIndicateResult</i></mshelp:link> IHV Handler function to indicate that authorization is in
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+      Dot11ExtIhvOneXIndicateResult</a> IHV Handler function to indicate that authorization is in
       progress.
 
 </li>
@@ -153,34 +159,50 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
       <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>.
 
 </li>
-</ul>For more information about using the 802.1X module for authentication, see 
-    <mshelp:link keywords="netvista.interface_to_the_native_802_11_802_1x_module" tabindex="0">Interface to the Native
-    802.11 802.1X Module</mshelp:link>.
+</ul>
+For more information about using the 802.1X module for authentication, see 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    802.11 802.1X Module</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
-<mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-   Dot11ExtPostAssociateCompletion</b></mshelp:link>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ONEX_START callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ONEX_START callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

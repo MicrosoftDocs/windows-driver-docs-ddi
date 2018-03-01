@@ -7,13 +7,13 @@ old-location: kernel\updateprocessoridlestate.htm
 old-project: kernel
 ms.assetid: 023A2637-A79A-4ADE-B54C-646CBDDF08B8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.updateprocessoridlestate, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], UpdateProcessorIdleState, POFXCALLBACKUPDATEPROCESSORIDLESTATE, POFXCALLBACKUPDATEPROCESSORIDLESTATE, pepfx/UpdateProcessorIdleState
+ms.date: 2/24/2018
+ms.keywords: POFXCALLBACKUPDATEPROCESSORIDLESTATE, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], kernel.updateprocessoridlestate, pepfx/UpdateProcessorIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	UpdateProcessorIdleState
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKUPDATEPROCESSORIDLESTATE callback
@@ -90,7 +90,9 @@ A pointer to a <a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_update.md">P
 ## -returns
 
 
+
 <b>UpdateProcessorIdleState</b> returns STATUS_SUCCESS if it successfully updates the properties of the processor idle state. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -118,11 +120,14 @@ The <b>UpdateProcessorIdleState</b> routine is not implemented for this processo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is implemented by PoFx and is called by the PEP. The <b>UpdateProcessorIdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>UpdateProcessorIdleState</b> routine.
@@ -131,17 +136,24 @@ The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEV
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_update.md">PEP_PROCESSOR_IDLE_STATE_UPDATE</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKUPDATEPROCESSORIDLESTATE routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKUPDATEPROCESSORIDLESTATE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

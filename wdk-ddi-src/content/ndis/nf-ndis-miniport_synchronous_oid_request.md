@@ -7,8 +7,8 @@ old-location: netvista\miniport_synchronous_oid_request.htm
 old-project: netvista
 ms.assetid: 0DDF9CF8-91F6-4D7C-A8E8-FC425BF155CB
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request, MiniportSynchronousOidRequest
+ms.date: 2/16/2018
+ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	MiniportSynchronousOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # MINIPORT_SYNCHRONOUS_OID_REQUEST function
@@ -86,7 +86,9 @@ A pointer to an
 ## -returns
 
 
+
 <i>MiniportSynchronousOidRequest</i> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -188,8 +190,8 @@ The miniport driver will provide an OID completion status with a subsequent stat
 </td>
 <td width="60%">
 After calling the 
-       <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link> function to indicate a surprise removal, NDIS called the driver's 
+       <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       MiniportDevicePnPEventNotify</a> function to indicate a surprise removal, NDIS called the driver's 
        <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the
        driver received any OID requests before NDIS calls 
        <i>MiniportHaltEx</i>, it should immediately complete such requests with a status value of
@@ -199,11 +201,14 @@ Miniport drivers are not always required to return NDIS_STATUS_NOT_ACCEPTED for 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>MiniportSynchronousOidRequest</i> is an optional function. A miniport driver registers this function if it handles Synchronous OID requests. The driver specifies the <i>MiniportSynchronousOidRequest</i> entry point when it calls the <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a> function, using the <b>SynchronousOidRequestHandler</b> member of the <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure.
@@ -211,8 +216,8 @@ Miniport drivers are not always required to return NDIS_STATUS_NOT_ACCEPTED for 
 
 Miniport drivers must not return NDIS_STATUS_PENDING or NDIS_STATUS_REQUEST_ABORTED from MiniportSynchronousOidRequest. Synchronous OID requests cannot be pended or cancelled.
 
-Miniport drivers may return NDIS_STATUS_NOT_ACCEPTED after NDIS calls <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link> to notify the driver of the device’s surprise removal. However, miniport drivers may still complete the OID request with a different status code, if it is possible to do so. For more info, see each OID’s specific documentation.
+Miniport drivers may return NDIS_STATUS_NOT_ACCEPTED after NDIS calls <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       MiniportDevicePnPEventNotify</a> to notify the driver of the device’s surprise removal. However, miniport drivers may still complete the OID request with a different status code, if it is possible to do so. For more info, see each OID’s specific documentation.
 
 Miniport drivers are expected to complete Synchronous OID requests quickly without blocking, waiting, or sleeping. Synchronous OID requests are only used for low-latency operations, and miniport drivers should strive to complete them within several milliseconds. Most OID requests are delivered to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>, which is permitted to pend or wait for longer durations.
 
@@ -226,34 +231,57 @@ Miniport drivers that implement NDIS Selective Suspend are incompatible with Syn
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-oid-requests-in-a-miniport-adapter">MiniportOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       MiniportDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_SYNCHRONOUS_OID_REQUEST function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_SYNCHRONOUS_OID_REQUEST function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

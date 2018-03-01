@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DISPLAYMODELIST
-title: _D3DKMT_DISPLAYMODELIST
+title: "_D3DKMT_DISPLAYMODELIST"
 author: windows-driver-content
 description: Describes a list of display modes.
 old-location: display\d3dkmt_displaymodelist.htm
 old-project: display
 ms.assetid: 2eb99f42-3639-4327-a880-47e18d1da71d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_DISPLAYMODELIST, d3dkmthk/D3DKMT_DISPLAYMODELIST, display.d3dkmt_displaymodelist, D3DKMT_DISPLAYMODELIST structure [Display Devices], _D3DKMT_DISPLAYMODELIST
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST structure [Display Devices], _D3DKMT_DISPLAYMODELIST, d3dkmthk/D3DKMT_DISPLAYMODELIST, display.d3dkmt_displaymodelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_DISPLAYMODELIST
 product: Windows
 targetos: Windows

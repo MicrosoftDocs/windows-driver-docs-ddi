@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 old-project: usbref
 ms.assetid: b9c38199-810a-462b-a805-9751de2a419e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucx_usbdevice_default_endpoint_add, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], EvtUcxUsbDeviceDefaultEndpointAdd, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ucxusbdevice.h
-apiname: 
+api_name:
 -	PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
 product: Windows
 targetos: Windows
-req.typenames: *PSTREAM_INFO, STREAM_INFO
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,8 @@ Maximum packet size for transfers on this endpoint.
 
 
 
+
+
 #### - EndpointInit [in]
 
 A pointer to an opaque structure containing initialization
@@ -108,11 +110,14 @@ A pointer to an opaque structure containing initialization
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
 
+
 ## -remarks
+
 
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
@@ -124,24 +129,122 @@ Then, the callback  function typically creates a WDF queue associated with the e
     starts it.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
+    UCXCONTROLLER           UcxController,
+    UCXUSBDEVICE            UcxUsbDevice,
+    ULONG                   MaxPacketSize,
+    PUCXENDPOINT_INIT       EndpointInit
+)
+
+{
+    NTSTATUS                                status = STATUS_SUCCESS;
+
+    UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS    ucxDefaultEndpointEventCallbacks;
+    WDF_OBJECT_ATTRIBUTES                   objectAttributes;
+
+    PUCX_CONTROLLER_CONTEXT                 ucxControllerContext;
+
+    UCXENDPOINT                             ucxEndpoint;
+    PUCX_ENDPOINT_CONTEXT                   ucxEndpointContext;
+
+
+    WDF_IO_QUEUE_CONFIG                     queueConfig;
+    WDFQUEUE                                wdfQueue;
+
+
+    UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT(&amp;ucxDefaultEndpointEventCallbacks,
+                                              Endpoint_EvtUcxEndpointPurge,
+                                              Endpoint_EvtUcxEndpointStart,
+                                              Endpoint_EvtUcxEndpointAbort,
+                                              Endpoint_EvtUcxEndpointOkToCancelTransfers,
+                                              Endpoint_EvtUcxDefaultEndpointUpdate,
+                                              Endpoint_EvtUcxEndpointEnableForwardProgress);
+
+    UcxDefaultEndpointInitSetEventCallbacks(EndpointInit, &amp;ucxDefaultEndpointEventCallbacks);
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_ENDPOINT_CONTEXT);
+
+    ucxControllerContext = GetUcxControllerContext(UcxController);
+
+    status = UcxEndpointCreate(UcxUsbDevice,
+        &amp;EndpointInit,
+        &amp;objectAttributes,
+        &amp;ucxEndpoint);
+
+    if (!NT_SUCCESS(status)) {
+        DbgTrace(TL_ERROR, Endpoint, "UcxEndpoint Failed %!STATUS!", status);
+        goto EvtUsbDeviceDefaultEndpointAddEnd;
+    }
+
+    DbgTrace(TL_INFO, Endpoint, "UcxEndpoint created");
+
+    ucxEndpointContext = GetUcxEndpointContext(ucxEndpoint);
+
+    ucxEndpointContext-&gt;IsDefault = TRUE;
+    ucxEndpointContext-&gt;MaxPacketSize = MaxPacketSize;
+
+    WDF_IO_QUEUE_CONFIG_INIT(&amp;queueConfig, WdfIoQueueDispatchManual);
+
+    status = WdfIoQueueCreate(ucxControllerContext-&gt;WdfDevice,
+        &amp;queueConfig,
+        WDF_NO_OBJECT_ATTRIBUTES,
+        &amp;wdfQueue);
+
+    if (!NT_SUCCESS(status)) {
+        DbgTrace(TL_ERROR, Endpoint, "WdfIoQueueCreate Failed %!STATUS!", status);
+        goto EvtUsbDeviceDefaultEndpointAddEnd;
+    }
+
+    UcxEndpointSetWdfIoQueue(ucxEndpoint, wdfQueue);
+
+EvtUsbDeviceDefaultEndpointAddEnd:
+
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+
+
 
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
 
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
- 
+
+
+<a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

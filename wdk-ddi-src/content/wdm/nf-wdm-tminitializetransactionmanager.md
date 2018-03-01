@@ -7,8 +7,8 @@ old-location: kernel\tminitializetransactionmanager_.htm
 old-project: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], wdm/TmInitializeTransactionManager, kernel.tminitializetransactionmanager_, TmInitializeTransactionManager
+ms.date: 2/24/2018
+ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Wdm.h
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+api_name:
 -	TmInitializeTransactionManager
 product: Windows
 targetos: Windows
@@ -91,6 +91,7 @@ Specifies a pointer to a GUID that identifies  the name of the transaction manag
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags.
+
 <table>
 <tr>
 <th>Option flag</th>
@@ -166,12 +167,15 @@ For internal use only.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The <b>TmInitializeTransactionManager</b> routine  returns STATUS_SUCCESS if the operation succeeds.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:nfccx._NFC_CX_SEQUENCE
-title: _NFC_CX_SEQUENCE
+title: "_NFC_CX_SEQUENCE"
 author: windows-driver-content
 description: The NFC_CX_SEQUENCE enumeration specifies sequences.
 old-location: nfpdrivers\nfc_cx_sequence.htm
 old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfccx/SequencePreNfceeDisc, SequenceMaximum, SequencePreShutdown, SequenceRecoveryComplete, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceInitComplete, PNFC_CX_SEQUENCE, SequencePreInit, nfccx/SequenceRecoveryComplete, nfccx/SequenceNfceeDiscComplete, SequencePreRecovery, SequenceInitComplete, SequenceNfceeDiscComplete, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/SequencePreRecovery, SequencePreRfDiscStop, _NFC_CX_SEQUENCE, nfccx/SequencePreInit, SequenceShutdownComplete, nfccx/SequencePreRfDiscStart, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceMaximum, nfccx/SequenceShutdownComplete, SequencePreRfDiscStart, NFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceRfDiscStopComplete, *PNFC_CX_SEQUENCE, SequencePreNfceeDisc, SequenceRfDiscStartComplete, nfccx/NFC_CX_SEQUENCE, nfpdrivers.nfc_cx_sequence
+ms.date: 2/15/2018
+ms.keywords: "*PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, SequenceInitComplete, SequenceMaximum, SequenceNfceeDiscComplete, SequencePreInit, SequencePreNfceeDisc, SequencePreRecovery, SequencePreRfDiscStart, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, SequenceRfDiscStartComplete, SequenceRfDiscStopComplete, SequenceShutdownComplete, _NFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfpdrivers.nfc_cx_sequence"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfccx.h
-apiname: 
+api_name:
 -	NFC_CX_SEQUENCE
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE
+req.typenames: NFC_CX_SEQUENCE, *PNFC_CX_SEQUENCE
 ---
 
 # _NFC_CX_SEQUENCE enumeration
@@ -142,16 +142,19 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 ### -field SequenceMaximum
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_SEQUENCE enumeration%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_SEQUENCE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtsetmonitorcolorspacetransform.htm
 old-project: display
 ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsetmonitorcolorspacetransform, d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], D3DKMTSetMonitorColorSpaceTransform
+ms.date: 2/24/2018
+ms.keywords: D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTSetMonitorColorSpaceTransform
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTSetMonitorColorSpaceTransform(
 
 
 
+
 #### - D3dkmt_set_colorspace_transform
 
 Used to set the colorspace transform.
@@ -78,6 +79,8 @@ Used to set the colorspace transform.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

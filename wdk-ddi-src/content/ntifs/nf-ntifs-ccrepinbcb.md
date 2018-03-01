@@ -7,8 +7,8 @@ old-location: ifsk\ccrepinbcb.htm
 old-project: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: CcRepinBcb routine [Installable File System Drivers], CcRepinBcb, ifsk.ccrepinbcb, ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ntifs/CcRepinBcb
+ms.date: 2/16/2018
+ms.keywords: CcRepinBcb, CcRepinBcb routine [Installable File System Drivers], ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ifsk.ccrepinbcb, ntifs/CcRepinBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	CcRepinBcb
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Buffer control block (BCB) pointer returned by <a href="..\ntifs\nf-ntifs-ccpinr
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>CcRepinBcb</b> to preserve a BCB for write-through or error recovery. Typically a file system would do this the first time it marks a BCB as dirty while processing a write-through request, or any time that it determines that a buffer will be required for write-through.
@@ -88,19 +91,28 @@ Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href=
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcRepinBcb routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcRepinBcb routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

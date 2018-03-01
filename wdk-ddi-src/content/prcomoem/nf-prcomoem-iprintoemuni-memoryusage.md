@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_memoryusage.htm
 old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], MemoryUsage method, IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface, MemoryUsage,IPrintOemUni.MemoryUsage, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUni.MemoryUsage
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Caller-supplied pointer to an <a href="..\printoem\ns-printoem-oemmemoryusage.md
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,16 +123,20 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <code>IPrintOemUni::MemoryUsage</code> method's purpose is to help the Unidrv driver determine the optimum size for the GDI drawing surface, based on the memory requirements of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a> method. Implementation of the <code>IPrintOemUni::MemoryUsage</code> method is optional.
 
 The <code>IPrintOemUni::MemoryUsage</code> method should return two values, as follows:
+
 <ul>
 <li>
 The amount of permanently-allocated, fixed-sized memory that the <b>IPrintOemUni::ImageProcessing</b> method needs to allocate.
@@ -144,7 +150,8 @@ The amount of memory required to hold a bitmap after the <b>IPrintOemUni::ImageP
 The rendering plug-in either returns this processed bitmap to Unidrv, or spools it. The amount of memory required to store the processed bitmap is returned in the <b>dwPercentMemoryUsage</b> member of the OEMMEMORYUSAGE structure, and is expressed as a percentage of the source bitmap's size.
 
 </li>
-</ul>The value returned in the <b>dwPercentMemoryUsage</b> member should include, in addition to the processed bitmap's size, the amount of any additional memory allocations that are dependent on the size of the source bitmap.
+</ul>
+The value returned in the <b>dwPercentMemoryUsage</b> member should include, in addition to the processed bitmap's size, the amount of any additional memory allocations that are dependent on the size of the source bitmap.
 
 The <b>dwMaxBandSize</b> member of the OEMMEMORYUSAGE structure is supplied by Unidrv and specifies the default maximum band size.
 
@@ -158,17 +165,28 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
+
 ## -see-also
 
-<a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
+
+
+<a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::MemoryUsage method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::MemoryUsage method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

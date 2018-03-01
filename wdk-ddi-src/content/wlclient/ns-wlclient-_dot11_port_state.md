@@ -1,14 +1,14 @@
 ---
 UID: NS:wlclient._DOT11_PORT_STATE
-title: _DOT11_PORT_STATE
+title: "_DOT11_PORT_STATE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_port_state.htm
 old-project: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _DOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/PDOT11_PORT_STATE, *PDOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], PDOT11_PORT_STATE, wlclient/DOT11_PORT_STATE
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_PORT_STATE, DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, PDOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlclient.h
-apiname: 
+api_name:
 -	DOT11_PORT_STATE
 product: Windows
 targetos: Windows
@@ -107,26 +107,32 @@ For more information about authorized port access, refer to Clause 6.3 of the IE
 ## -remarks
 
 
+
 The operating system passes in the current port state of the security session through the 
     <i>pPortState</i> parameter of the 
-    <mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
-    Dot11ExtIhvPerformPostAssociate</i></mshelp:link> IHV handler function. When this function is called, the IHV
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+    Dot11ExtIhvPerformPostAssociate</a> IHV handler function. When this function is called, the IHV
     Extensions DLL must not change the data referenced by the 
     <i>pPortState</i> parameter.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
-<mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PORT_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PORT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

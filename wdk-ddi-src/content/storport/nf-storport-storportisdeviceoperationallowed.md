@@ -7,8 +7,8 @@ old-location: storage\storportisdeviceoperationallowed.htm
 old-project: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storportisdeviceoperationallowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storport/StorPortIsDeviceOperationAllowed, STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed
+ms.date: 2/24/2018
+ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortIsDeviceOperationAllowed
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ The address of a storage device unit.
 ### -param DeviceOperation [in]
 
 A pointer to a GUID specifying a device management operation class. The following GUID is valid.
+
 <table>
 <tr>
 <th>Value</th>
@@ -99,7 +100,8 @@ The device is enabled to receive secured provisioning commands.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param AllowedFlag [out]
@@ -110,7 +112,9 @@ The device is enabled to receive secured provisioning commands.
 ## -returns
 
 
+
 The <b>StorPortIsDeviceOperationAllowed</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -168,6 +172,8 @@ The management class specified in <i>DeviceOperation</i> is not available or inv
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

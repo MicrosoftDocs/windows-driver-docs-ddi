@@ -7,8 +7,8 @@ old-location: debugger\getindexbyname.htm
 old-project: debugger
 ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetIndexByName method [Windows Debugging], IDebugRegisters interface, GetIndexByName, IDebugRegisters interface [Windows Debugging], GetIndexByName method, GetIndexByName method [Windows Debugging], dbgeng/IDebugRegisters::GetIndexByName, dbgeng/IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, IDebugRegisters2, debugger.getindexbyname, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, IDebugRegisters::GetIndexByName, IDebugRegisters2::GetIndexByName
+ms.date: 2/23/2018
+ms.keywords: GetIndexByName method [Windows Debugging], GetIndexByName method [Windows Debugging], IDebugRegisters interface, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetIndexByName,IDebugRegisters2.GetIndexByName, IDebugRegisters interface [Windows Debugging], GetIndexByName method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, IDebugRegisters2::GetIndexByName, IDebugRegisters::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters2::GetIndexByName, dbgeng/IDebugRegisters::GetIndexByName, debugger.getindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugRegisters.GetIndexByName
 -	IDebugRegisters2.GetIndexByName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetIndexByName method
@@ -82,7 +82,9 @@ Receives the index of the register.
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,13 +112,17 @@ The register was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 

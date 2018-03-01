@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
-title: _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+title: "_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT"
 author: windows-driver-content
 description: A structure containing output data used to manage shared power components.
 old-location: display\dxgk_graphicspower_register_output.htm
 old-project: display
 ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], display.dxgk_graphicspower_register_output, _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+ms.date: 2/24/2018
+ms.keywords: "*PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, display.dxgk_graphicspower_register_output"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---
 
 # _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure

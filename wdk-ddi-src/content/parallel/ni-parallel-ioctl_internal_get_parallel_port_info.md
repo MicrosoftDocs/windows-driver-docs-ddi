@@ -7,8 +7,8 @@ old-location: parports\ioctl_internal_get_parallel_port_info.htm
 old-project: parports
 ms.assetid: c621e510-1c86-4029-aeb7-e16a38e96f03
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.ioctl_internal_get_parallel_port_info, IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code [Parallel Ports], IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, parallel/IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, cisspd_c38efa0a-2f2b-481d-82e2-911a152430fd.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_c38efa0a-2f2b-481d-82e2-911a152430fd.xml, parallel/IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO, parports.ioctl_internal_get_parallel_port_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	parallel.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGBATOKEN, RILGBATOKEN
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO IOCTL
@@ -49,7 +49,7 @@ req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,14 +87,18 @@ The size of a <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PAR
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -114,15 +118,21 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ## -see-also
 
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
+
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
 
-<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
+
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

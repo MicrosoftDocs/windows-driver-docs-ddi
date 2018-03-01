@@ -7,8 +7,8 @@ old-location: image\istidevice_release.htm
 old-project: image
 ms.assetid: cff05099-cf27-4cc6-a820-1d8a5c3ef88e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IStiDevice interface [Imaging Devices], Release method, image.istidevice_release, IStiDevice::Release, IStiDevice, Release method [Imaging Devices], IStiDevice interface, stifnc_70352bce-ba09-45c1-97a8-add180942d05.xml, Release, sti/IStiDevice::Release, Release method [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], Release method, IStiDevice::Release, Release method [Imaging Devices], Release method [Imaging Devices], IStiDevice interface, Release,IStiDevice.Release, image.istidevice_release, sti/IStiDevice::Release, stifnc_70352bce-ba09-45c1-97a8-add180942d05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Sti.h
-apiname: 
+api_name:
 -	IStiDevice.Release
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE
+req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -67,9 +67,12 @@ HRESULT Release();
 
 
 
+
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 

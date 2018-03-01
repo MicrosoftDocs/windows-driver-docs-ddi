@@ -7,8 +7,8 @@ old-location: display\idarg_in_query_hwcursor.htm
 old-project: display
 ms.assetid: 293364D0-0614-4780-B5E5-1115F084A8C6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], PIDARG_IN_QUERY_HWCURSOR, display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR, PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDARG_IN_QUERY_HWCURSOR
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ typedef struct _IDARG_IN_QUERY_HWCURSOR {
 
 
 
+
 #### - MonitorDescription
 
 
@@ -92,15 +93,15 @@ typedef struct _IDARG_IN_QUERY_HWCURSOR {
                  
 
 
+#### - TargetModeBufferInputCount
+
+
+                     [in] Size of the cursor shape buffer <b>pShapeBuffer</b>
+
+
 #### - pTargetModes
 
 
                      [out] Buffer provided by driver that the OS will copy any new cursor image data into.
                  
-
-
-#### - TargetModeBufferInputCount
-
-
-                     [in] Size of the cursor shape buffer <b>pShapeBuffer</b>
 

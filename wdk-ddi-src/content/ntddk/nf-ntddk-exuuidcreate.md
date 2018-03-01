@@ -7,8 +7,8 @@ old-location: kernel\exuuidcreate.htm
 old-project: kernel
 ms.assetid: e85fe5fa-b11e-41ff-a355-4da0394377d1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, ntddk/ExUuidCreate, kernel.exuuidcreate, ExUuidCreate
+ms.date: 2/24/2018
+ms.keywords: ExUuidCreate, ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate, ntddk/ExUuidCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ExUuidCreate
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # ExUuidCreate function
@@ -76,7 +76,9 @@ A pointer to a caller-allocated UUID (GUID) structure that is set to a new UUID 
 
 
 
+
             Possible return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,15 +117,19 @@ The system is not ready to generate a new UUID.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A UUID and a GUID are the same data type.
 
 The caller can iteratively attempt to obtain a new UUID value. 
+
 
 

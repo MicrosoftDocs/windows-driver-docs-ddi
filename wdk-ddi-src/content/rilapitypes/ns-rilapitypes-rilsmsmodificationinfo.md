@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmodificationinfo_2.htm
 old-project: netvista
 ms.assetid: 64e5ea3d-a002-45df-b3ad-c8f723cbe54d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo_2, *LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], RILSMSMODIFICATIONINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsmsmodificationinfo_2, rilapitypes/RILSMSMODIFICATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSMSMODIFICATIONINFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO
+req.typenames: RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
 req.product: Windows 10 or later.
 ---
 
@@ -76,23 +76,17 @@ typedef struct _RILSMSMODIFICATIONINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwModificationType
-
 
 
 ### -field raAddress
 
 
-
 ### -field aiIdentifier
-
 

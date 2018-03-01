@@ -7,13 +7,13 @@ old-location: kernel\write_port_ushort.htm
 old-project: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, WRITE_PORT_USHORT, wdm/WRITE_PORT_USHORT, kernel.write_port_ushort, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, kernel.write_port_ushort, wdm/WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+api_name:
 -	WRITE_PORT_USHORT
 product: Windows
 targetos: Windows
@@ -83,13 +83,17 @@ Specifies a USHORT value to be written to the port.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>WRITE_PORT_USHORT</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
 
 

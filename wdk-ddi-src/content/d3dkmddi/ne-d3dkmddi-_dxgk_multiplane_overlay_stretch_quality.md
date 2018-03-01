@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-title: _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+title: "_DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY"
 author: windows-driver-content
 description: Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 old-location: display\dxgk_multiplane_overlay_stretch_quality.htm
 old-project: display
 ms.assetid: 5C995970-59E4-46AD-84CD-0B5675949308
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, display.dxgk_multiplane_overlay_stretch_quality
+ms.date: 2/24/2018
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, display.dxgk_multiplane_overlay_stretch_quality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 product: Windows
 targetos: Windows

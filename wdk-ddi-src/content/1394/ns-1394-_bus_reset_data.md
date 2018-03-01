@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._BUS_RESET_DATA
-title: _BUS_RESET_DATA
+title: "_BUS_RESET_DATA"
 author: windows-driver-content
 description: The BUS_RESET_DATA structure specifies the context for the extended bus reset notification routine.
 old-location: ieee\bus_reset_data.htm
 old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: BUS_RESET_DATA structure [Buses], PBUS_RESET_DATA structure pointer [Buses], PBUS_RESET_DATA, *PBUS_RESET_DATA, 1394/PBUS_RESET_DATA, _BUS_RESET_DATA, 1394/BUS_RESET_DATA, BUS_RESET_DATA, IEEE.bus_reset_data
+ms.date: 2/15/2018
+ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	BUS_RESET_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PBUS_RESET_DATA, BUS_RESET_DATA
+req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 ---
 
 # _BUS_RESET_DATA structure
@@ -94,6 +94,7 @@ The 1394 address for the local host.
 ### -field SpeedToNode
 
 The negotiated speed to the device. The possible values are as follows:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,16 +116,19 @@ The negotiated speed to the device. The possible values are as follows:
 <td>0x20</td>
 <td>3200 Mb/s</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">Device Driver Interface (DDI) Changes in Windows 7</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20BUS_RESET_DATA structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20BUS_RESET_DATA structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

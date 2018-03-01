@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._OSVERSIONINFOEXW
-title: _OSVERSIONINFOEXW
+title: "_OSVERSIONINFOEXW"
 author: windows-driver-content
 description: The RTL_OSVERSIONINFOEXW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfoexw.htm
 old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, _OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, kernel.rtl_osversioninfoexw
+ms.date: 2/24/2018
+ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	RTL_OSVERSIONINFOEXW
 product: Windows
 targetos: Windows
-req.typenames: RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEXW
+req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 req.product: Windows 10 or later.
 ---
 
@@ -121,6 +121,7 @@ The minor version number of the latest service pack installed on the system. For
 ### -field wSuiteMask
 
 The product suites available on the system. This member is set to zero or to the bitwise OR of one or more of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -258,12 +259,16 @@ Windows Home Server is installed.
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>    You should not rely solely on the VER_SUITE_SMALLBUSINESS flag to determine whether Small Business Server is currently installed. Both this flag and the VER_SUITE_SMALLBUSINESS_RESTRICTED flag are set when this product suite is installed. If you upgrade this installation to Windows Server, Standard Edition, the VER_SUITE_SMALLBUSINESS_RESTRICTED flag is cleared, but the VER_SUITE_SMALLBUSINESS flag remains set, which, in this case, indicates that Small Business Server was previously installed on this system. If this installation is further upgraded to Windows Server, Enterprise Edition, the VER_SUITE_SMALLBUSINESS flag remains set.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Note</b>    You should not rely solely on the VER_SUITE_SMALLBUSINESS flag to determine whether Small Business Server is currently installed. Both this flag and the VER_SUITE_SMALLBUSINESS_RESTRICTED flag are set when this product suite is installed. If you upgrade this installation to Windows Server, Standard Edition, the VER_SUITE_SMALLBUSINESS_RESTRICTED flag is cleared, but the VER_SUITE_SMALLBUSINESS flag remains set, which, in this case, indicates that Small Business Server was previously installed on this system. If this installation is further upgraded to Windows Server, Enterprise Edition, the VER_SUITE_SMALLBUSINESS flag remains set.</div>
+<div> </div>
 
 ### -field wProductType
 
 The product type. This member contains additional information about the system. This member can be one of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -299,7 +304,8 @@ Windows 2000 or later server
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wReserved
@@ -310,6 +316,7 @@ Reserved for future use.
 ## -remarks
 
 
+
 The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> and <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a> routines.
 
 Relying on version information is not always the best way to test whether a feature is available. For guidance, refer to the documentation for the feature you are interested in.
@@ -317,6 +324,7 @@ Relying on version information is not always the best way to test whether a feat
 If possible, design the version detection code in your driver to enable the driver to run on future versions of Windows. If your driver requires a particular operating system version, be sure to treat this version as the minimum supported version, and not as the only version on which the driver can run.
 
 The following table summarizes the version information that is returned by supported versions of Windows. Use the information in the "Other" column to distinguish between operating systems with identical version numbers.
+
 <table>
 <tr>
 <th>Operating system</th>
@@ -589,21 +597,31 @@ Not applicable
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  Only a 64-bit kernel-mode driver can run on Windows XP Professional x64 Edition. Therefore, a 32-bit kernel-mode driver can safely omit checking for this version of Windows.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  Only a 64-bit kernel-mode driver can run on Windows XP Professional x64 Edition. Therefore, a 32-bit kernel-mode driver can safely omit checking for this version of Windows.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
+
+
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOEXW structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOEXW structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._KSCAMERA_EXTENDEDPROP_PROFILE
-title: _KSCAMERA_EXTENDEDPROP_PROFILE
+title: "_KSCAMERA_EXTENDEDPROP_PROFILE"
 author: windows-driver-content
 description: The payload of the KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE control contains KSCAMERA_EXTENDEDPROP_HEADER + KSCAMERA_EXTENDEDPROP_PROFILE.
 old-location: stream\kscamera_extendedprop_profile.htm
 old-project: stream
 ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.kscamera_extendedprop_profile, *PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_PROFILE, _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ksmedia.h
-apiname: 
+api_name:
 -	KSCAMERA_EXTENDEDPROP_PROFILE
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE
+req.typenames: KSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE
 ---
 
 # _KSCAMERA_EXTENDEDPROP_PROFILE structure

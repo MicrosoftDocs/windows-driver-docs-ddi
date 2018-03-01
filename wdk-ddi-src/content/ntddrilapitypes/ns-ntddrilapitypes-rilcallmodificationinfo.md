@@ -7,8 +7,8 @@ old-location: netvista\rilcallmodificationinfo.htm
 old-project: netvista
 ms.assetid: 568603d9-0f96-49f7-a6f8-3c69d889cea7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO, netvista.rilcallmodificationinfo, ntddrilapitypes/RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfo, ntddrilapitypes/RILCALLMODIFICATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMODIFICATIONINFO
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ typedef struct _RILCALLMODIFICATIONINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwID
-
 
 
 ### -field dwModificationType
 
 
-
 ### -field dwOldCallType
-
 
 
 ### -field dwNewCallType
 
 
-
 ### -field raAddress
 
 
-
 ### -field aiIdentifier
-
 

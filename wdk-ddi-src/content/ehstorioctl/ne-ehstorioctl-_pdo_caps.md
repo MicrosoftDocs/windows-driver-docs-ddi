@@ -1,14 +1,14 @@
 ---
 UID: NE:ehstorioctl._PDO_CAPS
-title: _PDO_CAPS
+title: "_PDO_CAPS"
 author: windows-driver-content
 description: This enumeration describes the capabilities of Physical Device Objects (PDOs).
 old-location: storage\pdo_caps.htm
 old-project: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, PDO_CAPS enumeration [Storage Devices], ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, PDO_CAPS, PDO_CAPABILITY_UNDEFINED, PDO_CAPABILITY_INC512_CLEAR, storage.pdo_caps, ehstorioctl/PDO_CAPABILITY_INC512_SET, _PDO_CAPS, ehstorioctl/PDO_CAPS, PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPABILITY_UNDEFINED
+ms.date: 2/24/2018
+ms.keywords: PDO_CAPABILITY_INC512_CLEAR, PDO_CAPABILITY_INC512_SET, PDO_CAPABILITY_UNDEFINED, PDO_CAPS, PDO_CAPS enumeration [Storage Devices], _PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, ehstorioctl/PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPS, storage.pdo_caps, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorIoctl.h
-apiname: 
+api_name:
 -	PDO_CAPS
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ Command data block size granularity of 1 byte is supported.
 ## -remarks
 
 
+
 A silo must support either PDO_CAPABILITY_INC512_SET or PDO_CAPABILITY_INC512_CLEAR. It may also indicate that both values are supported by returning a logical OR of these two bits.
+
 
 

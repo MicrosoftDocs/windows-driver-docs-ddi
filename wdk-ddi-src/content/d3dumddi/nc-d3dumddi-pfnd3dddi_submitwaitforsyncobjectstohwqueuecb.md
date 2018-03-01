@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 old-project: display
 ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
 product: Windows
 targetos: Windows
@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - submitWaitForSyncObjectsToHwQueue [in]
 
 A pointer to the structure holding information on submitting a wait command to the hardware queue.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

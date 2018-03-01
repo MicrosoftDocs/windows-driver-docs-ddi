@@ -7,15 +7,15 @@ old-location: bltooth\sdpfreetree.htm
 old-project: bltooth
 ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sdpfreetree, SdpFreeTree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, SdpFreeTree function [Bluetooth Devices], sdplib/SdpFreeTree
+ms.date: 2/15/2018
+ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	sdplib.h
-apiname: 
+api_name:
 -	SdpFreeTree
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ The root node of the SDP tree-based representation to be freed.
 ## -returns
 
 
+
 Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 Callers should perform an 
@@ -98,26 +101,37 @@ Callers should perform an
 
 Bluetooth profile drivers can obtain a pointer to the 
     <b>SdpFreeTree</b> function through the 
-    <mshelp:link keywords="bltooth.bthddi_sdp_node_interface" tabindex="0"><b>
-    BTHDDI_SDP_NODE_INTERFACE</b></mshelp:link> structure.
+    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">
+    BTHDDI_SDP_NODE_INTERFACE</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+
+
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
- 
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFreeTree function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFreeTree function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

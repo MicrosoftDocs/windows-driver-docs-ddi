@@ -7,8 +7,8 @@ old-location: netvista\vmbclientchannelinitsettargetpnp.htm
 old-project: netvista
 ms.assetid: 5525FD48-BE65-48CA-B3D5-C96AFD4ECF56
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.vmbclientchannelinitsettargetpnp, VmbClientChannelInitSetTargetPnp, VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp
+ms.date: 2/16/2018
+ms.keywords: VmbClientChannelInitSetTargetPnp, VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista], netvista.vmbclientchannelinitsettargetpnp, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+api_name:
 -	VmbClientChannelInitSetTargetPnp
 product: Windows
 targetos: Windows
@@ -107,7 +107,9 @@ located.
 ## -returns
 
 
+
 <b>VmbClientChannelInitSetTargetPnp</b> returns the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,15 +126,19 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If you 
 have two paravirtual network interfaces, they will have the 
 same <i>InterfaceType</i> but different <i>InterfaceInstance</i> values. 
+
 
 

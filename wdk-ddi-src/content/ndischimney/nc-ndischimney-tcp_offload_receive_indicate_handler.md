@@ -7,8 +7,8 @@ old-location: netvista\protocoltcpoffloadreceiveindicate.htm
 old-project: netvista
 ms.assetid: 8a400515-3619-4fe9-8e08-638859442ea3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocoltcpoffloadreceiveindicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], ProtocolTcpOffloadReceiveIndicate, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveIndicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
+ms.date: 2/16/2018
+ms.keywords: ProtocolTcpOffloadReceiveIndicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveIndicate, netvista.protocoltcpoffloadreceiveindicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndischimney.h
-apiname: 
+api_name:
 -	ProtocolTcpOffloadReceiveIndicate
 product: Windows
 targetos: Windows
@@ -115,8 +115,8 @@ The
 ### -param Status [in]
 
 An intermediate driver should propagate this status when calling 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-     NdisTcpOffloadReceiveHandler</b></mshelp:link>.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     NdisTcpOffloadReceiveHandler</a>.
 
 
 ### -param BytesConsumed [out]
@@ -128,9 +128,11 @@ A pointer to a ULONG-typed variable that receives the number of bytes that were 
 ## -returns
 
 
+
 The 
      <i>
      ProtocolTcpOffloadReceiveIndicate</i> function can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,25 +173,29 @@ The client application consumed a subset of the indicated receive data. The amou
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
-    <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-    NdisTcpOffloadReceiveHandler</b></mshelp:link> function. The intermediate driver passes the following parameters to
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+    NdisTcpOffloadReceiveHandler</a> function. The intermediate driver passes the following parameters to
     the 
     <b>NdisTcpOffloadReceiveHandler</b> function:
+
 <ul>
 <li>
 The 
       <b>NdisOffloadHandle</b> that the offload target stored in its context for the offloaded TCP connection.
       For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -207,25 +213,40 @@ The
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

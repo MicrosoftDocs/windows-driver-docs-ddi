@@ -7,8 +7,8 @@ old-location: debugger\getcontextstacktrace.htm
 old-project: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetContextStackTrace method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetContextStackTrace, IDebugControl4::GetContextStackTrace, IDebugControl4, debugger.getcontextstacktrace
+ms.date: 2/23/2018
+ms.keywords: GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, GetContextStackTrace,IDebugControl4.GetContextStackTrace, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl4.GetContextStackTrace
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetContextStackTrace method
@@ -117,6 +117,7 @@ Receives the number of frames that were placed in the array <i>Frames</i> and co
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +134,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The stack trace returned to <i>Frames</i> and <i>FrameContexts</i> can be printed using <a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>.
@@ -148,19 +152,28 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetContextStackTrace method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetContextStackTrace method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_PROVIDERCHANGE
-title: _tagKSTELEPHONY_PROVIDERCHANGE
+title: "_tagKSTELEPHONY_PROVIDERCHANGE"
 author: windows-driver-content
 description: The KSTELEPHONY_PROVIDERCHANGE structure specifies the phone call type and provider change operation to use for the KSPROPERTY_TELEPHONY_PROVIDERCHANGE property.
 old-location: audio\kstelephony_providerchange.htm
 old-project: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], *PKSTELEPHONY_PROVIDERCHANGE, ksmedia/KSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE
+ms.date: 2/22/2018
+ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSTELEPHONY_PROVIDERCHANGE
 product: Windows
 targetos: Windows
@@ -81,8 +81,10 @@ Specifies the change operation requested by the provider (begin, end, or cancel)
 ## -remarks
 
 
+
 The audio stack uses the KSTELEPHONY_PROVIDERCHANGE property to indicate the start and the end of SRVCC to the audio driver. This property communicates the call type (LTE packet-switched, WLAN packet-switched, or circuit-switched) and the provider change operation (begin, end, or cancel) to driver. The call type is ignored when the provider operation is for ending the SRVCC. 
 
 When the provider change operation is TELEPHONY_PROVIDERCHANGEOP_BEGIN, the driver updates that provider’s call state to TELEPHONY_CALLSTATE_PROVIDERTRANSITION. When the provider change operation is TELEPHONY_PROVIDERCHANGEOP_END, the driver updates that provider’s call state to TELEPHONY_CALLSTATE_ENABLED. During SRVCC, the driver must continue to use the associated KSNODETYPE_TELEPHONY_BIDI endpoint, and it does not change the jack states of this endpoint. When the provider change operation is TELEPHONY_PROVIDERCHANGEOP_CANCEL, SRVCC is being canceled, and the driver should revert back to a pre-SRVCC call.
+
 
 

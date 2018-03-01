@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertstream.htm
 old-project: audio
 ms.assetid: be398a37-0329-411b-ba41-a03dbc5f72a1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertstream, IMiniportWaveRTStream interface [Audio Devices], IMiniportWaveRTStream interface [Audio Devices], described, IMiniportWaveRTStream, portcls/IMiniportWaveRTStream, audmp-routines_9f8c9dbe-8e68-4b7b-b2de-b409d77f15d6.xml
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveRTStream, IMiniportWaveRTStream interface [Audio Devices], IMiniportWaveRTStream interface [Audio Devices], described, audio.iminiportwavertstream, audmp-routines_9f8c9dbe-8e68-4b7b-b2de-b409d77f15d6.xml, portcls/IMiniportWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWaveRTStream
 product: Windows
 targetos: Windows

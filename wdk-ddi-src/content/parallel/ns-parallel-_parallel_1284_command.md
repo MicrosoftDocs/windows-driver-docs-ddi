@@ -1,14 +1,14 @@
 ---
 UID: NS:parallel._PARALLEL_1284_COMMAND
-title: _PARALLEL_1284_COMMAND
+title: "_PARALLEL_1284_COMMAND"
 author: windows-driver-content
 description: The PARALLEL_1284_COMMAND structure specifies information that a client uses to select and deselect an IEEE 1284.3 daisy-chain device or an IEEE 1284 end-of-chain device.
 old-location: parports\parallel_1284_command.htm
 old-project: parports
 ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PARALLEL_1284_COMMAND structure [Parallel Ports], PARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], *PPARALLEL_1284_COMMAND, _PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parports.parallel_1284_command
+ms.date: 2/15/2018
+ms.keywords: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parports.parallel_1284_command"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	parallel.h
-apiname: 
+api_name:
 -	PARALLEL_1284_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: *PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND
+req.typenames: PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND
 ---
 
 # _PARALLEL_1284_COMMAND structure
@@ -86,17 +86,20 @@ Specifies a bitwise OR of zero or more of the following flags:
 
 
 
-##### - CommandFlags.PAR_END_OF_CHAIN_DEVICE
+
+#### PAR_END_OF_CHAIN_DEVICE
 
 Specifies an end-of-chain device.
 
 
-##### - CommandFlags.PAR_HAVE_PORT_KEEP_PORT
+
+#### PAR_HAVE_PORT_KEEP_PORT
 
 Specifies that the client has the parallel port allocated, and makes a request to keep the port allocated.
 
 
 ## -remarks
+
 
 
 The system-supplied function driver for parallel ports supports the simultaneous connection of zero to two IEEE 1284.3 daisy-chain devices and an IEEE 1284 end-of-chain device. In Windows XP, the parallel port function driver supports the simultaneous connection of zero to four IEEE 1284.3 daisy-chain devices and an IEEE 1284 end-of-chain device. The end-of-chain device must be an IEEE 1284 device, but does not have to be an IEEE 1284.3 device. 
@@ -105,19 +108,28 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 
 
+
 ## -see-also
 
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
 
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
 
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_1284_COMMAND structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_1284_COMMAND structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

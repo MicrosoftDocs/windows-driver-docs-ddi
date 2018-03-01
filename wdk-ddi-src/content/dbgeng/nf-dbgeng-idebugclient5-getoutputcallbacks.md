@@ -7,8 +7,8 @@ old-location: debugger\getoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 43f27e56-a6aa-4548-9c96-000e53a7eb9a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, IDebugClient5, IDebugClient2::GetOutputCallbacks, debugger.getoutputcallbacks, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method, dbgeng/IDebugClient3::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient3::GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, IDebugClient4::GetOutputCallbacks, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, dbgeng/IDebugClient::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::GetOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient5::GetOutputCallbacks, dbgeng/IDebugClient2::GetOutputCallbacks, GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface
+ms.date: 2/23/2018
+ms.keywords: GetOutputCallbacks method [Windows Debugging], GetOutputCallbacks method [Windows Debugging], IDebugClient interface, GetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, GetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, GetOutputCallbacks,IDebugClient5.GetOutputCallbacks, IDebugClient interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient2::GetOutputCallbacks, IDebugClient3 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient3::GetOutputCallbacks, IDebugClient4 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient4::GetOutputCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetOutputCallbacks method, IDebugClient5::GetOutputCallbacks, IDebugClient::GetOutputCallbacks, IDebugClient_693aaf2a-8408-48c4-b7c0-66e7064a6f35.xml, dbgeng/IDebugClient2::GetOutputCallbacks, dbgeng/IDebugClient3::GetOutputCallbacks, dbgeng/IDebugClient4::GetOutputCallbacks, dbgeng/IDebugClient5::GetOutputCallbacks, dbgeng/IDebugClient::GetOutputCallbacks, debugger.getoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient.GetOutputCallbacks
 -	IDebugClient2.GetOutputCallbacks
 -	IDebugClient3.GetOutputCallbacks
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetOutputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::GetOutputCallbacks method
@@ -79,7 +79,9 @@ Receives an interface pointer to the <a href="..\dbgeng\nn-dbgeng-idebugoutputca
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,11 +98,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacksWide</b> object registered with it for output.
@@ -113,25 +118,40 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputCallbacks method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetOutputCallbacks method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddchgr._ELEMENT_TYPE
-title: _ELEMENT_TYPE
+title: "_ELEMENT_TYPE"
 author: windows-driver-content
 description: The ELEMENT_TYPE enumeration provides a list of changer element types defined by the SCSI-3 specification.
 old-location: storage\element_type.htm
 old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _ELEMENT_TYPE, ntddchgr/AllElements, storage.element_type, ChangerMaxElement, ntddchgr/ChangerTransport, ChangerSlot, ChangerIEPort, ChangerKeypad, ELEMENT_TYPE, *PELEMENT_TYPE, PELEMENT_TYPE, ntddchgr/ChangerIEPort, PELEMENT_TYPE enumeration pointer [Storage Devices], structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/ChangerKeypad, ntddchgr/ChangerDrive, AllElements, ChangerDoor, ChangerDrive, ntddchgr/ELEMENT_TYPE, ntddchgr/ChangerSlot, ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/ChangerDoor, ntddchgr/ChangerMaxElement, ntddchgr/PELEMENT_TYPE, ChangerTransport
+ms.date: 2/24/2018
+ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerMaxElement, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer [Storage Devices], _ELEMENT_TYPE, ntddchgr/AllElements, ntddchgr/ChangerDoor, ntddchgr/ChangerDrive, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ntddchgr/ChangerMaxElement, ntddchgr/ChangerSlot, ntddchgr/ChangerTransport, ntddchgr/ELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, storage.element_type, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddchgr.h
-apiname: 
+api_name:
 -	ELEMENT_TYPE
 product: Windows
 targetos: Windows
@@ -116,15 +116,21 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
 
 <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ELEMENT_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ELEMENT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

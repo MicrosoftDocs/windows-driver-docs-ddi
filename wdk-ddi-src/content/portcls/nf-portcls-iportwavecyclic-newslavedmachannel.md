@@ -7,8 +7,8 @@ old-location: audio\iportwavecyclic_newslavedmachannel.htm
 old-project: audio
 ms.assetid: 4d20bd03-9fde-4fcf-a90b-5933221cda93
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, IPortWaveCyclic::NewSlaveDmaChannel, audio.iportwavecyclic_newslavedmachannel, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, IPortWaveCyclic, NewSlaveDmaChannel method [Audio Devices], NewSlaveDmaChannel, portcls/IPortWaveCyclic::NewSlaveDmaChannel, NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface
+ms.date: 2/22/2018
+ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, IPortWaveCyclic::NewSlaveDmaChannel, NewSlaveDmaChannel method [Audio Devices], NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewSlaveDmaChannel,IPortWaveCyclic.NewSlaveDmaChannel, audio.iportwavecyclic_newslavedmachannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, portcls/IPortWaveCyclic::NewSlaveDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortWaveCyclic.NewSlaveDmaChannel
 product: Windows
 targetos: Windows
@@ -111,11 +111,14 @@ The DMA speed can be specified as one of the following DMA_SPEED enumeration val
 ## -returns
 
 
+
 <code>NewSlaveDmaChannel</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Parameters <i>MaximumLength</i>, <i>DemandMode</i>, and <i>DmaSpeed</i> are similar in meaning to the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
@@ -126,23 +129,36 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
+
 ## -see-also
-
-<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536900">IPortWaveCyclic::NewMasterDmaChannel</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+
+
+
+<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
+
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::NewSlaveDmaChannel method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::NewSlaveDmaChannel method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

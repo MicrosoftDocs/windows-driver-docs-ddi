@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlremovedotsfrompath.htm
 old-project: ifsk
 ms.assetid: af6ecdb7-8713-460d-8fd9-ef027ac15b39
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlRemoveDotsFromPath, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath, fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, FsRtlRemoveDotsFromPath routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: FsRtlRemoveDotsFromPath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlRemoveDotsFromPath
 product: Windows
 targetos: Windows
@@ -87,14 +87,18 @@ A pointer to the new length of the buffer, after processing.
 ## -returns
 
 
+
 The<b> FsRtlRemoveDotsFromPath</b> routine returns either STATUS_SUCCESS value for success or STATUS_IO_REPARSE_DATA_INVALID if the operation could not be completed.
+
 
 
 
 ## -remarks
 
 
+
 This routine would take a path as <i>OriginalString</i> like the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,7 +108,9 @@ This routine would take a path as <i>OriginalString</i> like the following examp
 <pre>\dir1\dir2\..\dir3\.\file.txt</pre>
 </td>
 </tr>
-</table></span></div>The routine would modify <i>OriginalString</i> as follows:
+</table></span></div>
+The routine would modify <i>OriginalString</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -114,7 +120,9 @@ This routine would take a path as <i>OriginalString</i> like the following examp
 <pre>\dir1\dir3\file.txt</pre>
 </td>
 </tr>
-</table></span></div>The routine will fail with STATUS_IO_REPARSE_DATA_INVALID if any of the following strings are passed as <i>OriginalString</i>:
+</table></span></div>
+The routine will fail with STATUS_IO_REPARSE_DATA_INVALID if any of the following strings are passed as <i>OriginalString</i>:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -127,4 +135,5 @@ This routine would take a path as <i>OriginalString</i> like the following examp
 </td>
 </tr>
 </table></span></div>
+
 

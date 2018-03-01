@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbackswide_getinterestmask.htm
 old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetInterestMask, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_getinterestmask, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask,IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugEventCallbacksWide.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::GetInterestMask method
@@ -75,13 +75,17 @@ Receives a bitmask that indicates which events the object is interested in.  The
 ## -returns
 
 
+
 The return value S_OK indicates the method was successful.  All other return values indicate an error occurred,  in which case the <b>SetEventCallbacks</b> call will fail and the callback object will not be used nor will it receive events.
+
 
 
 
 ## -remarks
 
 
+
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

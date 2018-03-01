@@ -7,8 +7,8 @@ old-location: netvista\ndiscmdispatchincomingdropparty.htm
 old-project: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], netvista.ndiscmdispatchincomingdropparty, condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty
+ms.date: 2/16/2018
+ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmDispatchIncomingDropParty
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmDispatchIncomingDropParty function
@@ -101,16 +101,19 @@ Specifies the size in bytes of the buffer, zero if
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 In the course of normal network operations, a stand-alone call manager's 
-    <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-    ProtocolCoReceiveNetBufferLists</i></mshelp:link> function calls 
+    <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+    ProtocolCoReceiveNetBufferLists</a> function calls 
     <b>NdisCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
@@ -124,13 +127,13 @@ However, a call manager also can call
 
 A call to 
     <b>NdisCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclincomingdropparty" tabindex="0"><i>
-    ProtocolClIncomingDropParty</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the CM calls 
-    <mshelp:link keywords="netvista.ndiscmdispatchincomingclosecall" tabindex="0"><b>
-    NdisCmDispatchIncomingCloseCall</b></mshelp:link>, rather than 
+    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+    NdisCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisCmDispatchIncomingDropParty</b>.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -140,24 +143,35 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+   NdisCmDispatchIncomingCloseCall</a>
 
-<mshelp:link keywords="netvista.ndismcmdispatchincomingdropparty" tabindex="0"><b>
-   NdisMCmDispatchIncomingDropParty</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndiscmdispatchincomingclosecall" tabindex="0"><b>
-   NdisCmDispatchIncomingCloseCall</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
+   NdisMCmDispatchIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmDispatchIncomingDropParty function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmDispatchIncomingDropParty function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

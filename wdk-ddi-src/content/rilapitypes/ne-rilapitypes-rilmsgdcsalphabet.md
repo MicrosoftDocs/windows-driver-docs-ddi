@@ -7,8 +7,8 @@ old-location: netvista\rilmsgdcsalphabet_2.htm
 old-project: netvista
 ms.assetid: 62cd5dd1-8775-4b60-9aa2-3f8e0a3a4b26
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_8BIT, netvista.rilmsgdcsalphabet_2, rilapitypes/RIL_DCSALPHABET_8BIT, rilapitypes/RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, RILMSGDCSALPHABET, rilapitypes/RIL_DCSALPHABET_UCS2, rilapitypes/RILMSGDCSALPHABET
+ms.date: 2/16/2018
+ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet_2, rilapitypes/RILMSGDCSALPHABET, rilapitypes/RIL_DCSALPHABET_8BIT, rilapitypes/RIL_DCSALPHABET_MAX, rilapitypes/RIL_DCSALPHABET_UCS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGDCSALPHABET
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILMSGDCSALPHABET {
 ### -field RIL_DCSALPHABET_DEFAULT
 
 
-
 ### -field RIL_DCSALPHABET_8BIT
-
 
 
 ### -field RIL_DCSALPHABET_UCS2
 
 
-
 ### -field RIL_DCSALPHABET_MAX
-
 

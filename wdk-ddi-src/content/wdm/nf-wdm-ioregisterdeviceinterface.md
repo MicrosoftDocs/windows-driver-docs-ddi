@@ -7,8 +7,8 @@ old-location: kernel\ioregisterdeviceinterface.htm
 old-project: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], IoRegisterDeviceInterface, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
+ms.date: 2/24/2018
+ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoRegisterDeviceInterface
 product: Windows
 targetos: Windows
@@ -96,13 +96,15 @@ A pointer to a Unicode string structure allocated by the caller. If this routine
 
 The caller must treat <i>SymbolicLinkName</i> as opaque and must not disassemble it.
 
-The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
+The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
 
 
 ## -returns
 
 
+
 <b>IoRegisterDeviceInterface</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +121,14 @@ The parameters are invalid. Possibilities include that <i>PhysicalDeviceObject</
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoRegisterDeviceInterface</b> registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class. A driver can call this routine several times for a given device to register several interface classes and create instances of the classes. A function or filter driver typically registers device interfaces in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine. For example, a fault-tolerant volume driver might register an instance of a fault-tolerant-volume interface and an instance of a volume interface for a particular volume.
@@ -142,19 +147,28 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+
 
 <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioopendeviceinterfaceregistrykey.md">IoOpenDeviceInterfaceRegistryKey</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDeviceInterface routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDeviceInterface routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

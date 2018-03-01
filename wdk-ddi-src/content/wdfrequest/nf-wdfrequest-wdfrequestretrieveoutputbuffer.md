@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestretrieveoutputbuffer.htm
 old-project: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveOutputBuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestRetrieveOutputBuffer
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ A pointer to a location that receives the buffer's size, in bytes. This paramete
 ## -returns
 
 
+
 <b>WdfRequestRetrieveOutputBuffer</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -160,7 +162,8 @@ There is insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -171,7 +174,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>WdfRequestRetrieveOutputBuffer</b> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
@@ -187,16 +192,120 @@ Instead of calling <b>WdfRequestRetrieveOutputBuffer</b>, the driver can call <a
 For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function. This example obtains a USB device's configuration descriptor and places the descriptor in the I/O request's output buffer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoDeviceControl(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  OutputBufferLength,
+    IN size_t  InputBufferLength,
+    IN ULONG  IoControlCode    
+    )
+{
+    WDFDEVICE  device;
+    PDEVICE_CONTEXT  pDevContext;
+    size_t  bytesReturned = 0;
+    NTSTATUS  status;
+
+    device = WdfIoQueueGetDevice(Queue);
+    //
+    // GetDeviceContext is a driver-defined function 
+    // to retrieve device object context space.
+    //
+    pDevContext = GetDeviceContext(device);
+
+    switch(IoControlCode) {
+
+      case IOCTL_OSRUSBFX2_GET_CONFIG_DESCRIPTOR: {
+ 
+        PUSB_CONFIGURATION_DESCRIPTOR  configurationDescriptor = NULL;
+        USHORT  requiredSize;
+
+        //
+        // First, get the size of the USB configuration descriptor.
+        //
+        status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
+                                                pDevContext-&gt;UsbDevice,
+                                                NULL,
+                                                &amp;requiredSize
+                                                );
+        if (status != STATUS_BUFFER_TOO_SMALL) {
+            break;
+        }
+
+        //
+        // Get the buffer. Make sure the buffer is big
+        // enough to hold the configuration descriptor.
+        //
+        status = WdfRequestRetrieveOutputBuffer(
+                                                Request, 
+                                                (size_t)requiredSize,
+                                                &amp;configurationDescriptor,
+                                                NULL
+                                                );
+        if(!NT_SUCCESS(status)){
+            break;
+        }
+        //
+        // Now get the config descriptor.
+        //
+        status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
+                                                pDevContext-&gt;UsbDevice,
+                                                configurationDescriptor,
+                                                &amp;requiredSize
+                                                );
+        if (!NT_SUCCESS(status)) {
+            break;
+        }
+
+        bytesReturned = requiredSize;
+      }
+        break;
+...
+    (Other case statements removed.)
+...
+    default:
+        status = STATUS_INVALID_DEVICE_REQUEST;
+        break;
+    }
+    //
+    // Complete the request.
+    //
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      status,
+                                      bytesReturned
+                                      );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a>
 
- 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestRetrieveOutputBuffer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestRetrieveOutputBuffer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

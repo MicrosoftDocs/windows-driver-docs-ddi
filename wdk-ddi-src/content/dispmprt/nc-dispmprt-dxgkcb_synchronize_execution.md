@@ -7,8 +7,8 @@ old-location: display\dxgkcbsynchronizeexecution.htm
 old-project: display
 ms.assetid: 9c659319-d0a5-43a7-b9a9-9fad18397a09
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbsynchronizeexecution, DxgkCbSynchronizeExecution callback function [Display Devices], DxgkCbSynchronizeExecution, DXGKCB_SYNCHRONIZE_EXECUTION, DXGKCB_SYNCHRONIZE_EXECUTION, dispmprt/DxgkCbSynchronizeExecution, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbSynchronizeExecution
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ A handle that represents a display adapter. The display miniport driver previous
 ### -param SynchronizeRoutine [in]
 
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -111,7 +112,9 @@ A pointer to a Boolean variable that receives the return value of <i>Synchronize
 ## -returns
 
 
+
 <b>DxgkCbSynchronizeExecution</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,7 +153,9 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -158,11 +163,15 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
+
+
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_SYNCHRONIZE_EXECUTION callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_SYNCHRONIZE_EXECUTION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

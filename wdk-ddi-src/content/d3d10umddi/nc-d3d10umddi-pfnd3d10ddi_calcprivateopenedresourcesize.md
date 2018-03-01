@@ -7,8 +7,8 @@ old-location: display\calcprivateopenedresourcesize.htm
 old-project: display
 ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.calcprivateopenedresourcesize, CalcPrivateOpenedResourceSize callback function [Display Devices], CalcPrivateOpenedResourceSize, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, d3d10umddi/CalcPrivateOpenedResourceSize, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml
+ms.date: 2/24/2018
+ms.keywords: CalcPrivateOpenedResourceSize, CalcPrivateOpenedResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml, d3d10umddi/CalcPrivateOpenedResourceSize, display.calcprivateopenedresourcesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	CalcPrivateOpenedResourceSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback
@@ -74,7 +74,6 @@ SIZE_T APIENTRY CalcPrivateOpenedResourceSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ SIZE_T APIENTRY CalcPrivateOpenedResourceSize(
 
 
 
-#### - pOpenResource [in]
-
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region. 
 
 
 #### - hDevice [in]
@@ -92,10 +88,17 @@ SIZE_T APIENTRY CalcPrivateOpenedResourceSize(
  A handle to the display device (graphics context).
 
 
+#### - pOpenResource [in]
+
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region. 
+
+
 ## -returns
 
 
+
 <b>CalcPrivateOpenedResourceSize</b> returns the size of the shared memory region that the driver requires for opening resources.
+
 
 
 
@@ -103,11 +106,15 @@ SIZE_T APIENTRY CalcPrivateOpenedResourceSize(
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

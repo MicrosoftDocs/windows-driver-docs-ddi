@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice3_createinterrupt.htm
 old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFDevice3, CreateInterrupt method, IWDFDevice3 interface, IWDFDevice3 interface, CreateInterrupt method, CreateInterrupt method, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, CreateInterrupt, IWDFDevice3::CreateInterrupt, wudfddi/IWDFDevice3::CreateInterrupt
+ms.date: 2/20/2018
+ms.keywords: CreateInterrupt method, CreateInterrupt method, IWDFDevice3 interface, CreateInterrupt,IWDFDevice3.CreateInterrupt, IWDFDevice3, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice3.CreateInterrupt
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must call <b>CreateInterrupt</b> one time for each interrupt vector that its device requires. If the device supports message-signaled interrupts (MSI), the driver must create an interrupt object for each message that the device can support. 
@@ -111,18 +114,48 @@ UMDF supports level-triggered interrupts starting in Windows 8. If a driver run
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
+IWDFInterrupt* pInterrupt;
+WUDF_INTERRUPT_CONFIG  interruptConfig;
+
+WUDF_INTERRUPT_CONFIG_INIT(&amp;interruptConfig,
+                           MyInterruptIsr,
+                           MyInterruptWorkItem);
+
+hr = pDevice-&gt;Create(&amp;interruptConfig, 
+                     &amp;pInterrupt);
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
+
+
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::CreateInterrupt method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::CreateInterrupt method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

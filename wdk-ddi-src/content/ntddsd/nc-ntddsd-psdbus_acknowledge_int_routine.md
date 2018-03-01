@@ -7,8 +7,8 @@ old-location: sd\psdbus_acknowledge_int_routine.htm
 old-project: SD
 ms.assetid: b3d23404-2d55-4a37-8c4c-d857c5307f18
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SD.psdbus_acknowledge_int_routine, AcknowledgeInterrupt callback function [Buses], AcknowledgeInterrupt, PSDBUS_ACKNOWLEDGE_INT_ROUTINE, PSDBUS_ACKNOWLEDGE_INT_ROUTINE, ntddsd/AcknowledgeInterrupt, sd-rtns_9197189b-4b46-4ab6-aa7b-df880985241b.xml
+ms.date: 2/15/2018
+ms.keywords: AcknowledgeInterrupt, AcknowledgeInterrupt callback function [Buses], PSDBUS_ACKNOWLEDGE_INT_ROUTINE, SD.psdbus_acknowledge_int_routine, ntddsd/AcknowledgeInterrupt, sd-rtns_9197189b-4b46-4ab6-aa7b-df880985241b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddsd.h
-apiname: 
+api_name:
 -	AcknowledgeInterrupt
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ Contains the interface context that the <a href="https://msdn.microsoft.com/libr
 ## -returns
 
 
+
 Returns STATUS_UNSUCCESSFUL if the operation succeeds, or the appropriate error message if the operation fails.
 
 
 
+
 ## -remarks
+
 
 
 When an SD device asserts an interrupt, the bus driver disables the interrupt that the device asserted to allow the device driver to perform I/O at IRQL &lt;=DISPATCH_LEVEL. When the device driver's callback routine, which is equivalent to an interrupt service routine, finishes clearing the interrupt, it should acknowledge that it has finished interrupt processing so that the bus driver can re-enable the disabled interrupt. 
@@ -93,15 +96,20 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL when it acknowledges tha
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback function%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

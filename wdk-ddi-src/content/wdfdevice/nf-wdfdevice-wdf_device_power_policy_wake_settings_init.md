@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_power_policy_wake_settings_init.htm
 old-project: wdf
 ms.assetid: bb712c92-c926-4a7a-a126-db4db3bc728f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, kmdf.wdf_device_power_policy_wake_settings_init, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, wdf.wdf_device_power_policy_wake_settings_init, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_wake_settings_init, wdf.wdf_device_power_policy_wake_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 product: Windows
 targetos: Windows
@@ -78,15 +78,19 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_p
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</b> function zeros the specified <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure and sets the structure's <b>Size</b> member. Then the function sets the structure's <b>Enabled</b> member to <b>WdfUseDefault</b>, sets the <b>DxState</b> member to <b>PowerDeviceMaximum</b>, and sets the <b>UserControlOfWakeSettings</b> member to <b>WakeAllowUserControl</b>.
 
 For a code example that uses <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>.
+
 
 

@@ -7,8 +7,8 @@ old-location: debugger\readunicodestringvirtualwide.htm
 old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.readunicodestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, IDebugDataSpaces4, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide,IDebugDataSpaces4.ReadUnicodeStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces4.ReadUnicodeStringVirtualWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadUnicodeStringVirtualWide method
@@ -84,7 +84,9 @@ Specifies the maximum number of bytes to read from the target.
 ### -param Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
-<div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div>
+<div> </div>
 
 ### -param BufferSize [in]
 
@@ -99,7 +101,9 @@ Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,16 +139,20 @@ A null-terminator was not found after reading <i>MaxBytes</i> from the target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method was successful.
+
 
 
 
 ## -remarks
 
 
+
 The engine will read up to <i>MaxBytes</i> from the target, looking for a null-terminator.  If the string has more than <i>BufferSize</i> characters, the string will be truncated to fit in <i>Buffer</i>.
+
 
 
 
@@ -152,13 +160,19 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::ReadUnicodeStringVirtualWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::ReadUnicodeStringVirtualWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

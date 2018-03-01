@@ -7,8 +7,8 @@ old-location: netvista\ndisopenfile.htm
 old-project: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisOpenFile, netvista.ndisopenfile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile
+ms.date: 2/16/2018
+ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisOpenFile
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisOpenFile function
@@ -82,6 +82,35 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+The handle at 
+       <i>FileHandle</i> is valid for a subsequent call to 
+       <b>NdisMapFile</b>.
+
+
+
+#### NDIS_STATUS_FILE_NOT_FOUND
+
+The given string at 
+       <i>FileName</i> did not specify a name found in the system object namespace.
+
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS could not allocate the resources it needed to open the file and allocate a buffer for the
+       file contents.
+
+
+
+#### NDIS_STATUS_ERROR_READING_FILE
+
+The specified file's data could not be read into system memory for subsequent access by the
+       caller.
+
+
 ### -param FileHandle [out]
 
 A pointer to a caller-supplied variable in which this function returns the handle of the opened
@@ -108,39 +137,17 @@ The highest physical address in which the file data can be stored, or specifies 
      places no restrictions.
 
 
-##### - Status.NDIS_STATUS_ERROR_READING_FILE
-
-The specified file's data could not be read into system memory for subsequent access by the
-       caller.
-
-
-##### - Status.NDIS_STATUS_FILE_NOT_FOUND
-
-The given string at 
-       <i>FileName</i> did not specify a name found in the system object namespace.
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS could not allocate the resources it needed to open the file and allocate a buffer for the
-       file contents.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The handle at 
-       <i>FileHandle</i> is valid for a subsequent call to 
-       <b>NdisMapFile</b>.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisOpenFile</b> opens a disk file, typically a file the driver will later download to program an
@@ -164,21 +171,32 @@ When
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
- 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenFile function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\iksdevicefunctions_registeradapterobjectex.htm
 old-project: stream
 ms.assetid: e5dc54a6-e26a-455b-9990-92f5cfece923
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, stream.iksdevicefunctions_registeradapterobjectex, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions, RegisterAdapterObjectEx method [Streaming Media Devices], ks/IKsDeviceFunctions::RegisterAdapterObjectEx, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method
+ms.date: 2/23/2018
+ms.keywords: IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method, IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, RegisterAdapterObjectEx,IKsDeviceFunctions.RegisterAdapterObjectEx, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, stream.iksdevicefunctions_registeradapterobjectex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsDeviceFunctions.RegisterAdapterObjectEx
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS RegisterAdapterObjectEx(
 
 ### -param AdapterObject [in]
 
-Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
+Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
 
 
 ### -param DeviceDescription [in]
@@ -101,14 +101,18 @@ Additional space can be used by the minidriver as context information.
 ## -returns
 
 
+
 <b>RegisterAdapterObjectEx</b> returns STATUS_SUCCESS if the DMA object was successfully registered. The method returns STATUS_INSUFFICIENT_RESOURCES if sufficient memory is not available.
+
 
 
 
 ## -remarks
 
 
+
 Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827be">Supporting DMA in 64-Bit AVStream Drivers</a>.
+
 
 
 
@@ -116,9 +120,11 @@ Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827b
 
 <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDeviceFunctions::RegisterAdapterObjectEx method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDeviceFunctions::RegisterAdapterObjectEx method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

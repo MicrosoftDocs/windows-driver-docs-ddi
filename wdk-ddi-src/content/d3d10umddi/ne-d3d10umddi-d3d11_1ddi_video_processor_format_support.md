@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_video_processor_format_support.htm
 old-project: display
 ms.assetid: 3fef0cb0-6584-487d-9660-1c748509a6a9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, display.d3d11_1ddi_video_processor_format_support, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, display.d3d11_1ddi_video_processor_format_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
 product: Windows
 targetos: Windows

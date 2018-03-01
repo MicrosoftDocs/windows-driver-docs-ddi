@@ -7,8 +7,8 @@ old-location: kernel\rtlssizetadd.htm
 old-project: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlSSIZETAdd, ntintsafe/RtlSSIZETAdd, kernel.rtlssizetadd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd, ntintsafe/RtlSSIZETAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlSSIZETAdd
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

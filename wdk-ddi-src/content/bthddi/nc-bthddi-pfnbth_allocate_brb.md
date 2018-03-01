@@ -7,15 +7,15 @@ old-location: bltooth\bthallocatebrb.htm
 old-project: bltooth
 ms.assetid: e1ac9d4c-75e2-4d37-86d7-3c3f1486222e
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.bthallocatebrb, BthAllocateBrb callback function [Bluetooth Devices], BthAllocateBrb, PFNBTH_ALLOCATE_BRB, PFNBTH_ALLOCATE_BRB, bthddi/BthAllocateBrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml
+ms.date: 2/15/2018
+ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	BthAllocateBrb
 product: Windows
 targetos: Windows
@@ -90,19 +90,23 @@ Specifies a 4-byte
 ## -returns
 
 
+
 <i>BthAllocateBrb</i> returns a pointer to the newly allocated BRB, or <b>NULL</b> if the system is out of
      memory.
+
 
 
 
 ## -remarks
 
 
+
 Profile drivers obtain a pointer to the 
     <i>BthAllocateBrb</i> function when they query the Bluetooth driver stack for an instance of the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
-    <mshelp:link keywords="bltooth.querying_for_bluetooth_interfaces" tabindex="0">Querying for Bluetooth
-    Interfaces</mshelp:link> for more information about querying the Bluetooth driver stack.
+    <a href="https://msdn.microsoft.com/56db29cd-26ab-4262-9b9f-40d46372ffe9">Querying for Bluetooth
+    Interfaces</a> for more information about querying the Bluetooth driver stack.
+
 
 
 
@@ -110,13 +114,19 @@ Profile drivers obtain a pointer to the
 
 pool tag
 
+
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNBTH_ALLOCATE_BRB callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNBTH_ALLOCATE_BRB callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

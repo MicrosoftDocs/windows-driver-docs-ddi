@@ -1,19 +1,19 @@
 ---
 UID: NS:srb._SRBEX_DATA_BIDIRECTIONAL
-title: _SRBEX_DATA_BIDIRECTIONAL
+title: "_SRBEX_DATA_BIDIRECTIONAL"
 author: windows-driver-content
 description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
 old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PSRBEX_DATA_BIDIRECTIONAL, storport/PSRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: srb.h
-req.include-header: Storport.h, Srb.h
+req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	SRBEX_DATA_BIDIRECTIONAL
 product: Windows
 targetos: Windows
-req.typenames: *PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL
+req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,11 @@ A pointer to the buffer that contains the data sent from the device.
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_BIDIRECTIONAL structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_BIDIRECTIONAL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

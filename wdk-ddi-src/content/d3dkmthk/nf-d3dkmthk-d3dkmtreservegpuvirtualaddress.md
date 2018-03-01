@@ -7,8 +7,8 @@ old-location: display\d3dkmtreservegpuvirtualaddress.htm
 old-project: display
 ms.assetid: 2F8B689C-162C-4C1B-BD45-A154079334D0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTReserveGpuVirtualAddress function [Display Devices], D3DKMTReserveGpuVirtualAddress, d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
+ms.date: 2/24/2018
+ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTReserveGpuVirtualAddress
 product: Windows
 targetos: Windows
@@ -76,12 +76,14 @@ NTSTATUS APIENTRY D3DKMTReserveGpuVirtualAddress(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns
+
 
 
 <table>
@@ -111,8 +113,10 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilphonebooklocationcaps.htm
 old-project: netvista
 ms.assetid: df2f059c-d1c3-4716-8254-47c71f0b4a7c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilphonebooklocationcaps, RIL_CAPS_PBLOC_ALL, ntddrilapitypes/RIL_CAPS_PBLOC_ALL, ntddrilapitypes/RIL_CAPS_PBLOC_UICCSERVICEDIALING, ntddrilapitypes/RIL_CAPS_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_CAPS_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RILPHONEBOOKLOCATIONCAPS, RIL_CAPS_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_CAPS_PBLOC_OWNNUMBERS, RILPHONEBOOKLOCATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RILPHONEBOOKLOCATIONCAPS, RIL_CAPS_PBLOC_UICCSERVICEDIALING, RIL_CAPS_PBLOC_UICCPHONEBOOK, RIL_CAPS_PBLOC_UICCFIXDIALING
+ms.date: 2/16/2018
+ms.keywords: RILPHONEBOOKLOCATIONCAPS, RILPHONEBOOKLOCATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PBLOC_ALL, RIL_CAPS_PBLOC_OWNNUMBERS, RIL_CAPS_PBLOC_UICCFIXDIALING, RIL_CAPS_PBLOC_UICCPHONEBOOK, RIL_CAPS_PBLOC_UICCSERVICEDIALING, netvista.rilphonebooklocationcaps, ntddrilapitypes/RILPHONEBOOKLOCATIONCAPS, ntddrilapitypes/RIL_CAPS_PBLOC_ALL, ntddrilapitypes/RIL_CAPS_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_CAPS_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_CAPS_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_CAPS_PBLOC_UICCSERVICEDIALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKLOCATIONCAPS
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILPHONEBOOKLOCATIONCAPS {
 ### -field RIL_CAPS_PBLOC_UNKOWN
 
 
-
 ### -field RIL_CAPS_PBLOC_UICCFIXDIALING
-
 
 
 ### -field RIL_CAPS_PBLOC_OWNNUMBERS
 
 
-
 ### -field RIL_CAPS_PBLOC_UICCPHONEBOOK
-
 
 
 ### -field RIL_CAPS_PBLOC_UICCSERVICEDIALING
 
 
-
 ### -field RIL_CAPS_PBLOC_ALL
-
 

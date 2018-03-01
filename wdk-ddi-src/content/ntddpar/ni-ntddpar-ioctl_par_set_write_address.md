@@ -7,8 +7,8 @@ old-location: parports\ioctl_par_set_write_address.htm
 old-project: parports
 ms.assetid: ea4a071e-aa6b-4c9f-b497-523af7e42430
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.ioctl_par_set_write_address, IOCTL_PAR_SET_WRITE_ADDRESS control code [Parallel Ports], IOCTL_PAR_SET_WRITE_ADDRESS, ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS, cisspd_396ff93f-623f-48a5-925e-9338672fa974.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_PAR_SET_WRITE_ADDRESS, IOCTL_PAR_SET_WRITE_ADDRESS control code [Parallel Ports], cisspd_396ff93f-623f-48a5-925e-9338672fa974.xml, ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS, parports.ioctl_par_set_write_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddpar.h
-apiname: 
+api_name:
 -	IOCTL_PAR_SET_WRITE_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_SET_WRITE_ADDRESS IOCTL
@@ -49,7 +49,7 @@ req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,9 +121,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_read_address.md">IOCTL_PAR_SET_READ_ADDRESS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_PAR_SET_WRITE_ADDRESS control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_PAR_SET_WRITE_ADDRESS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

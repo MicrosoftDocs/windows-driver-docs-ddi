@@ -7,8 +7,8 @@ old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 old-project: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], DxgkCbAcquirePostDisplayOwnership, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, dispmprt/DxgkCbAcquirePostDisplayOwnership
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbAcquirePostDisplayOwnership
 product: Windows
 targetos: Windows
@@ -86,24 +86,35 @@ A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK
 ## -returns
 
 
+
 <i>DxgkCbAcquirePostDisplayOwnership</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
-<h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
+
+<h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
+The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
+
 <ul>
 <li><b>D3DDDIFMT_X8R8G8B8</b></li>
 <li><b>D3DDDIFMT_A8R8G8B8</b></li>
-</ul>If the operating system reports back the <b>D3DDDIFMT_R8G8B8</b> format, the display miniport driver should ignore it.
-<h3><a id="Video_present_target_initialization"></a><a id="video_present_target_initialization"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION"></a>Video present target initialization</h3>It is possible that the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
+</ul>
+If the operating system reports back the <b>D3DDDIFMT_R8G8B8</b> format, the display miniport driver should ignore it.
+
+<h3><a id="Video_present_target_initialization"></a><a id="video_present_target_initialization"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION"></a>Video present target initialization</h3>
+It is possible that the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
 
 Similarly, it is possible that the <i>DisplayInfo</i>-&gt;<b>AcpiId</b> member is not initialized. In this case, the ACPI identifier <b>AcpiId</b> has a value of zero.
 
 In the case of a driver-to-driver upgrade, the previous driver will have provided the target identifier and the ACPI identifier.
-<h3><a id="Implementation_guidelines"></a><a id="implementation_guidelines"></a><a id="IMPLEMENTATION_GUIDELINES"></a>Implementation guidelines</h3>Starting with WDDM 1.2, the display miniport driver must follow these guidelines when it calls <i>DxgkCbAcquirePostDisplayOwnership</i>:
+
+<h3><a id="Implementation_guidelines"></a><a id="implementation_guidelines"></a><a id="IMPLEMENTATION_GUIDELINES"></a>Implementation guidelines</h3>
+Starting with WDDM 1.2, the display miniport driver must follow these guidelines when it calls <i>DxgkCbAcquirePostDisplayOwnership</i>:
+
 <ul>
 <li>
 The entry point for the <i>DxgkCbAcquirePostDisplayOwnership</i> function is part of the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure. This structure is returned to the driver through the  <i>DxgkInterface</i> parameter when the driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function is called.
@@ -128,23 +139,36 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

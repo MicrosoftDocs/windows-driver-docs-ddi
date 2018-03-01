@@ -7,8 +7,8 @@ old-location: wdf\wdffdoinitquerypropertyex.htm
 old-project: wdf
 ms.assetid: C8377EE4-A7A1-4063-A7DC-53D0D8C6E0C3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx, PFN_WDFFDOINITQUERYPROPERTYEX
+ms.date: 2/20/2018
+ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfFdoInitQueryPropertyEx
 product: Windows
 targetos: Windows
@@ -117,7 +117,9 @@ A pointer to a <b>DEVPROPTYPE</b> variable that, on return, contains the propert
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfFdoInitQueryPropertyEx</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,7 +147,8 @@ The specified <i>DeviceProperty</i> value is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -153,7 +156,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Before receiving device property data, drivers typically call the <b>WdfFdoInitQueryPropertyEx</b> method just to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfFdoInitQueryPropertyEx</b> again. Therefore, drivers should call <b>WdfFdoInitQueryPropertyEx</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
@@ -168,13 +173,16 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
+
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitQueryPropertyEx method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitQueryPropertyEx method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

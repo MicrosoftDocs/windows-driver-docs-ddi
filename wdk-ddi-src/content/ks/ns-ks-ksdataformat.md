@@ -7,8 +7,8 @@ old-location: stream\ksdataformat.htm
 old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSDATARANGE, KSDATARANGE, *PKSDATARANGE, ks/KSDATARANGE, ks/KSDATAFORMAT, KSDATAFORMAT, ks/PKSDATAFORMAT, ks/PKSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, PKSDATAFORMAT, *PKSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], PKSDATARANGE structure pointer [Streaming Media Devices], stream.ksdataformat
+ms.date: 2/23/2018
+ms.keywords: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, KSDATARANGE structure [Streaming Media Devices], PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATAFORMAT, ks/PKSDATARANGE, stream.ksdataformat"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSDATAFORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PKSDATARANGE, KSDATAFORMAT, KSDATARANGE, *PKSDATAFORMAT
+req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---
 
 # KSDATAFORMAT structure
@@ -113,22 +113,26 @@ The following specifiers (defined in <i>ks.h</i>) are of general use:
 
 
 
-##### - Specifier.KSDATAFORMAT_SPECIFIER_FILEHANDLE
 
-Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
-
-
-##### - Specifier.KSDATAFORMAT_SPECIFIER_FILENAME
-
-Indicates that a null-terminated Unicode string immediately follows the KSDATAFORMAT structure in memory.  
-
-
-##### - Specifier.KSDATAFORMAT_SPECIFIER_NONE
+#### KSDATAFORMAT_SPECIFIER_NONE
 
 Stands for no specifier. Used for formats that do not support specifiers.
 
 
+
+#### KSDATAFORMAT_SPECIFIER_FILENAME
+
+Indicates that a null-terminated Unicode string immediately follows the KSDATAFORMAT structure in memory.  
+
+
+
+#### KSDATAFORMAT_SPECIFIER_FILEHANDLE
+
+Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
+
+
 ## -remarks
+
 
 
 At the minimum, a data format is specified by the <b>MajorFormat</b>, the <b>SubFormat</b>, and the <b>Specifier</b> members. A family of similar data formats can share the same values for <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. In that case, the specific data format is distinguished by additional data that follows the <b>Specifier</b> member in memory.
@@ -137,13 +141,16 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDATAFORMAT structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDATAFORMAT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

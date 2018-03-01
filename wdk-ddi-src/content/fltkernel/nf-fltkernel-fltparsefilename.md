@@ -7,8 +7,8 @@ old-location: ifsk\fltparsefilename.htm
 old-project: ifsk
 ms.assetid: 8d91390b-22a1-4e0b-8c9e-78c0872e7b21
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltparsefilename, FltParseFileName function [Installable File System Drivers], FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, fltkernel/FltParseFileName
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, FltParseFileName function [Installable File System Drivers], fltkernel/FltParseFileName, ifsk.fltparsefilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	fltmgr.sys
-apiname: 
+api_name:
 -	FltParseFileName
 product: Windows
 targetos: Windows
@@ -93,16 +93,20 @@ Pointer to a UNICODE_STRING structure that receives the final name component par
 ## -returns
 
 
+
 <b>FltParseFileName</b> returns STATUS_SUCCESS or an appropriate NTSTATUS error code. 
+
 
 
 
 ## -remarks
 
 
+
 <b>FltParseFileName</b> parses the extension, stream name, and final component from a file name string. The file name is not required to be normalized or a full path name. If the file name is a short file name, <b>FltParseFileName</b> parses only the extension. 
 
 The following is an example of a normalized name for a local file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -112,7 +116,8 @@ The following is an example of a normalized name for a local file:
 <pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
 </td>
 </tr>
-</table></span></div><b>FltParseFileName</b> parses this normalized name as follows: 
+</table></span></div>
+<b>FltParseFileName</b> parses this normalized name as follows: 
 
 <i>Extension</i>: "txt" 
 
@@ -121,6 +126,7 @@ The following is an example of a normalized name for a local file:
 <i>FinalComponent</i>: "Test Results.txt:stream1" 
 
 The following is an example of a short name for a file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -130,7 +136,8 @@ The following is an example of a short name for a file:
 <pre>TestRe~1.txt</pre>
 </td>
 </tr>
-</table></span></div><b>FltParseFileName</b> parses this short name as follows: 
+</table></span></div>
+<b>FltParseFileName</b> parses this short name as follows: 
 
 <i>Extension</i>: "txt" 
 
@@ -144,17 +151,24 @@ To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="..
 
 
 
-## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+## -see-also
 
 <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileName function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

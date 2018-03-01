@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicyALUA_IN
-title: _DsmSetLoadBalancePolicyALUA_IN
+title: "_DsmSetLoadBalancePolicyALUA_IN"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicyALUA_IN structure provides the input parameter for the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_in.htm
 old-project: storage
 ms.assetid: d46cfba0-a749-436a-99ad-d3606aea9a4d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mpiodisk/DsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], *PDsmSetLoadBalancePolicyALUA_IN, storage.dsmsetloadbalancepolicyalua_in, _DsmSetLoadBalancePolicyALUA_IN, structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml, DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], PDsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN
+ms.date: 2/24/2018
+ms.keywords: "*PDsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicyALUA_IN, mpiodisk/DsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, storage.dsmsetloadbalancepolicyalua_in, structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiodisk.h
-apiname: 
+api_name:
 -	DsmSetLoadBalancePolicyALUA_IN
 product: Windows
 targetos: Windows

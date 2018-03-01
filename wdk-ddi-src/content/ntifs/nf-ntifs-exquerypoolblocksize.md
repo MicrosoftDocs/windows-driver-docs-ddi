@@ -7,8 +7,8 @@ old-location: ifsk\exquerypoolblocksize.htm
 old-project: ifsk
 ms.assetid: 0be3f5da-3fe6-45a2-b44a-b1634d74ede3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.exquerypoolblocksize, exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], ntifs/ExQueryPoolBlockSize
+ms.date: 2/16/2018
+ms.keywords: ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ifsk.exquerypoolblocksize, ntifs/ExQueryPoolBlockSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	ExQueryPoolBlockSize
 product: Windows
 targetos: Windows

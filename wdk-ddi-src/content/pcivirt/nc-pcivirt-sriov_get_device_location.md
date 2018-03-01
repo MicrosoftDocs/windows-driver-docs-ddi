@@ -7,8 +7,8 @@ old-location: pci\sriov_get_device_location.htm
 old-project: PCI
 ms.assetid: 705b52e3-f695-4c58-9ae2-5a806f1e2140
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.sriov_get_device_location, SriovGetDeviceLocation callback function [Buses], SriovGetDeviceLocation, SRIOV_GET_DEVICE_LOCATION, SRIOV_GET_DEVICE_LOCATION, pcivirt/SriovGetDeviceLocation, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], *PSRIOV_GET_DEVICE_LOCATION
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_GET_DEVICE_LOCATION, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], PCI.sriov_get_device_location, SRIOV_GET_DEVICE_LOCATION, SriovGetDeviceLocation, SriovGetDeviceLocation callback function [Buses], pcivirt/SriovGetDeviceLocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	*PSRIOV_GET_DEVICE_LOCATION
 product: Windows
 targetos: Windows
@@ -106,15 +106,19 @@ A pointer to a variable that is filled in with the FunctionNumber, which further
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve the device location. 
 
 The PF driver registers its implementation by setting the <b>WriteVfConfigBlock</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
 
 

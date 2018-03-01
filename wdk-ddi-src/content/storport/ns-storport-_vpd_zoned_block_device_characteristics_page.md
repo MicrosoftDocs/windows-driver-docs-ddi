@@ -1,14 +1,14 @@
 ---
 UID: NS:storport._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-title: _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
+title: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
 old-project: storage
 ms.assetid: 9b1f83fd-e367-4b0d-8f93-24f35d9a5fd8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.vpd_zoned_block_device_characteristics_page, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, storage.vpd_zoned_block_device_characteristics_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 product: Windows
 targetos: Windows

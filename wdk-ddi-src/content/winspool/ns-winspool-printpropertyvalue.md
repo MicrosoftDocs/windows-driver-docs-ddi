@@ -2,13 +2,13 @@
 UID: NS:winspool.PrintPropertyValue
 title: PrintPropertyValue
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\printpropertyvalue.htm
 old-project: print
 ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], winspool/PrintPropertyValue, print.printpropertyvalue
+ms.date: 2/23/2018
+ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winspool.h
-apiname: 
+api_name:
 -	PrintPropertyValue
 product: Windows
 targetos: Windows
@@ -78,12 +78,13 @@ typedef struct {
 
 
 
+### -field ePropertyType
+
+
 ### -field value
 
 
-
 ### -field value.propertyBlob
-
 
 
 ### -field value.propertyBlob.cbBuf
@@ -94,28 +95,4 @@ typedef struct {
 ### -field value.propertyBlob.pBuf
 
 TD
-
-
-### -field value.propertyByte
-
- 
-
-
-### -field value.propertyString
-
- 
-
-
-### -field value.propertyInt32
-
- 
-
-
-### -field value.propertyInt64
-
- 
-
-
-### -field ePropertyType
-
 

@@ -7,8 +7,8 @@ old-location: kernel\rtlulongptrtolong.htm
 old-project: kernel
 ms.assetid: 7A5F39C8-DCA2-4684-801A-A334960AA523
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlULongPtrToLong function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongPtrToLong, kernel.rtlulongptrtolong, RtlULongPtrToLong
+ms.date: 2/24/2018
+ms.keywords: RtlULongPtrToLong, RtlULongPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolong, ntintsafe/RtlULongPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlULongPtrToLong
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

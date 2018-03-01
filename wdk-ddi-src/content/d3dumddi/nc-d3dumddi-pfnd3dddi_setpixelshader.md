@@ -7,8 +7,8 @@ old-location: display\setpixelshader.htm
 old-project: display
 ms.assetid: b7ffd96d-086e-445a-89cf-6f34a5b8a5d4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setpixelshader, SetPixelShader callback function [Display Devices], SetPixelShader, PFND3DDDI_SETPIXELSHADER, PFND3DDDI_SETPIXELSHADER, d3dumddi/SetPixelShader, UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETPIXELSHADER, SetPixelShader, SetPixelShader callback function [Display Devices], UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml, d3dumddi/SetPixelShader, display.setpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	SetPixelShader
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
 
 
 
+
+
 #### - hShaderHandle [in]
 
  A handle to the pixel shader code object.
@@ -91,11 +93,14 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
 ## -returns
 
 
+
 <i>SetPixelShader</i> returns S_OK or an appropriate error result if the pixel shader is not successfully set.
 
 
 
+
 ## -remarks
+
 
 
 All subsequent drawing operations use the given shader until another is selected.
@@ -104,13 +109,16 @@ For user-mode display drivers that support pixel shaders before version 2.0, the
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETPIXELSHADER callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETPIXELSHADER callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

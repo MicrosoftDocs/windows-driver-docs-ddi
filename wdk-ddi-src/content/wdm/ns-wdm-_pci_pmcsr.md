@@ -1,19 +1,19 @@
 ---
 UID: NS:wdm._PCI_PMCSR
-title: _PCI_PMCSR
+title: "_PCI_PMCSR"
 author: windows-driver-content
 description: The PCI_PMCSR structure is used to report the contents of the device's power management control status register.
 old-location: pci\pci_pmcsr.htm
 old-project: PCI
 ms.assetid: 5c4bf4c0-c36f-4779-a012-6364c94f37a1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_PMCSR structure [Buses], PCI_PMCSR, *PPCI_PMCSR, PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], wdm/PPCI_PMCSR, PCI.pci_pmcsr, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, _PCI_PMCSR, wdm/PCI_PMCSR
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	PCI_PMCSR
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_PMCSR, PCI_PMCSR
+req.typenames: PCI_PMCSR, *PPCI_PMCSR
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,7 @@ typedef struct _PCI_PMCSR {
 ### -field PowerState
 
 Indicates the power state of the device. This member can have the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -121,7 +122,8 @@ Indicates that the device is in D3.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about the power state register, see the <i>PCI Power Management Specification</i>. 
 
@@ -165,9 +167,11 @@ Contains a one-bit value (either 0 or 1) that reports the value of the PMEStatus
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537588">PCI_PM_CAPABILITY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PMCSR structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_PMCSR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\removeflags.htm
 old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::RemoveFlags, IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint::RemoveFlags, debugger.removeflags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, RemoveFlags, ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method
+ms.date: 2/23/2018
+ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, RemoveFlags,IDebugBreakpoint2.RemoveFlags, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.RemoveFlags
 -	IDebugBreakpoint2.RemoveFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::RemoveFlags method
@@ -76,7 +76,9 @@ Flags to remove from the breakpoint.  <i>Flags</i> is a bit field. The new value
 ## -returns
 
 
+
 <b>RemoveFlags</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,15 +95,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilequipmentstate_2.htm
 old-project: netvista
 ms.assetid: fd3af191-aae8-4afa-b737-8c51029df0e4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EQSTATE_FULL, netvista.rilequipmentstate_2, rilapitypes/RIL_EQSTATE_SHUTDOWN, RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, RIL_EQSTATE_FULL, rilapitypes/RILEQUIPMENTSTATE, RILEQUIPMENTSTATE
+ms.date: 2/16/2018
+ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate_2, rilapitypes/RILEQUIPMENTSTATE, rilapitypes/RIL_EQSTATE_FULL, rilapitypes/RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_SHUTDOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILEQUIPMENTSTATE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILEQUIPMENTSTATE {
 ### -field RIL_EQSTATE_MINIMUM
 
 
-
 ### -field RIL_EQSTATE_FULL
-
 
 
 ### -field RIL_EQSTATE_SHUTDOWN
 
 
-
 ### -field RIL_EQSTATE_MAX
-
 

@@ -7,8 +7,8 @@ old-location: print\iprintjobcollection.htm
 old-project: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.iprintjobcollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices], described, IPrintJobCollection, printerextension/IPrintJobCollection
+ms.date: 2/23/2018
+ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices], described, print.iprintjobcollection, printerextension/IPrintJobCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Printerextension.h
-apiname: 
+api_name:
 -	IPrintJobCollection
 product: Windows
 targetos: Windows
@@ -55,6 +55,14 @@ This interfaces provides an enumeration of the jobs in the print queue.
 The enumerated list of jobs represents a snapshot of the current job status.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintJobCollection</b> interface has these methods.
@@ -72,11 +80,8 @@ Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.
 
 </td>
 </tr>
-</table>Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a> object.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -115,26 +120,11 @@ Gets a pointer to the enumerants of <b>IPrintJobCollection</b> objects.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of jobs in the print queue.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
-
-
-Read-only
-
-Gets a pointer to the enumerants of <b>IPrintJobCollection</b> objects.
-
- 
+</table> 
 
 
 ## -remarks
+
 
 
 The order of print jobs in the enumerated list is the same as the order provided by <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>, which is the actual print queue order.
@@ -143,15 +133,20 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
+
 ## -see-also
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>
 
+
+
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintJobCollection interface%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintJobCollection interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

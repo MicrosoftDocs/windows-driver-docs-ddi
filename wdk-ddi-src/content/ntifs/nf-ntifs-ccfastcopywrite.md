@@ -7,8 +7,8 @@ old-location: ifsk\ccfastcopywrite.htm
 old-project: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/CcFastCopyWrite, CcFastCopyWrite, ifsk.ccfastcopywrite, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, CcFastCopyWrite routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	CcFastCopyWrite
 product: Windows
 targetos: Windows
@@ -93,14 +93,18 @@ Pointer to the buffer from which the data is to be copied.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>CcFastCopyWrite</b> is a faster version of <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
+
 <ul>
 <li>
 <i>FileOffset</i> is a ULONG, not a PLARGE_INTEGER.
@@ -114,7 +118,8 @@ There is no <i>Wait</i> parameter. The caller must be able to enter a wait state
 <b>CcFastCopyWrite</b> does not return a BOOLEAN to indicate whether the write operation was successful.
 
 </li>
-</ul>If the required pages of the cached file are already resident in memory, the data is copied immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be copied.
+</ul>
+If the required pages of the cached file are already resident in memory, the data is copied immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be copied.
 
 If any failure occurs, <b>CcFastCopyWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcFastCopyWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcFastCopyWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcFastCopyWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
@@ -122,15 +127,20 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcFastCopyWrite routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcFastCopyWrite routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

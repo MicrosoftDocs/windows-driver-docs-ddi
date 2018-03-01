@@ -7,8 +7,8 @@ old-location: netvista\rilsetsystemselectionprefsparams_v1_2.htm
 old-project: netvista
 ms.assetid: 84e21a8a-f393-415a-87b6-48700044c9a9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSETSYSTEMSELECTIONPREFSPARAMS_V1, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, netvista.rilsetsystemselectionprefsparams_v1_2, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v1_2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSETSYSTEMSELECTIONPREFSPARAMS_V1
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V1 {
 ### -field dwFlags
 
 
-
 ### -field rilSystemSelectionPrefs
-
 

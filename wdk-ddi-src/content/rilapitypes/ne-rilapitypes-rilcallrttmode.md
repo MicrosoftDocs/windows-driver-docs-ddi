@@ -7,8 +7,8 @@ old-location: netvista\rilcallrttmode_2.htm
 old-project: netvista
 ms.assetid: 89eaa5c2-2178-4181-bf3b-b10d179bc0eb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTMODE, RILCALLRTTMODE, RIL_RTTMODE_FULL, RIL_RTTMODE_MAX, rilapitypes/RIL_RTTMODE_MAX, rilapitypes/RIL_RTTMODE_FULL, netvista.rilcallrttmode_2
+ms.date: 2/16/2018
+ms.keywords: RILCALLRTTMODE, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RIL_RTTMODE_FULL, RIL_RTTMODE_MAX, netvista.rilcallrttmode_2, rilapitypes/RILCALLRTTMODE, rilapitypes/RIL_RTTMODE_FULL, rilapitypes/RIL_RTTMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLRTTMODE
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILCALLRTTMODE {
 ### -field RIL_RTTMODE_DISABLED
 
 
-
 ### -field RIL_RTTMODE_FULL
 
 
-
 ### -field RIL_RTTMODE_MAX
-
 

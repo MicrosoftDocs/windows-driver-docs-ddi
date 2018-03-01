@@ -7,8 +7,8 @@ old-location: debugger\setvalues2.htm
 old-project: debugger
 ms.assetid: 9505a0ce-4f4e-43af-97a2-653b5776c423
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.setvalues2, IDebugRegisters2 interface [Windows Debugging], SetValues2 method, SetValues2 method [Windows Debugging], IDebugRegisters2::SetValues2, IDebugRegisters_4e5c8f37-a5ad-4083-adb9-e75ec18542b2.xml, IDebugRegisters2, SetValues2, SetValues2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValues2
+ms.date: 2/23/2018
+ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetValues2 method, IDebugRegisters2::SetValues2, IDebugRegisters_4e5c8f37-a5ad-4083-adb9-e75ec18542b2.xml, SetValues2 method [Windows Debugging], SetValues2 method [Windows Debugging], IDebugRegisters2 interface, SetValues2,IDebugRegisters2.SetValues2, dbgeng/IDebugRegisters2::SetValues2, debugger.setvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugRegisters2.SetValues2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetValues2 method
@@ -76,6 +76,7 @@ HRESULT SetValues2(
 Specifies the register source to query.
 
 The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,7 +114,8 @@ Fetch register information from the current scope's register context.
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Count [in]
@@ -139,7 +141,9 @@ An array that contains the values to which to set the registers.  The number of 
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +160,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine does its best to cast the values in <i>Values</i> into the type of the registers; this conversion is the same as that performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
@@ -175,17 +182,24 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::SetValues2 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::SetValues2 method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

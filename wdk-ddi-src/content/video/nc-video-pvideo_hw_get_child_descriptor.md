@@ -7,8 +7,8 @@ old-location: display\hwvidgetvideochilddescriptor.htm
 old-project: display
 ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.hwvidgetvideochilddescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], HwVidGetVideoChildDescriptor, PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR, video/HwVidGetVideoChildDescriptor, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	HwVidGetVideoChildDescriptor
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ Is a <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO
 ### -param VideoChildType [out]
 
 Pointer to a location in which the miniport driver returns the type of child being enumerated. This member can be one of the following from the VIDEO_CHILD_TYPE enumeration:
+
 <table>
 <tr>
 <th>Value</th>
@@ -142,7 +143,8 @@ The miniport driver should return the device's PnP hardware identifier as a Unic
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pChildDescriptor [out]
@@ -163,7 +165,9 @@ Is unused and must be set to zero.
 ## -returns
 
 
+
 <i>HwVidGetVideoChildDescriptor</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -202,16 +206,20 @@ The miniport driver could not enumerate the child device identified in <i>ChildE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 By default, <i>HwVidGetVideoChildDescriptor</i> is not called until after the device is started by <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>. To allow the enumeration of a device's children before the device is started, set the <b>AllowEarlyEnumeration</b> member of <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>. When <b>AllowEarlyEnumeration</b> is set, <i>HwVidGetVideoChildDescriptor</i> can be called at any time.
 
 <i>HwVidGetVideoChildDescriptor</i> should do the following:
+
 <ul>
 <li>
 Determine the type of the child device based on the data supplied in <i>ChildEnumInfo</i>, and return this type in <i>VideoChildType</i>.
@@ -225,25 +233,37 @@ Fill in the buffer to which <i>pChildDescriptor</i> points with the appropriate 
 Write a 32-bit value in <i>UId</i> that uniquely identifies the child device being enumerated. The video port driver will pass this handle back to the miniport driver for operations such as power management.
 
 </li>
-</ul><i>HwVidGetVideoChildDescriptor</i> should be made pageable.
+</ul>
+<i>HwVidGetVideoChildDescriptor</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
-
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
-<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
 
-<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
+
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+
+
 
 <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
 
- 
+
+
+<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
+
+
+
+<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

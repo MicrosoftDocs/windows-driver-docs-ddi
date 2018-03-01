@@ -7,8 +7,8 @@ old-location: netvista\rilcalllist_v3.htm
 old-project: netvista
 ms.assetid: d602f68a-8fe9-45f4-a54a-abc652578e9c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLLIST_V3 structure [Network Drivers Starting with Windows Vista], RILCALLLIST_V3, netvista.rilcalllist_v3, ntddrilapitypes/RILCALLLIST_V3, *LPRILCALLLIST_V3, RILCALLLIST, *LPRILCALLLIST
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLLIST, *LPRILCALLLIST_V3, RILCALLLIST, RILCALLLIST_V3, RILCALLLIST_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v3, ntddrilapitypes/RILCALLLIST_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLLIST_V3
 product: Windows
 targetos: Windows
-req.typenames: RILCALLLIST, *LPRILCALLLIST, *LPRILCALLLIST_V3, RILCALLLIST_V3
+req.typenames: RILCALLLIST_V3, *LPRILCALLLIST_V3, RILCALLLIST, *LPRILCALLLIST
 ---
 
 # RILCALLLIST_V3 structure
@@ -71,7 +71,5 @@ typedef struct _RILCALLLIST_V3 {
 ### -field dwNumberOfCalls
 
 
-
 ### -field rciCallInfo
-
 

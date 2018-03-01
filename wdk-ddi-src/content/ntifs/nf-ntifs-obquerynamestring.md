@@ -7,8 +7,8 @@ old-location: ifsk\obquerynamestring.htm
 old-project: ifsk
 ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/ObQueryNameString, ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ifsk.obquerynamestring
+ms.date: 2/16/2018
+ms.keywords: ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], ifsk.obquerynamestring, ntifs/ObQueryNameString, obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ObQueryNameString
 product: Windows
 targetos: Windows
@@ -78,6 +78,7 @@ A pointer to the object for which the name is requested. This parameter is requi
 ### -param ObjectNameInfo [out, optional]
 
 A pointer to a caller-allocated buffer, of the following type, that receives the object name information: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -89,7 +90,8 @@ A pointer to a caller-allocated buffer, of the following type, that receives the
 } OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
 </td>
 </tr>
-</table></span></div>This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
+</table></span></div>
+This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
 
 
 ### -param Length [in]
@@ -105,7 +107,9 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 ## -returns
 
 
+
 <b>ObQueryNameString</b> returns STATUS_SUCCESS or an NTSTATUS value such as the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +126,14 @@ The buffer that is pointed to by <i>ObjectNameInfo</i> is too small to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the given object is named and the object name was successfully acquired, the returned string is the name of the given object including as much of the object's full path as possible. In this case, <b>ObQueryNameString</b> sets <b>Name.Buffer</b> to the address of the NULL-terminated name of the specified object. The value of <b>Name.MaximumLength</b> is the length of the object name including the <b>NULL</b> termination. The value of <b>Name.Length</b> is length of the only the object name.
@@ -137,13 +144,16 @@ The storage for <i>ObjectNameInfo</i> can be allocated from paged or nonpaged po
 
 
 
+
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ObQueryNameString routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ObQueryNameString routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

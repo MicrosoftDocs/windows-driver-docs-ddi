@@ -7,8 +7,8 @@ old-location: storage\storportpofxsetcomponentlatency.htm
 old-project: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency, StorPortPoFxSetComponentLatency
+ms.date: 2/24/2018
+ms.keywords: StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency, storport/StorPortPoFxSetComponentLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortPoFxSetComponentLatency
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ The time, in units of 100 nanoseconds, that the storage device component can tol
 ## -returns
 
 
+
 The <b>StorPortPoFxSetComponentLatency</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,7 +158,9 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -164,9 +168,11 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 <a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPoFxSetComponentLatency routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPoFxSetComponentLatency routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

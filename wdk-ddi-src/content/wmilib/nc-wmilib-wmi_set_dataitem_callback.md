@@ -7,8 +7,8 @@ old-location: kernel\dpwmisetdataitem.htm
 old-project: kernel
 ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.dpwmisetdataitem, DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], DpWmiSetDataItem, WMI_SET_DATAITEM_CALLBACK, WMI_SET_DATAITEM_CALLBACK, wmilib/DpWmiSetDataItem, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml
+ms.date: 2/24/2018
+ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wmilib.h
-apiname: 
+api_name:
 -	DpWmiSetDataItem
 product: Windows
 targetos: Windows
-req.typenames: *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -115,11 +115,14 @@ Pointer to a buffer that contains the new value for the data item.
 ## -returns
 
 
+
 <i>DpWmiSetDataItem</i> returns STATUS_SUCCESS or an appropriate error code such as the following:
 
 
 
+
 ## -remarks
+
 
 
 WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
@@ -127,6 +130,7 @@ WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a h
 Do not implement <i>DpWmiSetDataItem</i> unless you are sure that a system-supplied user-mode component requires this capability. If you implement a <i>DpWmiSetDataItem</i> routine, the driver must place the routine's address in the <b>SetWmiDataItem</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If you do not implement a <i>DpWmiSetDataItem</i> routine, the driver must set <b>SetWmiDataItem</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
+
 <ul>
 <li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
@@ -152,7 +156,8 @@ Verify that <i>Buffer</i> and <i>BufferSize</i> describe a valid-sized data item
 Verify that the specified data item is one for which the driver allows caller-initiated modifications. In other words, the driver should not allow modifications to data items that you intended to be read-only.
 
 </li>
-</ul>Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
+</ul>
+Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
 
 This routine can be pageable.
 
@@ -160,17 +165,24 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
-
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
- 
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_SET_DATAITEM_CALLBACK callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_SET_DATAITEM_CALLBACK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

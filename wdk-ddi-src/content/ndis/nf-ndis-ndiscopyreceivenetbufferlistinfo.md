@@ -7,8 +7,8 @@ old-location: netvista\ndiscopyreceivenetbufferlistinfo.htm
 old-project: netvista
 ms.assetid: 94dc33f4-06ad-4b36-9150-6fb7d491a247
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCopyReceiveNetBufferListInfo, netvista.ndiscopyreceivenetbufferlistinfo, ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, ndis/NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopyReceiveNetBufferListInfo, ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, netvista.ndiscopyreceivenetbufferlistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCopyReceiveNetBufferListInfo
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCopyReceiveNetBufferListInfo function
@@ -85,11 +85,14 @@ A pointer to the source <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When an intermediate driver or filter driver gets receive indications from an underlying driver, it
@@ -100,10 +103,11 @@ When an intermediate driver or filter driver gets receive indications from an un
     information, to the new structure.
 
 To copy the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> information on the send path, use the 
-    <mshelp:link keywords="netvista.ndiscopysendnetbufferlistinfo" tabindex="0"><b>
-    NdisCopySendNetBufferListInfo</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndiscopysendnetbufferlistinfo.md">
+    NdisCopySendNetBufferListInfo</a> function.
 
 The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> items are copied in a call to <b>NdisCopyReceiveNetBufferListInfo</b>:
+
 <table>
 <tr>
 <th>Copied Item</th>
@@ -157,7 +161,9 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 <td>NetBufferListFilteringInfo</td>
 <td>Windows 8</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -165,14 +171,20 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 <a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
 
-<mshelp:link keywords="netvista.ndiscopysendnetbufferlistinfo" tabindex="0"><b>
-    NdisCopySendNetBufferListInfo</b></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndiscopysendnetbufferlistinfo.md">
+    NdisCopySendNetBufferListInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopyReceiveNetBufferListInfo function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopyReceiveNetBufferListInfo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

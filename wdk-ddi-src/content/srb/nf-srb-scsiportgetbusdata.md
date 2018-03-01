@@ -2,13 +2,13 @@
 UID: NF:srb.ScsiPortGetBusData
 title: ScsiPortGetBusData function
 author: windows-driver-content
-description: The ScsiPortGetBusData routine returns bus-type-specific configuration information that a miniport driver's HwScsiFindAdapter routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The ScsiPortGetBusData routine returns bus-type-specific configuration information that a miniport driver's HwScsiFindAdapter routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetbusdata.htm
 old-project: storage
 ms.assetid: 43d30c99-9f9e-4516-8c50-e096f760a774
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ScsiPortGetBusData routine [Storage Devices], srb/ScsiPortGetBusData, scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, ScsiPortGetBusData, storage.scsiportgetbusdata
+ms.date: 2/24/2018
+ms.keywords: ScsiPortGetBusData, ScsiPortGetBusData routine [Storage Devices], scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, srb/ScsiPortGetBusData, storage.scsiportgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+api_name:
 -	ScsiPortGetBusData
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ScsiPortGetBusData</b> routine returns bus-type-specific configuration information that a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.
+The <b>ScsiPortGetBusData</b> routine returns bus-type-specific configuration information that a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -86,7 +86,7 @@ Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_
 
 ### -param SystemIoBusNumber [in]
 
-Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine obtains this value from the input PORT_CONFIGURATION_INFORMATION <b>SystemIoBusNumber</b> member.
+Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine obtains this value from the input PORT_CONFIGURATION_INFORMATION <b>SystemIoBusNumber</b> member.
 
 
 ### -param SlotNumber [in]
@@ -109,7 +109,9 @@ Specifies the maximum number of bytes to return at <i>Buffer</i>, or zero if the
 ## -returns
 
 
+
 <b>ScsiPortGetBusData</b> returns the number of bytes of configuration information it stored in the buffer. When the input BusDataType is PCIConfiguration, ScsiPortGetBusData can return either of the following values to indicate an error.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,32 +139,44 @@ The PCI bus exists, but there is no device at the given PCI <i>SlotNumber</i>. T
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-<b>ScsiPortGetBusData</b> can be called only from a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine or from <i>HwScsiAdapterControl</i> when the control type is <b>ScsiSetRunningConfig</b>. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+
+<b>ScsiPortGetBusData</b> can be called only from a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine or from <i>HwScsiAdapterControl</i> when the control type is <b>ScsiSetRunningConfig</b>. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 Configuration data returned by <b>ScsiPortGetBusData</b> is valid only until the miniport driver calls <b>ScsiPortGetBusData</b> again. As soon as the caller's <i>HwScsiFindAdapter</i> routine returns control, any returned configuration data becomes invalid.
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
 
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetBusData routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetBusData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

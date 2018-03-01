@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_ADDITIONAL_IE
-title: _DOT11_ADDITIONAL_IE
+title: "_DOT11_ADDITIONAL_IE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_additional_ie.htm
 old-project: netvista
 ms.assetid: db034863-f5fa-42bb-81c8-23d4784e0abe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, netvista.dot11_additional_ie, *PDOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, windot11/PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADDITIONAL_IE, netvista.dot11_additional_ie, windot11/DOT11_ADDITIONAL_IE, windot11/PDOT11_ADDITIONAL_IE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_ADDITIONAL_IE
 product: Windows
 targetos: Windows
@@ -84,6 +84,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_ADDITIONAL_IE_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_ADDITIONAL_IE).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -114,23 +133,8 @@ The length of the additional IEs, in bytes, in the probe response frame sent by 
      default value is 0.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_ADDITIONAL_IE_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_ADDITIONAL_IE).
-
-
 ## -remarks
+
 
 
 This structure is used with 
@@ -142,17 +146,24 @@ The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structur
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADDITIONAL_IE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADDITIONAL_IE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

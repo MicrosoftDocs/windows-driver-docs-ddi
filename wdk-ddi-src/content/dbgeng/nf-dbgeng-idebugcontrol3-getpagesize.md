@@ -7,8 +7,8 @@ old-location: debugger\getpagesize.htm
 old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, dbgeng/IDebugControl3::GetPageSize, debugger.getpagesize, GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl2::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl3, GetPageSize method [Windows Debugging], IDebugControl interface, IDebugControl2::GetPageSize
+ms.date: 2/23/2018
+ms.keywords: GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, GetPageSize,IDebugControl3.GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.GetPageSize
 -	IDebugControl2.GetPageSize
 -	IDebugControl3.GetPageSize
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetPageSize method
@@ -77,7 +77,9 @@ Receives the page size.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,6 +96,8 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

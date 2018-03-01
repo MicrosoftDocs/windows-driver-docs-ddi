@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_9
-title: *PPCFILTER_DESCRIPTOR
+title: PCFILTER_DESCRIPTOR
 author: windows-driver-content
 description: The PCFILTER_DESCRIPTOR structure describes a miniport driver's implementation of a filter. The structure specifies the filter's pins, nodes, connections, and properties.
 old-location: audio\pcfilter_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11fd8fc0-98aa-4b06-973c-2b175144da42
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcfilter_descriptor, portcls/PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], PCFILTER_DESCRIPTOR structure [Audio Devices], portcls/PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml
+ms.keywords: portcls/PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], PPCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], audio.pcfilter_descriptor, portcls/PCFILTER_DESCRIPTOR, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, PCFILTER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCFILTER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 ---
 
-# *PPCFILTER_DESCRIPTOR structure
+# PCFILTER_DESCRIPTOR structure
 
 
 ## -description
@@ -139,19 +139,9 @@ typedef struct {
 
 
 
-#### - CategoryCount
+#### - Version
 
-Specifies the number of GUIDs in the <b>Categories</b> array.
-
-
-#### - ConnectionCount
-
-Specifies the number of connections in the <b>Connections</b> array.
-
-
-#### - NodeCount
-
-Specifies the number of node descriptors in the <b>Nodes</b> array.
+Reserved. Initialize to zero.
 
 
 #### - AutomationTable
@@ -159,24 +149,19 @@ Specifies the number of node descriptors in the <b>Nodes</b> array.
 Pointer to the automation table. This is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>. The automation table specifies the handlers for the properties of the filter instance.
 
 
-#### - PinCount
-
-Specifies the number of pin descriptors in the <b>Pins</b> array.
-
-
 #### - PinSize
 
 Specifies the size in bytes of each element in the <b>Pins</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to pin descriptors.
 
 
-#### - Version
+#### - PinCount
 
-Reserved. Initialize to zero.
+Specifies the number of pin descriptors in the <b>Pins</b> array.
 
 
-#### - Connections
+#### - Pins
 
-Pointer to the array of connections descriptors. Each array element is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure.
+Pointer to the array of pin descriptors. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a> structure.
 
 
 #### - NodeSize
@@ -184,9 +169,9 @@ Pointer to the array of connections descriptors. Each array element is a <a href
 Specifies the size in bytes of each element in the <b>Nodes</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to node descriptors.
 
 
-#### - Categories
+#### - NodeCount
 
-Pointer to the array of GUIDs that specifies the categories that the object belongs to. See the discussion of topology categories in <a href="https://msdn.microsoft.com/824cc6a2-702a-4e51-91b1-ab776b1babf1">Installing Device Interfaces for an Audio Adapter</a>.
+Specifies the number of node descriptors in the <b>Nodes</b> array.
 
 
 #### - Nodes
@@ -194,9 +179,24 @@ Pointer to the array of GUIDs that specifies the categories that the object belo
 Pointer to the array of node descriptors. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a> structure.
 
 
-#### - Pins
+#### - ConnectionCount
 
-Pointer to the array of pin descriptors. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a> structure.
+Specifies the number of connections in the <b>Connections</b> array.
+
+
+#### - Connections
+
+Pointer to the array of connections descriptors. Each array element is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure.
+
+
+#### - CategoryCount
+
+Specifies the number of GUIDs in the <b>Categories</b> array.
+
+
+#### - Categories
+
+Pointer to the array of GUIDs that specifies the categories that the object belongs to. See the discussion of topology categories in <a href="https://msdn.microsoft.com/824cc6a2-702a-4e51-91b1-ab776b1babf1">Installing Device Interfaces for an Audio Adapter</a>.
 
 
 ## -remarks
@@ -208,13 +208,13 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_8.md">PCNODE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_7.md">PCPIN_DESCRIPTOR</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
-title: _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
+title: "_D3DKMT_OPENSYNCOBJECTFROMNTHANDLE"
 author: windows-driver-content
 description: Describes information that is required to map an NT process handle to a graphics processing unit (GPU) synchronization object.
 old-location: display\d3dkmt_opensyncobjectfromnthandle.htm
 old-project: display
 ms.assetid: 163ce4ed-e81b-4b69-b1a7-4ea2b9e8f437
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, display.d3dkmt_opensyncobjectfromnthandle
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, display.d3dkmt_opensyncobjectfromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
 product: Windows
 targetos: Windows

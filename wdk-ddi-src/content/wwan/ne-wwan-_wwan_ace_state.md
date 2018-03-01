@@ -1,21 +1,21 @@
 ---
 UID: NE:wwan._WWAN_ACE_STATE
-title: _WWAN_ACE_STATE
+title: "_WWAN_ACE_STATE"
 author: windows-driver-content
 description: The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
 old-location: netvista\wwan_ace_state.htm
 old-project: netvista
 ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanManualOff, wwan/WwanManualOn, WwanManualOn, wwan/WWAN_ACE_STATE, wwan/WwanAutoOn, _WWAN_ACE_STATE, wwan/WwanAutoOff, WwanAutoOn, netvista.wwan_ace_state, WwanAutoOff, wwan/WwanManualOff, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WWAN_ACE_STATE, *PWWAN_ACE_STATE
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_ACE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_ACE_STATE, WWAN_ACE_STATE
+req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
 req.product: Windows 10 or later.
 ---
 

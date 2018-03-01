@@ -7,8 +7,8 @@ old-location: netvista\rilmessageinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 598880f6-0466-4cc1-9f14-3c2e4dda3ba1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmessageinfoparammask_2, rilapitypes/RIL_PARAM_MI_STATUS, rilapitypes/RIL_PARAM_MI_ALL, RILMESSAGEINFOPARAMMASK, RIL_PARAM_MI_ALL, RIL_PARAM_MI_STATUS, rilapitypes/RIL_PARAM_MI_MESSAGE, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGEINFOPARAMMASK, RIL_PARAM_MI_MESSAGE
+ms.date: 2/16/2018
+ms.keywords: RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask_2, rilapitypes/RILMESSAGEINFOPARAMMASK, rilapitypes/RIL_PARAM_MI_ALL, rilapitypes/RIL_PARAM_MI_MESSAGE, rilapitypes/RIL_PARAM_MI_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMESSAGEINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILMESSAGEINFOPARAMMASK {
 ### -field RIL_PARAM_MI_INDEX
 
 
-
 ### -field RIL_PARAM_MI_STATUS
-
 
 
 ### -field RIL_PARAM_MI_MESSAGE
 
 
-
 ### -field RIL_PARAM_MI_ALL
-
 

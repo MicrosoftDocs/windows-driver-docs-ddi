@@ -7,8 +7,8 @@ old-location: display\dxgkddiquerychildrelations.htm
 old-project: display
 ms.assetid: eb1a0df0-6239-4d82-8477-7dd015f80b6e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiquerychildrelations, DxgkDdiQueryChildRelations callback function [Display Devices], DxgkDdiQueryChildRelations, DXGKDDI_QUERY_CHILD_RELATIONS, DXGKDDI_QUERY_CHILD_RELATIONS, dispmprt/DxgkDdiQueryChildRelations, DmFunctions_783a9c6c-f6ac-4949-87f0-674dae768d36.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_QUERY_CHILD_RELATIONS, DmFunctions_783a9c6c-f6ac-4949-87f0-674dae768d36.xml, DxgkDdiQueryChildRelations, DxgkDdiQueryChildRelations callback function [Display Devices], display.dxgkddiquerychildrelations, dispmprt/DxgkDdiQueryChildRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiQueryChildRelations
 product: Windows
 targetos: Windows
@@ -90,11 +90,14 @@ The total size, in bytes, of the <i>ChildRelations</i> array including the zeroe
 ## -returns
 
 
+
 <i>DxgkDdiQueryChildRelations</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 All child devices of the display adapter are onboard; monitors and other external devices that connect to the display adapter are not considered child devices.
@@ -105,19 +108,28 @@ The <i>DxgkDdiQueryChildRelations</i> function should be made pageable.
 
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_CHILD_RELATIONS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_CHILD_RELATIONS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

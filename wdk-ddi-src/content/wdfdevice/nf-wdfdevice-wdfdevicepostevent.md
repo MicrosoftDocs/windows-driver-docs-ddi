@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicepostevent.htm
 old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdfdevice/WdfDevicePostEvent, wdf.wdfdevicepostevent, PFN_WDFDEVICEPOSTEVENT
+ms.date: 2/20/2018
+ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	WUDFx02000.dll
-apiname: 
+api_name:
 -	WdfDevicePostEvent
 product: Windows
 targetos: Windows
@@ -102,7 +102,9 @@ The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size val
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,13 +122,16 @@ If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Add
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting application about an event, UMDF sends the event to the operating system. The operating system sends the event on to the requesting application in an asynchronous operation. If the operating system initially returns no error, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS.
@@ -137,15 +142,20 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDevicePostEvent function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDevicePostEvent function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

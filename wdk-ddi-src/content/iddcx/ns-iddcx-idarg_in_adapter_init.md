@@ -7,8 +7,8 @@ old-location: display\idarg_in_adapter_init.htm
 old-project: display
 ms.assetid: 2db324c8-69b1-4497-b6a7-76047baeca19
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT, display.idarg_in_adapter_init, IDARG_IN_ADAPTER_INIT structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT structure [Display Devices], display.idarg_in_adapter_init, iddcx/IDARG_IN_ADAPTER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDARG_IN_ADAPTER_INIT
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrErrorReportingType
-title: _MsrErrorReportingType
+title: "_MsrErrorReportingType"
 author: windows-driver-content
 description: This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
 old-location: pos\msrerrorreportingtype.htm
 old-project: pos
 ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrErrorReportingType_CardLevel, _MsrErrorReportingType, MsrErrorReportingType enumeration, pointofservicedriverinterface/MsrErrorReportingType, MsrErrorReportingType_TrackLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype, MsrErrorReportingType_CardLevel, MsrErrorReportingType
+ms.date: 2/23/2018
+ms.keywords: MsrErrorReportingType, MsrErrorReportingType enumeration, MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel, _MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	MsrErrorReportingType
 product: Windows
 targetos: Windows

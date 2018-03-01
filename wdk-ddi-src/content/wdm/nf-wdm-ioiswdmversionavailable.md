@@ -7,8 +7,8 @@ old-location: kernel\ioiswdmversionavailable.htm
 old-project: kernel
 ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.ioiswdmversionavailable, IoIsWdmVersionAvailable, k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], wdm/IoIsWdmVersionAvailable
+ms.date: 2/24/2018
+ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoIsWdmVersionAvailable
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the minor version number of WDM that is requested.
 ## -returns
 
 
+
 <b>IoIsWdmVersionAvailable</b> returns <b>TRUE</b> if the version of WDM that the operating system provides is greater than or equal to the version number of WDM being requested. Otherwise, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Drivers should use the <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
@@ -94,6 +97,7 @@ Drivers should use the <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">Rtl
 Cross-platform drivers should use this routine to check the WDM version before performing any operations that vary by platform or are not supported in all versions of WDM.
 
 The WDM_MAJORVERSION and WDM_MINORVERSION constants, which are defined in the Wdm.h header file, specify the WDM major and minor version numbers for the current version of Windows. The following lists the WDM version provided with each operating system.
+
 <table>
 <tr>
 <th>Operating system</th>
@@ -226,13 +230,15 @@ Windows 98
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the minor version number is defined as a hexadecimal value.
 
 Later versions of WDM support all the features available in earlier versions of WDM; that is, each version of WDM is a superset of the previous WDM version.
 
 The following call returns <b>TRUE</b> on any of the listed operating systems, because all these systems support all the features of WDM 1.0:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -242,7 +248,9 @@ The following call returns <b>TRUE</b> on any of the listed operating systems, b
 <pre>bVersion = IoIsWdmVersionAvailable(1,0);</pre>
 </td>
 </tr>
-</table></span></div>The following example shows how a driver can dynamically detect the current operating system:
+</table></span></div>
+The following example shows how a driver can dynamically detect the current operating system:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -267,7 +275,9 @@ The following call returns <b>TRUE</b> on any of the listed operating systems, b
 }</pre>
 </td>
 </tr>
-</table></span></div>As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TRUE</b> on Windows Me, Windows 2000, and any succeeding operating systems, but <b>FALSE</b> on Windows 98 and Windows 98 SE.
+</table></span></div>
+As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TRUE</b> on Windows Me, Windows 2000, and any succeeding operating systems, but <b>FALSE</b> on Windows 98 and Windows 98 SE.
+
 
 
 
@@ -275,9 +285,11 @@ The following call returns <b>TRUE</b> on any of the listed operating systems, b
 
 <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoIsWdmVersionAvailable routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoIsWdmVersionAvailable routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

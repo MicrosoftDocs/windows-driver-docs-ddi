@@ -7,8 +7,8 @@ old-location: wdf\wdfcontrolfinishinitializing.htm
 old-project: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfControlFinishInitializing, wdfcontrol/WdfControlFinishInitializing, kmdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing method, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, wdf.wdfcontrolfinishinitializing, PFN_WDFCONTROLFINISHINITIALIZING
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, WdfControlFinishInitializing, WdfControlFinishInitializing method, kmdf.wdfcontrolfinishinitializing, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfControlFinishInitializing
 product: Windows
 targetos: Windows
@@ -79,17 +79,27 @@ A handle to a control device object.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The system will not send I/O requests or Windows Management Instrumentation (WMI) requests to a control device object unless the driver has called <b>WdfControlFinishInitializing</b>.
 
 For more information about control device objects and calling <b>WdfControlFinishInitializing</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
+
+
+#### Examples
+
+For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+
+<div class="code"></div>
 
 

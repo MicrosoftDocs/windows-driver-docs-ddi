@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrmult.htm
 old-project: kernel
 ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], RtlUIntPtrMult, kernel.rtluintptrmult
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtluintptrmult, ntintsafe/RtlUIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrMult
 product: Windows
 targetos: Windows
@@ -87,9 +87,11 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUIntPtrMult
 </li>
@@ -110,4 +112,5 @@ This function uses the following alternate name:
 <li>RtlUInt64Mult
 </li>
 </ul>
+
 

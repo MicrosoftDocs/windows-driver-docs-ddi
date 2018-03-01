@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADDSURFACETOSWAPCHAIN
-title: _D3DKMT_ADDSURFACETOSWAPCHAIN
+title: "_D3DKMT_ADDSURFACETOSWAPCHAIN"
 author: windows-driver-content
 description: Used to add a surface to the swapchain.
 old-location: display\d3dkmt-addsurfacetoswapchain.htm
 old-project: display
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain, _D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], D3DKMT_ADDSURFACETOSWAPCHAIN
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_ADDSURFACETOSWAPCHAIN
 product: Windows
 targetos: Windows

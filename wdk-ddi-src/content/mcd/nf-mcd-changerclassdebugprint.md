@@ -7,8 +7,8 @@ old-location: storage\changerclassdebugprint.htm
 old-project: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ChangerClassDebugPrint, mcd/ChangerClassDebugPrint, chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, ChangerClassDebugPrint function [Storage Devices], storage.changerclassdebugprint
+ms.date: 2/24/2018
+ms.keywords: ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+api_name:
 -	ChangerClassDebugPrint
 product: Windows
 targetos: Windows
@@ -85,9 +85,12 @@ TBD
 
 
 
+
 ## -returns
 
 
+
 None
+
 
 

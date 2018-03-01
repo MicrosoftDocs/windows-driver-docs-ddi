@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_TRANSFERVIRTUALFLAGS
-title: _DXGK_TRANSFERVIRTUALFLAGS
+title: "_DXGK_TRANSFERVIRTUALFLAGS"
 author: windows-driver-content
 description: DXGK_TRANSFERVIRTUALFLAGS is used as part of an allocation transfer operation.
 old-location: display\dxgk_transfervirtualflags.htm
 old-project: display
 ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS, _DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], _DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_TRANSFERVIRTUALFLAGS
 product: Windows
 targetos: Windows
@@ -89,7 +89,7 @@ When set, the destination page tables are mapped to  64KB pages.
 This member is reserved and should be set to zero.
 
 
-### -field Flags
+#### - Flags
 
 The consolidated value of the structure flags.
 

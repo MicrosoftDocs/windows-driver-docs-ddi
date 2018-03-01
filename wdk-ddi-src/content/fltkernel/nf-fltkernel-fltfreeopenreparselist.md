@@ -7,8 +7,8 @@ old-location: ifsk\fltfreeopenreparselist.htm
 old-project: ifsk
 ms.assetid: 78FA1585-F834-48E4-BB15-78BA5563F9D0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltfreeopenreparselist, FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, FltFreeOpenReparseList
+ms.date: 2/16/2018
+ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(APC_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(APC_LEVEL)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	fltKernel.h
-apiname: 
+api_name:
 -	FltAddOpenReparseEntry
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ The ECP list whose open reparse information should
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 

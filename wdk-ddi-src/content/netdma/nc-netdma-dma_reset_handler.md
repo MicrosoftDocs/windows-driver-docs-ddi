@@ -7,8 +7,8 @@ old-location: netvista\providerresetchannel.htm
 old-project: netvista
 ms.assetid: ee882897-fbc6-4017-8c30-2a54f6c49491
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providerresetchannel, ProviderResetChannel callback function [Network Drivers Starting with Windows Vista], ProviderResetChannel, DMA_RESET_HANDLER, DMA_RESET_HANDLER, netdma/ProviderResetChannel, netdma_ref_b8d39a6d-73fa-4d8b-b7c7-3f5eb47a4fc4.xml
+ms.date: 2/16/2018
+ms.keywords: DMA_RESET_HANDLER, ProviderResetChannel, ProviderResetChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResetChannel, netdma_ref_b8d39a6d-73fa-4d8b-b7c7-3f5eb47a4fc4.xml, netvista.providerresetchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	ProviderResetChannel
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_RESET_HANDLER callback
@@ -79,14 +79,16 @@ NTSTATUS ProviderResetChannel(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ## -returns
 
 
+
 <i>ProviderResetChannel</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,11 +116,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -132,8 +137,8 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the reset operation is complete, the DMA channel must be in the initial state that existed after
     the channel was allocated. After the NetDMA interface calls 
@@ -146,17 +151,24 @@ NetDMA calls
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
- 
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_RESET_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_RESET_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

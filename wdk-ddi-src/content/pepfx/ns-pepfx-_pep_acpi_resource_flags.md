@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_ACPI_RESOURCE_FLAGS
-title: _PEP_ACPI_RESOURCE_FLAGS
+title: "_PEP_ACPI_RESOURCE_FLAGS"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
 old-location: kernel\pep_acpi_resource_flags.htm
 old-project: kernel
 ms.assetid: 1BB4933B-2707-4350-8D9C-E0E25A85F5CB
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_RESOURCE_FLAGS, _PEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE_FLAGS, kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_ACPI_RESOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS
+req.typenames: PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
 ---
 
 # _PEP_ACPI_RESOURCE_FLAGS structure
@@ -76,47 +76,54 @@ typedef union _PEP_ACPI_RESOURCE_FLAGS {
 
 
 
+### -field AsULong
+
+The consolidated values of the flags in <b>DUMMYSTRUCTNAME</b>.
+
+
 ### -field DUMMYSTRUCTNAME
 
  A structure containing ACPI resource flags.
 
 
-### -field DUMMYSTRUCTNAME.Shared
+
+#### Shared
 
 When set, indicates that this is a shared device.
 
 
-### -field DUMMYSTRUCTNAME.Wake
+
+#### Wake
 
 When set, indicates that this device can be woken from a low-power state.
 
 
-### -field DUMMYSTRUCTNAME.ResourceUsage
+
+#### ResourceUsage
 
 When set, indicates that this device is in use.
 
 
-### -field DUMMYSTRUCTNAME.SlaveMode
+
+#### SlaveMode
 
 When set, indicates that this device is in slave mode.
 
 
-### -field DUMMYSTRUCTNAME.AddressingMode
+
+#### AddressingMode
 
 When set, indicates that this device is in addressing mode.
 
 
-### -field DUMMYSTRUCTNAME.SharedMode
+
+#### SharedMode
 
 When set, indicates that this device is in shared mode.
 
 
-### -field DUMMYSTRUCTNAME.Reserved
+
+#### Reserved
 
 This member is reserved and should be set to zero.
-
-
-### -field AsULong
-
-The consolidated values of the flags in <b>DUMMYSTRUCTNAME</b>.
 

@@ -7,8 +7,8 @@ old-location: biometric\ioctl_biometric_reset.htm
 old-project: biometric
 ms.assetid: 4385911b-ae38-4748-ad11-cc161922776a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: biometric.ioctl_biometric_reset, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], IOCTL_BIOMETRIC_RESET, winbio_ioctl/IOCTL_BIOMETRIC_RESET, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml
+ms.date: 2/20/2018
+ms.keywords: IOCTL_BIOMETRIC_RESET, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], biometric.ioctl_biometric_reset, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml, winbio_ioctl/IOCTL_BIOMETRIC_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winbio_ioctl.h
-apiname: 
+api_name:
 -	IOCTL_BIOMETRIC_RESET
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,7 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 Indicates whether the DeviceIoControl call to the driver completed and the OUT payload is valid.
 
 The <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -159,14 +164,17 @@ Any other failure that prevents the payload from being filled in.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 IOCTL_BIOMETRIC_RESET cancels a data collection IOCTL, if one is pending.  If there is a vendor-specific operation in progress, the driver should cancel the operation and reset the device whenever possible. 
 
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of WINBIO_BLANK_PAYLOAD with the status of the Biometric operation.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmaoutsubmit_2.htm
 old-project: netvista
 ms.assetid: f74fe6cb-f38c-49ab-957f-9b3d163059c6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgcdmaoutsubmit_2, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
+ms.date: 2/16/2018
+ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit_2, rilapitypes/RILMSGCDMAOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCDMAOUTSUBMIT
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
+req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
 req.product: Windows 10 or later.
 ---
 
@@ -93,91 +93,68 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 ### -field raDestAddress
 
 
-
 ### -field rsaDestSubaddr
-
 
 
 ### -field bDigit
 
 
-
 ### -field stValidityPeriodAbs
-
 
 
 ### -field stValidityPeriodRel
 
 
-
 ### -field stDeferredDelTimeAbs
-
 
 
 ### -field stDeferredDelTimeRel
 
 
-
 ### -field bDeliveryAckRequest
-
 
 
 ### -field bUserAckRequest
 
 
-
 ### -field bBearerReplyRequest
-
 
 
 ### -field dwReplySeqNumber
 
 
-
 ### -field dwMsgDisplayMode
-
 
 
 ### -field raCallBackNumber
 
 
-
 ### -field dwMsgPriority
-
 
 
 ### -field dwMsgPrivacy
 
 
-
 ### -field dwTeleservice
-
 
 
 ### -field dwMsgID
 
 
-
 ### -field dwMsgLang
-
 
 
 ### -field dwMsgEncoding
 
 
-
 ### -field cbHdrLength
-
 
 
 ### -field cchMsgLength
 
 
-
 ### -field rgbHdr
 
 
-
 ### -field rgbMsg
-
 

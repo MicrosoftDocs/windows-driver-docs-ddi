@@ -7,8 +7,8 @@ old-location: debugger\writemsr.htm
 old-project: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.writemsr, WriteMsr function [Windows Debugging], WriteMsr, WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, dbgeng/WriteMsr
+ms.date: 2/23/2018
+ms.keywords: WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, WriteMsr, WriteMsr function [Windows Debugging], dbgeng/WriteMsr, debugger.writemsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	WriteMsr
 product: Windows
 targetos: Windows
@@ -82,13 +82,17 @@ Specifies the new value of the MSR.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

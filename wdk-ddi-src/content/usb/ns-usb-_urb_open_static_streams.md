@@ -1,14 +1,14 @@
 ---
 UID: NS:usb._URB_OPEN_STATIC_STREAMS
-title: _URB_OPEN_STATIC_STREAMS
+title: "_URB_OPEN_STATIC_STREAMS"
 author: windows-driver-content
 description: The _URB_OPEN_STATIC_STREAMS structure is used by a USB client driver to open streams in the specified bulk endpoint.
 old-location: buses\_urb_open_basic_streams.htm
 old-project: usbref
 ms.assetid: B3C329D6-541B-410D-A9AB-AF91F1141DFD
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usb/_URB_OPEN_STATIC_STREAMS, buses._urb_open_basic_streams, _URB_OPEN_STATIC_STREAMS structure [Buses], _URB_OPEN_STATIC_STREAMS
+ms.date: 2/24/2018
+ms.keywords: "_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usb.h
-apiname: 
+api_name:
 -	_URB_OPEN_STATIC_STREAMS
 product: Windows
 targetos: Windows
@@ -81,11 +81,6 @@ The <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specif
 
 
 
-### -field _URB_HEADER
-
- 
-
-
 ### -field PipeHandle
 
 An opaque handle for the pipe associated with the endpoint that supports the streams to open.
@@ -120,9 +115,10 @@ Pointer to a caller-allocated, initialized array of <a href="..\usb\ns-usb-_usbd
 ## -remarks
 
 
+
 To use  streams (other than the default stream) in the endpoint for I/O operations, the client driver opens the required streams by sending an open-stream request (URB_FUNCTION_OPEN_STATIC_STREAMS) to the USB driver stack. For the request, the client driver must format the URB by  initializing the  <b>_URB_OPEN_STATIC_STREAMS</b> structure. To format the URB, call the <a href="..\usbdlib\nf-usbdlib-usbbuildopenstaticstreamsrequest.md">UsbBuildOpenStaticStreamsRequest</a>  function.
 
-The maximum number of streams that can be opened by a client driver, must be less than or equal to the maximum number of streams supported by the USB driver stack, the host controller, and the bulk endpoint. To get the maximum number of streams supported by the host controller, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>. The USB driver stack supports up to 255 streams.  If the client driver requests more than 255 streams, <b>USBD_QueryUsbCapability</b> fails the request. To get the maximum number of streams supported by the endpoint, inspect the endpoint companion descriptor (see <a href="..\usbspec\ns-usbspec-_usb_superspeed_endpoint_companion_descriptor.md">USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</a> in Usbspec.h).
+The maximum number of streams that can be opened by a client driver, must be less than or equal to the maximum number of streams supported by the USB driver stack, the host controller, and the bulk endpoint. To get the maximum number of streams supported by the host controller, call <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>. The USB driver stack supports up to 255 streams.  If the client driver requests more than 255 streams, <b>USBD_QueryUsbCapability</b> fails the request. To get the maximum number of streams supported by the endpoint, inspect the endpoint companion descriptor (see <a href="..\usbspec\ns-usbspec-_usb_superspeed_endpoint_companion_descriptor.md">USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</a> in Usbspec.h).
 
 For information about formatting the URB for the open-stream request and code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
@@ -130,19 +126,28 @@ When the client driver is finished using the streams, the driver can close all s
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+## -see-also
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_OPEN_STATIC_STREAMS structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_OPEN_STATIC_STREAMS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

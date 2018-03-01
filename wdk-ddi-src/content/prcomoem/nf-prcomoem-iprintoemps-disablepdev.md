@@ -7,8 +7,8 @@ old-location: print\iprintoemps_disablepdev.htm
 old-project: print
 ms.assetid: 131a3113-1d65-44e7-8752-bf4cdc20129d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.iprintoemps_disablepdev, DisablePDEV, IPrintOemPS, prcomoem/IPrintOemPS::DisablePDEV, IPrintOemPS::DisablePDEV, IPrintOemPS interface [Print Devices], DisablePDEV method, print_unidrv-pscript_rendering_7adde157-af87-49c1-80b0-e419c84a12a4.xml, DisablePDEV method [Print Devices], IPrintOemPS interface, DisablePDEV method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: DisablePDEV method [Print Devices], DisablePDEV method [Print Devices], IPrintOemPS interface, DisablePDEV,IPrintOemPS.DisablePDEV, IPrintOemPS, IPrintOemPS interface [Print Devices], DisablePDEV method, IPrintOemPS::DisablePDEV, prcomoem/IPrintOemPS::DisablePDEV, print.iprintoemps_disablepdev, print_unidrv-pscript_rendering_7adde157-af87-49c1-80b0-e419c84a12a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemPS.DisablePDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +117,17 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <code>IPrintOemPS::DisablePDEV</code> method performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556198">DrvDisablePDEV</a> function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's <b>pdevOEM</b> member. This PDEV structure is one that was allocated by the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a> method.
+
 
 

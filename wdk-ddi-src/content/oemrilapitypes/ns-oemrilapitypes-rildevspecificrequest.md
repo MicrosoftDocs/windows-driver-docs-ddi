@@ -7,8 +7,8 @@ old-location: netvista\rildevspecificrequest.htm
 old-project: netvista
 ms.assetid: 36e2ae4b-cc2f-4980-95fe-25a38a1c07b1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: oemrilapitypes/LPRILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST, netvista.rildevspecificrequest, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], oemrilapitypes/RILDEVSPECIFICREQUEST
+ms.date: 2/16/2018
+ms.keywords: "*LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificrequest, oemrilapitypes/LPRILDEVSPECIFICREQUEST, oemrilapitypes/RILDEVSPECIFICREQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	oemrilapitypes.h
-apiname: 
+api_name:
 -	RILDEVSPECIFICREQUEST
 product: Windows
 targetos: Windows
-req.typenames: *LPRILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST
+req.typenames: RILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST
 ---
 
 # RILDEVSPECIFICREQUEST structure
@@ -72,11 +72,8 @@ typedef struct _RILDEVSPECIFICREQUEST {
 ### -field dwCmdId
 
 
-
 ### -field dwSize
 
 
-
 ### -field params
-
 

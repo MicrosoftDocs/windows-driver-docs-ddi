@@ -7,8 +7,8 @@ old-location: netvista\rilcalldisconnectdetails_2.htm
 old-project: netvista
 ms.assetid: 57b4d120-e12a-4821-a379-a392b804590c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLDISCONNECTDETAILS, netvista.rilcalldisconnectdetails_2, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails_2, rilapitypes/RILCALLDISCONNECTDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLDISCONNECTDETAILS
 product: Windows
 targetos: Windows
@@ -90,100 +90,53 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 
 
 
+### -field dwDisconnectGroup
+
+
 ### -field causeUnion
-
-
-
-### -field causeUnion.unGPPCause
-
- 
-
-
-### -field causeUnion.unGPPRejectCause
-
- 
-
-
-### -field causeUnion.unGPP2Cause
-
- 
-
-
-### -field causeUnion.unIMSSIPCause
-
- 
-
-
-### -field causeUnion.dwASCode
-
- 
-
-
-### -field causeUnion.dwOtherCode
-
- 
 
 
 ### -field RILCAUSEUNION
 
 
-
-### -field dwDisconnectGroup
-
-
-
-#### - dwOtherCode
-
+#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
 
 #### - RIL_CD_3GPP_NETWORK_CAUSE
 
 
-
 #### - RIL_CD_3GPP_REJECT_CAUSE
-
 
 
 #### - RIL_CD_AS_CAUSE
 
 
-
-#### - case
-
-
-
-#### - dwASCode
-
+#### - RIL_CD_IMS_SIP_CAUSE
 
 
 #### - RIL_CD_OTHER_CAUSE
 
 
+#### - case
 
-#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
+#### - dwASCode
+
+
+#### - dwOtherCode
 
 
 #### - switch_is
 
 
-
-#### - RIL_CD_IMS_SIP_CAUSE
-
-
-
 #### - unGPP2Cause
 
+
+#### - unGPPCause
 
 
 #### - unGPPRejectCause
 
 
-
 #### - unIMSSIPCause
-
-
-
-#### - unGPPCause
-
 

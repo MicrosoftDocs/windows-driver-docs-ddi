@@ -7,8 +7,8 @@ old-location: display\dxgkddigetpossiblebrightness.htm
 old-project: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddigetpossiblebrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], DxgkDdiGetPossibleBrightness, DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE, dispmprt/DxgkDdiGetPossibleBrightness, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml
+ms.date: 2/24/2018
+ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiGetPossibleBrightness
 product: Windows
 targetos: Windows
@@ -96,14 +96,18 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 ## -returns
 
 
+
 <i>DxgkDdiGetPossibleBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
+
 
 
 
 ## -remarks
 
 
+
 The display miniport driver should return brightness levels in the buffer that the <i>BrightnessLevels</i> parameter points to in the following order:
+
 <ul>
 <li>
 The first brightness level value is the brightness level that the BIOS uses when the computer runs on AC power. 
@@ -117,9 +121,11 @@ The second brightness level value is the brightness level that the BIOS uses whe
 The remaining brightness level values are hardware-supported brightness levels. 
 
 </li>
-</ul>To simplify your job of implementing a display miniport driver, the operating system provides the driver with the buffer that the <i>BrightnessLevels</i> parameter points to.
+</ul>
+To simplify your job of implementing a display miniport driver, the operating system provides the driver with the buffer that the <i>BrightnessLevels</i> parameter points to.
 
 <i>DxgkDdiGetPossibleBrightness</i> should be made pageable. 
+
 
 
 
@@ -127,9 +133,11 @@ The remaining brightness level values are hardware-supported brightness levels.
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BRIGHTNESS_GET_POSSIBLE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BRIGHTNESS_GET_POSSIBLE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

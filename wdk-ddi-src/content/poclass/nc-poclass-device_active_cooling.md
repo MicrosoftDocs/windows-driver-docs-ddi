@@ -7,8 +7,8 @@ old-location: kernel\activecooling.htm
 old-project: kernel
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.activecooling, ActiveCooling routine [Kernel-Mode Driver Architecture], ActiveCooling, DEVICE_ACTIVE_COOLING, DEVICE_ACTIVE_COOLING, poclass/ActiveCooling
+ms.date: 2/24/2018
+ms.keywords: ActiveCooling, ActiveCooling routine [Kernel-Mode Driver Architecture], DEVICE_ACTIVE_COOLING, kernel.activecooling, poclass/ActiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Poclass.h
-apiname: 
+api_name:
 -	ActiveCooling
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the dri
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The driver for a device that has active-cooling capabilities can implement this routine to enable the operating system to engage or disengage the active-cooling function in the device.
@@ -103,13 +106,16 @@ For more information about active cooling, see <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
 
 <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_ACTIVE_COOLING routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_ACTIVE_COOLING routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

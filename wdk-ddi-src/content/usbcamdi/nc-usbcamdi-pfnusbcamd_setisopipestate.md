@@ -7,8 +7,8 @@ old-location: stream\usbcamd_setisopipestate.htm
 old-project: stream
 ms.assetid: 6170c69d-f73d-4ba4-b7de-06257c8dd83c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.usbcamd_setisopipestate, USBCAMD_SetIsoPipeState routine [Streaming Media Devices], USBCAMD_SetIsoPipeState, PFNUSBCAMD_SetIsoPipeState, PFNUSBCAMD_SetIsoPipeState, usbcamdi/USBCAMD_SetIsoPipeState, usbcmdpr_6643c631-6892-4955-8a1f-ae152fd155e4.xml
+ms.date: 2/23/2018
+ms.keywords: PFNUSBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState routine [Streaming Media Devices], stream.usbcamd_setisopipestate, usbcamdi/USBCAMD_SetIsoPipeState, usbcmdpr_6643c631-6892-4955-8a1f-ae152fd155e4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	USBCAMD_SetIsoPipeState
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ Pointer to device-specific context.
 ### -param PipeStateFlags [in]
 
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -105,13 +106,16 @@ This flags indicates to start streaming.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>USBCAMD_SetIsoPipeState</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,11 +154,14 @@ There are insufficient resources to allocate a work item to change the pipe stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Note that the streaming state on the isochronous pipe works differently from the streaming state in the stream class and in Microsoft DirectShow. It is possible to stop the isochronous pipe from streaming for a short period while the overall video capture graph is still in a Run state.
@@ -167,13 +174,16 @@ Using this function does not enable you to change the alternate setting within t
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SetIsoPipeState routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SetIsoPipeState routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -2,13 +2,13 @@
 UID: NF:irb.AtaPortRegistryChannelSubkeyRead
 title: AtaPortRegistryChannelSubkeyRead function
 author: windows-driver-content
-description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrychannelsubkeyread.htm
 old-project: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead
+ms.date: 2/24/2018
+ms.keywords: AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, irb/AtaPortRegistryChannelSubkeyRead, storage.ataportregistrychannelsubkeyread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	AtaPortRegistryChannelSubkeyRead
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Contains the name of the registry value from which to read.
 ### -param ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,7 +126,8 @@ A null-terminated. Unicode string.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out, optional]
@@ -139,6 +141,7 @@ TBD
 
 
 
+
 #### - Length [in, out]
 
 A pointer to the number of bytes of data to copy. If the operation fails, the location that is pointed to by <i>Length</i> will update to the length of data that was successfully copied from the registry.
@@ -147,11 +150,14 @@ A pointer to the number of bytes of data to copy. If the operation fails, the lo
 ## -returns
 
 
+
 <b>AtaPortRegistryChannelSubKeyRead</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>. The routine also returns <b>FALSE</b> if the miniport driver does not call it from the correct routine.
 
 
 
+
 ## -remarks
+
 
 
 The buffer that is pointed to by <i>Buffer </i>must be allocated by using <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>. 
@@ -160,19 +166,28 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
 
 <a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
- 
+
+
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryChannelSubKeyRead routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortRegistryChannelSubKeyRead routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

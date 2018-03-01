@@ -7,8 +7,8 @@ old-location: pos\poscxcleanupevents.htm
 old-project: pos
 ms.assetid: AD97BA14-8786-47A2-B551-2DB6FC7F83A8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.poscxcleanupevents, PosCxCleanupEvents, PosCxCleanupEvents function, poscx/PosCxCleanupEvents
+ms.date: 2/23/2018
+ms.keywords: PosCxCleanupEvents, PosCxCleanupEvents function, pos.poscxcleanupevents, poscx/PosCxCleanupEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	PosCxCleanupEvents
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ A handle to a framework file object for which all pending events should be
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

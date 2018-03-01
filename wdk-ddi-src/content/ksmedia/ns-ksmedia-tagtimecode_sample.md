@@ -7,8 +7,8 @@ old-location: stream\timecode_sample.htm
 old-project: stream
 ms.assetid: 01654107-29a1-4f34-bb9a-a17fe36a84fe
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.timecode_sample, tagTIMECODE_SAMPLE, *PTIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], TIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml, ksmedia/TIMECODE_SAMPLE
+ms.date: 2/23/2018
+ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	TIMECODE_SAMPLE
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ Specifies packed SMPTE user-bits.
 ### -field dwFlags
 
 Specifies any optional timecode flag masks.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -193,10 +194,12 @@ Read the relative time counter (RTC); applies to MPEG camcorders.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the DirectX SDK.
@@ -205,13 +208,16 @@ The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set 
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TIMECODE_SAMPLE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TIMECODE_SAMPLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

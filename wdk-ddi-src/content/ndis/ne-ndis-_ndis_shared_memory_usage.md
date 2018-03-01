@@ -1,14 +1,14 @@
 ---
 UID: NE:ndis._NDIS_SHARED_MEMORY_USAGE
-title: _NDIS_SHARED_MEMORY_USAGE
+title: "_NDIS_SHARED_MEMORY_USAGE"
 author: windows-driver-content
 description: The NDIS_SHARED_MEMORY_USAGE enumeration specifies how shared memory is used.
 old-location: netvista\ndis_shared_memory_usage.htm
 old-project: netvista
 ms.assetid: c46102dd-26ea-459b-8cc2-f7e2d2e2f2ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageReceiveLookahead, PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageOther, NdisSharedMemoryUsageXmitHeader, NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceiveData, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageReceiveHeader, ndis/NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageMax, ndis/PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageXmitData, ndis/NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageMax, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, _NDIS_SHARED_MEMORY_USAGE, netvista.ndis_shared_memory_usage, ndis/NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageReceiveHeader, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_SHARED_MEMORY_USAGE, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageXmitHeader
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], NdisSharedMemoryUsageMax, NdisSharedMemoryUsageOther, NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageReceiveData, NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageReceiveLookahead, NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageUndefined, NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageXmitHeader, PNDIS_SHARED_MEMORY_USAGE, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_USAGE, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageOther, ndis/NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageReceiveHeader, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageXmitData, ndis/NdisSharedMemoryUsageXmitHeader, ndis/PNDIS_SHARED_MEMORY_USAGE, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, netvista.ndis_shared_memory_usage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_SHARED_MEMORY_USAGE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # _NDIS_SHARED_MEMORY_USAGE enumeration
@@ -136,24 +136,30 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The NDIS_SHARED_MEMORY_USAGE enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_shared_memory_parameters" tabindex="0"><b>
-    NDIS_SHARED_MEMORY_PARAMETERS</b></mshelp:link> and 
-    <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-    NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structures.
+    <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+    NDIS_SHARED_MEMORY_PARAMETERS</a> and 
+    <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structures.
+
 
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SHARED_MEMORY_USAGE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SHARED_MEMORY_USAGE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\iportwavepcistream_getmapping.htm
 old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: portcls/IPortWavePciStream::GetMapping, GetMapping, GetMapping method [Audio Devices], IPortWavePciStream interface [Audio Devices], GetMapping method, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, IPortWavePciStream, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, GetMapping method [Audio Devices], IPortWavePciStream interface
+ms.date: 2/22/2018
+ms.keywords: GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping,IPortWavePciStream.GetMapping, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: portcls.h
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortWavePciStream.GetMapping
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ Output pointer for the status flag. This parameter points to a caller-allocated 
 ## -returns
 
 
+
 <code>GetMapping</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,11 +118,14 @@ A mapping is not immediately available, but the port driver will call <a href="h
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Mappings obtained through the <code>GetMapping</code> method should be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a> unless they are revoked by the port driver. The port driver can revoke mappings by calling the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a> method.
@@ -134,6 +139,7 @@ The initial call to <code>GetMapping</code> outputs the mapping at the beginning
 The kernel-mode virtual-memory address of the mapping is output through the <i>VirtualAddress</i> parameter. The miniport driver uses this address to access the mapping under direct program control. The page that contains the mapping is locked and no page fault can occur when the driver accesses the mapping. The audio device's bus-master DMA controller uses the address that is output through the <i>PhysicalAddress</i> parameter to access the mapping.
 
 The <i>Tag</i> parameter is a PVOID value that the caller chooses to uniquely identify the mapping:
+
 <ul>
 <li>
 The port driver might use this tag to identify the mapping in a subsequent call to <b>IMiniportWavePciStream::RevokeMappings</b>.
@@ -143,7 +149,8 @@ The port driver might use this tag to identify the mapping in a subsequent call 
 The miniport driver can use this tag to identify the mapping in a subsequent call to <b>IPortWavePciStream::ReleaseMapping</b>.
 
 </li>
-</ul>Although <i>Tag</i> is defined to be of type PVOID, the port driver never attempts to use this value as a pointer and does not require that it be a valid pointer.
+</ul>
+Although <i>Tag</i> is defined to be of type PVOID, the port driver never attempts to use this value as a pointer and does not require that it be a valid pointer.
 
 A typical WavePci miniport driver maintains a record of each mapping that it receives. The tag might be a pointer to a record or an index into an array of records, for example, depending on the implementation. The only requirement for a tag is that it be a value that can be cast to type PVOID.
 
@@ -163,25 +170,40 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
 
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::GetMapping method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::GetMapping method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

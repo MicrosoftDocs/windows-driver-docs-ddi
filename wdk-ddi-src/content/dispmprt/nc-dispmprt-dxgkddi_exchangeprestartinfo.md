@@ -7,8 +7,8 @@ old-location: display\dxgkddi_exchangeprestartinfo.htm
 old-project: display
 ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_exchangeprestartinfo, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], DXGKDDI_EXCHANGEPRESTARTINFO, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DXGKDDI_EXCHANGEPRESTARTINFO
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ The driver and hardware support the requirements to allow the boot frame buffer 
 ## -returns
 
 
+
 If this routine succeeds and returns the requested change, it returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 This DDI will be called after DxgkDdiAddDevice and before DxgkDdiStartDevice so the driver does not have access to its own hardware resources yet however it can use the PhysicalDeviceObject passed to the driver in DxgkDdiAddDevice to call IoGetDeviceProperty, for example to find the hardware id to decide what to return in the output fields of the DXGK_PRE_START_INFO structure.
@@ -97,6 +100,7 @@ This DDI will be called after DxgkDdiAddDevice and before DxgkDdiStartDevice so 
  
 
 This function is always called at PASSIVE level so the supporting code should be made pageable where possible.
+
 
 
 

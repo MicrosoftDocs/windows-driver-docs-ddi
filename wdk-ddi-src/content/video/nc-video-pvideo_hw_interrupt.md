@@ -7,8 +7,8 @@ old-location: display\hwvidinterrupt.htm
 old-project: display
 ms.assetid: 523471e3-cf1e-48d2-b5f0-2f8d19ad71e0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.hwvidinterrupt, HwVidInterrupt callback function [Display Devices], HwVidInterrupt, PVIDEO_HW_INTERRUPT, PVIDEO_HW_INTERRUPT, video/HwVidInterrupt, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidInterrupt, HwVidInterrupt callback function [Display Devices], PVIDEO_HW_INTERRUPT, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml, display.hwvidinterrupt, video/HwVidInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	HwVidInterrupt
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 ## -returns
 
 
+
 If <i>HwVidInterrupt</i> determines that its associated hardware did not generate the interrupt, it returns <b>FALSE</b>. Otherwise, it must dismiss the interrupt on its adapter before it returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver must implement <i>HwVidInterrupt</i> if its video adapter generates interrupts.
@@ -91,6 +94,7 @@ A miniport driver must implement <i>HwVidInterrupt</i> if its video adapter gene
 First, <i>HwVidInterrupt</i> should determine whether its adapter actually caused the interrupt. If not, this function should return <b>FALSE</b> immediately so the ISR of the device that caused the interrupt will be called promptly.
 
 Otherwise, <i>HwVidInterrupt</i> is generally responsible for completing the I/O operation that caused the interrupt, and should do the following:
+
 <ul>
 <li>
 Dismiss the interrupt on the adapter (required).
@@ -104,11 +108,13 @@ Complete the requested operation that caused the interrupt.
 Return control as quickly as possible (required).
 
 </li>
-</ul>If a miniport driver has an <i>HwVidInterrupt</i> function, no register or memory location that can be accessed by <i>HwVidInterrupt</i> can be visible to the corresponding display driver. An interrupt can occur while the display driver is modifying one of the registers or memory locations involved, and there is no way to ensure synchronization. Therefore, all functions requiring access to the critical registers or memory locations for interrupt-driven operations must be in the miniport driver.
+</ul>
+If a miniport driver has an <i>HwVidInterrupt</i> function, no register or memory location that can be accessed by <i>HwVidInterrupt</i> can be visible to the corresponding display driver. An interrupt can occur while the display driver is modifying one of the registers or memory locations involved, and there is no way to ensure synchronization. Therefore, all functions requiring access to the critical registers or memory locations for interrupt-driven operations must be in the miniport driver.
 
 If any other miniport driver function shares memory, such as part of the <i>HwDeviceExtension</i>, with <i>HwVidInterrupt</i>, it must call <b>VideoPortSynchronizeExecution</b> to synchronize its access to the shared area.
 
 <i>HwVidInterrupt</i> can call only the following system-supplied <b>VideoPort</b><i>Xxx</i> routines (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>):
+
 <ul>
 <li>
 
@@ -147,9 +153,11 @@ All <b>VideoPortRead</b><i>Xxx</i> and <b>VideoPortWrite</b><i>Xxx</i> routines.
 <a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a> (obsolete)
 
 </li>
-</ul><i>HwVidInterrupt</i> must <i>not</i> call any <b>VideoPort</b><i>Xxx</i> function that is not in the preceding list. Violation of this requirement will cause system failure (a "blue screen").
+</ul>
+<i>HwVidInterrupt</i> must <i>not</i> call any <b>VideoPort</b><i>Xxx</i> function that is not in the preceding list. Violation of this requirement will cause system failure (a "blue screen").
 
 A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that it calls.
+
 
 
 
@@ -157,25 +165,43 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
-<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
+
 
 <a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
-<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
 
-<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
-
-<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
+<a href="..\video\nf-video-videoportstallexecution.md">VideoPortStallExecution</a>
+
+
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
+
+
+
+<a href="..\video\nf-video-videoportlogerror.md">VideoPortLogError</a>
+
+
+
+<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_INTERRUPT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_INTERRUPT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

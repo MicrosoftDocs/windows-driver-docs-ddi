@@ -7,8 +7,8 @@ old-location: debugger\getoffsetexpression.htm
 old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, IDebugBreakpoint2, debugger.getoffsetexpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, GetOffsetExpression, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetOffsetExpression
+ms.date: 2/23/2018
+ms.keywords: ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpression,IDebugBreakpoint2.GetOffsetExpression, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, debugger.getoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.GetOffsetExpression
 -	IDebugBreakpoint2.GetOffsetExpression
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetOffsetExpression method
@@ -88,6 +88,7 @@ The size, in characters, of the expression string.  If <i>ExpressionSize</i> is 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful, but the buffer was not large enough to hold the expre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The expression is evaluated every time that a module is loaded or unloaded.  If the debugger cannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.)
@@ -129,5 +133,6 @@ The expression is evaluated every time that a module is loaded or unloaded.  If 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the size of the expression string that specifies the location that triggers the breakpoint, <i>ExpressionSize</i>.
 
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

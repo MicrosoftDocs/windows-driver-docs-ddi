@@ -7,8 +7,8 @@ old-location: pos\evt_pos_cx_device_remote_retain.htm
 old-project: pos
 ms.assetid: 9B23DB23-D995-4737-9302-872F2144823D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.evt_pos_cx_device_remote_retain, EvtPosCxDeviceRemoteRetain callback function, EvtPosCxDeviceRemoteRetain, EVT_POS_CX_DEVICE_REMOTE_RETAIN, EVT_POS_CX_DEVICE_REMOTE_RETAIN, poscx/EvtPosCxDeviceRemoteRetain
+ms.date: 2/23/2018
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	EvtPosCxDeviceRemoteRetain
 product: Windows
 targetos: Windows
-req.typenames: *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,10 @@ An identifier used to specify which interface is being retained in a multi-funct
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE.
 
 If the driver is unable to complete the remote retain transaction, it should return STATUS_ACCESS_DENIED so that the failure will bubble up to the application.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_DISPLAYDETECTCONTROLTYPE
-title: _DXGK_DISPLAYDETECTCONTROLTYPE
+title: "_DXGK_DISPLAYDETECTCONTROLTYPE"
 author: windows-driver-content
 description: Enumeration indicating the type of display detection action.
 old-location: display\dxgk_displaydetectcontroltype.htm
 old-project: display
 ms.assetid: D777342E-439E-4BEF-9DCC-7962B1AF8EAB
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_POLLONE, DXGK_DDCT_POLLALL, DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_DISABLEHPD, DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DDCT_POLLONE, DXGK_DDCT_DISABLEHPD, display.dxgk_displaydetectcontroltype, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], d3dkmddi/DXGK_DDCT_UNINITIALIZED
+ms.date: 2/24/2018
+ms.keywords: DXGK_DDCT_DISABLEHPD, DXGK_DDCT_ENABLEHPD, DXGK_DDCT_POLLALL, DXGK_DDCT_POLLONE, DXGK_DDCT_UNINITIALIZED, DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], _DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_DISABLEHPD, d3dkmddi/DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_POLLONE, d3dkmddi/DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, display.dxgk_displaydetectcontroltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_DISPLAYDETECTCONTROLTYPE
 product: Windows
 targetos: Windows

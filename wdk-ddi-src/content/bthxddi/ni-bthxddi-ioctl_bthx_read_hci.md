@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bthx_hci_read.htm
 old-project: bltooth
 ms.assetid: 02CC3534-D319-40C1-A73C-DEFC1F5709F7
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.ioctl_bthx_hci_read, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], IOCTL_BTHX_READ_HCI, bthxddi/IOCTL_BTHX_READ_HCI, bltooth.ioctl_bthx_read_hci
+ms.date: 2/15/2018
+ms.keywords: IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	BthXDDI.h
-apiname: 
+api_name:
 -	IOCTL_BTHX_READ_HCI
 product: Windows
 targetos: Windows
-req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
+req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_READ_HCI IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -98,14 +98,18 @@ For an ACL Data packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) + 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -116,6 +120,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -141,10 +146,12 @@ The IOCTL has been canceled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The input buffer points to the type of packet that is being read.
@@ -156,5 +163,6 @@ The <b>Information</b> member of the STATUS_BLOCK should be set to FIELD_OFFSET(
 The maximum size of the <b>Data</b> member for an ACL read is determined by <b>MaxAclTransferInSize</b>, specified in the BTHX_CAPABILITIES structure.  The maximum size of the <b>Data</b> member for an event is 255.
 
 This IOCTL should return STATUS_SUCCESS only under normal operation. Transport-specific errors should not be returned.  The IOCTL should return STATUS_CANCELLED only if this IOCTL has been canceled.
+
 
 

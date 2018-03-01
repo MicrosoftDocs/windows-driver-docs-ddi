@@ -7,8 +7,8 @@ old-location: stream\ksproperty_droppedframes_current_s.htm
 old-project: stream
 ms.assetid: 966af529-1725-4e80-9e67-cdb8666673f2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml, stream.ksproperty_droppedframes_current_s, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], KSPROPERTY_DROPPEDFRAMES_CURRENT_S
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, stream.ksproperty_droppedframes_current_s, vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S
+req.typenames: KSPROPERTY_DROPPEDFRAMES_CURRENT_S, *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S
 ---
 
 # KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure
@@ -72,7 +72,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field PictureNumber
@@ -93,7 +93,9 @@ Specifies the average size of frames captured. This value is provided by the min
 ## -remarks
 
 
+
 For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="https://msdn.microsoft.com/0adea8fe-1669-4daf-a858-05e014f00a72">Capturing Video</a>.
+
 
 
 
@@ -101,13 +103,19 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565135">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

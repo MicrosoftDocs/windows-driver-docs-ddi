@@ -7,8 +7,8 @@ old-location: stream\ksunserializeobjectpropertiesfromregistry.htm
 old-project: stream
 ms.assetid: e08ddef7-5942-4943-9dbe-9658279892f0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksunserializeobjectpropertiesfromregistry, KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, ks/KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, stream.ksunserializeobjectpropertiesfromregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsUnserializeObjectPropertiesFromRegistry
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ Optionally contains the path to the key whose subkeys will be enumerated as prop
 ## -returns
 
 
+
 The <b>KsUnserializeObjectPropertiesFromRegistry</b> function returns STATUS_SUCCESS if the property sets were unserialized. The function returns an error if the registry path was invalid, one of the subkeys was invalid, setting a property was unsuccessful, the serialized format was invalid, or a property set was not supported on the object. 
+
 
 

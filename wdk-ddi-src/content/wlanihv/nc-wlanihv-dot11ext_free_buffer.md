@@ -7,8 +7,8 @@ old-location: netvista\dot11extfreebuffer.htm
 old-project: netvista
 ms.assetid: a6e49914-29c0-47d2-936b-17c48958cb36
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extfreebuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Dot11ExtFreeBuffer, DOT11EXT_FREE_BUFFER, DOT11EXT_FREE_BUFFER, wlanihv/Dot11ExtFreeBuffer, Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_FREE_BUFFER, Dot11ExtFreeBuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml, netvista.dot11extfreebuffer, wlanihv/Dot11ExtFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtFreeBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -80,11 +80,14 @@ A pointer to the buffer to be freed. If the value of
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extension DLL must not call the 
@@ -94,21 +97,26 @@ The IHV Extension DLL must not call the
     Handler function.
 
 For more information about the IHV Handler functions, see 
-    <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-    Functions</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    Functions</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_FREE_BUFFER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_FREE_BUFFER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

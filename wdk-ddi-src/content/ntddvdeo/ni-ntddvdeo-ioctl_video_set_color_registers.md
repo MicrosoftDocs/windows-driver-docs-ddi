@@ -7,8 +7,8 @@ old-location: display\ioctl_video_set_color_registers.htm
 old-project: display
 ms.assetid: efaea94e-0cfd-49a7-b8dc-452aa006b024
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.ioctl_video_set_color_registers, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], IOCTL_VIDEO_SET_COLOR_REGISTERS, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS, Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_VIDEO_SET_COLOR_REGISTERS, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml, display.ioctl_video_set_color_registers, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddvdeo.h
-apiname: 
+api_name:
 -	IOCTL_VIDEO_SET_COLOR_REGISTERS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains a VIDEO_CLUT structure, specifying an array 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintreadstream_readbytes.htm
 old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ReadBytes method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], ReadBytes method, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, ReadBytes method [Print Devices], print.iprintreadstream_readbytes, IPrintReadStream, IPrintReadStream::ReadBytes, ReadBytes, filterpipeline/IPrintReadStream::ReadBytes
+ms.date: 2/23/2018
+ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], ReadBytes method, IPrintReadStream::ReadBytes, ReadBytes method [Print Devices], ReadBytes method [Print Devices], IPrintReadStream interface, ReadBytes,IPrintReadStream.ReadBytes, filterpipeline/IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, print.iprintreadstream_readbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPrintReadStream.ReadBytes
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ A pointer to a <b>BOOL</b> value that indicates whether the end of file (EOF) wa
 ## -returns
 
 
+
 <code>ReadBytes</code> returns an <b>HRESULT</b> value.
+
 
 

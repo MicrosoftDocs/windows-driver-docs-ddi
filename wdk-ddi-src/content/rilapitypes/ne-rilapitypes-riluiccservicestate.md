@@ -7,8 +7,8 @@ old-location: netvista\riluiccservicestate_2.htm
 old-project: netvista
 ms.assetid: f817db6b-bda4-45cd-953b-fd3d81bafa8f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCSERVICESTATE_MAX, netvista.riluiccservicestate_2, RILUICCSERVICESTATE, rilapitypes/RIL_UICCSERVICESTATE_DISABLED, rilapitypes/RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_DISABLED, rilapitypes/RILUICCSERVICESTATE, RIL_UICCSERVICESTATE_MAX, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILUICCSERVICESTATE, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSERVICESTATE_DISABLED, RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_MAX, netvista.riluiccservicestate_2, rilapitypes/RILUICCSERVICESTATE, rilapitypes/RIL_UICCSERVICESTATE_DISABLED, rilapitypes/RIL_UICCSERVICESTATE_ENABLED, rilapitypes/RIL_UICCSERVICESTATE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCSERVICESTATE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILUICCSERVICESTATE {
 ### -field RIL_UICCSERVICESTATE_NOTAVAILABLE
 
 
-
 ### -field RIL_UICCSERVICESTATE_DISABLED
-
 
 
 ### -field RIL_UICCSERVICESTATE_ENABLED
 
 
-
 ### -field RIL_UICCSERVICESTATE_MAX
-
 

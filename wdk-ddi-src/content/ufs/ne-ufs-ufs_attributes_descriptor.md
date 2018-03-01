@@ -7,8 +7,8 @@ old-location: storage\ufs_attributes_descriptor.htm
 old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: UFS_bConfigDescrLock, UFS_bRefClkFreq, ufs/UFS_bOutOfOrderDataEn, UFS_bDeviceFFUStatus, ufs/UFS_dSecondsPassed, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bBootLunEn, UFS_bOutOfOrderDataEn, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_wContextConf, UFS_dPSADataSize, ufs/UFS_dPSADataSize, UFS_Obsolete, ufs/UFS_Obsolete, UFS_bMaxDataInSize, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxNumOfRTT, ufs/UFS_Reserved01, ufs/UFS_bBackgroundOpStatus, UFS_dSecondsPassed, ufs/UFS_Reserved02, ufs/UFS_bMaxDataOutSize, UFS_bBackgroundOpStatus, ufs/UFS_Reserved03, UFS_bActiveICCLevel, ufs/UFS_bPSAState, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxDataInSize, storage.ufs_attributes_descriptor, UFS_bMaxNumOfRTT, ufs/UFS_wExceptionEventStatus, UFS_Reserved03, UFS_bBootLunEn, ufs/UFS_bActiveICCLevel, UFS_wExceptionEventStatus, UFS_wExceptionEventControl, UFS_bPSAState, ufs/UFS_wExceptionEventControl, UFS_Reserved02, ufs/UFS_bConfigDescrLock, ufs/UFS_wContextConf, UFS_dDynCapNeeded, ufs/UFS_bCurrentPowerMode, UFS_bCurrentPowerMode, UFS_bPurgeStatus, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, UFS_bMaxDataOutSize, UFS_Reserved01
+ms.date: 2/24/2018
+ms.keywords: UFS_ATTRIBUTES_DESCRIPTOR, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_Obsolete, UFS_Reserved01, UFS_Reserved02, UFS_Reserved03, UFS_bActiveICCLevel, UFS_bBackgroundOpStatus, UFS_bBootLunEn, UFS_bConfigDescrLock, UFS_bCurrentPowerMode, UFS_bDeviceFFUStatus, UFS_bMaxDataInSize, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, UFS_bOutOfOrderDataEn, UFS_bPSAState, UFS_bPurgeStatus, UFS_bRefClkFreq, UFS_dDynCapNeeded, UFS_dPSADataSize, UFS_dSecondsPassed, UFS_wContextConf, UFS_wExceptionEventControl, UFS_wExceptionEventStatus, storage.ufs_attributes_descriptor, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_Obsolete, ufs/UFS_Reserved01, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bActiveICCLevel, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bBootLunEn, ufs/UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bMaxDataInSize, ufs/UFS_bMaxDataOutSize, ufs/UFS_bMaxNumOfRTT, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bPSAState, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, ufs/UFS_dPSADataSize, ufs/UFS_dSecondsPassed, ufs/UFS_wContextConf, ufs/UFS_wExceptionEventControl, ufs/UFS_wExceptionEventStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ufs.h
-apiname: 
+api_name:
 -	UFS_ATTRIBUTES_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -103,6 +103,7 @@ Reserved for future use.
 ### -field UFS_bCurrentPowerMode
 
 Indicates the current power mode. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -140,7 +141,8 @@ Indicates the current power mode. Contains one of the following values:
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_bActiveICCLevel
@@ -159,6 +161,7 @@ enabled
 ### -field UFS_bBackgroundOpStatus
 
 Specifies if the device has a need for background operations. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -180,7 +183,8 @@ Specifies if the device has a need for background operations. Contains one of th
 <td>0x03</td>
 <td>Device has a critical need of background operations. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_bPurgeStatus
@@ -210,6 +214,7 @@ Specifies the dynamic capacity need.
 ### -field UFS_bRefClkFreq
 
 Specifies the reference clock frequency value.
+
 <table>
 <tr>
 <th>Value</th>
@@ -231,7 +236,8 @@ Specifies the reference clock frequency value.
 <td>0x03</td>
 <td>52 MHz</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_bConfigDescrLock
@@ -259,6 +265,7 @@ Specifies a bitmap of each exception event status.A bit will be set only if the
 relevant event has occurred
 (regardless of the
 <b>UFS_wExceptionEventControl</b> status). Contains the following bits:
+
 <table>
 <tr>
 <th>Bit</th>
@@ -280,7 +287,8 @@ relevant event has occurred
 <td>3 to 15</td>
 <td>Reserved.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_dSecondsPassed
@@ -311,6 +319,7 @@ Reserved for future use.
 ### -field UFS_bDeviceFFUStatus
 
 Specifies the Device Field Firmware Update (FFU) status.
+
 <table>
 <tr>
 <th>Value</th>
@@ -344,12 +353,14 @@ Specifies the Device Field Firmware Update (FFU) status.
 <td>0xFF</td>
 <td>General Error.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_bPSAState
 
 Specifies the current Product State Awareness (PSA) State.
+
 <table>
 <tr>
 <th>Value</th>
@@ -384,7 +395,8 @@ Device to indicate it is in a post-soldering state. This attribute
 is locked after it is in
 ‘Soldered’ state.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UFS_dPSADataSize
@@ -397,6 +409,7 @@ to load to all logical units with
 ## -remarks
 
 
+
 <b>UFS_bCurrentPowerMode</b> is the only attribute the device is required to return in any power mode. If the device
 is not in Active power mode or Idle power mode, a <b>QUERY REQUEST UPIU</b> to access descriptors, flags, or attributes other than <b>bCurrentPowerMode</b> may fail.
 
@@ -407,31 +420,52 @@ microcode activation event occurs.
 
 
 
+
 ## -see-also
-
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
 
+
+
+<a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
+
+
+
 <a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+
+
 
 <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
 
- 
+
+
+<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_ATTRIBUTES_DESCRIPTOR enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_ATTRIBUTES_DESCRIPTOR enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

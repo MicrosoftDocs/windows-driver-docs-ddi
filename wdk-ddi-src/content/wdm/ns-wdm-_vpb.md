@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._VPB
-title: _VPB
+title: "_VPB"
 author: windows-driver-content
 description: The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
 old-location: ifsk\vpb.htm
 old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: VPB structure [Installable File System Drivers], *PVPB, VPB_MOUNTED, _VPB, wdm/PVPB, wdm/VPB, VPB_DIRECT_WRITES_ALLOWED, ifsk.vpb, PVPB structure pointer [Installable File System Drivers], PVPB, VPB_LOCKED, VPB_REMOVE_PENDING, VPB_RAW_MOUNT, VPB_PERSISTENT, VPB
+ms.date: 2/16/2018
+ms.keywords: "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	VPB
 product: Windows
 targetos: Windows
@@ -74,21 +74,6 @@ typedef struct _VPB {
 ## -struct-fields
 
 
-
-
-### -field DeviceObject
-
-A read/write member, set by the file system driver, which points to a device object of type <b>FILE_DEVICE_DISK_FILE_SYSTEM</b>. This device object is created by the file system driver to represent the mounted volume.
-
-
-### -field _DEVICE_OBJECT
-
- 
-
-
-### -field RealDevice
-
-A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
 
 
 ### -field Type
@@ -168,12 +153,28 @@ Indicates that direct write operations to the volume are allowed.  This flag is 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VolumeLabelLength
 
 A read/write member that specifies the length of the volume label, in bytes. This member must be set by the file system driver. If the volume has no label, this member must be set to zero.
+
+
+### -field DeviceObject
+
+A read/write member, set by the file system driver, which points to a device object of type <b>FILE_DEVICE_DISK_FILE_SYSTEM</b>. This device object is created by the file system driver to represent the mounted volume.
+
+
+### -field RealDevice
+
+A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
+
+
+### -field _DEVICE_OBJECT
+
+ 
 
 
 ### -field SerialNumber
@@ -196,6 +197,7 @@ A read/write member, set by the file system driver, that specifies the label of 
 ## -remarks
 
 
+
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
 The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
@@ -209,24 +211,33 @@ The I/O manager allocates and deallocates memory for the VPB structure from nonp
 For more information about device object types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
 
 Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
+
 <div class="alert"><b>Note</b>  <ul>
 <li>Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.</li>
 <li>Drivers can use read-only members to acquire relevant information. Drivers must not modify read-only members or the object that the member points to, if the member is a pointer.</li>
 </ul>
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
 
-<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20VPB structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20VPB structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

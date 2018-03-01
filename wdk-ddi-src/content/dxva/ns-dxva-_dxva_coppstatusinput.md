@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusInput
-title: _DXVA_COPPStatusInput
+title: "_DXVA_COPPStatusInput"
 author: windows-driver-content
 description: The DXVA_COPPStatusInput structure describes a request for status on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusinput.htm
 old-project: display
 ms.assetid: 693411e9-16d1-42eb-9848-d28876a91b38
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxva_coppstatusinput, dxva/LPDXVA_COPPStatusInput, _DXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml, LPDXVA_COPPStatusInput structure pointer [Display Devices], LPDXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], dxva/DXVA_COPPStatusInput, DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], _DXVA_COPPStatusInput, display.dxva_coppstatusinput, dxva/DXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_COPPStatusInput
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_COPPStatusInput, DXVA_COPPStatusInput
+req.typenames: DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput
 ---
 
 # _DXVA_COPPStatusInput structure
@@ -83,6 +83,126 @@ Specifies the GUID that identifies the status request. The following status requ
 
 
 
+
+#### DXVA_COPPQueryConnectorType
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryConnectorType,
+  0x81d0bfd5,0x6afe,0x48c2,0x99,0xc0,0x95,0xa0,0x8f,0x97,0xc5,0xda);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryProtectionType
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryProtectionType,
+  0x38f2a801,0x9a6c,0x48bb,0x91,0x07,0xb6,0x69,0x6e,0x6f,0x17,0x97);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryLocalProtectionLevel
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryLocalProtectionLevel,
+  0xb2075857,0x3eda,0x4d5d,0x88,0xdb,0x74,0x8f,0x8c,0x1a,0x05,0x49);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryGlobalProtectionLevel
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryGlobalProtectionLevel,
+  0x1957210a,0x7766,0x452a,0xb9,0x9a,0xd2,0x7a,0xed,0x54,0xf0,0x3a);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryDisplayData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryDisplayData,
+  0xd7bf1ba3,0xad13,0x4f8e,0xaf,0x98,0x0d,0xcb,0x3c,0xa2,0x04,0xcc);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryHDCPKeyData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryHDCPKeyData,
+  0xdb59d74,0xa992,0x492e,0xa0,0xbd,0xc2,0x3f,0xda,0x56,0x4e,0x0);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQueryBusData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryBusData,
+  0xc6f4d673,0x6174,0x4184,0x8e,0x35,0xf6,0xdb,0x52, 0x0,0xbc,0xba);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+#### DXVA_COPPQuerySignaling
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQuerySignaling,
+  0x6629a591,0x3b79,0x4cf3,0x92,0x4a,0x11,0xe8,0xe7,0x81,0x16,0x71);</pre>
+</td>
+</tr>
+</table></span></div>
+
 ### -field dwSequence
 
 Specifies a sequence number. For the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function to process the status request, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a> function.
@@ -102,140 +222,40 @@ No data is required for the DXVA_COPPQueryConnectorType, DXVA_COPPQueryProtectio
 The DXVA_COPPQueryLocalProtectionLevel and DXVA_COPPQueryGlobalProtectionLevel requests require data that identifies the protection type for which the protection level is requested. Therefore, these requests require that the first 4 bytes in the <b>StatusData</b> array contain the protection type.
 
 
-##### - guidStatusRequestID.DXVA_COPPQueryHDCPKeyData
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryHDCPKeyData,
-  0xdb59d74,0xa992,0x492e,0xa0,0xbd,0xc2,0x3f,0xda,0x56,0x4e,0x0);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryConnectorType
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryConnectorType,
-  0x81d0bfd5,0x6afe,0x48c2,0x99,0xc0,0x95,0xa0,0x8f,0x97,0xc5,0xda);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryLocalProtectionLevel
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryLocalProtectionLevel,
-  0xb2075857,0x3eda,0x4d5d,0x88,0xdb,0x74,0x8f,0x8c,0x1a,0x05,0x49);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryDisplayData
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryDisplayData,
-  0xd7bf1ba3,0xad13,0x4f8e,0xaf,0x98,0x0d,0xcb,0x3c,0xa2,0x04,0xcc);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryProtectionType
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryProtectionType,
-  0x38f2a801,0x9a6c,0x48bb,0x91,0x07,0xb6,0x69,0x6e,0x6f,0x17,0x97);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQuerySignaling
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQuerySignaling,
-  0x6629a591,0x3b79,0x4cf3,0x92,0x4a,0x11,0xe8,0xe7,0x81,0x16,0x71);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryGlobalProtectionLevel
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryGlobalProtectionLevel,
-  0x1957210a,0x7766,0x452a,0xb9,0x9a,0xd2,0x7a,0xed,0x54,0xf0,0x3a);</pre>
-</td>
-</tr>
-</table></span></div>
-
-##### - guidStatusRequestID.DXVA_COPPQueryBusData
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryBusData,
-  0xc6f4d673,0x6174,0x4184,0x8e,0x35,0xf6,0xdb,0x52, 0x0,0xbc,0xba);</pre>
-</td>
-</tr>
-</table></span></div>
-
 ## -remarks
+
 
 
 Status requests are passed in the <i>pInput</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function. Status information is returned through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. The <a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a> structure describes the returned status information.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
-
-<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
-
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
- 
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusInput structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusInput structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ksevent_item_irp_storage.htm
 old-project: stream
 ms.assetid: c23fc5f4-2546-4330-bcdd-8fef59c8219a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], stream.ksevent_item_irp_storage, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml
+ms.date: 2/23/2018
+ms.keywords: KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ITEM_IRP_STORAGE, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml, stream.ksevent_item_irp_storage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSEVENT_ITEM_IRP_STORAGE
 product: Windows
 targetos: Windows
@@ -68,5 +68,4 @@ This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEV
 
 
 ### -param Irp
-
 

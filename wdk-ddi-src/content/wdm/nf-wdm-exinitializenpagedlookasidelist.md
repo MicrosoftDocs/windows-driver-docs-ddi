@@ -7,8 +7,8 @@ old-location: kernel\exinitializenpagedlookasidelist.htm
 old-project: kernel
 ms.assetid: d783feff-d187-4a2f-8d3d-b5221b03459a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ExInitializeNPagedLookasideList, kernel.exinitializenpagedlookasidelist, ExInitializeNPagedLookasideList, k102_054ed856-4da7-42e9-a413-baefdd1064ed.xml, ExInitializeNPagedLookasideList routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: ExInitializeNPagedLookasideList, ExInitializeNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_054ed856-4da7-42e9-a413-baefdd1064ed.xml, kernel.exinitializenpagedlookasidelist, wdm/ExInitializeNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ExInitializeNPagedLookasideList
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ### -param Allocate [in, optional]
 
 A pointer to either a caller-supplied function for allocating an entry when the lookaside list is empty, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,12 +96,14 @@ A pointer to either a caller-supplied function for allocating an entry when the 
 );</pre>
 </td>
 </tr>
-</table></span></div>If the <i>Allocate</i> parameter is <b>NULL</b>, subsequent calls to <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> automatically allocate entries whenever the lookaside list is empty.
+</table></span></div>
+If the <i>Allocate</i> parameter is <b>NULL</b>, subsequent calls to <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> automatically allocate entries whenever the lookaside list is empty.
 
 
 ### -param Free [in, optional]
 
 A pointer to either a caller-supplied function for freeing an entry whenever the lookaside list is full, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -112,12 +115,14 @@ A pointer to either a caller-supplied function for freeing an entry whenever the
 );</pre>
 </td>
 </tr>
-</table></span></div>If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a> automatically release the given entry back to nonpaged pool whenever the list is full, that is, currently holding the system-determined maximum number of entries.
+</table></span></div>
+If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a> automatically release the given entry back to nonpaged pool whenever the list is full, that is, currently holding the system-determined maximum number of entries.
 
 
 ### -param Flags [in]
 
 Starting in Windows 8, this parameter specifies an optional flag value to modify the default behavior of the <b>ExInitializeNPagedLookasideList</b> routine. Compatible flag bits include the following.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -143,7 +148,8 @@ If the allocation fails, raise an exception.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Before Windows 8, this parameter is not used and must be zero.
 
@@ -166,16 +172,20 @@ Reserved. Must be zero.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 After calling <b>ExInitializeNPagedLookasideList</b>, memory blocks of the caller-specified <i>Size</i> can be allocated from and freed to the lookaside list with calls to <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> and <a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a>, respectively. Such dynamically allocated and freed entries can be any data structure or fixed-size buffer that the caller uses while the system is running, particularly if the caller cannot predetermine how many such entries will be in use at any given moment. The layout and contents of each fixed-size entry are caller-determined. 
 
 <b>ExInitializeNPagedLookasideList</b> initializes the system state to track usage of the given lookaside list, as follows:
+
 <ul>
 <li>
 Zero-initializes the counters to be maintained for entries.
@@ -201,7 +211,8 @@ Sets up the system-determined limits (minimum and maximum) on the number of entr
 Sets up the system-determined flags, which control the type of memory from which entries will be allocated subsequently.
 
 </li>
-</ul>The system maintains a set of all lookaside lists currently in use. As demand for lookaside list entries and on available nonpaged memory varies while the system runs, the system adjusts its limits for the number of entries to be held in each nonpaged lookaside list dynamically.
+</ul>
+The system maintains a set of all lookaside lists currently in use. As demand for lookaside list entries and on available nonpaged memory varies while the system runs, the system adjusts its limits for the number of entries to be held in each nonpaged lookaside list dynamically.
 
 Drivers must always use explicitly free any lookaside lists they create before unloading. To do otherwise is a serious programming error. Use <a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a> to free the list.
 
@@ -217,29 +228,48 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 <a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+
+
+
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInitializeNPagedLookasideList routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInitializeNPagedLookasideList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

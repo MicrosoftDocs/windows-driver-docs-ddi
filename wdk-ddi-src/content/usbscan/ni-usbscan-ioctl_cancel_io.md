@@ -7,8 +7,8 @@ old-location: image\ioctl_cancel_io.htm
 old-project: image
 ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_cancel_io, IOCTL_CANCEL_IO control code [Imaging Devices], IOCTL_CANCEL_IO, usbscan/IOCTL_CANCEL_IO, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbscan.h
-apiname: 
+api_name:
 -	IOCTL_CANCEL_IO
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ Zero.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,8 +111,10 @@ Zero.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_cancel_io_si"></a><a id="DDK_IOCTL_CANCEL_IO_SI"></a>DeviceIoControl Parameters
 </h3>
+
 
 
 <dl>
@@ -156,5 +162,6 @@ Optional pointer to an OVERLAPPED structure (described in the Microsoft Windows 
 
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_CANCEL_IO I/O control code, the caller must specify one of the <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

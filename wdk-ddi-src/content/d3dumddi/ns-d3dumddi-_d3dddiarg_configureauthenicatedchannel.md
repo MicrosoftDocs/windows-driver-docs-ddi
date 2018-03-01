@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL
-title: _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL
+title: "_D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL"
 author: windows-driver-content
 description: The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the ConfigureAuthenticatedChannel function.
 old-location: display\d3dddiarg_configureauthenticatedchannel.htm
 old-project: display
 ms.assetid: 8f27fe6d-fe34-4006-a8b1-d2f2190ec044
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel, UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml, _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
 ## -remarks
 
 
+
 The first member of the input buffer that the <b>pInputData</b> member points to is always the D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT structure, whose members specify the following information: 
+
 <ul>
 <li>
 The <b>ConfigureType</b> member identifies the configuration state to set. 
@@ -101,9 +103,11 @@ The <b>omac</b> member identifies the One-key Cipher Block Chaining (CBC)-mode m
 The <b>SequenceNumber</b> member specifies a unique number that the driver can use to prevent against replay attacks. 
 
 </li>
-</ul>The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
+</ul>
+The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
 
 Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
+
 
 
 
@@ -111,9 +115,11 @@ Configuration state that an authenticated channel sets cannot be disabled by ano
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

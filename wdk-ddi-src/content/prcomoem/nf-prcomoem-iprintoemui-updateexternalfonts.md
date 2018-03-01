@@ -7,8 +7,8 @@ old-location: print\iprintoemui_updateexternalfonts.htm
 old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: UpdateExternalFonts method [Print Devices], print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, prcomoem/IPrintOemUI::UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, IPrintOemUI, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface
+ms.date: 2/23/2018
+ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices], IPrintOemUI interface, UpdateExternalFonts,IPrintOemUI.UpdateExternalFonts, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUI.UpdateExternalFonts
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Caller-supplied pointer to an array of strings representing the names of all car
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in must implement the <code>IPrintOemUI::UpdateExternalFonts</code> method if the plug-in is replacing Unidrv's default font installer. For more information, see <a href="https://msdn.microsoft.com/d753368d-b1c8-454e-a02b-131dc778e723">Customized Font Installers for Unidrv</a>.
@@ -142,13 +147,20 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
 
- 
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::UpdateExternalFonts method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::UpdateExternalFonts method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

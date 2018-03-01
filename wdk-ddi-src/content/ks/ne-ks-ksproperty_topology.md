@@ -2,13 +2,13 @@
 UID: NE:ks.KSPROPERTY_TOPOLOGY
 title: KSPROPERTY_TOPOLOGY
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_topology.htm
 old-project: stream
 ms.assetid: 9C000B4B-DB21-41E1-9AF0-D3B92EAC070B
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_topology, ks/KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY enumeration [Streaming Media Devices], ks/KSPROPERTY_TOPOLOGY_NAME, KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY, ks/KSPROPERTY_TOPOLOGY, KSPROPERTY_TOPOLOGY_NODES, ks/KSPROPERTY_TOPOLOGY_NODES, ks/KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY_NAME
+ms.date: 2/23/2018
+ms.keywords: KSPROPERTY_TOPOLOGY, KSPROPERTY_TOPOLOGY enumeration [Streaming Media Devices], KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY_NAME, KSPROPERTY_TOPOLOGY_NODES, ks/KSPROPERTY_TOPOLOGY, ks/KSPROPERTY_TOPOLOGY_CATEGORIES, ks/KSPROPERTY_TOPOLOGY_CONNECTIONS, ks/KSPROPERTY_TOPOLOGY_NAME, ks/KSPROPERTY_TOPOLOGY_NODES, stream.ksproperty_topology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ks.h
-apiname: 
+api_name:
 -	KSPROPERTY_TOPOLOGY
 product: Windows
 targetos: Windows

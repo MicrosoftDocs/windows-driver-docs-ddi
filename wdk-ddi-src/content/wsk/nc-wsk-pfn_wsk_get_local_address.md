@@ -7,8 +7,8 @@ old-location: netvista\wskgetlocaladdress.htm
 old-project: netvista
 ms.assetid: 13cd4199-63f8-49f3-a12f-86e1d367b4aa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskgetlocaladdress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], WskGetLocalAddress, PFN_WSK_GET_LOCAL_ADDRESS, PFN_WSK_GET_LOCAL_ADDRESS, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_GET_LOCAL_ADDRESS, WskGetLocalAddress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetlocaladdress, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskGetLocalAddress
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -98,14 +98,16 @@ For a connection-oriented socket that the WSK application accepted on a listenin
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the retrieve operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
 
 
 ## -returns
 
 
+
 <b>WskGetLocalAddress</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -174,11 +176,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A WSK application can call the 
@@ -189,6 +194,7 @@ A listening, datagram, or stream socket is bound to a local transport address wh
     <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a> function.
 
 A connection-oriented socket is bound to a local transport address in one of the following ways:
+
 <ul>
 <li>
 The WSK application calls the 
@@ -205,7 +211,8 @@ The WSK subsystem binds the socket when the WSK application accepts an incoming 
       on a listening socket.
 
 </li>
-</ul>The 
+</ul>
+The 
     <b>WskGetLocalAddress</b> function is particularly useful for determining the specific local transport
     address that was assigned to a socket by the transport protocol when the socket was bound to the local
     wildcard address. For a connection-oriented socket that was bound to the local wildcard address, the
@@ -225,39 +232,66 @@ If the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
- 
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_LOCAL_ADDRESS callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_LOCAL_ADDRESS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

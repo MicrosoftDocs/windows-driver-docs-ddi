@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOPRIMARIES
-title: _DXVADDI_VIDEOPRIMARIES
+title: "_DXVADDI_VIDEOPRIMARIES"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPRIMARIES enumeration type contains values that identify the color primaries, which state which RGB basis functions are used.
 old-location: display\dxvaddi_videoprimaries.htm
 old-project: display
 ms.assetid: d7049f38-78a7-42bf-a1a5-5d35fe70ae15
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_BT709, DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_SMPTE170M, DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_BT709, d3dumddi/DXVADDI_VideoPrimariesMask, DXVADDI_VIDEOPRIMARIES enumeration [Display Devices], d3dumddi/DXVADDI_VideoPrimaries_Unknown, DXVADDI_VideoPrimariesMask, d3dumddi/DXVADDI_VideoPrimaries_reserved, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_reserved, _DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_SMPTE170M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE_C, d3dumddi/DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_EBU3213, DXVA2_Structs_f49dc977-3cb9-41b6-bb0c-a2de5e6a60c3.xml, display.dxvaddi_videoprimaries, DXVADDI_VIDEOPRIMARIES, DXVADDI_VideoPrimaries_Unknown
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_f49dc977-3cb9-41b6-bb0c-a2de5e6a60c3.xml, DXVADDI_VIDEOPRIMARIES, DXVADDI_VIDEOPRIMARIES enumeration [Display Devices], DXVADDI_VideoPrimariesMask, DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_BT709, DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VideoPrimaries_SMPTE170M, DXVADDI_VideoPrimaries_SMPTE240M, DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_Unknown, DXVADDI_VideoPrimaries_reserved, _DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimariesMask, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysBG, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysM, d3dumddi/DXVADDI_VideoPrimaries_BT709, d3dumddi/DXVADDI_VideoPrimaries_EBU3213, d3dumddi/DXVADDI_VideoPrimaries_SMPTE170M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE_C, d3dumddi/DXVADDI_VideoPrimaries_Unknown, d3dumddi/DXVADDI_VideoPrimaries_reserved, display.dxvaddi_videoprimaries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVADDI_VIDEOPRIMARIES
 product: Windows
 targetos: Windows
@@ -129,7 +129,9 @@ Specifies SMPTE_C primaries, which are analog '79 NTSC primaries.
 ## -remarks
 
 
+
 One of the values of DXVADDI_VIDEOPRIMARIES can be specified in the <b>VideoPrimaries</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+
 
 
 
@@ -137,9 +139,11 @@ One of the values of DXVADDI_VIDEOPRIMARIES can be specified in the <b>VideoPrim
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOPRIMARIES enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOPRIMARIES enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -2,13 +2,13 @@
 UID: NF:winsplp.SpoolerRefreshPrinterChangeNotification
 title: SpoolerRefreshPrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\spoolerrefreshprinterchangenotification.htm
 old-project: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.spoolerrefreshprinterchangenotification, SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], winsplp/SpoolerRefreshPrinterChangeNotification
+ms.date: 2/23/2018
+ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	SpoolerRefreshPrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ BOOL WINAPI SpoolerRefreshPrinterChangeNotification(
 ### -param hPrinter [in]
 
 
-
 ### -param dwColor [in]
-
 
 
 ### -param pOptions [in]
 
 
-
 ### -param ppInfo [in, out, optional]
-
 

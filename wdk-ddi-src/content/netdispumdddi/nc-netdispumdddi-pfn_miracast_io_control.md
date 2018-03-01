@@ -7,8 +7,8 @@ old-location: display\miracastiocontrol.htm
 old-project: display
 ms.assetid: df63ec18-79e0-40a6-a412-46071eb8a7fe
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.miracastiocontrol, PFN_MIRACAST_IO_CONTROL, MiracastIoControl callback function [Display Devices], MiracastIoControl, PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL, netdispumdddi/MiracastIoControl
+ms.date: 2/24/2018
+ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, display.miracastiocontrol, netdispumdddi/MiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Netdispumdddi.h
-apiname: 
+api_name:
 -	MiracastIoControl
 product: Windows
 targetos: Windows
@@ -95,8 +95,9 @@ We don't recommend that the driver set this value to <b>TRUE</b> except when nec
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer
+### -param *pInputBuffer [in]
 
+A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
 
 
 ### -param OutputBufferSize [in]
@@ -104,40 +105,27 @@ The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
-### -param *pOutputBuffer
-
-
-
-### -param *pBytesReturned
-
-
-
-
-
-
-#### - pBytesReturned [out, optional]
-
-An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
-
-
-#### - pOutputBuffer [out]
+### -param *pOutputBuffer [out]
 
 A driver-supplied pointer to the output buffer. The <i>OutputBufferSize</i> parameter specifies the size of the buffer.
 
 
-#### - pInputBuffer [in]
+### -param *pBytesReturned [out, optional]
 
-A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
+An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
 
 
 ## -returns
+
 
 
 On success, the operating system returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header.
 
 
 
+
 ## -remarks
+
 
 
 If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operating system is starting a Miracast session, and if the calling thread is not the thread in which the operating system calls the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> function, the operating system blocks the <b>MiracastIoControl</b> call until the Miracast start session is finished. If the user-mode driver calls <b>MiracastIoControl</b> in the same context as is used in  the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> or <i>StartMiracastSession</i> functions, the operating system will process the call.
@@ -146,19 +134,28 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 
 
+
 ## -see-also
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
- 
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_MIRACAST_IO_CONTROL callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_MIRACAST_IO_CONTROL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

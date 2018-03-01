@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddstor._STORAGE_CRYPTO_KEY_SIZE
-title: _STORAGE_CRYPTO_KEY_SIZE
+title: "_STORAGE_CRYPTO_KEY_SIZE"
 author: windows-driver-content
 description: The STORAGE_CRYPTO_KEY_SIZE enum returns the Size of the key in bits.
 old-location: storage\storage_crypto_key_size.htm
 old-project: storage
 ms.assetid: C3E5CEC6-34A2-48DF-B963-677C69A97E0B
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorageCryptoKeySize256Bits, ntddstor/StorageCryptoKeySize192Bits, STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySizeUnknown, STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], *PSTORAGE_CRYPTO_KEY_SIZE, storage.storage_crypto_key_size, StorageCryptoKeySize512Bits, ntddstor/StorageCryptoKeySize256Bits, StorageCryptoKeySize192Bits, ntddstor/StorageCryptoKeySize512Bits, StorageCryptoKeySizeUnknown, ntddstor/StorageCryptoKeySize128Bits, ntddstor/STORAGE_CRYPTO_KEY_SIZE, _STORAGE_CRYPTO_KEY_SIZE, StorageCryptoKeySize128Bits
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], StorageCryptoKeySize128Bits, StorageCryptoKeySize192Bits, StorageCryptoKeySize256Bits, StorageCryptoKeySize512Bits, StorageCryptoKeySizeUnknown, _STORAGE_CRYPTO_KEY_SIZE, ntddstor/STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySize128Bits, ntddstor/StorageCryptoKeySize192Bits, ntddstor/StorageCryptoKeySize256Bits, ntddstor/StorageCryptoKeySize512Bits, ntddstor/StorageCryptoKeySizeUnknown, storage.storage_crypto_key_size"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE
 product: Windows
 targetos: Windows

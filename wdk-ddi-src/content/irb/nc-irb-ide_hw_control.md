@@ -7,8 +7,8 @@ old-location: storage\idehwcontrol.htm
 old-project: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.idehwcontrol, IdeHwControl routine [Storage Devices], IdeHwControl, IDE_HW_CONTROL, IDE_HW_CONTROL, irb/IdeHwControl, atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml
+ms.date: 2/24/2018
+ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IdeHwControl
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ Contains an enumerator value of type <a href="..\irb\ne-irb-ide_control_action.m
 ### -param Parameters [in, out]
 
 A pointer to a buffer that contains the parameters that are associated with the control action. This parameter can have one of the values in the following table.
+
 <table>
 <tr>
 <th>Control action</th>
@@ -119,20 +120,25 @@ Indicates that there is a vendor defined power event coming.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <i>IdeHwControl</i> returns <b>TRUE</b> if the operation was successful. Otherwise, it returns <b>FALSE</b>. 
 
 
 
+
 ## -remarks
 
 
+
 The port driver makes sure that there is no outstanding I/O on the channel before it invokes this routine. The miniport driver can have its own power policy methods when the system enters a different power state. In order to achieve this, the miniport driver needs to do the following:
+
 <ul>
 <li>
 Add a power policy setting scheme into the miniport driver's INF file. A GUID is needed to present a miniport driver-defined power policy. For more information about the power settings directive, see <a href="https://msdn.microsoft.com/0231ba90-5de4-4f5a-83bb-0f73be4b23ae">INF AddPowerSetting Directive</a>. More information about the GUIDs can be found at <a href="https://msdn.microsoft.com/library/windows/hardware/mt608265">Disk settings</a>.
@@ -157,13 +163,16 @@ After vendor-defined power management is registered, the miniport driver will be
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportgetuncachedextension.md">AtaPortGetUncachedExtension</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwControl routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwControl routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

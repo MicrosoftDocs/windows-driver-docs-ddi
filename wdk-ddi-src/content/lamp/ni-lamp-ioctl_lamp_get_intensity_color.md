@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_intensity_color.htm
 old-project: stream
 ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_lamp_get_intensity_color, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], IOCTL_LAMP_GET_INTENSITY_COLOR, lamp/IOCTL_LAMP_GET_INTENSITY_COLOR
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	lamp.h
-apiname: 
+api_name:
 -	IOCTL_LAMP_GET_INTENSITY_COLOR
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -96,14 +96,18 @@ Length of a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COL
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,6 +121,8 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 ## -remarks
 
 
+
 The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+
 
 

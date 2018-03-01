@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicy_IN
-title: _DsmSetLoadBalancePolicy_IN
+title: "_DsmSetLoadBalancePolicy_IN"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicy_IN structure provides an input parameter to the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_in.htm
 old-project: storage
 ms.assetid: 1a249c0e-1b8d-4c50-9b01-03bfe84e0937
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DsmSetLoadBalancePolicy_IN structure [Storage Devices], DsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, _DsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], PDsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, mpiodisk/DsmSetLoadBalancePolicy_IN, structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml, *PDsmSetLoadBalancePolicy_IN
+ms.date: 2/24/2018
+ms.keywords: "*PDsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN, DsmSetLoadBalancePolicy_IN structure [Storage Devices], PDsmSetLoadBalancePolicy_IN, PDsmSetLoadBalancePolicy_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_IN, mpiodisk/DsmSetLoadBalancePolicy_IN, mpiodisk/PDsmSetLoadBalancePolicy_IN, storage.dsmsetloadbalancepolicy_in, structs-scsibus_f8d1e2b3-b630-45df-91f7-d564910f83d0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiodisk.h
-apiname: 
+api_name:
 -	DsmSetLoadBalancePolicy_IN
 product: Windows
 targetos: Windows

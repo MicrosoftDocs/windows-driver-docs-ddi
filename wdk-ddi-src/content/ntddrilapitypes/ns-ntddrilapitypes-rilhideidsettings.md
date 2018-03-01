@@ -7,8 +7,8 @@ old-location: netvista\rilhideidsettings.htm
 old-project: netvista
 ms.assetid: 11ca7db9-8e84-4d55-9ea9-7e2ecfa563e0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilhideidsettings, *LPRILHIDEIDSETTINGS, ntddrilapitypes/RILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings, ntddrilapitypes/RILHIDEIDSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILHIDEIDSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS
+req.typenames: RILHIDEIDSETTINGS, *LPRILHIDEIDSETTINGS
 ---
 
 # RILHIDEIDSETTINGS structure
@@ -74,19 +74,14 @@ typedef struct _RILHIDEIDSETTINGS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwStatus
 
 
-
 ### -field dwProvisioning
-
 

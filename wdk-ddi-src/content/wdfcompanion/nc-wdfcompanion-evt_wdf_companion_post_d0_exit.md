@@ -7,8 +7,8 @@ old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 old-project: wdf
 ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.evt_wdf_companion_post_d0_exit, EVT_WDF_COMPANION_POST_D0_EXIT callback function, EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
+ms.date: 2/20/2018
+ms.keywords: EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT callback function, wdf.evt_wdf_companion_post_d0_exit, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	EVT_WDF_COMPANION_POST_D0_EXIT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,5 @@ NTSTATUS EVT_WDF_COMPANION_POST_D0_EXIT(
 ### -param Companion [in]
 
 
-
 ### -param TargetState [in]
-
 

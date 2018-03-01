@@ -7,8 +7,8 @@ old-location: display\setvideoprocessbltstate.htm
 old-project: display
 ms.assetid: 6796372c-279d-427c-a2a4-9b7c99494f53
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setvideoprocessbltstate, SetVideoProcessBltState callback function [Display Devices], SetVideoProcessBltState, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, d3dumddi/SetVideoProcessBltState, UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, SetVideoProcessBltState, SetVideoProcessBltState callback function [Display Devices], UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml, d3dumddi/SetVideoProcessBltState, display.setvideoprocessbltstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	SetVideoProcessBltState
 product: Windows
 targetos: Windows
@@ -74,7 +74,6 @@ __checkReturn HRESULT APIENTRY SetVideoProcessBltState(
 ### -param HANDLE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ __checkReturn HRESULT APIENTRY SetVideoProcessBltState(
 
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
 
 
 #### - hDevice [in]
@@ -92,10 +88,17 @@ __checkReturn HRESULT APIENTRY SetVideoProcessBltState(
  A handle to the display device (graphics context).
 
 
+#### - pData [in]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
+
+
 ## -returns
 
 
+
 <i>SetVideoProcessBltState</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,7 +126,9 @@ The bitblt state is successfully set.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -131,9 +136,11 @@ The bitblt state is successfully set.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

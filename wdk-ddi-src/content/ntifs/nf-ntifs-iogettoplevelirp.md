@@ -7,13 +7,13 @@ old-location: ifsk\iogettoplevelirp.htm
 old-project: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IoGetTopLevelIrp, ifsk.iogettoplevelirp, ntifs/IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml
+ms.date: 2/16/2018
+ms.keywords: IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, ntifs/IoGetTopLevelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: ntifs.h
-req.include-header: Ntifs.h
+req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetTopLevelIrp
 product: Windows
 targetos: Windows
@@ -74,11 +74,14 @@ PIRP IoGetTopLevelIrp(
 ## -returns
 
 
+
 <b>IoGetTopLevelIrp</b> returns the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
 
+
 ## -remarks
+
 
 
 <b>IoGetTopLevelIrp</b> can return <b>NULL</b>, an arbitrary file-system-specific value (such as a pointer to the current IRP), or one of the flags listed in the following table.
@@ -88,6 +91,7 @@ If the current thread holds no resources above the file system, <b>IoGetTopLevel
 If the file system is the top-level component for the current thread, <b>IoGetTopLevelIrp</b> returns a pointer to the current IRP.
 
 If a component other than the file system is the top-level component for the current thread, <b>IoGetTopLevelIrp</b> returns one of the following flags: 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -133,17 +137,21 @@ The cache manager is the top-level component for the current thread, and the cur
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iosettoplevelirp.md">IoSetTopLevelIrp</a>
+<a href="..\wdm\nf-wdm-iosettoplevelirp.md">IoSetTopLevelIrp</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetTopLevelIrp routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetTopLevelIrp routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddstor._STORAGE_WRITE_CACHE_PROPERTY
-title: _STORAGE_WRITE_CACHE_PROPERTY
+title: "_STORAGE_WRITE_CACHE_PROPERTY"
 author: windows-driver-content
 description: The STORAGE_WRITE_CACHE_PROPERTY structure is used with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve information about a device's write cache property.
 old-location: storage\storage_write_cache_property.htm
 old-project: storage
 ms.assetid: 4abc44ab-1729-46c3-befd-5f917e10953c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, _STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY
+ms.date: 2/24/2018
+ms.keywords: PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], _STORAGE_WRITE_CACHE_PROPERTY, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_WRITE_CACHE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY
+req.typenames: STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY
 ---
 
 # _STORAGE_WRITE_CACHE_PROPERTY structure
@@ -123,7 +123,9 @@ A Boolean value that indicates whether the device has a battery backup for the w
 ## -remarks
 
 
+
 All of the parameter values that are described in this topic refer to the output of the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
+
 
 
 
@@ -131,9 +133,11 @@ All of the parameter values that are described in this topic refer to the output
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_WRITE_CACHE_PROPERTY structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_WRITE_CACHE_PROPERTY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddchgr._CHANGER_DEVICE_PROBLEM_TYPE
-title: _CHANGER_DEVICE_PROBLEM_TYPE
+title: "_CHANGER_DEVICE_PROBLEM_TYPE"
 author: windows-driver-content
 description: The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the ChangerPerformDiagnostics routine.
 old-location: storage\changer_device_problem_type.htm
 old-project: storage
 ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddchgr/DeviceProblemCalibrationError, DeviceProblemHardware, DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeInsertError, DeviceProblemGripperError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCalibrationError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemDoorOpen, DeviceProblemCHMError, CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMMoveError, storage.changer_device_problem_type, _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemCartridgeEjectError, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemNone, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemTargetFailure, DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemGripperError, *PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMZeroError, DeviceProblemPositionError, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemHardware, DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], DeviceProblemTargetFailure, ntddchgr/DeviceProblemSensorError, ntddchgr/DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemSensorError
+ms.date: 2/24/2018
+ms.keywords: "*PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCHMError, DeviceProblemCHMMoveError, DeviceProblemCHMZeroError, DeviceProblemCalibrationError, DeviceProblemCartridgeEjectError, DeviceProblemCartridgeInsertError, DeviceProblemDoorOpen, DeviceProblemDriveError, DeviceProblemGripperError, DeviceProblemHardware, DeviceProblemNone, DeviceProblemPositionError, DeviceProblemSensorError, DeviceProblemTargetFailure, PCHANGER_DEVICE_PROBLEM_TYPE, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemCalibrationError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemDoorOpen, ntddchgr/DeviceProblemDriveError, ntddchgr/DeviceProblemGripperError, ntddchgr/DeviceProblemHardware, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemSensorError, ntddchgr/DeviceProblemTargetFailure, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, storage.changer_device_problem_type, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddchgr.h
-apiname: 
+api_name:
 -	CHANGER_DEVICE_PROBLEM_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE
+req.typenames: CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE
 ---
 
 # _CHANGER_DEVICE_PROBLEM_TYPE enumeration
@@ -152,13 +152,17 @@ Indicates the changer's drive is malfunctioning.
 
 ## -see-also
 
-<a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
-
 <a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
 
- 
+
+
+<a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_DEVICE_PROBLEM_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_DEVICE_PROBLEM_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

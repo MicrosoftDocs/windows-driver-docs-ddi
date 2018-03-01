@@ -7,8 +7,8 @@ old-location: sensors\gnss_cp_ni_info.htm
 old-project: sensors
 ms.assetid: FC05C59C-F8B5-4573-A1F0-722A25BDA151
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.gnss_cp_ni_info, GNSS_CP_NI_INFO structure [Sensor Devices], GNSS_CP_NI_INFO, PGNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO, gnssdriver/GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], gnssdriver/GNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO, sensors.gnss_cp_ni_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_CP_NI_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO
+req.typenames: GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO
 ---
 
 # GNSS_CP_NI_INFO structure
@@ -91,16 +91,17 @@ Version number.
 
 
 
-#### - RequestorId[MAX_PATH]
-
-Requestor ID.
-
-This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
-
 
 #### - NotificationText[MAX_PATH]
 
 Name of the client that requests the location of the device.
 
 This will be displayed on the notification dialog to the user. The GNSS Driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
+
+
+#### - RequestorId[MAX_PATH]
+
+Requestor ID.
+
+This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 

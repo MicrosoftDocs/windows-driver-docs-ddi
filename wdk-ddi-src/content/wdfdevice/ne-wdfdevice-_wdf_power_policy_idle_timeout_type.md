@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
-title: _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration identifies how the idle timeout for a device is determined.
 old-location: wdf\wdf_power_policy_idle_timeout_type.htm
 old-project: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: SystemManagedIdleTimeoutWithHint, wdfdevice/SystemManagedIdleTimeoutWithHint, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, SystemManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/DriverManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, kmdf.wdf_power_policy_idle_timeout_type, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, DriverManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeout
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, SystemManagedIdleTimeout, SystemManagedIdleTimeoutWithHint, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, kmdf.wdf_power_policy_idle_timeout_type, wdf.wdf_power_policy_idle_timeout_type, wdfdevice/DriverManagedIdleTimeout, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeoutWithHint, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 product: Windows
 targetos: Windows
@@ -101,7 +101,9 @@ On operating systems earlier than Windows 8, the behavior is the same as <b>Dri
 ## -remarks
 
 
+
 The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
+
 
 
 
@@ -109,9 +111,11 @@ The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

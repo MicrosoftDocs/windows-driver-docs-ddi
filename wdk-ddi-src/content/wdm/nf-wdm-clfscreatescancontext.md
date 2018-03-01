@@ -7,8 +7,8 @@ old-location: kernel\clfscreatescancontext.htm
 old-project: kernel
 ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.clfscreatescancontext, ClfsCreateScanContext, wdm/ClfsCreateScanContext, Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+api_name:
 -	ClfsCreateScanContext
 product: Windows
 targetos: Windows
@@ -75,7 +75,7 @@ NTSTATUS ClfsCreateScanContext(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
 ### -param cFromContainer [in]
@@ -91,6 +91,7 @@ The number of containers to be scanned with each call to <a href="..\wdm\nf-wdm-
 ### -param eScanMode [in]
 
  A set of flags that specify whether the scan context is set up for scanning forward or backward and whether the scan context should be reinitialized. The following three flags are available for callers of this routine.
+
 <table>
 <tr>
 <th>Value</th>
@@ -126,7 +127,8 @@ Reinitialize the scan context. The next time <b>ClfsScanLogContainers</b> is cal
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that is being passed to this routine for the first time, one of the direction flags (CLFS_SCAN_FORWARD or CLFS_SCAN_BACKWARD) must be set. The CLFS_SCAN_INIT flag must not be set.
 
@@ -141,14 +143,18 @@ A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLF
 ## -returns
 
 
+
 <b>ClfsCreateScanContext</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+
 
 
 
@@ -156,9 +162,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsCreateScanContext routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsCreateScanContext routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

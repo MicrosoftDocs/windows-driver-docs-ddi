@@ -7,8 +7,8 @@ old-location: ifsk\mrxstart.htm
 old-project: ifsk
 ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.mrxstart, MRxStart routine [Installable File System Drivers], MRxStart, PMRX_CALLDOWN_CTX, PMRX_CALLDOWN_CTX, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
+ms.date: 2/16/2018
+ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	mrx.h
-apiname: 
+api_name:
 -	MRxStart
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector.
 ## -returns
 
 
+
 <i>MRxStart</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,11 +114,14 @@ The network mini-redirector was unable to start successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>MRxStart</i> completes the initialization of the network mini-redirector from the RDBSS perspective. Note that this is different from the initialization done in the <b>DriverEntry</b> routine. Any initialization that depends on RDBSS should be done as part of this routine while the initialization that is independent of RDBSS should be done in the <b>DriverEntry</b> routine.
@@ -137,17 +142,24 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 
 
-## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550833">MRxStop</a>
 
+
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549876">MRxDevFcbXXXControlFile</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxStart routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN_CTX routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

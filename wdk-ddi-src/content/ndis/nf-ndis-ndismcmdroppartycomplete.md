@@ -7,8 +7,8 @@ old-location: netvista\ndismcmdroppartycomplete.htm
 old-project: netvista
 ms.assetid: ba0e11d9-3bb1-412c-9b33-9362d774adee
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmdroppartycomplete, NdisMCmDropPartyComplete, ndis/NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml
+ms.date: 2/16/2018
+ms.keywords: NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, ndis/NdisMCmDropPartyComplete, netvista.ndismcmdroppartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NdisMCmDropPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDropPartyComplete macro
@@ -81,13 +81,15 @@ TBD
 
 
 
+
+
 #### - NdisPartyHandle [in]
 
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
      this handle from its per-party state area designated by 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
-     <mshelp:link keywords="netvista.protocolcmdropparty" tabindex="0"><i>
-     ProtocolCmDropParty</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">
+     ProtocolCmDropParty</a> function.
 
 
 #### - Status [in]
@@ -100,6 +102,7 @@ Specifies the final status of the requested operation, either NDIS_STATUS_SUCCES
 ## -remarks
 
 
+
 An MCM driver must call 
     <b>NdisMCmDropPartyComplete</b> if its 
     <i>ProtocolCmDropParty</i> function previously returned NDIS_STATUS_PENDING for the given 
@@ -108,8 +111,8 @@ An MCM driver must call
     <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>, can release the
     resources they allocated to maintain per-party state until the MCM driver's call to 
     <b>NdisMCmDropPartyComplete</b> causes a call to that client's 
-    <mshelp:link keywords="netvista.protocolcldroppartycomplete" tabindex="0"><i>
-    ProtocolClDropPartyComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
+    ProtocolClDropPartyComplete</a> function.
 
 If it passes NDIS_STATUS_SUCCESS for the 
     <i>Status</i>, the MCM driver must consider the 
@@ -125,19 +128,28 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDropPartyComplete macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmDropPartyComplete macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
-title: _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
+title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO"
 author: windows-driver-content
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration indicates the display device's aspect ratio, defined as width by height (width x height).
 old-location: display\displayid_detailed_timing_type_i_aspect_ratio.htm
 old-project: display
 ms.assetid: 2641a446-1890-4b7d-ac28-c72338207f87
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, DIDDT1_AspectRatio_16x9, DIDDT1_AspectRatio_5x4, DmEnums_234cb76b-4b56-4ae4-b2b4-2eaa56cef4a9.xml, DIDDT1_AspectRatio_15x9, d3dkmdt/DIDDT1_AspectRatio_1x1, DIDDT1_AspectRatio_4x3, d3dkmdt/DIDDT1_AspectRatio_4x3, d3dkmdt/DIDDT1_AspectRatio_15x9, _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration [Display Devices], DIDDT1_AspectRatio_1x1, d3dkmdt/DIDDT1_AspectRatio_16x9, display.displayid_detailed_timing_type_i_aspect_ratio, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, DIDDT1_AspectRatio_16x10, d3dkmdt/DIDDT1_AspectRatio_16x10, d3dkmdt/DIDDT1_AspectRatio_5x4
+ms.date: 2/24/2018
+ms.keywords: DIDDT1_AspectRatio_15x9, DIDDT1_AspectRatio_16x10, DIDDT1_AspectRatio_16x9, DIDDT1_AspectRatio_1x1, DIDDT1_AspectRatio_4x3, DIDDT1_AspectRatio_5x4, DmEnums_234cb76b-4b56-4ae4-b2b4-2eaa56cef4a9.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration [Display Devices], d3dkmdt/DIDDT1_AspectRatio_15x9, d3dkmdt/DIDDT1_AspectRatio_16x10, d3dkmdt/DIDDT1_AspectRatio_16x9, d3dkmdt/DIDDT1_AspectRatio_1x1, d3dkmdt/DIDDT1_AspectRatio_4x3, d3dkmdt/DIDDT1_AspectRatio_5x4, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, display.displayid_detailed_timing_type_i_aspect_ratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 product: Windows
 targetos: Windows

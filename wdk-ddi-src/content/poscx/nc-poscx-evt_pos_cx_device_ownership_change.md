@@ -7,8 +7,8 @@ old-location: pos\evt_pos_cx_device_ownership_change.htm
 old-project: pos
 ms.assetid: 9587928C-6C40-4550-820A-B77968E3E16A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.evt_pos_cx_device_ownership_change, EvtPosCxDeviceOwnershipChange callback function, EvtPosCxDeviceOwnershipChange, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, poscx/EvtPosCxDeviceOwnershipChange
+ms.date: 2/23/2018
+ms.keywords: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EvtPosCxDeviceOwnershipChange, EvtPosCxDeviceOwnershipChange callback function, pos.evt_pos_cx_device_ownership_change, poscx/EvtPosCxDeviceOwnershipChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	EvtPosCxDeviceOwnershipChange
 product: Windows
 targetos: Windows
-req.typenames: *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,8 @@ The file object of the new claim owner. This may be NULL if the device was relea
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

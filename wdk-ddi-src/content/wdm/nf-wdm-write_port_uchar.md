@@ -7,13 +7,13 @@ old-location: kernel\write_port_uchar.htm
 old-project: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_PORT_UCHAR, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
+ms.date: 2/24/2018
+ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+api_name:
 -	WRITE_PORT_UCHAR
 product: Windows
 targetos: Windows
@@ -83,13 +83,17 @@ Specifies a byte to be written to the port.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>WRITE_PORT_UCHAR</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
 
 

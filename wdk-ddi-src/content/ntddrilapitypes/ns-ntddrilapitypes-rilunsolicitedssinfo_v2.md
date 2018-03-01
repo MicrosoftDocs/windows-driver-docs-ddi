@@ -7,8 +7,8 @@ old-location: netvista\rilunsolicitedssinfo_v2.htm
 old-project: netvista
 ms.assetid: f4b93f1e-8559-4145-a122-74d62b146afa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], RILUNSOLICITEDSSINFO, netvista.rilunsolicitedssinfo_v2, RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO, ntddrilapitypes/RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v2, ntddrilapitypes/RILUNSOLICITEDSSINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUNSOLICITEDSSINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO
+req.typenames: RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO
 ---
 
 # RILUNSOLICITEDSSINFO_V2 structure
@@ -79,39 +79,29 @@ typedef struct _RILUNSOLICITEDSSINFO_V2 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwID
-
 
 
 ### -field dwNotificationCode
 
 
-
 ### -field raAddress
-
 
 
 ### -field rsaSubAddress
 
 
-
 ### -field dwCUGIndex
-
 
 
 ### -field dwHistorynfoLength
 
 
-
 ### -field wszHistoryInfo
-
 

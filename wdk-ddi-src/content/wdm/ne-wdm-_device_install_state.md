@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._DEVICE_INSTALL_STATE
-title: _DEVICE_INSTALL_STATE
+title: "_DEVICE_INSTALL_STATE"
 author: windows-driver-content
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
 old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_INSTALL_STATE, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/DEVICE_INSTALL_STATE, wdm/PDEVICE_INSTALL_STATE, _DEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, kernel.device_install_state, wdm/InstallStateNeedsReinstall, wdm/InstallStateInstalled, InstallStateFinishInstall, InstallStateFailedInstall, wdm/InstallStateFailedInstall, InstallStateInstalled, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml
+ms.date: 2/24/2018
+ms.keywords: "*PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], InstallStateFailedInstall, InstallStateFinishInstall, InstallStateInstalled, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], _DEVICE_INSTALL_STATE, kernel.device_install_state, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, wdm/InstallStateFinishInstall, wdm/InstallStateInstalled, wdm/InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	DEVICE_INSTALL_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE
+req.typenames: DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ The installation of this device is not yet complete.
 ## -remarks
 
 
+
 The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_INSTALL_STATE</b> enumeration value when a driver requests <b>DevicePropertyInstallState</b>. The operating system uses the value as a hint about the install state of the device.
+
 
 
 
@@ -102,11 +104,15 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
+
+
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_INSTALL_STATE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_INSTALL_STATE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifyresume.htm
 old-project: usbref
 ms.assetid: A89E9E65-937D-455F-A718-A6BC7611BB8F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses], buses.ufxdevicenotifyresume, UfxDeviceNotifyResume
+ms.date: 2/24/2018
+ms.keywords: UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses], buses.ufxdevicenotifyresume, ufxclient/UfxDeviceNotifyResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ufxclient.h
-apiname: 
+api_name:
 -	UfxDeviceNotifyResume
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -76,16 +76,20 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceNotifyResume</b> when it receives a bus resume event. The controller should return to the same state it was in at the time of the bus resume event.
 
 The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a resume event.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -102,4 +106,5 @@ The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href=
 </td>
 </tr>
 </table></span></div>
+
 

@@ -7,8 +7,8 @@ old-location: stream\ksreadfile.htm
 old-project: stream
 ms.assetid: e3bb6ead-8129-4605-8755-3a56d4b3d8f6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsReadFile function [Streaming Media Devices], ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile, ks/KsReadFile, KsReadFile
+ms.date: 2/23/2018
+ms.keywords: KsReadFile, KsReadFile function [Streaming Media Devices], ks/KsReadFile, ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsReadFile
 product: Windows
 targetos: Windows
@@ -123,6 +123,8 @@ Optionally contains a key, or zero if none
 ## -returns
 
 
+
 The <b>KsReadFile</b> function returns STATUS_SUCCESS if successful, STATUS_PENDING if action is pending, or it returns a read error if unsuccessful.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_ALLOCATE_ADDRESS_RANGE
-title: _IRB_REQ_ALLOCATE_ADDRESS_RANGE
+title: "_IRB_REQ_ALLOCATE_ADDRESS_RANGE"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out a request to allocate an address range.
 old-location: ieee\irb_req_allocate_address_range.htm
 old-project: IEEE
 ms.assetid: 76D306DF-D604-4B3C-BFED-A855113A55A9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ALLOCATE_ADDRESS_RANGE, _IRB_REQ_ALLOCATE_ADDRESS_RANGE, 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], IEEE.irb_req_allocate_address_range
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IEEE.irb_req_allocate_address_range, IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], _IRB_REQ_ALLOCATE_ADDRESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_ALLOCATE_ADDRESS_RANGE
 product: Windows
 targetos: Windows
@@ -110,6 +110,7 @@ Specifies the maximum size for each range of addresses that the bus driver alloc
 ### -field fulAccessType
 
 Specifies access type using one or more of the following flags.
+
 <table>
 <tr>
 <th>Access</th>
@@ -155,7 +156,8 @@ Allocated addresses can receive asynchronous I/O requests from any node on the b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Special considerations apply to drivers of virtual devices. Virtual devices do not have node IDs, and so when a driver sends a request to a virtual device, the bus driver has no means of identifying which device is the target. Thus in order for a virtual device to receive requests, its driver must allocate a range of addresses with the ACCESS_FLAGS_TYPE_BROADCAST flag set in <b>fulAccessType</b>. This permits the virtual device to receive all request packets, no matter what node ID is indicated in the request packet. 
 
@@ -163,6 +165,7 @@ Special considerations apply to drivers of virtual devices. Virtual devices do n
 ### -field fulNotificationOptions
 
 If the device driver requests that the bus driver handle each request, and notifies the device driver upon completion, this specifies which asynchronous I/O request types will trigger the bus driver to the notify the device driver upon completion. See the <b>Operation</b> section for more details. The driver may specify one or more of the NOTIFY_FLAGS_AFTER_XXX flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -208,12 +211,14 @@ Notify the device driver after carrying out an asynchronous lock operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Callback
 
 Points to a device driver callback routine. If the device driver specifies that the bus driver notify the device driver for each asynchronous I/O request, <b>u.AllocateAddressRange.Callback</b> points to the device driver's notification routine, which must have the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -223,7 +228,9 @@ Points to a device driver callback routine. If the device driver specifies that 
 <pre>VOID DriverNotificationRoutine(IN PNOTIFICATION_INFO );</pre>
 </td>
 </tr>
-</table></span></div>If the device driver specifies that it receives no notification, and submits this request at raised IRQL through the port driver's physical mapping routine, then <b>u.AllocateAddressRange.Callback</b> points to the device driver's allocation completion routine, which must have the following prototype:
+</table></span></div>
+If the device driver specifies that it receives no notification, and submits this request at raised IRQL through the port driver's physical mapping routine, then <b>u.AllocateAddressRange.Callback</b> points to the device driver's allocation completion routine, which must have the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -233,7 +240,8 @@ Points to a device driver callback routine. If the device driver specifies that 
 <pre>VOID AllocationCompletionRoutine( IN PVOID );</pre>
 </td>
 </tr>
-</table></span></div>Drivers that do not request notification, and submit this request in the normal way at PASSIVE_LEVEL, must set this member to <b>NULL</b>.
+</table></span></div>
+Drivers that do not request notification, and submit this request in the normal way at PASSIVE_LEVEL, must set this member to <b>NULL</b>.
 
 
 ### -field Context

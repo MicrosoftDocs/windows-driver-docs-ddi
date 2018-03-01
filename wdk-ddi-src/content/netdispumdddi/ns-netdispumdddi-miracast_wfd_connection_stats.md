@@ -7,8 +7,8 @@ old-location: display\miracast_wfd_connection_stats.htm
 old-project: display
 ms.assetid: 3d5dd27f-8d0e-46e8-adbd-139db322cf6e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: netdispumdddi/MIRACAST_WFD_CONNECTION_STATS, display.miracast_wfd_connection_stats, MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], display.miracast_wfd_connection_stats, netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Netdispumdddi.h
-apiname: 
+api_name:
 -	MIRACAST_WFD_CONNECTION_STATS
 product: Windows
 targetos: Windows

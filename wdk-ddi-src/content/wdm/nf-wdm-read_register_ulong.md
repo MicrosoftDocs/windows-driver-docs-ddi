@@ -7,13 +7,13 @@ old-location: kernel\read_register_ulong.htm
 old-project: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG, kernel.read_register_ulong, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, kernel.read_register_ulong, wdm/READ_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	READ_REGISTER_ULONG
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ Pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_ULONG</b> returns the ULONG value read from the specified register address.
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>READ_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+
 
 

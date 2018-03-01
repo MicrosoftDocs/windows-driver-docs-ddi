@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_READ_PCI_CONFIG
-title: _DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+title: "_DXGKVGPU_ESCAPE_READ_PCI_CONFIG"
 author: windows-driver-content
 description: A structure used to read the PCI config for an escape.
 old-location: display\dxgkvgpu_escape_read_pci_config.htm
 old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], display.dxgkvgpu_escape_read_pci_config, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+ms.date: 2/24/2018
+ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 product: Windows
 targetos: Windows

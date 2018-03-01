@@ -7,8 +7,8 @@ old-location: debugger\readmsr2.htm
 old-project: debugger
 ms.assetid: 3ffe53d9-ea57-4561-a889-e6369ef0d5d3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces::ReadMsr, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces3::ReadMsr, ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, debugger.readmsr2, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadMsr method, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr method [Windows Debugging], ReadMsr method [Windows Debugging], IDebugDataSpaces interface, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, ReadMsr,IDebugDataSpaces4.ReadMsr, dbgeng/IDebugDataSpaces2::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces::ReadMsr, debugger.readmsr2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces.ReadMsr
 -	IDebugDataSpaces2.ReadMsr
 -	IDebugDataSpaces3.ReadMsr
 -	IDebugDataSpaces4.ReadMsr
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadMsr method
@@ -84,6 +84,7 @@ Receives the value of the MSR.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,17 +101,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
 
 For details on the addresses and values of MSRs, see the processor documentation.
+
 
 

@@ -7,8 +7,8 @@ old-location: debugger\getmodulebyindex.htm
 old-project: debugger
 ms.assetid: a33f8a78-4026-4424-af42-2ad359054556
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetModuleByIndex method [Windows Debugging], IDebugSymbols interface, GetModuleByIndex method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetModuleByIndex, IDebugSymbols2::GetModuleByIndex, GetModuleByIndex, IDebugSymbols_0406a71f-e9eb-4acd-93e8-1637ee2506df.xml, IDebugSymbols interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols3 interface [Windows Debugging], GetModuleByIndex method, debugger.getmodulebyindex, IDebugSymbols2 interface [Windows Debugging], GetModuleByIndex method, GetModuleByIndex method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleByIndex, IDebugSymbols3::GetModuleByIndex, dbgeng/IDebugSymbols3::GetModuleByIndex, IDebugSymbols3, GetModuleByIndex method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetModuleByIndex
+ms.date: 2/23/2018
+ms.keywords: GetModuleByIndex method [Windows Debugging], GetModuleByIndex method [Windows Debugging], IDebugSymbols interface, GetModuleByIndex method [Windows Debugging], IDebugSymbols2 interface, GetModuleByIndex method [Windows Debugging], IDebugSymbols3 interface, GetModuleByIndex,IDebugSymbols3.GetModuleByIndex, IDebugSymbols interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols2 interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols2::GetModuleByIndex, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByIndex method, IDebugSymbols3::GetModuleByIndex, IDebugSymbols::GetModuleByIndex, IDebugSymbols_0406a71f-e9eb-4acd-93e8-1637ee2506df.xml, dbgeng/IDebugSymbols2::GetModuleByIndex, dbgeng/IDebugSymbols3::GetModuleByIndex, dbgeng/IDebugSymbols::GetModuleByIndex, debugger.getmodulebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols.GetModuleByIndex
 -	IDebugSymbols2.GetModuleByIndex
 -	IDebugSymbols3.GetModuleByIndex
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetModuleByIndex method
@@ -83,7 +83,9 @@ Receives the location in the target's memory address space of the module.
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,13 +113,17 @@ The specified module was not loaded, and information about the module was not av
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
+
 
 

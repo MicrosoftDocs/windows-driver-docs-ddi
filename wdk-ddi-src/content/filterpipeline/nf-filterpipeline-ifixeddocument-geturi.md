@@ -7,8 +7,8 @@ old-location: print\ifixeddocument_geturi.htm
 old-project: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IFixedDocument, IFixedDocument::GetUri, GetUri method [Print Devices], filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, IFixedDocument interface [Print Devices], GetUri method, GetUri, filterpipeline/IFixedDocument::GetUri, GetUri method [Print Devices], IFixedDocument interface, print.ifixeddocument_geturi
+ms.date: 2/23/2018
+ms.keywords: GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocument interface, GetUri,IFixedDocument.GetUri, IFixedDocument, IFixedDocument interface [Print Devices], GetUri method, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IFixedDocument.GetUri
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ The URI of the fixed document.
 ## -returns
 
 
+
 <b>GetUri</b> returns an <b>HRESULT</b> value.
+
 
 

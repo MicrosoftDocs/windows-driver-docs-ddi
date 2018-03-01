@@ -7,8 +7,8 @@ old-location: print\ifixedpage_getxpspartiterator.htm
 old-project: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IFixedPage::GetXpsPartIterator, GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices], IFixedPage interface, IFixedPage, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
+ms.date: 2/23/2018
+ms.keywords: GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices], IFixedPage interface, GetXpsPartIterator,IFixedPage.GetXpsPartIterator, IFixedPage, IFixedPage interface [Print Devices], GetXpsPartIterator method, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IFixedPage.GetXpsPartIterator
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ An iterator that you can use to enumerate all of the parts that are associated w
 ## -returns
 
 
+
 <b>GetXpsPartIterator</b> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 Filters should not add or delete parts while using the iterator that the <b>GetXpsPartIterator</b> method retrieves.
+
 
 

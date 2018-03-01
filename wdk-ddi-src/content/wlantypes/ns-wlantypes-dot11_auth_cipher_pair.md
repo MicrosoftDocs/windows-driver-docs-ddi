@@ -7,8 +7,8 @@ old-location: netvista\dot11_auth_cipher_pair.htm
 old-project: netvista
 ms.assetid: 301e9c21-69e7-48d3-b170-de01684f4a12
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PDOT11_AUTH_CIPHER_PAIR, netvista.dot11_auth_cipher_pair, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], wlantypes/PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_CIPHER_PAIR
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair, wlantypes/DOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlantypes.h
-apiname: 
+api_name:
 -	DOT11_AUTH_CIPHER_PAIR
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR
+req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -85,19 +85,20 @@ A cipher algorithm as specified by a
 ## -remarks
 
 
+
 The DOT11_AUTH_CIPHER_PAIR structure defines an authentication and cipher algorithm that can be
     enabled together for basic service set (BSS) network connections.
 
 A miniport driver returns a list of these structures when either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link> is queried.
+    <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a> is queried.
 
 Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in the 
-    <mshelp:link keywords="netvista.dot11_auth_cipher_pair_list" tabindex="0"><b>
-    DOT11_AUTH_CIPHER_PAIR_LIST</b></mshelp:link> structure. However, if the operating system starts Soft AP, it enables
+    <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">
+    DOT11_AUTH_CIPHER_PAIR_LIST</a> structure. However, if the operating system starts Soft AP, it enables
     only the 
     <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
     <b>DOT11_CIPHER_ALGO_CCMP</b> cipher algorithm. To support Soft AP, the miniport driver must support this
@@ -114,23 +115,34 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
+
 ## -see-also
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
+
+
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
+
+
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_CIPHER_PAIR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AUTH_CIPHER_PAIR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

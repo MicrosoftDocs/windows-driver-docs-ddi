@@ -7,8 +7,8 @@ old-location: display\videoportqueryperformancecounter.htm
 old-project: display
 ms.assetid: 44e9fca2-54b1-427c-864d-f170a8a26f5e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, VideoPortQueryPerformanceCounter, video/VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], display.videoportqueryperformancecounter
+ms.date: 2/24/2018
+ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortQueryPerformanceCounter
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - PerformanceFrequency [out, optional]
 
 Specifies an optional pointer to a variable that is to receive the performance counter frequency.
@@ -88,11 +89,14 @@ Specifies an optional pointer to a variable that is to receive the performance c
 ## -returns
 
 
+
 <b>VideoPortQueryPerformanceCounter</b> returns the performance counter value in units of ticks.
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortQueryPerformanceCounter</b> always returns a 64-bit integer representing the number of ticks. Accumulating the count begins when the system is booted. The count is in ticks; the frequency is reported by <i>PerformanceFrequency</i> if this optional parameter is supplied.
@@ -102,5 +106,6 @@ The resolution of the timer used to accumulate the current count can be obtained
 <b>VideoPortQueryPerformanceCounter</b> is intended for time-stamping packets or for computing performance and capacity measurements. It is not intended for measuring elapsed time, for computing stalls or waits, or for iterations.
 
 Use this routine as infrequently as possible. Depending on the platform, <b>VideoPortQueryPerformanceCounter</b> can disable system-wide interrupts for a minimal interval. Consequently, calling this routine frequently or repeatedly, as in an iteration, defeats its purpose of returning very fine-grained, running time-stamp information. Calling this routine too frequently can degrade I/O performance for the calling driver and for the system as a whole. 
+
 
 

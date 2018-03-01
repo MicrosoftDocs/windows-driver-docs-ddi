@@ -7,8 +7,8 @@ old-location: kernel\kequerymaximumprocessorcountex.htm
 old-project: kernel
 ms.assetid: 6ccc0f8c-d7b7-4043-8580-d35345d884cc
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.kequerymaximumprocessorcountex, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, wdm/KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx
+ms.date: 2/24/2018
+ms.keywords: KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex, wdm/KeQueryMaximumProcessorCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeQueryMaximumProcessorCountEx
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeQueryMaximumProcessorCountEx function
@@ -75,11 +75,14 @@ Specifies a group number. If a multiprocessor system contains <i>n</i> groups, t
 ## -returns
 
 
+
 <b>KeQueryMaximumProcessorCountEx</b> returns the maximum number of logical processors in the specified group or in the system, as indicated by the value of the <i>GroupNumber</i> parameter.
 
 
 
+
 ## -remarks
+
 
 
 The value that is returned by <b>KeQueryMaximumProcessorCountEx</b> remains constant during runtime. This value depends on the hardware configuration of the multiprocessor system, but it can never exceed a fixed limit that is set by the Windows operating system. This limit is 32 logical processors for 32-bit versions of Windows and 64 logical processors for 64-bit versions of Windows.
@@ -90,15 +93,20 @@ A related routine, <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQue
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryMaximumProcessorCountEx routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryMaximumProcessorCountEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

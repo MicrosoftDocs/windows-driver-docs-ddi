@@ -7,8 +7,8 @@ old-location: netvista\miniporttcpoffloadreceive.htm
 old-project: netvista
 ms.assetid: 9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.miniporttcpoffloadreceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], MiniportTcpOffloadReceive, W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER, ndischimney/MiniportTcpOffloadReceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
+ms.date: 2/16/2018
+ms.keywords: MiniportTcpOffloadReceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_HANDLER, ndischimney/MiniportTcpOffloadReceive, netvista.miniporttcpoffloadreceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndischimney.h
-apiname: 
+api_name:
 -	MiniportTcpOffloadReceive
 product: Windows
 targetos: Windows
@@ -81,10 +81,10 @@ NDIS_STATUS MiniportTcpOffloadReceive(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param MiniportOffloadContext [in]
@@ -110,14 +110,17 @@ A pointer to a
 ## -returns
 
 
+
 NDIS_STATUS_PENDING is the only return value that is allowed. An offload target always completes
      (returns) posted receive requests asynchronously by calling 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-     NdisTcpOffloadReceiveComplete</b></mshelp:link>.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+     NdisTcpOffloadReceiveComplete</a>.
+
 
 
 
 ## -remarks
+
 
 
 A client application can post receive requests on an offloaded TCP connection. The offload target uses
@@ -152,6 +155,7 @@ Note, however, that the host stack can call the
     <i>MiniportTcpOffloadReceive</i> function are in progress on another connection.
 
 A posted receive request can optionally be in either of two modes:
+
 <ul>
 <li>
 Push mode
@@ -161,7 +165,8 @@ Push mode
 Nonpush mode
 
 </li>
-</ul>Note that an offload target must support both push mode and nonpush mode. .
+</ul>
+Note that an offload target must support both push mode and nonpush mode. .
 
 To determine which mode a buffer is in, an offload target calls the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to get the
@@ -176,6 +181,7 @@ If the receive request is in push mode, the offload target retrieves the value o
     the first byte of receive data into the receive request. The offload target always completes filled
     receive requests immediately. The offload target completes a partially filled receive request that is in
     push mode if either of the following occurs:
+
 <ul>
 <li>
 The push timer expires.
@@ -185,7 +191,8 @@ The push timer expires.
 The offload target receives a TCP segment on the connection that has the PSH bit set.
 
 </li>
-</ul>If the receive request is in nonpush mode, the offload target does not start a push timer. The offload
+</ul>
+If the receive request is in nonpush mode, the offload target does not start a push timer. The offload
     target completes the receive request only when the receive request is filled. The offload target ignores
     the PSH bit in TCP segments that it receives on the connection.
 
@@ -194,22 +201,33 @@ If data is received on an offloaded connection while the push timer is running, 
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisTcpOffloadReceiveComplete</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisTcpOffloadReceiveComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_RECEIVE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_RECEIVE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

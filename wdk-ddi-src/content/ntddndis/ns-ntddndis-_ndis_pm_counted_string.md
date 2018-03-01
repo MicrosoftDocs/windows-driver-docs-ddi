@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_PM_COUNTED_STRING
-title: _NDIS_PM_COUNTED_STRING
+title: "_NDIS_PM_COUNTED_STRING"
 author: windows-driver-content
 description: The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in power management structures.
 old-location: netvista\ndis_pm_counted_string.htm
 old-project: netvista
 ms.assetid: 070ee8e2-80ed-4380-89ac-bfb5db2bcf7e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, ntddndis/NDIS_PM_COUNTED_STRING, miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, _NDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING, netvista.ndis_pm_counted_string, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], PNDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_COUNTED_STRING, miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, netvista.ndis_pm_counted_string, ntddndis/NDIS_PM_COUNTED_STRING, ntddndis/PNDIS_PM_COUNTED_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddndis.h
-apiname: 
+api_name:
 -	NDIS_PM_COUNTED_STRING
 product: Windows
 targetos: Windows
@@ -83,6 +83,7 @@ A WCHAR array that contains a NULL-terminated string that is limited to a maximu
 ## -remarks
 
 
+
 The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> power management
@@ -90,15 +91,20 @@ The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is use
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_COUNTED_STRING structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_COUNTED_STRING structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

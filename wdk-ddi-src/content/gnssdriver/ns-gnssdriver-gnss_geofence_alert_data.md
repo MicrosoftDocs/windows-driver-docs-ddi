@@ -7,8 +7,8 @@ old-location: sensors\gnss_geofence_alert_data.htm
 old-project: sensors
 ms.assetid: 4F7CBB1C-6D23-4015-8403-ABD06B9DC337
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], *PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA, sensors.gnss_geofence_alert_data, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], GNSS_GEOFENCE_ALERT_DATA
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA, sensors.gnss_geofence_alert_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_GEOFENCE_ALERT_DATA
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ The fix used to determine the geofence breach. Instead of the full set of fix da
 ### -field Unused
 
  
+
 
 
 

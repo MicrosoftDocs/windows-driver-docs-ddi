@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_TCoef4Group
-title: _DXVA_TCoef4Group
+title: "_DXVA_TCoef4Group"
 author: windows-driver-content
 description: The DXVA_TCoef4Group structure is sent by the host decoder to the accelerator to specify the IDCT coefficient values.
 old-location: display\dxva_tcoef4group.htm
 old-project: display
 ms.assetid: f7ffe847-58ae-42a9-86fd-50a757134b45
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LPDXVA_TCoef4Group, DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, dxva/DXVA_TCoef4Group, *LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], dxva/LPDXVA_TCoef4Group, display.dxva_tcoef4group
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_TCoef4Group, DXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], LPDXVA_TCoef4Group, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, display.dxva_tcoef4group, dxva/DXVA_TCoef4Group, dxva/LPDXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_TCoef4Group
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_TCoef4Group, DXVA_TCoef4Group
+req.typenames: DXVA_TCoef4Group, *LPDXVA_TCoef4Group
 ---
 
 # _DXVA_TCoef4Group structure
@@ -83,9 +83,11 @@ Specifies the value of the coefficient in the block. <b>TCoefValue</b> must be c
 ## -remarks
 
 
+
 The DXVA_TCoef4Group structure is used only when these two members of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure are set to the following values: <b>bConfig4GroupedCoefs</b> is 1 and <b>bConfigHostInverseScan</b> is zero.
 
 In the DXVA_TCoef4Group structure, groups of four transform coefficients are sent together with associated run-length values. The <i>i</i>th element of each array in DXVA_TCoef4Group contains element 3-<i>i</i> of the actual coefficient or run-length list (so the first coefficient or index goes into element 3, the next in element 2, and so forth). If only N<sub>C</sub> &lt; 4 nonzero coefficients remain that need to be sent for a block, then <b>TCoefIDX</b>[<i>i</i>] must be 63 (hexadecimal 0x3F), and <b>TCoefValue</b>[<i>i</i>] must be equal to <b>TCoefValue</b>[4-N<sub>C</sub>] for <i>i </i>= 0 to 3-N<sub>C</sub>.
+
 
 
 
@@ -93,9 +95,11 @@ In the DXVA_TCoef4Group structure, groups of four transform coefficients are sen
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_TCoef4Group structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_TCoef4Group structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

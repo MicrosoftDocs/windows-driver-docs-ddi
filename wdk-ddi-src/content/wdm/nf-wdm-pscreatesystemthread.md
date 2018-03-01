@@ -7,8 +7,8 @@ old-location: kernel\pscreatesystemthread.htm
 old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, PsCreateSystemThread, kernel.pscreatesystemthread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, wdm/PsCreateSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PsCreateSystemThread
 product: Windows
 targetos: Windows
@@ -112,11 +112,14 @@ Supplies a single argument that is passed to the thread when it begins execution
 ## -returns
 
 
+
 <b>PsCreateSystemThread</b> returns STATUS_SUCCESS if the thread was created.
 
 
 
+
 ## -remarks
+
 
 
 Drivers that create device-dedicated threads call this routine, either when they initialize or when I/O requests begin to come in to such a driver's Dispatch routines. For example, a driver might create such a thread when it receives an asynchronous device control request.
@@ -126,6 +129,7 @@ Drivers that create device-dedicated threads call this routine, either when they
 If the input <i>ProcessHandle</i> is <b>NULL</b>, the created thread is associated with the system process. Such a thread continues running until either the system is shut down or the thread terminates itself by calling <b>PsTerminateSystemThread</b>.
 
 Starting with Windows XP, driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>PsCreateSystemThread</b>. This restricts the use of the handle returned by <b>PsCreateSystemThread</b> to processes running in kernel mode. Otherwise, the thread handle can be accessed by the process in whose context the driver is running. Drivers can set the OBJ_KERNEL_HANDLE attribute as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,7 +139,8 @@ Starting with Windows XP, driver routines that run in a process context other th
 <pre>InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
 </td>
 </tr>
-</table></span></div>Drivers for Windows 2000 and Windows 98/Me must call <b>PsCreateSystemThread</b> only from the system process context.
+</table></span></div>
+Drivers for Windows 2000 and Windows 98/Me must call <b>PsCreateSystemThread</b> only from the system process context.
 
 For more information about the <i>StartContext</i> parameter, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>.
 
@@ -143,23 +148,36 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
-
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 <a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
 
+
+
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
- 
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsCreateSystemThread routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsCreateSystemThread routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

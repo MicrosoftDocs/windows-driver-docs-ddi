@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, CreateInstanceOfMSXMLObject,IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ A pointer to a memory address that receives the address of the interface that is
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::CreateInstanceOfMSXMLObject</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,13 +152,17 @@ A specified class is not registered in the registration database. This value can
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The plug-in should not directly create an MSXML object by calling CoCreateInstance (described in the Windows SDK documentation). Instead, it should call Pscript to do so. The reason is that under certain conditions in which the printer driver might be used, such as with older operating system versions, the operating system does not need to register the required version of MSXML, which currently is version 6. In such situations, calling CoCreateInstance can fail. However, the core driver ensures that wherever the driver is present, the MSXML parser DLL is also present on the machine, making it possible to create an MSXML object when needed.
+
 
 

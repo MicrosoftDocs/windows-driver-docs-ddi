@@ -7,8 +7,8 @@ old-location: ifsk\sesetsecuritydescriptorinfoex.htm
 old-project: ifsk
 ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: seref_d3965072-a36e-478c-9c57-5614920d69c8.xml, SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ntifs/SeSetSecurityDescriptorInfoEx, ifsk.sesetsecuritydescriptorinfoex
+ms.date: 2/16/2018
+ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	SeSetSecurityDescriptorInfoEx
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ Pointer to the object whose security descriptor is to be modified. This is used 
 ### -param SecurityInformation [in]
 
 Pointer to a value specifying which security information is to be set. Can be a combination of one or more of the following. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -126,7 +127,8 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ModificationDescriptor
@@ -142,6 +144,7 @@ Pointer to a pointer to the object's security descriptor. The security descripto
 ### -param AutoInheritFlags [in]
 
 Bitmask that controls automatic inheritance of ACEs. Set to the logical OR of one or more of the following bit flags: 
+
 <table>
 <tr>
 <th>Security Information Flags</th>
@@ -167,18 +170,21 @@ If this flag is set, the SACL is treated as an auto-inherit SACL and is processe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param PoolType [in]
 
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
+
 <ul>
 <li><b>NonPagedPool</b></li>
 <li><b>PagedPool</b></li>
 <li><b>NonPagedPoolCacheAligned</b></li>
 <li><b>PagedPoolCacheAligned</b></li>
-</ul>Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL &gt;= DISPATCH_LEVEL or in an arbitrary thread context. 
+</ul>
+Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL &gt;= DISPATCH_LEVEL or in an arbitrary thread context. 
 
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
@@ -194,6 +200,7 @@ The input security descriptor to be applied to the object. The caller of this ro
 
 
 ## -returns
+
 
 
 <table>
@@ -234,16 +241,20 @@ The object does not have a security descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the <i>AutoInheritFlags</i> parameter is zero, the effect of calling <b>SeSetSecurityDescriptorInfoEx</b> is the same as that of calling <b>SeSetSecurityDescriptorInfo</b>.
 
 If <i>AutoInheritFlags</i> specifies the SEF_DACL_AUTO_INHERIT bit, <b>SeSetSecurityDescriptorInfoEx</b> applies the following rules to the DACL to create the new security descriptor from the current descriptor:
+
 <ul>
 <li>
 If the SE_DACL_PROTECTED flag is not set in the control bits of the either the current security descriptor or the input <i>SecurityDescriptor</i>, <b>SeSetSecurityDescriptorInfoEx</b> constructs the output security descriptor from the inherited ACEs of the current security descriptor and noninherited ACEs of <i>SecurityDescriptor</i>. That is, it is impossible to change an inherited ACE by changing the ACL on an object. This behavior preserves the inherited ACEs as they were inherited from the parent container. 
@@ -259,43 +270,71 @@ Ideally an ACL editor should turn off the INHERITED_ACE bits indicating to its c
 If SE_DACL_PROTECTED is set in the current security descriptor and not in the <i>SecurityDescriptor</i>, the current security descriptor is ignored. The output security descriptor is built as a copy of the <i>SecurityDescriptor</i>. It is the caller's responsibility to ensure that the correct ACEs have the INHERITED_ACE bit turned on. 
 
 </li>
-</ul>If <i>AutoInheritFlags</i> specifies the SEF_SACL_AUTO_INHERIT bit, <b>SeSetSecurityDescriptorInfoEx</b> applies similar rules to the new SACL.
+</ul>
+If <i>AutoInheritFlags</i> specifies the SEF_SACL_AUTO_INHERIT bit, <b>SeSetSecurityDescriptorInfoEx</b> applies similar rules to the new SACL.
 
 For more information about access control and ACE inheritance, see the Security section of the Microsoft Windows SDK documentation.
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-<a href="..\ntifs\nf-ntifs-sequerysecuritydescriptorinfo.md">SeQuerySecurityDescriptorInfo</a>
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfo.md">SeSetSecurityDescriptorInfo</a>
 
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
+
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequerysecuritydescriptorinfo.md">SeQuerySecurityDescriptorInfo</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeSetSecurityDescriptorInfoEx routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeSetSecurityDescriptorInfoEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

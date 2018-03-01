@@ -7,8 +7,8 @@ old-location: kernel\iowmisetsingleitem.htm
 old-project: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], IoWMISetSingleItem, wdm/IoWMISetSingleItem, kernel.iowmisetsingleitem
+ms.date: 2/24/2018
+ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoWMISetSingleItem
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ Pointer to the buffer that contains the new value for the property specified by 
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,11 +180,14 @@ The driver that implements the WMI data block instance is unable to update the p
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoWMISetSingleItem</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property updates the specified property in the data block instance.
@@ -191,19 +196,28 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleItem routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleItem routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

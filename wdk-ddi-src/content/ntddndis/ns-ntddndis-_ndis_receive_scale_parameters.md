@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_SCALE_PARAMETERS
-title: _NDIS_RECEIVE_SCALE_PARAMETERS
+title: "_NDIS_RECEIVE_SCALE_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_RECEIVE_SCALE_PARAMETERS structure specifies the receive side scaling (RSS) parameters for a miniport adapter.
 old-location: netvista\ndis_receive_scale_parameters.htm
 old-project: netvista
 ms.assetid: 0d51042e-06b4-4105-889f-84a368e5735a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_scale_parameters, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, NDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS, netvista.ndis_receive_scale_parameters, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddndis.h
-apiname: 
+api_name:
 -	NDIS_RECEIVE_SCALE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS
+req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS structure
@@ -113,9 +113,13 @@ A <b>USHORT</b> value that indicates what the miniport driver should do with the
      parameters. The driver can use these flags to quickly determine which parameters have changed and update
      the RSS settings accordingly. 
      
-<div class="alert"><b>Note</b>  The flags which refer to unchanged RSS parameter information are for optimization purposes.  If a flag is set, no change has been made to the corresponding parameter. If a flag is clear, the corresponding parameter may or may not have changed and miniport drivers must compare the new value of the parameter with the current value in order to determine a potential change in the parameter.</div><div> </div>In a query request, set this member to zero.
+
+<div class="alert"><b>Note</b>  The flags which refer to unchanged RSS parameter information are for optimization purposes.  If a flag is set, no change has been made to the corresponding parameter. If a flag is clear, the corresponding parameter may or may not have changed and miniport drivers must compare the new value of the parameter with the current value in order to determine a potential change in the parameter.</div>
+<div> </div>
+In a query request, set this member to zero.
 
 In a set request, the flags are defined as follows:
+
 <table>
 <tr>
 <th>Value</th>
@@ -175,7 +179,8 @@ If this flag is set, the miniport driver should ignore all of the other flags an
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BaseCpuNumber
@@ -240,7 +245,7 @@ The offset of an array of processor masks from the beginning of the <b>NDIS_RECE
 
 ### -field NumberOfProcessorMasks
 
-The number of elements in an array of type <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
+The number of elements in an array of type <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
 
 
 ### -field ProcessorMasksEntrySize
@@ -256,11 +261,16 @@ Specifies the default RSS processor.
 ## -remarks
 
 
+
 The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> parameters for the 
-    <mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-    OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link> OID.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+    OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
+
 <div class="alert"><b>Note</b>  The indirection table and secret key are appended after the
-    <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure members.</div><div> </div>For NDIS 6.20 and later versions, the indirection table has the following format:
+    <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure members.</div>
+<div> </div>
+For NDIS 6.20 and later versions, the indirection table has the following format:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -270,7 +280,9 @@ The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://
 <pre>PROCESSOR_NUMBER     IndirectionTable[IndirectionTableSize/sizeof(PROCESSOR_NUMBER)];</pre>
 </td>
 </tr>
-</table></span></div>For drivers earlier than NDIS 6.20, the indirection table has the following format:
+</table></span></div>
+For drivers earlier than NDIS 6.20, the indirection table has the following format:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -280,7 +292,8 @@ The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://
 <pre>CCHAR     IndirectionTable[IndirectionTableSize];</pre>
 </td>
 </tr>
-</table></span></div>NDIS automatically translates the indirection table if there are older and newer drivers in a driver stack.
+</table></span></div>
+NDIS automatically translates the indirection table if there are older and newer drivers in a driver stack.
 
 The miniport driver must examine the indirection table to determine the CPU numbers to associate with
     hardware queues. If the total number of different CPU numbers that appear in the indirection table is
@@ -289,8 +302,8 @@ The miniport driver must examine the indirection table to determine the CPU numb
     queues.
 
 The miniport driver specified the number of receive queues value in response to 
-    <mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-    OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>.
 
 To clear the RSS parameters and disable RSS, NDIS sets the hash function that is specified
     within the 
@@ -302,30 +315,45 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_rss_hash_type_from_hash_info" tabindex="0"><b>
-   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</b></mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_rss_hash_info_from_type_and_func" tabindex="0"><b>
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_rss_hash_func_from_hash_info" tabindex="0"><b>
-   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_SCALE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_SCALE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

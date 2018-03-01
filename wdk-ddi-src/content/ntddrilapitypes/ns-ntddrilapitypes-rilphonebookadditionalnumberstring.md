@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookadditionalnumberstring.htm
 old-project: netvista
 ms.assetid: 1d201c4d-606d-4461-ad3d-df48d3455724
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring
+ms.date: 2/16/2018
+ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKADDITIONALNUMBERSTRING
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING
+req.typenames: RILPHONEBOOKADDITIONALNUMBERSTRING, *LPRILPHONEBOOKADDITIONALNUMBERSTRING
 ---
 
 # RILPHONEBOOKADDITIONALNUMBERSTRING structure
@@ -72,11 +72,8 @@ typedef struct _RILPHONEBOOKADDITIONALNUMBERSTRING {
 ### -field cbSize
 
 
-
 ### -field dwNumId
 
 
-
 ### -field wszText
-
 

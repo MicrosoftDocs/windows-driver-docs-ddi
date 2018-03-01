@@ -7,8 +7,8 @@ old-location: kernel\firstentryslist.htm
 old-project: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: FirstEntrySList, k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, wdm/FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], kernel.firstentryslist
+ms.date: 2/24/2018
+ms.keywords: FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, wdm/FirstEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FirstEntrySList
 product: Windows
 targetos: Windows
@@ -76,26 +76,34 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 ## -returns
 
 
+
 <b>FirstEntrySList</b> returns a pointer to the first <a href="..\wdm\ns-wdm-_slist_entry.md">SLIST_ENTRY</a> structure on the list. If the list is empty, the routine returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> routine is not atomic. For more information about sequenced singly linked lists, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Sequenced Singly Linked Lists</a>. Callers of this routine can run at any level. If called at IRQL &gt;= DISPATCH_LEVEL, the storage for <b>ListHead</b> must be resident.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
-
 <a href="..\wdm\ns-wdm-_slist_entry.md">SLIST_ENTRY</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FirstEntrySList routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FirstEntrySList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

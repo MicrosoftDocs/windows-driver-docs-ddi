@@ -7,8 +7,8 @@ old-location: kernel\iowmisetsingleinstance.htm
 old-project: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoWMISetSingleInstance, kernel.iowmisetsingleinstance, IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml
+ms.date: 2/24/2018
+ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoWMISetSingleInstance
 product: Windows
 targetos: Windows
@@ -100,7 +100,9 @@ Pointer to the buffer that contains the new values for the properties within the
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,11 +163,14 @@ The driver that implements the WMI data block instance is unable to update the i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoWMISetSingleInstance</b> determines which drivers might support the specified WMI class and instance name, and issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property updates its data block instance. Note that a data block might have both read-only and read/write properties. In this case, only the read/write properties will be updated and STATUS_SUCCESS is returned.
@@ -174,19 +179,28 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
 
 <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleInstance routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMISetSingleInstance routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

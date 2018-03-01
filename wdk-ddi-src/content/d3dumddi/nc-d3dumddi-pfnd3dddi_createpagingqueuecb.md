@@ -7,8 +7,8 @@ old-location: display\pfncreatepagingqueuecb.htm
 old-project: display
 ms.assetid: 99E4CFCF-7A0A-43A9-9E23-B7A9F9375690
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb callback function [Display Devices], pfnCreatePagingQueueCb, PFND3DDDI_CREATEPAGINGQUEUECB, PFND3DDDI_CREATEPAGINGQUEUECB, d3dumddi/pfnCreatePagingQueueCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_CREATEPAGINGQUEUECB, d3dumddi/pfnCreatePagingQueueCb, display.pfncreatepagingqueuecb, pfnCreatePagingQueueCb, pfnCreatePagingQueueCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnCreatePagingQueueCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_createpagingqueue.md">D3DDDICB_CREATEPAGINGQUEUE</a> structure that provides the details of the requested operation.
@@ -93,13 +95,17 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_createpagingqueue.md">D
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
+
 
 

@@ -7,8 +7,8 @@ old-location: stream\ksgetbusenumpnpdeviceobject.htm
 old-project: stream
 ms.assetid: 8e81a294-9388-467d-8405-472fbe9fe827
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], KsGetBusEnumPnpDeviceObject, ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject
+ms.date: 2/23/2018
+ms.keywords: KsGetBusEnumPnpDeviceObject, KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsGetBusEnumPnpDeviceObject
 product: Windows
 targetos: Windows
@@ -85,6 +85,8 @@ Pointer to the device object to receive the Plug and Play device object pointer.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful, or STATUS_INVALID_PARAMETER if <i>DeviceObject</i> does not contain a device extension, or if the device extension specified in <i>DeviceObject </i>is not that of an FDO.
+
 
 

@@ -7,8 +7,8 @@ old-location: stream\ks_vbi_frame_info.htm
 old-project: stream
 ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, ksmedia/PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], KS_VBI_FRAME_INFO structure [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml, *PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO, tagKS_VBI_FRAME_INFO
+ms.date: 2/23/2018
+ms.keywords: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KS_VBI_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO
+req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ---
 
 # tagKS_VBI_FRAME_INFO structure
@@ -81,6 +81,7 @@ Specifies the size of this structure.
 ### -field dwFrameFlags
 
 Specifies flags indicating additional information about the frame captured. During capture, the minidriver sets this member to one of the following values that are defined in <i>ksmedia.h</i>:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -156,7 +157,8 @@ Indicates that the <b>VBIInfoHeader</b> member structure contains valid data
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PictureNumber
@@ -187,9 +189,11 @@ Specifies information about the current VBI data source, including start line, e
 ## -remarks
 
 
+
 The KS_VBI_FRAME_INFO structure provides a way to return information about a captured frame, as well as providing tuning information to VBI decoders.
 
 The <b>PictureNumber</b> member count represents the count of the current picture based on the format used to open the stream. This count is calculated in one of two ways, depending on the device:
+
 <ol>
 <li>
 Measure the time since the stream was started and divide by the frame duration. This method is appropriate for devices that do not provide their own clock. For example: <i>PictureNumber = (CurrentStreamTime − StartStreamTime) / FrameDuration</i>
@@ -199,23 +203,31 @@ Measure the time since the stream was started and divide by the frame duration. 
 Add together the count of frames captured and the count of frames dropped. This method is appropriate for devices that provide their own clock. For example: <i>PictureNumber = FramesCaptured + FramesDropped</i>
 
 </li>
-</ol>When calculating the <b>PictureNumber</b> and <b>DropCount</b>, it is important to use the frame duration specified when the stream was opened, which may not necessarily match the rate at which the device is actually producing images. For example, a USB camera may only produce images at 7.5 fps, but a client could open the stream at 8 fps. In this case, all calculations should use the 8 fps number. For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="https://msdn.microsoft.com/0adea8fe-1669-4daf-a858-05e014f00a72">Capturing Video</a>.
+</ol>
+When calculating the <b>PictureNumber</b> and <b>DropCount</b>, it is important to use the frame duration specified when the stream was opened, which may not necessarily match the rate at which the device is actually producing images. For example, a USB camera may only produce images at 7.5 fps, but a client could open the stream at 8 fps. In this case, all calculations should use the 8 fps number. For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="https://msdn.microsoft.com/0adea8fe-1669-4daf-a858-05e014f00a72">Capturing Video</a>.
 
 The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but may be used by other WDM codecs. It must be the same as the <b>VBIInfoHeader</b>.<i>SamplingFrequency</i> member. A minidriver indicates a change in sampling frequency by setting the KS_VBI_FLAG_VBIINFOHEADER_CHANGE bit in the <b>dwFrameFlags</b> member, and filling in all members, including <b>dwSamplingFrequency</b>, in the <b>VBIInfoHeader</b> structure.
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
-
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
 
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
- 
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+
+
+
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBI_FRAME_INFO structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBI_FRAME_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

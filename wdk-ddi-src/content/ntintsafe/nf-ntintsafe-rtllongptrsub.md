@@ -7,8 +7,8 @@ old-location: kernel\rtllongptrsub.htm
 old-project: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtllongptrsub, ntintsafe/RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], RtlLongPtrSub
+ms.date: 2/24/2018
+ms.keywords: RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtllongptrsub, ntintsafe/RtlLongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlLongPtrSub
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

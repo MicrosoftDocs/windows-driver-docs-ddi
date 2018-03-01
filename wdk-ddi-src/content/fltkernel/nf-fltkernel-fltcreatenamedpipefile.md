@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatenamedpipefile.htm
 old-project: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FILE_PIPE_BYTE_STREAM_TYPE, fltkernel/FltCreateNamedPipeFile, FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile, FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_QUEUE_COMPLETION, FILE_PIPE_COMPLETE_OPERATION, FltCreateNamedPipeFile function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Fltmgr.lib
 -	Fltmgr.dll
-apiname: 
+api_name:
 -	FltCreateNamedPipeFile
 product: Windows
 targetos: Windows
@@ -108,6 +108,7 @@ A pointer to a caller-allocated variable that receives the file object pointer i
 ### -param DesiredAccess [in]
 
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects. 
+
 <table>
 <tr>
 <th>DesiredAccess Flags</th>
@@ -213,9 +214,11 @@ The caller can synchronize the completion of an I/O operation by waiting for the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Alternatively, for any file object that does not represent a directory, you can specify one or more of the following generic <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. (The STANDARD_RIGHTS_<i>XXX</i> flags are predefined system values that are used to enforce security on system objects.) You can also combine these generic flags with additional flags from the preceding table. 
+
 <table>
 <tr>
 <th>DesiredAccess to File Values</th>
@@ -241,12 +244,14 @@ STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ObjectAttributes [in]
 
 A pointer to an opaque <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
+
 <table>
 <tr>
 <th>Member</th>
@@ -302,12 +307,13 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateNamedPipeFile</b>, the <b>Information</b> member of the variable contains one of the following values:
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateNamedPipeFile</b>, the <b>Information</b> member of the variable contains one of the following values:
 
 FILE_CREATED
 
@@ -317,6 +323,7 @@ FILE_OPENED
 ### -param ShareAccess [in]
 
 The type of share access to the file that the caller requires as one or a combination of the following flags. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
+
 <table>
 <tr>
 <th><i>ShareAccess</i> flags</th>
@@ -342,12 +349,14 @@ The file can be opened for write access by other threads' calls to <b>FltCreateN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CreateDisposition [in]
 
 A value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described in the following table. 
+
 <table>
 <tr>
 <th><i>CreateDisposition</i> values</th>
@@ -383,12 +392,14 @@ If the file already exists, open it. If it does not, create the file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CreateOptions [in]
 
 The options to be applied when creating or opening the pipe, as a compatible combination of the following flags. 
+
 <table>
 <tr>
 <th><i>CreateOptions</i> flags</th>
@@ -424,12 +435,14 @@ All operations on the pipe are performed synchronously. Waits in the system to s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param NamedPipeType [in]
 
 The mode to read from the pipe.
+
 <table>
 <tr>
 <th>Value</th>
@@ -455,12 +468,14 @@ The data is written to the pipe as a message.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ReadMode [in]
 
 The mode to read from the pipe.
+
 <table>
 <tr>
 <th>Value</th>
@@ -486,12 +501,14 @@ The pipe data is read as messages. To use this mode, <i>NamedPipeType</i> must b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CompletionMode [in]
 
 The completion mode for pipe reads and writes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -517,7 +534,8 @@ The pipe read and write requests are completed immediately.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param MaximumInstances [in]
@@ -558,7 +576,9 @@ The number of bytes to reserve for the output buffer.
 ## -returns
 
 
+
 <b>FltCreateNamedPipeFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -586,11 +606,14 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>FltCreateNamedPipeFile</b> function allows minifilter drivers to create or open pipe instances. This is useful for creating virtual pipes or for creating pipe unions for multiplexing I/O.
@@ -604,21 +627,32 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
 
 <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateNamedPipeFile function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateNamedPipeFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

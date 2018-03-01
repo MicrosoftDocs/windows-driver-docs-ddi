@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bthx_get_version.htm
 old-project: bltooth
 ms.assetid: F4FD760B-551C-4738-A13D-444E08215D59
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.ioctl_bthx_get_version, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], IOCTL_BTHX_GET_VERSION, bthxddi/IOCTL_BTHX_GET_VERSION
+ms.date: 2/15/2018
+ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	BthXDDI.h
-apiname: 
+api_name:
 -	IOCTL_BTHX_GET_VERSION
 product: Windows
 targetos: Windows
-req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
+req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_GET_VERSION IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -94,14 +94,18 @@ The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,6 +116,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -127,7 +132,8 @@ The IOCTL completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Any unsuccessful NT status code prevents the driver from loading.
 
@@ -135,8 +141,10 @@ Any unsuccessful NT status code prevents the driver from loading.
 ## -remarks
 
 
+
 IOCTL_BTHX_GET_VERSION is a synchronous operation.
 
 A transport driver can return one or more versions that it supports in BTHX_VERSION structure.  If no version is set,  Windows unloads the Bluetooth stack.
+
 
 

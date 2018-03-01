@@ -7,8 +7,8 @@ old-location: devtest\etwregister.htm
 old-project: devtest
 ms.assetid: 89a37edb-0f58-45c2-9045-b31eec5a4281
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: EtwRegister
+ms.date: 2/23/2018
+ms.keywords: EtwRegister, EtwRegister function [Driver Development Tools], devtest.etwregister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, wdm/EtwRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows Vista and later versions of Wind
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: EtwRegister
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: PowerIrpDDis
 req.unicode-ansi: 
 req.idl: 
@@ -31,6 +29,17 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	NtosKrnl.exe
+api_name:
+-	EtwRegister
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # EtwRegister function
 
 
-
 ## -description
+
+
 The <b>EtwRegister</b> function registers the event provider and must be called before a provider can start tracing. The <b>EtwRegister</b> function is the kernel mode counterpart to the user-mode <b>EventRegister</b> function. The function can also provide a pointer to an optional callback function that can be used to provide additional event filtering capabilities. 
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS EtwRegister(
@@ -57,6 +67,9 @@ NTSTATUS EtwRegister(
 
 
 ## -parameters
+
+
+
 
 ### -param ProviderId [in]
 
@@ -79,35 +92,75 @@ A pointer to a variable that receives the provider registration handle if the fu
 
 
 ## -returns
+
+
+
 The <b>EtwRegister</b> function returns a status code from the following list:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS  </b></dt>
-</dl>Indicates that event provider was successfully registered with ETW.   
+</dl>
+</td>
+<td width="60%">
+Indicates that event provider was successfully registered with ETW.   
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER  </b></dt>
-</dl>Indicates that the parameter  was not valid. 
+</dl>
+</td>
+<td width="60%">
+Indicates that the parameter  was not valid. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_Xxx </b></dt>
-</dl>Indicates that the request failed for the reason specified by the NTSTATUS value. See Ntstatus.h for detailed information about the actual status return code.
+</dl>
+</td>
+<td width="60%">
+Indicates that the request failed for the reason specified by the NTSTATUS value. See Ntstatus.h for detailed information about the actual status return code.
 
+</td>
+</tr>
+</table>
  
 
 
+
+
 ## -remarks
+
+
+
 Before a kernel-mode driver can trace events, the driver must register as an event provider using the <b>EtwRegister</b> function. When a kernel mode driver calls <b>EtwRegister</b>, the function returns a registration handle. This registration handle can be used to test whether a keyword or level is enabled for a specific provider and to call event tracing and logging functions. After tracing is complete, a driver must call the <b>EtwUnregister</b> function to unregister the provider. For every call to <b>EtwRegister</b> there must be a corresponding call to <b>EtwUnregister</b>. Failure to unregister the event provider can cause errors when the process is unloaded because the callback functions associated with the process are no longer valid. No tracing calls should be made that fall outside of the code bounded by the <b>EtwRegister</b> and <b>EtwUnregister</b> functions. For the best performance, you can call the <b>EtwRegister</b> function in your <b>DriverEntry</b> routine and the <b>EtwUnregister</b> function in your <b>DriverUnload</b> routine.
 
 Callers of <b>EtwRegister</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 
+
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
-</dt>
-</dl>
- 
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwRegister function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwRegister function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

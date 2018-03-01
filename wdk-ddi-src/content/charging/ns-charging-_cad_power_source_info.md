@@ -1,14 +1,14 @@
 ---
 UID: NS:charging._CAD_POWER_SOURCE_INFO
-title: _CAD_POWER_SOURCE_INFO
+title: "_CAD_POWER_SOURCE_INFO"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\cad_power_source_info.htm
 old-project: battery
 ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: CAD_POWER_SOURCE_INFO structure [Battery Devices], battery.cad_power_source_info, *PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, charging/BATTERY_INFORMATION, _CAD_POWER_SOURCE_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], _CAD_POWER_SOURCE_INFO, battery.cad_power_source_info, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Charging.h
-apiname: 
+api_name:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO
+req.typenames: CAD_POWER_SOURCE_INFO, *PCAD_POWER_SOURCE_INFO
 ---
 
 # _CAD_POWER_SOURCE_INFO structure

@@ -7,8 +7,8 @@ old-location: wdf\wdf_pnppower_event_callbacks_init.htm
 old-project: wdf
 ms.assetid: f84e200b-542d-4885-a091-9e311b4ab697
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_pnppower_event_callbacks_init, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function, DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT, kmdf.wdf_pnppower_event_callbacks_init
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function, kmdf.wdf_pnppower_event_callbacks_init, wdf.wdf_pnppower_event_callbacks_init, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
@@ -78,13 +78,23 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_pnppower
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_PNPPOWER_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="..\wdfdevice\ns-wdfdevice-_wdf_pnppower_event_callbacks.md">WDF_PNPPOWER_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_PNPPOWER_EVENT_CALLBACKS_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a>.
+
+<div class="code"></div>
 
 

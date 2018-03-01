@@ -7,8 +7,8 @@ old-location: stream\ksregisterworker.htm
 old-project: stream
 ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksregisterworker, KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker
+ms.date: 2/23/2018
+ms.keywords: KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, stream.ksregisterworker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsRegisterWorker
 product: Windows
 targetos: Windows
@@ -89,6 +89,8 @@ Location to put the opaque context that must be used when scheduling a work item
 ## -returns
 
 
+
 The <b>KsRegisterWorker</b> function returns STATUS_SUCCESS if a worker was initialized, or if unsuccessful the function returns a thread or parameter error.
+
 
 

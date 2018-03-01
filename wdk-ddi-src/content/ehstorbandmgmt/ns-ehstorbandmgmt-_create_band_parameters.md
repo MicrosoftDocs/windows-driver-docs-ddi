@@ -1,14 +1,14 @@
 ---
 UID: NS:ehstorbandmgmt._CREATE_BAND_PARAMETERS
-title: _CREATE_BAND_PARAMETERS
+title: "_CREATE_BAND_PARAMETERS"
 author: windows-driver-content
 description: The parameters to create a band on a storage device for an IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request are specified in a CREATE_BAND_PARAMETERS structure.
 old-location: storage\create_band_parameters.htm
 old-project: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.create_band_parameters, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], CREATE_BAND_PARAMETERS structure [Storage Devices], _CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, *PCREATE_BAND_PARAMETERS
+ms.date: 2/24/2018
+ms.keywords: "*PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], _CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorBandMgmt.h
-apiname: 
+api_name:
 -	CREATE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ The size of this structure in bytes. Set to <b>sizeof</b>(CREATE_BAND_PARAMETERS
 ### -field Flags
 
 Band creation flags. This value is a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -94,7 +95,8 @@ The authentication key for this band is cached, which allows automation of later
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BandLocationInfoOffset
@@ -110,6 +112,7 @@ The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_se
 ### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the authorization key for the new band. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -125,37 +128,48 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the author
 </tr>
 </table></span></div>
 
-To assign a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-##### - AuthKeyOffset.KeySize
+
+#### KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-##### - AuthKeyOffset.Key
+
+#### Key
 
 A variable length byte array that contains the key data.
 
+To assign a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 ## -remarks
+
 
 
 The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure at <b>BandSecurityInfoOffset</b> are not used in a band creation request and must be set to 0.
 
 
 
+
 ## -see-also
-
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
-
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
- 
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CREATE_BAND_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CREATE_BAND_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

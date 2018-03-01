@@ -1,14 +1,14 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatusUpdatedEventData
-title: _PosStatusUpdatedEventData
+title: "_PosStatusUpdatedEventData"
 author: windows-driver-content
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
 old-project: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.posstatusupdatedeventdata, pointofservicedriverinterface/PosStatusUpdatedEventData, _PosStatusUpdatedEventData, PosStatusUpdatedEventData, PosStatusUpdatedEventData structure
+ms.date: 2/23/2018
+ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname: 
+api_name:
 -	PosStatusUpdatedEventData
 product: Windows
 targetos: Windows
@@ -71,7 +71,7 @@ typedef struct _PosStatusUpdatedEventData {
 
 ### -field Header
 
-A <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
 
 
 ### -field Status

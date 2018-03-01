@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_GetLUNStatistics_OUT
-title: _SM_GetLUNStatistics_OUT
+title: "_SM_GetLUNStatistics_OUT"
 author: windows-driver-content
 description: The SM_GetLUNStatistics_OUT structure is used to receive output parameters from the SM_GetLUNStatistics_OUT method.
 old-location: storage\sm_getlunstatistics_out.htm
 old-project: storage
 ms.assetid: 5b7e4eb2-d6e9-49c9-b84f-72dd4198c0ce
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.sm_getlunstatistics_out, hbapiwmi/PSM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml, _SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], hbapiwmi/SM_GetLUNStatistics_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], SM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], _SM_GetLUNStatistics_OUT, hbapiwmi/PSM_GetLUNStatistics_OUT, hbapiwmi/SM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_GetLUNStatistics_OUT
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_ms_smhba_protocolstatistic
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetLUNStatistics_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

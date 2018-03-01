@@ -7,8 +7,8 @@ old-location: audio\iminiportmidi_newstream.htm
 old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: NewStream method [Audio Devices], IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream, NewStream, IMiniportMidi::NewStream, NewStream method [Audio Devices], IMiniportMidi interface, audio.iminiportmidi_newstream
+ms.date: 2/22/2018
+ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportMidi interface, NewStream,IMiniportMidi.NewStream, audio.iminiportmidi_newstream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportMidi.NewStream
 product: Windows
 targetos: Windows
@@ -85,7 +85,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration values.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration values.
 
 
 ### -param Pin [in]
@@ -111,11 +111,14 @@ Output pointer for the service group. This parameter points to a caller-allocate
 ## -returns
 
 
+
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP.
@@ -124,23 +127,36 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidi::NewStream method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidi::NewStream method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

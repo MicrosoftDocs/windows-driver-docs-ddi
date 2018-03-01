@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecodersize.htm
 old-project: display
 ms.assetid: 29A0CB0F-3469-4EF5-8C5B-132321F6C8E8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_calcprivatevideodecodersize, pfnCalcPrivateVideoDecoderSize callback function [Display Devices], pfnCalcPrivateVideoDecoderSize, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, d3d12umddi/pfnCalcPrivateVideoDecoderSize
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, d3d12umddi/pfnCalcPrivateVideoDecoderSize, display.pfnd3d12ddi_calcprivatevideodecodersize, pfnCalcPrivateVideoDecoderSize, pfnCalcPrivateVideoDecoderSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnCalcPrivateVideoDecoderSize
 product: Windows
 targetos: Windows
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
+
+
 
 
 
@@ -95,6 +96,8 @@ The handle of a device.
 ## -remarks
 
 
+
 The runtime allocates memory for storing the driver CPU object that represents the video decoder.  This method is used to calculate the driver object size.
+
 
 

@@ -7,8 +7,8 @@ old-location: storage\ataadaptercontrol.htm
 old-project: storage
 ms.assetid: 50125022-7450-4582-b98d-1d597e4e96d4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ataadaptercontrol, AtaAdapterControl routine [Storage Devices], AtaAdapterControl, IDE_ADAPTER_CONTROL, IDE_ADAPTER_CONTROL, irb/AtaAdapterControl, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml
+ms.date: 2/24/2018
+ms.keywords: AtaAdapterControl, AtaAdapterControl routine [Storage Devices], IDE_ADAPTER_CONTROL, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml, irb/AtaAdapterControl, storage.ataadaptercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	AtaAdapterControl
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ A pointer to the controller extension.
 
       One of five actions that the miniport driver must perform as defined in the following table.
   
+
 <table>
 <tr>
 <th>ControlAction</th>
@@ -158,7 +159,8 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Parameters [in, out]
@@ -169,14 +171,18 @@ Parameters associated with the given action.
 ## -returns
 
 
+
 The miniport driver must return <b>TRUE</b> to acknowledge the completion of the requested action. A return value of <b>FALSE</b> indicates that the miniport driver was unable to complete the action successfully. A return value of <b>FALSE</b> for certain actions might cause the device installation to fail.
+
 
 
 
 ## -remarks
 
 
+
 The port driver guarantees that there is no outstanding I/O on the adapter before it invokes the <i>AtaAdapterControl</i> routine.
+
 
 
 
@@ -184,9 +190,11 @@ The port driver guarantees that there is no outstanding I/O on the adapter befor
 
 <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaAdapterControl routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaAdapterControl routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

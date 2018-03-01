@@ -7,8 +7,8 @@ old-location: ifsk\rtlreservechunk.htm
 old-project: ifsk
 ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlReserveChunk function [Installable File System Drivers], RtlReserveChunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml, ifsk.rtlreservechunk
+ms.date: 2/16/2018
+ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	RtlReserveChunk
 product: Windows
 targetos: Windows

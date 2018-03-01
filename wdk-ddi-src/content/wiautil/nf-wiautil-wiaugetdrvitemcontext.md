@@ -7,8 +7,8 @@ old-location: image\wiaugetdrvitemcontext.htm
 old-project: image
 ms.assetid: 6d4b7a25-436f-4547-8969-66dd45fa46fd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiauGetDrvItemContext function [Imaging Devices], image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiautil/wiauGetDrvItemContext
+ms.date: 2/23/2018
+ms.keywords: image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiautil.h
-apiname: 
+api_name:
 -	wiauGetDrvItemContext
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ Pointer to a memory location that receives a pointer to the driver item context.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 

@@ -7,8 +7,8 @@ old-location: spb\spb_transfer_buffer_format.htm
 old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatList, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMax, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatSimple, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatInvalid, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatMdl
+ms.date: 2/15/2018
+ms.keywords: "*PSPB_TRANSFER_BUFFER_FORMAT, SPB.spb_transfer_buffer_format, SPB_TRANSFER_BUFFER_FORMAT, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatMax, SpbTransferBufferFormatMdl, SpbTransferBufferFormatSimple, SpbTransferBufferFormatSimpleNonPaged, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatSimpleNonPaged"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Spb.h
-apiname: 
+api_name:
 -	SPB_TRANSFER_BUFFER_FORMAT
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure is an <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration value.
+
 
 
 
@@ -114,9 +116,11 @@ The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/wind
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_BUFFER_FORMAT enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_BUFFER_FORMAT enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

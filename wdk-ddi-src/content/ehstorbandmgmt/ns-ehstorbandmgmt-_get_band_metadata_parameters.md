@@ -1,14 +1,14 @@
 ---
 UID: NS:ehstorbandmgmt._GET_BAND_METADATA_PARAMETERS
-title: _GET_BAND_METADATA_PARAMETERS
+title: "_GET_BAND_METADATA_PARAMETERS"
 author: windows-driver-content
 description: The metadata for a configured band is retrieved according to the parameters in a GET_BAND_METADATA_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA request.
 old-location: storage\get_band_metadata_parameters.htm
 old-project: storage
 ms.assetid: CE8160C5-8C64-4BA5-864E-EC634754E062
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], PGET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS, _GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], GET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS
+ms.date: 2/24/2018
+ms.keywords: "*PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], _GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorBandMgmt.h
-apiname: 
+api_name:
 -	GET_BAND_METADATA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS
+req.typenames: GET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS
 ---
 
 # _GET_BAND_METADATA_PARAMETERS structure
@@ -99,6 +99,7 @@ The length of metadata bytes to retrieve.
 ## -remarks
 
 
+
  Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>.
 
 If <b>BandID</b> and <b>BandStart</b> are both set to –1,  then the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> returns metadata for the global band.
@@ -107,15 +108,20 @@ If <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_m
 
 
 
-## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+## -see-also
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>
 
- 
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GET_BAND_METADATA_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GET_BAND_METADATA_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

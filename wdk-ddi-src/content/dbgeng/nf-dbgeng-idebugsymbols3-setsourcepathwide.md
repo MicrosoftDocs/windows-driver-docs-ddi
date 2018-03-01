@@ -7,8 +7,8 @@ old-location: debugger\setsourcepathwide.htm
 old-project: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::SetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, SetSourcePathWide, IDebugSymbols3::SetSourcePathWide
+ms.date: 2/23/2018
+ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, SetSourcePathWide,IDebugSymbols3.SetSourcePathWide, dbgeng/IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols3.SetSourcePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::SetSourcePathWide method
@@ -75,7 +75,9 @@ Specifies the new source path.  This is a string that contains source path eleme
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The source path is used by the engine when searching for source files.
@@ -105,17 +110,24 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::SetSourcePathWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::SetSourcePathWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

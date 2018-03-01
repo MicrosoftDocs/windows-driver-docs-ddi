@@ -7,8 +7,8 @@ old-location: sensors\gnss_device_capability.htm
 old-project: sensors
 ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], sensors.gnss_device_capability, *PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY, sensors.gnss_device_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_DEVICE_CAPABILITY
 product: Windows
 targetos: Windows
@@ -129,12 +129,14 @@ A value of FALSE indicates that the driver does not differentiate different HLOS
 ### -field AgnssFormatSupported
 
 Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) that the driver can handle.
+
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_AGNSSFORMAT_XTRA1      0x01
 #define GNSS_AGNSSFORMAT_XTRA2      0x02
 #define GNSS_AGNSSFORMAT_LTO        0x04
 #define GNSS_AGNSSFORMAT_XTRA3      0x08
 #define GNSS_AGNSSFORMAT_XTRA3_1    0x16
-</code></pre>The values 0x0020-0xFFFF are  reserved for extensibility.
+</code></pre>
+The values 0x0020-0xFFFF are  reserved for extensibility.
 
 This list currently includes a few IHV proprietary formats. The list can be updated when IHVs or OEMs decide to obtain the GNSS assistance information, specifically extended ephemeris, via the location platform.
 
@@ -188,8 +190,10 @@ Reserved for future use.
 Version 1 GNSS drivers must indicate that this capability is not supported.
 
 Version 2 GNSS drivers and later can indicate geofence support by setting the following bitmasks:
+
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_GEOFENCESUPPORT_SUPPORTED     0x01
-#define GNSS_GEOFENCESUPPORT_CIRCLE        0x02</code></pre>GNSS_GEOFENCESUPPORT_SUPPORTED indicates that the GNSS engine supports geofence tracking. Supporting geofence tracking functionality implies that it is done natively, in a power-optimized way, and uses the appropriate hybrid positioning technologies available in the GNSS engine, as applicable.
+#define GNSS_GEOFENCESUPPORT_CIRCLE        0x02</code></pre>
+GNSS_GEOFENCESUPPORT_SUPPORTED indicates that the GNSS engine supports geofence tracking. Supporting geofence tracking functionality implies that it is done natively, in a power-optimized way, and uses the appropriate hybrid positioning technologies available in the GNSS engine, as applicable.
 
 GNSS_GEOFENCESUPPORT_CIRCLE indicates that the GNSS engine supports circular geofences.
 
@@ -255,6 +259,7 @@ Must greater than or equal to MIN_BREADCRUMBS_SUPPORTED.
 
 
 
+
 #### - RequireAgnssInjection
 
 Indicates whether the GNSS driver requires assistance data to be injected for faster TTFF.
@@ -268,6 +273,8 @@ Padding buffer.
 ## -remarks
 
 
+
 This is a list of individual capability support. The capability is represented either by a Boolean or by a well-defined enumeration of the specific attribute.
+
 
 

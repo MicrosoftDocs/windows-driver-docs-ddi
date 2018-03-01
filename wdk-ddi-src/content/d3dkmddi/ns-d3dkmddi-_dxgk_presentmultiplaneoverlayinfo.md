@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYINFO
-title: _DXGK_PRESENTMULTIPLANEOVERLAYINFO
+title: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO"
 author: windows-driver-content
 description: Specifies info on a VidPN input and an overlay plane to display.
 old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
 old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], display.dxgk_presentmultiplaneoverlayinfo, _DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO
+ms.date: 2/24/2018
+ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_PRESENTMULTIPLANEOVERLAYINFO
 product: Windows
 targetos: Windows
@@ -88,9 +88,11 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_PRESENTMULTIPLANEOVERLAYINFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_PRESENTMULTIPLANEOVERLAYINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

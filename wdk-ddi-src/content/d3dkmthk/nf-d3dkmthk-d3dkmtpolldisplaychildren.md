@@ -7,8 +7,8 @@ old-location: display\d3dkmtpolldisplaychildren.htm
 old-project: display
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, display.d3dkmtpolldisplaychildren, d3dkmthk/D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices], OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, display.d3dkmtpolldisplaychildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTPollDisplayChildren
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a> structure that describes the parameters for querying for connectivity status of the adapter's child devices.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">
 ## -returns
 
 
+
 <b>D3DKMTPollDisplayChildren</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,13 +115,16 @@ The graphics adapter was stopped.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -remarks
+
 
 
 The OpenGL installable client driver (ICD) calls <b>D3DKMTPollDisplayChildren</b> to query for connectivity status of all of the adapter's child devices. The ICD sets the <b>NonDestructiveOnly</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a> to indicate whether <b>D3DKMTPollDisplayChildren</b> should be destructive (that is, cause visual artifacts). For typical polling, the ICD should set <b>NonDestructiveOnly</b> to <b>TRUE</b> to prevent the screen from flickering.
@@ -127,13 +133,16 @@ New child devices are enumerated to the Plug and Play (PnP) manager when PnP det
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTPollDisplayChildren function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTPollDisplayChildren function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

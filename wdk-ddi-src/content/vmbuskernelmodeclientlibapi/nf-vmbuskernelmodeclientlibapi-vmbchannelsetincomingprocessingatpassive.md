@@ -7,8 +7,8 @@ old-location: netvista\vmbchannelsetincomingprocessingatpassive.htm
 old-project: netvista
 ms.assetid: D8677CD9-46CB-41AB-8F05-418A31468C07
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsetincomingprocessingatpassive, VmbChannelSetIncomingProcessingAtPassive function [Network Drivers Starting with Windows Vista], VmbChannelSetIncomingProcessingAtPassive, vmbuskernelmodeclientlibapi/VmbChannelSetIncomingProcessingAtPassive
+ms.date: 2/16/2018
+ms.keywords: VmbChannelSetIncomingProcessingAtPassive, VmbChannelSetIncomingProcessingAtPassive function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetincomingprocessingatpassive, vmbuskernelmodeclientlibapi/VmbChannelSetIncomingProcessingAtPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+api_name:
 -	VmbChannelSetIncomingProcessingAtPassive
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at eit
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchcatnex.htm
 old-project: kernel
 ms.assetid: a8919512-0e39-46f0-b421-776341c61fa2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchcatnex, STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCchCatNExA, ntstrsafe/RtlStringCchCatNExW, STRSAFE_NO_TRUNCATION, RtlStringCchCatNExA, STRSAFE_NULL_ON_FAILURE, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, RtlStringCchCatNExW, RtlStringCchCatNEx, safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml
+ms.date: 2/24/2018
+ms.keywords: RtlStringCchCatNEx, RtlStringCchCatNExA, RtlStringCchCatNExW, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcatnex, ntstrsafe/RtlStringCchCatNExA, ntstrsafe/RtlStringCchCatNExW, safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCchCatNExW
 -	RtlStringCchCatNExA
 -	RtlStringCchCatNExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchCatNExA function
@@ -109,6 +109,7 @@ If the caller supplies a non-<b>NULL</b> address pointer, the function loads the
 ### -param dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -164,7 +165,8 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - cchMaxAppend [in]
@@ -175,7 +177,9 @@ The maximum number of characters to append to the string that is contained in th
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -224,14 +228,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>strncat</b>
@@ -241,11 +249,13 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 <b>wcsncat</b>
 
 </li>
-</ul>The size, in characters, of the destination buffer is provided to <b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> to ensure that the functions do not write past the end of the buffer.
+</ul>
+The size, in characters, of the destination buffer is provided to <b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> to ensure that the functions do not write past the end of the buffer.
 
 <b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCchCatNExW</b> to handle Unicode strings and <b>RtlStringCchCatNExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -280,7 +290,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If  <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -290,17 +301,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatNExW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatNExW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

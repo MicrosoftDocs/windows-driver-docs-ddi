@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_IPv6_ADDRESS
-title: _BDA_IPv6_ADDRESS
+title: "_BDA_IPv6_ADDRESS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_ipv6_address.htm
 old-project: stream
 ms.assetid: 50D52380-1FBE-4046-A7DC-8415501D7FA6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: _BDA_IPv6_ADDRESS, stream.bda_ipv6_address, PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS, bdatypes/PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS structure [Streaming Media Devices], bdatypes/BDA_IPv6_ADDRESS, *PBDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS structure [Streaming Media Devices], PBDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv6_ADDRESS, bdatypes/BDA_IPv6_ADDRESS, bdatypes/PBDA_IPv6_ADDRESS, stream.bda_ipv6_address"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_IPv6_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS
+req.typenames: BDA_IPv6_ADDRESS, *PBDA_IPv6_ADDRESS
 ---
 
 # _BDA_IPv6_ADDRESS structure
@@ -68,5 +68,4 @@ typedef struct _BDA_IPv6_ADDRESS {
 
 
 ### -field rgbAddress
-
 

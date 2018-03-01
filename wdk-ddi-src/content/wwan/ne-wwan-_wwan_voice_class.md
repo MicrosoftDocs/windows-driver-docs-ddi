@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_VOICE_CLASS
-title: _WWAN_VOICE_CLASS
+title: "_WWAN_VOICE_CLASS"
 author: windows-driver-content
 description: The WWAN_VOICE_CLASS enumeration lists the different types of voice classes that are supported by the MB device.
 old-location: netvista\wwan_voice_class.htm
 old-project: netvista
 ms.assetid: 288a7b44-b842-41f8-8ece-d14a709b0717
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanVoiceClassMax, WwanVoiceClassUnknown, WWAN_VOICE_CLASS, WwanVoiceClassSimultaneousVoiceData, _WWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_VOICE_CLASS, wwan/PWWAN_VOICE_CLASS, wwan/WwanVoiceClassUnknown, WwanVoiceClassNoVoice, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, netvista.wwan_voice_class, wwan/WwanVoiceClassSimultaneousVoiceData, PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_VOICE_CLASS, WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassNoVoice, wwan/WwanVoiceClassMax
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, WwanVoiceClassMax, WwanVoiceClassNoVoice, WwanVoiceClassSeparateVoiceData, WwanVoiceClassSimultaneousVoiceData, WwanVoiceClassUnknown, _WWAN_VOICE_CLASS, netvista.wwan_voice_class, wwan/PWWAN_VOICE_CLASS, wwan/WWAN_VOICE_CLASS, wwan/WwanVoiceClassMax, wwan/WwanVoiceClassNoVoice, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_VOICE_CLASS
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_VOICE_CLASS, WWAN_VOICE_CLASS
+req.typenames: WWAN_VOICE_CLASS, *PWWAN_VOICE_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,11 @@ The total number of supported cellular voice classes.
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VOICE_CLASS enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VOICE_CLASS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

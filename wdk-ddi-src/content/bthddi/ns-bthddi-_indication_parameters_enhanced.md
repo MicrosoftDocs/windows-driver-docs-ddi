@@ -1,21 +1,21 @@
 ---
 UID: NS:bthddi._INDICATION_PARAMETERS_ENHANCED
-title: _INDICATION_PARAMETERS_ENHANCED
+title: "_INDICATION_PARAMETERS_ENHANCED"
 author: windows-driver-content
 description: The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's enhanced L2CAP Callback Function.
 old-location: bltooth\indication_parameters_enhanced.htm
 old-project: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED
+ms.date: 2/15/2018
+ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bthddi.h
-apiname: 
+api_name:
 -	INDICATION_PARAMETERS_ENHANCED
 product: Windows
 targetos: Windows
-req.typenames: INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED
+req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED"
 ---
 
 # _INDICATION_PARAMETERS_ENHANCED structure
@@ -104,8 +104,24 @@ typedef struct _INDICATION_PARAMETERS_ENHANCED {
 
 
 
+### -field ConnectionHandle
+
+The L2CAP connection handle to the remote device. This handle is only valid for notifications that
+     arrive over an established L2CAP connection.
+
+
+### -field BtAddress
+
+The Bluetooth address of the remote device.
+
+
 ### -field Parameters
 
+
+
+#### Reserved
+
+Reserved member. Do not use.
 
 
 ### -field Parameters.Connect
@@ -119,7 +135,8 @@ The structure that contains parameters for the
 The structure that contains the parameters for a connection request.
 
 
-### -field Parameters.Connect.Request.PSM
+
+###### Connect.Request.PSM
 
 The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
         <i>IndicationRemoteConnect</i> INDICATION_CODE value is specified in the enhanced callback function's 
@@ -159,6 +176,7 @@ A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameters that
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -216,7 +234,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.ConfigResponse
@@ -269,6 +288,7 @@ A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameter setti
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -326,7 +346,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.FreeExtraOptions
@@ -381,20 +402,4 @@ The size, in bytes, of the packet that the callback function sent over the L2CAP
 ### -field Parameters.RecvPacket.TotalQueueLength
 
 The number of packets to be processed over the L2CAP connection.
-
-
-### -field Parameters.Reserved
-
-Reserved member. Do not use.
-
-
-### -field ConnectionHandle
-
-The L2CAP connection handle to the remote device. This handle is only valid for notifications that
-     arrive over an established L2CAP connection.
-
-
-### -field BtAddress
-
-The Bluetooth address of the remote device.
 

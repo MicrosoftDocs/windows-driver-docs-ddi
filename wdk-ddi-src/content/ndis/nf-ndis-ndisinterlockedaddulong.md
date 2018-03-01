@@ -7,8 +7,8 @@ old-location: netvista\ndisinterlockedaddulong.htm
 old-project: netvista
 ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, ndis/NdisInterlockedAddUlong, NdisInterlockedAddUlong, netvista.ndisinterlockedaddulong
+ms.date: 2/16/2018
+ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisInterlockedAddUlong
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInterlockedAddUlong macro
@@ -72,41 +72,25 @@ VOID NdisInterlockedAddUlong(
 
 
 
-### -param _Addend
-
-TBD
-
-
-### -param _Increment
-
-TBD
-
-
-### -param _SpinLock
-
-TBD
-
-
-
-
-#### - Increment [in]
-
-The value to be added to that at 
-     <i>Addend</i> .
-
-
-#### - Addend [in]
+### -param _Addend [in]
 
 A pointer to the variable for which the value is to be adjusted by the given 
      <i>Increment</i> .
 
 
-#### - SpinLock [in]
+### -param _Increment [in]
+
+The value to be added to that at 
+     <i>Addend</i> .
+
+
+### -param _SpinLock [in]
 
 A pointer to a caller-initialized spin lock.
 
 
 ## -remarks
+
 
 
 The caller of 
@@ -129,21 +113,32 @@ The
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisretrieveulong.md">NdisRetrieveUlong</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedAddUlong macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedAddUlong macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

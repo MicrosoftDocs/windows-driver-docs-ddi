@@ -7,8 +7,8 @@ old-location: wdf\wdfpostdeviceinstall.htm
 old-project: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, wdf.wdfpostdeviceinstall, WdfPostDeviceInstall function, wdfinstaller/WdfPostDeviceInstall, kmdf.wdfpostdeviceinstall, WdfPostDeviceInstall, PFN_WDFPOSTDEVICEINSTALL
+ms.date: 2/20/2018
+ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, WdfPostDeviceInstall, WdfPostDeviceInstall function, kmdf.wdfpostdeviceinstall, wdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	N/A
 -	N/A.dll
-apiname: 
+api_name:
 -	WdfPostDeviceInstall
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 ## -returns
 
 
+
 <b>WdfPostDeviceInstall</b> returns ERROR_SUCCESS if the operation succeeds. Otherwise, the function returns one of the additional ERROR_<i>XXX</i> values that are defined in <i>Winerror.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPostDeviceInstall</b> after the installer calls <b>CreateService</b>.
@@ -99,14 +102,23 @@ To obtain the address of the co-installer's <b>WdfPostDeviceInstall</b> function
 For more information about the <b>WdfPostDeviceInstall</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
 
+#### Examples
+
+For a code example that uses the <b>WdfPostDeviceInstall</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPostDeviceInstall function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPostDeviceInstall function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

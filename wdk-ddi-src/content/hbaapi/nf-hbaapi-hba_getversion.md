@@ -7,8 +7,8 @@ old-location: storage\hba_getversion.htm
 old-project: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBA_GetVersion, storage.hba_getversion, hbaapi/HBA_GetVersion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml
+ms.date: 2/24/2018
+ms.keywords: HBA_GetVersion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, hbaapi/HBA_GetVersion, storage.hba_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_GetVersion
 product: Windows
 targetos: Windows
@@ -66,10 +66,13 @@ HBA_UINT32 HBA_API HBA_GetVersion(void);
 
 
 
+
 ## -returns
 
 
+
 The <b>HBA_GetVersion</b> routine returns a value that indicates the version of the specification with which the library is compliant. A value of 1 indicates version 1 of the specification. A value of 2 indicates version 2 of the specification. All other values are reserved until the future versions of the specification are published.
+
 
 
 
@@ -77,9 +80,11 @@ The <b>HBA_GetVersion</b> routine returns a value that indicates the version of 
 
 <a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetVersion routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetVersion routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

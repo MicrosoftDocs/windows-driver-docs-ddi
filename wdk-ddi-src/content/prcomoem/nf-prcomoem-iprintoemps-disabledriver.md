@@ -7,8 +7,8 @@ old-location: print\iprintoemps_disabledriver.htm
 old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DisableDriver method [Print Devices], IPrintOemPS interface, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, IPrintOemPS interface [Print Devices], DisableDriver method, DisableDriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, IPrintOemPS, DisableDriver method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemPS interface, DisableDriver,IPrintOemPS.DisableDriver, IPrintOemPS, IPrintOemPS interface [Print Devices], DisableDriver method, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemPS.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -67,10 +67,13 @@ STDMETHOD DisableDriver();
 
 
 
+
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,11 +112,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556196">DrvDisableDriver</a> function that is exported by Pscript5's printer graphics DLL.
@@ -121,5 +127,6 @@ The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-i
 <code>IPrintOemPS::DisableDriver</code> and <b>IPrintOemPS::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553212">IPrintOemPS::EnableDriver</a>. 
 
 This is the last <b>IPrintOemPS</b> interface method that is called before the rendering plug-in is unloaded.
+
 
 

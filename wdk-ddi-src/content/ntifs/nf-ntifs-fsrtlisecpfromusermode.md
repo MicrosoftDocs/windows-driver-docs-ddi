@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisecpfromusermode.htm
 old-project: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlIsEcpFromUserMode, ifsk.fsrtlisecpfromusermode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], FsRtlIsEcpFromUserMode, fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml
+ms.date: 2/16/2018
+ms.keywords: FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlIsEcpFromUserMode
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ Pointer to the ECP context structure to test.
 ## -returns
 
 
+
 <b>FsRtlIsEcpFromUserMode</b> returns <b>TRUE</b> if the ECP context structure originated in user mode and <b>FALSE</b> if the ECP context structure originated in kernel mode. 
+
 
 

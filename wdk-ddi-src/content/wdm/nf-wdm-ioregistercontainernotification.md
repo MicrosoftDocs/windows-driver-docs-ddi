@@ -7,8 +7,8 @@ old-location: kernel\ioregistercontainernotification.htm
 old-project: kernel
 ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, wdm/IoRegisterContainerNotification, IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], kernel.ioregistercontainernotification
+ms.date: 2/24/2018
+ms.keywords: IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, kernel.ioregistercontainernotification, wdm/IoRegisterContainerNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoRegisterContainerNotification
 product: Windows
 targetos: Windows
@@ -75,12 +75,14 @@ NTSTATUS IoRegisterContainerNotification(
 ### -param NotificationClass [in]
 
 Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following <a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a> enumeration value:
+
 <ul>
 <li>
 <b>IoSessionStateNotification</b>
 
 </li>
-</ul>For more information, see the following Remarks section. 
+</ul>
+For more information, see the following Remarks section. 
 
 
 ### -param CallbackFunction [in]
@@ -106,7 +108,9 @@ A pointer to a location into which this routine writes the address of a containe
 ## -returns
 
 
+
 <b>IoRegisterContainerNotification</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,16 +171,20 @@ The operating system has insufficient resources to create the requested registra
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This routine can potentially support notifications of events in a variety of event classes. In Windows 7, this routine supports only <b>IoSessionStateNotification</b> notifications, which notify a kernel-mode driver of changes in the status of user sessions that the driver is interested in. For user-mode applications, the <a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a> function fills a similar role.
 
 The function pointer type for the <i>CallbackFunction</i> parameter is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -188,25 +196,37 @@ The function pointer type for the <i>CallbackFunction</i> parameter is defined a
     );</pre>
 </td>
 </tr>
-</table></span></div>The caller should cast the callback function pointer to this type to match the <i>CallbackFunction</i> parameter type. <b>IoRegisterContainerNotification</b> determines the actual type of the callback function pointer from the <i>NotificationClass</i> parameter. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>CallbackFunction</i> points to an <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
+</table></span></div>
+The caller should cast the callback function pointer to this type to match the <i>CallbackFunction</i> parameter type. <b>IoRegisterContainerNotification</b> determines the actual type of the callback function pointer from the <i>NotificationClass</i> parameter. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>CallbackFunction</i> points to an <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
+
 
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
+<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
-<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
+
 
 <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
-<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+
 
 <a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterContainerNotification routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterContainerNotification routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

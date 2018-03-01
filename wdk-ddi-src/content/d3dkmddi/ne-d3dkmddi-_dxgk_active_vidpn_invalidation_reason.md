@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
-title: _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
+title: "_DXGK_ACTIVE_VIDPN_INVALIDATION_REASON"
 author: windows-driver-content
 description: The DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration is used to indicate the reason why an active VidPN is invalidated and a new VidPN is requested.
 old-location: display\dxgk_active_vidpn_invalidation_reason.htm
 old-project: display
 ms.assetid: e1f33307-1bb0-4cdd-aa47-954f6e551582
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_AVIR_USERMODE, DmEnums_9a263431-3cae-4e33-a2f0-310ec88c1343.xml, DXGK_AVIR_HOTKEY, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration [Display Devices], _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, display.dxgk_active_vidpn_invalidation_reason, DXGK_AVIR_UNINITIALIZED, d3dkmddi/DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_AVIR_USERMODE, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_AVIR_HOTKEY, d3dkmddi/DXGK_AVIR_UNINITIALIZED
+ms.date: 2/24/2018
+ms.keywords: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration [Display Devices], DXGK_AVIR_HOTKEY, DXGK_AVIR_UNINITIALIZED, DXGK_AVIR_USERMODE, DmEnums_9a263431-3cae-4e33-a2f0-310ec88c1343.xml, _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_AVIR_HOTKEY, d3dkmddi/DXGK_AVIR_UNINITIALIZED, d3dkmddi/DXGK_AVIR_USERMODE, display.dxgk_active_vidpn_invalidation_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 product: Windows
 targetos: Windows
@@ -88,9 +88,11 @@ Indicates that a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateac
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

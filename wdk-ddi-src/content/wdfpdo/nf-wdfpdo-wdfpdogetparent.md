@@ -7,8 +7,8 @@ old-location: wdf\wdfpdogetparent.htm
 old-project: wdf
 ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdogetparent, PFN_WDFPDOGETPARENT, wdfpdo/WdfPdoGetParent, WdfPdoGetParent, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, wdf.wdfpdogetparent, WdfPdoGetParent method
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent, WdfPdoGetParent method, kmdf.wdfpdogetparent, wdf.wdfpdogetparent, wdfpdo/WdfPdoGetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfPdoGetParent
 product: Windows
 targetos: Windows
@@ -79,8 +79,10 @@ A handle to a framework device object that represents the device's physical devi
 ## -returns
 
 
+
 The method returns a handle to the framework device object that represents the specified device's parent, or <b>NULL</b> if the <i>Device</i> value does not represent a PDO. 
 
 A system bug check occurs if the driver supplies an invalid object handle.
+
 
 

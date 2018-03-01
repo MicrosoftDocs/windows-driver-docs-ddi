@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbacks_createprocess.htm
 old-project: debugger
 ms.assetid: a826782a-67ca-4b90-b7b5-caddeae6d2dc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacks::CreateProcess, IDebugEventCallbacks interface [Windows Debugging], CreateProcess method, IDebugEventCallbacks, CreateProcess method [Windows Debugging], CreateProcess, CreateProcess method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_createprocess, IDebugEventCallbacks::CreateProcess, ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging], IDebugEventCallbacks interface, CreateProcess,IDebugEventCallbacks.CreateProcess, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateProcess method, IDebugEventCallbacks::CreateProcess, dbgeng/IDebugEventCallbacks::CreateProcess, debugger.idebugeventcallbacks_createprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugEventCallbacks.CreateProcess
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::CreateProcess method
@@ -135,15 +135,19 @@ Specifies the starting address of the thread in the process's virtual address sp
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 
 
 ## -remarks
 
 
+
 This method is only called by the engine if the DEBUG_EVENT_CREATE_PROCESS flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

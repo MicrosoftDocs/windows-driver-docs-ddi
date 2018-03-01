@@ -7,8 +7,8 @@ old-location: wdf\wdf_task_queue_config_init.htm
 old-project: wdf
 ms.assetid: 51c43509-074c-4118-afe5-2e568d733751
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT, wdf.wdf_task_queue_config_init, WDF_TASK_QUEUE_CONFIG_INIT method
+ms.date: 2/20/2018
+ms.keywords: WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	WDF_TASK_QUEUE_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -74,18 +74,17 @@ FORCEINLINE VOID WDF_TASK_QUEUE_CONFIG_INIT(
 ### -param Config [out]
 
 
-
 ### -param TaskQueueId [in]
-
 
 
 ### -param DispatchType [in]
 
 
-
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

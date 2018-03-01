@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntopology_interface_pfncreatenewpathinfo.htm
 old-project: display
 ms.assetid: 2d9a4e10-514d-4ea9-9d60-0bbb7cdca29d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpntopology_interface_pfncreatenewpathinfo, pfnCreateNewPathInfo callback function [Display Devices], pfnCreateNewPathInfo, DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO, DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO, d3dkmddi/pfnCreateNewPathInfo, VidPnFunctions_50591912-0f93-4049-a230-1fc5d96b2132.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO, VidPnFunctions_50591912-0f93-4049-a230-1fc5d96b2132.xml, d3dkmddi/pfnCreateNewPathInfo, display.dxgk_vidpntopology_interface_pfncreatenewpathinfo, pfnCreateNewPathInfo, pfnCreateNewPathInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnCreateNewPathInfo
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnCreateNewPathInfo(
 ## -returns
 
 
+
 The <b>pfnCreateNewPathInfo</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,14 +114,18 @@ The handle supplied in <i>hVidPnTopology </i>was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After you call <b>pfnCreateNewPathInfo</b> to obtain a D3DKMDT_VIDPN_PRESENT_PATH structure, you must do one, but not both, of the following:
+
 <ul>
 <li>
 Populate the structure and pass it to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_addpath.md">pfnAddPath</a>.
@@ -129,7 +135,9 @@ Populate the structure and pass it to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_v
 Release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo.md">pfnReleasePathInfo</a>.
 
 </li>
-</ul>The D3DKMDT_HVIDPNTOPOLOGY data type is defined in <i>D3dkmdt.h</i>.
+</ul>
+The D3DKMDT_HVIDPNTOPOLOGY data type is defined in <i>D3dkmdt.h</i>.
+
 
 
 
@@ -137,13 +145,19 @@ Release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnt
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_addpath.md">pfnAddPath</a>
 
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo.md">pfnReleasePathInfo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

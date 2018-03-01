@@ -1,14 +1,14 @@
 ---
 UID: NS:keyworddetectoroemadapter.__MIDL_IKeywordDetectorOemAdapter_0003
-title: __MIDL_IKeywordDetectorOemAdapter_0003
+title: "__MIDL_IKeywordDetectorOemAdapter_0003"
 author: windows-driver-content
 description: The KEYWORDSELECTOR struct is a triplet of IDs that uniquely select a particular keyword, language, and user combination.
 old-location: audio\keywordselector.htm
 old-project: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR, KEYWORDSELECTOR, __MIDL_IKeywordDetectorOemAdapter_0003, KEYWORDSELECTOR structure [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	KeywordDetectorOemAdapter.h
-apiname: 
+api_name:
 -	KEYWORDSELECTOR
 product: Windows
 targetos: Windows

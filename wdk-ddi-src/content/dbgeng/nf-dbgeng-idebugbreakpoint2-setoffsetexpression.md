@@ -7,8 +7,8 @@ old-location: debugger\setoffsetexpression.htm
 old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, SetOffsetExpression, debugger.setoffsetexpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method
+ms.date: 2/23/2018
+ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression,IDebugBreakpoint2.SetOffsetExpression, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.SetOffsetExpression
 -	IDebugBreakpoint2.SetOffsetExpression
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetOffsetExpression method
@@ -76,6 +76,7 @@ The expression string that evaluates to the location on the target that triggers
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,15 +93,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

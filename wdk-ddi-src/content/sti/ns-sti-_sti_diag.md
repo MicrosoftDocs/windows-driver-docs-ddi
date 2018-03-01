@@ -1,14 +1,14 @@
 ---
 UID: NS:sti._STI_DIAG
-title: _STI_DIAG
+title: "_STI_DIAG"
 author: windows-driver-content
 description: The STI_DIAG structure is used as a parameter to the IStiDevice::Diagnostic and IStiUSD::Diagnostic methods.
 old-location: image\sti_diag.htm
 old-project: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.sti_diag, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG structure [Imaging Devices], stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml, _STI_DIAG, *LPSTI_DIAG, STI_DIAG, LPSTI_DIAG, DIAG, sti/LPSTI_DIAG, sti/STI_DIAG
+ms.date: 2/23/2018
+ms.keywords: "*LPSTI_DIAG, DIAG, LPSTI_DIAG, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG, STI_DIAG structure [Imaging Devices], _STI_DIAG, image.sti_diag, sti/LPSTI_DIAG, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	sti.h
-apiname: 
+api_name:
 -	STI_DIAG
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorrfstateparammask.htm
 old-project: netvista
 ms.assetid: 58dae7ff-5e88-4ccd-85d9-8b0022e85d30
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_GERFS_STATE, ntddrilapitypes/RIL_PARAM_GERFS_ALL, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask
+ms.date: 2/16/2018
+ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_GERFS_ALL, ntddrilapitypes/RIL_PARAM_GERFS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILEXECUTORRFSTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILEXECUTORRFSTATEPARAMMASK {
 ### -field RIL_PARAM_GERFS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_GERFS_STATE
 
 
-
 ### -field RIL_PARAM_GERFS_ALL
-
 

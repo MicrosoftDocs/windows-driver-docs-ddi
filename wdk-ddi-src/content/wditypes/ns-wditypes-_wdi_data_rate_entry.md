@@ -1,14 +1,14 @@
 ---
 UID: NS:wditypes._WDI_DATA_RATE_ENTRY
-title: _WDI_DATA_RATE_ENTRY
+title: "_WDI_DATA_RATE_ENTRY"
 author: windows-driver-content
 description: The WDI_DATA_RATE_ENTRY structure defines a data rate entry.
 old-location: netvista\wdi_data_rate_entry.htm
 old-project: netvista
 ms.assetid: 16A4B49B-9912-40BE-80E8-68416B966B71
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wdi_data_rate_entry, wditypes/PWDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY, wditypes/WDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], netvista.wifi_data_rate_entry, _WDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], WDI_DATA_RATE_ENTRY
+ms.date: 2/16/2018
+ms.keywords: "*PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], WDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], _WDI_DATA_RATE_ENTRY, netvista.wdi_data_rate_entry, netvista.wifi_data_rate_entry, wditypes/PWDI_DATA_RATE_ENTRY, wditypes/WDI_DATA_RATE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_DATA_RATE_ENTRY
 product: Windows
 targetos: Windows

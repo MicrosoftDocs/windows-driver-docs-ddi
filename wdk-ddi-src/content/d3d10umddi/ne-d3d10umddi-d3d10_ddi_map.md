@@ -7,8 +7,8 @@ old-location: display\d3d10_ddi_map.htm
 old-project: display
 ms.assetid: f544ae60-b9c4-497c-8cb5-a2f9500a0cde
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_MAP_WRITE_NOOVERWRITE, D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP_READ, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP_READWRITE, d3d10umddi/D3D10_DDI_MAP_READWRITE, display.d3d10_ddi_map
+ms.date: 2/24/2018
+ms.keywords: D3D10_DDI_MAP, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP_READ, D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_WRITE_NOOVERWRITE, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP_READWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, display.d3d10_ddi_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	D3D10_DDI_MAP
 product: Windows
 targetos: Windows
@@ -100,9 +100,11 @@ Write access is requested for the CPU to the subresource. However, the requestin
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_MAP enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_MAP enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

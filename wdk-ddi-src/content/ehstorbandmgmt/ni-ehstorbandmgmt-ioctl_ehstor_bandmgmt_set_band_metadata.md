@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_bandmgmt_set_band_metadata.htm
 old-project: storage
 ms.assetid: 5FBEAB29-C256-47EF-B673-6584679B8908
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_set_band_metadata, IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
+ms.date: 2/24/2018
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_set_band_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorBandMgmt.h
-apiname: 
+api_name:
 -	IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,20 +87,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values may be returned in the <b>Status</b> field: 
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -130,13 +135,16 @@ One of the following values may be returned in the <b>Status</b> field:
 <td>STATUS_IO_DEVICE_ERROR</td>
 <td>Communication failed. The storage device might be incompatible with security protocols. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Metadata can also be erased by using this IOCTL. To erase metadata for a band, set the metadata portion of input buffer to all zeros or some other erase pattern. To ensure removal of sensitive information in metadata blobs, this erase operation should be performed prior to deleting a band from the silo driver's band table.
+
 
 
 
@@ -144,9 +152,11 @@ Metadata can also be erased by using this IOCTL. To erase metadata for a band, s
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_metadata_parameters.md">SET_BAND_METADATA_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

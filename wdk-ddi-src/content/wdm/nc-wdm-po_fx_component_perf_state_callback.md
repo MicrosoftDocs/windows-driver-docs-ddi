@@ -7,8 +7,8 @@ old-location: kernel\componentperfstatecallback.htm
 old-project: kernel
 ms.assetid: A54376E6-FBA2-4A27-83C7-8E3B6F2B2A05
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.componentperfstatecallback, ComponentPerfStateCallback routine [Kernel-Mode Driver Architecture], ComponentPerfStateCallback, PO_FX_COMPONENT_PERF_STATE_CALLBACK, PO_FX_COMPONENT_PERF_STATE_CALLBACK, wdm/ComponentPerfStateCallback
+ms.date: 2/24/2018
+ms.keywords: ComponentPerfStateCallback, ComponentPerfStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_PERF_STATE_CALLBACK, kernel.componentperfstatecallback, wdm/ComponentPerfStateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	ComponentPerfStateCallback
 product: Windows
 targetos: Windows
@@ -76,7 +76,7 @@ VOID CALLBACK ComponentPerfStateCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ### -param Component [in]
@@ -97,11 +97,14 @@ Pointer to the optional driver or device context that was specified by the <i>Co
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 When a device driver requests a performance state change by calling the  <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a> or <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a> routine, PoFx calls the <i>ComponentPerfStateCallback</i>  routine to notify the driver when the request is complete. 
@@ -113,17 +116,24 @@ If <i>Succeeded</i> is TRUE, the driver should perform whatever work is necessar
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
+
+
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
+
+
 
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ComponentPerfStateCallback routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ComponentPerfStateCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

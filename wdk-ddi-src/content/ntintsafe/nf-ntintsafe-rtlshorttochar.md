@@ -7,8 +7,8 @@ old-location: kernel\rtlshorttochar.htm
 old-project: kernel
 ms.assetid: AC7D5479-7C68-445A-9788-F5E96D6BB41E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, RtlShortToChar, ntintsafe/RtlShortToChar
+ms.date: 2/24/2018
+ms.keywords: RtlShortToChar, RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, ntintsafe/RtlShortToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlShortToChar
 product: Windows
 targetos: Windows
@@ -81,12 +81,15 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>
 RtlInt16ToChar
 </li>
 </ul>
+
 

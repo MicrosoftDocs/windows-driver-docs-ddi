@@ -7,8 +7,8 @@ old-location: audio\pcnewresourcelist.htm
 old-project: audio
 ms.assetid: 80576db6-38de-46c6-89f1-a3dde613fed1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.pcnewresourcelist, PcNewResourceList function [Audio Devices], portcls/PcNewResourceList, PcNewResourceList, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml
+ms.date: 2/22/2018
+ms.keywords: PcNewResourceList, PcNewResourceList function [Audio Devices], audio.pcnewresourcelist, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml, portcls/PcNewResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	PcNewResourceList
 product: Windows
 targetos: Windows
@@ -84,27 +84,30 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
+Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
 ### -param TranslatedResources [in]
 
-Pointer to a WDM-supplied resource list for translated resources. The list is a system structure of type <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
+Pointer to a WDM-supplied resource list for translated resources. The list is a system structure of type <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
 
 
 ### -param UntranslatedResources [in]
 
-Pointer to a WDM-supplied resource list for untranslated resources. The list is a system structure of type <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
+Pointer to a WDM-supplied resource list for untranslated resources. The list is a system structure of type <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>.
 
 
 ## -returns
+
 
 
 <b>PcNewResourceList</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 For a discussion of translated and untranslated (or "raw") resource lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554399">Mapping Bus-Relative Addresses to Virtual Addresses</a>.
@@ -113,17 +116,24 @@ The <i>OutResourceList</i> and <i>OuterUnknown</i> parameters follow the <a href
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewResourceList function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewResourceList function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\psquerytotalcycletimeprocess.htm
 old-project: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, PsQueryTotalCycleTimeProcess, wdm/PsQueryTotalCycleTimeProcess
+ms.date: 2/24/2018
+ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+api_name:
 -	PsQueryTotalCycleTimeProcess
 product: Windows
 targetos: Windows
@@ -83,14 +83,18 @@ A pointer to a ULONG64 variable to which the routine writes the current cycle co
 ## -returns
 
 
+
 <b>PsQueryTotalCycleTimeProcess</b> returns the accumulated cycle time for the specified process.
+
 
 
 
 ## -remarks
 
 
+
 This routine uses the time stamp counter to get the number of processor clock cycles used by the specified process.
+
 
 
 
@@ -98,9 +102,11 @@ This routine uses the time stamp counter to get the number of processor clock cy
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544273">EPROCESS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsQueryTotalCycleTimeProcess routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsQueryTotalCycleTimeProcess routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

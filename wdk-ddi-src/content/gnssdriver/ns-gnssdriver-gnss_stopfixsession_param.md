@@ -7,8 +7,8 @@ old-location: sensors\gnss_stopfixsession_param.htm
 old-project: sensors
 ms.assetid: 37D56DC0-C35B-4651-93E9-28AF76041D5D
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_STOPFIXSESSION_PARAM structure [Sensor Devices], PGNSS_STOPFIXSESSION_PARAM structure pointer [Sensor Devices], GNSS_STOPFIXSESSION_PARAM, PGNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM, sensors.gnss_stopfixsession_param, gnssdriver/PGNSS_STOPFIXSESSION_PARAM, gnssdriver/GNSS_STOPFIXSESSION_PARAM
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM structure [Sensor Devices], PGNSS_STOPFIXSESSION_PARAM, PGNSS_STOPFIXSESSION_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_STOPFIXSESSION_PARAM, gnssdriver/PGNSS_STOPFIXSESSION_PARAM, sensors.gnss_stopfixsession_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_STOPFIXSESSION_PARAM
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM
+req.typenames: GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM
 ---
 
 # GNSS_STOPFIXSESSION_PARAM structure
@@ -88,6 +88,7 @@ ID of an active fix session.
 ### -field Unused
 
  
+
 
 
 

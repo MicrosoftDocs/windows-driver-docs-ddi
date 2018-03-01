@@ -1,14 +1,14 @@
 ---
 UID: NE:windot11._DOT11_POWER_MODE_REASON
-title: _DOT11_POWER_MODE_REASON
+title: "_DOT11_POWER_MODE_REASON"
 author: windows-driver-content
 description: The DOT11_POWER_MODE_REASON lists the different reasons for changes to auto power save mode state.
 old-location: netvista\dot11_power_mode_reason.htm
 old-project: netvista
 ms.assetid: 0B8402B5-CFDA-402F-BA7A-A44478333C04
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: dot11_power_mode_reason_legacy_WFD_device, windot11/DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_noncompliant_AP, dot11_power_mode_reason_compliant_WFD_device, windot11/dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_legacy_WFD_device, windot11/dot11_power_mode_reason_no_change, dot11_power_mode_reason_no_change, dot11_power_mode_reason_compliant_AP, DOT11_POWER_MODE_REASON enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_power_mode_reason_others, dot11_power_mode_reason_others, dot11_power_mode_reason_noncompliant_AP, _DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_compliant_WFD_device, netvista.dot11_power_mode_reason, DOT11_POWER_MODE_REASON
+ms.date: 2/16/2018
+ms.keywords: DOT11_POWER_MODE_REASON, DOT11_POWER_MODE_REASON enumeration [Network Drivers Starting with Windows Vista], _DOT11_POWER_MODE_REASON, dot11_power_mode_reason_compliant_AP, dot11_power_mode_reason_compliant_WFD_device, dot11_power_mode_reason_legacy_WFD_device, dot11_power_mode_reason_no_change, dot11_power_mode_reason_noncompliant_AP, dot11_power_mode_reason_others, netvista.dot11_power_mode_reason, windot11/DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_compliant_WFD_device, windot11/dot11_power_mode_reason_legacy_WFD_device, windot11/dot11_power_mode_reason_no_change, windot11/dot11_power_mode_reason_noncompliant_AP, windot11/dot11_power_mode_reason_others
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Windot11.h
-apiname: 
+api_name:
 -	DOT11_POWER_MODE_REASON
 product: Windows
 targetos: Windows

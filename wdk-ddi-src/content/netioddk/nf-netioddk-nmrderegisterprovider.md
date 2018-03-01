@@ -7,8 +7,8 @@ old-location: netvista\nmrderegisterprovider.htm
 old-project: netvista
 ms.assetid: 889f872a-f4fe-4d7a-b9b6-7fb7335831a5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml, netvista.nmrderegisterprovider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista], NmrDeregisterProvider, netioddk/NmrDeregisterProvider
+ms.date: 2/16/2018
+ms.keywords: NmrDeregisterProvider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterProvider, netvista.nmrderegisterprovider, nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+api_name:
 -	NmrDeregisterProvider
 product: Windows
 targetos: Windows
@@ -79,8 +79,10 @@ A handle used by the NMR to represent the registration of the provider module. T
 ## -returns
 
 
+
 The 
      <b>NmrDeregisterProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,8 +96,8 @@ The
 </td>
 <td width="60%">
 The NMR initiated the deregistration of the provider module. The provider module must call the 
-       <mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-       NmrWaitForProviderDeregisterComplete</b></mshelp:link> function to wait until the deregistration is complete
+       <a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+       NmrWaitForProviderDeregisterComplete</a> function to wait until the deregistration is complete
        before the provider module can be unloaded.
 
 </td>
@@ -111,11 +113,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When a provider module calls the 
@@ -134,8 +139,8 @@ A provider module typically calls the
     client modules to which it is attached before the provider module is unloaded from the system. After
     calling the 
     <b>NmrDeregisterProvider</b> function a provider module must call the 
-    <mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-    NmrWaitForProviderDeregisterComplete</b></mshelp:link> function to wait for the deregistration to complete before the
+    <a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+    NmrWaitForProviderDeregisterComplete</a> function to wait for the deregistration to complete before the
     provider module can be unloaded. A provider module must not return from a call to its 
     <i>Unload</i> function until after deregistration is
     complete.
@@ -153,24 +158,37 @@ A provider module typically calls the
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
-
-<mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-   NmrWaitForProviderDeregisterComplete</b></mshelp:link>
 
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
+
+
+<a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+   NmrWaitForProviderDeregisterComplete</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
- 
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrDeregisterProvider function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrDeregisterProvider function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

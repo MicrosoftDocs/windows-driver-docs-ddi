@@ -7,8 +7,8 @@ old-location: display\clearunorderedaccessviewuint.htm
 old-project: display
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.clearunorderedaccessviewuint, ClearUnorderedAccessViewUINT callback function [Display Devices], ClearUnorderedAccessViewUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, d3d10umddi/ClearUnorderedAccessViewUINT, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml
+ms.date: 2/24/2018
+ms.keywords: ClearUnorderedAccessViewUINT, ClearUnorderedAccessViewUINT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml, d3d10umddi/ClearUnorderedAccessViewUINT, display.clearunorderedaccessviewuint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	ClearUnorderedAccessViewUINT
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback
@@ -75,9 +75,7 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11DDI_HUNORDEREDACCESSVIEW
-
 
 
 ### -param UINT[4]
@@ -87,14 +85,6 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
 
 
 
-#### - pUints [in]
-
- A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
-
-
-#### - hUnorderedAccessView [in]
-
- A handle to the unordered-access view to clear. 
 
 
 #### - hDevice [in]
@@ -102,7 +92,18 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
  A handle to the display device (graphics context).
 
 
+#### - hUnorderedAccessView [in]
+
+ A handle to the unordered-access view to clear. 
+
+
+#### - pUints [in]
+
+ A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
+
+
 ## -returns
+
 
 
 None
@@ -111,10 +112,13 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
 
 
+
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>ClearUnorderedAccessViewUINT</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+
 
 
 
@@ -122,11 +126,15 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreateprotectedsession.htm
 old-project: display
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateProtectedSession method [Display Devices], display.d3dkmtcreateprotectedsession, d3dkmthk/D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession
+ms.date: 2/24/2018
+ms.keywords: D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTCreateProtectedSession
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTCreateProtectedSession(
 
 
 
+
 #### - D3dkmt_createprotectedsession [in, out]
 
 Holds information to create a protected session.
@@ -79,6 +80,8 @@ Holds information to create a protected session.
 
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

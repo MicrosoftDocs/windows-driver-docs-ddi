@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, DrvWriteSpoolBuf, IPrintOemDriverPS::DrvWriteSpoolBuf
+ms.date: 2/23/2018
+ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, DrvWriteSpoolBuf,IPrintOemDriverPS.DrvWriteSpoolBuf, IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, IPrintOemDriverPS::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemDriverPS.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Receives a method-supplied value representing the number of bytes sent to the sp
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,17 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Rendering plug-ins are described in <a href="https://msdn.microsoft.com/b7761209-1f6f-4288-af47-4ed855c2e629">Customizing Microsoft's Printer Drivers</a>.
+
 
 

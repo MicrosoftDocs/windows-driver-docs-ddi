@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_VWIFI_COMBINATION
-title: _DOT11_VWIFI_COMBINATION
+title: "_DOT11_VWIFI_COMBINATION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_vwifi_combination.htm
 old-project: netvista
 ms.assetid: 05be98a8-dad2-4539-b725-e898db19a789
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_vwifi_combination, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_VWIFI_COMBINATION
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, PDOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION, netvista.dot11_vwifi_combination, windot11/DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_VWIFI_COMBINATION
 product: Windows
 targetos: Windows
@@ -84,6 +84,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_VWIFI_COMBINATION_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_VWIFI_COMBINATION).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -106,27 +125,13 @@ The number of Soft AP Stations supported. For more information, see the followin
      section.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_VWIFI_COMBINATION_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_VWIFI_COMBINATION).
-
-
 ## -remarks
+
 
 
 Starting with Windows 7, the 802.11 miniport driver must only report one or more of the following
     combination of member values.
+
 <ul>
 <li>
 <b>uNumInfrastructure</b> = 1
@@ -143,13 +148,16 @@ Starting with Windows 7, the 802.11 miniport driver must only report one or more
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_VWIFI_COMBINATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_VWIFI_COMBINATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

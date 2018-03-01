@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddstor._STORAGE_CRYPTO_CAPABILITY
-title: _STORAGE_CRYPTO_CAPABILITY
+title: "_STORAGE_CRYPTO_CAPABILITY"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_crypto_capability.htm
 old-project: storage
 ms.assetid: 9DFAB3C6-F833-487D-87FC-292B3AFAD767
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storage_crypto_capability, STORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], PSTORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY, _STORAGE_CRYPTO_CAPABILITY, ntddstor/STORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], ntddstor/PSTORAGE_CRYPTO_CAPABILITY
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], STORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], _STORAGE_CRYPTO_CAPABILITY, ntddstor/PSTORAGE_CRYPTO_CAPABILITY, ntddstor/STORAGE_CRYPTO_CAPABILITY, storage.storage_crypto_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_CRYPTO_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY
+req.typenames: STORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY
 ---
 
 # _STORAGE_CRYPTO_CAPABILITY structure

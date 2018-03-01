@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_get_drive_geometry_ex.htm
 old-project: storage
 ms.assetid: c0cf6b73-3283-4a58-845a-79f3b078db46
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_disk_get_drive_geometry_ex, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, k307_d20497cd-63a3-4e07-9920-b051d68841db.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d20497cd-63a3-4e07-9920-b051d68841db.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, storage.ioctl_disk_get_drive_geometry_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntdddisk.h
-apiname: 
+api_name:
 -	IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -90,14 +90,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,7 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DI
 The <b>Information</b> field is set to the size, in bytes, of the returned data. 
 
 The <b>Status</b> field returns one of the following values:
+
 <ul>
 <li><b>STATUS_SUCCESS</b></li>
 <li><b>STATUS_UNRECOGNIZED_MEDIA</b></li>
@@ -119,8 +124,10 @@ The <b>Status</b> field returns one of the following values:
 ## -remarks
 
 
+
 Only callers above Partmgr.sys may call this IOCTL as it contains disk partition information. 
 
 This IOCTL uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff560357">IOCTL_DISK_GET_DRIVE_GEOMETRY</a> to get the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> structure and <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_length_info.md">IOCTL_DISK_GET_LENGTH_INFO</a> to get the  <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.md">GET_LENGTH_INFORMATION</a> structure. Both of these IOCTL's are supported for use at the disk.sys level. 
+
 
 

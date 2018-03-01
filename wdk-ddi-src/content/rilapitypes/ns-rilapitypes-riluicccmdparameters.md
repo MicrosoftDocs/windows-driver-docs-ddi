@@ -7,8 +7,8 @@ old-location: netvista\riluicccmdparameters_2.htm
 old-project: netvista
 ms.assetid: 8ebffcdc-672b-4cfd-9ff2-a911b7c4dde5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters_2, *LPRILUICCCMDPARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters_2, rilapitypes/RILUICCCMDPARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCCMDPARAMETERS
 product: Windows
 targetos: Windows
@@ -76,23 +76,17 @@ typedef struct _RILUICCCMDPARAMETERS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field filePath
 
 
-
 ### -field dwParameter1
-
 
 
 ### -field dwParameter2
 
 
-
 ### -field dwParameter3
-
 

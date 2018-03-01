@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_TYPE
-title: _WDF_REQUEST_TYPE
+title: "_WDF_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration type identifies types of requests that a framework request object might contain.
 old-location: wdf\wdf_request_type.htm
 old-project: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestTypeCreate, wdfrequest/WdfRequestTypeUsb, WdfRequestTypeOther, wdfrequest/WdfRequestTypeCreate, WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeSetEA, WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControlInternal, WdfRequestTypeUsb, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeWrite, WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeLockControl, WdfRequestTypeWrite, wdfrequest/WdfRequestTypeFlushBuffers, WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeNoFormat, WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypePower, WDF_REQUEST_TYPE, WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeCreateMailSlot, WdfRequestTypeSystemControl, _WDF_REQUEST_TYPE, WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypePnp, WdfRequestTypeCleanup, kmdf.wdf_request_type, WdfRequestTypeDeviceControlInternal, WdfRequestTypeClose, WdfRequestTypeSetSecurity, WdfRequestTypeQueryInformation, WdfRequestTypeFileSystemControl, WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeDeviceControl, WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeFileSystemControl, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeRead, WdfRequestTypeCreateMailSlot, WdfRequestTypePnp, wdfrequest/WdfRequestTypeSetInformation, wdf.wdf_request_type, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeDirectoryControl, WdfRequestTypeMax, wdfrequest/WDF_REQUEST_TYPE, WdfRequestTypeRead, WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeSetVolumeInformation, WDF_REQUEST_TYPE enumeration, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeMax, WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeOther, WdfRequestTypePower, WdfRequestTypeLockControl, WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryQuota, WdfRequestTypeNoFormat, WdfRequestTypeFlushBuffers, WdfRequestTypeSetEA
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, WDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, WdfRequestTypeCleanup, WdfRequestTypeClose, WdfRequestTypeCreate, WdfRequestTypeCreateMailSlot, WdfRequestTypeCreateNamedPipe, WdfRequestTypeDeviceChange, WdfRequestTypeDeviceControl, WdfRequestTypeDeviceControlInternal, WdfRequestTypeDirectoryControl, WdfRequestTypeFileSystemControl, WdfRequestTypeFlushBuffers, WdfRequestTypeLockControl, WdfRequestTypeMax, WdfRequestTypeNoFormat, WdfRequestTypeOther, WdfRequestTypePnp, WdfRequestTypePower, WdfRequestTypeQueryEA, WdfRequestTypeQueryInformation, WdfRequestTypeQueryQuota, WdfRequestTypeQuerySecurity, WdfRequestTypeQueryVolumeInformation, WdfRequestTypeRead, WdfRequestTypeSetEA, WdfRequestTypeSetInformation, WdfRequestTypeSetQuota, WdfRequestTypeSetSecurity, WdfRequestTypeSetVolumeInformation, WdfRequestTypeShutdown, WdfRequestTypeSystemControl, WdfRequestTypeUsb, WdfRequestTypeWrite, _WDF_REQUEST_TYPE, kmdf.wdf_request_type, wdf.wdf_request_type, wdfrequest/WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeCreate, wdfrequest/WdfRequestTypeCreateMailSlot, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeFileSystemControl, wdfrequest/WdfRequestTypeFlushBuffers, wdfrequest/WdfRequestTypeLockControl, wdfrequest/WdfRequestTypeMax, wdfrequest/WdfRequestTypeNoFormat, wdfrequest/WdfRequestTypeOther, wdfrequest/WdfRequestTypePnp, wdfrequest/WdfRequestTypePower, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeRead, wdfrequest/WdfRequestTypeSetEA, wdfrequest/WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeUsb, wdfrequest/WdfRequestTypeWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfrequest.h
-apiname: 
+api_name:
 -	WDF_REQUEST_TYPE
 product: Windows
 targetos: Windows
@@ -264,11 +264,13 @@ The maximum value that has been assigned to a valid IRP major function code.
 ## -remarks
 
 
+
 The <b>WDF_REQUEST_TYPE</b> enumeration type is used in the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> and <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structures.
 
 For information about how a framework-based driver can handle request types that the framework does not support, see <a href="https://msdn.microsoft.com/0481f335-f63b-4f93-8eb4-523a70082302">Handling an IRP that the Framework Does Not Support</a>.
 
-For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE (UMDF)</a>.
+
 
 
 
@@ -276,15 +278,23 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
 
+
+
 <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
+
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
 
- 
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

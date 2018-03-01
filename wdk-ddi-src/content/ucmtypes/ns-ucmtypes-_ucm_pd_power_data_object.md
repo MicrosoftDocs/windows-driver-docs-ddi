@@ -1,14 +1,14 @@
 ---
 UID: NS:ucmtypes._UCM_PD_POWER_DATA_OBJECT
-title: _UCM_PD_POWER_DATA_OBJECT
+title: "_UCM_PD_POWER_DATA_OBJECT"
 author: windows-driver-content
 description: Describes a Power Data Object. For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_power_data_object.htm
 old-project: usbref
 ms.assetid: C54750A9-EE64-4FE7-9ED6-EC9709A82C43
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], _UCM_PD_POWER_DATA_OBJECT, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, UCM_PD_POWER_DATA_OBJECT union [Buses], UCM_PD_POWER_DATA_OBJECT
+ms.date: 2/24/2018
+ms.keywords: "*PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses], _UCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ucmtypes.h
-apiname: 
+api_name:
 -	UCM_PD_POWER_DATA_OBJECT
 product: Windows
 targetos: Windows
@@ -96,16 +96,22 @@ typedef union _UCM_PD_POWER_DATA_OBJECT {
 
 
 
+### -field Ul
+
+Size of the structure.
+
+
 ### -field Common
 
 
 
-### -field Common.Reserved
+#### Reserved
 
 Reserved.
 
 
-### -field Common.Type
+
+#### Type
 
 Type of Power Data Object.
 
@@ -115,54 +121,64 @@ Type of Power Data Object.
 Describing a Fixed Supply type Power Data Object.
 
 
-### -field FixedSupplyPdo.MaximumCurrentIn10mA
+
+#### MaximumCurrentIn10mA
 
 Maximum current in multiples of 10 mA.
 
 
-### -field FixedSupplyPdo.VoltageIn50mV
+
+#### VoltageIn50mV
 
 Voltage in multiples of 50 mV.
 
 
-### -field FixedSupplyPdo.PeakCurrent
+
+#### PeakCurrent
 
 Peak current.
 
 
-### -field FixedSupplyPdo.Reserved
+
+#### Reserved
 
 Reserved for future use.
 
 
-### -field FixedSupplyPdo.DataRoleSwap
+
+#### DataRoleSwap
 
 If set, indicates the Power Data Object can perform a data role swap.
 
 
-### -field FixedSupplyPdo.UsbCommunicationCapable
+
+#### UsbCommunicationCapable
 
 If set, indicates the Power Data Object is USB communication capable. 
 
 
-### -field FixedSupplyPdo.ExternallyPowered
+
+#### ExternallyPowered
 
 If set, indicates the Power Data Object is externally powered.
 
 
-### -field FixedSupplyPdo.UsbSuspendSupported
+
+#### UsbSuspendSupported
 
 Indicates support for USB suspend.
 
 
 
 
-### -field FixedSupplyPdo.DualRolePower
+
+#### DualRolePower
 
 Dual role power
 
 
-### -field FixedSupplyPdo.FixedSupply
+
+#### FixedSupply
 
 fixed supply
 
@@ -172,22 +188,26 @@ fixed supply
 Contains bitfields describing a variable-supply non-battery PD object.
 
 
-### -field VariableSupplyNonBatteryPdo.MaximumCurrentIn10mA
+
+#### MaximumCurrentIn10mA
 
 Describes the maximum current in multiples of 10 mA.
 
 
-### -field VariableSupplyNonBatteryPdo.MinimumVoltageIn50mV
+
+#### MinimumVoltageIn50mV
 
 Desribes the minimum voltage in multiples of 50 mV.
 
 
-### -field VariableSupplyNonBatteryPdo.MaximumVoltageIn50mV
+
+#### MaximumVoltageIn50mV
 
 Describes the maximum voltage in multiples of 50 mV.
 
 
-### -field VariableSupplyNonBatteryPdo.VariableSupportNonBattery
+
+#### VariableSupportNonBattery
 
 Variable Support Non Battery type.
 
@@ -197,27 +217,26 @@ Variable Support Non Battery type.
 Contains bitfields describing a battery supply PD object.
 
 
-### -field BatterySupplyPdo.MaximumAllowablePowerIn250mW
+
+#### MaximumAllowablePowerIn250mW
 
 Describes the maximum allowable power in multiples of 250 mW.
 
 
-### -field BatterySupplyPdo.MinimumVoltageIn50mV
+
+#### MinimumVoltageIn50mV
 
 Describes the minimum voltage in multiples of 50 mV.
 
 
-### -field BatterySupplyPdo.MaximumVoltageIn50mV
+
+#### MaximumVoltageIn50mV
 
 Describes the maximum voltage in multiples of 50 mV.
 
 
-### -field BatterySupplyPdo.Battery
+
+#### Battery
 
 Battery type.
-
-
-### -field Ul
-
-Size of the structure.
 

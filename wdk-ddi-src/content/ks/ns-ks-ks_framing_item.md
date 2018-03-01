@@ -7,8 +7,8 @@ old-location: stream\ks_framing_item.htm
 old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSALLOCATOR_FLAG_DEVICE_SPECIFIC, ks/PKS_FRAMING_ITEM, KS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, stream.ks_framing_item, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, ks/KS_FRAMING_ITEM, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, *PKS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
+ms.date: 2/23/2018
+ms.keywords: "*PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, stream.ks_framing_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KS_FRAMING_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKS_FRAMING_ITEM, KS_FRAMING_ITEM
+req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
 ---
 
 # KS_FRAMING_ITEM structure
@@ -76,19 +76,10 @@ typedef struct {
 
 
 
-### -field FileAlignment
-
-Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
-
-
-### -field FramePitch
-
- 
-
-
 ### -field MemoryType
 
 Specifies the type of memory used for buffers and data frames. There is a partial correspondence between this member and the <b>PoolType</b> member in the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure. The two members differ in that <b>PoolType</b> allows only paged or nonpaged pool. <b>MemoryType</b> can have any of the values listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -154,12 +145,14 @@ Indicates device memory allocation type is not specified.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BusType
 
 Specifies the physical bus accessing the physical memory specified by <i>MemoryType</i>. Use this field to determine a compatible memory type based on the bus that is used for the connection medium. This distinction is crucial when a pin exposes different memory types based on the connection medium. <b>BusType</b> can have any of the values listed in the following table.
+
 <table>
 <tr>
 <th>Type</th>
@@ -215,7 +208,8 @@ GUID_61883_CLASS
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MemoryFlags
@@ -231,6 +225,26 @@ Not used.
 ### -field Flags
 
 Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure, with the addition of the following flags that add support for pipes.
+
+
+
+##### )
+
+
+
+##### )
+
+
+
+###### )
+
+
+
+##### )
+
+
+
+##### )
 
 
 ### -field Frames
@@ -253,27 +267,13 @@ A structure of type <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</
 A structure of type <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
 
 
-###### - Flags.KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY (Indicates that the Requirements flags are preferences only and the connection point is able to allocate frames that do not meet those preferred specifications.)
+#### - FileAlignment
 
-
-
-###### - Flags.KSALLOCATOR_FLAG_DEVICE_SPECIFIC (Indicates that the physical memory type is device-specific.)
-
-
-
-###### - Flags.KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO (Indicates that the frame ratio defined in the KS_COMPRESSION structure must be maintained.)
-
-
-
-####### - Flags.KSALLOCATOR_FLAG_CAN_ALLOCATE (Indicates that the filter is capable of allocating device-specific memory. See additional information below.)
-
-
-
-###### - Flags.KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT (Indicates that the filter supports partial fill of frames.)
-
+Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
 
 
 ## -remarks
+
 
 
 Do not set KSALLOCATOR_FLAG_CAN_ALLOCATE to indicate memory addressing capability. A filter might be able to access the device-specific memory over a device-specific bus by referencing the memory address on this bus, and yet not support the protocol to allocate this device-specific memory.
@@ -282,21 +282,32 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
-
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
-
-<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
- 
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
+
+
+
+<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
+
+
+
+<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_FRAMING_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_FRAMING_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

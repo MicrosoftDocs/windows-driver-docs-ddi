@@ -7,8 +7,8 @@ old-location: display\pfnunlock2cb.htm
 old-project: display
 ms.assetid: 642C6A05-DA8C-453A-B1AA-030C59F32DA5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnunlock2cb, pfnUnlock2Cb callback function [Display Devices], pfnUnlock2Cb, PFND3DDDI_UNLOCK2CB, PFND3DDDI_UNLOCK2CB, d3dumddi/pfnUnlock2Cb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_UNLOCK2CB, d3dumddi/pfnUnlock2Cb, display.pfnunlock2cb, pfnUnlock2Cb, pfnUnlock2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnUnlock2Cb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock2.md">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
@@ -91,6 +93,8 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock2.md">D3DDDICB_U
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

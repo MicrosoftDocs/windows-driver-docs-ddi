@@ -1,14 +1,14 @@
 ---
 UID: NE:wditypes._WDI_AUTH_ALGORITHM
-title: _WDI_AUTH_ALGORITHM
+title: "_WDI_AUTH_ALGORITHM"
 author: windows-driver-content
 description: The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 old-location: netvista\wdi_auth_algorithm.htm
 old-project: netvista
 ms.assetid: B908A174-F977-484E-A086-6C8C9A914D6C
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_80211_OPEN, _WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_WPA_NONE, netvista.wdi_auth_algorithm, WDI_AUTH_ALGO_IHV_END, netvista.wifi_auth_algorithm, WDI_AUTH_ALGO_WPA_PSK, WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGORITHM
+ms.date: 2/16/2018
+ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wditypes.hpp
-apiname: 
+api_name:
 -	WDI_AUTH_ALGORITHM
 product: Windows
 targetos: Windows

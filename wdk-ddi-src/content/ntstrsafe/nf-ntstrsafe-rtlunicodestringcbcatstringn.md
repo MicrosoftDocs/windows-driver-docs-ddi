@@ -7,8 +7,8 @@ old-location: kernel\rtlunicodestringcbcatstringn.htm
 old-project: kernel
 ms.assetid: bc2139d2-9d59-4d19-a4b5-ce0a993a9846
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml, RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringn, ntstrsafe/RtlUnicodeStringCbCatStringN
+ms.date: 2/24/2018
+ms.keywords: RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringn, ntstrsafe/RtlUnicodeStringCbCatStringN, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlUnicodeStringCbCatStringN
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringCbCatStringN function
@@ -88,7 +88,9 @@ The maximum number of bytes to append to the string that the <i>DestinationStrin
 ## -returns
 
 
+
 <b>RtlUnicodeStringCbCatStringN</b> returns one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,20 +129,25 @@ This <i>error</i> status means that the function received an invalid input param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlUnicodeStringCbCatStringN</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>The destination buffer is already full.</li>
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
 <li>The <i>cbToAppend</i> parameter's value is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlUnicodeStringCbCatStringN </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
@@ -153,17 +160,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringnex.md">RtlUnicodeStringCbCatStringNEx</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatstringn.md">RtlUnicodeStringCchCatStringN</a>
 
- 
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringnex.md">RtlUnicodeStringCbCatStringNEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCatStringN function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCbCatStringN function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

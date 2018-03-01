@@ -7,8 +7,8 @@ old-location: storage\hba_geteventbuffer.htm
 old-project: storage
 ms.assetid: 0f06b154-7d85-4a60-b354-bd61fbc597dc
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices], storage.hba_geteventbuffer, fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, hbaapi/HBA_GetEventBuffer
+ms.date: 2/24/2018
+ms.keywords: HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices], fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, hbaapi/HBA_GetEventBuffer, storage.hba_geteventbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_GetEventBuffer
 product: Windows
 targetos: Windows
@@ -92,7 +92,9 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 The <b>HBA_GetEventBuffer</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetEventBuffer</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,21 +122,29 @@ Returned if an unspecified error occurred that prevented the retrieval of the ev
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetEventBuffer routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetEventBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

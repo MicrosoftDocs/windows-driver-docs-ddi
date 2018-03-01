@@ -7,8 +7,8 @@ old-location: netvista\ril_setslotpower.htm
 old-project: netvista
 ms.assetid: c7e12c2a-3382-478b-a306-7c86c93d45d0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_setslotpower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetSlotPower, RIL_SetSlotPower
+ms.date: 2/16/2018
+ms.keywords: RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], netvista.ril_setslotpower, rilapi/RIL_SetSlotPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SetSlotPower
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_SetSlotPower(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param fPowerOn
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

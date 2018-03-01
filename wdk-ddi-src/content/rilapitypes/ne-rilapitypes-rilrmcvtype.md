@@ -7,8 +7,8 @@ old-location: netvista\rilrmcvtype_2.htm
 old-project: netvista
 ms.assetid: 7517d3fd-723d-4fd7-b5ce-3d08443b8f59
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILRMCVTYPE, RIL_RMCV_TYPE_BOOLEAN, rilapitypes/RIL_RMCV_TYPE_BOOLEAN, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_DWORD, rilapitypes/RILRMCVTYPE, rilapitypes/RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype_2, RIL_RMCV_TYPE_STRING, rilapitypes/RIL_RMCV_TYPE_DWORD
+ms.date: 2/16/2018
+ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype_2, rilapitypes/RILRMCVTYPE, rilapitypes/RIL_RMCV_TYPE_BOOLEAN, rilapitypes/RIL_RMCV_TYPE_DWORD, rilapitypes/RIL_RMCV_TYPE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILRMCVTYPE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILRMCVTYPE {
 ### -field RIL_RMCV_TYPE_NONE
 
 
-
 ### -field RIL_RMCV_TYPE_BOOLEAN
-
 
 
 ### -field RIL_RMCV_TYPE_DWORD
 
 
-
 ### -field RIL_RMCV_TYPE_STRING
-
 

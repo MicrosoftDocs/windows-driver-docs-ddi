@@ -7,8 +7,8 @@ old-location: debugger\adddumpinformationfile.htm
 old-project: debugger
 ms.assetid: c111eb7e-7c42-4848-89d3-177f240fff7f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, IDebugClient2::AddDumpInformationFile, IDebugClient5, AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, IDebugClient4::AddDumpInformationFile, debugger.adddumpinformationfile, AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, AddDumpInformationFile method [Windows Debugging], IDebugClient3::AddDumpInformationFile, IDebugClient5::AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method
+ms.date: 2/23/2018
+ms.keywords: AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFile,IDebugClient5.AddDumpInformationFile, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient2::AddDumpInformationFile, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, IDebugClient5, IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient2.AddDumpInformationFile
 -	IDebugClient3.AddDumpInformationFile
 -	IDebugClient4.AddDumpInformationFile
 -	IDebugClient5.AddDumpInformationFile
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AddDumpInformationFile method
@@ -84,7 +84,9 @@ Specifies the type of the file <i>InfoFile</i>.  Currently, only files containin
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,11 +103,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If supporting information is to be used when opening a dump file, this method or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a> must be called before <a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a> is called. If a session has already started, this method cannot be used.
@@ -114,29 +119,48 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::AddDumpInformationFile method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::AddDumpInformationFile method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

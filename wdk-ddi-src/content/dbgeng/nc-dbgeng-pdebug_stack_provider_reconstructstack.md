@@ -7,8 +7,8 @@ old-location: debugger\reconstructstack.htm
 old-project: debugger
 ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.reconstructstack, ReconstructStack, ReconstructStack callback function [Windows Debugging], ReconstructStack, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, dbgeng/ReconstructStack
+ms.date: 2/23/2018
+ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	ReconstructStack
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback
@@ -89,8 +89,9 @@ Native frames.
 Specifies the number of native frames.
 
 
-### -param *StackSymFrames
+### -param *StackSymFrames [out]
 
+A pointer to a symbol frames stack.
 
 
 ### -param StackSymFramesFilled [out]
@@ -98,19 +99,17 @@ Specifies the number of native frames.
 Symbol frames stack filled value.
 
 
-#### - StackSymFrames [out]
-
-A pointer to a symbol frames stack.
-
-
 ## -returns
+
 
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 This function returns stack frames and symbolic data.
@@ -120,5 +119,6 @@ New in-line frames may be provided.
 Stack dump provider must be enabled.
 
 <i>ReconstructStack</i> is called <b>PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK</b>  in the Dbgeng.h header file.
+
 
 

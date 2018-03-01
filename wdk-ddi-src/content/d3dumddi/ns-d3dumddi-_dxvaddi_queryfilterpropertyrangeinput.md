@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
-title: _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
+title: "_DXVADDI_QUERYFILTERPROPERTYRANGEINPUT"
 author: windows-driver-content
 description: The DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure describes a filter setting on a video stream that range information is requested for.
 old-location: display\dxvaddi_queryfilterpropertyrangeinput.htm
 old-project: display
 ms.assetid: d073d326-6cc6-4216-b312-809d707aef3b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput, _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ typedef struct _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT {
 ### -field FilterSetting
 
 [in] A filter setting that range information is requested for. This member can be one of the following settings:
+
 <ul>
 <li>
 DXVADDI_NOISEFILTER_LUMALEVEL
@@ -141,19 +142,29 @@ DXVADDI_DETAILFILTER_CHROMARADIUS
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_valuerange.md">DXVADDI_VALUERANGE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

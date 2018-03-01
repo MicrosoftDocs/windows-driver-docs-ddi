@@ -7,8 +7,8 @@ old-location: stream\ksfilterattemptprocessing.htm
 old-project: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsFilterAttemptProcessing function [Streaming Media Devices], ks/KsFilterAttemptProcessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, stream.ksfilterattemptprocessing, KsFilterAttemptProcessing
+ms.date: 2/23/2018
+ms.keywords: KsFilterAttemptProcessing, KsFilterAttemptProcessing function [Streaming Media Devices], avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsFilterAttemptProcessing
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ This parameter contains an indication as to whether the processing dispatch shou
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the minidriver calls <b>KsFilterAttemptProcessing</b> when all of the conditions required to process data are met, a processing dispatch occurs. For more information about the process callback, see <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>. In order for the attempt to result in an actual dispatch, the filter's process control gate must be in an open state. Unlike pin-centric processing, filter-centric processing has many conditions that affect the process control gate. For more information about these requirements, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a> and <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>.
@@ -97,19 +100,28 @@ Note that this is only an attempt at processing; calling this function does not 
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
-
-<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+
+
+
+<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAttemptProcessing function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAttemptProcessing function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

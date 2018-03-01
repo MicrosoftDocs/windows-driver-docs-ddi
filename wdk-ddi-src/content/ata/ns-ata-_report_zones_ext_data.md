@@ -1,14 +1,14 @@
 ---
 UID: NS:ata._REPORT_ZONES_EXT_DATA
-title: _REPORT_ZONES_EXT_DATA
+title: "_REPORT_ZONES_EXT_DATA"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_ext_data.htm
 old-project: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PREPORT_ZONES_EXT_DATA, _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data, ata/REPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA structure [Storage Devices], *PREPORT_ZONES_EXT_DATA
+ms.date: 2/24/2018
+ms.keywords: "*PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, ata/REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ata.h
-apiname: 
+api_name:
 -	REPORT_ZONES_EXT_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
+req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---
 
 # _REPORT_ZONES_EXT_DATA structure

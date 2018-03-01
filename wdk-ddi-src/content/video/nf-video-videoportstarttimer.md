@@ -7,8 +7,8 @@ old-location: display\videoportstarttimer.htm
 old-project: display
 ms.assetid: d06ae137-d7e8-4e17-82fb-37e5c5e8ad1e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: video/VideoPortStartTimer, VideoPortStartTimer, display.videoportstarttimer, VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, VideoPortStartTimer function [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortStartTimer
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the miniport driver's device extension. This pointer is the input par
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 After a miniport driver calls <b>VideoPortStartTimer</b>, its <i>HwVidTimer</i> function is called at approximately one-second intervals until the miniport driver calls <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>. A miniport driver's <i>HwVidTimer</i> function <i>must not</i> call <b>VideoPortStopTimer</b>.
@@ -89,19 +92,28 @@ A miniport driver cannot call <b>VideoPortStartTimer</b> or <b>VideoPortStopTime
 
 
 
+
 ## -see-also
-
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
 <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+
+
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStartTimer function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStartTimer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

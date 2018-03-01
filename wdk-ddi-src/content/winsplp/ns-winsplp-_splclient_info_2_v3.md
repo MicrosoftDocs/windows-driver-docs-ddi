@@ -1,14 +1,14 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_2_V3
-title: _SPLCLIENT_INFO_2_V3
+title: "_SPLCLIENT_INFO_2_V3"
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\splclient_info_2_longhorn.htm
 old-project: print
 ms.assetid: D058EF0A-014A-4A91-A8B5-6D4ACB1667E0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, *LPSPLCLIENT_INFO_2, SPLCLIENT_INFO_2_LONGHORN, print.splclient_info_2_longhorn, _SPLCLIENT_INFO_2_V3, SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], winsplp/SPLCLIENT_INFO_2_LONGHORN
+ms.date: 2/23/2018
+ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_LONGHORN, SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], _SPLCLIENT_INFO_2_V3, print.splclient_info_2_longhorn, winsplp/SPLCLIENT_INFO_2_LONGHORN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	SPLCLIENT_INFO_2_LONGHORN
 product: Windows
 targetos: Windows

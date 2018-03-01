@@ -7,8 +7,8 @@ old-location: stream\streamclasscompleterequestandmarkqueueready.htm
 old-project: stream
 ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady, stream.streamclasscompleterequestandmarkqueueready, strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+api_name:
 -	StreamClassCompleteRequestAndMarkQueueReady
 product: Windows
 targetos: Windows
@@ -77,28 +77,38 @@ Pointer to the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_ST
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</b> twice, once to signal that the request is completed, and once to signal that the minidriver is ready for the next request of that type.
+
 
 
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
+<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
+
+
 
 <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>
 
-<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
+
+
+<a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassCompleteRequestAndMarkQueueReady routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassCompleteRequestAndMarkQueueReady routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_set_intensity_white.htm
 old-project: stream
 ms.assetid: 78541C4C-AA0E-4C1F-A7B5-E2A39DF5E2CE
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_lamp_set_intensity_white, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], IOCTL_LAMP_SET_INTENSITY_WHITE, lamp/IOCTL_LAMP_SET_INTENSITY_WHITE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_SET_INTENSITY_WHITE, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_WHITE, stream.ioctl_lamp_set_intensity_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	lamp.h
-apiname: 
+api_name:
 -	IOCTL_LAMP_SET_INTENSITY_WHITE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -96,14 +96,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

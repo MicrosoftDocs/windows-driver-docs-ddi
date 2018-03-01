@@ -7,8 +7,8 @@ old-location: stream\iksallocatorex.htm
 old-project: stream
 ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.iksallocatorex, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices], described, IKsAllocatorEx, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml
+ms.date: 2/23/2018
+ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices], described, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml, stream.iksallocatorex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsAllocatorEx
 product: Windows
 targetos: Windows
@@ -53,6 +53,13 @@ The <b>IKsAllocatorEx</b> interface is for proxy use and not recommended for app
 
 The IID for this interface is IID_IKsAllocatorEx.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -89,15 +96,8 @@ Sets the properties for an allocator.
 
 </td>
 </tr>
-</table>Returns the properties for an allocator.
-
-Sets the handle for an allocator.
-
-Sets the properties for an allocator. 
-
- 
-
-The following methods are listed in Vtable order.
+</table> 
+<h3><a id="methods"></a><a id="METHODS"></a>Inherited Methods</h3>The following methods are listed in Vtable order.
 <table>
 <tr>
 <th>IUnknown method</th>
@@ -133,19 +133,7 @@ Decrements reference count.
 
 </td>
 </tr>
-</table><b>QueryInterface</b>
-
-Returns pointers to supported interfaces.
-
-<b>AddRef</b>
-
-Increments reference count.
-
-<b>Release</b>
-
-Decrements reference count.
-
- 
+</table> 
 <table>
 <tr>
 <th>IKsAllocator method</th>
@@ -191,32 +179,18 @@ Sets the mode in which an allocator allocates memory.
 
 </td>
 </tr>
-</table><b>KsGetAllocatorHandle</b>
-
-Retrieves a file handle to an allocator.
-
-<b>KsGetAllocatorMode</b>
-
-Returns the mode in which an allocator allocates memory.
-
-<b>KsGetAllocatorStatus</b>
-
-Retrieves the status of an allocator.
-
-<b>KsSetAllocatorMode</b>
-
-Sets the mode in which an allocator allocates memory.
-
- 
+</table> 
 
 
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsAllocatorEx interface%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsAllocatorEx interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

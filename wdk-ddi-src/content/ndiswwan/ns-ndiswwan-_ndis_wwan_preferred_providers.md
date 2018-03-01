@@ -1,14 +1,14 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PREFERRED_PROVIDERS
-title: _NDIS_WWAN_PREFERRED_PROVIDERS
+title: "_NDIS_WWAN_PREFERRED_PROVIDERS"
 author: windows-driver-content
 description: The NDIS_WWAN_PREFERRED_PROVIDERS structure represents a list of preferred providers including the number of providers in the list.
 old-location: netvista\ndis_wwan_preferred_providers.htm
 old-project: netvista
 ms.assetid: cbbbf7d2-cf24-47af-89e9-c27d577165e4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, *PNDIS_WWAN_PREFERRED_PROVIDERS, netvista.ndis_wwan_preferred_providers, ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, _NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, netvista.ndis_wwan_preferred_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndiswwan.h
-apiname: 
+api_name:
 -	NDIS_WWAN_PREFERRED_PROVIDERS
 product: Windows
 targetos: Windows
@@ -78,6 +78,7 @@ The header with type, revision, and size information about the NDIS_WWAN_PREFERR
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -113,7 +114,8 @@ sizeof(NDIS_WWAN_PREFERRED_PROVIDERS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -128,6 +130,7 @@ Miniport driver must set this to WWAN_STATUS_SUCCESS for unsolicited events
 
 The following table shows other possible error status codes (other members need not be updated by
      miniport driver).
+
 <table>
 <tr>
 <th>Value</th>
@@ -185,7 +188,8 @@ A
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PreferredListHeader
@@ -206,13 +210,17 @@ Response to
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
- 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PREFERRED_PROVIDERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PREFERRED_PROVIDERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

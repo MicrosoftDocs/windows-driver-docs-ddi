@@ -7,8 +7,8 @@ old-location: netvista\binary_data.htm
 old-project: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, BINARY_DATA, netvista.binary_data
+ms.date: 2/16/2018
+ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	BINARY_DATA
 product: Windows
 targetos: Windows
@@ -82,10 +82,12 @@ Pointer to a buffer containing the binary data.
 ## -remarks
 
 
+
 The BINARY_DATA structure is used in the 
     <b>ParameterData</b> member of the 
-    <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-    NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    NDIS_CONFIGURATION_PARAMETER</a> structure.
+
 
 
 
@@ -93,9 +95,11 @@ The BINARY_DATA structure is used in the
 
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20BINARY_DATA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20BINARY_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

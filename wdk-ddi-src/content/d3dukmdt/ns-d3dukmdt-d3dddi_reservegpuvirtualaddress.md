@@ -7,8 +7,8 @@ old-location: display\d3dddi_reservegpuvirtualaddress.htm
 old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddi_reservegpuvirtualaddress, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDI_RESERVEGPUVIRTUALADDRESS
 product: Windows
 targetos: Windows
@@ -87,46 +87,6 @@ typedef struct D3DDDI_RESERVEGPUVIRTUALADDRESS {
 
 
 
-### -field hPagingQueue
-
-Paging queue to synchronize the operation on.
-
-
-### -field hAdapter
-
-DirectX graphics adapter handle. 
-
-
-### -field ReservationType
-
-Specifies the virtual address reservation type.
-
-
-### -field Reserved0
-
-This member is reserved and should be set to zero.
-
-
-### -field DriverProtection
-
-Specifies the driver-specific protection
-
-
-### -field Reserved1
-
-This member is reserved and should be set to zero.
-
-
-### -field PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
-### -field Reserved2
-
-This member is reserved and should be set to zero.
-
-
 ### -field BaseAddress
 
 (Optional) If <b>non-NULL</b>, the video memory manager will attempt to use this address as the base address for the reserved range. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is <b>non-NULL</b>, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
@@ -166,13 +126,55 @@ Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 [out] The reserved virtual address.
 
 
+#### - DriverProtection
+
+Specifies the driver-specific protection
+
+
+#### - PagingFenceValue
+
+Paging fence identifier for synchronization
+
+
+#### - ReservationType
+
+Specifies the virtual address reservation type.
+
+
+#### - Reserved0
+
+This member is reserved and should be set to zero.
+
+
+#### - Reserved1
+
+This member is reserved and should be set to zero.
+
+
+#### - Reserved2
+
+This member is reserved and should be set to zero.
+
+
+#### - hAdapter
+
+DirectX graphics adapter handle. 
+
+
+#### - hPagingQueue
+
+Paging queue to synchronize the operation on.
+
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_RESERVEGPUVIRTUALADDRESS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_RESERVEGPUVIRTUALADDRESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

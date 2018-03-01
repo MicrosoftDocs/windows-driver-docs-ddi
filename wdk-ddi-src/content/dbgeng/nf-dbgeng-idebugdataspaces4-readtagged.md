@@ -7,8 +7,8 @@ old-location: debugger\readtagged.htm
 old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, dbgeng/IDebugDataSpaces3::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces4, ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged method [Windows Debugging], IDebugDataSpaces3::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged,IDebugDataSpaces4.ReadTagged, dbgeng/IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces3.ReadTagged
 -	IDebugDataSpaces4.ReadTagged
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadTagged method
@@ -100,6 +100,7 @@ Receives the total size in bytes of the data specified by <i>Tag</i>.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +128,16 @@ No data identified by <i>Tag</i> could be found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 Some debugger sessions have arbitrary additional data available.  For example, when a dump file is created, additional dump information files containing extra information may also be created.  This additional data is tagged with a global unique identifier and can only be retrieved via the tag.
@@ -142,17 +146,24 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces3::ReadTagged method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces3::ReadTagged method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferaction_2.htm
 old-project: netvista
 ms.assetid: 2acfaeab-c196-46a9-87a4-c44306b46ad1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CALLMEDIAOFFERACTION_MAX, netvista.rilcallmediaofferaction_2, RILCALLMEDIAOFFERACTION, rilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, rilapitypes/RILCALLMEDIAOFFERACTION, rilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_ACCEPT, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, rilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, rilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, rilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_REJECT, RIL_CALLMEDIAOFFERACTION_ASK
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIAOFFERACTION, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERACTION_ACCEPT, RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_MAX, RIL_CALLMEDIAOFFERACTION_REJECT, netvista.rilcallmediaofferaction_2, rilapitypes/RILCALLMEDIAOFFERACTION, rilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, rilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, rilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, rilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, rilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, rilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIAOFFERACTION
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum _RILCALLMEDIAOFFERACTION {
 ### -field RIL_CALLMEDIAOFFERACTION_NONE
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_ERROR
-
 
 
 ### -field RIL_CALLMEDIAOFFERACTION_REJECT
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_ASK
-
 
 
 ### -field RIL_CALLMEDIAOFFERACTION_ACCEPT
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_CANCEL
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_MAX
-
 

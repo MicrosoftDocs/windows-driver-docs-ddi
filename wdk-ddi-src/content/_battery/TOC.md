@@ -28,3 +28,5 @@
 ### [UPSStop function](../upssvc/nf-upssvc-upsstop.md)
 ### [UPSTurnOff function](../upssvc/nf-upssvc-upsturnoff.md)
 ### [UPSWaitForStateChange function](../upssvc/nf-upssvc-upswaitforstatechange.md)
+## [Wdm.h](../wdm/index.md)
+### [BATTERY_REPORTING_SCALE structure](../wdm/ns-wdm-battery_reporting_scale.md)

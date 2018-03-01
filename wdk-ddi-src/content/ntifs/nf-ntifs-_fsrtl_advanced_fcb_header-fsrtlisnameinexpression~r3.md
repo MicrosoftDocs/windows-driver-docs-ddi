@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisnameinexpression.htm
 old-project: ifsk
 ms.assetid: 8d54bf46-dc70-47a1-a391-6e32a7800a9e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlIsNameInExpression routine [Installable File System Drivers], ntifs/FsRtlIsNameInExpression, fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, FsRtlIsNameInExpression, ifsk.fsrtlisnameinexpression
+ms.date: 2/16/2018
+ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlIsNameInExpression
 product: Windows
 targetos: Windows
@@ -93,14 +93,18 @@ Optional pointer to uppercase character table to use for case-insensitive matchi
 ## -returns
 
 
+
 <b>FsRtlIsNameInExpression</b> returns <b>TRUE</b> if the string matches the pattern, <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 The following wildcard characters can be used in the pattern string.
+
 <table>
 <tr>
 <th>Wildcard character</th>
@@ -156,23 +160,32 @@ Matches zero or more characters until encountering and matching the final . in t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 <div class="alert"><b>Note</b>  
      If only one of the string parameters has a length of zero, <b>FsRtlIsNameInExpression</b> returns <b>FALSE</b>. This means that "*" does not match a null string. <p class="note">If both parameters are null strings, <b>FsRtlIsNameInExpression</b> returns <b>TRUE</b>.
 
-</div><div> </div>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</div>
+<div> </div>
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsNameInExpression routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsNameInExpression routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

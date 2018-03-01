@@ -7,8 +7,8 @@ old-location: netvista\fwpsredirecthandlecreate0.htm
 old-project: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FwpsRedirectHandleCreate0, fwpsk/FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], netvista.fwpsredirecthandlecreate0
+ms.date: 2/16/2018
+ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsRedirectHandleCreate0
 product: Windows
 targetos: Windows
@@ -90,8 +90,10 @@ A pointer to the variable that receives the handle.
 ## -returns
 
 
+
 The 
      <b>FwpsRedirectHandleCreate0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +122,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the <b>FwpsRedirectHandleCreate0</b> function to create a handle that can be used to redirect connections.
@@ -134,23 +139,29 @@ For more information about redirection, see <a href="https://docs.microsoft.com/
 Your callout driver should call <b>FwpsRedirectHandleCreate0</b> once and cache the handle so that it can reuse the handle.
 
 Before an Application Layer Enforcement (ALE) connect redirection callout can redirect connections to a local process, it must  obtain a redirect handle with the <b>FwpsRedirectHandleCreate0</b> function and put the handle in the <a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a> structure. The callout modifies the structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> for the ALE connect redirect layers.
-    
 
 After a callout driver has finished using a redirect handle, it must call the <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a> function to destroy the handle. 
 
 
 
+
 ## -see-also
-
-<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
-
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
- 
+
+
+<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsRedirectHandleCreate0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsRedirectHandleCreate0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

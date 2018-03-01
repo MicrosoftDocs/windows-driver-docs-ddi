@@ -7,8 +7,8 @@ old-location: netvista\rilsetcallforwardingstatusparams.htm
 old-project: netvista
 ms.assetid: 7863a72d-e3cc-4627-a956-7e5a080c4aad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS, netvista.rilsetcallforwardingstatusparams, RILSETCALLFORWARDINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETCALLFORWARDINGSTATUSPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallforwardingstatusparams, ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSETCALLFORWARDINGSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS
+req.typenames: RILSETCALLFORWARDINGSTATUSPARAMS, *LPRILSETCALLFORWARDINGSTATUSPARAMS
 ---
 
 # RILSETCALLFORWARDINGSTATUSPARAMS structure
@@ -74,19 +74,14 @@ typedef struct _RILSETCALLFORWARDINGSTATUSPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwReason
-
 
 
 ### -field fAllClasses
 
 
-
 ### -field dwInfoClasses
 
 
-
 ### -field dwStatus
-
 

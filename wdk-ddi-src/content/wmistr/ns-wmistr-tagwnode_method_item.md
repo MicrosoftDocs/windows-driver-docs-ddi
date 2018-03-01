@@ -7,8 +7,8 @@ old-location: kernel\wnode_method_item.htm
 old-project: kernel
 ms.assetid: c5e1af58-a00d-4801-b591-fc9ec9b50502
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], wmistr/WNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, tagWNODE_METHOD_ITEM, WNODE_METHOD_ITEM, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, *PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_method_item
+ms.date: 2/24/2018
+ms.keywords: "*PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_METHOD_ITEM, WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_method_item, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, tagWNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, wmistr/WNODE_METHOD_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wmistr.h
-apiname: 
+api_name:
 -	WNODE_METHOD_ITEM
 product: Windows
 targetos: Windows
@@ -79,11 +79,6 @@ typedef struct tagWNODE_METHOD_ITEM {
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
-### -field _WNODE_HEADER
-
- 
-
-
 ### -field OffsetInstanceName
 
 Indicates the offset in bytes from the beginning of this structure to the dynamic instance name of this instance, aligned on a USHORT boundary. This member is valid only if WNODE_FLAG_STATIC_INSTANCE_NAMES is clear in <b>WnodeHeader.Flags</b>. If the data block was registered with static instance names, WMI ignores <b>OffsetInstanceName</b>.
@@ -117,9 +112,11 @@ Contains additional data, including the dynamic instance name if any, and the in
 ## -remarks
 
 
+
 WMI passes a <b>WNODE_METHOD_ITEM</b> with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request to specify a method to run in an instance of a data block, plus any input data required by the method.
 
 If a method generates output, a driver overwrites the input data with the output at <b>DataBlockOffset</b> in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>, and sets <b>SizeDataBlock</b> in the <b>WNODE_METHOD_ITEM</b> to specify the size of the output data.
+
 
 
 
@@ -127,9 +124,11 @@ If a method generates output, a driver overwrites the input data with the output
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_METHOD_ITEM structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_METHOD_ITEM structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

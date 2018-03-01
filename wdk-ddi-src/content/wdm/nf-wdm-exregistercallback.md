@@ -7,8 +7,8 @@ old-location: kernel\exregistercallback.htm
 old-project: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ExRegisterCallback, ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], kernel.exregistercallback, k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml
+ms.date: 2/24/2018
+ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, wdm/ExRegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ExRegisterCallback
 product: Windows
 targetos: Windows
@@ -78,6 +78,7 @@ A pointer to a callback object obtained from the <a href="..\wdm\nf-wdm-excreate
 ### -param CallbackFunction [in]
 
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -92,9 +93,28 @@ A pointer to a driver-implemented callback routine, which must be nonpageable. T
     );</pre>
 </td>
 </tr>
-</table></span></div>The callback routine parameters are as follows:
+</table></span></div>
+The callback routine parameters are as follows:
 
 
+
+
+
+#### CallbackContext
+
+A pointer to a driver-supplied context area as specified in the <i>CallbackContext</i> parameter of <b>ExRegisterCallback</b>.
+
+
+
+#### Argument1
+
+A pointer to a parameter defined by the callback object.
+
+
+
+#### Argument2
+
+A pointer to a parameter defined by the callback object.
 
 
 ### -param CallbackContext [in, optional]
@@ -102,29 +122,17 @@ A pointer to a driver-implemented callback routine, which must be nonpageable. T
 A pointer to a caller-defined structure of data items to be passed as the context parameter of the callback routine each time it is called. Typically the context is part of the caller's device object extension.
 
 
-##### - CallbackFunction.CallbackContext
-
-A pointer to a driver-supplied context area as specified in the <i>CallbackContext</i> parameter of <b>ExRegisterCallback</b>.
-
-
-##### - CallbackFunction.Argument1
-
-A pointer to a parameter defined by the callback object.
-
-
-##### - CallbackFunction.Argument2
-
-A pointer to a parameter defined by the callback object.
-
-
 ## -returns
+
 
 
 <b>ExRegisterCallback</b> returns a pointer to a callback registration handle that should be treated as opaque and reserved for system use. This pointer is <b>NULL</b> if <b>ExRegisterCallback</b> completes with an error.
 
 
 
+
 ## -remarks
+
 
 
 A driver calls <b>ExRegisterCallback</b> to register a callback routine with a specified callback object.
@@ -145,21 +153,32 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
-
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
 <a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
 
+
+
+<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+
+
+
+<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+
 
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExRegisterCallback routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExRegisterCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\ioclearactivityidthread.htm
 old-project: kernel
 ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], IoClearActivityIdThread, ntddk/IoClearActivityIdThread, kernel.ioclearactivityidthread
+ms.date: 2/24/2018
+ms.keywords: IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.ioclearactivityidthread, ntddk/IoClearActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoClearActivityIdThread
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoClearActivityIdThread function
@@ -75,6 +75,8 @@ The activity ID that was previously set on the thread.
 ## -returns
 
 
+
 None.
+
 
 

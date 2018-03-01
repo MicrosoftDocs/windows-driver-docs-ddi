@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_process_alpha_blending.htm
 old-project: display
 ms.assetid: 58E7A600-1CA9-40F8-8F37-CA7A0834B3F4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_process_alpha_blending, d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, display.d3d12ddi_video_process_alpha_blending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
 product: Windows
 targetos: Windows
@@ -81,10 +81,12 @@ The planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaqu
 ## -remarks
 
 
+
 For each pixel, the destination color value is computed as the following: <pre class="syntax" xml:space="preserve"><code>Cd = Cs * (As * Ap * Ae) + Cd * (1.0 - As * Ap * Ae)</code></pre>
 
 
 The variables in this equation are as follows:
+
 <ul>
 <li>
 Cd. The color value of the destination pixel.
@@ -107,4 +109,5 @@ Ae. The palette-entry alpha value, or 1.0.
 
 </li>
 </ul>
+
 

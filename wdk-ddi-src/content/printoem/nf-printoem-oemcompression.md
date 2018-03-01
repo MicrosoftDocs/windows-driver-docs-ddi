@@ -7,8 +7,8 @@ old-location: print\oemcompression.htm
 old-project: print
 ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemcompression, OEMCompression, printoem/OEMCompression, OEMCompression function [Print Devices], print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml
+ms.date: 2/23/2018
+ms.keywords: OEMCompression, OEMCompression function [Print Devices], print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMCompression
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ INT APIENTRY OEMCompression(
 ### -param pdevobj
 
 
-
 ### -param pInBuf [in]
-
 
 
 ### -param pOutBuf [out]
 
 
-
 ### -param dwInLen
 
 
-
 ### -param dwOutLen
-
 

@@ -7,8 +7,8 @@ old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
 old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.iksdatatypecompletion_kscompletemediatype, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, KsCompleteMediaType
+ms.date: 2/23/2018
+ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, KsCompleteMediaType,IKsDataTypeCompletion.KsCompleteMediaType, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ksproxy.h
-apiname: 
+api_name:
 -	IKsDataTypeCompletion.KsCompleteMediaType
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samp
 ## -returns
 
 
+
 Returns NOERROR if successful and the media type was completed; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsCompleteMediaType</b> method is primarily used for video media types, in which the <b>biSizeImage</b> member of the <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure is known only to the driver, because of the private compression formats supported. If required, the data type handler can query the underlying KS filter in order to complete the given media type. 
@@ -102,15 +105,20 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
+## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDataTypeCompletion::KsCompleteMediaType method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsDataTypeCompletion::KsCompleteMediaType method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

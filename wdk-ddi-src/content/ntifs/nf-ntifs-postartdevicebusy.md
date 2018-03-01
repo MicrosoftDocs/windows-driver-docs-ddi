@@ -7,8 +7,8 @@ old-location: kernel\postartdevicebusy.htm
 old-project: kernel
 ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/PoStartDeviceBusy, PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, kernel.postartdevicebusy
+ms.date: 2/24/2018
+ms.keywords: PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.postartdevicebusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, wdm/PoStartDeviceBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PoStartDeviceBusy
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to an idle counter. This is a pointer value that was previously return
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>PoStartDeviceBusy</b> and <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a> routines mark the start and end of a time period in which a device is busy. Each call to <b>PoStartDeviceBusy</b> must be followed by a corresponding call to <b>PoEndDeviceBusy</b>.
@@ -90,17 +93,24 @@ Rather than use the <b>PoStartDeviceBusy</b> and <b>PoEndDeviceBusy</b> routines
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
 
+
+
+<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+
+
+
 <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoStartDeviceBusy routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoStartDeviceBusy routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

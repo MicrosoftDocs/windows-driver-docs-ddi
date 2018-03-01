@@ -7,8 +7,8 @@ old-location: debugger\debugcommandexception.htm
 old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DebugCommandException, debugger.debugcommandexception, dbgeng/DebugCommandException, DebugCommandException function [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	DebugCommandException
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # DebugCommandException function
@@ -87,6 +87,8 @@ A pointer to an argument.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

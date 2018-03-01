@@ -7,8 +7,8 @@ old-location: netvista\dot11extsetexcludeunencrypted.htm
 old-project: netvista
 ms.assetid: b6482124-0d65-4953-8a8f-a09c0a88d830
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extsetexcludeunencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetExcludeUnencrypted, DOT11EXT_SET_EXCLUDE_UNENCRYPTED, DOT11EXT_SET_EXCLUDE_UNENCRYPTED, wlanihv/Dot11ExtSetExcludeUnencrypted, Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_SET_EXCLUDE_UNENCRYPTED, Dot11ExtSetExcludeUnencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml, netvista.dot11extsetexcludeunencrypted, wlanihv/Dot11ExtSetExcludeUnencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtSetExcludeUnencrypted
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -89,26 +89,30 @@ A Boolean value that, if set to <b>TRUE</b>, configures the WLAN adapter to excl
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 If the WLAN adapter is enabled to exclude unencrypted packets, the station must exempt received
     packets that match an entry in the station's current EtherType exemption list. The IHV Extensions DLL
     specifies the EtherType exemption list through calls to the 
-    <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
-    Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
+    Dot11ExtSetEtherTypeHandling</a> function.
 
 A call to the 
     <b>Dot11ExtSetExcludeUnencrypted</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_exclude_unencrypted" tabindex="0">
-    OID_DOT11_EXCLUDE_UNENCRYPTED</mshelp:link> object identifier (OID) to the Native 802.11 miniport driver that
+    <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">
+    OID_DOT11_EXCLUDE_UNENCRYPTED</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
+
 
 
 
@@ -116,13 +120,19 @@ A call to the
 
 <a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
- 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_EXCLUDE_UNENCRYPTED callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_EXCLUDE_UNENCRYPTED callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\getsourceentriesbyline.htm
 old-project: debugger
 ms.assetid: 02ab63fe-0c59-480c-a333-a9b14d83ad68
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, IDebugSymbols3::GetSourceEntriesByLine, GetSourceEntriesByLine, debugger.getsourceentriesbyline, IDebugSymbols3, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntriesByLine
+ms.date: 2/23/2018
+ms.keywords: GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByLine,IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols3.GetSourceEntriesByLine
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourceEntriesByLine method
@@ -85,6 +85,7 @@ Specifies the source file.  The symbols for each module in the target are querie
 ### -param Flags [in]
 
 Specifies bit flags that control the behavior of this method.  <i>Flags</i> can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -132,7 +133,8 @@ Only return at most one result.  If DEBUG_GSEL_ALLOW_LOWER or DEBUG_GSEL_ALLOW_H
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This has all the flags in the previous table turned off.
 
@@ -153,6 +155,7 @@ Specifies the number of entries in the <i>Entries</i> array.
 
 
 
+
 #### - EntriesAvailable [out, optional]
 
 Receives the number of locations that match the query found in the target's memory.
@@ -161,7 +164,9 @@ Receives the number of locations that match the query found in the target's memo
 ## -returns
 
 
+
 These methods can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -200,11 +205,14 @@ The query yielded no results.  This includes the case where the symbol informati
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 These methods can be used by debugger applications to fetch locations in the target's memory for setting breakpoints or matching source code with disassembled instructions.  For example, setting the flags DEBUG_GSEL_ALLOW_HIGHER and DEBUG_GSEL_NEAREST_ONLY will return the target's memory location for the first piece of code starting at the specified line.
@@ -213,17 +221,24 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetSourceEntriesByLine method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetSourceEntriesByLine method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

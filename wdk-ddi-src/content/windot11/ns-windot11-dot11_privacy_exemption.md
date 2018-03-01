@@ -7,8 +7,8 @@ old-location: netvista\dot11_privacy_exemption.htm
 old-project: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION, netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_PRIVACY_EXEMPTION
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION
+req.typenames: DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,21 @@ The type of exemption for the specified EtherType. The following exemption types
 
 
 
+
+#### DOT11_EXEMPT_ALWAYS
+
+The 802.11 station must discard the received packet if the Protected Frame subfield of the Frame
+       Control field in the 802.11 MAC header is set to one.
+
+
+
+#### DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
+
+The 802.11 station must discard the received packet if a key-mapping key for the source MAC
+       address is available and the Protected Frame subfield of the Frame Control field in the 802.11 MAC
+       header is set to zero.
+
+
 ### -field usExemptionPacketType
 
 The type of packet that the exemption for the specified EtherType applies to. The following packet
@@ -93,53 +108,47 @@ The type of packet that the exemption for the specified EtherType applies to. Th
 
 
 
-##### - usExemptionPacketType.DOT11_EXEMPT_BOTH
 
-Exempt all packet types.
-
-
-##### - usExemptionPacketType.DOT11_EXEMPT_UNICAST
+#### DOT11_EXEMPT_UNICAST
 
 Exempt only unicast packets.
 
 
-##### - usExemptionPacketType.DOT11_EXEMPT_MULTICAST
+
+#### DOT11_EXEMPT_MULTICAST
 
 Exempt only multicast or broadcast packets.
 
 
-##### - usExemptionActionType.DOT11_EXEMPT_ALWAYS
 
-The 802.11 station must discard the received packet if the Protected Frame subfield of the Frame
-       Control field in the 802.11 MAC header is set to one.
+#### DOT11_EXEMPT_BOTH
 
-
-##### - usExemptionActionType.DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
-
-The 802.11 station must discard the received packet if a key-mapping key for the source MAC
-       address is available and the Protected Frame subfield of the Frame Control field in the 802.11 MAC
-       header is set to zero.
+Exempt all packet types.
 
 
 ## -remarks
 
 
+
 The 802.11 station's packet exemption list if configured through a set request of 
-    <mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-    OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>. For each packet the 802.11 station receives, it will apply the
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>. For each packet the 802.11 station receives, it will apply the
     decryption exemption specified by the list entry with a 
     <b>usEtherType</b> value that matches the EtherType of the packet.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PRIVACY_EXEMPTION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PRIVACY_EXEMPTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

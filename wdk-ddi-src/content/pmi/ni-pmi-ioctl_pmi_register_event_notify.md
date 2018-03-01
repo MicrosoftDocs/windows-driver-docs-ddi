@@ -7,8 +7,8 @@ old-location: powermeter\ioctl_pmi_register_event_notify.htm
 old-project: powermeter
 ms.assetid: 0d79a25b-846d-490d-9e04-d319fa860761
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: powermeter.ioctl_pmi_register_event_notify, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], IOCTL_PMI_REGISTER_EVENT_NOTIFY, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_PMI_REGISTER_EVENT_NOTIFY, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, powermeter.ioctl_pmi_register_event_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pmi.h
-apiname: 
+api_name:
 -	IOCTL_PMI_REGISTER_EVENT_NOTIFY
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PMI_MEASUREMENT_UNIT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -123,7 +127,9 @@ The WDM driver that supports the PMI interface has completed the IOCTL request s
 ## -remarks
 
 
+
 PMI creates an event notification queue for each initiator that opens the device instance for a power meter by using the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function. A separate queue is created for each caller's connection to a device instance. The following points apply to the event notification queue:
+
 <ul>
 <li>
 When PMI creates the event notification queue, the queue is empty. After the queue is created, PMI sends events to the caller after the caller has registered for event notification by using the <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request. 
@@ -137,25 +143,35 @@ If the event notification queue is empty when the caller registers, the <b>IOCTL
 After the event notification queue is created, the queue will contain unsent events for the caller. This prevents callers from missing events during the interval between when the driver processes one event and the caller registers for another. If there are events in the caller's queue, they are sent immediately after the caller registers by using an <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request.
 
 </li>
-</ul>When PMI sends a power meter event to the caller, it completes the <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request. The data that describes the event is contained within the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure in the output buffer that is referenced by the <b>MdlAddress</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. The <b>EventType </b>member of this structure contains information about the power meter event's type. For example, if <b>EventType</b> is set to <b>PmiConfigurationChangedEvent</b>, the power meter's configuration has changed. In this case, the caller can query the power meter's new configuration by using an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> request.
+</ul>
+When PMI sends a power meter event to the caller, it completes the <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request. The data that describes the event is contained within the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure in the output buffer that is referenced by the <b>MdlAddress</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. The <b>EventType </b>member of this structure contains information about the power meter event's type. For example, if <b>EventType</b> is set to <b>PmiConfigurationChangedEvent</b>, the power meter's configuration has changed. In this case, the caller can query the power meter's new configuration by using an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> request.
 
 For more information about the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> and <b>CloseFile</b> functions, refer to the Windows SDK documentation.
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20IOCTL_PMI_REGISTER_EVENT_NOTIFY control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20IOCTL_PMI_REGISTER_EVENT_NOTIFY control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

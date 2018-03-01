@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_SMS_FORMAT
-title: _WWAN_SMS_FORMAT
+title: "_WWAN_SMS_FORMAT"
 author: windows-driver-content
 description: The WWAN_SMS_FORMAT enumeration lists different Short Message Service (SMS) formats.
 old-location: netvista\wwan_sms_format.htm
 old-project: netvista
 ms.assetid: fb583ded-8292-4486-8e85-3d3039611d14
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, PWWAN_SMS_FORMAT, _WWAN_SMS_FORMAT, WwanSmsFormatCdma, wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatPdu, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatCdma, wwan/PWWAN_SMS_FORMAT, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatReserved2, netvista.wwan_sms_format, WwanSmsFormatReserved1, WwanSmsFormatPdu, WwanSmsFormatReserved2, wwan/WwanSmsFormatMax, WWAN_SMS_FORMAT, WwanSmsFormatMax, wwan/WwanSmsFormatReserved1, wwan/WwanSmsFormatReserved0, *PWWAN_SMS_FORMAT, WwanSmsFormatReserved0
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FORMAT, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, WwanSmsFormatCdma, WwanSmsFormatMax, WwanSmsFormatPdu, WwanSmsFormatReserved0, WwanSmsFormatReserved1, WwanSmsFormatReserved2, _WWAN_SMS_FORMAT, netvista.wwan_sms_format, wwan/PWWAN_SMS_FORMAT, wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatCdma, wwan/WwanSmsFormatMax, wwan/WwanSmsFormatPdu, wwan/WwanSmsFormatReserved0, wwan/WwanSmsFormatReserved1, wwan/WwanSmsFormatReserved2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_SMS_FORMAT
 product: Windows
 targetos: Windows
@@ -113,9 +113,11 @@ This value is reserved. Do not use.
 ## -remarks
 
 
+
 CDMA-based devices support only 
     <b>WwanSmsFormatCdma</b>. The 
     <b>WwanSmsFormatCdma</b> format is not applicable for GSM-based devices.
+
 
 
 
@@ -123,19 +125,31 @@ CDMA-based devices support only
 
 <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
- 
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_FORMAT enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_FORMAT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

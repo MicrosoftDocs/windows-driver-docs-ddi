@@ -1,14 +1,14 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_DEST
-title: _POS_CX_EVENT_DEST
+title: "_POS_CX_EVENT_DEST"
 author: windows-driver-content
 description: The POS_CX_EVENT_DEST defines which applications receive this event.
 old-location: pos\pos_cx_event_dest.htm
 old-project: pos
 ms.assetid: 63D16B9E-82CC-4171-B80A-D0FA6F2066E2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: POS_CX_EVENT_DEST enumeration, poscx/POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_INVALID, POS_CX_EVENT_DEST_ALL, _POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST_DEVICE_OWNER, pos.pos_cx_event_dest, POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_ALL, POS_CX_EVENT_DEST_INVALID
+ms.date: 2/23/2018
+ms.keywords: POS_CX_EVENT_DEST, POS_CX_EVENT_DEST enumeration, POS_CX_EVENT_DEST_ALL, POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST_INVALID, _POS_CX_EVENT_DEST, pos.pos_cx_event_dest, poscx/POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_ALL, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, poscx/POS_CX_EVENT_DEST_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	POS_CX_EVENT_DEST
 product: Windows
 targetos: Windows

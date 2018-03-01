@@ -7,8 +7,8 @@ old-location: kernel\kerestorefloatingpointstate.htm
 old-project: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], KeRestoreFloatingPointState, kernel.kerestorefloatingpointstate, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, wdm/KeRestoreFloatingPointState
+ms.date: 2/24/2018
+ms.keywords: KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeRestoreFloatingPointState
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ## -returns
 
 
+
 <b>KeRestoreFloatingPointState</b> returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <b>KeRestoreFloatingPointState</b> is the reciprocal of <b>KeSaveFloatingPointState</b>. 
@@ -88,6 +91,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 Any routine that calls <b>KeSaveFloatingPointState</b><i> must</i> call <b>KeRestoreFloatingPointState</b> before that routine returns control, and it must be running at the same IRQL as that from which the preceding call to <b>KeSaveFloatingPointState</b> occurred. Failure to meet either of these conditions causes a system bug check.
 
 Kernel-mode driver code must ensure that calls to <b>KeSaveFloatingPointState</b> and <b>KeRestoreFloatingPointState</b> are properly nested. This is required so that, at each nesting level, the state that was restored by the <b>KeRestoreFloatingPointState</b> call is the same state that was saved by the corresponding <b>KeSaveFloatingPointState</b> call. To ensure proper nesting, kernel-mode driver code must follow these rules:
+
 <ul>
 <li>
 A <b>KeRestoreFloatingPointState</b> call that restores a saved state must be running at the same IRQL as the <b>KeSaveFloatingPointState</b> call that saved the state.
@@ -108,15 +112,20 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRestoreFloatingPointState routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRestoreFloatingPointState routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

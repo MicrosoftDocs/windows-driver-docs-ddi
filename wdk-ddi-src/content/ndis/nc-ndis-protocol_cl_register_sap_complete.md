@@ -7,8 +7,8 @@ old-location: netvista\protocolclregistersapcomplete.htm
 old-project: netvista
 ms.assetid: b0a2a224-3353-4f20-b14f-ed5d633a6ead
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolclregistersapcomplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], ProtocolClRegisterSapComplete, PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE, ndis/ProtocolClRegisterSapComplete, condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml
+ms.date: 2/16/2018
+ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	ProtocolClRegisterSapComplete
 product: Windows
 targetos: Windows
@@ -88,6 +88,40 @@ Specifies the final status of the client's call to
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+The SAP has been registered both with NDIS and the call manager, which will subsequently call 
+       <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+       NdisCmDispatchIncomingCall</a> whenever it receives an incoming call offer directed to the given
+       SAP, thereby causing NDIS to call the client's 
+       <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+       ProtocolClIncomingCall</a> function.
+
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS or the call manager could not allocate and/or initialize necessary resources to register
+       and maintain the SAP.
+
+
+
+#### NDIS_STATUS_INVALID_DATA
+
+The client supplied an invalid specification at 
+       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
+       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+       for validation.
+
+
+
+#### NDIS_STATUS_XXX
+
+The call manager encountered an error in attempting to register the given SAP and NDIS
+       propagated this CM-determined failure status to the client.
+
+
 ### -param ProtocolSapContext [in]
 
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
@@ -115,44 +149,17 @@ If
      <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>.
 
 
-##### - Status.NDIS_STATUS_INVALID_DATA
-
-The client supplied an invalid specification at 
-       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
-       for validation.
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS or the call manager could not allocate and/or initialize necessary resources to register
-       and maintain the SAP.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager encountered an error in attempting to register the given SAP and NDIS
-       propagated this CM-determined failure status to the client.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The SAP has been registered both with NDIS and the call manager, which will subsequently call 
-       <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
-       NdisCmDispatchIncomingCall</b></mshelp:link> whenever it receives an incoming call offer directed to the given
-       SAP, thereby causing NDIS to call the client's 
-       <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
-       ProtocolClIncomingCall</i></mshelp:link> function.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls 
@@ -163,10 +170,10 @@ NDIS calls
     <b>NdisClRegisterSap</b>.
 
 To receive incoming calls through a connection-oriented NIC, a client's 
-    <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-    ProtocolCoAfRegisterNotify</i></mshelp:link> or 
-    <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-    ProtocolClOpenAfCompleteEx</i></mshelp:link> function usually registers one or more SAPs with the call manager.
+    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    ProtocolCoAfRegisterNotify</a> or 
+    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager.
 
 To register each SAP, the client calls 
     <b>NdisClRegisterSap</b>, passing in the 
@@ -192,9 +199,12 @@ The format of a SAP is specific to the call manager. If the call manager does no
 A client can receive incoming calls on a SAP even while SAP registration is still pending, that is,
     before its 
     <i>ProtocolClRegisterSapComplete</i> function is called.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolClRegisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolClRegisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClRegisterSapComplete</i> function that is named "MyClRegisterSapComplete", use the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -204,7 +214,9 @@ For example, to define a <i>ProtocolClRegisterSapComplete</i> function that is n
 <pre>PROTOCOL_CL_REGISTER_SAP_COMPLETE MyClRegisterSapComplete;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -222,42 +234,68 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

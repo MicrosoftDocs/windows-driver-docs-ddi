@@ -7,8 +7,8 @@ old-location: debugger\returninputwide.htm
 old-project: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.returninputwide, ReturnInputWide method [Windows Debugging], IDebugControl4 interface, ReturnInputWide method [Windows Debugging], IDebugControl4, IDebugControl4 interface [Windows Debugging], ReturnInputWide method, IDebugControl4::ReturnInputWide, dbgeng/IDebugControl4::ReturnInputWide, ReturnInputWide
+ms.date: 2/23/2018
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], ReturnInputWide method, IDebugControl4::ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging], IDebugControl4 interface, ReturnInputWide,IDebugControl4.ReturnInputWide, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl4.ReturnInputWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::ReturnInputWide method
@@ -75,6 +75,7 @@ Specifies the input string being sent to the engine.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,15 +103,19 @@ The engine had already received the input it requested. The input string in <i>B
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For an overview of input in the debugger engine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

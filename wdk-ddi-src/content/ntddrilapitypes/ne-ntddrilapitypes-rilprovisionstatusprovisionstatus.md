@@ -7,8 +7,8 @@ old-location: netvista\rilprovisionstatusprovisionstatus.htm
 old-project: netvista
 ms.assetid: ed7fc20a-b5d5-4dc6-ab95-5ee9258dbdae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_BIP_STARTED, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_END, ntddrilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, RIL_PROVISIONSTAT_BIP_SUCCESS, netvista.rilprovisionstatusprovisionstatus, RIL_PROVISIONSTAT_SUCCESS, ntddrilapitypes/RIL_PROVISIONSTAT_MAX, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_STARTED, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_FAILURE_RETRY, ntddrilapitypes/RIL_PROVISIONSTAT_SUCCESS, ntddrilapitypes/RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_MAX, RILPROVISIONSTATUSPROVISIONSTATUS
+ms.date: 2/16/2018
+ms.keywords: RILPROVISIONSTATUSPROVISIONSTATUS, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_BIP_STARTED, RIL_PROVISIONSTAT_BIP_SUCCESS, RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_FAILURE_RETRY, RIL_PROVISIONSTAT_MAX, RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_SUCCESS, netvista.rilprovisionstatusprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_STARTED, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_END, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, ntddrilapitypes/RIL_PROVISIONSTAT_MAX, ntddrilapitypes/RIL_PROVISIONSTAT_NEEDED, ntddrilapitypes/RIL_PROVISIONSTAT_SUCCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPROVISIONSTATUSPROVISIONSTATUS
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILPROVISIONSTATUSPROVISIONSTATUS {
 ### -field RIL_PROVISIONSTAT_STARTED
 
 
-
 ### -field RIL_PROVISIONSTAT_SUCCESS
-
 
 
 ### -field RIL_PROVISIONSTAT_FAILURE_END
 
 
-
 ### -field RIL_PROVISIONSTAT_FAILURE_RETRY
-
 
 
 ### -field RIL_PROVISIONSTAT_NEEDED
 
 
-
 ### -field RIL_PROVISIONSTAT_BIP_STARTED
-
 
 
 ### -field RIL_PROVISIONSTAT_BIP_SUCCESS
 
 
-
 ### -field RIL_PROVISIONSTAT_MAX
-
 

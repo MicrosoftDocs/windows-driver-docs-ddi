@@ -7,8 +7,8 @@ old-location: netvista\rilchangeuicclockpasswordparams_2.htm
 old-project: netvista
 ms.assetid: 24c1ae3a-31e7-4b85-8c64-f376c45cb4c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], RILCHANGEUICCLOCKPASSWORDPARAMS, netvista.rilchangeuicclockpasswordparams_2, *LPRILCHANGEUICCLOCKPASSWORDPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams_2, rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCHANGEUICCLOCKPASSWORDPARAMS
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct _RILCHANGEUICCLOCKPASSWORDPARAMS {
 ### -field lockCredential
 
 
-
 ### -field szNewPassword
-
 

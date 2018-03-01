@@ -498,6 +498,7 @@
 ### [D3D11_1DDI_VIDEO_COLOR_YCbCrA structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md)
 ### [D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md)
 ### [D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md)
+### [D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc.md)
 ### [D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_info.md)
 ### [D3D11_1DDI_VIDEO_DECODER_CONFIG structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md)
 ### [D3D11_1DDI_VIDEO_DECODER_DESC structure](../d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md)

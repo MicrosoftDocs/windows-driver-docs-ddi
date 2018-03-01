@@ -1,14 +1,14 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerCapabilitiesType
-title: _PosBarcodeScannerCapabilitiesType
+title: "_PosBarcodeScannerCapabilitiesType"
 author: windows-driver-content
 description: This structure defines the type of scanner capabilities that a device supports such as whether the device supports statistics reporting and image preview.
 old-location: pos\posbarcodescannercapabilitiestype.htm
 old-project: pos
 ms.assetid: 4387e6f4-c980-4339-a89c-0e71c5a79e2c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype, _PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, _PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname: 
+api_name:
 -	PosBarcodeScannerCapabilitiesType
 product: Windows
 targetos: Windows

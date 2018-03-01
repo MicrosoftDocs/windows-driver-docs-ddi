@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEPERIODICFRAMENOTIFICATION
-title: _DXGKARG_CREATEPERIODICFRAMENOTIFICATION
+title: "_DXGKARG_CREATEPERIODICFRAMENOTIFICATION"
 author: windows-driver-content
 description: The arguments needed to create a periodic frame notification.
 old-location: display\dxgkarg_createperiodicframenotification.htm
 old-project: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_createperiodicframenotification, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, *INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION
+ms.date: 2/24/2018
+ms.keywords: "*INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows

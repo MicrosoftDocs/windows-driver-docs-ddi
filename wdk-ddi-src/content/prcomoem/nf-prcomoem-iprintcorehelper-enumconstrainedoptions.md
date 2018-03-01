@@ -7,8 +7,8 @@ old-location: print\iprintcorehelper_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, IPrintCoreHelper, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, EnumConstrainedOptions,IPrintCoreHelper.EnumConstrainedOptions, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintCoreHelper.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to an array of ANSI character strings. When <b>IPrintCoreHelper::EnumC
 ## -returns
 
 
+
 <b>IPrintCoreHelper::EnumConstrainedOptions</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,19 +168,29 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelper::EnumConstrainedOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelper::EnumConstrainedOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

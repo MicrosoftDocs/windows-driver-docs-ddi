@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWCONTEXTFLAGS
-title: _D3DDDI_CREATEHWCONTEXTFLAGS
+title: "_D3DDDI_CREATEHWCONTEXTFLAGS"
 author: windows-driver-content
 description: A structure used to create hardware context flags.
 old-location: display\d3dddi_createhwcontextflags.htm
 old-project: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, _D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], display.d3dddi_createhwcontextflags, D3DDDI_CREATEHWCONTEXTFLAGS
+ms.date: 2/24/2018
+ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	D3DDDI_CREATEHWCONTEXTFLAGS
 product: Windows
 targetos: Windows
@@ -77,7 +77,7 @@ typedef struct _D3DDDI_CREATEHWCONTEXTFLAGS {
 This value is reserved for system use.
 
 
-### -field Value
+#### - Value
 
 This value is used to operate over the members collectively.
 

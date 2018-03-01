@@ -1,14 +1,14 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_POLICY
-title: _WDF_INTERRUPT_POLICY
+title: "_WDF_INTERRUPT_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 old-location: wdf\wdf_interrupt_policy_umdf.htm
 old-project: wdf
 ms.assetid: 92E2A992-8A0B-4E0F-B615-DC6E30E4A227
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, umdf.wdf_interrupt_policy, WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WDF_INTERRUPT_POLICY, WdfIrqPolicyMachineDefault, *PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicySpreadMessagesAcrossAllProcessors, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, _WDF_INTERRUPT_POLICY, wdf.wdf_interrupt_policy_umdf, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, PWDF_INTERRUPT_POLICY enumeration pointer, WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyMachineDefault, WDF_INTERRUPT_POLICY enumeration, PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyAllCloseProcessors, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicySpecifiedProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, umdf.wdf_interrupt_policy, wdf.wdf_interrupt_policy_umdf, wudfinterrupt/PWDF_INTERRUPT_POLICY, wudfinterrupt/WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfinterrupt.h
-apiname: 
+api_name:
 -	WDF_INTERRUPT_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY
+req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,9 @@ The PnP manager should assign different message-based interrupts to different pr
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
+
 
 
 
@@ -116,9 +118,11 @@ The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INT
 
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_POLICY enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_POLICY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprinterpropertybag_getstring.htm
 old-project: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrinterPropertyBag::GetString, GetString method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::GetString, GetString, print.iprinterpropertybag_getstring, GetString method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag
+ms.date: 2/23/2018
+ms.keywords: GetString method [Print Devices], GetString method [Print Devices], IPrinterPropertyBag interface, GetString,IPrinterPropertyBag.GetString, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Printerextension.h
-apiname: 
+api_name:
 -	IPrinterPropertyBag.GetString
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ The value read.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
@@ -90,9 +92,11 @@ This method returns an <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetString method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetString method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

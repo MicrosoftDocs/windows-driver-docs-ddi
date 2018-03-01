@@ -1,19 +1,19 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_link_capabilities_register.htm
 old-project: PCI
 ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
@@ -84,109 +84,9 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
  
 
 
-### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MaximumLinkWidth
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ActiveStatePMSupport
-
- 
-
-
-### -field DUMMYSTRUCTNAME.L0sExitLatency
-
- 
-
-
-### -field DUMMYSTRUCTNAME.L1ExitLatency
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ClockPowerManagement
-
- 
-
-
-### -field DUMMYSTRUCTNAME.SurpriseDownErrorReportingCapable
-
- 
-
-
-### -field DUMMYSTRUCTNAME.DataLinkLayerActiveReportingCapable
-
- 
-
-
-### -field DUMMYSTRUCTNAME.LinkBandwidthNotificationCapability
-
- 
-
-
-### -field DUMMYSTRUCTNAME.AspmOptionalityCompliance
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Rsvd
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PortNumber
-
- 
-
-
 ### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
-
-
-##### - MaximumLinkWidth.8
-
-x8 (8 lanes)
-
-
-#### - PortNumber
-
-The PCIe port number for the PCIe link.
-
-
-##### - L0sExitLatency.L0s_64ns_128ns
-
-64 nanoseconds to 128 nanoseconds
-
-
-##### - L1ExitLatency.L1_4us_8us
-
-4 microseconds to 8 microseconds
-
-
-##### - L1ExitLatency.L1_16us_32us
-
-16 microseconds to 32 microseconds
-
-
-##### - L1ExitLatency.L1_32us_64us
-
-32 microseconds to 64 microseconds
-
-
-##### - ActiveStatePMSupport.L0sAndL1EntrySupport
-
-L0s and L1 are supported.
-
-
-##### - MaximumLinkWidth.4
-
-x4 (4 lanes)
 
 
 #### - ActiveStatePMSupport
@@ -195,80 +95,19 @@ The level of active state power management supported on the PCIe link. Possible 
 
 
 
-All other values are reserved.
 
 
-#### - L1ExitLatency
-
-The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
-
-
-
-This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
-
-
-##### - L1ExitLatency.L1_Below1us
-
-Less than 1 microsecond
-
-
-##### - L0sExitLatency.L0s_2us_4us
-
-2 microseconds to 4 microseconds
-
-
-##### - L0sExitLatency.L0s_128ns_256ns
-
-128 nanoseconds to 256 nanoseconds
-
-
-##### - L0sExitLatency.L0s_Above4us
-
-More than 4 microseconds
-
-
-#### - DataLinkLayerActiveReportingCapable
-
-A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
-
-
-##### - L0sExitLatency.L0s_Below64ns
-
-Less than 64 nanoseconds
-
-
-##### - ActiveStatePMSupport.L0sEntrySupport
+#### L0sEntrySupport
 
 L0s is supported.
 
 
-#### - MaximumLinkWidth
 
-The maximum link width (number of lanes) implemented by the component. Possible values are:
+#### L0sAndL1EntrySupport
 
-
+L0s and L1 are supported.
 
 All other values are reserved.
-
-
-##### - MaximumLinkSpeed.1
-
-2.5 gigabits per second
-
-
-#### - Rsvd
-
-Reserved.
-
-
-##### - L1ExitLatency.L1_8us_16us
-
-8 microseconds to 16 microseconds
-
-
-#### - SurpriseDownErrorReportingCapable
-
-A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
 
 #### - ClockPowerManagement
@@ -276,14 +115,9 @@ A single bit that indicates that the component supports the optional capability 
 A single bit that indicates that the component supports clock power management.
 
 
-##### - L1ExitLatency.L1_Above64us
+#### - DataLinkLayerActiveReportingCapable
 
-More than 64 microseconds
-
-
-##### - L0sExitLatency.L0s_1us_2us
-
-1 microsecond to 2 microseconds
+A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 #### - L0sExitLatency
@@ -293,19 +127,109 @@ The L0s exit latency for the PCIe link. This value indicates the length of time 
 
 
 
-##### - L1ExitLatency.L1_1us_2us
 
-1 microsecond to 2 microseconds
+#### L0s_Below64ns
+
+Less than 64 nanoseconds
 
 
-##### - L0sExitLatency.L0s_256ns_512ns
+
+#### L0s_64ns_128ns
+
+64 nanoseconds to 128 nanoseconds
+
+
+
+#### L0s_128ns_256ns
+
+128 nanoseconds to 256 nanoseconds
+
+
+
+#### L0s_256ns_512ns
 
 256 nanoseconds to 512 nanoseconds
 
 
-##### - MaximumLinkWidth.1
 
-x1 (1 lane)
+#### L0s_512ns_1us
+
+512 nanoseconds to 1 microsecond
+
+
+
+#### L0s_1us_2us
+
+1 microsecond to 2 microseconds
+
+
+
+#### L0s_2us_4us
+
+2 microseconds to 4 microseconds
+
+
+
+#### L0s_Above4us
+
+More than 4 microseconds
+
+
+#### - L1ExitLatency
+
+The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
+
+
+
+
+
+#### L1_Below1us
+
+Less than 1 microsecond
+
+
+
+#### L1_1us_2us
+
+1 microsecond to 2 microseconds
+
+
+
+#### L1_2us_4us
+
+2 microseconds to 4 microseconds
+
+
+
+#### L1_4us_8us
+
+4 microseconds to 8 microseconds
+
+
+
+#### L1_8us_16us
+
+8 microseconds to 16 microseconds
+
+
+
+#### L1_16us_32us
+
+16 microseconds to 32 microseconds
+
+
+
+#### L1_32us_64us
+
+32 microseconds to 64 microseconds
+
+
+
+#### L1_Above64us
+
+More than 64 microseconds
+
+This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
 #### - MaximumLinkSpeed
@@ -314,40 +238,83 @@ The maximum link speed of the PCIe link. The only valid value is:
 
 
 
+
+
+#### 1
+
+2.5 gigabits per second
+
 All other values are reserved.
 
 
-##### - MaximumLinkWidth.16
+#### - MaximumLinkWidth
 
-x16 (16 lanes)
-
-
-##### - MaximumLinkWidth.32
-
-x32 (32 lanes)
+The maximum link width (number of lanes) implemented by the component. Possible values are:
 
 
-##### - MaximumLinkWidth.12
-
-x12 (12 lanes)
 
 
-##### - L1ExitLatency.L1_2us_4us
 
-2 microseconds to 4 microseconds
+#### 1
 
-
-##### - L0sExitLatency.L0s_512ns_1us
-
-512 nanoseconds to 1 microsecond
+x1 (1 lane)
 
 
-##### - MaximumLinkWidth.2
+
+#### 2
 
 x2 (2 lanes)
 
 
+
+#### 4
+
+x4 (4 lanes)
+
+
+
+#### 8
+
+x8 (8 lanes)
+
+
+
+#### 12
+
+x12 (12 lanes)
+
+
+
+#### 16
+
+x16 (16 lanes)
+
+
+
+#### 32
+
+x32 (32 lanes)
+
+All other values are reserved.
+
+
+#### - PortNumber
+
+The PCIe port number for the PCIe link.
+
+
+#### - Rsvd
+
+Reserved.
+
+
+#### - SurpriseDownErrorReportingCapable
+
+A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+
+
 ## -remarks
+
 
 
 The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
@@ -356,13 +323,16 @@ A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

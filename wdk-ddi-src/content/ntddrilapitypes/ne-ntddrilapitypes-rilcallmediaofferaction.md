@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferaction.htm
 old-project: netvista
 ms.assetid: 0a2ac234-633d-4ebc-9e13-05a12534f93a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCALLMEDIAOFFERACTION, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_MAX, RILCALLMEDIAOFFERACTION, netvista.rilcallmediaofferaction, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_ACCEPT, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_REJECT, RIL_CALLMEDIAOFFERACTION_ASK
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIAOFFERACTION, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERACTION_ACCEPT, RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_MAX, RIL_CALLMEDIAOFFERACTION_REJECT, netvista.rilcallmediaofferaction, ntddrilapitypes/RILCALLMEDIAOFFERACTION, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIAOFFERACTION
 product: Windows
 targetos: Windows
@@ -75,27 +75,20 @@ typedef enum _RILCALLMEDIAOFFERACTION {
 ### -field RIL_CALLMEDIAOFFERACTION_NONE
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_ERROR
-
 
 
 ### -field RIL_CALLMEDIAOFFERACTION_REJECT
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_ASK
-
 
 
 ### -field RIL_CALLMEDIAOFFERACTION_ACCEPT
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_CANCEL
 
 
-
 ### -field RIL_CALLMEDIAOFFERACTION_MAX
-
 

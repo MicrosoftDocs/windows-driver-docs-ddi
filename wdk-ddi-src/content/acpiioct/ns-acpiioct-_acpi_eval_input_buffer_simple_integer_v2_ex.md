@@ -1,14 +1,14 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
-title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
+title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure.
 old-location: acpi\acpi_eval_input_buffer_simple_integer_v2_ex.htm
 old-project: acpi
 ms.assetid: 26F68B49-8205-4132-93E7-BFE8FE695D9C
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, acpi.acpi_eval_input_buffer_simple_integer_v2_ex
+ms.date: 2/15/2018
+ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, acpi.acpi_eval_input_buffer_simple_integer_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
 product: Windows
 targetos: Windows
-req.typenames: *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
+req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX structure

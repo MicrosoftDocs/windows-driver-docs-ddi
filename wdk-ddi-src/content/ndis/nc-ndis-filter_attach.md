@@ -7,8 +7,8 @@ old-location: netvista\filterattach.htm
 old-project: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.filterattach, FilterAttach callback function [Network Drivers Starting with Windows Vista], FilterAttach, FILTER_ATTACH, FILTER_ATTACH, ndis/FilterAttach, filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml
+ms.date: 2/16/2018
+ms.keywords: FILTER_ATTACH, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	FilterAttach
 product: Windows
 targetos: Windows
@@ -84,22 +84,24 @@ An NDIS handle that identifies a filter module. The filter driver must save this
 ### -param FilterDriverContext [in]
 
 The handle that the driver passed to the 
-     <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-     NdisFRegisterFilterDriver</b></mshelp:link> function that identifies the driver context area.
+     <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+     NdisFRegisterFilterDriver</a> function that identifies the driver context area.
 
 
 ### -param AttachParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_filter_attach_parameters" tabindex="0"><b>
-     NDIS_FILTER_ATTACH_PARAMETERS</b></mshelp:link> structure that defines the initialization parameters for the filter
+     <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+     NDIS_FILTER_ATTACH_PARAMETERS</a> structure that defines the initialization parameters for the filter
      module.
 
 
 ## -returns
 
 
+
 <i>FilterAttach</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +144,14 @@ A pointer to an
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>FilterAttach</i> is a required function. NDIS calls a filter driver's 
@@ -160,11 +165,12 @@ At the start of execution in
     <i>Attaching</i> state.
 
 Filter drivers should avoid issuing unnecessary OID queries. Instead, use the information in 
-    <mshelp:link keywords="netvista.ndis_filter_attach_parameters" tabindex="0"><b>
-    NDIS_FILTER_ATTACH_PARAMETERS</b></mshelp:link>, when available, to obtain information about underlying drivers.
+    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    NDIS_FILTER_ATTACH_PARAMETERS</a>, when available, to obtain information about underlying drivers.
 
 A filter driver performs the following operations when NDIS calls 
     <i>FilterAttach</i>.
+
 <ul>
 <li>
 Creates a context area for the filter module and allocates buffer pools and any other resources.
@@ -202,7 +208,8 @@ If the preceding operations failed, the filter driver must release any resources
 Returns NDIS_STATUS_SUCCESS or an appropriate failure code.
 
 </li>
-</ul>A filter driver should not make send requests, indicate received data, make OID requests, or make
+</ul>
+A filter driver should not make send requests, indicate received data, make OID requests, or make
     status indications from the 
     <i>Attaching</i> state.
 
@@ -213,9 +220,12 @@ NDIS calls a filter driver's
 
 NDIS calls 
     <i>FilterAttach</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>FilterAttach</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>FilterAttach</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterAttach</i> function that is named "MyAttach", use the <b>FILTER_ATTACH</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -225,7 +235,9 @@ For example, to define a <i>FilterAttach</i> function that is named "MyAttach", 
 <pre>FILTER_ATTACH MyAttach;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -242,29 +254,43 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>FILTER_ATTACH</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_ATTACH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>FILTER_ATTACH</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_ATTACH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
+
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_ATTACH callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_ATTACH callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

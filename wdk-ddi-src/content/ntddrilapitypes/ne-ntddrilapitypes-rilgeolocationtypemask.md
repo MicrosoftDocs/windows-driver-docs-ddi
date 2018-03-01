@@ -7,8 +7,8 @@ old-location: netvista\rilgeolocationtypemask.htm
 old-project: netvista
 ms.assetid: 8d1f6570-adc1-4389-b20b-7c7e05f1c9bf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GEOLOCATION_ALL, netvista.rilgeolocationtypemask, ntddrilapitypes/RIL_GEOLOCATION_ALL, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGEOLOCATIONTYPEMASK, RIL_GEOLOCATION_CIVIC, RILGEOLOCATIONTYPEMASK, RIL_GEOLOCATION_LATLONG, ntddrilapitypes/RIL_GEOLOCATION_LATLONG
+ms.date: 2/16/2018
+ms.keywords: RILGEOLOCATIONTYPEMASK, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_ALL, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RIL_GEOLOCATION_LATLONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILGEOLOCATIONTYPEMASK
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILGEOLOCATIONTYPEMASK {
 ### -field RIL_GEOLOCATION_NONE
 
 
-
 ### -field RIL_GEOLOCATION_CIVIC
-
 
 
 ### -field RIL_GEOLOCATION_LATLONG
 
 
-
 ### -field RIL_GEOLOCATION_ALL
-
 

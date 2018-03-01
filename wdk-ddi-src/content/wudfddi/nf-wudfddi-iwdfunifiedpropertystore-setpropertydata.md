@@ -7,8 +7,8 @@ old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfunifiedpropertystore_setpropertydata, SetPropertyData, SetPropertyData method, IWDFUnifiedPropertyStore interface, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore::SetPropertyData, IWDFUnifiedPropertyStore, SetPropertyData method, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, IWDFUnifiedPropertyStore interface, SetPropertyData method
+ms.date: 2/20/2018
+ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, SetPropertyData method, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, SetPropertyData,IWDFUnifiedPropertyStore.SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUnifiedPropertyStore.SetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,9 @@ A pointer to the device property data. Set this parameter to <b>NULL</b> to dele
 ## -returns
 
 
+
 <b>SetPropertyData</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,13 +149,16 @@ The driver can modify device interface property data only  starting with  Window
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return an HRESULT-typed value corresponding to one of the other values that <i>Winerror.h</i> contains.
 
 
 
+
 ## -remarks
+
 
 
 Framework-based drivers use the <b>SetPropertyData</b> method to modify device properties that are defined as part of the unified device property model.
@@ -170,24 +175,81 @@ If the driver registers an interface in its INF file, it must set associated pro
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+SetFriendlyName(
+    _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
+    )
+{
+    HRESULT hr = S_OK;
+    WCHAR friendlyName[] = L"UMDF OSR USB Fx2 Test Device";
+
+    hr = pUnifiedPropertyStore-&gt;SetPropertyData(
+            &amp;DEVPKEY_Device_FriendlyName,
+            0, //Lcid
+            0, //Flags
+            DEVPROP_TYPE_STRING, //Type
+            sizeof(friendlyName),
+            friendlyName
+            );
+
+    if (FAILED(hr))
+    {
+        TraceEvents(
+            TRACE_LEVEL_ERROR,
+            TEST_TRACE_DEVICE,             
+            "SetPropertyData failed: hr = %!HRESULT!",
+            hr
+            );
+        goto exit;
+    }
+
+exit:
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
- 
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUnifiedPropertyStore::SetPropertyData method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUnifiedPropertyStore::SetPropertyData method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

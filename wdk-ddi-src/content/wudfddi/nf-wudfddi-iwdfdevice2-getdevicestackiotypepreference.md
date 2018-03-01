@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice2_getdevicestackiotypepreference.htm
 old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, umdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference, wdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference method, IWDFDevice2 interface
+ms.date: 2/20/2018
+ms.keywords: GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference,IWDFDevice2.GetDeviceStackIoTypePreference, IWDFDevice2, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice2.GetDeviceStackIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ A pointer to a driver-allocated location that receives a <a href="..\wudfddi_typ
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls <b>GetDeviceStackIoTypePreference</b> before the PnP manager has loaded all of the device's drivers, the values that <b>GetDeviceStackIoTypePreference</b> retrieves might not be the values that it actually uses.
@@ -96,16 +99,40 @@ If your driver calls <b>GetDeviceStackIoTypePreference</b> before the PnP manage
 For more information about how the framework chooses a buffer access method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">How UMDF Chooses a Buffer Access Method for an I/O Request</a>.
 
 
+#### Examples
+
+The following code example retrieves the buffer access methods that the framework is using for a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_IO_TYPE ReadWriteAccessMethod;
+WDF_DEVICE_IO_TYPE IoControlAccessMethod;
+
+Device2-&gt;GetDeviceStackIoTypePreference(&amp;ReadWriteAccessMethod,
+                                        &amp;IoControlAccessMethod); </pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::GetDeviceStackIoTypePreference method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::GetDeviceStackIoTypePreference method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

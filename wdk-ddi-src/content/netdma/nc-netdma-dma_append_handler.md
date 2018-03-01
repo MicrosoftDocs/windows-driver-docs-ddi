@@ -7,8 +7,8 @@ old-location: netvista\providerappenddma.htm
 old-project: netvista
 ms.assetid: 51de8ddf-cbfc-4e49-b44a-207307a937e7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providerappenddma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], ProviderAppendDma, DMA_APPEND_HANDLER, DMA_APPEND_HANDLER, netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml
+ms.date: 2/16/2018
+ms.keywords: DMA_APPEND_HANDLER, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	ProviderAppendDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_APPEND_HANDLER callback
@@ -82,8 +82,8 @@ NTSTATUS ProviderAppendDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ### -param DescriptorVirtualAddress [in]
@@ -106,14 +106,18 @@ A pointer to the physical address of the first DMA descriptor in a linked list o
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
      
+
 <div class="alert"><b>Note</b>  NetDMA provider drivers prior to NetDMA version 2.0 can ignore the 
      <i>DescriptorCount</i> parameter. For NetDMA 2.0 and later versions, this parameter is the count of
-     descriptors in the DMA operation.</div><div> </div>
+     descriptors in the DMA operation.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <i>ProviderAppendDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,11 +145,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -155,6 +162,7 @@ The NetDMA interface calls a DMA provider driver's
     interface must call the 
     <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function after a channel
     reset or abort, or after the DMA channel is first allocated.
+
 <div class="alert"><b>Note</b>  In NetDMA 2.0 and later versions, the linked list of descriptors is not
     NULL-terminated. The 
     <b>NextDescriptor</b> member in the last descriptor in the linked list specifies the physical address of
@@ -164,7 +172,9 @@ The NetDMA interface calls a DMA provider driver's
     <b>ProviderAppendDma</b> function. A NetDMA 2.0
     provider driver can cache the address in 
     <b>NextDescriptor</b> and use this address as the beginning of the linked list for the next Append
-    operation.</div><div> </div>The NetDMA interface sets the 
+    operation.</div>
+<div> </div>
+The NetDMA interface sets the 
     <b>NextDescriptor</b> member of the last descriptor to the beginning of the new chain of descriptors
     before calling 
     <i>ProviderAppendDma</i>.
@@ -182,17 +192,24 @@ NetDMA calls
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
- 
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_APPEND_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_APPEND_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

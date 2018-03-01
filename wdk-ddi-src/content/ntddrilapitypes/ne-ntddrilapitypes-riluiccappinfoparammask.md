@@ -7,8 +7,8 @@ old-location: netvista\riluiccappinfoparammask.htm
 old-project: netvista
 ms.assetid: 0e3bac55-6de7-4572-963f-dead9664cf1d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCAPPINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPIDLENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_PINREF, RIL_PARAM_UICCAPPINFO_ALL, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPID, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_NUMPINS, RIL_PARAM_UICCAPPINFO_PINREF, RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_ALL, RIL_PARAM_UICCAPPINFO_NUMPINS, RILUICCAPPINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCAPPINFO_APPNAME, RIL_PARAM_UICCAPPINFO_APPID, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAME, RIL_PARAM_UICCAPPINFO_APPIDLENGTH, RIL_PARAM_UICCAPPINFO_APPTYPE, ntddrilapitypes/RILUICCAPPINFOPARAMMASK, netvista.riluiccappinfoparammask, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPTYPE
+ms.date: 2/16/2018
+ms.keywords: RILUICCAPPINFOPARAMMASK, RILUICCAPPINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCAPPINFO_ALL, RIL_PARAM_UICCAPPINFO_APPID, RIL_PARAM_UICCAPPINFO_APPIDLENGTH, RIL_PARAM_UICCAPPINFO_APPNAME, RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, RIL_PARAM_UICCAPPINFO_APPTYPE, RIL_PARAM_UICCAPPINFO_NUMPINS, RIL_PARAM_UICCAPPINFO_PINREF, netvista.riluiccappinfoparammask, ntddrilapitypes/RILUICCAPPINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_ALL, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPID, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPIDLENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAME, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPNAMELENGTH, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_APPTYPE, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_NUMPINS, ntddrilapitypes/RIL_PARAM_UICCAPPINFO_PINREF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCAPPINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -77,35 +77,26 @@ typedef enum _RILUICCAPPINFOPARAMMASK {
 ### -field RIL_PARAM_UICCAPPINFO_HUICCAPP
 
 
-
 ### -field RIL_PARAM_UICCAPPINFO_APPTYPE
-
 
 
 ### -field RIL_PARAM_UICCAPPINFO_APPIDLENGTH
 
 
-
 ### -field RIL_PARAM_UICCAPPINFO_APPID
-
 
 
 ### -field RIL_PARAM_UICCAPPINFO_APPNAMELENGTH
 
 
-
 ### -field RIL_PARAM_UICCAPPINFO_APPNAME
-
 
 
 ### -field RIL_PARAM_UICCAPPINFO_NUMPINS
 
 
-
 ### -field RIL_PARAM_UICCAPPINFO_PINREF
 
 
-
 ### -field RIL_PARAM_UICCAPPINFO_ALL
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._NOTIFICATION_INFO_W2K
-title: _NOTIFICATION_INFO_W2K
+title: "_NOTIFICATION_INFO_W2K"
 author: windows-driver-content
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
 old-project: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO structure pointer [Buses], 1394/PNOTIFICATION_INFO, _NOTIFICATION_INFO_W2K, NOTIFICATION_INFO structure [Buses], PNOTIFICATION_INFO, *PNOTIFICATION_INFO, NOTIFICATION_INFO, IEEE.notification_info, *PNOTIFICATION_INFO_W2K, 1394/NOTIFICATION_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_W2K, 1394/NOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, IEEE.notification_info, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, PNOTIFICATION_INFO, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_W2K"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	NOTIFICATION_INFO
 product: Windows
 targetos: Windows
@@ -98,11 +98,13 @@ Specifies the number of bytes affected by the request packet. Only used when <b>
 ### -field fulNotificationOptions
 
 Specifies which type of event triggered the bus driver to call the notification routine. The possible events the bus driver can return are the following:
+
 <ul>
 <li> NOTIFY_FLAGS_AFTER_READ</li>
 <li> NOTIFY_FLAGS_AFTER_WRITE</li>
 <li> NOTIFY_FLAGS_AFTER_LOCK</li>
-</ul>This member is only used when <b>Mdl</b> is non-<b>NULL</b>.
+</ul>
+This member is only used when <b>Mdl</b> is non-<b>NULL</b>.
 
 
 ### -field Context
@@ -145,6 +147,7 @@ If non-<b>NULL</b>, <b>ResponseEvent</b> points to a memory location that the dr
 Specifies the result of the driver's response to the request. The driver must report the response result by setting <b>ResponseCode</b> to a valid RCODE value.
 
 The following table describes the RCODE values:
+
 <table>
 <tr>
 <th>RCODE value</th>
@@ -190,10 +193,14 @@ address).
 <td>RCODE_TIMED_OUT</td>
 <td>The 1394 device did not respond to the request.</td>
 </tr>
-</table> 
-<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>. 
@@ -206,13 +213,16 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NOTIFICATION_INFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NOTIFICATION_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

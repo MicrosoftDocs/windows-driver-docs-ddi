@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_COMPRESSION
-title: _WWAN_COMPRESSION
+title: "_WWAN_COMPRESSION"
 author: windows-driver-content
 description: The WWAN_COMPRESSION enumeration lists the different compression options that are supported by the MB device.
 old-location: netvista\wwan_compression.htm
 old-project: netvista
 ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanCompressionEnable, _WWAN_COMPRESSION, wwan/WwanCompressionMax, WwanCompressionNone, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCompressionNone, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WwanCompressionMax, PWWAN_COMPRESSION, WWAN_COMPRESSION, wwan/WwanCompressionEnable, wwan/PWWAN_COMPRESSION, *PWWAN_COMPRESSION, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, netvista.wwan_compression, wwan/WWAN_COMPRESSION
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_COMPRESSION, PWWAN_COMPRESSION, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_COMPRESSION, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionEnable, WwanCompressionMax, WwanCompressionNone, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, _WWAN_COMPRESSION, netvista.wwan_compression, wwan/PWWAN_COMPRESSION, wwan/WWAN_COMPRESSION, wwan/WwanCompressionEnable, wwan/WwanCompressionMax, wwan/WwanCompressionNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_COMPRESSION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_COMPRESSION, WWAN_COMPRESSION
+req.typenames: WWAN_COMPRESSION, *PWWAN_COMPRESSION
 req.product: Windows 10 or later.
 ---
 
@@ -89,20 +89,26 @@ The total number of supported compression options.
 ## -remarks
 
 
+
 This enumeration applies only to GSM devices. The MB Service specifies 
     <b>WwanCompressionNone</b> as the compression type for CDMA-based devices.
 
 
 
-## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
- 
+
+
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_COMPRESSION enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_COMPRESSION enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

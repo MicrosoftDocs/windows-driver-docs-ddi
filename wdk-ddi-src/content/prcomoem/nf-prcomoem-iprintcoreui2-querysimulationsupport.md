@@ -7,8 +7,8 @@ old-location: print\iprintcoreui2_querysimulationsupport.htm
 old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport
+ms.date: 2/23/2018
+ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, QuerySimulationSupport,IPrintCoreUI2.QuerySimulationSupport, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintCoreUI2.QuerySimulationSupport
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Specifies a handle to the printer.
 ### -param dwLevel [in]
 
 Specifies the spooler simulation capability structure returned in the buffer pointed to by <i>pCaps</i>. Currently, only level 1 of spooler simulation support is provided.
+
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +97,8 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pCaps [out]
@@ -117,7 +119,9 @@ Specifies the size, in bytes, of the memory needed to store a structure of the t
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,11 +175,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
@@ -184,13 +191,20 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler s
 
 
 
+
 ## -see-also
 
 <a href="..\printoem\ns-printoem-_simulate_caps_1.md">SIMULATE_CAPS_1</a>
 
- 
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::QuerySimulationSupport method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::QuerySimulationSupport method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

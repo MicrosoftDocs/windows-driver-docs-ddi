@@ -7,8 +7,8 @@ old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercom
 old-project: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface
+ms.date: 2/20/2018
+ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion method, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion,IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wudfusb.h
-apiname: 
+api_name:
 -	IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,14 @@ A pointer to driver-supplied context information that the driver provided when i
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 To register an <b>IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</b> callback function, your driver must provide a pointer to the driver's <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
@@ -112,6 +115,7 @@ To access the buffer that contains data that was read from the device, the drive
 By default, the framework deletes the buffer's memory object after the <b>OnReaderCompletion</b> callback function returns. However, you might want the memory object to remain valid after the callback function returns. For example, you might want your driver to store the memory object's interface pointer in the framework pipe object's <a href="https://msdn.microsoft.com/9b543d5d-ed6d-4440-b5ad-aefca69dd489">context space</a> so that the driver can process the memory object's contents after the callback function returns. To extend the lifetime of the memory object, the callback function must call the buffer's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::AddRef</a> method. Subsequently, the driver must call the buffer's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/umdf-based-on-com-subset">IWDFMemory::Release</a> method so that the framework can delete the object.
 
 The framework synchronizes calls to the <b>OnReaderCompletion</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback functions according to the following rules:
+
 <ul>
 <li>
 These callback functions do not run simultaneously for an individual USB pipe.
@@ -129,21 +133,27 @@ If the driver has specified the default <i>NumPendingReads</i> value when it cal
 The framework does not synchronize these callback functions with any other callback functions.
 
 </li>
-</ul>When your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>, it can specify an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> callback function. The framework will call that callback function when it attempts to delete the memory object, after the <b>OnReaderCompletion</b> callback function returns. 
+</ul>
+When your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560395">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>, it can specify an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> callback function. The framework will call that callback function when it attempts to delete the memory object, after the <b>OnReaderCompletion</b> callback function returns. 
 
 For more information about the <b>OnReaderCompletion</b> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/usb-i-o-targets-in-umdf">Handling a USB I/O Target</a>.
 
 
 
-## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
 
- 
+
+
+<a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

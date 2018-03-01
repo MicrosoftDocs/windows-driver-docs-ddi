@@ -7,8 +7,8 @@ old-location: stream\ksaddirptocancelablequeue.htm
 old-project: stream
 ms.assetid: 399ca0d6-6355-40f8-ac2c-c69d7ae699e1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsAddIrpToCancelableQueue, ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue, KsAddIrpToCancelableQueue function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsAddIrpToCancelableQueue, KsAddIrpToCancelableQueue function [Streaming Media Devices], ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsAddIrpToCancelableQueue
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ Optional parameter that specifies a driver-supplied cancel routine to use. If th
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the IRP has been put into a cancel state when this routine is called, <b>KsAddIrpToCancelableQueue</b> will immediately call the cancel routine specified at <i>DriverCancel</i>, or if no routine was specified at <i>DriverCancel </i>the default streaming cancel routine is called.
@@ -112,5 +115,6 @@ If the IRP has been put into a cancel state when this routine is called, <b>KsAd
 The <b>KsAddIrpToCancelableQueue</b> function allows IRPs to be canceled even before being placed on a cancel list, or when being moved from one list to another. This function can be called at IRQ level DISPATCH_LEVEL or lower unless the driver-allocated queue and all entries in the queue are system-resident or allocated from resident storage.
 
 The function does not use the cancel spin lock to add items to the list. Access to the list is synchronized using the provided spin lock and relies on atomic operations on Irp-&gt;CancelRoutine.
+
 
 

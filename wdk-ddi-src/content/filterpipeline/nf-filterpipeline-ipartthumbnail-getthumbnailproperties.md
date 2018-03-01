@@ -7,8 +7,8 @@ old-location: print\ipartthumbnail_getthumbnailproperties.htm
 old-project: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetThumbnailProperties method [Print Devices], IPartThumbnail::GetThumbnailProperties, IPartThumbnail, IPartThumbnail interface [Print Devices], GetThumbnailProperties method, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, GetThumbnailProperties method [Print Devices], IPartThumbnail interface, print.ipartthumbnail_getthumbnailproperties, GetThumbnailProperties
+ms.date: 2/23/2018
+ms.keywords: GetThumbnailProperties method [Print Devices], GetThumbnailProperties method [Print Devices], IPartThumbnail interface, GetThumbnailProperties,IPartThumbnail.GetThumbnailProperties, IPartThumbnail, IPartThumbnail interface [Print Devices], GetThumbnailProperties method, IPartThumbnail::GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, print.ipartthumbnail_getthumbnailproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPartThumbnail.GetThumbnailProperties
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A pointer to the content type of the thumbnail.
 ## -returns
 
 
+
 <b>GetThumbnailProperties</b> returns an <b>HRESULT</b> value.
+
 
 

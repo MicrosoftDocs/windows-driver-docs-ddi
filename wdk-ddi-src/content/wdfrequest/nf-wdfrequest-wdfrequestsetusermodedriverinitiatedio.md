@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestsetusermodedriverinitiatedio.htm
 old-project: wdf
 ms.assetid: F477ABEA-5E29-4934-995C-D7FB1EF87A5B
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestSetUserModeDriverInitiatedIo method, WdfRequestSetUserModeDriverInitiatedIo, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo, PFN_WDFREQUESTSETUSERMODEDRIVERINITIATEDIO, wdf.wdfrequestsetusermodedriverinitiatedio
+ms.date: 2/20/2018
+ms.keywords: WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib; WUDFx02000.dll
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	WUDFx02000.lib
 -	WUDFx02000.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestSetUserModeDriverInitiatedIo
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ A Boolean value that, if <b>TRUE</b>, indicates that the request should be treat
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure before forwarding the request to kernel-mode drivers.
@@ -106,13 +109,16 @@ Requests that the driver created on its own are already marked as having origina
 
 
 
+
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio.md">WdfRequestGetUserModeDriverInitiatedIo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestSetUserModeDriverInitiatedIo method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestSetUserModeDriverInitiatedIo method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

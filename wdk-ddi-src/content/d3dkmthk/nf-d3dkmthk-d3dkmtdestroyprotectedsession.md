@@ -7,8 +7,8 @@ old-location: display\d3dkmtdestroyprotectedsession.htm
 old-project: display
 ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession, D3DKMTDestroyProtectedSession
+ms.date: 2/24/2018
+ms.keywords: D3DKMTDestroyProtectedSession, D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTDestroyProtectedSession
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTDestroyProtectedSession(
 
 
 
+
 #### - D3dkmt_destroyprotectedsession [in, out]
 
 Holds information to destroy a protected session.
@@ -79,6 +80,8 @@ Holds information to destroy a protected session.
 
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

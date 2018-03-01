@@ -7,8 +7,8 @@ old-location: storage\idehwreset.htm
 old-project: storage
 ms.assetid: 722810c8-ddf2-4910-8cf3-af3511d8c167
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.idehwreset, IdeHwReset routine [Storage Devices], IdeHwReset, IDE_HW_RESET, IDE_HW_RESET, irb/IdeHwReset, atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml
+ms.date: 2/24/2018
+ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IdeHwReset
 product: Windows
 targetos: Windows
@@ -78,15 +78,19 @@ A pointer to the channel extension.
 ## -returns
 
 
+
 <b><i>IdeHwReset</i></b> returns <b>TRUE</b> if the reset operation succeeded.  Otherwise, it returns <b>FALSE</b>. 
+
 
 
 
 ## -remarks
 
 
+
 The <b><i>IdeHwReset</i></b> routine should complete all pending requests and reset the indicated channel.
 
 <b><i>IdeHwReset</i></b> can be called even if the miniport driver is not ready for another request.
+
 
 

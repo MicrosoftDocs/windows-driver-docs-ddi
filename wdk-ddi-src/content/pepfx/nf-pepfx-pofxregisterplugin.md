@@ -7,13 +7,13 @@ old-location: kernel\pofxregisterplugin.htm
 old-project: kernel
 ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pofxregisterplugin, PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], pepfx/PoFxRegisterPlugin
+ms.date: 2/24/2018
+ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+api_name:
 -	PoFxRegisterPlugin
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterPlugin function
@@ -82,7 +82,9 @@ A pointer to a <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">
 ## -returns
 
 
+
 <b>PoFxRegisterPlugin</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -121,11 +123,14 @@ Unable to allocate the resources required to complete the requested registration
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A PEP calls this routine to register itself with PoFx.
@@ -138,17 +143,24 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 
 
-## -see-also
 
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
- 
+
+
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterPlugin routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterPlugin routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

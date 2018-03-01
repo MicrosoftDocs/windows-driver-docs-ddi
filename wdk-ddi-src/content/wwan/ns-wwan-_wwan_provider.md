@@ -1,14 +1,14 @@
 ---
 UID: NS:wwan._WWAN_PROVIDER
-title: _WWAN_PROVIDER
+title: "_WWAN_PROVIDER"
 author: windows-driver-content
 description: The WWAN_PROVIDER structure represents details about a network provider.
 old-location: netvista\wwan_provider.htm
 old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PROVIDER, _WWAN_PROVIDER, wwan/PWWAN_PROVIDER, *PWWAN_PROVIDER, netvista.wwan_provider, WWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, netvista.wwan_provider, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_PROVIDER
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PROVIDER, WWAN_PROVIDER
+req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,7 @@ A value that represents the various states that the network provider's entry can
      The following table shows the possible values that miniport drivers should specify (one or more values
      can be specified).
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,10 +160,12 @@ The network provider state is unknown.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Some values in the previous table apply only to specific object identifiers (OIDs). The following
      table shows the associations between those values and related OIDs.
+
 <table>
 <tr>
 <th>Value</th>
@@ -214,7 +217,8 @@ WWAN_PROVIDER_STATE_FORBIDDEN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ProviderName
@@ -248,15 +252,23 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
- 
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

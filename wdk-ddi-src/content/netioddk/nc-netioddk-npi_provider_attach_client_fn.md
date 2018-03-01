@@ -7,8 +7,8 @@ old-location: netvista\providerattachclient.htm
 old-project: netvista
 ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providerattachclient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, NPI_PROVIDER_ATTACH_CLIENT_FN, NPI_PROVIDER_ATTACH_CLIENT_FN, netioddk/ProviderAttachClient, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_ATTACH_CLIENT_FN, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
+ms.date: 2/16/2018
+ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netioddk.h
-apiname: 
+api_name:
 -	PNPI_PROVIDER_ATTACH_CLIENT_FN
 product: Windows
 targetos: Windows
@@ -96,8 +96,8 @@ A pointer to the provider module's registration context. The provider module pas
 ### -param ClientRegistrationInstance [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_registration_instance" tabindex="0"><b>
-     NPI_REGISTRATION_INSTANCE</b></mshelp:link> structure. This structure contains the client module's registration
+     <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">
+     NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the client module's registration
      data.
 
 
@@ -111,19 +111,36 @@ A pointer to the client module's context for the binding between the client modu
      require the client module's binding context.
 
 
-### -param *ClientDispatch
+### -param *ClientDispatch [in]
+
+A pointer to a constant structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
+     client module. The contents of the structure are 
+     NPI-specific. If the 
+     NPI does not define a client
+     dispatch table structure, then this pointer is <b>NULL</b>.
 
 
+### -param *ProviderBindingContext [out]
 
-### -param *ProviderBindingContext
+A pointer to a variable into which the provider module will store a pointer to its context for the
+     binding between the client module and the provider module. The provider module uses this context to keep
+     track of the state of the binding. The contents of the provider module's binding context are opaque to
+     the client module. The client module passes this pointer to the provider module whenever it calls one of
+     the provider module's 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
+     provider module's binding context. The provider module must make sure that this context remains valid
+     and resident in memory as long as the client module is attached to the provider module.
 
 
+#### - **ProviderDispatch [out]
 
-### -param **ProviderDispatch
-
-
-
-
+A pointer to a variable into which the provider module will store a pointer to a constant
+     structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     module. The provider module must make sure that this structure remains valid and resident in memory as
+     long as the client module is attached to the provider module. The contents of the structure are 
+     NPI-specific.
 
 
 #### - ProviderDispatch [out]
@@ -136,33 +153,13 @@ A pointer to a variable into which the provider module will store a pointer to a
      NPI-specific.
 
 
-#### - ProviderBindingContext [out]
-
-A pointer to a variable into which the provider module will store a pointer to its context for the
-     binding between the client module and the provider module. The provider module uses this context to keep
-     track of the state of the binding. The contents of the provider module's binding context are opaque to
-     the client module. The client module passes this pointer to the provider module whenever it calls one of
-     the provider module's 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
-     provider module's binding context. The provider module must make sure that this context remains valid
-     and resident in memory as long as the client module is attached to the provider module.
-
-
-#### - ClientDispatch [in]
-
-A pointer to a constant structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
-     client module. The contents of the structure are 
-     NPI-specific. If the 
-     NPI does not define a client
-     dispatch table structure, then this pointer is <b>NULL</b>.
-
-
 ## -returns
+
 
 
 A provider module's 
      <i>ProviderAttachClient</i> callback function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -201,11 +198,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NMR calls a provider module's 
@@ -217,6 +217,7 @@ A provider module can examine the client module's registration data. This data i
     pointed to by the 
     <i>ClientRegistrationInstance</i> parameter. The provider module uses this data to determine whether it
     will attach to the client module:
+
 <ul>
 <li>If the provider module determines that it will attach to the client module, then the 
      <i>ProviderAttachClient</i> callback function must do the following:
@@ -227,8 +228,8 @@ A provider module can examine the client module's registration data. This data i
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
 <li>Save the handle passed in the 
       <i>NmrBindingHandle</i> parameter. The provider module passes this handle as a parameter to the 
-      <mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
-      NmrProviderDetachClientComplete</b></mshelp:link> function when it detaches from the client module.</li>
+      <a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+      NmrProviderDetachClientComplete</a> function when it detaches from the client module.</li>
 <li>Set the 
       <i>ProviderBindingContext</i> parameter to point to the provider module's binding context structure for
       the binding between the client module and the provider module.</li>
@@ -244,10 +245,11 @@ If the provider module determines that it will not attach to the client module, 
       <i>ProviderAttachClient</i> callback function must return STATUS_NOINTERFACE.
 
 </li>
-</ul>If the provider module attaches to the client module and it dynamically allocated memory for its
+</ul>
+If the provider module attaches to the client module and it dynamically allocated memory for its
     binding context, it should free that allocated memory when the NMR calls the provider module's 
-    <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-    ProviderCleanupBindingContext</i></mshelp:link> callback function after the client module and provider module are
+    <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+    ProviderCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
 The NMR calls a provider module's 
@@ -255,27 +257,42 @@ The NMR calls a provider module's
 
 
 
+
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+   NmrProviderDetachClientComplete</a>
+
+
 
 <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
+
+
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
 
 <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
 
-<mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
-   NmrProviderDetachClientComplete</b></mshelp:link>
 
 <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
- 
+
+
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_PROVIDER_ATTACH_CLIENT_FN callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_PROVIDER_ATTACH_CLIENT_FN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

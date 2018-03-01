@@ -7,8 +7,8 @@ old-location: stream\usbcamd_initializenewinterface.htm
 old-project: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: USBCAMD_InitializeNewInterface, stream.usbcamd_initializenewinterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, USBCAMD_InitializeNewInterface function [Streaming Media Devices], usbcamdi/USBCAMD_InitializeNewInterface
+ms.date: 2/23/2018
+ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+api_name:
 -	USBCAMD_InitializeNewInterface
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Specifies the version information. This value should be set to the value USBCAMD
 ### -param CamControlFlag [in]
 
 Specifies how USBCAMD and the camera minidriver should interact. The camera minidriver should set this value to one or more of the following:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -135,17 +136,21 @@ Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>USBCAMD_InitializeNewInterface</b> returns the value USBCAMD_VERSION_200.
 
 
 
+
 ## -remarks
+
 
 
 This function is only called by USBCAMD version 2.0.
@@ -154,15 +159,20 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 
 
-## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
 
- 
+
+
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_InitializeNewInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_InitializeNewInterface function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

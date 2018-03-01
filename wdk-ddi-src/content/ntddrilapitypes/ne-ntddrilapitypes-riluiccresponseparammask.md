@@ -7,8 +7,8 @@ old-location: netvista\riluiccresponseparammask.htm
 old-project: netvista
 ms.assetid: 2a87655f-8c8c-48c7-982e-dcb70ca600fb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SR_RESPONSESIZE, RIL_PARAM_SR_RESPONSE, RILUICCRESPONSEPARAMMASK, RIL_PARAM_SR_ALL, RIL_PARAM_SR_STATUSWORD2, ntddrilapitypes/RILUICCRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_SR_STATUSWORD2, netvista.riluiccresponseparammask, ntddrilapitypes/RIL_PARAM_SR_RESPONSE, ntddrilapitypes/RIL_PARAM_SR_RESPONSESIZE, ntddrilapitypes/RIL_PARAM_SR_ALL
+ms.date: 2/16/2018
+ms.keywords: RILUICCRESPONSEPARAMMASK, RILUICCRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SR_ALL, RIL_PARAM_SR_RESPONSE, RIL_PARAM_SR_RESPONSESIZE, RIL_PARAM_SR_STATUSWORD2, netvista.riluiccresponseparammask, ntddrilapitypes/RILUICCRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_SR_ALL, ntddrilapitypes/RIL_PARAM_SR_RESPONSE, ntddrilapitypes/RIL_PARAM_SR_RESPONSESIZE, ntddrilapitypes/RIL_PARAM_SR_STATUSWORD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCRESPONSEPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILUICCRESPONSEPARAMMASK {
 ### -field RIL_PARAM_SR_STATUSWORD1
 
 
-
 ### -field RIL_PARAM_SR_STATUSWORD2
-
 
 
 ### -field RIL_PARAM_SR_RESPONSESIZE
 
 
-
 ### -field RIL_PARAM_SR_RESPONSE
 
 
-
 ### -field RIL_PARAM_SR_ALL
-
 

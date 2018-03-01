@@ -7,8 +7,8 @@ old-location: print\colordatatype.htm
 old-project: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PCOLORDATATYPE, COLOR_WORD, COLOR_FLOAT, COLOR_BYTE, COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, COLOR_FLOAT16, icm/COLORDATATYPE, icm/COLOR_WORD, icm/COLOR_BYTE, COLORDATATYPE, icm/COLOR_FLOAT, COLOR_S2DOT13FIXED, print.colordatatype, icm/COLOR_S2DOT13FIXED, icm/COLOR_10b_R10G10B10A2, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, COLOR_10b_R10G10B10A2_XR, COLORDATATYPE enumeration [Print Devices], icm/COLOR_FLOAT16
+ms.date: 2/23/2018
+ms.keywords: "*PCOLORDATATYPE, COLORDATATYPE, COLORDATATYPE enumeration [Print Devices], COLOR_10b_R10G10B10A2, COLOR_10b_R10G10B10A2_XR, COLOR_BYTE, COLOR_FLOAT, COLOR_FLOAT16, COLOR_S2DOT13FIXED, COLOR_WORD, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, icm/COLORDATATYPE, icm/COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, icm/COLOR_BYTE, icm/COLOR_FLOAT, icm/COLOR_FLOAT16, icm/COLOR_S2DOT13FIXED, icm/COLOR_WORD, print.colordatatype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	icm.h
-apiname: 
+api_name:
 -	COLORDATATYPE
 product: Windows
 targetos: Windows
@@ -111,7 +111,9 @@ FLOAT16 per channel.
 ## -remarks
 
 
+
 The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to this enumeration:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,4 +124,5 @@ The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to thi
 </td>
 </tr>
 </table></span></div>
+
 

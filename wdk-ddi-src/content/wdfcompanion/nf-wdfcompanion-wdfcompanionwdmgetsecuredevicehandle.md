@@ -7,8 +7,8 @@ old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
 old-project: wdf
 ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, WdfCompanionWdmGetSecureDeviceHandle
+ms.date: 2/20/2018
+ms.keywords: WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	WdfCompanionWdmGetSecureDeviceHandle
 product: Windows
 targetos: Windows
@@ -70,5 +70,4 @@ HANDLE WdfCompanionWdmGetSecureDeviceHandle(
 
 
 ### -param Companion [in]
-
 

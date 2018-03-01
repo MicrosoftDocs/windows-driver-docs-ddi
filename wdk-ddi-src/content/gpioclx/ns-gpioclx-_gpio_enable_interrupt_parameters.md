@@ -1,14 +1,14 @@
 ---
 UID: NS:gpioclx._GPIO_ENABLE_INTERRUPT_PARAMETERS
-title: _GPIO_ENABLE_INTERRUPT_PARAMETERS
+title: "_GPIO_ENABLE_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_ENABLE_INTERRUPT_PARAMETERS structure specifies a general-purpose I/O (GPIO) pin and describes the interrupt attributes of this pin.
 old-location: gpio\gpio_enable_interrupt_parameters.htm
 old-project: GPIO
 ms.assetid: 9F9AA4C1-A202-4AF8-8E1D-F7E56C08A2C1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, *PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports]
+ms.date: 2/15/2018
+ms.keywords: "*PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Gpioclx.h
-apiname: 
+api_name:
 -	GPIO_ENABLE_INTERRUPT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS
+req.typenames: GPIO_ENABLE_INTERRUPT_PARAMETERS, *PGPIO_ENABLE_INTERRUPT_PARAMETERS
 ---
 
 # _GPIO_ENABLE_INTERRUPT_PARAMETERS structure
@@ -93,33 +93,39 @@ A set of flags that control the configuration of the GPIO pins. No flags are cur
 ### -field InterruptMode
 
 Whether the interrupt request from this GPIO pin is level-sensitive or edge-triggered. This member is set to one of the following values:
+
 <ul>
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
-</ul>For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+</ul>
+For more information, see <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
 
 Whether the interrupt line from this GPIO pin is active-high or active-low. This member is set to one of the following values:
+
 <ul>
 <li><b>InterruptActiveHigh</b></li>
 <li><b>InterruptRisingEdge</b></li>
 <li><b>InterruptActiveLow</b></li>
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
-</ul>For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+</ul>
+For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
 
 
 ### -field PullConfiguration
 
 Whether this GPIO pin is pulled up or pulled down. This member is typically set to one of the following system-defined constants:
+
 <ul>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLDEFAULT</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLUP</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLDOWN</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLNONE</b></li>
-</ul>If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION</a>.
+</ul>
+If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION</a>.
 
 
 ### -field DebounceTimeout
@@ -138,6 +144,7 @@ The size, in bytes, of the data buffer that is pointed to by the <b>VendorData</
 
 
 ## -remarks
+
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439435">CLIENT_UnmaskInterrupt</a> event callback functions use a <b>GPIO_ENABLE_INTERRUPT_PARAMETERS</b> structure to specify a GPIO pin and to describe the interrupt attributes of this pin.
@@ -161,23 +168,36 @@ If none of the system-defined <b>GPIO_PIN_PULL_CONFIGURATION_<i>XXX</i></b> cons
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439435">CLIENT_UnmaskInterrupt</a>
 
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_ENABLE_INTERRUPT_PARAMETERS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_ENABLE_INTERRUPT_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

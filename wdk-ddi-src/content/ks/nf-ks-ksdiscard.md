@@ -7,8 +7,8 @@ old-location: stream\ksdiscard.htm
 old-project: stream
 ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksdiscard, ks/KsDiscard, avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, KsDiscard, KsDiscard function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsDiscard
 product: Windows
 targetos: Windows
@@ -82,27 +82,39 @@ A pointer to the item to be removed from the requested object's bag.
 ## -remarks
 
 
+
 This function is implemented as a C-style preprocessing macro in the <i>Ks.h</i> header.
 
 <b>KsDiscard</b> calls <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>, passing the object bag associated with <i>Object</i> (<i>Object -&gt; Bag</i>), the item specified by <i>Pointer</i>, and <b>TRUE</b> for the <i>Free</i> parameter. 
 
 
 
-## -see-also
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
- 
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDiscard function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDiscard function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\storportfreeregistrybuffer.htm
 old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, StorPortFreeRegistryBuffer routine [Storage Devices], storport/StorPortFreeRegistryBuffer, storage.storportfreeregistrybuffer, StorPortFreeRegistryBuffer
+ms.date: 2/24/2018
+ms.keywords: StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortFreeRegistryBuffer
 product: Windows
 targetos: Windows
@@ -83,14 +83,18 @@ Pointer to the buffer to be freed.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated by <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>. Miniport drivers can only have one registry buffer open at a time. After the miniport driver calls the <b>StorPortFreeRegistryBuffer</b> routine, subsequent calls by the miniport driver to <b>StorPortAllocateRegistryBuffer</b> will succeed. 
+
 
 
 
@@ -98,9 +102,11 @@ The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocate
 
 <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeRegistryBuffer routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortFreeRegistryBuffer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

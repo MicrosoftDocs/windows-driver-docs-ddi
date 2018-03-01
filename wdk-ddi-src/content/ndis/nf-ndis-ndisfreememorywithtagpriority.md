@@ -7,8 +7,8 @@ old-location: netvista\ndisfreememorywithtagpriority.htm
 old-project: netvista
 ms.assetid: 3870e2c8-22cf-4f96-8c2b-4c3cac26d50f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreememorywithtagpriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], NdisFreeMemoryWithTagPriority, ndis/NdisFreeMemoryWithTagPriority
+ms.date: 2/16/2018
+ms.keywords: NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisFreeMemoryWithTagPriority
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeMemoryWithTagPriority function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFreeMemoryWithTagPriority</b> function releases memory that was allocated with the 
-  <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-  NdisAllocateMemoryWithTagPriority</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+  NdisAllocateMemoryWithTagPriority</a> function.
 
 
 ## -syntax
@@ -77,11 +77,11 @@ VOID NdisFreeMemoryWithTagPriority(
 
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that the driver passed to the 
-     <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-     NdisAllocateMemoryWithTagPriority</b></mshelp:link> function. For example, a miniport driver can use the NDIS handle
+     <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+     NdisAllocateMemoryWithTagPriority</a> function. For example, a miniport driver can use the NDIS handle
      that it obtained from the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> or 
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> or 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      Other NDIS drivers can use the handles from the following functions:
      
@@ -106,8 +106,8 @@ An NDIS driver or instance handle that was obtained during caller initialization
 ### -param VirtualAddress [in]
 
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
-     <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-     NdisAllocateMemoryWithTagPriority</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+     NdisAllocateMemoryWithTagPriority</a> function.
 
 
 ### -param Tag [in]
@@ -120,17 +120,21 @@ A string, delimited by single quotation marks, with up to four characters, usual
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Because noncached memory and contiguous memory are seldom released until the allocating miniport
     driver is unloading, a caller of 
     <b>NdisFreeMemoryWithTagPriority</b> usually is running at IRQL = PASSIVE_LEVEL for these types of
     de-allocations. In any case:
+
 <ul>
 <li>
 When a caller of 
@@ -153,26 +157,41 @@ When a caller of
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeMemoryWithTagPriority function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeMemoryWithTagPriority function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

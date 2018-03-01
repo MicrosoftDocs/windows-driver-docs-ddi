@@ -7,8 +7,8 @@ old-location: debugger\getimagepath.htm
 old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetImagePath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetImagePath, IDebugSymbols2::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, dbgeng/IDebugSymbols2::GetImagePath, IDebugSymbols3, GetImagePath method [Windows Debugging], dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface
+ms.date: 2/23/2018
+ms.keywords: GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging], IDebugSymbols interface, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, GetImagePath,IDebugSymbols3.GetImagePath, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols.GetImagePath
 -	IDebugSymbols2.GetImagePath
 -	IDebugSymbols3.GetImagePath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetImagePath method
@@ -89,7 +89,9 @@ Receives the size, in characters, of the executable image path.
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,11 +119,14 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The executable image path is used by the engine when searching for executable images.
@@ -130,21 +135,32 @@ The executable image path can consist of several directories separated by semico
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetImagePath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetImagePath method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

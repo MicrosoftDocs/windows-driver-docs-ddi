@@ -1,14 +1,14 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR
-title: _WINBIO_BIR
+title: "_WINBIO_BIR"
 author: windows-driver-content
 description: The WINBIO_BIR structure is the root of the BIR (Biometric Information Record). It contains the size and offset of any other data elements in the BIR.
 old-location: biometric\winbio_bir.htm
 old-project: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: winbio_types/WINBIO_BIR, biometric.winbio_bir, WINBIO_BIR, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], WINBIO_BIR structure [Biometric Devices], *PWINBIO_BIR, _WINBIO_BIR
+ms.date: 2/20/2018
+ms.keywords: "*PWINBIO_BIR, PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], WINBIO_BIR, WINBIO_BIR structure [Biometric Devices], _WINBIO_BIR, biometric.winbio_bir, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, winbio_types/WINBIO_BIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winbio_types.h
-apiname: 
+api_name:
 -	WINBIO_BIR
 product: Windows
 targetos: Windows
@@ -94,9 +94,11 @@ A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md
 ## -remarks
 
 
+
 The four WINBIO_BIR_DATA structures are contiguous and should be immediately followed by the actual data for each block.  Thus, the offset for the <i>HeaderBlock</i> will always be 4*(sizeof (WINBIO_BIR_DATA).  You can use the <a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a> structure to provide the actual data of the header block.  
 
 The offset of where the <i>StandardDataBlock</i> starts should be the offset of the HeaderBlock plus the size of the HeaderBlock.
+
 
 
 
@@ -104,15 +106,23 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 <a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
+
 
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
+
+
+
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

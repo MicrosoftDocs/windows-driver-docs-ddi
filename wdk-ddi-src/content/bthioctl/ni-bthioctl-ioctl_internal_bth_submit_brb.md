@@ -7,15 +7,15 @@ old-location: bltooth\ioctl_internal_bth_submit_brb.htm
 old-project: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.ioctl_internal_bth_submit_brb, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], IOCTL_INTERNAL_BTH_SUBMIT_BRB, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: BthIoctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	BthIoctl.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_BTH_SUBMIT_BRB
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -72,6 +72,7 @@ The
       <b>Parameters.Others.Argument1</b> member points to the address an instance of the
       structure that corresponds to the BRB that the profile driver intends to issue. The following list
       describes the structures that correspond to specific BRBs.
+
 <table>
 <tr>
 <th>Bluetooth Request Block (BRB)</th>
@@ -108,8 +109,8 @@ BRB_L2CA_UNREGISTER_SERVER
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_l2ca_unregister_server" tabindex="0"><b>
-          _BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">
+          _BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 </td>
@@ -349,13 +350,14 @@ BRB_GET_DEVICE_INTERFACE_STRING
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
-          _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_get_device_interface_string.md">
+          _BRB_GET_DEVICE_INTERFACE_STRING</a>
 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
@@ -379,14 +381,18 @@ The length of the structure
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -399,6 +405,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -480,10 +487,12 @@ The BRB is pending.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Profile drivers use BRBs to handle most input, output, and connection tasks. A number of BRBs are
@@ -500,17 +509,24 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
+
+
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_INTERNAL_BTH_SUBMIT_BRB control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_INTERNAL_BTH_SUBMIT_BRB control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

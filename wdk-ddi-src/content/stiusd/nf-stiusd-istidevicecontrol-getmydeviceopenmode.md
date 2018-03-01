@@ -7,8 +7,8 @@ old-location: image\istidevicecontrol_getmydeviceopenmode.htm
 old-project: image
 ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl::GetMyDeviceOpenMode, stiusd/IStiDeviceControl::GetMyDeviceOpenMode, GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_getmydeviceopenmode, GetMyDeviceOpenMode, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, IStiDeviceControl
+ms.date: 2/23/2018
+ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceOpenMode,IStiDeviceControl.GetMyDeviceOpenMode, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, stiusd/IStiDeviceControl::GetMyDeviceOpenMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	stiusd.h
-apiname: 
+api_name:
 -	IStiDeviceControl.GetMyDeviceOpenMode
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ Receives the mode flag that an application previously specified as the <i>dwMode
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
+
 
 

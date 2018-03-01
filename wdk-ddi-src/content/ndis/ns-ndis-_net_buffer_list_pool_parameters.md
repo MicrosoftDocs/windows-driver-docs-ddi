@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_POOL_PARAMETERS
-title: _NET_BUFFER_LIST_POOL_PARAMETERS
+title: "_NET_BUFFER_LIST_POOL_PARAMETERS"
 author: windows-driver-content
 description: The NET_BUFFER_LIST_POOL_PARAMETERS structure defines the parameters for a pool of NET_BUFFER_LIST structures.
 old-location: netvista\net_buffer_list_pool_parameters.htm
 old-project: netvista
 ms.assetid: DBB172A0-957E-4FAC-9727-D72B060E3193
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters, *PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_POOL_PARAMETERS, ndis/NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NET_BUFFER_LIST_POOL_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS
+req.typenames: NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETERS
 ---
 
 # _NET_BUFFER_LIST_POOL_PARAMETERS structure
@@ -84,6 +84,14 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.0.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1.
+
+
 ### -field ProtocolId
 
 The type of caller. Miniport, filter, and intermediate drivers set this field to zero
@@ -91,6 +99,30 @@ The type of caller. Miniport, filter, and intermediate drivers set this field to
        
 
 
+
+
+
+#### NDIS_PROTOCOL_ID_DEFAULT
+
+Specifies a default protocol driver identifier.
+
+
+
+#### NDIS_PROTOCOL_ID_TCP_IP
+
+Specifies the TCP/IP protocol.
+
+
+
+#### NDIS_PROTOCOL_ID_IPX
+
+Specifies the IPX protocol.
+
+
+
+#### NDIS_PROTOCOL_ID_NBF
+
+Specifies the NetBEUI protocol.
 
 
 ### -field fAllocateNetBuffer
@@ -131,34 +163,8 @@ The default data size, in bytes, for data buffers that are associated with this
 For more information, see the Remarks section.
 
 
-##### - ProtocolId.NDIS_PROTOCOL_ID_DEFAULT
-
-Specifies a default protocol driver identifier.
-
-
-##### - ProtocolId.NDIS_PROTOCOL_ID_NBF
-
-Specifies the NetBEUI protocol.
-
-
-##### - ProtocolId.NDIS_PROTOCOL_ID_IPX
-
-Specifies the IPX protocol.
-
-
-##### - ProtocolId.NDIS_PROTOCOL_ID_TCP_IP
-
-Specifies the TCP/IP protocol.
-
-
-##### - Header.NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.0.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1.
-
-
 ## -remarks
+
 
 
 If 
@@ -179,19 +185,28 @@ The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetb
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST_POOL_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST_POOL_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

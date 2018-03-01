@@ -7,8 +7,8 @@ old-location: storage\ioctl_scsi_miniport_hybrid.htm
 old-project: storage
 ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_scsi_miniport_hybrid, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], IOCTL_SCSI_MINIPORT_HYBRID, ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddscsi.h
-apiname: 
+api_name:
 -	IOCTL_SCSI_MINIPORT_HYBRID
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,20 +88,25 @@ The <b>DataBufferOffset</b> and <b>DataBufferLength</b> members of <b>HYBRID_REQ
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The resulting status of the function request is set in the <b>ReturnCode</b> member of <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>. The following are the hybrid disk IOCTL status codes.
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -123,13 +128,16 @@ The resulting status of the function request is set in the <b>ReturnCode</b> mem
 <td>HYBRID_STATUS_OUTPUT_BUFFER_TOO_SMALL</td>
 <td>The data length given in <b>DataBufferLength</b> is too  small to contain the request output.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the data buffer.  <b>HYBRID_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -148,7 +156,9 @@ A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="..\ntdd
 </tr>
 </table></span></div>
 
+
 The parameter requirements depend on the function code of the hybrid disk request. The following table lists the parameters required for each function.
+
 <table>
 <tr>
 <th>Function</th>
@@ -245,11 +255,13 @@ The parameter requirements depend on the function code of the hybrid disk reques
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The <b>HYBRID_REQUEST_BLOCK</b> structure is located after the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB. Any function data included with the request is found at the offset in <b>DataBufferOffset</b> after the beginning of the <b>SRB_IO_CONTROL</b> structure.
 
 The following example demonstrates retrieval of  the function data for a HYBRID_FUNCTION_SET_DIRTY_THRESHOLD request.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -273,7 +285,8 @@ The following example demonstrates retrieval of  the function data for a HYBRID_
     }</pre>
 </td>
 </tr>
-</table></span></div><b>HYBRID_DIRTY_THRESHOLDS</b>
+</table></span></div>
+<b>HYBRID_DIRTY_THRESHOLDS</b>
 
 The HYBRID_FUNCTION_SET_DIRTY_THRESHOLD function uses the <b>HYBRID_DIRTY_THRESHOLDS</b> structure for its input parameters. <b>HYBRID_DIRTY_THRESHOLDS</b> is defined in ntddscsi.h as the following.<div class="code"><span codelanguage=""><table>
 <tr>
@@ -383,19 +396,28 @@ The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> stru
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
 
- 
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_MINIPORT_HYBRID control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_MINIPORT_HYBRID control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

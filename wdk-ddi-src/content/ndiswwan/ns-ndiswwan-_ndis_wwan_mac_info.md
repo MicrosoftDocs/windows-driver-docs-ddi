@@ -1,14 +1,14 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MAC_INFO
-title: _NDIS_WWAN_MAC_INFO
+title: "_NDIS_WWAN_MAC_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_MAC_INFO structure represents NDIS port information for a PDP context.
 old-location: netvista\ndis_wwan_mac_info.htm
 old-project: netvista
 ms.assetid: C55DC50B-5A1B-496E-BBB8-8EB94A9CFD2F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_MAC_INFO, ndiswwan/NDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_INFO, ndiswwan/NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndiswwan.h
-apiname: 
+api_name:
 -	NDIS_WWAN_MAC_INFO
 product: Windows
 targetos: Windows

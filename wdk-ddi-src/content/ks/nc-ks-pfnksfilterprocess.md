@@ -7,8 +7,8 @@ old-location: stream\avstrminifilterprocess.htm
 old-project: stream
 ms.assetid: f1998d68-1c9e-4527-a174-b22a8c301e63
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.avstrminifilterprocess, AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], AVStrMiniFilterProcess, PFNKSFILTERPROCESS, PFNKSFILTERPROCESS, ks/AVStrMiniFilterProcess, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: (See Remarks section)
-topictype: 
+req.irql: "(See Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	AVStrMiniFilterProcess
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSFILTERPROCESS callback
@@ -83,6 +83,8 @@ Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure that mu
 
 
 
+
+
 #### - ProcessPinsIndex [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a> structures that AVStream orders by pin ID.
@@ -91,11 +93,14 @@ Pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCE
 ## -returns
 
 
+
 Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop processing until the next triggering event. The minidriver may return an error code, but this will be treated as described for STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>Process</b> member of its <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure.
@@ -108,15 +113,20 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
+
+
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERPROCESS routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERPROCESS routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:irb._IDE_TASK_FILE
-title: _IDE_TASK_FILE
+title: "_IDE_TASK_FILE"
 author: windows-driver-content
 description: The IDE_TASK_FILE structure contains the current and previous IDE task file.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_task_file.htm
 old-project: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PIDE_TASK_FILE, irb/PIDE_TASK_FILE, IDE_TASK_FILE, irb/IDE_TASK_FILE, storage.ide_task_file, *PIDE_TASK_FILE, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PIDE_TASK_FILE, IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, irb/IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IDE_TASK_FILE
 product: Windows
 targetos: Windows
@@ -82,9 +82,11 @@ Contains a structure of type <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTE
 
 <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_TASK_FILE structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_TASK_FILE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgkcb_indicate_connector_change.htm
 old-project: display
 ms.assetid: D3C76DC0-7A6B-4E1E-8277-F6410D4B474B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcb_indicate_connector_change, *DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], *DXGKCB_INDICATE_CONNECTOR_CHANGE, d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE
+ms.date: 2/24/2018
+ms.keywords: "*DXGKCB_INDICATE_CONNECTOR_CHANGE, *DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	*DXGKCB_INDICATE_CONNECTOR_CHANGE
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A handle that identifies the adapter.
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS. 
+
 
 

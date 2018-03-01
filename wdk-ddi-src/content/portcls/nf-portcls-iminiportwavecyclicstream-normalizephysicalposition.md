@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, NormalizePhysicalPosition, IMiniportWaveCyclicStream::NormalizePhysicalPosition, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream, audio.iminiportwavecyclicstream_normalizephysicalposition, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, NormalizePhysicalPosition method [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition,IMiniportWaveCyclicStream.NormalizePhysicalPosition, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWaveCyclicStream.NormalizePhysicalPosition
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Pointer to a caller-allocated variable that contains either the physical positio
 ## -returns
 
 
+
 <code>NormalizePhysicalPosition</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 <i>PhysicalPosition</i> is both an input and an output parameter. Given a physical position based on the actual number of bytes transferred, <code>NormalizePhysicalPosition</code> converts the position to a time-based value of 100-nanosecond units.
+
 
 

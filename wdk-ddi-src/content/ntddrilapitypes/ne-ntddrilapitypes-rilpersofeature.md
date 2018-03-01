@@ -7,8 +7,8 @@ old-location: netvista\rilpersofeature.htm
 old-project: netvista
 ms.assetid: e212ab20-e9b4-4ccc-b0db-a82ca5b59573
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PERSOFEATURE_3GPP_CORP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NETSUB, RIL_PERSOFEATURE_3GPP2_NETTYPE1, RIL_PERSOFEATURE_3GPP2_HRPD, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE2, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_SP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NET, RIL_PERSOFEATURE_3GPP2_CORP, RIL_PERSOFEATURE_ALL, RIL_PERSOFEATURE_3GPP_SP, RIL_PERSOFEATURE_3GPP2_UIM, ntddrilapitypes/RILPERSOFEATURE, RIL_PERSOFEATURE_3GPP_NET, RIL_PERSOFEATURE_3GPP_NETSUB, RILPERSOFEATURE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_HRPD, RIL_PERSOFEATURE_3GPP2_NETTYPE2, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE1, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_USIM, RILPERSOFEATURE, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_CORP, RIL_PERSOFEATURE_3GPP_CORP, netvista.rilpersofeature, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_UIM, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_SP, RIL_PERSOFEATURE_3GPP_USIM, ntddrilapitypes/RIL_PERSOFEATURE_ALL, RIL_PERSOFEATURE_3GPP2_SP
+ms.date: 2/16/2018
+ms.keywords: RILPERSOFEATURE, RILPERSOFEATURE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOFEATURE_3GPP2_CORP, RIL_PERSOFEATURE_3GPP2_HRPD, RIL_PERSOFEATURE_3GPP2_NETTYPE1, RIL_PERSOFEATURE_3GPP2_NETTYPE2, RIL_PERSOFEATURE_3GPP2_SP, RIL_PERSOFEATURE_3GPP2_UIM, RIL_PERSOFEATURE_3GPP_CORP, RIL_PERSOFEATURE_3GPP_NET, RIL_PERSOFEATURE_3GPP_NETSUB, RIL_PERSOFEATURE_3GPP_SP, RIL_PERSOFEATURE_3GPP_USIM, RIL_PERSOFEATURE_ALL, netvista.rilpersofeature, ntddrilapitypes/RILPERSOFEATURE, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_CORP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_HRPD, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE1, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE2, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_SP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_UIM, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_CORP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NET, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NETSUB, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_SP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_USIM, ntddrilapitypes/RIL_PERSOFEATURE_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPERSOFEATURE
 product: Windows
 targetos: Windows
@@ -81,51 +81,38 @@ typedef enum _RILPERSOFEATURE {
 ### -field RIL_PERSOFEATURE_NONE
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP_NET
-
 
 
 ### -field RIL_PERSOFEATURE_3GPP_NETSUB
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP_SP
-
 
 
 ### -field RIL_PERSOFEATURE_3GPP_CORP
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP_USIM
-
 
 
 ### -field RIL_PERSOFEATURE_3GPP2_NETTYPE1
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP2_NETTYPE2
-
 
 
 ### -field RIL_PERSOFEATURE_3GPP2_HRPD
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP2_SP
-
 
 
 ### -field RIL_PERSOFEATURE_3GPP2_CORP
 
 
-
 ### -field RIL_PERSOFEATURE_3GPP2_UIM
 
 
-
 ### -field RIL_PERSOFEATURE_ALL
-
 

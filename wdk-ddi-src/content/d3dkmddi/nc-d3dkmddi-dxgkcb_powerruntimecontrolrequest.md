@@ -7,8 +7,8 @@ old-location: display\dxgkcbpowerruntimecontrolrequest.htm
 old-project: display
 ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbpowerruntimecontrolrequest, PDXGKCB_POWERRUNTIMECONTROLREQUEST, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], DxgkCbPowerRuntimeControlRequest, DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DxgkCbPowerRuntimeControlRequest
 product: Windows
 targetos: Windows
@@ -84,8 +84,9 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param LPCGUID
 
 
-
 ### -param OPTIONAL
+
+
 
 
 
@@ -94,6 +95,10 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 ### -param SIZE_T
 
+
+#### - BytesReturned [out, optional]
+
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
 
 
 #### - InBuffer [in, optional]
@@ -106,19 +111,14 @@ An optional pointer to an input buffer.
 The size, in bytes, of the buffer that <i>InBuffer</i> points to.
 
 
-#### - OutBufferSize [in]
-
-The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
-
-
-#### - BytesReturned [out, optional]
-
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
 #### - OutBuffer [out, optional]
 
 An optional pointer to an output buffer.
+
+
+#### - OutBufferSize [in]
+
+The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
 
 #### - PowerControlCode [in]
@@ -129,14 +129,19 @@ A pointer to a GUID that defines the meaning of the display miniport driver's co
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div><div> </div>Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
+
+<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
+<div> </div>
+Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
 
 <dl>
 <dt><a id="GUID_DXGKDDI_POWER_VOLTAGE_UP"></a><a id="guid_dxgkddi_power_voltage_up"></a>GUID_DXGKDDI_POWER_VOLTAGE_UP</dt>
@@ -191,17 +196,24 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
+
+
 
 <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_POWERRUNTIMECONTROLREQUEST callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_POWERRUNTIMECONTROLREQUEST callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

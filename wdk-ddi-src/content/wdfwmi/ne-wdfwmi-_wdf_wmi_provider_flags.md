@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_FLAGS
-title: _WDF_WMI_PROVIDER_FLAGS
+title: "_WDF_WMI_PROVIDER_FLAGS"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_FLAGS enumeration defines configuration flags for a driver's WMI data provider.
 old-location: wdf\wdf_wmi_provider_flags.htm
 old-project: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags, wdf.wdf_wmi_provider_flags, WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, WDF_WMI_PROVIDER_FLAGS, _WDF_WMI_PROVIDER_FLAGS, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS enumeration, wdfwmi/WdfWmiProviderEventOnly, WdfWmiProviderTracing, wdfwmi/WdfWmiProviderExpensive, WdfWmiProviderEventOnly
+ms.date: 2/20/2018
+ms.keywords: DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS, WDF_WMI_PROVIDER_FLAGS enumeration, WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WdfWmiProviderTracing, WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS, kmdf.wdf_wmi_provider_flags, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfwmi.h
-apiname: 
+api_name:
 -	WDF_WMI_PROVIDER_FLAGS
 product: Windows
 targetos: Windows
@@ -96,27 +96,41 @@ The bitwise OR of all flags. Drivers should not use this value.
 ## -remarks
 
 
+
 The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
 
-<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
+
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
- 
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
+
+
+
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_FLAGS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

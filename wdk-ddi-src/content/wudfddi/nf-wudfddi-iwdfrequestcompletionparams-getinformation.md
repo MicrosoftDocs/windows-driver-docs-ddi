@@ -7,8 +7,8 @@ old-location: wdf\iwdfrequestcompletionparams_getinformation.htm
 old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetInformation, IWDFRequestCompletionParams, wudfddi/IWDFRequestCompletionParams::GetInformation, GetInformation method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetInformation method, wdf.iwdfrequestcompletionparams_getinformation, GetInformation method, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation
+ms.date: 2/20/2018
+ms.keywords: GetInformation method, GetInformation method, IWDFRequestCompletionParams interface, GetInformation,IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetInformation method, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRequestCompletionParams.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ ULONG_PTR GetInformation();
 
 
 
+
 ## -returns
 
 
+
 <b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.
+
 
 
 
@@ -80,9 +83,11 @@ ULONG_PTR GetInformation();
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRequestCompletionParams::GetInformation method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRequestCompletionParams::GetInformation method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

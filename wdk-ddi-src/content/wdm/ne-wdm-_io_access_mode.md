@@ -1,19 +1,19 @@
 ---
 UID: NE:wdm._IO_ACCESS_MODE
-title: _IO_ACCESS_MODE
+title: "_IO_ACCESS_MODE"
 author: windows-driver-content
 description: Defines the types of access mode for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_mode.htm
 old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IO_ACCESS_MODE, SequentialAccess, kernel.io_access_mode, wdm/SequentialAccess, RandomAccess, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], wdm/IO_ACCESS_MODE, _IO_ACCESS_MODE, wdm/RandomAccess
+ms.date: 2/24/2018
+ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	IO_ACCESS_MODE
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: netvista\rilrfstateparammask_2.htm
 old-project: netvista
 ms.assetid: 075c61aa-b091-4616-810b-f39ad40d2777
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_ALL, RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_RFSTATE, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilrfstateparammask_2, RIL_PARAM_RFSTATE_RFDATA, rilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFSTATE
+ms.date: 2/16/2018
+ms.keywords: RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_RFDATASIZE, RIL_PARAM_RFSTATE_RFSTATE, netvista.rilrfstateparammask_2, rilapitypes/RILRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_RFSTATE_ALL, rilapitypes/RIL_PARAM_RFSTATE_RFDATA, rilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, rilapitypes/RIL_PARAM_RFSTATE_RFSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILRFSTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILRFSTATEPARAMMASK {
 ### -field RIL_PARAM_RFSTATE_NONE
 
 
-
 ### -field RIL_PARAM_RFSTATE_RFSTATE
-
 
 
 ### -field RIL_PARAM_RFSTATE_RFDATASIZE
 
 
-
 ### -field RIL_PARAM_RFSTATE_RFDATA
 
 
-
 ### -field RIL_PARAM_RFSTATE_ALL
-
 

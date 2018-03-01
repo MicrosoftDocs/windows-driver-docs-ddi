@@ -1,14 +1,14 @@
 ---
 UID: NF:rxlog._RxLog
-title: _RxLog function
+title: "_RxLog function"
 author: windows-driver-content
-description: _RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled.
+description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
 old-project: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml, ifsk._rxlog, _RxLog function [Installable File System Drivers], _RxLog, rxlog/_RxLog
+ms.date: 2/16/2018
+ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rxlog.h
-apiname: 
+api_name:
 -	_RxLog
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - Format
 
 The variable argument list that contains a format string and a variable number of parameters.
@@ -87,11 +88,14 @@ The variable argument list that contains a format string and a variable number o
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 It is recommended that the <b>RxLog</b> macro be used instead of calling the <b>_RxLog</b> routine directly.
@@ -116,17 +120,24 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 
 
+
 ## -see-also
-
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
- 
+
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20_RxLog function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20_RxLog function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

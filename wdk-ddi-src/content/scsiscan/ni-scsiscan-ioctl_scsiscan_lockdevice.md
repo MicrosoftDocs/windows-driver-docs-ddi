@@ -7,8 +7,8 @@ old-location: image\ioctl_scsiscan_lockdevice.htm
 old-project: image
 ms.assetid: 93e5d446-4f18-4468-9591-8951d3c85dd3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_scsiscan_lockdevice, IOCTL_SCSISCAN_LOCKDEVICE control code [Imaging Devices], IOCTL_SCSISCAN_LOCKDEVICE, scsiscan/IOCTL_SCSISCAN_LOCKDEVICE, stifnc_9a61e56c-42e9-4b97-89cb-8cf983582168.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_SCSISCAN_LOCKDEVICE, IOCTL_SCSISCAN_LOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_lockdevice, scsiscan/IOCTL_SCSISCAN_LOCKDEVICE, stifnc_9a61e56c-42e9-4b97-89cb-8cf983582168.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsiscan.h
-apiname: 
+api_name:
 -	IOCTL_SCSISCAN_LOCKDEVICE
 product: Windows
 targetos: Windows

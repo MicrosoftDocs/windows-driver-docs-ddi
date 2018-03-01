@@ -7,8 +7,8 @@ old-location: image\iwiaminidrvcallback_interface.htm
 old-project: image
 ms.assetid: cf2460c5-325f-43c3-a1fe-5b6982234194
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.iwiaminidrvcallback_interface, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices], described, IWiaMiniDrvCallBack, wiamindr_lh/IWiaMiniDrvCallBack, CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml
+ms.date: 2/23/2018
+ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices], described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wiamindr_lh.h
-apiname: 
+api_name:
 -	IWiaMiniDrvCallBack
 product: Windows
 targetos: Windows
@@ -55,6 +55,13 @@ The <b>IWiaMiniDrvCallBack</b> interface provides the <a href="https://msdn.micr
 This method can also convey status information, such as the percentage of data transferred.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrvCallBack</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaMiniDrvCallBack</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWiaMiniDrvCallBack</b> interface has these methods.
@@ -72,7 +79,5 @@ The <a href="https://msdn.microsoft.com/7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9">Mi
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9">MiniDrvCallback</a> method provides a callback method for WIA minidrivers to use during a callback data transfer.
-
- 
+</table> 
 

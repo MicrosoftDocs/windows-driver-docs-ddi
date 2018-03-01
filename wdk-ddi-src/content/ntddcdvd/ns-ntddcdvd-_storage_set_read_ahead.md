@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddcdvd._STORAGE_SET_READ_AHEAD
-title: _STORAGE_SET_READ_AHEAD
+title: "_STORAGE_SET_READ_AHEAD"
 author: windows-driver-content
 description: The STORAGE_SET_READ_AHEAD structure is used in conjunction with the IOCTL_STORAGE_SET_READ_AHEAD request to instruct the device to skip to the target address upon reaching the trigger address.
 old-location: storage\storage_set_read_ahead.htm
 old-project: storage
 ms.assetid: 5220230f-5436-4a79-808c-ab840d7009e7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PSTORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD structure [Storage Devices], structs-general_a6938152-7839-43e0-a030-8767d032469c.xml, PSTORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD, ntddcdvd/PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD structure pointer [Storage Devices], _STORAGE_SET_READ_AHEAD, storage.storage_set_read_ahead, ntddcdvd/STORAGE_SET_READ_AHEAD
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD structure pointer [Storage Devices], STORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD structure [Storage Devices], _STORAGE_SET_READ_AHEAD, ntddcdvd/PSTORAGE_SET_READ_AHEAD, ntddcdvd/STORAGE_SET_READ_AHEAD, storage.storage_set_read_ahead, structs-general_a6938152-7839-43e0-a030-8767d032469c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdvd.h
-apiname: 
+api_name:
 -	STORAGE_SET_READ_AHEAD
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD
+req.typenames: STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD
 ---
 
 # _STORAGE_SET_READ_AHEAD structure
@@ -82,9 +82,11 @@ Indicates the address to jump to.
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_storage_set_read_ahead.md">IOCTL_STORAGE_SET_READ_AHEAD</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_SET_READ_AHEAD structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_SET_READ_AHEAD structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\configureauthenticatedchannel.htm
 old-project: display
 ms.assetid: 95485e96-fa4f-4c88-b88b-97b79f507abd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.configureauthenticatedchannel, ConfigureAuthenticatedChannel callback function [Display Devices], ConfigureAuthenticatedChannel, PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, d3dumddi/ConfigureAuthenticatedChannel, UserModeDisplayDriver_Functions_183c7dec-91c3-4929-a86d-c648d1b59ceb.xml
+ms.date: 2/24/2018
+ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, UserModeDisplayDriver_Functions_183c7dec-91c3-4929-a86d-c648d1b59ceb.xml, d3dumddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	ConfigureAuthenticatedChannel
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ConfigureAuthenticatedChannel(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel.md">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY ConfigureAuthenticatedChannel(
 ## -returns
 
 
+
 <b>ConfigureAuthenticatedChannel</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +124,14 @@ The authenticated channel is successfully configured.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The input buffer contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) that the driver must authenticate. The input buffer also contains the driver's handle to the authenticated channel, a sequence number, and a GUID that indicates the configuration type.
@@ -141,13 +148,16 @@ Except for those situations in which the application incorrectly specifies an ou
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel.md">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

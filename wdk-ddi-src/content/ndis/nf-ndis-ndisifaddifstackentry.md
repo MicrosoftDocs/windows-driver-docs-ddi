@@ -7,8 +7,8 @@ old-location: netvista\ndisifaddifstackentry.htm
 old-project: netvista
 ms.assetid: 6927bcdf-e2b5-4a60-8f71-a977f3a1c120
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisifaddifstackentry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, NdisIfAddIfStackEntry, ndis/NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisIfAddIfStackEntry
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfAddIfStackEntry function
@@ -86,7 +86,9 @@ The network interface index for the interface that should be lower in the interf
 ## -returns
 
 
+
 <b>NdisIfAddIfStackEntry</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ The operation failed because of insufficient resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers can call the 
@@ -145,8 +150,8 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
-    <mshelp:link keywords="netvista.ndisifdeleteifstackentry" tabindex="0"><b>
-    NdisIfDeleteIfStackEntry</b></mshelp:link> functions to add and delete entries in this table.
+    <a href="..\ndis\nf-ndis-ndisifdeleteifstackentry.md">
+    NdisIfDeleteIfStackEntry</a> functions to add and delete entries in this table.
 
 Any driver that can provide the information about the stack order relationship between two interfaces
     should call 
@@ -155,13 +160,16 @@ Any driver that can provide the information about the stack order relationship b
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifdeleteifstackentry.md">NdisIfDeleteIfStackEntry</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfAddIfStackEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfAddIfStackEntry function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

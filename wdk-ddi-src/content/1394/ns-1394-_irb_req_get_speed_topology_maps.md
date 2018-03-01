@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
-title: _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
+title: "_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetSpeedTopologyMaps request.
 old-location: ieee\irb_req_get_speed_topology_maps.htm
 old-project: IEEE
 ms.assetid: 3238BDA7-9C85-405B-B731-DD230B0975F9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 product: Windows
 targetos: Windows

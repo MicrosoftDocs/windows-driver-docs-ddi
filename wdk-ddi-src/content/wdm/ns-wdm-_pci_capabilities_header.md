@@ -1,19 +1,19 @@
 ---
 UID: NS:wdm._PCI_CAPABILITIES_HEADER
-title: _PCI_CAPABILITIES_HEADER
+title: "_PCI_CAPABILITIES_HEADER"
 author: windows-driver-content
 description: The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
 old-location: pci\pci_capabilities_header.htm
 old-project: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, _PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	PCI_CAPABILITIES_HEADER
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct _PCI_CAPABILITIES_HEADER {
 ### -field CapabilityID
 
 Contains an 8-bit integer that indicates the capability ID. The capability ID identifies the type of capability structure that follows this header. The <b>CapabilityID</b> member must have one of the following values:
+
 <table>
 <tr>
 <th>Capability ID</th>
@@ -247,7 +248,8 @@ Indicates that the capability structure that follows the header defines an optio
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Next
@@ -258,7 +260,9 @@ Contains an offset into the PCI configuration space that indicates the location 
 ## -remarks
 
 
+
 All PCI Capability structures have the header described by PCI_CAPABILITIES_HEADER. 
+
 
 
 
@@ -266,13 +270,19 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_CAPABILITIES_HEADER structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_CAPABILITIES_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

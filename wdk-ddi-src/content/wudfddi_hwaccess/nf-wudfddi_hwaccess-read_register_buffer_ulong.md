@@ -7,8 +7,8 @@ old-location: wdf\read_register_buffer_ulong.htm
 old-project: wdf
 ms.assetid: 615A19E7-ED3B-4C41-9B3B-F4FB77811BC2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_BUFFER_ULONG function, wdf.read_register_buffer_ulong, umdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG
+ms.date: 2/20/2018
+ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG function, umdf.read_register_buffer_ulong, wdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	READ_REGISTER_BUFFER_ULONG
 product: Windows
 targetos: Windows
@@ -96,13 +96,17 @@ Specifies the number of ULONG values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

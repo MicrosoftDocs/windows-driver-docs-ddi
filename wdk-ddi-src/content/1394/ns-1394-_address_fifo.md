@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._ADDRESS_FIFO
-title: _ADDRESS_FIFO
+title: "_ADDRESS_FIFO"
 author: windows-driver-content
 description: The ADDRESS_FIFO structure is an entry in a singly-linked list of MDLs used by the REQUEST_ALLOCATE_ADDRESS_RANGE IEEE 1394 bus request.
 old-location: ieee\address_fifo.htm
 old-project: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ADDRESS_FIFO structure [Buses], 1394/ADDRESS_FIFO, ADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO, *PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, IEEE.address_fifo, PADDRESS_FIFO, 1394/PADDRESS_FIFO
+ms.date: 2/15/2018
+ms.keywords: "*PADDRESS_FIFO, 1394/ADDRESS_FIFO, 1394/PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], IEEE.address_fifo, PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	ADDRESS_FIFO
 product: Windows
 targetos: Windows
-req.typenames: *PADDRESS_FIFO, ADDRESS_FIFO
+req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
 ---
 
 # _ADDRESS_FIFO structure
@@ -82,11 +82,15 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537437">NOTIFICATION_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_FIFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_FIFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

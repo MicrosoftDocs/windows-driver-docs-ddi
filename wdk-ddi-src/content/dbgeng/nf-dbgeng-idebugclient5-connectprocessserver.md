@@ -7,8 +7,8 @@ old-location: debugger\connectprocessserver.htm
 old-project: debugger
 ms.assetid: c5fd12eb-0779-400f-a271-84b7b379529f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient5, dbgeng/IDebugClient::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, ConnectProcessServer method [Windows Debugging], ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, dbgeng/IDebugClient3::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient3::ConnectProcessServer, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient2::ConnectProcessServer, debugger.connectprocessserver, IDebugClient::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, IDebugClient5::ConnectProcessServer, IDebugClient2::ConnectProcessServer, IDebugClient interface [Windows Debugging], ConnectProcessServer method, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method
+ms.date: 2/23/2018
+ms.keywords: ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging], IDebugClient interface, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, ConnectProcessServer,IDebugClient5.ConnectProcessServer, IDebugClient interface [Windows Debugging], ConnectProcessServer method, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient4::ConnectProcessServer, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, dbgeng/IDebugClient2::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, debugger.connectprocessserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient.ConnectProcessServer
 -	IDebugClient2.ConnectProcessServer
 -	IDebugClient3.ConnectProcessServer
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.ConnectProcessServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::ConnectProcessServer method
@@ -85,7 +85,9 @@ Receives a handle for the process server.  This handle is used when creating or 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,50 +104,82 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about process servers and remote debugging, see <a href="https://msdn.microsoft.com/ed7ea3dc-07d1-481c-90e0-7f0b0e77ad42">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::ConnectProcessServer method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::ConnectProcessServer method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

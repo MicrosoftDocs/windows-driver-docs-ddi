@@ -7,8 +7,8 @@ old-location: kernel\tmrenametransactionmanager_.htm
 old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: TmRenameTransactionManager, wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_
+ms.date: 2/24/2018
+ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,17 +28,17 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Wdm.h
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+api_name:
 -	TmRenameTransactionManager
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ A pointer to a GUID structure that represents the current name of the transactio
 ## -returns
 
 
+
 The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
+
 
 

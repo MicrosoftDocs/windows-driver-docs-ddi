@@ -7,8 +7,8 @@ old-location: netvista\dot11extgetprofilecustomuserdata.htm
 old-project: netvista
 ms.assetid: 1a88138f-aada-410a-a985-249de793aa51
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extgetprofilecustomuserdata, Dot11ExtGetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Dot11ExtGetProfileCustomUserData, DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, wlanihv/Dot11ExtGetProfileCustomUserData, Native_802.11_IHV_Ext_ee7fad1d-d3c2-400d-bf87-b2bdccd61f58.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, Dot11ExtGetProfileCustomUserData, Dot11ExtGetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ee7fad1d-d3c2-400d-bf87-b2bdccd61f58.xml, netvista.dot11extgetprofilecustomuserdata, wlanihv/Dot11ExtGetProfileCustomUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtGetProfileCustomUserData
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,8 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
 ### -param dwSessionID [in]
@@ -96,31 +96,21 @@ The handle used by the operating system to reference the connection session with
 The session identifier (session ID) of the current user.
 
 
-### -param *pdwDataSize
-
-
-
-### -param *ppvData
-
-
-
-
-
-
-#### - ppvData [out]
-
-The address of a pointer variable that stores the address of the buffer containing the user
-     data.
-
-
-#### - pdwDataSize [out]
+### -param *pdwDataSize [out]
 
 A pointer to a caller-supplied variable that stores the size, in bytes, of the buffer referenced
      by 
      <i>ppvData</i> .
 
 
+### -param *ppvData [out]
+
+The address of a pointer variable that stores the address of the buffer containing the user
+     data.
+
+
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -129,7 +119,9 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -remarks
+
 
 
 The operating system does not decrypt the data referenced by the 
@@ -140,11 +132,11 @@ The operating system does not decrypt the data referenced by the
 For every wireless WLAN profile used by the Native Wifi AutoConfig service, Windows maintains the
     concept of custom user data. This custom user data is initially non-existent, but can be set by calling
     the 
-    <mshelp:link keywords="netvista.dot11extsetprofilecustomuserdata" tabindex="0"><b>
-    Dot11ExtSetProfileCustomUserData</b></mshelp:link> function. The custom user data gets reset to empty any time the
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
+    Dot11ExtSetProfileCustomUserData</a> function. The custom user data gets reset to empty any time the
     profile is modified by calling the 
-    <mshelp:link keywords="netvista.dot11extsetcurrentprofile" tabindex="0"><b>
-    Dot11ExtSetCurrentProfile</b></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">
+    Dot11ExtSetCurrentProfile</a> function.
 
 After custom user data has been set, this data can be accessed using the 
     <b>Dot11ExtGetProfileCustomUserData</b> function.
@@ -155,23 +147,34 @@ The caller is responsible for freeing the memory allocated for the buffer pointe
 
 
 
+
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
+   Dot11ExtSetProfileCustomUserData</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
 
-<mshelp:link keywords="netvista.dot11extsetprofilecustomuserdata" tabindex="0"><b>
-   Dot11ExtSetProfileCustomUserData</b></mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

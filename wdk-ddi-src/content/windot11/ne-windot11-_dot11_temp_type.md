@@ -1,14 +1,14 @@
 ---
 UID: NE:windot11._DOT11_TEMP_TYPE
-title: _DOT11_TEMP_TYPE
+title: "_DOT11_TEMP_TYPE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_temp_type.htm
 old-project: netvista
 ms.assetid: 73275e2e-b738-4adc-b89e-2cd152de6c75
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: dot11_temp_type_unknown, *PDOT11_TEMP_TYPE, _DOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_TEMP_TYPE, windot11/dot11_temp_type_unknown, windot11/dot11_temp_type_2, netvista.dot11_temp_type, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_temp_type_2, windot11/DOT11_TEMP_TYPE, dot11_temp_type_1, PDOT11_TEMP_TYPE
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, PDOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_TEMP_TYPE, dot11_temp_type_1, dot11_temp_type_2, dot11_temp_type_unknown, netvista.dot11_temp_type, windot11/DOT11_TEMP_TYPE, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, windot11/dot11_temp_type_2, windot11/dot11_temp_type_unknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_TEMP_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE
+req.typenames: DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -89,8 +89,10 @@ The industrial temperature range from -30 through 70 degrees Celsius.
 ## -remarks
 
 
+
 There are different operating temperature requirements dependent on the anticipated environmental
     conditions. The DOT11_TEMP_TYPE enumeration describes a PHY's operating temperature range capability.
+
 
 
 
@@ -98,11 +100,15 @@ There are different operating temperature requirements dependent on the anticipa
 
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569431">OID_DOT11_TEMP_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_TEMP_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_TEMP_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

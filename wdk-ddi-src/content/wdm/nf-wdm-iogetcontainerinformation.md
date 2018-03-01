@@ -7,8 +7,8 @@ old-location: kernel\iogetcontainerinformation.htm
 old-project: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetContainerInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetContainerInformation, kernel.iogetcontainerinformation, IoGetContainerInformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml
+ms.date: 2/24/2018
+ms.keywords: IoGetContainerInformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, kernel.iogetcontainerinformation, wdm/IoGetContainerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoGetContainerInformation
 product: Windows
 targetos: Windows
@@ -74,12 +74,14 @@ NTSTATUS IoGetContainerInformation(
 ### -param InformationClass [in]
 
 Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
+
 <ul>
 <li>
 <b>IoSessionStateInformation</b>
 
 </li>
-</ul>For more information, see the following Remarks section. 
+</ul>
+For more information, see the following Remarks section. 
 
 
 ### -param ContainerObject [in, optional]
@@ -100,7 +102,9 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>Informatio
 ## -returns
 
 
+
 <b>IoGetContainerInformation</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,28 +143,38 @@ Parameter <i>BufferLength</i> is too small for the information class specified b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This routine can potentially support queries for a variety of information classes. In Windows 7, this routine supports only queries for <b>IoSessionStateInformation</b> information, which is status information about user sessions.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
-<a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
+
 
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetContainerInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetContainerInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

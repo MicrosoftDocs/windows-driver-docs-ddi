@@ -7,8 +7,8 @@ old-location: wdf\iwdfdriver_createpreallocatedwdfmemory.htm
 old-project: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDriver::CreatePreallocatedWdfMemory, umdf.iwdfdriver_createpreallocatedwdfmemory, IWDFDriver, IWDFDriver::CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory method, wdf.iwdfdriver_createpreallocatedwdfmemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, IWDFDriver interface, CreatePreallocatedWdfMemory method
+ms.date: 2/20/2018
+ms.keywords: CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory,IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver, IWDFDriver interface, CreatePreallocatedWdfMemory method, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDriver.CreatePreallocatedWdfMemory
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -104,11 +104,14 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 <b>CreatePreallocatedWdfMemory</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The <b>CreatePreallocatedWdfMemory</b> method creates a framework memory object for a buffer that the driver previously allocated or obtained. 
@@ -120,24 +123,83 @@ After a UMDF driver calls <b>CreatePreallocatedWdfMemory</b>, the driver can cal
 When the framework memory object that <b>CreatePreallocatedWdfMemory</b> created is deleted, the framework does not deallocate the pre-existing buffer. Likewise, a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a> does not deallocate the previously assigned buffer.
 
 
+#### Examples
+
+The following code example shows how to create a memory object for a buffer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    //
+    // Allocate a request.
+    hr = wdfDevice-&gt;CreateRequest(NULL, NULL, &amp;request);
+
+    // Allocate a buffer and wrap it in a memory object. 
+    // Make the memory object a child of the request. 
+    // When the request object is deleted, the memory object 
+    // is also deleted. 
+
+    if (SUCCEEDED(hr))
+    {
+       buffer = new BYTE[m_HidDescriptor-&gt;wReportLength];
+
+       if (buffer == NULL)
+       {
+          hr = E_OUTOFMEMORY;
+       }
+    }
+
+    if (SUCCEEDED(hr))
+    {
+       CComPtr&lt;IWDFDriver&gt; driver;
+       wdfDevice-&gt;GetDriver(&amp;driver);
+
+       hr = driver-&gt;CreatePreallocatedWdfMemory(
+                       buffer,
+                       m_HidDescriptor-&gt;wReportLength,
+                       NULL,
+                       request,
+                       &amp;memory
+                       );
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
- 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDriver::CreatePreallocatedWdfMemory method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDriver::CreatePreallocatedWdfMemory method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

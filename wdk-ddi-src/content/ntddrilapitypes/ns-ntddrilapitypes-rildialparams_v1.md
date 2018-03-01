@@ -7,8 +7,8 @@ old-location: netvista\rildialparams_v1.htm
 old-project: netvista
 ms.assetid: e424808a-8389-43ff-9cd4-cf2668f8d2a3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rildialparams_v1, ntddrilapitypes/RILDIALPARAMS_V1, *LPRILDIALPARAMS_V1, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], RILDIALPARAMS_V1
+ms.date: 2/16/2018
+ms.keywords: "*LPRILDIALPARAMS_V1, RILDIALPARAMS_V1, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v1, ntddrilapitypes/RILDIALPARAMS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILDIALPARAMS_V1
 product: Windows
 targetos: Windows
-req.typenames: *LPRILDIALPARAMS_V1, RILDIALPARAMS_V1
+req.typenames: RILDIALPARAMS_V1, *LPRILDIALPARAMS_V1
 ---
 
 # RILDIALPARAMS_V1 structure
@@ -72,11 +72,8 @@ typedef struct _RILDIALPARAMS_V1 {
 ### -field dwExecutor
 
 
-
 ### -field raAddress
 
 
-
 ### -field dwOptions
-
 

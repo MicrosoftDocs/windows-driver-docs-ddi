@@ -7,8 +7,8 @@ old-location: print\branchofficejobdatapipelinefailed.htm
 old-project: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed, print.branchofficejobdatapipelinefailed, BranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed
+ms.date: 2/23/2018
+ms.keywords: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], print.branchofficejobdatapipelinefailed, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	BranchOfficeJobDataPipelineFailed
 product: Windows
 targetos: Windows
-req.typenames: *PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed
+req.typenames: BranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed
 req.product: Windows 10 or later.
 ---
 

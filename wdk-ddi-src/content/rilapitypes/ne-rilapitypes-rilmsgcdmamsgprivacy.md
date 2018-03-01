@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgprivacy_2.htm
 old-project: netvista
 ms.assetid: 1a143103-a952-410c-a143-153685f022dd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGPRIVACYCLASS_MAX, rilapitypes/RILMSGCDMAMSGPRIVACY, rilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, rilapitypes/RIL_MSGPRIVACYCLASS_SECRET, RIL_MSGPRIVACYCLASS_SECRET, netvista.rilmsgcdmamsgprivacy_2, RIL_MSGPRIVACYCLASS_MAX, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_RESTRICTED
+ms.date: 2/16/2018
+ms.keywords: RILMSGCDMAMSGPRIVACY, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_RESTRICTED, RIL_MSGPRIVACYCLASS_SECRET, netvista.rilmsgcdmamsgprivacy_2, rilapitypes/RILMSGCDMAMSGPRIVACY, rilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, rilapitypes/RIL_MSGPRIVACYCLASS_MAX, rilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, rilapitypes/RIL_MSGPRIVACYCLASS_SECRET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCDMAMSGPRIVACY
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGCDMAMSGPRIVACY {
 ### -field RIL_MSGPRIVACYCLASS_NOTRESTRICTED
 
 
-
 ### -field RIL_MSGPRIVACYCLASS_RESTRICTED
-
 
 
 ### -field RIL_MSGPRIVACYCLASS_CONFIDENTIAL
 
 
-
 ### -field RIL_MSGPRIVACYCLASS_SECRET
 
 
-
 ### -field RIL_MSGPRIVACYCLASS_MAX
-
 

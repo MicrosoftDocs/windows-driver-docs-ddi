@@ -7,8 +7,8 @@ old-location: display\dxgkcblogetwevent.htm
 old-project: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcblogetwevent, DxgkCbLogEtwEvent callback function [Display Devices], DxgkCbLogEtwEvent, DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT, dispmprt/DxgkCbLogEtwEvent, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_LOG_ETW_EVENT, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbLogEtwEvent
 product: Windows
 targetos: Windows
@@ -76,7 +76,6 @@ VOID DxgkCbLogEtwEvent(
 ### -param LPCGUID
 
 
-
 ### -param Type [in]
 
 A constant that specifies the event type. These constants  are defined in Evntrace.h and have the form of <b>EVENT_TRACE_TYPE_XX</b>.
@@ -100,11 +99,14 @@ A GUID that identifies the event to be logged.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If event logging is not enabled, <i>DxgkCbLogEtwEvent</i> returns immediately without logging the event.
@@ -114,14 +116,45 @@ To enable or disable event logging, call the <a href="..\dispmprt\nc-dispmprt-dx
 If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i> can be called an any IRQL. If <i>EventBufferSize</i> is greater than 256, <i>DxgkCbLogEtwEvent</i> must be called at IRQL = PASSIVE_LEVEL.
 
 
+#### Examples
+
+The following code example shows how to log an event with the event logger.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// {A7BF27A0-7401-4733-9FED-FDB51067FECC}
+DEFINE_GUID(R200_DUMMY_LOGGING,
+0xa7bf27a0, 0x7401, 0x4733, 0x9f, 0xed, 0xfd, 0xb5, 0x10, 0x67, 0xfe, 0xcc);
+
+VOID
+DummyTrace(
+    HW_DEVICE_EXTENSION* Adapter
+    )
+{
+    Adapter-&gt;ddiCallback.DxgkCbLogEtwEvent(&amp;R200_DUMMY_LOGGING,
+  EVENT_TRACE_TYPE_INFO,
+  0,
+  NULL);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_LOG_ETW_EVENT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_LOG_ETW_EVENT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

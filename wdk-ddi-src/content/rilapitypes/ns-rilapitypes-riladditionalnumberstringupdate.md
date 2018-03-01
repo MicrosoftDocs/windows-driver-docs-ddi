@@ -7,8 +7,8 @@ old-location: netvista\riladditionalnumberstringupdate_2.htm
 old-project: netvista
 ms.assetid: b2675395-08b6-44e6-8052-1fdd7b693c31
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riladditionalnumberstringupdate_2, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE
+ms.date: 2/16/2018
+ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate_2, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILADDITIONALNUMBERSTRINGUPDATE
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
 ### -field cbSize
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwOpType
 
 
-
 ### -field dwNumId
 
 
-
 ### -field wszText
-
 

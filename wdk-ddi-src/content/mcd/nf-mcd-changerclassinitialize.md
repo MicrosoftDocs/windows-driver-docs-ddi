@@ -7,8 +7,8 @@ old-location: storage\changerclassinitialize.htm
 old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, storage.changerclassinitialize, mcd/ChangerClassInitialize, ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+api_name:
 -	ChangerClassInitialize
 product: Windows
 targetos: Windows
@@ -86,6 +86,7 @@ TBD
 
 
 
+
 #### - MCDInitData [in]
 
 Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. 
@@ -94,11 +95,14 @@ Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> struct
 ## -returns
 
 
+
 <b>ChangerClassInitialize</b> returns a value indicating the success or failure of  the driver initialization. If initialization is successful, <b>ChangerClassInitialize</b> returns STATUS_SUCCESS. Otherwise, <b>ChangerClassInitialize</b> returns an appropriate error message. Minidrivers should <i>not</i> interpret this error value, but should just return this value from their <b>DriverEntry</b> routine. 
 
 
 
+
 ## -remarks
+
 
 
 <b>ChangerClassInitialize</b> is a changer class driver routine that miniclass drivers can call in Microsoft Windows XP and later operating systems.
@@ -109,15 +113,20 @@ Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+## -see-also
 
 <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassInitialize routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassInitialize routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

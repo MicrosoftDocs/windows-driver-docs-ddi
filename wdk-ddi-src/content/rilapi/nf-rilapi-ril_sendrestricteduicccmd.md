@@ -7,8 +7,8 @@ old-location: netvista\ril_sendrestricteduicccmd.htm
 old-project: netvista
 ms.assetid: f9341659-105b-4ec7-bce7-878698de8c14
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SendRestrictedUiccCmd, rilapi/RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], netvista.ril_sendrestricteduicccmd
+ms.date: 2/16/2018
+ms.keywords: RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], netvista.ril_sendrestricteduicccmd, rilapi/RIL_SendRestrictedUiccCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SendRestrictedUiccCmd
 product: Windows
 targetos: Windows
@@ -79,34 +79,29 @@ HRESULT  RIL_SendRestrictedUiccCmd(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwCommand
 
 
-
 ### -param lpParameters
-
 
 
 ### -param lpbData
 
 
-
 ### -param dwSize
-
 
 
 ### -param lpLockVerification
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -7,8 +7,8 @@ old-location: smartcrd\ioctl_smartcard_eject.htm
 old-project: smartcrd
 ms.assetid: 58bdd794-9061-4aae-a9a6-523db4e2e360
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: smartcrd.ioctl_smartcard_eject, IOCTL_SMARTCARD_EJECT control code [Smart Card Reader Devices], IOCTL_SMARTCARD_EJECT, winsmcrd/IOCTL_SMARTCARD_EJECT, scioctls_e12f239a-b997-4af6-bace-92e9c65c88b6.xml
+ms.date: 2/22/2018
+ms.keywords: IOCTL_SMARTCARD_EJECT, IOCTL_SMARTCARD_EJECT control code [Smart Card Reader Devices], scioctls_e12f239a-b997-4af6-bace-92e9c65c88b6.xml, smartcrd.ioctl_smartcard_eject, winsmcrd/IOCTL_SMARTCARD_EJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsmcrd.h
-apiname: 
+api_name:
 -	IOCTL_SMARTCARD_EJECT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -74,7 +74,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -86,27 +88,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -124,5 +133,6 @@ None
 <td>STATUS_IO_TIMEOUT</td>
 <td>Operation timed out.</td>
 </tr>
-</table> 
+</table>
+ 
 

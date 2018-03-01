@@ -7,8 +7,8 @@ old-location: wdf\wdfchildlistgetdevice.htm
 old-project: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WdfChildListGetDevice, WdfChildListGetDevice method, PFN_WDFCHILDLISTGETDEVICE, wdf.wdfchildlistgetdevice, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, kmdf.wdfchildlistgetdevice, WdfChildListGetDevice
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfChildListGetDevice
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ A handle to a framework child-list object.
 ## -returns
 
 
+
 <b>WdfChildListGetDevice</b> returns a handle to a framework device object.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -86,9 +87,29 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+
+
+#### Examples
+
+The following code example obtains a handle to the device object that represents the parent device of a child list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFDEVICE parentDevice;
+
+parentDevice = WdfChildListGetDevice(ChildList);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

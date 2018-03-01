@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
-title: _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
+title: "_NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS"
 author: windows-driver-content
 description: The NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure specifies CoNDIS call manager ProtocolXxx functions for the driver that passes this structure to the NdisSetOptionalHandlers function.
 old-location: netvista\ndis_co_call_manager_optional_handlers.htm
 old-project: netvista
 ms.assetid: 12d541e1-04dd-4512-827e-d27f16260fe3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, *PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, ndis/PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, netvista.ndis_co_call_manager_optional_handlers, PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], condis_structures_ref_82f5169a-d1fb-4555-a764-0d78dd48e8a4.xml, ndis/NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, condis_structures_ref_82f5169a-d1fb-4555-a764-0d78dd48e8a4.xml, ndis/NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, ndis/PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, netvista.ndis_co_call_manager_optional_handlers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
+req.typenames: NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, *PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS
 ---
 
 # _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure
@@ -51,8 +51,8 @@ req.typenames: *PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, NDIS_CO_CALL_MANAGER_OP
 
 The NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure specifies CoNDIS call manager 
   <i>ProtocolXxx</i> functions for the driver that passes this structure to the 
-  <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-  NdisSetOptionalHandlers</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+  NdisSetOptionalHandlers</a> function.
 
 
 ## -syntax
@@ -131,15 +131,15 @@ The entry point of the caller's
 ### -field CmRegisterSapHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmregistersap" tabindex="0"><i>
-     ProtocolCmRegisterSap</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     ProtocolCmRegisterSap</a> function.
 
 
 ### -field CmDeregisterSapHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmderegistersap" tabindex="0"><i>
-     ProtocolCmDeregisterSap</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+     ProtocolCmDeregisterSap</a> function.
 
 
 ### -field CmMakeCallHandler
@@ -151,15 +151,15 @@ The entry point of the caller's
 ### -field CmCloseCallHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmclosecall" tabindex="0"><i>
-     ProtocolCmCloseCall</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
+     ProtocolCmCloseCall</a> function.
 
 
 ### -field CmIncomingCallCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-     ProtocolCmIncomingCallComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+     ProtocolCmIncomingCallComplete</a> function.
 
 
 ### -field CmAddPartyHandler
@@ -171,60 +171,63 @@ The entry point of the caller's
 ### -field CmDropPartyHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmdropparty" tabindex="0"><i>
-     ProtocolCmDropParty</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">
+     ProtocolCmDropParty</a> function.
 
 
 ### -field CmActivateVcCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-     ProtocolCmActivateVcComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+     ProtocolCmActivateVcComplete</a> function.
 
 
 ### -field CmDeactivateVcCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-     ProtocolCmDeactivateVcComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+     ProtocolCmDeactivateVcComplete</a> function.
 
 
 ### -field CmModifyCallQoSHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmmodifycallqos" tabindex="0"><i>
-     ProtocolCmModifyCallQoS</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+     ProtocolCmModifyCallQoS</a> function.
 
 
 ### -field CmOidRequestHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcooidrequest" tabindex="0"><i>
-     ProtocolCoOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     ProtocolCoOidRequest</a> function.
 
 
 ### -field CmOidRequestCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-     ProtocolCoOidRequestComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+     ProtocolCoOidRequestComplete</a> function.
 
 
 ### -field CmNotifyCloseAfCompleteHandler
 
 The entry point of the caller's 
-     <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-     ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+     ProtocolCmNotifyCloseAfComplete</a> function.
 
 
 ## -remarks
 
 
+
 To specify entry points as a CoNDIS call manager, a protocol driver or miniport call manager (MCM)
     initializes an NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure and passes it to the 
-    <mshelp:link keywords="netvista.ndissetoptionalhandlers" tabindex="0"><b>
-    NdisSetOptionalHandlers</b></mshelp:link> function.
-<h3><a id="Stand-alone_Call_Manager_Constraints"></a><a id="stand-alone_call_manager_constraints"></a><a id="STAND-ALONE_CALL_MANAGER_CONSTRAINTS"></a>Stand-alone Call Manager Constraints</h3>A stand-alone call manager calls 
+    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    NdisSetOptionalHandlers</a> function.
+
+<h3><a id="Stand-alone_Call_Manager_Constraints"></a><a id="stand-alone_call_manager_constraints"></a><a id="STAND-ALONE_CALL_MANAGER_CONSTRAINTS"></a>Stand-alone Call Manager Constraints</h3>
+A stand-alone call manager calls 
      <b>NdisSetOptionalHandlers</b> from the 
      <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a> function. The
      call manager must set every entry point in the NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure to a
@@ -237,16 +240,18 @@ To specify entry points as a CoNDIS call manager, a protocol driver or miniport 
      <i>ProtocolXxx</i> functions should simply return NDIS_STATUS_NOT_SUPPORTED.
 
 After a stand-alone call manager calls the 
-     <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-     NdisCmRegisterAddressFamilyEx</b></mshelp:link> function successfully, NDIS ignores any entry point that the call
+     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     NdisCmRegisterAddressFamilyEx</a> function successfully, NDIS ignores any entry point that the call
      manager previously specified for the 
-     <mshelp:link keywords="netvista.protocoloidrequestcomplete" tabindex="0"><i>
-     ProtocolOidRequestComplete</i></mshelp:link> function of the 
-     <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that it passed to the 
-     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> function.
-<h3><a id="MCM_Constraints"></a><a id="mcm_constraints"></a><a id="MCM_CONSTRAINTS"></a>MCM Constraints</h3>An MCM calls the 
+     <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+     ProtocolOidRequestComplete</a> function of the 
+     <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that it passed to the 
+     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> function.
+
+<h3><a id="MCM_Constraints"></a><a id="mcm_constraints"></a><a id="MCM_CONSTRAINTS"></a>MCM Constraints</h3>
+An MCM calls the 
      <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function
      from the 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function. The
@@ -257,10 +262,10 @@ After a stand-alone call manager calls the
      MCM driver does not support, its 
      <i>ProtocolXxx</i> functions should simply return NDIS_STATUS_NOT_SUPPORTED. For example, NDIS never
      calls an MCM driver's registered 
-     <mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-     ProtocolCmActivateVcComplete</i></mshelp:link> or 
-     <mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-     ProtocolCmDeactivateVcComplete</i></mshelp:link> function, so these functions can return NDIS_STATUS_NOT_SUPPORTED
+     <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+     ProtocolCmActivateVcComplete</a> or 
+     <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+     ProtocolCmDeactivateVcComplete</a> function, so these functions can return NDIS_STATUS_NOT_SUPPORTED
      but must have entry points in the NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure.
 
 An MCM driver must specify entry points for the 
@@ -285,67 +290,114 @@ An MCM driver cannot set the
      <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> function. An
      MCM driver must have a 
      <i>ProtocolCoOidRequest</i> function to handle call manager requests from CoNDIS clients and must have a 
-     <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-     ProtocolCoOidRequestComplete</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+     ProtocolCoOidRequestComplete</a> function.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
-
-<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-   ProtocolCmIncomingCallComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-   NdisCmRegisterAddressFamilyEx</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
 
-<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-   ProtocolCmDeactivateVcComplete</i></mshelp:link>
 
-<mshelp:link keywords="netvista.protocolcmactivatevccomplete" tabindex="0"><i>
-   ProtocolCmActivateVcComplete</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+   ProtocolCmDeactivateVcComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+   ProtocolCmIncomingCallComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+   ProtocolCmActivateVcComplete</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

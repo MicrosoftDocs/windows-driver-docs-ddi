@@ -7,8 +7,8 @@ old-location: ifsk\fltattachvolume.htm
 old-project: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltAttachVolume function [Installable File System Drivers], ifsk.fltattachvolume, FltAttachVolume, FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, fltkernel/FltAttachVolume
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, ifsk.fltattachvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: PASSIVE_LEVEL
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+api_name:
 -	FltAttachVolume
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Pointer to a caller-allocated variable that receives an opaque instance pointer 
 ## -returns
 
 
+
 <b>FltAttachVolume</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +157,14 @@ Another instance was already attached at the altitude specified in the instance 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the caller specifies a non-<b>NULL</b> value for <i>InstanceName</i>, <b>FltAttachVolume</b> reads any instance attributes specified by the minifilter driver that are stored in the registry under HKLM\CurrentControlSet\Services\<i>ServiceName</i>\Instances\InstanceName, where <i>ServiceName</i> is the minifilter driver's service name. This service name is specified in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addservice-directive">AddService directive</a> in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-defaultinstall-services-section">DefaultInstall.Services section</a> of the minifilter driver's INF file. (For more information about filter driver INF files, see <a href="https://msdn.microsoft.com/c8a7fd20-8baa-449a-afa6-9692da706df4">Installing a File System Filter Driver</a>.) 
@@ -180,25 +185,40 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolume function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolume function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

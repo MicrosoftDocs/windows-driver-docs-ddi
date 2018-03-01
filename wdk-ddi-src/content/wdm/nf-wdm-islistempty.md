@@ -7,13 +7,13 @@ old-location: kernel\islistempty.htm
 old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.islistempty, wdm/IsListEmpty, IsListEmpty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, IsListEmpty routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	IsListEmpty
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 ## -returns
 
 
+
 <b>IsListEmpty</b> returns <b>TRUE</b> if there are currently no entries in the list and <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 <b>IsListEmpty</b> returns <b>TRUE</b> if <i>ListHead</i>-&gt;<b>Flink</b> refers back to <i>ListHead</i>.
@@ -91,19 +94,28 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IsListEmpty routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IsListEmpty routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

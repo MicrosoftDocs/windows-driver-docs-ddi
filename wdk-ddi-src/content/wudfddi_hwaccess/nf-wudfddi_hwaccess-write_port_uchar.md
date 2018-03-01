@@ -7,8 +7,8 @@ old-location: wdf\write_port_uchar.htm
 old-project: wdf
 ms.assetid: 5AA3DD53-26A0-460F-9F6D-3515F9C334FA
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WRITE_PORT_UCHAR function, wudfddi_hwaccess/WRITE_PORT_UCHAR, wdf.write_port_uchar, WRITE_PORT_UCHAR, umdf.write_port_uchar
+ms.date: 2/20/2018
+ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR function, umdf.write_port_uchar, wdf.write_port_uchar, wudfddi_hwaccess/WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	WRITE_PORT_UCHAR
 product: Windows
 targetos: Windows
@@ -92,13 +92,17 @@ Specifies a byte to be written to the port.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

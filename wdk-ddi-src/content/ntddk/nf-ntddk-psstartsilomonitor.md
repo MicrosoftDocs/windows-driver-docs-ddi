@@ -7,8 +7,8 @@ old-location: kernel\psstartsilomonitor.htm
 old-project: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], PsStartSiloMonitor, kernel.psstartsilomonitor, ntddk/PsStartSiloMonitor
+ms.date: 2/24/2018
+ms.keywords: PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psstartsilomonitor, ntddk/PsStartSiloMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PsStartSiloMonitor
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsStartSiloMonitor function
@@ -75,7 +75,9 @@ A pointer to the silo monitor.
 ## -returns
 
 
+
 The following NT status codes are returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,6 +116,8 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

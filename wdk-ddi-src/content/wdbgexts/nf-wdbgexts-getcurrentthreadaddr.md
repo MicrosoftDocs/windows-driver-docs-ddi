@@ -7,8 +7,8 @@ old-location: debugger\getcurrentthreadaddr.htm
 old-project: debugger
 ms.assetid: 0664199b-da65-4b07-958e-d7972b39cefd
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentthreadaddr, WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, GetCurrentThreadAddr, wdbgexts/GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging]
+ms.date: 2/23/2018
+ms.keywords: GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, debugger.getcurrentthreadaddr, wdbgexts/GetCurrentThreadAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	GetCurrentThreadAddr
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Receives the location of the system data for the thread.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a> returns.
@@ -99,13 +102,16 @@ For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internal
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20GetCurrentThreadAddr function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20GetCurrentThreadAddr function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

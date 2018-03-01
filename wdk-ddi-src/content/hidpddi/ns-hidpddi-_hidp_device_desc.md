@@ -1,14 +1,14 @@
 ---
 UID: NS:hidpddi._HIDP_DEVICE_DESC
-title: _HIDP_DEVICE_DESC
+title: "_HIDP_DEVICE_DESC"
 author: windows-driver-content
 description: Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription.
 old-location: hid\hidp_device_desc.htm
 old-project: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: PHIDP_DEVICE_DESC structure pointer [Human Input Devices], *PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, hid.hidp_device_desc, PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], hidpddi/PHIDP_DEVICE_DESC, _HIDP_DEVICE_DESC, hidpddi/HIDP_DEVICE_DESC
+ms.date: 2/24/2018
+ms.keywords: "*PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices], _HIDP_DEVICE_DESC, hid.hidp_device_desc, hidpddi/HIDP_DEVICE_DESC, hidpddi/PHIDP_DEVICE_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Hidpddi.h
-apiname: 
+api_name:
 -	HIDP_DEVICE_DESC
 product: Windows
 targetos: Windows
@@ -102,9 +102,11 @@ A <a href="..\hidpddi\ns-hidpddi-_hidp_getcoldesc_dbg.md">HIDP_GETCOLDESC_DBG</a
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_DEVICE_DESC structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_DEVICE_DESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

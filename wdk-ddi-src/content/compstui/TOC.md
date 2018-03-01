@@ -3,6 +3,8 @@
 ### [PFNCOMPROPSHEET callback](../compstui/nc-compstui-pfncompropsheet.md)
 ### [PFNPROPSHEETUI callback](../compstui/nc-compstui-pfnpropsheetui.md)
 ### [_CPSUICALLBACK callback](../compstui/nc-compstui-_cpsuicallback.md)
+### [CommonPropertySheetUIA function](../compstui/nf-compstui-commonpropertysheetuia.md)
+### [CommonPropertySheetUIW function](../compstui/nf-compstui-commonpropertysheetuiw.md)
 ### [GetCPSUIUserData function](../compstui/nf-compstui-getcpsuiuserdata.md)
 ### [SetCPSUIUserData function](../compstui/nf-compstui-setcpsuiuserdata.md)
 ### [_COMPROPSHEETUI structure](../compstui/ns-compstui-_compropsheetui.md)

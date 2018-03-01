@@ -1,14 +1,14 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_STATE
-title: _WDF_PNP_STATE
+title: "_WDF_PNP_STATE"
 author: windows-driver-content
 description: The WDF_PNP_STATE enumeration contains values that identify the status of Plug and Play (PnP) for a device.
 old-location: wdf\wdf_pnp_state.htm
 old-project: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPnpStateInvalid, WdfPnpStateDisabled, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, _WDF_PNP_STATE, WdfPnpStateFailed, wdf.wdf_pnp_state, WdfPnpStateDontDisplayInUI, WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateNotDisableable, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateRemoved, WdfPnpStateMaximum, wudfddi_types/WdfPnpStateMaximum, WDF_PNP_STATE, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateNotDisableable, WdfPnpStateRemoved, WDF_PNP_STATE enumeration, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateResourcesChanged, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateFailed
+ms.date: 2/20/2018
+ms.keywords: WDF_PNP_STATE, WDF_PNP_STATE enumeration, WdfPnpStateDisabled, WdfPnpStateDontDisplayInUI, WdfPnpStateFailed, WdfPnpStateInvalid, WdfPnpStateMaximum, WdfPnpStateNotDisableable, WdfPnpStateRemoved, WdfPnpStateResourcesChanged, _WDF_PNP_STATE, umdf.wdf_pnp_state, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, wdf.wdf_pnp_state, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateInvalid, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WdfPnpStateResourcesChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_types.h
-apiname: 
+api_name:
 -	WDF_PNP_STATE
 product: Windows
 targetos: Windows
@@ -120,7 +120,9 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a> method to identify the PnP property to retrieve or set status for.
+
 
 
 
@@ -128,11 +130,15 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href=
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ksstream_uvc_metadatatype_timestamp.htm
 old-project: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksstream_uvc_metadatatype_timestamp, ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+ms.date: 2/23/2018
+ms.keywords: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 product: Windows
 targetos: Windows
@@ -77,21 +77,6 @@ typedef struct {
 
 
 
-### -field Counter
-
-Specifies the source clock reference counter.
-
-
-### -field Reserved
-
-Reserved.
-
-
-### -field SCRToken
-
-Specifies the source clock reference token.
-
-
 ### -field PresentationTimeStamp
 
 Specifies the presentation timestamp.
@@ -102,6 +87,16 @@ Specifies the presentation timestamp.
 Specifies the source clock reference.
 
 
+### -field Counter
+
+Specifies the source clock reference counter.
+
+
+### -field Reserved
+
+Reserved.
+
+
 ### -field Reserved0
 
 Reserved.
@@ -110,4 +105,9 @@ Reserved.
 ### -field Reserved1
 
 Reserved.
+
+
+#### - SCRToken
+
+Specifies the source clock reference token.
 

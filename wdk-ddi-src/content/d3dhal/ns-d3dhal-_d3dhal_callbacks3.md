@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dhal._D3DHAL_CALLBACKS3
-title: _D3DHAL_CALLBACKS3
+title: "_D3DHAL_CALLBACKS3"
 author: windows-driver-content
 description: D3DHAL_CALLBACKS3 is one of several callback structures that describe the Direct3D support provided by the driver.
 old-location: display\d3dhal_callbacks3.htm
 old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], _D3DHAL_CALLBACKS3, display.d3dhal_callbacks3, *LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], d3dhal/LPD3DHAL_CALLBACKS3
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], _D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, display.d3dhal_callbacks3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dhal.h
-apiname: 
+api_name:
 -	D3DHAL_CALLBACKS3
 product: Windows
 targetos: Windows
-req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3
+req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3
 ---
 
 # _D3DHAL_CALLBACKS3 structure
@@ -80,6 +80,7 @@ Specifies the size in bytes of this structure.
 ### -field dwFlags
 
 Indicates the callbacks associated with this structure that the driver has implemented. For every bit the driver sets in <b>dwFlags</b>, the driver must initialize the corresponding function pointer member of this structure. This member can be the bitwise-OR of one or more of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -125,7 +126,8 @@ The <b>ValidateTextureStageState</b> member points to a driver-implemented <a hr
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Clear2
@@ -151,25 +153,37 @@ Points to the driver-supplied <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitiv
 ## -remarks
 
 
+
 The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DCallbacks3 GUID.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
+
+
 D3DDP2OP_CLEAR
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
 
- 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_CALLBACKS3 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_CALLBACKS3 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

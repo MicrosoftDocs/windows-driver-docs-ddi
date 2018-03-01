@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxabortconfirm.htm
 old-project: netvista
 ms.assetid: 1619BF14-DDEE-48CB-8E31-0CC17C8A4C6A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndiswditxabortconfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], NdisWdiTxAbortConfirm, NDIS_WDI_TX_ABORT_CONFIRM, NDIS_WDI_TX_ABORT_CONFIRM, dot11wdi/NdisWdiTxAbortConfirm
+ms.date: 2/16/2018
+ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dot11wdi.h
-apiname: 
+api_name:
 -	NdisWdiTxAbortConfirm
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_TX_ABORT_CONFIRM callback
@@ -80,7 +80,9 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wd
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -88,9 +90,11 @@ This callback function does not return a value.
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WDI_TX_ABORT_CONFIRM callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WDI_TX_ABORT_CONFIRM callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

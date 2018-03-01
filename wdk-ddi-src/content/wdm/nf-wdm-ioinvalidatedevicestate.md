@@ -7,8 +7,8 @@ old-location: kernel\ioinvalidatedevicestate.htm
 old-project: kernel
 ms.assetid: ca27e8d3-80ee-467c-9c88-19770cd86d94
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], IoInvalidateDeviceState, k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, wdm/IoInvalidateDeviceState, kernel.ioinvalidatedevicestate
+ms.date: 2/24/2018
+ms.keywords: IoInvalidateDeviceState, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, kernel.ioinvalidatedevicestate, wdm/IoInvalidateDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoInvalidateDeviceState
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the PDO for the device.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers call this routine to indicate that something has changed with respect to one of the following aspects of a device's PnP state:
@@ -103,15 +106,20 @@ In response to this routine, the PnP manager sends an <a href="https://msdn.micr
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInvalidateDeviceState routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInvalidateDeviceState routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

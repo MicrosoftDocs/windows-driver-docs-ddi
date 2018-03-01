@@ -2,13 +2,13 @@
 UID: NE:ks.KSINTERFACE_STANDARD
 title: KSINTERFACE_STANDARD
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksinterface_standard.htm
 old-project: stream
 ms.assetid: B000E3BD-28FA-454E-A598-3670B5FCD3DD
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSINTERFACE_STANDARD_CONTROL, stream.ksinterface_standard, ks/KSINTERFACE_STANDARD, KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD_CONTROL, KSINTERFACE_STANDARD, ks/KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD enumeration [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KSINTERFACE_STANDARD, KSINTERFACE_STANDARD enumeration [Streaming Media Devices], KSINTERFACE_STANDARD_CONTROL, KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD, ks/KSINTERFACE_STANDARD_CONTROL, ks/KSINTERFACE_STANDARD_LOOPED_STREAMING, ks/KSINTERFACE_STANDARD_STREAMING, stream.ksinterface_standard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ks.h
-apiname: 
+api_name:
 -	KSINTERFACE_STANDARD
 product: Windows
 targetos: Windows
@@ -72,9 +72,7 @@ typedef enum  {
 ### -field KSINTERFACE_STANDARD_STREAMING
 
 
-
 ### -field KSINTERFACE_STANDARD_LOOPED_STREAMING
-
 
 
 ### -field KSINTERFACE_STANDARD_CONTROL

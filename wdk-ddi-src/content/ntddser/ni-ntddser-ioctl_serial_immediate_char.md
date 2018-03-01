@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_immediate_char.htm
 old-project: serports
 ms.assetid: 1bbae06c-1279-41da-82d8-ccbfe13cde9a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.ioctl_serial_immediate_char, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], IOCTL_SERIAL_IMMEDIATE_CHAR, ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SERIAL_IMMEDIATE_CHAR, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serports.ioctl_serial_immediate_char, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	IOCTL_SERIAL_IMMEDIATE_CHAR
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

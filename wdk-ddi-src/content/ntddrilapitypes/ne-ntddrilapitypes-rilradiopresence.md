@@ -7,8 +7,8 @@ old-location: netvista\rilradiopresence.htm
 old-project: netvista
 ms.assetid: de67cf2e-1dd8-4b01-9a60-b8a2a01d326b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RADIOPRESENCE_PRESENT, RIL_RADIOPRESENCE_MAX, RIL_RADIOPRESENCE_PRESENT, RILRADIOPRESENCE, ntddrilapitypes/RILRADIOPRESENCE, ntddrilapitypes/RIL_RADIOPRESENCE_MAX, netvista.rilradiopresence
+ms.date: 2/16/2018
+ms.keywords: RILRADIOPRESENCE, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOPRESENCE_MAX, RIL_RADIOPRESENCE_PRESENT, netvista.rilradiopresence, ntddrilapitypes/RILRADIOPRESENCE, ntddrilapitypes/RIL_RADIOPRESENCE_MAX, ntddrilapitypes/RIL_RADIOPRESENCE_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILRADIOPRESENCE
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILRADIOPRESENCE {
 ### -field RIL_RADIOPRESENCE_NOTPRESENT
 
 
-
 ### -field RIL_RADIOPRESENCE_PRESENT
 
 
-
 ### -field RIL_RADIOPRESENCE_MAX
-
 

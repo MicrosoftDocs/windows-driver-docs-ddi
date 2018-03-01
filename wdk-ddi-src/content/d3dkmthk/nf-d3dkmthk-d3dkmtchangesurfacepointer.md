@@ -7,8 +7,8 @@ old-location: display\d3dkmtchangesurfacepointer.htm
 old-project: display
 ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PFND3DKMT_CHANGESURFACEPOINTER, D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer function [Display Devices], display.d3dkmtchangesurfacepointer, d3dkmthk/D3DKMTChangeSurfacePointer, OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
--	HeaderDef
-apilocation: 
+api_type:
+-	UserDefined
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTChangeSurfacePointer
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 For system use only.
@@ -81,13 +82,17 @@ For system use only.
 ## -returns
 
 
+
 An opaque NTSTATUS value.
+
 
 
 
 ## -remarks
 
 
+
 This function is for system use only.
+
 
 

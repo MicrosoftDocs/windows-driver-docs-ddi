@@ -7,8 +7,8 @@ old-location: netvista\ndisfderegisterfilterdriver.htm
 old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], ndis/NdisFDeregisterFilterDriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml
+ms.date: 2/16/2018
+ms.keywords: NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisFDeregisterFilterDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFDeregisterFilterDriver function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><i>
-  NdisFRegisterFilterDriver</i></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+  NdisFRegisterFilterDriver</a> function.
 
 
 ## -syntax
@@ -81,11 +81,14 @@ The filter driver handle that identifies this filter driver. NDIS returned the h
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A filter driver must call 
@@ -94,15 +97,20 @@ A filter driver must call
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFDeregisterFilterDriver function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFDeregisterFilterDriver function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

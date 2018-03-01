@@ -7,8 +7,8 @@ old-location: display\createlight.htm
 old-project: display
 ms.assetid: 4649b1d1-6fd3-48fb-b25f-1228851bb682
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.createlight, CreateLight callback function [Display Devices], CreateLight, PFND3DDDI_CREATELIGHT, PFND3DDDI_CREATELIGHT, d3dumddi/CreateLight, UserModeDisplayDriver_Functions_c6b9e247-5a6b-4e90-bcbd-bc02708ca555.xml
+ms.date: 2/24/2018
+ms.keywords: CreateLight, CreateLight callback function [Display Devices], PFND3DDDI_CREATELIGHT, UserModeDisplayDriver_Functions_c6b9e247-5a6b-4e90-bcbd-bc02708ca555.xml, d3dumddi/CreateLight, display.createlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	CreateLight
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY CreateLight(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createlight.md">D3DDDIARG_CREATELIGHT</a> structure that contains the index into the light array.
@@ -91,14 +93,18 @@ __checkReturn HRESULT APIENTRY CreateLight(
 ## -returns
 
 
+
 <b>CreateLight</b> should return S_OK or an appropriate error result if it cannot successfully create a light source.
+
 
 
 
 ## -remarks
 
 
+
 The user-mode display driver should enlarge its light array as necessary to accommodate at least as many light sources as specified by the <b>Index</b> member in <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createlight.md">D3DDDIARG_CREATELIGHT</a>.
+
 
 
 
@@ -106,11 +112,15 @@ The user-mode display driver should enlarge its light array as necessary to acco
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createlight.md">D3DDDIARG_CREATELIGHT</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATELIGHT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CREATELIGHT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

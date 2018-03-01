@@ -7,8 +7,8 @@ old-location: pci\sriov_query_vf_luid.htm
 old-project: PCI
 ms.assetid: 17fe6e28-59ce-4678-8268-b49cef09a3db
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.sriov_query_vf_luid, SriovQueryVfLuid callback function [Buses], SriovQueryVfLuid, SRIOV_QUERY_VF_LUID, SRIOV_QUERY_VF_LUID, pcivirt/SriovQueryVfLuid, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], *PSRIOV_QUERY_VF_LUID
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_QUERY_VF_LUID, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], PCI.sriov_query_vf_luid, SRIOV_QUERY_VF_LUID, SriovQueryVfLuid, SriovQueryVfLuid callback function [Buses], pcivirt/SriovQueryVfLuid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	pcivirt.h
-apiname: 
+api_name:
 -	*PSRIOV_QUERY_VF_LUID
 product: Windows
 targetos: Windows
@@ -96,11 +96,14 @@ identifier of the SR_IOV device implementing the interface.
 
 
 
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
 
 
 
+
 ## -remarks
+
 
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to get the identifier of a specific virtual function. 
@@ -108,6 +111,7 @@ This callback function is implemented by the physical function (PF) driver. It i
 The PF driver registers its implementation by setting the <b>QueryLuid</b> member of the SRIOV_DEVICE_INTERFACE_STANDARD_2, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 Here is an example implementation of this callback function. The PF driver generates a unique identifier by calling <a href="..\ntddk\nf-ntddk-zwallocatelocallyuniqueid.md">ZwAllocateLocallyUniqueId</a>  and stores it in the device context. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,4 +139,5 @@ Virtualization_QueryLuid (
 </td>
 </tr>
 </table></span></div>
+
 

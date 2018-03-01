@@ -7,8 +7,8 @@ old-location: netvista\wskreleaseprovidernpi.htm
 old-project: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskreleaseprovidernpi, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], WskReleaseProviderNPI, wsk/WskReleaseProviderNPI
+ms.date: 2/16/2018
+ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+api_name:
 -	WskReleaseProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 
 The 
   <b>WskReleaseProviderNPI</b> function releases a 
-  <mshelp:link keywords="netvista.network_programming_interface" tabindex="0">Network Programming Interface
-  (NPI)</mshelp:link> that was captured with 
+  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  (NPI)</a> that was captured with 
   <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>.
 
 
@@ -83,11 +83,14 @@ A pointer to the memory location initialized by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 For each call to
@@ -99,15 +102,20 @@ For each call to
 
 
 
+
 ## -see-also
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskReleaseProviderNPI function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskReleaseProviderNPI function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

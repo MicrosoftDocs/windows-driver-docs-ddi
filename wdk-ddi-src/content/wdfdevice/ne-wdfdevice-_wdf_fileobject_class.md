@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfdevice._WDF_FILEOBJECT_CLASS
-title: _WDF_FILEOBJECT_CLASS
+title: "_WDF_FILEOBJECT_CLASS"
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CLASS enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open.
 old-location: wdf\wdf_fileobject_class.htm
 old-project: wdf
 ms.assetid: e0887061-eafe-4dba-bb7a-58bf949e2d08
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_fileobject_class, WdfFileObjectCanBeOptional, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS enumeration, WDF_FILEOBJECT_CLASS, _WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectWdfCanUseFsContext2, kmdf.wdf_fileobject_class, wdfdevice/WdfFileObjectInvalid, WdfFileObjectWdfCanUseFsContext, *PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, WdfFileObjectNotRequired, wdfdevice/PWDF_FILEOBJECT_CLASS, WdfFileObjectWdfCanUseFsContext2, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectNotRequired, WdfFileObjectWdfCannotUseFsContexts, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, WdfFileObjectInvalid, PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, PWDF_FILEOBJECT_CLASS, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS enumeration, WdfFileObjectCanBeOptional, WdfFileObjectInvalid, WdfFileObjectNotRequired, WdfFileObjectWdfCanUseFsContext, WdfFileObjectWdfCanUseFsContext2, WdfFileObjectWdfCannotUseFsContexts, _WDF_FILEOBJECT_CLASS, kmdf.wdf_fileobject_class, wdf.wdf_fileobject_class, wdfdevice/PWDF_FILEOBJECT_CLASS, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectInvalid, wdfdevice/WdfFileObjectNotRequired, wdfdevice/WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectWdfCanUseFsContext2, wdfdevice/WdfFileObjectWdfCannotUseFsContexts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_FILEOBJECT_CLASS
 product: Windows
 targetos: Windows
@@ -114,11 +114,13 @@ The <b>WdfFileObjectCanBeOptional</b> value is available in version 1.9 and late
 ## -remarks
 
 
+
 The <b>WDF_FILEOBJECT_CLASS</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
 
 If your driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a> to obtain framework file objects for I/O requests, and if you know that some of the WDM I/O request packets (IRPs) that your driver receives do not include WDM file objects, the driver can set the <b>WdfFileObjectCanBeOptional</b> bit flag. 
 
 If your driver sets the <b>WdfFileObjectWdfCanUseFsContext</b>, <b>WdfFileObjectWdfCanUseFsContext2</b>, or <b>WdfFileObjectWdfCannotUseFsContexts</b> value and does <i>not</i> set the <b>WdfFileObjectCanBeOptional</b> bit flag, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error for the following cases when the driver calls the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a> method: 
+
 <ul>
 <li>
 An IRP does not include a WDM file object.
@@ -128,19 +130,25 @@ An IRP does not include a WDM file object.
 An IRP includes a WDM file object, but the file object is different from the one that the file creation IRP included.
 
 </li>
-</ul>If the <b>WdfFileObjectCanBeOptional</b> bit flag is set, the framework's verifier ignores such cases.
+</ul>
+If the <b>WdfFileObjectCanBeOptional</b> bit flag is set, the framework's verifier ignores such cases.
+
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
-
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
- 
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FILEOBJECT_CLASS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FILEOBJECT_CLASS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

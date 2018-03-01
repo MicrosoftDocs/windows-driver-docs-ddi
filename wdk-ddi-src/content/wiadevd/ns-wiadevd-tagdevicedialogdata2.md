@@ -7,8 +7,8 @@ old-location: image\devicedialogdata2.htm
 old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.devicedialogdata2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], DEVICEDIALOGDATA2 structure [Imaging Devices], PDEVICEDIALOGDATA2, tagDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], wiadevd/PDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, wiadevd/LPDEVICEDIALOGDATA2
+ms.date: 2/23/2018
+ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiadevd.h
-apiname: 
+api_name:
 -	DEVICEDIALOGDATA2
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,7 @@ Pointer to the <b>IWiaItem2</b> interface of the WIA item that transfers data to
 ## -remarks
 
 
+
 The DEVICEDIALOGDATA2 structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a> method.
 
 The <b>DeviceDialog</b> method must allocate the <b>BSTR</b> pointer array specified in <i>pbstrFilePaths</i> by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a> function, and it must allocate each string pointed to by the array by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a> function. The calling program is responsible for freeing the storage for the pointer array and strings.
@@ -134,33 +135,56 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+
 ## -see-also
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
 
- 
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA2 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

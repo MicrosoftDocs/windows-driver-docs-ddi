@@ -1,14 +1,14 @@
 ---
 UID: NS:pep_x._PEP_WORK_DEVICE_POWER
-title: _PEP_WORK_DEVICE_POWER
+title: "_PEP_WORK_DEVICE_POWER"
 author: windows-driver-content
 description: The PEP_WORK_DEVICE_POWER structure describes the new power requirements for the specified device.
 old-location: kernel\pep_work_device_power.htm
 old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_DEVICE_POWER
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pep_x.h
-apiname: 
+api_name:
 -	PEP_WORK_DEVICE_POWER
 product: Windows
 targetos: Windows
@@ -81,19 +81,25 @@ Whether the device requires power. Set to TRUE if the device requires power and 
 ## -remarks
 
 
+
 The <b>DevicePower</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_POWER</b> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
- 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_DEVICE_POWER structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_DEVICE_POWER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

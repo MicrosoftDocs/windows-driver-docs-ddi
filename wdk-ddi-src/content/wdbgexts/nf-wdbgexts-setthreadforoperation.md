@@ -7,8 +7,8 @@ old-location: debugger\setthreadforoperation.htm
 old-project: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.setthreadforoperation, SetThreadForOperation, SetThreadForOperation function [Windows Debugging], WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, wdbgexts/SetThreadForOperation
+ms.date: 2/23/2018
+ms.keywords: SetThreadForOperation, SetThreadForOperation function [Windows Debugging], WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, wdbgexts/SetThreadForOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	SetThreadForOperation
 product: Windows
 targetos: Windows
@@ -76,15 +76,19 @@ Points to a thread object to be used for the next stack trace.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 64-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-setthreadforoperation64.md">SetThreadForOperation64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include Wdbgexts.h. For a DbgEng extension, include Wdbgexts.h before Dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

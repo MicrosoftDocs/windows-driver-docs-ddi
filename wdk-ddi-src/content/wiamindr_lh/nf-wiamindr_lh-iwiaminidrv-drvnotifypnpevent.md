@@ -7,8 +7,8 @@ old-location: image\iwiaminidrv_drvnotifypnpevent.htm
 old-project: image
 ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent, IWiaMiniDrv
+ms.date: 2/23/2018
+ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, drvNotifyPnpEvent,IWiaMiniDrv.drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wiamindr_lh.h
-apiname: 
+api_name:
 -	IWiaMiniDrv.drvNotifyPnpEvent
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Points to a GUID identifying the event.
 ## -returns
 
 
+
 On success, the method should return S_OK. If the method fails, it should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 The WIA service notifies a WIA minidriver of a supported device event by calling the <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method. In this method the minidriver implements the device-specific functionality needed to respond to the event.
@@ -106,15 +109,20 @@ If this method is called with *<i>pEventGuid</i> set to WIA_EVENT_CANCEL_IO devi
 
 
 
+
 ## -see-also
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvNotifyPnpEvent method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvNotifyPnpEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

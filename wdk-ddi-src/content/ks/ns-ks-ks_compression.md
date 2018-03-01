@@ -7,8 +7,8 @@ old-location: stream\ks_compression.htm
 old-project: stream
 ms.assetid: 065f51c3-f476-4f04-880a-5c42e493d458
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/PKS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], *PKS_COMPRESSION, ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/KS_COMPRESSION, PKS_COMPRESSION, stream.ks_compression, KS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKS_COMPRESSION, KS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices], ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/KS_COMPRESSION, ks/PKS_COMPRESSION, stream.ks_compression"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KS_COMPRESSION
 product: Windows
 targetos: Windows
-req.typenames: *PKS_COMPRESSION, KS_COMPRESSION
+req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---
 
 # KS_COMPRESSION structure
@@ -87,6 +87,8 @@ Specifies a scalar constant to apply to the compression ratio. Set this to zero 
 ## -remarks
 
 
+
 For compression, specify a fraction less than 1. For decompression, specify a fraction greater than 1. For example, a compressor might specify 1:3. A decompressor could specify 3:1.
+
 
 

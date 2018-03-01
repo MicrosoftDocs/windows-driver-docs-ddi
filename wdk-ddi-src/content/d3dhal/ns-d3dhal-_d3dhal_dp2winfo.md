@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2WINFO
-title: _D3DHAL_DP2WINFO
+title: "_D3DHAL_DP2WINFO"
 author: windows-driver-content
 description: The D3DHAL_DP2WINFO structure is used to inform the driver of the w-range to be used for w-buffering.
 old-location: display\d3dhal_dp2winfo.htm
 old-project: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], D3DHAL_DP2WINFO, _D3DHAL_DP2WINFO, *LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo, d3dhal/LPD3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], _D3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dhal.h
-apiname: 
+api_name:
 -	D3DHAL_DP2WINFO
 product: Windows
 targetos: Windows
@@ -71,13 +71,13 @@ typedef struct _D3DHAL_DP2WINFO {
 ### -field dvWNear
 
 
-
 ### -field dvWFar
 
 Specify the near and far limit of the w-buffer, respectively. These members can be any valid floating-point values.
 
 
 ## -remarks
+
 
 
 The <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2WINFO structure from the command buffer and updates the driver's scaling parameters for w-buffering when <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_WINFO.
@@ -90,17 +90,24 @@ Video adapters that do not support this feature should ignore and skip over thes
 
 
 
+
 ## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
+
+
 D3DDP2OP_WINFO
+
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2WINFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2WINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

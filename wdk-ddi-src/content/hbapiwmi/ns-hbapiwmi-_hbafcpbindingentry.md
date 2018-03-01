@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._HBAFCPBindingEntry
-title: _HBAFCPBindingEntry
+title: "_HBAFCPBindingEntry"
 author: windows-driver-content
 description: The HBAFCPBindingEntry structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hbafcpbindingentry.htm
 old-project: storage
 ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, storage.hbafcpbindingentry, hbapiwmi/PHBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, PHBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, *PHBAFCPBindingEntry, HBAFCPBindingEntry
+ms.date: 2/24/2018
+ms.keywords: "*PHBAFCPBindingEntry, HBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], PHBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, storage.hbafcpbindingentry, structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Hbapiwmi.h
-apiname: 
+api_name:
 -	HBAFCPBindingEntry
 product: Windows
 targetos: Windows
-req.typenames: *PHBAFCPBindingEntry, HBAFCPBindingEntry
+req.typenames: HBAFCPBindingEntry, *PHBAFCPBindingEntry
 ---
 
 # _HBAFCPBindingEntry structure
@@ -72,6 +72,7 @@ typedef struct _HBAFCPBindingEntry {
 ### -field Type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values:  
+
 <table>
 <tr>
 <th>Type Value</th>
@@ -127,7 +128,8 @@ Indicates that the system should automatically generate target mappings from log
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 You must include file <i>hbaapi.h </i>to use the symbolic constants in this table (See the <b>Headers</b> section).
 
@@ -149,9 +151,11 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of this structure automatically when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a> in <i>hbaapi.mof</i>. 
 
 For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>Fibre Channel Protocol for SCSI</i> specification. 
+
 
 
 
@@ -159,9 +163,11 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPBindingEntry structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPBindingEntry structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

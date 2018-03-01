@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSHAREDRESOURCEADAPTERLUID
-title: _D3DKMT_GETSHAREDRESOURCEADAPTERLUID
+title: "_D3DKMT_GETSHAREDRESOURCEADAPTERLUID"
 author: windows-driver-content
 description: Provides information that describes a shared resource and the graphics adapter that the resource was created on.
 old-location: display\d3dkmt_getsharedresourceadapterluid.htm
 old-project: display
 ms.assetid: b7f9413b-3d57-47c4-a8a4-3288cb03af21
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_getsharedresourceadapterluid, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID, _D3DKMT_GETSHAREDRESOURCEADAPTERLUID
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_GETSHAREDRESOURCEADAPTERLUID
 product: Windows
 targetos: Windows

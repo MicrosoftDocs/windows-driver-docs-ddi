@@ -7,8 +7,8 @@ old-location: kernel\rtlisstateseparationenabled.htm
 old-project: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled, kernel.rtlisstateseparationenabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlIsStateSeparationEnabled
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsStateSeparationEnabled function
@@ -72,11 +72,14 @@ req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
 
 
 
+
 ## -returns
+
 
 
  TRUE indicates state separation enabled;
 
     FALSE otherwise.
+
 
 

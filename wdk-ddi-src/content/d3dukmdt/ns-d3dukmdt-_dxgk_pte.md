@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dukmdt._DXGK_PTE
-title: _DXGK_PTE
+title: "_DXGK_PTE"
 author: windows-driver-content
 description: A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation.
 old-location: display\dxgk_pte.htm
 old-project: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_pte, DXGK_PTE structure [Display Devices], _DXGK_PTE, DXGK_PTE, DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, d3dukmdt/DXGK_PTE
+ms.date: 2/24/2018
+ms.keywords: DXGK_PTE, DXGK_PTE structure [Display Devices], DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, _DXGK_PTE, d3dukmdt/DXGK_PTE, display.dxgk_pte
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dukmdt.h
-apiname: 
+api_name:
 -	DXGK_PTE
 product: Windows
 targetos: Windows
@@ -150,17 +150,17 @@ Supported starting with Windows 10.
 Reserved for system use and will be set to zero.
 
 
-### -field Flags
+#### - Flags
 
 The unmasked value of the structure.
 
 
-### -field PageAddress
+#### - PageAddress
 
 The high 52 bits of the 64 bit physical address of a memory page. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 
 
-### -field PageTableAddress
+#### - PageTableAddress
 
 The high 52 bits of the 64 bit physical address of a lower level page table. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 

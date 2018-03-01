@@ -7,8 +7,8 @@ old-location: debugger\addsymbol.htm
 old-project: debugger
 ms.assetid: b77de459-b5ac-4752-89eb-f24fdde36134
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: AddSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup::AddSymbol, IDebugSymbolGroup::AddSymbol, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, dbgeng/IDebugSymbolGroup2::AddSymbol, AddSymbol, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbol method, AddSymbol method [Windows Debugging], IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2, AddSymbol method [Windows Debugging], IDebugSymbolGroup interface, debugger.addsymbol
+ms.date: 2/23/2018
+ms.keywords: AddSymbol method [Windows Debugging], AddSymbol method [Windows Debugging], IDebugSymbolGroup interface, AddSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbol,IDebugSymbolGroup2.AddSymbol, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, IDebugSymbolGroup interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbol method, IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup::AddSymbol, dbgeng/IDebugSymbolGroup2::AddSymbol, dbgeng/IDebugSymbolGroup::AddSymbol, debugger.addsymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbolGroup.AddSymbol
 -	IDebugSymbolGroup2.AddSymbol
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::AddSymbol method
@@ -84,6 +84,7 @@ When this method returns, <i>Index</i> points to the actual index of the symbol.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,13 +101,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The symbol name in <i>Name</i> is evaluated by the <a href="https://msdn.microsoft.com/e5d3ac7f-fd79-48bb-b927-9ad72570dcbe">C++ expression evaluator</a> and can contain any C++ expression (for example, <b>x+y</b>).
@@ -117,21 +121,32 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::AddSymbol method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::AddSymbol method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\fwpmengineopen0.htm
 old-project: netvista
 ms.assetid: 4d805ffe-7cf9-4cbc-9077-e191ddc24ecd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml, FwpmEngineOpen0, fwpmk/FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineOpen0, netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpmEngineOpen0
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FwpmEngineOpen0 function
@@ -110,8 +110,10 @@ A pointer to a variable that receives a handle for the open session to the filte
 ## -returns
 
 
+
 The 
      <b>FwpmEngineOpen0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -169,27 +174,42 @@ After a callout driver has finished accessing the filter engine, it calls the
 
 
 
+
 ## -see-also
-
-<a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a>
-
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
-
-<mshelp:link keywords="netvista.fwpmbfestatesubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateSubscribeChanges0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.other_windows_filtering_platform_functions" tabindex="0">Other Windows Filtering
-   Platform Functions</mshelp:link>
-
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebyid0.md">FwpmCalloutDeleteById0</a>
 
 <a href="..\fwpmk\nf-fwpmk-fwpmcalloutadd0.md">FwpmCalloutAdd0</a>
 
- 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
+   Platform Functions</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+   FwpmBfeStateSubscribeChanges0</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebyid0.md">FwpmCalloutDeleteById0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpmEngineOpen0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpmEngineOpen0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\kequerynodemaximumprocessorcount.htm
 old-project: kernel
 ms.assetid: 56688002-d481-45a6-bfb0-e7761f9ae055
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, wdm/KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount, kernel.kequerynodemaximumprocessorcount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, kernel.kequerynodemaximumprocessorcount, wdm/KeQueryNodeMaximumProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeQueryNodeMaximumProcessorCount
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ The node number. If a NUMA multiprocessor system contains <i>n</i> nodes, valid 
 ## -returns
 
 
+
 <b>KeQueryNodeMaximumProcessorCount</b> returns the maximum number of logical processors.
 
 
 
+
 ## -remarks
+
 
 
 In a multiprocessor system with a NUMA architecture, a node is a collection of processors that share fast access to a region of memory. Memory access is non-uniform because a processor can access the memory in its node faster than it can access the memory in other nodes.
@@ -89,13 +92,16 @@ The count returned by this routine includes any logical processors that can be d
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryNodeMaximumProcessorCount routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryNodeMaximumProcessorCount routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:nfccx._NFC_CX_TRANSPORT_TYPE
-title: _NFC_CX_TRANSPORT_TYPE
+title: "_NFC_CX_TRANSPORT_TYPE"
 author: windows-driver-content
 description: The NFC_CX_TRANSPORT_TYPE enumeration specifies transport types.
 old-location: nfpdrivers\nfc_cx_transport_type.htm
 old-project: nfpdrivers
 ms.assetid: CC8BEC9A-87F6-4C50-A8FA-ED2A2A5D2934
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_TRANSPORT_TYPE, nfpdrivers.nfc_cx_transport_type, nfccx/NFC_CX_TRANSPORT_UART, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_SPI, _NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_UART
+ms.date: 2/15/2018
+ms.keywords: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfccx.h
-apiname: 
+api_name:
 -	NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # _NFC_CX_TRANSPORT_TYPE enumeration
@@ -94,11 +94,15 @@ Specifies a custom transport type.
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_TRANSPORT_TYPE enumeration%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_TRANSPORT_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

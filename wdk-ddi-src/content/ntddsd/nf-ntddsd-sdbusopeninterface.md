@@ -7,8 +7,8 @@ old-location: sd\sdbusopeninterface.htm
 old-project: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SdBusOpenInterface function [Buses], SD.sdbusopeninterface, SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, ntddsd/SdBusOpenInterface
+ms.date: 2/15/2018
+ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddsd.h
-apiname: 
+api_name:
 -	SdBusOpenInterface
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Must be set to SDBUS_INTERFACE_VERSION.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails. 
 
 
 
+
 ## -remarks
+
 
 
 An SD card driver should call this routine from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
@@ -106,15 +109,20 @@ SD card drivers must call this routine to establish communication with the bus d
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SdBusOpenInterface function%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SdBusOpenInterface function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

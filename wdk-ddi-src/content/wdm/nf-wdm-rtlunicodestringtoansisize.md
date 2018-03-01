@@ -7,8 +7,8 @@ old-location: kernel\rtlunicodestringtoansisize.htm
 old-project: kernel
 ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiSize, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, RtlUnicodeStringToAnsiSize, kernel.rtlunicodestringtoansisize
+ms.date: 2/24/2018
+ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlUnicodeStringToAnsiSize
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ TBD
 
 
 
+
+
 #### - UnicodeString [in]
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
@@ -83,9 +85,11 @@ Pointer to the Unicode string for which to compute the number of bytes required 
 ## -remarks
 
 
+
 The Unicode string is interpreted for the current system locale.
 
 <b>RtlUnicodeStringToAnsiSize</b> performs the same operation as <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>, but executes faster if the system does not use multibyte code pages.
+
 
 
 
@@ -93,9 +97,11 @@ The Unicode string is interpreted for the current system locale.
 
 <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringToAnsiSize routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringToAnsiSize routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

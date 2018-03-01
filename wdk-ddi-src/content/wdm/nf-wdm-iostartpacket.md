@@ -7,8 +7,8 @@ old-location: kernel\iostartpacket.htm
 old-project: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoStartPacket, IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], kernel.iostartpacket, k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml
+ms.date: 2/24/2018
+ms.keywords: IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, kernel.iostartpacket, wdm/IoStartPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoStartPacket
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Specifies the entry point for a driver-supplied <a href="https://msdn.microsoft.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the driver is already busy processing a request for the target device object, then the packet is queued in the device queue. Otherwise, this routine calls the driver's <i>StartIo</i> routine with the specified IRP.
@@ -111,21 +114,32 @@ Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Us
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
+
+<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+
 
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartPacket routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartPacket routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

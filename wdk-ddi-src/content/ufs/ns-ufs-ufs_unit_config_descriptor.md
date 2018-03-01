@@ -7,8 +7,8 @@ old-location: storage\ufs_unit_config_descriptor.htm
 old-project: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], PUFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ufs.h
-apiname: 
+api_name:
 -	UFS_UNIT_CONFIG_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -95,6 +95,7 @@ Specifies if the Logical Unit is write protected.
 ### -field bMemoryType
 
 Specifies the Memory type of the device.
+
 <table>
 <tr>
 <th>Value</th>
@@ -132,7 +133,8 @@ Specifies the Memory type of the device.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dNumAllocUnits
@@ -145,6 +147,7 @@ Specifies the number of allocation units assigned to the logical unit.
 <b>bDataReliability</b> defines the device behavior
 when a power failure occurs during a write
 operation to the logical unit:
+
 <table>
 <tr>
 <th>Value</th>
@@ -166,7 +169,8 @@ data is protected against power failure.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bLogicalBlockSize
@@ -177,6 +181,7 @@ Specifies the logical block size.
 ### -field bProvisioningType
 
 Specifies the provisioning type.
+
 <table>
 <tr>
 <th>Value</th>
@@ -200,7 +205,8 @@ Specifies the provisioning type.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wContextCapabilities

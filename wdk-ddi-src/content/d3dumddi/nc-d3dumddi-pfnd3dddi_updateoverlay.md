@@ -7,8 +7,8 @@ old-location: display\updateoverlay.htm
 old-project: display
 ms.assetid: 80d7cc5c-51d8-4b91-9581-b073f9b0e68a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.updateoverlay, UpdateOverlay callback function [Display Devices], UpdateOverlay, PFND3DDDI_UPDATEOVERLAY, PFND3DDDI_UPDATEOVERLAY, d3dumddi/UpdateOverlay, UserModeDisplayDriver_Functions_58c588ce-de18-4aa0-bb22-0c33d053e22f.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_UPDATEOVERLAY, UpdateOverlay, UpdateOverlay callback function [Display Devices], UserModeDisplayDriver_Functions_58c588ce-de18-4aa0-bb22-0c33d053e22f.xml, d3dumddi/UpdateOverlay, display.updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	UpdateOverlay
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY UpdateOverlay(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY UpdateOverlay(
 ## -returns
 
 
+
 <i>UpdateOverlay</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,14 +156,18 @@ The overlay hardware is not supported for the specified size and display mode.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Overlays are independent from the resources that are displayed by using the overlays.
+
 
 
 
@@ -167,11 +175,15 @@ Overlays are independent from the resources that are displayed by using the over
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEOVERLAY callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEOVERLAY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

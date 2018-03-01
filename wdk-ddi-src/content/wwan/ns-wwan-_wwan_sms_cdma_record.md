@@ -1,14 +1,14 @@
 ---
 UID: NS:wwan._WWAN_SMS_CDMA_RECORD
-title: _WWAN_SMS_CDMA_RECORD
+title: "_WWAN_SMS_CDMA_RECORD"
 author: windows-driver-content
 description: The WWAN_SMS_CDMA_RECORD structure represents CDMA-based SMS text message records.
 old-location: netvista\wwan_sms_cdma_record.htm
 old-project: netvista
 ms.assetid: 4138be92-1f54-4478-8fbb-951f1d06cb66
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista], WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, WWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], *PWWAN_SMS_CDMA_RECORD, wwan/WWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, _WWAN_SMS_CDMA_RECORD
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_RECORD, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, _WWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, wwan/PWWAN_SMS_CDMA_RECORD, wwan/WWAN_SMS_CDMA_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_SMS_CDMA_RECORD
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SMS_CDMA_RECORD, WWAN_SMS_CDMA_RECORD
+req.typenames: WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
 req.product: Windows 10 or later.
 ---
 
@@ -96,6 +96,7 @@ The status of the record that represents whether the SMS message is new (unread)
 A NULL-terminated string with a maximum length of 15 digits that represents a mobile number. The
      number can be in any of the following formats:
      
+
 <ul>
 <li>
 "+ &lt;International Country Code&gt; &lt;Mobile Number&gt;\0"
@@ -105,7 +106,8 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
 "&lt;Mobile Number&gt;\0"
 
 </li>
-</ul>If 
+</ul>
+If 
      <b>MsgStatus</b> is 
      <b>WwanMsgStatusDraft</b> or 
      <b>WwanMsgStatusSent</b>, miniport drivers should specify the receiver's mobile number in the previous
@@ -120,6 +122,7 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
 A string that represent the Service Center (SC) timestamp, in the following format: "
       <i>YY</i>/<i>MM</i>/<i>DD</i>,
       <i>HH</i>:<i>mm</i>:<i>SS</i>±<i>ZZ</i>" where:
+
 <ul>
 <li>
 <i>YY</i> represents the last two digits of the year. For example, 07 corresponds to 2007. Valid range
@@ -157,7 +160,8 @@ A string that represent the Service Center (SC) timestamp, in the following form
         when combined with the Â± symbol).
 
 </li>
-</ul>For example, to represent October 2nd, 1996, 20:01:54 GMT+2 hours use the following string timestamp
+</ul>
+For example, to represent October 2nd, 1996, 20:01:54 GMT+2 hours use the following string timestamp
       "96/10/02,20:01:54+02"
 
 
@@ -196,15 +200,21 @@ The encoded content of the record that represents the SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+
+
 
 <a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+
+
+<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_RECORD structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_RECORD structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

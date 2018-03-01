@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_DRM_DRMSTATUS
-title: _BDA_DRM_DRMSTATUS
+title: "_BDA_DRM_DRMSTATUS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_drm_drmstatus.htm
 old-project: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PBDA_DRM_DRMSTATUS, _BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], *PBDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus, bdatypes/PBDA_DRM_DRMSTATUS
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], PBDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], _BDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, bdatypes/PBDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_DRM_DRMSTATUS
 product: Windows
 targetos: Windows
-req.typenames: *PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS
+req.typenames: BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS
 ---
 
 # _BDA_DRM_DRMSTATUS structure
@@ -73,15 +73,11 @@ typedef struct _BDA_DRM_DRMSTATUS {
 ### -field lResult
 
 
-
 ### -field DRMuuid
-
 
 
 ### -field ulDrmUuidListStringSize
 
 
-
 ### -field argbDrmUuidListString
-
 

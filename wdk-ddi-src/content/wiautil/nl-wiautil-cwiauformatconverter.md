@@ -7,8 +7,8 @@ old-location: image\cwiauformatconverter_class.htm
 old-project: image
 ms.assetid: b30c3336-ddc6-459d-97c4-244ca0b50cfc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.cwiauformatconverter_class, CWiauFormatConverter interface [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], described, CWiauFormatConverter, wiautil/CWiauFormatConverter, wiauFncs_8d01dc38-ef09-425a-ade6-d06bd0e1e08a.xml
+ms.date: 2/23/2018
+ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], described, image.cwiauformatconverter_class, wiauFncs_8d01dc38-ef09-425a-ade6-d06bd0e1e08a.xml, wiautil/CWiauFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wiautil.h
-apiname: 
+api_name:
 -	CWiauFormatConverter
 product: Windows
 targetos: Windows
@@ -106,15 +106,5 @@ The <b>IsFormatSupported</b> method verifies that GDI+ supports the image format
 
 </td>
 </tr>
-</table>The <b>~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormatConverter</b> class.
-
-The <b>ConvertToBmp</b> method converts an image to BMP format.
-
-The <b>CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
-
-The <b>Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
-
-The <b>IsFormatSupported</b> method verifies that GDI+ supports the image format that is to be converted.
-
- 
+</table> 
 

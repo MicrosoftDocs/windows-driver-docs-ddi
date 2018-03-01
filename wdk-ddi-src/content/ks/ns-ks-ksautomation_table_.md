@@ -7,8 +7,8 @@ old-location: stream\ksautomation_table.htm
 old-project: stream
 ms.assetid: 76ab776d-0921-4fdb-9646-2cb97a582f6e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSAUTOMATION_TABLE structure [Streaming Media Devices], PKSAUTOMATION_TABLE, ks/KSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], KSAUTOMATION_TABLE_, ks/PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE, stream.ksautomation_table, *PKSAUTOMATION_TABLE, avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE, KSAUTOMATION_TABLE structure [Streaming Media Devices], KSAUTOMATION_TABLE_, PKSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml, ks/KSAUTOMATION_TABLE, ks/PKSAUTOMATION_TABLE, stream.ksautomation_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSAUTOMATION_TABLE
 product: Windows
 targetos: Windows
-req.typenames: *PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE
+req.typenames: KSAUTOMATION_TABLE, *PKSAUTOMATION_TABLE
 ---
 
 # KSAUTOMATION_TABLE_ structure
@@ -76,58 +76,58 @@ typedef struct KSAUTOMATION_TABLE_ {
 
 
 
-
-#### - MethodSets
-
-An array of <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a> objects (<b>MethodSetsCount</b> in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size <b>MethodItemSize</b>.
-
-
-#### - MethodSetsCount
-
-This member specifies the number of method sets in this automation table.
-
-
-#### - PropertySetsCount
+### -field PropertySetsCount
 
 This member specifies the number of property sets in this automation table.
 
 
-#### - PropertyItemSize
+### -field PropertyItemSize
 
 This member specifies size in bytes of property items in this table.
 
 
-#### - EventItemSize
-
-This member specifies the size in bytes of event items in this table.
-
-
-#### - EventSets
-
-An array of <a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a> objects (<b>EventSetsCount</b> in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size <b>EventItemSize</b>.
-
-
-#### - PropertySets
+### -field PropertySets
 
 A pointer to an array of <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a> objects (<b>PropertySetsCount</b> in length) defining the property sets in this automation table.  Each set contains a specific number of items of size <b>PropertyItemSize</b>.
 
 
-#### - Alignment
+### -field MethodSetsCount
 
-Reserved for internal use by AVStream. Minidrivers should not manipulate this member. 
-
-
-#### - EventSetsCount
-
-This member specifies the number of event sets in this automation table.
+This member specifies the number of method sets in this automation table.
 
 
-#### - MethodItemSize
+### -field MethodItemSize
 
 This member specifies the size in bytes of method items in this table.
 
 
+### -field MethodSets
+
+An array of <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a> objects (<b>MethodSetsCount</b> in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size <b>MethodItemSize</b>.
+
+
+### -field EventSetsCount
+
+This member specifies the number of event sets in this automation table.
+
+
+### -field EventItemSize
+
+This member specifies the size in bytes of event items in this table.
+
+
+### -field EventSets
+
+An array of <a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a> objects (<b>EventSetsCount</b> in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size <b>EventItemSize</b>.
+
+
+### -field Alignment
+
+Reserved for internal use by AVStream. Minidrivers should not manipulate this member. 
+
+
 ## -remarks
+
 
 
 Note that each object (pin, filter, topology node) should define an automation table. Minidrivers can use macros defined in <i>Ks.h</i> to define automation tables and the arrays they contain:
@@ -149,6 +149,7 @@ DEFINE_KSAUTOMATION_METHODS_NULL
 DEFINE_KSAUTOMATION_EVENTS_NULL
 
 For example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -161,27 +162,41 @@ DEFINE_KSAUTOMATION_METHODS (MyMethodTable),
 DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
 </td>
 </tr>
-</table></span></div>};
+</table></span></div>
+};
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
 
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
+
+
+<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+
+
+
 <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSAUTOMATION_TABLE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSAUTOMATION_TABLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

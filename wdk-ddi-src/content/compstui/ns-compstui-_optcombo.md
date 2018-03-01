@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._OPTCOMBO
-title: _OPTCOMBO
+title: "_OPTCOMBO"
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\optcombo.htm
 old-project: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: compstui/OPTCOMBO, POPTCOMBO, *POPTCOMBO, _OPTCOMBO, print.optcombo, compstui/POPTCOMBO, POPTCOMBO structure pointer [Print Devices], OPTCOMBO, OPTCOMBO structure [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Compstui.h
-apiname: 
+api_name:
 -	OPTCOMBO
 product: Windows
 targetos: Windows
-req.typenames: *POPTCOMBO, OPTCOMBO
+req.typenames: OPTCOMBO, *POPTCOMBO
 ---
 
 # _OPTCOMBO structure
@@ -75,23 +75,17 @@ typedef struct _OPTCOMBO {
 ### -field cbSize
 
 
-
 ### -field Flags
-
 
 
 ### -field cListItem
 
 
-
 ### -field pListItem
-
 
 
 ### -field Sel
 
 
-
 ### -field dwReserved
-
 

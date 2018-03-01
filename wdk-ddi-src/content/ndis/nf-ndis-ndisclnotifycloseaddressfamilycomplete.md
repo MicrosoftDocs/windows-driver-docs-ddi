@@ -7,8 +7,8 @@ old-location: netvista\ndisclnotifycloseaddressfamilycomplete.htm
 old-project: netvista
 ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, NdisClNotifyCloseAddressFamilyComplete, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
+ms.date: 2/16/2018
+ms.keywords: NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisClNotifyCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClNotifyCloseAddressFamilyComplete function
@@ -76,8 +76,8 @@ VOID NdisClNotifyCloseAddressFamilyComplete(
 ### -param NdisAfHandle [in]
 
 An AF handle that NDIS supplied to the caller's 
-     <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
-     NdisClOpenAddressFamilyEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     NdisClOpenAddressFamilyEx</a> function.
 
 
 ### -param Status [in]
@@ -90,12 +90,14 @@ The completion status for close AF notification.
 
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+
+#### NDIS_STATUS_SUCCESS
 
 The client successfully closed its address family.
 
 
-##### - Status.NDIS_STATUS_XXX
+
+#### NDIS_STATUS_XXX
 
 The client failed the request for some driver-determined reason.
 
@@ -103,39 +105,49 @@ The client failed the request for some driver-determined reason.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 CoNDIS clients call the 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> function to complete a close AF notification. A client must
     call 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> after its 
-    <mshelp:link keywords="netvista.protocolclnotifycloseaf" tabindex="0"><i>
-    ProtocolClNotifyCloseAf</i></mshelp:link> function returns NDIS_STATUS_PENDING.
+    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    ProtocolClNotifyCloseAf</a> function returns NDIS_STATUS_PENDING.
 
 After the client calls 
     <b>NdisClNotifyCloseAddressFamilyComplete</b>, NDIS calls the call manager's 
-    <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-    ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function to complete operation for the call manager.
+    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    ProtocolCmNotifyCloseAfComplete</a> function to complete operation for the call manager.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-   ProtocolCmNotifyCloseAfComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+   ProtocolCmNotifyCloseAfComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClNotifyCloseAddressFamilyComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClNotifyCloseAddressFamilyComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

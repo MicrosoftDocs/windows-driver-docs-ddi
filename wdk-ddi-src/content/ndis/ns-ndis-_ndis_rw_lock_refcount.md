@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_RW_LOCK_REFCOUNT
-title: _NDIS_RW_LOCK_REFCOUNT
+title: "_NDIS_RW_LOCK_REFCOUNT"
 author: windows-driver-content
 description: The NDIS_RW_LOCK_REFCOUNT union defines attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock_refcount.htm
 old-project: netvista
 ms.assetid: 1b2c93dd-a80e-4197-bc4f-cad12f6d6c77
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_RW_LOCK_REFCOUNT union [Network Drivers Starting with Windows Vista], ndis/NDIS_RW_LOCK_REFCOUNT, netvista.ndis_rw_lock_refcount, _NDIS_RW_LOCK_REFCOUNT, ndis_processor_group_ref_55aa679b-460e-43a3-8ad2-678926bbf200.xml, NDIS_RW_LOCK_REFCOUNT
+ms.date: 2/16/2018
+ms.keywords: NDIS_RW_LOCK_REFCOUNT, NDIS_RW_LOCK_REFCOUNT union [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK_REFCOUNT, ndis/NDIS_RW_LOCK_REFCOUNT, ndis_processor_group_ref_55aa679b-460e-43a3-8ad2-678926bbf200.xml, netvista.ndis_rw_lock_refcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_RW_LOCK_REFCOUNT
 product: Windows
 targetos: Windows

@@ -2,13 +2,13 @@
 UID: NE:ksproxy.FRAMING_PROP
 title: FRAMING_PROP
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\framing_prop.htm
 old-project: stream
 ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.framing_prop, FRAMING_PROP enumeration [Streaming Media Devices], ksproxy/FramingProp_Old, FramingProp_Ex, ksproxy/FramingProp_Uninitialized, FramingProp_None, FramingProp_Uninitialized, FRAMING_PROP, ksproxy/FRAMING_PROP, FramingProp_Old, ksproxy/FramingProp_Ex, *PFRAMING_PROP, ksproxy/FramingProp_None
+ms.date: 2/23/2018
+ms.keywords: "*PFRAMING_PROP, FRAMING_PROP, FRAMING_PROP enumeration [Streaming Media Devices], FramingProp_Ex, FramingProp_None, FramingProp_Old, FramingProp_Uninitialized, ksproxy/FRAMING_PROP, ksproxy/FramingProp_Ex, ksproxy/FramingProp_None, ksproxy/FramingProp_Old, ksproxy/FramingProp_Uninitialized, stream.framing_prop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ksproxy.h
-apiname: 
+api_name:
 -	FRAMING_PROP
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum  {
 ### -field FramingProp_Uninitialized
 
 
-
 ### -field FramingProp_None
-
 
 
 ### -field FramingProp_Old
 
 
-
 ### -field FramingProp_Ex
-
 

@@ -7,8 +7,8 @@ old-location: stream\ks_vbiinfoheader.htm
 old-project: stream
 ms.assetid: 4424be3a-6e73-449c-b5fb-5cbc1109490d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER, stream.ks_vbiinfoheader, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml, KS_VBIINFOHEADER structure [Streaming Media Devices], ksmedia/PKS_VBIINFOHEADER, tagKS_VBIINFOHEADER, ksmedia/KS_VBIINFOHEADER, PKS_VBIINFOHEADER
+ms.date: 2/23/2018
+ms.keywords: "*PKS_VBIINFOHEADER, KS_VBIINFOHEADER, KS_VBIINFOHEADER structure [Streaming Media Devices], PKS_VBIINFOHEADER, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_VBIINFOHEADER, ksmedia/PKS_VBIINFOHEADER, stream.ks_vbiinfoheader, tagKS_VBIINFOHEADER, vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KS_VBIINFOHEADER
 product: Windows
 targetos: Windows
-req.typenames: *PKS_VBIINFOHEADER, KS_VBIINFOHEADER
+req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ---
 
 # tagKS_VBIINFOHEADER structure
@@ -135,7 +135,9 @@ Specifies the size in bytes of the buffer to store the entire digitized VBI sign
 ## -remarks
 
 
+
 VBI streams are usually converted to NABTS, CC, and WST streams by downstream filters.
+
 
 
 
@@ -143,9 +145,11 @@ VBI streams are usually converted to NABTS, CC, and WST streams by downstream fi
 
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBIINFOHEADER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBIINFOHEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

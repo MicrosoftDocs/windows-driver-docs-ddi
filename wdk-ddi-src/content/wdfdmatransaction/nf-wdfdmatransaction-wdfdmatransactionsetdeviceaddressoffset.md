@@ -7,8 +7,8 @@ old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
 old-project: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactionsetdeviceaddressoffset, PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, WdfDmaTransactionSetDeviceAddressOffset
+ms.date: 2/20/2018
+ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfDmaTransactionSetDeviceAddressOffset
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ The offset of the register, from the <b>DeviceAddress</b> specified in <a href="
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <b>WdfDmaTransactionSetDeviceAddressOffset</b> must be used with a DMA enabler that specifies a system-mode DMA profile.
@@ -107,14 +110,70 @@ To do so, the driver specifies the base address of the device's register file wh
 If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
+#### Examples
+
+The following code example initializes a DMA transaction.  It then sets the offset of the register that the system DMA controller will access, provides a transfer completion callback routine, and executes the DMA transaction.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfDmaTransactionInitialize(
+                                     RequestContext-&gt;DmaTransaction,
+                                     EvtProgramDma,
+                                     direction,
+                                     mdl,
+                                     startingVa,
+                                     length
+                                     );
+
+if(!NT_SUCCESS(status)) {
+    goto Complete;
+}
+
+WdfDmaTransactionSetDeviceAddressOffset(
+                                        RequestContext-&gt;DmaTransaction,
+                                        READ_DATA_REGISTER_OFFSET
+                                        );
+
+WdfDmaTransactionSetTransferCompleteCallback(
+                                             RequestContext-&gt;DmaTransaction,
+                                             EvtDmaTransactionDmaTransferComplete,
+                                             RequestContext
+                                             );
+
+status = WdfDmaTransactionExecute(
+                                  RequestContext-&gt;DmaTransaction, 
+                                  RequestContext );
+
+if(!NT_SUCCESS(status)) {
+    goto Complete;
+}
+
+return status;
+
+Complete:
+
+WdfDmaTransactionRelease(
+                         RequestContext-&gt;DmaTransaction
+                         );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionSetDeviceAddressOffset method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionSetDeviceAddressOffset method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

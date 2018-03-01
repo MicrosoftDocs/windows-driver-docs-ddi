@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS_PARAMS
-title: _VIDEO_WIN32K_CALLBACKS_PARAMS
+title: "_VIDEO_WIN32K_CALLBACKS_PARAMS"
 author: windows-driver-content
 description: The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
 old-location: display\video_win32k_callbacks_params.htm
 old-project: display
 ms.assetid: d533721f-b4c8-44f9-9c39-f312e1ec9895
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PVIDEO_WIN32K_CALLBACKS_PARAMS, Video_Structs_1a8e1e6c-1019-4d0f-9a62-7802059cafd2.xml, VIDEO_WIN32K_CALLBACKS_PARAMS structure [Display Devices], _VIDEO_WIN32K_CALLBACKS_PARAMS, ntddvdeo/PVIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS, ntddvdeo/VIDEO_WIN32K_CALLBACKS_PARAMS, display.video_win32k_callbacks_params, PVIDEO_WIN32K_CALLBACKS_PARAMS structure pointer [Display Devices], *PVIDEO_WIN32K_CALLBACKS_PARAMS
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_WIN32K_CALLBACKS_PARAMS, PVIDEO_WIN32K_CALLBACKS_PARAMS, PVIDEO_WIN32K_CALLBACKS_PARAMS structure pointer [Display Devices], VIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS structure [Display Devices], Video_Structs_1a8e1e6c-1019-4d0f-9a62-7802059cafd2.xml, _VIDEO_WIN32K_CALLBACKS_PARAMS, display.video_win32k_callbacks_params, ntddvdeo/PVIDEO_WIN32K_CALLBACKS_PARAMS, ntddvdeo/VIDEO_WIN32K_CALLBACKS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddvdeo.h
-apiname: 
+api_name:
 -	VIDEO_WIN32K_CALLBACKS_PARAMS
 product: Windows
 targetos: Windows
@@ -103,5 +103,6 @@ Reserved for system use.
 ### -field SurpriseRemoval
 
  
+
 
 

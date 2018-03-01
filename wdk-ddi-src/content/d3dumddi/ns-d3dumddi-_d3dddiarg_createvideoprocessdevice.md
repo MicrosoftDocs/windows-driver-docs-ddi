@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVIDEOPROCESSDEVICE
-title: _D3DDDIARG_CREATEVIDEOPROCESSDEVICE
+title: "_D3DDDIARG_CREATEVIDEOPROCESSDEVICE"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) video processing device to create.
 old-location: display\d3dddiarg_createvideoprocessdevice.htm
 old-project: display
 ms.assetid: b875755c-9559-41ee-8a9b-1de05a2f1dab
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], display.d3dddiarg_createvideoprocessdevice, D3DDDIARG_CREATEVIDEOPROCESSDEVICE
+ms.date: 2/24/2018
+ms.keywords: D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, display.d3dddiarg_createvideoprocessdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 product: Windows
 targetos: Windows
@@ -98,13 +98,17 @@ typedef struct _D3DDDIARG_CREATEVIDEOPROCESSDEVICE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
 
- 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

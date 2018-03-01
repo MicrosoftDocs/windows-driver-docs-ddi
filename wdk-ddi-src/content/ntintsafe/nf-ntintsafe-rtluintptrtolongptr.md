@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtolongptr.htm
 old-project: kernel
 ms.assetid: FF032898-E1BB-4821-A685-3774B1DBFADA
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToLongPtr, RtlUIntPtrToLongPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToLongPtr, kernel.rtluintptrtolongptr
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrToLongPtr, RtlUIntPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolongptr, ntintsafe/RtlUIntPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrToLongPtr
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUIntPtrToSSIZET
 </li>
@@ -92,4 +94,5 @@ This function uses the following alternate name:
 <li>RtlSizeTToSSIZET
 </li>
 </ul>
+
 

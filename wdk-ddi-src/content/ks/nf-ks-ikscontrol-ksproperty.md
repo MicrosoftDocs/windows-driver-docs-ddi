@@ -7,8 +7,8 @@ old-location: stream\ikscontrol_ksproperty2.htm
 old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsProperty method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksproperty2, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, IKsControl, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method
+ms.date: 2/23/2018
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsProperty method, IKsControl::KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices], IKsControl interface, KsProperty,IKsControl.KsProperty, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, ks/IKsControl::KsProperty, stream.ikscontrol_ksproperty2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsControl.KsProperty
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS KsProperty(
 
 ### -param Property [in]
 
-Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
+Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
 
 ### -param PropertyLength [in]
@@ -99,14 +99,18 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsPr
 ## -returns
 
 
+
 The <b>IKsControl::KsProperty</b> method returns the same value that would be returned if the property had been sent by IOCTL.
+
 
 
 
 ## -remarks
 
 
+
 To determine the buffer size that is required for a specific property request, you can call this method with <i>PropertyData</i> set to <b>NULL</b> and <i>DataLength</i> equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA), and <i>BytesReturned</i> contains the size of the required buffer.
+
 
 
 
@@ -114,13 +118,19 @@ To determine the buffer size that is required for a specific property request, y
 
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
+
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsProperty method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsProperty method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

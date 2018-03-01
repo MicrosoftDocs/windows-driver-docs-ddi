@@ -89,6 +89,7 @@
 ### [IKsPinEx interface](../ksproxy/nn-ksproxy-ikspinex.md)
 ### [IKsPinFactory interface](../ksproxy/nn-ksproxy-ikspinfactory.md)
 ### [IKsPinPipe interface](../ksproxy/nn-ksproxy-ikspinpipe.md)
+### [IKsPropertySet interface](../ksproxy/nn-ksproxy-ikspropertyset.md)
 ### [IKsQualityForwarder interface](../ksproxy/nn-ksproxy-iksqualityforwarder.md)
 ### [IKsTopology interface](../ksproxy/nn-ksproxy-ikstopology.md)
 ### [OPTIMAL_WEIGHT_TOTALS structure](../ksproxy/ns-ksproxy-optimal_weight_totals.md)

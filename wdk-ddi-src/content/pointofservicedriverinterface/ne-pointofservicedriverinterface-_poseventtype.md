@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicedriverinterface._PosEventType
-title: _PosEventType
+title: "_PosEventType"
 author: windows-driver-content
 description: This enumeration defines values used in the PosEventDataHeader structure to indicate the type of event that was raised.
 old-location: pos\poseventtype.htm
 old-project: pos
 ms.assetid: 2ba0c81f-2eff-48bf-8c3e-9047a398f735
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: BarcodeScannerTriggerReleased, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/InvalidEvent, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/ReleaseDeviceRequested, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, PosEventType enumeration, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerDataReceived, BarcodeScannerErrorOccurred, DrawerClosed, pointofservicedriverinterface/DrawerClosed, InvalidEvent, BarcodeScannerTriggerPressed, _Max, BarcodeScannerDataReceived, PointOfServicePrinterErrorOccurred, AlarmTimeoutExpired, ReleaseDeviceRequested, MagneticStripeReaderDataReceived, pos.poseventtype, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, StatusUpdated, pointofservicedriverinterface/BarcodeScannerErrorOccurred, pointofservicedriverinterface/MagneticStripeReaderDataReceived, _PosEventType, DrawerOpened, PosEventType, pointofservicedriverinterface/PosEventType, MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/DrawerOpened, pointofservicedriverinterface/AlarmTimeoutExpired, BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/_Max
+ms.date: 2/23/2018
+ms.keywords: AlarmTimeoutExpired, BarcodeScannerDataReceived, BarcodeScannerErrorOccurred, BarcodeScannerImagePreviewReceived, BarcodeScannerTriggerPressed, BarcodeScannerTriggerReleased, DrawerClosed, DrawerOpened, InvalidEvent, MagneticStripeReaderDataReceived, MagneticStripeReaderErrorOccurred, PointOfServicePrinterErrorOccurred, PosEventType, PosEventType enumeration, ReleaseDeviceRequested, StatusUpdated, _Max, _PosEventType, pointofservicedriverinterface/AlarmTimeoutExpired, pointofservicedriverinterface/BarcodeScannerDataReceived, pointofservicedriverinterface/BarcodeScannerErrorOccurred, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/DrawerClosed, pointofservicedriverinterface/DrawerOpened, pointofservicedriverinterface/InvalidEvent, pointofservicedriverinterface/MagneticStripeReaderDataReceived, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/PosEventType, pointofservicedriverinterface/ReleaseDeviceRequested, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/_Max, pos.poseventtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	PosEventType
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: PosEventType
 ## -description
 
 
-This enumeration defines values used in the <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_poseventdataheader.md">PosEventDataHeader</a> structure to indicate the type of event that was raised.
+This enumeration defines values used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure to indicate the type of event that was raised.
 
 
 ## -syntax
@@ -87,7 +87,6 @@ The event code is not valid.
 
 
 ### -field _MinEventType
-
 
 
 ### -field ReleaseDeviceRequested

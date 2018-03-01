@@ -7,8 +7,8 @@ old-location: audio\pfndrmdestroycontent.htm
 old-project: audio
 ms.assetid: 24B98C91-9EB3-4D00-8D58-F6C96610946A
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.pfndrmdestroycontent, DRMDestroyContent callback function [Audio Devices], DRMDestroyContent, PFNDRMDESTROYCONTENT, PFNDRMDESTROYCONTENT, drmk/DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], DRMDestroyContent
+ms.date: 2/22/2018
+ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, audio.pfndrmdestroycontent, drmk/DRMDestroyContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Drmk.h
-apiname: 
+api_name:
 -	DRMDestroyContent
 product: Windows
 targetos: Windows
@@ -80,6 +80,8 @@ This parameter is reserved for system use.
 ## -returns
 
 
+
 This return value is reserved for system use.
+
 
 

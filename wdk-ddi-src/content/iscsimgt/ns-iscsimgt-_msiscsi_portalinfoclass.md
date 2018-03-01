@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_PortalInfoClass
-title: _MSiSCSI_PortalInfoClass
+title: "_MSiSCSI_PortalInfoClass"
 author: windows-driver-content
 description: The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 old-location: storage\msiscsi_portalinfoclass.htm
 old-project: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], storage.msiscsi_portalinfoclass, iscsimgt/MSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, iscsimgt/MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, storage.msiscsi_portalinfoclass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsimgt.h
-apiname: 
+api_name:
 -	MSiSCSI_PortalInfoClass
 product: Windows
 targetos: Windows
@@ -81,19 +81,25 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md
 ## -remarks
 
 
+
 We recommend that you implement this class.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
-
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_PortalInfoClass structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_PortalInfoClass structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

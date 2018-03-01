@@ -7,8 +7,8 @@ old-location: debugger\setspecificfilterparameters.htm
 old-project: debugger
 ms.assetid: 97eb6db8-3c0a-44b4-8fb4-9e42ee9f9856
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, debugger.setspecificfilterparameters, SetSpecificFilterParameters method [Windows Debugging], SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl2::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, SetSpecificFilterParameters, dbgeng/IDebugControl2::SetSpecificFilterParameters, IDebugControl3
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl2::SetSpecificFilterParameters, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, IDebugControl::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, SetSpecificFilterParameters method [Windows Debugging], SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, SetSpecificFilterParameters,IDebugControl3.SetSpecificFilterParameters, dbgeng/IDebugControl2::SetSpecificFilterParameters, dbgeng/IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, debugger.setspecificfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.SetSpecificFilterParameters
 -	IDebugControl2.SetSpecificFilterParameters
 -	IDebugControl3.SetSpecificFilterParameters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::SetSpecificFilterParameters method
@@ -89,7 +89,9 @@ Specifies an array of specific event filter parameters of type <a href="..\dbgen
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,14 +108,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">event filters</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 
 
@@ -121,19 +127,31 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

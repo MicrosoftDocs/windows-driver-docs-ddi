@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcbcat.htm
 old-project: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, RtlStringCbCat, RtlStringCbCatA, kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlStringCbCat, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCbCatW
 -	RtlStringCbCatA
 -	RtlStringCbCatW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCatW function
@@ -94,7 +94,9 @@ A pointer to a null-terminated string. This string will be concatenated to the e
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,14 +143,18 @@ The STATUS_INVALID_PARAMETER return value means that one of the following occurr
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCbCatW</b> and <b>RtlStringCbCatA</b> should be used instead of the following functions:
+
 <ul>
 <li>
 <b>strcat</b>
@@ -158,9 +164,11 @@ The STATUS_INVALID_PARAMETER return value means that one of the following occurr
 <b>wcscat</b>
 
 </li>
-</ul>Because <b>RtlStringCbCatW</b> and <b>RtlStringCbCatA </b>receive the size of the destination buffer as input, they will not write past the end of the buffer. 
+</ul>
+Because <b>RtlStringCbCatW</b> and <b>RtlStringCbCatA </b>receive the size of the destination buffer as input, they will not write past the end of the buffer. 
 
 Use <b>RtlStringCbCatW</b> to handle Unicode strings and <b>RtlStringCbCatA</b> to handle ANSI strings. The form to use is determined by your data as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -195,7 +203,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszSrc</i> and <i>pszDest</i> point to strings that overlap, the behavior of the functions is undefined.
 
@@ -205,17 +214,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
 
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCatW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCatW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

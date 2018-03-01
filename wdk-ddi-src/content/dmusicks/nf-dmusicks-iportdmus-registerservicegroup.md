@@ -7,8 +7,8 @@ old-location: audio\iportdmus_registerservicegroup.htm
 old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: RegisterServiceGroup method [Audio Devices], IPortDMus interface, audio.iportdmus_registerservicegroup, IPortDMus, RegisterServiceGroup method [Audio Devices], audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, RegisterServiceGroup, dmusicks/IPortDMus::RegisterServiceGroup, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup
+ms.date: 2/22/2018
+ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices], IPortDMus interface, RegisterServiceGroup,IPortDMus.RegisterServiceGroup, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dmusicks.h
-apiname: 
+api_name:
 -	IPortDMus.RegisterServiceGroup
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ void RegisterServiceGroup(
 
 
 
+
 #### - pServiceGroup [in]
 
 Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. This is the service group that is to be registered.
@@ -81,11 +82,14 @@ Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver calls the <code>RegisterServiceGroup</code> method to register a service group (<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object) with the port driver. The port driver can insert one or more of its service sinks (<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> objects) into this service group. The miniport driver sends notification (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>) to the service group each time an interrupt occurs. Upon receiving notification, the service group schedules a deferred procedure call (DPC). The DPC iterates through all of the service sinks in the service group and sends notification to each.
@@ -102,21 +106,32 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
-
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortDMus::RegisterServiceGroup method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortDMus::RegisterServiceGroup method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

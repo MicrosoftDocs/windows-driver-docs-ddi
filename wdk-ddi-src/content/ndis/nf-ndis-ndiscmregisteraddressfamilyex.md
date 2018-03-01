@@ -7,8 +7,8 @@ old-location: netvista\ndiscmregisteraddressfamilyex.htm
 old-project: netvista
 ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCmRegisterAddressFamilyEx, ndis/NdisCmRegisterAddressFamilyEx, condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], netvista.ndiscmregisteraddressfamilyex
+ms.date: 2/16/2018
+ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmRegisterAddressFamilyEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmRegisterAddressFamilyEx function
@@ -89,15 +89,17 @@ A pointer to a
 
 The pointer for 
      <i>AddressFamily</i> becomes an input parameter to the 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the clients that are bound to the same CoNDIS
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same CoNDIS
      miniport adapter.
 
 
 ## -returns
 
 
+
 <b>NdisCmRegisterAddressFamilyEx</b> can return any of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,8 +114,8 @@ The pointer for
 <td width="60%">
 The protocol driver registered the AF that the 
        <i>AddressFamily</i> points to, so NDIS will call the 
-       <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-       ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the clients that bind themselves to the same
+       <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+       ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind themselves to the same
        miniport adapter.
 
 </td>
@@ -162,25 +164,28 @@ The caller's binding is being closed.
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 NDIS stand-alone call managers, which register as NDIS protocol drivers by calling the 
-    <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-    NdisRegisterProtocolDriver</b></mshelp:link> function, should call the 
+    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    NdisRegisterProtocolDriver</a> function, should call the 
     <b>NdisCmRegisterAddressFamilyEx</b> function to register an AF. Miniport call managers (MCMs) must
     instead call the 
-    <mshelp:link keywords="netvista.ndismcmregisteraddressfamilyex" tabindex="0"><b>
-    NdisMCmRegisterAddressFamilyEx</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+    NdisMCmRegisterAddressFamilyEx</a> function.
 
 To register an AF for a binding, the stand-alone call manager should call 
     <b>NdisCmRegisterAddressFamilyEx</b> from the 
-    <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-    ProtocolBindAdapterEx</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    ProtocolBindAdapterEx</a> function.
 
 A stand-alone call manager's 
     <i>ProtocolBindAdapterEx</i> function first establishes the binding to the underlying miniport driver by
@@ -200,30 +205,43 @@ The call manager can support more than one AF and can support more than one AF f
 When a call manager's 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function
     returns control after a successful binding operation, NDIS calls the 
-    <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-    ProtocolCoAfRegisterNotify</i></mshelp:link> functions of all of the clients that are bound to the same miniport
+    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    ProtocolCoAfRegisterNotify</a> functions of all of the clients that are bound to the same miniport
     adapter.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismcmregisteraddressfamilyex" tabindex="0"><b>
-   NdisMCmRegisterAddressFamilyEx</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+<a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+   NdisMCmRegisterAddressFamilyEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmRegisterAddressFamilyEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmRegisterAddressFamilyEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

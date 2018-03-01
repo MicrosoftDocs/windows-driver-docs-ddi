@@ -7,8 +7,8 @@ old-location: buses\ufx_proprietary_charger_set_property.htm
 old-project: usbref
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufx_proprietary_charger_set_property, UfxProprietaryChargerSetProperty callback function [Buses], UfxProprietaryChargerSetProperty, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY, ufxproprietarycharger/UfxProprietaryChargerSetProperty, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+ms.date: 2/24/2018
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ufxproprietarycharger.h
-apiname: 
+api_name:
 -	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ typedef UFX_PROPRIETARY_CHARGER_SET_PROPERTY PFN_UFX_PROPRIETARY_CHARGER_SET_PRO
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
 
+
 ## -remarks
+
 
 
 To support handling of proprietary chargers, the USB lower filter driver must publish support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
@@ -100,13 +103,16 @@ In this callback function, the driver sets the specified property value. For exa
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_getcalleridsettings.htm
 old-project: netvista
 ms.assetid: c85590bb-6489-4675-9008-8c5606d0b889
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_getcalleridsettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCallerIdSettings, RIL_GetCallerIdSettings
+ms.date: 2/16/2018
+ms.keywords: RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcalleridsettings, rilapi/RIL_GetCallerIdSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_GetCallerIdSettings
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_GetCallerIdSettings(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepci_newstream.htm
 old-project: audio
 ms.assetid: cad3eeb5-2106-4648-97e5-cf3bb8601599
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportWavePci::NewStream, NewStream method [Audio Devices], IMiniportWavePci, audio.iminiportwavepci_newstream, NewStream method [Audio Devices], IMiniportWavePci interface, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, IMiniportWavePci::NewStream, IMiniportWavePci interface [Audio Devices], NewStream method, NewStream
+ms.date: 2/22/2018
+ms.keywords: IMiniportWavePci, IMiniportWavePci interface [Audio Devices], NewStream method, IMiniportWavePci::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWavePci interface, NewStream,IMiniportWavePci.NewStream, audio.iminiportwavepci_newstream, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, portcls/IMiniportWavePci::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWavePci.NewStream
 product: Windows
 targetos: Windows
@@ -87,7 +87,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration.
 
 
 ### -param PortStream [in]
@@ -123,11 +123,14 @@ Output pointer for the service group. This parameter points to a caller-allocate
 ## -returns
 
 
+
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff536733">IMiniportWavePciStream::SetState</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>.)
@@ -154,29 +157,48 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
 
 <a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
- 
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePci::NewStream method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePci::NewStream method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

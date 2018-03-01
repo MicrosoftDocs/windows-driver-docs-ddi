@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitem.htm
 old-project: netvista
 ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILRADIOSTATEITEM, ntddrilapitypes/RILRADIOSTATEITEM, netvista.rilradiostateitem, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILRADIOSTATEITEM
 product: Windows
 targetos: Windows
@@ -79,84 +79,41 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-### -field itemValueUnion
-
-
-
-### -field itemValueUnion.intVal
-
- 
-
-
-### -field itemValueUnion.uintVal
-
- 
-
-
-### -field itemValueUnion.wszVal
-
- 
-
-
-### -field itemValueUnion.intArray
-
- 
-
-
-### -field itemValueUnion.uintArray
-
- 
-
-
-### -field itemValueUnion.byteArray
-
- 
-
-
-### -field RILITEMVALUEUNION
-
-
-
 ### -field dwItemId
-
 
 
 ### -field dwItemFlag
 
 
-
 ### -field dwItemAttributes
 
+
+### -field itemValueUnion
+
+
+### -field RILITEMVALUEUNION
 
 
 ### -field wszFriendlyName
 
 
-
 ### -field wszItemValueOptions
-
 
 
 #### - byteArray
 
 
-
-#### - uintArray
-
-
-
-#### - uintVal
-
-
-
 #### - intArray
-
 
 
 #### - intVal
 
 
+#### - uintArray
+
+
+#### - uintVal
+
 
 #### - wszVal
-
 

@@ -7,8 +7,8 @@ old-location: kernel\iodecrementkeepalivecount.htm
 old-project: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoDecrementKeepAliveCount, ntddk/IoDecrementKeepAliveCount, kernel.iodecrementkeepalivecount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: IoDecrementKeepAliveCount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.iodecrementkeepalivecount, ntddk/IoDecrementKeepAliveCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Ntoskrnl.exe
-apiname: 
+api_name:
 -	IoDecrementKeepAliveCount
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoDecrementKeepAliveCount function
@@ -81,6 +81,8 @@ The process associated with the device.
 ## -returns
 
 
+
 This routine returns <b>STATUS_SUCCESS</b> on success, or the appropriate <b>NTSTATUS</b> error code on failure. <b>NTSTATUS</b> error codes are defined in Ntstatus.h.
+
 
 

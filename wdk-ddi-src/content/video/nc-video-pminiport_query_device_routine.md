@@ -7,8 +7,8 @@ old-location: display\hwvidquerydevicecallback.htm
 old-project: display
 ms.assetid: 81c3f484-427e-43b8-b7dd-12017533560b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.hwvidquerydevicecallback, HwVidQueryDeviceCallback callback function [Display Devices], HwVidQueryDeviceCallback, PMINIPORT_QUERY_DEVICE_ROUTINE, PMINIPORT_QUERY_DEVICE_ROUTINE, video/HwVidQueryDeviceCallback, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidQueryDeviceCallback, HwVidQueryDeviceCallback callback function [Display Devices], PMINIPORT_QUERY_DEVICE_ROUTINE, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml, display.hwvidquerydevicecallback, video/HwVidQueryDeviceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	HwVidQueryDeviceCallback
 product: Windows
 targetos: Windows
@@ -114,7 +114,6 @@ Pointer to the name of the device as determined by the ARC firmware. This parame
 ### -param IdentiferLength
 
 
-
 ### -param ConfigurationData
 
 Pointer to hardware configuration data. The format of this data is determined by the specified <i>DeviceDataType</i> and by the <b>AdapterInterfaceType</b> value in the VIDEO_PORT_CONFIG_INFO.
@@ -143,11 +142,14 @@ Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The
 ## -returns
 
 
+
 <i>HwVidQueryDeviceCallback</i> returns the status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 <i>HwVidQueryDeviceCallback</i> is passed in a call to <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a> from the miniport driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function. <b>VideoPortGetDeviceData</b> calls <i>HwVidQueryDeviceCallback</i> after collecting available configuration information under the <b>\Registry\Machine\Hardware\Description</b> node of the registry.
@@ -166,21 +168,32 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
 
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PMINIPORT_QUERY_DEVICE_ROUTINE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PMINIPORT_QUERY_DEVICE_ROUTINE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

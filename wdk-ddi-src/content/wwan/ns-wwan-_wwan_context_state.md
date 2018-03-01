@@ -1,14 +1,14 @@
 ---
 UID: NS:wwan._WWAN_CONTEXT_STATE
-title: _WWAN_CONTEXT_STATE
+title: "_WWAN_CONTEXT_STATE"
 author: windows-driver-content
 description: The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_context_state.htm
 old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_CONTEXT_STATE, netvista.wwan_context_state, WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_CONTEXT_STATE
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_CONTEXT_STATE
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ A network-specific error. The following table shows the connection failure value
      the 
      <i>3GPP TS 24.008 Specification</i>.
      
+
 <table>
 <tr>
 <th>3GPP 24.008 cause code</th>
@@ -164,7 +165,8 @@ No APN or unknown APN is provided in the activation request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ConnectionId
@@ -195,7 +197,9 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 
 
+
 ## -remarks
+
 
 
 <i>Set</i> OID requests as well as unsolicited status events use the 
@@ -204,6 +208,7 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 The following points provide guidelines on returning network specific error in different
     scenarios:
+
 <ul>
 <li>
 If a set request fails, miniport drivers should return the network specific error code. In this
@@ -221,7 +226,8 @@ Whenever the device context activation state changes because of network initiate
       <b>uNwError</b> member to the network specific error code.
 
 </li>
-</ul>Miniport drivers can provide additional error codes as defined by the GSM standards specification of
+</ul>
+Miniport drivers can provide additional error codes as defined by the GSM standards specification of
     context activation error codes returned by the network. For example, miniport drivers can communicate the
     3GPP specification TS 24.008 context activation error codes, such as error code 8 (Operator determined
     barring), to the MB Service through the 
@@ -234,17 +240,24 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 
 
+
 ## -see-also
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
-
-<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
 
 <a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
 
- 
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_CONTEXT_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_CONTEXT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

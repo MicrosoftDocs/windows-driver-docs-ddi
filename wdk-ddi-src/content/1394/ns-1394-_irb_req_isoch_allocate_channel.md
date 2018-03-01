@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_CHANNEL
-title: _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+title: "_IRB_REQ_ISOCH_ALLOCATE_CHANNEL"
 author: windows-driver-content
 description: This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
 old-location: ieee\irb_req_isoch_allocate_channel.htm
 old-project: IEEE
 ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, _IRB_REQ_ISOCH_ALLOCATE_CHANNEL, 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 product: Windows
 targetos: Windows
@@ -82,4 +82,6 @@ Specifies the channel allocated, if the request succeeds.
 ### -field ChannelsAvailable
 
 A bitmap specifying the available channels. The highest order bit (bit 63) specifies channel 0, the next bit (bit 62) specifies channel 1, and so on.
-<div class="alert"><b>Note</b>  Drivers should not rely on this information  because another device may allocate or deallocate channels at any time. The bus driver fills in this member, even if the request fails.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Drivers should not rely on this information  because another device may allocate or deallocate channels at any time. The bus driver fills in this member, even if the request fails.</div>
+<div> </div>

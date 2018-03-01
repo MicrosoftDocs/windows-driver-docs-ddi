@@ -7,8 +7,8 @@ old-location: netvista\clientdetachprovider.htm
 old-project: netvista
 ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.clientdetachprovider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], ClientDetachProvider, NPI_CLIENT_DETACH_PROVIDER_FN, NPI_CLIENT_DETACH_PROVIDER_FN, netioddk/ClientDetachProvider, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], PNPI_CLIENT_DETACH_PROVIDER_FN, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
+ms.date: 2/16/2018
+ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	netioddk.h
-apiname: 
+api_name:
 -	PNPI_CLIENT_DETACH_PROVIDER_FN
 product: Windows
 targetos: Windows
@@ -85,8 +85,10 @@ A pointer to the client module's context for the binding between the client modu
 ## -returns
 
 
+
 A client module's 
      <i>ClientDetachProvider</i> callback function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,11 +116,14 @@ The client module could not detach from the provider module immediately.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NMR calls a client module's 
@@ -144,8 +149,8 @@ If there are in-progress calls to one or more of the provider module's
     <i>ClientDetachProvider</i> callback function is called, then the client module's 
     <i>ClientDetachProvider</i> callback function returns STATUS_PENDING. In this situation, the client module
     must call the 
-    <mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-    NmrClientDetachProviderComplete</b></mshelp:link> function after all in-progress calls to the provider module's 
+    <a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+    NmrClientDetachProviderComplete</a> function after all in-progress calls to the provider module's 
     NPI functions have completed. The
     call to the 
     <b>
@@ -153,10 +158,10 @@ If there are in-progress calls to one or more of the provider module's
     is complete.
 
 The NMR calls the client module's 
-    <mshelp:link keywords="netvista.clientcleanupbindingcontext" tabindex="0"><i>
-    ClientCleanupBindingContext</i></mshelp:link> callback function and the provider module's 
-    <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-    ProviderCleanupBindingContext</i></mshelp:link> callback function after both the client module and the provider
+    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    ClientCleanupBindingContext</a> callback function and the provider module's 
+    <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+    ProviderCleanupBindingContext</a> callback function after both the client module and the provider
     module have completed detachment from each other.
 
 The NMR calls a client module's 
@@ -164,27 +169,42 @@ The NMR calls a client module's
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
-
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+   NmrClientDetachProviderComplete</a>
+
+
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
-<mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-   NmrClientDetachProviderComplete</b></mshelp:link>
+
 
 <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_DETACH_PROVIDER_FN callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_DETACH_PROVIDER_FN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

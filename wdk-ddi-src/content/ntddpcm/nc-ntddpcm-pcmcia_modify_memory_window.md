@@ -7,8 +7,8 @@ old-location: pcmcia\pcmcia_modify_memory_window.htm
 old-project: PCMCIA
 ms.assetid: 01469cd7-a023-42b0-9306-fc390bf990e6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCMCIA.pcmcia_modify_memory_window, ModifyMemoryWindow callback function [Buses], ModifyMemoryWindow, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW, ntddpcm/ModifyMemoryWindow, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml
+ms.date: 2/15/2018
+ms.keywords: ModifyMemoryWindow, ModifyMemoryWindow callback function [Buses], PCMCIA.pcmcia_modify_memory_window, PCMCIA_MODIFY_MEMORY_WINDOW, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml, ntddpcm/ModifyMemoryWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddpcm.h
-apiname: 
+api_name:
 -	ModifyMemoryWindow
 product: Windows
 targetos: Windows
@@ -113,6 +113,10 @@ Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> mus
 
 
 
+
+
+#### PCMCIA_MEMORY_8BIT_ACCESS
+
 If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
@@ -122,8 +126,6 @@ If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
 
-
-##### - BusWidth.PCMCIA_MEMORY_8BIT_ACCESS
 
 
 
@@ -135,11 +137,14 @@ Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory.
 ## -returns
 
 
+
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine returns <b>TRUE</b> if the memory window is successfully enabled or disabled, as specified by the <i>Enable</i> parameter.
 
 
 
+
 ## -remarks
+
 
 
 A caller must set the <i>Context</i> parameter to the context that is specified by the PCMCIA bus driver. The PCMCIA bus driver returns the context for the interface routines in the <b>Context</b> member of the same PCMCIA_INTERFACE_STANDARD structure that contains the pointers to the interface routines. If the <i>Context</i> parameter is not valid, system behavior is not defined, and the system might halt.
@@ -148,15 +153,20 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_MODIFY_MEMORY_WINDOW callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_MODIFY_MEMORY_WINDOW callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

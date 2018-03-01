@@ -7,13 +7,13 @@ old-location: kernel\pushentrylist.htm
 old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pushentrylist, wdm/PushEntryList, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, wdm/PushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	PushEntryList
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>PushEntryList</b> sets <i>ListHead</i>-&gt;<b>Next</b> to <i>Entry</i>, and <i>Entry</i>-&gt;<b>Next</b> to point to the old first entry of the list.
@@ -97,15 +100,20 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
 
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
+
+
+<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PushEntryList routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PushEntryList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

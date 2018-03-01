@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_disabledriver.htm
 old-project: print
 ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DisableDriver method [Print Devices], IPrintOemUni interface, IPrintOemUni, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml, IPrintOemUni::DisableDriver, IPrintOemUni interface [Print Devices], DisableDriver method, DisableDriver, prcomoem/IPrintOemUni::DisableDriver, DisableDriver method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemUni interface, DisableDriver,IPrintOemUni.DisableDriver, IPrintOemUni, IPrintOemUni interface [Print Devices], DisableDriver method, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemUni.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,16 @@ STDMETHOD DisableDriver(
 
 
 
-#### - None
 
+#### - None
 
 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The operation failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DisableDriver</code> method.
@@ -118,5 +123,6 @@ The <code>IPrintOemUni::DisableDriver</code> method, provided by rendering plug-
 <code>IPrintOemUni::DisableDriver</code> and <b>IPrintOemUni::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff554248">IPrintOemUni::EnableDriver</a>. 
 
 This is the last <b>IPrintOemUni</b> interface method that is called before the rendering plug-in is unloaded.
+
 
 

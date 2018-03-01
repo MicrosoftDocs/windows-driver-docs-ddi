@@ -7,8 +7,8 @@ old-location: audio\iportclspnp.htm
 old-project: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iportclspnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, IPortClsPnp, portcls/IPortClsPnp
+ms.date: 2/22/2018
+ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, audio.iportclspnp, portcls/IPortClsPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortClsPnp
 product: Windows
 targetos: Windows
@@ -55,6 +55,13 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 The <code>IPortClsPnp</code> interface is available in Windows 10, version 1511 and later versions of Windows. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsPnp</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortClsPnp</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -82,9 +89,5 @@ The <code>UnRegisterAdapterPowerManagement</code> method unregisters the PnP man
 
 </td>
 </tr>
-</table>The <code>RegisterAdapterPowerManagement</code> method registers the PnP management interface of the adapter with PortCls.
-
-The <code>UnRegisterAdapterPowerManagement</code> method unregisters the PnP management interface of the adapter from PortCls.
-
- 
+</table> 
 

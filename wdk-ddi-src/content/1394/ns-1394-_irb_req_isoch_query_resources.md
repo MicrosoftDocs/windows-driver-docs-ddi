@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_QUERY_RESOURCES
-title: _IRB_REQ_ISOCH_QUERY_RESOURCES
+title: "_IRB_REQ_ISOCH_QUERY_RESOURCES"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a IsochQueryResources request.
 old-location: ieee\irb_req_isoch_query_resources.htm
 old-project: IEEE
 ms.assetid: B9CDFB62-32CF-497A-BF0F-1E4FBCA36E82
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources, 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources, IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], _IRB_REQ_ISOCH_QUERY_RESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_ISOCH_QUERY_RESOURCES
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct _IRB_REQ_ISOCH_QUERY_RESOURCES {
 ### -field fulSpeed
 
 Specifies the speed flag to use in allocating bandwidth. The possible speed values are SPEED_FLAGS_xxx, where xxx is the approximate transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 MBps.
+
 <table>
 <tr>
 <th>Transfer Rate</th>
@@ -107,7 +108,8 @@ SPEED_FLAGS_400
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BytesPerFrameAvailable

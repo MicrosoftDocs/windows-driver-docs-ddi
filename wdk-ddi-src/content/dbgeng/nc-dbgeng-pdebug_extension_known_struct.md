@@ -7,8 +7,8 @@ old-location: debugger\knownstructoutput.htm
 old-project: debugger
 ms.assetid: 76b7e097-4953-4988-8999-07bbfbd65912
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.knownstructoutput, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], KnownStructOutput, PDEBUG_KNOWN_StructOutput, PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml
+ms.date: 2/23/2018
+ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, debugger.knownstructoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	KnownStructOutput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_EXTENSION_KNOWN_STRUCT callback
@@ -78,55 +78,10 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
-### -param Flags
-
-
-
-### -param Offset
-
-
-
-### -param TypeName
-
-
-
-### -param Buffer [out]
-
-<b>When getting a list of names:</b>  Receives a list of the names of the structures that the extension can format for printing.  One null character must appear between each pair of names.  The list must be terminated with two null characters. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  Receives a representation  of the structure, identified by <i>StructName</i> and <i>Address</i>, as a string. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
-
-
-### -param BufferChars
-
-
-
-
-
-
-#### - StructName [in]
-
-<b>When getting a list of names:</b>  Unused.
-
-<b>When asking whether a name should be printed:</b> Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
-
-<b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
-
-
-#### - BufferSize [in, out]
-
-<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-
-#### - Flag [in]
+### -param Flags [in]
 
 One of the following values, depending on what information the engine wants to obtain from the extension DLL.
+
 <table>
 <tr>
 <th>Value</th>
@@ -162,10 +117,11 @@ Get  a single-line representation of a structure.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
-#### - Address [in]
+### -param Offset [in]
 
 <b>When getting a list of names:</b> Unused.
 
@@ -174,7 +130,35 @@ Get  a single-line representation of a structure.
 <b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
 
 
+### -param TypeName [in]
+
+<b>When getting a list of names:</b>  Unused.
+
+<b>When asking whether a name should be printed:</b> Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
+
+<b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
+
+
+### -param Buffer [out]
+
+<b>When getting a list of names:</b>  Receives a list of the names of the structures that the extension can format for printing.  One null character must appear between each pair of names.  The list must be terminated with two null characters. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  Receives a representation  of the structure, identified by <i>StructName</i> and <i>Address</i>, as a string. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
+
+
+### -param BufferChars [in, out]
+
+<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+
 ## -returns
+
 
 
 <table>
@@ -212,13 +196,16 @@ Get  a single-line representation of a structure.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 All other return values indicate that the function failed.  The engine will continue ignoring the contents of <i>Buffer</i>.
 
 
 
+
 ## -remarks
+
 
 
 This function is optional.  An extension DLL only needs to export <b>KnownStructOutput</b> if it has the ability to format special structures for printing on a single line.  The engine looks for this function by name in the extension DLL.
@@ -230,13 +217,16 @@ After initializing the extension DLL, the engine calls this function to query th
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_KNOWN_STRUCT callback function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_KNOWN_STRUCT callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

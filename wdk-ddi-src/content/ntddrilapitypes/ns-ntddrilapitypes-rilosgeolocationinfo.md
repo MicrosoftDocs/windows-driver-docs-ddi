@@ -7,8 +7,8 @@ old-location: netvista\rilosgeolocationinfo.htm
 old-project: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, *LPRILOSGEOLOCATIONINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILOSGEOLOCATIONINFO
 product: Windows
 targetos: Windows
@@ -86,67 +86,50 @@ typedef struct _RILOSGEOLOCATIONINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwLatitude
 
 
-
 ### -field dwLongitude
-
 
 
 ### -field dwAltitude
 
 
-
 ### -field dwAccuracy
-
 
 
 ### -field dwLocationInformationMask
 
 
-
 ### -field stTimeStamp
-
 
 
 ### -field wszAddressLine1
 
 
-
 ### -field wszAddressLine2
-
 
 
 ### -field wszCity
 
 
-
 ### -field wszState
-
 
 
 ### -field wszCountry
 
 
-
 ### -field wszPostalCode
-
 
 
 ### -field wszFormattedAddress
 
 
-
 ### -field wszCountryCode
 
 
-
 ### -field wszRegionCode
-
 

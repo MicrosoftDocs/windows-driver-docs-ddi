@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_queue_idle.htm
 old-project: wdf
 ms.assetid: 9ad3be79-13ca-4bcb-b686-09e7563610f9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_IDLE, kmdf.wdf_io_queue_idle, wdfio/WDF_IO_QUEUE_IDLE, WDF_IO_QUEUE_IDLE function, wdf.wdf_io_queue_idle, DFQueueObjectRef_f836bf9d-8d2c-48db-92cd-fbcef2a0faf6.xml
+ms.date: 2/20/2018
+ms.keywords: DFQueueObjectRef_f836bf9d-8d2c-48db-92cd-fbcef2a0faf6.xml, WDF_IO_QUEUE_IDLE, WDF_IO_QUEUE_IDLE function, kmdf.wdf_io_queue_idle, wdf.wdf_io_queue_idle, wdfio/WDF_IO_QUEUE_IDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	None
 -	None.dll
-apiname: 
+api_name:
 -	WDF_IO_QUEUE_IDLE
 product: Windows
 targetos: Windows
@@ -73,24 +73,55 @@ BOOLEAN WDF_IO_QUEUE_IDLE(
 
 ### -param State [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value that <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> returns.
+A <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value that <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> returns.
 
 
 ## -returns
+
 
 
 <b>WDF_IO_QUEUE_IDLE</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is idle. Otherwise, the function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 An I/O queue is idle if the queue contains no I/O requests, and if all delivered requests have been completed or canceled. 
 
 Your driver can call <b>WDF_IO_QUEUE_IDLE</b> after it has called <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>.
 
-For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
+For more information about I/O queue states, see <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
+
+
+#### Examples
+
+The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is idle.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
+IsQueueIdle(
+    IN WDFQUEUE Queue
+    )
+{
+    WDF_IO_QUEUE_STATE queueStatus;
+    queueStatus = WdfIoQueueGetState(
+                                     Queue,
+                                     NULL,
+                                     NULL
+                                     );
+    return (WDF_IO_QUEUE_IDLE(queueStatus)) ? TRUE : FALSE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -98,15 +129,23 @@ For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wu
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
+
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_IDLE function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_IDLE function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

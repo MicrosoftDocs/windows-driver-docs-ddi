@@ -1,14 +1,14 @@
 ---
 UID: NS:storport._MESSAGE_INTERRUPT_INFORMATION
-title: _MESSAGE_INTERRUPT_INFORMATION
+title: "_MESSAGE_INTERRUPT_INFORMATION"
 author: windows-driver-content
 description: The MESSAGE_INTERRUPT_INFORMATION structure describes a message signaled interrupt (MSI).
 old-location: storage\message_interrupt_information.htm
 old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.message_interrupt_information, PMESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], *PMESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], storport/MESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, MESSAGE_INTERRUPT_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	MESSAGE_INTERRUPT_INFORMATION
 product: Windows
 targetos: Windows
@@ -100,13 +100,15 @@ The interrupt level associated with the message.
 
 ### -field InterruptMode
 
-A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
+A value of type <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 
 
 ## -remarks
 
 
+
 Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a> routine. 
+
 
 
 
@@ -114,9 +116,11 @@ Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMAT
 
 <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MESSAGE_INTERRUPT_INFORMATION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MESSAGE_INTERRUPT_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

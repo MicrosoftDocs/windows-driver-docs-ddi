@@ -7,8 +7,8 @@ old-location: stream\streamclassregisterfilterwithnokspins.htm
 old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], StreamClassRegisterFilterWithNoKSPins, strmini/StreamClassRegisterFilterWithNoKSPins, stream.streamclassregisterfilterwithnokspins
+ms.date: 2/23/2018
+ms.keywords: StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+api_name:
 -	StreamClassRegisterFilterWithNoKSPins
 product: Windows
 targetos: Windows
@@ -96,7 +96,7 @@ Specifies a <i>PinCount</i>-sized array of Boolean values, one for each pin on t
 
 ### -param MediumList [in]
 
-Specifies a <i>PinCount</i>-sized array of <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
+Specifies a <i>PinCount</i>-sized array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> structures, one for each pin on the filter.
 
 
 ### -param CategoryList [in, optional]
@@ -107,17 +107,21 @@ If non-NULL, specifies an array of pin category GUIDs, one for each pin on the f
 ## -returns
 
 
+
 Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassRegisterFilterWithNoKSPins routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassRegisterFilterWithNoKSPins routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

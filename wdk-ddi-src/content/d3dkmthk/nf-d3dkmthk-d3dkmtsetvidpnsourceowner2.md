@@ -7,8 +7,8 @@ old-location: display\d3dkmtsetvidpnsourceowner2.htm
 old-project: display
 ms.assetid: 14ba3307-753f-4dca-8d4d-c87b3fee00a5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsetvidpnsourceowner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2
+ms.date: 2/24/2018
+ms.keywords: D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner2, display.d3dkmtsetvidpnsourceowner2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTSetVidPnSourceOwner2
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ TBD
 
 
 
+
 #### - D3dkmt_setvidpnsourceowner2 [in]
 
 Indicates the source owner.
@@ -83,6 +84,8 @@ Indicates the source owner.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if used successfully.
+
 
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbacks_exception.htm
 old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Exception method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::Exception, IDebugEventCallbacks, Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Exception method, debugger.idebugeventcallbacks_exception, IDebugEventCallbacks::Exception
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception method [Windows Debugging], Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception,IDebugEventCallbacks.Exception, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], Exception method, IDebugEventCallbacks::Exception, dbgeng/IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugEventCallbacks.Exception
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::Exception method
@@ -81,11 +81,14 @@ Specifies whether this exception has been previously encountered.  A nonzero val
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
@@ -93,5 +96,6 @@ This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is se
 Because the structure that <i>Exception</i> points to might be deleted after this method returns, implementations of <b>IDebugEventCallbacks</b> should not access this structure after returning.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

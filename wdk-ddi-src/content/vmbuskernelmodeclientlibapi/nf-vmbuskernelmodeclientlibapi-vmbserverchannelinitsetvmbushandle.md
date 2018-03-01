@@ -7,8 +7,8 @@ old-location: netvista\vmbserverchannelinitsetvmbushandle.htm
 old-project: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle, netvista.vmbserverchannelinitsetvmbushandle
+ms.date: 2/16/2018
+ms.keywords: VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+api_name:
 -	VmbServerChannelInitSetVmbusHandle
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ A kernel mode handle to the VMBus vdev of the partition.
 ## -remarks
 
 
+
 The VMBus
 instance was previously initialized for the specific guest virtual machine. Therefore, invoking this function identifies the child virtual machine to which this channel is offered.
 
@@ -94,13 +95,16 @@ This function can be called while running in any thread context.
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md">VmbConvertVmbusHandleToKernelHandle</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20VmbServerChannelInitSetVmbusHandle function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20VmbServerChannelInitSetVmbusHandle function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

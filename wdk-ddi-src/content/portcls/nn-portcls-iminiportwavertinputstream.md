@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertinputstream.htm
 old-project: audio
 ms.assetid: BF490F9C-C1CD-4AEE-A970-161C5BB3A523
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertinputstream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices], described, IMiniportWaveRTInputStream, portcls/IMiniportWaveRTInputStream
+ms.date: 2/22/2018
+ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices], described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWaveRTInputStream
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: netvista\wskcontrolsocket.htm
 old-project: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskcontrolsocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], WskControlSocket, PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_CONTROL_SOCKET, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskControlSocket
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,24 @@ A value that specifies the type of control operation that is being performed. A 
      
 
 
+
+
+
+#### WskSetOption
+
+Set the state or value for a socket option.
+
+
+
+#### WskGetOption
+
+Get the state or value of a socket option.
+
+
+
+#### WskIoctl
+
+Perform an I/O control operation.
 
 
 ### -param ControlCode [in]
@@ -160,59 +178,14 @@ A caller-allocated buffer that receives any output data that is returned by the 
      <i>OutputSize</i> parameter to zero.
 
 
-### -param *OutputSizeReturned
-
-
-
-### -param Irp [in, out]
-
-A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
-     asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-     
-
-If the 
-     <i>RequestType</i> parameter is set to either 
-     <b>WskSetOption</b> or 
-     <b>WskGetOption</b>, the 
-     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
-     that is being set or retrieved. For more information about the requirements for the 
-     <i>Irp</i> parameter for each of the supported socket options, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>.
-
-If the 
-     <i>RequestType</i> parameter is set to 
-     <b>WskIoctl</b>, the 
-     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
-     operation that is being performed. For more information about the requirements for the 
-     <i>Irp</i> parameter for each of the supported I/O control operations, see 
-     <mshelp:link keywords="netvista.wsk_socket_ioctl_operations" tabindex="0">WSK Socket IOCTL
-     Operations</mshelp:link>.
-
-
-##### - RequestType.WskIoctl
-
-Perform an I/O control operation.
-
-
-##### - RequestType.WskGetOption
-
-Get the state or value of a socket option.
-
-
-##### - RequestType.WskSetOption
-
-Set the state or value for a socket option.
-
-
-#### - OutputSizeReturned [out, optional]
+### -param *OutputSizeReturned [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter. A WSK application should set the 
      <i>OutputSizeReturned</i> parameter to <b>NULL</b> except when all of the following are true:
      
+
 <ul>
 <li>
 The 
@@ -231,10 +204,39 @@ The number of bytes of output data that is returned by the operation that is bei
 </li>
 </ul>
 
+### -param Irp [in, out]
+
+A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
+     asynchronously. For more information about using IRPs with WSK functions, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
+     
+
+If the 
+     <i>RequestType</i> parameter is set to either 
+     <b>WskSetOption</b> or 
+     <b>WskGetOption</b>, the 
+     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
+     that is being set or retrieved. For more information about the requirements for the 
+     <i>Irp</i> parameter for each of the supported socket options, see 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>.
+
+If the 
+     <i>RequestType</i> parameter is set to 
+     <b>WskIoctl</b>, the 
+     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
+     operation that is being performed. For more information about the requirements for the 
+     <i>Irp</i> parameter for each of the supported I/O control operations, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
+     Operations</a>.
+
+
 ## -returns
 
 
+
 <b>WskControlSocket</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -313,11 +315,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If a WSK application specifies 
@@ -353,29 +358,46 @@ Callers of the
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
- 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CONTROL_SOCKET callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CONTROL_SOCKET callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

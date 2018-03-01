@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorflag.htm
 old-project: netvista
 ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY, RIL_EXECUTORFLAG_HIGHPRIORITY, RIL_EXECUTORFLAG_ALL, RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], netvista.rilexecutorflag
+ms.date: 2/16/2018
+ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag, ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILEXECUTORFLAG
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILEXECUTORFLAG {
 ### -field RIL_EXECUTORFLAG_ENABLED
 
 
-
 ### -field RIL_EXECUTORFLAG_HIGHPRIORITY
 
 
-
 ### -field RIL_EXECUTORFLAG_ALL
-
 

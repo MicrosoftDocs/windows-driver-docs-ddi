@@ -7,8 +7,8 @@ old-location: wdf\iwdfrequestcompletionparams_getcompletionstatus.htm
 old-project: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetCompletionStatus method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams, IWDFRequestCompletionParams::GetCompletionStatus, umdf.iwdfrequestcompletionparams_getcompletionstatus, IWDFRequestCompletionParams interface, GetCompletionStatus method, GetCompletionStatus method, wdf.iwdfrequestcompletionparams_getcompletionstatus, GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
+ms.date: 2/20/2018
+ms.keywords: GetCompletionStatus method, GetCompletionStatus method, IWDFRequestCompletionParams interface, GetCompletionStatus,IWDFRequestCompletionParams.GetCompletionStatus, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetCompletionStatus method, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, umdf.iwdfrequestcompletionparams_getcompletionstatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRequestCompletionParams.GetCompletionStatus
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT GetCompletionStatus();
 
 
 
+
 ## -returns
 
 
+
 <b>GetCompletionStatus</b> returns S_OK for a successful completion status. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
@@ -80,9 +83,11 @@ HRESULT GetCompletionStatus();
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRequestCompletionParams::GetCompletionStatus method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRequestCompletionParams::GetCompletionStatus method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

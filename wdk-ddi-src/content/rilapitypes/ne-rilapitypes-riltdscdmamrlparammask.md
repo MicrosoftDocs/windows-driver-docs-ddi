@@ -7,13 +7,13 @@ old-location: netvista\riltdscdmamrlparammask.htm
 old-project: netvista
 ms.assetid: d2cc4c39-b96e-4078-bfea-2e06a07e938e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riltdscdmamrlparammask, rilapitypes/RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RIL_PARAM_TDSCDMAMRL_UARFCN, RIL_PARAM_TDSCDMAMRL_MCC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MNC, rilapitypes/RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_ALL, RILTDSCDMAMRLPARAMMASK, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLPARAM, RIL_PARAM_TDSCDMAMRL_RSCP, RIL_PARAM_TDSCDMAMRL_PATHLOSS, RILTDSCDMAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TDSCDMAMRL_ALL, RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RILTDSCDMAMRLPARAMMASK, RIL_PARAM_TDSCDMAMRL_CELLPARAM, rilapitypes/RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_MCC, RIL_PARAM_TDSCDMAMRL_CELLID, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLID, RIL_PARAM_TDSCDMAMRL_UARFCN
+ms.date: 2/16/2018
+ms.keywords: RILTDSCDMAMRLPARAMMASK, RILTDSCDMAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TDSCDMAMRL_ALL, RIL_PARAM_TDSCDMAMRL_CELLID, RIL_PARAM_TDSCDMAMRL_CELLPARAM, RIL_PARAM_TDSCDMAMRL_LAC, RIL_PARAM_TDSCDMAMRL_MCC, RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_PATHLOSS, RIL_PARAM_TDSCDMAMRL_RSCP, RIL_PARAM_TDSCDMAMRL_UARFCN, netvista.riltdscdmamrlparammask, rilapitypes/RILTDSCDMAMRLPARAMMASK, rilapitypes/RIL_PARAM_TDSCDMAMRL_ALL, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLID, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLPARAM, rilapitypes/RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MCC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MNC, rilapitypes/RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_UARFCN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILTDSCDMAMRLPARAMMASK
 product: Windows
 targetos: Windows
@@ -82,45 +82,38 @@ enum RILTDSCDMAMRLPARAMMASK {
 ### -field RIL_PARAM_TDSCDMAMRL_MCC
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_MNC
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_LAC
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_CELLID
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_UARFCN
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_CELLPARAM
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_RSCP
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_PATHLOSS
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_ALL
 
 
-
 ## -remarks
+
 
 
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -290,9 +283,11 @@ Path loss of serving cell in dBs
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>TD-SCDMA neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -462,7 +457,9 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -470,9 +467,11 @@ No
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILTDSCDMAMRLPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILTDSCDMAMRLPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

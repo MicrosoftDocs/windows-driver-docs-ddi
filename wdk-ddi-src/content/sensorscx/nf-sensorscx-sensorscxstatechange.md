@@ -7,8 +7,8 @@ old-location: sensors\sensorscxstatechange.htm
 old-project: sensors
 ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxstatechange, SensorsCxStateChange function [Sensor Devices], SensorsCxStateChange, sensorscx/SensorsCxStateChange
+ms.date: 2/22/2018
+ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	SensorsCx.h
-apiname: 
+api_name:
 -	SensorsCxStateChange
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ Holds information on the state of the sensor.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

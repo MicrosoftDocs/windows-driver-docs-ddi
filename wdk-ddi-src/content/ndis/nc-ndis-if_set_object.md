@@ -7,8 +7,8 @@ old-location: netvista\providersetobject.htm
 old-project: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.providersetobject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ProviderSetObject, IF_SET_OBJECT, IF_SET_OBJECT, ndis/ProviderSetObject, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], *IFP_SET_OBJECT, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml
+ms.date: 2/16/2018
+ms.keywords: "*IFP_SET_OBJECT, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	*IFP_SET_OBJECT
 product: Windows
 targetos: Windows
@@ -80,16 +80,16 @@ typedef IF_SET_OBJECT *IFP_SET_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
-     NdisIfRegisterInterface</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     NdisIfRegisterInterface</a> function.
 
 
 ### -param ObjectId [in]
 
 An identifier for the object that is the target of the set request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <mshelp:link keywords="netvista.ndis_network_interface_oids" tabindex="0">NDIS Network Interface
-     OIDs</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     OIDs</a>.
 
 
 ### -param InputBufferLength [in]
@@ -107,7 +107,9 @@ A pointer to an input buffer that specifies the information that the interface p
 ## -returns
 
 
+
 <i>ProviderSetObject</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -158,11 +160,14 @@ The call failed for some other reason. This function can propagate error codes f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS calls a network interface provider's 
@@ -177,13 +182,16 @@ NDIS calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20IF_SET_OBJECT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20IF_SET_OBJECT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

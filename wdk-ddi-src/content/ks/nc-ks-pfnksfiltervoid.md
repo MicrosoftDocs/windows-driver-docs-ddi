@@ -7,8 +7,8 @@ old-location: stream\avstrminifilterreset.htm
 old-project: stream
 ms.assetid: 8259117b-87ef-410a-955b-6f99966574a6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.avstrminifilterreset, AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], AVStrMiniFilterReset, PFNKSFILTERVOID, PFNKSFILTERVOID, ks/AVStrMiniFilterReset, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml
+ms.date: 2/23/2018
+ms.keywords: AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], PFNKSFILTERVOID, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml, ks/AVStrMiniFilterReset, stream.avstrminifilterreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	AVStrMiniFilterReset
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSFILTERVOID callback
@@ -78,11 +78,14 @@ Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to return to its 
 ## -returns
 
 
+
 AVStream does not currently use the return value.
 
 
 
+
 ## -remarks
+
 
 
 For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
@@ -97,13 +100,16 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERVOID routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERVOID routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

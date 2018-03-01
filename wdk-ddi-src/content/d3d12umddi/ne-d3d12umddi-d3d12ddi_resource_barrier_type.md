@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_resource_barrier_type.htm
 old-project: display
 ms.assetid: 3865DB8A-A920-42AC-B802-E5A3FB02014C
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_BARRIER_TYPE, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE, D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12DDI_RESOURCE_BARRIER_TYPE enumeration [Display Devices], display.d3d12ddi_resource_barrier_type
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_RESOURCE_BARRIER_TYPE, D3D12DDI_RESOURCE_BARRIER_TYPE enumeration [Display Devices], D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, display.d3d12ddi_resource_barrier_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_RESOURCE_BARRIER_TYPE
 product: Windows
 targetos: Windows
@@ -75,7 +75,6 @@ A transition barrier that indicates a transition of a set of subresources betwee
 
 
 ### -field D3D12DDI_RESOURCE_BARRIER_TYPE_ALIASING
-
 
 
 ### -field D3D12DDI_RESOURCE_BARRIER_TYPE_UAV

@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._SPEED_MAP
-title: _SPEED_MAP
+title: "_SPEED_MAP"
 author: windows-driver-content
 description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
 old-project: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _SPEED_MAP, *PSPEED_MAP, SPEED_MAP structure [Buses], IEEE.speed_map, PSPEED_MAP structure pointer [Buses], PSPEED_MAP, 1394/SPEED_MAP, 1394/PSPEED_MAP, SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml
+ms.date: 2/15/2018
+ms.keywords: "*PSPEED_MAP, 1394/PSPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, IEEE.speed_map, PSPEED_MAP, PSPEED_MAP structure pointer [Buses], SPEED_MAP, SPEED_MAP structure [Buses], _SPEED_MAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	SPEED_MAP
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ SCODE_400_RATE
 ## -remarks
 
 
+
 The SPEED_MAP structure describes the maximum speed that devices on the bus can attain. All values in this structure are recorded in big-endian format.
+
 
 
 
@@ -107,9 +109,11 @@ The SPEED_MAP structure describes the maximum speed that devices on the bus can 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SPEED_MAP structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SPEED_MAP structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
 old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfunifiedpropertystore_getpropertydata, umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, GetPropertyData method, IWDFUnifiedPropertyStore interface, GetPropertyData, IWDFUnifiedPropertyStore, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData, IWDFUnifiedPropertyStore interface, GetPropertyData method
+ms.date: 2/20/2018
+ms.keywords: GetPropertyData method, GetPropertyData method, IWDFUnifiedPropertyStore interface, GetPropertyData,IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUnifiedPropertyStore.GetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -115,7 +115,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ## -returns
 
 
+
 <b>GetPropertyData</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -165,13 +167,16 @@ The driver can request device interface property data only  starting with  Windo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that <i>Winerror.h</i> contains.
 
 
 
+
 ## -remarks
+
 
 
 Framework-based drivers use the <b>GetPropertyData</b> method to retrieve device properties that are defined as part of the unified device property model.
@@ -185,24 +190,143 @@ For more information about device properties, see <a href="https://msdn.microsof
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+For variable size properties, the driver should make two passes to retrieve the property data. First, the driver should pass a NULL buffer in the <i>PropertyData</i> parameter, and set <i>PropertyDataSize</i> to 0.
+Then, the driver should then allocate a buffer based on the <i>PropertyDataRequiredSize</i> returned and call <b>GetPropertyData</b> again, passing the allocated buffer.
+
+The following example demonstrates this 
+pattern.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+GetFriendlyName(
+    _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
+    )
+{
+    HRESULT hr = S_OK;
+    DEVPROPTYPE type;
+    ULONG requiredSize;
+    BYTE * friendlyNameBuffer = NULL;
+    ULONG friendlyNameBufferSize;
+
+    hr = pUnifiedPropertyStore-&gt;GetPropertyData(
+            &amp;DEVPKEY_Device_FriendlyName,
+            0, //Lcid
+            0, //Flags
+            0, //BufferSize
+            NULL, //Buffer
+            &amp;requiredSize,
+            &amp;type
+            );
+
+    if (HRESULT_CODE(hr) != ERROR_INSUFFICIENT_BUFFER)
+    {
+        TraceEvents(
+            TRACE_LEVEL_ERROR, 
+            TEST_TRACE_DEVICE, 
+            "GetPropertyData failed: hr = %!HRESULT!",
+            hr
+            );
+        goto exit;
+    }
+
+    friendlyNameBufferSize = requiredSize;
+    friendlyNameBuffer = new BYTE[requiredSize];
+    if (NULL == friendlyNameBuffer)
+    {
+        hr = E_OUTOFMEMORY;
+        TraceEvents(
+            TRACE_LEVEL_ERROR, 
+            TEST_TRACE_DEVICE, 
+            "Out of memory while allocating property data buffer returning:”
+            “ %!HRESULT!",
+            hr
+            );
+        goto exit;
+    }
+    
+    hr = pUnifiedPropertyStore-&gt;GetPropertyData(
+            &amp;DEVPKEY_Device_FriendlyName,
+            0, //Lcid
+            0, //Flags
+            friendlyNameBufferSize,
+            friendlyNameBuffer,
+            &amp;requiredSize,
+            &amp;type
+            );
+
+    if (FAILED(hr))
+    {
+        TraceEvents(
+            TRACE_LEVEL_ERROR, 
+            TEST_TRACE_DEVICE, 
+            "GetPropertyData failed: hr = %!HRESULT!",
+            hr
+            );
+        goto exit;
+    }
+    
+    if (type != DEVPROP_TYPE_STRING)
+    {
+        TraceEvents(
+            TRACE_LEVEL_ERROR, 
+            TEST_TRACE_DEVICE, 
+            "Expected type %d, actual type: %d",
+            DEVPROP_TYPE_STRING,
+            type
+            );
+        hr = E_UNEXPECTED;
+        goto exit;
+    }
+
+exit:
+    delete [] friendlyNameBuffer;
+    friendlyNameBuffer = NULL;
+
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a>
 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
+
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
- 
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUnifiedPropertyStore::GetPropertyData method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUnifiedPropertyStore::GetPropertyData method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

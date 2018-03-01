@@ -7,8 +7,8 @@ old-location: stream\kspinattachandgate.htm
 old-project: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate, KsPinAttachAndGate function [Streaming Media Devices], KsPinAttachAndGate
+ms.date: 2/23/2018
+ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsPinAttachAndGate
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>. Then call <b>KsPinAttachAndGate</b>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -95,17 +98,24 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-<a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
 
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
- 
+
+
+<a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAttachAndGate function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinAttachAndGate function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

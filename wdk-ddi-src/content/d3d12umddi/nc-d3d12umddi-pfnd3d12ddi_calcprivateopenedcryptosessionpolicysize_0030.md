@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_
 old-project: display
 ms.assetid: 8D88C470-5C1F-4A72-BFB6-B09C038A07F9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_, PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030, d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030, PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030, display.pfnd3d12ddi_calcprivateopenedcryptosessionpolicysize_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030
 product: Windows
 targetos: Windows
@@ -73,14 +73,7 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030(
 The hardware device being processed.
 
 
-### -param *pArgs
-
-
-
-
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a session policy.
 
@@ -88,6 +81,8 @@ The arguments used to open a session policy.
 ## -returns
 
 
+
 Returns the size of the session in bytes.
+
 
 

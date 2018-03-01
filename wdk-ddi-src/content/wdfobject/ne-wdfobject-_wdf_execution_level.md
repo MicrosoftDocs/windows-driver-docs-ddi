@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfobject._WDF_EXECUTION_LEVEL
-title: _WDF_EXECUTION_LEVEL
+title: "_WDF_EXECUTION_LEVEL"
 author: windows-driver-content
 description: The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.
 old-location: wdf\wdf_execution_level.htm
 old-project: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_EXECUTION_LEVEL enumeration, WDF_EXECUTION_LEVEL, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelDispatch, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdf.wdf_execution_level, WdfExecutionLevelDispatch, kmdf.wdf_execution_level, _WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelInheritFromParent, wdfobject/WdfExecutionLevelPassive, WdfExecutionLevelInvalid
+ms.date: 2/20/2018
+ms.keywords: DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, WDF_EXECUTION_LEVEL, WDF_EXECUTION_LEVEL enumeration, WdfExecutionLevelDispatch, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, WdfExecutionLevelPassive, _WDF_EXECUTION_LEVEL, kmdf.wdf_execution_level, wdf.wdf_execution_level, wdfobject/WDF_EXECUTION_LEVEL, wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfobject.h
-apiname: 
+api_name:
 -	WDF_EXECUTION_LEVEL
 product: Windows
 targetos: Windows
@@ -96,9 +96,11 @@ The framework calls the object's callback functions at IRQL &lt;= DISPATCH_LEVEL
 ## -remarks
 
 
+
 Drivers use the WDF_EXECUTION_LEVEL enumeration type to specify the <b>ExecutionLevel</b> member of an object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 You can specify an <b>ExecutionLevel</b> value for the following objects:
+
 <ul>
 <li>
 Framework driver objects
@@ -124,7 +126,8 @@ Framework queue objects (Framework versions 1.9 and later)
 Framework timer objects (Framework versions 1.9 and later)
 
 </li>
-</ul><b>KMDF </b>By default, the framework sets the <b>ExecutionLevel</b> value of framework driver objects to <b>WdfExecutionLevelDispatch.</b>
+</ul>
+<b>KMDF </b>By default, the framework sets the <b>ExecutionLevel</b> value of framework driver objects to <b>WdfExecutionLevelDispatch.</b>
 
 <b>UMDF </b>By default, the framework sets the <b>ExecutionLevel</b> value of framework driver objects to <b>WdfExecutionLevelPassive.</b>
 
@@ -134,13 +137,16 @@ For more information about execution levels for event callback functions, see <a
 
 
 
+
 ## -see-also
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EXECUTION_LEVEL enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EXECUTION_LEVEL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

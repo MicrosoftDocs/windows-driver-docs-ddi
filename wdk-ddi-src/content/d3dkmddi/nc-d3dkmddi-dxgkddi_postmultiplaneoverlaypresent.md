@@ -7,8 +7,8 @@ old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 old-project: display
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_postmultiplaneoverlaypresent, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
 product: Windows
 targetos: Windows
@@ -80,6 +80,8 @@ Identifies the adapter containing the overlay hardware.
 
 
 
+
+
 #### - pPostMultiPlaneOverlayPresent [in]
 
 A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the new overlay configuration recently committed.
@@ -88,7 +90,9 @@ A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the
 ## -returns
 
 
+
 DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +109,14 @@ If the routine has been successfully completed. The driver should always return 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function is called from PASSIVE level.
@@ -119,5 +126,6 @@ This function is only called when driver sets PostPresentNeeded of DXGKCB_NOTIFY
 The driver can use this function to lower voltage levels, clocks, FIFO depths, or any other optimization that can save power.
 
 The driver should not spend significant amount of time in this call because the call blocks the main GPU scheduler thread and delay could lead to present glitches. Time intensive actions should be queued as separate work items by driver and handled in background. In this scenario, any conflicts between the queued item and hardware changes demanded by future pre/post calls should be managed by driver. 
+
 
 

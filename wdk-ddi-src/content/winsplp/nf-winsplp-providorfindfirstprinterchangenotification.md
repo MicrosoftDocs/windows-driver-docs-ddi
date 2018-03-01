@@ -2,13 +2,13 @@
 UID: NF:winsplp.ProvidorFindFirstPrinterChangeNotification
 title: ProvidorFindFirstPrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\providorfindfirstprinterchangenotification.htm
 old-project: print
 ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.providorfindfirstprinterchangenotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], ProvidorFindFirstPrinterChangeNotification, winsplp/ProvidorFindFirstPrinterChangeNotification
+ms.date: 2/23/2018
+ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	ProvidorFindFirstPrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -76,23 +76,17 @@ BOOL WINAPI ProvidorFindFirstPrinterChangeNotification(
 ### -param hPrinter [in]
 
 
-
 ### -param fdwFlags
-
 
 
 ### -param fdwOptions
 
 
-
 ### -param hNotify [in]
-
 
 
 ### -param pPrinterNotifyOptions [in, optional]
 
 
-
 ### -param pvReserved1 [out, optional]
-
 

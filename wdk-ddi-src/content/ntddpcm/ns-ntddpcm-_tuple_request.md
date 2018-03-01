@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddpcm._TUPLE_REQUEST
-title: _TUPLE_REQUEST
+title: "_TUPLE_REQUEST"
 author: windows-driver-content
 description: The TUPLE_REQUEST structure is used in conjunction with the IOCTL_GET_TUPLE_DATA request to retrieve tuple data from a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\tuple_request.htm
 old-project: PCMCIA
 ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _TUPLE_REQUEST, TUPLE_REQUEST, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], *PTUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, TUPLE_REQUEST structure [Buses], PCMCIA.tuple_request, ntddpcm/TUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST
+ms.date: 2/15/2018
+ms.keywords: "*PTUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], TUPLE_REQUEST, TUPLE_REQUEST structure [Buses], _TUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, ntddpcm/PTUPLE_REQUEST, ntddpcm/TUPLE_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddpcm.h
-apiname: 
+api_name:
 -	TUPLE_REQUEST
 product: Windows
 targetos: Windows
@@ -76,9 +76,11 @@ Indicates the socket number.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537238">IOCTL_GET_TUPLE_DATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20TUPLE_REQUEST structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20TUPLE_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

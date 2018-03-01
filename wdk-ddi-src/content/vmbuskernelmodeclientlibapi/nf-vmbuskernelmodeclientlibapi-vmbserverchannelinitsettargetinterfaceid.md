@@ -7,8 +7,8 @@ old-location: netvista\vmbserverchannelinitsettargetinterfaceid.htm
 old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId
+ms.date: 2/16/2018
+ms.keywords: VmbServerChannelInitSetTargetInterfaceId, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsettargetinterfaceid, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+api_name:
 -	VmbServerChannelInitSetTargetInterfaceId
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ A pointer to the instance type GUID.
 ## -remarks
 
 
+
 The <i>InterfaceType</i>
 GUID identifies the type of channel and, specifically, the protocol that is used with
 the channel.  If the VMBus in the child partition is creating a Physical Device Object
@@ -101,5 +102,6 @@ ID reported to the PnP Manager.
 The <i>InterfaceInstance</i> GUID identifies a specific instance
 of the service.  For instance, If you have two paravirtual network interfaces, they
 have the same interface type, but different interface instance values. 
+
 
 

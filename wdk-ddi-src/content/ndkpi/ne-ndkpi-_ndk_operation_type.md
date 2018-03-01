@@ -1,14 +1,14 @@
 ---
 UID: NE:ndkpi._NDK_OPERATION_TYPE
-title: _NDK_OPERATION_TYPE
+title: "_NDK_OPERATION_TYPE"
 author: windows-driver-content
 description: The NDK_OPERATION_TYPE enumeration defines types of NDK operations. Its enumeration values are used in the Type member of the NDK_RESULT_EX structure.
 old-location: netvista\ndk_operation_type.htm
 old-project: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdkOperationTypeSend, NdkOperationTypeReceiveAndInvalidate, netvista.ndk_operation_type, NdkOperationTypeBind, NdkOperationTypeInvalidate, NdkOperationTypeReceive, ndkpi/NdkOperationTypeWrite, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeBind, NdkOperationTypeWrite, NdkOperationTypeRead, ndkpi/NdkOperationTypeInvalidate, _NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeReceiveAndInvalidate, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeFastRegister
+ms.date: 2/16/2018
+ms.keywords: NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeInvalidate, NdkOperationTypeRead, NdkOperationTypeReceive, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeSend, NdkOperationTypeWrite, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeBind, ndkpi/NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NDK_OPERATION_TYPE
 product: Windows
 targetos: Windows
@@ -118,9 +118,11 @@ An <i>NdkWrite</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OPERATION_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OPERATION_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

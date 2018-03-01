@@ -2,13 +2,13 @@
 UID: NF:winsplp.PlayGdiScriptOnPrinterIC
 title: PlayGdiScriptOnPrinterIC function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\playgdiscriptonprinteric.htm
 old-project: print
 ms.assetid: DB5FCF40-77C2-4741-9E6B-77A9CD98E29A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/PlayGdiScriptOnPrinterIC, print.playgdiscriptonprinteric, PlayGdiScriptOnPrinterIC function [Print Devices], PlayGdiScriptOnPrinterIC
+ms.date: 2/23/2018
+ms.keywords: PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, winsplp/PlayGdiScriptOnPrinterIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	PlayGdiScriptOnPrinterIC
 product: Windows
 targetos: Windows
@@ -76,23 +76,17 @@ BOOL WINAPI PlayGdiScriptOnPrinterIC(
 ### -param hPrinterIC [in]
 
 
-
 ### -param pIn [in]
-
 
 
 ### -param cIn [in]
 
 
-
 ### -param pOut [out]
-
 
 
 ### -param cOut [in]
 
 
-
 ### -param ul [in]
-
 

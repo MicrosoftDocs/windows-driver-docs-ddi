@@ -7,8 +7,8 @@ old-location: debugger\getinterrupttimeout.htm
 old-project: debugger
 ms.assetid: 8faf167e-3110-453f-8234-32dfa543b520
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetInterruptTimeout, IDebugControl::GetInterruptTimeout, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, GetInterruptTimeout, dbgeng/IDebugControl2::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetInterruptTimeout, IDebugControl3, debugger.getinterrupttimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetInterruptTimeout method, IDebugControl3::GetInterruptTimeout, IDebugControl2::GetInterruptTimeout
+ms.date: 2/23/2018
+ms.keywords: GetInterruptTimeout method [Windows Debugging], GetInterruptTimeout method [Windows Debugging], IDebugControl interface, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, GetInterruptTimeout,IDebugControl3.GetInterruptTimeout, IDebugControl interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2::GetInterruptTimeout, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl3::GetInterruptTimeout, IDebugControl::GetInterruptTimeout, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, dbgeng/IDebugControl2::GetInterruptTimeout, dbgeng/IDebugControl3::GetInterruptTimeout, dbgeng/IDebugControl::GetInterruptTimeout, debugger.getinterrupttimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.GetInterruptTimeout
 -	IDebugControl2.GetInterruptTimeout
 -	IDebugControl3.GetInterruptTimeout
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetInterruptTimeout method
@@ -77,7 +77,9 @@ Receives the number of seconds that the engine will wait for the target when req
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine requests a break into the debugger when <a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a> is called with DEBUG_INTERRUPT_ACTIVE.  If this interrupt times out, the engine will generate a synthetic exception event.  This event will be sent to <a href="https://msdn.microsoft.com/9090a465-b6ab-4e99-8155-b0abdb729468">event callback objects</a>'s <a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a> method.
@@ -107,23 +112,36 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556725">SetInterruptTimeout</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetInterruptTimeout method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetInterruptTimeout method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

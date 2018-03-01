@@ -1,14 +1,14 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FUNCTION
-title: _AVCSTRM_FUNCTION
+title: "_AVCSTRM_FUNCTION"
 author: windows-driver-content
 description: The AVCSTRM_FUNCTION enumeration defines the functionality exposed by the avcstrm.sys driver.
 old-location: stream\avcstrm_function.htm
 old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_CLOSE, AVCSTRM_SET_STATE, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_OPEN, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_READ, AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_CLOSE, AVCSTRM_GET_PROPERTY, AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_FUNCTION, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_WRITE, stream.avcstrm_function, AVCSTRM_READ, avcstrm/AVCSTRM_FUNCTION, AVCSTRM_OPEN, AVCSTRM_WRITE
+ms.date: 2/23/2018
+ms.keywords: AVCSTRM_ABORT_STREAMING, AVCSTRM_CLOSE, AVCSTRM_FUNCTION, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_GET_PROPERTY, AVCSTRM_GET_STATE, AVCSTRM_OPEN, AVCSTRM_READ, AVCSTRM_SET_PROPERTY, AVCSTRM_SET_STATE, AVCSTRM_WRITE, _AVCSTRM_FUNCTION, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_CLOSE, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_OPEN, avcstrm/AVCSTRM_READ, avcstrm/AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_WRITE, stream.avcstrm_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	avcstrm.h
-apiname: 
+api_name:
 -	AVCSTRM_FUNCTION
 product: Windows
 targetos: Windows
@@ -122,27 +122,45 @@ Set stream property. This function is not implemented.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FUNCTION enumeration%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FUNCTION enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

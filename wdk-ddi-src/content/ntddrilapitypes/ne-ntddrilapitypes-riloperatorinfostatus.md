@@ -7,8 +7,8 @@ old-location: netvista\riloperatorinfostatus.htm
 old-project: netvista
 ms.assetid: 372d84da-600f-44db-ac76-b59ceac7321d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_OPSTATUS_MAX, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_MAX, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, netvista.riloperatorinfostatus, RIL_OPSTATUS_CURRENT, ntddrilapitypes/RILOPERATORINFOSTATUS, RIL_OPSTATUS_FORBIDDEN, RILOPERATORINFOSTATUS, RIL_OPSTATUS_AVAILABLE
+ms.date: 2/16/2018
+ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus, ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, ntddrilapitypes/RIL_OPSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILOPERATORINFOSTATUS
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILOPERATORINFOSTATUS {
 ### -field RIL_OPSTATUS_UNKNOWN
 
 
-
 ### -field RIL_OPSTATUS_AVAILABLE
-
 
 
 ### -field RIL_OPSTATUS_CURRENT
 
 
-
 ### -field RIL_OPSTATUS_FORBIDDEN
 
 
-
 ### -field RIL_OPSTATUS_MAX
-
 

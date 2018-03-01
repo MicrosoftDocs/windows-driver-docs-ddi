@@ -1,21 +1,21 @@
 ---
 UID: NE:bthddi._BRB_TYPE
-title: _BRB_TYPE
+title: "_BRB_TYPE"
 author: windows-driver-content
 description: The BRB_TYPE enumeration type is used to determine the Bluetooth request block when a profile driver builds and sends a BRB.
 old-location: bltooth\brb_type.htm
 old-project: bltooth
 ms.assetid: 590e13cf-6cbc-4a7f-a68e-ada4a5027ed2
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_TYPE, BRB_TYPE, BRB_ACL_ENTER_ACTIVE_MODE, bthddi/BRB_HCI_GET_LOCAL_BD_ADDR, BRB_L2CA_INFO_REQUEST, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL, BRB_SCO_GET_CHANNEL_INFO, BRB_SCO_TRANSFER, BRB_SCO_UNREGISTER_SERVER, bltooth.brb_type, BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_L2CA_UNREGISTER_SERVER, _BRB_TYPE, bthddi/BRB_STORED_LINK_KEY, BRB_GET_DEVICE_INTERFACE_STRING, BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_L2CA_INFO_REQUEST, bthddi/BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, bthddi/BRB_SCO_UNREGISTER_SERVER, BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, BRB_SCO_REGISTER_SERVER, BRB_SCO_OPEN_CHANNEL, BRB_SCO_FLUSH_CHANNEL, bthddi/BRB_UNREGISTER_PSM, bthddi/BRB_SCO_OPEN_CHANNEL, BRB_UNREGISTER_PSM, bthddi/BRB_GET_DEVICE_INTERFACE_STRING, bthddi/BRB_L2CA_ACL_TRANSFER, bthddi/BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_L2CA_REGISTER_SERVER, bthddi/BRB_L2CA_OPEN_CHANNEL, BRB_L2CA_ACL_TRANSFER, bthddi/BRB_SCO_CLOSE_CHANNEL, bthddi/BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_SCO_TRANSFER, BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_L2CA_REGISTER_SERVER, BRB_HCI_GET_LOCAL_BD_ADDR, BRB_L2CA_OPEN_CHANNEL, BRB_L2CA_PING, bthddi/BRB_SCO_REGISTER_SERVER, bthddi/BRB_ACL_ENTER_ACTIVE_MODE, BRB_STORED_LINK_KEY, bth_enums_6d3541ca-7ba6-4430-9d97-55d88bea987f.xml, BRB_TYPE enumeration [Bluetooth Devices], bthddi/BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_REGISTER_PSM, bthddi/BRB_L2CA_UNREGISTER_SERVER, BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_SCO_FLUSH_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_L2CA_OPEN_CHANNEL_RESPONSE, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_REGISTER_PSM, BRB_SCO_CLOSE_CHANNEL, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_L2CA_PING
+ms.date: 2/15/2018
+ms.keywords: BRB_ACL_ENTER_ACTIVE_MODE, BRB_GET_DEVICE_INTERFACE_STRING, BRB_HCI_GET_LOCAL_BD_ADDR, BRB_L2CA_ACL_TRANSFER, BRB_L2CA_CLOSE_CHANNEL, BRB_L2CA_INFO_REQUEST, BRB_L2CA_OPEN_CHANNEL, BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_L2CA_PING, BRB_L2CA_REGISTER_SERVER, BRB_L2CA_UNREGISTER_SERVER, BRB_L2CA_UPDATE_CHANNEL, BRB_REGISTER_PSM, BRB_SCO_CLOSE_CHANNEL, BRB_SCO_FLUSH_CHANNEL, BRB_SCO_GET_CHANNEL_INFO, BRB_SCO_GET_SYSTEM_INFO, BRB_SCO_OPEN_CHANNEL, BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_SCO_OPEN_UNMANAGED_CHANNEL, BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, BRB_SCO_REGISTER_SERVER, BRB_SCO_TRANSFER, BRB_SCO_UNREGISTER_SERVER, BRB_STORED_LINK_KEY, BRB_TYPE, BRB_TYPE enumeration [Bluetooth Devices], BRB_UNREGISTER_PSM, _BRB_TYPE, bltooth.brb_type, bth_enums_6d3541ca-7ba6-4430-9d97-55d88bea987f.xml, bthddi/BRB_ACL_ENTER_ACTIVE_MODE, bthddi/BRB_GET_DEVICE_INTERFACE_STRING, bthddi/BRB_HCI_GET_LOCAL_BD_ADDR, bthddi/BRB_L2CA_ACL_TRANSFER, bthddi/BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_L2CA_INFO_REQUEST, bthddi/BRB_L2CA_OPEN_CHANNEL, bthddi/BRB_L2CA_OPEN_CHANNEL_RESPONSE, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, bthddi/BRB_L2CA_PING, bthddi/BRB_L2CA_REGISTER_SERVER, bthddi/BRB_L2CA_UNREGISTER_SERVER, bthddi/BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_REGISTER_PSM, bthddi/BRB_SCO_CLOSE_CHANNEL, bthddi/BRB_SCO_FLUSH_CHANNEL, bthddi/BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_SCO_OPEN_CHANNEL, bthddi/BRB_SCO_OPEN_CHANNEL_RESPONSE, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_SCO_REGISTER_SERVER, bthddi/BRB_SCO_TRANSFER, bthddi/BRB_SCO_UNREGISTER_SERVER, bthddi/BRB_STORED_LINK_KEY, bthddi/BRB_TYPE, bthddi/BRB_UNREGISTER_PSM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	BRB_TYPE
 product: Windows
 targetos: Windows
@@ -277,7 +277,6 @@ This value declares a
 ### -field BRB_ACL_GET_MODE
 
 
-
 ### -field BRB_ACL_ENTER_ACTIVE_MODE
 
 This value declares a 
@@ -302,6 +301,7 @@ This value declares a
 ## -remarks
 
 
+
 The type of BRB is specified in the 
     <b>Type</b> member of the 
     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure. The 
@@ -312,21 +312,32 @@ The type of BRB is specified in the
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
 
- 
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_TYPE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

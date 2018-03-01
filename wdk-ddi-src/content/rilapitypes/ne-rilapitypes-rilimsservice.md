@@ -7,13 +7,13 @@ old-location: netvista\rilimsservice.htm
 old-project: netvista
 ms.assetid: 11d009d7-5a97-46a8-b1d6-f1906127bf3a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_SMS, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_ALL, netvista.rilimsservice, RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_VOICE, RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RILIMSSERVICE
+ms.date: 2/16/2018
+ms.keywords: RILIMSSERVICE, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, netvista.rilimsservice, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_SMS, rilapitypes/RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILIMSSERVICE
 product: Windows
 targetos: Windows
@@ -76,46 +76,39 @@ enum RILIMSSERVICE  {
 ### -field RIL_IMS_SERVICE_SMS
 
 
-
 ### -field RIL_IMS_SERVICE_VOICE
-
 
 
 ### -field RIL_IMS_SERVICE_VIDEO
 
 
-
 ### -field RIL_IMS_SERVICE_CUSTOM
-
 
 
 ### -field RIL_IMS_SERVICE_SUPSVC
 
 
-
 ### -field RIL_IMS_SERVICE_RCS
-
 
 
 ### -field RIL_IMS_SERVICE_USSD
 
 
-
 ### -field RIL_IMS_SERVICE_E_VOICE
 
 
-
 ### -field RIL_IMS_SERVICE_ALL
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILIMSSERVICE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILIMSSERVICE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

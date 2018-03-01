@@ -7,8 +7,8 @@ old-location: netvista\dot11_direction.htm
 old-project: netvista
 ms.assetid: 83a83af9-314a-49c1-b241-a0ef0716f83a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_DIR_OUTBOUND, PDOT11_DIRECTION, DOT11_DIR_OUTBOUND, windot11/DOT11_DIR_BOTH, windot11/DOT11_DIRECTION, netvista.dot11_direction, windot11/PDOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], DOT11_DIR_INBOUND, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, DOT11_DIRECTION, DOT11_DIR_BOTH, windot11/DOT11_DIR_INBOUND, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], *PDOT11_DIRECTION
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_DIRECTION, DOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], DOT11_DIR_BOTH, DOT11_DIR_INBOUND, DOT11_DIR_OUTBOUND, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, PDOT11_DIRECTION, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], netvista.dot11_direction, windot11/DOT11_DIRECTION, windot11/DOT11_DIR_BOTH, windot11/DOT11_DIR_INBOUND, windot11/DOT11_DIR_OUTBOUND, windot11/PDOT11_DIRECTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_DIRECTION
 product: Windows
 targetos: Windows
@@ -93,12 +93,16 @@ The 802.11 station uses the cipher key for packets received from or transmitted 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
 
-<mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link>
+
+
+<a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIRECTION enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIRECTION enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

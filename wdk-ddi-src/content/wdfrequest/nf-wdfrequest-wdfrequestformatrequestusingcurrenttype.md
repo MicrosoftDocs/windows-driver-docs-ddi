@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
 old-project: wdf
 ms.assetid: 51af6f9e-1e38-4af2-9db8-cfad41e2f435
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestFormatRequestUsingCurrentType method, wdf.wdfrequestformatrequestusingcurrenttype, kmdf.wdfrequestformatrequestusingcurrenttype, PFN_WDFREQUESTFORMATREQUESTUSINGCURRENTTYPE, DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, wdfrequest/WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestFormatRequestUsingCurrentType
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A handle to a framework request object that the driver received from one of its 
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,10 +90,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 When your driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/receiving-i-o-requests">receives an I/O request</a>, sometimes you will want the driver to forward the request, unmodified, to its local I/O target. To forward such a request, the driver must:
+
 <ol>
 <li>
 Call <b>WdfRequestFormatRequestUsingCurrentType</b> to format the request object so that the framework can pass the request to the driver's local I/O target.
@@ -102,7 +106,62 @@ Call <b>WdfRequestFormatRequestUsingCurrentType</b> to format the request object
 Call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to send the request to the I/O target.
 
 </li>
-</ol>For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+</ol>
+For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+
+
+#### Examples
+
+The following code example is an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoDefault(
+    WDFQUEUE Queue,
+    WDFREQUEST Request
+    )
+{
+    WDF_REQUEST_SEND_OPTIONS options;
+    NTSTATUS status;
+    WDF_REQUEST_PARAMETERS params;
+    BOOLEAN ret;
+
+    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+
+    WdfRequestGetParameters(
+                            Request,
+                            &amp;params
+                            );
+
+    WdfRequestFormatRequestUsingCurrentType(Request);
+
+    WDF_REQUEST_SEND_OPTIONS_INIT(
+                                  &amp;options,
+                                  WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
+                                  );
+
+    ret = WdfRequestSend (
+                          Request,
+                          WdfDeviceGetIoTarget(WdfIoQueueGetDevice(Queue)),
+                          &amp;options
+                          );
+    if (!ret) {
+        status = WdfRequestGetStatus(Request);
+        WdfRequestComplete(
+                           Request,
+                           status
+                           );
+    }
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -110,11 +169,15 @@ Call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmformatusingstacklocation.md">WdfRequestWdmFormatUsingStackLocation</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestFormatRequestUsingCurrentType method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestFormatRequestUsingCurrentType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndisimdeinitializedeviceinstance.htm
 old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisIMDeInitializeDeviceInstance, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, netvista.ndisimdeinitializedeviceinstance, ndis/NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisIMDeInitializeDeviceInstance
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIMDeInitializeDeviceInstance function
@@ -74,11 +74,12 @@ NDIS_STATUS NdisIMDeInitializeDeviceInstance(
 ### -param NdisMiniportHandle [in]
 
 The handle that NDIS supplied to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
+
 
 
 <b>NdisIMDeInitializeDeviceInstance</b> returns NDIS_STATUS_SUCCESS if the NIC has been torn down.
@@ -87,16 +88,18 @@ The handle that NDIS supplied to the
 
 
 
+
 ## -remarks
+
 
 
 For NDIS intermediate drivers, 
     <b>NdisIMDeInitializeDeviceInstance</b> is the reciprocal of the 
-    <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-    NdisIMInitializeDeviceInstanceEx</b></mshelp:link> function. Such a driver usually calls 
+    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    NdisIMInitializeDeviceInstanceEx</a> function. Such a driver usually calls 
     <b>NdisIMDeInitializeDeviceInstance</b> from its 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function, when the underlying miniport adapter to which it was bound is
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function, when the underlying miniport adapter to which it was bound is
     being removed from the system, possibly because it is being reconfigured.
 
 The call to 
@@ -107,18 +110,25 @@ The call to
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
-   NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMDeInitializeDeviceInstance function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIMDeInitializeDeviceInstance function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

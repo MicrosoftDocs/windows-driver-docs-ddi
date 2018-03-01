@@ -7,8 +7,8 @@ old-location: sensors\gnss_breadcrumbing_param.htm
 old-project: sensors
 ms.assetid: 1EAD5B17-B662-4D97-B045-ED09E4AF6E99
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.gnss_breadcrumbing_param, *PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_PARAM
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM, sensors.gnss_breadcrumbing_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_BREADCRUMBING_PARAM
 product: Windows
 targetos: Windows
@@ -100,6 +100,7 @@ Contains the maximum error timeout in milliseconds. If the location of the devic
 ### -field Unused
 
  
+
 
 
 

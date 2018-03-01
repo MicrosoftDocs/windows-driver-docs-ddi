@@ -7,8 +7,8 @@ old-location: kernel\kegetprocessorindexfromnumber.htm
 old-project: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], kernel.kegetprocessorindexfromnumber, KeGetProcessorIndexFromNumber, wdm/KeGetProcessorIndexFromNumber, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml
+ms.date: 2/24/2018
+ms.keywords: KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber, wdm/KeGetProcessorIndexFromNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeGetProcessorIndexFromNumber
 product: Windows
 targetos: Windows
@@ -70,17 +70,20 @@ ULONG KeGetProcessorIndexFromNumber(
 
 ### -param ProcNumber [in]
 
-A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
+A pointer to a caller-allocated <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
 
 
 ## -returns
+
 
 
 <b>KeGetProcessorIndexFromNumber</b> returns a systemwide processor index if the call is successful. If <i>ProcNumber</i> points to an invalid <b>PROCESSOR_NUMBER</b> value, the routine returns INVALID_PROCESSOR_INDEX, which is defined in the Wdm.h header file. 
 
 
 
+
 ## -remarks
+
 
 
 This routine accepts as input a <b>PROCESSOR_NUMBER</b> structure that identifies a processor by its group number and its processor number within the group. The return value is a processor index that identifies the processor across the entire multiprocessor system.
@@ -93,17 +96,24 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+
 
 <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorIndexFromNumber routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorIndexFromNumber routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

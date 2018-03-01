@@ -7,8 +7,8 @@ old-location: debugger\getsystemversionstring.htm
 old-project: debugger
 ms.assetid: a32226bf-4be9-4d0b-8fe9-3ff48a43ca07
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getsystemversionstring, GetSystemVersionString, IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, IDebugControl4::GetSystemVersionString, GetSystemVersionString method [Windows Debugging], IDebugControl4 interface, GetSystemVersionString method [Windows Debugging], IDebugControl4, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString
+ms.date: 2/23/2018
+ms.keywords: GetSystemVersionString method [Windows Debugging], GetSystemVersionString method [Windows Debugging], IDebugControl4 interface, GetSystemVersionString,IDebugControl4.GetSystemVersionString, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl4.GetSystemVersionString
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetSystemVersionString method
@@ -73,6 +73,7 @@ HRESULT GetSystemVersionString(
 ### -param Which [in]
 
 Specifies which version string to return.  The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -98,7 +99,8 @@ Returns a description of the target's operating system build version.  For examp
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out, optional]
@@ -119,7 +121,9 @@ Receives the size, in characters, of the string that identifies the build.  If <
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,14 +151,18 @@ The method was successful. However, the buffer was too small, so the string was 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -162,13 +170,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetSystemVersionString method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetSystemVersionString method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_roothub_control_urb.htm
 old-project: usbref
 ms.assetid: 4463a68f-ef03-43a1-b3e2-7baf43f47e80
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucx_roothub_control_urb, EvtUcxRootHubControlUrb callback function [Buses], EvtUcxRootHubControlUrb, EVT_UCX_ROOTHUB_CONTROL_URB, EVT_UCX_ROOTHUB_CONTROL_URB, ucxroothub/EvtUcxRootHubControlUrb, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ROOTHUB_CONTROL_URB, EvtUcxRootHubControlUrb, EvtUcxRootHubControlUrb callback function [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], buses.evt_ucx_roothub_control_urb, ucxroothub/EvtUcxRootHubControlUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ucxroothub.h
-apiname: 
+api_name:
 -	PEVT_UCX_ROOTHUB_CONTROL_URB
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the feature request.
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
@@ -103,14 +106,100 @@ The client driver returns completion status in <i>Request</i> and in the USBD_ST
     in the URB header.  The driver can complete the WDFREQUEST asynchronously.
 
 
+#### Examples
+
+This example shows how to register callbacks for individual feature request types.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubClearHubFeature;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubClearPortFeature;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetHubStatus;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortStatus;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubSetHubFeature;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubSetPortFeature;
+EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortErrorCount;
+
+...
+
+    //
+    // Create the root hub
+    //
+    UCX_ROOTHUB_CONFIG_INIT(&amp;ucxRootHubConfig,
+                            RootHub_EvtRootHubClearHubFeature,
+                            RootHub_EvtRootHubClearPortFeature,
+                            RootHub_EvtRootHubGetHubStatus,
+                            RootHub_EvtRootHubGetPortStatus,
+                            RootHub_EvtRootHubSetHubFeature,
+                            RootHub_EvtRootHubSetPortFeature,
+                            RootHub_EvtRootHubGetPortErrorCount,
+                            RootHub_EvtRootHubInterruptTx,
+                            RootHub_EvtRootHubGetInfo,
+                            RootHub_EvtRootHubGet20PortInfo,
+                            RootHub_EvtRootHubGet30PortInfo);
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_ROOTHUB_CONTEXT);
+
+    status = UcxRootHubCreate(ucxController,
+                              &amp;ucxRootHubConfig,
+                              &amp;objectAttributes,
+                              &amp;ucxRootHub);
+</pre>
+</td>
+</tr>
+</table></span></div>
+Here is a sample implementation of one of the URB-specific request handlers.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+RootHub_EvtRootHubClearHubFeature(
+    UCXROOTHUB         UcxRootHub,
+    WDFREQUEST         ControlUrb
+)
+/*++
+
+Routine Description:
+
+    UCX calls this routine when it receives a new Clear Hub Feature request.
+
+--*/
+{
+    UNREFERENCED_PARAMETER(UcxRootHub);
+
+    DbgTrace(TL_INFO, RootHub, "RootHub_EvtRootHubClearHubFeature");
+
+    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
+    setupPacket = (PWDF_USB_CONTROL_SETUP_PACKET)&amp;urb-&gt;UrbControlTransferEx.SetupPacket[0];
+    ...
+
+    WdfRequestComplete(ControlUrb, STATUS_SUCCESS);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_ROOTHUB_CONTROL_URB callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_ROOTHUB_CONTROL_URB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

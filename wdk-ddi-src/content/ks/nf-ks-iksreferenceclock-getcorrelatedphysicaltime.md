@@ -7,8 +7,8 @@ old-location: stream\iksreferenceclock_getcorrelatedphysicaltime.htm
 old-project: stream
 ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, IKsReferenceClock::GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock, stream.iksreferenceclock_getcorrelatedphysicaltime, GetCorrelatedPhysicalTime, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml
+ms.date: 2/23/2018
+ms.keywords: GetCorrelatedPhysicalTime method [Streaming Media Devices], GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedPhysicalTime,IKsReferenceClock.GetCorrelatedPhysicalTime, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, IKsReferenceClock::GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, stream.iksreferenceclock_getcorrelatedphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsReferenceClock.GetCorrelatedPhysicalTime
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Specifies the current system time in 100 nanosecond units.
 ## -returns
 
 
+
 The <b>IKsReferenceClock::GetCorrelatedPhysicalTime</b> method returns the current physical clock time, specified by default in 100-nanosecond units. The correlated system time is returned in <i>SystemTime</i>.
 
 
 
+
 ## -remarks
+
 
 
 Use this method to determine the difference between physical time and system time. <b>IKsReferenceClock::GetCorrelatedPhysicalTime</b> returns the times that both clocks show at the same moment.
@@ -90,13 +93,16 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetCorrelatedPhysicalTime method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetCorrelatedPhysicalTime method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

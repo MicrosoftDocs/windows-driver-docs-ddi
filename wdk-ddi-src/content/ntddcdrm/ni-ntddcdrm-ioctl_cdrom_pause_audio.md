@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_pause_audio.htm
 old-project: storage
 ms.assetid: 62ece91f-0c74-4bc1-b05c-446492e993e6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_cdrom_pause_audio, IOCTL_CDROM_PAUSE_AUDIO control code [Storage Devices], IOCTL_CDROM_PAUSE_AUDIO, ntddcdrm/IOCTL_CDROM_PAUSE_AUDIO, k307_ea59f09a-03a4-4062-a6e7-ef4af2775b56.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_PAUSE_AUDIO, IOCTL_CDROM_PAUSE_AUDIO control code [Storage Devices], k307_ea59f09a-03a4-4062-a6e7-ef4af2775b56.xml, ntddcdrm/IOCTL_CDROM_PAUSE_AUDIO, storage.ioctl_cdrom_pause_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdrm.h
-apiname: 
+api_name:
 -	IOCTL_CDROM_PAUSE_AUDIO
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,8 +111,10 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 ## -remarks
 
 
+
 Beginning with Windows Vista, CDROM class drivers do not use this IOCTL. Prior to Windows Vista, this IOCTL was used for audio playback on older CD-ROM drives that supported direct audio output in hardware.
 
 Client applications should use the <i>Media Control Interface (MCI) API</i> rather than issuing this IOCTL.
+
 
 

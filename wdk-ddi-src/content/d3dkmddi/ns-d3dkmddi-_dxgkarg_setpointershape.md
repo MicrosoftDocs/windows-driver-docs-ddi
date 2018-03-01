@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERSHAPE
-title: _DXGKARG_SETPOINTERSHAPE
+title: "_DXGKARG_SETPOINTERSHAPE"
 author: windows-driver-content
 description: The DXGKARG_SETPOINTERSHAPE structure describes the appearance of the mouse pointer and the location that it should be displayed in.
 old-location: display\dxgkarg_setpointershape.htm
 old-project: display
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_setpointershape, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE
+ms.date: 2/24/2018
+ms.keywords: DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, _DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARG_SETPOINTERSHAPE
 product: Windows
 targetos: Windows
@@ -102,6 +102,7 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 ### -field pPixels
 
 [in] A pointer to the start of the following bitmap depending on the bit-field flag that is set in the <b>Flags</b> member:
+
 <table>
 <tr>
 <th>Bit-field flag</th>
@@ -152,7 +153,8 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field XHot
@@ -168,19 +170,25 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 ## -remarks
 
 
+
 The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers that are not associated with hardware, and these members can be ignored by drivers that control hardware. 
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
 
- 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SETPOINTERSHAPE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SETPOINTERSHAPE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
-title: _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+title: "_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 old-location: ieee\irb_req_isoch_allocate_resources_w2k.htm
 old-project: IEEE
 ms.assetid: 1192D655-7900-40B2-9D5F-480ACDB94624
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.irb_req_isoch_allocate_resources_w2k, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], IRB_REQ_ISOCH_ALLOCATE_RESOURCES, _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
+ms.date: 2/15/2018
+ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IEEE.irb_req_isoch_allocate_resources_w2k, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ typedef struct _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K {
 ### -field fulSpeed
 
 Specifies the connection speed to use for communication on the channel. The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware supports transfer rates of 100, 200, and 400 Mb/sec.
+
 <table>
 <tr>
 <th>Transfer Rate</th>
@@ -112,12 +113,16 @@ SPEED_FLAGS_400
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
+<div> </div>
 
 ### -field fulFlags
 
 Specifies how the bus driver should use any buffers attached to the resource handle. Many of the flags specify how the bus driver should configure the IEEE host controller for DMA from or to attached buffers.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -193,7 +198,8 @@ The driver owning this resource transfers frames of variable size.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field nChannel

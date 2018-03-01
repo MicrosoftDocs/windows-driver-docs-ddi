@@ -7,8 +7,8 @@ old-location: kernel\iostartnextpacket.htm
 old-project: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iostartnextpacket, k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, IoStartNextPacket routine [Kernel-Mode Driver Architecture], IoStartNextPacket, wdm/IoStartNextPacket
+ms.date: 2/24/2018
+ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoStartNextPacket
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies whether IRPs in the device queue can be canceled.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If there are no IRPs currently in the device queue for the target <i>DeviceObject</i>, this routine simply returns control to the caller.
@@ -101,19 +104,28 @@ Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Us
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
-
-<a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
 
 <a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartNextPacket routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartNextPacket routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

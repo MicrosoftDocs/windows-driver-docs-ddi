@@ -7,8 +7,8 @@ old-location: stream\transportaudioparms.htm
 old-project: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], PTRANSPORTAUDIOPARMS, tagTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, stream.transportaudioparms, ksmedia/TRANSPORTAUDIOPARMS
+ms.date: 2/23/2018
+ms.keywords: "*PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, tagTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	TRANSPORTAUDIOPARMS
 product: Windows
 targetos: Windows
@@ -99,6 +99,8 @@ Indicates the monitor source. The default is zero.
 ## -remarks
 
 
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
 
 

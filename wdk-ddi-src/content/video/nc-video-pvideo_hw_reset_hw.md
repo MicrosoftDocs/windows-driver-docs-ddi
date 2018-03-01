@@ -7,8 +7,8 @@ old-location: display\hwvidresethw.htm
 old-project: display
 ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.hwvidresethw, HwVidResetHw callback function [Display Devices], HwVidResetHw, PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW, video/HwVidResetHw, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml
+ms.date: 2/24/2018
+ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	HwVidResetHw
 product: Windows
 targetos: Windows
@@ -91,11 +91,14 @@ Specifies the number of rows of the mode to be set up.
 ## -returns
 
 
+
 <i>HwVidResetHw</i> should return <b>TRUE</b> if it completely resets the adapter to the given character mode. Otherwise, it should return <b>FALSE</b> to indicate that the HAL should perform the equivalent of an INT10, MODE3-type BIOS call after <i>HwVidResetHw</i> returns control.
 
 
 
+
 ## -remarks
+
 
 
 A video miniport driver must have a <i>HwVidResetHw</i> function if its adapter cannot be reset to a fully initialized state without a hard boot of the machine. For example, if the adapter's ROM initialization code cannot reset the adapter state to a boot-up mode, the miniport driver must have a <i>HwVidResetHw</i> function. Another reason the miniport driver must implement this function is to clean up the adapter's interrupt lines when the adapter is powered down, thereby avoiding a deluge of interrupts the next time the system boots.
@@ -114,21 +117,32 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
 
-<a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_reset_device.md">IOCTL_VIDEO_RESET_DEVICE</a>
 
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
+
+
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
- 
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_reset_device.md">IOCTL_VIDEO_RESET_DEVICE</a>
+
+
+
+<a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_RESET_HW callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_RESET_HW callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

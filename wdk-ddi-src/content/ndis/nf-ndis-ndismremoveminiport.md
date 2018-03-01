@@ -7,8 +7,8 @@ old-location: netvista\ndismremoveminiport.htm
 old-project: netvista
 ms.assetid: 70745b03-f9a3-4398-b41a-dc75bd16ffe0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisMRemoveMiniport, netvista.ndismremoveminiport, NdisMRemoveMiniport, miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisMRemoveMiniport, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, ndis/NdisMRemoveMiniport, netvista.ndismremoveminiport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMRemoveMiniport
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRemoveMiniport function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - MiniportAdapterHandle [in]
 
 The handle to the initialized miniport adapter that the miniport driver has determined is
@@ -85,7 +86,9 @@ The handle to the initialized miniport adapter that the miniport driver has dete
 ## -returns
 
 
+
 <b>NdisMRemoveMiniport</b> can return either of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +116,14 @@ An attempt to remove the miniport adapter failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If a miniport driver has determined that a particular miniport adapter has failed and is
@@ -128,5 +134,6 @@ If a miniport driver has determined that a particular miniport adapter has faile
 For example, if a miniport driver detects that a miniport adapter is resetting very frequently and is
     causing the computer to freeze every few seconds, the driver can request NDIS to remove the miniport
     adapter.
+
 
 

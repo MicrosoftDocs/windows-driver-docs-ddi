@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtoint16.htm
 old-project: kernel
 ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToInt16, RtlUIntPtrToInt16, kernel.rtluintptrtoint16
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrToInt16
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

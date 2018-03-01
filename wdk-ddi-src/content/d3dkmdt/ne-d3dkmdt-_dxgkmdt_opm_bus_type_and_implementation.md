@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
-title: _DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
+title: "_DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION"
 author: windows-driver-content
 description: The DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration contains values that indicate the type and implementation of the bus that connects a graphics adapter to a motherboard chipset's north bridge.
 old-location: display\dxgkmdt_opm_bus_type_and_implementation.htm
 old-project: display
 ms.assetid: 9023eee6-3832-4da6-8c11-319b048c8ada
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, DXGKMDT_OPM_BUS_TYPE_PCIX, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIX, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration [Display Devices], DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, DXGKMDT_OPM_BUS_TYPE_OTHER, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_OTHER, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, DXGKMDT_OPM_BUS_TYPE_AGP, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, DmEnums_32fcacb0-7c75-4614-8e2d-82fc5ffa68b5.xml, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AGP, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCI, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, DXGKMDT_OPM_BUS_TYPE_PCI, display.dxgkmdt_opm_bus_type_and_implementation, DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, _DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
+ms.date: 2/24/2018
+ms.keywords: DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, DXGKMDT_OPM_BUS_TYPE_AGP, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration [Display Devices], DXGKMDT_OPM_BUS_TYPE_OTHER, DXGKMDT_OPM_BUS_TYPE_PCI, DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, DXGKMDT_OPM_BUS_TYPE_PCIX, DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, DmEnums_32fcacb0-7c75-4614-8e2d-82fc5ffa68b5.xml, _DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AGP, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_OTHER, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCI, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIX, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, display.dxgkmdt_opm_bus_type_and_implementation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
 product: Windows
 targetos: Windows
@@ -141,6 +141,7 @@ This value can only be set if an OPM-protected output has COPP semantics and sho
 ## -remarks
 
 
+
 A graphics adapter's display miniport driver should use one bus type (DXGKMDT_OPM_BUS_TYPE_Xxx) and can also use one optional implementation modifier (DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_Xxx). A graphics adapter must report the DXGKMDT_OPM_BUS_TYPE_OTHER value if its bus cannot be described by any other bus-type value or a combination of a bus-type value and an implementation-modifier value.
 
 OPM stores a bus's characteristics in a 32-bit ULONG value. A graphics adapter's display miniport driver uses the bitwise OR operator (|) to combine a bus-type value, an optional implementation-modifier value, and, possibly, the DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD flag. The DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD value is optional and is set only if an implementation-modifier value is set. This 32-bit ULONG is used when the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) passes the DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE GUID in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> function. The driver sets this 32-bit ULONG in the <b>ulInformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a> structure that is retrieved in the <i>DxgkDdiOPMGetInformation</i> or <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> call. For more information about retrieving the graphics adapter's bus type, see the <a href="https://msdn.microsoft.com/20e268b8-fea0-48dd-a3cd-3cbb4233ef99">Retrieving Information about a Protected Output</a> or <a href="https://msdn.microsoft.com/9114f232-4123-47a8-b43d-62d14b9f6b08">Retrieving COPP-Compatible Information about a Protected Output</a> section.
@@ -149,17 +150,24 @@ When a bus-type value (for example, DXGKMDT_OPM_BUS_TYPE_PCI) is combined with a
 
 
 
-## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
- 
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

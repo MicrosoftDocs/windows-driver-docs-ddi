@@ -7,8 +7,8 @@ old-location: print\oemlineto.htm
 old-project: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMLineTo function [Print Devices], print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, print.oemlineto, OEMLineTo, printoem/OEMLineTo
+ms.date: 2/23/2018
+ms.keywords: OEMLineTo, OEMLineTo function [Print Devices], print.oemlineto, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, printoem/OEMLineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMLineTo
 product: Windows
 targetos: Windows
@@ -79,35 +79,26 @@ BOOL APIENTRY OEMLineTo(
 ### -param pso
 
 
-
 ### -param pco
-
 
 
 ### -param pbo
 
 
-
 ### -param x1
-
 
 
 ### -param y1
 
 
-
 ### -param x2
-
 
 
 ### -param y2
 
 
-
 ### -param prclBounds
 
 
-
 ### -param mix
-
 

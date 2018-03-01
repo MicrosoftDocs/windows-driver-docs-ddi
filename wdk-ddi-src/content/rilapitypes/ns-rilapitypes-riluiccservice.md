@@ -7,8 +7,8 @@ old-location: netvista\riluiccservice_2.htm
 old-project: netvista
 ms.assetid: ffd61de0-652a-4174-a0d2-d53c28180ea5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccservice_2, RILUICCSERVICE, rilapitypes/RILUICCSERVICE, *LPRILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCSERVICE, RILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], netvista.riluiccservice_2, rilapitypes/RILUICCSERVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILUICCSERVICE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCSERVICE, RILUICCSERVICE
+req.typenames: RILUICCSERVICE, *LPRILUICCSERVICE
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILUICCSERVICE {
 ### -field hUiccApp
 
 
-
 ### -field dwService
-
 

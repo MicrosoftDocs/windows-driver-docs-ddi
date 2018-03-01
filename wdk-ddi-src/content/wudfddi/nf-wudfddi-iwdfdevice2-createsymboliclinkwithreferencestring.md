@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
 old-project: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: CreateSymbolicLinkWithReferenceString, IWDFDevice2::CreateSymbolicLinkWithReferenceString, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, CreateSymbolicLinkWithReferenceString method, IWDFDevice2, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface
+ms.date: 2/20/2018
+ms.keywords: CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString,IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDevice2.CreateSymbolicLinkWithReferenceString
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to a <b>NULL</b>-terminated character string that Windows appends to t
 ## -returns
 
 
+
 <b>CreateSymbolicLinkWithReferenceString</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,13 +114,16 @@ The memory allocation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 <b>CreateSymbolicLinkWithReferenceString</b> creates a symbolic link name, and optionally a reference string, for the device that the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface represents. After a driver calls <b>CreateSymbolicLinkWithReferenceString</b>, applications can use the symbolic link name to access the device.
@@ -132,16 +137,81 @@ If the device is removed unexpectedly (surprise-removed), the framework removes 
 If you do not need to add a reference string to your device's symbolic link name, your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a> instead of <b>CreateSymbolicLinkWithReferenceString</b>.
 
 
+#### Examples
+
+
+          The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
+        
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define SYMBOLIC_LINK_NAME_PREFIX   L"\\DosDevices\\Global\\"</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example creates a symbolic name string, obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface, and then calls <b>CreateSymbolicLinkWithReferenceString</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+    IWDFDevice2 *pDevice2 = NULL;
+    HRESULT hr;
+
+    //
+    // Create symbolic link name string.
+    //
+    hr = StringCchPrintf(portFullName,
+                         portFullNameLength,
+                         L"%ws%ws",
+                         SYMBOLIC_LINK_NAME_PREFIX,
+                         portName);
+    if (FAILED(hr))
+    {
+        goto Exit;
+    }
+
+    //
+    // Get a pointer to the IWDFDevice2 interface.
+    //
+    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
+                                     (void**) &amp;pDevice2);
+    if (SUCCEEDED(hr)) 
+    {
+    hr = pDevice2-&gt;CreateSymbolicLinkWithReferenceString(portFullName,
+                                                         portCountString);
+    if (FAILED(hr))
+        {
+            goto Exit;
+        }
+        SAFE_RELEASE(pDevice2);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateSymbolicLinkWithReferenceString method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateSymbolicLinkWithReferenceString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

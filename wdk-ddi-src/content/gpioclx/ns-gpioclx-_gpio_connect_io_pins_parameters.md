@@ -1,14 +1,14 @@
 ---
 UID: NS:gpioclx._GPIO_CONNECT_IO_PINS_PARAMETERS
-title: _GPIO_CONNECT_IO_PINS_PARAMETERS
+title: "_GPIO_CONNECT_IO_PINS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_CONNECT_IO_PINS_PARAMETERS structure describes a logical connection to a set of general-purpose I/O (GPIO) pins and specifies whether to configure these pins as data inputs or outputs.
 old-location: gpio\gpio_connect_io_pins_parameters.htm
 old-project: GPIO
 ms.assetid: C8A156F4-3150-4241-947E-B0A6927F2BFE
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PGPIO_CONNECT_IO_PINS_PARAMETERS, _GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS, *PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], GPIO.gpio_connect_io_pins_parameters, gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS
+ms.date: 2/15/2018
+ms.keywords: "*PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO.gpio_connect_io_pins_parameters, GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS, PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Gpioclx.h
-apiname: 
+api_name:
 -	GPIO_CONNECT_IO_PINS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS
+req.typenames: GPIO_CONNECT_IO_PINS_PARAMETERS, *PGPIO_CONNECT_IO_PINS_PARAMETERS
 ---
 
 # _GPIO_CONNECT_IO_PINS_PARAMETERS structure
@@ -99,12 +99,14 @@ Whether the GPIO pins in the new connection should be configured as inputs or as
 ### -field PullConfiguration
 
 Whether the GPIO pin is pulled up or pulled down. This member is typically set to one of the following system-defined constants:
+
 <ul>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLDEFAULT</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLUP</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLDOWN</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLNONE</b></li>
-</ul>If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>.
+</ul>
+If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>.
 
 
 ### -field DebounceTimeout
@@ -135,25 +137,37 @@ A set of flags that control the configuration of the GPIO pins. No flags are cur
 ## -remarks
 
 
+
 The <i>ClientParameters</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a> event callback routine is a pointer to a <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
+
+
+
 <a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439505">GPIO_CONNECT_IO_PINS_MODE</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CONNECT_IO_PINS_PARAMETERS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CONNECT_IO_PINS_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

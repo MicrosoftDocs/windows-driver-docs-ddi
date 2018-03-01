@@ -7,8 +7,8 @@ old-location: display\createvideoprocessor1.htm
 old-project: display
 ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.createvideoprocessor1, CreateVideoProcessor callback function [Display Devices], CreateVideoProcessor, PFND3D11_1DDI_CREATEVIDEOPROCESSOR, PFND3D11_1DDI_CREATEVIDEOPROCESSOR, d3d10umddi/CreateVideoProcessor, display.pfncreatevideoprocessor1
+ms.date: 2/24/2018
+ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOR, d3d10umddi/CreateVideoProcessor, display.createvideoprocessor1, display.pfncreatevideoprocessor1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	CreateVideoProcessor
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback
@@ -76,13 +76,10 @@ HRESULT APIENTRY* CreateVideoProcessor(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param D3D11_1DDI_HRTVIDEOPROCESSOR
@@ -92,14 +89,6 @@ HRESULT APIENTRY* CreateVideoProcessor(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
-
-
-#### - hRTVideoProcessor [in]
-
-A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - hDevice [in]
@@ -109,15 +98,27 @@ A handle to the display device (graphics context).
 
 
 
+#### - hRTVideoProcessor [in]
+
+A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
+
+
 #### - hVideoProcessor [in]
 
 A handle to the driver's private data for the video processor object. For more information, see the Remarks section.
 
 
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
+
+
 ## -returns
 
 
+
 <b>CreateVideoProcessor</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>CreateVideoProcessor</i> function creates a video processor object that contains specific capabilities and state.  Multiple video processor objects can exist at the same time, each with its own unique state.
@@ -172,15 +176,20 @@ When the runtime  calls <i>CreateVideoProcessor</i>, it passes the handle to the
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorSize</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

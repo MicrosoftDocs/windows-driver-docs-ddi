@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestgetparameters.htm
 old-project: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, PFN_WDFREQUESTGETPARAMETERS, kmdf.wdfrequestgetparameters, WdfRequestGetParameters, wdfrequest/WdfRequestGetParameters, WdfRequestGetParameters method, wdf.wdfrequestgetparameters
+ms.date: 2/20/2018
+ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRequestGetParameters
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_reques
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -95,7 +96,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A driver cannot retrieve parameters from a driver-created request by calling <b>WdfRequestGetParameters</b>  because the framework does not allocate a stack location for the current driver.
@@ -103,18 +106,31 @@ A driver cannot retrieve parameters from a driver-created request by calling <b>
 For more information about <b>WdfRequestGetParameters</b>, see <a href="https://msdn.microsoft.com/a686ea00-6987-480a-a4ce-892e1efbed87">Obtaining Information About an I/O Request</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
 
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestGetParameters method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestGetParameters method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

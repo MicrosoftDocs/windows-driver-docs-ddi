@@ -7,8 +7,8 @@ old-location: storage\scsiwmiguidreginfo.htm
 old-project: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: scsiwmi/PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, SCSIWMIGUIDREGINFO structure [Storage Devices], *PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], storage.scsiwmiguidreginfo
+ms.date: 2/24/2018
+ms.keywords: "*PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsiwmi.h
-apiname: 
+api_name:
 -	SCSIWMIGUIDREGINFO
 product: Windows
 targetos: Windows
-req.typenames: *PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO
+req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
 req.product: Windows 10 or later.
 ---
 
@@ -87,22 +87,26 @@ Indicates characteristics of the block. The SCSI port driver sets all but the fo
 
 
 
-##### - Flags.WMIREG_FLAG_EVENT_ONLY_GUID
+
+#### WMIREG_FLAG_EVENT_ONLY_GUID
 
 The block can be enabled or disabled as an event only, and cannot be queried or set. If this flag is clear, the block can also be queried or set. 
 
 
-##### - Flags.WMIREG_FLAG_REMOVE_GUID
 
-Removes support for a previously registered block when set.
-
-
-##### - Flags.WMIREG_FLAG_EXPENSIVE
+#### WMIREG_FLAG_EXPENSIVE
 
 Requests the port driver send an enable-collection SRB the first time a data consumer opens the data block and a disable-collection SRB when the last data consumer closes the data block. This is recommended if collecting such data affects performance. A miniport driver need not collect the data until a data consumer explicitly requests it by opening the block. 
 
 
+
+#### WMIREG_FLAG_REMOVE_GUID
+
+Removes support for a previously registered block when set.
+
+
 ## -remarks
+
 
 
 The miniport driver passes a pointer to a SCSI_WMILIB_CONTEXT which contains a SCSIWMIREGGUID array in the <i>WmiLibInfo</i> parameter of <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. The miniport driver passes this information each time it calls <b>ScsiPortWmiDispatchFunction</b>. Each SCSIWMIREGGUID structure in the array represents one of the miniport driver's data or event blocks. 
@@ -113,17 +117,24 @@ For more information about defining blocks, <a href="https://msdn.microsoft.com/
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557344">HwScsiWmiQueryReginfo</a>
+## -see-also
 
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
- 
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md">HwScsiWmiQueryReginfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSIWMIGUIDREGINFO structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSIWMIGUIDREGINFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

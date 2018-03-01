@@ -7,8 +7,8 @@ old-location: netvista\ndisopenconfigurationkeybyindex.htm
 old-project: netvista
 ms.assetid: e405853a-cf25-4214-82a9-bc3d76334413
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], netvista.ndisopenconfigurationkeybyindex, ndis/NdisOpenConfigurationKeyByIndex
+ms.date: 2/16/2018
+ms.keywords: NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByIndex, ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, netvista.ndisopenconfigurationkeybyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisOpenConfigurationKeyByIndex
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisOpenConfigurationKeyByIndex function
@@ -83,12 +83,26 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+NDIS has initialized accessed to the subkey specified by 
+       <i>KeyName</i> and 
+       <i>Index</i> .
+
+
+
+#### NDIS_STATUS_FAILURE
+
+The key could not be opened.
+
+
 ### -param ConfigurationHandle [in]
 
 The handle to a registry key for which a subkey is to be opened. Typically, 
      <i>ConfigurationHandle</i> is returned by the 
-     <mshelp:link keywords="netvista.ndisopenconfigurationex" tabindex="0"><b>
-     NdisOpenConfigurationEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     NdisOpenConfigurationEx</a> function.
 
 
 ### -param Index [in]
@@ -113,26 +127,17 @@ A pointer to a caller-supplied variable in which this function returns a handle 
      subkey if the call succeeds.
 
 
-##### - Status.NDIS_STATUS_FAILURE
-
-The key could not be opened.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-NDIS has initialized accessed to the subkey specified by 
-       <i>KeyName</i> and 
-       <i>Index</i> .
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisOpenConfigurationKeyByIndex</b> allows a driver to access configuration information that its
@@ -168,30 +173,49 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
-   NdisOpenConfigurationKeyByName</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
- 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenConfigurationKeyByIndex function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenConfigurationKeyByIndex function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\miracast_datarate_stats.htm
 old-project: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: MIRACAST_DATARATE_STATS structure [Display Devices], netdispumdddi/MIRACAST_DATARATE_STATS, display.miracast_datarate_stats, MIRACAST_DATARATE_STATS
+ms.date: 2/24/2018
+ms.keywords: MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices], display.miracast_datarate_stats, netdispumdddi/MIRACAST_DATARATE_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Netdispumdddi.h
-apiname: 
+api_name:
 -	MIRACAST_DATARATE_STATS
 product: Windows
 targetos: Windows

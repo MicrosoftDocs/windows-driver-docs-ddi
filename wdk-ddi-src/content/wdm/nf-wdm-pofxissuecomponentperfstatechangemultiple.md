@@ -7,8 +7,8 @@ old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
 old-project: kernel
 ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pofxissuecomponentperfstatechangemultiple, PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], PoFxIssueComponentPerfStateChangeMultiple, PO_FX_FLAG_BLOCKING
+ms.date: 2/24/2018
+ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechangemultiple, wdm/PoFxIssueComponentPerfStateChangeMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Ntoskrnl.exe
-apiname: 
+api_name:
 -	PoFxIssueComponentPerfStateChangeMultiple
 product: Windows
 targetos: Windows
@@ -83,6 +83,7 @@ A handle that represents the registration of the device with PoFx. The device dr
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,12 +111,13 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param PerfChangesCount [in]
@@ -125,7 +127,7 @@ The number of performance state change requests contained in the <i>PerfChanges<
 
 ### -param PerfChanges [in]
 
-The first element in an array of <a href="..\wdm\ns-wdm-_po_fx_perf_state_change.md">PO_FX_PERF_STATE_CHANGE</a> structures that represent the performance states the driver intends to transition to. Each array element represents a single performance state change request. 
+The first element in an array of <a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state_change.md">PO_FX_PERF_STATE_CHANGE</a> structures that represent the performance states the driver intends to transition to. Each array element represents a single performance state change request. 
 
 
 ### -param Context [in]
@@ -136,15 +138,18 @@ A pointer to the context for the <a href="https://msdn.microsoft.com/library/win
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver calls <b>PoFxIssueComponentPerfStateChangeMultiple</b>, the power management framework (PoFx) will request the platform extension plug-in (PEP) to place 
-    the component's performance state sets in the specified performance states. This routine may be used with both discrete and range-based types of performance state sets. For more information about discrete and range-based performance state sets, see <a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>.
+    the component's performance state sets in the specified performance states. This routine may be used with both discrete and range-based types of performance state sets. For more information about discrete and range-based performance state sets, see <a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>.
 
 If <i>Flags</i> = <b>PO_FX_FLAG_BLOCKING</b>, the <b>PoFxIssueComponentPerfStateChangeMultiple</b> call is synchronous. In this case, <b>PoFxIssueComponentPerfStateChangeMultiple</b> waits to return until the component completes the performance state transition. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a> routine is called to inform the driver that the component's performance state change is complete. This callback occurs in the same thread as the call to <b>PoFxIssueComponentPerfStateChangeMultiple</b>, and <b>PoFxIssueComponentPerfStateChangeMultiple</b> returns only after the <i>ComponentPerfStateCallback</i> callback returns.
 
@@ -160,21 +165,32 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChangeMultiple</b> routi
 
 
 
-## -see-also
 
-<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+
+
 
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIssueComponentPerfStateChangeMultiple routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIssueComponentPerfStateChangeMultiple routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilmsgoutsubmitvpformat_2.htm
 old-project: netvista
 ms.assetid: aa383bc9-935d-4883-929d-4ea58a1bf2c9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGVP_RELATIVE, RIL_MSGVP_ENHANCED, rilapitypes/RILMSGOUTSUBMITVPFORMAT, rilapitypes/RIL_MSGVP_ENHANCED, RIL_MSGVP_RELATIVE, RIL_MSGVP_ABSOLUTE, RILMSGOUTSUBMITVPFORMAT, rilapitypes/RIL_MSGVP_ABSOLUTE, RIL_MSGVP_MAX, netvista.rilmsgoutsubmitvpformat_2, rilapitypes/RIL_MSGVP_MAX, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat_2, rilapitypes/RILMSGOUTSUBMITVPFORMAT, rilapitypes/RIL_MSGVP_ABSOLUTE, rilapitypes/RIL_MSGVP_ENHANCED, rilapitypes/RIL_MSGVP_MAX, rilapitypes/RIL_MSGVP_RELATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGOUTSUBMITVPFORMAT
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGOUTSUBMITVPFORMAT {
 ### -field RIL_MSGVP_NONE
 
 
-
 ### -field RIL_MSGVP_RELATIVE
-
 
 
 ### -field RIL_MSGVP_ENHANCED
 
 
-
 ### -field RIL_MSGVP_ABSOLUTE
 
 
-
 ### -field RIL_MSGVP_MAX
-
 

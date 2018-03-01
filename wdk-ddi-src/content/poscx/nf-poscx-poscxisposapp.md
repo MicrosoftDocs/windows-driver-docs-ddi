@@ -7,8 +7,8 @@ old-location: pos\poscxisposapp.htm
 old-project: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PosCxIsPosApp, poscx/PosCxIsPosApp, pos.poscxisposapp, PosCxIsPosApp function
+ms.date: 2/23/2018
+ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	PosCxIsPosApp
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ A handle to a framework file object that identifies the caller, usually acquired
 ## -returns
 
 
+
 Returns TRUE if <i>fileObject</i> is associated with a point-of-service application. Otherwise, returns FALSE.
+
 
 

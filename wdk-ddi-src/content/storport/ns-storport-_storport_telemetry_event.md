@@ -1,14 +1,14 @@
 ---
 UID: NS:storport._STORPORT_TELEMETRY_EVENT
-title: _STORPORT_TELEMETRY_EVENT
+title: "_STORPORT_TELEMETRY_EVENT"
 author: windows-driver-content
 description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telemetry data payload.
 old-location: storage\storport_telemetry_event.htm
 old-project: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT, storport/PSTORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, STORPORT_TELEMETRY_EVENT structure [Storage Devices], STORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], _STORPORT_TELEMETRY_EVENT
+ms.date: 2/24/2018
+ms.keywords: "*PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	STORPORT_TELEMETRY_EVENT
 product: Windows
 targetos: Windows
@@ -210,7 +210,9 @@ The value for parameter 7.
 ## -remarks
 
 
+
 A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry data payload. The miniport should fill it when calling StorPortLogTelemetry.
+
 
 
 
@@ -218,9 +220,11 @@ A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry dat
 
 <a href="..\storport\nf-storport-storportlogtelemetry.md">StorPortLogTelemetry</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORPORT_TELEMETRY_EVENT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORPORT_TELEMETRY_EVENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

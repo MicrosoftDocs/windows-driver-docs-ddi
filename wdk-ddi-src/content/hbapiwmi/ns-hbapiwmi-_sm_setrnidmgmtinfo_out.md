@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_SetRNIDMgmtInfo_OUT
-title: _SM_SetRNIDMgmtInfo_OUT
+title: "_SM_SetRNIDMgmtInfo_OUT"
 author: windows-driver-content
 description: The SM_SetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_out.htm
 old-project: storage
 ms.assetid: 30bb4e82-3a51-4d58-87aa-2e1545a9244f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-Fibre_c416e571-7970-4856-937a-a8bd546d8d3d.xml, *PSM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT structure pointer [Storage Devices], hbapiwmi/SM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT, storage.sm_setrnidmgmtinfo_out, SM_SetRNIDMgmtInfo_OUT structure [Storage Devices], hbapiwmi/PSM_SetRNIDMgmtInfo_OUT, _SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PSM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_SetRNIDMgmtInfo_OUT, hbapiwmi/PSM_SetRNIDMgmtInfo_OUT, hbapiwmi/SM_SetRNIDMgmtInfo_OUT, storage.sm_setrnidmgmtinfo_out, structs-Fibre_c416e571-7970-4856-937a-a8bd546d8d3d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_SetRNIDMgmtInfo_OUT
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SetRNIDMgmtInfo_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

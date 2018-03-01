@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FILE_GET_QUOTA_INFORMATION
-title: _FILE_GET_QUOTA_INFORMATION
+title: "_FILE_GET_QUOTA_INFORMATION"
 author: windows-driver-content
 description: The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information.
 old-location: ifsk\file_get_quota_information.htm
 old-project: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PFILE_GET_QUOTA_INFORMATION, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, _FILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: "*PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FILE_GET_QUOTA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION
+req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 ---
 
 # _FILE_GET_QUOTA_INFORMATION structure
@@ -87,27 +87,39 @@ Security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) whose quota in
 ## -remarks
 
 
+
 The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>-structured buffer. 
 
 This structure must be aligned on a LONG (4-byte) boundary. 
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
+
+
+<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_GET_QUOTA_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_GET_QUOTA_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

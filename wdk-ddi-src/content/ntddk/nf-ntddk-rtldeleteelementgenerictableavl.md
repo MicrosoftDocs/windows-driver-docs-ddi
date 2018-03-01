@@ -7,8 +7,8 @@ old-location: ifsk\rtldeleteelementgenerictableavl.htm
 old-project: ifsk
 ms.assetid: 700412A3-5905-4401-BA65-C2DE1613398D
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl
+ms.date: 2/16/2018
+ms.keywords: RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlDeleteElementGenericTableAvl
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDeleteElementGenericTableAvl function
@@ -81,11 +81,14 @@ A pointer to a caller-allocated buffer containing a value that uniquely identifi
 ## -returns
 
 
+
 <b>RtlDeleteElementGenericTableAvl</b> returns <b>TRUE</b> if the element was successfully deleted, <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 <b>RtlDeleteElementGenericTableAvl</b> calls the <i>CompareRoutine</i> and <i>FreeRoutine</i> that were registered in the call to <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>. 
@@ -99,6 +102,7 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 Callers of the <i>Rtl..GenericTableAvl</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
 Callers of <b>RtlDeleteElementGenericTableAvl</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
+
 <ul>
 <li>
 The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.
@@ -111,15 +115,20 @@ The caller-supplied <i>CompareRoutine</i> or <i>FreeRoutine</i> contains pageabl
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDeleteElementGenericTableAvl routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDeleteElementGenericTableAvl routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

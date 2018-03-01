@@ -1,14 +1,14 @@
 ---
 UID: NS:video._VIDEO_PORT_I2C_INTERFACE
-title: _VIDEO_PORT_I2C_INTERFACE
+title: "_VIDEO_PORT_I2C_INTERFACE"
 author: windows-driver-content
 description: The VIDEO_PORT_I2C_INTERFACE structure describes the I2C service routines provided by the video port driver.
 old-location: display\video_port_i2c_interface.htm
 old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/VIDEO_PORT_I2C_INTERFACE, video/PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _VIDEO_PORT_I2C_INTERFACE
+ms.date: 2/24/2018
+ms.keywords: "*PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _VIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE, video/VIDEO_PORT_I2C_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	VIDEO_PORT_I2C_INTERFACE
 product: Windows
 targetos: Windows
@@ -124,19 +124,25 @@ Pointer to the video port driver's <a href="..\video\nc-video-pi2c_read.md">I2CR
 ## -remarks
 
 
+
 PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_I2C_INTERFACE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_I2C_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

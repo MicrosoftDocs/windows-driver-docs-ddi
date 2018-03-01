@@ -7,8 +7,8 @@ old-location: storage\dvd_key_type.htm
 old-project: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DvdDiskKey, DvdChallengeKey, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdBusKey2, DvdSetRpcKey, DvdAsf, DVD_KEY_TYPE enumeration [Storage Devices], ntddcdvd/DVD_KEY_TYPE, ntddcdvd/DvdAsf, ntddcdvd/DvdTitleKey, DvdBusKey2, ntddcdvd/DvdBusKey1, DvdBusKey1, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdDiskKey, DVD_KEY_TYPE, ntddcdvd/DvdInvalidateAGID, DvdTitleKey, storage.dvd_key_type, DvdInvalidateAGID, DvdGetRpcKey, ntddcdvd/DvdGetRpcKey
+ms.date: 2/24/2018
+ms.keywords: DVD_KEY_TYPE, DVD_KEY_TYPE enumeration [Storage Devices], DvdAsf, DvdBusKey1, DvdBusKey2, DvdChallengeKey, DvdDiskKey, DvdGetRpcKey, DvdInvalidateAGID, DvdSetRpcKey, DvdTitleKey, ntddcdvd/DVD_KEY_TYPE, ntddcdvd/DvdAsf, ntddcdvd/DvdBusKey1, ntddcdvd/DvdBusKey2, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdDiskKey, ntddcdvd/DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdTitleKey, storage.dvd_key_type, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdvd.h
-apiname: 
+api_name:
 -	DVD_KEY_TYPE
 product: Windows
 targetos: Windows
@@ -123,9 +123,11 @@ Invalidates the specified authentication grant ID (AGID).
 ## -remarks
 
 
+
 The driver for the DVD device uses the key type specified in this enumeration type to determine the key format in a report key command, as defined by the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. A report key command can either report key data for a specified key (challenge key, bus key, title key, RPC key, or disc key), or the state of the ASF flag. It can also invalidate an AGID. See the <i>MMC-3 </i>specification for further information. 
 
 Drivers can issue a report key command to retrieve key data by means of an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> request. 
+
 
 
 
@@ -133,13 +135,19 @@ Drivers can issue a report key command to retrieve key data by means of an <a hr
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_send_key.md">IOCTL_DVD_SEND_KEY</a>
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
+
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
 
- 
+
+
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_KEY_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_KEY_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

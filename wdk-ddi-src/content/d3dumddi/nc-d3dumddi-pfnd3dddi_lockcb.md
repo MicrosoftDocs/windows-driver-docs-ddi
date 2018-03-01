@@ -7,8 +7,8 @@ old-location: display\pfnlockcb.htm
 old-project: display
 ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnlockcb, pfnLockCb callback function [Display Devices], pfnLockCb, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB, d3dumddi/pfnLockCb, D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml
+ms.date: 2/24/2018
+ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnLockCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a> structure that describes the allocation to lock.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK
 ## -returns
 
 
+
 <i>pfnLockCb</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -182,16 +186,20 @@ The allocation could not be locked because of the unavailability of a deswizzlin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 
 
 ## -remarks
 
 
+
 The user-mode display driver can call the Microsoft Direct3D runtime's <i>pfnLockCb</i> function to lock an allocation and obtain a pointer to the allocation from the display miniport driver or video memory manager. The user-mode display driver typically calls <i>pfnLockCb</i> in response to a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> or <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function (or other variations of <b>ResourceMap</b> such as <i>DynamicIABufferMapDiscard</i>) to lock a resource or a surface within the resource. Before returning from the <b>Lock</b> or <b>ResourceMap</b> call, the user-mode display driver must first map the resource or surface to the appropriate allocation and then call <i>pfnLockCb</i> to lock the allocation. The allocation must be locked before it can be read from or written to because locking: 
+
 <ul>
 <li>
 Guarantees that the virtual address range for the allocation remains unchanged, valid, readable, and writable for the duration of the lock. The video memory manager provides this guarantee. 
@@ -201,7 +209,8 @@ Guarantees that the virtual address range for the allocation remains unchanged, 
 Provides a way to synchronize the read and write operations of the allocation with graphics hardware accesses of the allocation. The video memory manager and display miniport driver perform the synchronization. 
 
 </li>
-</ul><b>Direct3D Version 9 Note:  </b><p class="note">  The user-mode display driver usually calls the <i>pfnLockCb</i> and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a> functions that correspond to every call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a> functions, respectively, except when the driver handles resources in which the <b>Dynamic</b> bit-field flag was set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure when the resources were created. The runtime frequently requests that the driver lock these types of resources, often with the <b>NoOverwrite</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a> structure. Because data in such resources should not be modified (as indicated by <b>NoOverwrite</b>), calling <i>pfnLockCb</i> for each lock request consumes excessive processing time. To prevent calling <i>pfnLockCb</i> for each lock request, the driver can cache the virtual memory pointer that it returns in the <b>pSurfData</b> member of D3DDDIARG_LOCK when its <b>Lock</b> function is called with the <b>NoOverwrite</b> bit-field flag set. However, the driver can continue to call <i>pfnLockCb</i> whenever its <b>Lock</b> function is called with either the <b>Discard</b> bit-field flag set or no flags set.
+</ul>
+<b>Direct3D Version 9 Note:  </b><p class="note">  The user-mode display driver usually calls the <i>pfnLockCb</i> and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a> functions that correspond to every call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a> functions, respectively, except when the driver handles resources in which the <b>Dynamic</b> bit-field flag was set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure when the resources were created. The runtime frequently requests that the driver lock these types of resources, often with the <b>NoOverwrite</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a> structure. Because data in such resources should not be modified (as indicated by <b>NoOverwrite</b>), calling <i>pfnLockCb</i> for each lock request consumes excessive processing time. To prevent calling <i>pfnLockCb</i> for each lock request, the driver can cache the virtual memory pointer that it returns in the <b>pSurfData</b> member of D3DDDIARG_LOCK when its <b>Lock</b> function is called with the <b>NoOverwrite</b> bit-field flag set. However, the driver can continue to call <i>pfnLockCb</i> whenever its <b>Lock</b> function is called with either the <b>Discard</b> bit-field flag set or no flags set.
 
 
 
@@ -212,7 +221,10 @@ Provides a way to synchronize the read and write operations of the allocation wi
 While the application does not hold an outstanding lock to the resource that is associated with the virtual memory pointer, the driver typically uncaches the virtual memory pointer by calling the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a> function before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function. If the lock is not uncached or if the lock cannot be uncached because the application still has the resource locked, the hardware might render from a locked allocation. The video memory manager cannot support this mode of operation if the allocation is in local video memory; therefore, the memory manager evicts the allocation to system or AGP memory when the memory manager detects this situation. If the allocation is not supported in the system or AGP memory segment, the memory manager fails the call to <i>pfnRenderCb</i> with D3DDDIERR_CANTRENDERLOCKEDALLOCATION. Therefore, vertex and index buffer allocations that are allocated in response to creating resources in which the <b>Dynamic</b> bit-field flag is set in the <b>Flags</b> member of D3DDDIARG_CREATERESOURCE (or the D3D10_DDI_USAGE_DYNAMIC value is set in the <b>Usage</b> member of D3D10DDIARG_CREATERESOURCE or D3D11DDIARG_CREATERESOURCE) should be supported in system or AGP segments.
 
 Setting the <b>Discard</b> bit-field flag in the <b>Flags</b> member of <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a> in a call to <i>pfnLockCb</i> causes the video memory manager to create a new instance of the allocation that is being locked. The video memory manager represents the new instance by returning a new handle to the user-mode display driver in the <b>hAllocation</b> member of D3DDDICB_LOCK. 
-<div class="alert"><b>Note</b>    The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function is not called when a new instance of an allocation is created. Instances appear to the display miniport driver as allocations that are simultaneously paged in to multiple different locations.</div><div> </div>The video memory manager might fail a lock in which the <b>Discard</b> bit-field flag is set because the video memory manager cannot create a new instance or reuse an existing instance of an allocation. When this failure occurs, the user-mode display driver should call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function to flush its current command buffer to the kernel. This flush of the command buffer might retire some instances of the allocation that could not be locked by using the <b>Discard</b> bit-field flag. 
+
+<div class="alert"><b>Note</b>    The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function is not called when a new instance of an allocation is created. Instances appear to the display miniport driver as allocations that are simultaneously paged in to multiple different locations.</div>
+<div> </div>
+The video memory manager might fail a lock in which the <b>Discard</b> bit-field flag is set because the video memory manager cannot create a new instance or reuse an existing instance of an allocation. When this failure occurs, the user-mode display driver should call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function to flush its current command buffer to the kernel. This flush of the command buffer might retire some instances of the allocation that could not be locked by using the <b>Discard</b> bit-field flag. 
 
 After flushing its command buffer, the user-mode display driver must try locking the surface again by using both the <b>Discard</b> and <b>NoExistingReference</b> bit-field flags. The <b>NoExistingReference</b> bit-field flag indicates to the video memory manager that the driver does not currently have a reference to any instance of the allocation that is being locked queued in its command buffer. The video memory manager can then reuse any instance of the allocation to handle the lock, including the current instance.
 
@@ -229,6 +241,7 @@ When the user-mode display driver requests that a swizzling range be assigned to
 The user-mode display driver might lock a swizzled allocation without acquiring a swizzling range if the driver must access the bits of the allocation in a swizzled format. In this situation, the video memory manager provides the driver with a pointer to the swizzled bits of the allocation. However, the driver cannot request a pointer to the swizzled bits of the allocation while a request for the unswizzled bits is outstanding, and vice versa (that is, a lock is currently pending on the allocation with a swizzling range acquired).
 
 The user-mode display driver should pass the <b>Discard</b> bit-field flag in the <b>Flags</b> member of D3DDDICB_LOCK in the <i>pfnLockCb</i> call in the following situations: 
+
 <ul>
 <li>
 When the Direct3D runtime passes the <b>Discard</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a> structure in the call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function
@@ -238,11 +251,19 @@ When the Direct3D runtime passes the <b>Discard</b> bit-field flag in the <b>Fla
 When the runtime passes the D3D10_DDI_MAP_WRITE_DISCARD value to the <i>DDIMap</i> parameter in the call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function 
 
 </li>
-</ul>Setting the <b>Discard</b> bit-field flag causes the memory manager to determine if it should rename the allocation or should cause the application thread to stall until the allocation is idle. For more information about renaming an allocation, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>. The driver can use its own renaming support or the memory manager's renaming support. To use its own renaming support, the driver sets the <b>DonotWait</b> bit-field flag, in response to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> call with the <b>Discard</b> bit-field flag set, or in response to a <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> call with the D3D10_DDI_MAP_WRITE_DISCARD value set. Setting the <b>DonotWait</b> bit-field flag causes the memory manager to fail the call to <i>pfnLockCb</i> with D3DERR_WASSTILLDRAWING if the graphics hardware is still using the allocation. Such a failure indicates to the user-mode display driver to rename or multiple-buffer the allocation. 
-<div class="alert"><b>Note</b>    The <b>DonotWait</b> bit-field flag has no effect on the memory manager if the <b>Discard</b> bit-field flag is also set.</div><div> </div>The user-mode display driver should set the <b>IgnoreSync</b> bit-field flag in the <b>Flags</b> member of D3DDDICB_LOCK when it does not require the memory manager to check whether the graphics hardware is using the allocation. The user-mode display driver must then properly synchronize access to the allocation. If the <b>DonotWait</b> bit-field flag is not specified with the <b>IgnoreSync</b> bit-field flag, the memory manager ignores the <b>IgnoreSync</b> bit-field flag.
-<div class="alert"><b>Note</b>    The <b>IgnoreSync</b> bit-field flag has no effect on the memory manager if the <b>Discard</b> bit-field flag is also set.</div><div> </div><b>Example</b>
+</ul>
+Setting the <b>Discard</b> bit-field flag causes the memory manager to determine if it should rename the allocation or should cause the application thread to stall until the allocation is idle. For more information about renaming an allocation, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>. The driver can use its own renaming support or the memory manager's renaming support. To use its own renaming support, the driver sets the <b>DonotWait</b> bit-field flag, in response to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> call with the <b>Discard</b> bit-field flag set, or in response to a <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> call with the D3D10_DDI_MAP_WRITE_DISCARD value set. Setting the <b>DonotWait</b> bit-field flag causes the memory manager to fail the call to <i>pfnLockCb</i> with D3DERR_WASSTILLDRAWING if the graphics hardware is still using the allocation. Such a failure indicates to the user-mode display driver to rename or multiple-buffer the allocation. 
+
+<div class="alert"><b>Note</b>    The <b>DonotWait</b> bit-field flag has no effect on the memory manager if the <b>Discard</b> bit-field flag is also set.</div>
+<div> </div>
+The user-mode display driver should set the <b>IgnoreSync</b> bit-field flag in the <b>Flags</b> member of D3DDDICB_LOCK when it does not require the memory manager to check whether the graphics hardware is using the allocation. The user-mode display driver must then properly synchronize access to the allocation. If the <b>DonotWait</b> bit-field flag is not specified with the <b>IgnoreSync</b> bit-field flag, the memory manager ignores the <b>IgnoreSync</b> bit-field flag.
+
+<div class="alert"><b>Note</b>    The <b>IgnoreSync</b> bit-field flag has no effect on the memory manager if the <b>Discard</b> bit-field flag is also set.</div>
+<div> </div>
+<b>Example</b>
 
 The following code example shows how the <b>Discard</b> bit-field flag is used in a call to <i>pfnLockCb</i>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -270,27 +291,44 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
- 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_LOCKCB callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_LOCKCB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

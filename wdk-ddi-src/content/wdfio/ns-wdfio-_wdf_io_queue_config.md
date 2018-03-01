@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfio._WDF_IO_QUEUE_CONFIG
-title: _WDF_IO_QUEUE_CONFIG
+title: "_WDF_IO_QUEUE_CONFIG"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
 old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, kmdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, wdf.wdf_io_queue_config, *PWDF_IO_QUEUE_CONFIG
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfio.h
-apiname: 
+api_name:
 -	WDF_IO_QUEUE_CONFIG
 product: Windows
 targetos: Windows
@@ -88,19 +88,6 @@ typedef struct _WDF_IO_QUEUE_CONFIG {
 
 
 
-### -field Settings
-
-
-
-### -field Settings.Parallel
-
-
-
-### -field Settings.Parallel.NumberOfPresentedRequests
-
-For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
-
-
 ### -field Size
 
 The length, in bytes, of this structure.
@@ -108,7 +95,7 @@ The length, in bytes, of this structure.
 
 ### -field DispatchType
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
+A <a href="..\wdfio\ne-wdfio-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
 
 
 ### -field PowerManaged
@@ -174,6 +161,17 @@ A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_q
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a> callback function, or <b>NULL</b>.
 
 
+### -field Settings
+
+
+### -field Settings.Parallel
+
+
+### -field Settings.Parallel.NumberOfPresentedRequests
+
+For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
+
+
 ### -field Driver
 
 For internal use only.  Set to NULL. This member is available in version 1.11 and later versions of KMDF.
@@ -181,6 +179,7 @@ For internal use only.  Set to NULL. This member is available in version 1.11 an
 
 
 ## -remarks
+
 
 
 The driver must initialize the <b>WDF_IO_QUEUE_CONFIG</b> structure by calling <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a> or <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>.
@@ -194,19 +193,28 @@ For parallel queues,
 
 
 
+
 ## -see-also
-
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+
+
+
+
+
+<a href="..\wdfio\ne-wdfio-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
- 
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

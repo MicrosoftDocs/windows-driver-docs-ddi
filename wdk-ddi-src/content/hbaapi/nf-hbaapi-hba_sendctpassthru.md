@@ -7,8 +7,8 @@ old-location: storage\hba_sendctpassthru.htm
 old-project: storage
 ms.assetid: adfdb968-5ba3-43af-899a-7172c9ecf46c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.hba_sendctpassthru, HBA_SendCTPassThru, hbaapi/HBA_SendCTPassThru, fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, HBA_SendCTPassThru routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: HBA_SendCTPassThru, HBA_SendCTPassThru routine [Storage Devices], fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, hbaapi/HBA_SendCTPassThru, storage.hba_sendctpassthru
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_SendCTPassThru
 product: Windows
 targetos: Windows
@@ -104,11 +104,14 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 The <b>HBA_SendCTPassThru</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. If the HBA successfully delivers the command to the destination service, and the service executes the command and successfully returns the results, the HBA_SendCTPassThru routine returns a value of HBA_STATUS_OK. If the command does not succeed, this routine returns an appropriate error code of type HBA_STATUS.
 
 
 
+
 ## -remarks
+
 
 
 The <b>HBA_SendCTPassThru</b> library routine serves a purpose very similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method. 
@@ -117,19 +120,28 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthruv2.md">HBA_SendCTPassThruV2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendCTPassThru routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendCTPassThru routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

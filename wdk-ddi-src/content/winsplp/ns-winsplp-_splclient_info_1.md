@@ -1,14 +1,14 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_1
-title: _SPLCLIENT_INFO_1
+title: "_SPLCLIENT_INFO_1"
 author: windows-driver-content
 description: The SPLCLIENT_INFO_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.
 old-location: print\splclient_info_1.htm
 old-project: print
 ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/LPSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, print.splclient_info_1, SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], PSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], PSPLCLIENT_INFO_1 structure pointer [Print Devices], winsplp/SPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, LPSPLCLIENT_INFO_1
+ms.date: 2/23/2018
+ms.keywords: "*LPSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], PSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], SPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], _SPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, print.splclient_info_1, winsplp/LPSPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, winsplp/SPLCLIENT_INFO_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winsplp.h
-apiname: 
+api_name:
 -	SPLCLIENT_INFO_1
 product: Windows
 targetos: Windows
-req.typenames: *LPSPLCLIENT_INFO_1, SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1
+req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,8 @@ The client's processor architecture, as returned by the Window SDK <b>GetSystemI
 ## -remarks
 
 
+
 Values for all structure members are supplied by the print spooler before the spooler calls <a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a>.
+
 
 

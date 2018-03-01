@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicequeryproperty.htm
 old-project: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicequeryproperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, kmdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, PFN_WDFDEVICEQUERYPROPERTY, wdfdevice/WdfDeviceQueryProperty
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfDeviceQueryProperty
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ A caller-supplied location that, on return, contains the size, in bytes, of the 
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceQueryProperty</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,7 +146,8 @@ The device's drivers have not yet reported the device's properties.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -152,7 +155,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Before receiving device property data, drivers typically call the <b>WdfDeviceQueryProperty</b> method just to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfDeviceQueryProperty</b> again. Therefore, drivers should call <b>WdfDeviceQueryProperty</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
@@ -162,16 +167,46 @@ It is best to use <b>WdfDeviceQueryProperty</b> only if the required buffer size
 Alternatively, you can use <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a> to access device properties that are exposed through the Unified Property Model.
 
 
+#### Examples
+
+The following code example obtains a device's <b>DevicePropertyBusTypeGuid</b> property. The example calls <b>WdfDeviceQueryProperty</b> instead of <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a> because the length of a GUID is known.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>GUID  busTypeGuid;
+ULONG  resultLength = 0;
+NTSTATUS  status;
+
+status = WdfDeviceQueryProperty( 
+                                device,
+                                DevicePropertyBusTypeGuid,
+                                sizeof(GUID),
+                                (PVOID)&amp;busTypeGuid,
+                                &amp;resultLength
+                                );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceQueryProperty method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceQueryProperty method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

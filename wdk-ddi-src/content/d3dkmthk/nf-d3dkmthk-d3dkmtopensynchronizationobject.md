@@ -7,8 +7,8 @@ old-location: display\d3dkmtopensynchronizationobject.htm
 old-project: display
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject, D3DKMTOpenSynchronizationObject function [Display Devices], d3dkmthk/D3DKMTOpenSynchronizationObject, OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMTOpenSynchronizationObject, D3DKMTOpenSynchronizationObject function [Display Devices], OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml, d3dkmthk/D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTOpenSynchronizationObject
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTOpenSynchronizationObject(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensynchronizationobject.md">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a> structure that describes a shared synchronization object to open. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensynchronizationobjec
 ## -returns
 
 
+
 <b>D3DKMTOpenSynchronizationObject</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,9 +133,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
@@ -140,9 +145,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensynchronizationobject.md">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenSynchronizationObject function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenSynchronizationObject function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

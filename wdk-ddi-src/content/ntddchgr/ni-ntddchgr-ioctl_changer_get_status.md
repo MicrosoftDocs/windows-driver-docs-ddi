@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_get_status.htm
 old-project: storage
 ms.assetid: 88f1a248-0beb-4c7c-b68d-6ce145bf5ca7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_changer_get_status, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], IOCTL_CHANGER_GET_STATUS, ntddchgr/IOCTL_CHANGER_GET_STATUS, k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml, ntddchgr/IOCTL_CHANGER_GET_STATUS, storage.ioctl_changer_get_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddchgr.h
-apiname: 
+api_name:
 -	IOCTL_CHANGER_GET_STATUS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

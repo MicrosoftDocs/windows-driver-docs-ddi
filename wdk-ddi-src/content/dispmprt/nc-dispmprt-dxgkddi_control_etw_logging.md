@@ -7,8 +7,8 @@ old-location: display\dxgkddicontroletwlogging.htm
 old-project: display
 ms.assetid: c94a43bb-19d0-4894-80b0-885562fefea5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddicontroletwlogging, DxgkDdiControlEtwLogging callback function [Display Devices], DxgkDdiControlEtwLogging, DXGKDDI_CONTROL_ETW_LOGGING, DXGKDDI_CONTROL_ETW_LOGGING, dispmprt/DxgkDdiControlEtwLogging, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_CONTROL_ETW_LOGGING, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml, DxgkDdiControlEtwLogging, DxgkDdiControlEtwLogging callback function [Display Devices], display.dxgkddicontroletwlogging, dispmprt/DxgkDdiControlEtwLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiControlEtwLogging
 product: Windows
 targetos: Windows
@@ -90,6 +90,8 @@ A value that indicates the level of event logging.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

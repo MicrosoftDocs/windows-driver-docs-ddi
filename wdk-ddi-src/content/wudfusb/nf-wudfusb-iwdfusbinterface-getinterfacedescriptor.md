@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbinterface_getinterfacedescriptor.htm
 old-project: wdf
 ms.assetid: ae4cffc8-65db-452c-9b85-19752c32c421
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbinterface_getinterfacedescriptor, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor, umdf.iwdfusbinterface_getinterfacedescriptor, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, GetInterfaceDescriptor method, IWDFUsbInterface interface, IWDFUsbInterface interface, GetInterfaceDescriptor method, IWDFUsbInterface::GetInterfaceDescriptor, GetInterfaceDescriptor, GetInterfaceDescriptor method, IWDFUsbInterface
+ms.date: 2/20/2018
+ms.keywords: GetInterfaceDescriptor method, GetInterfaceDescriptor method, IWDFUsbInterface interface, GetInterfaceDescriptor,IWDFUsbInterface.GetInterfaceDescriptor, IWDFUsbInterface, IWDFUsbInterface interface, GetInterfaceDescriptor method, IWDFUsbInterface::GetInterfaceDescriptor, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, umdf.iwdfusbinterface_getinterfacedescriptor, wdf.iwdfusbinterface_getinterfacedescriptor, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbInterface.GetInterfaceDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ A pointer to a variable that receives the USB interface descriptor.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a> method to retrieve the first USB interface for the USB device, a UMDF driver should retrieve the descriptor for the USB interface. Therefore, the <b>GetInterfaceDescriptor</b> method does not fail.
@@ -91,15 +94,20 @@ For a code example of how to use the <b>GetInterfaceDescriptor</b> method, see <
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
+## -see-also
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetInterfaceDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetInterfaceDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

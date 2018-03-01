@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_port_ulong.htm
 old-project: wdf
 ms.assetid: 7553FE66-8138-4172-843F-84EE2D5A90BE
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG function, wdf.wdf_read_port_ulong
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG function, wdf.wdf_read_port_ulong, wdfhwaccess/WDF_READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdfhwaccess.h
-apiname: 
+api_name:
 -	WDF_READ_PORT_ULONG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,8 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>WDF_READ_PORT_ULONG</b> returns the ULONG value that is read from the specified port address.
+
 
 

@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_capabilities_color.htm
 old-project: stream
 ms.assetid: CC7B1824-E397-414A-8EB6-130AEC031304
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_lamp_get_capabilities_color, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], IOCTL_LAMP_GET_CAPABILITIES_COLOR, lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	lamp.h
-apiname: 
+api_name:
 -	IOCTL_LAMP_GET_CAPABILITIES_COLOR
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -98,14 +98,18 @@ Length of the buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,10 +121,12 @@ The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or
 ## -remarks
 
 
+
 The payload of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_capabilities_color.md">LAMP_CAPABILITIES_COLOR</a> structure.
 
 The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
 
 The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If the lamp does not support color light (<b>IsSupported</b> evaluates to <b>FALSE</b>), a client should discard the value of <b>IsLightIntensityAdjustable</b>.
+
 
 

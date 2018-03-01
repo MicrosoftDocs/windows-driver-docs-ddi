@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._MPIO_REGISTERED_DSM
-title: _MPIO_REGISTERED_DSM
+title: "_MPIO_REGISTERED_DSM"
 author: windows-driver-content
 description: The MPIO_REGISTERED_DSM structure represents the top-level view of the registered DSMs on the system. To query this information, the request must be sent to the MPIO control object by using its WMI instance name.
 old-location: storage\mpio_registered_dsm.htm
 old-project: storage
 ms.assetid: c1be07b7-ebce-422f-83f2-890adc71655b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mpiowmi/MPIO_REGISTERED_DSM, mpiowmi/PMPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], _MPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, storage.mpio_registered_dsm, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml, MPIO_REGISTERED_DSM structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices], PMPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], _MPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM, mpiowmi/PMPIO_REGISTERED_DSM, storage.mpio_registered_dsm, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	MPIO_REGISTERED_DSM
 product: Windows
 targetos: Windows

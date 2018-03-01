@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlallocatepoolwithquotatag.htm
 old-project: ifsk
 ms.assetid: 241525fd-c21b-4c24-91a0-6a79df4faea7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlAllocatePoolWithQuotaTag, fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], ntifs/FsRtlAllocatePoolWithQuotaTag, ifsk.fsrtlallocatepoolwithquotatag
+ms.date: 2/16/2018
+ms.keywords: FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag, ntifs/FsRtlAllocatePoolWithQuotaTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlAllocatePoolWithQuotaTag
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ Type of pool to allocate. One of the following:
 <li><b>PagedPoolCacheAligned</b></li>
 </ul>
 
-<div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used.</div>
+<div> </div>
 
 ### -param NumberOfBytes [in]
 
@@ -96,6 +98,7 @@ Specifies the pool tag for the allocated memory. Drivers normally specify the po
 ## -remarks
 
 
+
 If a pool allocation failure occurs, <b>FsRtlAllocatePoolWithQuotaTag</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlAllocatePoolWithQuotaTag</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 The system associates the pool tag specified by the <i>Tag</i> parameter with the allocated buffer. Programming tools, such as the Windows Debugger (WinDbg), can display the pool tag associated with each allocated buffer. The value of the pool tag is normally displayed in reversed order. For example, if a caller passes 'Fred' as the value of the <i>Tag</i> parameter, this value would appear as 'derF' if pool is dumped or when tracking pool usage in the debugger. 
@@ -106,17 +109,24 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAllocatePoolWithQuotaTag routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAllocatePoolWithQuotaTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

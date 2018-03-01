@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_persistent_reserve_in.htm
 old-project: storage
 ms.assetid: a5a3e98b-8f6b-412d-a2eb-a28b5664340d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_storage_persistent_reserve_in, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control code [Storage Devices], IOCTL_STORAGE_PERSISTENT_RESERVE_IN, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN, k307_d142d4f6-d2a1-420e-a41d-5bb630445ad2.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_IN, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control code [Storage Devices], k307_d142d4f6-d2a1-420e-a41d-5bb630445ad2.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN, storage.ioctl_storage_persistent_reserve_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	IOCTL_STORAGE_PERSISTENT_RESERVE_IN
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,6 +67,7 @@ The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (I
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.
 
 PR_IN.ServiceAction can be one of the following:
+
 <ul>
 <li>
 RESERVATION_ACTION_READ_KEYS
@@ -76,7 +77,8 @@ RESERVATION_ACTION_READ_KEYS
 RESERVATION_ACTION_READ_RESERVATIONS
 
 </li>
-</ul>PR_IN.Allocation length is the size (in bytes) of the buffer allocated for the returned parameter list.
+</ul>
+PR_IN.Allocation length is the size (in bytes) of the buffer allocated for the returned parameter list.
 
 
 ### -input-buffer-length
@@ -101,14 +103,18 @@ The length of .
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

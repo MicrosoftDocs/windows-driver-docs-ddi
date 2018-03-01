@@ -1,21 +1,21 @@
 ---
 UID: NS:bthddi._BRB_HEADER
-title: _BRB_HEADER
+title: "_BRB_HEADER"
 author: windows-driver-content
 description: The BRB_HEADER structure contains header information about a Bluetooth request block (BRB), including information about the BRB type that the Bluetooth driver stack uses to determine which kind of BRB type to process.
 old-location: bltooth\brb_header.htm
 old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: _BRB_HEADER, bltooth.brb_header, BRB_HEADER structure [Bluetooth Devices], bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER, bthddi/BRB_HEADER
+ms.date: 2/15/2018
+ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	BRB_HEADER
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ The Bluetooth request block type. The
      <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a> functions automatically set this
      member.Possible values include:
      
+
 <ul>
 <li>BRB_HCI_GET_LOCAL_BD_ADDR</li>
 <li>BRB_L2CA_REGISTER_SERVER</li>
@@ -146,6 +147,7 @@ The NTSTATUS code that is passed when the BRB call completes.
 The Bluetooth status code (BTSTATUS) that corresponds to the NTSTATUS code that is passed in the 
      <b>Status</b> member. Possible values include:
      
+
 <ul>
 <li>BTH_ERROR_SUCCESS</li>
 <li>BTH_ERROR_ACL_CONNECTION_ALREADY_EXISTS</li>
@@ -210,27 +212,35 @@ Reserved for future use. Do not use.
 ## -remarks
 
 
+
 The BRB_HEADER structure contains common types of information about the specified BRB. The BRB_HEADER
     structure is used by all BRB structures that are used as the input buffer for 
-    <mshelp:link keywords="bltooth.ioctl_internal_bth_submit_brb" tabindex="0"><b>
-    IOCTL_INTERNAL_BTH_SUBMIT_BRB</b></mshelp:link> IOCTLs.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">
+    IOCTL_INTERNAL_BTH_SUBMIT_BRB</a> IOCTLs.
 
 Profile drivers should not modify any of the members of the BRB_HEADER structure except 
     <b>ClientContext</b>.
 
 
 
-## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+## -see-also
 
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_HEADER structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_HEADER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

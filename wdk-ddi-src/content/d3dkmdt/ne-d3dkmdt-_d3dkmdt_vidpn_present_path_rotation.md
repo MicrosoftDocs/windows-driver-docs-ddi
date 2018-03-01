@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
-title: _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration is used to indicate the rotation angle applied to content displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_rotation.htm
 old-project: display
 ms.assetid: 4966ba24-35ed-453a-9483-bd3337e31b83
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_ROTATE90_OFFSET180, D3DKMDT_VPPR_IDENTITY_OFFSET180, D3DKMDT_VPPR_ROTATE90_OFFSET270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET180, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET270, D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration [Display Devices], D3DKMDT_VPPR_ROTATE270_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET180, d3dkmdt/D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPR_UNPINNED, display.d3dkmdt_vidpn_present_path_rotation, D3DKMDT_VPPR_ROTATE270, D3DKMDT_VPPR_ROTATE90_OFFSET90, D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET180, DmEnums_f69499aa-0366-4826-ada7-0c3107842fc8.xml, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET180, D3DKMDT_VPPR_IDENTITY_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90, d3dkmdt/D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_UNPINNED, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET90, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET270, D3DKMDT_VPPR_ROTATE90, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET90, D3DKMDT_VPPR_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPR_ROTATE270, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VPPR_IDENTITY_OFFSET270, D3DKMDT_VPPR_ROTATE180_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET270
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration [Display Devices], D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_IDENTITY_OFFSET180, D3DKMDT_VPPR_IDENTITY_OFFSET270, D3DKMDT_VPPR_IDENTITY_OFFSET90, D3DKMDT_VPPR_NOTSPECIFIED, D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_ROTATE180_OFFSET270, D3DKMDT_VPPR_ROTATE180_OFFSET90, D3DKMDT_VPPR_ROTATE270, D3DKMDT_VPPR_ROTATE270_OFFSET180, D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VPPR_ROTATE270_OFFSET90, D3DKMDT_VPPR_ROTATE90, D3DKMDT_VPPR_ROTATE90_OFFSET180, D3DKMDT_VPPR_ROTATE90_OFFSET270, D3DKMDT_VPPR_ROTATE90_OFFSET90, D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_UNPINNED, DmEnums_f69499aa-0366-4826-ada7-0c3107842fc8.xml, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_IDENTITY, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET180, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET90, d3dkmdt/D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPR_ROTATE180, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET90, d3dkmdt/D3DKMDT_VPPR_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPR_UNPINNED, display.d3dkmdt_vidpn_present_path_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 product: Windows
 targetos: Windows
@@ -209,11 +209,13 @@ Indicates that no rotation angle (including identity) has been specified.
 ## -remarks
 
 
+
 The <b>Rotation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a value from the <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</b> enumeration.
 
 Starting with Windows 8.1 Update, new constant values (<b>D3DKMDT_VPPR_XXX_OFFSETXXX</b>) are available to specify both the default orientation of a display device and an additional angle (offset) that the user has rotated the device.
 
 Here are some examples of how to set the default orientation and offset:
+
 <ul>
 <li>If the  topology is specified as:<ul>
 <li>a single monitor,</li>
@@ -232,16 +234,21 @@ Here are some examples of how to set the default orientation and offset:
 <li>For a path-independent rotation clone on a system prior to Windows 8.1, a landscape-first display panel connected to a landscape-first primary device will probably have <b>D3DKMDT_VPPR_XXX_OFFSET180</b> set.</li>
 </ul>
 </li>
-</ul><div class="alert"><b>Note</b>  The operating system does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to  <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is &gt;= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  The operating system does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to  <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is &gt;= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_deactivateperso.htm
 old-project: netvista
 ms.assetid: 3116482a-aa56-4a1d-98ef-da06c5c1b789
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_deactivateperso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], rilapi/RIL_DeactivatePerso, RIL_DeactivatePerso
+ms.date: 2/16/2018
+ms.keywords: RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], netvista.ril_deactivateperso, rilapi/RIL_DeactivatePerso
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_DeactivatePerso
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_DeactivatePerso(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwPersoFeature
 
 
-
 ### -param lpszPassword
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

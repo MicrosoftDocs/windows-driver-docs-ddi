@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_diag_ignore_hubs_off.htm
 old-project: usbref
 ms.assetid: e81b096b-273e-48ca-acff-3e4df5a607f4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_usb_diag_ignore_hubs_off, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control code [Buses], IOCTL_USB_DIAG_IGNORE_HUBS_OFF, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_OFF, usbirp_5a21e20d-60c5-411a-a01d-3a5d143e076f.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_DIAG_IGNORE_HUBS_OFF, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control code [Buses], buses.ioctl_usb_diag_ignore_hubs_off, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_OFF, usbirp_5a21e20d-60c5-411a-a01d-3a5d143e076f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbioctl.h
-apiname: 
+api_name:
 -	IOCTL_USB_DIAG_IGNORE_HUBS_OFF
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -69,50 +69,66 @@ The <b>IOCTL_USB_DIAG_IGNORE_HUBS_OFF</b> I/O control has been deprecated. Do no
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

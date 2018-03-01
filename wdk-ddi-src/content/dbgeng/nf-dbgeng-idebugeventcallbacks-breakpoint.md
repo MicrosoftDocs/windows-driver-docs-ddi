@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbacks_breakpoint.htm
 old-project: debugger
 ms.assetid: 76b9aca2-4630-45e2-bed4-f701018c86a5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks, Breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, debugger.idebugeventcallbacks_breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, dbgeng/IDebugEventCallbacks::Breakpoint, IDebugEventCallbacks::Breakpoint
+ms.date: 2/23/2018
+ms.keywords: Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, Breakpoint,IDebugEventCallbacks.Breakpoint, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, IDebugEventCallbacks::Breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint, debugger.idebugeventcallbacks_breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugEventCallbacks.Breakpoint
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::Breakpoint method
@@ -75,11 +75,14 @@ Specifies a pointer to the <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDe
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 If the breakpoint has an associated command, the engine executes that command before calling this method.
@@ -91,5 +94,6 @@ The engine calls this method only if the DEBUG_EVENT_BREAKPOINT flag is set in t
 Because the engine deletes the corresponding <b>IDebugBreakpoint</b> object when a breakpoint is removed (for example, by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>), the value of <i>Bp</i> might be invalid after <b>Breakpoint</b> returns.  Therefore, implementations of <b>IDebugEventCallbacks</b> should not access <i>Bp</i> after <b>Breakpoint</b> returns.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about managing breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
+
 
 

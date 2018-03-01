@@ -7,8 +7,8 @@ old-location: debugger\idebugclient6.htm
 old-project: debugger
 ms.assetid: 9F8DFF33-DE07-4061-9A9E-3C8172F75EB5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient6, IDebugClient6 interface [Windows Debugging], IDebugClient6 interface [Windows Debugging], described, IDebugClient6, dbgeng/IDebugClient6
+ms.date: 2/23/2018
+ms.keywords: IDebugClient6, IDebugClient6 interface [Windows Debugging], IDebugClient6 interface [Windows Debugging], described, dbgeng/IDebugClient6, debugger.idebugclient6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient6
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient6 interface
@@ -51,6 +51,13 @@ req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
 
 This interface supports event context callbacks.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient6</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugClient6</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -69,7 +76,5 @@ Registers an event callbacks object with this client.
 
 </td>
 </tr>
-</table>Registers an event callbacks object with this client. 
-
- 
+</table> 
 

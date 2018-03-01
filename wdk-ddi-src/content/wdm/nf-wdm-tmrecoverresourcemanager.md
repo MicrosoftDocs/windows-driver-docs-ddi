@@ -7,8 +7,8 @@ old-location: kernel\tmrecoverresourcemanager.htm
 old-project: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/TmRecoverResourceManager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, kernel.tmrecoverresourcemanager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], TmRecoverResourceManager
+ms.date: 2/24/2018
+ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+api_name:
 -	TmRecoverResourceManager
 product: Windows
 targetos: Windows
@@ -78,7 +78,9 @@ A pointer to a resource manager object. To obtain this pointer, your component m
 ## -returns
 
 
+
 <b>TmRecoverResourceManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,13 +97,16 @@ The transaction manager that is associated with the specified resource manager i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmRecoverResourceManager</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a> routine.
@@ -110,19 +115,28 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TmRecoverResourceManager routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TmRecoverResourceManager routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

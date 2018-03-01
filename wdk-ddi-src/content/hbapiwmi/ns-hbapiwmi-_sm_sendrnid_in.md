@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SM_SendRNID_IN
-title: _SM_SendRNID_IN
+title: "_SM_SendRNID_IN"
 author: windows-driver-content
 description: The SM_SendRNID_IN structure is used to provide input parameters to the SM_SendRNID method.
 old-location: storage\sm_sendrnid_in.htm
 old-project: storage
 ms.assetid: 7d94fc94-bfc6-4666-a321-71a0643f3140
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_SendRNID_IN, SM_SendRNID_IN, PSM_SendRNID_IN structure pointer [Storage Devices], PSM_SendRNID_IN, *PSM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], storage.sm_sendrnid_in, _SM_SendRNID_IN, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml, hbapiwmi/SM_SendRNID_IN
+ms.date: 2/24/2018
+ms.keywords: "*PSM_SendRNID_IN, PSM_SendRNID_IN, PSM_SendRNID_IN structure pointer [Storage Devices], SM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], _SM_SendRNID_IN, hbapiwmi/PSM_SendRNID_IN, hbapiwmi/SM_SendRNID_IN, storage.sm_sendrnid_in, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SM_SendRNID_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SendRNID_IN, SM_SendRNID_IN
+req.typenames: SM_SendRNID_IN, *PSM_SendRNID_IN
 ---
 
 # _SM_SendRNID_IN structure
@@ -99,6 +99,8 @@ The maximum response buffer size.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SendRNID_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_get_drive_geometry_ex.htm
 old-project: storage
 ms.assetid: ef04ba90-698f-4ae2-9ac6-106d66b61080
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_cdrom_get_drive_geometry_ex, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, k307_d92083df-7f01-4858-8bab-5b4b4ea5eaea.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d92083df-7f01-4858-8bab-5b4b4ea5eaea.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, storage.ioctl_cdrom_get_drive_geometry_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdrm.h
-apiname: 
+api_name:
 -	IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -90,14 +90,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,7 +113,9 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 ## -remarks
 
 
+
 TBD
+
 
 
 
@@ -117,11 +123,15 @@ TBD
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
 
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

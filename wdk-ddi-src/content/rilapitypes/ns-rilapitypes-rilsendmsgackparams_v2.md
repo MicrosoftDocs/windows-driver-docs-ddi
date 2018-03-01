@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgackparams_v2_2.htm
 old-project: netvista
 ms.assetid: 10bd2f88-ad1e-4d48-a338-e49c82a66d7a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSENDMSGACKPARAMS_V2, *LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILSENDMSGACKPARAMS, netvista.rilsendmsgackparams_v2_2, RILSENDMSGACKPARAMS_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2_2, rilapitypes/RILSENDMSGACKPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSENDMSGACKPARAMS_V2
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS
+req.typenames: RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS, *LPRILSENDMSGACKPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,20 @@ typedef struct _RILSENDMSGACKPARAMS_V2 {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwAckID
-
 
 
 ### -field dwMsgStatus
 
 
-
 ### -field dwSmsFormat
 
 
-
 ### -field dwOptions
-
 

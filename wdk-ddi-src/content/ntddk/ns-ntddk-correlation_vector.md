@@ -7,8 +7,8 @@ old-location: kernel\correlation_vector.htm
 old-project: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, CORRELATION_VECTOR, ntddk/CORRELATION_VECTOR, *PCORRELATION_VECTOR
+ms.date: 2/24/2018
+ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddk.h
-apiname: 
+api_name:
 -	CORRELATION_VECTOR
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct _CORRELATION_VECTOR {
 ### -field Version
 
 The version of the correlation vector. Possible values are: 
+
 <ul>
 <li>RTL_CORRELATION_VECTOR_VERSION_1</li>
 <li>RTL_CORRELATION_VECTOR_VERSION_2</li>

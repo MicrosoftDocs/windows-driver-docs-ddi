@@ -7,8 +7,8 @@ old-location: display\dxgkddi_displaydetectcontrol.htm
 old-project: display
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_displaydetectcontrol, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], DXGKDDI_DISPLAYDETECTCONTROL, d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_DISPLAYDETECTCONTROL
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_displaydetectcontrol.md
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 This function is always called at PASSIVE level so the supporting code should be made pageable.
@@ -93,5 +96,6 @@ This function is always called at PASSIVE level so the supporting code should be
 The status returned only reflects the call, not the status of connectors. If the driver detects a change, it will respond by calling DxgkCbIndicateConnectorChange.  If a poll of one or more targets was requested, the driver should return once the request has been submitted to hardware, rather than waiting for the poll to complete.
 
 DXGK_DDCT_POLLONE applies only to the specified target id while DXGK_DDCT_POLLALL applies to all targets.  It would be an OS error to request either of these types of detection control if HPD is not enabled so the driver can simply fail the call with STATUS_INVALID_PARAMETER.
+
 
 

@@ -7,8 +7,8 @@ old-location: stream\ks_videoinfoheader2.htm
 old-project: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], tagKS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, ksmedia/KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], KS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml, stream.ks_videoinfoheader2
+ms.date: 2/23/2018
+ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KS_VIDEOINFOHEADER2
 product: Windows
 targetos: Windows
-req.typenames: *PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2
+req.typenames: KS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2
 ---
 
 # tagKS_VIDEOINFOHEADER2 structure
@@ -81,70 +81,6 @@ typedef struct tagKS_VIDEOINFOHEADER2 {
 
 
 
-### -field dwControlFlags
-
-In operating systems prior to Windows Vista, this member was named <b>dwReserved1</b> and was required to be zero. In Windows Vista, <b>dwReserved1</b> was combined in a union with a new member named <b>dwControlFlags</b>. If used, <b>dwControlFlags</b> contains a bitwise OR of the flags in the following table.
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-AMCONTROL_USED
-
-</td>
-<td>
-Indicates the <b>dwControlFlags</b> flags are used.
-
-</td>
-</tr>
-<tr>
-<td>
-AMCONTROL_PAD_TO_4x3
-
-</td>
-<td>
-The image should be padded and displayed in a 4 x 3 area.
-
-</td>
-</tr>
-<tr>
-<td>
-AMCONTROL_PAD_TO_16x9
-
-</td>
-<td>
-The image should be padded and displayed in a 16 x 9 area.
-
-</td>
-</tr>
-<tr>
-<td>
-AMCONTROL_COLORINFO_PRESENT
-
-</td>
-<td>
-Additional color information is contained in the upper 24 bits of the <b>dwControlFlags</b> field.
-
-</td>
-</tr>
-</table> 
-
-The AMCONTROL_USED flag provides backward compatibility with older filters. If the AMCONTROL_USED flag is not set, the remaining bits in this field should be ignored. If a filter uses any other flags, it should set the AMCONTROL_USED flag. 
-
-The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle.
-
-If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure. 
-
-See the Remarks section later in this topic for more information about <b>dwControlFlags</b>.
-
-
-### -field dwReserved1
-
-This member is for backward compatibility. See <b>dwControlFlags </b>for more information.
-
-
 ### -field rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
@@ -173,6 +109,7 @@ Specifies the average time per frame, in 100-nanosecond units.
 ### -field dwInterlaceFlags
 
 Specifies interlace information. Undefined flags must be set to zero, or the connection may be rejected. This member can be set to one or more (logical OR) values that are defined in <i>ksmedia.h</i>:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -308,7 +245,8 @@ Invalid for video capture.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwCopyProtectFlags
@@ -336,7 +274,74 @@ Reserved for system use. Must be set to zero or the connection will be rejected.
 Indicates a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
 
 
+#### - dwControlFlags
+
+In operating systems prior to Windows Vista, this member was named <b>dwReserved1</b> and was required to be zero. In Windows Vista, <b>dwReserved1</b> was combined in a union with a new member named <b>dwControlFlags</b>. If used, <b>dwControlFlags</b> contains a bitwise OR of the flags in the following table.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+AMCONTROL_USED
+
+</td>
+<td>
+Indicates the <b>dwControlFlags</b> flags are used.
+
+</td>
+</tr>
+<tr>
+<td>
+AMCONTROL_PAD_TO_4x3
+
+</td>
+<td>
+The image should be padded and displayed in a 4 x 3 area.
+
+</td>
+</tr>
+<tr>
+<td>
+AMCONTROL_PAD_TO_16x9
+
+</td>
+<td>
+The image should be padded and displayed in a 16 x 9 area.
+
+</td>
+</tr>
+<tr>
+<td>
+AMCONTROL_COLORINFO_PRESENT
+
+</td>
+<td>
+Additional color information is contained in the upper 24 bits of the <b>dwControlFlags</b> field.
+
+</td>
+</tr>
+</table>
+ 
+
+The AMCONTROL_USED flag provides backward compatibility with older filters. If the AMCONTROL_USED flag is not set, the remaining bits in this field should be ignored. If a filter uses any other flags, it should set the AMCONTROL_USED flag. 
+
+The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle.
+
+If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure. 
+
+See the Remarks section later in this topic for more information about <b>dwControlFlags</b>.
+
+
+#### - dwReserved1
+
+This member is for backward compatibility. See <b>dwControlFlags </b>for more information.
+
+
 ## -remarks
+
 
 
 To describe a video stream without bob or weave settings, use <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>.
@@ -355,17 +360,24 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> memb
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_datarange_video2.md">KS_DATARANGE_VIDEO2</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFOHEADER2 structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFOHEADER2 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

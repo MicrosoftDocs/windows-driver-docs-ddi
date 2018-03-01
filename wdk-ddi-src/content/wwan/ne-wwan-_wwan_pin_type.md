@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_PIN_TYPE
-title: _WWAN_PIN_TYPE
+title: "_WWAN_PIN_TYPE"
 author: windows-driver-content
 description: The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs) that are supported by the MB device.
 old-location: netvista\wwan_pin_type.htm
 old-project: netvista
 ms.assetid: f6b8146e-dbe2-4c73-beb2-02868db9fb27
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeSubsidyLock, wwan/WwanPinTypeSvcProviderPuk, WwanPinTypePuk1, WwanPinTypeSubsidyLock, wwan/WwanPinTypeMax, netvista.wwan_pin_type, wwan/WwanPinTypePuk2, _WWAN_PIN_TYPE, PWWAN_PIN_TYPE, wwan/WwanPinTypePin1, *PWWAN_PIN_TYPE, WwanPinTypeDeviceSimPin, WwanPinTypeCorporatePuk, WwanPinTypeNetworkPin, WWAN_PIN_TYPE, wwan/WwanPinTypeNetworkPin, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, WwanPinTypeNetworkSubsetPuk, wwan/WwanPinTypeCustom, WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeCorporatePuk, WwanPinTypePin1, wwan/WwanPinTypePuk1, WwanPinTypeNone, wwan/WwanPinTypePin2, wwan/WwanPinTypeDeviceSimPin, WwanPinTypeMax, wwan/WwanPinTypeNetworkPuk, WwanPinTypeCustom, WwanPinTypeNetworkSubsetPin, WwanPinTypePin2, wwan/WwanPinTypeSvcProviderPin, wwan/WwanPinTypeCorporatePin, WwanPinTypePuk2, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeNetworkSubsetPuk, WwanPinTypeSvcProviderPuk, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPinTypeNone, WwanPinTypeCorporatePin, wwan/PWWAN_PIN_TYPE, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WWAN_PIN_TYPE, WwanPinTypeSvcProviderPin, WwanPinTypeNetworkPuk, WwanPinTypeDeviceFirstSimPin
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_PIN_TYPE, PWWAN_PIN_TYPE, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_TYPE, WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPinTypeCorporatePin, WwanPinTypeCorporatePuk, WwanPinTypeCustom, WwanPinTypeDeviceFirstSimPin, WwanPinTypeDeviceFirstSimPuk, WwanPinTypeDeviceSimPin, WwanPinTypeMax, WwanPinTypeNetworkPin, WwanPinTypeNetworkPuk, WwanPinTypeNetworkSubsetPin, WwanPinTypeNetworkSubsetPuk, WwanPinTypeNone, WwanPinTypePin1, WwanPinTypePin2, WwanPinTypePuk1, WwanPinTypePuk2, WwanPinTypeSubsidyLock, WwanPinTypeSvcProviderPin, WwanPinTypeSvcProviderPuk, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, _WWAN_PIN_TYPE, netvista.wwan_pin_type, wwan/PWWAN_PIN_TYPE, wwan/WWAN_PIN_TYPE, wwan/WwanPinTypeCorporatePin, wwan/WwanPinTypeCorporatePuk, wwan/WwanPinTypeCustom, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeDeviceSimPin, wwan/WwanPinTypeMax, wwan/WwanPinTypeNetworkPin, wwan/WwanPinTypeNetworkPuk, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeNetworkSubsetPuk, wwan/WwanPinTypeNone, wwan/WwanPinTypePin1, wwan/WwanPinTypePin2, wwan/WwanPinTypePuk1, wwan/WwanPinTypePuk2, wwan/WwanPinTypeSubsidyLock, wwan/WwanPinTypeSvcProviderPin, wwan/WwanPinTypeSvcProviderPuk"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_PIN_TYPE
 product: Windows
 targetos: Windows
@@ -181,9 +181,7 @@ The corporate personalization unlock key.
 ### -field WwanPinTypeNev
 
 
-
 ### -field WwanPinTypeAdm
-
 
 
 ### -field WwanPinTypeMax
@@ -193,13 +191,17 @@ The total number of supported PIN types.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
-
 <a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
 
- 
+
+
+<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

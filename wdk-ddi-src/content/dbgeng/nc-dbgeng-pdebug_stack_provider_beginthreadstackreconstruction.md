@@ -7,8 +7,8 @@ old-location: debugger\beginthreadstackreconstruction.htm
 old-project: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.beginthreadstackreconstruction, BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], BeginThreadStackReconstruction, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction
+ms.date: 2/23/2018
+ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	BeginThreadStackReconstruction
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback
@@ -92,13 +92,17 @@ The size of the buffer.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 <i>BeginThreadStackReconstruction</i> is called <b>PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION</b> in the Dbgeng.h header file.
+
 
 

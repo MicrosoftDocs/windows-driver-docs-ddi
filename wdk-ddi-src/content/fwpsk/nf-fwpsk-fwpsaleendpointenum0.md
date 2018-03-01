@@ -7,8 +7,8 @@ old-location: netvista\fwpsaleendpointenum0.htm
 old-project: netvista
 ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointEnum0, fwpsk/FwpsAleEndpointEnum0
+ms.date: 2/16/2018
+ms.keywords: FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsAleEndpointEnum0
 product: Windows
 targetos: Windows
@@ -111,8 +111,10 @@ On return, the number of elements in the array of endpoint property structures p
 ## -returns
 
 
+
 The 
      <b>FwpsAleEndpointEnum0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To enumerate ALE endpoints, the callout driver must first obtain an enumeration handle by calling 
@@ -163,25 +168,36 @@ When finished examining endpoint properties, the callout driver must call
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
- 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+   FwpsAleEndpointCreateEnumHandle0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+   FwpsAleEndpointDestroyEnumHandle0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointEnum0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointEnum0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

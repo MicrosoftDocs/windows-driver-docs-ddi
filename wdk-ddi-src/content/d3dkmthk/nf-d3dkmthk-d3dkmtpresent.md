@@ -7,8 +7,8 @@ old-location: display\d3dkmtpresent.htm
 old-project: display
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTPresent, display.d3dkmtpresent, D3DKMTPresent function [Display Devices], d3dkmthk/D3DKMTPresent, OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml
+ms.date: 2/24/2018
+ms.keywords: D3DKMTPresent, D3DKMTPresent function [Display Devices], OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, d3dkmthk/D3DKMTPresent, display.d3dkmtpresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+api_name:
 -	D3DKMTPresent
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTPresent(
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure that describes parameters for presenting.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESE
 ## -returns
 
 
+
 <b>D3DKMTPresent</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,16 +159,20 @@ For example, the DirectX graphics kernel subsystem puts a device into an error s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The <b>D3DKMTPresent</b> function might return STATUS_INVALID_PARAMETER, depending on the combination of parameter values (that is, values in members of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure that <i>pData</i> points to). The following list describes the most common combinations of parameter values that might cause <b>D3DKMTPresent</b> to return STATUS_INVALID PARAMETER:
+
 <ul>
 <li>The <b>hDestination</b> member is non-<b>NULL</b> and at least one of the following conditions is true:<ul>
 <li>The <b>pSrcSubRects</b> member is <b>NULL</b>.</li>
@@ -209,18 +216,61 @@ The <b>D3DKMTPresent</b> function might return STATUS_INVALID_PARAMETER, dependi
 </li>
 </ul>
 
+#### Examples
+
+The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTPresent</b> to present data.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT Present(D3DKMT_HANDLE hDevice, 
+                HWND hWnd, 
+                RECT* pSrcRect,
+                 RECT* pDstRect)
+{
+    D3DKMT_PRESENT PresentData = {0};
+
+    PresentData.hDevice = hDevice;
+    PresentData.Flags.Blt = 
+    PresentData.Flags.DstRectValid = 
+    PresentData.Flags.SrcRectValid = TRUE;
+    PresentData.hWindow = hWnd;
+    PresentData.DstRect = *pDstRect;
+    PresentData.SrcRect = *pSrcRect;
+    PresentData.SubRectCnt = 1;  
+    PresentData.pSrcSubRects = pSrcRect; 
+
+    if (NT_SUCCESS((*pfnKTPresent)(&amp;PresentData))) {
+        return S_OK;
+    }
+    return E_FAIL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>
 
- 
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTPresent function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTPresent function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCAUTOMATION_TABLE structure [Audio Devices], portcls/PCAUTOMATION_TABLE, PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], *PPCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, audio.pcautomation_table, PCAUTOMATION_TABLE
+ms.keywords: PPCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, audio.pcautomation_table, portcls/PCAUTOMATION_TABLE, *PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE structure pointer [Audio Devices], portcls/PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCAUTOMATION_TABLE
 product: Windows
 targetos: Windows
@@ -127,19 +127,9 @@ typedef struct {
 
 
 
-#### - Reserved
-
-Reserved. Initialize to zero.
-
-
 #### - PropertyItemSize
 
 Specifies the size in bytes of the property structure used. Set this member to <b>sizeof</b>(PCPROPERTY_ITEM) or greater. See the following Remarks section.
-
-
-#### - EventItemSize
-
-Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
 
 
 #### - PropertyCount
@@ -147,14 +137,19 @@ Specifies the size in bytes of the event structure used. Set this member to <b>s
 Specifies the number of property items in the <i>Properties</i> array.
 
 
+#### - Properties
+
+Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a> structures.
+
+
+#### - MethodItemSize
+
+Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
+
+
 #### - MethodCount
 
 Specifies the number of method items in the <b>Methods</b> array.
-
-
-#### - Events
-
-Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a> structures.
 
 
 #### - Methods
@@ -162,9 +157,9 @@ Pointer to the filter's array of events. This is an array of <a href="..\portcls
 Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a> structures.
 
 
-#### - Properties
+#### - EventItemSize
 
-Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a> structures.
+Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
 
 
 #### - EventCount
@@ -172,9 +167,14 @@ Pointer to the filter's array of properties. This is an array of <a href="..\por
 Specifies the number of event items in the <b>Events</b> array.
 
 
-#### - MethodItemSize
+#### - Events
 
-Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
+Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a> structures.
+
+
+#### - Reserved
+
+Reserved. Initialize to zero.
 
 
 ## -remarks
@@ -188,11 +188,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
+
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
 

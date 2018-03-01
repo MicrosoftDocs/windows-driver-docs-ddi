@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPCAPS
-title: _DXVAHDDDI_VPCAPS
+title: "_DXVAHDDDI_VPCAPS"
 author: windows-driver-content
 description: Describes a video processor and its capabilities.
 old-location: display\dxvahdddi_vpcaps.htm
 old-project: display
 ms.assetid: 3e7e3280-3176-4bec-95ab-4dd203fce419
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_VPCAPS, DXVA2_Structs_d3780f70-71f7-4105-a79e-df3abda62417.xml, display.dxvahdddi_vpcaps, _DXVAHDDDI_VPCAPS, DXVAHDDDI_VPCAPS structure [Display Devices], d3dumddi/DXVAHDDDI_VPCAPS
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_d3780f70-71f7-4105-a79e-df3abda62417.xml, DXVAHDDDI_VPCAPS, DXVAHDDDI_VPCAPS structure [Display Devices], _DXVAHDDDI_VPCAPS, d3dumddi/DXVAHDDDI_VPCAPS, display.dxvahdddi_vpcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_VPCAPS
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ typedef struct _DXVAHDDDI_VPCAPS {
 ### -field ProcessorCaps
 
 [out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_PROCESSOR_CAPS enumeration to indicate video processor-specific capabilities.
+
 <table>
 <tr>
 <th>Value</th>
@@ -157,7 +158,8 @@ The driver can convert the frame rate by interpolating the frames.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The driver should not require any reference frames if it uses the deinterlacing types that are associated with DXVAHDDDI_PROCESSOR_CAPS_DEINTERLACE_BLEND and DXVAHDDDI_PROCESSOR_CAPS_DEINTERLACE_BOB.
 
@@ -169,6 +171,7 @@ For more information about blend and Bob de-interlacing, see <a href="..\d3dumdd
 ### -field ITelecineCaps
 
 [out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_ITELECINE_CAPS enumeration to indicate inverse telecine-specific capabilities.
+
 <table>
 <tr>
 <th>Value</th>
@@ -274,7 +277,8 @@ The driver can perform reverse non-standard telecine.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CustomRateCount
@@ -285,7 +289,9 @@ The driver can perform reverse non-standard telecine.
 ## -remarks
 
 
+
 The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPCAPS structure in the <b>pData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure when its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set in the <b>Type</b> member of D3DDDIARG_GETCAPS.
+
 
 
 
@@ -293,17 +299,27 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPCAPS s
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
- 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_custom_rate_data.md">DXVAHDDDI_CUSTOM_RATE_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_VPCAPS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_VPCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

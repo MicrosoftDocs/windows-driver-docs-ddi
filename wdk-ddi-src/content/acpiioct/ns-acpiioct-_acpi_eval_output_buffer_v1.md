@@ -1,14 +1,14 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_OUTPUT_BUFFER_V1
-title: _ACPI_EVAL_OUTPUT_BUFFER_V1
+title: "_ACPI_EVAL_OUTPUT_BUFFER_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_OUTPUT_BUFFER structure contains output arguments from an ACPI control method.
 old-location: acpi\acpi_eval_output_buffer.htm
 old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER_V1, acpi.acpi_eval_output_buffer, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices]
+ms.date: 2/15/2018
+ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, acpi.acpi_eval_output_buffer, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	ACPI_EVAL_OUTPUT_BUFFER_V1
 product: Windows
 targetos: Windows
-req.typenames: *PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER
+req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V1 structure
@@ -93,6 +93,7 @@ An array of <b>ACPI_METHOD_ARGUMENT</b> structures. For more information, see Re
 ## -remarks
 
 
+
 The following ACPI IOCTLs return output arguments from ACPI control methods in an <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure:
 
 
@@ -117,13 +118,16 @@ For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures 
 
 
 
+
 ## -see-also
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_OUTPUT_BUFFER_V1 structure%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_OUTPUT_BUFFER_V1 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

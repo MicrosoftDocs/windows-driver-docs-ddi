@@ -7,13 +7,13 @@ old-location: wdf\write_register_buffer_ulong64.htm
 old-project: wdf
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, WRITE_REGISTER_BUFFER_ULONG64 function, umdf.write_register_buffer_ulong64, wdf.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
-req.include-header: 
+req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	WRITE_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows
@@ -96,15 +96,19 @@ Specifies the number of ULONG64 values to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

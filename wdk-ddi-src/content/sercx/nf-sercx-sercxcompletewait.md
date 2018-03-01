@@ -7,8 +7,8 @@ old-location: serports\sercxcompletewait.htm
 old-project: serports
 ms.assetid: 9318AB76-48ED-49FF-A4ED-17A07D43A0F8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait, SerCxCompleteWait
+ms.date: 2/15/2018
+ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	1.0\Sercx.h
-apiname: 
+api_name:
 -	SerCxCompleteWait
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ The type of event that is ending the current wait operation.  This parameter is 
 ## -returns
 
 
+
 <b>SerCxCompleteWait</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -99,11 +101,14 @@ The specified event is not included in the current wait mask.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When SerCx receives an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> request from a client, the request handler in SerCx calls the <a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a> callback function to notify the serial controller driver that the wait mask has changed. The wait mask specifies a set of hardware events for the serial controller to monitor. During this call, the driver discards any old wait mask that might have been specified in a previous <i>EvtSerCxWaitmask</i> call, and then configures the serial controller hardware to detect the events in the new wait mask.
@@ -112,21 +117,32 @@ Later, when an event in the new wait mask occurs, the driver calls <b>SerCxCompl
 
 
 
+
 ## -see-also
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
 
 <a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
 
- 
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxCompleteWait method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxCompleteWait method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

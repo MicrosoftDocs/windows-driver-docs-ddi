@@ -7,8 +7,8 @@ old-location: netvista\rilfunctionresults_2.htm
 old-project: netvista
 ms.assetid: 4a4a93d5-fe27-4932-a5d0-4aac96a3ae86
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_RESULT_ERROR, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], netvista.rilfunctionresults_2, RIL_RESULT_ERROR, RILFUNCTIONRESULTS, rilapitypes/RILFUNCTIONRESULTS
+ms.date: 2/16/2018
+ms.keywords: RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, netvista.rilfunctionresults_2, rilapitypes/RILFUNCTIONRESULTS, rilapitypes/RIL_RESULT_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILFUNCTIONRESULTS
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum _RILFUNCTIONRESULTS {
 ### -field RIL_RESULT_OK
 
 
-
 ### -field RIL_RESULT_ERROR
-
 

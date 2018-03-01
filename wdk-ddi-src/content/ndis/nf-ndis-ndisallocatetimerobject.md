@@ -7,8 +7,8 @@ old-location: netvista\ndisallocatetimerobject.htm
 old-project: netvista
 ms.assetid: feb5e4cf-7e23-434e-9dc5-bb445a6f5606
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateTimerObject, NdisAllocateTimerObject, netvista.ndisallocatetimerobject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml
+ms.date: 2/16/2018
+ms.keywords: NdisAllocateTimerObject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateTimerObject, ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, netvista.ndisallocatetimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisAllocateTimerObject
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateTimerObject function
@@ -82,8 +82,8 @@ An NDIS handle that was obtained during caller initialization. For more informat
 ### -param TimerCharacteristics [in]
 
 A pointer to a caller-supplied 
-     <mshelp:link keywords="netvista.ndis_timer_characteristics" tabindex="0"><b>
-     NDIS_TIMER_CHARACTERISTICS</b></mshelp:link> structure that specifies the characteristics of the allocated timer
+     <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">
+     NDIS_TIMER_CHARACTERISTICS</a> structure that specifies the characteristics of the allocated timer
      object.
 
 
@@ -97,7 +97,9 @@ A pointer to an NDIS timer object handle that NDIS provides to identify the time
 ## -returns
 
 
+
 <b>NdisAllocateTimerObject</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ None of the preceding status values apply.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To use timer services, an NDIS driver first calls the 
@@ -173,19 +178,28 @@ To free a timer object, you must call the
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
+## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateTimerObject function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateTimerObject function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

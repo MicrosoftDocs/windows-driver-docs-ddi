@@ -7,8 +7,8 @@ old-location: netvista\ndismfreenetbuffersglist.htm
 old-project: netvista
 ms.assetid: 22945e04-9feb-4f4b-9ca6-916dab372a64
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], netvista.ndismfreenetbuffersglist, NdisMFreeNetBufferSGList, ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml
+ms.date: 2/16/2018
+ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisMFreeNetBufferSGList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMFreeNetBufferSGList function
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 Bus-master miniport drivers call the 
   <b>NdisMFreeNetBufferSGList</b> function to free scatter/gather list resources that were allocated by
   calling the 
-  <mshelp:link keywords="netvista.ndismallocatenetbuffersglist" tabindex="0"><b>
-  NdisMAllocateNetBufferSGList</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">
+  NdisMAllocateNetBufferSGList</a> function.
 
 
 ## -syntax
@@ -78,8 +78,8 @@ VOID NdisMFreeNetBufferSGList(
 
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
-     <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-     NdisMRegisterScatterGatherDma</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+     NdisMRegisterScatterGatherDma</a> function.
 
 
 ### -param pSGL [in]
@@ -97,11 +97,14 @@ A pointer to the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Bus-master miniport drivers must call the 
@@ -124,28 +127,45 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
-
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
-
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 <a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
+
+
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMFreeNetBufferSGList function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMFreeNetBufferSGList function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

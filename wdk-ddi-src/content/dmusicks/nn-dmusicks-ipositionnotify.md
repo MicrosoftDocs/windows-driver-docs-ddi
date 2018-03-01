@@ -2,15 +2,13 @@
 UID: NN:dmusicks.IPositionNotify
 title: IPositionNotify
 author: windows-driver-content
-description: 
-PositionNotify
-
+description: PositionNotify
 old-location: audio\ipositionnotify.htm
 old-project: audio
 ms.assetid: DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.ipositionnotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices], described, IPositionNotify, dmusicks/IPositionNotify
+ms.date: 2/22/2018
+ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices], described, audio.ipositionnotify, dmusicks/IPositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -31,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dmusicks.h
-apiname: 
+api_name:
 -	IPositionNotify
 product: Windows
 targetos: Windows

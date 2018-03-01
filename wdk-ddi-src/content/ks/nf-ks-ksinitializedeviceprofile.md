@@ -7,8 +7,8 @@ old-location: stream\ksinitializedeviceprofile.htm
 old-project: stream
 ms.assetid: E6AD21CE-C218-439F-A8F7-8E1AAF307A57
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile, KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ks.lib
 -	ks.dll
-apiname: 
+api_name:
 -	KsInitializeDeviceProfile
 product: Windows
 targetos: Windows
@@ -77,15 +77,19 @@ This is the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> that w
 ## -returns
 
 
+
 If the provided <b>KSFILTERFACTORY</b> does not contain a device interface associated with the <b>KSCATEGORY_VIDEO_CAMERA</b>, this API call will fail with <b>STATUS_INVALID_PARAMETER</b>.
+
 
 
 
 ## -remarks
 
 
+
 It is required that the <b>ReferenceGuid</b> field of the <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure contained with the <b>KSFILTERFACTORY</b> be set with a unique GUID for this filter type.  And the <b>Flags</b> field of the <b>KSFILTER_DESCRIPTOR</b> has the <b>KSFILTER_FLAG_PRIORITIZE_REFERENCEGUID</b> flag set.
 
 To delete all profiles from the profile store associated with the device interface for this <b>KSFILTERFACTORY</b>, the driver may call <b>KsInitializeDeviceProfile</b> followed immediately by <a href="..\ks\nf-ks-kspersistdeviceprofile.md">KsPersistDeviceProfile</a>.  This would result in an empty profile information, which would remove the profile information from the profile store.
+
 
 

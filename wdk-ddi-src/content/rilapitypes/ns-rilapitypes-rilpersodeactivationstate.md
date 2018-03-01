@@ -7,8 +7,8 @@ old-location: netvista\rilpersodeactivationstate_2.htm
 old-project: netvista
 ms.assetid: fb8950ef-7e46-45eb-b23f-5431488e1954
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, netvista.rilpersodeactivationstate_2, *LPRILPERSODEACTIVATIONSTATE
+ms.date: 2/16/2018
+ms.keywords: "*LPRILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilpersodeactivationstate_2, rilapitypes/RILPERSODEACTIVATIONSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILPERSODEACTIVATIONSTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE
+req.typenames: RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE
 req.product: Windows 10 or later.
 ---
 
@@ -75,19 +75,14 @@ typedef struct _RILPERSODEACTIVATIONSTATE {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwDePersoState
 
 
-
 ### -field dwNumCKAttemptsLeft
 
 
-
 ### -field dwNumPUKAttemptsLeft
-
 

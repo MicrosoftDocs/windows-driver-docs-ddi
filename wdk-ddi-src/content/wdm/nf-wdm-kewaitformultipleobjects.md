@@ -7,8 +7,8 @@ old-location: kernel\kewaitformultipleobjects.htm
 old-project: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.kewaitformultipleobjects, KeWaitForMultipleObjects, wdm/KeWaitForMultipleObjects, k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, wdm/KeWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeWaitForMultipleObjects
 product: Windows
 targetos: Windows
@@ -122,7 +122,9 @@ A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> &lt;= 
 ## -returns
 
 
+
 <b>KeWaitForMultipleObjects</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,13 +174,16 @@ A time-out occurred before the specified set of wait conditions was met. This va
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
 
 
 
+
 ## -remarks
+
 
 
 Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> &gt; MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> &gt; THREAD_WAIT_OBJECTS, the system issues <a href="https://msdn.microsoft.com/99d2eb8f-f331-45b8-a96b-68696802c269">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
@@ -213,25 +218,40 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeWaitForMultipleObjects routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeWaitForMultipleObjects routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

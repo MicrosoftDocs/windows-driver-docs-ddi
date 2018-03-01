@@ -7,8 +7,8 @@ old-location: print\ipartbase_getpartcompression.htm
 old-project: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPartBase interface [Print Devices], GetPartCompression method, GetPartCompression, filterpipeline/IPartBase::GetPartCompression, print.ipartbase_getpartcompression, IPartBase::GetPartCompression, GetPartCompression method [Print Devices], IPartBase interface, IPartBase, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, GetPartCompression method [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: GetPartCompression method [Print Devices], GetPartCompression method [Print Devices], IPartBase interface, GetPartCompression,IPartBase.GetPartCompression, IPartBase, IPartBase interface [Print Devices], GetPartCompression method, IPartBase::GetPartCompression, filterpipeline/IPartBase::GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, print.ipartbase_getpartcompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPartBase.GetPartCompression
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A pointer to the compression option data for the part.
 ## -returns
 
 
+
 <b>GetPartCompression</b> returns an <b>HRESULT</b> value.
+
 
 

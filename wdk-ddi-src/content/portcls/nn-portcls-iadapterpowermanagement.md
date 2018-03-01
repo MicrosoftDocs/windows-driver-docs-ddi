@@ -7,8 +7,8 @@ old-location: audio\iadapterpowermanagement.htm
 old-project: audio
 ms.assetid: 20c898fd-a782-4d73-bf1b-a25db4440632
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iadapterpowermanagement, IAdapterPowerManagement interface [Audio Devices], IAdapterPowerManagement interface [Audio Devices], described, IAdapterPowerManagement, portcls/IAdapterPowerManagement, audmp-routines_9daec120-c61d-426c-b30f-80484e1fb652.xml
+ms.date: 2/22/2018
+ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], IAdapterPowerManagement interface [Audio Devices], described, audio.iadapterpowermanagement, audmp-routines_9daec120-c61d-426c-b30f-80484e1fb652.xml, portcls/IAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IAdapterPowerManagement
 product: Windows
 targetos: Windows

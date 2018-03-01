@@ -7,8 +7,8 @@ old-location: storage\ataportgetuncachedextension.htm
 old-project: storage
 ms.assetid: 7b81fc29-4906-4095-b197-6b63f5f01ac0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ataportgetuncachedextension, AtaPortGetUnCachedExtension routine [Storage Devices], irb/AtaPortGetUnCachedExtension, atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, AtaPortGetUnCachedExtension
+ms.date: 2/24/2018
+ms.keywords: AtaPortGetUnCachedExtension, AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, irb/AtaPortGetUnCachedExtension, storage.ataportgetuncachedextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+api_name:
 -	AtaPortGetUnCachedExtension
 product: Windows
 targetos: Windows
@@ -92,11 +92,14 @@ Set this parameter set to 0 if the miniport driver does not maintain per IRB inf
 ## -returns
 
 
+
 <b>AtaPortGetUncachedExtension</b> returns a virtual address pointer to the uncached extension. If it cannot allocate the requested memory, or if the memory was previously allocated, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver can use IRB extensions as storage for driver-determined, request-specific information, such as data that is necessary to process a particular request.
@@ -109,13 +112,16 @@ The miniport driver must not call <b>AtaPortGetUncachedExtension</b> from any ro
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortGetUnCachedExtension routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortGetUnCachedExtension routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

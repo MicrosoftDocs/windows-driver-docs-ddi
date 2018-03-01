@@ -7,8 +7,8 @@ old-location: debugger\openlogfile.htm
 old-project: debugger
 ms.assetid: aba8839e-4c44-4c10-8b6f-9f5832c12166
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OpenLogFile method, OpenLogFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl2 interface, debugger.openlogfile, dbgeng/IDebugControl3::OpenLogFile, IDebugControl3::OpenLogFile, IDebugControl3 interface [Windows Debugging], OpenLogFile method, OpenLogFile method [Windows Debugging], IDebugControl3 interface, OpenLogFile, dbgeng/IDebugControl::OpenLogFile, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, OpenLogFile method [Windows Debugging], IDebugControl3, IDebugControl::OpenLogFile, IDebugControl2::OpenLogFile
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], OpenLogFile method, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl2::OpenLogFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], OpenLogFile method, IDebugControl3::OpenLogFile, IDebugControl::OpenLogFile, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, OpenLogFile method [Windows Debugging], OpenLogFile method [Windows Debugging], IDebugControl interface, OpenLogFile method [Windows Debugging], IDebugControl2 interface, OpenLogFile method [Windows Debugging], IDebugControl3 interface, OpenLogFile,IDebugControl3.OpenLogFile, dbgeng/IDebugControl2::OpenLogFile, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, debugger.openlogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.OpenLogFile
 -	IDebugControl2.OpenLogFile
 -	IDebugControl3.OpenLogFile
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OpenLogFile method
@@ -83,7 +83,9 @@ Specifies whether or not to append log messages to an existing log file.  If <b>
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>OpenLogFile</b> and <b>OpenLogFileWide</b> behave the same way as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a> and <b>OpenLogFile2Wide</b> with <i>Flags</i> set to DEBUG_LOG_APPEND if <i>Append</i> is <b>TRUE</b> and DEBUG_LOG_DEFAULT otherwise.
@@ -115,31 +120,52 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OpenLogFile method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OpenLogFile method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

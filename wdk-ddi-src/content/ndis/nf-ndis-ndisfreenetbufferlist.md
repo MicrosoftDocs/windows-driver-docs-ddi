@@ -7,8 +7,8 @@ old-location: netvista\ndisfreenetbufferlist.htm
 old-project: netvista
 ms.assetid: fddfe5f8-900a-4f4c-8c78-a106a4a54d88
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreenetbufferlist, NdisFreeNetBufferList, ndis_netbuf_functions_ref_202dda58-f8c4-442b-9c18-9c9b2b7708af.xml, NdisFreeNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferList
+ms.date: 2/16/2018
+ms.keywords: NdisFreeNetBufferList, NdisFreeNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferList, ndis_netbuf_functions_ref_202dda58-f8c4-442b-9c18-9c9b2b7708af.xml, netvista.ndisfreenetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisFreeNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeNetBufferList function
@@ -75,26 +75,29 @@ VOID NdisFreeNetBufferList(
 
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling the 
      <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a> or 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-     NdisAllocateNetBufferAndNetBufferList</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+     NdisAllocateNetBufferAndNetBufferList</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 To allocate a 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure from a pool, call
     the 
     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a> or 
-    <mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-    NdisAllocateNetBufferAndNetBufferList</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    NdisAllocateNetBufferAndNetBufferList</a> function.
 
 The 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are associated with
@@ -103,8 +106,8 @@ The
     structures separately.
 
 If you allocated context space for a NET_BUFFER_LIST structure with the 
-    <mshelp:link keywords="netvista.ndisallocatenetbufferlistcontext" tabindex="0"><b>
-    NdisAllocateNetBufferListContext</b></mshelp:link> function, you must free such context space before you free the
+    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+    NdisAllocateNetBufferListContext</a> function, you must free such context space before you free the
     NET_BUFFER_LIST structure. You must not attempt to free the context space that you allocated with 
     <b>NdisAllocateNetBufferList</b> or 
     <b>NdisAllocateNetBufferAndNetBufferList</b> by specifying the 
@@ -113,23 +116,34 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistcontext" tabindex="0"><b>
-   NdisAllocateNetBufferListContext</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+   NdisAllocateNetBufferListContext</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeNetBufferList function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeNetBufferList function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

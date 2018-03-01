@@ -1,14 +1,14 @@
 ---
 UID: NS:avc._AVC_SUBUNIT_ADDR_SPEC
-title: _AVC_SUBUNIT_ADDR_SPEC
+title: "_AVC_SUBUNIT_ADDR_SPEC"
 author: windows-driver-content
 description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of avc.sys to describe virtual subunit addresses.
 old-location: stream\avc_subunit_addr_spec.htm
 old-project: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, stream.avc_subunit_addr_spec, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	avc.h
-apiname: 
+api_name:
 -	AVC_SUBUNIT_ADDR_SPEC
 product: Windows
 targetos: Windows
-req.typenames: *PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC
+req.typenames: AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
 ---
 
 # _AVC_SUBUNIT_ADDR_SPEC structure
@@ -71,6 +71,7 @@ typedef struct _AVC_SUBUNIT_ADDR_SPEC {
 ### -field Flags
 
 The flags extend the operation in the following ways:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -96,7 +97,8 @@ Informs Device Manager that the PDO list has changed. This causes a 1394 bus res
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SubunitAddress
@@ -108,9 +110,11 @@ A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interfa
 
 <a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_SUBUNIT_ADDR_SPEC structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_SUBUNIT_ADDR_SPEC structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

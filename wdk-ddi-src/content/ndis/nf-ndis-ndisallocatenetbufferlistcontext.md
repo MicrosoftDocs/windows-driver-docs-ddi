@@ -7,8 +7,8 @@ old-location: netvista\ndisallocatenetbufferlistcontext.htm
 old-project: netvista
 ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, NdisAllocateNetBufferListContext, netvista.ndisallocatenetbufferlistcontext, ndis/NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, netvista.ndisallocatenetbufferlistcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisAllocateNetBufferListContext
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateNetBufferListContext function
@@ -104,7 +104,9 @@ A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_
 ## -returns
 
 
+
 <b>NdisAllocateNetBufferListContext</b> returns one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,11 +147,14 @@ A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If there is enough unused context space available in the 
@@ -162,10 +167,11 @@ If there is enough unused context space available in the
     <b>NdisAllocateNetBufferListContext</b> does not have to allocate memory.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisfreenetbufferlistcontext" tabindex="0"><b>
-    NdisFreeNetBufferListContext</b></mshelp:link> function to release the context space in the NET_BUFFER_LIST_CONTEXT
+    <a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">
+    NdisFreeNetBufferListContext</a> function to release the context space in the NET_BUFFER_LIST_CONTEXT
     structure that was allocated with 
     <b>NdisAllocateNetBufferListContext</b>.
+
 
 
 
@@ -173,13 +179,19 @@ Call the
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBufferListContext function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBufferListContext function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

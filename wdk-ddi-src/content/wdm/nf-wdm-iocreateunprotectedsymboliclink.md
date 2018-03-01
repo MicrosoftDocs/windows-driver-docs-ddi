@@ -7,8 +7,8 @@ old-location: kernel\iocreateunprotectedsymboliclink.htm
 old-project: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iocreateunprotectedsymboliclink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], wdm/IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml
+ms.date: 2/24/2018
+ms.keywords: IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml, kernel.iocreateunprotectedsymboliclink, wdm/IoCreateUnprotectedSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	IoCreateUnprotectedSymbolicLink
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Supplies the name of the device object to which the symbolic link name refers.
 ## -returns
 
 
+
 <b>IoCreateUnprotectedSymbolicLink</b> returns the final status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> to set up a symbolic link. 
@@ -99,19 +102,28 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+## -see-also
 
 <a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
 
-<a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
+
 
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateUnprotectedSymbolicLink routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateUnprotectedSymbolicLink routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

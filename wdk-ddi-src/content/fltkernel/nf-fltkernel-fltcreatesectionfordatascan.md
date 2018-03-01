@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltCreateSectionForDataScan, fltkernel/FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], ifsk.fltcreatesectionfordatascan
+ms.date: 2/16/2018
+ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+api_name:
 -	FltCreateSectionForDataScan
 product: Windows
 targetos: Windows
@@ -97,6 +97,7 @@ A pointer to a previously allocated section context.
 ### -param DesiredAccess [in]
 
 The type  of access for the section object as one or more of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. 
+
 <table>
 <tr>
 <th><i>DesiredAccess</i> flag</th>
@@ -142,7 +143,8 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -158,6 +160,7 @@ This parameter is reserved for future use.
 ### -param SectionPageProtection [in]
 
 The protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -183,12 +186,14 @@ Enables both read and write access to the committed region of pages.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param AllocationAttributes [in]
 
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -214,7 +219,8 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Flags [in]
@@ -240,7 +246,9 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 ## -returns
 
 
+
 <b>FltCreateSectionForDataScan</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -374,51 +382,80 @@ The filter instance specified by <i>Instance</i> already has an open section for
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Prior to calling <b>FltCreateSectionForDataScan</b>, a minifilter must  first register its volume for data scanning by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>. As with other filter context elements, <i>SectionContext</i> is first allocated with <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. 
 
 Certain situations can occur where holding a section open is incompatible with current file I/O. In particular, file I/O that triggers a cache purge can cause cache incoherency if the cache purge is prevented because of an open section.  A minifilter can provide an optional callback routine for notifications of these events. The minifilter driver implements a <a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a> to receive these notifications. Conflict notifications are enabled if the <b>SectionNotificationCallback</b> member of <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> is set to this callback routine when the minifilter is registered. When a notification is received, the section can be closed to allow the conflicting I/O operation to continue. 
-<div class="alert"><b>Note</b>  A section notification callback may occur before <b>FltCreateSectionForDataScan</b> returns. A minifilter must be able  to receive the callback and handle the case where <i>SectionHandle</i> and <i>SectionObject</i> are not yet valid.</div><div> </div>When the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
+
+<div class="alert"><b>Note</b>  A section notification callback may occur before <b>FltCreateSectionForDataScan</b> returns. A minifilter must be able  to receive the callback and handle the case where <i>SectionHandle</i> and <i>SectionObject</i> are not yet valid.</div>
+<div> </div>
+When the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
 
 For overview  information on creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563684">Section Objects and Views</a>. Also, see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
+
 <div class="alert"><b>Important</b>  <p class="note">Minifilters must not explicitly delete a section context passed to <b>FltCreateSectionForDataScan</b>. Do not call <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a> after a section context is passed to  <b>FltCreateSectionForDataScan</b>. A section context is deallocated and removed from a stream  by calling <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a> in this case.
 
 <p class="note">In general, sections should be created as read-only. In particular, if a read-only file is in a transaction  and a minifilter does not create a read-only section, a write to the section is discarded and is not included as part of the transaction.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
 
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
-<a href="..\fltkernel\nc-fltkernel-pflt_section_conflict_notification_callback.md">PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltregisterfordatascan.md">FltRegisterForDataScan</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateSectionForDataScan routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateSectionForDataScan routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

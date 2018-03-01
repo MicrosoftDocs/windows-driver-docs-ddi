@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_hub_cycle_port.htm
 old-project: usbref
 ms.assetid: 21d9af73-bd30-43d6-93b1-c29f763a4fcd
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_usb_hub_cycle_port, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], IOCTL_USB_HUB_CYCLE_PORT, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_USB_HUB_CYCLE_PORT, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], buses.ioctl_usb_hub_cycle_port, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbioctl.h
-apiname: 
+api_name:
 -	IOCTL_USB_HUB_CYCLE_PORT
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -91,14 +91,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,8 +114,10 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 ## -remarks
 
 
+
 You can also power cycle the port by using the <b>Device Manager</b>'s <b>Enable</b>/<b>Disable</b> feature. This feature causes the bus driver to reset the device. Alternatively, you can use DevCon to enable or disable the device. 
 
 The executable for DevCon can be found in the <i>&lt;install_path&gt;</i><b>\WinDDK\</b><i>build_number</i><b>\tools\devcon\</b><i>&lt;arch&gt;</i><b>\devcon.exe</b> folder.
+
 
 

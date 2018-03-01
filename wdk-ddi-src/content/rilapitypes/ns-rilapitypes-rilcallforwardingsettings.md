@@ -7,8 +7,8 @@ old-location: netvista\rilcallforwardingsettings_2.htm
 old-project: netvista
 ms.assetid: 8dacbef8-f037-4298-8a3b-cce7cf843fcf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettings_2, rilapitypes/RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettings_2, rilapitypes/RILCALLFORWARDINGSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLFORWARDINGSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS
+req.typenames: RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,20 @@ typedef struct _RILCALLFORWARDINGSETTINGS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwStatus
 
 
-
 ### -field dwInfoClasses
-
 
 
 ### -field raAddress
 
 
-
 ### -field rsaSubAddress
 
 
-
 ### -field dwDelayTime
-
 

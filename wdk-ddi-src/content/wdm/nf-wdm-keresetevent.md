@@ -7,8 +7,8 @@ old-location: kernel\keresetevent.htm
 old-project: kernel
 ms.assetid: 90be986b-e63e-4ae3-a0f3-87f6f58583dc
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeResetEvent, KeResetEvent, KeResetEvent routine [Kernel-Mode Driver Architecture], kernel.keresetevent, k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml
+ms.date: 2/24/2018
+ms.keywords: KeResetEvent, KeResetEvent routine [Kernel-Mode Driver Architecture], k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml, kernel.keresetevent, wdm/KeResetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeResetEvent
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to an initialized dispatcher object of type event for which the caller
 ## -returns
 
 
+
 <b>KeResetEvent</b> returns a value that indicates the previous state of the specified <i>Event</i>, which is nonzero for a signaled state. 
 
 
 
+
 ## -remarks
+
 
 
 <i>Event</i> is reset to a not-signaled state, meaning that its value is set to zero.
@@ -91,23 +94,36 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeResetEvent routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeResetEvent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

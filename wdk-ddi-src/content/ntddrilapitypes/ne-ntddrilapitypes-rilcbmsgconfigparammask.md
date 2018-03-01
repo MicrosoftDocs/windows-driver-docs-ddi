@@ -7,8 +7,8 @@ old-location: netvista\rilcbmsgconfigparammask.htm
 old-project: netvista
 ms.assetid: 86bbc3ef-c76c-4abd-bfcb-56c804c12b1f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CBMC_ALL, ntddrilapitypes/RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_GWLINFO, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CBMC_GWLINFO, ntddrilapitypes/RIL_PARAM_CBMC_CDMASIZE, ntddrilapitypes/RIL_PARAM_CBMC_ALL, netvista.rilcbmsgconfigparammask, RILCBMSGCONFIGPARAMMASK, ntddrilapitypes/RILCBMSGCONFIGPARAMMASK, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE
+ms.date: 2/16/2018
+ms.keywords: RILCBMSGCONFIGPARAMMASK, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_ALL, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_GWLINFO, netvista.rilcbmsgconfigparammask, ntddrilapitypes/RILCBMSGCONFIGPARAMMASK, ntddrilapitypes/RIL_PARAM_CBMC_ALL, ntddrilapitypes/RIL_PARAM_CBMC_CDMAINFO, ntddrilapitypes/RIL_PARAM_CBMC_CDMASIZE, ntddrilapitypes/RIL_PARAM_CBMC_GWLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCBMSGCONFIGPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILCBMSGCONFIGPARAMMASK {
 ### -field RIL_PARAM_CBMC_GWLSIZE
 
 
-
 ### -field RIL_PARAM_CBMC_GWLINFO
-
 
 
 ### -field RIL_PARAM_CBMC_CDMASIZE
 
 
-
 ### -field RIL_PARAM_CBMC_CDMAINFO
 
 
-
 ### -field RIL_PARAM_CBMC_ALL
-
 

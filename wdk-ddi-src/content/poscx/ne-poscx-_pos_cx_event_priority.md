@@ -1,14 +1,14 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_PRIORITY
-title: _POS_CX_EVENT_PRIORITY
+title: "_POS_CX_EVENT_PRIORITY"
 author: windows-driver-content
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
 old-location: pos\pos_cx_event_priority.htm
 old-project: pos
 ms.assetid: 835DC1E4-2D49-4D43-A545-5D4288412EC6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: poscx/POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY, _POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY enumeration, poscx/POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_CONTROL, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY_INVALID
+ms.date: 2/23/2018
+ms.keywords: POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY enumeration, POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_INVALID, _POS_CX_EVENT_PRIORITY, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	POS_CX_EVENT_PRIORITY
 product: Windows
 targetos: Windows
@@ -93,5 +93,8 @@ Control level priority delivered in FIFO.
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  PosCx will deliver all Control level events before Data level events.</div><div> </div>
+
+<div class="alert"><b>Note</b>  PosCx will deliver all Control level events before Data level events.</div>
+<div> </div>
+
 

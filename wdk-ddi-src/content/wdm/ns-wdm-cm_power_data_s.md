@@ -7,13 +7,13 @@ old-location: kernel\cm_power_data.htm
 old-project: kernel
 ms.assetid: 38fea22b-4d9a-4b03-bbb7-c22578f60def
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: CM_Power_Data_s, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_POWER_DATA, PCM_POWER_DATA, *PCM_POWER_DATA, kernel.cm_power_data, CM_POWER_DATA, wdm/CM_POWER_DATA, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml
+ms.date: 2/24/2018
+ms.keywords: "*PCM_POWER_DATA, CM_POWER_DATA, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], CM_Power_Data_s, PCM_POWER_DATA, PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_power_data, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml, wdm/CM_POWER_DATA, wdm/PCM_POWER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	CM_POWER_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PCM_POWER_DATA, CM_POWER_DATA
+req.typenames: CM_POWER_DATA, *PCM_POWER_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -135,15 +135,21 @@ Specifies the least-powered system state from which the device can wake the syst
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
+
+
 
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CM_POWER_DATA structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CM_POWER_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

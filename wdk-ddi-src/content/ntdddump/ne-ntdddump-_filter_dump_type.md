@@ -1,14 +1,14 @@
 ---
 UID: NE:ntdddump._FILTER_DUMP_TYPE
-title: _FILTER_DUMP_TYPE
+title: "_FILTER_DUMP_TYPE"
 author: windows-driver-content
 description: The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
 old-location: storage\filter_dump_type.htm
 old-project: storage
 ms.assetid: 396aec33-b4b4-4b4e-9890-b4aa829c3bbd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntdddump/DumpTypeCrashdump, FILTER_DUMP_TYPE, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml, ntdddump/DumpTypeHibernation, _FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE, ntdddump/FILTER_DUMP_TYPE, DumpTypeHibernation, ntdddump/DumpTypeUndefined, DumpTypeUndefined, DumpTypeCrashdump, PFILTER_DUMP_TYPE, storage.filter_dump_type, FILTER_DUMP_TYPE enumeration [Storage Devices], ntdddump/PFILTER_DUMP_TYPE
+ms.date: 2/24/2018
+ms.keywords: "*PFILTER_DUMP_TYPE, DumpTypeCrashdump, DumpTypeHibernation, DumpTypeUndefined, FILTER_DUMP_TYPE, FILTER_DUMP_TYPE enumeration [Storage Devices], PFILTER_DUMP_TYPE, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], _FILTER_DUMP_TYPE, ntdddump/DumpTypeCrashdump, ntdddump/DumpTypeHibernation, ntdddump/DumpTypeUndefined, ntdddump/FILTER_DUMP_TYPE, ntdddump/PFILTER_DUMP_TYPE, storage.filter_dump_type, structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddump.h
-apiname: 
+api_name:
 -	FILTER_DUMP_TYPE
 product: Windows
 targetos: Windows

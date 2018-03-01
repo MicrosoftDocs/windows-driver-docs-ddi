@@ -7,8 +7,8 @@ old-location: netvista\ndisregisterprotocoldriver.htm
 old-project: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver
+ms.date: 2/16/2018
+ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisRegisterProtocolDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRegisterProtocolDriver function
@@ -81,8 +81,8 @@ A handle to a driver-allocated context area where the driver maintains state and
 ### -param ProtocolCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link> structure that the protocol driver created and initialized
+     <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that the protocol driver created and initialized
      with its 
      <i>ProtocolXxx</i> function entry points.
 
@@ -98,7 +98,9 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 ## -returns
 
 
+
 <b>NdisRegisterProtocolDriver</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,27 +169,30 @@ Some members of the structure at the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
-    <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS
-    Protocol Drivers</b></mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
+    Protocol Drivers</a>.
 
 Drivers that call <b>
     NdisRegisterProtocolDriver</b> must be prepared for an immediate call to any of their <i>ProtocolXxx</i> functions.
 
 Every protocol driver exports a set of 
     <i>ProtocolXxx</i> functions by setting up the 
-    <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link> structure and calling 
+    <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure and calling 
     <b>NdisRegisterProtocolDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow protocol drivers to register optional services, NDIS calls the 
@@ -196,27 +201,36 @@ To allow protocol drivers to register optional services, NDIS calls the
     <b>NdisRegisterProtocolDriver</b>.
 
 Protocol drivers call the 
-    <mshelp:link keywords="netvista.ndisderegisterprotocoldriver" tabindex="0"><b>
-    NdisDeregisterProtocolDriver</b></mshelp:link> function to release resources that were previously allocated with 
+    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    NdisDeregisterProtocolDriver</a> function to release resources that were previously allocated with 
     <b>NdisRegisterProtocolDriver</b>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
- 
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRegisterProtocolDriver function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRegisterProtocolDriver function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

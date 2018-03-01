@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_resolve_query_data.htm
 old-project: display
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData callback function [Display Devices], pfnResolveQueryData, PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnResolveQueryData
 product: Windows
 targetos: Windows
@@ -79,13 +79,10 @@ VOID APIENTRY* pfnResolveQueryData(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
 
 
-
 ### -param D3D12DDI_QUERY_TYPE
-
 
 
 ### -param StartElement
@@ -108,9 +105,9 @@ The handle of a destination buffer.
 The destination offset.
 
 
-#### - hQueryHeap
+#### - QueryType
 
-The handle of a query heap.
+A query type.
 
 
 #### - hCommandList
@@ -118,21 +115,25 @@ The handle of a query heap.
 The handle of a command list.
 
 
-#### - QueryType
+#### - hQueryHeap
 
-A query type.
+The handle of a query heap.
 
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 Resolve functionality is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
+
 
 

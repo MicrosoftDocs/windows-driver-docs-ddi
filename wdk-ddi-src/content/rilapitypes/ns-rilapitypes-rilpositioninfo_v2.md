@@ -7,13 +7,13 @@ old-location: netvista\rilpositioninfo_v2.htm
 old-project: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFO, *LPRILPOSITIONINFO, netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2, RILPOSITIONINFO_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILPOSITIONINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO
+req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRILPOSITIONINFO
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,7 @@ UMTS serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilposit
 
 ### -field stTDSCDMAServingCellInfo
 
-TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfo_v1.md">RILPOSITIONINFO_V1</a>.
+TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://msdn.microsoft.com/library/windows/hardware/dn931134">RILPOSITIONINFO_V1</a>.
 
 
 ### -field stLTEServingCellInfo
@@ -163,23 +163,25 @@ The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 The cdma2000 measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 
 
-#### - RILUMTSMRL
-
-UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
-
-
 #### - RILTDSCDMAMRL
 
 TD-SCDMA measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
+
+
+#### - RILUMTSMRL
+
+UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFO_V2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFO_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

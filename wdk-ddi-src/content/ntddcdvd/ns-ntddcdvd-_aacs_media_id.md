@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddcdvd._AACS_MEDIA_ID
-title: _AACS_MEDIA_ID
+title: "_AACS_MEDIA_ID"
 author: windows-driver-content
 description: The AACS_MEDIA_ID structure contains an Advanced Access Content System (AACS) media identifier and corresponding message authentication code (MAC).
 old-location: storage\aacs_media_id.htm
 old-project: storage
 ms.assetid: 56be82fc-c438-4cd1-8fcc-1184699f03e6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddcdvd/PAACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml, PAACS_MEDIA_ID structure pointer [Storage Devices], storage.aacs_media_id, _AACS_MEDIA_ID, *PAACS_MEDIA_ID, AACS_MEDIA_ID, PAACS_MEDIA_ID, AACS_MEDIA_ID structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PAACS_MEDIA_ID, AACS_MEDIA_ID, AACS_MEDIA_ID structure [Storage Devices], PAACS_MEDIA_ID, PAACS_MEDIA_ID structure pointer [Storage Devices], _AACS_MEDIA_ID, ntddcdvd/AACS_MEDIA_ID, ntddcdvd/PAACS_MEDIA_ID, storage.aacs_media_id, structs-DVD_413a14c6-75e0-444f-b325-8dfeb9c0c074.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdvd.h
-apiname: 
+api_name:
 -	AACS_MEDIA_ID
 product: Windows
 targetos: Windows
-req.typenames: *PAACS_MEDIA_ID, AACS_MEDIA_ID
+req.typenames: AACS_MEDIA_ID, *PAACS_MEDIA_ID
 ---
 
 # _AACS_MEDIA_ID structure
@@ -81,7 +81,9 @@ The message authentication code (MAC) that the client uses to verify that the Me
 ## -remarks
 
 
+
 Clients retrieve the AACS certificate with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_id.md">IOCTL_AACS_READ_MEDIA_ID</a> request.
+
 
 
 
@@ -89,9 +91,11 @@ Clients retrieve the AACS certificate with an <a href="..\ntddcdvd\ni-ntddcdvd-i
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_id.md">IOCTL_AACS_READ_MEDIA_ID</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_MEDIA_ID structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_MEDIA_ID structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

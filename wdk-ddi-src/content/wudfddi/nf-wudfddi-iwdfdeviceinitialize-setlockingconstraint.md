@@ -7,8 +7,8 @@ old-location: wdf\iwdfdeviceinitialize_setlockingconstraint.htm
 old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize, SetLockingConstraint, IWDFDeviceInitialize interface, SetLockingConstraint method, wdf.iwdfdeviceinitialize_setlockingconstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, IWDFDeviceInitialize::SetLockingConstraint
+ms.date: 2/20/2018
+ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetLockingConstraint method, IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, SetLockingConstraint,IWDFDeviceInitialize.SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, umdf.iwdfdeviceinitialize_setlockingconstraint, wdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDeviceInitialize.SetLockingConstraint
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -78,14 +78,24 @@ A value of type <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_callback_constra
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The default value of the <i>LockType</i> parameter is <b>WdfDeviceLevel</b>, which is currently the only supported value.
+
+
+#### Examples
+
+For a code example of how to use the <b>SetLockingConstraint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+
+<div class="code"></div>
 
 
 
@@ -93,11 +103,15 @@ The default value of the <i>LockType</i> parameter is <b>WdfDeviceLevel</b>, whi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize::SetLockingConstraint method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDeviceInitialize::SetLockingConstraint method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\idebuginputcallbacks_startinput.htm
 old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: StartInput method [Windows Debugging], StartInput, debugger.idebuginputcallbacks_startinput, dbgeng/IDebugInputCallbacks::StartInput, IDebugInputCallbacks, IDebugInputCallbacks::StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], IDebugInputCallbacks interface
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], StartInput method, IDebugInputCallbacks::StartInput, StartInput method [Windows Debugging], StartInput method [Windows Debugging], IDebugInputCallbacks interface, StartInput,IDebugInputCallbacks.StartInput, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugInputCallbacks.StartInput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugInputCallbacks::StartInput method
@@ -75,11 +75,14 @@ Specifies the number of characters requested.  Any input longer than this size w
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
 
 
 
+
 ## -remarks
+
 
 
 This method indicates that the engine is waiting for a line of input from any client.  This can occur if, for example, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">Input</a> method was called on a client.
@@ -89,5 +92,6 @@ After calling this method, the engine waits until it receives some input.  When 
 The <b>IDebugInputCallbacks</b> object can provide the engine with a line of input by calling either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554600">ReturnInput</a> or <b>ReturnInputWide</b> methods.
 
 For more information about debugger engine input, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

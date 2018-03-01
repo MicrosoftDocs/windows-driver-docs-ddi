@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._ECP_OPEN_PARAMETERS
-title: _ECP_OPEN_PARAMETERS
+title: "_ECP_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The ECP_OPEN_PARAMETERS structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file.
 old-location: ifsk\ecp_open_parameters.htm
 old-project: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], *PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], _ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	ECP_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ Reserved for future use. This must be initialized to 0.
 ### -field Flags
 
 Flags that Specify the parameters or purpose for opening a file. Contains one of the following values:
+
 <table>
 <tr>
 <th>Name</th>
@@ -103,5 +104,6 @@ Flags that Specify the parameters or purpose for opening a file. Contains one of
 <td>0x04</td>
 <td>Opening file to delete it.</td>
 </tr>
-</table> 
+</table>
+ 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
-title: _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
+title: "_USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_stream_status_params.htm
 old-project: audio
 ms.assetid: 5C50D9B0-53C7-4F1B-A6D1-CE77A3645956
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, usbsidebandaudio/PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure pointer [Audio Devices], audio.usbsidebandaudio_stream_status_params, _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
+ms.date: 2/22/2018
+ms.keywords: "*PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, audio.usbsidebandaudio_stream_status_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	kbSyntax
-apitype: 
+api_type:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+api_location:
+-
+api_name:
 -	USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
+req.typenames: USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_STATUS_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -87,12 +87,13 @@ typedef struct _USBSIDEBANDAUDIO_STREAM_STATUS_PARAMS {
 
 
 
-#### - Reserved 1
+
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

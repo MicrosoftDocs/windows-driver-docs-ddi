@@ -7,13 +7,13 @@ old-location: netvista\rilpositioninfogsmparammask.htm
 old-project: netvista
 ms.assetid: 9785ef86-8a2f-4e08-8caf-aa25f52a76ab
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_POSITION_GSM_MNC, rilapitypes/RIL_PARAM_POSITION_GSM_RXLEVEL, rilapitypes/RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_RXLEVEL, netvista.rilpositioninfogsmparammask, RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_MCC, rilapitypes/RIL_PARAM_POSITION_GSM_BSID, RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_ALL, rilapitypes/RIL_PARAM_POSITION_GSM_TA, rilapitypes/RIL_PARAM_POSITION_GSM_CELLID, RIL_PARAM_POSITION_GSM_MCC, rilapitypes/RIL_PARAM_POSITION_GSM_ALL, RIL_PARAM_POSITION_GSM_BSID, rilapitypes/RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_TA, RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_MNC, RILPOSITIONINFOGSMPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_GSM_CELLID
+ms.date: 2/16/2018
+ms.keywords: RILPOSITIONINFOGSMPARAMMASK, RILPOSITIONINFOGSMPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_GSM_ALL, RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_BSID, RIL_PARAM_POSITION_GSM_CELLID, RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_MCC, RIL_PARAM_POSITION_GSM_MNC, RIL_PARAM_POSITION_GSM_RXLEVEL, RIL_PARAM_POSITION_GSM_TA, netvista.rilpositioninfogsmparammask, rilapitypes/RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_ALL, rilapitypes/RIL_PARAM_POSITION_GSM_ARFCN, rilapitypes/RIL_PARAM_POSITION_GSM_BSID, rilapitypes/RIL_PARAM_POSITION_GSM_CELLID, rilapitypes/RIL_PARAM_POSITION_GSM_LAC, rilapitypes/RIL_PARAM_POSITION_GSM_MCC, rilapitypes/RIL_PARAM_POSITION_GSM_MNC, rilapitypes/RIL_PARAM_POSITION_GSM_RXLEVEL, rilapitypes/RIL_PARAM_POSITION_GSM_TA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILPOSITIONINFOGSMPARAMMASK
 product: Windows
 targetos: Windows
@@ -80,46 +80,39 @@ enum RILPOSITIONINFOGSMPARAMMASK {
 ### -field RIL_PARAM_POSITION_GSM_MCC
 
 
-
 ### -field RIL_PARAM_POSITION_GSM_MNC
-
 
 
 ### -field RIL_PARAM_POSITION_GSM_LAC
 
 
-
 ### -field RIL_PARAM_POSITION_GSM_CELLID
-
 
 
 ### -field RIL_PARAM_POSITION_GSM_TA
 
 
-
 ### -field RIL_PARAM_POSITION_GSM_ARFCN
-
 
 
 ### -field RIL_PARAM_POSITION_GSM_BSID
 
 
-
 ### -field RIL_PARAM_POSITION_GSM_RXLEVEL
 
 
-
 ### -field RIL_PARAM_POSITION_GSM_ALL
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFOGSMPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFOGSMPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_video_processor_nominal_range.htm
 old-project: display
 ms.assetid: E8D77D49-9E7C-45B3-850C-1E814B44464B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_processor_nominal_range, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, display.d3d11_1ddi_video_processor_nominal_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_NOMINAL_RANGE
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusiv
 ## -remarks
 
 
+
 For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+
 
 

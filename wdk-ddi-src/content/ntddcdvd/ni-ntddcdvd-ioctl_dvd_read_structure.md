@@ -7,8 +7,8 @@ old-location: storage\ioctl_dvd_read_structure.htm
 old-project: storage
 ms.assetid: 64cf4d53-5d03-43bc-b295-37ecf67b4d2a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_dvd_read_structure, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], IOCTL_DVD_READ_STRUCTURE, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_DVD_READ_STRUCTURE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ The driver returns the disc information in the buffer at <b>Irp-&gt;AssociatedIr
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,21 +110,33 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
+<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
+
+
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_layer_descriptor.md">DVD_LAYER_DESCRIPTOR</a>
+
+
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_bca_descriptor.md">DVD_BCA_DESCRIPTOR</a>
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_disk_key_descriptor.md">DVD_DISK_KEY_DESCRIPTOR</a>
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copyright_descriptor.md">DVD_COPYRIGHT_DESCRIPTOR</a>
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_manufacturer_descriptor.md">DVD_MANUFACTURER_DESCRIPTOR</a>
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copyright_descriptor.md">DVD_COPYRIGHT_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_disk_key_descriptor.md">DVD_DISK_KEY_DESCRIPTOR</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DVD_READ_STRUCTURE control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DVD_READ_STRUCTURE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

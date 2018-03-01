@@ -1,14 +1,14 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_CONST
-title: _TCP_OFFLOAD_STATE_CONST
+title: "_TCP_OFFLOAD_STATE_CONST"
 author: windows-driver-content
 description: The TCP_OFFLOAD_STATE_CONST structure contains the constant variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_const.htm
 old-project: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.tcp_offload_state_const, ndischimney/PTCP_OFFLOAD_STATE_CONST, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST
+ms.date: 2/16/2018
+ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndischimney.h
-apiname: 
+api_name:
 -	TCP_OFFLOAD_STATE_CONST
 product: Windows
 targetos: Windows
-req.typenames: *PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST
+req.typenames: TCP_OFFLOAD_STATE_CONST, *PTCP_OFFLOAD_STATE_CONST
 ---
 
 # _TCP_OFFLOAD_STATE_CONST structure
@@ -96,6 +96,33 @@ A bitmask that can be set to zero or any of the following flags, combined with b
 
 
 
+
+#### TCP_FLAG_TIMESTAMP_ENABLED
+
+The host stack sets this flag to enable the TCP timestamp option on the connection. (For more
+       information about the TCP timestamp option, see RFC 1323.) When this option is enabled, the offload
+       target must place a timestamp in each TCP segment that it sends. The host stack clears this flag to
+       disable the TCP timestamp option on the connection.
+
+
+
+#### TCP_FLAG_SACK_ENABLED
+
+The host stack sets this flag to enable selective acknowledgments (SACKs) on the connection.
+       (For more information about the SACKs, see RFC 2018.) When this option is enabled, the offload target
+       sends and receives SACK blocks over the TCP connection. The host stack clears this flag to disable
+       SACKs on the connection.
+
+
+
+#### TCP_FLAG_WINDOW_SCALING_ENABLED
+
+The host stack sets this flag to cause the offload target to use scale factors (SndWindScale and
+       RcvWindScale) to compute send and receive windows for the connection. (For more information about
+       window scale factors, see RFCs 2883 and 3517.) The host stack clears this flag to disable this
+       option.
+
+
 ### -field RemotePort
 
 The destination port number (see RFC 793).
@@ -125,68 +152,56 @@ The initial maximum segment size (MSS) advertised by the remote endpoint during 
 ### -field HashValue
 
 A 32-bit hash value that the offload target uses for 
-     <mshelp:link keywords="netvista.receive_side_scaling_on_an_offloaded_tcp_connection" tabindex="0">receive side
-     scaling (RSS)</mshelp:link> processing on the TCP connection if the offload target supports RSS.
-
-
-##### - Flags.TCP_FLAG_WINDOW_SCALING_ENABLED
-
-The host stack sets this flag to cause the offload target to use scale factors (SndWindScale and
-       RcvWindScale) to compute send and receive windows for the connection. (For more information about
-       window scale factors, see RFCs 2883 and 3517.) The host stack clears this flag to disable this
-       option.
-
-
-##### - Flags.TCP_FLAG_SACK_ENABLED
-
-The host stack sets this flag to enable selective acknowledgments (SACKs) on the connection.
-       (For more information about the SACKs, see RFC 2018.) When this option is enabled, the offload target
-       sends and receives SACK blocks over the TCP connection. The host stack clears this flag to disable
-       SACKs on the connection.
-
-
-##### - Flags.TCP_FLAG_TIMESTAMP_ENABLED
-
-The host stack sets this flag to enable the TCP timestamp option on the connection. (For more
-       information about the TCP timestamp option, see RFC 1323.) When this option is enabled, the offload
-       target must place a timestamp in each TCP segment that it sends. The host stack clears this flag to
-       disable the TCP timestamp option on the connection.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/receive-side-scaling-on-an-offloaded-tcp-connection">receive side
+     scaling (RSS)</a> processing on the TCP connection if the offload target supports RSS.
 
 
 ## -remarks
 
 
+
 The value of each TCP constant variable does not change during the life of a TCP connection. Neither
     the host stack nor the offload target changes the values of a TCP constant variable. When the host stack
     terminates the offload of the TCP connection state object by causing NDIS to call the offload target's 
-    <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-    MiniportTerminateOffload</i></mshelp:link> function, the offload target does not return the value of the offloaded
+    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+    MiniportTerminateOffload</a> function, the offload target does not return the value of the offloaded
     TCP constant variables to the host stack.
 
 When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associated with an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which contains a header that is formatted as an 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The 
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the TCP_OFFLOAD_STATE_CONST structure.
 
 
 
-## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+## -see-also
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
- 
+
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CONST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CONST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

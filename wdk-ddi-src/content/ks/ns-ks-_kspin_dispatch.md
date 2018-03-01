@@ -1,14 +1,14 @@
 ---
 UID: NS:ks._KSPIN_DISPATCH
-title: _KSPIN_DISPATCH
+title: "_KSPIN_DISPATCH"
 author: windows-driver-content
 description: The KSPIN_DISPATCH structure describes the callbacks for which clients can register in order to receive notification of pin events.
 old-location: stream\kspin_dispatch.htm
 old-project: stream
 ms.assetid: 6c4aea1f-e788-49c7-91c0-831c87c6fd39
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KSPIN_DISPATCH, stream.kspin_dispatch, ks/PKSPIN_DISPATCH, _KSPIN_DISPATCH, *PKSPIN_DISPATCH, PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], KSPIN_DISPATCH structure [Streaming Media Devices], KSPIN_DISPATCH, avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml
+ms.date: 2/23/2018
+ms.keywords: "*PKSPIN_DISPATCH, KSPIN_DISPATCH, KSPIN_DISPATCH structure [Streaming Media Devices], PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], _KSPIN_DISPATCH, avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml, ks/KSPIN_DISPATCH, ks/PKSPIN_DISPATCH, stream.kspin_dispatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSPIN_DISPATCH
 product: Windows
 targetos: Windows
@@ -76,58 +76,58 @@ typedef struct _KSPIN_DISPATCH {
 
 
 
-
-#### - Create
+### -field Create
 
 A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
-#### - SetDeviceState
-
-A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinsetdevicestate.md">AVStrMiniPinSetDeviceState</a> callback routine. Optional. Can be <b>NULL</b>.
-
-
-#### - Disconnect
-
-A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinvoid.md">AVStrMiniPinDisconnect</a> callback routine. Optional. Can be <b>NULL</b>.
-
-
-#### - Reset
-
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a> callback routine. Optional. Can be <b>NULL</b>.
-
-
-#### - Process
-
-A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> callback routine. Optional. Can be <b>NULL</b>.
-
-
-#### - Close
+### -field Close
 
 A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556329">AVStrMiniPinClose</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
-#### - Connect
+### -field Process
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556332">AVStrMiniPinConnect</a> callback routine. Optional. Can be <b>NULL</b>.
-
-
-#### - Clock
-
-A pointer to a <a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a> structure. Specify this member for a pin that exposes a clock. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
-#### - SetDataFormat
+### -field Reset
+
+A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a> callback routine. Optional. Can be <b>NULL</b>.
+
+
+### -field SetDataFormat
 
 A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinsetdataformat.md">AVStrMiniPinSetDataFormat</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
-#### - Allocator
+### -field SetDeviceState
+
+A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinsetdevicestate.md">AVStrMiniPinSetDeviceState</a> callback routine. Optional. Can be <b>NULL</b>.
+
+
+### -field Connect
+
+A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556332">AVStrMiniPinConnect</a> callback routine. Optional. Can be <b>NULL</b>.
+
+
+### -field Disconnect
+
+A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinvoid.md">AVStrMiniPinDisconnect</a> callback routine. Optional. Can be <b>NULL</b>.
+
+
+### -field Clock
+
+A pointer to a <a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a> structure. Specify this member for a pin that exposes a clock. Optional. Can be <b>NULL</b>.
+
+
+### -field Allocator
 
 A pointer to a <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. Specify this member for a pin that is capable of performing kernel-level allocation. Optional. Can be <b>NULL</b>.
 
 
 ## -remarks
+
 
 
 Any of the callback pointers can be <b>NULL</b>, indicating that the minidriver does not require to receive notification for this particular dispatch.
@@ -136,19 +136,28 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 
 
-## -see-also
 
-<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
+## -see-also
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
+<a href="..\ks\ns-ks-_ksclock_dispatch.md">KSCLOCK_DISPATCH</a>
+
+
+
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
+
 
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_DISPATCH structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_DISPATCH structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

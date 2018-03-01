@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfmemory._WDF_MEMORY_DESCRIPTOR
-title: _WDF_MEMORY_DESCRIPTOR
+title: "_WDF_MEMORY_DESCRIPTOR"
 author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR structure describes a memory buffer.
 old-location: wdf\wdf_memory_descriptor.htm
 old-project: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PWDF_MEMORY_DESCRIPTOR structure pointer, _WDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, kmdf.wdf_memory_descriptor, wdfmemory/WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, wdfmemory/PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, _WDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, wdf.wdf_memory_descriptor, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdfmemory/WDF_MEMORY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfmemory.h
-apiname: 
+api_name:
 -	WDF_MEMORY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR
+req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,11 @@ typedef struct _WDF_MEMORY_DESCRIPTOR {
 ## -struct-fields
 
 
+
+
+### -field Type
+
+A <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
 
 
 ### -field u
@@ -131,15 +136,11 @@ A handle to a framework memory object.
 
 ### -field u.HandleType.Offsets
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
-
-
-### -field Type
-
-A <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
+A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
 
 
 ## -remarks
+
 
 
 The <b>WDF_MEMORY_DESCRIPTOR</b> structure is used as input to several of the framework's <a href="https://msdn.microsoft.com/29680C5C-C690-4560-B340-3565D219DFE8">I/O target object methods</a> and <a href="https://msdn.microsoft.com/CDD13B29-62C8-4CF7-9027-E55A5B37AA2E">USB device object methods</a>.
@@ -148,15 +149,21 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 
 
+
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
 
- 
+
+
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

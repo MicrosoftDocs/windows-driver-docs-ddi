@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgencoding_2.htm
 old-project: netvista
 ms.assetid: 85586f69-09c3-4ebe-ad90-eb1b18e9d552
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGCODING_LATIN_HEBREW, rilapitypes/RIL_MSGCODING_MAX, RIL_MSGCODING_7BITASCII, rilapitypes/RIL_MSGCODING_7BITGSM, RIL_MSGCODING_LATIN_HEBREW, rilapitypes/RIL_MSGCODING_IA5, RIL_MSGCODING_8BITGSM, RILMSGCDMAMSGENCODING, rilapitypes/RIL_MSGCODING_UNICODE, rilapitypes/RIL_MSGCODING_LATIN, RIL_MSGCODING_KOREAN, rilapitypes/RIL_MSGCODING_7BITASCII, rilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_LATIN, rilapitypes/RIL_MSGCODING_OCTET, RIL_MSGCODING_IA5, RIL_MSGCODING_OCTET, netvista.rilmsgcdmamsgencoding_2, RIL_MSGCODING_MAX, rilapitypes/RIL_MSGCODING_JIS, RIL_MSGCODING_7BITGSM, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_UNICODE, rilapitypes/RIL_MSGCODING_KOREAN, rilapitypes/RIL_MSGCODING_8BITGSM, RIL_MSGCODING_JIS
+ms.date: 2/16/2018
+ms.keywords: RILMSGCDMAMSGENCODING, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_7BITASCII, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_IA5, RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, RIL_MSGCODING_LATIN, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_MAX, RIL_MSGCODING_OCTET, RIL_MSGCODING_UNICODE, netvista.rilmsgcdmamsgencoding_2, rilapitypes/RILMSGCDMAMSGENCODING, rilapitypes/RIL_MSGCODING_7BITASCII, rilapitypes/RIL_MSGCODING_7BITGSM, rilapitypes/RIL_MSGCODING_8BITGSM, rilapitypes/RIL_MSGCODING_IA5, rilapitypes/RIL_MSGCODING_JIS, rilapitypes/RIL_MSGCODING_KOREAN, rilapitypes/RIL_MSGCODING_LATIN, rilapitypes/RIL_MSGCODING_LATIN_HEBREW, rilapitypes/RIL_MSGCODING_MAX, rilapitypes/RIL_MSGCODING_OCTET, rilapitypes/RIL_MSGCODING_UNICODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCDMAMSGENCODING
 product: Windows
 targetos: Windows
@@ -81,47 +81,35 @@ typedef enum _RILMSGCDMAMSGENCODING {
 ### -field RIL_MSGCODING_UNKNOWN
 
 
-
 ### -field RIL_MSGCODING_7BITASCII
-
 
 
 ### -field RIL_MSGCODING_UNICODE
 
 
-
 ### -field RIL_MSGCODING_7BITGSM
-
 
 
 ### -field RIL_MSGCODING_8BITGSM
 
 
-
 ### -field RIL_MSGCODING_OCTET
-
 
 
 ### -field RIL_MSGCODING_IA5
 
 
-
 ### -field RIL_MSGCODING_JIS
-
 
 
 ### -field RIL_MSGCODING_KOREAN
 
 
-
 ### -field RIL_MSGCODING_LATIN_HEBREW
-
 
 
 ### -field RIL_MSGCODING_LATIN
 
 
-
 ### -field RIL_MSGCODING_MAX
-
 

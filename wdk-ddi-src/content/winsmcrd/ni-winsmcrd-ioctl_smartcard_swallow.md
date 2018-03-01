@@ -7,8 +7,8 @@ old-location: smartcrd\ioctl_smartcard_swallow.htm
 old-project: smartcrd
 ms.assetid: c229769d-8798-436e-bd26-9dfd507fba9c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: smartcrd.ioctl_smartcard_swallow, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], IOCTL_SMARTCARD_SWALLOW, winsmcrd/IOCTL_SMARTCARD_SWALLOW, scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml
+ms.date: 2/22/2018
+ms.keywords: IOCTL_SMARTCARD_SWALLOW, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml, smartcrd.ioctl_smartcard_swallow, winsmcrd/IOCTL_SMARTCARD_SWALLOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsmcrd.h
-apiname: 
+api_name:
 -	IOCTL_SMARTCARD_SWALLOW
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -74,7 +74,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -86,27 +88,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -152,14 +161,17 @@ The reader does not support swallowing.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The <b>Information</b> member must be set to zero.
 
 The <b>Status</b> member is set to one of the values in the status block table.
+
 
 

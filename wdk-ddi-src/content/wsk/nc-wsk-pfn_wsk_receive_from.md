@@ -7,8 +7,8 @@ old-location: netvista\wskreceivefrom.htm
 old-project: netvista
 ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskreceivefrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], WskReceiveFrom, PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_RECEIVE_FROM, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskReceiveFrom
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -112,7 +112,6 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 ### -param ControlLength
 
 
-
 ### -param ControlInfo [out, optional]
 
 A pointer to a caller-allocated buffer that receives the control information that is associated
@@ -133,6 +132,36 @@ A pointer to a ULONG-typed variable that receives the bitwise OR of a combinatio
 
 
 
+
+
+#### MSG_BCAST
+
+The datagram was received as a link-layer broadcast or with a destination transport address that
+       is a broadcast address.
+
+
+
+#### MSG_MCAST
+
+The datagram was received with a destination transport address that is a multicast
+       address.
+
+
+
+#### MSG_TRUNC
+
+The datagram was truncated because the size of the datagram was larger than the size of the
+       buffer that is specified by the 
+       <i>Buffer</i> parameter.
+
+
+
+#### MSG_CTRUNC
+
+The control information data was truncated because the number of bytes of control information
+       was greater than the size of the buffer that is specified by the 
+       <i>ControlInfo</i> parameter.
+
 This parameter is optional and can be <b>NULL</b>.
 
 
@@ -140,34 +169,8 @@ This parameter is optional and can be <b>NULL</b>.
 
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-
-
-##### - ControlFlags.MSG_BCAST
-
-The datagram was received as a link-layer broadcast or with a destination transport address that
-       is a broadcast address.
-
-
-##### - ControlFlags.MSG_CTRUNC
-
-The control information data was truncated because the number of bytes of control information
-       was greater than the size of the buffer that is specified by the 
-       <i>ControlInfo</i> parameter.
-
-
-##### - ControlFlags.MSG_MCAST
-
-The datagram was received with a destination transport address that is a multicast
-       address.
-
-
-##### - ControlFlags.MSG_TRUNC
-
-The datagram was truncated because the size of the datagram was larger than the size of the
-       buffer that is specified by the 
-       <i>Buffer</i> parameter.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
 
 
 #### - ControlInfoLength [in, out]
@@ -184,7 +187,9 @@ A pointer to a ULONG-typed variable that specifies the size of the buffer that i
 ## -returns
 
 
+
 <b>WskReceiveFrom</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -244,11 +249,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the WSK application has set a fixed remote transport address for the datagram socket, datagrams
@@ -291,32 +299,53 @@ If the
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+## -see-also
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
- 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

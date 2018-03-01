@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtolong.htm
 old-project: kernel
 ms.assetid: 03138EBA-F041-47E4-B379-25A96B04E491
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtolong, RtlUIntPtrToLong function [Kernel-Mode Driver Architecture], RtlUIntPtrToLong, ntintsafe/RtlUIntPtrToLong
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrToLong, RtlUIntPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolong, ntintsafe/RtlUIntPtrToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrToLong
 product: Windows
 targetos: Windows
@@ -86,11 +86,14 @@ The value to be converted.
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlSizeTToLong
 </li>
 </ul>
+
 

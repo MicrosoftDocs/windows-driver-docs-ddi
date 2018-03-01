@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetanalogcopyprotection.htm
 old-project: display
 ms.assetid: D41A1867-C654-4747-B804-CAE047025458
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_settargetanalogcopyprotection, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], DXGKDDI_SETTARGETANALOGCOPYPROTECTION, d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_SETTARGETANALOGCOPYPROTECTION
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to a DXGKARG_SETTARGETANALOGCOPYPROTECTION structure that provides the
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS. 
 
 
 
+
 ## -remarks
+
 
 
 This is an optional DDI so the function pointer in the DRIVER_INITIALIZATION_DATA should be set to null if the DDI is not implemented for every adapter supported by the driver.  Since analog content protection is only supported on analog targets and may not be supported through dongles it is increasingly likely over time that drivers will have no need to support this DDI.
@@ -96,5 +99,6 @@ The OEMCopyProtection byte array which is part of the D3DKMDT_VIDPN_PRESENT_PATH
 
 
 This function is always called at PASSIVE level so the supporting code should be made pageable.
+
 
 

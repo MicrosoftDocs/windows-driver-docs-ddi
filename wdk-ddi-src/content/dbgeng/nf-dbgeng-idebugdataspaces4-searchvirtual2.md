@@ -7,8 +7,8 @@ old-location: debugger\searchvirtual2.htm
 old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2 method [Windows Debugging], SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual2,IDebugDataSpaces4.SearchVirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces4.SearchVirtual2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::SearchVirtual2 method
@@ -111,7 +111,9 @@ Receives the location in the process's virtual address space of the pattern, if 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ After examining <i>Length</i> bytes, the pattern was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method searches the target's virtual memory for the first occurrence, subject to granularity, of the pattern that is entirely contained in the <i>Length</i> bytes of the target's memory, starting at the <i>Offset</i> location.
@@ -152,15 +157,20 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::SearchVirtual2 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces4::SearchVirtual2 method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

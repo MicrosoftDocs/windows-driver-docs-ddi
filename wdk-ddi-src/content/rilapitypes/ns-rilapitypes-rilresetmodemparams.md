@@ -7,8 +7,8 @@ old-location: netvista\rilresetmodemparams_2.htm
 old-project: netvista
 ms.assetid: 5888ba1d-b9f2-41c3-a39d-6a2fffc593fd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilresetmodemparams_2, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRESETMODEMPARAMS, *LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemparams_2, rilapitypes/RILRESETMODEMPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILRESETMODEMPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS
+req.typenames: RILRESETMODEMPARAMS, *LPRILRESETMODEMPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,11 +73,8 @@ typedef struct _RILRESETMODEMPARAMS {
 ### -field dwResetKind
 
 
-
 ### -field dwNumberOfConfigItems
 
 
-
 ### -field rmciModemConfigItems
-
 

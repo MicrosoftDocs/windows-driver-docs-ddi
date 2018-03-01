@@ -7,8 +7,8 @@ old-location: stream\kodeviceinitialize.htm
 old-project: stream
 ms.assetid: 68ae87c5-7d71-4e85-8052-4e5c422340fb
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: kcom/KoDeviceInitialize, KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], stream.kodeviceinitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml
+ms.date: 2/23/2018
+ms.keywords: KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], kcom/KoDeviceInitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, stream.kodeviceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KoDeviceInitialize
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ Pointer to a device object. The device object is assumed to contain a KSOBJECT_H
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful. Otherwise, it returns a memory allocation error.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._MPIO_EventEntry
-title: _MPIO_EventEntry
+title: "_MPIO_EventEntry"
 author: windows-driver-content
 description: The MPIO_EventEntry structure is used to return events that MPIO has logged.
 old-location: storage\mpio_evententry.htm
 old-project: storage
 ms.assetid: de7fd19e-e18d-4e78-963a-3abdd7921d69
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMPIO_EventEntry structure pointer [Storage Devices], *PMPIO_EventEntry, MPIO_EventEntry structure [Storage Devices], mpiowmi/PMPIO_EventEntry, structs-scsibus_93008bb2-e885-4f2f-b46a-7393794a9e6e.xml, MPIO_EventEntry, storage.mpio_evententry, _MPIO_EventEntry, PMPIO_EventEntry, mpiowmi/MPIO_EventEntry
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_EventEntry, MPIO_EventEntry, MPIO_EventEntry structure [Storage Devices], PMPIO_EventEntry, PMPIO_EventEntry structure pointer [Storage Devices], _MPIO_EventEntry, mpiowmi/MPIO_EventEntry, mpiowmi/PMPIO_EventEntry, storage.mpio_evententry, structs-scsibus_93008bb2-e885-4f2f-b46a-7393794a9e6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	MPIO_EventEntry
 product: Windows
 targetos: Windows
-req.typenames: *PMPIO_EventEntry, MPIO_EventEntry
+req.typenames: MPIO_EventEntry, *PMPIO_EventEntry
 ---
 
 # _MPIO_EventEntry structure

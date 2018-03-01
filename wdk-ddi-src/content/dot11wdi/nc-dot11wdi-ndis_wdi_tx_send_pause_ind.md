@@ -7,8 +7,8 @@ old-location: netvista\ndiswditxsendpauseindication.htm
 old-project: netvista
 ms.assetid: A8001D08-36B8-4557-A763-103BDC807CA4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndiswditxsendpauseindication, NdisWdiTxSendPauseIndication callback function [Network Drivers Starting with Windows Vista], NdisWdiTxSendPauseIndication, NDIS_WDI_TX_SEND_PAUSE_IND, NDIS_WDI_TX_SEND_PAUSE_IND, dot11wdi/NdisWdiTxSendPauseIndication
+ms.date: 2/16/2018
+ms.keywords: NDIS_WDI_TX_SEND_PAUSE_IND, NdisWdiTxSendPauseIndication, NdisWdiTxSendPauseIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendPauseIndication, netvista.ndiswditxsendpauseindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dot11wdi.h
-apiname: 
+api_name:
 -	NdisWdiTxSendPauseIndication
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_TX_SEND_PAUSE_IND callback
@@ -104,11 +104,14 @@ TX pause reason bitmask, specified as <a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_p
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 In the <i>ExTidBitmask</i> parameter, the <i>i</i><sup>th</sup> bit represents extended TID <i>i </i>(the least significant bit is bit 0) .
@@ -121,25 +124,40 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
 
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_restart_ind.md">NdisWdiTxSendRestartIndication</a>
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
+
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_queue_in_order.md">MiniportWdiTxTalQueueInOrder</a>
 
+
+
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WDI_TX_SEND_PAUSE_IND callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WDI_TX_SEND_PAUSE_IND callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

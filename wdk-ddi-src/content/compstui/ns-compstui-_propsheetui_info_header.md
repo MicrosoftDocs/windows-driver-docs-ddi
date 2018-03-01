@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO_HEADER
-title: _PROPSHEETUI_INFO_HEADER
+title: "_PROPSHEETUI_INFO_HEADER"
 author: windows-driver-content
 description: The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
 old-location: print\propsheetui_info_header.htm
 old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PPROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER, print.propsheetui_info_header, _PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], PPROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], compstui/PROPSHEETUI_INFO_HEADER
+ms.date: 2/23/2018
+ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	compstui.h
-apiname: 
+api_name:
 -	PROPSHEETUI_INFO_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER
+req.typenames: PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER
 ---
 
 # _PROPSHEETUI_INFO_HEADER structure
@@ -75,21 +75,6 @@ typedef struct _PROPSHEETUI_INFO_HEADER {
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.hIcon
-
- 
-
-
-### -field DUMMYUNIONNAME.IconID
-
- 
-
-
 ### -field cbSize
 
 CPSUI-supplied size, in bytes, of the PROPSHEETUI_INFO_HEADER structure.
@@ -98,6 +83,7 @@ CPSUI-supplied size, in bytes, of the PROPSHEETUI_INFO_HEADER structure.
 ### -field Flags
 
 Optional, application-specified bit flags that modify the property sheet page's appearance. The flags listed in the following table can be used in any combination.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -153,7 +139,8 @@ If set, the <b>hIcon</b>/<b>IconID</b> union contains an icon handle. If not set
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field pTitle
@@ -171,11 +158,17 @@ Handle to the window to be used as the parent of the property sheet. By default,
 Application-supplied instance handle, which CPSUI uses when loading application resources.
 
 
-#### - hIcon
+### -field DUMMYUNIONNAME
+
+ 
+
 
 
 
 #### - IconID
 
 This union identifies the icon to be displayed in the property sheet's title bar. The union member is selected by PSUIHDRF_USEICON in <b>Flags</b>.
+
+
+#### - hIcon
 

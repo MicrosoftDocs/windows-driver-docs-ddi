@@ -7,8 +7,8 @@ old-location: audio\iregistrykey_newsubkey.htm
 old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRegistryKey interface [Audio Devices], NewSubKey method, NewSubKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::NewSubKey, IRegistryKey, audio.iregistrykey_newsubkey, NewSubKey method [Audio Devices], audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey, IRegistryKey::NewSubKey
+ms.date: 2/22/2018
+ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], NewSubKey method, IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], NewSubKey method [Audio Devices], IRegistryKey interface, NewSubKey,IRegistryKey.NewSubKey, audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, portcls/IRegistryKey::NewSubKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IRegistryKey.NewSubKey
 product: Windows
 targetos: Windows
@@ -105,11 +105,14 @@ Output pointer for the disposition value. This parameter points to a caller-allo
 ## -returns
 
 
+
 <code>NewSubKey</code> returns STATUS_SUCCESS if the call was successful in outputting a valid <b>IRegistryKey</b> pointer through the <i>RegistrySubKey</i> parameter. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 The <code>NewSubKey</code> method either opens the specified registry key if it already exists, or creates a new key in the registry if it does not exist. The method outputs a pointer to the <b>IRegistryKey</b> interface of the new key through the <i>RegistrySubKey</i> parameter. The method also outputs a status value through the optional <i>Disposition</i> parameter to indicate whether the key was opened or created.
@@ -122,21 +125,32 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::NewSubKey method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::NewSubKey method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

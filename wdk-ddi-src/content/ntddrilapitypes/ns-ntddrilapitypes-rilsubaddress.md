@@ -7,8 +7,8 @@ old-location: netvista\rilsubaddress.htm
 old-project: netvista
 ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSUBADDRESS, netvista.rilsubaddress, *LPRILSUBADDRESS, RILSUBADDRESS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSUBADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSUBADDRESS, RILSUBADDRESS
+req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
 ---
 
 # RILSUBADDRESS structure
@@ -73,15 +73,11 @@ typedef struct _RILSUBADDRESS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwType
 
 
-
 ### -field wszSubAddress
-
 

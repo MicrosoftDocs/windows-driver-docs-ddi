@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 old-project: display
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices], pfnCalcPrivateVideoProcessorSize, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, d3d12umddi/pfnCalcPrivateVideoProcessorSize
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnCalcPrivateVideoProcessorSize
 product: Windows
 targetos: Windows
@@ -76,14 +76,7 @@ SIZE_T  APIENTRY* pfnCalcPrivateVideoProcessorSize(
 The handler of a device.
 
 
-### -param *pArgs
-
-
-
-
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a video processor.
 
@@ -91,6 +84,8 @@ The arguments used to create a video processor.
 ## -remarks
 
 
+
 The  runtime allocates memory for storing the driver CPU object that represents the video processor.  This method is used to calculate the driver object size.
+
 
 

@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntopology_interface_pfnupdatepathsupportinfo.htm
 old-project: display
 ms.assetid: affe9ab2-49ef-4284-b441-49c311158827
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpntopology_interface_pfnupdatepathsupportinfo, pfnUpdatePathSupportInfo callback function [Display Devices], pfnUpdatePathSupportInfo, DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO, DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO, d3dkmddi/pfnUpdatePathSupportInfo, VidPnFunctions_6944a007-1a0a-41fc-b137-92307c532cca.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO, VidPnFunctions_6944a007-1a0a-41fc-b137-92307c532cca.xml, d3dkmddi/pfnUpdatePathSupportInfo, display.dxgk_vidpntopology_interface_pfnupdatepathsupportinfo, pfnUpdatePathSupportInfo, pfnUpdatePathSupportInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnUpdatePathSupportInfo
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnUpdatePathSupportInfo(
 ## -returns
 
 
+
 The <b>pfnUpdatePathSupportInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +136,17 @@ The path cannot be removed in the context of the current DDI call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> function calls <b>pnfUpdatePathSupportInfo</b> to report rotation, scaling, and copy protection support for each of the paths in a topology.
+
 
 

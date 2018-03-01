@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlchangebackingfileobject.htm
 old-project: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlChangeBackingFileObject, ntifs/FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], ifsk.fsrtlchangebackingfileobject, fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml
+ms.date: 2/16/2018
+ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	FsRtlChangeBackingFileObject
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ Reserved for future use.
 ## -returns
 
 
+
 The <b>FsRtlChangeBackingFileObject</b> routine returns STATUS_SUCCESS if the operation succeeds. Otherwise, <b>FsRtlChangeBackingFileObject</b> returns the appropriate error code.The following table contains error codes that <b>FsRtlChangeBackingFileObject</b> might return.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,14 +145,18 @@ The change operation failed because the caller obtained the file object in a way
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>FsRtlChangeBackingFileObject</b> routine changes the file object for one of the following:
+
 <ul>
 <li>
 One of the memory manager's image control areas for the stream
@@ -164,7 +170,8 @@ The memory manager's data control area for the stream
 The cache manager's shared cache map for the stream
 
 </li>
-</ul>The <b>FsRtlChangeBackingFileObject</b> routine is not synchronous. It processes the request for a change of file object and returns immediately. The cache manager and the memory manager synchronize the change of the file object and will not free the old file object until all incomplete operations that are associated with the old file object have finished. A return status of STATUS_SUCCESS from <b>FsRtlChangeBackingFileObject</b> does not mean that the operating system has already changed the file object.
+</ul>
+The <b>FsRtlChangeBackingFileObject</b> routine is not synchronous. It processes the request for a change of file object and returns immediately. The cache manager and the memory manager synchronize the change of the file object and will not free the old file object until all incomplete operations that are associated with the old file object have finished. A return status of STATUS_SUCCESS from <b>FsRtlChangeBackingFileObject</b> does not mean that the operating system has already changed the file object.
 
 However, after <b>FsRtlChangeBackingFileObject</b> runs successfully, the operating system associates all future operations with the new file object.
 
@@ -172,13 +179,16 @@ To change the file object for more than one backing type, the caller must call <
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlChangeBackingFileObject routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlChangeBackingFileObject routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\videoportzeromemory.htm
 old-project: display
 ms.assetid: 96827d2e-0fee-4276-a758-82f5b7383eec
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: video/VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], display.videoportzeromemory, VideoPortZeroMemory, VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, display.videoportzeromemory, video/VideoPortZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortZeroMemory
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the size, in bytes, of the block.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers' <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> functions generally call <b>VideoPortZeroMemory</b> to initialize the <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> structure with zeros.
@@ -99,25 +102,40 @@ Callers of <b>VideoPortZeroMemory</b> can be running at any IRQL if the memory p
 
 
 
+
 ## -see-also
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
+
+
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortZeroMemory function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortZeroMemory function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

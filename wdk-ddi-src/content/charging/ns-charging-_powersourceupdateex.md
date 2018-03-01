@@ -1,14 +1,14 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATEEX
-title: _POWERSOURCEUPDATEEX
+title: "_POWERSOURCEUPDATEEX"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\powersourceupdateex.htm
 old-project: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: POWERSOURCEUPDATEEX structure [Battery Devices], POWERSOURCEUPDATEEX, _POWERSOURCEUPDATEEX, charging/BATTERY_INFORMATION, battery.powersourceupdateex, *PPOWERSOURCEUPDATEEX
+ms.date: 2/15/2018
+ms.keywords: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], _POWERSOURCEUPDATEEX, battery.powersourceupdateex, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Charging.h
-apiname: 
+api_name:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # _POWERSOURCEUPDATEEX structure

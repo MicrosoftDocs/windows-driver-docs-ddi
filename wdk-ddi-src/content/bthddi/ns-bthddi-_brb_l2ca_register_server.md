@@ -1,21 +1,21 @@
 ---
 UID: NS:bthddi._BRB_L2CA_REGISTER_SERVER
-title: _BRB_L2CA_REGISTER_SERVER
+title: "_BRB_L2CA_REGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_L2CA_REGISTER_SERVER structure to register itself as a server capable of receiving L2CAP connections from remote Bluetooth devices.
 old-location: bltooth\_brb_l2ca_register_server.htm
 old-project: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER, bltooth._brb_l2ca_register_server, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml
+ms.date: 2/15/2018
+ms.keywords: "_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_register_server, bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, bthddi/_BRB_L2CA_REGISTER_SERVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	_BRB_L2CA_REGISTER_SERVER
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ An optional flag or combination of flags that indicates whether the profile driv
      pairing notifications in addition to connection notifications. The following table lists the possible
      flag settings. 
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -134,7 +135,8 @@ The profile driver will accept notifications when a device is unpersonalized.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IndicationCallback
@@ -162,25 +164,26 @@ A pointer to an object to pass to the
      <b>IndicationCallback</b> member. The Bluetooth driver stack will decrease the reference count of the
      object when the profile driver 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
-     <mshelp:link keywords="bltooth.brb_l2ca_unregister_server" tabindex="0"><b>
-     BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link> request.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+     BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 
 ### -field ServerHandle
 
 Handle to the L2CAP server, if successfully returned. When the profile driver should no longer
      receive remote connect indications it should pass this handle to 
-     <mshelp:link keywords="bltooth.brb_l2ca_unregister_server" tabindex="0"><b>
-     BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+     BRB_L2CA_UNREGISTER_SERVER</a>.
 
 
 ## -remarks
 
 
+
 To register itself as a L2CAP server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_l2ca_register_server" tabindex="0"><b>
-    BRB_L2CA_REGISTER_SERVER</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">
+    BRB_L2CA_REGISTER_SERVER</a> request.
 
 After the profile driver registers itself, it should then 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
@@ -203,13 +206,13 @@ After the profile driver has registered itself, the Bluetooth driver stack can n
     <b>IndicationCallback</b> member.
 
 For more information about L2CAP servers and PSMs, see 
-    <mshelp:link keywords="bltooth.accepting_l2cap_connections_in_a_bluetooth_profile_driver" tabindex="0">Accepting
-    L2CAP Connections in a Bluetooth Profile Driver</mshelp:link>.
+    <a href="https://msdn.microsoft.com/26a8238d-717a-438f-84d0-047ce9618928">Accepting
+    L2CAP Connections in a Bluetooth Profile Driver</a>.
 
 When the profile driver receives notification of a connection attempt, it should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-    BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> BRB to either accept or reject the connection attempt. For more
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> BRB to either accept or reject the connection attempt. For more
     information about accepting or rejecting L2CAP connection attempts, see the 
     <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
@@ -218,34 +221,47 @@ After a connection is established, the profile driver can issue other BRBs to co
 
 To stop receiving remote connection notifications, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_l2ca_unregister_server" tabindex="0"><b>
-    BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">
+    BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 While this procedure allows a profile driver to accept incoming connection requests, it does not
     automatically advertise a service using SDP. To advertise a service using SDP, a profile driver must
     submit an SDP record using the SDP APIs. For more information about advertising services with SDP, see 
-    <mshelp:link keywords="bltooth.communicating_with_sdp_servers" tabindex="0">Communicating with SDP
-    Servers</mshelp:link>.
+    <a href="https://msdn.microsoft.com/833f2eea-d7e6-4f19-979e-3bb4db47fa43">Communicating with SDP
+    Servers</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_REGISTER_SERVER structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_REGISTER_SERVER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

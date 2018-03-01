@@ -7,8 +7,8 @@ old-location: kernel\clfscreatelogfile.htm
 old-project: kernel
 ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, ClfsCreateLogFile, wdm/ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+api_name:
 -	ClfsCreateLogFile
 product: Windows
 targetos: Windows
@@ -81,7 +81,7 @@ NTSTATUS ClfsCreateLogFile(
 
 ### -param pplfoLog [out]
 
-A pointer to a variable that receives a pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
+A pointer to a variable that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
 
 
 ### -param puszLogFileName [in]
@@ -97,6 +97,7 @@ If the stream is (or is to become) one of the streams of a multiplexed log, the 
 If you want to create a multiplexed log that has no streams for the moment, use a name of the form log:<i>physical log name</i>::, where <i>physical log name</i> is the path name, on the underlying file system, of the physical log to be created.
 
 The following list gives some examples of valid names.
+
 <ul>
 <li>
 "Log:c:\myLog" creates or opens a dedicated log and its one stream.
@@ -115,6 +116,7 @@ The following list gives some examples of valid names.
 ### -param fDesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -150,12 +152,14 @@ The client can mark the stream for deletion.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param dwShareMode [in]
 
 The sharing mode of the stream, which can be zero (not shared) or any combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -191,7 +195,8 @@ Subsequent requests to open the stream with write access will succeed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param psdLogFile [in, optional]
@@ -202,6 +207,7 @@ A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESC
 ### -param fCreateDisposition [in]
 
 The action to take that depends on whether the stream already exists. This parameter must be set to one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -237,12 +243,14 @@ Open an existing stream. Create the stream if it does not already exist.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param fCreateOptions [in]
 
 A set of flags that specify options to apply when creating or opening the stream. This parameter can be zero or a compatible combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -278,7 +286,8 @@ All operations on the stream are performed synchronously. Waits in the system th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param fFlagsAndAttributes [in]
@@ -292,6 +301,7 @@ FILE_ATTRIBUTE_NORMAL or FILE_ATTRIBUTE_READONLY.
 
 A hint about the relationship between CLFS and the component creating or opening the stream. This parameter must be set to one of the following values:
 	 
+
 <table>
 <tr>
 <th>Value</th>
@@ -347,7 +357,8 @@ The creating component is a file system minifilter driver that sends all of its 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pvContext [in, optional]
@@ -363,11 +374,14 @@ The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvConte
 ## -returns
 
 
+
 <b>ClfsCreateLogFile</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 When you create a CLFS stream, it is backed by an underlying physical CLFS log. The underlying log can be either dedicated (backs only one stream) or multiplexed (backs several streams). A dedicated log cannot be converted to a multiplexed log, and a multiplexed log cannot be converted to a dedicated log.
@@ -378,19 +392,28 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
 
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+
 
 <a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsCreateLogFile routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsCreateLogFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddscsi._MPIO_PASS_THROUGH_PATH_DIRECT_EX
-title: _MPIO_PASS_THROUGH_PATH_DIRECT_EX
+title: "_MPIO_PASS_THROUGH_PATH_DIRECT_EX"
 author: windows-driver-content
 description: The MPIO_PASS_THROUGH_PATH_DIRECT_EX structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path_direct_ex.htm
 old-project: storage
 ms.assetid: 3EB8721D-291E-492A-9BB3-28F411195DD5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.mpio_pass_through_path_direct_ex, _MPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX structure [Storage Devices], MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT_EX, *PMPIO_PASS_THROUGH_PATH_DIRECT_EX, PMPIO_PASS_THROUGH_PATH_DIRECT_EX, PMPIO_PASS_THROUGH_PATH_DIRECT_EX structure pointer [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_DIRECT_EX, PMPIO_PASS_THROUGH_PATH_DIRECT_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.mpio_pass_through_path_direct_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddscsi.h
-apiname: 
+api_name:
 -	MPIO_PASS_THROUGH_PATH_DIRECT_EX
 product: Windows
 targetos: Windows
-req.typenames: *PMPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX
+req.typenames: MPIO_PASS_THROUGH_PATH_DIRECT_EX, *PMPIO_PASS_THROUGH_PATH_DIRECT_EX
 ---
 
 # _MPIO_PASS_THROUGH_PATH_DIRECT_EX structure
@@ -91,6 +91,13 @@ The size of the <b>MPIO_PASS_THROUGH_PATH_DIRECT_EX</b> structure.
 
 
 
+###### 
+
+
+
+########## 
+
+
 ### -field PortNumber
 
 The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the <b>PathId</b> and <b>TargetId</b> values are taken from the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> structure.
@@ -101,57 +108,36 @@ The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this membe
 The <b>PathId</b> for the real LUN. This value can be obtained by using a WMI request for the PDO_INFORMATION that is associated with the real LUN. This value is set only if MPIO_IOCTL_FLAG_USE_PATHID is set.
 
 
-########### - Flags.Flag
-Meaning
-
-
-
-MPIO_IOCTL_FLAG_USE_PATHID
-
-
-The real LUN is specified in terms of the supplied MpioPathId member. Either this flag or MPIO_IOCTL_FLAG_USE_SCSIADDRESS must be set, but not both.
-
-
-
-
-MPIO_IOCTL_FLAG_USE_SCSIADDRESS
-
-
-The real LUN is specified in terms of the supplied PortNumber member and the PathId and TargetId members of the storage address with the embedded SCSI_PASS_THROUGH_DIRECT_EX structure. These values can be obtained by using a WMI request for the PDOSCSI_ADDR that is associated with the real LUN. This flag or MPIO_IOCTL_FLAG_USE_PATHID must be set, but not both.
-
-
-
-
-MPIO_IOCTL_FLAG_INVOLVE_DSM
-
-
-The claiming DSM should choose the real LUN.
-
-
-
-####### - Flags.In the following table, either the first or the second flag must be set, but not both. The third flag may or may not be set independent of the first two.
-
-
-
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  All 32 bit processes running on a 64 bit version of Windows must use the <b>MPIO_PASS_THROUGH_PATH_DIRECT32_EX</b> structure when issuing an <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a> request.</div><div> </div>
+
+<div class="alert"><b>Note</b>  All 32 bit processes running on a 64 bit version of Windows must use the <b>MPIO_PASS_THROUGH_PATH_DIRECT32_EX</b> structure when issuing an <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a> request.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
 
+
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
 
- 
+
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MPIO_PASS_THROUGH_PATH_DIRECT_EX structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MPIO_PASS_THROUGH_PATH_DIRECT_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

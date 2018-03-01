@@ -7,8 +7,8 @@ old-location: stream\camstartcaptureex.htm
 old-project: stream
 ms.assetid: ab2222ed-3166-4984-b76c-5499879f91d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.camstartcaptureex, CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], CamStartCaptureEx, PCAM_START_CAPTURE_ROUTINE_EX, PCAM_START_CAPTURE_ROUTINE_EX, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
+ms.date: 2/23/2018
+ms.keywords: CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE_EX, stream.camstartcaptureex, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	usbcamdi.h
-apiname: 
+api_name:
 -	CamStartCaptureEx
 product: Windows
 targetos: Windows
@@ -91,15 +91,19 @@ Indicates the stream number.
 ## -returns
 
 
+
 <b>CamStartCaptureEx</b> returns STATUS_SUCCESS or an appropriate error code. This return value is the completion code for the read IRP.
+
 
 
 
 ## -remarks
 
 
+
 The original USBCAMD does not call <b>CamStartCaptureEx</b>.
 
 This function is required.
+
 
 

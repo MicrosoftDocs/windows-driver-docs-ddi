@@ -7,8 +7,8 @@ old-location: sensors\evt_sensor_driver_stop_state_change_notification.htm
 old-project: sensors
 ms.assetid: 53B064AF-D06B-46A0-9D77-2DA72F0B47D6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.evt_sensor_driver_stop_state_change_notification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], EvtSensorDriverStopStateChangeNotification, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, sensorscx/EvtSensorDriverStopStateChangeNotification, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
+ms.date: 2/22/2018
+ms.keywords: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EvtSensorDriverStopStateChangeNotification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], sensors.evt_sensor_driver_stop_state_change_notification, sensorscx/EvtSensorDriverStopStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	sensorscx.h
-apiname: 
+api_name:
 -	PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Holds information on the sensor being handled by the driver.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

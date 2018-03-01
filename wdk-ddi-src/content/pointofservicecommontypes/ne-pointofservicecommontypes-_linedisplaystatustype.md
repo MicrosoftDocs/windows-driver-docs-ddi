@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayStatusType
-title: _LineDisplayStatusType
+title: "_LineDisplayStatusType"
 author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaystatustype.htm
 old-project: pos
 ms.assetid: B3260D6C-F363-4077-BA8C-88BBEDA167D8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LineDisplayStatusType, pos.linedisplaystatustype, LineDisplayStatusType enumeration, pointofservicecommontypes/LineDisplayStatusType, _LineDisplayStatusType, PLineDisplayStatusType, pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayStatusType, PLineDisplayStatusType enumeration pointer
+ms.date: 2/23/2018
+ms.keywords: LineDisplayStatusType, LineDisplayStatusType enumeration, PLineDisplayStatusType, PLineDisplayStatusType enumeration pointer, _LineDisplayStatusType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayStatusType, pointofservicecommontypes/PLineDisplayStatusType, pos.linedisplaystatustype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicecommontypes.h
-apiname: 
+api_name:
 -	LineDisplayStatusType
 product: Windows
 targetos: Windows
@@ -70,21 +70,16 @@ typedef enum _LineDisplayStatusType {
 ### -field LineDisplayStatusType_Unknown
 
 
-
 ### -field LineDisplayStatusType_Online
-
 
 
 ### -field LineDisplayStatusType_Off
 
 
-
 ### -field LineDisplayStatusType_Offline
 
 
-
 ### -field LineDisplayStatusType_OffOrOffline
-
 
 
 

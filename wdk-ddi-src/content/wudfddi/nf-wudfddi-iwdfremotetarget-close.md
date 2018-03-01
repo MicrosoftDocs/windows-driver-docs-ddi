@@ -7,8 +7,8 @@ old-location: wdf\iwdfremotetarget_close.htm
 old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget::Close, IWDFRemoteTarget interface, Close method, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, wdf.iwdfremotetarget_close, Close method, umdf.iwdfremotetarget_close, Close, Close method, IWDFRemoteTarget interface, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::Close
+ms.date: 2/20/2018
+ms.keywords: Close method, Close method, IWDFRemoteTarget interface, Close,IWDFRemoteTarget.Close, IWDFRemoteTarget, IWDFRemoteTarget interface, Close method, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFRemoteTarget.Close
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ HRESULT Close();
 
 
 
+
 ## -returns
+
 
 
 The <b>Close</b> method always returns S_OK.
 
 
 
+
 ## -remarks
+
 
 
 If your driver provides an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a> callback function, the callback function must call <b>Close</b>. 
@@ -88,16 +92,51 @@ After a driver calls <b>Close</b>, the driver cannot send I/O requests to the I/
 For more information about the <b>Close</b> method, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
 
 
+#### Examples
+
+The following code example shows an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a> callback function that calls <b>Close</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+STDMETHODCALLTYPE
+CMyRemoteTarget::OnRemoteTargetRemoveComplete(
+    __in IWDFRemoteTarget *FxTarget
+    )
+{
+    //
+    // Here, do any driver-specific actions that your driver requires
+    // to close the remote I/O target.
+    //
+...
+    //
+    // Close the target.
+    //
+    FxTarget-&gt;Close();
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::Close method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::Close method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

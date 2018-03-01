@@ -7,8 +7,8 @@ old-location: display\videoportmapdmamemory.htm
 old-project: display
 ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPortMapDmaMemory function [Display Devices], display.videoportmapdmamemory, VideoPortMapDmaMemory, video/VideoPortMapDmaMemory, VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortMapDmaMemory
 product: Windows
 targetos: Windows
@@ -100,6 +100,7 @@ Specifies the length, in bytes, of the range of memory.
 ### -param InIoSpace [in]
 
 Indicates the location of the range. This parameter can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -155,7 +156,8 @@ Memory pointer for application use.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param MappedUserEvent [in]
@@ -176,13 +178,17 @@ Is reserved for system use.
 ## -returns
 
 
+
 <b>VideoPortMapDmaMemory</b> always returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

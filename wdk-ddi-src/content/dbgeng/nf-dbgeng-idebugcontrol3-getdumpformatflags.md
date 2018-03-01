@@ -7,8 +7,8 @@ old-location: debugger\getdumpformatflags.htm
 old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, IDebugControl2::GetDumpFormatFlags, IDebugControl3, IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], dbgeng/IDebugControl2::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
+ms.date: 2/23/2018
+ms.keywords: GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, GetDumpFormatFlags,IDebugControl3.GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, IDebugControl2::GetDumpFormatFlags, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, IDebugControl3::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl2.GetDumpFormatFlags
 -	IDebugControl3.GetDumpFormatFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetDumpFormatFlags method
@@ -76,7 +76,9 @@ Receives the flags that describe the information included in a dump file.  Diffe
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,14 +95,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available when debugging crash dump files.  If the crash dump file is in a default format or does not have variable formats, zero will be returned to <i>FormatFlags</i>.
+
 
 
 
@@ -108,15 +114,23 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl2::GetDumpFormatFlags method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl2::GetDumpFormatFlags method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

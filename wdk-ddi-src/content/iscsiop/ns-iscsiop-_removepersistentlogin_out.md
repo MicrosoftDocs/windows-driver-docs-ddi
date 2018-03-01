@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsiop._RemovePersistentLogin_OUT
-title: _RemovePersistentLogin_OUT
+title: "_RemovePersistentLogin_OUT"
 author: windows-driver-content
 description: The RemovePersistentLogin_OUT structure holds the output data for the RemovePersistentLogin method.
 old-location: storage\removepersistentlogin_out.htm
 old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.removepersistentlogin_out, PRemovePersistentLogin_OUT structure pointer [Storage Devices], PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, _RemovePersistentLogin_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT structure pointer [Storage Devices], RemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], _RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsiop.h
-apiname: 
+api_name:
 -	RemovePersistentLogin_OUT
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ On output from <b>RemovePersistentLogin</b>, the status of the operation. For a 
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
@@ -83,13 +85,19 @@ You must implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_in.md">RemovePersistentLogin_IN</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePersistentLogin_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePersistentLogin_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

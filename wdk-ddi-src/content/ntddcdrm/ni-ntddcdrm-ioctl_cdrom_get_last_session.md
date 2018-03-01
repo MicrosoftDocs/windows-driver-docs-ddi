@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_get_last_session.htm
 old-project: storage
 ms.assetid: a05da124-f486-4658-87d8-6c1b423694b3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_cdrom_get_last_session, IOCTL_CDROM_GET_LAST_SESSION control code [Storage Devices], IOCTL_CDROM_GET_LAST_SESSION, ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION, k307_f2597708-18cf-4f97-87f8-2d1c2e9a75ea.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CDROM_GET_LAST_SESSION, IOCTL_CDROM_GET_LAST_SESSION control code [Storage Devices], k307_f2597708-18cf-4f97-87f8-2d1c2e9a75ea.xml, ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION, storage.ioctl_cdrom_get_last_session
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdrm.h
-apiname: 
+api_name:
 -	IOCTL_CDROM_GET_LAST_SESSION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,14 +87,18 @@ Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_T
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -remarks
 
 
+
 TBD
+
 
 

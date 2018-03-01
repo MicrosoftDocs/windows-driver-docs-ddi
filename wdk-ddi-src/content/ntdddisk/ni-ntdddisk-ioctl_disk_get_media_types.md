@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_get_media_types.htm
 old-project: storage
 ms.assetid: d6e6cd4c-680d-4885-b910-3de8de143e2b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_disk_get_media_types, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], IOCTL_DISK_GET_MEDIA_TYPES, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_DISK_GET_MEDIA_TYPES, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, storage.ioctl_disk_get_media_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntdddisk.h
-apiname: 
+api_name:
 -	IOCTL_DISK_GET_MEDIA_TYPES
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DETECTION_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,50 +65,66 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

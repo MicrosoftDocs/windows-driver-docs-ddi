@@ -1,19 +1,19 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_AER_CAPABILITY
-title: _PCI_EXPRESS_AER_CAPABILITY
+title: "_PCI_EXPRESS_AER_CAPABILITY"
 author: windows-driver-content
 description: The PCI_EXPRESS_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced error reporting capability structure.
 old-location: pci\pci_express_aer_capability.htm
 old-project: PCI
 ms.assetid: c389952b-2dc8-4c59-8543-633127a5a5f6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_AER_CAPABILITY structure pointer [Buses], wdm/PCI_EXPRESS_AER_CAPABILITY, wdm/PPCI_EXPRESS_AER_CAPABILITY, _PCI_EXPRESS_AER_CAPABILITY, pci_struct_b9447d2e-502f-45f0-8851-ced834748798.xml, *PPCI_EXPRESS_AER_CAPABILITY, PPCI_EXPRESS_AER_CAPABILITY, PCI.pci_express_aer_capability, PCI_EXPRESS_AER_CAPABILITY structure [Buses], PCI_EXPRESS_AER_CAPABILITY
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITY, PCI.pci_express_aer_capability, PCI_EXPRESS_AER_CAPABILITY, PCI_EXPRESS_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_AER_CAPABILITY, PPCI_EXPRESS_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_AER_CAPABILITY, pci_struct_b9447d2e-502f-45f0-8851-ced834748798.xml, wdm/PCI_EXPRESS_AER_CAPABILITY, wdm/PPCI_EXPRESS_AER_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Ntddk.h, Wdm.h
+req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	PCI_EXPRESS_AER_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_AER_CAPABILITY, PCI_EXPRESS_AER_CAPABILITY
+req.typenames: PCI_EXPRESS_AER_CAPABILITY, *PPCI_EXPRESS_AER_CAPABILITY
 req.product: Windows 10 or later.
 ---
 
@@ -118,7 +118,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537456">PCI_EXP
 ### -field HeaderLog
 
 An array of four 32-bit values that together contain the header for the transaction layer packet (TLP) that corresponds to a detected error.
-<div class="alert"><b>Note</b>    Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.</div><div> </div>
+
+<div class="alert"><b>Note</b>    Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.</div>
+<div> </div>
 
 ### -field SecUncorrectableErrorStatus
 
@@ -148,6 +150,7 @@ An array of four 32-bit values that together contain the header for the transact
 ## -remarks
 
 
+
 The PCI_EXPRESS_AER_CAPABILITY structure is available in Windows Server 2008 and later versions of Windows.
 
 PCIe bridge devices use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a> structure instead of the PCI_EXPRESS_AER_CAPABILITY structure to describe the PCIe advanced error reporting capability structure.
@@ -158,29 +161,48 @@ For additional information about the PCIe advanced error reporting capability st
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537466">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537462">PCI_EXPRESS_CORRECTABLE_ERROR_STATUS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537570">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537572">PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537456">PCI_EXPRESS_AER_CAPABILITIES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537567">PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537572">PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537462">PCI_EXPRESS_CORRECTABLE_ERROR_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537456">PCI_EXPRESS_AER_CAPABILITIES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537461">PCI_EXPRESS_CORRECTABLE_ERROR_MASK</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537570">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_AER_CAPABILITY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_AER_CAPABILITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

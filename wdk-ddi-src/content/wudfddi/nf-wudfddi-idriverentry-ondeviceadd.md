@@ -7,8 +7,8 @@ old-location: wdf\idriverentry_ondeviceadd.htm
 old-project: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: OnDeviceAdd method, IDriverEntry interface, IDriverEntry, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, wdf.idriverentry_ondeviceadd, OnDeviceAdd method, umdf.idriverentry_ondeviceadd, IDriverEntry interface, OnDeviceAdd method, OnDeviceAdd, IDriverEntry::OnDeviceAdd, wudfddi/IDriverEntry::OnDeviceAdd
+ms.date: 2/20/2018
+ms.keywords: IDriverEntry, IDriverEntry interface, OnDeviceAdd method, IDriverEntry::OnDeviceAdd, OnDeviceAdd method, OnDeviceAdd method, IDriverEntry interface, OnDeviceAdd,IDriverEntry.OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, umdf.idriverentry_ondeviceadd, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IDriverEntry.OnDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDev
 ## -returns
 
 
+
 <b>OnDeviceAdd</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. The driver should return S_OK only if it successfully called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">framework device object</a>. If the driver returns an error code, UMDF tears down the entire device stack regardless of whether the driver is a filter driver or a function driver.
 
 
 
+
 ## -remarks
+
 
 
 A new device object is created for each device that is loaded in the driver host process. When a new device arrives in the system, the framework calls <b>OnDeviceAdd</b> to notify the driver of the arrival and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> and <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a> interfaces in the call. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a> method to query for the device information that is provided as part of device installation. The driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to configure and create the device. If the driver does not successfully call <b>IWDFDriver::CreateDevice</b> before it returns S_OK, UMDF determines that the driver's behavior is incorrect and terminates the host process.
@@ -101,23 +104,36 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
-
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
+
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IDriverEntry::OnDeviceAdd method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IDriverEntry::OnDeviceAdd method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

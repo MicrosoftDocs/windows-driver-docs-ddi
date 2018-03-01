@@ -7,8 +7,8 @@ old-location: netvista\ril_drainmodemlogs.htm
 old-project: netvista
 ms.assetid: 2a9f3bb8-3de5-439c-86a3-7fdc6b025b8d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, RIL_DrainModemLogs
+ms.date: 2/16/2018
+ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_DrainModemLogs
 product: Windows
 targetos: Windows
@@ -74,14 +74,14 @@ HRESULT  RIL_DrainModemLogs(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_sendsupservicedata.htm
 old-project: netvista
 ms.assetid: d5bf5fa0-12c0-4971-91bc-775c59d45d60
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendSupServiceData, netvista.ril_sendsupservicedata, RIL_SendSupServiceData
+ms.date: 2/16/2018
+ms.keywords: RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedata, rilapi/RIL_SendSupServiceData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SendSupServiceData
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_SendSupServiceData(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param lpwszData
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

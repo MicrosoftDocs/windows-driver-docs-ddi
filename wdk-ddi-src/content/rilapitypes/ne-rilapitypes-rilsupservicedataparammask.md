@@ -7,8 +7,8 @@ old-location: netvista\rilsupservicedataparammask_2.htm
 old-project: netvista
 ms.assetid: 65901068-d45e-4c3a-b1ee-340427506c7f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_SSDI_STATUS, netvista.rilsupservicedataparammask_2, rilapitypes/RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_ALL, rilapitypes/RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_DATA, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_VENDOR_ERROR, rilapitypes/RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_SS_ERROR, rilapitypes/RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_CC_ERROR, rilapitypes/RILSUPSERVICEDATAPARAMMASK, rilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR, RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_STATUS, RILSUPSERVICEDATAPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILSUPSERVICEDATAPARAMMASK, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_STATUS, RIL_PARAM_SSDI_VENDOR_ERROR, netvista.rilsupservicedataparammask_2, rilapitypes/RILSUPSERVICEDATAPARAMMASK, rilapitypes/RIL_PARAM_SSDI_ALL, rilapitypes/RIL_PARAM_SSDI_CC_ERROR, rilapitypes/RIL_PARAM_SSDI_DATA, rilapitypes/RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_SS_ERROR, rilapitypes/RIL_PARAM_SSDI_STATUS, rilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSUPSERVICEDATAPARAMMASK
 product: Windows
 targetos: Windows
@@ -77,31 +77,23 @@ typedef enum _RILSUPSERVICEDATAPARAMMASK {
 ### -field RIL_PARAM_SSDI_EXECUTOR
 
 
-
 ### -field RIL_PARAM_SSDI_STATUS
-
 
 
 ### -field RIL_PARAM_SSDI_SS_ERROR
 
 
-
 ### -field RIL_PARAM_SSDI_CC_ERROR
-
 
 
 ### -field RIL_PARAM_SSDI_VENDOR_ERROR
 
 
-
 ### -field RIL_PARAM_SSDI_DATASIZE
-
 
 
 ### -field RIL_PARAM_SSDI_DATA
 
 
-
 ### -field RIL_PARAM_SSDI_ALL
-
 

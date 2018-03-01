@@ -7,8 +7,8 @@ old-location: netvista\rilerrordetails.htm
 old-project: netvista
 ms.assetid: 9c9aaece-5c16-40c4-a039-5e32541500f7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, RILERRORDETAILS, *LPRILERRORDETAILS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, ntddrilapitypes/RILERRORDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILERRORDETAILS
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef struct _RILERRORDETAILS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field hResult
 
 
-
 ### -field dw3gppCause
-
 

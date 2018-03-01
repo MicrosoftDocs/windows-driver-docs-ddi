@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTINUOUS_READER_CONFIG
-title: _WDF_USB_CONTINUOUS_READER_CONFIG
+title: "_WDF_USB_CONTINUOUS_READER_CONFIG"
 author: windows-driver-content
 description: The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe.
 old-location: wdf\wdf_usb_continuous_reader_config.htm
 old-project: wdf
 ms.assetid: 9b98d5f1-6052-4c52-b3d4-031c8a0db51c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, _WDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, wdf.wdf_usb_continuous_reader_config, PWDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, WDF_USB_CONTINUOUS_READER_CONFIG
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, _WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfusb.h
-apiname: 
+api_name:
 -	WDF_USB_CONTINUOUS_READER_CONFIG
 product: Windows
 targetos: Windows
@@ -126,11 +126,13 @@ A pointer to the driver's <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_faile
 ## -remarks
 
 
+
 The <b>WDF_USB_CONTINUOUS_READER_CONFIG</b> structure is used as input to the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a> method. 
 
 To initialize a WDF_USB_CONTINUOUS_READER_CONFIG structure, the driver must call <a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>.
 
 Use the following guidelines when choosing a value for the <b>NumPendingReads</b> member:
+
 <ul>
 <li>
 Set <b>NumPendingReads</b> to 0 if you want your driver to use the framework's default value. 
@@ -148,7 +150,9 @@ Set <b>NumPendingReads</b> to a number that meets the performance requirements f
 First, test your device with the default value (0) for <b>NumPendingReads</b>. Your tests should include various hardware configurations, including different types and numbers of processors and different USB host controllers and USB configurations. You can then experiment with higher values, using the same tests. A driver that might require a higher value is one for a device that has a high interrupt rate, where data can be lost if interrupts are not serviced rapidly. 
 
 </li>
-</ul>A <b>NumPendingReads</b> value that is too large can slow down a system's performance. You should use the lowest value that meets your performance requirements. Typically, values that are higher than 3 or 4 do not improve data throughput. But higher values might reduce latency, or the chance of missing data, on a high-frequency pipe.
+</ul>
+A <b>NumPendingReads</b> value that is too large can slow down a system's performance. You should use the lowest value that meets your performance requirements. Typically, values that are higher than 3 or 4 do not improve data throughput. But higher values might reduce latency, or the chance of missing data, on a high-frequency pipe.
+
 
 
 
@@ -156,17 +160,27 @@ First, test your device with the default value (0) for <b>NumPendingReads</b>. Y
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>
 
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
 
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
 
- 
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTINUOUS_READER_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTINUOUS_READER_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

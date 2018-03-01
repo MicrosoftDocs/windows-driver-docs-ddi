@@ -7,8 +7,8 @@ old-location: display\pfnupdateoverlaycb.htm
 old-project: display
 ms.assetid: 17f89cea-350c-43f6-a60d-32fc2d299dd7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnupdateoverlaycb, pfnUpdateOverlayCb callback function [Display Devices], pfnUpdateOverlayCb, PFND3DDDI_UPDATEOVERLAYCB, PFND3DDDI_UPDATEOVERLAYCB, d3dumddi/pfnUpdateOverlayCb, D3Druntime_Functions_9a6ce628-61ad-4c22-9fa7-aa2c83e680b6.xml
+ms.date: 2/24/2018
+ms.keywords: D3Druntime_Functions_9a6ce628-61ad-4c22-9fa7-aa2c83e680b6.xml, PFND3DDDI_UPDATEOVERLAYCB, d3dumddi/pfnUpdateOverlayCb, display.pfnupdateoverlaycb, pfnUpdateOverlayCb, pfnUpdateOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnUpdateOverlayCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DD
 ## -returns
 
 
+
 <b>pfnUpdateOverlayCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,9 +145,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 
 
@@ -151,11 +157,15 @@ This function might also return other HRESULT values.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEOVERLAYCB callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEOVERLAYCB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

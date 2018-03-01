@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddstor._STORAGE_CRYPTO_ALGORITHM_ID
-title: _STORAGE_CRYPTO_ALGORITHM_ID
+title: "_STORAGE_CRYPTO_ALGORITHM_ID"
 author: windows-driver-content
 description: The STORAGE_CRYPTO_ALGORITHM_ID enum provides an output buffer for StorageAdapterCryptoProperty and PropertyStandardQuery.
 old-location: storage\storage_crypto_algorithm_id.htm
 old-project: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmXTSAES, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmUnknown, _STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmXTSAES, storage.storage_crypto_algorithm_id, StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmESSIVAESCBC, *PSTORAGE_CRYPTO_ALGORITHM_ID
+ms.date: 2/24/2018
+ms.keywords: "*PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], StorageCryptoAlgorithmAESECB, StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmMax, StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmXTSAES, _STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmMax, ntddstor/StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmXTSAES, storage.storage_crypto_algorithm_id"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
 product: Windows
 targetos: Windows

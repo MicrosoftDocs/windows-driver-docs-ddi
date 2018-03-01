@@ -7,8 +7,8 @@ old-location: netvista\fwpsgetpacketlistsecurityinformation0.htm
 old-project: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsGetPacketListSecurityInformation0
 product: Windows
 targetos: Windows
@@ -88,6 +88,44 @@ A UINT32 value that contains a bitwise OR of a combination of the following flag
 
 
 
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND
+
+Retrieve information for an inbound packet list.
+
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
+
+Retrieve information for an outbound packet list.
+
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_IPSEC
+
+Retrieve the IPsec information associated with the packet list. This flag must be used in
+       combination with either the FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND flag or the
+       FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND flag.
+
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
+
+Retrieve the Windows Filtering Platform information associated with the packet list.
+
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
+
+Retrieve all information associated with an inbound packet list.
+
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
+
+Retrieve all information associated with an outbound packet list.
+
+
 ### -param packetInformation [in, out]
 
 A pointer to an 
@@ -95,43 +133,13 @@ A pointer to an
      list.
 
 
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND
-
-Retrieve information for an inbound packet list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_IPSEC
-
-Retrieve the IPsec information associated with the packet list. This flag must be used in
-       combination with either the FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND flag or the
-       FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND flag.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
-
-Retrieve the Windows Filtering Platform information associated with the packet list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
-
-Retrieve all information associated with an inbound packet list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
-
-Retrieve information for an outbound packet list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
-
-Retrieve all information associated with an outbound packet list.
-
-
 ## -returns
+
 
 
 The 
      <b>FwpsGetPacketListSecurityInformation0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -159,11 +167,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -174,17 +185,24 @@ A callout driver calls the
 
 
 
-## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
+## -see-also
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsGetPacketListSecurityInformation0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsGetPacketListSecurityInformation0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

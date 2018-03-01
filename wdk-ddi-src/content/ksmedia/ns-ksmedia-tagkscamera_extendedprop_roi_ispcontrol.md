@@ -7,8 +7,8 @@ old-location: stream\kscamera_extendedprop_roi_ispcontrol.htm
 old-project: stream
 ms.assetid: 49EAB8F3-35B9-4F99-A7B8-66B582B228B1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
+ms.date: 2/23/2018
+ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ksmedia.h
-apiname: 
+api_name:
 -	KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL {
 ### -field ControlId
 
 The ISP control ID. The following are valid values for this field. These values are defined in ksmedia.h.
+
 <ul>
 <li>
 KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE

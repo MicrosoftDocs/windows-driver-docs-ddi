@@ -7,8 +7,8 @@ old-location: wdf\wdfverifierdbgbreakpoint.htm
 old-project: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfverifier/WdfVerifierDbgBreakPoint, wdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint, kmdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint function, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml
+ms.date: 2/20/2018
+ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfVerifierDbgBreakPoint
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,25 +72,60 @@ VOID WdfVerifierDbgBreakPoint(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if one of the following is true:
+
 <ul>
 <li><b>DbgBreakOnError</b> is set to a non-zero value in the registry.</li>
 <li><b>VerifierOn</b> is set to a non-zero value and <b>DbgBreakOnError</b> is not set.
 								</li>
 <li>Driver Verifier is enabled, the  driver was built with framework version 1.9 or later, and neither <b>VerifierOn</b> nor <b>DbgBreakOnError</b> is set.</li>
-</ul>For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
+</ul>
+For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
 
 For more information about debugging your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+
+
+#### Examples
+
+The following code example shows how a driver might handle a failure to obtain an I/O request's output buffer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Status = WdfRequestRetrieveOutputMemory(
+                                        Request,
+                                        &amp;memory
+                                        );
+if( !NT_SUCCESS(Status) ) {
+    KdPrint(("EvtIoRead could not get request memory buffer. Status: 0x%x\n",Status));
+    WdfVerifierDbgBreakPoint();
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      Status,
+                                      0L
+                                      );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -98,9 +133,11 @@ For more information about debugging your driver, see <a href="https://docs.micr
 
 <a href="..\wdfverifier\nf-wdfverifier-wdfverifierkebugcheck.md">WdfVerifierKeBugCheck</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfVerifierDbgBreakPoint function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfVerifierDbgBreakPoint function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

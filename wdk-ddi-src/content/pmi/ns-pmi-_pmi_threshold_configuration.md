@@ -1,14 +1,14 @@
 ---
 UID: NS:pmi._PMI_THRESHOLD_CONFIGURATION
-title: _PMI_THRESHOLD_CONFIGURATION
+title: "_PMI_THRESHOLD_CONFIGURATION"
 author: windows-driver-content
 description: The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 old-location: powermeter\pmi_threshold_configuration.htm
 old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION
+ms.date: 2/15/2018
+ms.keywords: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, _PMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pmi.h
-apiname: 
+api_name:
 -	PMI_THRESHOLD_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ The upper threshold of the power meter, in units of milliwatts (mW).
 ## -remarks
 
 
+
 The PMI_THRESHOLD_CONFIGURATION structure specifies the current configuration of the power meter's thresholds.  The <b>LowerThreshold</b> and <b>UpperThreshold</b> members specify the lower and upper range of the threshold respectively.  
 
 A Power Meter Interface (PMI) event is signaled when the <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) request completes when one of the following occurs:
+
 <ul>
 <li>
 Power levels that are monitored by the power meter drop below the <b>LowerThreshold</b> value.
@@ -96,13 +98,16 @@ Power levels that are monitored by the power meter drop below the <b>UpperThresh
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_THRESHOLD_CONFIGURATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_THRESHOLD_CONFIGURATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

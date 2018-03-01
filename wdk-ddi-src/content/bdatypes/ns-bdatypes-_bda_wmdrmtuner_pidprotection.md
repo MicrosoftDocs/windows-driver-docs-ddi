@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PIDPROTECTION
-title: _BDA_WMDRMTUNER_PIDPROTECTION
+title: "_BDA_WMDRMTUNER_PIDPROTECTION"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_wmdrmtuner_pidprotection.htm
 old-project: stream
 ms.assetid: EA2590B0-7EF0-4E5E-A270-A13047BE0F2C
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.bda_wmdrmtuner_pidprotection, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, _BDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, *PBDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], PBDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, stream.bda_wmdrmtuner_pidprotection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_WMDRMTUNER_PIDPROTECTION
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef struct _BDA_WMDRMTUNER_PIDPROTECTION {
 ### -field lResult
 
 
-
 ### -field uuidKeyID
-
 

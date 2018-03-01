@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddscsi._ATA_PASS_THROUGH_EX
-title: _ATA_PASS_THROUGH_EX
+title: "_ATA_PASS_THROUGH_EX"
 author: windows-driver-content
 description: The ATA_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_ex.htm
 old-project: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ATA_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, PATA_PASS_THROUGH_EX, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], ntddscsi/PATA_PASS_THROUGH_EX, _ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
+ms.date: 2/24/2018
+ms.keywords: "*PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], _ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddscsi.h
-apiname: 
+api_name:
 -	ATA_PASS_THROUGH_EX
 product: Windows
 targetos: Windows
-req.typenames: *PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX
+req.typenames: ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX
 ---
 
 # _ATA_PASS_THROUGH_EX structure
@@ -86,6 +86,7 @@ Specifies the length in bytes of the ATA_PASS_THROUGH_EX structure.
 ### -field AtaFlags
 
 Indicates the direction of data transfer and specifies the kind of operation to be performed. The value of this member must be some combination of the following flags:
+
 <table>
 <tr>
 <th>ATA flags</th>
@@ -151,7 +152,8 @@ Read single sector only.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PathId
@@ -202,6 +204,7 @@ Specifies the contents of the task file input registers prior to the current pas
 ### -field CurrentTaskFile
 
 Specifies the content of the task file register on both input and output. On input, the array values in <b>CurrentTaskFile</b> map to the task file input registers in the following manner.
+
 <table>
 <tr>
 <th>Byte</th>
@@ -287,9 +290,11 @@ Reserved
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 When <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
+
 <table>
 <tr>
 <th>Byte</th>
@@ -375,10 +380,12 @@ Reserved
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 
@@ -386,17 +393,24 @@ Reserved
 
 
 
+
 ## -see-also
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
- 
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ATA_PASS_THROUGH_EX structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ATA_PASS_THROUGH_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

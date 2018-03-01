@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpn_interface_pfnassignsourcemodeset.htm
 old-project: display
 ms.assetid: e1a2ca9e-9035-4656-bcb8-4ad956a8501d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpn_interface_pfnassignsourcemodeset, pfnAssignSourceModeSet callback function [Display Devices], pfnAssignSourceModeSet, DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, d3dkmddi/pfnAssignSourceModeSet, VidPnFunctions_558924ab-3dd4-43e9-84ed-4e28feae91c5.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, VidPnFunctions_558924ab-3dd4-43e9-84ed-4e28feae91c5.xml, d3dkmddi/pfnAssignSourceModeSet, display.dxgk_vidpn_interface_pfnassignsourcemodeset, pfnAssignSourceModeSet, pfnAssignSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnAssignSourceModeSet
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnAssignSourceModeSet(
 ## -returns
 
 
+
 The <b>pfnAssignSourceModeSet</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,11 +153,14 @@ The source mode set you are attempting to assign does not contain the mode that 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 VidPN source identifiers are assigned by the operating system. <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
@@ -163,6 +168,7 @@ VidPN source identifiers are assigned by the operating system. <a href="..\dispm
 If you obtain a handle by calling <b>pfnCreateNewSourceModeSet</b> and then pass that handle to <b>pfnAssignSourceModeSet</b>, you do not need to release  the handle by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasesourcemodeset.md">pfnReleaseSourceModeSet</a>.
 
 If you obtain a handle by calling <b>pfnCreateNewSourceModeSet</b> and then you decide not to assign the new source mode set to a source, you must release the newly obtained handle by calling <b>pfnReleaseSourceModeSet</b>.  
+
 <div class="alert"><b>Note</b>    The <b>pfnAssignSourceModeSet</b> function releases or does not release the source mode set object that is identified by the <i>hVidPnSourceModeSet</i> parameter depending on the reason that caused <b>pfnAssignSourceModeSet</b> to fail. <p class="note"><b>pfnAssignSourceModeSet</b> does not release the source mode set object if <b>pfnAssignSourceModeSet</b> fails with an invalid input parameter (that is, fails with the STATUS_GRAPHICS_INVALID_VIDPN, STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE, or STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET error code) because the parameters that were specified were not sufficient for the operating system to determine which mode set object to release. Such invalid parameter situations indicate a gross coding error in the driver. You can fix this error by specifying the correct VidPN handle, source identifier, or VidPN source mode set handle. 
 
 <p class="note"><b>pfnAssignSourceModeSet</b> will release the source mode set object after successfully validating all of the input parameters if <b>pfnAssignSourceModeSet</b> fails because of one of the following reasons:
@@ -181,9 +187,12 @@ The source mode set was not created for the source that is identified by <i>VidP
 
 </li>
 </ul>
-</div><div> </div>The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
+</div>
+<div> </div>
+The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
 
 The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>D3dkmdt.h</i>. 
+
 
 
 
@@ -191,11 +200,15 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

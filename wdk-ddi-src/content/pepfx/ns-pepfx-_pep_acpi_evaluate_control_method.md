@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EVALUATE_CONTROL_METHOD
-title: _PEP_ACPI_EVALUATE_CONTROL_METHOD
+title: "_PEP_ACPI_EVALUATE_CONTROL_METHOD"
 author: windows-driver-content
 description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 old-project: kernel
 ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_ACPI_EVALUATE_CONTROL_METHOD
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD
+req.typenames: PEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_METHOD
 ---
 
 # _PEP_ACPI_EVALUATE_CONTROL_METHOD structure
@@ -80,16 +80,6 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 
 
 
-### -field MethodName
-
- 
-
-
-### -field MethodNameString
-
- 
-
-
 ### -field DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
@@ -98,6 +88,7 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 ### -field RequestFlags
 
 [in] A set of flags. This member contains one of the following values.
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -119,7 +110,8 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 <td>0x2</td>
 <td>The <b>MethodNameString</b> member contains a fully qualified control method name.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MethodStatus
@@ -164,25 +156,29 @@ If the PEP is to evaluate the method asychronously, set this member to STATUS_PE
 [in] A pointer to an output buffer to which the PEP writes an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that contains the result of evaluating the specified ACPI control method.
 
 
-##### - ( unnamed union ).MethodNameString
-
-[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
-
-
 #### - ( unnamed union )
 
 A union that contains either the four-character path-relative control method name (if <b>RequestFlags</b> = PEP_ACPI_ECM_FLAG_RELATIVE_NAME) or the fully qualified control method name (if <b>RequestFlags</b> = PEP_ACPI_ECM_FLAG_FULLY_QUALIFIED_NAME).
 
 
-##### - ( unnamed union ).MethodNameUlong
+
+#### MethodNameUlong
 
 [in] A ULONG value that contains the four-character, path-relative name of the ACPI control method.
+
+
+
+#### MethodNameString
+
+[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
 
 
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a> notification. The <b>MethodStatus</b> member contains an output value that the PEP writes to the structure in response to this notification. The <b>OutputArgumentSize</b> member contains an input value supplied by PoFx when the notification is sent. The PEP may overwrite this input value with an output value if the input value is less than the required output buffer size. All other members of this structure contain input values that are supplied by PoFx when the notification is sent.
+
 
 
 
@@ -190,15 +186,23 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a>
 
- 
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_EVALUATE_CONTROL_METHOD structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_EVALUATE_CONTROL_METHOD structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_gettype.htm
 old-project: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, GetType, GetType method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType, IWDFUsbTargetPipe interface, GetType method, IWDFUsbTargetPipe, wdf.iwdfusbtargetpipe_gettype, GetType method, IWDFUsbTargetPipe::GetType
+ms.date: 2/20/2018
+ms.keywords: GetType method, GetType method, IWDFUsbTargetPipe interface, GetType,IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, GetType method, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbTargetPipe.GetType
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ USBD_PIPE_TYPE  GetType();
 
 
 
+
 ## -returns
+
 
 
 <b>GetType</b> returns a USBD_PIPE_TYPE value that identifies the type of the USB pipe.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GetType</b> method is provided for convenience because a UMDF driver can obtain the type of the USB pipe from the <b>PipeType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540285">WINUSB_PIPE_INFORMATION</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a> method. 
@@ -85,15 +89,20 @@ For a code example of how to use the <b>GetType</b> method, see <a href="https:/
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::GetType method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::GetType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

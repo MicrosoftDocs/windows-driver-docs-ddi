@@ -1,14 +1,14 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_UPDATE_INPUT
-title: _SRIOV_MITIGATED_RANGE_UPDATE_INPUT
+title: "_SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
 author: windows-driver-content
 description: This structure is used as an input buffer to the IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request to indicate the virtual function (VF) whose memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_update_input.htm
 old-project: PCI
 ms.assetid: ae4936ac-9794-4854-81ec-2139b3ce4c3c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input
+ms.date: 2/24/2018
+ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pcivirt.h
-apiname: 
+api_name:
 -	SRIOV_MITIGATED_RANGE_UPDATE_INPUT
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT
+req.typenames: SRIOV_MITIGATED_RANGE_UPDATE_INPUT, *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT
 ---
 
 # _SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure

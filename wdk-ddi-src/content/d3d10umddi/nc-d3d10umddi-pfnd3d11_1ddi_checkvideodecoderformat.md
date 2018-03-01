@@ -7,8 +7,8 @@ old-location: display\checkvideodecoderformat.htm
 old-project: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.checkvideodecoderformat, CheckVideoDecoderFormat callback function [Display Devices], CheckVideoDecoderFormat, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat
+ms.date: 2/24/2018
+ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	CheckVideoDecoderFormat
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback
@@ -76,7 +76,6 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -84,7 +83,20 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
+
+
 ### -param DXGI_FORMAT
+
+
+#### - Format [in]
+
+A DXGI_FORMAT value that specifies the output format. Typical values include DXGI_FORMAT_NV12 and DXGI_FORMAT_420_OPAQUE.
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
 
 
 
@@ -98,28 +110,20 @@ A BOOL value that, if TRUE, specifies that the specified format can be used  for
 A pointer to a GUID that identifies the DXVA profile. 
 
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - Format [in]
-
-A DXGI_FORMAT value that specifies the output format. Typical values include DXGI_FORMAT_NV12 and DXGI_FORMAT_420_OPAQUE.
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 This function is not expected to fail.
+
 
 

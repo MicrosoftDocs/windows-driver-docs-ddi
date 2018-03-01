@@ -7,8 +7,8 @@ old-location: storage\storportregistrywriteadapterkey.htm
 old-project: storage
 ms.assetid: D995FB36-177A-44BF-9326-EB2820DB0962
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywriteadapterkey, storport/StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistrywriteadapterkey, storport/StorPortRegistryWriteAdapterKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+api_name:
 -	StorPortRegistryWriteAdapterKey
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ The name of the Value under the key.
 ### -param ValueType [in]
 
 One of the following registry data types.
+
 <table>
 <tr>
 <th>Type</th>
@@ -227,7 +228,8 @@ REG_QWORD_LITTLE_ENDIAN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ValueData [in]
@@ -244,7 +246,9 @@ Specifies the size of the data pointed to by <i>ValueData</i>.
 
 
 
+
             Returns STOR_STATUS_SUCCESS when the operation is successful, otherwise the appropriate error code.
+
 
 
 
@@ -252,9 +256,11 @@ Specifies the size of the data pointed to by <i>ValueData</i>.
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortRegistryWriteAdapterKey routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortRegistryWriteAdapterKey routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

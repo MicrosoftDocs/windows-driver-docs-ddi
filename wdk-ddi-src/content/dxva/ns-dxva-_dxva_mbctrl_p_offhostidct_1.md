@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_P_OffHostIDCT_1
-title: _DXVA_MBctrl_P_OffHostIDCT_1
+title: "_DXVA_MBctrl_P_OffHostIDCT_1"
 author: windows-driver-content
 description: The DXVA_MBctrl_P_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra pictures using off-host IDCT.
 old-location: display\dxva_mbctrl_p_offhostidct_1.htm
 old-project: display
 ms.assetid: 53a474a8-6cbd-4fe0-84d2-bf557b86ed71
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxva_mbctrl_p_offhostidct_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml, *LPDXVA_MBctrl_P_OffHostIDCT_1
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, display.dxva_mbctrl_p_offhostidct_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_MBctrl_P_OffHostIDCT_1
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 ### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -253,7 +254,8 @@ Indicates that the macroblock is coded as intra, and no motion vectors are used 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwMB_SNL
@@ -289,6 +291,7 @@ An array containing the value of the motion vector(s) for the macroblock, each r
 ## -remarks
 
 
+
 Each skipped macroblock specified by <i>MBskipsFollowing </i>must be generated in a manner mathematically equivalent to incrementing the value of <b>wMBaddress</b> and then repeating the same macroblock control command. Any macroblock control command with a nonzero value for <i>MBskipsFollowing</i> specifies how motion-compensated prediction is to be performed for each macroblock to be skipped, and is equivalent (except for the value of <i>MBskipsFollowing</i>) to an explicit nonskip specification of the generation of the first of the series of skipped macroblocks. Thus, whenever <i>MBskipsFollowing</i> is not zero, the following values must all be equal to zero: <i>Motion4MV</i>, <i>IntraMacroblock</i>, and <b>bNumCoef</b>.
 
 <i>MBdataLocation </i>is an index into the IDCT residual difference block data buffer, indicating the location of the residual difference data for the blocks of the current macroblock, expressed as a multiple of 32 bits. Must be zero for the first macroblock in the macroblock control command buffer. <i>MBdataLocation</i> may contain any value if <b>wPatternCode</b> is zero. When <b>wPatternCode</b> is zero, decoders are recommended but not required to set this value either to zero or to the same value as in the next macroblock control command.
@@ -299,21 +302,32 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 
 
-## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
 
 <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
- 
+
+
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_P_OffHostIDCT_1 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_MBctrl_P_OffHostIDCT_1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

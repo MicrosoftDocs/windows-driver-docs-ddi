@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_ACCESS
-title: _CDROM_EXCLUSIVE_ACCESS
+title: "_CDROM_EXCLUSIVE_ACCESS"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_ACCESS structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 old-location: storage\cdrom_exclusive_access.htm
 old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], storage.cdrom_exclusive_access, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
+ms.date: 2/24/2018
+ms.keywords: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], _CDROM_EXCLUSIVE_ACCESS, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdrm.h
-apiname: 
+api_name:
 -	CDROM_EXCLUSIVE_ACCESS
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
+req.typenames: CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS
 ---
 
 # _CDROM_EXCLUSIVE_ACCESS structure
@@ -76,6 +76,7 @@ An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE
 ### -field Flags
 
 A flag that specifies the characteristics of the operation. The meaning of the flag depends on the type of operation that <b>RequestType</b> specifies. The following table describes the possible values for <b>RequestType</b> and <b>Flags</b>:
+
 <table>
 <tr>
 <th>RequestType</th>
@@ -134,16 +135,19 @@ Prevents the sending of a media removal notification and a media arrival notific
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_EXCLUSIVE_ACCESS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_EXCLUSIVE_ACCESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_OUT
-title: _GetDiscoveredPortAttributes_OUT
+title: "_GetDiscoveredPortAttributes_OUT"
 author: windows-driver-content
 description: The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the GetDiscoveredPortAttributes WMI method to the WMI client.
 old-location: storage\getdiscoveredportattributes_out.htm
 old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, _GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], storage.getdiscoveredportattributes_out, PGetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], _GetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	GetDiscoveredPortAttributes_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT
+req.typenames: GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT
 ---
 
 # _GetDiscoveredPortAttributes_OUT structure
@@ -81,7 +81,9 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -89,9 +91,11 @@ The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetDiscoveredPortAttributes_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetDiscoveredPortAttributes_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

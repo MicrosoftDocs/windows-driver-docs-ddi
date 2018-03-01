@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bthx_hci_write.htm
 old-project: bltooth
 ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.ioctl_bthx_hci_write, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], IOCTL_BTHX_WRITE_HCI, bthxddi/IOCTL_BTHX_WRITE_HCI, bltooth.ioctl_bthx_write_hci
+ms.date: 2/15/2018
+ms.keywords: IOCTL_BTHX_WRITE_HCI, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_write, bltooth.ioctl_bthx_write_hci, bthxddi/IOCTL_BTHX_WRITE_HCI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	BthXDDI.h
-apiname: 
+api_name:
 -	IOCTL_BTHX_WRITE_HCI
 product: Windows
 targetos: Windows
-req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
+req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_WRITE_HCI IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -100,14 +100,18 @@ The length of the buffer is the size of a ULONG.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,6 +122,7 @@ If the request is successful the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -133,14 +138,17 @@ The IOCTL completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The Bluetooth stack sends IOCTL_BTHX_WRITE_HCI to write HCI ACL data and HCI command to the controller.
 
 The input buffer points to a BTHX_HCI_READ_WRITE_CONTEXT structure whose <b>DataLen</b> member specifies the number of bytes in the <b>Data</b> member. The <b>Type</b> member is set based on whether the packet is a command packet or an ACL data packet.
+
 
 

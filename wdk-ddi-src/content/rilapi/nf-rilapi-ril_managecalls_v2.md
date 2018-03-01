@@ -7,8 +7,8 @@ old-location: netvista\ril_managecalls_v2.htm
 old-project: netvista
 ms.assetid: d0fd4af9-e97e-4c2b-aea3-87d45b192568
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_ManageCalls_V2 method [Network Drivers Starting with Windows Vista], RIL_ManageCalls_V2, rilapi/RIL_ManageCalls_V2, netvista.ril_managecalls_v2
+ms.date: 2/16/2018
+ms.keywords: RIL_ManageCalls_V2, RIL_ManageCalls_V2 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v2, rilapi/RIL_ManageCalls_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_ManageCalls_V2
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_ManageCalls_V2(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwCommand
-
 
 
 ### -param dwID
 
 
-
 ### -param lprcmOfferAnswer
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

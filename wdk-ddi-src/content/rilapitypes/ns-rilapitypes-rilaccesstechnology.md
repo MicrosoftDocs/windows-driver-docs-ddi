@@ -7,8 +7,8 @@ old-location: netvista\rilaccesstechnology_2.htm
 old-project: netvista
 ms.assetid: e0bcbc0c-8783-43b2-a4af-3dad4aaff142
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilaccesstechnology_2, rilapitypes/RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], *LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY
+ms.date: 2/16/2018
+ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology_2, rilapitypes/RILACCESSTECHNOLOGY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILACCESSTECHNOLOGY
 product: Windows
 targetos: Windows
@@ -77,67 +77,32 @@ typedef struct _RILACCESSTECHNOLOGY {
 
 
 
-### -field kindUnion
-
-
-
-### -field kindUnion.dwEvdoKind
-
- 
-
-
-### -field kindUnion.dwGsmKind
-
- 
-
-
-### -field kindUnion.dwUmtsKind
-
- 
-
-
-### -field kindUnion.dwTdscdmaKind
-
- 
-
-
-### -field kindUnion.dwLteKind
-
- 
-
-
-### -field RILACCESSTECHNOLOGYKINDUNION
-
-
-
 ### -field cbSize
-
 
 
 ### -field dwParams
 
 
-
 ### -field dwSystemType
 
 
-
-#### - dwGsmKind
-
+### -field kindUnion
 
 
-#### - dwTdscdmaKind
-
-
-
-#### - dwLteKind
-
+### -field RILACCESSTECHNOLOGYKINDUNION
 
 
 #### - dwEvdoKind
 
 
+#### - dwGsmKind
+
+
+#### - dwLteKind
+
+
+#### - dwTdscdmaKind
+
 
 #### - dwUmtsKind
-
 

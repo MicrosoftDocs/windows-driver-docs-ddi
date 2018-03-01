@@ -7,8 +7,8 @@ old-location: stream\kstopologypropertyhandler.htm
 old-project: stream
 ms.assetid: fe033614-b1a0-490b-b45b-a8d8de650dbf
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler, ks/KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], KsTopologyPropertyHandler
+ms.date: 2/23/2018
+ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsTopologyPropertyHandler
 product: Windows
 targetos: Windows
@@ -94,6 +94,8 @@ Points to a <a href="..\ks\ns-ks-kstopology.md">KSTOPOLOGY</a> structure contain
 ## -returns
 
 
+
 The <b>KsTopologyPropertyHandler</b> function returns STATUS_SUCCESS if successful, or it returns an error specific to the property being handled. The function always fills in the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP. 
+
 
 

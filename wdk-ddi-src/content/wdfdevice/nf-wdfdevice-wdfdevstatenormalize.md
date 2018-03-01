@@ -7,8 +7,8 @@ old-location: wdf\wdfdevstatenormalize.htm
 old-project: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDevStateNormalize method, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize, WdfDevStateNormalize, DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, PFN_WDFDEVSTATENORMALIZE, kmdf.wdfdevstatenormalize
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfDevStateNormalize
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A state machine value that is returned from <a href="..\wdfdevice\nf-wdfdevice-w
 ## -returns
 
 
+
 <b>WdfDevStateNormalize</b> returns the specified <i>State</i> value with extra bits removed.
+
 
 

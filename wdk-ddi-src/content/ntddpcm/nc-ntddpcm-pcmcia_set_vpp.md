@@ -7,8 +7,8 @@ old-location: pcmcia\pcmcia_set_vpp.htm
 old-project: PCMCIA
 ms.assetid: 63c34784-6ea5-49e5-8ee7-79b70e5137f7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCMCIA.pcmcia_set_vpp, SetVpp callback function [Buses], SetVpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP, ntddpcm/SetVpp, memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml
+ms.date: 2/15/2018
+ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddpcm.h
-apiname: 
+api_name:
 -	SetVpp
 product: Windows
 targetos: Windows
@@ -83,17 +83,20 @@ Specifies the voltage level to set on the Vpp pin. <i>VppLevel</i> must be one o
 
 
 
-##### - VppLevel.PCMCIA_VPP_0V
+
+#### PCMCIA_VPP_0V
 
 Specifies that the voltage on the Vpp pin be set to zero volts and that the Vpp pin be disabled.
 
 
-##### - VppLevel.PCMCIA_VPP_12V
+
+#### PCMCIA_VPP_12V
 
 Specifies that the voltage on the Vpp pin be set to twelve volts.
 
 
-##### - VppLevel.PCMCIA_VPP_IS_VCC
+
+#### PCMCIA_VPP_IS_VCC
 
 Specifies that the voltage on the Vpp pin be set to equal the voltage on the Vcc (primary card power) pin.
 
@@ -101,11 +104,14 @@ Specifies that the voltage on the Vpp pin be set to equal the voltage on the Vcc
 ## -returns
 
 
+
 The <b>PCMCIA_SET_VPP</b> interface routine returns <b>TRUE</b> after the requested voltage level is set.
 
 
 
+
 ## -remarks
+
 
 
 The <b>PCMCIA_SET_VPP</b> interface routine returns control to the caller after the requested voltage is established in a stable state for the card.
@@ -116,15 +122,20 @@ Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL. To maintain overal
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_SET_VPP callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_SET_VPP callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

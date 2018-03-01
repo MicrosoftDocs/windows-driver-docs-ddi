@@ -7,8 +7,8 @@ old-location: stream\kssetmajorfunctionhandler.htm
 old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, KsSetMajorFunctionHandler function [Streaming Media Devices], stream.kssetmajorfunctionhandler, KsSetMajorFunctionHandler, ks/KsSetMajorFunctionHandler
+ms.date: 2/23/2018
+ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsSetMajorFunctionHandler
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ Specifies the driver object whose major function is to be handled.
 ### -param MajorFunction [in]
 
 Specifies the major function identifier to be handled. This sets the major function pointer in the driver object to an internal function that then dispatches to the <b>KSDISPATCH_TABLE</b> function. The pointer to this table is assumed to be the first element in a structure pointed to by <b>FsContext</b> in the file object of the specific IRP being dispatched. The valid major function identifiers are as listed.
+
 <table>
 <tr>
 <th>Identifier</th>
@@ -172,20 +173,25 @@ This flag may be added to the MajorFunction identifier in order to specify that 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 Returns STATUS_SUCCESS if the MajorFunction identifier is valid.
 
 
 
+
 ## -remarks
 
 
+
 If a major function handler is set for a driver object, all file objects must handle that major function, even if the entry just points to <b>KsDispatchInvalidDeviceRequest</b>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -195,6 +201,8 @@ If a major function handler is set for a driver object, all file objects must ha
 <pre>KSDISPATCH_FASTIO</pre>
 </td>
 </tr>
-</table></span></div>This flag may be used to specify that the fast I/O entry should be set rather than the IRP-based entry.
+</table></span></div>
+This flag may be used to specify that the fast I/O entry should be set rather than the IRP-based entry.
+
 
 

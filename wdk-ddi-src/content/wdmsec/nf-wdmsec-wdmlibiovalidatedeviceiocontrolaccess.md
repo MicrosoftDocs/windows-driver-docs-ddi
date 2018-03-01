@@ -7,8 +7,8 @@ old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdmsec/WdmlibIoValidateDeviceIoControlAccess, wdmsec/IoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], WdmlibIoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess
+ms.date: 2/24/2018
+ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	WdmlibIoValidateDeviceIoControlAccess
 -	IoValidateDeviceIoControlAccess
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ Specifies the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> on which to perform the ac
 ### -param RequiredAccess [in]
 
 Specifies the type of access to the device object that the request sender must have. The caller can specify one or more of the following flags.
+
 <table>
 <tr>
 <th>Value</th>
@@ -103,13 +104,16 @@ The request sender must have write access to the device object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>WdmlibIoValidateDeviceIoControlAccess</b> returns an NTSTATUS value. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +152,14 @@ The specified parameters are invalid. For example, if the routine is passed an I
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>WdmlibIoValidateDeviceIoControlAccess</b> allows drivers to perform dynamic access checks for IOCTLs. Use this routine to require more restrictive access than that specified in the IOCTL's definition. If the routine returns STATUS_ACCESS_DENIED, then the driver can complete the request with the STATUS_ACCESS_DENIED status value.
@@ -164,13 +171,16 @@ The access checks are only performed if the <b>RequestorMode</b> member of the <
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibIoValidateDeviceIoControlAccess function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WdmlibIoValidateDeviceIoControlAccess function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

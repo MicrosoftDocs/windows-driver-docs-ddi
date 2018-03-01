@@ -7,8 +7,8 @@ old-location: netvista\rilcallmodificationinfomodificationtype.htm
 old-project: netvista
 ms.assetid: 37b18047-7818-4e57-b25a-3c958106e215
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_MODIFIED, netvista.rilcallmodificationinfomodificationtype, RIL_CALLMODIFICATIONTYPE_BLOCKED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE
+ms.date: 2/16/2018
+ms.keywords: RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMODIFICATIONTYPE_BLOCKED, RIL_CALLMODIFICATIONTYPE_MAX, RIL_CALLMODIFICATIONTYPE_MODIFIED, netvista.rilcallmodificationinfomodificationtype, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMODIFICATIONINFOMODIFICATIONTYPE
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILCALLMODIFICATIONINFOMODIFICATIONTYPE {
 ### -field RIL_CALLMODIFICATIONTYPE_UNKNOWN
 
 
-
 ### -field RIL_CALLMODIFICATIONTYPE_BLOCKED
-
 
 
 ### -field RIL_CALLMODIFICATIONTYPE_MODIFIED
 
 
-
 ### -field RIL_CALLMODIFICATIONTYPE_MAX
-
 

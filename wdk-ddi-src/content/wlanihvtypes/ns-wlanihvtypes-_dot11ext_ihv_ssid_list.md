@@ -1,14 +1,14 @@
 ---
 UID: NS:wlanihvtypes._DOT11EXT_IHV_SSID_LIST
-title: _DOT11EXT_IHV_SSID_LIST
+title: "_DOT11EXT_IHV_SSID_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_ssid_list.htm
 old-project: netvista
 ms.assetid: 10ef8868-5a65-4ed9-9f1d-440cda30cba4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_IHV_SSID_LIST, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, _DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_ssid_list, *PDOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, PDOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlanihvtypes.h
-apiname: 
+api_name:
 -	DOT11EXT_IHV_SSID_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST
+req.typenames: DOT11EXT_IHV_SSID_LIST, *PDOT11EXT_IHV_SSID_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -75,21 +75,6 @@ typedef struct _DOT11EXT_IHV_SSID_LIST {
 The number of SSIDs in the list.
 
 
-### -field SSIDs.unique
-
- 
-
-
-### -field SSIDs.size_is
-
- 
-
-
-### -field SSIDs.size_is.ulCount
-
- 
-
-
 ### -field SSIDs
 
 An SSID of type 
@@ -100,7 +85,9 @@ An SSID of type
 ## -remarks
 
 
+
 An SSID is a string that identifies a set of interconnected basic service sets (BSSs).
+
 
 
 
@@ -108,9 +95,11 @@ An SSID is a string that identifies a set of interconnected basic service sets (
 
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_SSID_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_SSID_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\ioqueuethreadirp.htm
 old-project: ifsk
 ms.assetid: 165eaae5-ce68-462e-902c-64120fba91c5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, IoQueueThreadIrp function [Installable File System Drivers], ntifs/IoQueueThreadIrp, IoQueueThreadIrp, ifsk.ioqueuethreadirp
+ms.date: 2/16/2018
+ms.keywords: IoQueueThreadIrp, IoQueueThreadIrp function [Installable File System Drivers], ifsk.ioqueuethreadirp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, ntifs/IoQueueThreadIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	IoQueueThreadIrp
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:hbapiwmi._SendRPS_OUT
-title: _SendRPS_OUT
+title: "_SendRPS_OUT"
 author: windows-driver-content
 description: The SendRPS_OUT structure is used to report the output parameter data of the SendRPS WMI method to the WMI client.
 old-location: storage\sendrps_out.htm
 old-project: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _SendRPS_OUT, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml, SendRPS_OUT, hbapiwmi/SendRPS_OUT, *PSendRPS_OUT, storage.sendrps_out, SendRPS_OUT structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	hbapiwmi.h
-apiname: 
+api_name:
 -	SendRPS_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSendRPS_OUT, SendRPS_OUT
+req.typenames: SendRPS_OUT, *PSendRPS_OUT
 ---
 
 # _SendRPS_OUT structure
@@ -93,7 +93,9 @@ Contains the results of the RPS command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -101,9 +103,11 @@ The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hb
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRPS_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRPS_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

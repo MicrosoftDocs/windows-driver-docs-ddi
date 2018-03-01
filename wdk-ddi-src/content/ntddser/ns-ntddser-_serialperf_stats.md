@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddser._SERIALPERF_STATS
-title: _SERIALPERF_STATS
+title: "_SERIALPERF_STATS"
 author: windows-driver-content
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
 old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _SERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/SERIALPERF_STATS, SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], ntddser/PSERIALPERF_STATS, serports.serialperf_stats, PSERIALPERF_STATS, *PSERIALPERF_STATS
+ms.date: 2/15/2018
+ms.keywords: "*PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, serports.serialperf_stats"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	SERIALPERF_STATS
 product: Windows
 targetos: Windows
-req.typenames: *PSERIALPERF_STATS, SERIALPERF_STATS
+req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---
 
 # _SERIALPERF_STATS structure
@@ -105,9 +105,11 @@ The number of parity errors detected since either the serial port was opened or 
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
 
 To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
+
 
 
 
@@ -115,11 +117,15 @@ To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntdd
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIALPERF_STATS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIALPERF_STATS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

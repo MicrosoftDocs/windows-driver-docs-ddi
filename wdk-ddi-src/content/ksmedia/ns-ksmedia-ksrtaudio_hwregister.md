@@ -7,8 +7,8 @@ old-location: audio\ksrtaudio_hwregister.htm
 old-project: audio
 ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSRTAUDIO_HWREGISTER, aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, ksmedia/KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], audio.ksrtaudio_hwregister
+ms.date: 2/22/2018
+ms.keywords: "*PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, audio.ksrtaudio_hwregister, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSRTAUDIO_HWREGISTER
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ Specifies the accuracy of the clock or position register. See the following Rema
 ## -remarks
 
 
+
 For hardware position register requests via KSPROPERTY_RTAUDIO_POSITIONREGISTER the driver fills in the <b>Register</b>, <b>Width</b> and <b>Accuracy</b> members, because the other members are specific to clock registers.  For hardware clock register requests via KSPROPERTY_RTAUDIO_CLOCKREGISTER the driver fills in the entire structure.
 
 A clock register is a counter that increments at the frequency of the internal hardware clock that drives the internal bus of the audio device. The register increments by one with each tick of the clock. The register begins counting when the device powers on and continues to run until the device powers off. The clock register is used by software to synchronize two or more devices with independent hardware clocks.
@@ -115,17 +116,24 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 
 
+
 ## -see-also
-
-<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
 
- 
+
+
+<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_HWREGISTER structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_HWREGISTER structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

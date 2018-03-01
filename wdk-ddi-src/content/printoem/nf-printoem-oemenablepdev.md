@@ -7,8 +7,8 @@ old-location: print\oemenablepdev.htm
 old-project: print
 ms.assetid: 0088f5f6-eb68-4081-8cca-3d34fd10593a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemenablepdev, OEMEnablePDEV, OEMEnablePDEV function [Print Devices], printoem/OEMEnablePDEV, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml
+ms.date: 2/23/2018
+ms.keywords: OEMEnablePDEV, OEMEnablePDEV function [Print Devices], print.oemenablepdev, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml, printoem/OEMEnablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMEnablePDEV
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ PDEVOEM APIENTRY OEMEnablePDEV(
 ### -param pdevobj
 
 
-
 ### -param pPrinterName [in]
-
 
 
 ### -param cPatterns
 
 
-
 ### -param phsurfPatterns [in]
-
 
 
 ### -param cjGdiInfo
 
 
-
 ### -param pGdiInfo [in, out]
-
 
 
 ### -param cjDevInfo
 
 
-
 ### -param pDevInfo [in, out]
 
 
-
 ### -param pded [in]
-
 

@@ -7,8 +7,8 @@ old-location: kernel\pwmparsepinpath.htm
 old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PwmParsePinPath function [Kernel-Mode Driver Architecture], PwmParsePinPath, pwmutil/PwmParsePinPath, kernel.pwmparsepinpath
+ms.date: 2/24/2018
+ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PwmParsePinPath
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ A pointer to variable that receives a pin number.
 ## -returns
 
 
+
 <b>PwmParsePinPath</b> returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,17 @@ The specified pin path pointer is invalid or its Unicode string is
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The pin path must be a Unicode character string that ends in the pin number as follows: <i>...\&lt;PinNumber&gt;</i>.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-title: _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+title: "_USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_endpoint_descriptor.htm
 old-project: audio
 ms.assetid: 552986F7-AEE9-4CBF-A932-629885F99487
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices], PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, audio.usbsidebandaudio_endpoint_descriptor, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices], USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices], _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, audio.usbsidebandaudio_endpoint_descriptor, usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	kbSyntax
-apitype: 
+api_type:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+api_location:
+-
+api_name:
 -	USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+req.typenames: USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -111,17 +111,13 @@ typedef struct _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR {
 
 
 
-#### - Reserved 5
+
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 6
-
-TBD
-
-
-#### - Reserved 3
+#### - Reserved 1
 
 TBD
 
@@ -131,17 +127,22 @@ TBD
 TBD
 
 
+#### - Reserved 3
+
+TBD
+
+
 #### - Reserved 4
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 5
 
 TBD
 
 
-#### - Reserved 1
+#### - Reserved 6
 
 TBD
 

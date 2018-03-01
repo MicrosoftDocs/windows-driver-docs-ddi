@@ -7,8 +7,8 @@ old-location: stream\ikscontrol_ksevent2.htm
 old-project: stream
 ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsEvent method [Streaming Media Devices], IKsControl interface, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, IKsControl, stream.ikscontrol_ksevent2, KsEvent, IKsControl interface [Streaming Media Devices], KsEvent method, KsEvent method [Streaming Media Devices], IKsControl::KsEvent, ks/IKsControl::KsEvent
+ms.date: 2/23/2018
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl::KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices], IKsControl interface, KsEvent,IKsControl.KsEvent, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsControl.KsEvent
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS KsEvent(
 
 ### -param Event
 
-Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
 
 ### -param EventLength
@@ -99,14 +99,18 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsEv
 ## -returns
 
 
+
 The <b>IKsControl::KsEvent</b> method returns the same value that would be returned if the event had been sent by IOCTL.
+
 
 
 
 ## -remarks
 
 
+
 To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used to enable the event.
+
 
 
 
@@ -114,11 +118,15 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsEvent method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

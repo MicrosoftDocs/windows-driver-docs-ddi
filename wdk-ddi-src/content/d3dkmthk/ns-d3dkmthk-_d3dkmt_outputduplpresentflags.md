@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPLPRESENTFLAGS
-title: _D3DKMT_OUTPUTDUPLPRESENTFLAGS
+title: "_D3DKMT_OUTPUTDUPLPRESENTFLAGS"
 author: windows-driver-content
 description: Describes options for a Desktop Duplication API swapchain present operation.
 old-location: display\d3dkmt_outputduplpresentflags.htm
 old-project: display
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_OUTPUTDUPLPRESENTFLAGS
 product: Windows
 targetos: Windows
@@ -112,7 +112,7 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the DDA present options.
 

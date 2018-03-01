@@ -7,8 +7,8 @@ old-location: wdf\iwdfiotarget.htm
 old-project: wdf
 ms.assetid: bebe79c8-28d1-4976-b314-b73e6e9b7b9c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiotarget, IWDFIoTarget interface, IWDFIoTarget interface, described, IWDFIoTarget, wudfddi/IWDFIoTarget, UMDFIoTargetObjectRef_3def2530-811a-4ac8-b9bd-c39cc4cb8fb2.xml, umdf.iwdfiotarget
+ms.date: 2/20/2018
+ms.keywords: IWDFIoTarget, IWDFIoTarget interface, IWDFIoTarget interface, described, UMDFIoTargetObjectRef_3def2530-811a-4ac8-b9bd-c39cc4cb8fb2.xml, umdf.iwdfiotarget, wdf.iwdfiotarget, wudfddi/IWDFIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFIoTarget
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFIoTarget</b> interface exposes the I/O target object that typically represents a lower driver in the stack.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFIoTarget</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -108,15 +115,5 @@ The <a href="https://msdn.microsoft.com/d38ede60-9bcf-4c90-8c41-8f1edf1a1d23">Ge
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/df008ee8-352f-4655-b4c0-750eeb281e6a">CancelSentRequestsForFile</a> method cancels all I/O requests that have been sent on behalf of the specified file object.
-
-The <a href="https://msdn.microsoft.com/fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0">FormatRequestForIoctl</a> method formats an I/O request object for an I/O control operation.
-
-The <a href="https://msdn.microsoft.com/8a1b61c8-8b85-4224-ae20-3788eb0babe4">FormatRequestForRead</a> method formats an I/O request object for a read operation.
-
-The <a href="https://msdn.microsoft.com/dd579620-4fe9-4cd0-8e21-f32b07338de1">FormatRequestForWrite</a> method formats an I/O request object for a write operation.
-
-The <a href="https://msdn.microsoft.com/d38ede60-9bcf-4c90-8c41-8f1edf1a1d23">GetTargetFile</a> method retrieves the framework file object that is associated with the I/O target object.
-
- 
+</table> 
 

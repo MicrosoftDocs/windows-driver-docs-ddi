@@ -7,8 +7,8 @@ old-location: netvista\rilcdmaavoidancerequestype.htm
 old-project: netvista
 ms.assetid: 8c0c641e-6aee-44ef-85a4-6f58ba67f6b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilcdmaavoidancerequestype, RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RILCDMAAVOIDANCEREQUESTYPE, RIL_AVOID_SYS_CLR_LIST, ntddrilapitypes/RIL_AVOID_SYS_CLR_LIST, ntddrilapitypes/RILCDMAAVOIDANCEREQUESTYPE
+ms.date: 2/16/2018
+ms.keywords: RILCDMAAVOIDANCEREQUESTYPE, RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype, ntddrilapitypes/RILCDMAAVOIDANCEREQUESTYPE, ntddrilapitypes/RIL_AVOID_SYS_CLR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCDMAAVOIDANCEREQUESTYPE
 product: Windows
 targetos: Windows
@@ -70,7 +70,5 @@ typedef enum _RILCDMAAVOIDANCEREQUESTYPE {
 ### -field RIL_AVOID_SYS_IDLE
 
 
-
 ### -field RIL_AVOID_SYS_CLR_LIST
-
 

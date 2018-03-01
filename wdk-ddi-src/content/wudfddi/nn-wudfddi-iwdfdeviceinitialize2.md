@@ -7,8 +7,8 @@ old-location: wdf\iwdfdeviceinitialize2.htm
 old-project: wdf
 ms.assetid: 78d0c888-955f-481f-aa59-f2e5eea1aa81
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdeviceinitialize2, IWDFDeviceInitialize2 interface, IWDFDeviceInitialize2 interface, described, IWDFDeviceInitialize2, wudfddi/IWDFDeviceInitialize2, UMDFDeviceObjectRef_0a7dcdea-43e7-4a0a-b55c-34d18eca65e8.xml, umdf.iwdfdeviceinitialize2
+ms.date: 2/20/2018
+ms.keywords: IWDFDeviceInitialize2, IWDFDeviceInitialize2 interface, IWDFDeviceInitialize2 interface, described, UMDFDeviceObjectRef_0a7dcdea-43e7-4a0a-b55c-34d18eca65e8.xml, umdf.iwdfdeviceinitialize2, wdf.iwdfdeviceinitialize2, wudfddi/IWDFDeviceInitialize2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFDeviceInitialize2
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IWDFDeviceInitialize2</b> interface is a helper interface that allows a driver to specify a preferred buffer retrieval mode and buffer access method.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDeviceInitialize2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>. <b>IWDFDeviceInitialize2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -72,14 +79,14 @@ The <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0">Se
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0">SetIoTypePreference</a> method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 Drivers obtain the <b>IWDFDeviceInitialize2</b> interface by calling <b>IWDFDeviceInitialize::QueryInterface</b>.
+
 
 

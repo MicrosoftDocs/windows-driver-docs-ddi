@@ -7,8 +7,8 @@ old-location: print\initializeprintmonitorui.htm
 old-project: print
 ms.assetid: baa80f8c-68ed-43a3-8c82-79a4388f9ab6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, print.initializeprintmonitorui, winsplp/InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], InitializePrintMonitorUI
+ms.date: 2/23/2018
+ms.keywords: InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], print.initializeprintmonitorui, spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, winsplp/InitializePrintMonitorUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Winsplp.h
-apiname: 
+api_name:
 -	InitializePrintMonitorUI
 product: Windows
 targetos: Windows
@@ -69,21 +69,25 @@ PMONITORUI WINAPI InitializePrintMonitorUI(
 
 
 
+
 #### - void
 
 
-
 ## -returns
+
 
 
 The function should return a pointer to an initialized <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
 
 
 
+
 ## -remarks
 
 
+
 Port monitor UI DLLs are required to export an <b>InitializePrintMonitorUI</b> function. The function is called immediately after the DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the DLL to initialize itself, and to provide the spooler with pointers to internal functions.
+
 
 
 
@@ -91,11 +95,15 @@ Port monitor UI DLLs are required to export an <b>InitializePrintMonitorUI</b> f
 
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor.md">InitializePrintMonitor</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20InitializePrintMonitorUI function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20InitializePrintMonitorUI function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

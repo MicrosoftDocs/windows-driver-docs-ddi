@@ -7,8 +7,8 @@ old-location: netvista\ndisinitializenpagedlookasidelist.htm
 old-project: netvista
 ms.assetid: d240f2cc-18a6-4c2d-889f-e25a9486d5fe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisInitializeNPagedLookasideList, netvista.ndisinitializenpagedlookasidelist, NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml
+ms.date: 2/16/2018
+ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NdisInitializeNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInitializeNPagedLookasideList function
@@ -89,8 +89,8 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      <i>Allocate</i> function that will allocate an entry of the size that is specified in the 
      <i>Size</i> member whenever it is called. If 
      <i>Allocate</i> is <b>NULL</b>, the 
-     <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-     NdisAllocateFromNPagedLookasideList</b></mshelp:link> function subsequently allocates entries on behalf of the
+     <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+     NdisAllocateFromNPagedLookasideList</a> function subsequently allocates entries on behalf of the
      caller. If the caller provides an 
      <i>Allocate</i> function, it also must provide a 
      <i>Free</i> function.
@@ -102,8 +102,8 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      <i>Free</i> function that will free an entry of the size that is specified in the 
      <i>Size</i> member whenever it is called. If 
      <i>Free</i> is <b>NULL</b>, the 
-     <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-     NdisFreeToNPagedLookasideList</b></mshelp:link> function subsequently frees entries on behalf of the caller.
+     <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+     NdisFreeToNPagedLookasideList</a> function subsequently frees entries on behalf of the caller.
 
 
 ### -param Flags [in]
@@ -132,21 +132,24 @@ Must be zero. This parameter is also reserved.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>NdisInitializeNPagedLookasideList</b> initializes the caller-supplied list head but allocates no memory
     for list entries. The initial entries are allocated on an as-needed basis either with calls to the 
-    <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-    NdisAllocateFromNPagedLookasideList</b></mshelp:link> function or by the driver-supplied 
+    <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+    NdisAllocateFromNPagedLookasideList</a> function or by the driver-supplied 
     <i>Allocate</i> callback function at the 
     <i>Allocate</i> parameter. The list is populated as the driver frees entries back to the list with the 
-    <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-    NdisFreeToNPagedLookasideList</b></mshelp:link> function. Entries collect on the list until a system-determined but
+    <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+    NdisFreeToNPagedLookasideList</a> function. Entries collect on the list until a system-determined but
     dynamically sized limit is reached. Then, any surplus entries in the lookaside list are returned to
     nonpaged pool, either by 
     <b>NdisFreeToNPagedLookasideList</b> or with calls to the driver-supplied 
@@ -161,10 +164,10 @@ All entries in the lookaside list are of the same size, which is specified in th
     outgoing and incoming calls.
 
 It is more efficient for a driver to allow the 
-    <mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-    NdisAllocateFromNPagedLookasideList</b></mshelp:link> and 
-    <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-    NdisFreeToNPagedLookasideList</b></mshelp:link> functions to manage the allocation and deallocation of entries (see
+    <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+    NdisAllocateFromNPagedLookasideList</a> and 
+    <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+    NdisFreeToNPagedLookasideList</a> functions to manage the allocation and deallocation of entries (see
     the 
     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and 
     <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> functions). However, a driver that
@@ -179,26 +182,39 @@ Callers of
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+   NdisDeleteNPagedLookasideList</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
-<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
-   NdisDeleteNPagedLookasideList</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
-<mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
-   NdisFreeToNPagedLookasideList</b></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeNPagedLookasideList function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeNPagedLookasideList function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

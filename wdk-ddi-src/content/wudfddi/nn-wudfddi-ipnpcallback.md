@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallback.htm
 old-project: wdf
 ms.assetid: b6ab28e1-08d5-49ee-931a-8e2fe68bd75e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallback, IPnpCallback interface, IPnpCallback interface, described, IPnpCallback, wudfddi/IPnpCallback, UMDFDeviceObjectRef_1e101e13-802b-4196-a76c-ed4103d6fbe3.xml, umdf.ipnpcallback
+ms.date: 2/20/2018
+ms.keywords: IPnpCallback, IPnpCallback interface, IPnpCallback interface, described, UMDFDeviceObjectRef_1e101e13-802b-4196-a76c-ed4103d6fbe3.xml, umdf.ipnpcallback, wdf.ipnpcallback, wudfddi/IPnpCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IPnpCallback
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 The <b>IPnpCallback</b> interface is a Plug and Play (PnP) and power management (PM) interface. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallback</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -108,22 +115,14 @@ The <a href="https://msdn.microsoft.com/4289406f-dda0-4439-be6e-6e638bb46e1f">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/6efa3d8e-3e54-4ab1-82e0-08ba12bb1877">OnD0Entry</a> method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device. 
-
-The <a href="https://msdn.microsoft.com/39eedeca-269d-4966-be1f-7cc5c9228a5c">OnD0Exit</a> method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations,  such as disabling the device. 
-
-The <a href="https://msdn.microsoft.com/ae95a22d-7b5b-4854-b2f5-76b46cf268f9">OnQueryRemove</a> method notifies a driver before a device is removed from a computer. 
-
-The <a href="https://msdn.microsoft.com/e0cb14fa-82d0-4ce3-8672-801e7f04d522">OnQueryStop</a> method notifies a driver before a device is stopped. 
-
-The <a href="https://msdn.microsoft.com/4289406f-dda0-4439-be6e-6e638bb46e1f">OnSurpriseRemoval</a> method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 A driver registers the <b>IPnpCallback</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 

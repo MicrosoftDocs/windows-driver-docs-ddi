@@ -7,8 +7,8 @@ old-location: print\oemenddoc.htm
 old-project: print
 ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMEndDoc, OEMEndDoc, print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, OEMEndDoc function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMEndDoc
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ BOOL APIENTRY OEMEndDoc(
 ### -param pso
 
 
-
 ### -param fl
-
 

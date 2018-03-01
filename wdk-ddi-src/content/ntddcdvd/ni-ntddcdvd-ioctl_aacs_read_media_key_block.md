@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_media_key_block.htm
 old-project: storage
 ms.assetid: 08852f41-1836-4c55-bf6f-0246caa2c8bd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_aacs_read_media_key_block, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], IOCTL_AACS_READ_MEDIA_KEY_BLOCK, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, storage.ioctl_aacs_read_media_key_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ Length of a variable-length MKB.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,10 +111,12 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -remarks
 
 
+
 The storage stack uses a READ DISC STRUCTURE command (format 0x17) with Advanced Access Control System (AACS) extensions to retrieve the MKB. IOCTL_AACS_READ_MEDIA_KEY_BLOCK request will not work if the media in the logical unit is not AACS protected. 
 
 Unlike the MKB that is used with Content-Scrambling System (CSS) encryption, AACS MKBs are self-protected with digital signatures. The MKB structure is fully documented in the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).
 
 The IOCTL_AACS_READ_MEDIA_KEY_BLOCK request corresponds to one of the steps of the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth). For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification.
+
 
 

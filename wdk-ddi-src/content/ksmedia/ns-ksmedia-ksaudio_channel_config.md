@@ -7,8 +7,8 @@ old-location: audio\ksaudio_channel_config.htm
 old-project: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], *PKSAUDIO_CHANNEL_CONFIG, audio.ksaudio_channel_config, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, PKSAUDIO_CHANNEL_CONFIG, ksmedia/KSAUDIO_CHANNEL_CONFIG
+ms.date: 2/22/2018
+ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSAUDIO_CHANNEL_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG
+req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 ---
 
 # KSAUDIO_CHANNEL_CONFIG structure
@@ -75,9 +75,11 @@ Specifies both the number of channels and the assignment of those channels to sp
 ## -remarks
 
 
+
 This structure is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property.
 
 The following table shows the flag bits that are defined for the <b>ActiveSpeakerPositions</b> member.
+
 <table>
 <tr>
 <th>Speaker position</th>
@@ -263,13 +265,15 @@ SPEAKER_TOP_BACK_RIGHT
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Each audio data format contains channels for one or more of the preceding speaker positions. The number of channels simply equals the number of nonzero flag bits in the <b>ActiveSpeakerPositions</b> member.
 
 The relative positions of the channels within each block of audio data always follow the same relative ordering as the flag bits in the preceding table. For example, if <b>ActiveSpeakerPositions</b> contains the value 0x00000033, the format defines four audio channels that are assigned for playback to the front-left, front-right, back-left, and back-right speakers, respectively. The channel data should be interleaved in that order within each block. (This is the KSAUDIO_SPEAKER_QUAD configuration that appears in the second of the two following tables.)
 
 The following table shows the speaker configurations that are defined for DVD.
+
 <table>
 <tr>
 <th>Configuration</th>
@@ -345,9 +349,11 @@ SPEAKER_LOW_FREQUENCY
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following table shows the speaker configurations that are defined for DirectSound.
+
 <table>
 <tr>
 <th>Configuration</th>
@@ -453,11 +459,18 @@ SPEAKER_SIDE_LEFT | SPEAKER_SIDE_RIGHT)
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  The KSAUDIO_SPEAKER_7POINT1 speaker configuration,  is obsolete and no longer supported in Windows Vista and later versions of Windows.</div><div> </div>In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of zero, which means that no speaker positions are assigned to the channels in the multichannel stream. For example, channel zero might represent percussion, channel 1 might represent trumpet, channel 2 might represent voice, and so on. In this configuration, the channels in the input stream are output directly to the hardware without modification and without being interpreted as speaker positions. For more information, see <a href="https://msdn.microsoft.com/a4198fb7-157f-40e3-8cca-5a9e392087d2">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
+</table>
+ 
+
+<div class="alert"><b>Note</b>  The KSAUDIO_SPEAKER_7POINT1 speaker configuration,  is obsolete and no longer supported in Windows Vista and later versions of Windows.</div>
+<div> </div>
+In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of zero, which means that no speaker positions are assigned to the channels in the multichannel stream. For example, channel zero might represent percussion, channel 1 might represent trumpet, channel 2 might represent voice, and so on. In this configuration, the channels in the input stream are output directly to the hardware without modification and without being interpreted as speaker positions. For more information, see <a href="https://msdn.microsoft.com/a4198fb7-157f-40e3-8cca-5a9e392087d2">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
 
 The speaker configuration for a 5.1-channel surround format is defined by the constant KSAUDIO_SPEAKER_5POINT1_SURROUND in the preceding table. The geometric layout of the speakers is shown in the following figure, which shows the positions of the front-left, front-right, front-center, side-left, and side-right speakers. The figure omits the low-frequency speaker because it is nondirectional.
-<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="images/spkrposn_new.png"/>For this example, the following list shows the ordering of the six channels within each block of audio data:
+
+<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="images/spkrposn_new.png"/>
+For this example, the following list shows the ordering of the six channels within each block of audio data:
+
 <ol>
 <li>
 SPEAKER_FRONT_LEFT
@@ -483,7 +496,9 @@ SPEAKER_SIDE_LEFT
 SPEAKER_SIDE_RIGHT
 
 </li>
-</ol>For a PCM format with a 16-bit sample size, each block of audio data occupies 12 bytes, which are ordered as shown in the following table.
+</ol>
+For a PCM format with a 16-bit sample size, each block of audio data occupies 12 bytes, which are ordered as shown in the following table.
+
 <table>
 <tr>
 <th>Byte</th>
@@ -609,7 +624,9 @@ Side Right (8 MSBs)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -617,11 +634,15 @@ Side Right (8 MSBs)
 
 <a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_CHANNEL_CONFIG structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_CHANNEL_CONFIG structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdeviceselectconfig.htm
 old-project: wdf
 ms.assetid: 6f5ab951-0652-477c-8a0a-71d1b94d08c6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdeviceselectconfig, WdfUsbTargetDeviceSelectConfig, PFN_WDFUSBTARGETDEVICESELECTCONFIG, wdfusb/WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, wdf.wdfusbtargetdeviceselectconfig, DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml
+ms.date: 2/20/2018
+ms.keywords: DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, kmdf.wdfusbtargetdeviceselectconfig, wdf.wdfusbtargetdeviceselectconfig, wdfusb/WdfUsbTargetDeviceSelectConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfUsbTargetDeviceSelectConfig
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -93,7 +93,9 @@ A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_sel
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceSelectConfig</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,7 +152,8 @@ For more info, see <a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectconfigt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -160,7 +163,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can select a device configuration by using a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure to specify USB descriptors, a URB, or handles to framework USB interface objects.
@@ -170,30 +175,130 @@ The framework creates a framework USB pipe object for each pipe that is associat
 To obtain information about an interface's pipe objects, the driver can call <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a> and <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 For more information about the <b>WdfUsbTargetDeviceSelectConfig</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
 <div class="alert"><b>Caution</b>  <p class="note">You can use <b>WdfUsbTargetDeviceSelectConfig</b> to select only the first USB configuration listed in the descriptor list, but you can select multiple interfaces within this single configuration.
 
-</div><div> </div>
+</div>
+<div> </div>
+
+#### Examples
+
+The following code example selects a configuration with a single, specified  interface. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
+NTSTATUS  status;
+
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&amp;configParams);
+
+status = WdfUsbTargetDeviceSelectConfig(
+                                        UsbDevice,
+                                        WDF_NO_OBJECT_ATTRIBUTES,
+                                        &amp;configParams
+                                        );</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example selects a configuration with multiple interfaces, using alternate setting zero on all interfaces. This example applies only to KMDF drivers.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
+PWDF_USB_INTERFACE_SETTING_PAIR settingPairs;
+UCHAR numInterfaces;
+NTSTATUS  status;
+
+numInterfaces = WdfUsbTargetDeviceGetNumInterfaces(UsbDevice);
+
+settingPairs = ExAllocatePoolWithTag(
+    PagedPool,
+    sizeof(WDF_USB_INTERFACE_SETTING_PAIR) * numInterfaces,
+    MY_DRIVER_TAG
+);
+
+if (settingPairs == NULL){
+    return STATUS_INSUFFICIENT_RESOURCES;
+}
+
+for (interfaceIndex = 0; interfaceIndex &lt; numInterfaces; interfaceIndex++) {
+        
+    settingPairs[interfaceIndex].UsbInterface = 
+                                    WdfUsbTargetDeviceGetInterface(
+                                        UsbDevice,
+                                        interfaceIndex);
+
+    // Select alternate setting zero on all interfaces.
+       
+    settingPairs[interfaceIndex].SettingIndex = 0;
+}
+
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES(
+    &amp;configParams,
+    numInterfaces,
+    settingPairs
+);
+
+status = WdfUsbTargetDeviceSelectConfig(
+    UsbDevice,
+    NULL,
+    &amp;configParams
+);
+
+if (!NT_SUCCESS(status)) {
+    ExFreePoolWithTag(
+        settingPairs,
+        MY_DRIVER_TAG
+    );
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
+
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
 
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
+
+
+
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceSelectConfig method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceSelectConfig method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

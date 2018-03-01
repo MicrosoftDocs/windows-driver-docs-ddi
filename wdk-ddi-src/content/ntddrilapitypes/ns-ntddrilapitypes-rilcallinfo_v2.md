@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v2.htm
 old-project: netvista
 ms.assetid: 02eaaaa4-fe88-4f07-bfbf-1ba52d0c1362
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCALLINFO_V2, netvista.rilcallinfo_v2, RILCALLINFO_V2, *LPRILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLINFO_V2, RILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v2, ntddrilapitypes/RILCALLINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLINFO_V2, RILCALLINFO_V2
+req.typenames: RILCALLINFO_V2, *LPRILCALLINFO_V2
 ---
 
 # RILCALLINFO_V2 structure
@@ -86,67 +86,50 @@ typedef struct _RILCALLINFO_V2 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwID
-
 
 
 ### -field dwDirection
 
 
-
 ### -field dwStatus
-
 
 
 ### -field dwType
 
 
-
 ### -field dwMultiparty
-
 
 
 ### -field raAddress
 
 
-
 ### -field rsaSubAddress
-
 
 
 ### -field wszDescription
 
 
-
 ### -field dwNumberPresentationIndicator
-
 
 
 ### -field dwNamePresentationIndicator
 
 
-
 ### -field dwFlags
-
 
 
 ### -field dwDisconnectInitiator
 
 
-
 ### -field dwDisconnectReason
 
 
-
 ### -field stDisconnectDetails
-
 

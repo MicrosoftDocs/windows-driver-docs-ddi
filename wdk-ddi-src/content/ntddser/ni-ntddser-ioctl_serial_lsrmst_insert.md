@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_lsrmst_insert.htm
 old-project: serports
 ms.assetid: 363ae373-5474-4c20-a382-20577a72521e
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.ioctl_serial_lsrmst_insert, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], IOCTL_SERIAL_LSRMST_INSERT, ntddser/IOCTL_SERIAL_LSRMST_INSERT, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], ntddser/IOCTL_SERIAL_LSRMST_INSERT, serports.ioctl_serial_lsrmst_insert, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddser.h
-apiname: 
+api_name:
 -	IOCTL_SERIAL_LSRMST_INSERT
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -110,14 +110,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

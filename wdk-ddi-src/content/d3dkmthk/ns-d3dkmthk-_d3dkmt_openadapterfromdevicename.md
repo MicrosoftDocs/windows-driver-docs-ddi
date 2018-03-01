@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMDEVICENAME
-title: _D3DKMT_OPENADAPTERFROMDEVICENAME
+title: "_D3DKMT_OPENADAPTERFROMDEVICENAME"
 author: windows-driver-content
 description: The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromdevicename.htm
 old-project: display
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, _D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename, OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, D3DKMT_OPENADAPTERFROMDEVICENAME
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, _D3DKMT_OPENADAPTERFROMDEVICENAME, d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_OPENADAPTERFROMDEVICENAME
 product: Windows
 targetos: Windows
@@ -88,9 +88,11 @@ typedef struct _D3DKMT_OPENADAPTERFROMDEVICENAME {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromdevicename.md">D3DKMTOpenAdapterFromDeviceName</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OPENADAPTERFROMDEVICENAME structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OPENADAPTERFROMDEVICENAME structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

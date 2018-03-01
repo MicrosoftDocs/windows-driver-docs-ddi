@@ -7,8 +7,8 @@ old-location: netvista\wskabortevent.htm
 old-project: netvista
 ms.assetid: 50e0ef5d-0577-4b5c-b541-fc78079a953c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskabortevent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], WskAbortEvent, PFN_WSK_ABORT_EVENT, PFN_WSK_ABORT_EVENT, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_ABORT_EVENT, WskAbortEvent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskabortevent, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskAbortEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -92,16 +92,20 @@ A pointer to a
 ## -returns
 
 
+
 A WSK application's 
      <i>WskAbortEvent</i> event callback function must always return STATUS_SUCCESS.
+
 
 
 
 ## -remarks
 
 
+
 The WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function only when the following conditions are true:
+
 <ul>
 <li>
 The WSK application created a listening socket that has conditional accept mode enabled.
@@ -124,7 +128,8 @@ The WSK application returned
 The incoming connection request has been dropped either locally or remotely before being fully established.
 
 </li>
-</ul>When the WSK subsystem calls a WSK application's 
+</ul>
+When the WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function, the application should terminate the inspection for the
     incoming connection request. The connection request is identified by the contents of the 
     <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure that is pointed to
@@ -140,8 +145,8 @@ If the WSK application calls the
 A WSK application can enable conditional accept mode on a listening socket by enabling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <mshelp:link keywords="netvista.listening_for_and_accepting_incoming_connections" tabindex="0">Listening for and
-    Accepting Incoming Connections</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    Accepting Incoming Connections</a>.
 
 The WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
@@ -150,23 +155,36 @@ A WSK application's <i>WskAbortEvent</i> event callback function must not wait f
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
- 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_ABORT_EVENT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_ABORT_EVENT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

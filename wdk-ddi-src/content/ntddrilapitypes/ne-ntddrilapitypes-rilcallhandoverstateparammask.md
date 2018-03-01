@@ -7,8 +7,8 @@ old-location: netvista\rilcallhandoverstateparammask.htm
 old-project: netvista
 ms.assetid: 2534a05b-9e7f-4081-af61-721cd1fa82fc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_OLD_TYPE, ntddrilapitypes/RIL_PARAM_HANDOVER_NEW_TYPE, ntddrilapitypes/RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_NEW_TYPE, RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_3GPPCAUSE, ntddrilapitypes/RILCALLHANDOVERSTATEPARAMMASK, RILCALLHANDOVERSTATEPARAMMASK, netvista.rilcallhandoverstateparammask, RILCALLHANDOVERSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_HANDOVER_OLD_TYPE
+ms.date: 2/16/2018
+ms.keywords: RILCALLHANDOVERSTATEPARAMMASK, RILCALLHANDOVERSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_NEW_TYPE, RIL_PARAM_HANDOVER_OLD_TYPE, netvista.rilcallhandoverstateparammask, ntddrilapitypes/RILCALLHANDOVERSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_HANDOVER_3GPPCAUSE, ntddrilapitypes/RIL_PARAM_HANDOVER_ALL, ntddrilapitypes/RIL_PARAM_HANDOVER_NEW_TYPE, ntddrilapitypes/RIL_PARAM_HANDOVER_OLD_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILCALLHANDOVERSTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILCALLHANDOVERSTATEPARAMMASK {
 ### -field RIL_PARAM_HANDOVER_PHASE
 
 
-
 ### -field RIL_PARAM_HANDOVER_OLD_TYPE
-
 
 
 ### -field RIL_PARAM_HANDOVER_NEW_TYPE
 
 
-
 ### -field RIL_PARAM_HANDOVER_3GPPCAUSE
 
 
-
 ### -field RIL_PARAM_HANDOVER_ALL
-
 

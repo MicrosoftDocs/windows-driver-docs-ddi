@@ -7,8 +7,8 @@ old-location: serports\sercxdeviceinitconfig.htm
 old-project: serports
 ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1/SerCxDeviceInitConfig, serports.sercxdeviceinitconfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports]
+ms.date: 2/15/2018
+ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	1.0\Sercx.h
-apiname: 
+api_name:
 -	SerCxDeviceInitConfig
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ## -returns
 
 
+
 <b>SerCxDeviceInitConfig</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ Could not allocate system resources (typically memory).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method associates SerCx's configuration information with the <b>WDFDEVICE_INIT</b> structure for the framework device object (PDO or FDO) that is to be created. Call <b>SerCxDeviceInitConfig</b> before you call the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> method to create the device object.
@@ -107,20 +112,69 @@ The controller driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device
 SerCx sets a default security descriptor that the serial controller driver can, if necessary, override. For example, this default security descriptor enables a user-mode driver to send an I/O request to a peripheral device that is connected to a port on the serial controller. To change this setting in the security descriptor, the serial controller driver can call the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a> method. This call must occur after the <b>SerCxDeviceInitConfig</b> call, but before the call to the <b>WdfDeviceCreate</b> method.
 
 
+#### Examples
+
+In the following code example, a controller driver's <i>EvtDriverDeviceAdd</i> callback function passes an initialized <b>WDFDEVICE_INIT</b> structure to the <b>SerCxDeviceInitConfig</b> method. The call to <b>SerCxDeviceInitConfig</b> must occur before the <b>WdfDeviceCreate</b> call that creates the FDO for the serial controller device (UART).
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
+// FxDeviceInit is a pointer to an initialized WDFDEVICE_INIT structure.
+// Drivers receive a pointer to this structure as an input parameter to an
+// EvtDriverDeviceAdd callback function, or as a return value from the
+// WdfControlDeviceInitAllocate method.
+//
+
+status = SerCxDeviceInitConfig(FxDeviceInit);
+
+if (!NT_SUCCESS(status))
+{
+    return status;
+}
+
+// 
+// Set WDF and SerCx device-level configuration options.
+//
+
+...
+
+//
+// Call the WdfDeviceCreate method.
+//
+
+...
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxDeviceInitConfig method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxDeviceInitConfig method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

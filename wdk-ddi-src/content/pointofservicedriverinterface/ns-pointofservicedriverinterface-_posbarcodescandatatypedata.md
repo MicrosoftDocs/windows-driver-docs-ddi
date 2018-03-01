@@ -1,14 +1,14 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScanDataTypeData
-title: _PosBarcodeScanDataTypeData
+title: "_PosBarcodeScanDataTypeData"
 author: windows-driver-content
 description: This structure describes a buffer of barcode symbologies supported by the driver.
 old-location: pos\posbarcodescandatatypedata.htm
 old-project: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData, _PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata, PosBarcodeScanDataTypeData structure
+ms.date: 2/23/2018
+ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	PointOfServiceDriverInterface.h
-apiname: 
+api_name:
 -	PosBarcodeScanDataTypeData
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The start of the DWORD array of symbologies.
 ## -remarks
 
 
+
 Each symbology in the buffer is represented by a DWORD. The size of the array of symboligies that scanDataTypes_0 points to is <code>scanDataTypes_0/sizeof(UINT32) - 1;</code>
+
 
 

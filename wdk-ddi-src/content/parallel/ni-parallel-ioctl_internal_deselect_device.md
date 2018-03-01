@@ -7,8 +7,8 @@ old-location: parports\ioctl_internal_deselect_device.htm
 old-project: parports
 ms.assetid: 39cb818e-6219-4d7e-8114-8c0dfdfff76e
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.ioctl_internal_deselect_device, IOCTL_INTERNAL_DESELECT_DEVICE control code [Parallel Ports], IOCTL_INTERNAL_DESELECT_DEVICE, parallel/IOCTL_INTERNAL_DESELECT_DEVICE, cisspd_8ade9861-f2cd-4328-9f8a-92fa4b2d2163.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_INTERNAL_DESELECT_DEVICE, IOCTL_INTERNAL_DESELECT_DEVICE control code [Parallel Ports], cisspd_8ade9861-f2cd-4328-9f8a-92fa4b2d2163.xml, parallel/IOCTL_INTERNAL_DESELECT_DEVICE, parports.ioctl_internal_deselect_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	parallel.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_DESELECT_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGBATOKEN, RILGBATOKEN
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_DESELECT_DEVICE IOCTL
@@ -49,7 +49,7 @@ req.typenames: *LPRILGBATOKEN, RILGBATOKEN
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,14 +87,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -119,13 +123,17 @@ The specified device is not flagged internally as an end-of-chain device, and th
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
-
 <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a>
 
- 
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_INTERNAL_DESELECT_DEVICE control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_INTERNAL_DESELECT_DEVICE control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

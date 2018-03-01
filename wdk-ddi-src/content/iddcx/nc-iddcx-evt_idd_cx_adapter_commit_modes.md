@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_adapter_commit_modes.htm
 old-project: display
 ms.assetid: 30e1d240-8a1e-4bcd-8c04-76894ac61624
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.evt_idd_cx_adapter_commit_modes, EvtIddCxAdapterCommitModes callback function [Display Devices], EvtIddCxAdapterCommitModes, EVT_IDD_CX_ADAPTER_COMMIT_MODES, EVT_IDD_CX_ADAPTER_COMMIT_MODES, iddcx/EvtIddCxAdapterCommitModes, PFN_IDD_CX_ADAPTER_COMMIT_MODES callback function pointer [Display Devices], PFN_IDD_CX_ADAPTER_COMMIT_MODES
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_ADAPTER_COMMIT_MODES, EvtIddCxAdapterCommitModes, EvtIddCxAdapterCommitModes callback function [Display Devices], PFN_IDD_CX_ADAPTER_COMMIT_MODES, PFN_IDD_CX_ADAPTER_COMMIT_MODES callback function pointer [Display Devices], display.evt_idd_cx_adapter_commit_modes, iddcx/EvtIddCxAdapterCommitModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	PFN_IDD_CX_ADAPTER_COMMIT_MODES
 product: Windows
 targetos: Windows
@@ -91,16 +91,22 @@ typedef EVT_IDD_CX_ADAPTER_COMMIT_MODES PFN_IDD_CX_ADAPTER_COMMIT_MODES;
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
+
 
 
 
 ## -remarks
 
 
+
 The OS always provides the IDDCX_PATH for every connected monitor even if it is not active and indicates which paths have changed.  If a path is marked  inactive, then the whole display pipeline for that path will be powered off and no signal will be sent to the monitor.
+
 <div class="alert"><b>Note</b>  <p class="note">When a new path is committed, the driver should program the display pipeline to display a black image until the first frame is ready to be displayed. To achieve this, WDDM visibility should be off until the first frame is ready to be displayed, then the visibility should be turned on.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 

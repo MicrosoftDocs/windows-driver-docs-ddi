@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_begin_end_query_0003.htm
 old-project: display
 ms.assetid: 9EBF7E0C-BF6D-4E99-B289-8C6581A2DEA5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery callback function [Display Devices], pfnBeginQuery, PFND3D12DDI_BEGIN_END_QUERY_0003, PFND3D12DDI_BEGIN_END_QUERY_0003, d3d12umddi/pfnBeginQuery
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_BEGIN_END_QUERY_0003, d3d12umddi/pfnBeginQuery, display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery, pfnBeginQuery callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnBeginQuery
 product: Windows
 targetos: Windows
@@ -76,13 +76,10 @@ VOID  APIENTRY* pfnBeginQuery(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
 
 
-
 ### -param D3D12DDI_QUERY_TYPE
-
 
 
 ### -param UINT
@@ -92,9 +89,11 @@ VOID  APIENTRY* pfnBeginQuery(
 
 
 
-#### - hQueryHeap
 
-The handle of a query heap, which represents an array of query results.
+
+#### - QueryType
+
+The type of query.
 
 
 #### - StartElement
@@ -107,14 +106,16 @@ The value of the start element.
 The handle of a command list for which to query. 
 
 
-#### - QueryType
+#### - hQueryHeap
 
-The type of query.
+The handle of a query heap, which represents an array of query results.
 
 
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

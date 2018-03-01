@@ -7,15 +7,15 @@ old-location: bltooth\sdpbyteswapuuid128.htm
 old-project: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sdpbyteswapuuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], SdpByteSwapUuid128, PBYTESWAPUUID128, PBYTESWAPUUID128, sdplib/SdpByteSwapUuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml
+ms.date: 2/15/2018
+ms.keywords: PBYTESWAPUUID128, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	sdplib.h
-apiname: 
+api_name:
 -	SdpByteSwapUuid128
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PBYTESWAPUUID128 callback
@@ -75,6 +75,7 @@ void SdpByteSwapUuid128(
 
 ### -param *pUuidFrom
 
+A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
 ### -param *pUuiidTo
@@ -84,9 +85,6 @@ void SdpByteSwapUuid128(
 
 
 
-#### - pUuidFrom
-
-A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
 #### - pUuidTo
@@ -97,11 +95,14 @@ A pointer to the converted 128-bit GUID.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -115,13 +116,16 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PBYTESWAPUUID128 callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PBYTESWAPUUID128 callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

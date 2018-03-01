@@ -7,8 +7,8 @@ old-location: sensors\gnss_driver_request.htm
 old-project: sensors
 ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SUPL_CONFIG_DATA, GNSS_DRIVER_REQUEST, sensors.gnss_driver_request, gnssdriver/SUPL_CONFIG_DATA, gnssdriver/GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA, sensors.gnss_driver_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_DRIVER_REQUEST
 product: Windows
 targetos: Windows

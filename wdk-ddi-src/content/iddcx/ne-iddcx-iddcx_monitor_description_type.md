@@ -7,8 +7,8 @@ old-location: display\iddcx_monitor_description_type.htm
 old-project: display
 ms.assetid: ca50256b-2b37-4d39-ad4c-e2eaaa0adbb1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, display.iddcx_monitor_description_type, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
+ms.date: 2/24/2018
+ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IDDCX_MONITOR_DESCRIPTION_TYPE
 product: Windows
 targetos: Windows
@@ -86,7 +86,6 @@ typedef enum _IDDCX_MONITOR_DESCRIPTION_TYPE {
 
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID
-
 
 
 ### -field UINT

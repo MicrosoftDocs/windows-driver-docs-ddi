@@ -7,8 +7,8 @@ old-location: debugger\getextensionbypath.htm
 old-project: debugger
 ms.assetid: 32755878-3f52-4e52-b093-1678c8b8bb42
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetExtensionByPath method, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, IDebugControl2::GetExtensionByPath, IDebugControl3, dbgeng/IDebugControl::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, GetExtensionByPath method [Windows Debugging], IDebugControl interface, IDebugControl::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, GetExtensionByPath method [Windows Debugging], IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, GetExtensionByPath, debugger.getextensionbypath
+ms.date: 2/23/2018
+ms.keywords: GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging], IDebugControl interface, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, GetExtensionByPath,IDebugControl3.GetExtensionByPath, IDebugControl interface [Windows Debugging], GetExtensionByPath method, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, IDebugControl2::GetExtensionByPath, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, debugger.getextensionbypath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.GetExtensionByPath
 -	IDebugControl2.GetExtensionByPath
 -	IDebugControl3.GetExtensionByPath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetExtensionByPath method
@@ -83,7 +83,9 @@ Receives the handle of the extension library.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Extension libraries are loaded into the <a href="https://msdn.microsoft.com/1cc2c055-447c-44cd-94d4-ae3dfa8243fb">host engine</a>, which is where this method looks for the requested extension library.  <i>Path</i> is a path and file name for the host engine.
@@ -113,19 +118,28 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExtensionByPath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExtensionByPath method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

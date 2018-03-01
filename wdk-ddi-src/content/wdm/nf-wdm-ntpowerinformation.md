@@ -7,13 +7,13 @@ old-location: kernel\zwpowerinformation.htm
 old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], wdm/NtPowerInformation, PlatformInformation, NtPowerInformation, kernel.zwpowerinformation, wdm/ZwPowerInformation
+ms.date: 2/24/2018
+ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Ntddk.h, Ntpoapi.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Ntoskrnl.lib
-apiname: 
+api_name:
 -	ZwPowerInformation
 -	NtPowerInformation
 product: Windows
@@ -76,6 +76,7 @@ NTSTATUS ZwPowerInformation(
 ### -param InformationLevel [in]
 
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -91,7 +92,8 @@ Information represents the currently supported power capabilities of the system.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param InputBuffer [in, optional]
@@ -117,7 +119,9 @@ Size, in bytes, of the output buffer. Depending on the information level request
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +160,14 @@ The caller had insufficient access rights to perform the requested action.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 
@@ -169,16 +176,38 @@ The caller had insufficient access rights to perform the requested action.
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+#### Examples
+
+This example illustrates a valid function call.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>POWER_PLATFORM_INFORMATION PlatformInfo = {0};
+NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &amp;PlatformInfo, sizeof(PlatformInfo));
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPowerInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwPowerInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:dbgeng._DEBUG_VALUE
-title: _DEBUG_VALUE
+title: "_DEBUG_VALUE"
 author: windows-driver-content
 description: The DEBUG_VALUE structure holds register and expression values.
 old-location: debugger\debug_value.htm
 old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, *PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], DEBUG_VALUE, debugger.debug_value, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, dbgeng/DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], _DEBUG_VALUE
+ms.date: 2/23/2018
+ms.keywords: "*PDEBUG_VALUE, DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/DEBUG_VALUE, dbgeng/PDEBUG_VALUE, debugger.debug_value"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dbgEng.h
-apiname: 
+api_name:
 -	DEBUG_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_VALUE, DEBUG_VALUE
+req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
 ---
 
 # _DEBUG_VALUE structure
@@ -137,81 +137,6 @@ typedef struct _DEBUG_VALUE {
  
 
 
-### -field I8
-
- 
-
-
-### -field I16
-
- 
-
-
-### -field I32
-
- 
-
-
-### -field F32
-
- 
-
-
-### -field F64
-
- 
-
-
-### -field F80Bytes
-
- 
-
-
-### -field F82Bytes
-
- 
-
-
-### -field F128Bytes
-
- 
-
-
-### -field VI8
-
- 
-
-
-### -field VI16
-
- 
-
-
-### -field VI32
-
- 
-
-
-### -field VI64
-
- 
-
-
-### -field VF32
-
- 
-
-
-### -field VF64
-
- 
-
-
-### -field RawBytes
-
- 
-
-
 ### -field TailOfRawBytes
 
 See Remarks.
@@ -222,127 +147,151 @@ See Remarks.
 See Remarks.
 
 
-##### - ( unnamed union ).VI32
-
-See Remarks.
-
-
-##### - ( unnamed union ).I16
-
-See Remarks.
-
-
-##### - ( unnamed union ).I64Parts32
-
-See Remarks.
-
-
-###### - ( unnamed union ).( unnamed struct ).Nat
-
-See Remarks.
-
-
-###### - ( unnamed union ).I64Parts32.HighPart
-
-See Remarks.
-
-
-##### - ( unnamed union ).VI8
-
-See Remarks.
-
-
-##### - ( unnamed union ).F128Bytes
-
-See Remarks.
-
-
-###### - ( unnamed union ).( unnamed struct ).I64
-
-See Remarks.
-
-
-##### - ( unnamed union ).F32
-
-See Remarks.
-
-
-##### - ( unnamed union ).F64
-
-See Remarks.
-
-
-##### - ( unnamed union ).I32
-
-See Remarks.
-
-
-##### - ( unnamed union ).F82Bytes
-
-See Remarks.
-
-
 #### - ( unnamed union )
 
  
 
 
-##### - ( unnamed union ).( unnamed struct )
+
+#### I8
+
+See Remarks.
+
+
+
+#### I16
+
+See Remarks.
+
+
+
+#### I32
+
+See Remarks.
+
+
+
+#### ( unnamed struct )
 
  
 
 
-##### - ( unnamed union ).VI64
+
+##### I64
 
 See Remarks.
 
 
-##### - ( unnamed union ).VI16
+
+##### Nat
 
 See Remarks.
 
 
-##### - ( unnamed union ).VF64
+
+#### F32
 
 See Remarks.
 
 
-###### - ( unnamed union ).F128Parts64.HighPart
+
+#### F64
 
 See Remarks.
 
 
-###### - ( unnamed union ).I64Parts32.LowPart
+
+#### F80Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).VF32
+
+#### F82Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).F128Parts64
+
+#### F128Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).RawBytes
+
+#### VI8
 
 See Remarks.
 
 
-##### - ( unnamed union ).F80Bytes
+
+#### VI16
 
 See Remarks.
 
 
-##### - ( unnamed union ).I8
+
+#### VI32
 
 See Remarks.
 
 
-###### - ( unnamed union ).F128Parts64.LowPart
+
+#### VI64
+
+See Remarks.
+
+
+
+#### VF32
+
+See Remarks.
+
+
+
+#### VF64
+
+See Remarks.
+
+
+
+#### I64Parts32
+
+See Remarks.
+
+
+
+##### LowPart
+
+See Remarks.
+
+
+
+##### HighPart
+
+See Remarks.
+
+
+
+#### F128Parts64
+
+See Remarks.
+
+
+
+##### LowPart
+
+See Remarks.
+
+
+
+##### HighPart
+
+See Remarks.
+
+
+
+#### RawBytes
 
 See Remarks.
 
@@ -350,7 +299,9 @@ See Remarks.
 ## -remarks
 
 
+
 The <b>Type</b> field specifies the value type that is being held by the structure. This also specifies which field in the structure is valid. The possible values of the <b>Type</b> field, and the corresponding field specified as valid in the structure, include the following.
+
 <table>
 <tr>
 <th>Type Name</th>
@@ -407,6 +358,8 @@ The <b>Type</b> field specifies the value type that is being held by the structu
 <td>128-bit vector</td>
 <td><b>VI8[16]</b>, <b>VI16[8]</b>, <b>VI32[4]</b>, <b>VI64[2]</b>, <b>VF32[4]</b>, <b>VF64[2]</b></td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

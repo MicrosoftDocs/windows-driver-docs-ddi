@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PNP_NOTIFICATION_DATA
-title: _WDF_DEVICE_PNP_NOTIFICATION_DATA
+title: "_WDF_DEVICE_PNP_NOTIFICATION_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 old-location: wdf\wdf_device_pnp_notification_data.htm
 old-project: wdf
 ms.assetid: b49431bf-4b44-4d7b-b3a6-c3d7416bcb53
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_device_pnp_notification_data, kmdf.wdf_device_pnp_notification_data, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA, _WDF_DEVICE_PNP_NOTIFICATION_DATA
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, _WDF_DEVICE_PNP_NOTIFICATION_DATA, kmdf.wdf_device_pnp_notification_data, wdf.wdf_device_pnp_notification_data, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
-apiname: 
+api_name:
 -	WDF_DEVICE_PNP_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
@@ -83,12 +83,19 @@ typedef struct _WDF_DEVICE_PNP_NOTIFICATION_DATA {
 
 
 
-### -field Data
+### -field Type
 
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+
+
+### -field Data
 
 
 ### -field Data.EnterState
 
+
+
+##### EnterState.
 
 
 ### -field Data.EnterState.CurrentState
@@ -105,6 +112,9 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 
 
+##### PostProcessState.
+
+
 ### -field Data.PostProcessState.CurrentState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
@@ -112,6 +122,9 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 ### -field Data.LeaveState
 
+
+
+##### LeaveState.
 
 
 ### -field Data.LeaveState.CurrentState
@@ -124,27 +137,12 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
-### -field Type
-
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
-
-
-###### - Data.PostProcessState.
-
-
-
-###### - Data.LeaveState.
-
-
-
-###### - Data.EnterState.
-
-
-
 ## -remarks
 
 
+
 The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md">EvtDevicePnpStateChange</a> callback function.
+
 
 
 
@@ -152,9 +150,11 @@ The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver'
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md">WdfDeviceInitRegisterPnpStateChangeCallback</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_PNP_NOTIFICATION_DATA structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_PNP_NOTIFICATION_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

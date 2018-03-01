@@ -7,8 +7,8 @@ old-location: kernel\clfsreadlogrecord.htm
 old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.clfsreadlogrecord, ClfsReadLogRecord, wdm/ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml
+ms.date: 2/24/2018
+ms.keywords: ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+api_name:
 -	ClfsReadLogRecord
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 ### -param peRecordType [out]
 
 A pointer to a variable of type CLFS_RECORD_TYPE that receives one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -130,7 +131,8 @@ The target record is a restart record.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param plsnUndoNext [out]
@@ -151,11 +153,14 @@ A pointer to a variable that receives a pointer to an opaque read context. The c
 ## -returns
 
 
+
 <b>ClfsReadLogRecord</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 You must call <b>ClfsTerminateReadLog</b> when you have finished using the read context in order to avoid a memory leak.
@@ -168,15 +173,20 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsReadLogRecord routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsReadLogRecord routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

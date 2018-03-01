@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_TUNER_DIAGNOSTICS
-title: _BDA_TUNER_DIAGNOSTICS
+title: "_BDA_TUNER_DIAGNOSTICS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_tuner_diagnostics.htm
 old-project: stream
 ms.assetid: 19AE53CF-7C09-4858-9D33-CF4B885111D3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PBDA_TUNER_DIAGNOSTICS, stream.bda_tuner_diagnostics, _BDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS, bdatypes/BDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices], *PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices], PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices], _BDA_TUNER_DIAGNOSTICS, bdatypes/BDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, stream.bda_tuner_diagnostics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_TUNER_DIAGNOSTICS
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef struct _BDA_TUNER_DIAGNOSTICS {
 ### -field lResult
 
 
-
 ### -field ulSignalLevel
-
 
 
 ### -field ulSignalLevelQuality
 
 
-
 ### -field ulSignalNoiseRatio
-
 

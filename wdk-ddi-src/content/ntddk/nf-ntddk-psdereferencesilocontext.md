@@ -7,8 +7,8 @@ old-location: kernel\psdereferencesilocontext.htm
 old-project: kernel
 ms.assetid: B71C7E8F-E136-4C13-B771-03B3C3C1BE64
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PsDereferenceSiloContext, PsDereferenceSiloContext, kernel.psdereferencesilocontext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: PsDereferenceSiloContext, PsDereferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psdereferencesilocontext, ntddk/PsDereferenceSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PsDereferenceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsDereferenceSiloContext function
@@ -75,13 +75,17 @@ A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesiloco
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 If the reference count reaches zero it will call the cleanup callback provided when the <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a> routine created the object. 
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsenduicctoolkitenvelopeparams_2.htm
 old-project: netvista
 ms.assetid: 17bf24fe-bee5-4e08-8e3f-b9d4a03e147e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS, netvista.rilsenduicctoolkitenvelopeparams_2, *LPRILSENDUICCTOOLKITENVELOPEPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitenvelopeparams_2, rilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSENDUICCTOOLKITENVELOPEPARAMS
 product: Windows
 targetos: Windows
@@ -73,11 +73,8 @@ typedef struct _RILSENDUICCTOOLKITENVELOPEPARAMS {
 ### -field dwSlotIndex
 
 
-
 ### -field dwEnvelopeSize
 
 
-
 ### -field bEnvelope
-
 

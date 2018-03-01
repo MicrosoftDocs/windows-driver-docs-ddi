@@ -7,8 +7,8 @@ old-location: print\oempaint.htm
 old-project: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMPaint function [Print Devices], print.oempaint, printoem/OEMPaint, OEMPaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml
+ms.date: 2/23/2018
+ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMPaint
 product: Windows
 targetos: Windows
@@ -75,26 +75,23 @@ BOOL APIENTRY OEMPaint(
 ### -param pso
 
 
-
 ### -param pco
-
 
 
 ### -param pbo
 
 
-
 ### -param pptlBrushOrg
-
 
 
 ### -param mix
 
 
-
 ## -remarks
 
 
+
 If you call into the core driver, cast the call using the <b>PFN_DrvPaint</b> function pointer.
+
 
 

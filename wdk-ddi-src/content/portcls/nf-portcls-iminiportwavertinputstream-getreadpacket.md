@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertinputstream_getreadpacket.htm
 old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetReadPacket, GetReadPacket method [Audio Devices], portcls/IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket
+ms.date: 2/22/2018
+ms.keywords: GetReadPacket method [Audio Devices], GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, GetReadPacket,IMiniportWaveRTInputStream.GetReadPacket, IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, portcls/IMiniportWaveRTInputStream::GetReadPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMiniportWaveRTInputStream.GetReadPacket
 product: Windows
 targetos: Windows
@@ -62,7 +62,7 @@ Returns information about captured data.
 NTSTATUS GetReadPacket(
   [out] ULONG     *PacketNumber,
   [out] DWORD     *Flags,
-  [out] ULONGLONG *PerformanceCount,
+  [out] ULONGLONG *PerformanceCounterValue,
   [out] BOOL      *MoreData
 );
 ````
@@ -83,8 +83,9 @@ Returns the packet number relative to the start of capture.
 Reserved for future use. Must be set to 0.
 
 
-### -param PerformanceCounterValue
+### -param PerformanceCounterValue [out]
 
+Returns the performance counter value corresponding to the sampling instant of the first sample in the packet. 
 
 
 
@@ -94,13 +95,8 @@ Reserved for future use. Must be set to 0.
 
 
 
-#### - PerformanceCount [out]
-
-Returns the performance counter value corresponding to the sampling instant of the first sample in the packet. 
-
-
-
 ## -returns
+
 
 
 <code>GetReadPacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
@@ -109,7 +105,9 @@ Returns the performance counter value corresponding to the sampling instant of t
 
 
 
+
 ## -remarks
+
 
 
 Before reading captured audio data from the WaveRT buffer, the OS calls this routine to get information about the available data. 
@@ -123,13 +121,16 @@ The packet size is the WaveRT buffer size divided by the NotificationCount passe
 
 
 
+
 ## -see-also
 
 <a href="..\portcls\nn-portcls-iminiportwavertinputstream.md">IMiniportWaveRTInputStream</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTInputStream::GetReadPacket method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTInputStream::GetReadPacket method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

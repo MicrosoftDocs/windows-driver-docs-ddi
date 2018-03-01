@@ -1,19 +1,19 @@
 ---
 UID: NE:pepfx._PEP_ACPI_OBJECT_TYPE
-title: _PEP_ACPI_OBJECT_TYPE
+title: "_PEP_ACPI_OBJECT_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_OBJECT_TYPE enumeration indicates the type of ACPI object.
 old-location: kernel\pep_acpi_object_type.htm
 old-project: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, pepfx/PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, *PPEP_ACPI_OBJECT_TYPE
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	PEP_ACPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE
+req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ---
 
 # _PEP_ACPI_OBJECT_TYPE enumeration
@@ -76,7 +76,6 @@ The object is an ACPI control method.
 ### -field PepAcpiObjectTypeDevice
 
 
-
 ### -field PepAcpiObjectTypeMaximum
 
 Reserved for use by the operating system.
@@ -85,7 +84,9 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is an <b>PEP_ACPI_OBJECT_TYPE</b> enumeration value.
+
 
 
 
@@ -93,9 +94,11 @@ The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_OBJECT_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_OBJECT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

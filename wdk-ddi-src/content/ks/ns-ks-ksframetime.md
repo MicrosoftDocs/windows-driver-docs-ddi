@@ -7,8 +7,8 @@ old-location: stream\ksframetime.htm
 old-project: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PKSFRAMETIME, ks/PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], stream.ksframetime, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, KSFRAMETIME, ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME
+ms.date: 2/23/2018
+ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSFRAMETIME
 product: Windows
 targetos: Windows
-req.typenames: *PKSFRAMETIME, KSFRAMETIME
+req.typenames: KSFRAMETIME, *PKSFRAMETIME
 ---
 
 # KSFRAMETIME structure
@@ -87,6 +87,8 @@ Set to zero.
 ## -remarks
 
 
+
 Note that this is an optional property, which need only be implemented if the pin instance understands the specifics of the media type it is transporting.
+
 
 

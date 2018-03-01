@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-invalidate-block.htm
 old-project: PCI
 ms.assetid: b6f0e65f-c8e4-418f-a4b2-a7037368d5a3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.ioctl-sriov-invalidate-block, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], IOCTL_SRIOV_INVALIDATE_BLOCK, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_INVALIDATE_BLOCK, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], PCI.ioctl-sriov-invalidate-block, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	IOCTL_SRIOV_INVALIDATE_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL
@@ -75,28 +75,36 @@ The size of the <a href="https://msdn.microsoft.com/483e6144-9752-4d47-9ed4-7e73
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,10 +116,12 @@ The size of the <a href="https://msdn.microsoft.com/483e6144-9752-4d47-9ed4-7e73
 ## -remarks
 
 
+
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 The   request  is sent to the physical function (PF) driver by VSP.
 The PF driver completes the request when the driver wants to indicate to the virtual function (VF) driver that
 one or more of the configuration blocks need  to be read again.
+
 
 

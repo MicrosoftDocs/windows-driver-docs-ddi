@@ -7,8 +7,8 @@ old-location: netvista\ndisgetshareddataalignment.htm
 old-project: netvista
 ms.assetid: 561315b4-8866-4f48-8138-12b1a38f743e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment, NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisGetSharedDataAlignment
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetSharedDataAlignment function
@@ -68,7 +68,9 @@ ULONG NdisGetSharedDataAlignment(void);
 
 
 
+
 ## -returns
+
 
 
 The boundary value, in bytes, on which drivers should align structures that can be shared by more
@@ -76,7 +78,9 @@ The boundary value, in bytes, on which drivers should align structures that can 
 
 
 
+
 ## -remarks
+
 
 
 Use 
@@ -86,5 +90,6 @@ Use
 
 System support for 
     <b>NdisGetSharedDataAlignment</b> is available in Windows XP and later versions.
+
 
 

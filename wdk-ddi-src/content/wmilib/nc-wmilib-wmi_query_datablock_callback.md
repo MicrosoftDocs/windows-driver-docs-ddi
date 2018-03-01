@@ -7,8 +7,8 @@ old-location: kernel\dpwmiquerydatablock.htm
 old-project: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.dpwmiquerydatablock, DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], DpWmiQueryDataBlock, WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK, wmilib/DpWmiQueryDataBlock, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml
+ms.date: 2/24/2018
+ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wmilib.h
-apiname: 
+api_name:
 -	DpWmiQueryDataBlock
 product: Windows
 targetos: Windows
-req.typenames: *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -121,18 +121,22 @@ Pointer to the buffer to receive instance data. If the buffer is large enough to
 ## -returns
 
 
+
 <i>DpWmiQueryDataBlock</i> returns STATUS_SUCCESS or an error status such as the following:
 
 If the driver cannot complete the request immediately, it can return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 WMI calls a driver's <i>DpWmiQueryDataBlock</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request. The driver must place the address of its <i>DpWmiQueryDataBlock</i> routine in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <b>WmiSystemControl</b>.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
+
 <ul>
 <li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
@@ -150,7 +154,8 @@ Verify that the <i>InstanceIndex</i> and <i>InstanceCount</i> values, together, 
 Verify that the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is large enough to hold all requested instances of the data block. Each instance must begin on an 8-byte boundary, and additional padding might exist between data items within each instance.
 
 </li>
-</ul>After writing instance data to the buffer, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
+</ul>
+After writing instance data to the buffer, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
 
 This routine can be pageable.
 
@@ -158,21 +163,32 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
-
-<a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
+
+
+<a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_QUERY_DATABLOCK_CALLBACK callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_QUERY_DATABLOCK_CALLBACK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

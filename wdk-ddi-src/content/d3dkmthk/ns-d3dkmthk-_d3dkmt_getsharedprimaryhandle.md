@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSHAREDPRIMARYHANDLE
-title: _D3DKMT_GETSHAREDPRIMARYHANDLE
+title: "_D3DKMT_GETSHAREDPRIMARYHANDLE"
 author: windows-driver-content
 description: The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are required to retrieve the global shared handle for the primary surface.
 old-location: display\d3dkmt_getsharedprimaryhandle.htm
 old-project: display
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], display.d3dkmt_getsharedprimaryhandle, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_GETSHAREDPRIMARYHANDLE
 product: Windows
 targetos: Windows
@@ -88,9 +88,11 @@ typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_GETSHAREDPRIMARYHANDLE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_GETSHAREDPRIMARYHANDLE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

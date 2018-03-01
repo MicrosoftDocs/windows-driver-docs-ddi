@@ -7,8 +7,8 @@ old-location: netvista\rilgetdriverversionparams_2.htm
 old-project: netvista
 ms.assetid: b396b12e-f8c4-4e5e-b3c4-9822bcd996a4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILGETDRIVERVERSIONPARAMS, rilapitypes/RILGETDRIVERVERSIONPARAMS, netvista.rilgetdriverversionparams_2, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETDRIVERVERSIONPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdriverversionparams_2, rilapitypes/RILGETDRIVERVERSIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILGETDRIVERVERSIONPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS
+req.typenames: RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILGETDRIVERVERSIONPARAMS {
 ### -field dwMinVersion
 
 
-
 ### -field dwMaxVersion
-
 

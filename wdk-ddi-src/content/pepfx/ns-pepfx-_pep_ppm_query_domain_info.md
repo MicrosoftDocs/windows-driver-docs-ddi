@@ -1,19 +1,19 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_DOMAIN_INFO
-title: _PEP_PPM_QUERY_DOMAIN_INFO
+title: "_PEP_PPM_QUERY_DOMAIN_INFO"
 author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. .
 old-location: kernel\pep_ppm_query_domain_info.htm
 old-project: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, *PPEP_PPM_QUERY_DOMAIN_INFO, _PEP_PPM_QUERY_DOMAIN_INFO, pepfx/PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: Windows Server 2016
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pepfx.h
-apiname: 
+api_name:
 -	PEP_PPM_QUERY_DOMAIN_INFO
 product: Windows
 targetos: Windows
@@ -80,11 +80,13 @@ On input, the domain ID of the domain being queried.
 ### -field CoordinationType
 
 On output, indicates the coordination type of the performance domain. The possible values are:
+
 <ul>
 <li>PROCESSOR_DOMAIN_COORDIANTION_SW_ALL (0x00)</li>
 <li>PROCESSOR_DOMAIN_COORDIANTION_SW_ANY (0x01)</li>
 <li>PROCESSOR_DOMAIN_COORDIANTION_HW_ALL (0x02)</li>
-</ul>If this notification is not supported, PROCESSOR_DOMAIN_COORDIANTION_SW_ALL coordination is used. 
+</ul>
+If this notification is not supported, PROCESSOR_DOMAIN_COORDIANTION_SW_ALL coordination is used. 
 
 
 ### -field IdleProcessorsDiscounted
@@ -112,9 +114,11 @@ On output, this value indicates the worst case overhead (PEP code execution time
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_QUERY_DOMAIN_INFO structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_QUERY_DOMAIN_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

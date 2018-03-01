@@ -7,8 +7,8 @@ old-location: display\dxgkddiopmcreateprotectedoutput.htm
 old-project: display
 ms.assetid: 8143732e-cef6-49f1-9b20-db6b6ee073e6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiopmcreateprotectedoutput, DxgkDdiOPMCreateProtectedOutput callback function [Display Devices], DxgkDdiOPMCreateProtectedOutput, DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, dispmprt/DxgkDdiOPMCreateProtectedOutput, Dm_Opm_functions_207f1385-efcc-4c5c-8237-e07f594c9742.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, Dm_Opm_functions_207f1385-efcc-4c5c-8237-e07f594c9742.xml, DxgkDdiOPMCreateProtectedOutput, DxgkDdiOPMCreateProtectedOutput callback function [Display Devices], display.dxgkddiopmcreateprotectedoutput, dispmprt/DxgkDdiOPMCreateProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiOPMCreateProtectedOutput
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ If <i>DxgkDdiOPMCreateProtectedOutput</i> fails, the value of the variable is un
 ## -returns
 
 
+
 <i>DxgkDdiOPMCreateProtectedOutput</i> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -175,42 +177,66 @@ The display miniport driver informs the operating system on how the frame buffer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
+
 The following figure shows how the display miniport driver typically implements spanning mode.
-<img alt="Diagram illustrating spanning mode" src="images/opm_span.png"/>The following figure shows how the display miniport driver typically implements theater mode.
-<img alt="Diagram illustrating theater mode" src="images/opm_theater.png"/><i>DxgkDdiOPMCreateProtectedOutput</i> should be made pageable.
+
+<img alt="Diagram illustrating spanning mode" src="images/opm_span.png"/>
+The following figure shows how the display miniport driver typically implements theater mode.
+
+<img alt="Diagram illustrating theater mode" src="images/opm_theater.png"/>
+<i>DxgkDdiOPMCreateProtectedOutput</i> should be made pageable.
+
 
 
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_video_output_semantics.md">DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_destroy_protected_output.md">DxgkDdiOPMDestroyProtectedOutput</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_video_output_semantics.md">DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 
- 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\seaudithardlinkcreation.htm
 old-project: ifsk
 ms.assetid: f032afe5-da68-4763-a4f0-6e61869223e1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeAuditHardLinkCreation, SeAuditHardLinkCreation function [Installable File System Drivers], ntifs/SeAuditHardLinkCreation, seref_da710638-38e7-4305-9102-7cfbc4299f94.xml, ifsk.seaudithardlinkcreation
+ms.date: 2/16/2018
+ms.keywords: SeAuditHardLinkCreation, SeAuditHardLinkCreation function [Installable File System Drivers], ifsk.seaudithardlinkcreation, ntifs/SeAuditHardLinkCreation, seref_da710638-38e7-4305-9102-7cfbc4299f94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	SeAuditHardLinkCreation
 product: Windows
 targetos: Windows

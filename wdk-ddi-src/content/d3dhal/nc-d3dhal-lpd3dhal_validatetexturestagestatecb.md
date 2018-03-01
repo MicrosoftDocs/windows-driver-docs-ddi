@@ -7,8 +7,8 @@ old-location: display\d3dvalidatetexturestagestate.htm
 old-project: display
 ms.assetid: 6376842f-ebf5-43b0-81d8-fc5b15f595ab
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dvalidatetexturestagestate, D3dValidateTextureStageState callback function [Display Devices], D3dValidateTextureStageState, LPD3DHAL_VALIDATETEXTURESTAGESTATECB, LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dhal/D3dValidateTextureStageState, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml
+ms.date: 2/24/2018
+ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dhal.h
-apiname: 
+api_name:
 -	D3dValidateTextureStageState
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS
+req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 ---
 
 # LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback
@@ -77,6 +77,8 @@ DWORD APIENTRY D3dValidateTextureStageState(
 
 
 
+
+
 #### - pvtssd [in]
 
 Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
@@ -85,16 +87,20 @@ Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.m
 ## -returns
 
 
+
 <b>D3dValidateTextureStageState</b> returns one of the following callback codes:
+
 
 
 
 ## -remarks
 
 
+
 Microsoft Direct3D drivers that support texturing must implement <b>D3dValidateTextureStageState</b>.
 
 The driver's implementation of this function must evaluate the current texture state for all texture stages associated with the context. If the driver's hardware can perform the specified blending operations, then the driver should return the number of passes on the state data that its hardware requires. If the hardware cannot perform the specified blending operations, then the driver should return one of the following error codes in the <b>ddrval</b> member of the D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure at <b>pvtssd</b>:
+
 <table>
 <tr>
 <th>Error Code</th>
@@ -180,7 +186,8 @@ The hardware does not support the current state in the selected texture format.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Direct3D calls <b>D3dValidateTextureStageState</b> in response to an application request through a call to <b>IDirect3DDevice7::ValidateDevice</b>. The number of passes returned by the driver is propagated back to the application, which can then decide whether it will proceed with rendering using the current state or if it must change the blending operations to render faster or to render at all. There are no limits to the number of passes that a driver can return.
 
@@ -188,6 +195,7 @@ A driver that returns more than one pass is responsible for properly executing t
 
 
      Requests that are likely to fail <b>D3dValidateTextureStageState</b>:
+
 <ul>
 <li>
 Using diffuse iterated values as ARGs, or the BLENDDIFFUSE operation is sparsely supported on current hardware. Many parts can introduce only iterated color data at the last texture operation stage.
@@ -228,15 +236,20 @@ Attempting the simultaneous use of multiple textures and MIP mapped trilinear fi
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3dValidateTextureStageState callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3dValidateTextureStageState callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

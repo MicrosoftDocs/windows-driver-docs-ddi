@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_COPPSetProtectionLevelCmdData
-title: _DXVA_COPPSetProtectionLevelCmdData
+title: "_DXVA_COPPSetProtectionLevelCmdData"
 author: windows-driver-content
 description: The DXVA_COPPSetProtectionLevelCmdData structure describes the protection types and levels to set on the physical connector associated with a COPP DirectX VA device.
 old-location: display\dxva_coppsetprotectionlevelcmddata.htm
 old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, _DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], dxva/DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, DXVA_COPPSetProtectionLevelCmdData
+ms.date: 2/24/2018
+ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_COPPSetProtectionLevelCmdData
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _DXVA_COPPSetProtectionLevelCmdData {
 ### -field ProtType
 
 Specifies one of the following protection types to set on the physical connector associated with a COPP device:
+
 <ul>
 <li>
 COPP_ProtectionType_None (0x00)
@@ -95,6 +96,7 @@ COPP_ProtectionType_CGMSA (0x04)
 ### -field ProtLevel
 
 Specifies the protection level to set for the protection type in <b>ProtType</b> or COPP_NoProtectionLevelAvailable (-1) if no protection level is available.
+
 <ul>
 <li>For COPP_ProtectionType_ACP, specifies one of the following values from the <b>COPP_ACP_Protection_Level</b> enumerated type:<ul>
 <li>COPP_ACP_Level0 or COPP_ACP_LevelMin (0)</li>
@@ -132,13 +134,17 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSetProtectionLevelCmdData structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSetProtectionLevelCmdData structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

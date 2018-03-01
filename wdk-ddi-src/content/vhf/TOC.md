@@ -9,4 +9,5 @@
 ### [VhfReadReportSubmit function](../vhf/nf-vhf-vhfreadreportsubmit.md)
 ### [VhfStart function](../vhf/nf-vhf-vhfstart.md)
 ### [VHF_CONFIG_INIT function](../vhf/nf-vhf-vhf_config_init.md)
+### [_HID_XFER_PACKET structure](../vhf/ns-vhf-_hid_xfer_packet.md)
 ### [_VHF_CONFIG structure](../vhf/ns-vhf-_vhf_config.md)

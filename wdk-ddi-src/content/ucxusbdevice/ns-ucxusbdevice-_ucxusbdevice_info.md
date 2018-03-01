@@ -1,14 +1,14 @@
 ---
 UID: NS:ucxusbdevice._UCXUSBDEVICE_INFO
-title: _UCXUSBDEVICE_INFO
+title: "_UCXUSBDEVICE_INFO"
 author: windows-driver-content
 description: Contains information about the USB device. This structure is passed by UCX in the EVT_UCX_CONTROLLER_USBDEVICE_ADD event callback function.
 old-location: buses\_ucxusbdevice_info.htm
 old-project: usbref
 ms.assetid: E6875195-D6C4-4CEB-8381-8CBA732223A5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: _UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], buses._ucxusbdevice_info, P_UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], *PUCXUSBDEVICE_INFO, ucxusbdevice/P_UCXUSBDEVICE_INFO
+ms.date: 2/24/2018
+ms.keywords: "*PUCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], _UCXUSBDEVICE_INFO, buses._ucxusbdevice_info, ucxusbdevice/P_UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ucxusbdevice.h
-apiname: 
+api_name:
 -	UCXUSBDEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PUCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO
+req.typenames: UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -95,9 +95,11 @@ The port path for the USB device or hub.
 
 <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCXUSBDEVICE_INFO structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCXUSBDEVICE_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

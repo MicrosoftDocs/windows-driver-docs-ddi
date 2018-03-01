@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_2DREGION
-title: _D3DKMDT_2DREGION
+title: "_D3DKMDT_2DREGION"
 author: windows-driver-content
 description: The D3DKMDT_2DREGION structure is used to represent a point or an offset in a two-dimensional space.
 old-location: display\d3dkmdt_2dregion.htm
 old-project: display
 ms.assetid: 24f703c5-d025-4233-a32d-7cb8bcb5c6b7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_2dregion, DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, _D3DKMDT_2DREGION, D3DKMDT_2DOFFSET, D3DKMDT_2DREGION structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_2DOFFSET, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, display.d3dkmdt_2dregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_2DREGION
 product: Windows
 targetos: Windows

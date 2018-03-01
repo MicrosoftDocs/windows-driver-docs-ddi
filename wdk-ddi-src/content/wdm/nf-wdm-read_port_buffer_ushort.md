@@ -7,13 +7,13 @@ old-location: kernel\read_port_buffer_ushort.htm
 old-project: kernel
 ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/READ_PORT_BUFFER_USHORT, kernel.read_port_buffer_ushort, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], READ_PORT_BUFFER_USHORT, k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml
+ms.date: 2/24/2018
+ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+api_name:
 -	READ_PORT_BUFFER_USHORT
 product: Windows
 targetos: Windows
@@ -89,15 +89,19 @@ Specifies the number of USHORT values to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of USHORT values.
 
 Callers of <b>READ_PORT_BUFFER_USHORT</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
+
 
 

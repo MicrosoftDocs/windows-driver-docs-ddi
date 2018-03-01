@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_setpipepolicy.htm
 old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, SetPipePolicy method, umdf.iwdfusbtargetpipe_setpipepolicy, SetPipePolicy, wdf.iwdfusbtargetpipe_setpipepolicy, SetPipePolicy method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, IWDFUsbTargetPipe, IWDFUsbTargetPipe::SetPipePolicy, IWDFUsbTargetPipe interface, SetPipePolicy method
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, SetPipePolicy,IWDFUsbTargetPipe.SetPipePolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbTargetPipe.SetPipePolicy
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,9 @@ A pointer to the buffer that contains the WinUsb pipe policy.
 ## -returns
 
 
+
 <b>SetPipePolicy</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,11 +133,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
@@ -147,18 +152,86 @@ For information about the behavior of the pipe policies, see <a href="https://ms
 The <b>SetPipePolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 
+#### Examples
+
+The following code example sets policy for input and output pipes.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+CMyDevice::ConfigureUsbIoTargets(
+    )
+{
+    HRESULT                 hr;
+    USB_INTERFACE_DESCRIPTOR pInterface;
+    WINUSB_PIPE_INFORMATION pipe;
+    BOOL                    policy;
+    DWORD                   err;
+    BOOL                    result;
+    LONG                    i;
+    LONG                    timeout;
+    ULONG                   length;
+
+    length = sizeof(UCHAR);
+    hr = m_pIUsbTargetDevice-&gt;RetrieveDeviceInformation(DEVICE_SPEED, 
+                                                        &amp;length,
+                                                        &amp;m_Speed);
+    if (FAILED(hr)) {
+        // Print out error.
+    }
+    if (SUCCEEDED(hr)) {
+        // Print out device speed.
+    }
+    //
+    // Set timeout policies for input and output pipes.
+    //
+    if (SUCCEEDED(hr))  {
+       timeout = ENDPOINT_TIMEOUT;
+       hr = m_pIUsbInputPipe-&gt;SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
+                                            sizeof(timeout),
+                                            &amp;timeout);
+       if (FAILED(hr)) {
+            // Print out cannot set timeout policy for input pipe.
+       }
+    }
+    if (SUCCEEDED(hr))  {
+       timeout = ENDPOINT_TIMEOUT;
+       hr = m_pIUsbOutputPipe-&gt;SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
+                                             sizeof(timeout),
+                                             &amp;timeout);
+       if (FAILED(hr))  {
+            // Print out cannot set timeout policy for output pipe.
+       }
+    }
+ return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
+
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::SetPipePolicy method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::SetPipePolicy method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

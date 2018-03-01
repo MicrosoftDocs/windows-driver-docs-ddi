@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-title: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 author: windows-driver-content
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure specifies a management action for the data-set attributes for a device.
 old-location: storage\device_manage_data_set_attributes.htm
 old-project: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], DeviceDsmActionFlag_NonDestructive, storage.device_manage_data_set_attributes, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ms.date: 2/24/2018
+ms.keywords: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddstor.h
-apiname: 
+api_name:
 -	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -95,6 +95,7 @@ The action to be performed as specified by a
        enumeration value.
 
 Starting with Windows 7, this value can be a bitwise OR of one or more of the following flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -118,13 +119,15 @@ The specified action is non-destructive. If this flag is set, the driver can saf
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
 
 These flags are global to all control actions. The following flags can be set in the 
        <b>Flags</b> member:
+
 <table>
 <tr>
 <th>Value</th>
@@ -142,7 +145,8 @@ Specifies that the control action is specified for the entire block of data set 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ParameterBlockOffset
@@ -152,8 +156,11 @@ Specifies the start of the parameter block within the system buffer of the
        request. The format of the parameter block depends on the value of the <b>Action</b> 
        member. For more information, see 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+
 <div class="alert"><b>Note</b>  The offset of the parameter block must be aligned on the address boundary of the corresponding parameter 
-      structure.</div><div> </div>If set to zero, then the parameter block does not exist.
+      structure.</div>
+<div> </div>
+If set to zero, then the parameter block does not exist.
 
 
 ### -field ParameterBlockLength
@@ -171,8 +178,11 @@ Specifies the start of the block of data set ranges within the system buffer of 
        <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
        request. This block consists of one or more contiguous entries that are formatted as 
        <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structures.
+
 <div class="alert"><b>Note</b>  The offset of the data set range block must be aligned on the address boundary of the 
-       <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structure.</div><div> </div>If set to zero, then the block of data set ranges does not exist. 
+       <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structure.</div>
+<div> </div>
+If set to zero, then the block of data set ranges does not exist. 
 
 
 ### -field DataSetRangesLength
@@ -187,6 +197,7 @@ If set to zero, then the block of data set ranges does not exist.
 ## -remarks
 
 
+
 The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and 
      <b>DataSetRangesLength</b> members. If this block exists, it contains contiguous 
      <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structures. The total 
@@ -196,15 +207,20 @@ The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
+## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_AID_ROUTING_INFO
-title: _SECURE_ELEMENT_AID_ROUTING_INFO
+title: "_SECURE_ELEMENT_AID_ROUTING_INFO"
 author: windows-driver-content
 description: SECURE_ELEMENT_AID_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_aid_routing_info.htm
 old-project: nfpdrivers
 ms.assetid: 3F9831D1-68A9-4FDB-93C6-6983E6BFE945
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], nfpdrivers._secure_element_aid_routing_info, SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], P_SECURE_ELEMENT_AID_ROUTING_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfcsedev.h
-apiname: 
+api_name:
 -	SECURE_ELEMENT_AID_ROUTING_INFO
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ Length of applet ID buffer.
 ### -field pbAid
 
  
+
 
 
 

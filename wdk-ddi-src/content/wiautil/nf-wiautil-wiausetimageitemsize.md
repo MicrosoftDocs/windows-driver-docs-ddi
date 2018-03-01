@@ -7,8 +7,8 @@ old-location: image\wiausetimageitemsize.htm
 old-project: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.wiausetimageitemsize, wiauSetImageItemSize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiautil/wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiautil.h
-apiname: 
+api_name:
 -	wiauSetImageItemSize
 product: Windows
 targetos: Windows
@@ -106,13 +106,17 @@ Specifies the size of the image as stored on the device.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -remarks
 
 
+
 If the format is not BMP, this function assumes that the value passed in the <i>lSize</i> parameter is correct for the current format.
+
 
 

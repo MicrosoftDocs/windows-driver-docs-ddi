@@ -7,8 +7,8 @@ old-location: display\videoportgetversion.htm
 old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, VideoPortGetVersion, video/VideoPortGetVersion
+ms.date: 2/24/2018
+ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortGetVersion
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 ## -returns
 
 
+
 <b>VideoPortGetVersionInfo</b> returns NO_ERROR if it successfully obtained the operating system version information. If the <b>Size</b> member of the VPOSVERSIONINFO does not contains the correct size of this structure, the function returns ERROR_INVALID_PARAMETER 
+
 
 
 
@@ -90,9 +92,11 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetVersion function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetVersion function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

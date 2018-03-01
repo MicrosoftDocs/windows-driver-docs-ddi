@@ -1,14 +1,14 @@
 ---
 UID: NE:storport._STOR_CRYPTO_ALGORITHM_ID
-title: _STOR_CRYPTO_ALGORITHM_ID
+title: "_STOR_CRYPTO_ALGORITHM_ID"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_algorithm_id.htm
 old-project: storage
 ms.assetid: 761B905B-D8E5-43C2-A412-EEC5F91848F3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STOR_CRYPTO_ALGORITHM_ID, _STOR_CRYPTO_ALGORITHM_ID, *PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], PSTOR_CRYPTO_ALGORITHM_ID, storport/, storage.stor_crypto_algorithm_id, storport/PSTOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], storport/STOR_CRYPTO_ALGORITHM_ID
+ms.date: 2/24/2018
+ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/, storport/PSTOR_CRYPTO_ALGORITHM_ID, storport/STOR_CRYPTO_ALGORITHM_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Storport.h
-apiname: 
+api_name:
 -	STOR_CRYPTO_ALGORITHM_ID
 product: Windows
 targetos: Windows
@@ -71,25 +71,19 @@ typedef enum _STOR_CRYPTO_ALGORITHM_ID {
 ### -field StorCryptoAlgorithmUnknown
 
 
-
 ### -field StorCryptoAlgorithmXTSAES
-
 
 
 ### -field StorCryptoAlgorithmBitlockerAESCBC
 
 
-
 ### -field StorCryptoAlgorithmAESECB
-
 
 
 ### -field StorCryptoAlgorithmESSIVAESCBC
 
 
-
 ### -field StorCryptoAlgorithmMax
-
 
 
 

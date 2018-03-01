@@ -7,8 +7,8 @@ old-location: display\createvideodecoderoutputview.htm
 old-project: display
 ms.assetid: a5a32b4e-799c-4d18-995d-f804e6dff85c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.createvideodecoderoutputview, CreateVideoDecoderOutputView callback function [Display Devices], CreateVideoDecoderOutputView, PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, d3d10umddi/CreateVideoDecoderOutputView
+ms.date: 2/24/2018
+ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, d3d10umddi/CreateVideoDecoderOutputView, display.createvideodecoderoutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	CreateVideoDecoderOutputView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback
@@ -76,13 +76,10 @@ HRESULT APIENTRY* CreateVideoDecoderOutputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
-
 ### -param D3D11_1DDI_HVIDEODECODEROUTPUTVIEW
-
 
 
 ### -param D3D11_1DDI_HRTVIDEODECODEROUTPUTVIEW
@@ -92,19 +89,6 @@ HRESULT APIENTRY* CreateVideoDecoderOutputView(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
-
-
-#### - hView [in]
-
-A handle to the driver's private data for the video decoder output view. For more information, see the Remarks section.
-
-
-#### - hRTView [in]
-
-A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - hDevice [in]
@@ -114,10 +98,27 @@ A handle to the display device (graphics context).
 
 
 
+#### - hRTView [in]
+
+A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
+
+
+#### - hView [in]
+
+A handle to the driver's private data for the video decoder output view. For more information, see the Remarks section.
+
+
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
+
+
 ## -returns
 
 
+
 <b>CreateVideoDecoderOutputView</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Direct3D runtime calls <i>CreateVideoDecoderOutputView</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>  to determine the size in bytes for the private data that the driver requires for the video decoder object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video decoder object.
@@ -170,19 +174,28 @@ When the runtime  calls <i>CreateVideoDecoderOutputView</i>, it passes the handl
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_SecurityCapabilities
-title: _MSiSCSI_SecurityCapabilities
+title: "_MSiSCSI_SecurityCapabilities"
 author: windows-driver-content
 description: The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 old-location: storage\msiscsi_securitycapabilities.htm
 old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsicfg.h
-apiname: 
+api_name:
 -	MSiSCSI_SecurityCapabilities
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ A variable length array of <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_ty
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators that support IPsec must implement the MSiSCSI_SecurityCapabilities class. 
@@ -107,15 +108,20 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
+## -see-also
 
 <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_SecurityCapabilities structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_SecurityCapabilities structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

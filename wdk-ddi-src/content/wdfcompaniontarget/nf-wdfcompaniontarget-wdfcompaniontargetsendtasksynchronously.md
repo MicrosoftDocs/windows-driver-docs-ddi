@@ -7,7 +7,7 @@ old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 old-project: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompaniontarget.h
-apiname: 
+api_name:
 -	WdfCompanionTargetSendTaskSynchronously
 product: Windows
 targetos: Windows
@@ -78,27 +78,20 @@ NTSTATUS WdfCompanionTargetSendTaskSynchronously(
 ### -param CompanionTarget [in]
 
 
-
 ### -param TaskQueueIdentifier [in]
-
 
 
 ### -param TaskOperationCode [in]
 
 
-
 ### -param InputBuffer [in, optional]
-
 
 
 ### -param OutputBuffer [in, optional]
 
 
-
 ### -param TaskOptions [in, optional]
 
 
-
 ### -param BytesReturned [out]
-
 

@@ -7,8 +7,8 @@ old-location: netvista\ril3gpptone_2.htm
 old-project: netvista
 ms.assetid: 05981a37-ce5c-4214-82b7-c8705102bd6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_3GPPTONE_BUSY, rilapitypes/RIL_3GPPTONE_CALLDROPPED, RIL3GPPTONE, RIL_3GPPTONE_NUMBERUNOBTAINABLE, rilapitypes/RIL_3GPPTONE_BUSY, rilapitypes/RIL_3GPPTONE_MAX, rilapitypes/RIL_3GPPTONE_NUMBERUNOBTAINABLE, rilapitypes/RIL3GPPTONE, RIL3GPPTONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPPTONE_AUTHENTICATIONFAILURE, RIL_3GPPTONE_CONGESTION, netvista.ril3gpptone_2, rilapitypes/RIL_3GPPTONE_RINGBACK, RIL_3GPPTONE_CALLDROPPED, rilapitypes/RIL_3GPPTONE_AUTHENTICATIONFAILURE, rilapitypes/RIL_3GPPTONE_CONGESTION, RIL_3GPPTONE_RINGBACK, RIL_3GPPTONE_MAX
+ms.date: 2/16/2018
+ms.keywords: RIL3GPPTONE, RIL3GPPTONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPPTONE_AUTHENTICATIONFAILURE, RIL_3GPPTONE_BUSY, RIL_3GPPTONE_CALLDROPPED, RIL_3GPPTONE_CONGESTION, RIL_3GPPTONE_MAX, RIL_3GPPTONE_NUMBERUNOBTAINABLE, RIL_3GPPTONE_RINGBACK, netvista.ril3gpptone_2, rilapitypes/RIL3GPPTONE, rilapitypes/RIL_3GPPTONE_AUTHENTICATIONFAILURE, rilapitypes/RIL_3GPPTONE_BUSY, rilapitypes/RIL_3GPPTONE_CALLDROPPED, rilapitypes/RIL_3GPPTONE_CONGESTION, rilapitypes/RIL_3GPPTONE_MAX, rilapitypes/RIL_3GPPTONE_NUMBERUNOBTAINABLE, rilapitypes/RIL_3GPPTONE_RINGBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RIL3GPPTONE
 product: Windows
 targetos: Windows
@@ -77,31 +77,23 @@ typedef enum _RIL3GPPTONE {
 ### -field RIL_3GPPTONE_TONEOFF
 
 
-
 ### -field RIL_3GPPTONE_RINGBACK
-
 
 
 ### -field RIL_3GPPTONE_BUSY
 
 
-
 ### -field RIL_3GPPTONE_CONGESTION
-
 
 
 ### -field RIL_3GPPTONE_AUTHENTICATIONFAILURE
 
 
-
 ### -field RIL_3GPPTONE_NUMBERUNOBTAINABLE
-
 
 
 ### -field RIL_3GPPTONE_CALLDROPPED
 
 
-
 ### -field RIL_3GPPTONE_MAX
-
 

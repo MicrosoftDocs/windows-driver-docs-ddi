@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefsroamingmode_2.htm
 old-project: netvista
 ms.assetid: 7dbb25a5-7bcc-453d-854e-7796acbfd079
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefsroamingmode_2, rilapitypes/RIL_ROAMMODE_DOMESTIC, rilapitypes/RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_MAX, rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, RIL_ROAMMODE_DOMESTIC, RILSYSTEMSELECTIONPREFSROAMINGMODE, rilapitypes/RIL_ROAMMODE_MAX, RIL_ROAMMODE_AUTOMATIC
+ms.date: 2/16/2018
+ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, rilapitypes/RIL_ROAMMODE_AUTOMATIC, rilapitypes/RIL_ROAMMODE_DOMESTIC, rilapitypes/RIL_ROAMMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSYSTEMSELECTIONPREFSROAMINGMODE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILSYSTEMSELECTIONPREFSROAMINGMODE {
 ### -field RIL_ROAMMODE_HOMEONLY
 
 
-
 ### -field RIL_ROAMMODE_AUTOMATIC
-
 
 
 ### -field RIL_ROAMMODE_DOMESTIC
 
 
-
 ### -field RIL_ROAMMODE_MAX
-
 

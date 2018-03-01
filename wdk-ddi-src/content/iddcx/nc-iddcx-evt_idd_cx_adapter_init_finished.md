@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_adapter_init_finished.htm
 old-project: display
 ms.assetid: cbce9e1b-2f84-4653-8d3d-e5243a1f0eee
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.evt_idd_cx_adapter_init_finished, EvtIddCxAdapterInitFinished callback function [Display Devices], EvtIddCxAdapterInitFinished, EVT_IDD_CX_ADAPTER_INIT_FINISHED, EVT_IDD_CX_ADAPTER_INIT_FINISHED, iddcx/EvtIddCxAdapterInitFinished, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED
+ms.date: 2/24/2018
+ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	PFN_IDD_CX_ADAPTER_INIT_FINISHED
 product: Windows
 targetos: Windows
@@ -91,7 +91,9 @@ typedef EVT_IDD_CX_ADAPTER_INIT_FINISHED PFN_IDD_CX_ADAPTER_INIT_FINISHED;
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
+
 
 

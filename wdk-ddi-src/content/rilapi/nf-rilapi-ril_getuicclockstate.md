@@ -7,8 +7,8 @@ old-location: netvista\ril_getuicclockstate.htm
 old-project: netvista
 ms.assetid: a831f49b-203e-4672-aced-679f0835dabb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetUiccLockState, RIL_GetUiccLockState, netvista.ril_getuicclockstate
+ms.date: 2/16/2018
+ms.keywords: RIL_GetUiccLockState, RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], netvista.ril_getuicclockstate, rilapi/RIL_GetUiccLockState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_GetUiccLockState
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_GetUiccLockState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpRilUiccLock
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

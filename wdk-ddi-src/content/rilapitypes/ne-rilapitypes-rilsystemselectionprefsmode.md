@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefsmode_2.htm
 old-project: netvista
 ms.assetid: 10aa6bfb-5ada-42f6-8f89-d8d4066d196b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_OPSELMODE_MAX, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RILSYSTEMSELECTIONPREFSMODE, netvista.rilsystemselectionprefsmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSMODE, rilapitypes/RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, RIL_OPSELMODE_MANUAL
+ms.date: 2/16/2018
+ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode_2, rilapitypes/RILSYSTEMSELECTIONPREFSMODE, rilapitypes/RIL_OPSELMODE_MANUAL, rilapitypes/RIL_OPSELMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSYSTEMSELECTIONPREFSMODE
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSYSTEMSELECTIONPREFSMODE {
 ### -field RIL_OPSELMODE_AUTOMATIC
 
 
-
 ### -field RIL_OPSELMODE_MANUAL
 
 
-
 ### -field RIL_OPSELMODE_MAX
-
 

@@ -7,8 +7,8 @@ old-location: display\dxgkddimapcpuhostaperture.htm
 old-project: display
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddimapcpuhostaperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], DxgkDdiMapCpuHostAperture, DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE, d3dkmddi/DxgkDdiMapCpuHostAperture
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DxgkDdiMapCpuHostAperture
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display adapter.
 
 
 
+
+
 #### - Map [in]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
@@ -92,6 +94,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAP
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

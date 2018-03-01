@@ -7,8 +7,8 @@ old-location: debugger\getcurrentpasscount.htm
 old-project: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount, IDebugBreakpoint2, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method
+ms.date: 2/23/2018
+ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount,IDebugBreakpoint2.GetCurrentPassCount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.GetCurrentPassCount
 -	IDebugBreakpoint2.GetCurrentPassCount
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetCurrentPassCount method
@@ -76,6 +76,7 @@ The remaining number of times that the target must hit the breakpoint before it 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +93,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548104">GetPassCount</a> method returns the number of hits that were originally required to trigger the breakpoint. <b>GetCurrentPassCount</b> returns the number of hits that still must occur to trigger the breakpoint. For example, if a breakpoint was created with a pass count of 20, and there have been 5 passes so far, <b>GetPassCount</b> returns 20 and <b>GetCurrentPassCount</b> returns 15.
@@ -110,5 +114,6 @@ If the debugger executes the code at the breakpoint location while stepping thro
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the information that is returned in <i>Count</i>.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

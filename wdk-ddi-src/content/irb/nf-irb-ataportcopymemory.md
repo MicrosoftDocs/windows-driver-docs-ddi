@@ -7,8 +7,8 @@ old-location: storage\ataportcopymemory.htm
 old-project: storage
 ms.assetid: f5e449f8-9ff9-4d3d-9a62-3e985b57bd50
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: AtaPortCopyMemory routine [Storage Devices], atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, storage.ataportcopymemory, irb/AtaPortCopyMemory, AtaPortCopyMemory
+ms.date: 2/24/2018
+ms.keywords: AtaPortCopyMemory, AtaPortCopyMemory routine [Storage Devices], atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, irb/AtaPortCopyMemory, storage.ataportcopymemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+api_name:
 -	AtaPortCopyMemory
 product: Windows
 targetos: Windows
@@ -90,13 +90,17 @@ Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuff
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver calls the <b>AtaPortCopy</b><b>Memory</b> routine to copy data from one system-allocated area to another.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\ndisoidrequest.htm
 old-project: netvista
 ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest, NdisOidRequest
+ms.date: 2/16/2018
+ms.keywords: NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisOidRequest function
@@ -88,8 +88,10 @@ A pointer to an
 ## -returns
 
 
+
 The underlying driver determines which NDIS_STATUS_<i>XXX</i> code 
      <b>NdisOidRequest</b> returns, but it is usually one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,8 +116,8 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <mshelp:link keywords="netvista.protocoloidrequestcomplete" tabindex="0"><i>
-       ProtocolOidRequestComplete</i></mshelp:link> function when the request is completed.
+       <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+       ProtocolOidRequestComplete</a> function when the request is completed.
 
 </td>
 </tr>
@@ -238,11 +240,14 @@ This value usually is a nonspecific default, returned when none of the more spec
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A protocol driver must allocate sufficient memory to hold the information buffer that is associated
@@ -275,19 +280,28 @@ For more information about the general and media-specific OIDs and their respect
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOidRequest function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOidRequest function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsignalqualitycaps_2.htm
 old-project: netvista
 ms.assetid: 246af8ed-6657-4999-ab9f-a64958a1225d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CAPS_SIGNALQUALITY_MAX, rilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING, netvista.rilsignalqualitycaps_2, rilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSIGNALQUALITYCAPS, RIL_CAPS_SIGNALQUALITY_POLLING, RILSIGNALQUALITYCAPS
+ms.date: 2/16/2018
+ms.keywords: RILSIGNALQUALITYCAPS, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SIGNALQUALITY_MAX, RIL_CAPS_SIGNALQUALITY_POLLING, netvista.rilsignalqualitycaps_2, rilapitypes/RILSIGNALQUALITYCAPS, rilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, rilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSIGNALQUALITYCAPS
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSIGNALQUALITYCAPS {
 ### -field RIL_CAPS_SIGNALQUALITY_NOTIFICATION
 
 
-
 ### -field RIL_CAPS_SIGNALQUALITY_POLLING
 
 
-
 ### -field RIL_CAPS_SIGNALQUALITY_MAX
-
 

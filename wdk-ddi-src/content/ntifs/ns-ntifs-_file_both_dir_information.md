@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FILE_BOTH_DIR_INFORMATION
-title: _FILE_BOTH_DIR_INFORMATION
+title: "_FILE_BOTH_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_BOTH_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_both_dir_information.htm
 old-project: ifsk
 ms.assetid: 892b8eda-0b8e-40ab-940b-a0a423aaa5b8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: _FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION, ntifs/FILE_BOTH_DIR_INFORMATION, ntifs/PFILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, PFILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_both_dir_information, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: "*PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, ifsk.file_both_dir_information, ntifs/FILE_BOTH_DIR_INFORMATION, ntifs/PFILE_BOTH_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FILE_BOTH_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION
+req.typenames: FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION
 ---
 
 # _FILE_BOTH_DIR_INFORMATION structure
@@ -173,7 +173,9 @@ Specifies the first character of the file name string. This is followed in memor
 ## -remarks
 
 
+
 This information can be queried in either of the following ways: 
+
 <ul>
 <li>
 Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileBothDirectoryInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_BOTH_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
@@ -183,7 +185,8 @@ Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a
 Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY. 
 
 </li>
-</ul>No specific access rights are required to query this information. 
+</ul>
+No specific access rights are required to query this information. 
 
 All dates and times are in absolute system-time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601. 
 
@@ -191,17 +194,24 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
+
+
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\miniportqueryoffload.htm
 old-project: netvista
 ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.miniportqueryoffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], MiniportQueryOffload, W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
+ms.date: 2/16/2018
+ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndischimney.h
-apiname: 
+api_name:
 -	MiniportQueryOffload
 product: Windows
 targetos: Windows
@@ -79,28 +79,31 @@ VOID MiniportQueryOffload(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param OffloadBlockList [in, out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which can be the root of a linked list of such
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state that is being queried.
 
 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -111,11 +114,11 @@ The
     <i>MiniportQueryOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the query operation
     asynchronously by calling the 
-    <mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-    NdisMQueryOffloadStateComplete</b></mshelp:link> function. The 
+    <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+    NdisMQueryOffloadStateComplete</a> function. The 
     <i>OffloadBlockList</i> pointer points to an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that can either be a stand-alone structure or the root
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can either be a stand-alone structure or the root
     node in an 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a>. The state tree is valid
     until the offload target calls the 
@@ -132,6 +135,7 @@ Before calling the
     <b>NdisMQueryOffloadStateComplete</b> function, the offload target must write either of the following
     NDIS_STATUS values to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree:
+
 <ul>
 <li>
 NDIS_STATUS_SUCCESS
@@ -151,21 +155,30 @@ The query operation did not succeed. The host stack will terminate the state obj
 </ul>
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+   NdisMQueryOffloadStateComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
-   NdisMQueryOffloadStateComplete</b></mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_QUERY_OFFLOAD_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_QUERY_OFFLOAD_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

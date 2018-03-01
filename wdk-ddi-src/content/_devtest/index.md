@@ -2,7 +2,7 @@
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
 ms.author: windowsdriverdev
-ms.date: 01/18/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,16 @@ For the programming guide, see [Driver test tools](https://docs.microsoft.com/en
 | [RECORDER_LOG_CREATE_PARAMS_INIT function](..\wpprecorder\nf-wpprecorder-recorder_log_create_params_init.md) | The RECORDER_LOG_CREATE_PARAMS_INIT function is used to initialize the RECORDER_LOG_CREATE_PARAMS structure. |
 | [RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function](..\wpprecorder\nf-wpprecorder-recorder_log_create_params_init_append_pointer.md) | The RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER method initializes the RECORDER_LOG_CREATE_PARAMS with the pointer to link logs. |
 | [SeEtwWriteKMCveEvent function](..\wdm\nf-wdm-seetwwritekmcveevent.md) | The SeEtwWriteKMCveEvent function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers. |
+| [imp_WppRecorderConfigure function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderconfigure.md) | The WppRecorderConfigure method enables or disables the default log to which WPP prints. |
+| [imp_WppRecorderDumpLiveDriverData function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderdumplivedriverdata.md) | The WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log. |
+| [imp_WppRecorderGetCounterHandle function](..\wpprecorder\nf-wpprecorder-imp_wpprecordergetcounterhandle.md) | The WppRecorderGetCounterHandle method. |
+| [imp_WppRecorderGetTriageInfo function](..\wpprecorder\nf-wpprecorder-imp_wpprecordergettriageinfo.md) | The WppRecorderGetTriageInfo. |
+| [imp_WppRecorderIsDefaultLogAvailable function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderisdefaultlogavailable.md) | The WppRecorderIsDefaultLogAvailable method determines whether the default log is available. |
+| [imp_WppRecorderLinkCounters function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderlinkcounters.md) | The WppRecorderLinkCounters. |
+| [imp_WppRecorderLogCreate function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md) | The WppRecorderLogCreate method creates a buffer to contain the recorder log. |
+| [imp_WppRecorderLogDelete function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogdelete.md) | The WppRecorderLogDelete method deletes the specified recorder log. |
+| [imp_WppRecorderLogGetDefault function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderloggetdefault.md) | The WppRecorderLogGetDefault method gets a handle to the default recorder log. |
+| [imp_WppRecorderLogSetIdentifier function](..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogsetidentifier.md) | The WppRecorderLogSetIdentifier method sets a string identifier for the recorder log. |
 | [vDbgPrintEx function](..\wdm\nf-wdm-vdbgprintex.md) | The vDbgPrintEx routine sends a string to the kernel debugger if certain conditions are met. |
 | [vDbgPrintExWithPrefix function](..\wdm\nf-wdm-vdbgprintexwithprefix.md) | The vDbgPrintExWithPrefix routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results. |
 

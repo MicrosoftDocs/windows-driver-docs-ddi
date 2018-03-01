@@ -7,8 +7,8 @@ old-location: buses\evt_urs_set_role.htm
 old-project: usbref
 ms.assetid: 287B674F-9692-47FA-AB92-F101270F7FC4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_urs_set_role, EvtUrsSetRole callback function [Buses], EvtUrsSetRole, EVT_URS_SET_ROLE, EVT_URS_SET_ROLE, ursdevice/EvtUrsSetRole, PFN_URS_SET_ROLE callback function pointer [Buses], PFN_URS_SET_ROLE
+ms.date: 2/24/2018
+ms.keywords: EVT_URS_SET_ROLE, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ursdevice.h
-apiname: 
+api_name:
 -	PFN_URS_SET_ROLE
 product: Windows
 targetos: Windows
@@ -87,14 +87,64 @@ A <a href="..\urstypes\ne-urstypes-_urs_role.md">URS_ROLE</a> type value that in
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
+
 
 
 
 ## -remarks
 
 
+
  To register the client driver's implementation of the event callback the driver must set the  <b>EvtUrsSetRole</b> member of <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> to a function pointer of the implementation method and then call the <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a> method by passing the populated structure. The driver must call the method after it creates the framework device object for the controller. 
+
+
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+
+NTSTATUS
+EvtUrsSetRole (
+    _In_ WDFDEVICE Device,
+    _In_ URS_ROLE Role
+    )
+{
+    NTSTATUS status;
+    PFDO_CONTEXT fdoContext;
+
+    TRACE_FUNC_ENTRY(TRACE_FLAG);
+    TRY {
+
+
+           // Change the current role of the controller to the specified role.
+           // The driver might have stored the control registers in the device context. 
+           // Read and write the register to get and set the current role. 
+
+        }
+
+
+        TRACE_INFO(TRACE_FLAG, "[Device: 0x%p] Successfully set role to %!URS_ROLE!", Device, Role);
+
+        status = STATUS_SUCCESS;
+
+    } FINALLY {
+
+    }
+
+    TRACE_FUNC_EXIT(TRACE_FLAG);
+
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -102,9 +152,11 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_URS_SET_ROLE callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_URS_SET_ROLE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

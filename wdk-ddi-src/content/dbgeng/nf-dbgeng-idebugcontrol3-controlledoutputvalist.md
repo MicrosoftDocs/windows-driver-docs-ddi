@@ -7,8 +7,8 @@ old-location: debugger\controlledoutputvalist.htm
 old-project: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, debugger.controlledoutputvalist, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList, IDebugControl3, IDebugControl2::ControlledOutputVaList, IDebugControl3::ControlledOutputVaList, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method
+ms.date: 2/23/2018
+ms.keywords: ControlledOutputVaList method [Windows Debugging], ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList,IDebugControl3.ControlledOutputVaList, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl3, IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, debugger.controlledoutputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.ControlledOutputVaList
 -	IDebugControl2.ControlledOutputVaList
 -	IDebugControl3.ControlledOutputVaList
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::ControlledOutputVaList method
@@ -87,6 +87,7 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -256,11 +257,13 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt613235">Customizing Debugger Output Using DML</a>.
 
 The following table summarizes the use of the %Y format specifier.
+
 <table>
 <tr>
 <td>Character</td>
@@ -352,9 +355,11 @@ ULONG64
 <td>Debugger formatted pointer</td>
 <td>	Address as source line information.</td>
 </tr>
-</table> 
+</table>
+ 
 
 This code snippet illustrates the use of the  %Y format specifier.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -393,7 +398,9 @@ This code snippet illustrates the use of the  %Y format specifier.
 </pre>
 </td>
 </tr>
-</table></span></div>This sample code would generate the following output.
+</table></span></div>
+This sample code would generate the following output.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -421,12 +428,14 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
+
 ### -param Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
 
 ## -returns
+
 
 
 <table>
@@ -445,13 +454,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
@@ -460,23 +472,36 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::ControlledOutputVaList method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::ControlledOutputVaList method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

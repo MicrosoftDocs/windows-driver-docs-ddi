@@ -7,8 +7,8 @@ old-location: print\drvdriverevent.htm
 old-project: print
 ms.assetid: 84d1f438-b6ee-4199-89ae-9384601203b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvDriverEvent, print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, winddiui/DrvDriverEvent, DrvDriverEvent function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: DrvDriverEvent, DrvDriverEvent function [Print Devices], print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, winddiui/DrvDriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winddiui.h
-apiname: 
+api_name:
 -	DrvDriverEvent
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -74,6 +74,7 @@ BOOL DrvDriverEvent(
 ### -param dwDriverEvent
 
 Caller-supplied bit flag indicating the event that has occurred. Valid flags are listed in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -99,12 +100,14 @@ The driver has just been installed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param dwLevel
 
 Caller-supplied value indicating the type of structure pointed to by the <i>pDriverInfo</i> parameter, as indicated in the following table.
+
 <table>
 <tr>
 <th><i>dwLevel</i> Value</th>
@@ -140,7 +143,8 @@ DRIVER_INFO_3
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
 
@@ -158,11 +162,14 @@ Caller-supplied flags. See the following Remarks section.
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The optional <b>DrvDriverEvent</b> function is called by the spooler's <b>AddPrinterDriverEx</b> and <b>DeletePrinterDriverEx</b> functions, which are described in the Windows SDK documentation.
@@ -172,5 +179,6 @@ The function's purpose is to allow a printer driver's <a href="https://msdn.micr
 If <i>dwDriverEvent</i> is DRIVER_EVENT_DELETE, the <i>lparam</i> parameter contains the flags that were specified for the <b>DeletePrinterDriverEx</b> function's <i>dwDeleteFlag</i> parameter. The <i>lparam</i> parameter is not used if <i>dwDriverEvent</i> is DRIVER_EVENT_INITIALIZE.
 
 Because the <b>DrvDriverEvent</b> function is called in the context of the print spooler, it cannot display a user interface.
+
 
 

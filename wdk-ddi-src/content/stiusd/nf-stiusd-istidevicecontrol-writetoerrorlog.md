@@ -7,8 +7,8 @@ old-location: image\istidevicecontrol_writetoerrorlog.htm
 old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog, stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, WriteToErrorLog method [Imaging Devices]
+ms.date: 2/23/2018
+ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl::WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, WriteToErrorLog,IStiDeviceControl.WriteToErrorLog, image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, stiusd/IStiDeviceControl::WriteToErrorLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	stiusd.h
-apiname: 
+api_name:
 -	IStiDeviceControl.WriteToErrorLog
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Caller-supplied pointer to a message string to be written to the log file.
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The still image error log file is named <i>sti_trace.log</i> and is located in the Windows directory. Control Panel allows a user to select which still image error types (informational, warning, or error) are written to the error log (see <a href="https://msdn.microsoft.com/cedc8afc-54c4-485e-989c-481fe30d899b">Nonmodifiable Registry Entries</a>).
@@ -106,5 +109,6 @@ The still image error log file is named <i>sti_trace.log</i> and is located in t
 Error messages should be reserved for critical error conditions, such as device hardware failures. Informational messages can be used for your own debugging purposes. Logged messages aren't visible to users, but they might be used by a support engineer to help debug a user's problems.
 
 A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
+
 
 

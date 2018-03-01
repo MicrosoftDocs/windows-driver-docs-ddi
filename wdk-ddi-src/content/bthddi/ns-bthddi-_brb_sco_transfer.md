@@ -1,21 +1,21 @@
 ---
 UID: NS:bthddi._BRB_SCO_TRANSFER
-title: _BRB_SCO_TRANSFER
+title: "_BRB_SCO_TRANSFER"
 author: windows-driver-content
 description: The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write isochronous data to a SCO channel.
 old-location: bltooth\_brb_sco_transfer.htm
 old-project: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_TRANSFER structure [Bluetooth Devices], bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, _BRB_SCO_TRANSFER, bthddi/_BRB_SCO_TRANSFER, bltooth._brb_sco_transfer
+ms.date: 2/15/2018
+ms.keywords: "_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bltooth._brb_sco_transfer, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	_BRB_SCO_TRANSFER
 product: Windows
 targetos: Windows
@@ -91,8 +91,8 @@ The Bluetooth address of the remote device.
 
 The SCO channel handle that was returned by Bluetooth driver stack in response to an earlier 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> or 
-     <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
-     BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+     <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+     BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
 
 ### -field TransferFlags
@@ -100,6 +100,7 @@ The SCO channel handle that was returned by Bluetooth driver stack in response t
 Flags that specify the basic behavior of the BRB. Valid flag values are listed in the following
      table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -126,7 +127,8 @@ If this bit is set, the BRB writes isochronousdata to a remote device through th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BufferSize
@@ -151,15 +153,15 @@ A pointer to the MDL input buffer. This value should be <b>NULL</b> when the
 
 
 
-##### - DataTag.SCO write
+#### SCO write
 
 
 
-##### - DataTag.
-
+#### 
 
 
 ## -remarks
+
 
 
 To read isochronous data from or write isochronous data to a SCO connection, profile drivers should 
@@ -182,19 +184,28 @@ If both
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
+<a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_TRANSFER structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_TRANSFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

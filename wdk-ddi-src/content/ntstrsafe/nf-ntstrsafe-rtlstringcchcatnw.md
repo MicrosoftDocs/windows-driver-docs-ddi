@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchcatn.htm
 old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlStringCchCatNA, RtlStringCchCatNW, kernel.rtlstringcchcatn, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, RtlStringCchCatN
+ms.date: 2/24/2018
+ms.keywords: RtlStringCchCatN, RtlStringCchCatNA, RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcatn, ntstrsafe/RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCchCatNW
 -	RtlStringCchCatNA
 -	RtlStringCchCatNW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchCatNW function
@@ -94,6 +94,7 @@ TBD
 
 
 
+
 #### - cchMaxAppend [in]
 
 The maximum number of characters to append to the string that is contained in the buffer at <i>pszDest</i>.
@@ -102,7 +103,9 @@ The maximum number of characters to append to the string that is contained in th
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,14 +152,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>strncat</b>
@@ -166,9 +173,11 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 <b>wcsncat</b>
 
 </li>
-</ul>The size, in characters, of the destination buffer is provided to the function to ensure that <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> do not write past the end of the buffer.
+</ul>
+The size, in characters, of the destination buffer is provided to the function to ensure that <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> do not write past the end of the buffer.
 
 Use <b>RtlStringCchCatNW</b> to handle Unicode strings and <b>RtlStringCchCatNA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -204,7 +213,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If  <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -214,17 +224,24 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
+
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatNW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCatNW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

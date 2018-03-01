@@ -7,15 +7,15 @@ old-location: bltooth\ioctl_bth_sdp_service_search.htm
 old-project: bltooth
 ms.assetid: aea2aff2-5983-4583-9cc8-a45401ecdfb6
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.ioctl_bth_sdp_service_search, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], IOCTL_BTH_SDP_SERVICE_SEARCH, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bthioctl.h
-apiname: 
+api_name:
 -	IOCTL_BTH_SDP_SERVICE_SEARCH
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_SERVICE_SEARCH IOCTL
@@ -49,7 +49,7 @@ req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -70,16 +70,16 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure that specifies the connection handle to the remote SDP
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure/
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
 ### -output-buffer
@@ -100,14 +100,18 @@ Callers can determine
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -120,6 +124,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -195,16 +200,19 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_SERVICE_SEARCH control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_SERVICE_SEARCH control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

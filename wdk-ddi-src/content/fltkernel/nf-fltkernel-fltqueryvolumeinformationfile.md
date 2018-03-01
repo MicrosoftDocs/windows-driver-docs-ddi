@@ -7,8 +7,8 @@ old-location: ifsk\fltqueryvolumeinformationfile.htm
 old-project: ifsk
 ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltqueryvolumeinformationfile, FltQueryVolumeInformationFile function [Installable File System Drivers], FileFsObjectIdInformation, FileFsVolumeInformation, fltkernel/FltQueryVolumeInformationFile, FileFsDriverPathInformation, FileFsDeviceInformation, FileFsSizeInformation, FileFsAttributeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FileFsFullSizeInformation, FileFsControlInformation, FltQueryVolumeInformationFile, FileFsSectorSizeInformation
+ms.date: 2/16/2018
+ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], fltkernel/FltQueryVolumeInformationFile, ifsk.fltqueryvolumeinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	fltmgr.sys
-apiname: 
+api_name:
 -	FltQueryVolumeInformationFile
 product: Windows
 targetos: Windows
@@ -95,6 +95,7 @@ Size, in bytes, of the <i>FsInformation</i> buffer.
 ### -param FsInformationClass [in]
 
 Type of volume information to be returned. One of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -190,7 +191,8 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param LengthReturned [out, optional]
@@ -201,7 +203,9 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 ## -returns
 
 
+
 <b>FltQueryVolumeInformationFile</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value such as the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -218,11 +222,14 @@ The volume is not currently mounted. This is an error code.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>FltQueryVolumeInformationFile</b> retrieves volume information for a given file, directory, storage device, or volume. 
@@ -233,31 +240,52 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
 <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
 
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
 
- 
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryVolumeInformationFile function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryVolumeInformationFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

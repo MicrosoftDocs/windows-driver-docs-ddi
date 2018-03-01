@@ -7,8 +7,8 @@ old-location: debugger\extremotelist_next.htm
 old-project: debugger
 ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList::Next, debugger.extremotelist_next, Next method [Windows Debugging], EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, Next method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], Next method, Next
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], Next method, ExtRemoteList::Next, Next method [Windows Debugging], Next method [Windows Debugging], ExtRemoteList class, Next,ExtRemoteList.Next, debugger.extremotelist_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	engextcpp.hpp
-apiname: 
+api_name:
 -	ExtRemoteList.Next
 product: Windows
 targetos: Windows
@@ -66,29 +66,38 @@ void Next();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a> will return <code>false</code>.
 
 
 
-## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
 
- 
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteList.Next method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteList.Next method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

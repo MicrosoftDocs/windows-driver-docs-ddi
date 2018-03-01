@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_media_key_block_size.htm
 old-project: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_aacs_read_media_key_block_size, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, storage.ioctl_aacs_read_media_key_block_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ Use this value to determine the size of the buffer to allocate for <a href="..\n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -129,8 +133,10 @@ No AACS protection exists for this media.
 ## -remarks
 
 
+
 The IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE request will not work if the media in the logical unit is not AACS protected.
 
 The IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE request corresponds to one of the steps of the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth). For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).
+
 
 

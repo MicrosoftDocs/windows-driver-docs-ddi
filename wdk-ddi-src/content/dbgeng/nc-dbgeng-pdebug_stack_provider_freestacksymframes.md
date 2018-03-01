@@ -7,8 +7,8 @@ old-location: debugger\freestacksymframes.htm
 old-project: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.freestacksymframes, FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], FreeStackSymFrames, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames
+ms.date: 2/23/2018
+ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	FreeStackSymFrames
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback
@@ -82,11 +82,14 @@ A stack to free.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider to free memory.
@@ -95,13 +98,16 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction.md">EndThreadStackReconstruction</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

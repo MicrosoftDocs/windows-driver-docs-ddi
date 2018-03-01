@@ -7,8 +7,8 @@ old-location: display\setclipplane.htm
 old-project: display
 ms.assetid: 99edfc35-23a5-41e0-8705-7dffba564c10
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.setclipplane, SetClipPlane callback function [Display Devices], SetClipPlane, PFND3DDDI_SETCLIPPLANE, PFND3DDDI_SETCLIPPLANE, d3dumddi/SetClipPlane, UserModeDisplayDriver_Functions_695212ed-888d-40c9-8234-305373703b98.xml
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_SETCLIPPLANE, SetClipPlane, SetClipPlane callback function [Display Devices], UserModeDisplayDriver_Functions_695212ed-888d-40c9-8234-305373703b98.xml, d3dumddi/SetClipPlane, display.setclipplane
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	SetClipPlane
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetClipPlane(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setclipplane.md">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
@@ -91,14 +93,18 @@ __checkReturn HRESULT APIENTRY SetClipPlane(
 ## -returns
 
 
+
 <i>SetClipPlane</i> returns S_OK or an appropriate error result if the clip plane is not successfully set.
+
 
 
 
 ## -remarks
 
 
+
 The coefficients that are passed to <i>SetClipPlane</i> in the <b>Plane</b> array of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setclipplane.md">D3DDDIARG_SETCLIPPLANE</a> structure that is pointed to by <i>pData </i>are used in the general plane equation. For more information about the general plane equation, see the Remarks section of <b>D3DDDIARG_SETCLIPPLANE</b>. 
+
 
 
 
@@ -106,11 +112,15 @@ The coefficients that are passed to <i>SetClipPlane</i> in the <b>Plane</b> arra
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setclipplane.md">D3DDDIARG_SETCLIPPLANE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETCLIPPLANE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETCLIPPLANE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

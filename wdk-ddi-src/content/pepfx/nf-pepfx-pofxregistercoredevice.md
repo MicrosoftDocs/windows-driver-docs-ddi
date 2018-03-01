@@ -7,13 +7,13 @@ old-location: kernel\pofxregistercoredevice.htm
 old-project: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice, PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+api_name:
 -	PoFxRegisterCoreDevice
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterCoreDevice function
@@ -88,7 +88,9 @@ A pointer to a location to which the routine writes a POHANDLE value. This handl
 ## -returns
 
 
+
 <b>PoFxRegisterCoreDevice</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -116,11 +118,14 @@ Unable to allocate the resources required to complete the requested registration
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine registers a core system resource so that this resource can be power-managed by PoFx.
@@ -131,15 +136,20 @@ The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEV
 
 
 
+
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterCoreDevice routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxRegisterCoreDevice routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

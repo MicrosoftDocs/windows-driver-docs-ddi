@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._DDVIDEOPORTCONNECT
-title: _DDVIDEOPORTCONNECT
+title: "_DDVIDEOPORTCONNECT"
 author: windows-driver-content
 description: The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 old-location: display\ddvideoportconnect.htm
 old-project: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: *LPDDVIDEOPORTCONNECT, ksmedia/DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, _DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], display.ddvideoportconnect
+ms.date: 2/24/2018
+ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	DDVIDEOPORTCONNECT
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ Specifies the width of the hardware video port. This value represents the number
 ### -field guidTypeID
 
 Specifies a GUID that describes the synchronization characteristics of the hardware video port. The following port types are predefined:
+
 <table>
 <tr>
 <th>Port Type</th>
@@ -159,12 +160,14 @@ Sync information is embedded in the data stream using the Philips definition.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwFlags
 
 Specifies a set of flags that identify the capabilities of the hardware video port connection. This member can be a bitwise OR of any of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -250,7 +253,8 @@ When set by the driver, this flag indicates that the hardware video port is capa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved1
@@ -261,7 +265,9 @@ Reserved for system use and should be set to zero.
 ## -remarks
 
 
+
 The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a> callback.
+
 
 
 
@@ -269,11 +275,15 @@ The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a
 
 <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
 
+
+
 <a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DDVIDEOPORTCONNECT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DDVIDEOPORTCONNECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

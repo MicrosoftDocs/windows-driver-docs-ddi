@@ -7,8 +7,8 @@ old-location: wdf\wdfioresourcelistgetdescriptor.htm
 old-project: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfresource/WdfIoResourceListGetDescriptor, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, wdf.wdfioresourcelistgetdescriptor, WdfIoResourceListGetDescriptor method, WdfIoResourceListGetDescriptor, kmdf.wdfioresourcelistgetdescriptor, PFN_WDFIORESOURCELISTGETDESCRIPTOR
+ms.date: 2/20/2018
+ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, kmdf.wdfioresourcelistgetdescriptor, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfIoResourceListGetDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ A zero-based value that is used as an index into the logical configuration that 
 ## -returns
 
 
+
 <b>WdfIoResourceListGetDescriptor</b> returns a pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -93,7 +94,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver cannot modify the contents of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that <b>WdfIoResourceListGetDescriptor</b> retrieves. To modify a resource descriptor, the driver can call <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>.
@@ -101,16 +104,27 @@ Your driver cannot modify the contents of the <a href="..\wdm\ns-wdm-_io_resourc
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfIoResourceListGetDescriptor</b>, see <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
- 
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceListGetDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceListGetDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

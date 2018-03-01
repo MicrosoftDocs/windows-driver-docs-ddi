@@ -7,8 +7,8 @@ old-location: netvista\dot11extihvperformpostassociate.htm
 old-project: netvista
 ms.assetid: a6e9af7d-4c33-4dea-92fe-e2cd8eed6697
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11extihvperformpostassociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvPerformPostAssociate, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, DOT11EXTIHV_PERFORM_POST_ASSOCIATE, wlanihv/Dot11ExtIhvPerformPostAssociate, Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml
+ms.date: 2/16/2018
+ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	Dot11ExtIhvPerformPostAssociate
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -89,8 +89,8 @@ The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) a
 
 The handle of the security session. The IHV Extensions DLL must use this handle value when it
      calls 
-     <mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-     Dot11ExtPostAssociateCompletion</b></mshelp:link> to asynchronously complete the post-association operation.
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+     Dot11ExtPostAssociateCompletion</a> to asynchronously complete the post-association operation.
 
 
 ### -param pPortState [in]
@@ -109,12 +109,12 @@ The length, in bytes, of the data referenced through the
 ### -param pDot11AssocParams [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
-     DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link> structure, which specifies the result of the association
+     <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
+     DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a> structure, which specifies the result of the association
      operation completed by the WLAN adapter. The Native 802.11 miniport driver, which manages the WLAN
      adapter, includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when it makes a media-specific 
-     <mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
-     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link> indication.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication.
      
 
 For more information about the association operation, see 
@@ -122,6 +122,7 @@ For more information about the association operation, see
 
 
 ## -returns
+
 
 
 If the IHV Extension DLL can initiate the post-association operation, it must complete the operation
@@ -133,22 +134,27 @@ If the IHV Extensions DLL cannot initiate the post-association operation, it ret
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the 
     <i>Dot11ExtIhvPerformPostAssociate</i> function to initiate a post-association operation with the IHV
     Extensions DLL. The operating system initiates this operation after the WLAN adapter completes an
     association operation with an access point (AP) in an infrastructure basic service set (BSS) network.
+
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
-    service set (BSS) networks.</div><div> </div>For more information about the association operation, see 
+    service set (BSS) networks.</div>
+<div> </div>
+For more information about the association operation, see 
     <a href="https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc">Association Operations</a>.
 
 The post-association operation must be completed asynchronously from the call to 
     <i>Dot11ExtIhvPerformPostAssociate</i>. After the post-association operation completes, the DLL must call
     
-    <mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-    Dot11ExtPostAssociateCompletion</b></mshelp:link>.
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+    Dot11ExtPostAssociateCompletion</a>.
 
 If the IHV Extensions DLL can initiate the post-association operation, the 
     <i>Dot11ExtIhvPerformPostAssociate</i> function must return ERROR_SUCCESS and complete the operation
@@ -159,23 +165,34 @@ For more information about the post-association operation, see
 
 
 
+
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
-   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-   Dot11ExtPostAssociateCompletion</b></mshelp:link>
 
 <a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
 
- 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_PERFORM_POST_ASSOCIATE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_PERFORM_POST_ASSOCIATE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

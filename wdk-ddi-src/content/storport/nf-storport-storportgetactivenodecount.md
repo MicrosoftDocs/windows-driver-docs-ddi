@@ -7,8 +7,8 @@ old-location: storage\storportgetactivenodecount.htm
 old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, StorPortGetActiveNodeCount routine [Storage Devices], StorPortGetActiveNodeCount, storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount
+ms.date: 2/24/2018
+ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	storport.h
-apiname: 
+api_name:
 -	StorPortGetActiveNodeCount
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ A pointer to a variable that holds the number of nodes.
 ## -returns
 
 
+
 The <b>StorPortGetActiveNodeCount</b>routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,6 +123,8 @@ The operation fails with this return value if one or more of the parameters are 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

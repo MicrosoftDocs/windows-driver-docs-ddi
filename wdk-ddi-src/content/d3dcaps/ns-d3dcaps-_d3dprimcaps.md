@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dcaps._D3DPrimCaps
-title: _D3DPrimCaps
+title: "_D3DPrimCaps"
 author: windows-driver-content
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DPRIMCAPS structure defines the capabilities for each primitive type.
 old-location: display\d3dprimcaps.htm
 old-project: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, *LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], LPD3DPRIMCAPS, display.d3dprimcaps, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], _D3DPrimCaps
+ms.date: 2/24/2018
+ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dcaps.h
-apiname: 
+api_name:
 -	D3DPRIMCAPS
 product: Windows
 targetos: Windows
@@ -94,6 +94,7 @@ Specifies the size, in bytes, of the D3DPRIMCAPS structure.
 Specifies the general capabilities for this primitive. This member can be one or more of the following:    
   
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,12 +145,14 @@ D3DPMISCCAPS_LINEPATTERNREP and D3DPRASTERCAPS_PAT must be set consistently (bot
 <td>D3DPMISCCAPS_MASKZ</td>
 <td>The device can enable and disable modification of the z-buffer on pixel operations.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwRasterCaps
 
 Contains information about raster-drawing capabilities. This member can be one or more of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -246,7 +249,8 @@ D3DPRASTERCAPS_PAT and D3DPMISCCAPS_LINEPATTERNREP must be set consistently (bot
 <td>D3DPRASTERCAPS_ZTEST</td>
 <td>The device can perform z-test operations. This effectively renders a primitive and indicates whether any z pixels would have been rendered.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwZCmpCaps
@@ -255,6 +259,7 @@ Specifies Z-buffer comparison functions that the driver can perform through the 
   
  
  
+
 
 <table>
 <tr>
@@ -297,13 +302,15 @@ Specifies Z-buffer comparison functions that the driver can perform through the 
 <td>D3DPCMPCAPS_NOTEQUAL </td>
 <td>Pass the z test if the new z does not equal the current z.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwSrcBlendCaps
 
 Specifies source blending capabilities supported by the driver through the D3DRENDERSTATE_SRCBLEND render state. This member can be one or more of the following values. (The RGBA values of the source and destination are indicated with the subscripts s and d.)  
   
+
 
 <table>
 <tr>
@@ -369,7 +376,8 @@ Specifies source blending capabilities supported by the driver through the D3DRE
 <td>Blend factor is (0, 0, 0, 0). 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwDestBlendCaps
@@ -390,6 +398,7 @@ Specifies shading operations that the device can perform. It is assumed, in gene
 The color, specular highlights, fog, and alpha interpolants of a triangle each have capability flags that an application can use to find out how they are implemented by the device driver. These are modified by the shade mode and color model, and by whether the alpha component of a color is blended or stippled.
 
 This member can be one or more of values listed in the following table. Related flags are grouped together in this table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -446,7 +455,8 @@ D3DPSHADECAPS_SPECULARGOURAUDRGB</td>
 D3DPSHADECAPS_SPECULARPHONGRGB</td>
 <td>The device can support specular highlights through the D3DRENDERSTATE_SPECULARENABLE render state in Phong shading in the D3DCOLOR_MONO and D3DCOLOR_RGB color models, respectively. Phong shading is not supported for DirectX 2.0.</td>
 </tr>
-</table> 
+</table>
+ 
 
 Most hardware drivers should expose the D3DPSHADECAPS_COLORFLATRGB and D3DPSHADECAPS_COLORGOURAUDRGB capabilities. Hardware that supports intensity (grayscale) lighting (see D3DRENDERSTATE_MONOENABLE for more details) should also expose the D3DPSHADECAPS_COLORFLATMONO and D3DSHADECAPS_COLORGOURAUDMONO capabilities.
 
@@ -454,6 +464,7 @@ Most hardware drivers should expose the D3DPSHADECAPS_COLORFLATRGB and D3DPSHADE
 ### -field dwTextureCaps
 
 Specifies miscellaneous texture-mapping capabilities. This member can be one or more of the following: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -524,7 +535,8 @@ If this flag is set, the D3DPTEXTURECAPS_POW2 flag must also be set.
 <td>D3DPTEXTURECAPS_TRANSPARENCY</td>
 <td>Texture transparency is supported. (Only those texels that are not the current transparent color are drawn.)</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwTextureFilterCaps
@@ -533,6 +545,7 @@ Specifies texture-mapping capabilities. This member can be one or more of the fo
   
   
  
+
 <table>
 <tr>
 <th>Value</th>
@@ -606,7 +619,8 @@ Specifies that bilinear filtering on the magnify filter is supported.</td>
 <td>Point sampling is supported. The texel with coordinates nearest to the desired pixel value is used. This applies to both zooming in and zooming out. If either zooming in or zooming out is supported, then both must be supported. 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwTextureBlendCaps
@@ -614,6 +628,7 @@ Specifies that bilinear filtering on the magnify filter is supported.</td>
 Specifies texture-blending capabilities. See the D3DRENDERSTATE_TEXTUREMAPBLEND enumerated type for discussions of the various texture-blending modes. This member can be one or more of the following:   
   
  
+
 <table>
 <tr>
 <th>Value</th>
@@ -654,12 +669,14 @@ Specifies texture-blending capabilities. See the D3DRENDERSTATE_TEXTUREMAPBLEND 
 <td>Modulate-mask texture-blending mode is supported (D3DTBLEND_MODULATEMASK from the D3DTEXTUREBLEND enumerated type). 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwTextureAddressCaps
 
 Specifies the texture-addressing capabilities. This member can be one or more of the following, corresponding to D3DTEXTUREADDRESS texture-addressing modes:
+
 <table>
 <tr>
 <th>Value</th>
@@ -687,11 +704,11 @@ Specifies the texture-addressing capabilities. This member can be one or more of
 <td>D3DPTADDRESSCAPS_WRAP</td>
 <td>The device can wrap textures to addresses. This ability corresponds to the D3DTADDRESS_WRAP texture-addressing mode.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwStippleWidth
-
 
 
 ### -field dwStippleHeight
@@ -702,9 +719,11 @@ Specify the maximum width and height of the supported stipple (up to 32-by-32).
 ## -remarks
 
 
+
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
 This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure.
+
 
 
 
@@ -712,9 +731,11 @@ This structure is used when a device is created and when the capabilities of a d
 
 <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DPRIMCAPS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DPRIMCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

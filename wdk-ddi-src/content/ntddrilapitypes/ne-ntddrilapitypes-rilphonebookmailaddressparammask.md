@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookmailaddressparammask.htm
 old-project: netvista
 ms.assetid: db3b9173-f0fe-4d51-a17e-a7b55839cbb6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, RIL_PARAM_PBEA_ALL, RILPHONEBOOKMAILADDRESSPARAMMASK, netvista.rilphonebookmailaddressparammask, ntddrilapitypes/RIL_PARAM_PBEA_ALL
+ms.date: 2/16/2018
+ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask, ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_PBEA_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILPHONEBOOKMAILADDRESSPARAMMASK
 product: Windows
 targetos: Windows
@@ -70,7 +70,5 @@ typedef enum _RILPHONEBOOKMAILADDRESSPARAMMASK {
 ### -field RIL_PARAM_PBEA_ADDRESS
 
 
-
 ### -field RIL_PARAM_PBEA_ALL
-
 

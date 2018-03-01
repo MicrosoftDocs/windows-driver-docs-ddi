@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_capabilities_white.htm
 old-project: stream
 ms.assetid: F4A7CF9A-023F-42FC-A40C-E95964EC5392
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ioctl_lamp_get_capabilities_white, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], IOCTL_LAMP_GET_CAPABILITIES_WHITE, lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE
+ms.date: 2/23/2018
+ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_WHITE, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE, stream.ioctl_lamp_get_capabilities_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	lamp.h
-apiname: 
+api_name:
 -	IOCTL_LAMP_GET_CAPABILITIES_WHITE
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: LAMP_MODE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -96,14 +96,18 @@ Length of the buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,10 +119,12 @@ The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or
 ## -remarks
 
 
+
 By requirement, a lamp whose driver supports the <b>GUID_DEVINTERFACE_LAMP</b> interface is required to support emitting white light.
 
 The payload of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_capabilities_white.md">LAMP_CAPABILITIES_WHITE</a> structure.
 
 The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If this field evaluates to <b>FALSE</b>, it means that the underlying device only supports the on/off switch and the light intensity cannot be adjusted.
+
 
 

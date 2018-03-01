@@ -7,8 +7,8 @@ old-location: debugger\endprocessserver.htm
 old-project: debugger
 ms.assetid: 45421556-6781-4ec4-9ee1-783df99437ae
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient2::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient5, dbgeng/IDebugClient3::EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient5 interface, EndProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, EndProcessServer method [Windows Debugging], IDebugClient2 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], EndProcessServer method, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient5::EndProcessServer, IDebugClient3::EndProcessServer, IDebugClient4::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, debugger.endprocessserver
+ms.date: 2/23/2018
+ms.keywords: EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging], IDebugClient2 interface, EndProcessServer method [Windows Debugging], IDebugClient3 interface, EndProcessServer method [Windows Debugging], IDebugClient4 interface, EndProcessServer method [Windows Debugging], IDebugClient5 interface, EndProcessServer,IDebugClient5.EndProcessServer, IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, IDebugClient3::EndProcessServer, IDebugClient4 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient5, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient5::EndProcessServer, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, dbgeng/IDebugClient2::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, debugger.endprocessserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient2.EndProcessServer
 -	IDebugClient3.EndProcessServer
 -	IDebugClient4.EndProcessServer
 -	IDebugClient5.EndProcessServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::EndProcessServer method
@@ -78,7 +78,9 @@ Specifies the process server to shut down.  This handle must have been previousl
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,38 +97,58 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about process servers and remote debugging, see <a href="https://msdn.microsoft.com/ed7ea3dc-07d1-481c-90e0-7f0b0e77ad42">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::EndProcessServer method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::EndProcessServer method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

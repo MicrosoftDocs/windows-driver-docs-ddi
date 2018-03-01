@@ -7,8 +7,8 @@ old-location: netvista\protocolunbindadapterex.htm
 old-project: netvista
 ms.assetid: 19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolunbindadapterex, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ProtocolUnbindAdapterEx, PROTOCOL_UNBIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX, ndis/ProtocolUnbindAdapterEx, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
+ms.date: 2/16/2018
+ms.keywords: PROTOCOL_UNBIND_ADAPTER_EX, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	ProtocolUnbindAdapterEx
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 ## -returns
 
 
+
 <i>ProtocolUnbindAdapterEx</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,16 +118,19 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 <td width="60%">
 <i>ProtocolUnbindAdapterEx</i> did not complete the unbind operation and the operation will be
        completed asynchronously. The protocol driver must call the 
-       <mshelp:link keywords="netvista.ndiscompleteunbindadapterex" tabindex="0"><b>
-       NdisCompleteUnbindAdapterEx</b></mshelp:link> function after the unbind operation is complete.
+       <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">
+       NdisCompleteUnbindAdapterEx</a> function after the unbind operation is complete.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>ProtocolUnbindAdapterEx</i> is a required function. As the reciprocal of the 
@@ -145,16 +150,16 @@ Before calling
     the binding to the underlying miniport adapter. If 
     <b>NdisCloseAdapterEx</b> returns NDIS_STATUS_SUCCESS, the close operation is complete. If 
     <b>NdisCloseAdapterEx</b> returns NDIS_STATUS_PENDING, NDIS calls the protocol driver's 
-    <mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
-    ProtocolCloseAdapterCompleteEx</i></mshelp:link> function after the close operation is complete.
+    <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+    ProtocolCloseAdapterCompleteEx</a> function after the close operation is complete.
 
 Before calling 
     <b>NdisCloseAdapterEx</b>, the protocol driver should clear the multicast address list and packet filters
     for the binding. The protocol driver sets the binding multicast address list to <b>NULL</b>, and the packet
     filter to zero. For more information, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a> and 
-    <mshelp:link keywords="netvista.oid_gen_current_packet_filter" tabindex="0">
-    OID_GEN_CURRENT_PACKET_FILTER</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">
+    OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 If a wake-up pattern has been specified, the protocol driver should remove it with the   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID and clear the receive side scaling parameters with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID. An NDIS 6.20 and later protocol driver should remove a wake-on-LAN pattern with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569771">OID_PM_REMOVE_WOL_PATTERN</a> OID and remove a low-power protocol offload with the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
@@ -172,8 +177,8 @@ If the protocol driver has completed the unbind operation,
 <i>ProtocolUnbindAdapterEx</i> can return NDIS_STATUS_PENDING to defer the completion of the unbind
     operation to a later time. If 
     <i>ProtocolUnbindAdapterEx</i> returns NDIS_STATUS_PENDING, the driver must eventually call the 
-    <mshelp:link keywords="netvista.ndiscompleteunbindadapterex" tabindex="0"><b>
-    NdisCompleteUnbindAdapterEx</b></mshelp:link> function to complete the unbind operation. If the 
+    <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">
+    NdisCompleteUnbindAdapterEx</a> function to complete the unbind operation. If the 
     <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a> function returned
     NDIS_STATUS_PENDING, the driver can complete the unbind operation in 
     <i>ProtocolCloseAdapterCompleteEx</i>. 
@@ -196,21 +201,26 @@ As soon as
 
 NDIS calls 
     <i>ProtocolUnbindAdapterEx</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Updating_Power_Management_and_RSS_Settings"></a><a id="updating_power_management_and_rss_settings"></a><a id="UPDATING_POWER_MANAGEMENT_AND_RSS_SETTINGS"></a>Updating Power Management and RSS Settings</h3>NDIS 6.0 and 6.1 protocol drivers should perform the following operations where applicable:
+
+<h3><a id="Updating_Power_Management_and_RSS_Settings"></a><a id="updating_power_management_and_rss_settings"></a><a id="UPDATING_POWER_MANAGEMENT_AND_RSS_SETTINGS"></a>Updating Power Management and RSS Settings</h3>
+NDIS 6.0 and 6.1 protocol drivers should perform the following operations where applicable:
+
 <ol>
 <li>
 Remove power management wake on LAN (WOL) patterns from the miniport adapter with the 
-       <mshelp:link keywords="netvista.oid_pnp_remove_wake_up_pattern" tabindex="0">
-       OID_PNP_REMOVE_WAKE_UP_PATTERN</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">
+       OID_PNP_REMOVE_WAKE_UP_PATTERN</a> OID.
 
 </li>
 <li>
 Clear the receive side scaling parameters with the 
-       <mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-       OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+       OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
 
 </li>
-</ol>NDIS 6.20 and later protocol drivers should perform the following operations:
+</ol>
+NDIS 6.20 and later protocol drivers should perform the following operations:
+
 <ol>
 <li>
 Remove power management WOL patterns from the miniport adapter with the 
@@ -219,13 +229,16 @@ Remove power management WOL patterns from the miniport adapter with the
 </li>
 <li>
 Remove power management protocol offloads from the miniport adapter with the 
-       <mshelp:link keywords="netvista.oid_pm_remove_protocol_offload" tabindex="0">
-       OID_PM_REMOVE_PROTOCOL_OFFLOAD</mshelp:link> OID.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-remove-protocol-offload">
+       OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
 </li>
-</ol><h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolUnbindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+</ol>
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolUnbindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolUnbindAdapterEx</i> function that is named "MyUnbindAdapterEx", use the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -235,7 +248,9 @@ For example, to define a <i>ProtocolUnbindAdapterEx</i> function that is named "
 <pre>PROTOCOL_UNBIND_ADAPTER_EX MyUnbindAdapterEx;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -251,39 +266,61 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-
-<mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
-   ProtocolCloseAdapterCompleteEx</i></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
-
-<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+   ProtocolCloseAdapterCompleteEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_UNBIND_ADAPTER_EX callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_UNBIND_ADAPTER_EX callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

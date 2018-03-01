@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYHWCONTEXT
-title: _D3DDDICB_DESTROYHWCONTEXT
+title: "_D3DDDICB_DESTROYHWCONTEXT"
 author: windows-driver-content
 description: A structure that holds information to destroy a hardware context.
 old-location: display\d3dddicb_destroyhwcontext.htm
 old-project: display
 ms.assetid: 9040AEAF-3F66-4F76-B9CD-36370BC2F5B6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_destroyhwcontext, _D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	D3DDDICB_DESTROYHWCONTEXT
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 old-project: ifsk
 ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml, ntifs/RtlUpcaseUnicodeToCustomCPN
+ms.date: 2/16/2018
+ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	RtlUpcaseUnicodeToCustomCPN
 product: Windows
 targetos: Windows

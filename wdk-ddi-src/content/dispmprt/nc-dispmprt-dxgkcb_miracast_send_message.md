@@ -7,8 +7,8 @@ old-location: display\dxgkcbmiracastsendmessage.htm
 old-project: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkcbmiracastsendmessage, DxgkCbMiracastSendMessage callback function [Display Devices], DxgkCbMiracastSendMessage, DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE, dispmprt/DxgkCbMiracastSendMessage
+ms.date: 2/24/2018
+ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dispmprt.h
-apiname: 
+api_name:
 -	DxgkCbMiracastSendMessage
 product: Windows
 targetos: Windows
@@ -86,16 +86,21 @@ A driver-supplied handle to the Miracast display device. This handle was origina
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer
+### -param *pInputBuffer [in]
 
+A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
+
+See Remarks for more info about the input buffer.
 
 
 ### -param OutputBufferSize
 
 
+### -param *pOutputBuffer [out]
 
-### -param *pOutputBuffer
+A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
 
+See Remarks for more info about the output buffer.
 
 
 ### -param pCallback [in, optional]
@@ -112,26 +117,13 @@ See Return value and Remarks sections for more about calls to <a href="..\dispmp
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
 
-#### - pOutputBuffer [out]
-
-A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
-
-See Remarks for more info about the output buffer.
-
-
 #### - OutBufferSize [in]
 
 The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
-#### - pInputBuffer [in]
-
-A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
-
-See Remarks for more info about the input buffer.
-
-
 ## -returns
+
 
 
 Returns <b>STATUS_PENDING</b> if it successfully delivers the message. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
@@ -140,13 +132,18 @@ If the display miniport driver needs to know the status of message handling in u
 
 
 
+
 ## -remarks
+
 
 
 If the display miniport driver supplies the <i>pInputBuffer</i> and <i>pOutputBuffer</i> buffers, it is the driver’s responsibility to hold these two buffers until the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a> function is called. Otherwise, a random memory corruption issue can be created.
 
 If the driver supplies the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a> in the <i>pCallback</i> parameter, it's possible that <b>DxgkCbMiracastSendMessageCallback</b> will return before <b>DxgkCbMiracastSendMessage</b> returns.
-<h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>Here's example code that shows how to use this function:
+
+<h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>
+Here's example code that shows how to use this function:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -205,17 +202,24 @@ DriverCallbackFunction(
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
- 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_MIRACAST_SEND_MESSAGE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_MIRACAST_SEND_MESSAGE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:wlanihv._DOT11EXT_IHV_CONNECTIVITY_PROFILE
-title: _DOT11EXT_IHV_CONNECTIVITY_PROFILE
+title: "_DOT11EXT_IHV_CONNECTIVITY_PROFILE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_connectivity_profile.htm
 old-project: netvista
 ms.assetid: 56ef9b59-5dbb-4720-bae1-7af6d9dbc110
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11ext_ihv_connectivity_profile, wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE structure [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE, wlanihv/PDOT11EXT_IHV_CONNECTIVITY_PROFILE, _DOT11EXT_IHV_CONNECTIVITY_PROFILE, Native_802.11_data_types_a0d8e30b-4a72-44d2-a83a-c7b1785f2c8e.xml, *PDOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_a0d8e30b-4a72-44d2-a83a-c7b1785f2c8e.xml, PDOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_CONNECTIVITY_PROFILE, netvista.dot11ext_ihv_connectivity_profile, wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE, wlanihv/PDOT11EXT_IHV_CONNECTIVITY_PROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlanihv.h
-apiname: 
+api_name:
 -	DOT11EXT_IHV_CONNECTIVITY_PROFILE
 product: Windows
 targetos: Windows
@@ -72,10 +72,4 @@ typedef struct _DOT11EXT_IHV_CONNECTIVITY_PROFILE {
 ### -field pszXmlFragmentIhvConnectivity
 
 A pointer to the string that defines the IHV connectivity profile.
-
-
-### -field pszXmlFragmentIhvConnectivity.string
-
- 
-
 

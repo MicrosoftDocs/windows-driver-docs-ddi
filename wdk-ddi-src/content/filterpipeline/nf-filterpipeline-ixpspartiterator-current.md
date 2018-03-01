@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_current.htm
 old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Current method [Print Devices], IXpsPartIterator interface, Current, Current method [Print Devices], filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, IXpsPartIterator, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current
+ms.date: 2/23/2018
+ms.keywords: Current method [Print Devices], Current method [Print Devices], IXpsPartIterator interface, Current,IXpsPartIterator.Current, IXpsPartIterator, IXpsPartIterator interface [Print Devices], Current method, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IXpsPartIterator.Current
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ The current part in the iterator. If <b>NULL</b>, the <i>pUri</i> parameter migh
 ## -returns
 
 
+
 <code>Current</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 Filters should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556342">IXpsPartIterator::IsDone</a> method before calling <code>Current</code>. One or both parameters can be <b>NULL</b>.
+
 
 

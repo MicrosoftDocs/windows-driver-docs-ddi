@@ -7,8 +7,8 @@ old-location: devtest\vdbgprintexwithprefix.htm
 old-project: devtest
 ms.assetid: bd7acc4e-9941-45a1-ad90-996e80c1937b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: vDbgPrintExWithPrefix
+ms.date: 2/23/2018
+ms.keywords: DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: vDbgPrintExWithPrefix
-req.alt-loc: NtDll.dll,NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -30,7 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
-req.irql: <= DIRQL (see Comments section)
+req.irql: "<= DIRQL (see Comments section)"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	NtDll.dll
+-	NtosKrnl.exe
+api_name:
+-	vDbgPrintExWithPrefix
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # vDbgPrintExWithPrefix function
 
 
-
 ## -description
+
+
 The <b>vDbgPrintExWithPrefix</b> routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.
 
 
-
 ## -syntax
+
 
 ````
 ULONG vDbgPrintExWithPrefix(
@@ -58,6 +69,9 @@ ULONG vDbgPrintExWithPrefix(
 
 
 ## -parameters
+
+
+
 
 ### -param Prefix [in]
 
@@ -113,10 +127,18 @@ An argument list for the format string. The <b>vDbgPrintExWithPrefix</b> routine
 
 
 ## -returns
+
+
+
 <b>vDbgPrintExWithPrefix</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine returns the appropriate error code.
 
 
+
+
 ## -remarks
+
+
+
 Only kernel-mode drivers can call the <b>vDbgPrintExWithPrefix</b> routine.
 
 <b>vDbgPrintExWithPrefix</b> can be called at IRQL &lt;= DIRQL. However, you can use Unicode format codes (<b>%wc</b> and <b>%ws</b>) only at IRQL = PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, a call to <b>vDbgPrintExWithPrefix</b> at IRQL &gt; DIRQL can cause deadlocks.
@@ -127,23 +149,26 @@ Unless it is absolutely necessary, you should not obtain a string from user inpu
 
 There is no upper limit to the size of the <i>Format</i> string or the number of arguments in the <i>arglist</i> list. However, any single call to <b>vDbgPrintExWithPrefix</b> transmits only 512 bytes of information. 
 
-There is also a limit to the size of the buffer that the debugger uses. For more information about this limit, see <a href="devtest.reading_and_filtering_debugging_messages#ddk_the_dbgprint_buffer_and_the_debugger_tools#ddk_the_dbgprint_buffer_and_the_debugger_tools">The DbgPrint Buffer and the Debugger</a>.
+There is also a limit to the size of the buffer that the debugger uses. For more information about this limit, see <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">The DbgPrint Buffer and the Debugger</a>.
 
 This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h.
 
 
+
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
-</dt>
-</dl>
- 
+
+
+
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintExWithPrefix routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintExWithPrefix routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

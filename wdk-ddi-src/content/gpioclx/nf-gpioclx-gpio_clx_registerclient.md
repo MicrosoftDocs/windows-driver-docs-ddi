@@ -7,8 +7,8 @@ old-location: gpio\gpio_clx_registerclient.htm
 old-project: GPIO
 ms.assetid: C87385E0-7B3F-44DA-90D0-E644C58AB375
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gpioclx/GPIO_CLX_RegisterClient, GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports]
+ms.date: 2/15/2018
+ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports], gpioclx/GPIO_CLX_RegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Msgpioclxstub.lib
 -	Msgpioclxstub.dll
-apiname: 
+api_name:
 -	GPIO_CLX_RegisterClient
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE
+req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---
 
 # GPIO_CLX_RegisterClient function
@@ -82,13 +82,15 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 
 ### -param RegistryPath [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
 
 
 ## -returns
 
 
+
 <b>GPIO_CLX_RegisterClient</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ Out of memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The GPIO controller driver calls this method to register its event callback functions with GpioClx. Typically, the driver calls this method from its <b>DriverEntry</b> routine, which runs shortly after the driver is loaded into memory.
@@ -140,19 +145,28 @@ Later, just before the GPIO controller driver unloads, the driver calls the <a h
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439498">GPIO_CLX_UnregisterClient</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439498">GPIO_CLX_UnregisterClient</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CLX_RegisterClient method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CLX_RegisterClient method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

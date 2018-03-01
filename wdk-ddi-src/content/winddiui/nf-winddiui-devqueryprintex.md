@@ -7,8 +7,8 @@ old-location: print\devqueryprintex.htm
 old-project: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DevQueryPrintEx function [Print Devices], winddiui/DevQueryPrintEx, DevQueryPrintEx, print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml
+ms.date: 2/23/2018
+ms.keywords: DevQueryPrintEx, DevQueryPrintEx function [Print Devices], print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, winddiui/DevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	WinSpool.drv
-apiname: 
+api_name:
 -	DevQueryPrintEx
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -76,11 +76,14 @@ Caller-supplied pointer to a <a href="..\winddiui\ns-winddiui-_devqueryprint_inf
 ## -returns
 
 
+
 If the print job can be printed, the function should return <b>TRUE</b>; otherwise, it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Printer interface DLLs must define a <b>DevQueryPrintEx</b> function. The function is called by the print spooler if the <b>Hold Mismatched Documents</b> option is checked on the <b>Advanced</b> page of the printer's property sheet. If the function returns <b>TRUE</b>, the spooler queues the print job for printing. Otherwise, the job is held, under the assumption that the printer will eventually be reconfigured so the job can print.
@@ -90,5 +93,6 @@ The received <a href="..\winddiui\ns-winddiui-_devqueryprint_info.md">DEVQUERYPR
 If the job can be printed, the function should just return <b>TRUE</b>. If the job should be held until later, the function should return <b>FALSE</b> after supplying a displayable text string (in the buffer pointed to by the DEVQUERYPRINT_INFO structure's <b>pszErrorStr</b> member) describing the reason the job cannot be printed.
 
 Displayable text strings should be defined as string resources in a resource file.
+
 
 

@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetadjustedcolorimetry.htm
 old-project: display
 ms.assetid: C37E0DE1-E849-440F-A11A-BB0E3F50BDFA
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_settargetadjustedcolorimetry, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], display.dxgkddi_settargetadjustedcolorimetry, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ NTSTATUS APIENTRY DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY(
 ## -returns
 
 
+
 The driver returns STATUS_SUCCESS if it has updates its colorimetry values based on the supplied data.
 
 
@@ -95,7 +96,9 @@ If the driver fails, the OS will revert to standard SDR values for all parameter
 
 
 
+
 ## -remarks
+
 
 
 Since current display devices have been found to have incomplete and inaccurate descriptions of their colorimetry related parameters, overrides are necessary.  The overrides take two forms: driver overrides and OS overrides for invalid parameters.  In future OS versions it is expected that additional overrides will be implemented.  To keep the driver in sync with the parameters that the OS is using, the OS will call DxgkDdiSetTargetAdjustedColorimetry for each target.
@@ -109,6 +112,7 @@ The FormatBitDepths and StandardColorimetryFlags in the DXGK_COLORIMETRY are zer
 
 
 This function is always called at PASSIVE level so the supporting code should be made pageable where possible.
+
 
 
 

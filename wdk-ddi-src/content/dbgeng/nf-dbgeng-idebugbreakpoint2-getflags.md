@@ -7,8 +7,8 @@ old-location: debugger\getflags.htm
 old-project: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetFlags, GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, dbgeng/IDebugBreakpoint2::GetFlags, IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint interface, debugger.getflags, IDebugBreakpoint2, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetFlags method
+ms.date: 2/23/2018
+ms.keywords: ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging], IDebugBreakpoint interface, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, GetFlags,IDebugBreakpoint2.GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.GetFlags
 -	IDebugBreakpoint2.GetFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetFlags method
@@ -76,6 +76,7 @@ The breakpoint's flags.  For more information about the flag bit field and an ex
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,17 +93,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the breakpoint's flags.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

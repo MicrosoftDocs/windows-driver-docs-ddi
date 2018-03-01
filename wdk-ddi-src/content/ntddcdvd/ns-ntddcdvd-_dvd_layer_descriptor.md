@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddcdvd._DVD_LAYER_DESCRIPTOR
-title: _DVD_LAYER_DESCRIPTOR
+title: "_DVD_LAYER_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD layer descriptor.
 old-location: storage\dvd_layer_descriptor.htm
 old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.dvd_layer_descriptor, ntddcdvd/PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, _DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR
+ms.date: 2/24/2018
+ms.keywords: "*PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], _DVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddcdvd.h
-apiname: 
+api_name:
 -	DVD_LAYER_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ Specifies the version of the specified book that this media complies with.
 ### -field BookType
 
 Specifies the DVD book this media complies with. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,12 +145,14 @@ DVD+RW
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MinimumRate
 
 Specifies the read rate to use for the media. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,7 +208,8 @@ DVD+RW
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DiskSize
@@ -216,6 +220,7 @@ Specifies the physical size of the media. A value of zero indicates 120 mm. A va
 ### -field LayerType
 
 Indicates the type of layer. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -251,7 +256,8 @@ Rewritable layer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TrackPath
@@ -272,6 +278,7 @@ Reserved.
 ### -field TrackDensity
 
 Indicates the track width used for this media in units of micrometers per track. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -307,12 +314,14 @@ Indicates the track width used for this media in units of micrometers per track.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field LinearDensity
 
 Indicates the minimum/maximum pit length used for this layer in units of micrometers per bit. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -368,12 +377,14 @@ Indicates the minimum/maximum pit length used for this layer in units of microme
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field StartingDataSector
 
 Specifies the first block that contains user data. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -399,7 +410,8 @@ An initial block value of 0x30000 indicates that the media type is DVD-RAM or DV
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field EndDataSector
@@ -425,7 +437,9 @@ Indicates, if set to 1, the presence of data in the burst cutting area (BCA). If
 ## -remarks
 
 
+
 For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. 
+
 
 
 
@@ -433,9 +447,11 @@ For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specif
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_LAYER_DESCRIPTOR structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_LAYER_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

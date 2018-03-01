@@ -1,14 +1,14 @@
 ---
 UID: NS:ndischimney._OFFLOAD_STATE_HEADER
-title: _OFFLOAD_STATE_HEADER
+title: "_OFFLOAD_STATE_HEADER"
 author: windows-driver-content
 description: The OFFLOAD_STATE_HEADER structure serves as a header in an offload state structure.
 old-location: netvista\offload_state_header.htm
 old-project: netvista
 ms.assetid: 9becc611-ede9-4285-b2d7-c53747d098a9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndischimney/POFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER structure [Network Drivers Starting with Windows Vista], OFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_STATE_HEADER, tcp_chim_struct_83829bba-2901-4b98-ba4a-4ca2fe20fc25.xml, netvista.offload_state_header, *POFFLOAD_STATE_HEADER, ndischimney/OFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER
+ms.date: 2/16/2018
+ms.keywords: "*POFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER structure [Network Drivers Starting with Windows Vista], POFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_STATE_HEADER, ndischimney/OFFLOAD_STATE_HEADER, ndischimney/POFFLOAD_STATE_HEADER, netvista.offload_state_header, tcp_chim_struct_83829bba-2901-4b98-ba4a-4ca2fe20fc25.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndischimney.h
-apiname: 
+api_name:
 -	OFFLOAD_STATE_HEADER
 product: Windows
 targetos: Windows
@@ -85,21 +85,22 @@ Reserved.
 ## -remarks
 
 
+
 The following offload state structures include an OFFLOAD_STATE_HEADER structure:
 
 
-<mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
 
 
-<mshelp:link keywords="netvista.neighbor_offload_state_cached" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_CACHED</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+       NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-       NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+       NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
@@ -111,8 +112,8 @@ The following offload state structures include an OFFLOAD_STATE_HEADER structure
 
 
 
-<mshelp:link keywords="netvista.path_offload_state_delegated" tabindex="0"><b>
-       PATH_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">
+       PATH_OFFLOAD_STATE_DELEGATED</a>
 
 
 
@@ -125,6 +126,7 @@ The following offload state structures include an OFFLOAD_STATE_HEADER structure
 
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
 
 
 

@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadsendcomplete.htm
 old-project: netvista
 ms.assetid: 1689b6f9-88f3-456f-9a7c-c6b4e76cb336
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndistcpoffloadsendcomplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadSendComplete, NDIS_TCP_OFFLOAD_SEND_COMPLETE, NDIS_TCP_OFFLOAD_SEND_COMPLETE, ndischimney/NdisTcpOffloadSendComplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
+ms.date: 2/16/2018
+ms.keywords: NDIS_TCP_OFFLOAD_SEND_COMPLETE, NdisTcpOffloadSendComplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadSendComplete, netvista.ndistcpoffloadsendcomplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndischimney.h
-apiname: 
+api_name:
 -	NdisTcpOffloadSendComplete
 product: Windows
 targetos: Windows
@@ -76,8 +76,8 @@ VOID NdisTcpOffloadSendComplete(
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> function.
 
 
 ### -param NetBufferList [in]
@@ -86,18 +86,21 @@ A pointer to a
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      The offload target obtained these structures in one or more calls to its 
-     <mshelp:link keywords="netvista.miniporttcpoffloadsend" tabindex="0"><i>
-     MiniportTcpOffloadSend</i></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">
+     MiniportTcpOffloadSend</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 To improve system performance, an offload target can create a linked list that contains 
@@ -110,6 +113,7 @@ To improve system performance, an offload target can create a linked list that c
 Before completing one or more send requests, the offload target must do the following for each
     NET_BUFFER_LIST structure that it passes to the 
     <b>NdisTcpOffloadSendComplete</b> function:
+
 <ul>
 <li>
 Write a status value to the 
@@ -119,8 +123,8 @@ Write a status value to the
 <li>NDIS_STATUS_SUCCESS indicates that all data associated with the NET_BUFFER_LIST was successfully
        sent by the offload target and that the offload target received from the remote host an acknowledgment
        for all the transmitted data. Note that this differs from the non-offload send function, 
-       <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-       MiniportSendNetBufferLists</i></mshelp:link>, which does not monitor acknowledgments.</li>
+       <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+       MiniportSendNetBufferLists</a>, which does not monitor acknowledgments.</li>
 <li>A status value other than NDIS_STATUS_SUCCESS--for example, a status value of
        NDIS_STATUS_REQUEST_ABORTED or NDIS_STATUS_UPLOAD_IN_PROGRESS--indicates that the send data was not
        successfully acknowledged. The offload target might or might not have sent the data. The offload
@@ -143,7 +147,8 @@ Write a status value to the
        operation.</li>
 </ul>
 </li>
-</ul><ul>
+</ul>
+<ul>
 <li>
 Specify the number of data bytes sent. The offload target does this by calling the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro with an 
@@ -153,8 +158,8 @@ Specify the number of data bytes sent. The offload target does this by calling t
 </li>
 <li>
 Call the 
-      <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-      NdisAdvanceNetBufferDataStart</b></mshelp:link> function for each NET_BUFFER structure that is associated with the
+      <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+      NdisAdvanceNetBufferDataStart</a> function for each NET_BUFFER structure that is associated with the
       NET_BUFFER_LIST structure. The 
       <i>NetBuffer</i> parameter passed to the 
       <b>NdisAdvanceNetBufferDataStart</b> function should point to the NET_BUFFER structure. The 
@@ -166,24 +171,37 @@ Call the
 </ul>
 
 
-## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
- 
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_SEND_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_SEND_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

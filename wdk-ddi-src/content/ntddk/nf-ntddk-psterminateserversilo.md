@@ -7,8 +7,8 @@ old-location: kernel\psterminateserversilo.htm
 old-project: kernel
 ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsTerminateServerSilo, PsTerminateServerSilo, kernel.psterminateserversilo
+ms.date: 2/24/2018
+ms.keywords: PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo, ntddk/PsTerminateServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PsTerminateServerSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsTerminateServerSilo function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - ExistStatus [in]
 
 The exit status for the silo.
@@ -87,15 +88,19 @@ The exit status for the silo.
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This routine can be called within or from outside a silo context.
     Note that this is different from a BugCheck; this routine will return to
     the caller.
+
 
 

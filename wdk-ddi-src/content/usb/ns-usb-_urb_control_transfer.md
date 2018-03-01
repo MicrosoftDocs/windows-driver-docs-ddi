@@ -1,14 +1,14 @@
 ---
 UID: NS:usb._URB_CONTROL_TRANSFER
-title: _URB_CONTROL_TRANSFER
+title: "_URB_CONTROL_TRANSFER"
 author: windows-driver-content
 description: The _URB_CONTROL_TRANSFER structure is used by USB client drivers to transfer data to or from a control pipe.
 old-location: buses\_urb_control_transfer.htm
 old-project: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses._urb_control_transfer, _URB_CONTROL_TRANSFER structure [Buses], USBD_DEFAULT_PIPE_TRANSFER, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, USBD_SHORT_TRANSFER_OK, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml, USBD_TRANSFER_DIRECTION_IN, usb/_URB_CONTROL_TRANSFER
+ms.date: 2/24/2018
+ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses], buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usb.h
-apiname: 
+api_name:
 -	_URB_CONTROL_TRANSFER
 product: Windows
 targetos: Windows
@@ -81,31 +81,6 @@ struct _URB_CONTROL_TRANSFER {
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_CONTROL_TRANSFER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_TRANSFER)</code>.
 
 
-### -field _URB_HEADER
-
- 
-
-
-### -field _URB
-
- 
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
-### -field _URB_HCD_AREA
-
- 
-
-
 ### -field PipeHandle
 
 Handle for the control pipe.
@@ -119,6 +94,7 @@ If target is a non-default control endpoint, <b>PipeHandle</b> specifies an opaq
 
 
 Specifies zero, one, or a combination of the following flags:
+
 
 
 <table>
@@ -175,7 +151,8 @@ Is set to direct the host controller to do a control transfer on the default  co
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransferBufferLength
@@ -193,6 +170,21 @@ Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is sup
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
 
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field _URB
+
+ 
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
 ### -field SetupPacket
 
 Specifies a USB-defined request setup packet. The format of a USB request setup packet is found in the USB core specification.
@@ -201,25 +193,35 @@ Specifies a USB-defined request setup packet. The format of a USB request setup 
 ## -remarks
 
 
+
 The <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a> structure is identical to <b>URB_CONTROL_TRANSFER</b>, except that it provides a timeout value in the <b>Timeout</b> field.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
 
+
 ## -see-also
-
-<a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_TRANSFER structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_TRANSFER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

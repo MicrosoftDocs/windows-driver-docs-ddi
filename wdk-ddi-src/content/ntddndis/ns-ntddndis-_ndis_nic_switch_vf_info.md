@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VF_INFO
-title: _NDIS_NIC_SWITCH_VF_INFO
+title: "_NDIS_NIC_SWITCH_VF_INFO"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VF_INFO structure specifies the information about a PCI Express (PCIe) Virtual Function (VF) that has been allocated on the network adapter.
 old-location: netvista\ndis_nic_switch_vf_info.htm
 old-project: netvista
 ms.assetid: 1af8b1cd-c594-49c7-8c25-674226295d90
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vf_info, *PNDIS_NIC_SWITCH_VF_INFO, ntddndis/NDIS_NIC_SWITCH_VF_INFO, PNDIS_NIC_SWITCH_VF_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_VF_INFO, ntddndis/PNDIS_NIC_SWITCH_VF_INFO, _NDIS_NIC_SWITCH_VF_INFO
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO, NDIS_NIC_SWITCH_VF_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_INFO, PNDIS_NIC_SWITCH_VF_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_INFO, netvista.ndis_nic_switch_vf_info, ntddndis/NDIS_NIC_SWITCH_VF_INFO, ntddndis/PNDIS_NIC_SWITCH_VF_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddndis.h
-apiname: 
+api_name:
 -	NDIS_NIC_SWITCH_VF_INFO
 product: Windows
 targetos: Windows
@@ -86,6 +86,14 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NDIS_NIC_SWITCH_VF_INFO_REVISION_1
+
+Original version for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_INFO_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
@@ -96,12 +104,16 @@ A ULONG value that contains a bitwise OR of flags. This member is reserved for N
 An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch.
 
 
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div>
+<div> </div>
 
 ### -field VMName
 
 An NDIS_VM_NAME value that specifies the name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
-<div class="alert"><b>Note</b>  The Hyper-V child partition is also known as a virtual machine (VM).</div><div> </div>
+
+<div class="alert"><b>Note</b>  The Hyper-V child partition is also known as a virtual machine (VM).</div>
+<div> </div>
 
 ### -field VMFriendlyName
 
@@ -146,14 +158,8 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 An NDIS_VF_RID that specifies the PCI Express (PCIe) Requestor ID (RID) of the VF.
 
 
-##### - Header.NDIS_NIC_SWITCH_VF_INFO_REVISION_1
-
-Original version for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_INFO_REVISION_1.
-
-
 ## -remarks
+
 
 
 An <b>NDIS_NIC_SWITCH_VF_INFO</b> structure contains information about a VF that was previously created through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>. When this OID request is issued, one or more <b>NDIS_NIC_SWITCH_VF_INFO</b> structures are returned within an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info_array.md">NDIS_NIC_SWITCH_VF_INFO_ARRAY</a> structure.
@@ -162,19 +168,28 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+
 ## -see-also
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info_array.md">NDIS_NIC_SWITCH_VF_INFO_ARRAY</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info_array.md">NDIS_NIC_SWITCH_VF_INFO_ARRAY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NIC_SWITCH_VF_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NIC_SWITCH_VF_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

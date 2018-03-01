@@ -7,13 +7,13 @@ old-location: storage\receive_token_information_header.htm
 old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SERVICE_ACTION_POPULATE_TOKEN, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], TRANSFER_COUNT_UNITS_GIBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_MEBIBYTES, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_WRITE_USING_TOKEN, *PRECEIVE_TOKEN_INFORMATION_HEADER
+ms.date: 2/24/2018
+ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], SERVICE_ACTION_POPULATE_TOKEN, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_GIBIBYTES, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: scsi.h
-req.include-header: Scsi.h
+req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	scsi.h
-apiname: 
+api_name:
 -	RECEIVE_TOKEN_INFORMATION_HEADER
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The amount of data available in the <b>SenseData</b> array and any additional re
 ### -field ResponseToServiceAction
 
 A response code indicating which command action the response is for. The service action codes are the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -115,7 +116,8 @@ The response information is for a WRITE USING TOKEN command.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved1
@@ -126,6 +128,7 @@ Reserved.
 ### -field OperationStatus
 
 The current status of the copy operation. The status can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -208,7 +211,8 @@ The operation was terminated. Possibly by an existing resource reservation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved2
@@ -244,6 +248,7 @@ The length, in bytes, of the data in <b>SenseData</b>.
 ### -field TransferCountUnits
 
 The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -329,7 +334,8 @@ Transfer count is not an exponent, but in units of logical block length.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransferCount
@@ -355,19 +361,23 @@ Sense data returned for the copy operation.
 ## -remarks
 
 
-If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
+
+If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 
 
+
 ## -see-also
 
-<a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+<a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

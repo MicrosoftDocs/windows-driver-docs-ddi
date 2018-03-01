@@ -7,8 +7,8 @@ old-location: netvista\ndisfgetoptionalswitchhandlers.htm
 old-project: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers, ndis/NdisFGetOptionalSwitchHandlers
+ms.date: 2/16/2018
+ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisFGetOptionalSwitchHandlers
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFGetOptionalSwitchHandlers function
@@ -90,9 +90,12 @@ A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch
 A pointer to a caller-allocated  <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 
 For more information about these handler functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh598172">Hyper-V Extensible Switch Handler Functions</a>.
-<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
+<div> </div>
 
 ## -returns
+
 
 
 If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_SUCCESS. Otherwise, it returns NDIS_STATUS_NOT_SUPPORTED if the extensible switch extension is not bound to the underlying extensible switch component.
@@ -101,7 +104,9 @@ If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_
 
 
 
+
 ## -remarks
+
 
 
 The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function. 
@@ -112,17 +117,24 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
 
 <b></b>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFGetOptionalSwitchHandlers function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFGetOptionalSwitchHandlers function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

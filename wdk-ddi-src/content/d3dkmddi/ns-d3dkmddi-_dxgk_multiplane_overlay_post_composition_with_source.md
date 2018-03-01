@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
-title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE"
 author: windows-driver-content
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for post composition transform support.
 old-location: display\dxgk_multiplane_overlay_post_composition_with_source.htm
 old-project: display
 ms.assetid: F997E3DB-630D-41C8-B659-36376E05A6B7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices], display.dxgk_multiplane_overlay_post_composition_with_source, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+ms.date: 2/24/2018
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, display.dxgk_multiplane_overlay_post_composition_with_source
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 product: Windows
 targetos: Windows

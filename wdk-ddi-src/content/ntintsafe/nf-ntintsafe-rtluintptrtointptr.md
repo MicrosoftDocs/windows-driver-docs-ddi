@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtointptr.htm
 old-project: kernel
 ms.assetid: 5340A64A-3A26-4EE1-9829-BFF4F1951FEC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToIntPtr, RtlUIntPtrToIntPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToIntPtr, kernel.rtluintptrtointptr
+ms.date: 2/24/2018
+ms.keywords: RtlUIntPtrToIntPtr, RtlUIntPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtluintptrtointptr, ntintsafe/RtlUIntPtrToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlUIntPtrToIntPtr
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUIntPtrToPtrdiffT
 </li>
@@ -92,4 +94,5 @@ This function uses the following alternate name:
 <li>RtlSizeTToPtrdiffT
 </li>
 </ul>
+
 

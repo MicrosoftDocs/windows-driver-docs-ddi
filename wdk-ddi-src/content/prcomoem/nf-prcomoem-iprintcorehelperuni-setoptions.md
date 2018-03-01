@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_setoptions.htm
 old-project: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SetOptions, SetOptions method [Print Devices], prcomoem/IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], IPrintCoreHelperUni interface, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method, IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions
+ms.date: 2/23/2018
+ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method, IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelperUni interface, SetOptions,IPrintCoreHelperUni.SetOptions, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Prcomoem.h
-apiname: 
+api_name:
 -	IPrintCoreHelperUni.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -107,6 +107,7 @@ A pointer to a variable that receives the number of feature-option pairs that we
 ### -param pdwResult [out]
 
 A pointer to a variable that receives the status of the conflict resolution. The status can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -142,7 +143,8 @@ At least one constraint that was specified in the GPD view of the configuration 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pFOPairs[] [in]
@@ -153,7 +155,9 @@ An array of <a href="..\prcomoem\ns-prcomoem-_print_feature_option.md">PRINT_FEA
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::SetOptions</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -192,13 +196,16 @@ Memory for the result array could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For other failures, the method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 <code>IPrintCoreHelperUni::SetOptions</code> can be used to make multiple settings changes simultaneously and to resolve constraints after all of the selected options have been set. Changes to options are applied sequentially, starting from the beginning of the <i>pFOPairs</i> array, so if the same feature appears twice in this array, only the last option for the feature will be selected. Changes to options are not committed unless the <i>bResolveConflicts</i> parameter is <b>TRUE</b>.
@@ -207,13 +214,20 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552937">IPrintCoreHelperUni::GetOption</a>
 
- 
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetOptions method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

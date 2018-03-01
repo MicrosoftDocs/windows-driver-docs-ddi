@@ -7,8 +7,8 @@ old-location: kernel\resourcemanagernotification.htm
 old-project: kernel
 ms.assetid: 86d8632a-be39-46ed-8ec6-f65edb4bb017
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.resourcemanagernotification, (*PTM_RM_NOTIFICATION) callback function [Kernel-Mode Driver Architecture], (*PTM_RM_NOTIFICATION), PTM_RM_NOTIFICATION, PTM_RM_NOTIFICATION, wdm/(*PTM_RM_NOTIFICATION), ktm_ref_f4bc7393-b895-4a03-8eb6-b0a71f26e1d5.xml
+ms.date: 2/24/2018
+ms.keywords: "(*PTM_RM_NOTIFICATION), (*PTM_RM_NOTIFICATION) callback function [Kernel-Mode Driver Architecture], PTM_RM_NOTIFICATION, kernel.resourcemanagernotification, ktm_ref_f4bc7393-b895-4a03-8eb6-b0a71f26e1d5.xml, wdm/(*PTM_RM_NOTIFICATION)"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	(*PTM_RM_NOTIFICATION)
 product: Windows
 targetos: Windows
@@ -114,6 +114,7 @@ For a list of notifications that include an additional argument buffer, see the 
 ## -returns
 
 
+
 <i>ResourceManagerNotification</i> callback routine must return STATUS_SUCCESS or another status value for which NT_SUCCESS(<b>status</b>) equals <b>TRUE</b> if the operation is successful.
 
 Typically, the resource manager returns STATUS_SUCCESS if it services the notification synchronously and STATUS_PENDING if it services the notification asynchronously, but it can return STATUS_PENDING in either case. However, the resource manager can return STATUS_PENDING only for notifications that it responds to by calling one of the <b>Tm<i>Xxx</i>Complete</b> or <b>Zw<i>Xxx</i>Complete</b> routines.
@@ -124,7 +125,9 @@ If an error occurs, the callback routine must return a status value for which NT
 
 
 
+
 ## -remarks
+
 
 
 To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>.
@@ -137,19 +140,28 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ResourceManagerNotification callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ResourceManagerNotification callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

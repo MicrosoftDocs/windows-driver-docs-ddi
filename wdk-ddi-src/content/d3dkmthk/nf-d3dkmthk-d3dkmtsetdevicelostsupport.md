@@ -7,8 +7,8 @@ old-location: display\d3dkmtsetdevicelostsupport.htm
 old-project: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], display.d3dkmtsetdevicelostsupport, d3dkmthk/D3DKMTSetDeviceLostSupport
+ms.date: 2/24/2018
+ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMTSetDeviceLostSupport
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTSetDeviceLostSupport(
 
 
 
+
 #### - D3dkmt_setdevicelostsupport [in]
 
 Indicates that the device has lost support.
@@ -78,6 +79,8 @@ Indicates that the device has lost support.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully. 
+
 
 

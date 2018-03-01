@@ -7,8 +7,8 @@ old-location: stream\ksproperty_tuner_networktype_scan_caps_s.htm
 old-project: stream
 ms.assetid: e6fe9278-d34e-4fba-80f9-84d6ededbfc1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: vidcapstruct_7ffc22b0-3a65-449e-a0cb-6816a99738d6.xml, ksmedia/PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, ksmedia/KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, stream.ksproperty_tuner_networktype_scan_caps_s, PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure pointer [Streaming Media Devices], *PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, ksmedia/PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, stream.ksproperty_tuner_networktype_scan_caps_s, vidcapstruct_7ffc22b0-3a65-449e-a0cb-6816a99738d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S
 product: Windows
 targetos: Windows
@@ -72,7 +72,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field NetworkType
@@ -92,19 +92,29 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-tuner_analog_caps_s.md">TUNER_ANALOG_CAPS_S</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

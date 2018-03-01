@@ -1,14 +1,14 @@
 ---
 UID: NS:usb._USBD_PIPE_INFORMATION
-title: _USBD_PIPE_INFORMATION
+title: "_USBD_PIPE_INFORMATION"
 author: windows-driver-content
 description: The USBD_PIPE_INFORMATION structure is used by USB client drivers to hold information about a pipe from a specific interface.
 old-location: buses\usbd_pipe_information.htm
 old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], usb/USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usb.h
-apiname: 
+api_name:
 -	USBD_PIPE_INFORMATION
 product: Windows
 targetos: Windows
@@ -93,6 +93,7 @@ Contains the polling interval, indicated by the <b>bInterval</b> field in the co
 The polling interval, together with the speed of the device and the type of host controller, determine the frequency with which the driver should initiate a transfer. The value in <b>Interval</b> does not represent a fixed amount of time. It is a relative value, and the actual polling frequency will also depend on whether the device and the USB host controller operate at low, full or high speed. 
 
 If either the host controller or the device operates at low speed, the period of time between transfers (also known as the  "polling period") is measured in units of 1 millisecond frames, and the period is related to the value in <b>Interval</b> as indicated the following table:
+
 <table>
 <tr>
 <th>Interval</th>
@@ -118,9 +119,11 @@ If either the host controller or the device operates at low speed, the period of
 <td>Supported.</td>
 <td>Not supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 For devices and host controllers that can operate at full speed, the period is measured in units of 1 millisecond frames. For full-speed isochronous transfers,  the <b>Interval</b> value and the  polling period is  always 1. That value indicates that data can be transferred in every frame. For full-speed interrupt transfers, the polling period is derived from the <b>Interval</b> value. The following table indicates the supported values for interrupt and isochronous endpoints.
+
 <table>
 <tr>
 <th>Interval</th>
@@ -164,9 +167,11 @@ For devices and host controllers that can operate at full speed, the period is m
 <td>Supported.</td>
 <td>Not supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 For devices and host controllers that can operate at high speed, the period is measured in units of microframes. The polling period is derived from the <b>Interval</b> value by using the formula <code>Polling period = 2 ** (Interval - 1)</code>.  The calculated values are indicated in the following table:
+
 <table>
 <tr>
 <th>Interval</th>
@@ -210,7 +215,8 @@ For devices and host controllers that can operate at high speed, the period is m
 <td>Supported.</td>
 <td>Not supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 The supported polling periods for high-speed isochronous transfers are 1, 2, 4, and 8. If a client driver submits a URB_FUNCTION_ISOCH_TRANSFER request for a high speed isochronous endpoint with polling period greater than 8, the request fails with status USBD_STATUS_INVALID_PARAMETER. For  information about isochronous transfers, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>.
 
@@ -232,13 +238,16 @@ Specifies an opaque handle to the bulk or interrupt pipe. The host controller dr
 Specifies the maximum size, in bytes, for a transfer request on this pipe. In Windows Server 2003, Windows XP and later operating systems, this member is not used and does not contain valid data. 
 
 For information about the maximum transfer sizes of each type of USB endpoint in different versions of Windows, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538112">USB Transfer and Packet Sizes</a>.
-<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>.</div>
+<div> </div>
 
 ### -field PipeFlags
 
 Contains a bitwise-OR of pipe flags that the driver can use to specify certain configurable characteristics of the pipe. The driver specifies these pipe characteristics when it selects the configuration of a USB device with a URB request whose function type is URB_FUNCTION_SELECT_CONFIGURATION. 
 
 The following table explains the meaning of each pipe flag: 
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -254,10 +263,12 @@ Indicates that the driver is overriding the endpoint maximum packet size with th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 This structure contains information for an endpoint, retrieved from the device's interface descriptor. For an explanation of how to obtain the information in <b>USBD_PIPE_INFORMATION</b> from the interface descriptor, see <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>. 
@@ -276,15 +287,20 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 
 
+
 ## -see-also
 
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_PIPE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_PIPE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

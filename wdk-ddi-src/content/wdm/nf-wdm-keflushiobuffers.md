@@ -7,8 +7,8 @@ old-location: kernel\keflushiobuffers.htm
 old-project: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.keflushiobuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], KeFlushIoBuffers, k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, wdm/KeFlushIoBuffers
+ms.date: 2/24/2018
+ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	KeFlushIoBuffers
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies <b>TRUE</b> for a DMA transfer, <b>FALSE</b> for PIO.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers call <b>KeFlushIoBuffers</b> to maintain data integrity during DMA or PIO device transfer operations. Calling this routine affects all processors in the machine.
@@ -106,16 +109,21 @@ As a general rule, drivers should call <b>KeFlushIoBuffers</b> just before begin
 <b>KeFlushIoBuffers</b> flushes only the memory region that is described by the MDL that the <i>Mdl</i> parameter points to. To flush all the memory regions that are described by an MDL chain requires a separate <b>KeFlushIoBuffers</b> call for each MDL in the chain.
 
 For more information, see the following topics:
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545924">Flushing Cached Data during DMA Operations</a><a href="https://msdn.microsoft.com/library/windows/hardware/ff546503">Flushing Cached Data during PIO Operations</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545924">Flushing Cached Data during DMA Operations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546503">Flushing Cached Data during PIO Operations</a>
+
 
 
 ## -see-also
 
 <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeFlushIoBuffers routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeFlushIoBuffers routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-view-instance-location.htm
 old-project: display
 ms.assetid: 1b31ac34-233b-4246-a1c3-d0aac0f35db6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], display.d3d12ddi-view-instance-location
+ms.date: 2/24/2018
+ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	D3D12DDI_VIEW_INSTANCE_LOCATION
 product: Windows
 targetos: Windows

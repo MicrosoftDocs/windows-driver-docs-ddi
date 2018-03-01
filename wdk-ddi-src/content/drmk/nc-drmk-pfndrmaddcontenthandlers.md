@@ -7,8 +7,8 @@ old-location: audio\pfndrmaddcontenthandlers.htm
 old-project: audio
 ms.assetid: 762604FC-34EA-41A1-9F2B-B3852AA4D167
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.pfndrmaddcontenthandlers, DRMAddContentHandlers callback function [Audio Devices], DRMAddContentHandlers, PFNDRMADDCONTENTHANDLERS, PFNDRMADDCONTENTHANDLERS, drmk/DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], DRMAddContentHandlers
+ms.date: 2/22/2018
+ms.keywords: DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], PFNDRMADDCONTENTHANDLERS, audio.pfndrmaddcontenthandlers, drmk/DRMAddContentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Drmk.h
-apiname: 
+api_name:
 -	DRMAddContentHandlers
 product: Windows
 targetos: Windows
@@ -79,8 +79,9 @@ typedef PFNDRMADDCONTENTHANDLERS DRMAddContentHandlers;
 This parameter is reserved for system use.
 
 
-### -param *paHandlers
+### -param *paHandlers [in]
 
+This parameter is reserved for system use.
 
 
 ### -param NumHandlers [in]
@@ -88,14 +89,11 @@ This parameter is reserved for system use.
 This parameter is reserved for system use.
 
 
-#### - paHandlers [in]
-
-This parameter is reserved for system use.
-
-
 ## -returns
 
 
+
 This return value is reserved for system use.
+
 
 

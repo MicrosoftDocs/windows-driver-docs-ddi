@@ -7,8 +7,8 @@ old-location: kernel\exsetresourceownerpointerex.htm
 old-project: kernel
 ms.assetid: 96293fbc-0c3c-4685-8708-dd84fcc2223e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ExSetResourceOwnerPointerEx, wdm/ExSetResourceOwnerPointerEx, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, kernel.exsetresourceownerpointerex
+ms.date: 2/24/2018
+ms.keywords: ExSetResourceOwnerPointerEx, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, kernel.exsetresourceownerpointerex, wdm/ExSetResourceOwnerPointerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ExSetResourceOwnerPointerEx
 product: Windows
 targetos: Windows
@@ -83,22 +83,27 @@ A pointer value that identifies the resource owner. This parameter value is nomi
 ### -param Flags [in]
 
 A set of flags that can modify the operation of this routine. Set this parameter either to zero or to the following flag value:
+
 <ul>
 <li>
 FLAG_OWNER_POINTER_IS_THREAD
 
 </li>
-</ul>If <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD, <i>OwnerPointer</i> must point to a value of type ERESOURCE_THREAD, which is a pointer to an opaque thread object. If <i>Flags</i> = 0, <i>OwnerPointer</i> must point to a storage object in system memory that remains allocated until the resource is released. For more information, see the following Remarks section.
+</ul>
+If <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD, <i>OwnerPointer</i> must point to a value of type ERESOURCE_THREAD, which is a pointer to an opaque thread object. If <i>Flags</i> = 0, <i>OwnerPointer</i> must point to a storage object in system memory that remains allocated until the resource is released. For more information, see the following Remarks section.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine is available in Windows 7 and later versions of the Windows operating system.
@@ -123,27 +128,44 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
-
-<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a>
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
-
-<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
 
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+
+
 
 <a href="https://msdn.microsoft.com/202b2ef1-bbe4-4ffd-a82b-21f19c145e8d">ERESOURCE</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExSetResourceOwnerPointerEx routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExSetResourceOwnerPointerEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

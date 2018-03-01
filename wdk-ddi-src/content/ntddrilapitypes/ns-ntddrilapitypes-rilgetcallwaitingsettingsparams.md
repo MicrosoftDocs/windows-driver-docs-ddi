@@ -7,8 +7,8 @@ old-location: netvista\rilgetcallwaitingsettingsparams.htm
 old-project: netvista
 ms.assetid: b257ef88-a474-4443-8fbf-91759066a536
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILGETCALLWAITINGSETTINGSPARAMS, netvista.rilgetcallwaitingsettingsparams, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLWAITINGSETTINGSPARAMS, *LPRILGETCALLWAITINGSETTINGSPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallwaitingsettingsparams, ntddrilapitypes/RILGETCALLWAITINGSETTINGSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILGETCALLWAITINGSETTINGSPARAMS
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef struct _RILGETCALLWAITINGSETTINGSPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field fAllClasses
 
 
-
 ### -field dwInfoClasses
-
 

@@ -7,8 +7,8 @@ old-location: ifsk\ketrytoacquirequeuedspinlock.htm
 old-project: ifsk
 ms.assetid: e598c402-ef60-4f6c-924d-fc37114c3432
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], KeTryToAcquireQueuedSpinLock, ntifs/KeTryToAcquireQueuedSpinLock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ifsk.ketrytoacquirequeuedspinlock
+ms.date: 2/16/2018
+ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	KeTryToAcquireQueuedSpinLock
 product: Windows
 targetos: Windows

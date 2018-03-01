@@ -7,8 +7,8 @@ old-location: wdf\ipowerpolicycallbackwakefroms0_onarmwakefroms0.htm
 old-project: wdf
 ms.assetid: 4801a7c4-8bd4-4372-bcdd-49e5570d833e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IPowerPolicyCallbackWakeFromS0, OnArmWakeFromS0, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method
+ms.date: 2/20/2018
+ms.keywords: IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, OnArmWakeFromS0 method, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0,IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ A pointer to the <b>IWDFDevice</b> interface of the device object that represent
 ## -returns
 
 
+
 If the operation is successful, the <b>OnArmWakeFromS0</b> callback function must return S_OK or another status value for which SUCCEEDED(<i>status</i>) equals <b>TRUE</b>. Otherwise it must return a status value for which SUCCEEDED(<i>status</i>) equals <b>FALSE</b>.
 
 If SUCCEEDED(status) equals <b>FALSE</b>, the framework calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a> callback function. (The framework does not report a device failure to the PnP manager.) 
@@ -86,7 +87,9 @@ If SUCCEEDED(status) equals <b>FALSE</b>, the framework calls the driver's <a hr
 
 
 
+
 ## -remarks
+
 
 
 Your driver must provide an <b>OnArmWakeFromS0</b> callback function if the driver supports the <a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefroms0.md">IPowerPolicyCallbackWakeFromS0</a> interface. 
@@ -96,6 +99,7 @@ The <b>OnArmWakeFromS0</b> callback function handles device-specific operations 
 If the driver has registered an <b>OnArmWakeFromS0</b> callback function, the framework calls it while the device is still in the D0 device power state, before the bus driver lowers the device's power state but after the framework has sent a <a href="https://msdn.microsoft.com/ed582644-af51-4841-be59-6a3deb6d9de5">wait/wake IRP</a> on behalf of the driver. 
 
 The process occurs in the following sequence:
+
 <ol>
 <li>
 The framework determines that the device has been idle for a preset amount of time.
@@ -109,11 +113,13 @@ The framework calls the driver's <b>OnArmWakeFromS0</b> callback function.
 The framework requests the driver for the device's bus to lower the device's power.
 
 </li>
-</ol>Immediately before your device enters a low power state, the framework will call your driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a> callback function.
+</ol>
+Immediately before your device enters a low power state, the framework will call your driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a> callback function.
 
 For more information about when the framework calls this callback function, see <a href="https://msdn.microsoft.com/ca36eee5-482c-4cfe-a515-be9d3743e241">PnP and Power Management Scenarios in UMDF</a>.
 
 You do not need to provide an <b>OnArmWakeFromS0</b> callback function if your device:
+
 <ul>
 <li>
 Is a USB device that supports "selective suspend."
@@ -127,23 +133,31 @@ Cannot be powered down while the system remains fully powered.
 Does not require special hardware operations that enable the device to trigger a wake signal.
 
 </li>
-</ul>If your device supports USB "selective suspend" and if your driver specifies <b>IdleUsbSelectiveSuspend</b> when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>, the framework sends a "selective suspend" request to the USB bus driver when the device has been idle for a preset amount of time.
+</ul>
+If your device supports USB "selective suspend" and if your driver specifies <b>IdleUsbSelectiveSuspend</b> when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>, the framework sends a "selective suspend" request to the USB bus driver when the device has been idle for a preset amount of time.
 
 For more information about this callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556822">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
 
 <a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefroms0.md">IPowerPolicyCallbackWakeFromS0</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556822">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\ksaudio_mixlevel.htm
 old-project: audio
 ms.assetid: b685f2f5-3491-471d-b1da-07a7e56bda62
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, *PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL
+ms.date: 2/22/2018
+ms.keywords: "*PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KSAUDIO_MIXLEVEL
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ Specifies the mix level that is applied to the input channel as it flows into th
 ## -remarks
 
 
+
 A KSAUDIO_MIXLEVEL structure specifies the volume level of a particular data path from one input channel of a supermixer node to an output channel of the same node. An array of these structures is needed to specify the volume levels for all the input-output paths through a supermixer node.
 
 To specify the mixing levels of all paths through a supermixer node with <i>m</i> input channels and <i>n</i> output channels requires a mix-level table consisting of an <i>m</i> x <i>n</i> array of KSAUDIO_MIXLEVEL structures. This table is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a> property.
@@ -99,17 +100,24 @@ This scale has a resolution of 1/65536 decibel.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_MIXLEVEL structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_MIXLEVEL structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

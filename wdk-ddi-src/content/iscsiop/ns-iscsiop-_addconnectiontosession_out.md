@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_OUT
-title: _AddConnectionToSession_OUT
+title: "_AddConnectionToSession_OUT"
 author: windows-driver-content
 description: The AddConnectionToSession_OUT structure holds output data for the AddConnectionToSession method.
 old-location: storage\addconnectiontosession_out.htm
 old-project: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, PAddConnectionToSession_OUT structure pointer [Storage Devices], storage.addconnectiontosession_out, iscsiop/PAddConnectionToSession_OUT, *PAddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], _AddConnectionToSession_OUT, PAddConnectionToSession_OUT, AddConnectionToSession_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PAddConnectionToSession_OUT, AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], _AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsiop.h
-apiname: 
+api_name:
 -	AddConnectionToSession_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PAddConnectionToSession_OUT, AddConnectionToSession_OUT
+req.typenames: AddConnectionToSession_OUT, *PAddConnectionToSession_OUT
 ---
 
 # _AddConnectionToSession_OUT structure
@@ -81,7 +81,9 @@ A 64-bit integer that uniquely identifies the connection across the entire netwo
 ## -remarks
 
 
+
 The iSCSI service requires this method. It is optional that you implement this method.
+
 
 
 
@@ -89,15 +91,23 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddConnectionToSession_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddConnectionToSession_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

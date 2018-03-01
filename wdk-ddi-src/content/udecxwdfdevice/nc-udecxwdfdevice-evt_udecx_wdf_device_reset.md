@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_wdf_device_reset.htm
 old-project: usbref
 ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_udecx_wdf_device_reset, EvtUdecxWdfDeviceReset callback function [Buses], EvtUdecxWdfDeviceReset, EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET, udecxwdfdevice/EvtUdecxWdfDeviceReset
+ms.date: 2/24/2018
+ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	UdecxWdfDevice.h
-apiname: 
+api_name:
 -	EvtUdecxWdfDeviceReset
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ A handle to a framework device object that represents the controller. The client
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The USB device emulation  class extension (UdeCx) invokes this callback function to notify the client driver that it must handle a reset request including resetting all downstream devices attached to the emulated host controller.
@@ -93,15 +96,20 @@ If the client specified <b>UdeWdfDeviceResetActionResetEachUsbDevice</b> in <a h
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UDECX_WDF_DEVICE_RESET callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UDECX_WDF_DEVICE_RESET callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

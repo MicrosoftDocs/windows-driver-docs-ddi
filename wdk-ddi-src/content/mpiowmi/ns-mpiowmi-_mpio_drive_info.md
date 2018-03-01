@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._MPIO_DRIVE_INFO
-title: _MPIO_DRIVE_INFO
+title: "_MPIO_DRIVE_INFO"
 author: windows-driver-content
 description: The MPIO_DRIVE_INFO structure represents a multi-path disk in the system.
 old-location: storage\mpio_drive_info.htm
 old-project: storage
 ms.assetid: 38d79fae-9701-4e92-bf73-4732e02c17ab
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMPIO_DRIVE_INFO structure pointer [Storage Devices], PMPIO_DRIVE_INFO, *PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], mpiowmi/MPIO_DRIVE_INFO, _MPIO_DRIVE_INFO, mpiowmi/PMPIO_DRIVE_INFO, storage.mpio_drive_info, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], PMPIO_DRIVE_INFO, PMPIO_DRIVE_INFO structure pointer [Storage Devices], _MPIO_DRIVE_INFO, mpiowmi/MPIO_DRIVE_INFO, mpiowmi/PMPIO_DRIVE_INFO, storage.mpio_drive_info, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	MPIO_DRIVE_INFO
 product: Windows
 targetos: Windows

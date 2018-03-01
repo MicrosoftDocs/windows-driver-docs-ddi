@@ -7,8 +7,8 @@ old-location: buses\_ucxusbdevicecreate.htm
 old-project: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate, ucxusbdevice/UcxUsbDeviceCreate, buses._ucxusbdevicecreate
+ms.date: 2/24/2018
+ms.keywords: UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ucxusbdevice.h
-apiname: 
+api_name:
 -	UcxUsbDeviceCreate
 product: Windows
 targetos: Windows
@@ -96,11 +96,14 @@ A pointer to a variable that receives a handle to the new USB device object.
 ## -returns
 
 
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
 
 
 
+
 ## -remarks
+
 
 
 The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new USB device object is the parent hub device specified by UCX.
@@ -109,13 +112,16 @@ For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_contr
 
 
 
+
 ## -see-also
 
 <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxUsbDeviceCreate method%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxUsbDeviceCreate method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

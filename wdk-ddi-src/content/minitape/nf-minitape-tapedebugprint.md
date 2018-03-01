@@ -7,8 +7,8 @@ old-location: storage\tapedebugprint.htm
 old-project: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, minitape/TapeDebugPrint, TapeDebugPrint, TapeDebugPrint routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: TapeDebugPrint, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint, storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Tape.lib
 -	Tape.dll
-apiname: 
+api_name:
 -	TapeDebugPrint
 product: Windows
 targetos: Windows
@@ -85,9 +85,12 @@ TBD
 
 
 
+
 ## -returns
 
 
+
 None
+
 
 

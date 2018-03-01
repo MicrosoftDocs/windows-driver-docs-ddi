@@ -1,14 +1,14 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_CONFIGURATION
-title: _NDIS_WWAN_SMS_CONFIGURATION
+title: "_NDIS_WWAN_SMS_CONFIGURATION"
 author: windows-driver-content
 description: The NDIS_WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\ndis_wwan_sms_configuration.htm
 old-project: netvista
 ms.assetid: 77d62078-7421-40c7-b743-fbc09b0eb5f9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_sms_configuration, PNDIS_WWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION, _NDIS_WWAN_SMS_CONFIGURATION, WwanRef_29c93c56-0878-421c-a690-aa5d3ba2e64a.xml, ndiswwan/NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_CONFIGURATION, PNDIS_WWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_29c93c56-0878-421c-a690-aa5d3ba2e64a.xml, _NDIS_WWAN_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION, netvista.ndis_wwan_sms_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndiswwan.h
-apiname: 
+api_name:
 -	NDIS_WWAN_SMS_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION
+req.typenames: NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION
 ---
 
 # _NDIS_WWAN_SMS_CONFIGURATION structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SMS_CON
      <i>set</i> operations, it sets the header with the values that are shown in the following table. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SMS_CONFIGURATION)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -123,6 +125,7 @@ For more information about these members, see
 The status of the SMS configuration operation. The following table shows the possible values for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -190,7 +193,8 @@ The operation failed because the SMS format specified in <a href="..\wwan\ns-wwa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SmsConfiguration
@@ -204,11 +208,15 @@ A formatted
 
 <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_CONFIGURATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_CONFIGURATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

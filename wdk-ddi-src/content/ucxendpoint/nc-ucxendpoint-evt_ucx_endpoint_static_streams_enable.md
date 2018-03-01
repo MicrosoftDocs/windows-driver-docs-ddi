@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_static_streams_enable.htm
 old-project: usbref
 ms.assetid: eb40623f-b13f-4c3f-b3ac-687cba323ce2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucx_endpoint_static_streams_enable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], EvtUcxEndpointStaticStreamsEnable, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, ucxendpoint/EvtUcxEndpointStaticStreamsEnable, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE
+ms.date: 2/24/2018
+ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ucxendpoint.h
-apiname: 
+api_name:
 -	PFN_UCM_CONNECTOR_GET_OPERATING_MODE
 product: Windows
 targetos: Windows
@@ -78,7 +78,6 @@ typedef EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE PFN_UCM_CONNECTOR_GET_OPERATING_M
 ### -param UcxEndpoint
 
 
-
 ### -param UcxStaticStreams [in]
 
 A handle to a UCX object that represents the static streams.
@@ -97,11 +96,14 @@ A handle to a UCXENDPOINT object that represents the endpoint.
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
@@ -109,5 +111,33 @@ The UCX client driver registers this callback function with the USB host control
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS
     in the URB header.  The driver can complete the WDFREQUEST asynchronously.
+
+
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+Endpoint_EvtUcxEndpointStaticStreamsEnable(
+    UCXENDPOINT     UcxEndpoint,
+    UCXSSTREAMS     UcxStaticStreams,
+    WDFREQUEST      Request
+)
+
+{
+    UNREFERENCED_PARAMETER(UcxEndpoint);
+    UNREFERENCED_PARAMETER(UcxStaticStreams);
+
+    DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStaticStreamsEnable");
+
+    WdfRequestComplete(Request, STATUS_SUCCESS);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

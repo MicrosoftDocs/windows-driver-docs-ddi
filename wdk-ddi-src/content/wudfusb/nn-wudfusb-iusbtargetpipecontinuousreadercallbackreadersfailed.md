@@ -7,8 +7,8 @@ old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed.htm
 old-project: wdf
 ms.assetid: d0b68976-f7aa-4b0d-b6bb-258ad2c2e506
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iusbtargetpipecontinuousreadercallbackreadersfailed, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, described, IUsbTargetPipeContinuousReaderCallbackReadersFailed, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed, UMDFUSBref_c38e329c-f04a-4675-ad3b-25677fddedf9.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed
+ms.date: 2/20/2018
+ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, described, UMDFUSBref_c38e329c-f04a-4675-ad3b-25677fddedf9.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wudfusb.h
-apiname: 
+api_name:
 -	IUsbTargetPipeContinuousReaderCallbackReadersFailed
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -57,6 +57,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUsbTargetPipeContinuousReaderCallbackReadersFailed</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUsbTargetPipeContinuousReaderCallbackReadersFailed</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -75,7 +82,5 @@ A driver's <a href="https://msdn.microsoft.com/ad91208e-e57a-4b80-b1a1-13b9f7eb1
 
 </td>
 </tr>
-</table>A driver's <a href="https://msdn.microsoft.com/ad91208e-e57a-4b80-b1a1-13b9f7eb1119">OnReaderFailure</a> event callback function informs the driver that a continuous reader has reported an error while processing a read request.
-
- 
+</table> 
 

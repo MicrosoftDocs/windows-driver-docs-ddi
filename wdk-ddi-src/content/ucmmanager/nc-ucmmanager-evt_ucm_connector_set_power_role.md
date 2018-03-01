@@ -7,8 +7,8 @@ old-location: buses\evt_ucm_connector_set_power_role.htm
 old-project: usbref
 ms.assetid: 56D5A78D-546E-439E-A69E-A87B0A3B288F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.evt_ucm_connector_set_power_role, EvtSetDataRole callback function [Buses], EvtSetDataRole, EVT_UCM_CONNECTOR_SET_POWER_ROLE, EVT_UCM_CONNECTOR_SET_POWER_ROLE, ucmmanager/EvtSetDataRole, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE
+ms.date: 2/24/2018
+ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ucmmanager.h
-apiname: 
+api_name:
 -	PFN_UCM_CONNECTOR_SET_POWER_ROLE
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 
@@ -87,11 +87,14 @@ A <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed 
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
 
 
+
 ## -remarks
+
 
 
 To register an <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> callback function, the client must call <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
@@ -106,14 +109,51 @@ If a role-swap operation is pending, UcmCx does not request another role swap. T
 After the swap operation completes, if the partner port sends a PR_Swap request, the client driver must reject the request. 
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+EVT_UCM_CONNECTOR_SET_POWER_ROLE     EvtSetPowerRole;  
+
+NTSTATUS  
+EvtSetPowerRole(  
+    UCMCONNECTOR Connector,  
+    UCM_POWER_ROLE PowerRole  
+    )  
+{  
+    PCONNECTOR_CONTEXT connCtx;  
+  
+    TRACE_INFO("EvtSetPowerRole(%!UCM_POWER_ROLE!) Entry", PowerRole);  
+  
+    connCtx = GetConnectorContext(Connector);  
+
+    //PR_Swap operation.  
+  
+  
+    TRACE_FUNC_EXIT();  
+    return STATUS_SUCCESS;  
+}  
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

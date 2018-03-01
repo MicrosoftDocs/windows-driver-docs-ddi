@@ -7,8 +7,8 @@ old-location: storage\hwscsiwmiexecutemethod.htm
 old-project: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.hwscsiwmiexecutemethod, HwScsiWmiExecuteMethod callback function [Storage Devices], HwScsiWmiExecuteMethod, PSCSIWMI_EXECUTE_METHOD, PSCSIWMI_EXECUTE_METHOD, scsiwmi/HwScsiWmiExecuteMethod, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml
+ms.date: 2/24/2018
+ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	scsiwmi.h
-apiname: 
+api_name:
 -	HwScsiWmiExecuteMethod
 product: Windows
 targetos: Windows
@@ -118,11 +118,14 @@ Points to a buffer that holds the input data and receives the output data, if an
 ## -returns
 
 
+
 <b>HwScsiWmiExecuteMethod</b> returns SRB_STATUS_PENDING if the request is pending, or a nonzero SRB status value if the request was completed.  The SRB status value returned by this routine is the same as what was passed in to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>. Although the return value data type is BOOLEAN, the <b>HwScsiWmiExecuteMethod</b> routine actually returns an SRB status value.
 
 
 
+
 ## -remarks
+
 
 
 When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiExecuteMethod</b> routine if <i>MinorFunction</i> indicates a request to execute a method.
@@ -135,19 +138,28 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 
 
+
 ## -see-also
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
- 
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
+
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HwScsiWmiExecuteMethod callback function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PSCSIWMI_EXECUTE_METHOD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

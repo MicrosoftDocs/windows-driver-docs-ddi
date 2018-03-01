@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfoparammask.htm
 old-project: netvista
 ms.assetid: 9314909a-4580-49f9-b587-4d5e70ff0d4f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_MSI_STOREUSED, ntddrilapitypes/RIL_PARAM_MSI_ALL, ntddrilapitypes/RIL_PARAM_MSI_STORETOTAL, ntddrilapitypes/RIL_PARAM_MSI_STOREUSED, RIL_PARAM_MSI_ALL, ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSI_STORETOTAL, netvista.rilmsgserviceinfoparammask
+ms.date: 2/16/2018
+ms.keywords: RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSI_ALL, RIL_PARAM_MSI_STORETOTAL, RIL_PARAM_MSI_STOREUSED, netvista.rilmsgserviceinfoparammask, ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MSI_ALL, ntddrilapitypes/RIL_PARAM_MSI_STORETOTAL, ntddrilapitypes/RIL_PARAM_MSI_STOREUSED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILMSGSERVICEINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILMSGSERVICEINFOPARAMMASK {
 ### -field RIL_PARAM_MSI_MSGSUPPORT
 
 
-
 ### -field RIL_PARAM_MSI_STOREUSED
-
 
 
 ### -field RIL_PARAM_MSI_STORETOTAL
 
 
-
 ### -field RIL_PARAM_MSI_ALL
-
 

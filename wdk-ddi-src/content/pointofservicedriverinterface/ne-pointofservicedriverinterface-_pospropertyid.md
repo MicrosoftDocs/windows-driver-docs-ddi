@@ -1,14 +1,14 @@
 ---
 UID: NE:pointofservicedriverinterface._PosPropertyId
-title: _PosPropertyId
+title: "_PosPropertyId"
 author: windows-driver-content
 description: This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
 old-location: pos\pospropertyid.htm
 old-project: pos
 ms.assetid: 82864db1-ee0a-4d41-a516-4e04befd2e89
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/IsEnabled, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, BarcodeScannerActiveProfile, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, BarcodeScannerSupportedProfiles, pos.pospropertyid, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, BarcodeScannerSupportedSymbologies, MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/BarcodeScannerActiveProfile, pointofservicedriverinterface/IsDisabledOnDataReceived, BarcodeScannerActiveSymbologies, BarcodeScannerCapabilities, MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/BarcodeScannerCapabilities, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderTracksToRead, MagneticStripeReaderIsDeviceAuthenticated, _PosPropertyId, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, IsDisabledOnDataReceived, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderErrorReportingType, IsEnabled, MagneticStripeReaderDataEncryptionAlgorithm, PosPropertyId enumeration, BarcodeScannerIsDecodeDataEnabled, MagneticStripeReaderCapabilities, MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/PosPropertyId, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, PosPropertyId
+ms.date: 2/23/2018
+ms.keywords: BarcodeScannerActiveProfile, BarcodeScannerActiveSymbologies, BarcodeScannerCapabilities, BarcodeScannerIsDecodeDataEnabled, BarcodeScannerSupportedProfiles, BarcodeScannerSupportedSymbologies, IsDisabledOnDataReceived, IsEnabled, MagneticStripeReaderCapabilities, MagneticStripeReaderDataEncryptionAlgorithm, MagneticStripeReaderDeviceAuthenticationProtocol, MagneticStripeReaderErrorReportingType, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderSupportedCardTypes, MagneticStripeReaderTracksToRead, PosPropertyId, PosPropertyId enumeration, _PosPropertyId, pointofservicedriverinterface/BarcodeScannerActiveProfile, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, pointofservicedriverinterface/BarcodeScannerCapabilities, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/IsDisabledOnDataReceived, pointofservicedriverinterface/IsEnabled, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, pointofservicedriverinterface/PosPropertyId, pos.pospropertyid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pointofservicedriverinterface.h
-apiname: 
+api_name:
 -	PosPropertyId
 product: Windows
 targetos: Windows
@@ -96,7 +96,6 @@ Indicates whether to disable the device after each scan event. This allows the h
 ### -field PowerState
 
 
-
 ### -field BarcodeScannerIsDecodeDataEnabled
 
 When set to <b>TRUE</b>, the driver must return decoded bar code data in the form of <b>ScanDataLabel</b> in addition to <b>ScanData</b> when raising a data received event. Decoded barcode data typically only contains data from the scanner with header information, scanner generated symbol character, and length identification removed. (Read/Write).
@@ -144,7 +143,7 @@ Returns an array of <a href="..\pointofservicedriverinterface\ne-pointofserviced
 
 ### -field MagneticStripeReaderDeviceAuthenticationProtocol
 
-The driver must return a <a href="https://msdn.microsoft.com/6f06d03e-001e-4340-9b96-8e3654be5c1a">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
+The driver must return a <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrauthenticationprotocol.md">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
 
 
 ### -field MagneticStripeReaderErrorReportingType
@@ -175,357 +174,268 @@ Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriveri
 ### -field BarcodeScannerVideoDeviceId
 
 
-
 ### -field PrinterCapabilities
-
 
 
 ### -field PrinterCartridgeNotifyEnabled
 
 
-
 ### -field PrinterSupportedCharacterSets
-
 
 
 ### -field PrinterFlagWhenIdle
 
 
-
 ### -field PrinterFontTypefaceList
-
 
 
 ### -field PrinterMapCharacterSet
 
 
-
 ### -field PrinterRotateSpecial
-
 
 
 ### -field PrinterSupportedJournalLineChars
 
 
-
 ### -field PrinterSupportedReceiptLineChars
-
 
 
 ### -field PrinterSupportedReceiptBarcodeRotations
 
 
-
 ### -field PrinterSupportedReceiptBitmapRotations
-
 
 
 ### -field PrinterSupportedSlipLineChars
 
 
-
 ### -field PrinterSupportedSlipBarcodeRotations
-
 
 
 ### -field PrinterSupportedSlipBitmapRotations
 
 
-
 ### -field PrinterCharacterSet
-
 
 
 ### -field PrinterCoverOpen
 
 
-
 ### -field PrinterMapMode
-
 
 
 ### -field PrinterPageModeArea
 
 
-
 ### -field PrinterPageModeDescriptor
-
 
 
 ### -field PrinterPageModeHorizontalPosition
 
 
-
 ### -field PrinterPageModePrintArea
-
 
 
 ### -field PrinterPageModePrintDirection
 
 
-
 ### -field PrinterPageModeStation
-
 
 
 ### -field PrinterPageModeVerticalPosition
 
 
-
 ### -field PrinterJournalLineChars
-
 
 
 ### -field PrinterJournalLineHeight
 
 
-
 ### -field PrinterJournalLineSpacing
-
 
 
 ### -field PrinterJournalLineWidth
 
 
-
 ### -field PrinterJournalLetterQuality
-
 
 
 ### -field PrinterJournalPaperEmpty
 
 
-
 ### -field PrinterJournalPaperNearEnd
-
 
 
 ### -field PrinterJournalCartridgeState
 
 
-
 ### -field PrinterJournalCurrentCartridge
-
 
 
 ### -field PrinterReceiptLineChars
 
 
-
 ### -field PrinterReceiptLineHeight
-
 
 
 ### -field PrinterReceiptLineSpacing
 
 
-
 ### -field PrinterReceiptLineWidth
-
 
 
 ### -field PrinterReceiptLetterQuality
 
 
-
 ### -field PrinterReceiptPaperEmpty
-
 
 
 ### -field PrinterReceiptPaperNearEmpty
 
 
-
 ### -field PrinterReceiptSidewaysMaxLines
-
 
 
 ### -field PrinterReceiptSidewaysMaxChars
 
 
-
 ### -field PrinterReceiptLinesToPaperCut
-
 
 
 ### -field PrinterReceiptCartridgeState
 
 
-
 ### -field PrinterReceiptCurrentCartridge
-
 
 
 ### -field PrinterSlipLineChars
 
 
-
 ### -field PrinterSlipLineHeight
-
 
 
 ### -field PrinterSlipLineSpacing
 
 
-
 ### -field PrinterSlipLineWidth
-
 
 
 ### -field PrinterSlipLetterQuality
 
 
-
 ### -field PrinterSlipPaperEmpty
-
 
 
 ### -field PrinterSlipPaperNearEmpty
 
 
-
 ### -field PrinterSlipSidewaysMaxLines
-
 
 
 ### -field PrinterSlipSideWaysMaxChars
 
 
-
 ### -field PrinterSlipMaxLines
-
 
 
 ### -field PrinterSlipLinesNearEndToEnd
 
 
-
 ### -field PrinterSlipPrintside
-
 
 
 ### -field PrinterSlipCartridgeState
 
 
-
 ### -field PrinterSlipCurrentCartridge
-
 
 
 ### -field PrinterStatusProp
 
 
-
 ### -field CashDrawerIsDrawerOpened
-
 
 
 ### -field CashDrawerCapabilities
 
 
-
 ### -field CashDrawerStatusProp
-
 
 
 ### -field LineDisplayCapabilities
 
 
-
 ### -field LineDisplayCurrentWindow
-
 
 
 ### -field LineDisplayWindowSizeInCharacters
 
 
-
 ### -field LineDisplayWindowInterCharacterWaitInterval
-
 
 
 ### -field LineDisplayPhysicalDeviceName
 
 
-
 ### -field LineDisplayPhysicalDeviceDescription
-
 
 
 ### -field LineDisplayDeviceControlDescription
 
 
-
 ### -field LineDisplayDeviceControlVersion
-
 
 
 ### -field LineDisplayDeviceServiceVersion
 
 
-
 ### -field LineDisplayCursorTypeProperty
-
 
 
 ### -field LineDisplayCursorAutoUpdateEnabled
 
 
-
 ### -field LineDisplayCursorPosition
-
 
 
 ### -field LineDisplayScreenModeList
 
 
-
 ### -field LineDisplayScreenMode
-
 
 
 ### -field LineDisplayMaxBitmapSizeInPixels
 
 
-
 ### -field LineDisplayCharacterSetList
-
 
 
 ### -field LineDisplayDeviceBrightness
 
 
-
 ### -field LineDisplayBlinkRate
-
 
 
 ### -field LineDisplayCharacterSet
 
 
-
 ### -field LineDisplayMapCharacterSet
-
 
 
 ### -field LineDisplayGlyphSizeInPixels
 
 
-
 ### -field LineDisplayCustomGlyphList
-
 
 
 ### -field LineDisplayMarqueeFormat
 
 
-
 ### -field LineDisplayMarqueeRepeatWait
 
 
-
 ### -field LineDisplayMarqueeUnitWait
-
 
 
 ### -field LineDisplayMarqueeType
@@ -537,11 +447,15 @@ Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriveri
 
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>
 
+
+
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

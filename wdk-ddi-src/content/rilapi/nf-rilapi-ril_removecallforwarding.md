@@ -7,8 +7,8 @@ old-location: netvista\ril_removecallforwarding.htm
 old-project: netvista
 ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_RemoveCallForwarding, netvista.ril_removecallforwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], rilapi/RIL_RemoveCallForwarding
+ms.date: 2/16/2018
+ms.keywords: RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_RemoveCallForwarding
 product: Windows
 targetos: Windows
@@ -77,26 +77,23 @@ HRESULT  RIL_RemoveCallForwarding(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwReason
-
 
 
 ### -param dwInfoClasses
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

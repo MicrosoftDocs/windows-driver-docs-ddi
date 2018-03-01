@@ -7,8 +7,8 @@ old-location: debugger\setvalues.htm
 old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, IDebugRegisters::SetValues, dbgeng/IDebugRegisters::SetValues, dbgeng/IDebugRegisters2::SetValues, SetValues method [Windows Debugging], debugger.setvalues, SetValues, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], SetValues method
+ms.date: 2/23/2018
+ms.keywords: IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters2.SetValues, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugRegisters.SetValues
 -	IDebugRegisters2.SetValues
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetValues method
@@ -94,7 +94,9 @@ Specifies the array that contains values to which to set the registers.  The num
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The value of the index of one or more of the registers is greater than the numbe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine does its best to coerce the values in <i>Values</i> into the type of the registers; this coercion is the same as that performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
@@ -154,19 +159,28 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
 
- 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

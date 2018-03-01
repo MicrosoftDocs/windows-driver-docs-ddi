@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest_getcreateparameters.htm
 old-project: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetCreateParameters method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetCreateParameters, IWDFIoRequest, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, umdf.iwdfiorequest_getcreateparameters, wdf.iwdfiorequest_getcreateparameters, IWDFIoRequest interface, GetCreateParameters method, IWDFIoRequest::GetCreateParameters, GetCreateParameters, GetCreateParameters method
+ms.date: 2/20/2018
+ms.keywords: GetCreateParameters method, GetCreateParameters method, IWDFIoRequest interface, GetCreateParameters,IWDFIoRequest.GetCreateParameters, IWDFIoRequest, IWDFIoRequest interface, GetCreateParameters method, IWDFIoRequest::GetCreateParameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, umdf.iwdfiorequest_getcreateparameters, wdf.iwdfiorequest_getcreateparameters, wudfddi/IWDFIoRequest::GetCreateParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFIoRequest.GetCreateParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -100,14 +100,18 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptions</i>, <i>pFileAttributes</i>, and <i>pShareAccess</i> parameters, the driver must specify at least one non-<b>NULL</b> parameter for <b>GetCreateParameters</b> to execute successfully.
+
 
 
 
@@ -115,11 +119,15 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptio
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::GetCreateParameters method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::GetCreateParameters method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

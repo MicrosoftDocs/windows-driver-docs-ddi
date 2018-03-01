@@ -7,8 +7,8 @@ old-location: netvista\rilimsnwenabledflags.htm
 old-project: netvista
 ms.assetid: ae13790a-2442-4a8e-88cb-2cb6c8e02da6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_EAB, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_ALL, ntddrilapitypes/RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS, netvista.rilimsnwenabledflags, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VOICE, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_PROVISION, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
+ms.date: 2/16/2018
+ms.keywords: RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_VOICE, netvista.rilimsnwenabledflags, ntddrilapitypes/RILIMSNWENABLEDFLAGS, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILIMSNWENABLEDFLAGS
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILIMSNWENABLEDFLAGS {
 ### -field RIL_IMS_NW_ENABLED_FLAG_NONE
 
 
-
 ### -field RIL_IMS_NW_ENABLED_FLAG_PROVISION
-
 
 
 ### -field RIL_IMS_NW_ENABLED_FLAG_VOICE
 
 
-
 ### -field RIL_IMS_NW_ENABLED_FLAG_VIDEO
-
 
 
 ### -field RIL_IMS_NW_ENABLED_FLAG_EAB
 
 
-
 ### -field RIL_IMS_NW_ENABLED_FLAG_ALL
-
 

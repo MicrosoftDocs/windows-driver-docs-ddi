@@ -7,8 +7,8 @@ old-location: kernel\silo_context_cleanup_callback.htm
 old-project: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.silo_context_cleanup_callback, CleanupCallback callback function [Kernel-Mode Driver Architecture], CleanupCallback, SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK, ntddk/CleanupCallback
+ms.date: 2/24/2018
+ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	CleanupCallback
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ A pointer provided by the user with the call to <a href="..\ntddk\nf-ntddk-pscre
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

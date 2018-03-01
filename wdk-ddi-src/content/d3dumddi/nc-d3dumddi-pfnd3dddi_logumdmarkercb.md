@@ -7,8 +7,8 @@ old-location: display\pfnlogumdmarkercb.htm
 old-project: display
 ms.assetid: BD544686-20D3-4577-9950-9C3B6853C4BD
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnlogumdmarkercb, pfnLogUMDMarkerCb callback function [Display Devices], pfnLogUMDMarkerCb, PFND3DDDI_LOGUMDMARKERCB, PFND3DDDI_LOGUMDMARKERCB, d3dumddi/pfnLogUMDMarkerCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_LOGUMDMARKERCB, d3dumddi/pfnLogUMDMarkerCb, display.pfnlogumdmarkercb, pfnLogUMDMarkerCb, pfnLogUMDMarkerCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3dumddi.h
-apiname: 
+api_name:
 -	pfnLogUMDMarkerCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pLogUMDMarker [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_logumdmarker.md">D3DDDICB_LOGUMDMARKER</a> structure that indicates the location of an ETW marker event that is defined by the user-mode display driver.
@@ -92,6 +94,8 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_logumdmarker.md">D3DDDI
 
 
 
+
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_PCIEXPRESS_ERROR_SECTION
-title: _WHEA_PCIEXPRESS_ERROR_SECTION
+title: "_WHEA_PCIEXPRESS_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_PCIEXPRESS_ERROR_SECTION structure describes PCI Express (PCIe) error data.
 old-location: whea\whea_pciexpress_error_section.htm
 old-project: whea
 ms.assetid: 1d96a799-6e52-49e0-b440-a8643111176f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: whea.whea_pciexpress_error_section, WHEA_PCIEXPRESS_ERROR, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_PCIEXPRESS_ERROR, *PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, whea.whea_pciexpress_error_section, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_PCIEXPRESS_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION
+req.typenames: WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR_SECTION
 ---
 
 # _WHEA_PCIEXPRESS_ERROR_SECTION structure
@@ -87,12 +87,67 @@ The device type or port type of the PCIe component where the error occurred. Pos
 
 
 
+
+
+#### WheaPciExpressEndpoint
+
+A PCIe endpoint device.
+
+
+
+#### WheaPciExpressLegacyEndpoint
+
+A legacy PCIe endpoint device.
+
+
+
+#### WheaPciExpressRootPort
+
+A root port of a PCIe root complex.
+
+
+
+#### WheaPciExpressUpstreamSwitchPort
+
+An upstream port of a PCIe switch.
+
+
+
+#### WheaPciExpressDownstreamSwitchPort
+
+A downstream port of a PCIe switch.
+
+
+
+#### WheaPciExpressToPciXBridge
+
+A PCIe-to-PCI or PCI-X bridge.
+
+
+
+#### WheaPciXToExpressBridge
+
+A PCI or PCI-X-to-PCIe bridge.
+
+
+
+#### WheaPciExpressRootComplexIntegratedEndpoint
+
+A PCIe endpoint device that is integrated into the root complex.
+
+
+
+#### WheaPciExpressRootComplexEventCollector
+
+A PCIe root complex event collector.
+
 This member contains valid data only if the <b>ValidBits.PortType</b> bit is set.
 
 
 ### -field Version
 
 A WHEA_PCIEXPRESS_VERSION union that contains the version of the PCIe specification that is supported by the hardware platform. The WHEA_PCIEXPRESS_VERSION union is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -111,12 +166,38 @@ A WHEA_PCIEXPRESS_VERSION union that contains the version of the PCIe specificat
 </tr>
 </table></span></div>
 
+
+
+
+#### MinorVersion
+
+The minor version number.
+
+
+
+#### MajorVersion
+
+The major version number.
+
+
+
+#### Reserved
+
+Reserved for system use.
+
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_VERSION union.
+
 This member contains valid data only if the <b>ValidBits.Version</b> bit is set.
 
 
 ### -field CommandStatus
 
 A WHEA_PCIEXPRESS_COMMAND_STATUS union that contains the contents of the PCI command and status registers of the PCIe device where the error occurred. The WHEA_PCIEXPRESS_COMMAND_STATUS union is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -134,6 +215,25 @@ A WHEA_PCIEXPRESS_COMMAND_STATUS union that contains the contents of the PCI com
 </tr>
 </table></span></div>
 
+
+
+
+#### Command
+
+The contents of the PCI command register.
+
+
+
+#### Status
+
+The contents of the PCI status register.
+
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_COMMAND_STATUS union.
+
 This member contains valid data only if the <b>ValidBits.CommandStatus</b> bit is set.
 
 
@@ -145,6 +245,7 @@ Reserved for system use.
 ### -field DeviceId
 
 A WHEA_PCIEXPRESS_DEVICE_ID structure that contains data that identifies the PCIe device where the error occurred. The WHEA_PCIEXPRESS_DEVICE_ID structure is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -167,6 +268,73 @@ A WHEA_PCIEXPRESS_DEVICE_ID structure that contains data that identifies the PCI
 </tr>
 </table></span></div>
 
+
+
+
+#### VendorID
+
+The vendor ID of the device.
+
+
+
+#### DeviceId
+
+The device ID of the device.
+
+
+
+#### ClassCode
+
+The class code of the device.
+
+
+
+#### FunctionNumber
+
+The function number of the device on the bus.
+
+
+
+#### DeviceNumber
+
+The device number of the device on the bus.
+
+
+
+#### Segment
+
+The number of the bus segment that contains the device.
+
+
+
+#### PrimaryBusNumber
+
+The root port/bridge primary bus number or the device bus number.
+
+
+
+#### SecondaryBusNumber
+
+The root port/bridge secondary bus number.
+
+
+
+#### Reserved1
+
+Reserved for system use.
+
+
+
+#### SlotNumber
+
+The slot number where the device is located in the system.
+
+
+
+#### Reserved2
+
+Reserved for system use.
+
 This member contains valid data only if the <b>ValidBits.DeviceId</b> bit is set.
 
 
@@ -180,6 +348,7 @@ This member contains valid data only if the <b>ValidBits.DeviceSerialNumber</b> 
 ### -field BridgeControlStatus
 
 A WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union that contains the contents of the PCI control and secondary status registers of the bridge device where the error occurred. The WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -196,6 +365,25 @@ A WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union that contains the contents of the 
 </td>
 </tr>
 </table></span></div>
+
+
+
+
+#### BridgeSecondaryStatus
+
+The contents of the secondary status register of the bridge device.
+
+
+
+#### BridgeControl
+
+The contents of the control register of the bridge device.
+
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union.
 
 This member contains valid data only if the <b>ValidBits.BridgeControlStatus</b> bit is set.
 
@@ -214,178 +402,40 @@ A buffer that contains a <a href="https://msdn.microsoft.com/library/windows/har
 This member contains valid data only if the <b>ValidBits.AerInfo</b> bit is set.
 
 
-##### - CommandStatus.Command
-
-The contents of the PCI command register.
-
-
-##### - DeviceId.SecondaryBusNumber
-
-The root port/bridge secondary bus number.
-
-
-##### - CommandStatus.Status
-
-The contents of the PCI status register.
-
-
-##### - PortType.WheaPciExpressDownstreamSwitchPort
-
-A downstream port of a PCIe switch.
-
-
-##### - DeviceId.DeviceNumber
-
-The device number of the device on the bus.
-
-
-##### - Version.Reserved
-
-Reserved for system use.
-
-
-##### - PortType.WheaPciExpressUpstreamSwitchPort
-
-An upstream port of a PCIe switch.
-
-
-##### - Version.AsULONG
-
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_VERSION union.
-
-
-##### - PortType.WheaPciExpressEndpoint
-
-A PCIe endpoint device.
-
-
-##### - PortType.WheaPciExpressToPciXBridge
-
-A PCIe-to-PCI or PCI-X bridge.
-
-
-##### - DeviceId.FunctionNumber
-
-The function number of the device on the bus.
-
-
-##### - PortType.WheaPciExpressRootComplexEventCollector
-
-A PCIe root complex event collector.
-
-
-##### - Version.MajorVersion
-
-The major version number.
-
-
-##### - DeviceId.Reserved1
-
-Reserved for system use.
-
-
-##### - BridgeControlStatus.BridgeControl
-
-The contents of the control register of the bridge device.
-
-
-##### - Version.MinorVersion
-
-The minor version number.
-
-
-##### - PortType.WheaPciExpressRootPort
-
-A root port of a PCIe root complex.
-
-
-##### - PortType.WheaPciExpressLegacyEndpoint
-
-A legacy PCIe endpoint device.
-
-
-##### - DeviceId.Segment
-
-The number of the bus segment that contains the device.
-
-
-##### - BridgeControlStatus.AsULONG
-
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union.
-
-
-##### - DeviceId.PrimaryBusNumber
-
-The root port/bridge primary bus number or the device bus number.
-
-
-##### - PortType.WheaPciExpressRootComplexIntegratedEndpoint
-
-A PCIe endpoint device that is integrated into the root complex.
-
-
-##### - DeviceId.SlotNumber
-
-The slot number where the device is located in the system.
-
-
-##### - DeviceId.Reserved2
-
-Reserved for system use.
-
-
-##### - CommandStatus.AsULONG
-
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_COMMAND_STATUS union.
-
-
-##### - BridgeControlStatus.BridgeSecondaryStatus
-
-The contents of the secondary status register of the bridge device.
-
-
-##### - DeviceId.ClassCode
-
-The class code of the device.
-
-
-##### - DeviceId.VendorID
-
-The vendor ID of the device.
-
-
-##### - PortType.WheaPciXToExpressBridge
-
-A PCI or PCI-X-to-PCIe bridge.
-
-
-##### - DeviceId.DeviceId
-
-The device ID of the device.
-
-
 ## -remarks
+
 
 
 The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is contained in a PCI Express (PCIe) error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a PCIe error section only if the <b>SectionType </b>member of one of the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains PCIEXPRESS_ERROR_SECTION_GUID.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section_validbits.md">WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
- 
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section_validbits.md">WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PCIEXPRESS_ERROR_SECTION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PCIEXPRESS_ERROR_SECTION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:usbscan._USBSCAN_PIPE_INFORMATION
-title: _USBSCAN_PIPE_INFORMATION
+title: "_USBSCAN_PIPE_INFORMATION"
 author: windows-driver-content
 description: The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a USBSCAN_PIPE_CONFIGURATION structure.
 old-location: image\usbscan_pipe_information.htm
 old-project: image
 ms.assetid: a13bec15-67e1-45f9-be90-dee5c555ad64
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: usbscan/PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], *PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], usbscan/USBSCAN_PIPE_INFORMATION, _USBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION
+ms.date: 2/23/2018
+ms.keywords: "*PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], _USBSCAN_PIPE_INFORMATION, image.usbscan_pipe_information, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, usbscan/PUSBSCAN_PIPE_INFORMATION, usbscan/USBSCAN_PIPE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	usbscan.h
-apiname: 
+api_name:
 -	USBSCAN_PIPE_INFORMATION
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Maximum packet size for the transfer pipe.
 ### -field EndpointAddress
 
 The address of the pipe's endpoint. The address is encoded as follows:
+
 <table>
 <tr>
 <th>Bits</th>
@@ -118,7 +119,8 @@ Direction, ignored for control endpoints:
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information, see the <i>Universal Serial Bus Specification</i>.
 
@@ -135,13 +137,17 @@ A <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>-typed valu
 
 ## -see-also
 
-<a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
-
 <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>
 
- 
+
+
+<a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20USBSCAN_PIPE_INFORMATION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20USBSCAN_PIPE_INFORMATION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

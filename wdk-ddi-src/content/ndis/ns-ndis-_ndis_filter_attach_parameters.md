@@ -1,14 +1,14 @@
 ---
 UID: NS:ndis._NDIS_FILTER_ATTACH_PARAMETERS
-title: _NDIS_FILTER_ATTACH_PARAMETERS
+title: "_NDIS_FILTER_ATTACH_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_FILTER_ATTACH_PARAMETERS structure defines the initialization parameters for the filter module.
 old-location: netvista\ndis_filter_attach_parameters.htm
 old-project: netvista
 ms.assetid: d46a1e62-9d03-4ab9-86f6-81b06c04d0f6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _NDIS_FILTER_ATTACH_PARAMETERS, netvista.ndis_filter_attach_parameters, NDIS_FILTER_ATTACH_PARAMETERS, ndis/PNDIS_FILTER_ATTACH_PARAMETERS, *PNDIS_FILTER_ATTACH_PARAMETERS, filter_structures_ref_3ab66eda-29e5-4442-9506-6e51238cec5f.xml, PNDIS_FILTER_ATTACH_PARAMETERS, PNDIS_FILTER_ATTACH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_FILTER_ATTACH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_FILTER_ATTACH_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_ATTACH_PARAMETERS, PNDIS_FILTER_ATTACH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_ATTACH_PARAMETERS, filter_structures_ref_3ab66eda-29e5-4442-9506-6e51238cec5f.xml, ndis/NDIS_FILTER_ATTACH_PARAMETERS, ndis/PNDIS_FILTER_ATTACH_PARAMETERS, netvista.ndis_filter_attach_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_FILTER_ATTACH_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS
+req.typenames: NDIS_FILTER_ATTACH_PARAMETERS, *PNDIS_FILTER_ATTACH_PARAMETERS
 ---
 
 # _NDIS_FILTER_ATTACH_PARAMETERS structure
@@ -116,6 +116,46 @@ To indicate the version of the <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure, N
 
 
 
+
+#### NDIS_FILTER_ATTACH__PARAMETERS_REVISION_4
+
+Added various members for NDIS 6.30.
+
+NDIS sets the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_4.
+
+
+
+#### NDIS_FILTER_ATTACH_PARAMETERS_REVISION_3
+
+Added the 
+        <b>ReceiveFilterCapabilities</b>, 
+        <b>MiniportPhysicalDeviceObject</b>, and 
+        <b>NicSwitchCapabilities</b> members for NDIS 6.20.
+
+NDIS sets the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_3.
+
+
+
+#### NDIS_FILTER_ATTACH_PARAMETERS_REVISION_2
+
+Added the 
+        <b>HDSplitCurrentConfig</b> member for NDIS 6.1.
+
+NDIS sets the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_2.
+
+
+
+#### NDIS_FILTER_ATTACH_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.0.
+
+NDIS sets the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_1.
+
+
 ### -field IfIndex
 
 The NDIS interface index of the filter module that NDIS is attaching to the driver stack.
@@ -157,8 +197,8 @@ The name of the base miniport adapter.
 ### -field MediaConnectState
 
 The 
-     <mshelp:link keywords="netvista.net_if_media_connect_state" tabindex="0"><b>
-     NET_IF_MEDIA_CONNECT_STATE</b></mshelp:link> connection state type.
+     <a href="https://msdn.microsoft.com/5af5e050-4b2b-45a9-8549-3a3818d7b06f">
+     NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
 ### -field MediaDuplexState
@@ -207,8 +247,8 @@ A pointer to an
      <b>Type</b> member should be
      NDIS_OBJECT_TYPE_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, and the 
      <b>MiniportMediaSpecificAttributes</b> member points to an 
-     <mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-     NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+     NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure.
 
 
 ### -field DefaultOffloadConfiguration
@@ -275,8 +315,8 @@ Reserved for future use.
 ### -field HDSplitCurrentConfig
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_hd_split_current_config" tabindex="0"><b>
-     NDIS_HD_SPLIT_CURRENT_CONFIG</b></mshelp:link> structure. This structure specifies the current header-data split
+     <a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">
+     NDIS_HD_SPLIT_CURRENT_CONFIG</a> structure. This structure specifies the current header-data split
      configuration of the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does
      not support header-data split.
 
@@ -284,8 +324,8 @@ A pointer to an
 ### -field ReceiveFilterCapabilities
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_receive_filter_capabilities" tabindex="0"><b>
-     NDIS_RECEIVE_FILTER_CAPABILITIES</b></mshelp:link> structure. This structure specifies the generic filtering
+     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+     NDIS_RECEIVE_FILTER_CAPABILITIES</a> structure. This structure specifies the generic filtering
      capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not
      support receive filtering.
 
@@ -300,8 +340,8 @@ A pointer to a
 ### -field NicSwitchCapabilities
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_nic_switch_capabilities" tabindex="0"><b>
-     NDIS_NIC_SWITCH_CAPABILITIES</b></mshelp:link> structure. This structure specifies the NIC switch capabilities of
+     <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">
+     NDIS_NIC_SWITCH_CAPABILITIES</a> structure. This structure specifies the NIC switch capabilities of
      the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support NIC
      switch features.
 
@@ -321,45 +361,12 @@ For more information, see <a href="https://msdn.microsoft.com/E64DD4F0-D5F8-4FFF
 ### -field NicSwitchArray
 
 A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.  This array enumerates the NIC switches that have been created on the miniport adapter. NIC switches can be created only if SR-IOV is supported and enabled on the adapter. 
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, Windows supports only the default NIC switch that is created on the physical function (PF) miniport adapter. Therefore, this array can contain only one element. </div><div> </div>
 
-##### - Header.NDIS_FILTER_ATTACH_PARAMETERS_REVISION_2
-
-Added the 
-        <b>HDSplitCurrentConfig</b> member for NDIS 6.1.
-
-NDIS sets the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_2.
-
-
-##### - Header.NDIS_FILTER_ATTACH_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.0.
-
-NDIS sets the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_1.
-
-
-##### - Header.NDIS_FILTER_ATTACH__PARAMETERS_REVISION_4
-
-Added various members for NDIS 6.30.
-
-NDIS sets the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_4.
-
-
-##### - Header.NDIS_FILTER_ATTACH_PARAMETERS_REVISION_3
-
-Added the 
-        <b>ReceiveFilterCapabilities</b>, 
-        <b>MiniportPhysicalDeviceObject</b>, and 
-        <b>NicSwitchCapabilities</b> members for NDIS 6.20.
-
-NDIS sets the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_ATTACH_PARAMETERS_REVISION_3.
-
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, Windows supports only the default NIC switch that is created on the physical function (PF) miniport adapter. Therefore, this array can contain only one element. </div>
+<div> </div>
 
 ## -remarks
+
 
 
 To define filter module attach parameters, NDIS passes a pointer to an NDIS_FILTER_ATTACH_PARAMETERS
@@ -371,51 +378,90 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">NDIS_NIC_SWITCH_CAPABILITIES</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
+
+
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndis_receive_filter_capabilities" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_CAPABILITIES</b></mshelp:link>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">NDIS_NIC_SWITCH_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_ATTACH_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_ATTACH_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

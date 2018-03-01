@@ -2,13 +2,13 @@
 UID: NE:prdrvcom.tagSHIMOPTS
 title: tagSHIMOPTS
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\shimopts.htm
 old-project: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SHIMOPTS enumeration [Print Devices], PTSHIM_DEFAULT, tagSHIMOPTS, PSHIMOPTS, PTSHIM_NOSNAPSHOT, SHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/SHIMOPTS, print.shimopts, PSHIMOPTS enumeration pointer [Print Devices], *PSHIMOPTS, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/PSHIMOPTS
+ms.date: 2/23/2018
+ms.keywords: "*PSHIMOPTS, PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], PTSHIM_DEFAULT, PTSHIM_NOSNAPSHOT, SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/SHIMOPTS, print.shimopts, tagSHIMOPTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Prdrvcom.h
-apiname: 
+api_name:
 -	SHIMOPTS
 product: Windows
 targetos: Windows
-req.typenames: *PSHIMOPTS, SHIMOPTS
+req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef enum tagSHIMOPTS {
 ### -field PTSHIM_DEFAULT
 
 
-
 ### -field PTSHIM_NOSNAPSHOT
-
 

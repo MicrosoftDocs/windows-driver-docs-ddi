@@ -7,8 +7,8 @@ old-location: netvista\rilemergencynumberslist.htm
 old-project: netvista
 ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILEMERGENCYNUMBERSLIST, ntddrilapitypes/RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILEMERGENCYNUMBERSLIST
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST
+req.typenames: RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST
 ---
 
 # RILEMERGENCYNUMBERSLIST structure
@@ -72,11 +72,8 @@ typedef struct _RILEMERGENCYNUMBERSLIST {
 ### -field cbSize
 
 
-
 ### -field dwRilENSize
 
 
-
 ### -field RilEN
-
 

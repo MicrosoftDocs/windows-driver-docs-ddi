@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfomsgsupport_2.htm
 old-project: netvista
 ms.assetid: e9e1f353-4501-487d-ba2d-ee1572d93507
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSI_SMS_BROADCAST, netvista.rilmsgserviceinfomsgsupport_2, RIL_MSI_SMS_OUTGOING, rilapitypes/RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT, rilapitypes/RIL_MSI_SMS_OUTGOING, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST
+ms.date: 2/16/2018
+ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport_2, rilapitypes/RILMSGSERVICEINFOMSGSUPPORT, rilapitypes/RIL_MSI_SMS_BROADCAST, rilapitypes/RIL_MSI_SMS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGSERVICEINFOMSGSUPPORT
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILMSGSERVICEINFOMSGSUPPORT {
 ### -field RIL_MSI_SMS_INCOMING
 
 
-
 ### -field RIL_MSI_SMS_OUTGOING
 
 
-
 ### -field RIL_MSI_SMS_BROADCAST
-
 

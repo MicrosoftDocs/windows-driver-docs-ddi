@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentconsumer_sendfixeddocumentsequence.htm
 old-project: print
 ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IXpsDocumentConsumer, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, SendFixedDocumentSequence, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, print.ixpsdocumentconsumer_sendfixeddocumentsequence, IXpsDocumentConsumer::SendFixedDocumentSequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml
+ms.date: 2/23/2018
+ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, SendFixedDocumentSequence,IXpsDocumentConsumer.SendFixedDocumentSequence, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, print.ixpsdocumentconsumer_sendfixeddocumentsequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IXpsDocumentConsumer.SendFixedDocumentSequence
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ A pointer to an XPS fixed document sequence object.
 ## -returns
 
 
+
 <code>SendFixedDocumentSequence</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 Only one <a href="..\filterpipeline\nn-filterpipeline-ifixeddocumentsequence.md">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.
+
 
 

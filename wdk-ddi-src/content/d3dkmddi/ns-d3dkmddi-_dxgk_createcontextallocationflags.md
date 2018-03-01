@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATECONTEXTALLOCATIONFLAGS
-title: _DXGK_CREATECONTEXTALLOCATIONFLAGS
+title: "_DXGK_CREATECONTEXTALLOCATIONFLAGS"
 author: windows-driver-content
 description: Specifies the properties of the context to be allocated.
 old-location: display\dxgk_createcontextallocationflags.htm
 old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_createcontextallocationflags, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, _DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS
+ms.date: 2/24/2018
+ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_CREATECONTEXTALLOCATIONFLAGS
 product: Windows
 targetos: Windows
@@ -95,12 +95,13 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
 
 
 
-### -field Value
+#### - Value
 
 [in] A 32-bit value that specifies the context allocation flags.
 
 
 ## -remarks
+
 
 
 The display miniport driver allocates GPU contexts or device-specific contexts by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
@@ -110,15 +111,20 @@ The <b>ContextAllocationFlags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20 DXGK_CREATECONTEXTALLOCATIONFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20 DXGK_CREATECONTEXTALLOCATIONFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

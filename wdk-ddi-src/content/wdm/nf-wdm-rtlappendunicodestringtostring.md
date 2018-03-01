@@ -7,13 +7,13 @@ old-location: kernel\rtlappendunicodestringtostring.htm
 old-project: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlAppendUnicodeStringToString, k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, wdm/RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], kernel.rtlappendunicodestringtostring
+ms.date: 2/24/2018
+ms.keywords: RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring, wdm/RtlAppendUnicodeStringToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlAppendUnicodeStringToString
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Pointer to the buffered string to be concatenated.
 ## -returns
 
 
+
 <b>RtlAppendUnicodeStringToString</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The destination string length is too small to allow the source string to be conc
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>RtlAppendUnicodeStringToString</b> copies bytes from the source up to the length of the destination buffer.
@@ -123,13 +128,16 @@ The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller 
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlAppendUnicodeStringToString routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlAppendUnicodeStringToString routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

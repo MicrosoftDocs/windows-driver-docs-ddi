@@ -7,8 +7,8 @@ old-location: netvista\rilmessage_2.htm
 old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], RILMESSAGE, rilapitypes/RILMESSAGE, netvista.rilmessage_2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILMESSAGE, RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], netvista.rilmessage_2, rilapitypes/RILMESSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMESSAGE
 product: Windows
 targetos: Windows
@@ -97,129 +97,71 @@ typedef struct _RILMESSAGE {
 
 
 
-### -field msgUnion
-
-
-
-### -field msgUnion.unMsgInDeliver
-
- 
-
-
-### -field msgUnion.unMsgInStatus
-
- 
-
-
-### -field msgUnion.unMsgOutSubmit
-
- 
-
-
-### -field msgUnion.unMsgBcGeneral
-
- 
-
-
-### -field msgUnion.unMsgIS637InStatus
-
- 
-
-
-### -field msgUnion.unMsgCDMAInDeliver
-
- 
-
-
-### -field msgUnion.unMsgCDMAOutSubmit
-
- 
-
-
-### -field RILMSGUNION
-
-
-
 ### -field cbSize
-
 
 
 ### -field dwParams
 
 
-
 ### -field raSvcCtrAddress
-
 
 
 ### -field dwType
 
 
-
 ### -field dwFlags
 
 
-
-#### - unMsgIS637InStatus
-
+### -field msgUnion
 
 
-#### - unMsgBcGeneral
-
-
-
-#### - RIL_MSGTYPE_OUT_SUBMIT
-
+### -field RILMSGUNION
 
 
 #### - RIL_MSGTYPE_BC_GENERAL
 
 
+#### - RIL_MSGTYPE_IN_CDMADELIVER
+
 
 #### - RIL_MSGTYPE_IN_DELIVER
-
-
-
-#### - RIL_MSGTYPE_OUT_CDMASUBMIT
-
-
-
-#### - unMsgInDeliver
-
-
-
-#### - case
-
-
-
-#### - switch_is
-
 
 
 #### - RIL_MSGTYPE_IN_IS637STATUS
 
 
+#### - RIL_MSGTYPE_IN_STATUS
 
-#### - unMsgInStatus
 
+#### - RIL_MSGTYPE_OUT_CDMASUBMIT
+
+
+#### - RIL_MSGTYPE_OUT_SUBMIT
+
+
+#### - case
+
+
+#### - switch_is
+
+
+#### - unMsgBcGeneral
 
 
 #### - unMsgCDMAInDeliver
 
 
-
-#### - unMsgOutSubmit
-
-
-
 #### - unMsgCDMAOutSubmit
 
 
-
-#### - RIL_MSGTYPE_IN_CDMADELIVER
-
+#### - unMsgIS637InStatus
 
 
-#### - RIL_MSGTYPE_IN_STATUS
+#### - unMsgInDeliver
 
+
+#### - unMsgInStatus
+
+
+#### - unMsgOutSubmit
 

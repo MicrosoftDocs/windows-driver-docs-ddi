@@ -7,8 +7,8 @@ old-location: display\d3dwddm2_0ddi_devicefuncs.htm
 old-project: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dwddm2_0ddi_devicefuncs, d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, display.d3dwddm2_0ddi_devicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	D3DWDDM2_0DDI_DEVICEFUNCS
 product: Windows
 targetos: Windows
-req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS
+req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS
 ---
 
 # D3DWDDM2_0DDI_DEVICEFUNCS structure
@@ -1101,5 +1101,6 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn
 ### -field pfnGetResourceLayout
 
  
+
 
 

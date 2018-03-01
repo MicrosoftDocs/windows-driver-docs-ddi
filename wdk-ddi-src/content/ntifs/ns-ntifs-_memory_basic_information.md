@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: _MEMORY_BASIC_INFORMATION
+title: "_MEMORY_BASIC_INFORMATION"
 author: windows-driver-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
 old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MEM_COMMIT, PAGE_GUARD, MEM_MAPPED, MEM_IMAGE, PMEMORY_BASIC_INFORMATION, PAGE_READWRITE, kernel.memory_basic_information, PAGE_READONLY, MEM_RESERVE, PAGE_NOCACHE, ntifs/MEMORY_BASIC_INFORMATION, _MEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/PMEMORY_BASIC_INFORMATION, PAGE_EXECUTE, MEM_FREE, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PAGE_WRITECOMBINE, PAGE_NOACCESS, MEM_PRIVATE, *PMEMORY_BASIC_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PAGE_EXECUTE, PAGE_GUARD, PAGE_NOACCESS, PAGE_NOCACHE, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOMBINE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _MEMORY_BASIC_INFORMATION, kernel.memory_basic_information, ntifs/MEMORY_BASIC_INFORMATION, ntifs/PMEMORY_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION
+req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 ---
 
 # _MEMORY_BASIC_INFORMATION structure
@@ -88,6 +88,7 @@ A pointer to the base address of a range of allocated pages. The page pointed to
 
 The memory protection option when the region was initially allocated. This member can be one of the 
 following constants defined in wdm.h, or 0 if the caller does not have access.
+
 <table>
 <tr>
 <th>Value</th>
@@ -186,7 +187,8 @@ Disable the placement of committed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RegionSize
@@ -199,6 +201,7 @@ The size of the region in bytes beginning at
 ### -field State
 
 The state of the pages in the region. This member can be one of the following values. 
+
 
 
 <table>
@@ -239,7 +242,8 @@ Indicates reserved pages where a range of the process's virtual address space is
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Protect
@@ -250,6 +254,7 @@ The access protection of the pages in the region. This member is one of the valu
 ### -field Type
 
 The type of pages in the region. The following types are defined. 
+
 
 
 <table>
@@ -290,16 +295,19 @@ Indicates that the memory pages within the region are private (that is, not shar
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_BASIC_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_BASIC_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:irb._IDE_TRANSFER_MODE_PARAMETERS
-title: _IDE_TRANSFER_MODE_PARAMETERS
+title: "_IDE_TRANSFER_MODE_PARAMETERS"
 author: windows-driver-content
-description: The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's AtaControllerTransferModeSelect routine to set the transfer mode parameters on a channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's AtaControllerTransferModeSelect routine to set the transfer mode parameters on a channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ide_transfer_mode_parameters.htm
 old-project: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PIDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS, _IDE_TRANSFER_MODE_PARAMETERS, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml, irb/IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], IDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters
+ms.date: 2/24/2018
+ms.keywords: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IDE_TRANSFER_MODE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ Contains a bitmap that indicates the selected transfer mode settings for each of
 ## -remarks
 
 
+
 Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</b>, and <b>DeviceTransferModeSelected</b> are arrays of ULONG bitmaps indicating combinations of PIO and DMA transfer modes. The bitmaps are defined as follows:
 
 // PIO Modes
@@ -151,15 +152,20 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 
 
-## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a>
 
- 
+
+
+<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_TRANSFER_MODE_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_TRANSFER_MODE_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

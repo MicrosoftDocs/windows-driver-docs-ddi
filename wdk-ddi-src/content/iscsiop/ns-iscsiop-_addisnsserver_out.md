@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsiop._AddiSNSServer_OUT
-title: _AddiSNSServer_OUT
+title: "_AddiSNSServer_OUT"
 author: windows-driver-content
 description: The AddiSNSServer_OUT structure holds the output data for the user-mode AddISNSServer method.
 old-location: storage\addisnsserver_out.htm
 old-project: storage
 ms.assetid: f1c02d19-9e96-4fd6-b950-ae02b6f3bba4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: iscsiop/AddiSNSServer_OUT, *PAddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml, storage.addisnsserver_out, AddiSNSServer_OUT, PAddiSNSServer_OUT structure pointer [Storage Devices], _AddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], PAddiSNSServer_OUT
+ms.date: 2/24/2018
+ms.keywords: "*PAddiSNSServer_OUT, AddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], PAddiSNSServer_OUT, PAddiSNSServer_OUT structure pointer [Storage Devices], _AddiSNSServer_OUT, iscsiop/AddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, storage.addisnsserver_out, structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsiop.h
-apiname: 
+api_name:
 -	AddiSNSServer_OUT
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ On output from <b>AddISNSServer</b>, the status of the <b>AddISNSServer</b> oper
 ## -remarks
 
 
+
 It is optional that you implement this method.
+
 
 
 
@@ -83,13 +85,19 @@ It is optional that you implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
 
 <a href="..\iscsiop\ns-iscsiop-_addisnsserver_in.md">AddiSNSServer_IN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddiSNSServer_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddiSNSServer_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

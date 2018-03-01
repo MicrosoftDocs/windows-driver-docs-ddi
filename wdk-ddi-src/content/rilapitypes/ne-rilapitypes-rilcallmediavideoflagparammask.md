@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediavideoflagparammask_2.htm
 old-project: netvista
 ms.assetid: 6f0a8c1f-e3cb-4bcb-a9ec-4d4b7555a314
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CALLMEDIAVIDEOFLAG_ALL, netvista.rilcallmediavideoflagparammask_2, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, RIL_CALLMEDIAVIDEOFLAG_PAUSE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL, RILCALLMEDIAVIDEOFLAGPARAMMASK, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIAVIDEOFLAGPARAMMASK, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAVIDEOFLAG_ALL, RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, RIL_CALLMEDIAVIDEOFLAG_PAUSE, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, netvista.rilcallmediavideoflagparammask_2, rilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIAVIDEOFLAGPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILCALLMEDIAVIDEOFLAGPARAMMASK {
 ### -field RIL_CALLMEDIAVIDEOFLAG_NONE
 
 
-
 ### -field RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN
-
 
 
 ### -field RIL_CALLMEDIAVIDEOFLAG_PAUSE
 
 
-
 ### -field RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE
 
 
-
 ### -field RIL_CALLMEDIAVIDEOFLAG_ALL
-
 

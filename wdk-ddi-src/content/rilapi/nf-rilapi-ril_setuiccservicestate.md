@@ -7,8 +7,8 @@ old-location: netvista\ril_setuiccservicestate.htm
 old-project: netvista
 ms.assetid: 96b17a3f-1e69-47f5-aa09-59abfb5c1505
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_setuiccservicestate, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetUiccServiceState, RIL_SetUiccServiceState
+ms.date: 2/16/2018
+ms.keywords: RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_setuiccservicestate, rilapi/RIL_SetUiccServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_SetUiccServiceState
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_SetUiccServiceState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwService
-
 
 
 ### -param lpLockCredential
 
 
-
 ### -param fEnable
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

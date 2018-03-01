@@ -7,8 +7,8 @@ old-location: kernel\rtlulongptradd.htm
 old-project: kernel
 ms.assetid: 26A9A0B6-07A3-4D42-A5A1-C4CDD541A3FA
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd, RtlULongPtrAdd
+ms.date: 2/24/2018
+ms.keywords: RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntintsafe.h
-apiname: 
+api_name:
 -	RtlULongPtrAdd
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:wdbgexts._EXT_TYPED_DATA
-title: _EXT_TYPED_DATA
+title: "_EXT_TYPED_DATA"
 author: windows-driver-content
 description: The EXT_TYPED_DATA structure is passed to and returned from the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 old-location: debugger\ext_typed_data.htm
 old-project: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: _EXT_TYPED_DATA, PEXT_TYPED_DATA, *PEXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], wdbgexts/PEXT_TYPED_DATA, wdbgexts/EXT_TYPED_DATA, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, PEXT_TYPED_DATA structure pointer [Windows Debugging], EXT_TYPED_DATA, debugger.ext_typed_data
+ms.date: 2/23/2018
+ms.keywords: "*PEXT_TYPED_DATA, EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, _EXT_TYPED_DATA, debugger.ext_typed_data, wdbgexts/EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdbgexts.h
-apiname: 
+api_name:
 -	EXT_TYPED_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PEXT_TYPED_DATA, EXT_TYPED_DATA
+req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,7 @@ Specifies which suboperation the <a href="https://msdn.microsoft.com/library/win
 ### -field Flags
 
 Specifies the bit flags describing the target's memory in which the data resides. If no flags are present, the data is considered to be in virtual memory. One of the following flags may be present:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -139,7 +140,8 @@ The typed data is in physical memory, and this physical memory is write-combined
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field InData
@@ -240,6 +242,7 @@ Set to zero.
 ## -remarks
 
 
+
 The members of this structure are used as the input and output parameters to the <a href="https://msdn.microsoft.com/ac883bc8-3956-4bc3-a11e-b6e036305329">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI </a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation. The interpretation of most of the parameters depends on the particular suboperation being performed, as specified by the <b>Operation</b> member.
 
@@ -247,19 +250,28 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 
-## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+
+
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+
 
 <a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_TYPED_DATA structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_TYPED_DATA structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

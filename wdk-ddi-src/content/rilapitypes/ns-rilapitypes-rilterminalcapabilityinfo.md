@@ -7,8 +7,8 @@ old-location: netvista\rilterminalcapabilityinfo_2.htm
 old-project: netvista
 ms.assetid: 29d9bf92-ea35-4d74-bc4c-3f386e7fb3fa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], *LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, netvista.rilterminalcapabilityinfo_2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilterminalcapabilityinfo_2, rilapitypes/RILTERMINALCAPABILITYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILTERMINALCAPABILITYINFO
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct _RILTERMINALCAPABILITYINFO {
 ### -field dwSize
 
 
-
 ### -field bData
-
 

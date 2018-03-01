@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddvol._VOLUME_PHYSICAL_OFFSETS
-title: _VOLUME_PHYSICAL_OFFSETS
+title: "_VOLUME_PHYSICAL_OFFSETS"
 author: windows-driver-content
 description: The VOLUME_PHYSICAL_OFFSETS structure contains an array of physical offsets and accompanying physical disk numbers and is used with IOCTL_VOLUME_LOGICAL_TO_PHYSICAL to request a series of pairs of physical offsets and disk numbers that correspond to a single logical offset.
 old-location: storage\volume_physical_offsets.htm
 old-project: storage
 ms.assetid: 876cb283-ce0d-44ed-b515-d4ee31089b88
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.volume_physical_offsets, VOLUME_PHYSICAL_OFFSETS structure [Storage Devices], *PVOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS structure pointer [Storage Devices], structs-volumemgr_f5ee82b1-a42a-47aa-a3fd-116eeb3b441b.xml, _VOLUME_PHYSICAL_OFFSETS, ntddvol/VOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS, ntddvol/PVOLUME_PHYSICAL_OFFSETS
+ms.date: 2/24/2018
+ms.keywords: "*PVOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS structure pointer [Storage Devices], VOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS structure [Storage Devices], _VOLUME_PHYSICAL_OFFSETS, ntddvol/PVOLUME_PHYSICAL_OFFSETS, ntddvol/VOLUME_PHYSICAL_OFFSETS, storage.volume_physical_offsets, structs-volumemgr_f5ee82b1-a42a-47aa-a3fd-116eeb3b441b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddvol.h
-apiname: 
+api_name:
 -	VOLUME_PHYSICAL_OFFSETS
 product: Windows
 targetos: Windows
-req.typenames: *PVOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS
+req.typenames: VOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS
 ---
 
 # _VOLUME_PHYSICAL_OFFSETS structure
@@ -82,13 +82,19 @@ Contains an array of structures of type <a href="..\ntddvol\ns-ntddvol-_volume_p
 
 <a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
 
+
+
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+
+
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VOLUME_PHYSICAL_OFFSETS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VOLUME_PHYSICAL_OFFSETS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

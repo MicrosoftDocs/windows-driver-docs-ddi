@@ -7,8 +7,8 @@ old-location: storage\phw_timer.htm
 old-project: storage
 ms.assetid: 8f537ddb-ba94-4423-95a8-6497710d234f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.phw_timer, (*PHW_TIMER) callback function [Storage Devices], (*PHW_TIMER), srb/(*PHW_TIMER), ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml
+ms.date: 2/24/2018
+ms.keywords: "(*PHW_TIMER), (*PHW_TIMER) callback function [Storage Devices], ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml, srb/(*PHW_TIMER), storage.phw_timer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	srb.h
-apiname: 
+api_name:
 -	(*PHW_TIMER)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -76,26 +76,32 @@ Pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
-The SCSI miniport driver's timer routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
+
+The SCSI miniport driver's timer routine, <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
 
 Miniport drivers that work with the StorPort driver do not use this timer routine. 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PHW_TIMER callback function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PHW_TIMER callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

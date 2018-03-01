@@ -7,8 +7,8 @@ old-location: netvista\rillocationinfoparammask.htm
 old-project: netvista
 ms.assetid: 3d681026-7ccb-4dcb-bed1-505c13089177
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_CELLID, ntddrilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_LAC, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_ALL, ntddrilapitypes/RIL_PARAM_LU_ALL, RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_TAC, RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, netvista.rillocationinfoparammask, RIL_PARAM_LU_CELLID
+ms.date: 2/16/2018
+ms.keywords: RILLOCATIONINFOPARAMMASK, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_ALL, RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_LAC, RIL_PARAM_LU_TAC, netvista.rillocationinfoparammask, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_ALL, ntddrilapitypes/RIL_PARAM_LU_CELLID, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_LAC, ntddrilapitypes/RIL_PARAM_LU_TAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILLOCATIONINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILLOCATIONINFOPARAMMASK {
 ### -field RIL_PARAM_LU_EXECUTOR
 
 
-
 ### -field RIL_PARAM_LU_HUICCAPP
-
 
 
 ### -field RIL_PARAM_LU_LAC
 
 
-
 ### -field RIL_PARAM_LU_TAC
-
 
 
 ### -field RIL_PARAM_LU_CELLID
 
 
-
 ### -field RIL_PARAM_LU_ALL
-
 

@@ -7,8 +7,8 @@ old-location: wdf\iremotetargetcallbackremoval_onremotetargetqueryremove.htm
 old-project: wdf
 ms.assetid: 10a9510a-a11c-46fa-adb8-b122f6c571f4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove method, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove
+ms.date: 2/20/2018
+ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetQueryRemove,IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Wudfddi.h
-apiname: 
+api_name:
 -	IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -78,14 +78,18 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteT
 ## -returns
 
 
+
 If the driver determines that the device can be stopped and removed, the <b>OnRemoteTargetQueryRemove</b> event callback function must return <b>TRUE</b>. Otherwise, the callback function must return <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 If your driver provides an <b>OnRemoteTargetQueryRemove</b> event callback function, the callback function should determine if the operating system should allow removal of the device. If the driver determines that the device can be removed, it should do the following:
+
 <ol>
 <li>
 Do any driver-specific actions needed to stop I/O to the remote target.
@@ -99,7 +103,8 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDF
 Return <b>TRUE</b> to indicate that the removal can occur. 
 
 </li>
-</ol>If the driver determines that the device should not be removed, the callback function must return <b>FALSE</b>. Typically, drivers should avoid returning <b>FALSE</b>, because a <b>FALSE</b> return value can cause Windows to restart.
+</ol>
+If the driver determines that the device should not be removed, the callback function must return <b>FALSE</b>. Typically, drivers should avoid returning <b>FALSE</b>, because a <b>FALSE</b> return value can cause Windows to restart.
 
 If the driver does not provide this callback function, the framework calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a> for the driver. In other words, the framework always allows the device to be removed unless the driver provides an <b>OnRemoteTargetQueryRemove</b> event callback function.
 
@@ -107,17 +112,24 @@ For more information about the <b>OnRemoteTargetQueryRemove</b> event callback f
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

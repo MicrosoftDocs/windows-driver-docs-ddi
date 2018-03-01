@@ -7,8 +7,8 @@ old-location: audio\iportclsnotifications_freenotification.htm
 old-project: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IPortClsNotifications, IPortClsNotifications::FreeNotificationBuffer, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, portcls/IPortClsNotifications::FreeNotificationBuffer, FreeNotificationBuffer, audio.iportclsnotifications_freenotification, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface
+ms.date: 2/22/2018
+ms.keywords: FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, FreeNotificationBuffer,IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	IPortClsNotifications.FreeNotificationBuffer
 product: Windows
 targetos: Windows
@@ -60,7 +60,7 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
 ````
 NTSTATUS  FreeNotificationBuffer(
-  [in] PPCNOTIFICATION  Notification
+  [in] PPCNOTIFICATION NotificationBuffer
 );
 ````
 
@@ -70,13 +70,7 @@ NTSTATUS  FreeNotificationBuffer(
 
 
 
-### -param NotificationBuffer
-
-
-
-
-
-#### - Notification [in]
+### -param NotificationBuffer [in]
 
 The address of the notification buffer returned in the <a href="https://msdn.microsoft.com/23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2">IPortClsNotifications::AllocNotificationBuffer</a> call.
 
@@ -84,7 +78,9 @@ The address of the notification buffer returned in the <a href="https://msdn.mic
 ## -returns
 
 
+
 This function returns void.
+
 
 
 
@@ -92,9 +88,11 @@ This function returns void.
 
 <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::FreeNotificationBuffer method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::FreeNotificationBuffer method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

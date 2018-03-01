@@ -7,8 +7,8 @@ old-location: devtest\pcwcreateinstance.htm
 old-project: devtest
 ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PcwCreateInstance
+ms.date: 2/23/2018
+ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: PcwCreateInstance
-req.alt-loc: NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -30,7 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
+req.irql: "<=APC_LEVEL"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	NtosKrnl.exe
+api_name:
+-	PcwCreateInstance
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +47,14 @@ req.product: Windows 10 or later.
 # PcwCreateInstance function
 
 
-
 ## -description
+
+
 The <b>PcwCreateInstance</b> function creates a new instance for the specified registered counter set.
 
 
-
 ## -syntax
+
 
 ````
 NTSTATUS PcwCreateInstance(
@@ -58,6 +68,9 @@ NTSTATUS PcwCreateInstance(
 
 
 ## -parameters
+
+
+
 
 ### -param Instance [out]
 
@@ -85,41 +98,90 @@ A pointer to an array of data blocks that contains the counter values of this in
 
 
 ## -returns
+
+
+
 This function returns one of the following values:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_SUCCESS</b></dt>
-</dl>The instance was successfully created,
+</dl>
+</td>
+<td width="60%">
+The instance was successfully created,
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>The number of structures, specified by <i>Count</i>, is not valid for the registered provider.
+</dl>
+</td>
+<td width="60%">
+The number of structures, specified by <i>Count</i>, is not valid for the registered provider.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>A problem was detected with the size of the data buffer and the counter set,
+</dl>
+</td>
+<td width="60%">
+A problem was detected with the size of the data buffer and the counter set,
+
+</td>
+</tr>
+<tr>
+<td width="40%">
 <dl>
 <dt><b>STATUS_INTEGER_OVERFLOW</b></dt>
-</dl>The size of the structure, specified by <i>Count</i>, overflows the data buffer,
+</dl>
+</td>
+<td width="60%">
+The size of the structure, specified by <i>Count</i>, overflows the data buffer,
 
+</td>
+</tr>
+</table>
  
 
 
+
+
 ## -remarks
+
+
+
 Before the provider uses this function, the provider must call the <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a> function to create a registration.
 
 Use the <a href="..\wdm\nf-wdm-pcwcloseinstance.md">PcwCloseInstance</a> function to close this instance.
 
 
+
+
 ## -see-also
-<dl>
-<dt>
-<a href="..\wdm\nf-wdm-pcwcloseinstance.md">PcwCloseInstance</a>
-</dt>
-<dt>
+
 <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
-</dt>
-</dl>
- 
+
+
+
+<a href="..\wdm\nf-wdm-pcwcloseinstance.md">PcwCloseInstance</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PcwCreateInstance function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PcwCreateInstance function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

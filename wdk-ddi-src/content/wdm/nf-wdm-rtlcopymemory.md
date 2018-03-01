@@ -7,8 +7,8 @@ old-location: kernel\rtlcopymemory.htm
 old-project: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlCopyMemory, wdm/RtlCopyMemory, kernel.rtlcopymemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], RtlCopyBytes, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml
+ms.date: 2/24/2018
+ms.keywords: RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-Rtlsupport-l1-1-0.dll
-apiname: 
+api_name:
 -	RtlCopyMemory
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The number of bytes to copy from the source to the destination.
 ## -remarks
 
 
+
 <b>RtlCopyMemory</b> runs faster than <b>RtlMoveMemory</b>. However, <b>RtlCopyMemory</b> requires that the source memory block, which is defined by <i>Source</i> and <i>Length</i>, cannot overlap the destination memory block, which is defined by <i>Destination</i> and <i>Length</i>. In contrast, <b>RtlMoveMemory</b> correctly handles the case in which the source and destination memory blocks overlap.
 
 New drivers should use the <b>RtlCopyMemory</b> routine instead of <b>RtlCopyBytes</b>.
@@ -98,13 +99,16 @@ Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and des
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlmovememory.md">RtlMoveMemory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlCopyMemory routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlCopyMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

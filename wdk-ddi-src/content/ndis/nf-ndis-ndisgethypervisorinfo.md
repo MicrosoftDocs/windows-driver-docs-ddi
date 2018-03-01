@@ -7,8 +7,8 @@ old-location: netvista\ndisgethypervisorinfo.htm
 old-project: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml, ndis/NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], netvista.ndisgethypervisorinfo, NdisGetHypervisorInfo
+ms.date: 2/16/2018
+ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisGetHypervisorInfo
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetHypervisorInfo function
@@ -84,7 +84,9 @@ A pointer to a caller-allocated <a href="..\ntddndis\ns-ntddndis-_ndis_hyperviso
 ## -returns
 
 
+
 <b>NdisGetHypervisorInfo</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,17 +114,21 @@ The size of the input parameter buffer was too small.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 NDIS miniport drivers call the 
     <b>NdisGetHypervisorInfo</b> function to determine whether a hypervisor is present on the system.
 
 When the <b>NdisGetHypervisorInfo</b> function returns, the <i>HypervisorInfo</i> parameter contains a pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure. This structure contains information about whether a hypervisor is present, along with the partition type from which this function was called. The <b>NDIS_HYPERVISOR_INFO</b> structure provides this information in the following way:
+
 <ul>
 <li>
 If a hypervisor is present, the <b>NDIS_HYPERVISOR_INFO_FLAG_HYPERVISOR_PRESENT</b> 
@@ -147,17 +153,22 @@ If the <b>NdisGetHypervisorInfo</b> function was called from the guest operating
 If another vendor's hypervisor is present, the <b>PartitionType</b> member is set to  <b>NdisHypervisorPartitionTypeUnknown</b>.
 
 </li>
-</ul><div class="alert"><b>Note</b>  A driver must initialize the 
-    <b>Header</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure before it calls the <b>NdisGetHypervisorInfo</b> function.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  A driver must initialize the 
+    <b>Header</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure before it calls the <b>NdisGetHypervisorInfo</b> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetHypervisorInfo function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetHypervisorInfo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

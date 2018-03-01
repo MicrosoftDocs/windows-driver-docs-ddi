@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_reset.htm
 old-project: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe::Reset, IWDFUsbTargetPipe interface, Reset method, Reset, umdf.iwdfusbtargetpipe_reset, IWDFUsbTargetPipe, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, Reset method, wdf.iwdfusbtargetpipe_reset, Reset method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Reset
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Reset method, IWDFUsbTargetPipe::Reset, Reset method, Reset method, IWDFUsbTargetPipe interface, Reset,IWDFUsbTargetPipe.Reset, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, umdf.iwdfusbtargetpipe_reset, wdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	WUDFx.dll
-apiname: 
+api_name:
 -	IWDFUsbTargetPipe.Reset
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT  Reset();
 
 
 
+
 ## -returns
 
 
+
 <b>Reset</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +116,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>Reset</b> method generates a UMDF request and synchronously sends the request to the I/O target.
@@ -126,15 +132,20 @@ For more information about how <b>Reset</b> works, see the <a href="https://msdn
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540300">WinUsb_ResetPipe</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::Reset method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::Reset method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

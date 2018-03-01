@@ -7,8 +7,8 @@ old-location: wdf\wdf_companion_event_callbacks_init.htm
 old-project: wdf
 ms.assetid: 83fadb77-90c2-4331-949c-5d8828ce33e2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init
+ms.date: 2/20/2018
+ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompanion.h
-apiname: 
+api_name:
 -	WDF_COMPANION_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
@@ -72,10 +72,11 @@ FORCEINLINE VOID WDF_COMPANION_EVENT_CALLBACKS_INIT(
 ### -param Callbacks [out]
 
 
-
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

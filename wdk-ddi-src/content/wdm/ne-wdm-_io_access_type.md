@@ -1,19 +1,19 @@
 ---
 UID: NE:wdm._IO_ACCESS_TYPE
-title: _IO_ACCESS_TYPE
+title: "_IO_ACCESS_TYPE"
 author: windows-driver-content
 description: Defines the access rights for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_type.htm
 old-project: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ReadAccess, wdm/IO_ACCESS_TYPE, ModifyAccess, wdm/ReadAccess, _IO_ACCESS_TYPE, kernel.io_access_type, WriteAccess, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ModifyAccess, wdm/WriteAccess, IO_ACCESS_TYPE
+ms.date: 2/24/2018
+ms.keywords: IO_ACCESS_TYPE, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], ModifyAccess, ReadAccess, WriteAccess, _IO_ACCESS_TYPE, kernel.io_access_type, wdm/IO_ACCESS_TYPE, wdm/ModifyAccess, wdm/ReadAccess, wdm/WriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Ntddsfio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	IO_ACCESS_TYPE
 product: Windows
 targetos: Windows

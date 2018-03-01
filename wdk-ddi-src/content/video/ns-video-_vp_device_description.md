@@ -1,14 +1,14 @@
 ---
 UID: NS:video._VP_DEVICE_DESCRIPTION
-title: _VP_DEVICE_DESCRIPTION
+title: "_VP_DEVICE_DESCRIPTION"
 author: windows-driver-content
 description: The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
 old-location: display\vp_device_description.htm
 old-project: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: *PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION, _VP_DEVICE_DESCRIPTION, display.vp_device_description, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], video/PVP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], VP_DEVICE_DESCRIPTION, Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml
+ms.date: 2/24/2018
+ms.keywords: "*PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	VP_DEVICE_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: *PVP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION
+req.typenames: VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,8 @@ Specifies the maximum number of bytes the device can handle in each DMA operatio
 ## -remarks
 
 
+
 This structure is available in Windows XP and later.
+
 
 

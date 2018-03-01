@@ -7,8 +7,8 @@ old-location: kernel\zwfreevirtualmemory.htm
 old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/ZwFreeVirtualMemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, NtFreeVirtualMemory, ntifs/NtFreeVirtualMemory
+ms.date: 2/24/2018
+ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ZwFreeVirtualMemory
 -	NtFreeVirtualMemory
 product: Windows
@@ -92,6 +92,7 @@ If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, the variable po
 If the MEM_DECOMMIT flag is set in the <i>FreeType</i> parameter, <b>ZwFreeVirtualMemory</b> decommits all memory pages that contain one or more bytes in the range from the <i>BaseAddress</i> parameter to (<i>BaseAddress</i> + *<i>RegionSize</i>). This means, for example, that if a two-byte region of memory straddles a page boundary, both pages are decommitted.
 
 <b>ZwFreeVirtualMemory</b> decommits the entire region that was reserved by <b>ZwAllocateVirtualMemory</b>. If the following three conditions are met, the entire region enters the reserved state:
+
 <ul>
 <li>
 The MEM_DECOMMIT flag is set.
@@ -111,6 +112,7 @@ The MEM_DECOMMIT flag is set.
 ### -param FreeType [in]
 
 A bitmask that contains flags that describe the type of free operation that <b>ZwFreeVirtualMemory</b> will perform for the specified region of pages. The possible values are listed in the following table.
+
 <table>
 <tr>
 <th><i>FreeType</i> flags</th>
@@ -144,13 +146,16 @@ If any pages in the region are currently committed, <b>ZwFreeVirtualMemory</b> f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>ZwFreeVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -189,14 +194,18 @@ There is a mismatch between the type of object required by the requested operati
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Each page in the process's virtual address space is in one of the three states described in the following table.
+
 <table>
 <tr>
 <th>State</th>
@@ -242,9 +251,11 @@ You can use <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVir
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>ZwFreeVirtualMemory</b> can perform the following operations:
+
 <ul>
 <li>
 Decommit a region of committed or uncommitted pages. After this operation, the pages are in the reserved state. 
@@ -258,7 +269,8 @@ Release a region of reserved pages. After this operation, the pages are in the f
 Decommit and release a region of committed or uncommitted pages. After this operation, the pages are in the free state. 
 
 </li>
-</ul><b>ZwFreeVirtualMemory</b> can decommit a range of pages that are in different states, some committed and some uncommitted. This means that you can decommit a range of pages without first determining the current commitment state of each page. Decommitting a page releases its physical storage, either in memory or in the paging file on disk.
+</ul>
+<b>ZwFreeVirtualMemory</b> can decommit a range of pages that are in different states, some committed and some uncommitted. This means that you can decommit a range of pages without first determining the current commitment state of each page. Decommitting a page releases its physical storage, either in memory or in the paging file on disk.
 
 If a page is decommitted but not released, its state changes to reserved. You can subsequently call <b>ZwAllocateVirtualMemory</b> to commit it, or <b>ZwFreeVirtualMemory</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
@@ -267,19 +279,27 @@ If a page is decommitted but not released, its state changes to reserved. You ca
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory has been released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you require information, do not decommit or free memory that contains that information.
 
 For more information about memory management support for kernel-mode drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554389">Memory Management for Windows Drivers</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwFreeVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFreeVirtualMemory</b>" instead of "<b>ZwFreeVirtualMemory</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwFreeVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFreeVirtualMemory</b>" instead of "<b>ZwFreeVirtualMemory</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwFreeVirtualMemory routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwFreeVirtualMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

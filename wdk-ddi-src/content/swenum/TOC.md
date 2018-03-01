@@ -1,5 +1,8 @@
 # [Streaming media devices](../_stream/index.md)
 ## [Swenum.h](index.md)
+### [PFNDEREFERENCEDEVICEOBJECT callback](../swenum/nc-swenum-pfndereferencedeviceobject.md)
+### [PFNQUERYREFERENCESTRING callback](../swenum/nc-swenum-pfnqueryreferencestring.md)
+### [PFNREFERENCEDEVICEOBJECT callback](../swenum/nc-swenum-pfnreferencedeviceobject.md)
 ### [KsCreateBusEnumObject function](../swenum/nf-swenum-kscreatebusenumobject.md)
 ### [KsDereferenceSoftwareBusObject function](../swenum/nf-swenum-ksdereferencesoftwarebusobject.md)
 ### [KsGetBusEnumIdentifier function](../swenum/nf-swenum-ksgetbusenumidentifier.md)

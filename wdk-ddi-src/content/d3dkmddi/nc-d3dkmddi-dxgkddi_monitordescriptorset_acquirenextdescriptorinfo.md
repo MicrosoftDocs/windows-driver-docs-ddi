@@ -7,8 +7,8 @@ old-location: display\dxgk_monitordescriptorset_interface_pfnacquirenextdescript
 old-project: display
 ms.assetid: 34d048df-d4a1-4ef5-b917-791f35de9e3a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo, pfnAcquireNextDescriptorInfo callback function [Display Devices], pfnAcquireNextDescriptorInfo, DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO, d3dkmddi/pfnAcquireNextDescriptorInfo, VidPnFunctions_ae273fb1-032c-4d22-86ef-849a4650c82e.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO, VidPnFunctions_ae273fb1-032c-4d22-86ef-849a4650c82e.xml, d3dkmddi/pfnAcquireNextDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo, pfnAcquireNextDescriptorInfo, pfnAcquireNextDescriptorInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	pfnAcquireNextDescriptorInfo
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnAcquireNextDescriptorInfo(
 ## -returns
 
 
+
 The <b>pfnAcquireNextDescriptorInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,15 +153,19 @@ The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using the D3DKMDT_MONITOR_DESCRIPTOR structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo.md">pfnReleaseDescriptorInfo</a>.
 
 You can obtain all the descriptors in a monitor descriptor set by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo.md">pfnAcquireFirstDescriptorInfo</a> and then making a sequence of calls to <b>pfnAcquireNextDescriptorInfo</b>.
+
 
 

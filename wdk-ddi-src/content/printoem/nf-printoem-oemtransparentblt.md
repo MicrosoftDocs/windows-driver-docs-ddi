@@ -7,8 +7,8 @@ old-location: print\oemtransparentblt.htm
 old-project: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMTransparentBlt function [Print Devices], printoem/OEMTransparentBlt, OEMTransparentBlt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, print.oemtransparentblt
+ms.date: 2/23/2018
+ms.keywords: OEMTransparentBlt, OEMTransparentBlt function [Print Devices], print.oemtransparentblt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, printoem/OEMTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMTransparentBlt
 product: Windows
 targetos: Windows
@@ -78,31 +78,23 @@ BOOL APIENTRY OEMTransparentBlt(
 ### -param psoDst
 
 
-
 ### -param psoSrc
-
 
 
 ### -param pco
 
 
-
 ### -param pxlo
-
 
 
 ### -param prclDst
 
 
-
 ### -param prclSrc
-
 
 
 ### -param iTransColor
 
 
-
 ### -param ulReserved
-
 

@@ -7,8 +7,8 @@ old-location: debugger\setcommand.htm
 old-project: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint interface [Windows Debugging], SetCommand method, debugger.setcommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint2::SetCommand, IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, SetCommand, IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2
+ms.date: 2/23/2018
+ms.keywords: ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging], IDebugBreakpoint interface, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, SetCommand,IDebugBreakpoint2.SetCommand, dbgeng/IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, debugger.setcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.SetCommand
 -	IDebugBreakpoint2.SetCommand
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetCommand method
@@ -76,6 +76,7 @@ The command string that is executed when the breakpoint is triggered.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +93,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The command string is a list of debugger commands that are separated by semicolons.  These commands are executed every time that the breakpoint is triggered.  The commands are executed before the engine informs any event callbacks that the breakpoint has been triggered.
@@ -106,5 +110,6 @@ The command string is a list of debugger commands that are separated by semicolo
 If the command string includes an execution command such as <b>G (Go)</b>, this command should be the last command in the <i>Command</i> string.  If a command causes the target to resume execution, the rest of the command string is ignored.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

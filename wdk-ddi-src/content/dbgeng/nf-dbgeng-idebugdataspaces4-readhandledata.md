@@ -7,8 +7,8 @@ old-location: debugger\readhandledata.htm
 old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, debugger.readhandledata, dbgeng/IDebugDataSpaces3::ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4::ReadHandleData, ReadHandleData method [Windows Debugging], dbgeng/IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, ReadHandleData,IDebugDataSpaces4.ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces2.ReadHandleData
 -	IDebugDataSpaces3.ReadHandleData
 -	IDebugDataSpaces4.ReadHandleData
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadHandleData method
@@ -81,6 +81,7 @@ Specifies the system handle of the object whose data is requested.  See Handles 
 ### -param DataType [in]
 
 Specifies the data type to return for the system handle.  The following table contains the valid values, along with the corresponding return type:
+
 <table>
 <tr>
 <th>Value</th>
@@ -158,7 +159,8 @@ In this case, the argument <i>Buffer</i> can be considered to have type PWSTR.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out, optional]
@@ -181,6 +183,7 @@ Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -197,32 +200,44 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in user-mode debugging.
+
 
 
 
 ## -see-also
 
+Handles
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
-Handles
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces2::ReadHandleData method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces2::ReadHandleData method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\filterdirectoidrequest.htm
 old-project: netvista
 ms.assetid: a39f4b50-0183-4f92-82f2-3c8e2e2d0632
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.filterdirectoidrequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], FilterDirectOidRequest, FILTER_DIRECT_OID_REQUEST, FILTER_DIRECT_OID_REQUEST, ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml
+ms.date: 2/16/2018
+ms.keywords: FILTER_DIRECT_OID_REQUEST, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	FilterDirectOidRequest
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ A pointer to an
 ## -returns
 
 
+
 <i>FilterDirectOidRequest</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,8 +122,8 @@ A pointer to an
 <td width="60%">
 The filter driver will complete the request asynchronously. After the driver completes the
        request, it must call the 
-       <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-       NdisFDirectOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+       <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+       NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
 </tr>
@@ -225,18 +227,21 @@ For a set operation, the data that was supplied in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>FilterDirectOidRequest</i> is an optional function. If a filter driver does not use
     direct OID requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
     <b>NdisFRegisterFilterDriver</b> function. If a filter driver defines a 
-    <mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-    FilterDirectOidRequestComplete</i></mshelp:link> function, it must provide the 
+    <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+    FilterDirectOidRequestComplete</a> function, it must provide the 
     <i>FilterDirectOidRequest</i> function.
 
 NDIS calls the filter driver's 
@@ -250,13 +255,13 @@ Before the driver calls
     <b>NdisFDirectOidRequest</b>, the driver must allocate an 
     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure and transfer the
     request information to the new structure by calling the 
-    <mshelp:link keywords="netvista.ndisallocatecloneoidrequest" tabindex="0"><b>
-    NdisAllocateCloneOidRequest</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">
+    NdisAllocateCloneOidRequest</a> function.
 
 To complete a request synchronously, the filter driver returns NDIS_STATUS_SUCCESS or a failure
     status. If the driver returns NDIS_STATUS_PENDING, it must call the 
-    <mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-    NdisFDirectOidRequestComplete</b></mshelp:link> function to inform NDIS that the request is complete.
+    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 For a query operation, 
     <i>FilterDirectOidRequest</i> returns the requested information in the 
@@ -283,9 +288,12 @@ NDIS does not serialize requests that it sends to
 
 NDIS calls 
     <i>FilterDirectOidRequest</i> at IRQL &lt;= DISPATCH_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>FilterDirectOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>FilterDirectOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterDirectOidRequest</i> function that is named "MyDirectOidRequest", use the <b>FILTER_DIRECT_OID_REQUEST</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -295,7 +303,9 @@ For example, to define a <i>FilterDirectOidRequest</i> function that is named "M
 <pre>FILTER_DIRECT_OID_REQUEST MyDirectOidRequest;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -311,9 +321,11 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>FILTER_DIRECT_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_DIRECT_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>FILTER_DIRECT_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_DIRECT_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+
 
 
 
@@ -321,25 +333,41 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
-<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-   FilterDirectOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+   FilterDirectOidRequestComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+
 
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+   NdisFDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<mshelp:link keywords="netvista.ndisfdirectoidrequestcomplete" tabindex="0"><b>
-   NdisFDirectOidRequestComplete</b></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_DIRECT_OID_REQUEST callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_DIRECT_OID_REQUEST callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

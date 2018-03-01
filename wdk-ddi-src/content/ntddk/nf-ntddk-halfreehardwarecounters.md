@@ -7,8 +7,8 @@ old-location: kernel\halfreehardwarecounters.htm
 old-project: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, kernel.halfreehardwarecounters, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], ntddk/HalFreeHardwareCounters
+ms.date: 2/16/2018
+ms.keywords: ",  , C, F, H, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], a, d, e, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, kernel.halfreehardwarecounters, l, n, ntddk/HalFreeHardwareCounters, o, r, s, t, u, w"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hal.dll
-apiname: 
+apiname:
 -	HalFreeHardwareCounters
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # HalFreeHardwareCounters function
@@ -75,7 +75,9 @@ A handle to the allocated counter resources. The caller acquired this handle in 
 ## -returns
 
 
+
 <b>HalFreeHardwareCounters</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,7 +94,9 @@ Parameter <i>CounterSetHandle</i> is not a valid counter resources handle.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -100,9 +104,11 @@ Parameter <i>CounterSetHandle</i> is not a valid counter resources handle.
 
 <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20HalFreeHardwareCounters routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20HalFreeHardwareCounters routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\netdmaproviderstart.htm
 old-project: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netvista.netdmaproviderstart, netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml
+ms.date: 2/16/2018
+ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	netdma.h
-apiname: 
+api_name:
 -	NetDmaProviderStart
 product: Windows
 targetos: Windows
@@ -76,26 +76,29 @@ VOID NetDmaProviderStart(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ### -param ProviderAttributes [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>
-     NET_DMA_PROVIDER_ATTRIBUTES</b></mshelp:link> structure that defines the DMA device attributes of the DMA
+     <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+     NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA
      provider.
 
 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 DMA providers call the 
@@ -112,8 +115,8 @@ The DMA provider driver can also call
     longer available.
 
 The DMA provider driver supplies a 
-    <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>
-    NET_DMA_PROVIDER_ATTRIBUTES</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+    NET_DMA_PROVIDER_ATTRIBUTES</a> structure at the 
     <i>ProviderAttributes</i> parameter of 
     <b>NetDmaProviderStart</b>. The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration
     attributes for a NetDMA provider.
@@ -124,19 +127,28 @@ Before a DMA provider driver calls
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
- 
+
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaProviderStart function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaProviderStart function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

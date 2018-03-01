@@ -1,14 +1,14 @@
 ---
 UID: NE:ehstorioctl._PDO_STATE
-title: _PDO_STATE
+title: "_PDO_STATE"
 author: windows-driver-content
 description: This enumeration describes the states of Physical Device Objects (PDOs).
 old-location: storage\pdo_state.htm
 old-project: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ehstorioctl/PDO_STATE_UNDEFINED, PDO_STATE enumeration [Storage Devices], PDO_STATE_STARTED, PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_NOT_STARTED, _PDO_STATE, PDO_STATE_UNDEFINED, ehstorioctl/PDO_STATE, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml, ehstorioctl/PDO_STATE_STARTED, PDO_STATE
+ms.date: 2/24/2018
+ms.keywords: PDO_STATE, PDO_STATE enumeration [Storage Devices], PDO_STATE_NOT_STARTED, PDO_STATE_STARTED, PDO_STATE_UNDEFINED, _PDO_STATE, ehstorioctl/PDO_STATE, ehstorioctl/PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_STARTED, ehstorioctl/PDO_STATE_UNDEFINED, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorIoctl.h
-apiname: 
+api_name:
 -	PDO_STATE
 product: Windows
 targetos: Windows

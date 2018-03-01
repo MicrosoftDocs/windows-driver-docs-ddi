@@ -7,8 +7,8 @@ old-location: print\oemalphablend.htm
 old-project: print
 ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend, OEMAlphaBlend, OEMAlphaBlend function [Print Devices]
+ms.date: 2/23/2018
+ms.keywords: OEMAlphaBlend, OEMAlphaBlend function [Print Devices], print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMAlphaBlend
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ BOOL  APIENTRY OEMAlphaBlend(
 ### -param psoDest
 
 
-
 ### -param psoSrc
-
 
 
 ### -param pco
 
 
-
 ### -param pxlo
-
 
 
 ### -param prclDest
 
 
-
 ### -param prclSrc
 
 
-
 ### -param pBlendObj
-
 

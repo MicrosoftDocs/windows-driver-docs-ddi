@@ -7,8 +7,8 @@ old-location: netvista\ndisgetprocessorinformation.htm
 old-project: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetprocessorinformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, NdisGetProcessorInformation
+ms.date: 2/16/2018
+ms.keywords: NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisGetProcessorInformation
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetProcessorInformation function
@@ -73,15 +73,17 @@ NDIS_STATUS NdisGetProcessorInformation(
 ### -param SystemProcessorInfo [in, out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_system_processor_info" tabindex="0"><b>
-     NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure that NDIS fills with the information about the CPU topology
+     <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+     NDIS_SYSTEM_PROCESSOR_INFO</a> structure that NDIS fills with the information about the CPU topology
      of the system and the RSS processor set.
 
 
 ## -returns
 
 
+
 <b>NdisGetProcessorInformation</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,11 +113,14 @@ The size that was specified in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -124,30 +129,39 @@ NDIS drivers call the
 
 RSS-capable miniport drivers that support MSI-X call 
     <b>NdisGetProcessorInformation</b> in their 
-    <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-    MiniportFilterResourceRequirements</i></mshelp:link> function. Miniport drivers set the interrupt affinity of the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    MiniportFilterResourceRequirements</a> function. Miniport drivers set the interrupt affinity of the
     allocated MSI-X messages to the RSS processors that are specified in the 
     <b>RssProcessors</b> member of the 
     <i>SystemProcessorInfo</i> parameter.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
-   NdisGetRssProcessorInformation</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+   NdisGetRssProcessorInformation</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
-<mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-   NdisGetProcessorInformationEx</b></mshelp:link>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetProcessorInformation function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetProcessorInformation function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

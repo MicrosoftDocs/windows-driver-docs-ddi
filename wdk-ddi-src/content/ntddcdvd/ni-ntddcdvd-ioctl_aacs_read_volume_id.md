@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_read_volume_id.htm
 old-project: storage
 ms.assetid: 8772a83a-06e3-48f8-9d41-47332122ec8b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_aacs_read_volume_id, IOCTL_AACS_READ_VOLUME_ID control code [Storage Devices], IOCTL_AACS_READ_VOLUME_ID, ntddcdvd/IOCTL_AACS_READ_VOLUME_ID, k307_ec201772-11c1-4825-8a71-f00f621a1b04.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_AACS_READ_VOLUME_ID, IOCTL_AACS_READ_VOLUME_ID control code [Storage Devices], k307_ec201772-11c1-4825-8a71-f00f621a1b04.xml, ntddcdvd/IOCTL_AACS_READ_VOLUME_ID, storage.ioctl_aacs_read_volume_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddcdvd.h
-apiname: 
+api_name:
 -	IOCTL_AACS_READ_VOLUME_ID
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_volume_id.md">AACS_VOLUME_ID<
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,8 +108,10 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -remarks
 
 
+
 The IOCTL_AACS_READ_VOLUME_ID request corresponds to the part of the AACS authentication protocol that is responsible for transfering the volume identifier. For a complete description of this protocol, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA). 
 
 The AGID is automatically released after the IOCTL_AACS_READ_VOLUME_ID request completes. 
+
 
 

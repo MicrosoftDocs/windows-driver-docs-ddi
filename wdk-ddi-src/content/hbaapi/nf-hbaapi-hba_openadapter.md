@@ -7,8 +7,8 @@ old-location: storage\hba_openadapter.htm
 old-project: storage
 ms.assetid: 78c37e2c-171b-483c-967d-1b80bde24338
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_OpenAdapter, HBA_OpenAdapter routine [Storage Devices], HBA_OpenAdapter, storage.hba_openadapter, fibreHBA_rtns_2c583fd9-a3b4-4e35-aa22-31f5f9bb2002.xml
+ms.date: 2/24/2018
+ms.keywords: HBA_OpenAdapter, HBA_OpenAdapter routine [Storage Devices], fibreHBA_rtns_2c583fd9-a3b4-4e35-aa22-31f5f9bb2002.xml, hbaapi/HBA_OpenAdapter, storage.hba_openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hbaapi.dll
-apiname: 
+api_name:
 -	HBA_OpenAdapter
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - SniaAdapterName [in]
 
 Indicates the name of the HBA to open. 
@@ -81,6 +82,8 @@ Indicates the name of the HBA to open.
 ## -returns
 
 
+
 The <b>HBA_OpenAdapter</b> routine returns a handle to the open HBA. 
+
 
 

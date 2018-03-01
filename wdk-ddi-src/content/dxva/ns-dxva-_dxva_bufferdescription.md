@@ -1,14 +1,14 @@
 ---
 UID: NS:dxva._DXVA_BufferDescription
-title: _DXVA_BufferDescription
+title: "_DXVA_BufferDescription"
 author: windows-driver-content
 description: The DXVA_BufferDescription structure is sent by the host decoder to the accelerator to provide information to the accelerator about the buffer that is currently being passed from the host to the accelerator.
 old-location: display\dxva_bufferdescription.htm
 old-project: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LPDXVA_BufferDescription, DXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], display.dxva_bufferdescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml, _DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], dxva/LPDXVA_BufferDescription, *LPDXVA_BufferDescription, dxva/DXVA_BufferDescription
+ms.date: 2/24/2018
+ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_BufferDescription
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_BufferDescription, DXVA_BufferDescription
+req.typenames: DXVA_BufferDescription, *LPDXVA_BufferDescription
 ---
 
 # _DXVA_BufferDescription structure
@@ -79,6 +79,7 @@ typedef struct _DXVA_BufferDescription {
 ### -field dwTypeIndex
 
 Identifies the type of buffer passed to the accelerator. The following table lists the numeric identifiers and the associated buffer type.
+
 <table>
 <tr>
 <th>Value </th>
@@ -235,7 +236,8 @@ Read-back command buffers containing commands to read macroblocks of the resulti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwBufferIndex
@@ -256,6 +258,7 @@ Specifies the amount of relevant data in the buffer in bytes. The location of th
 ### -field dwFirstMBaddress
 
 Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
+
 <table>
 <tr>
 <th>Macroblock</th>
@@ -301,7 +304,8 @@ lower-right
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This member must be zero if the data buffer is among the following types: picture decoding parameters, inverse-quantization matrix, slice control, bitstream data, AYUV, IA44/AI44, DPXD, Highlight, and DCCMD.
 
@@ -313,6 +317,7 @@ If the data buffer is a residual difference block data buffer, <b>dwFirstMBaddre
 Specifies the number of macroblocks of data in the buffer. This count includes skipped macroblocks. Must be zero if the data buffer is among the following types: picture decoding parameters, inverse-quantization matrix, AYUV, IA44/AI44, DPXD, Highlight, or DCCMD.
 
 The value for <b>dwNumMBsInBuffer</b> depends on the type of data buffer being used as shown in the following table.
+
 <table>
 <tr>
 <th>Buffer Type</th>
@@ -358,7 +363,8 @@ Must have the same value as for the corresponding slice-control command buffer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwWidth
@@ -384,7 +390,9 @@ Reserved bits used for packing and alignment. Must be zero.
 ## -remarks
 
 
+
 An array of DXVA_BufferDescription structures is referred to as a buffer description list. When a set of buffers is sent from the host decoder to the hardware accelerator, a buffer description list is sent to describe the buffers. The buffer description list contains one DXVA_BufferDescription structure for each buffer in this set. The buffer description list starts with a DXVA_BufferDescription structure for the first buffer of the first type, followed by a DXVA_BufferDescription structure for the next buffer of the same type, and so on. The buffer description list then continues with a DXVA_BufferDescription structure for the first buffer of the next type, and so on.
+
 
 
 
@@ -392,11 +400,15 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 <a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_BufferDescription structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_BufferDescription structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

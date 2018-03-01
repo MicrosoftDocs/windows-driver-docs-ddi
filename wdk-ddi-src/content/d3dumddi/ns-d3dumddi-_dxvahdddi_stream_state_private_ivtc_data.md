@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
-title: _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+title: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver.
 old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
 old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_stream_state_private_ivtc_data, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+ms.date: 2/24/2018
+ms.keywords: DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 product: Windows
 targetos: Windows
@@ -78,6 +78,7 @@ typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
 ### -field ITelecineFlags
 
 [out] One of the following DXVAHDDDI_ITELECINE_CAPS enumeration values that indicates the telecine type that the driver detected while reversing the telecined frames.
+
 <table>
 <tr>
 <th>Value</th>
@@ -183,7 +184,8 @@ The driver can perform reverse non-standard telecine.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Frames
@@ -199,11 +201,13 @@ The driver can perform reverse non-standard telecine.
 ## -remarks
 
 
+
 The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC GUID is set in the <b>Guid</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_private_data.md">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessstreamstateprivate.md">GetVideoProcessStreamStatePrivate</a> function is called to query the inverse telecine statistics from the driver.
 
 When an application de-interlaces an interlaced stream, the driver might inverse the telecined frames. If the driver supports inverse telecine statistics, the application can query the statistics data.
 
 The playback application can dynamically switch the frame rate converter as described in the following scenario:
+
 <ul>
 <li>
 The application enables the inverse telecine statistics. 
@@ -221,7 +225,9 @@ At some point, the application queries the statistics and determines the streams
 The application enables the custom frame rate in order to output the frames at the original content frame rate (for example, 60i -&gt; 24p). 
 
 </li>
-</ul>The application continues to query the statistics to determine if the frames are changed (for example, progressive or interlaced).
+</ul>
+The application continues to query the statistics to determine if the frames are changed (for example, progressive or interlaced).
+
 
 
 
@@ -229,9 +235,11 @@ The application enables the custom frame rate in order to output the frames at t
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

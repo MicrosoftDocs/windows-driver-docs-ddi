@@ -7,8 +7,8 @@ old-location: sensors\gnss_agnss_inject.htm
 old-project: sensors
 ms.assetid: B81F5D71-9928-412C-8199-787E71CE2638
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT, gnssdriver/GNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT, sensors.gnss_agnss_inject, GNSS_AGNSS_INJECT structure [Sensor Devices], gnssdriver/PGNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT structure pointer [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT structure [Sensor Devices], PGNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECT, gnssdriver/PGNSS_AGNSS_INJECT, sensors.gnss_agnss_inject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	gnssdriver.h
-apiname: 
+api_name:
 -	GNSS_AGNSS_INJECT
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT
+req.typenames: GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT
 ---
 
 # GNSS_AGNSS_INJECT structure
@@ -77,24 +77,6 @@ typedef struct {
 
 
 
-### -field Time
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
-
-
-### -field Position
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
-
-
-### -field BlobData
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
-
-
 ### -field Size
 
 Structure size.
@@ -128,6 +110,25 @@ Size of the injection data.
 
  
 
+
+
+
+#### - BlobData
+
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
+
+
+#### - Position
+
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+
+
+#### - Time
+
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
 #### - Unused[512]

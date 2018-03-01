@@ -7,8 +7,8 @@ old-location: audio\imusictechnology.htm
 old-project: audio
 ms.assetid: e42380f8-8e82-4c98-88e9-9e44f5091a85
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.imusictechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices], described, IMusicTechnology, portcls/IMusicTechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml
+ms.date: 2/22/2018
+ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices], described, audio.imusictechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml, portcls/IMusicTechnology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IMusicTechnology
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:prntfont._PRINTIFI32
-title: _PRINTIFI32
+title: "_PRINTIFI32"
 author: windows-driver-content
 description: The PRINTIFI32 structure is a fixed-size version of the IFIMETRICS structure, and defines information for a given typeface that GDI can use.
 old-location: display\printifi32.htm
 old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: prntfont/PRINTIFI32, prntfont/PPRINTIFI32, *PPRINTIFI32, _PRINTIFI32, display.printifi32, PPRINTIFI32 structure pointer [Display Devices], PPRINTIFI32, PRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PRINTIFI32 structure [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PPRINTIFI32, PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, PRINTIFI32 structure [Display Devices], _PRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, prntfont/PPRINTIFI32, prntfont/PRINTIFI32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	prntfont.h
-apiname: 
+api_name:
 -	PRINTIFI32
 product: Windows
 targetos: Windows
-req.typenames: *PPRINTIFI32, PRINTIFI32
+req.typenames: PRINTIFI32, *PPRINTIFI32
 req.product: Windows 10 or later.
 ---
 
@@ -190,6 +190,7 @@ If this font does not support more than one Windows character set, <b>dpCharSets
 ### -field jWinCharSet
 
 Identifies the character set best supported by this font. If the font supports only a single Windows character set, the driver should store the corresponding value in <b>jWinCharSet</b>. The driver should not store DEFAULT_CHARSET in this field. This member can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -365,12 +366,14 @@ This font supports the Vietnamese character set.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field jWinPitchAndFamily
 
 Specifies the pitch of the font. The two low-order bits specify the pitch of the font and can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -396,9 +399,11 @@ For variable pitch fonts
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Bits 4 through 7 of this member specify the font family and can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -464,7 +469,8 @@ Fonts with variable stroke width (proportionally spaced) and without serifs, suc
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field usWinWeight
@@ -484,70 +490,272 @@ Meaning
 
 
 
+#### FM_INFO_1BPP
+
+Indicates that a glyph bitmap has a color depth of one bit per pixel. For Windows NT 3.1, the first version of Windows NT, this flag must be set.
 
 
 
 
 
+#### FM_INFO_4BPP
+
+Indicates that a glyph bitmap has a color depth of four bits per pixel. The driver should set this if the font supports antialiased glyph bitmaps with 16 levels of gray.
 
 
 
 
 
+#### FM_INFO_8BPP
+
+Indicates that a glyph bitmap has a color depth of eight bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 
 
 
+#### FM_INFO_16BPP
+
+Indicates that a glyph bitmap has a color depth of 16 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 
 
 
+#### FM_INFO_24BPP
+
+Indicates that a glyph bitmap has a color depth of 24 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 
 
 
+#### FM_INFO_32BPP
+
+Indicates that a glyph bitmap has a color depth of 32 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 
 
 
+#### FM_INFO_90DEGREE_ROTATIONS
+
+Indicates that the font can be realized in 90 degree rotations of the original notional shape. GDI requests the rotation of a font by including the rotation in the notional to device transformation passed to the driver when creating the font. This member has meaning only when the FM_INFO_ARB_XFORMS flag has not been set.
 
 
 
 
 
+#### FM_INFO_ANISOTROPIC_SCALING_ONLY
+
+Indicates that the font supports only arbitrary anisotropic scaling. That is, transforms are equivalent to a diagonal matrix multiplied by a positive real number. If this flag is set, then the FM_INFO_ARB_XFORMS and the FM_INFO_ISOTROPIC_SCALING_ONLY flags cannot be set. If the FM_INFO_90DEGREE_ROTATIONS flag is also set, the font supports transformations that are a combination of a simple anisotropic scaling followed by a rotation by a multiple of 90 degrees.
 
 
 
 
 
+#### FM_INFO_ARB_XFORMS
+
+Indicates that a font can be realized under a continuous range of two dimensional linear transformations.
 
 
 
 
 
+#### FM_INFO_CONSTANT_WIDTH
+
+Indicates that all glyphs of the font under all realizations have the same value of character increment. If this flag is set, the FM_INFO_OPTICALLY_FIXED_PITCH flag must also be set.
 
 
 
 
 
+#### FM_INFO_DBCS_FIXED_PITCH
+
+Indicates that double-byte characters for this font are fixed pitch. Nothing is implied about single byte characters. This flag is meaningful only for fonts that support a double-byte character set (DBCS), such as shift JIS. Fonts that do not support a DBCS should not set this flag.
 
 
 
 
 
+#### FM_INFO_DO_NOT_ENUMERATE
+
+Indicates that this font will not be enumerated by the Win32 <b>EnumFontFamiliesEx</b>, <b>EnumFontFamilies</b> or <b>EnumFonts</b> routines. Moreover, the string returned to a Win32 application call to <b>GetTextFace</b> will be retrieved from the string <b>dpwszUniqueName</b>. This flag allows the font provider to associate more than one PRINTIFI32 structure with one of its fonts.
 
 
 
 
+
+#### FM_INFO_DSIG
+
+Indicates that a font is compliant with the Unicode standard.
+
+
+
+
+
+#### FM_INFO_FAMILY_EQUIV
+
+Indicates that the <b>dpwszFamilyName</b> offset in PRINTIFI32 is actually the offset to a list of equivalent family names or aliases. The first name is the base or real name; the subsequent names are equivalents or aliases. Each name in the list is null-terminated; the list is terminated by two zeros.
+
+
+<dl>
+<dt>&lt;base name&gt; &lt;0&gt; &lt;alias 1&gt; &lt;0&gt;...&lt;alias n&gt;</dt>
+<dt>&lt;0&gt; &lt;0&gt;</dt>
+</dl>
+
+
+The based names are used only for mapping; they are not enumerated.
+
+
+
+
+
+#### FM_INFO_IGNORE_TC_RA_ABLE
+
+Indicates that, for this font, the TC_RA_ABLE flag is ignored.
+
+
+
+
+
+#### FM_INFO_INTEGER_WIDTH
+
+Indicates that all glyphs have nonfractional advance widths. Bitmap fonts usually set this flag.
+
+
+
+
+
+#### FM_INFO_INTEGRAL_SCALING
+
+Indicates that the font can be scaled by an integral amount in both the x and y directions. If this flag is set, then the driver must be able to render glyphs in the case where the notional to device transformation is scaled by integral amounts in the x and y directions. GDI requests the integral scaling of a font by including the axial scalings in the notional to device transformation passed to the driver when creating the font. This flag is meaningful only when the FM_INFO_ARB_XFORMS flag has not been set.
+
+
+
+
+
+#### FM_INFO_ISOTROPIC_SCALING_ONLY
+
+Indicates that the font supports arbitrary isotropic scaling only. That is, transforms are equivalent to the identity matrix multiplied by a positive real number. If this flag is set, then neither the FM_INFO_ARB_XFORMS nor the FM_INFO_ANISOTROPIC_SCALING_ONLY flags can be set. If the FM_INFO_90DEGREE_ROTATIONS flag is set, the font supports transformations equivalent to an isotropic scaling followed by a rotation by a multiple of 90 degrees.
+
+
+
+
+
+#### FM_INFO_OPTICALLY_FIXED_PITCH
+
+Indicates that this font is considered typographically as fixed pitch. This is an optical quality of the font and does not necessarily indicate that all the glyphs of the font have the same character increment.
+
+
+
+
+
+#### FM_INFO_NONNEGATIVE_AC
+
+Indicates that all glyphs of this font have nonnegative <i>a</i> and <i>c</i> spacing. That is, the glyph black box never extends outside the region bordered by the character origin and the character concatenation point.
+
+
+
+
+
+#### FM_INFO_NOT_CONTIGUOUS
+
+Indicates that the supported character set is not contiguous.
+
+
+
+
+
+#### FM_INFO_RETURNS_BITMAPS
+
+Indicates that the font contains a valid digital signature.
+
+
+
+
+
+#### FM_INFO_RETURNS_OUTLINES
+
+Indicates that for any glyph supported by the driver, GDI can request a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+
+
+
+
+
+#### FM_INFO_RETURNS_STROKES
+
+Indicates that for any glyph supported by the drivers, GDI can request a PATHOBJ structure that describes the spline of the glyph. This path cannot be filled but can be stroked to give a representation of the glyph. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+
+
+
+
+
+#### FM_INFO_RIGHT_HANDED
+
+Indicates that the ascent direction of the font is 90 degrees counterclockwise from the baseline direction. The ascent direction is the direction along which height is measured and is always perpendicular to the baseline direction.
+
+
+
+
+
+#### FM_INFO_TECH_BITMAP
+
+Indicates that the font is a bitmap font.
+
+
+
+
+
+#### FM_INFO_TECH_CFF
+
+Indicates that the font is a Pscript OpenType font that contains a Compact Font Format (CFF) table.
+
+
+
+
+
+#### FM_INFO_TECH_MM
+
+Indicates that this is a Multiple Master (MM) font.
+
+
+
+
+
+#### FM_INFO_TECH_OUTLINE_NOT_TRUETYPE
+
+Indicates that the font is based on a scalable font technology that uses outline paths, but is not based on TrueType. This flag does not specify whether the paths returned for this font should be filled or stroked; the consumer should examine the FM_INFO_RETURNS_STROKES and FM_INFO_RETURNS_OUTLINES flags for this information.
+
+
+
+
+
+#### FM_INFO_TECH_STROKE
+
+Indicates that the font is based on a stroked font technology. This flag does not specify whether the paths returned for this font should be filled or stroked; the consumer should examine the FM_INFO_RETURNS_STROKES and FM_INFO_RETURNS_OUTLINES flags for this information.
+
+
+
+
+
+#### FM_INFO_TECH_TRUETYPE
+
+Indicates that the font is a TrueType font.
+
+
+
+
+
+#### FM_INFO_TECH_TYPE1
+
+Indicates that this font is a PostScript screen font (either Type1 or OpenType PostScript).
 
 
 ### -field fsSelection
 
 Specifies a combination of the following flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -623,12 +831,14 @@ Set if all the characters of the font are underscored by default; otherwise unde
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fsType
 
 This is a TrueType-specific bitfield indicating certain properties for the font, such as font embedding and licensing rights for the font. Embeddable fonts can be stored in a document. When a document with embedded fonts is opened on a system that does not have the font installed (the remote system), the embedded font can be loaded for temporary (and in some cases permanent) use on that system by an embedding-aware application. Embedding licensing rights are granted by the font vendor. The following flags can be set:
+
 <table>
 <tr>
 <th>Value</th>
@@ -669,7 +879,8 @@ Set if the font is a Restricted License font. When only this bit is set, this fo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Fonts with the FM_READONLY_EMBED bit set indicate that they can be embedded within documents but must only be installed <i>temporarily</i> on the remote system. Any document that includes an FM_READONLY_EMBED font must be opened "read-only." That is, the application can let the user view and/or print the document, but not edit it.
 
@@ -892,176 +1103,8 @@ Specifies the manner in which to interpret the panose number. This number should
 Is an array of 10 bytes used to describe the visual characteristics of a given typeface. These characteristics are then used to associate the font with other fonts of similar appearance having different names. See the Window SDK documentation for information about the PANOSE structure.
 
 
-##### - flInfo.FM_INFO_DBCS_FIXED_PITCH
-
-Indicates that double-byte characters for this font are fixed pitch. Nothing is implied about single byte characters. This flag is meaningful only for fonts that support a double-byte character set (DBCS), such as shift JIS. Fonts that do not support a DBCS should not set this flag.
-
-
-##### - flInfo.FM_INFO_TECH_TRUETYPE
-
-Indicates that the font is a TrueType font.
-
-
-##### - flInfo.FM_INFO_RETURNS_BITMAPS
-
-Indicates that the font contains a valid digital signature.
-
-
-##### - flInfo.FM_INFO_8BPP
-
-Indicates that a glyph bitmap has a color depth of eight bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
-##### - flInfo.FM_INFO_90DEGREE_ROTATIONS
-
-Indicates that the font can be realized in 90 degree rotations of the original notional shape. GDI requests the rotation of a font by including the rotation in the notional to device transformation passed to the driver when creating the font. This member has meaning only when the FM_INFO_ARB_XFORMS flag has not been set.
-
-
-##### - flInfo.FM_INFO_IGNORE_TC_RA_ABLE
-
-Indicates that, for this font, the TC_RA_ABLE flag is ignored.
-
-
-##### - flInfo.FM_INFO_16BPP
-
-Indicates that a glyph bitmap has a color depth of 16 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
-##### - flInfo.FM_INFO_1BPP
-
-Indicates that a glyph bitmap has a color depth of one bit per pixel. For Windows NT 3.1, the first version of Windows NT, this flag must be set.
-
-
-##### - flInfo.FM_INFO_TECH_CFF
-
-Indicates that the font is a Pscript OpenType font that contains a Compact Font Format (CFF) table.
-
-
-##### - flInfo.FM_INFO_ANISOTROPIC_SCALING_ONLY
-
-Indicates that the font supports only arbitrary anisotropic scaling. That is, transforms are equivalent to a diagonal matrix multiplied by a positive real number. If this flag is set, then the FM_INFO_ARB_XFORMS and the FM_INFO_ISOTROPIC_SCALING_ONLY flags cannot be set. If the FM_INFO_90DEGREE_ROTATIONS flag is also set, the font supports transformations that are a combination of a simple anisotropic scaling followed by a rotation by a multiple of 90 degrees.
-
-
-##### - flInfo.FM_INFO_RETURNS_OUTLINES
-
-Indicates that for any glyph supported by the driver, GDI can request a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568849">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
-
-
-##### - flInfo.FM_INFO_RIGHT_HANDED
-
-Indicates that the ascent direction of the font is 90 degrees counterclockwise from the baseline direction. The ascent direction is the direction along which height is measured and is always perpendicular to the baseline direction.
-
-
-##### - flInfo.FM_INFO_FAMILY_EQUIV
-
-Indicates that the <b>dpwszFamilyName</b> offset in PRINTIFI32 is actually the offset to a list of equivalent family names or aliases. The first name is the base or real name; the subsequent names are equivalents or aliases. Each name in the list is null-terminated; the list is terminated by two zeros.
-
-
-<dl>
-<dt>&lt;base name&gt; &lt;0&gt; &lt;alias 1&gt; &lt;0&gt;...&lt;alias n&gt;</dt>
-<dt>&lt;0&gt; &lt;0&gt;</dt>
-</dl>
-
-
-The based names are used only for mapping; they are not enumerated.
-
-
-##### - flInfo.FM_INFO_RETURNS_STROKES
-
-Indicates that for any glyph supported by the drivers, GDI can request a PATHOBJ structure that describes the spline of the glyph. This path cannot be filled but can be stroked to give a representation of the glyph. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
-
-
-##### - flInfo.FM_INFO_DO_NOT_ENUMERATE
-
-Indicates that this font will not be enumerated by the Win32 <b>EnumFontFamiliesEx</b>, <b>EnumFontFamilies</b> or <b>EnumFonts</b> routines. Moreover, the string returned to a Win32 application call to <b>GetTextFace</b> will be retrieved from the string <b>dpwszUniqueName</b>. This flag allows the font provider to associate more than one PRINTIFI32 structure with one of its fonts.
-
-
-##### - flInfo.FM_INFO_24BPP
-
-Indicates that a glyph bitmap has a color depth of 24 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
-##### - flInfo.FM_INFO_INTEGER_WIDTH
-
-Indicates that all glyphs have nonfractional advance widths. Bitmap fonts usually set this flag.
-
-
-##### - flInfo.FM_INFO_4BPP
-
-Indicates that a glyph bitmap has a color depth of four bits per pixel. The driver should set this if the font supports antialiased glyph bitmaps with 16 levels of gray.
-
-
-##### - flInfo.FM_INFO_ISOTROPIC_SCALING_ONLY
-
-Indicates that the font supports arbitrary isotropic scaling only. That is, transforms are equivalent to the identity matrix multiplied by a positive real number. If this flag is set, then neither the FM_INFO_ARB_XFORMS nor the FM_INFO_ANISOTROPIC_SCALING_ONLY flags can be set. If the FM_INFO_90DEGREE_ROTATIONS flag is set, the font supports transformations equivalent to an isotropic scaling followed by a rotation by a multiple of 90 degrees.
-
-
-##### - flInfo.FM_INFO_TECH_OUTLINE_NOT_TRUETYPE
-
-Indicates that the font is based on a scalable font technology that uses outline paths, but is not based on TrueType. This flag does not specify whether the paths returned for this font should be filled or stroked; the consumer should examine the FM_INFO_RETURNS_STROKES and FM_INFO_RETURNS_OUTLINES flags for this information.
-
-
-##### - flInfo.FM_INFO_TECH_MM
-
-Indicates that this is a Multiple Master (MM) font.
-
-
-##### - flInfo.FM_INFO_NONNEGATIVE_AC
-
-Indicates that all glyphs of this font have nonnegative <i>a</i> and <i>c</i> spacing. That is, the glyph black box never extends outside the region bordered by the character origin and the character concatenation point.
-
-
-##### - flInfo.FM_INFO_OPTICALLY_FIXED_PITCH
-
-Indicates that this font is considered typographically as fixed pitch. This is an optical quality of the font and does not necessarily indicate that all the glyphs of the font have the same character increment.
-
-
-##### - flInfo.FM_INFO_32BPP
-
-Indicates that a glyph bitmap has a color depth of 32 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
-##### - flInfo.FM_INFO_CONSTANT_WIDTH
-
-Indicates that all glyphs of the font under all realizations have the same value of character increment. If this flag is set, the FM_INFO_OPTICALLY_FIXED_PITCH flag must also be set.
-
-
-##### - flInfo.FM_INFO_ARB_XFORMS
-
-Indicates that a font can be realized under a continuous range of two dimensional linear transformations.
-
-
-##### - flInfo.FM_INFO_NOT_CONTIGUOUS
-
-Indicates that the supported character set is not contiguous.
-
-
-##### - flInfo.FM_INFO_INTEGRAL_SCALING
-
-Indicates that the font can be scaled by an integral amount in both the x and y directions. If this flag is set, then the driver must be able to render glyphs in the case where the notional to device transformation is scaled by integral amounts in the x and y directions. GDI requests the integral scaling of a font by including the axial scalings in the notional to device transformation passed to the driver when creating the font. This flag is meaningful only when the FM_INFO_ARB_XFORMS flag has not been set.
-
-
-##### - flInfo.FM_INFO_TECH_STROKE
-
-Indicates that the font is based on a stroked font technology. This flag does not specify whether the paths returned for this font should be filled or stroked; the consumer should examine the FM_INFO_RETURNS_STROKES and FM_INFO_RETURNS_OUTLINES flags for this information.
-
-
-##### - flInfo.FM_INFO_TECH_BITMAP
-
-Indicates that the font is a bitmap font.
-
-
-##### - flInfo.FM_INFO_DSIG
-
-Indicates that a font is compliant with the Unicode standard.
-
-
-##### - flInfo.FM_INFO_TECH_TYPE1
-
-Indicates that this font is a PostScript screen font (either Type1 or OpenType PostScript).
-
-
 ## -remarks
+
 
 
 The PRINTIFI32 structure is available in Windows Server 2003 SP1 and later. Because this structure is of fixed size, and it is guaranteed not to change across architectures or operating system versions, it can be used for binary file layouts. Unidrv UFM files are laid out in the format described in this structure, for all platforms. Pscript5 NTF files use the platform-specific version of this structure.
@@ -1076,13 +1119,16 @@ The coordinate system in the font/notional space is such that the y coordinate i
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PRINTIFI32 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PRINTIFI32 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

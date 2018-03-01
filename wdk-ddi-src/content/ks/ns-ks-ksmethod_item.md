@@ -7,8 +7,8 @@ old-location: stream\ksmethod_item.htm
 old-project: stream
 ms.assetid: 79119458-a6a7-433e-9306-d7a56ca056c2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PKSMETHOD_ITEM, ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, PKSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], stream.ksmethod_item, ks/KSMETHOD_ITEM, ks/PKSMETHOD_ITEM, KSMETHOD_ITEM, KSMETHOD_ITEM structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSMETHOD_ITEM, KSMETHOD_ITEM, KSMETHOD_ITEM structure [Streaming Media Devices], PKSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, ks/KSMETHOD_ITEM, ks/PKSMETHOD_ITEM, stream.ksmethod_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSMETHOD_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSMETHOD_ITEM, KSMETHOD_ITEM
+req.typenames: KSMETHOD_ITEM, *PKSMETHOD_ITEM
 ---
 
 # KSMETHOD_ITEM structure
@@ -75,16 +75,6 @@ typedef struct {
 
 
 
-### -field MethodHandler
-
-Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a> callback routine.
-
-
-### -field MethodSupported
-
-Specifies if this method is supported or not.
-
-
 ### -field MethodId
 
 Specifies the identifier of this method within its method set.
@@ -102,12 +92,13 @@ Specifies the minimum size buffer required to specify the method data buffer. Th
 
 ### -field SupportHandler
 
-Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a> callback routine.
+Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a> callback routine.
 
 
 ### -field Flags
 
 Specifies the request type of this method request.
+
 <table>
 <tr>
 <th>Value</th>
@@ -163,27 +154,46 @@ Indicates that the method is to be processed in source mode. An MDL is allocated
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
+
+#### - MethodHandler
+
+Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a> callback routine.
+
+
+#### - MethodSupported
+
+Specifies if this method is supported or not.
 
 
 ## -remarks
+
 
 
 A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set. The minidriver implements methods and uses the <b>MethodHandler</b> member to point to these methods. A client can then use the IOCTL_KS_METHOD request along with the KSMETHOD structure to execute methods on a kernel streaming object that the minidriver handles. For more information, see <a href="https://msdn.microsoft.com/1d7bd6f4-0aaf-4d77-8132-f551fd2ecbd2">KS Methods</a>.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
+
+
 
 <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMETHOD_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMETHOD_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

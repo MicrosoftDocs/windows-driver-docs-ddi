@@ -7,8 +7,8 @@ old-location: netvista\rilgpprejectcause.htm
 old-project: netvista
 ms.assetid: 3008a69e-25d8-4e54-afb3-317a8ca82d34
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilgpprejectcause, *LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGPPREJECTCAUSE, RILGPPREJECTCAUSE
+ms.date: 2/16/2018
+ms.keywords: "*LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpprejectcause, ntddrilapitypes/RILGPPREJECTCAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILGPPREJECTCAUSE
 product: Windows
 targetos: Windows
@@ -68,5 +68,4 @@ typedef struct _RILGPPREJECTCAUSE {
 
 
 ### -field dwCauseValue
-
 

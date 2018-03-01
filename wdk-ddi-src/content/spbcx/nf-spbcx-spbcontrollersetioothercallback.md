@@ -7,8 +7,8 @@ old-location: spb\spbcontrollersetioothercallback.htm
 old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback
+ms.date: 2/15/2018
+ms.keywords: SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+api_name:
 -	SpbControllerSetIoOtherCallback
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -89,11 +89,14 @@ A pointer to an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This method provides a way for your SPB controller driver to declare its support for custom I/O control codes (IOCTLs) that are bus-specific or driver-specific. If the SPB controller driver does not call this method, SpbCx rejects all such I/O control requests, and the SPB controller driver never sees them.
@@ -110,17 +113,24 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 
 
+
 ## -see-also
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
 
 <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbControllerSetIoOtherCallback method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbControllerSetIoOtherCallback method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

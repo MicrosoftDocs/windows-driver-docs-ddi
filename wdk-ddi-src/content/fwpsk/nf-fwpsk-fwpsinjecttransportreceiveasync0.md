@@ -7,8 +7,8 @@ old-location: netvista\fwpsinjecttransportreceiveasync0.htm
 old-project: netvista
 ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
+ms.date: 2/16/2018
+ms.keywords: FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsInjectTransportReceiveAsync0
 product: Windows
 targetos: Windows
@@ -83,8 +83,8 @@ NTSTATUS NTAPI FwpsInjectTransportReceiveAsync0(
 ### -param injectionHandle [in]
 
 An injection handle that was previously created by a call to the 
-     <mshelp:link keywords="netvista.fwpsinjectionhandlecreate0" tabindex="0"><b>
-     FwpsInjectionHandleCreate0</b></mshelp:link> function.
+     <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
+     FwpsInjectionHandleCreate0</a> function.
 
 
 ### -param injectionContext [in, optional]
@@ -113,14 +113,26 @@ One of the following address families:
 
 
 
+
+#### AF_INET
+
+The IPv4 address family.
+
+
+
+#### AF_INET6
+
+The IPv6 address family.
+
+
 ### -param compartmentId [in]
 
 The identifier of the routing compartment into which the packet data is injected, specified as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff542009">COMPARTMENT_ID</a> type. This identifier is provided
      to a callout through the 
      <b>compartmentId</b> member of the 
-     <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-     FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function. If the 
      <b>compartmentId</b> member is available to callouts, <b>FWPS_METADATA_FIELD_COMPARTMENT_ID</b> will be set in
      the 
@@ -171,21 +183,13 @@ A pointer to a callout driver–provided context that is passed to the callout f
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
 
 
-##### - addressFamily.AF_INET6
-
-The IPv6 address family.
-
-
-##### - addressFamily.AF_INET
-
-The IPv4 address family.
-
-
 ## -returns
+
 
 
 The 
      <b>FwpsInjectTransportReceiveAsync0</b> function returns one of the following <b>NTSTATUS</b> codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -240,11 +244,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -256,14 +263,14 @@ A callout driver calls the
 
 If a callout driver modified a packet that it will inject with 
     <b>FwpsInjectTransportReceiveAsync0</b>, it should call the 
-    <mshelp:link keywords="netvista.fwpsconstructipheaderfortransportpacket0" tabindex="0"><b>
-    FwpsConstructIpHeaderForTransportPacket0</b></mshelp:link> function to correct the IP and upper-level protocol (TCP,
+    <a href="..\fwpsk\nf-fwpsk-fwpsconstructipheaderfortransportpacket0.md">
+    FwpsConstructIpHeaderForTransportPacket0</a> function to correct the IP and upper-level protocol (TCP,
     UDP, and ICMP) checksums. The 
     <i>headerIncludeHeaderSize</i> parameter of 
     <b>FwpsConstructIpHeaderForTransportPacket0</b> should be the same value as the 
     <b>ipHeaderSize</b> member of the 
-    <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-    FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the <i>inMetaValues</i> parameter of the
+    <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+    FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the <i>inMetaValues</i> parameter of the
     callout driver's 
     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
 
@@ -271,8 +278,8 @@ If the return value is not <b>STATUS_SUCCESS</b>, the completion function will n
     the net buffer list pointed to by 
     <i>netBufferList</i> must be freed by a call to 
     <a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a> or 
-    <mshelp:link keywords="netvista.fwpsfreeclonenetbufferlist0" tabindex="0"><b>
-    FwpsFreeCloneNetBufferList0</b></mshelp:link>.
+    <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">
+    FwpsFreeCloneNetBufferList0</a>.
 
 If the original inbound packet data had been subject to IPsec policy enforcement when it was
     originally processed by the transport layer, the cloned packet injected by this function will bypass
@@ -285,12 +292,12 @@ To allow IPsec to process inbound packets first, the callout that inspects the t
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> structure than the universal
     sublayer. In addition, the callout driver must not intercept tunnel-mode packets for which the
     combination of 
-    <mshelp:link keywords="netvista.fwps_packet_list_inbound_ipsec_information0" tabindex="0"><b>
-    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b></mshelp:link> members (
+    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
+    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> members (
     <b>isTunnelMode</b> &amp;&amp; !
     <b>isDeTunneled</b> ) is returned by the 
-    <mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
-    FwpsGetPacketListSecurityInformation0</b></mshelp:link> function. The callout driver must wait for the packet to be
+    <a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+    FwpsGetPacketListSecurityInformation0</a> function. The callout driver must wait for the packet to be
     detunneled and then should intercept it at the transport layer or at a forward layer.
 
 This function can be called from one of the following transport layers if the
@@ -324,8 +331,8 @@ A net buffer list to be injected must be passed to the
 
 The injected packet can be indicated to the callout driver again. To prevent infinite looping, the
     driver should first call the 
-    <mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-    FwpsQueryPacketInjectionState0</b></mshelp:link> function before proceeding with a call to the 
+    <a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+    FwpsQueryPacketInjectionState0</a> function before proceeding with a call to the 
     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function, and the driver
     should permit packets that have the injection state 
     <a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a> set to
@@ -333,55 +340,94 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.fwps_packet_list_inbound_ipsec_information0" tabindex="0"><b>
-   FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-   FwpsQueryPacketInjectionState0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
-   FwpsGetPacketListSecurityInformation0</b></mshelp:link>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">FwpsInjectNetworkSendAsync0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-<a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
-
-<mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
-   FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a>
 
-<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-   FwpsAllocateCloneNetBufferList0</b></mshelp:link>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+
+
 
 <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
 
- 
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">FwpsInjectNetworkSendAsync0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+   FwpsGetPacketListSecurityInformation0</a>
+
+
+
+<a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+   FwpsQueryPacketInjectionState0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
+   FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectTransportReceiveAsync0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectTransportReceiveAsync0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

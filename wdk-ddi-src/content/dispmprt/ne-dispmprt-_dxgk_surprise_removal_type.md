@@ -1,14 +1,14 @@
 ---
 UID: NE:dispmprt._DXGK_SURPRISE_REMOVAL_TYPE
-title: _DXGK_SURPRISE_REMOVAL_TYPE
+title: "_DXGK_SURPRISE_REMOVAL_TYPE"
 author: windows-driver-content
 description: Indicates the type of surprise removal event when an external display device is disconnected from the system.
 old-location: display\dxgk_surprise_removal_type.htm
 old-project: display
 ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_surprise_removal_type, dispmprt/DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, DxgkRemovalHibernation, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DXGK_SURPRISE_REMOVAL_TYPE
+ms.date: 2/24/2018
+ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Dispmprt.h
-apiname: 
+api_name:
 -	DXGK_SURPRISE_REMOVAL_TYPE
 product: Windows
 targetos: Windows

@@ -7,8 +7,8 @@ old-location: stream\ksattribute_list.htm
 old-project: stream
 ms.assetid: 4E533E77-9288-45DF-8C93-2A6EACADF9FF
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], PKSATTRIBUTE_LIST, ks/KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], stream.ksattribute_list, KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST
+ms.date: 2/23/2018
+ms.keywords: "*PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], PKSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], ks/KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST, stream.ksattribute_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ks.h
-apiname: 
+api_name:
 -	KSATTRIBUTE_LIST
 product: Windows
 targetos: Windows
@@ -51,7 +51,7 @@ req.typenames: KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST
 
 The KSATTRIBUTE_LIST structure contains an attribute defined in a <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a> structure.
 
-This structure is used to by mode aware drivers with  <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>. The KSATTRIBUTE_LIST has a single element, which is a <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>. The Attribute member of the <b>KSATTRIBUTE</b> structure is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE.
+This structure is used to by mode aware drivers with  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>. The KSATTRIBUTE_LIST has a single element, which is a <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>. The Attribute member of the <b>KSATTRIBUTE</b> structure is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE.
 
 
 ## -syntax

@@ -7,13 +7,13 @@ old-location: kernel\componentcriticaltransitioncallback.htm
 old-project: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.componentcriticaltransitioncallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], ComponentCriticalTransitionCallback, PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, wdm/ComponentCriticalTransitionCallback
+ms.date: 2/24/2018
+ms.keywords: ComponentCriticalTransitionCallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, kernel.componentcriticaltransitioncallback, wdm/ComponentCriticalTransitionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: TBD
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	ComponentCriticalTransitionCallback
 product: Windows
 targetos: Windows
@@ -91,11 +91,14 @@ Indicates whether this notification is for a transition to the F0 component powe
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This callback routine is implemented by a device driver, and is called by PoFx. PoFx calls this routine to notify the driver of power transitions of device components.
@@ -114,13 +117,16 @@ A PEP can call this routine at IRQL TBD.
 
 
 
+
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ComponentCriticalTransitionCallback routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ComponentCriticalTransitionCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

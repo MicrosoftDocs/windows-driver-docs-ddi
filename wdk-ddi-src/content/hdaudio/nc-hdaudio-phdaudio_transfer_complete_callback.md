@@ -7,8 +7,8 @@ old-location: audio\phdaudio_transfer_complete_callback.htm
 old-project: audio
 ms.assetid: 6B3DA3B1-33E9-4BE4-A3EE-146080C483A6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.phdaudio_transfer_complete_callback, HDAudioTransferCompleteCallback callback function [Audio Devices], HDAudioTransferCompleteCallback, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, hdaudio/HDAudioTransferCompleteCallback, HDAudioTransferCompleteCallback callback function [Audio Devices], HDAudioTransferCompleteCallback
+ms.date: 2/22/2018
+ms.keywords: HDAudioTransferCompleteCallback, HDAudioTransferCompleteCallback callback function [Audio Devices], PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, audio.phdaudio_transfer_complete_callback, hdaudio/HDAudioTransferCompleteCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Hdaudio.h
-apiname: 
+api_name:
 -	HDAudioTransferCompleteCallback
 product: Windows
 targetos: Windows
@@ -76,8 +76,9 @@ typedef PHDAUDIO_TRANSFER_COMPLETE_CALLBACK HDAudioTransferCompleteCallback;
 ### -param *
 
 
-
 ### -param PVOID
+
+
 
 
 
@@ -97,13 +98,17 @@ A pointer to the codecTransfer array element that contains the codec command and
 ## -returns
 
 
+
 Void
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">PTRANSFER_CODEC_VERBS</a>.
+
 
 

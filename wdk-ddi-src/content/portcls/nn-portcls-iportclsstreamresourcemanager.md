@@ -7,8 +7,8 @@ old-location: audio\iportclsstreamresourcemanager.htm
 old-project: audio
 ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.iportclsstreamresourcemanager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, IPortClsStreamResourceManager, portcls/IPortClsStreamResourceManager
+ms.date: 2/22/2018
+ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IPortClsStreamResourceManager
 product: Windows
 targetos: Windows

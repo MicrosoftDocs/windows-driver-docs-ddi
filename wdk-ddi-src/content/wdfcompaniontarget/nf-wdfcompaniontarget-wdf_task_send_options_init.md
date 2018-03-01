@@ -7,8 +7,8 @@ old-location: wdf\wdf_task_send_options_init.htm
 old-project: wdf
 ms.assetid: ba10c012-f64c-42cd-bedc-72f620818aa5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_task_send_options_init, WDF_TASK_SEND_OPTIONS_INIT, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT, WDF_TASK_SEND_OPTIONS_INIT method
+ms.date: 2/20/2018
+ms.keywords: WDF_TASK_SEND_OPTIONS_INIT, WDF_TASK_SEND_OPTIONS_INIT method, wdf.wdf_task_send_options_init, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfcompaniontarget.h
-apiname: 
+api_name:
 -	WDF_TASK_SEND_OPTIONS_INIT
 product: Windows
 targetos: Windows
@@ -73,14 +73,14 @@ FORCEINLINE VOID WDF_TASK_SEND_OPTIONS_INIT(
 ### -param Options [out]
 
 
-
 ### -param Flags [in]
-
 
 
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

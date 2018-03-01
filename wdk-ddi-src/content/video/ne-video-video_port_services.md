@@ -7,8 +7,8 @@ old-location: display\video_port_services.htm
 old-project: display
 ms.assetid: 3ca53536-e847-4c11-a28d-e046e8a392de
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPortServicesI2C, video/VideoPortServicesI2C, video/VideoPortServicesWCMemoryProtection, VIDEO_PORT_SERVICES enumeration [Display Devices], Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, video/VIDEO_PORT_SERVICES, video/VideoPortServicesAGP, video/VideoPortServicesHeadless, VIDEO_PORT_SERVICES, VideoPortServicesHeadless, VideoPortServicesDebugReport, display.video_port_services, video/VideoPortServicesDebugReport, video/VideoPortServicesInt10, VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, VideoPortServicesAGP
+ms.date: 2/24/2018
+ms.keywords: VIDEO_PORT_SERVICES, VIDEO_PORT_SERVICES enumeration [Display Devices], VideoPortServicesAGP, VideoPortServicesDebugReport, VideoPortServicesHeadless, VideoPortServicesI2C, VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, display.video_port_services, video/VIDEO_PORT_SERVICES, video/VideoPortServicesAGP, video/VideoPortServicesDebugReport, video/VideoPortServicesHeadless, video/VideoPortServicesI2C, video/VideoPortServicesInt10, video/VideoPortServicesWCMemoryProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	video.h
-apiname: 
+api_name:
 -	VIDEO_PORT_SERVICES
 product: Windows
 targetos: Windows
@@ -98,6 +98,7 @@ Represents the Int10 interface.
 Represents the Debug Report interface, which is available in the following operating systems:
  
 
+
 <ul>
 <li>Windows Server 2003 SP1 and subsequent service packs</li>
 <li>Windows XP SP2 and subsequent service packs </li>
@@ -111,27 +112,39 @@ Represents the WC Memory Protection interface.
 ## -remarks
 
 
+
 Many functions are exported by the video port driver; the video miniport driver can call those functions using ordinary dynamic linking. Other functions implemented by the video port driver are not exported; instead, they are made available to the video miniport driver through function pointers. An interface, in this context, is a set of related function pointers. For example, the AGP interface is a set of pointers to functions (implemented by the video port driver) that provide AGP services to the video miniport driver.
 
 The video miniport driver obtains a set of function pointers by passing a value from the VIDEO_PORT_SERVICES enumerated type to the <i>ServicesType</i> parameter of the <b>VideoPortQueryServices</b> function.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
-
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
 
- 
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_SERVICES enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_SERVICES enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

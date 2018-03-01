@@ -7,8 +7,8 @@ old-location: display\pfnupdategpuvirtualaddresscb.htm
 old-project: display
 ms.assetid: 99D075A0-4483-47D1-BA24-80C45BFF407A
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices], pfnUpdateGpuVirtualAddressCb, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, d3dumddi/pfnUpdateGpuVirtualAddressCb
+ms.date: 2/24/2018
+ms.keywords: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, d3dumddi/pfnUpdateGpuVirtualAddressCb, display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dumddi.h
-apiname: 
+api_name:
 -	pfnUpdateGpuVirtualAddressCb
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updategpuvirtualaddress.md">D3DDDICB_UPDATEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
@@ -98,21 +100,27 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updategpuvirtualaddres
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 The virtual address ranges in the update operations are allowed to intersect. The operations will be applied in the order they are submitted.
 
 In a single <b>pfnUpdateVirtualAddressCb</b> call:
+
 <ul>
 <li>All virtual address ranges in mapping operations and the destination range in copy operations must belong to the same reserved (zero) range.</li>
 <li>The source virtual address range in copy operations is allowed to be from a different reserved (zero) range.</li>
 <li>The source virtual address range in all copy operations must belong to the same reserved (zero) range.</li>
-</ul>The user mode driver can submit many <b>pfnUpdateGpuVirtualAddressCb</b> calls and operations will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+</ul>
+The user mode driver can submit many <b>pfnUpdateGpuVirtualAddressCb</b> calls and operations will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+
 
 
 
@@ -120,11 +128,15 @@ In a single <b>pfnUpdateVirtualAddressCb</b> call:
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updategpuvirtualaddress.md">D3DDDICB_UPDATEGPUVIRTUALADDRESS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

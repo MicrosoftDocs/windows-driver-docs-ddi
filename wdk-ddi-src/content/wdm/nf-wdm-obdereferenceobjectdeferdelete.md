@@ -7,8 +7,8 @@ old-location: kernel\obdereferenceobjectdeferdelete.htm
 old-project: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], kernel.obdereferenceobjectdeferdelete, k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, wdm/ObDereferenceObjectDeferDelete
+ms.date: 2/24/2018
+ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, kernel.obdereferenceobjectdeferdelete, wdm/ObDereferenceObjectDeferDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	ObDereferenceObjectDeferDelete
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the body of the object.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>ObDereferenceObjectDeferDelete</b> is similar to <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> except that, when the reference count of the object reaches zero, the object manager passes the object deletion request to a worker thread. Therefore, the deletion later occurs at IRQL = PASSIVE_LEVEL.
@@ -90,18 +93,25 @@ Use <b>ObDereferenceObjectDeferDelete</b> for any object when the immediate dele
 For example, such a deadlock can occur if <b>ObDereferenceObject</b> is used to dereference a <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">Kernel Transaction Manager</a> (KTM) object when a higher level driver on the driver stack is holding a lock.
 
 To avoid such deadlocks, use <b>ObDereferenceObjectDeferDelete</b> instead of <b>ObDereferenceObject</b> to dereference KTM objects.
-<div class="alert"><b>Note</b>  For information about object permanence and attributes, see <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For information about object permanence and attributes, see <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
+
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObDereferenceObjectDeferDelete routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObDereferenceObjectDeferDelete routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

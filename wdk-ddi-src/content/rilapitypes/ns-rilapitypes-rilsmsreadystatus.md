@@ -7,8 +7,8 @@ old-location: netvista\rilsmsreadystatus_2.htm
 old-project: netvista
 ms.assetid: a7039749-3f7d-4eca-919c-db27f9e62bf2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSMSREADYSTATUS, *LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, netvista.rilsmsreadystatus_2, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus_2, rilapitypes/RILSMSREADYSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILSMSREADYSTATUS
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ typedef struct _RILSMSREADYSTATUS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwReadyState
-
 

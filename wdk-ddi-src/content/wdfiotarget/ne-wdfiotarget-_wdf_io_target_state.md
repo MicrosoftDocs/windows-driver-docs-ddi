@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_STATE
-title: _WDF_IO_TARGET_STATE
+title: "_WDF_IO_TARGET_STATE"
 author: windows-driver-content
 description: The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in.
 old-location: wdf\wdf_io_target_state.htm
 old-project: wdf
 ms.assetid: 0189a83d-da46-49f1-99b8-8fb920009804
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoTargetClosedForQueryRemove, wudfddi_types/WDF_IO_TARGET_STATE, WdfIoTargetStopped, kmdf.wdf_io_target_state, wdfiotarget/WdfIoTargetStarted, PWDF_IO_TARGET_STATE, WdfIoTargetPurged, wdfiotarget/WdfIoTargetPurged, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetStarted, WdfIoTargetStarted, wudfddi_types/WdfIoTargetPurged, WDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetClosed, wudfddi_types/PWDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetStopped, PWDF_IO_TARGET_STATE enumeration pointer, _WDF_IO_TARGET_STATE, WdfIoTargetDeleted, wudfddi_types/WdfIoTargetStopped, wdfiotarget/WdfIoTargetDeleted, *PWDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosed, WdfIoTargetClosed, wdf.wdf_io_target_state, wudfddi_types/WdfIoTargetDeleted, wdfiotarget/PWDF_IO_TARGET_STATE
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_IO_TARGET_STATE, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, PWDF_IO_TARGET_STATE, PWDF_IO_TARGET_STATE enumeration pointer, WDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration, WdfIoTargetClosed, WdfIoTargetClosedForQueryRemove, WdfIoTargetDeleted, WdfIoTargetPurged, WdfIoTargetStarted, WdfIoTargetStateUndefined, WdfIoTargetStopped, _WDF_IO_TARGET_STATE, kmdf.wdf_io_target_state, wdf.wdf_io_target_state, wdfiotarget/PWDF_IO_TARGET_STATE, wdfiotarget/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetClosed, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetPurged, wdfiotarget/WdfIoTargetStarted, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetStopped, wudfddi_types/PWDF_IO_TARGET_STATE, wudfddi_types/WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosed, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStarted, wudfddi_types/WdfIoTargetStateUndefined, wudfddi_types/WdfIoTargetStopped"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfiotarget.h
 -	wudfddi_types.h
-apiname: 
+api_name:
 -	WDF_IO_TARGET_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -115,9 +115,11 @@ The I/O target is temporarily purged and cannot receive or process I/O requests.
 ## -remarks
 
 
+
 To obtain an I/O target's current state, call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md">WdfIoTargetGetState</a>.
 
 For more information about states for I/O targets, see <a href="https://msdn.microsoft.com/37f756bf-b655-428e-b72c-f86c71f1a2db">Controlling a General I/O Target's State</a>.
+
 
 
 
@@ -125,9 +127,11 @@ For more information about states for I/O targets, see <a href="https://msdn.mic
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md">WdfIoTargetGetState</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

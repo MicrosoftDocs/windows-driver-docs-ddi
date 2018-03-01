@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._OPLOCK_KEY_CONTEXT
-title: _OPLOCK_KEY_CONTEXT
+title: "_OPLOCK_KEY_CONTEXT"
 author: windows-driver-content
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
 old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_FLAG_PARENT_KEY, _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, ifsk.oplock_key_context, POPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	OPLOCK_KEY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT
+req.typenames: OPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
 ---
 
 # _OPLOCK_KEY_CONTEXT structure
@@ -73,6 +73,7 @@ typedef struct _OPLOCK_KEY_CONTEXT {
 ### -field Version
 
 The oplock key version. The version is set to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -98,12 +99,14 @@ This is a Windows 8 oplock key.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
 
 A set of flags that indicate the oplock key type. <b>Flags</b> is set to one or both of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -129,7 +132,8 @@ A valid oplock key is present in <b>TargetOplockKey.</b>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ParentOplockKey
@@ -148,10 +152,13 @@ A <b>GUID</b>  that represents the target oplock  key value.
 
 
 
+
 ## -remarks
 
 
+
 If an oplock is requested for a file during an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request, a file system that supports oplocks   will attach an oplock key context to the file object created. The oplock key  context is later available through a pointer to an <b>OPLOCK_KEY_CONTEXT</b> structure.  The <b>OPLOCK_KEY_CONTEXT</b> structure is returned from a call to <a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>.
+
 
 
 
@@ -159,13 +166,19 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 <a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
-<a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20OPLOCK_KEY_CONTEXT structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20OPLOCK_KEY_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

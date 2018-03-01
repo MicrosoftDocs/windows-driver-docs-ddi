@@ -1,14 +1,14 @@
 ---
 UID: NS:acpitabl._LPIT
-title: _LPIT
+title: "_LPIT"
 author: windows-driver-content
 description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
 old-project: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: LPIT structure [ACPI Devices], acpitabl/LPIT, acpitabl/PLPIT, LPIT, *PLPIT, PLPIT structure pointer [ACPI Devices], PLPIT, _LPIT, acpi.lpit
+ms.date: 2/15/2018
+ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	acpitabl.h
-apiname: 
+api_name:
 -	LPIT
 product: Windows
 targetos: Windows
-req.typenames: *PLPIT, LPIT
+req.typenames: LPIT, *PLPIT
 ---
 
 # _LPIT structure

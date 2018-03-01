@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORTRANSFORMCAPS
-title: _DXGK_COLORTRANSFORMCAPS
+title: "_DXGK_COLORTRANSFORMCAPS"
 author: windows-driver-content
 description: This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXGK_DRIVERCAPS structure to describe both the gamma and color transform capabilities of the display pipelines.
 old-location: display\dxgk_colortransformcaps_.htm
 old-project: display
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, DXGK_COLORTRANSFORMCAPS structure [Display Devices], d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS
+ms.date: 2/24/2018
+ms.keywords: DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS structure [Display Devices], PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGK_COLORTRANSFORMCAPS
 product: Windows
 targetos: Windows
@@ -109,7 +109,7 @@ Indicates support for a 3 by 4 matrix color transform in the display pipeline ha
 This value is reserved for system use.
 
 
-### -field Value
+#### - Value
 
 The combined UINT value.
 

@@ -7,8 +7,8 @@ old-location: devtest\vdbgprintex.htm
 old-project: devtest
 ms.assetid: e7118f5b-819f-428f-a5e6-80a36705d626
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: vDbgPrintEx
+ms.date: 2/23/2018
+ms.keywords: DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml, devtest.vdbgprintex, vDbgPrintEx, vDbgPrintEx routine [Driver Development Tools], wdm/vDbgPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -19,8 +19,6 @@ req.target-min-winverclnt: Available in Microsoft Windows XP and later operating
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.alt-api: vDbgPrintEx
-req.alt-loc: NtDll.dll,NtosKrnl.exe
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -30,7 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
-req.irql: <= DIRQL (see Comments section)
+req.irql: "<= DIRQL (see Comments section)"
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	NtDll.dll
+-	NtosKrnl.exe
+api_name:
+-	vDbgPrintEx
+product: Windows
+targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
@@ -38,13 +48,14 @@ req.product: Windows 10 or later.
 # vDbgPrintEx function
 
 
-
 ## -description
+
+
 The <b>vDbgPrintEx</b> routine sends a string to the kernel debugger if certain conditions are met.
 
 
-
 ## -syntax
+
 
 ````
 ULONG vDbgPrintEx(
@@ -57,6 +68,9 @@ ULONG vDbgPrintEx(
 
 
 ## -parameters
+
+
+
 
 ### -param ComponentId [in]
 
@@ -105,10 +119,18 @@ An argument list for the format string. The <b>vDbgPrintEx</b> routine uses this
 
 
 ## -returns
+
+
+
 <b>vDbgPrintEx</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine returns the appropriate error code.
 
 
+
+
 ## -remarks
+
+
+
 Only kernel-mode drivers can call the <b>vDbgPrintEx</b> routine.
 
 <b>vDbgPrintEx</b> can be called at IRQL &lt;= DIRQL. However, you can use Unicode format codes (%<b>wc</b> and %<b>ws</b>) only at IRQL = PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling <b>vDbgPrintEx</b> at IRQL &gt; DIRQL can cause deadlocks.
@@ -119,20 +141,22 @@ Unless it is absolutely necessary, you should not obtain a string from user inpu
 
 There is no upper limit to the size of the <i>Format</i> string or the number of arguments in the <i>arglist</i> list. However, any single call to <b>vDbgPrintEx</b> will transmit only 512 bytes of information. 
 
-There is also a limit to the size of the buffer that the debugger uses. For more information about this limit, see <a href="devtest.reading_and_filtering_debugging_messages#ddk_the_dbgprint_buffer_and_the_debugger_tools#ddk_the_dbgprint_buffer_and_the_debugger_tools">The DbgPrint Buffer and the Debugger</a>.
+There is also a limit to the size of the buffer that the debugger uses. For more information about this limit, see <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">The DbgPrint Buffer and the Debugger</a>.
 
 This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h.
 
 
+
+
 ## -see-also
-<dl>
-<dt>
+
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-</dt>
-</dl>
- 
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintEx routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintEx routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

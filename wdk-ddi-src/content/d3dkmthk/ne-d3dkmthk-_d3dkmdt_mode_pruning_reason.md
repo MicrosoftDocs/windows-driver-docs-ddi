@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmthk._D3DKMDT_MODE_PRUNING_REASON
-title: _D3DKMDT_MODE_PRUNING_REASON
+title: "_D3DKMDT_MODE_PRUNING_REASON"
 author: windows-driver-content
 description: The D3DKMDT_MODE_PRUNING_REASON enumeration type contains values that identify the reason why the monitor either supports a display mode or does not support a display mode.
 old-location: display\d3dkmdt_mode_pruning_reason.htm
 old-project: display
 ms.assetid: 41b80b84-3ed6-4ca3-a2ca-63982585d6dc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_mode_pruning_reason, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_ALLCAPS, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_CLONE_PATH_PRUNED, D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, D3DKMDT_MPR_MAXVALID, D3DKMDT_MPR_UNINITIALIZED, _D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, OpenGL_Structs_e0bd4d47-ff41-4899-8c2a-3738e40ad653.xml, D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, D3DKMDT_MODE_PRUNING_REASON enumeration [Display Devices], D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_UNINITIALIZED, D3DKMDT_MPR_ALLCAPS, d3dkmthk/D3DKMDT_MPR_MAXVALID, D3DKMDT_MPR_CLONE_PATH_PRUNED
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_MODE_PRUNING_REASON, D3DKMDT_MODE_PRUNING_REASON enumeration [Display Devices], D3DKMDT_MPR_ALLCAPS, D3DKMDT_MPR_CLONE_PATH_PRUNED, D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, D3DKMDT_MPR_MAXVALID, D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, D3DKMDT_MPR_UNINITIALIZED, OpenGL_Structs_e0bd4d47-ff41-4899-8c2a-3738e40ad653.xml, _D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MODE_PRUNING_REASON, d3dkmthk/D3DKMDT_MPR_ALLCAPS, d3dkmthk/D3DKMDT_MPR_CLONE_PATH_PRUNED, d3dkmthk/D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_FREQUENCY_RANGE, d3dkmthk/D3DKMDT_MPR_DESCRIPTOR_OVERRIDE_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE, d3dkmthk/D3DKMDT_MPR_MAXVALID, d3dkmthk/D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE, d3dkmthk/D3DKMDT_MPR_UNINITIALIZED, display.d3dkmdt_mode_pruning_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMDT_MODE_PRUNING_REASON
 product: Windows
 targetos: Windows
@@ -137,9 +137,11 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The setting of the <b>ValidatedAgainstMonitorCaps</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a> structure indicates whether the monitor supports a display mode or not. If the monitor does not support a display mode, the operating system removes the display mode from the list of display modes that are available to the monitor.
 
 When a display mode is supported, the reason type can be one of the following:
+
 <ul>
 <li>
 D3DKMDT_MPR_DRIVER_RECOMMENDED_MONITOR_SOURCE_MODE
@@ -161,7 +163,9 @@ D3DKMDT_MPR_DEFAULT_PROFILE_MONITOR_SOURCE_MODE
 D3DKMDT_MPR_MONITOR_FREQUENCY_RANGE_OVERRIDE
 
 </li>
-</ul>When a display mode is not supported, the reason type can be one of the following:
+</ul>
+When a display mode is not supported, the reason type can be one of the following:
+
 <ul>
 <li>
 D3DKMDT_MPR_DESCRIPTOR_MONITOR_FREQUENCY_RANGE
@@ -178,13 +182,16 @@ D3DKMDT_MPR_ALLCAPS
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MODE_PRUNING_REASON enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MODE_PRUNING_REASON enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

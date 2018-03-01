@@ -7,8 +7,8 @@ old-location: kernel\rtlconvertulongtolargeinteger.htm
 old-project: kernel
 ms.assetid: 9e0b8d36-0191-4f78-91dd-874346a69072
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, wdm/RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], kernel.rtlconvertulongtolargeinteger
+ms.date: 2/24/2018
+ms.keywords: RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, kernel.rtlconvertulongtolargeinteger, wdm/RtlConvertUlongToLargeInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlConvertUlongToLargeInteger
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Specifies a value of type ULONG.
 ## -returns
 
 
+
 <b>RtlConvertUlongToLargeInteger</b> returns the converted large integer. 
+
 
 

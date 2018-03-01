@@ -7,8 +7,8 @@ old-location: stream\ks_amvpsize.htm
 old-project: stream
 ms.assetid: 31430419-8f83-4f46-b398-841895f415d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, KS_AMVPSIZE structure [Streaming Media Devices], ksmedia/PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], tagKS_AMVPSIZE, ksmedia/KS_AMVPSIZE, *PKS_AMVPSIZE, stream.ks_amvpsize, PKS_AMVPSIZE, KS_AMVPSIZE
+ms.date: 2/23/2018
+ms.keywords: "*PKS_AMVPSIZE, KS_AMVPSIZE, KS_AMVPSIZE structure [Streaming Media Devices], PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, ksmedia/KS_AMVPSIZE, ksmedia/PKS_AMVPSIZE, stream.ks_amvpsize, tagKS_AMVPSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ksmedia.h
-apiname: 
+api_name:
 -	KS_AMVPSIZE
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ Specifies the height of the video port, in pixels.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566502">KSPROPERTY_VPCONFIG_SCALEFACTOR</a> property.
+
 
 
 
@@ -89,9 +91,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566502">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AMVPSIZE structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AMVPSIZE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

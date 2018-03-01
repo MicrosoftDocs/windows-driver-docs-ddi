@@ -1,21 +1,21 @@
 ---
 UID: NE:bthddi._SCO_DISCONNECT_REASON
-title: _SCO_DISCONNECT_REASON
+title: "_SCO_DISCONNECT_REASON"
 author: windows-driver-content
 description: The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been disconnected.
 old-location: bltooth\sco_disconnect_reason.htm
 old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, ScoHciDisconnect, ScoDisconnectRequest, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bthddi/ScoHciDisconnect, ScoRadioPoweredDown, bthddi/ScoHardwareRemoval, bthddi/ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, ScoHardwareRemoval, bltooth.sco_disconnect_reason, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], *PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON
+ms.date: 2/15/2018
+ms.keywords: "*PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], SCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoDisconnectRequest, ScoHardwareRemoval, ScoHciDisconnect, ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, bthddi/PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, bthddi/ScoHardwareRemoval, bthddi/ScoHciDisconnect, bthddi/ScoRadioPoweredDown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	SCO_DISCONNECT_REASON
 product: Windows
 targetos: Windows
-req.typenames: *PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON
+req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 ---
 
 # _SCO_DISCONNECT_REASON enumeration
@@ -97,10 +97,11 @@ This value specifies to the profile driver that the local radio has been physica
 ## -remarks
 
 
+
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <mshelp:link keywords="bltooth.sco_indication_parameters" tabindex="0"><b>
-    SCO_INDICATION_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+    SCO_INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>ScoRadioPoweredDown</b> and 
@@ -112,15 +113,20 @@ Currently,
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
 
+
+
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_DISCONNECT_REASON enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_DISCONNECT_REASON enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\videoportstartdma.htm
 old-project: display
 ms.assetid: cb78e871-6177-4141-b713-25a39c928701
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.videoportstartdma, VideoPortStartDma function [Display Devices], video/VideoPortStartDma, VideoPortStartDma, VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml
+ms.date: 2/24/2018
+ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Videoprt.sys
-apiname: 
+api_name:
 -	VideoPortStartDma
 product: Windows
 targetos: Windows
@@ -118,7 +118,9 @@ Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a tr
 ## -returns
 
 
+
 <b>VideoPortStartDma</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,14 +148,18 @@ There are not enough system resources for this operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To prepare for a DMA-transfer operation, <b>VideoPortStartDma</b>:
+
 <ul>
 <li>
 Flushes the memory region in the host processor's caches.
@@ -167,23 +173,33 @@ Builds a scatter/gather list.
 Calls the video miniport driver's <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a> callback.
 
 </li>
-</ul>It is possible that not all of the requested data has been transferred, since the actual amount of memory transferred is limited by the number of map registers available to the driver. Callers of this function should inspect the actual transfer size returned at <i>pLength</i> to determine whether additional data remains to be transferred. If so, the miniport driver should call <b>VideoPortStartDma</b> (and subsequently, <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>) as many times as necessary to fulfill the entire transfer request. 
+</ul>
+It is possible that not all of the requested data has been transferred, since the actual amount of memory transferred is limited by the number of map registers available to the driver. Callers of this function should inspect the actual transfer size returned at <i>pLength</i> to determine whether additional data remains to be transferred. If so, the miniport driver should call <b>VideoPortStartDma</b> (and subsequently, <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>) as many times as necessary to fulfill the entire transfer request. 
+
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
-
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+
+
 
 <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStartDma function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStartDma function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

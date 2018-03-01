@@ -7,8 +7,8 @@ old-location: netvista\fwpsaleendpointgetbyid0.htm
 old-project: netvista
 ms.assetid: fa9a5078-d254-4b4a-bbfb-256491beff5f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointGetById0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml, netvista.fwpsaleendpointgetbyid0
+ms.date: 2/16/2018
+ms.keywords: FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+api_name:
 -	FwpsAleEndpointGetById0
 product: Windows
 targetos: Windows
@@ -87,15 +87,17 @@ The unique endpoint identifier.
 ### -param properties [out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.fwps_ale_endpoint_properties0" tabindex="0"><b>
-     FWPS_ALE_ENDPOINT_PROPERTIES0</b></mshelp:link> structure that contains the properties of the endpoint.
+     <a href="https://msdn.microsoft.com/1dd5dbd1-b7a7-45a3-8cab-ea62c7eff35b">
+     FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure that contains the properties of the endpoint.
 
 
 ## -returns
 
 
+
 The 
      <b>FwpsAleEndpointGetById0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,23 +125,31 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointGetById0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointGetById0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

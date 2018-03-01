@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settimingsfromvidpn.htm
 old-project: display
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddi_settimingsfromvidpn, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], DXGKDDI_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKDDI_SETTIMINGSFROMVIDPN
 product: Windows
 targetos: Windows
@@ -81,15 +81,21 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settimingsfromvidpn.md"
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS.
-<div class="alert"><b>Note</b>  The driver should always return a success code unless there is an error in the parameters or a failure to process the request.  If the driver is unable to set one or more paths as requested, it should describe the condition using the output fields but still report success.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The driver should always return a success code unless there is an error in the parameters or a failure to process the request.  If the driver is unable to set one or more paths as requested, it should describe the condition using the output fields but still report success.</div>
+<div> </div>
+
 
 
 ## -remarks
 
 
+
 The kernel mode driver evaluates the parameters and initiates the changes if no conditions prevent attempting them.  If conditions such as exceeding target bandwidth limitations prevent the changes from being made, the driver should describe the conditions.  If changing the timings would be possible but requires preparation work to be completed first, the driver should indicate that in the output flags.
 
 This function is always called at PASSIVE level.
+
 
 

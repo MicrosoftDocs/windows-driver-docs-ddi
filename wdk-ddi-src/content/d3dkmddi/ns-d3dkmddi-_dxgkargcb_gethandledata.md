@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETHANDLEDATA
-title: _DXGKARGCB_GETHANDLEDATA
+title: "_DXGKARGCB_GETHANDLEDATA"
 author: windows-driver-content
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
 old-project: display
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARGCB_GETHANDLEDATA structure [Display Devices], d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata, _DXGKARGCB_GETHANDLEDATA, DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, DXGKARGCB_GETHANDLEDATA
+ms.date: 2/24/2018
+ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmddi.h
-apiname: 
+api_name:
 -	DXGKARGCB_GETHANDLEDATA
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ typedef struct _DXGKARGCB_GETHANDLEDATA {
 ### -field Type
 
 [in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -102,7 +103,8 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
@@ -114,13 +116,19 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_GETHANDLEDATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_GETHANDLEDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:wiamindr_lh._WIA_PROPERTY_INFO
-title: _WIA_PROPERTY_INFO
+title: "_WIA_PROPERTY_INFO"
 author: windows-driver-content
 description: The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
 old-location: image\wia_property_info.htm
 old-project: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, wiamindr_lh/PWIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, image.wia_property_info, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml
+ms.date: 2/23/2018
+ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wiamindr_lh.h
-apiname: 
+api_name:
 -	WIA_PROPERTY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO
+req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -110,8 +110,37 @@ typedef struct _WIA_PROPERTY_INFO {
 
 
 
-### -field ValidVal
+### -field lAccessFlags
 
+Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags. 
+
+
+### -field vt
+
+Specifies the variant data type for the property. This member, which can be one of the following, controls which structure member of the <b>ValidValunion</b> is valid:
+
+VT_UI1
+
+VT_UI2
+
+VT_UI4
+
+VT_I2
+
+VT_I4
+
+VT_R4
+
+VT_R8
+
+VT_CLSID
+
+VT_BSTR
+
+See PROPVARIANT in the Windows SDK documentation for more information.
+
+
+### -field ValidVal
 
 
 ### -field ValidVal.Range
@@ -313,37 +342,10 @@ Is a structure that is filled when the property's valid values are not given in 
  
 
 
-### -field lAccessFlags
-
-Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags. 
-
-
-### -field vt
-
-Specifies the variant data type for the property. This member, which can be one of the following, controls which structure member of the <b>ValidValunion</b> is valid:
-
-VT_UI1
-
-VT_UI2
-
-VT_UI4
-
-VT_I2
-
-VT_I4
-
-VT_R4
-
-VT_R8
-
-VT_CLSID
-
-VT_BSTR
-
-See PROPVARIANT in the Windows SDK documentation for more information.
 
 
 ## -remarks
+
 
 
 The WIA_PROPERTY_INFO is used by the minidriver to store information about a property of arbitrary type. This structure is also used by the <b>wiasSetItemPropAttribs</b> to set a property's valid values. The <b>lAccessFlags</b> member controls whether access to a property is read-only or read/write. This member also conveys information about the set of valid values for a property when they are defined by a list of values, a range of values, or a bitset of flags. The <b>vt</b> member contains information about the type of the property. Both members should be used to determine which member of the <b>ValidValunion</b> can be accessed. 
@@ -357,6 +359,7 @@ A property whose valid values are defined by a bitset of the values 0x01, 0x02, 
 The following examples show how to use array data with WIA_PROPERTY_INFO and how to call <a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a> to set your property values.
 
 Initialization might look like the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -375,7 +378,9 @@ Initialization might look like the following example:
   g_wpiItemDefaults[13].vt           = g_pvItemDefaults [13].vt;</pre>
 </td>
 </tr>
-</table></span></div>At run time, changing the value with <b>wiasWriteMultiple</b> might look like the following example:
+</table></span></div>
+At run time, changing the value with <b>wiasWriteMultiple</b> might look like the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -393,7 +398,9 @@ Initialization might look like the following example:
   hr                  = wiasWriteMultiple(pWiasContext, 1, &amp;propSpec, &amp;propVar);</pre>
 </td>
 </tr>
-</table></span></div><b>Note</b>  WIA uses the COM PROPVARIANT type, VARIANT (defined in the Microsoft Windows SDK documentation), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+</table></span></div>
+<b>Note</b>  WIA uses the COM PROPVARIANT type, VARIANT (defined in the Microsoft Windows SDK documentation), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+
 
 
 
@@ -401,9 +408,11 @@ Initialization might look like the following example:
 
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIA_PROPERTY_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIA_PROPERTY_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

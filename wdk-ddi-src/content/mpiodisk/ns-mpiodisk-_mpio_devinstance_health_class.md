@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiodisk._MPIO_DEVINSTANCE_HEALTH_CLASS
-title: _MPIO_DEVINSTANCE_HEALTH_CLASS
+title: "_MPIO_DEVINSTANCE_HEALTH_CLASS"
 author: windows-driver-content
 description: The MPIO_DEVINSTANCE_HEALTH_CLASS structure holds the health information for a instance of a device exposed through the specified path identifiers.
 old-location: storage\mpio_devinstance_health_class.htm
 old-project: storage
 ms.assetid: 6d0afab5-4aba-4ebc-a864-85c83cf464d0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMPIO_DEVINSTANCE_HEALTH_CLASS, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml, MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], storage.mpio_devinstance_health_class, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS
+ms.date: 2/24/2018
+ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, storage.mpio_devinstance_health_class, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiodisk.h
-apiname: 
+api_name:
 -	MPIO_DEVINSTANCE_HEALTH_CLASS
 product: Windows
 targetos: Windows

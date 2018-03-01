@@ -7,8 +7,8 @@ old-location: image\istiusd_rawwritedata.htm
 old-project: image
 ms.assetid: 82700669-b98f-486c-a7a6-cd7138300f11
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteData, image.istiusd_rawwritedata, RawWriteData, stiusd/IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method
+ms.date: 2/23/2018
+ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method, IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices], IStiUSD interface, RawWriteData,IStiUSD.RawWriteData, image.istiusd_rawwritedata, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, stiusd/IStiUSD::RawWriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	stiusd.h
-apiname: 
+api_name:
 -	IStiUSD.RawWriteData
 product: Windows
 targetos: Windows
@@ -93,24 +93,34 @@ Caller-supplied number of bytes to be written. This is the number of bytes in th
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 A still image minidriver typically implements this method by calling <b>WriteFile</b> (described in the Windows SDK documentation).
+
 
 
 
 ## -see-also
 
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543764">IStiDevice::RawWriteData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::RawWriteData method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::RawWriteData method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\iddcxswapchaingetmoveregions.htm
 old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainGetMoveRegions, display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices]
+ms.date: 2/24/2018
+ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _Must_inspect_result_
-topictype: 
+req.irql: "_Must_inspect_result_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IddCxSwapChainGetMoveRegions
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ Output arguments of the function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

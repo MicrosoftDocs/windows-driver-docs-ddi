@@ -7,8 +7,8 @@ old-location: image\ioctl_set_timeout.htm
 old-project: image
 ms.assetid: 90403ef3-d86c-4e2b-842d-c121cce07a47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.ioctl_set_timeout, IOCTL_SET_TIMEOUT control code [Imaging Devices], IOCTL_SET_TIMEOUT, usbscan/IOCTL_SET_TIMEOUT, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml
+ms.date: 2/23/2018
+ms.keywords: IOCTL_SET_TIMEOUT, IOCTL_SET_TIMEOUT control code [Imaging Devices], image.ioctl_set_timeout, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml, usbscan/IOCTL_SET_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbscan.h
-apiname: 
+api_name:
 -	IOCTL_SET_TIMEOUT
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,14 +86,18 @@ Zero.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,13 +109,19 @@ Zero.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_set_timeout_si"></a><a id="DDK_IOCTL_SET_TIMEOUT_SI"></a>DeviceIoControl Parameters</h3>
+
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_usbscan_timeout.md">USBSCAN_TIMEOUT</a> structure as the function's <i>lpInBuffer</i> parameter.
 
 Using the USBSCAN_TIMEOUT structure's contents, the kernel-mode driver resets the time-out value for each type of operation: bulk IN read, bulk OUT write, or interrupt.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
-<div class="alert"><b>Note</b>    The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.</div><div> </div>The IOCTL_SET_TIMEOUT I/O control code is available in Microsoft Windows Me, Windows XP and later operating systems versions.
+
+<div class="alert"><b>Note</b>    The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.</div>
+<div> </div>
+The IOCTL_SET_TIMEOUT I/O control code is available in Microsoft Windows Me, Windows XP and later operating systems versions.
+
 
 

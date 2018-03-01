@@ -7,8 +7,8 @@ old-location: netvista\riluiccfilepath.htm
 old-project: netvista
 ms.assetid: 65c46391-f0ef-4618-ac26-86f41e04e688
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUICCFILEPATH, RILUICCFILEPATH, netvista.riluiccfilepath, *LPRILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCFILEPATH, RILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilepath, ntddrilapitypes/RILUICCFILEPATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCFILEPATH
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef struct _RILUICCFILEPATH {
 ### -field hUiccApp
 
 
-
 ### -field dwFilePathLen
 
 
-
 ### -field wFilePath
-
 

@@ -7,8 +7,8 @@ old-location: kernel\mmcopymemory.htm
 old-project: kernel
 ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory, MmCopyMemory
+ms.date: 2/24/2018
+ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+api_name:
 -	MmCopyMemory
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # MmCopyMemory function
@@ -90,6 +90,7 @@ The number of bytes to copy from <i>SourceAddress</i> to <i>TargetAddress</i>.
 ### -param Flags [in]
 
 Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physical address. The following flag bits are defined for this parameter.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -103,7 +104,8 @@ Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physi
 <td>MM_COPY_MEMORY_VIRTUAL</td>
 <td><i>SourceAddress</i> specifies a virtual address.</td>
 </tr>
-</table> 
+</table>
+ 
 
 These two flag bits are mutually exclusive. The caller must set one or the other, but not both.
 
@@ -116,11 +118,14 @@ A pointer to a location to which the routine writes the number of bytes successf
 ## -returns
 
 
+
 <b>MmCopyMemory</b> returns STATUS_SUCCESS if the entire range has been copied successfully. Otherwise, an error status is returned and the caller must inspect the output value pointed to by the <i>NumberOfBytesTransferred</i> parameter to determine how many bytes were actually copied.
 
 
 
+
 ## -remarks
+
 
 
 Kernel-mode drivers can call this routine to safely access arbitrary physical or virtual addresses.
@@ -133,15 +138,20 @@ If memory at the virtual address specified by <i>SourceAddress</i> is not reside
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_mm_copy_address.md">MM_COPY_ADDRESS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmCopyMemory routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmCopyMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

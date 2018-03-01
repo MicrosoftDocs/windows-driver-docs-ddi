@@ -2,13 +2,13 @@
 UID: NS:msviddrv.tag_video_configure_parms
 title: tag_video_configure_parms
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\videoconfigparms.htm
 old-project: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *LPVIDEOCONFIGPARMS, msviddrv/LPVIDEOCONFIGPARMS, tag_video_configure_parms, VIDEOCONFIGPARMS structure [Streaming Media Devices], stream.videoconfigparms, VIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], LPVIDEOCONFIGPARMS
+ms.date: 2/23/2018
+ms.keywords: "*LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, stream.videoconfigparms, tag_video_configure_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Msviddrv.h
-apiname: 
+api_name:
 -	VIDEOCONFIGPARMS
 product: Windows
 targetos: Windows
-req.typenames: *LPVIDEOCONFIGPARMS, VIDEOCONFIGPARMS
+req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 ---
 
 # tag_video_configure_parms structure

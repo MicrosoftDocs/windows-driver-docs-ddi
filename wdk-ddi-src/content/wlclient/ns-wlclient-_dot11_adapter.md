@@ -1,14 +1,14 @@
 ---
 UID: NS:wlclient._DOT11_ADAPTER
-title: _DOT11_ADAPTER
+title: "_DOT11_ADAPTER"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_adapter.htm
 old-project: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _DOT11_ADAPTER, netvista.dot11_adapter, PDOT11_ADAPTER, wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, wlclient/DOT11_ADAPTER, *PDOT11_ADAPTER
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_ADAPTER, DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADAPTER, netvista.dot11_adapter, wlclient/DOT11_ADAPTER, wlclient/PDOT11_ADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlclient.h
-apiname: 
+api_name:
 -	DOT11_ADAPTER
 product: Windows
 targetos: Windows
@@ -76,11 +76,6 @@ typedef struct _DOT11_ADAPTER {
 The globally unique identifier (GUID) of the WLAN adapter.
 
 
-### -field pszDescription.string
-
- 
-
-
 ### -field pszDescription
 
 A description of the WLAN adapter.
@@ -91,11 +86,12 @@ A description of the WLAN adapter.
 The current Native 802.11 operation mode of the miniport driver instance that manages the WLAN
      adapter. The value of 
      <b>Dot11CurrentOpMode</b> is formatted as a 
-     <mshelp:link keywords="netvista.dot11_current_operation_mode" tabindex="0"><b>
-     DOT11_CURRENT_OPERATION_MODE</b></mshelp:link> value.
+     <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">
+     DOT11_CURRENT_OPERATION_MODE</a> value.
 
 
 ## -remarks
+
 
 
 The operating system calls the 
@@ -108,18 +104,25 @@ The operating system calls the
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
-<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
- 
+
+
+<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADAPTER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADAPTER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

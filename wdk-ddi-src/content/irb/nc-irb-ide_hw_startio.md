@@ -7,8 +7,8 @@ old-location: storage\idehwstartio.htm
 old-project: storage
 ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.idehwstartio, IdeHwStartIo routine [Storage Devices], IdeHwStartIo, IDE_HW_STARTIO, IDE_HW_STARTIO, irb/IdeHwStartIo, atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml
+ms.date: 2/24/2018
+ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IdeHwStartIo
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 ## -returns
 
 
+
 <b><i>IdeHwStartIo</i></b> returns <b>TRUE</b> to acknowledge the receipt of an IRB. The port driver ignores a return value of <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers must provide an <b><i>IdeHwStartIo</i></b> routine to process the aspects of an I/O request that must be handled synchronously. For information about how the miniport driver processes the unsynchronized aspects of an I/O request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>. 
@@ -99,15 +102,20 @@ After this routine returns, the miniport driver should be prepared to receive th
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
+## -see-also
 
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwStartIo routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwStartIo routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

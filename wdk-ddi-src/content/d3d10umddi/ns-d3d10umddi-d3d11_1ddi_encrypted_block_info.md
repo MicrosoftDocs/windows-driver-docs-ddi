@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_encrypted_block_info.htm
 old-project: display
 ms.assetid: 36d7fab0-e343-4236-9d13-93cc0e41721e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], display.d3d11_1ddi_encrypted_block_info, d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, D3D11_1DDI_ENCRYPTED_BLOCK_INFO
+ms.date: 2/24/2018
+ms.keywords: D3D11_1DDI_ENCRYPTED_BLOCK_INFO, D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, display.d3d11_1ddi_encrypted_block_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	D3D11_1DDI_ENCRYPTED_BLOCK_INFO
 product: Windows
 targetos: Windows
@@ -89,9 +89,11 @@ The skip and encrypt pattern is then repeated until the buffer ends. For more in
 ## -remarks
 
 
+
 Because the buffer's encrypted portion is specified in bytes, an application must ensure that the encrypted blocks match the GPU's crypto-block alignment.
 
 The following examples show how the runtime can partition a buffer's encryption.
+
 <ol>
 <li>The following values encrypt the first 100 bytes of the buffer and skip the remaining buffer data:<ul>
 <li><b>NumEncryptedBytesAtBeginning</b> = 100;</li>
@@ -106,4 +108,5 @@ The following examples show how the runtime can partition a buffer's encryption.
 </ul>
 </li>
 </ol>
+
 

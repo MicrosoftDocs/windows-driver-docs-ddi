@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usb_submit_idle_notification.htm
 old-project: usbref
 ms.assetid: e7ce1448-223f-4aea-b5e7-70a3b2f58e77
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_internal_usb_submit_idle_notification, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control code [Buses], IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, usbirp_4a27792b-b726-4741-9d59-5e2b70a3b1c6.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control code [Buses], buses.ioctl_internal_usb_submit_idle_notification, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, usbirp_4a27792b-b726-4741-9d59-5e2b70a3b1c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Usbioctl.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -78,6 +78,7 @@ For additional information, see <a href="https://msdn.microsoft.com/library/wind
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> should be a pointer to a <b>USB_IDLE_CALLBACK_INFO</b> structure. This structure should contain a pointer to the callback routine and a pointer to the callback routine context. 
 
 The structure holding the callback information is defined in usbioctl.h as follows:
+
 <pre class="syntax" xml:space="preserve"><code>typedef VOID (*USB_IDLE_CALLBACK)(PVOID Context);
 
 typedef struct _USB_IDLE_CALLBACK_INFO 
@@ -104,14 +105,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

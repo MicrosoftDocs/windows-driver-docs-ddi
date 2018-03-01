@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_EXTRACTBUNDLEOBJECT
-title: _D3DKMT_EXTRACTBUNDLEOBJECT
+title: "_D3DKMT_EXTRACTBUNDLEOBJECT"
 author: windows-driver-content
 description: Used to extract the bundle object.
 old-location: display\d3dkmt-extractbundleobject.htm
 old-project: display
 ms.assetid: 85112ddb-47e6-4874-bd64-a7e4d7ca0fd3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject, D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], D3DKMT_EXTRACTBUNDLEOBJECT, _D3DKMT_EXTRACTBUNDLEOBJECT
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], _D3DKMT_EXTRACTBUNDLEOBJECT, d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_EXTRACTBUNDLEOBJECT
 product: Windows
 targetos: Windows

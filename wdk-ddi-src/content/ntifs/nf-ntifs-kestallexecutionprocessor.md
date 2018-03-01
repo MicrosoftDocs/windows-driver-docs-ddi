@@ -7,8 +7,8 @@ old-location: kernel\kestallexecutionprocessor.htm
 old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], KeStallExecutionProcessor, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
+ms.date: 2/24/2018
+ms.keywords: KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	Hal.dll
-apiname: 
+api_name:
 -	KeStallExecutionProcessor
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Specifies the number of microseconds to stall.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KeStallExecutionProcessor</b> is a processor-dependent routine that busy-waits for at least the specified number of microseconds, but not significantly longer.
@@ -88,17 +91,24 @@ This routine is for use by device drivers and other software that must wait for 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeStallExecutionProcessor routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeStallExecutionProcessor routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

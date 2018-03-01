@@ -1,14 +1,14 @@
 ---
 UID: NS:irb._IDEREGISTERS
-title: _IDEREGISTERS
+title: "_IDEREGISTERS"
 author: windows-driver-content
 description: The IDEREGISTERS structure is used to report the contents of the IDE controller registers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ideregisters.htm
 old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: IDEREGISTERS, irb/IDEREGISTERS, _IDEREGISTERS, IDEREGISTERS structure [Storage Devices], storage.ideregisters, PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], *PIDEREGISTERS
+ms.date: 2/24/2018
+ms.keywords: "*PIDEREGISTERS, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IDEREGISTERS
 product: Windows
 targetos: Windows
-req.typenames: *PIDEREGISTERS, IDEREGISTERS
+req.typenames: IDEREGISTERS, *PIDEREGISTERS
 ---
 
 # _IDEREGISTERS structure
@@ -117,7 +117,9 @@ Reserved for future use. The miniport driver shall not use this field.
 ## -remarks
 
 
+
 The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
+
 
 
 
@@ -125,9 +127,11 @@ The information reported in the IDEREGISTERS structure is intended to be a super
 
 <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDEREGISTERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDEREGISTERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\wskgetaddressinfo.htm
 old-project: netvista
 ms.assetid: 688619b9-ab0b-4459-8f1b-74815043a190
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wskgetaddressinfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], WskGetAddressInfo, PFN_WSK_GET_ADDRESS_INFO, PFN_WSK_GET_ADDRESS_INFO, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
+ms.date: 2/16/2018
+ms.keywords: PFN_WSK_GET_ADDRESS_INFO, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	wsk.h
-apiname: 
+api_name:
 -	WskGetAddressInfo
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -88,8 +88,8 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <mshelp:link keywords="netvista.wskcaptureprovidernpi" tabindex="0"><b>
-     WskCaptureProviderNPI</b></mshelp:link> function.
+     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     WskCaptureProviderNPI</a> function.
 
 
 ### -param NodeName [in, optional]
@@ -114,8 +114,9 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
      Only namespace providers that support the specified namespace can be queried successfully.
 
 
-### -param *Provider
+### -param *Provider [in, optional]
 
+[in] An optional pointer to a GUID of a specific namespace provider to be queried.
 
 
 ### -param Hints [in, optional]
@@ -127,14 +128,32 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
 The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure is defined in the 
      Ws2def.h header. It is identical to the  
      <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure.
+
 <div class="alert"><b>Important</b>  The 
      Ws2def.h header file is automatically included in 
      Wsk.h. Do not use 
-     Ws2def.h directly.</div><div> </div>
+     Ws2def.h directly.</div>
+<div> </div>
 
-### -param *Result
+### -param *Result [out]
 
+[out] A pointer to a caller-allocated buffer that receives a linked list of one or more
+     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structures that represent response information about the host.
+     
 
+<div class="alert"><b>Note</b>  The caller must call the 
+     <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function to free
+     this pointer.</div>
+<div> </div>
+The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure is defined in the 
+     Ws2def.h header. It is identical to the 
+     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure.
+
+<div class="alert"><b>Important</b>  The 
+     Ws2def.h header file is automatically included in 
+     Wsk.h. Do not use 
+     Ws2def.h directly.</div>
+<div> </div>
 
 ### -param OwningProcess [in, optional]
 
@@ -169,30 +188,12 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      <b>Iostatus.Information</b> will hold the returned status code.
 
 
-#### - Provider [in, optional]
-
-[in] An optional pointer to a GUID of a specific namespace provider to be queried.
-
-
-#### - Result [out]
-
-[out] A pointer to a caller-allocated buffer that receives a linked list of one or more
-     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structures that represent response information about the host.
-     
-<div class="alert"><b>Note</b>  The caller must call the 
-     <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function to free
-     this pointer.</div><div> </div>The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure is defined in the 
-     Ws2def.h header. It is identical to the 
-     <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure.
-<div class="alert"><b>Important</b>  The 
-     Ws2def.h header file is automatically included in 
-     Wsk.h. Do not use 
-     Ws2def.h directly.</div><div> </div>
-
 ## -returns
 
 
+
 <b>WskGetAddressInfo</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -258,11 +259,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The process to which the 
@@ -273,19 +277,28 @@ The process to which the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_ADDRESS_INFO callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_ADDRESS_INFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

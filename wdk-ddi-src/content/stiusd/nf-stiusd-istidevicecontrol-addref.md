@@ -7,8 +7,8 @@ old-location: image\istidevicecontrol_addref.htm
 old-project: image
 ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: AddRef method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::AddRef, AddRef method [Imaging Devices], IStiDeviceControl::AddRef, AddRef, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, IStiDeviceControl interface [Imaging Devices], AddRef method, IStiDeviceControl, image.istidevicecontrol_addref
+ms.date: 2/23/2018
+ms.keywords: AddRef method [Imaging Devices], AddRef method [Imaging Devices], IStiDeviceControl interface, AddRef,IStiDeviceControl.AddRef, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], AddRef method, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Stiusd.h
-apiname: 
+api_name:
 -	IStiDeviceControl.AddRef
 product: Windows
 targetos: Windows
@@ -67,14 +67,18 @@ HRESULT AddRef();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDeviceControl::AddRef</b> method should be called from within a user-mode still image minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
@@ -83,13 +87,20 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
 
- 
+
+
+<a href="..\stiusd\nn-stiusd-istidevicecontrol.md">IStiDeviceControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDeviceControl::AddRef method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDeviceControl::AddRef method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

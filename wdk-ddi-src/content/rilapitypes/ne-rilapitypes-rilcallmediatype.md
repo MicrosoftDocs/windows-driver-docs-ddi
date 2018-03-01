@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediatype_2.htm
 old-project: netvista
 ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype_2, RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_CUSTOM, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RILCALLMEDIATYPE, RILCALLMEDIATYPE
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype_2, rilapitypes/RILCALLMEDIATYPE, rilapitypes/RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILCALLMEDIATYPE
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILCALLMEDIATYPE {
 ### -field RIL_CALLMEDIATYPE_UNKNOWN
 
 
-
 ### -field RIL_CALLMEDIATYPE_AUDIO
-
 
 
 ### -field RIL_CALLMEDIATYPE_VIDEO
 
 
-
 ### -field RIL_CALLMEDIATYPE_CUSTOM
 
 
-
 ### -field RIL_CALLMEDIATYPE_MAX
-
 

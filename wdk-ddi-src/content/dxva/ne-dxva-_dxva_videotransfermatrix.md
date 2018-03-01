@@ -1,14 +1,14 @@
 ---
 UID: NE:dxva._DXVA_VideoTransferMatrix
-title: _DXVA_VideoTransferMatrix
+title: "_DXVA_VideoTransferMatrix"
 author: windows-driver-content
 description: The DXVA_VideoTransferMatrix enumeration type contains enumerators that identify the conversion matrix from Y'Cb'Cr' to R'G'B'.
 old-location: display\dxva_videotransfermatrix.htm
 old-project: display
 ms.assetid: 726ce165-fd07-4dd3-a004-8081481340a1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxva_videotransfermatrix, dxva/DXVA_VideoTransferMatrix_Unknown, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrix_BT709, DXVA_VideoTransferMatrix_BT601, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_SMPTE240M, _DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_Unknown
+ms.date: 2/24/2018
+ms.keywords: DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_BT709, DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix_Unknown, _DXVA_VideoTransferMatrix, display.dxva_videotransfermatrix, dxva/DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_Unknown, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	dxva.h
-apiname: 
+api_name:
 -	DXVA_VideoTransferMatrix
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ Specifies a HD video standard rarely used in Japan.
 ## -remarks
 
 
+
 One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+
 
 
 
@@ -113,9 +115,11 @@ One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>Vi
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoTransferMatrix enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoTransferMatrix enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

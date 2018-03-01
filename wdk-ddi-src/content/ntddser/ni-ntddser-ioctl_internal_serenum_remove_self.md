@@ -7,8 +7,8 @@ old-location: serports\ioctl_internal_serenum_remove_self.htm
 old-project: serports
 ms.assetid: 1607439d-fc94-4ebd-84c8-bb5cabdeaab9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.ioctl_internal_serenum_remove_self, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], IOCTL_INTERNAL_SERENUM_REMOVE_SELF, ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml
+ms.date: 2/15/2018
+ms.keywords: IOCTL_INTERNAL_SERENUM_REMOVE_SELF, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml, serports.ioctl_internal_serenum_remove_self
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddser.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_SERENUM_REMOVE_SELF
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

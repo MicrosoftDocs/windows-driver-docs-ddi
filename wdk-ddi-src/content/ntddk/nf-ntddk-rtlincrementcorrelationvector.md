@@ -7,8 +7,8 @@ old-location: kernel\rtlincrementcorrelationvector.htm
 old-project: kernel
 ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], RtlIncrementCorrelationVector, kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
+ms.date: 2/24/2018
+ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	RtlIncrementCorrelationVector
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIncrementCorrelationVector function
@@ -78,7 +78,9 @@ A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VE
 
 
 
+
 Returns an NTSTATUS value that indicates the success of failure of the operation. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,6 +110,8 @@ Incrementing the correlation vector resulted in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

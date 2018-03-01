@@ -7,8 +7,8 @@ old-location: storage\ufs_device_descriptor.htm
 old-project: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: *PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR, ufs/PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, storage.ufs_device_descriptor, UFS_DEVICE_DESCRIPTOR structure [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: "*PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ufs.h
-apiname: 
+api_name:
 -	UFS_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -118,6 +118,7 @@ Specifies the type of the descriptor. This descriptor will have a value of <b>UF
 ### -field bDevice
 
 Specifies the device type.
+
 <table>
 <tr>
 <th>Value</th>
@@ -131,12 +132,14 @@ Specifies the device type.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDeviceClass
 
 Specifies the device class.
+
 <table>
 <tr>
 <th>Value</th>
@@ -150,12 +153,14 @@ Specifies the device class.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDeviceSubClass
 
 Specifies the UFS mass storage subclasses in a bit map as follows:
+
 <table>
 <tr>
 <th>Bit</th>
@@ -177,12 +182,14 @@ Specifies the UFS mass storage subclasses in a bit map as follows:
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bProtocol
 
 Specifies the protocol support by the UFS device.
+
 <table>
 <tr>
 <th>Value</th>
@@ -196,7 +203,8 @@ Specifies the protocol support by the UFS device.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bNumberLU
@@ -212,6 +220,7 @@ Specifies the number of well known logical units.
 ### -field bBootEnable
 
 Specifies if a device's boot feature is enabled.
+
 <table>
 <tr>
 <th>Value</th>
@@ -229,7 +238,8 @@ Specifies if a device's boot feature is enabled.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDescrAccessEn
@@ -237,6 +247,7 @@ Specifies if a device's boot feature is enabled.
 Indicates whether the Device Descriptor can be
 read after the partial initialization phase of the
 boot sequence.
+
 <table>
 <tr>
 <th>Value</th>
@@ -254,13 +265,15 @@ boot sequence.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bInitPowerMode
 
 <b>bInitPowerMode</b> defines the Power Mode
 after device initialization or hardware reset.
+
 <table>
 <tr>
 <th>Value</th>
@@ -278,7 +291,8 @@ after device initialization or hardware reset.
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bHighPriorityLUN
@@ -290,6 +304,7 @@ logical unit.
 ### -field bSecureRemovalType
 
 Specifies the secure removal type.
+
 <table>
 <tr>
 <th>Value</th>
@@ -321,12 +336,14 @@ define mechanism.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bSecurityLU
 
 Specifies if there is support for security LU's
+
 <table>
 <tr>
 <th>Value</th>
@@ -344,13 +361,15 @@ Specifies if there is support for security LU's
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bBackgroundOpsTermLat
 
 <b>bBackgroundOpsTermLat</b> defines the maximum latency for starting data transmission when background
 operations are ongoing. The termination latency limit applies to two cases:
+
 <ul>
 <li>When the device receives a COMMAND UFS Protocol Information Units (UPIU) with a transfer request. The device shall start the data
 transfer and send a DATA IN UPIU or a RTT UPIU within the latency limit.</li>
@@ -426,6 +445,7 @@ Specifies the frequency and method of real-time clock updates. Bits 10 to 15 are
 ### -field bUFSFeaturesSupport
 
 Specifies which features are supported on this device. A feature is supported if its related bit is set to 1.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -447,7 +467,8 @@ Specifies which features are supported on this device. A feature is supported if
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bFFUTimeout
@@ -515,35 +536,55 @@ maximum timeout for a change in <b>bPSAState</b>. The timeout value is calculate
 ## -remarks
 
 
+
 If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if the Boot well known logical unit is not mapped to an enabled logical unit, then the Boot well known logical unit shall terminate.
 
 <b>UFS_DEVICE_DESCRIPTOR</b> is read only, some of its parameters may be changed by changing the corresponding parameter in <a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
 
 <a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
- 
+
+
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

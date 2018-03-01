@@ -7,8 +7,8 @@ old-location: audio\iinterruptsync_registerserviceroutine.htm
 old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync
+ms.date: 2/22/2018
+ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, RegisterServiceRoutine,IInterruptSync.RegisterServiceRoutine, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	portcls.h
-apiname: 
+api_name:
 -	IInterruptSync.RegisterServiceRoutine
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Specifies whether the routine is added at the head or tail of the list of ISRs. 
 ## -returns
 
 
+
 <code>RegisterServiceRoutine</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 This method adds the specified routine to the synchronization object's list of ISRs. When an interrupt occurs, the routine at the head of the list is called first, and the routine at the tail is called last.
+
 
 

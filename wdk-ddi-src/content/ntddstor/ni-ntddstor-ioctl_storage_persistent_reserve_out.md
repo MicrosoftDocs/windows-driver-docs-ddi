@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_persistent_reserve_out.htm
 old-project: storage
 ms.assetid: a9863ac9-46e2-4888-879e-7d56e9260142
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_storage_persistent_reserve_out, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control code [Storage Devices], IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, k307_664b87a0-88f2-42ac-851e-b1fbbf36c66a.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control code [Storage Devices], k307_664b87a0-88f2-42ac-851e-b1fbbf36c66a.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, storage.ioctl_storage_persistent_reserve_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddstor.h
-apiname: 
+api_name:
 -	IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,6 +67,7 @@ The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (I
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.
 
 PR_OUT.ServiceAction can be one of the following:
+
 <ul>
 <li>
 RESERVATION_ACTION_REGISTER
@@ -96,7 +97,9 @@ RESERVATION_ACTION_PREEMPT_ABORT
 RESERVATION_ACTION_REGISTER_IGNORE_EXISTING
 
 </li>
-</ul>PR_OUT.Scope can be one of the following:
+</ul>
+PR_OUT.Scope can be one of the following:
+
 <ul>
 <li>
 RESERVATION_SCOPE_LU
@@ -106,7 +109,9 @@ RESERVATION_SCOPE_LU
 RESERVATION_SCOPE_ELEMENT
 
 </li>
-</ul>PR_OUT.Type can be one of the following:
+</ul>
+PR_OUT.Type can be one of the following:
+
 <ul>
 <li>
 RESERVATION_TYPE_WRITE_EXCLUSIVE
@@ -124,7 +129,8 @@ RESERVATION_TYPE_WRITE_EXCLUSIVE_REGISTRANTS
 RESERVATION_TYPE_EXCLUSIVE_REGISTRANTS
 
 </li>
-</ul>PR_OUT.ParameterList is used to hold the <a href="..\storport\ns-storport-pro_parameter_list.md">PRO_PARAMETER_LIST</a> structure. This structure is required and must be contiguous with the rest of the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure.
+</ul>
+PR_OUT.ParameterList is used to hold the <a href="..\storport\ns-storport-pro_parameter_list.md">PRO_PARAMETER_LIST</a> structure. This structure is required and must be contiguous with the rest of the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure.
 
 
 ### -input-buffer-length
@@ -145,14 +151,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

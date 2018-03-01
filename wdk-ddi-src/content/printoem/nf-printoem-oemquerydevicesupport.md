@@ -7,8 +7,8 @@ old-location: print\oemquerydevicesupport.htm
 old-project: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, printoem/OEMQueryDeviceSupport, OEMQueryDeviceSupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml
+ms.date: 2/23/2018
+ms.keywords: OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, printoem/OEMQueryDeviceSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	printoem.h
-apiname: 
+api_name:
 -	OEMQueryDeviceSupport
 product: Windows
 targetos: Windows
@@ -78,31 +78,23 @@ BOOL APIENTRY OEMQueryDeviceSupport(
 ### -param pso
 
 
-
 ### -param pxlo
-
 
 
 ### -param pxo
 
 
-
 ### -param iType
-
 
 
 ### -param cjIn
 
 
-
 ### -param pvIn [in]
-
 
 
 ### -param cjOut
 
 
-
 ### -param pvOut [out]
-
 

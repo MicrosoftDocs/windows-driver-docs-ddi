@@ -7,8 +7,8 @@ old-location: bltooth\enhanced_l2cap_callback_function.htm
 old-project: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.enhanced_l2cap_callback_function, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], BluetoothPortIndicationCallbackEnhanced, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, bthddi/BluetoothPortIndicationCallbackEnhanced
+ms.date: 2/15/2018
+ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	bthddi.h
-apiname: 
+api_name:
 -	BluetoothPortIndicationCallbackEnhanced
 product: Windows
 targetos: Windows
@@ -98,11 +98,14 @@ An
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A profile driver registers its L2CAP or eL2CAP callback function by specifying the callback function in the 
@@ -122,5 +125,6 @@ The
     driver stack passes to the profile driver's enhanced L2CAP callback function through the 
     <i>Indication</i> parameter. For most notifications, there is an INDICATION_PARAMETERS_ENHANCED union member that
     corresponds to the event and contains event-specific parameters.
+
 
 

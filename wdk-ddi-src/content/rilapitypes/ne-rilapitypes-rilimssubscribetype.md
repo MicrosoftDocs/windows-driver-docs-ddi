@@ -7,8 +7,8 @@ old-location: netvista\rilimssubscribetype_2.htm
 old-project: netvista
 ms.assetid: 84b2de56-55f9-471c-8d32-84fe1365dfbf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RILIMSSUBSCRIBETYPE, rilapitypes/RIL_IMSSUBSCRIBETYPE_MWI, RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MWI, rilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, netvista.rilimssubscribetype_2
+ms.date: 2/16/2018
+ms.keywords: RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MWI, netvista.rilimssubscribetype_2, rilapitypes/RILIMSSUBSCRIBETYPE, rilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, rilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RIL_IMSSUBSCRIBETYPE_MWI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILIMSSUBSCRIBETYPE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILIMSSUBSCRIBETYPE {
 ### -field RIL_IMSSUBSCRIBETYPE_REG
 
 
-
 ### -field RIL_IMSSUBSCRIBETYPE_MWI
-
 
 
 ### -field RIL_IMSSUBSCRIBETYPE_CONFERENCE
 
 
-
 ### -field RIL_IMSSUBSCRIBETYPE_MAX
-
 

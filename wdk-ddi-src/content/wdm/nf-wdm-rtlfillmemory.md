@@ -7,8 +7,8 @@ old-location: kernel\rtlfillmemory.htm
 old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlFillMemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, wdm/RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], kernel.rtlfillmemory
+ms.date: 2/24/2018
+ms.keywords: RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, wdm/RtlFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-rtlsupport-l1-1-0.dll
-apiname: 
+api_name:
 -	RtlFillMemory
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ The value to fill the destination memory block with. This value is copied to eve
 ## -remarks
 
 
+
 Callers of <b>RtlFillMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
+
 
 
 
@@ -98,9 +100,11 @@ Callers of <b>RtlFillMemory</b> can be running at any IRQL if the destination me
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFillMemory routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFillMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

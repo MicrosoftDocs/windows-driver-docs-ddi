@@ -7,8 +7,8 @@ old-location: netvista\ndisclopenaddressfamilyex.htm
 old-project: netvista
 ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex, ndis/NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisClOpenAddressFamilyEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClOpenAddressFamilyEx function
@@ -89,8 +89,8 @@ A pointer to a
      
 
 This pointer is an input parameter to the client's 
-     <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-     ProtocolCoAfRegisterNotify</i></mshelp:link> function, which calls 
+     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     ProtocolCoAfRegisterNotify</a> function, which calls 
      <b>NdisClOpenAddressFamilyEx</b>.
 
 
@@ -111,22 +111,25 @@ A pointer to a caller-supplied variable in which
 ## -returns
 
 
+
 When 
      <b>NdisClOpenAddressFamilyEx</b> returns anything other than NDIS_STATUS_PENDING, the client should make
      an internal call to its 
-     <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-     ProtocolClOpenAfCompleteEx</i></mshelp:link> function. Otherwise, NDIS calls the client's 
+     <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+     ProtocolClOpenAfCompleteEx</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClOpenAfCompleteEx</i> function when this operation is completed.
+
 
 
 
 ## -remarks
 
 
+
 A CoNDIS client calls 
     <b>NdisClOpenAddressFamilyEx</b> from its 
-    <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-    ProtocolCoAfRegisterNotify</i></mshelp:link> function, after the client checks the input buffer that is pointed to by
+    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    ProtocolCoAfRegisterNotify</a> function, after the client checks the input buffer that is pointed to by
     the 
     <i>AddressFamily</i> parameter to determine whether the client recognizes the call manager and registered
     addresses. NDIS forwards the client's call of 
@@ -163,34 +166,57 @@ NDIS passes the pointer from the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
- 
+
+
+<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClOpenAddressFamilyEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClOpenAddressFamilyEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ENDPOINT_LIST
-title: _SECURE_ELEMENT_ENDPOINT_LIST
+title: "_SECURE_ELEMENT_ENDPOINT_LIST"
 author: windows-driver-content
 description: The output parameter for IOCTL_NFCSE_ENUM_ENDPOINTS.
 old-location: nfpdrivers\_secure_element_endpoint_list.htm
 old-project: nfpdrivers
 ms.assetid: 0F69EE38-C124-47A6-B3CA-31F089657894
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: P_SECURE_ELEMENT_ENDPOINT_LIST structure pointer [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_LIST, PSECURE_ELEMENT_ENDPOINT_LIST, SECURE_ELEMENT_ENDPOINT_LIST structure [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_ENDPOINT_LIST, *PSECURE_ELEMENT_ENDPOINT_LIST, nfpdrivers._secure_element_endpoint_list, SECURE_ELEMENT_ENDPOINT_LIST
+ms.date: 2/15/2018
+ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_LIST, PSECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_LIST, SECURE_ELEMENT_ENDPOINT_LIST structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/_SECURE_ELEMENT_ENDPOINT_LIST, nfpdrivers._secure_element_endpoint_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfcsedev.h
-apiname: 
+api_name:
 -	SECURE_ELEMENT_ENDPOINT_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PSECURE_ELEMENT_ENDPOINT_LIST, SECURE_ELEMENT_ENDPOINT_LIST
+req.typenames: SECURE_ELEMENT_ENDPOINT_LIST, *PSECURE_ELEMENT_ENDPOINT_LIST
 ---
 
 # _SECURE_ELEMENT_ENDPOINT_LIST structure
@@ -77,6 +77,7 @@ The number of enumerated endpoints on the NFC controller.
 ### -field EndpointList
 
  
+
 
 
 

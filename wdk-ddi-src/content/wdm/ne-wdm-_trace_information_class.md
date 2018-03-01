@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._TRACE_INFORMATION_CLASS
-title: _TRACE_INFORMATION_CLASS
+title: "_TRACE_INFORMATION_CLASS"
 author: windows-driver-content
 description: The TRACE_INFORMATION_CLASS enumeration type is used to indicate types of information associated with a WMI event tracing session.
 old-location: kernel\trace_information_class.htm
 old-project: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/TraceHandleClass, wdm/WdfNotifyRoutinesClass, WdfNotifyRoutinesClass, EventLoggerHandleClass, wdm/GlobalLoggerHandleClass, TraceHandleClass, MaxTraceInformationClass, AllLoggerHandlesClass, LoggerEventsLoggedClass, TraceInformationClassReserved1, TraceIdClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, wdm/TraceIdClass, DiskIoNotifyRoutinesClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableLevelClass, wdm/TraceSessionSettingsClass, wdm/EventLoggerHandleClass, wdm/TraceEnableFlagsClass, wdm/LoggerEventsLoggedClass, TraceHandleByNameClass, wdm/TraceEnableLevelClass, TraceEnableFlagsClass, wdm/MaxTraceInformationClass, FltIoNotifyRoutinesClass, wdm/TraceInformationClassReserved2, wdm/DiskIoNotifyRoutinesClass, wdm/TraceInformationClassReserved1, TraceInformationClassReserved2, wdm/LoggerEventsLostClass, TraceSessionSettingsClass, GlobalLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/AllLoggerHandlesClass, LoggerEventsLostClass, TRACE_INFORMATION_CLASS, wdm/TRACE_INFORMATION_CLASS, wdm/TraceHandleByNameClass
+ms.date: 2/24/2018
+ms.keywords: AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, EventLoggerHandleClass, FltIoNotifyRoutinesClass, GlobalLoggerHandleClass, LoggerEventsLoggedClass, LoggerEventsLostClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableFlagsClass, TraceEnableLevelClass, TraceHandleByNameClass, TraceHandleClass, TraceIdClass, TraceInformationClassReserved1, TraceInformationClassReserved2, TraceSessionSettingsClass, WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/DiskIoNotifyRoutinesClass, wdm/EventLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/LoggerEventsLoggedClass, wdm/LoggerEventsLostClass, wdm/MaxTraceInformationClass, wdm/TRACE_INFORMATION_CLASS, wdm/TraceEnableFlagsClass, wdm/TraceEnableLevelClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/TraceIdClass, wdm/TraceInformationClassReserved1, wdm/TraceInformationClassReserved2, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	TRACE_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -172,23 +172,33 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 <b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
 
 <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRACE_INFORMATION_CLASS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRACE_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

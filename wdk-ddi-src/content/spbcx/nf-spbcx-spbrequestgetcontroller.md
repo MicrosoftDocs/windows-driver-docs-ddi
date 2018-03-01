@@ -7,8 +7,8 @@ old-location: spb\spbrequestgetcontroller.htm
 old-project: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SpbRequestGetController, spbcx/SpbRequestGetController, SPB.spbrequestgetcontroller, SpbRequestGetController method [Buses]
+ms.date: 2/15/2018
+ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController, SpbRequestGetController method [Buses], spbcx/SpbRequestGetController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Spbcxstubs.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+api_name:
 -	SpbRequestGetController
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -77,7 +77,9 @@ The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx
 ## -returns
 
 
+
 <b>SpbRequestGetController</b> returns the WDFDEVICE handle that the I/O request was sent to.
+
 
 
 
@@ -85,9 +87,11 @@ The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbRequestGetController method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbRequestGetController method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

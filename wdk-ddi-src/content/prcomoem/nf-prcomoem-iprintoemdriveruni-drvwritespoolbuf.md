@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: e019b88a-bffe-44d2-8031-de37b6a1cf1c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, IPrintOemDriverUni, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml, DrvWriteSpoolBuf, IPrintOemDriverUni interface [Print Devices], DrvWriteSpoolBuf method
+ms.date: 2/23/2018
+ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteSpoolBuf,IPrintOemDriverUni.DrvWriteSpoolBuf, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvWriteSpoolBuf method, IPrintOemDriverUni::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemDriverUni.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Receives a method-supplied value representing the number of bytes sent to the sp
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,15 +135,19 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 OEMs use the Unidrv helper function <code>IPrintOemDriverUni::DrvWriteSpoolBuf</code> to send output to the printer. If a print job is terminated by the user, <code>IPrintOemDriverUni::DrvWriteSpoolBuf</code> returns E_FAIL and can no longer be used to send any data to the printer. When this occurs, certain printers must have a clean-up code fragment sent to them, resetting their states before they can start new print jobs. For these printers, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553135">IPrintOemDriverUni::DrvWriteAbortBuf</a> can be used to send this code fragment to the printer. 
 
 Rendering plug-ins are described in <a href="https://msdn.microsoft.com/b7761209-1f6f-4288-af47-4ed855c2e629">Customizing Microsoft's Printer Drivers</a>.
+
 
 

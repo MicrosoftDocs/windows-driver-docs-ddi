@@ -7,8 +7,8 @@ old-location: debugger\outputpromptvalist.htm
 old-project: debugger
 ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl3::OutputPromptVaList, debugger.outputpromptvalist, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, IDebugControl3, OutputPromptVaList method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, dbgeng/IDebugControl3::OutputPromptVaList, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputPromptVaList method, dbgeng/IDebugControl2::OutputPromptVaList, IDebugControl::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList
+ms.date: 2/23/2018
+ms.keywords: IDebugControl interface [Windows Debugging], OutputPromptVaList method, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, IDebugControl2::OutputPromptVaList, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging], IDebugControl interface, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, OutputPromptVaList,IDebugControl3.OutputPromptVaList, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugControl.OutputPromptVaList
 -	IDebugControl2.OutputPromptVaList
 -	IDebugControl3.OutputPromptVaList
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputPromptVaList method
@@ -81,6 +81,7 @@ Specifies an output control that determines which of the client's output callbac
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -250,7 +251,8 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>Format</i> is <b>NULL</b>, only the standard prompt text is sent to the output callbacks.
 
@@ -263,7 +265,9 @@ Specifies additional parameters that represent values to be inserted into the ou
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -280,11 +284,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>OutputPromptVaList</b> and <b>OutputPromptVaListWide</b> can be used to prompt the user for input.
@@ -297,25 +304,40 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputPromptVaList method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputPromptVaList method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

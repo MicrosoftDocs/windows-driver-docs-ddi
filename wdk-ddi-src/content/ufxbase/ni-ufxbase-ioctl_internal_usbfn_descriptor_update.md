@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_descriptor_update.htm
 old-project: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ioctl_internal_usbfn_descriptor_update, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ufxbase.h
-apiname: 
+api_name:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_ACTION, USBFN_ACTION
+req.typenames: USBFN_ACTION, *PUSBFN_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -86,14 +86,18 @@ The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_EN
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,8 @@ The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_EN
 ## -remarks
 
 
+
 UFX sends this IOCTL to the command queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.
+
 
 

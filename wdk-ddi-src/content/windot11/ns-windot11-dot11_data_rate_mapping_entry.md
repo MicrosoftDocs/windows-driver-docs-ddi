@@ -7,8 +7,8 @@ old-location: netvista\dot11_data_rate_mapping_entry.htm
 old-project: netvista
 ms.assetid: d2772a9e-655a-4e3e-8b48-65d58b0a659d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, DOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY, netvista.dot11_data_rate_mapping_entry, *PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_DATA_RATE_MAPPING_ENTRY, windot11/DOT11_DATA_RATE_MAPPING_ENTRY
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_data_rate_mapping_entry, windot11/DOT11_DATA_RATE_MAPPING_ENTRY, windot11/PDOT11_DATA_RATE_MAPPING_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_DATA_RATE_MAPPING_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY
+req.typenames: DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ The index value for the data rate contained in the
      
 
 This value is a bitmask as defined in the following table.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -105,7 +106,8 @@ This bit is not used and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ucDataRateFlag
@@ -114,6 +116,7 @@ The attributes of the data rate entry.
      
 
 This value is a bitmask as defined in the following table.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -145,7 +148,8 @@ These bits are not used and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field usDataRateValue
@@ -157,6 +161,7 @@ The data rate, defined in units of 500 kilobits per second (Kbps), with a value 
 ## -remarks
 
 
+
 For the IEEE 802.11 standard data rates, the miniport driver must set the 
     <b>ucDataRateIndex</b> and 
     <b>usDataRateValue</b> members to the same value.
@@ -165,6 +170,7 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
     and the related values for the 
     <b>ucDataRateIndex</b> and 
     <b>usDataRateValue</b> members.
+
 <table>
 <tr>
 <th>IEEE 802.11 Standard Rate</th>
@@ -409,7 +415,9 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -417,12 +425,16 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
 
-<mshelp:link keywords="netvista.oid_dot11_data_rate_mapping_table" tabindex="0">
-   OID_DOT11_DATA_RATE_MAPPING_TABLE</mshelp:link>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+   OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DATA_RATE_MAPPING_ENTRY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DATA_RATE_MAPPING_ENTRY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

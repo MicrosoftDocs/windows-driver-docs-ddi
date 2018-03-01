@@ -7,8 +7,8 @@ old-location: storage\idehwbuildio.htm
 old-project: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.idehwbuildio, IdeHwBuildIo routine [Storage Devices], IdeHwBuildIo, IDE_HW_BUILDIO, IDE_HW_BUILDIO, irb/IdeHwBuildIo, atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml
+ms.date: 2/24/2018
+ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	irb.h
-apiname: 
+api_name:
 -	IdeHwBuildIo
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 ## -returns
 
 
+
 <b><i>IdeHwBuildIo</i></b> returns <b>TRUE</b> to acknowledge the receipt of the <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> structure. The port driver ignores a return value of <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers provide an <b><i>AtaHwBuildlo</i></b> routine that performs unsynchronized I/O processing with interrupts enabled. After <b><i>IdeHwBuildIo</i></b> completes all unsynchronized processing of a request, it returns to the port driver, and the port driver passes the request to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a> routine, which performs the tasks that require synchronization. 
@@ -105,15 +108,20 @@ The <b><i>IdeHwBuildIo</i></b> routine resembles Storport's <a href="..\storport
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
+## -see-also
 
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwBuildIo routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwBuildIo routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

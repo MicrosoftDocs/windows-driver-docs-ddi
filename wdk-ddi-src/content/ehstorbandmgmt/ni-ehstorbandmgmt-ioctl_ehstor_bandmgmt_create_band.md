@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_bandmgmt_create_band.htm
 old-project: storage
 ms.assetid: B5AEA98A-223D-4D14-A36B-EB5266F80AF8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_ehstor_bandmgmt_create_band, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
+ms.date: 2/24/2018
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, storage.ioctl_ehstor_bandmgmt_create_band
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	EhStorBandMgmt.h
-apiname: 
+api_name:
 -	IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: DXVA_VideoSample32
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -87,20 +87,25 @@ The output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> optionally contai
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -134,10 +139,12 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_IO_DEVICE_ERROR</td>
 <td>Communication failed. The storage device might be incompatible with security protocols. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Assigning an authentication key to a newly created band is optional. If no key is provided, where  <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b> in the <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">CREATE_BAND_PARAMETERS</a> structure, a default authentication key is used. However, this leaves the band vulnerable to another caller who may take control over the band immediately after its creation by changing its authentication key. It is recommended to assign a non-default authentication key to the band at creation time.
@@ -150,17 +157,24 @@ If the band is unlocked, either  the <b>ReadLock</b> or <b>WriteLock</b> members
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
 
+
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">CREATE_BAND_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

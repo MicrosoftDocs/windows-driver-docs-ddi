@@ -7,8 +7,8 @@ old-location: parports\pparallel_write.htm
 old-project: parports
 ms.assetid: 4973b1e2-5828-40d1-bb2e-da67a406eafa
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.pparallel_write, PPARALLEL_WRITE function pointer [Parallel Ports], PPARALLEL_WRITE, parallel/PPARALLEL_WRITE, cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml
+ms.date: 2/15/2018
+ms.keywords: PPARALLEL_WRITE, PPARALLEL_WRITE function pointer [Parallel Ports], cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml, parallel/PPARALLEL_WRITE, parports.pparallel_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	parallel.h
-apiname: 
+api_name:
 -	PPARALLEL_WRITE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGBATOKEN, RILGBATOKEN
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PPARALLEL_WRITE callback
@@ -99,6 +99,7 @@ Not used.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +127,14 @@ An internal operation resulted in an NTSTATUS error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To obtain a pointer to the system-supplied PPARALLEL_WRITE callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>ParallelWrite</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
@@ -141,15 +145,20 @@ The PPARALLEL_WRITE callback runs in the caller's thread at the IRQL of the call
 
 
 
-## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
+## -see-also
 
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
- 
+
+
+<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PPARALLEL_WRITE function pointer%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PPARALLEL_WRITE function pointer%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

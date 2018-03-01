@@ -7,8 +7,8 @@ old-location: hid\hidp_getspecificbuttoncaps.htm
 old-project: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hidpi/HidP_GetSpecificButtonCaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hid.hidp_getspecificbuttoncaps
+ms.date: 2/24/2018
+ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+api_name:
 -	HidP_GetSpecificButtonCaps
 product: Windows
 targetos: Windows
@@ -112,7 +112,9 @@ Pointer to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f
 ## -returns
 
 
+
 <b>HidP_GetSpecificButtonCaps</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The preparsed data is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The required size of the <i>ButtonCaps</i> array is specified by the <b>Number</b><i>Xxx</i><b>ButtonCaps </b>members of a top-level collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
@@ -157,19 +162,28 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+## -see-also
 
 <a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
- 
+
+
+<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetSpecificButtonCaps routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetSpecificButtonCaps routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

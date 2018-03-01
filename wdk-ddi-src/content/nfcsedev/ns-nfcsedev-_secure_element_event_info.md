@@ -1,14 +1,14 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_INFO
-title: _SECURE_ELEMENT_EVENT_INFO
+title: "_SECURE_ELEMENT_EVENT_INFO"
 author: windows-driver-content
 description: This structure provides information about a secure element event.
 old-location: nfpdrivers\secure_element_event_info.htm
 old-project: nfpdrivers
 ms.assetid: 72B31C26-89D3-49B2-A404-E6F096D0A334
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_EVENT_INFO, _SECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], nfpdrivers.secure_element_event_info, PSECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, nfcsedev/SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	nfcsedev.h
-apiname: 
+api_name:
 -	SECURE_ELEMENT_EVENT_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO
+req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
 ---
 
 # _SECURE_ELEMENT_EVENT_INFO structure
@@ -89,6 +89,7 @@ This is the amount of bytes for the pbEventData array.
 ### -field pbEventData
 
  
+
 
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:acpiioct._ACPI_METHOD_ARGUMENT_V2
-title: _ACPI_METHOD_ARGUMENT_V2
+title: "_ACPI_METHOD_ARGUMENT_V2"
 author: windows-driver-content
 description: This topic describes the ACPI_METHOD_ARGUMENT_V2 structure.
 old-location: acpi\acpi_method_argument_v2.htm
 old-project: acpi
 ms.assetid: 10DD32ED-96F2-43BF-BBF4-85851BC9A377
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: ACPI_METHOD_ARGUMENT_V2, acpiioct/ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, *PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2
+ms.date: 2/15/2018
+ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, acpiioct/ACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Acpiioct.h
-apiname: 
+api_name:
 -	ACPI_METHOD_ARGUMENT_V2
 product: Windows
 targetos: Windows
@@ -72,21 +72,6 @@ typedef struct _ACPI_METHOD_ARGUMENT_V2 {
 
 
 
-### -field DUMMYUNIONNAME
-
-Defines the members of <b>DUMMYUNIONNAME</b>.
-
-
-### -field DUMMYUNIONNAME.Argument
-
- 
-
-
-### -field DUMMYUNIONNAME.Data
-
- 
-
-
 ### -field Type
 
 Defines the <b>USHORT</b> member <b>Type</b>.
@@ -95,4 +80,9 @@ Defines the <b>USHORT</b> member <b>Type</b>.
 ### -field DataLength
 
 Defines the <b>USHORT</b> member <b>DataLength</b>.
+
+
+### -field DUMMYUNIONNAME
+
+Defines the members of <b>DUMMYUNIONNAME</b>.
 

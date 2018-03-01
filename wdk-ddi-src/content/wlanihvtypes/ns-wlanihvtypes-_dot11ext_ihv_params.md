@@ -1,14 +1,14 @@
 ---
 UID: NS:wlanihvtypes._DOT11EXT_IHV_PARAMS
-title: _DOT11EXT_IHV_PARAMS
+title: "_DOT11EXT_IHV_PARAMS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_params.htm
 old-project: netvista
 ms.assetid: 1264bfe7-3ab6-4ba0-aa41-cf81bc9bb687
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, _DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_PARAMS, *PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/PDOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params, wlanihvtypes/DOT11EXT_IHV_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wlanihvtypes.h
-apiname: 
+api_name:
 -	DOT11EXT_IHV_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS
+req.typenames: DOT11EXT_IHV_PARAMS, *PDOT11EXT_IHV_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -74,8 +74,8 @@ typedef struct _DOT11EXT_IHV_PARAMS {
 ### -field dot11ExtIhvProfileParams
 
 A 
-     <mshelp:link keywords="netvista.dot11ext_ihv_profile_params" tabindex="0"><b>
-     DOT11EXT_IHV_PROFILE_PARAMS</b></mshelp:link> structure that specifies general parameters of a basic service set
+     <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
+     DOT11EXT_IHV_PROFILE_PARAMS</a> structure that specifies general parameters of a basic service set
      (BSS) network with which a network profile will be applied.
 
 
@@ -96,22 +96,26 @@ The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter.
 
 The operating system passes the GUID and other data related to the WLAN adapter through the 
      <i>pDot11Adapter</i> parameter of the 
-     <mshelp:link keywords="netvista.dot11extihvinitadapter" tabindex="0"><i>
-     Dot11ExtIhvInitAdapter</i></mshelp:link> function, which the operating system calls when it detects the arrival of
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
+     Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see 
-     <mshelp:link keywords="netvista.802_11_wlan_adapter_arrival" tabindex="0">802.11 WLAN Adapter
-     Arrival</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff557044">802.11 WLAN Adapter
+     Arrival</a>.
 
 
 ## -see-also
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_PARAMS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_PARAMS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

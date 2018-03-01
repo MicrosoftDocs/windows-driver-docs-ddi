@@ -7,8 +7,8 @@ old-location: netvista\ndisgetcurrentsystemtime.htm
 old-project: netvista
 ms.assetid: eef32784-ea27-42c0-9a7a-74ce3d76665d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, NdisGetCurrentSystemTime, netvista.ndisgetcurrentsystemtime, ndis/NdisGetCurrentSystemTime
+ms.date: 2/16/2018
+ms.keywords: NdisGetCurrentSystemTime, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, netvista.ndisgetcurrentsystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisGetCurrentSystemTime
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetCurrentSystemTime macro
@@ -70,20 +70,14 @@ VOID NdisGetCurrentSystemTime(
 
 
 
-### -param _pSystemTime
-
-TBD
-
-
-
-
-#### - pSystemTime [in]
+### -param _pSystemTime [in]
 
 A pointer to a caller-supplied variable in which this function returns a count of 100-nanosecond
      intervals since January 1, 1601.
 
 
 ## -remarks
+
 
 
 An NDIS driver might also call 
@@ -96,13 +90,16 @@ An NDIS driver might also call
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetCurrentSystemTime macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetCurrentSystemTime macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

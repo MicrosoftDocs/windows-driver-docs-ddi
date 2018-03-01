@@ -7,8 +7,8 @@ old-location: netvista\ril_getdriverversion.htm
 old-project: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], RIL_GetDriverVersion, netvista.ril_getdriverversion
+ms.date: 2/16/2018
+ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_GetDriverVersion
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_GetDriverVersion(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwMinVersion
 
 
-
 ### -param dwMaxVersion
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

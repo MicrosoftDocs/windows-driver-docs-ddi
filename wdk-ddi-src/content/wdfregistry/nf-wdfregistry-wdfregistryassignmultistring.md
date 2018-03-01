@@ -7,8 +7,8 @@ old-location: wdf\wdfregistryassignmultistring.htm
 old-project: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRegistryAssignMultiString, PFN_WDFREGISTRYASSIGNMULTISTRING, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
+ms.date: 2/20/2018
+ms.keywords: DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfRegistryAssignMultiString
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ A handle to a framework collection object that represents a collection of framew
 ## -returns
 
 
+
 <b>WdfRegistryAssignMultiString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,7 +135,8 @@ The driver did not open the registry key with KEY_SET_VALUE access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -143,7 +146,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the value name that the <i>ValueName</i> parameter specifies already exists, <b>WdfRegistryAssignMultiString</b> updates the value's data.
@@ -155,34 +160,149 @@ The object collection that <i>StringsCollection</i> specifies must contain only 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example creates a collection object and two string objects, adds the string objects to the collection, and then assigns the two strings to one registry value.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_OBJECT_ATTRIBUTES attributes;
+WDFCOLLECTION col = NULL;
+WDFSTRING string1 = NULL, string2 = NULL;
+UNICODE_STRING ustring1, ustring2, valueName;
+NTSTATUS status;
+
+status = WdfCollectionCreate(
+                             WDF_NO_OBJECT_ATTRIBUTES,
+                             &amp;col
+                             );
+if (!NT_SUCCESS(status) {
+    return status;
+}
+
+RtlInitUnicodeString(
+                     &amp;ustring1,
+                     L"String1"
+                     );
+RtlInitUnicodeString(
+                     &amp;ustring2,
+                     L"String2"
+                     );
+RtlInitUnicodeString(
+                     &amp;valueName,
+                     L"ValueName"
+                     );
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+attributes.ParentObject = col;
+
+status = WdfStringCreate(
+                         &amp;ustring1,
+                         &amp;attributes,
+                         &amp;string1
+                         );
+if (!NT_SUCCESS(status)) {
+    goto exit;
+}
+status = WdfStringCreate(
+                         &amp;ustring2,
+                         &amp;attributes,
+                         &amp;string2
+                         );
+if (!NT_SUCCESS(status)) {
+    goto exit;
+}
+status = WdfCollectionAdd(
+                          col,
+                          string1
+                          );
+if (!NT_SUCCESS(status)) {
+    goto exit;
+}
+string1 = NULL;
+
+status = WdfCollectionAdd(
+                          col,
+                          string2
+                          );
+if (!NT_SUCCESS(status)) {
+    goto exit;
+}
+string2 = NULL;
+
+status = WdfRegistryAssignMultiString(
+                                      Key,
+                                      &amp;valueName,
+                                      col
+                                      );
+if (!NT_SUCCESS(status)) {
+    goto exit;
+...
+exit:
+if (col != NULL) {
+    WdfObjectDelete(col);    // This will empty the collection
+                             // because the string objects are
+                             // child objects of the collection object.
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
-
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
 
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
 
- 
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignMultiString method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignMultiString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

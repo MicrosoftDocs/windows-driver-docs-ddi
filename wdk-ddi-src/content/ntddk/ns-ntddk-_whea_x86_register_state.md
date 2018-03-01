@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_X86_REGISTER_STATE
-title: _WHEA_X86_REGISTER_STATE
+title: "_WHEA_X86_REGISTER_STATE"
 author: windows-driver-content
 description: The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
 old-location: whea\whea_x86_register_state.htm
 old-project: whea
 ms.assetid: 64079b03-9771-4940-a19e-a29389cbf2fe
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PWHEA_X86_REGISTER_STATE, ntddk/WHEA_X86_REGISTER_STATE, _WHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], ntddk/PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml, whea.whea_x86_register_state, *PWHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE
+ms.date: 2/20/2018
+ms.keywords: "*PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X86_REGISTER_STATE, ntddk/PWHEA_X86_REGISTER_STATE, ntddk/WHEA_X86_REGISTER_STATE, whea.whea_x86_register_state, whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	WHEA_X86_REGISTER_STATE
 product: Windows
 targetos: Windows
@@ -219,7 +219,9 @@ The task register.
 ## -remarks
 
 
+
 If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_32BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X86_REGISTER_STATE structure.
+
 
 
 
@@ -227,9 +229,11 @@ If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_x
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_X86_REGISTER_STATE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_X86_REGISTER_STATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: netvista\riladdress.htm
 old-project: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILADDRESS structure [Network Drivers Starting with Windows Vista], RILADDRESS, rilapitypes/RILADDRESS, netvista.riladdress, *LPRILADDRESS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, rilapitypes/RILADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILADDRESS
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riladdressparamm
 ### -field dwType
 
 The type of address. Possible values are shown in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -180,12 +181,14 @@ Internet email address (RFC 822)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwNumPlan
 
 The numbering scheme of the address. Possible values are shown in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -261,7 +264,8 @@ ERMES numbering plan (ETSI DE/PS 3 01-3)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wszAddress
@@ -272,7 +276,9 @@ An array of address characters. The minimum length of this array is 3. When <b>d
 ## -remarks
 
 
+
 When a <b>RILADDRESS</b> represents a phone number on a UICC card, the contents of <b>wszAddress</b> are constrained to values that can be represented on the card (as defined by 3GPP TS 31.102 table 4.4). In the UICC file, a phone number is represented by a string of 4-bit nibbles padded on the right with 0xF. The defined mapping is shown in the following table.
+
 <table>
 <tr>
 <th>nibble in UICC EF</th>
@@ -503,9 +509,11 @@ Padding for unused nibbles on UICC card—not to be used
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 In the case of the control digits separator, either uppercase or lowercase 'P' may be passed in; the output is always lowercase. The RFU value 0xE should never appear on the card, but if it does it is reported as L'e'. It is an error to pass L'e' as input.
+
 
 
 
@@ -513,9 +521,11 @@ In the case of the control digits separator, either uppercase or lowercase 'P' m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILADDRESS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILADDRESS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._OIEXT
-title: _OIEXT
+title: "_OIEXT"
 author: windows-driver-content
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
 old-project: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _OIEXT, POIEXT structure pointer [Print Devices], OIEXT structure [Print Devices], OIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext, *POIEXT, compstui/POIEXT, POIEXT, compstui/OIEXT
+ms.date: 2/23/2018
+ms.keywords: "*POIEXT, OIEXT, OIEXT structure [Print Devices], POIEXT, POIEXT structure pointer [Print Devices], _OIEXT, compstui/OIEXT, compstui/POIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	compstui.h
-apiname: 
+api_name:
 -	OIEXT
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Size, in bytes, of the OIEXT structure.
 ### -field Flags
 
 Can contain the following bit flag:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -98,7 +99,8 @@ CPSUI does not check this flag if <b>pHelpFile</b> specifies a resource ID.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hInstCaller

@@ -7,8 +7,8 @@ old-location: stream\ksevent_item.htm
 old-project: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PKSEVENT_ITEM, KSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks/PKSEVENT_ITEM, PKSEVENT_ITEM, ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, stream.ksevent_item, KSEVENT_ITEM structure [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: "*PKSEVENT_ITEM, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, stream.ksevent_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSEVENT_ITEM
 product: Windows
 targetos: Windows
@@ -105,23 +105,33 @@ Not used by the stream class driver.
 ## -remarks
 
 
+
 <i>A minidriver that specifies the </i><b>AddHandler</b><i> and </i><b>RemoveHandler</b><i> members and does not properly clean the events up can cause a resource (memory/handle) leak.</i>
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
-
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
 
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
- 
+
+
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSEVENT_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSEVENT_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

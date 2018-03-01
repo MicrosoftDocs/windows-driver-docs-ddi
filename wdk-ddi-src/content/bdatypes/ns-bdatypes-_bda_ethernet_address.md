@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS
-title: _BDA_ETHERNET_ADDRESS
+title: "_BDA_ETHERNET_ADDRESS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_ethernet_address.htm
 old-project: stream
 ms.assetid: F4B9A413-7FB5-4CA3-9731-A143CB0D7346
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.bda_ethernet_address, PBDA_ETHERNET_ADDRESS, _BDA_ETHERNET_ADDRESS, bdatypes/PBDA_ETHERNET_ADDRESS, bdatypes/BDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS structure [Streaming Media Devices], *PBDA_ETHERNET_ADDRESS, PBDA_ETHERNET_ADDRESS structure pointer [Streaming Media Devices], BDA_ETHERNET_ADDRESS
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS structure [Streaming Media Devices], PBDA_ETHERNET_ADDRESS, PBDA_ETHERNET_ADDRESS structure pointer [Streaming Media Devices], _BDA_ETHERNET_ADDRESS, bdatypes/BDA_ETHERNET_ADDRESS, bdatypes/PBDA_ETHERNET_ADDRESS, stream.bda_ethernet_address"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_ETHERNET_ADDRESS
 product: Windows
 targetos: Windows
@@ -68,5 +68,4 @@ typedef struct _BDA_ETHERNET_ADDRESS {
 
 
 ### -field rgbAddress
-
 

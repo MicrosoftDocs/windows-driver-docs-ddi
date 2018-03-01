@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_LIST
-title: _PHYSICAL_COUNTER_RESOURCE_LIST
+title: "_PHYSICAL_COUNTER_RESOURCE_LIST"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_LIST structure describes an array of PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structures.
 old-location: kernel\physical_counter_resource_list.htm
 old-project: kernel
 ms.assetid: a8b22839-6a5d-48e2-a0e5-dae811d729ef
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PPHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, PHYSICAL_COUNTER_RESOURCE_LIST, _PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml
+ms.date: 2/24/2018
+ms.keywords: "*PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddk.h
-apiname: 
+api_name:
 -	PHYSICAL_COUNTER_RESOURCE_LIST
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ The first element in an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> str
 ## -remarks
 
 
+
 This structure describes a set of counter resources. Most processors have performance monitor units (PMUs) that contain a number of hardware counters to measure various aspects of system performance. A counter resource is a single hardware counter, a block of contiguous counters, or a counter overflow interrupt in a PMU.
 
 The buffer allocated to contain a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> structure must be large enough to contain the structure plus any <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> array elements that follow the structure.
@@ -89,15 +90,20 @@ The <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwa
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_descriptor.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PHYSICAL_COUNTER_RESOURCE_LIST structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PHYSICAL_COUNTER_RESOURCE_LIST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

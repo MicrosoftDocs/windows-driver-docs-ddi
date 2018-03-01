@@ -1,14 +1,14 @@
 ---
 UID: NS:mpiowmi._ClearPathHealthCounters_IN
-title: _ClearPathHealthCounters_IN
+title: "_ClearPathHealthCounters_IN"
 author: windows-driver-content
 description: The ClearPathHealthCounters_IN structure is used to provide an input parameter to the ClearPathHealthCounters method.
 old-location: storage\clearpathhealthcounters_in.htm
 old-project: storage
 ms.assetid: 12c4462a-886b-4446-ace4-128af0af5dc0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ClearPathHealthCounters_IN, _ClearPathHealthCounters_IN, PClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], storage.clearpathhealthcounters_in, PClearPathHealthCounters_IN structure pointer [Storage Devices], *PClearPathHealthCounters_IN, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml, mpiowmi/ClearPathHealthCounters_IN
+ms.date: 2/24/2018
+ms.keywords: "*PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices], _ClearPathHealthCounters_IN, mpiowmi/ClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	mpiowmi.h
-apiname: 
+api_name:
 -	ClearPathHealthCounters_IN
 product: Windows
 targetos: Windows

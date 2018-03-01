@@ -1,14 +1,14 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_HBAInformation
-title: _MSiSCSI_HBAInformation
+title: "_MSiSCSI_HBAInformation"
 author: windows-driver-content
 description: The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
 old-location: storage\msiscsi_hbainformation.htm
 old-project: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, _MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml, PMSiSCSI_HBAInformation structure pointer [Storage Devices], MSiSCSI_HBAInformation
+ms.date: 2/24/2018
+ms.keywords: "*PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], _MSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iscsimgt.h
-apiname: 
+api_name:
 -	MSiSCSI_HBAInformation
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation
+req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
 ---
 
 # _MSiSCSI_HBAInformation structure
@@ -130,6 +130,7 @@ The number of ports (or TCP/IP addresses on the adapter).
 ### -field Status
 
 The current status of HBA. This member can hold any of the following values:
+
 <table>
 <tr>
 <th>Status</th>
@@ -175,12 +176,14 @@ The HBA is not functioning at all.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field FunctionalitySupported
 
 A bitwise OR of the flags that define the functionality that the HBA supports. The following table describes the possible flags.
+
 <table>
 <tr>
 <th>Flags</th>
@@ -246,7 +249,8 @@ The HBA supports SLP discovery.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field GenerationalGuid
@@ -307,7 +311,9 @@ A string that specifies the name of the driver for the HBA.
 ## -remarks
 
 
+
 You must implement this class.
+
 
 
 
@@ -315,13 +321,19 @@ You must implement this class.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_HBAInformation structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_HBAInformation structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

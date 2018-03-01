@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._FILE_ATTRIBUTE_TAG_INFORMATION
-title: _FILE_ATTRIBUTE_TAG_INFORMATION
+title: "_FILE_ATTRIBUTE_TAG_INFORMATION"
 author: windows-driver-content
 description: The FILE_ATTRIBUTE_TAG_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_attribute_tag_information.htm
 old-project: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: *PFILE_ATTRIBUTE_TAG_INFORMATION, _FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION
+ms.date: 2/24/2018
+ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddk.h
-apiname: 
+api_name:
 -	FILE_ATTRIBUTE_TAG_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION
+req.typenames: FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
 ---
 
 # _FILE_ATTRIBUTE_TAG_INFORMATION structure
@@ -81,6 +81,7 @@ Specifies the reparse point tag. If the <b>FileAttributes</b> member includes th
 ## -remarks
 
 
+
 FILE_READ_ATTRIBUTES access to the file is required to query this information.
 
 For more information about reparse points and reparse point tags, see the Windows SDK.
@@ -89,13 +90,16 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_ATTRIBUTE_TAG_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_ATTRIBUTE_TAG_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

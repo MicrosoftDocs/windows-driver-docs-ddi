@@ -7,8 +7,8 @@ old-location: netvista\riluiccchannelgroup.htm
 old-project: netvista
 ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccchannelgroup, RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCHANNELGROUP
+ms.date: 2/16/2018
+ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCCHANNELGROUP
 product: Windows
 targetos: Windows

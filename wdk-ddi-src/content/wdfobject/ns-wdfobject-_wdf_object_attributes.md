@@ -1,14 +1,14 @@
 ---
 UID: NS:wdfobject._WDF_OBJECT_ATTRIBUTES
-title: _WDF_OBJECT_ATTRIBUTES
+title: "_WDF_OBJECT_ATTRIBUTES"
 author: windows-driver-content
 description: The WDF_OBJECT_ATTRIBUTES structure describes attributes that can be associated with any framework object.
 old-location: wdf\wdf_object_attributes.htm
 old-project: wdf
 ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: _WDF_OBJECT_ATTRIBUTES, wdfobject/PWDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, wdf.wdf_object_attributes, wdfobject/WDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, WDF_OBJECT_ATTRIBUTES structure, PWDF_OBJECT_ATTRIBUTES structure pointer, *PWDF_OBJECT_ATTRIBUTES
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES structure pointer, WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure, _WDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, wdf.wdf_object_attributes, wdfobject/PWDF_OBJECT_ATTRIBUTES, wdfobject/WDF_OBJECT_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfobject.h
-apiname: 
+api_name:
 -	WDF_OBJECT_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -122,6 +122,7 @@ A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_context_type_info.
 ## -remarks
 
 
+
 The WDF_OBJECT_ATTRIBUTES structure is used as an input argument to several methods that create framework objects.
 
 To initialize a WDF_OBJECT_ATTRIBUTES structure, the driver must call <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>. 
@@ -133,6 +134,7 @@ Alternatively, you can use the <a href="https://msdn.microsoft.com/library/windo
 For more information about using these macros, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 Use the <b>ContextSizeOverride</b> member of WDF_OBJECT_ATTRIBUTES if you want to create <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">object context space</a> that has a variable length. For example, you might define a context space structure that contains an array, as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -147,7 +149,9 @@ Use the <b>ContextSizeOverride</b> member of WDF_OBJECT_ATTRIBUTES if you want t
 WDF_DECLARE_CONTEXT_TYPE(MY_REQUEST_CONTEXT);</pre>
 </td>
 </tr>
-</table></span></div>When your driver creates an object that uses the context space structure, it can use the <b>ContextSizeOverride</b> member to specify the context size that is needed for each individual object. For example, your driver might calculate the number of bytes that are needed in the array from the preceding example and then use <b>ContextSizeOverride</b> to specify the extra bytes, as follows:
+</table></span></div>
+When your driver creates an object that uses the context space structure, it can use the <b>ContextSizeOverride</b> member to specify the context size that is needed for each individual object. For example, your driver might calculate the number of bytes that are needed in the array from the preceding example and then use <b>ContextSizeOverride</b> to specify the extra bytes, as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -165,7 +169,9 @@ MyRequestObjectAttributes.ContextSizeOverride =
                           sizeof(MY_REQUEST_CONTEXT) + Num_Extra_Bytes - 1;</pre>
 </td>
 </tr>
-</table></span></div>The driver can then create an object with a customized context size.
+</table></span></div>
+The driver can then create an object with a customized context size.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -182,19 +188,28 @@ MyRequestObjectAttributes.ContextSizeOverride =
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
-
-<a href="..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md">WdfObjectAllocateContext</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552405">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md">WdfObjectAllocateContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_OBJECT_ATTRIBUTES structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_OBJECT_ATTRIBUTES structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

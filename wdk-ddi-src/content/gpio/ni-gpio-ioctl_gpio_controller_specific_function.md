@@ -7,8 +7,8 @@ old-location: gpio\ioctl_gpio_controller_specific_function.htm
 old-project: GPIO
 ms.assetid: 9B62BF0B-A172-4131-9196-590188C747AD
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GPIO.ioctl_gpio_controller_specific_function, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code [Parallel Ports], IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION, gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
+ms.date: 2/15/2018
+ms.keywords: GPIO.ioctl_gpio_controller_specific_function, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code [Parallel Ports], gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Gpio.h
-apiname: 
+api_name:
 -	IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -85,14 +85,18 @@ TBD
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,7 @@ If the GPIO controller driver does not any support controller-specific operation
 ## -remarks
 
 
+
 Typical GPIO controllers do not support <b>IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</b> requests. However, a controller driver developer has the option of defining one or more controller-specific operations to address the special requirements or capabilities of a GPIO controller on a particular hardware platform.
 
 Only a peripheral device driver that is aware of the controller-specific operations supported by a particular type of GPIO controller hardware can use <b>IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</b> requests to perform these operations. A peripheral device driver that uses these requests to perform controller-specific operations on one hardware platform risks the loss of compatibility with other platforms that do not support these operations.
@@ -122,13 +127,16 @@ The peripheral device driver sends this I/O control request to the file object f
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

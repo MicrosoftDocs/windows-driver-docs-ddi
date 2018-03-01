@@ -7,8 +7,8 @@ old-location: image\iwiaerrorhandler_getstatusdescription.htm
 old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler, GetStatusDescription, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml
+ms.date: 2/23/2018
+ms.keywords: GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, GetStatusDescription,IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wia_lh.h
-apiname: 
+api_name:
 -	IWiaErrorHandler.GetStatusDescription
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Pointer to a BSTR that receives a description of the status or error encountered
 ## -returns
 
 
+
 Returns a standard COM error code if an error occurs, or one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +124,14 @@ The value in the <i>hrStatus</i> parameter is unknown to the extension and no de
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 In order for an application to call <b>IWiaErrorHandler::GetStatusDescription</b>, the application must call <b>IWiaItem2::GetExtension</b> first to receive an interface pointer to the error handling extension. An application must pass "ErrorHandler" as bstrName and IID_IWiaErrorHandler as riidExtensionInterface. An application should pass 0 as lFlags to ensure upward compatibility.
@@ -135,15 +140,20 @@ The implementation of <b>IWiaErrorHandler::GetStatusDescription</b> should retur
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
+## -see-also
 
 <a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaErrorHandler::GetStatusDescription method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaErrorHandler::GetStatusDescription method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

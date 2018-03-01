@@ -7,8 +7,8 @@ old-location: wdf\wdfcontroldeviceinitallocate.htm
 old-project: wdf
 ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcontroldeviceinitallocate, PFN_WDFCONTROLDEVICEINITALLOCATE, DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, wdfcontrol/WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate, wdf.wdfcontroldeviceinitallocate, WdfControlDeviceInitAllocate method
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, kmdf.wdfcontroldeviceinitallocate, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfControlDeviceInitAllocate
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 <b>WdfControlDeviceInitAllocate</b> returns a pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure, if the operation succeeds. Otherwise, the method returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If you want your driver to create a control device object, the driver must call <b>WdfControlDeviceInitAllocate</b> to obtain a WDFDEVICE_INIT structure that it can pass to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
@@ -101,26 +104,94 @@ The <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDevi
 For more information about calling <b>WdfControlDeviceInitAllocate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
 
+#### Examples
+
+The following code example allocates a DEVICE_INIT structure, assigns a device object name, registers a shutdown notification callback function, and creates a control device object. For a more complex example that uses <b>WdfControlDeviceInitAllocate</b>, see the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver or the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PWDFDEVICE_INIT  deviceInit = NULL;
+NTSTATUS  status;
+WDF_OBJECT_ATTRIBUTES  objectAttribs;
+
+deviceInit = WdfControlDeviceInitAllocate(
+                                          hDriver,
+                                          &amp;SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RW_RES_R
+                                          );
+if (deviceInit == NULL) {
+    status = STATUS_INSUFFICIENT_RESOURCES;
+    goto Error;
+}
+status = WdfDeviceInitAssignName(
+                                 deviceInit,
+                                 &amp;ntDeviceName
+                                 );
+if (!NT_SUCCESS(status)) {
+    WdfDeviceInitFree(deviceInit);
+    deviceInit = NULL;
+    goto Error;
+}
+WdfControlDeviceInitSetShutdownNotification(
+                                            deviceInit,
+                                            EvtShutdownNotification,
+                                            WdfDeviceShutdown
+                                            );
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);
+
+status = WdfDeviceCreate(
+                         &amp;deviceInit,
+                         &amp;objectAttribs,
+                         &amp;controlDevice
+                         );
+if (!NT_SUCCESS(status)) {
+    WdfDeviceInitFree(deviceInit);
+    deviceInit = NULL;
+    goto Error;
+}
+WdfControlFinishInitializing(controlDevice);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
-
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
+
+
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
- 
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
+
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfControlDeviceInitAllocate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfControlDeviceInitAllocate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

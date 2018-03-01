@@ -7,8 +7,8 @@ old-location: buses\ucxcontrollersetidstrings.htm
 old-project: usbref
 ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ucxcontrollersetidstrings, UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], ucxcontroller/UcxControllerSetIdStrings
+ms.date: 2/24/2018
+ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ucxstubs.lib
 -	Ucxstubs.dll
-apiname: 
+api_name:
 -	UcxControllerSetIdStrings
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ A string that contains the revision number of the device model.
 ## -returns
 
 
+
 The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
+
 
 

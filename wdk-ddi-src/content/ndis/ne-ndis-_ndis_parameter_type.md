@@ -1,14 +1,14 @@
 ---
 UID: NE:ndis._NDIS_PARAMETER_TYPE
-title: _NDIS_PARAMETER_TYPE
+title: "_NDIS_PARAMETER_TYPE"
 author: windows-driver-content
 description: The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.
 old-location: netvista\ndis_parameter_type.htm
 old-project: netvista
 ms.assetid: f17e390a-fa13-4435-ad1e-3fecc035ec41
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisParameterInteger, ndis/NdisParameterInteger, ndis/NdisParameterString, ndis/NdisParameterBinary, NDIS_PARAMETER_TYPE, NdisParameterBinary, ndis/NdisParameterHexInteger, PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, NdisParameterHexInteger, _NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE, NdisParameterString, netvista.ndis_parameter_type, NdisParameterMultiString, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterMultiString, ndis/PNDIS_PARAMETER_TYPE
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, NdisParameterHexInteger, NdisParameterInteger, NdisParameterMultiString, NdisParameterString, PNDIS_PARAMETER_TYPE, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterBinary, ndis/NdisParameterHexInteger, ndis/NdisParameterInteger, ndis/NdisParameterMultiString, ndis/NdisParameterString, ndis/PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, netvista.ndis_parameter_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ndis.h
-apiname: 
+api_name:
 -	NDIS_PARAMETER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE
+req.typenames: NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE
 ---
 
 # _NDIS_PARAMETER_TYPE enumeration
@@ -99,11 +99,13 @@ A binary value of type REG_BINARY.
 ## -remarks
 
 
+
 The NDIS_PARAMETER_TYPE enumeration type is used in the 
-    <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-    NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure and in the 
+    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    NDIS_CONFIGURATION_PARAMETER</a> structure and in the 
     <i>ParameterType</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a> function.
+
 
 
 
@@ -111,11 +113,15 @@ The NDIS_PARAMETER_TYPE enumeration type is used in the
 
 <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PARAMETER_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PARAMETER_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

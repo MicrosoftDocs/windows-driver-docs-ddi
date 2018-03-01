@@ -7,7 +7,7 @@ old-location: display\dxgi1_3_ddi_base_functions.htm
 old-project: display
 ms.assetid: F857BA54-A572-4376-83F3-573F90033261
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/24/2018
 ms.keywords: DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_3_ddi_base_functions, dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Dxgiddi.h
-apiname: 
+api_name:
 -	DXGI1_3_DDI_BASE_FUNCTIONS
 product: Windows
 targetos: Windows
@@ -69,11 +69,11 @@ typedef struct DXGI1_3_DDI_BASE_FUNCTIONS {
   HRESULT (__stdcall *pfnOfferResources)(DXGI_DDI_ARG_OFFERRESOURCES*);
   HRESULT (__stdcall *pfnReclaimResources)(DXGI_DDI_ARG_RECLAIMRESOURCES*);
   HRESULT (__stdcall *pfnGetMultiPlaneOverlayCaps)(DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS*);
-  HRESULT (__stdcall *pfnGetMultiplaneOverlayGroupCaps)(DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS *pfnGetMultiplaneOverlayGroupCaps);
+  HRESULT (__stdcall *pfnGetMultiplaneOverlayGroupCaps)(DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS *pGroupCaps);
   HRESULT (__stdcall *pfnReserved1)( void*);
   HRESULT (__stdcall *pfnPresentMultiPlaneOverlay)(DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY *pfnPresentMultiPlaneOverlay);
   HRESULT (__stdcall *pfnReserved2)(void*);
-  HRESULT (__stdcall *pfnPresent1)(DXGI_DDI_ARG_PRESENT1*);
+  HRESULT (__stdcall *pfnPresent1)(DXGI_DDI_ARG_PRESENT1 *pPresentData);
   HRESULT (__stdcall *pfnCheckPresentDurationSupport)(DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT*);
 } DXGI1_3_DDI_BASE_FUNCTIONS;
 ````
@@ -146,7 +146,15 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A
 
 ### -field pfnGetMultiplaneOverlayGroupCaps
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265494">pfnGetMultiplaneOverlayGroupCaps</a> function.
+Called by the DXGI runtime to request that the user-mode display driver  get a group of overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers. 
+
+<div class="alert"><b>Note</b>  This function is called for each of the capability groups that the driver reports.</div>
+<div> </div>
+
+
+#### pGroupCaps
+
+ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_getmultiplaneoverlaygroupcaps.md">DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS</a> structure that specifies the group of overlay plane capabilities.
 
 
 ### -field pfnReserved1
@@ -166,7 +174,32 @@ Reserved for system use.
 
 ### -field pfnPresent1
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function.
+Notifies the user-mode display driver that an application finished rendering and that all ownership of the shared resource is released, and requests that the driver display to the destination surface.
+
+The <b>hDevice</b> member of the <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present1.md">DXGI_DDI_ARG_PRESENT1</a> structure that the <i>pPresentData</i> parameter points to is the same handle that the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function passed back to the runtime in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure. Therefore, driver writers must define the type of this handle carefully. In addition, drivers can supply different implementations of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function based on which DDI implementation handled the call to <i>CreateDevice(D3D10)</i>. The runtime will never mix driver handles across DDI implementations.
+
+The <b>pDXGIContext</b> member of <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present1.md">DXGI_DDI_ARG_PRESENT1</a> is an opaque communication mechanism. The runtime passes this DXGI context to the driver. The driver should copy this DXGI context unchanged to the <b>pDXGIContext</b> member of the <a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a> structure when the driver calls the <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a> function.
+
+The driver must submit all partially built render data (command buffers) using the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function, and the driver must make a single call to <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a>. When calling either of these callbacks, the driver must follow the threading rules of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a> function.
+
+<div class="alert"><b>Note</b>    When the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function copies sRGB-formatted content from a source surface to a non-sRGB destination surface, the driver should copy the sRGB content unchanged (that is, the driver should not perform the sRGB to linear conversion).</div>
+<div> </div>
+Threading rules
+
+These rules apply whether the driver supports free threading or not:<ul>
+<li>The driver indicates support for free threading by setting the <b>Caps</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a> structure to <b>D3D11DDICAPS_FREETHREADED</b>. In this case:<ul>
+<li>Only a single thread can be working against an HCONTEXT context handle at a time.</li>
+<li>The driver must call <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a> only when the driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function is called, and by the same thread that called <i>pfnPresent1(DXGI)</i>.</li>
+</ul>
+</li>
+<li>When the driver doesn’t indicate support for free-threading, it can only call the callback functions when a thread has called into the driver. The driver also must still call the <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a> callback within the context of <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a>.</li>
+</ul>For further info on threading, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
+
+
+
+#### pPresentData
+
+[in] A pointer to a <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present1.md">DXGI_DDI_ARG_PRESENT1</a> structure that describes how to display to the destination surface. 
 
 
 ### -field pfnCheckPresentDurationSupport
@@ -187,7 +220,9 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 ## -remarks
 
 
+
 For more info on how to use this structure, see <a href="https://msdn.microsoft.com/3a49d7cb-984f-4e4f-a549-5c0442e1c45a">Supporting the DXGI DDI</a>.
+
 
 
 
@@ -195,17 +230,27 @@ For more info on how to use this structure, see <a href="https://msdn.microsoft.
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi1_2_ddi_base_functions.md">DXGI1_2_DDI_BASE_FUNCTIONS</a>
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
+
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI1_3_DDI_BASE_FUNCTIONS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI1_3_DDI_BASE_FUNCTIONS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

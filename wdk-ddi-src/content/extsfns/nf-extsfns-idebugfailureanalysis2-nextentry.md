@@ -7,8 +7,8 @@ old-location: debugger\idebugfailureanalysis2_nextentry.htm
 old-project: debugger
 ms.assetid: B5640B86-D931-4A26-85F2-BBE18620668C
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: extsfns/IDebugFailureAnalysis2::NextEntry, IDebugFailureAnalysis2 interface [Windows Debugging], NextEntry method, debugger.idebugfailureanalysis2_nextentry, NextEntry method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::NextEntry, NextEntry, NextEntry method [Windows Debugging], IDebugFailureAnalysis2
+ms.date: 2/23/2018
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], NextEntry method, IDebugFailureAnalysis2::NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging], IDebugFailureAnalysis2 interface, NextEntry,IDebugFailureAnalysis2.NextEntry, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	extsfns.h
-apiname: 
+api_name:
 -	IDebugFailureAnalysis2.NextEntry
 product: Windows
 targetos: Windows
@@ -75,25 +75,37 @@ A pointer to an <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> struct
 ## -returns
 
 
+
 This method returns a pointer to the next (or first) <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. If there are no more <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entries</a> in the <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object, this method returns <i>NULL</i>.
+
 
 
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
 
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::NextEntry method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::NextEntry method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

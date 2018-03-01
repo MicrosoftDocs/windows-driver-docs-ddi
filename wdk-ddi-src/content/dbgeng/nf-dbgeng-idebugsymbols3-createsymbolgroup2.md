@@ -7,8 +7,8 @@ old-location: debugger\createsymbolgroup2.htm
 old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2, IDebugSymbols3, dbgeng/IDebugSymbols3::CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2, CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method
+ms.date: 2/23/2018
+ms.keywords: CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup2,IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugSymbols3.CreateSymbolGroup2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::CreateSymbolGroup2 method
@@ -75,6 +75,7 @@ Receives an interface pointer for the new <a href="..\dbgeng\nn-dbgeng-idebugsym
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,13 +92,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The newly created symbol group is empty; it does not contain any <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a>.  Symbols may be added to the symbol group using <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>.
@@ -108,17 +112,24 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
 
 <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::CreateSymbolGroup2 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::CreateSymbolGroup2 method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

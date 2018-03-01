@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_create_pipeline_state_0021.htm
 old-project: display
 ms.assetid: 08C19E55-7DD7-4BDF-8C9A-A2E1B973AFEC
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_create_pipeline_state_0021, pfnCreatePipelineState callback function [Display Devices], pfnCreatePipelineState, PFND3D12DDI_CREATE_PIPELINE_STATE_0021, PFND3D12DDI_CREATE_PIPELINE_STATE_0021, d3d12umddi/pfnCreatePipelineState
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0021, d3d12umddi/pfnCreatePipelineState, display.pfnd3d12ddi_create_pipeline_state_0021, pfnCreatePipelineState, pfnCreatePipelineState callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnCreatePipelineState
 product: Windows
 targetos: Windows
@@ -76,16 +76,15 @@ HRESULT APIENTRY* pfnCreatePipelineState(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D12DDI_HPIPELINESTATE
 
 
-
 ### -param D3D12DDI_HRTPIPELINESTATE
+
+
 
 
 
@@ -97,14 +96,14 @@ HRESULT APIENTRY* pfnCreatePipelineState(
 A value used to create a pipeline state.
 
 
-#### - hPipelineState
-
-The handle of a pipeline state. 
-
-
 #### - hDevice
 
 The handle of a device. 
+
+
+#### - hPipelineState
+
+The handle of a pipeline state. 
 
 
 #### - hRTPipelineState
@@ -115,13 +114,17 @@ The handle of the pipeline state for the driver to use when it calls back into t
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 Access this function by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0021.md">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.
+
 
 

@@ -1,19 +1,19 @@
 ---
 UID: NE:pepfx._GPIO_PIN_IORESTRICTION_TYPE
-title: _GPIO_PIN_IORESTRICTION_TYPE
+title: "_GPIO_PIN_IORESTRICTION_TYPE"
 author: windows-driver-content
 description: The GPIO_PIN_IORESTRICTION_TYPE enumeration describes the functions that a GPIO pin is limited to performing.
 old-location: kernel\gpio_pin_iorestriction_type.htm
 old-project: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: pepfx/IoRestrictionOutputOnly, pepfx/IoRestrictionNone, _GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionNoneAndPreserve, pepfx/GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionNone, pepfx/IoRestrictionInputOnly, IoRestrictionInputOnly, kernel.gpio_pin_iorestriction_type, IoRestrictionOutputOnly, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionNoneAndPreserve
+ms.date: 2/24/2018
+ms.keywords: GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionInputOnly, IoRestrictionNone, IoRestrictionNoneAndPreserve, IoRestrictionOutputOnly, _GPIO_PIN_IORESTRICTION_TYPE, kernel.gpio_pin_iorestriction_type, pepfx/GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionInputOnly, pepfx/IoRestrictionNone, pepfx/IoRestrictionNoneAndPreserve, pepfx/IoRestrictionOutputOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	pepfx.h
-apiname: 
+api_name:
 -	GPIO_PIN_IORESTRICTION_TYPE
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:ucmtypes._UCM_PD_REQUEST_DATA_OBJECT
-title: _UCM_PD_REQUEST_DATA_OBJECT
+title: "_UCM_PD_REQUEST_DATA_OBJECT"
 author: windows-driver-content
 description: Describes a Request Data Object (RDO). For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_request_data_object.htm
 old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_request_data_object, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT, _UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses]
+ms.date: 2/24/2018
+ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ucmtypes.h
-apiname: 
+api_name:
 -	UCM_PD_REQUEST_DATA_OBJECT
 product: Windows
 targetos: Windows
@@ -95,21 +95,28 @@ typedef union _UCM_PD_REQUEST_DATA_OBJECT {
 
 
 
+### -field Ul
+
+Size of the structure.
+
+
 ### -field Common
 
 
 
-### -field Common.Reserved1
+#### Reserved1
 
 Reserved.
 
 
-### -field Common.ObjectPosition
+
+#### ObjectPosition
 
 Object position.
 
 
-### -field Common.Reserved2
+
+#### Reserved2
 
 Reserved.
 
@@ -118,49 +125,57 @@ Reserved.
 
 
 
-### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
+#### MaximumOperatingCurrentIn10mA
 
 Maximum current in 10 mA units.
 
 
-### -field FixedAndVariableRdo.OperatingCurrentIn10mA
+
+#### OperatingCurrentIn10mA
 
 Operating current in 10mA units.
 
 
-### -field FixedAndVariableRdo.Reserved1
+
+#### Reserved1
 
 Reserved.
 
 
-### -field FixedAndVariableRdo.NoUsbSuspend
+
+#### NoUsbSuspend
 
 Indicates support for USB suspend.
 
 
 
 
-### -field FixedAndVariableRdo.UsbCommunicationCapable
+
+#### UsbCommunicationCapable
 
 USB communication capable. 
 
 
-### -field FixedAndVariableRdo.CapabilityMismatch
+
+#### CapabilityMismatch
 
 Capability Mismatch 
 
 
-### -field FixedAndVariableRdo.GiveBackFlag
+
+#### GiveBackFlag
 
 GiveBack Flag.
 
 
-### -field FixedAndVariableRdo.ObjectPosition
+
+#### ObjectPosition
 
 Object Position.
 
 
-### -field FixedAndVariableRdo.Reserved2
+
+#### Reserved2
 
 Reserved for future use.
 
@@ -169,52 +184,55 @@ Reserved for future use.
 
 
 
-### -field BatteryRdo.MaximumOperatingPowerIn250mW
+#### MaximumOperatingPowerIn250mW
 
 Maximum Operating Power in 250mW units. 
 
 
-### -field BatteryRdo.OperatingPowerIn250mW
+
+#### OperatingPowerIn250mW
 
 Operating Power in 250mW units.
 
 
-### -field BatteryRdo.Reserved1
+
+#### Reserved1
 
 Reserved for future use.
 
 
-### -field BatteryRdo.NoUsbSuspend
+
+#### NoUsbSuspend
 
  USB Suspend. 
 
 
-### -field BatteryRdo.UsbCommunicationCapable
+
+#### UsbCommunicationCapable
 
 USB Communications Capable.
 
 
-### -field BatteryRdo.CapabilityMismatch
+
+#### CapabilityMismatch
 
 Capability Mismatch. 
 
 
-### -field BatteryRdo.GiveBackFlag
+
+#### GiveBackFlag
 
 GiveBack Flag. 
 
 
-### -field BatteryRdo.ObjectPosition
+
+#### ObjectPosition
 
 Object Position.
 
 
-### -field BatteryRdo.Reserved2
+
+#### Reserved2
 
 Reserved.
-
-
-### -field Ul
-
-Size of the structure.
 

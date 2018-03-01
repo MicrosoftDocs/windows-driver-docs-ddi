@@ -7,8 +7,8 @@ old-location: pos\poscxclose.htm
 old-project: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PosCxClose function, poscx/PosCxClose, pos.poscxclose, PosCxClose
+ms.date: 2/23/2018
+ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	poscx.h
-apiname: 
+api_name:
 -	PosCxClose
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ A handle to a framework device object that represents the device.
 ## -returns
 
 
+
 An appropriate NTSTATUS error code that indicates the close instance completion status.
+
 
 

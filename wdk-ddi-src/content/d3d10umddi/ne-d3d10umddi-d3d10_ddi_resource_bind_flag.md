@@ -7,8 +7,8 @@ old-location: display\d3d10_ddi_resource_bind_flag.htm
 old-project: display
 ms.assetid: 1c911435-5a55-4b92-9c65-3116d98f8ecf
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_BIND_INDEX_BUFFER, d3d10umddi/D3D10_DDI_BIND_VERTEX_BUFFER, d3d10umddi/D3D11_DDI_BIND_VIDEO_ENCODER, d3d10umddi/D3D11_DDI_BIND_PIPELINE_MASK, D3D10_DDI_RESOURCE_BIND_FLAG enumeration [Display Devices], d3d10umddi/D3D10_DDI_BIND_STREAM_OUTPUT, D3D11_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_PRESENT, D3D10_DDI_BIND_RENDER_TARGET, d3d10umddi/D3D11_DDI_BIND_CAPTURE, D3D11_DDI_BIND_CAPTURE, D3D10_DDI_RESOURCE_BIND_FLAG, D3D11_DDI_BIND_DECODER, d3d10umddi/D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_RENDER_TARGET, UMDisplayDriver_Dx10param_Structs_bb674d0e-4e3d-42ce-9216-2937f466b1f5.xml, D3D10_DDI_BIND_PIPELINE_MASK, D3D11_DDI_BIND_VIDEO_ENCODER, d3d10umddi/D3D10_DDI_BIND_SHADER_RESOURCE, display.d3d10_ddi_resource_bind_flag, d3d10umddi/D3D10_DDI_BIND_DEPTH_STENCIL, D3D11_DDI_BIND_UNORDERED_ACCESS, D3D10_DDI_BIND_PRESENT, d3d10umddi/D3D10_DDI_BIND_PIPELINE_MASK, D3D10_DDI_BIND_STREAM_OUTPUT, D3D11_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D11_DDI_BIND_UNORDERED_ACCESS, d3d10umddi/D3D10_DDI_BIND_CONSTANT_BUFFER, d3d10umddi/D3D10_DDI_BIND_MASK, D3D10_DDI_BIND_SHADER_RESOURCE, d3d10umddi/D3D11_DDI_BIND_MASK, d3d10umddi/D3D11_DDI_BIND_DECODER, D3D10_DDI_BIND_DEPTH_STENCIL, D3D10_DDI_BIND_INDEX_BUFFER, D3D10_DDI_BIND_VERTEX_BUFFER, D3D10_DDI_BIND_CONSTANT_BUFFER
+ms.date: 2/24/2018
+ms.keywords: D3D10_DDI_BIND_CONSTANT_BUFFER, D3D10_DDI_BIND_DEPTH_STENCIL, D3D10_DDI_BIND_INDEX_BUFFER, D3D10_DDI_BIND_MASK, D3D10_DDI_BIND_PIPELINE_MASK, D3D10_DDI_BIND_PRESENT, D3D10_DDI_BIND_RENDER_TARGET, D3D10_DDI_BIND_SHADER_RESOURCE, D3D10_DDI_BIND_STREAM_OUTPUT, D3D10_DDI_BIND_VERTEX_BUFFER, D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG enumeration [Display Devices], D3D11_DDI_BIND_CAPTURE, D3D11_DDI_BIND_DECODER, D3D11_DDI_BIND_MASK, D3D11_DDI_BIND_PIPELINE_MASK, D3D11_DDI_BIND_UNORDERED_ACCESS, D3D11_DDI_BIND_VIDEO_ENCODER, UMDisplayDriver_Dx10param_Structs_bb674d0e-4e3d-42ce-9216-2937f466b1f5.xml, d3d10umddi/D3D10_DDI_BIND_CONSTANT_BUFFER, d3d10umddi/D3D10_DDI_BIND_DEPTH_STENCIL, d3d10umddi/D3D10_DDI_BIND_INDEX_BUFFER, d3d10umddi/D3D10_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D10_DDI_BIND_PRESENT, d3d10umddi/D3D10_DDI_BIND_RENDER_TARGET, d3d10umddi/D3D10_DDI_BIND_SHADER_RESOURCE, d3d10umddi/D3D10_DDI_BIND_STREAM_OUTPUT, d3d10umddi/D3D10_DDI_BIND_VERTEX_BUFFER, d3d10umddi/D3D10_DDI_RESOURCE_BIND_FLAG, d3d10umddi/D3D11_DDI_BIND_CAPTURE, d3d10umddi/D3D11_DDI_BIND_DECODER, d3d10umddi/D3D11_DDI_BIND_MASK, d3d10umddi/D3D11_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D11_DDI_BIND_UNORDERED_ACCESS, d3d10umddi/D3D11_DDI_BIND_VIDEO_ENCODER, display.d3d10_ddi_resource_bind_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	D3D10_DDI_RESOURCE_BIND_FLAG
 product: Windows
 targetos: Windows
-req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG
+req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG
 ---
 
 # D3D10_DDI_RESOURCE_BIND_FLAG enumeration
@@ -222,23 +222,37 @@ Supported starting with Windows 7.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setindexbuffer.md">IaSetIndexBuffer</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">GsSetShaderResources</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setvertexbuffers.md">IaSetVertexBuffers</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setindexbuffer.md">IaSetIndexBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_RESOURCE_BIND_FLAG enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_RESOURCE_BIND_FLAG enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:urstypes._URS_ROLE
-title: _URS_ROLE
+title: "_URS_ROLE"
 author: windows-driver-content
 description: Defines values for roles supported by a USB dual-role controller.
 old-location: buses\urs_role.htm
 old-project: usbref
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: _URS_ROLE, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleFunction, URS_ROLE enumeration [Buses], urstypes/UrsRoleNone, UrsRoleFunction, UrsRoleHost, urstypes/UrsRoleHost, UrsRoleNone, URS_ROLE, buses.urs_role, URS_ROLE, *PURS_ROLE enumeration [Buses], *PURS_ROLE, urstypes/URS_ROLE
+ms.date: 2/24/2018
+ms.keywords: "*PURS_ROLE, URS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE, *PURS_ROLE, URS_ROLE, *PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleHost, UrsRoleNone, _URS_ROLE, buses.urs_role, urstypes/URS_ROLE, urstypes/UrsRoleFunction, urstypes/UrsRoleHost, urstypes/UrsRoleNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Urstypes.h
-apiname: 
+api_name:
 -	URS_ROLE, *PURS_ROLE
 product: Windows
 targetos: Windows

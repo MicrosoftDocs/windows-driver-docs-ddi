@@ -1,14 +1,14 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-title: _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration is reserved for internal use.
 old-location: wdf\wdf_power_policy_idle_timeout_constants.htm
 old-project: wdf
 ms.assetid: a707c7b9-2fc9-48c8-9492-b911c126668b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, IdleTimeoutDefaultConstant, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wdfdevice/IdleTimeoutDefaultConstant, wdf.wdf_power_policy_idle_timeout_constants, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
+ms.date: 2/20/2018
+ms.keywords: IdleTimeoutDefaultConstant, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_power_policy_idle_timeout_constants, wdfdevice/IdleTimeoutDefaultConstant, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname: 
+api_name:
 -	WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 product: Windows
 targetos: Windows

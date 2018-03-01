@@ -7,8 +7,8 @@ old-location: debugger\extremotetyped_outtypedefinition.htm
 old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_outtypedefinition, ExtRemoteTyped::OutTypeDefinition, ExtRemoteTyped, OutTypeDefinition method [Windows Debugging], OutTypeDefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface
+ms.date: 2/23/2018
+ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, OutTypeDefinition,ExtRemoteTyped.OutTypeDefinition, debugger.extremotetyped_outtypedefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	engextcpp.hpp
-apiname: 
+api_name:
 -	ExtRemoteTyped.OutTypeDefinition
 product: Windows
 targetos: Windows
@@ -66,16 +66,21 @@ void OutTypeDefinition();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 The type is sent to the debugger engine's output callbacks.
+
 
 

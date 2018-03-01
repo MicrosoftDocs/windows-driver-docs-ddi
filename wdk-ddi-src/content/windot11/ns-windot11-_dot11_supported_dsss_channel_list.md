@@ -1,14 +1,14 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_DSSS_CHANNEL_LIST
-title: _DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+title: "_DOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_dsss_channel_list.htm
 old-project: netvista
 ms.assetid: 45941a4d-12e0-4a80-b04e-9e349126f5ff
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, netvista.dot11_supported_dsss_channel_list, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, netvista.dot11_supported_dsss_channel_list, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	windot11.h
-apiname: 
+api_name:
 -	DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+req.typenames: DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -87,29 +87,35 @@ The maximum number of entries that the
 
 An array that specifies the list of supported frequency channels that the NIC can operate with.
      Each element in this list is formatted as a 
-     <mshelp:link keywords="netvista.dot11_supported_dsss_channel" tabindex="0"><b>
-     DOT11_SUPPORTED_DSSS_CHANNEL</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">
+     DOT11_SUPPORTED_DSSS_CHANNEL</a> structure.
 
 
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when queried by 
-    <mshelp:link keywords="netvista.oid_dot11_supported_dsss_channel_list" tabindex="0">
-    OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
+    OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
+   OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_dsss_channel_list" tabindex="0">
-   OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</mshelp:link>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

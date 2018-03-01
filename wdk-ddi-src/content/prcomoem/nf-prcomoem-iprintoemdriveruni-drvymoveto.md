@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvymoveto.htm
 old-project: print
 ms.assetid: ce9b1622-4c02-4496-82ca-cefa49d531da
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml, IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvYMoveTo, IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, DrvYMoveTo, DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvYMoveTo method, DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface
+ms.date: 2/23/2018
+ms.keywords: DrvYMoveTo method [Print Devices], DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface, DrvYMoveTo,IPrintOemDriverUni.DrvYMoveTo, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvYMoveTo method, IPrintOemDriverUni::DrvYMoveTo, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	prcomoem.h
-apiname: 
+api_name:
 -	IPrintOemDriverUni.DrvYMoveTo
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ Caller-supplied value representing the number of units the cursor should be move
 ### -param dwFlags
 
 One or more of the following caller-supplied bit flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -139,7 +140,8 @@ If not set, specifies that Unidrv should update its current calculation of the c
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param piResult [out]
@@ -150,7 +152,9 @@ Receives the method-supplied result of subtracting the actual new cursor positio
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -189,16 +193,20 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553141">IPrintOemDriverUni::DrvXMoveTo</a> and <code>IPrintOemDriverUni::DrvYMoveTo</code> methods allow a rendering plug-in to send image data to the printer spooler without causing the printer driver to lose track of the printer's cursor position. If you provide an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a> method that sends image data directly to the print spooler instead of returning it to the printer driver, the method should call <code>IPrintOemDriverUni::DrvXMoveTo</code> and <code>IPrintOemDriverUni::DrvYMoveTo</code>.
 
 Either of two techniques can be used for updating the cursor position:
+
 <ul>
 <li>
 Whenever an <b>IPrintOemUni::ImageProcessing</b> method needs to update the cursor position, it can call <code>IPrintOemDriverUni::DrvXMoveTo</code> or <code>IPrintOemDriverUni::DrvYMoveTo</code> with the MV_UPDATE flag cleared. This causes Unidrv to send cursor commands to the print spooler and to update its internal calculation of the current cursor position.
@@ -209,4 +217,5 @@ The <b>IPrintOemUni::ImageProcessing</b> method can update the cursor by sending
 
 </li>
 </ul>
+
 

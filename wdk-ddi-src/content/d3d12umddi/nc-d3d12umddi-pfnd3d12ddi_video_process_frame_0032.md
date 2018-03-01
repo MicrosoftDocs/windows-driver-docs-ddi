@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
 old-project: display
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_video_process_frame_0032, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function [Display Devices], PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, display.pfnd3d12ddi_video_process_frame_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d12umddi.h
-apiname: 
+api_name:
 -	PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 product: Windows
 targetos: Windows
@@ -83,10 +83,12 @@ The video processor.
 
 ### -param *pOutputParameters
 
+The output arguments for the video process.
 
 
 ### -param *pInputStreamParameters
 
+The input arguments for the video process.
 
 
 ### -param NumInputStreams
@@ -94,19 +96,11 @@ The video processor.
 The number of input streams.
 
 
-#### - pOutputParameters
-
-The output arguments for the video process.
-
-
-#### - pInputStreamParameters
-
-The input arguments for the video process.
-
-
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

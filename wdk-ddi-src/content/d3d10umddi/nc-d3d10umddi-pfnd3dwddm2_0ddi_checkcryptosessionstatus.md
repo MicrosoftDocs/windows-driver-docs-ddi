@@ -7,8 +7,8 @@ old-location: display\checkcryptosessionstatus.htm
 old-project: display
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.checkcryptosessionstatus, CheckCryptoSessionStatus callback function [Display Devices], CheckCryptoSessionStatus, d3d10umddi/CheckCryptoSessionStatus
+ms.date: 2/24/2018
+ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus callback function [Display Devices], d3d10umddi/CheckCryptoSessionStatus, display.checkcryptosessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d10umddi.h
-apiname: 
+api_name:
 -	CheckCryptoSessionStatus
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback
@@ -79,14 +79,7 @@ req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
 A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>DDI.
 
 
-### -param *pStatus
-
-
-
-
-
-
-#### - pStatus [in, out]
+### -param *pStatus [in, out]
 
 Receives a status as a value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status.md">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a> enumeration.
 
@@ -94,14 +87,18 @@ Receives a status as a value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The application may call this DDI after receiving a hardware content protection tear-down notification to determine the state of the underlying hardware key and protected content.
+
 
 
 
@@ -109,13 +106,19 @@ The application may call this DDI after receiving a hardware content protection 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status.md">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

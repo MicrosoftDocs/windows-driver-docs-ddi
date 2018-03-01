@@ -7,8 +7,8 @@ old-location: display\dxgkddiformathistorybuffer.htm
 old-project: display
 ms.assetid: 84417629-5C12-4CB5-B147-0A558A4F9090
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddiformathistorybuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], DxgkDdiFormatHistoryBuffer, DXGKDDI_FORMATHISTORYBUFFER, DXGKDDI_FORMATHISTORYBUFFER, d3dkmddi/DxgkDdiFormatHistoryBuffer
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_FORMATHISTORYBUFFER, DxgkDdiFormatHistoryBuffer, DxgkDdiFormatHistoryBuffer callback function [Display Devices], d3dkmddi/DxgkDdiFormatHistoryBuffer, display.dxgkddiformathistorybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3dkmddi.h
-apiname: 
+api_name:
 -	DxgkDdiFormatHistoryBuffer
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_formathistorybuffer.md"
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
@@ -92,9 +94,11 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the e
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_formathistorybuffer.md">DXGKARG_FORMATHISTORYBUFFER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_FORMATHISTORYBUFFER callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_FORMATHISTORYBUFFER callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

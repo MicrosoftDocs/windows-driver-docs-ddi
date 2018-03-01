@@ -7,8 +7,8 @@ old-location: display\getnextchunkdata.htm
 old-project: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.getnextchunkdata, PFN_GET_NEXT_CHUNK_DATA, GetNextChunkData callback function [Display Devices], GetNextChunkData, PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA, netdispumdddi/GetNextChunkData
+ms.date: 2/24/2018
+ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Netdispumdddi.h
-apiname: 
+api_name:
 -	GetNextChunkData
 product: Windows
 targetos: Windows
@@ -99,36 +99,12 @@ The number of additional events that are supplied in the <i>pAdditionalWaitEvent
  A maximum of 4 wait events can be supplied.
 
 
-### -param *pAdditionalWaitEvents
-
-
-
-### -param *pChunkDataBufferSize
-
-
-
-### -param *pChunkDataBuffer
-
-
-
-### -param *pOutstandingChunksToProcess
-
-
-
-
-
-
-#### - pChunkDataBuffer [out]
-
-A pointer to a buffer of type  <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a> that the operating system provides to store information about the next encode chunk. This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
-
-
-#### - pAdditionalWaitEvents [in, optional]
+### -param *pAdditionalWaitEvents [in, optional]
 
 An optional pointer to an array of events that  <b>GetNextChunkData</b> will wait on while waiting for a new encode chunk.
 
 
-#### - pChunkDataBufferSize [in, out]
+### -param *pChunkDataBufferSize [in, out]
 
 A pointer to a variable that contains the size, in bytes, of the <i>pChunkDataBuffer</i> buffer.
 
@@ -137,7 +113,12 @@ When <b>GetNextChunkData</b> is called, this parameter contains the size of <i>p
 When  <b>GetNextChunkData</b> returns a success code, this parameter contains the size of actual encode chunk data returned in <i>pChunkDataBuffer</i>.
 
 
-#### - pOutstandingChunksToProcess [out]
+### -param *pChunkDataBuffer [out]
+
+A pointer to a buffer of type  <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a> that the operating system provides to store information about the next encode chunk. This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
+
+
+### -param *pOutstandingChunksToProcess [out]
 
 A pointer to a variable that contains the number of outstanding encode chunks that are available for the driver at the time this call returned.  This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
 
@@ -147,13 +128,16 @@ Note that as chunks are completed by the GPU asynchronously, this parameter only
 ## -returns
 
 
+
 If info on an encode chunk was returned successfully, the <b>STATUS_SUCCESS</b> status code is returned, and the value of *<i>pChunkDataBufferSize</i> is non-zero.
 
 These additional status codes can be returned:
 
 
 
+
 ## -remarks
+
 
 
 This function is optional. The user-mode display driver should only call it if the display miniport driver responds to  interrupts from the GPU when the GPU completes the encoding of a chunk by passing data in the <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a>.<b>PrivateDriverData</b> member at that interrupt time.
@@ -161,6 +145,7 @@ This function is optional. The user-mode display driver should only call it if t
 The user-mode display driver can use the sizes of the <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a> structure and the <b>MIRACAST_CHUNK_DATA</b>.<b>PrivateDriverData</b> member to compute the size of a chunk and hence how to move from chunk to chunk in the returned buffer.
 
 In a call to this function, as many available packets as can fit will be placed sequentially in the supplied buffer. This code snippet shows how to calculate the size of each packet:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -174,18 +159,30 @@ In a call to this function, as many available packets as can fit will be placed 
 </tr>
 </table></span></div>
 
+#### Thread Safety
+
+Only one thread should call this function at a time. Otherwise it's unpredictable which call would receive chunk info and which call would fail.
+
+
+
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a>
+
+
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
- 
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_GET_NEXT_CHUNK_DATA callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_GET_NEXT_CHUNK_DATA callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

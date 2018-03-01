@@ -7,8 +7,8 @@ old-location: netvista\rilversionparams_2.htm
 old-project: netvista
 ms.assetid: 365230b4-fd09-413f-9174-a5c5576a9160
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], RILVERSIONPARAMS, *LPRILVERSIONPARAMS, netvista.rilversionparams_2, rilapitypes/RILVERSIONPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILVERSIONPARAMS, RILVERSIONPARAMS, RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilversionparams_2, rilapitypes/RILVERSIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILVERSIONPARAMS
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct _RILVERSIONPARAMS {
 ### -field Minor
 
 
-
 ### -field Major
-
 

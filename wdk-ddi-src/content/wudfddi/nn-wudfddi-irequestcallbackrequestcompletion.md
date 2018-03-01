@@ -7,8 +7,8 @@ old-location: wdf\irequestcallbackrequestcompletion.htm
 old-project: wdf
 ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.irequestcallbackrequestcompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface, described, IRequestCallbackRequestCompletion, wudfddi/IRequestCallbackRequestCompletion, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion
+ms.date: 2/20/2018
+ms.keywords: IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface, described, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion, wdf.irequestcallbackrequestcompletion, wudfddi/IRequestCallbackRequestCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wudfddi.h
-apiname: 
+api_name:
 -	IRequestCallbackRequestCompletion
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 
 A driver implements the <b>IRequestCallbackRequestCompletion</b> interface to complete a request object. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequestCallbackRequestCompletion</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRequestCallbackRequestCompletion</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -72,14 +79,14 @@ The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method completes the specified request. 
-
- 
+</table> 
 
 
 ## -remarks
 
 
+
 A driver registers the <b>IRequestCallbackRequestCompletion</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a> method. For more information about how a driver completes an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+
 
 

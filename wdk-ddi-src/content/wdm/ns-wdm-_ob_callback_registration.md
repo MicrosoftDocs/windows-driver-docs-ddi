@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._OB_CALLBACK_REGISTRATION
-title: _OB_CALLBACK_REGISTRATION
+title: "_OB_CALLBACK_REGISTRATION"
 author: windows-driver-content
 description: The OB_CALLBACK_REGISTRATION structure specifies the parameters when the ObRegisterCallbacks routine registers ObjectPreCallback and ObjectPostCallback callback routines.
 old-location: kernel\ob_callback_registration.htm
 old-project: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, kernel.ob_callback_registration, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: "*POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _OB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, wdm/OB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	OB_CALLBACK_REGISTRATION
 product: Windows
 targetos: Windows
@@ -100,7 +100,9 @@ A pointer to an array of <a href="..\wdm\ns-wdm-_ob_operation_registration.md">O
 ## -remarks
 
 
+
 This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine. The <i>CallBackRegistration</i> parameter to this routine is a pointer to a buffer that contains an <b>OB_CALLBACK_REGISTRATION</b> structure that is followed by an array of one or more <a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a> structures.
+
 
 
 
@@ -108,15 +110,23 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
 
 <a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
 
+
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_CALLBACK_REGISTRATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_CALLBACK_REGISTRATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

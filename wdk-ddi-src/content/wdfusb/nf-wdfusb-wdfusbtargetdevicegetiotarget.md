@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdevicegetiotarget.htm
 old-project: wdf
 ms.assetid: 8c598cb8-083a-459d-b94b-958b7d625c88
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEGETIOTARGET, kmdf.wdfusbtargetdevicegetiotarget, wdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml
+ms.date: 2/20/2018
+ms.keywords: DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, kmdf.wdfusbtargetdevicegetiotarget, wdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfUsbTargetDeviceGetIoTarget
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -81,16 +81,39 @@ A handle to a USB device object that was obtained from a previous call to <a hre
 ## -returns
 
 
+
 The <b>WdfUsbTargetDeviceGetIoTarget</b> method returns a handle to an I/O target object.
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbTargetDeviceGetIoTarget</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example creates a request object and verifies that the framework can send a request to the I/O target object that is associated with a specified USB device. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfRequestCreate(
+                          &amp;attributes,
+                          WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                          &amp;request
+                          );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -98,11 +121,15 @@ For more information about the <b>WdfUsbTargetDeviceGetIoTarget</b> method and U
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetiotarget.md">WdfUsbTargetPipeGetIoTarget</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetIoTarget method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetIoTarget method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

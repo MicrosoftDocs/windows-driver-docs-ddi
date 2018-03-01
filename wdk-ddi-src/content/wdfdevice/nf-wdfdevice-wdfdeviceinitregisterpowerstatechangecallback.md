@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceinitregisterpowerstatechangecallback.htm
 old-project: wdf
 ms.assetid: f3c09dfb-d327-488b-8e5d-77a579d1e1f0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitregisterpowerstatechangecallback, PFN_WDFDEVICEINITREGISTERPOWERSTATECHANGECALLBACK, kmdf.wdfdeviceinitregisterpowerstatechangecallback, WdfDeviceInitRegisterPowerStateChangeCallback method, DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerstatechangecallback, wdf.wdfdeviceinitregisterpowerstatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+api_name:
 -	WdfDeviceInitRegisterPowerStateChangeCallback
 product: Windows
 targetos: Windows
@@ -97,7 +97,9 @@ An ORed combination of <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notificatio
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceInitRegisterPowerStateChangeCallback</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,15 +127,39 @@ There is insufficient memory to complete the operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If your driver calls <b>WdfDeviceInitRegisterPowerStateChangeCallback</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, see <a href="https://msdn.microsoft.com/5ef307c6-0310-4a83-a63f-3a6d96782013">State Machines in the Framework</a>.
+
+
+#### Examples
+
+The following code example registers an event callback function that the framework will call when the device's power state machine changes state.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfDeviceInitRegisterPowerStateChangeCallback(
+                                     DeviceInit,
+                                     WdfDevStatePowerD0StartingConnectInterrupt,
+                                     PciDrvPowerStateChangeCallback,
+                                     StateNotificationAllStates
+                                     );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

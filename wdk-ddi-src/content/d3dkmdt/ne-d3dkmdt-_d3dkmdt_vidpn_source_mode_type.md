@@ -1,14 +1,14 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_SOURCE_MODE_TYPE
-title: _D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+title: "_D3DKMDT_VIDPN_SOURCE_MODE_TYPE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration is used to indicate whether a video present network (VidPN) source mode is a graphics mode, a text mode, or a stereo mode.
 old-location: display\d3dkmdt_vidpn_source_mode_type.htm
 old-project: display
 ms.assetid: c2a48cf2-f595-4f78-b779-416d324e90d7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_source_mode_type, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS, DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_TEXT
+ms.date: 2/24/2018
+ms.keywords: D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_RMT_TEXT, D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, display.d3dkmdt_vidpn_source_mode_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmdt.h
-apiname: 
+api_name:
 -	D3DKMDT_VIDPN_SOURCE_MODE_TYPE
 product: Windows
 targetos: Windows
@@ -105,6 +105,8 @@ If mono content needs to be displayed in a stereo mode, the operating system can
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.
+
 
 

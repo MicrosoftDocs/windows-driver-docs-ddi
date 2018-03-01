@@ -7,8 +7,8 @@ old-location: stream\ksremovebusenuminterface.htm
 old-project: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsRemoveBusEnumInterface function [Streaming Media Devices], ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, stream.ksremovebusenuminterface, KsRemoveBusEnumInterface, swenum/KsRemoveBusEnumInterface
+ms.date: 2/23/2018
+ms.keywords: KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, stream.ksremovebusenuminterface, swenum/KsRemoveBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsRemoveBusEnumInterface
 product: Windows
 targetos: Windows
@@ -79,26 +79,34 @@ Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specif
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INSTALL_INTERFACE structure. The <i>DeviceId</i>, <i>InterfaceId</i> and <i>ReferenceString</i> members of the structure specify the specific device and interface to be removed.
+
 
 
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
-
 <a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
 
- 
+
+
+<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveBusEnumInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsRemoveBusEnumInterface function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

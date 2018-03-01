@@ -7,8 +7,8 @@ old-location: stream\ksdispatchspecificmethod.htm
 old-project: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod, KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices]
+ms.date: 2/23/2018
+ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+api_name:
 -	KsDispatchSpecificMethod
 product: Windows
 targetos: Windows
@@ -84,14 +84,18 @@ Specifies the pointer to the specific method handler.
 ## -returns
 
 
+
 The <b>KsDispatchSpecificMethod</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns an error. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsDispatchSpecificMethod</b> function is intended for additional processing of the method such as completing a pending operation.
+
 
 
 
@@ -99,9 +103,11 @@ The <b>KsDispatchSpecificMethod</b> function is intended for additional processi
 
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDispatchSpecificMethod function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDispatchSpecificMethod function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_getpageablesize.htm
 old-project: display
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize callback function [Display Devices], pfnGetPageableSize, PFND3D12DDI_GETPAGEABLESIZE_0020, PFND3D12DDI_GETPAGEABLESIZE_0020, d3d12umddi/pfnGetPageableSize
+ms.date: 2/24/2018
+ms.keywords: PFND3D12DDI_GETPAGEABLESIZE_0020, d3d12umddi/pfnGetPageableSize, display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize, pfnGetPageableSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	D3d12umddi.h
-apiname: 
+api_name:
 -	pfnGetPageableSize
 product: Windows
 targetos: Windows
@@ -74,8 +74,9 @@ UINT64 APIENTRY* pfnGetPageableSize(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
+
+
 
 
 

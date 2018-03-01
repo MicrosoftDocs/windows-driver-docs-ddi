@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentprovider_getxpspart.htm
 old-project: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, filterpipeline/IXpsDocumentProvider::GetXpsPart, GetXpsPart method [Print Devices], IXpsDocumentProvider interface, IXpsDocumentProvider, GetXpsPart method [Print Devices], print.ixpsdocumentprovider_getxpspart, IXpsDocumentProvider::GetXpsPart, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, GetXpsPart
+ms.date: 2/23/2018
+ms.keywords: GetXpsPart method [Print Devices], GetXpsPart method [Print Devices], IXpsDocumentProvider interface, GetXpsPart,IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IXpsDocumentProvider.GetXpsPart
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ The XPS part. This part is the <b>IUnknown</b> interface of an object that is an
 ## -returns
 
 
+
 <code>GetXpsPart</code> returns an <b>HRESULT</b>.
+
 
 
 
 ## -remarks
 
 
+
 Use <b>QueryInterface</b> on the value that the <b>GetXpsPart</b> method returns to determine the type of object that it retrieved.
+
 
 

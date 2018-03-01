@@ -7,8 +7,8 @@ old-location: print\ipartbase.htm
 old-project: print
 ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.ipartbase, IPartBase interface [Print Devices], IPartBase interface [Print Devices], described, IPartBase, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml
+ms.date: 2/23/2018
+ms.keywords: IPartBase, IPartBase interface [Print Devices], IPartBase interface [Print Devices], described, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml, print.ipartbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	filterpipeline.h
-apiname: 
+api_name:
 -	IPartBase
 product: Windows
 targetos: Windows
@@ -51,6 +51,13 @@ req.typenames: EXpsFontRestriction
 
 The <b>IPartBase </b>interface is a common base for document part interfaces.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartBase</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPartBase</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -96,13 +103,5 @@ The <b>SetPartCompression</b> method sets the compression of the part.
 
 </td>
 </tr>
-</table>The <b>GetPartCompression</b> method gets the compression of the part.
-
-The <b>GetStream</b> method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
-
-The <b>GetUri</b> method gets the URI of the part.
-
-The <b>SetPartCompression</b> method sets the compression of the part.
-
- 
+</table> 
 

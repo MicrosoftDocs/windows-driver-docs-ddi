@@ -1,14 +1,14 @@
 ---
 UID: NS:sensorscx._SENSOR_CONFIG
-title: _SENSOR_CONFIG
+title: "_SENSOR_CONFIG"
 author: windows-driver-content
 description: This structure contains information that the sensor driver passes to the class extension about each sensor.
 old-location: sensors\sensor_config.htm
 old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PSENSOR_CONFIG, _SENSOR_CONFIG, SENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG structure [Sensor Devices], sensorscx/SENSOR_CONFIG, sensorscx/PSENSOR_CONFIG, sensors.sensor_config, *PSENSOR_CONFIG
+ms.date: 2/22/2018
+ms.keywords: "*PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	SensorsCx.h
-apiname: 
+api_name:
 -	SENSOR_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_CONFIG, SENSOR_CONFIG
+req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -82,10 +82,13 @@ The list of enumerations. For more information, see <a href="..\sensorsdef\ns-se
 ## -remarks
 
 
+
 The SENSOR_CONFIG structure works with the following helper function:
+
 <ul>
 <li>
 <a href="..\sensorscx\nf-sensorscx-sensor_config_init.md">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
+
 

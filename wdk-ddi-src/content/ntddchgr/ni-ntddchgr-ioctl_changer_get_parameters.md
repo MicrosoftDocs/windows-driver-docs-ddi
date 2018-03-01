@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_get_parameters.htm
 old-project: storage
 ms.assetid: c4a6faa4-f3ea-4504-8d3b-a34465c90273
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ioctl_changer_get_parameters, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], IOCTL_CHANGER_GET_PARAMETERS, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml
+ms.date: 2/24/2018
+ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, storage.ioctl_changer_get_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Ntddchgr.h
-apiname: 
+api_name:
 -	IOCTL_CHANGER_GET_PARAMETERS
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ##  Major Code: 
 
 
-[[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,9 +112,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_GET_PARAMETERS control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_GET_PARAMETERS control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

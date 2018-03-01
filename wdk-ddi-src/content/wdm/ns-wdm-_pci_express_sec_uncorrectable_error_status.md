@@ -1,19 +1,19 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
-title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
+title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS"
 author: windows-driver-content
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) secondary uncorrectable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_status.htm
 old-project: PCI
 ms.assetid: 8f6b1764-e2c0-4c9e-a2ec-56cc19520d2e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, pci_struct_cb52bea2-b001-47a7-bad9-9816787133d3.xml, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_sec_uncorrectable_error_status, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union [Buses], wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
+ms.date: 2/24/2018
+ms.keywords: "*PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_sec_uncorrectable_error_status, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, pci_struct_cb52bea2-b001-47a7-bad9-9816787133d3.xml, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Ntddk.h, Wdm.h
+req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wdm.h
-apiname: 
+api_name:
 -	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
 product: Windows
 targetos: Windows
@@ -90,94 +90,9 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS {
  
 
 
-### -field DUMMYSTRUCTNAME.TargetAbortOnSplitCompletion
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MasterAbortOnSplitCompletion
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ReceivedTargetAbort
-
- 
-
-
-### -field DUMMYSTRUCTNAME.ReceivedMasterAbort
-
- 
-
-
-### -field DUMMYSTRUCTNAME.RsvdZ
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UnexpectedSplitCompletionError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableSplitCompletion
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableDataError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableAttributeError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableAddressError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.DelayedTransactionDiscardTimerExpired
-
- 
-
-
-### -field DUMMYSTRUCTNAME.PERRAsserted
-
- 
-
-
-### -field DUMMYSTRUCTNAME.SERRAsserted
-
- 
-
-
-### -field DUMMYSTRUCTNAME.InternalBridgeError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved
-
- 
-
-
 ### -field AsULONG
 
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - UnexpectedSplitCompletionError
-
-A single bit that indicates that an unexpected split completion error has occurred.
 
 
 #### - DelayedTransactionDiscardTimerExpired
@@ -185,49 +100,9 @@ A single bit that indicates that an unexpected split completion error has occurr
 A single bit that indicates that the delayed transaction discard timer has expired.
 
 
-#### - RsvdZ
-
-Reserved for system use.
-
-
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a target abort has been received.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that an uncorrectable attribute error has occurred.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that an uncorrectable address error has occurred.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that an uncorrectable data error has occurred.
-
-
 #### - InternalBridgeError
 
 A single bit that indicates that an internal bridge error has occurred.
-
-
-#### - PERRAsserted
-
-A single bit that indicates that a PERR# assertion was detected.
-
-
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that an uncorrectable split completion message data error has occurred.
-
-
-#### - SERRAsserted
-
-A single bit that indicates that a SERR# assertion was detected.
 
 
 #### - MasterAbortOnSplitCompletion
@@ -235,9 +110,34 @@ A single bit that indicates that a SERR# assertion was detected.
 A single bit that indicates that a master abort on split completion has occurred.
 
 
+#### - PERRAsserted
+
+A single bit that indicates that a PERR# assertion was detected.
+
+
 #### - ReceivedMasterAbort
 
 A single bit that indicates that a master abort has been received.
+
+
+#### - ReceivedTargetAbort
+
+A single bit that indicates that a target abort has been received.
+
+
+#### - Reserved
+
+Reserved for system use.
+
+
+#### - RsvdZ
+
+Reserved for system use.
+
+
+#### - SERRAsserted
+
+A single bit that indicates that a SERR# assertion was detected.
 
 
 #### - TargetAbortOnSplitCompletion
@@ -245,7 +145,33 @@ A single bit that indicates that a master abort has been received.
 A single bit that indicates that a target abort on split completion has occurred.
 
 
+#### - UncorrectableAddressError
+
+A single bit that indicates that an uncorrectable address error has occurred.
+
+
+#### - UncorrectableAttributeError
+
+A single bit that indicates that an uncorrectable attribute error has occurred.
+
+
+#### - UncorrectableDataError
+
+A single bit that indicates that an uncorrectable data error has occurred.
+
+
+#### - UncorrectableSplitCompletion
+
+A single bit that indicates that an uncorrectable split completion message data error has occurred.
+
+
+#### - UnexpectedSplitCompletionError
+
+A single bit that indicates that an unexpected split completion error has occurred.
+
+
 ## -remarks
+
 
 
 The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure is available in Windows Server 2008 and later versions of Windows.
@@ -254,13 +180,16 @@ A PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a hr
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

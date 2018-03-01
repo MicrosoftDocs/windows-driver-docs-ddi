@@ -7,8 +7,8 @@ old-location: netvista\rilmsgmwidetaillistparammask_2.htm
 old-project: netvista
 ms.assetid: 1b0777d4-8977-4dd2-a728-65f0e045efc8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgmwidetaillistparammask_2, rilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RILMSGMWIDETAILLISTPARAMMASK, RIL_PARAM_MWIDETAIL_REFNUM, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_ALL, RILMSGMWIDETAILLISTPARAMMASK, rilapitypes/RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS
+ms.date: 2/16/2018
+ms.keywords: RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, netvista.rilmsgmwidetaillistparammask_2, rilapitypes/RILMSGMWIDETAILLISTPARAMMASK, rilapitypes/RIL_PARAM_MWIDETAIL_ALL, rilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGMWIDETAILLISTPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGMWIDETAILLISTPARAMMASK {
 ### -field RIL_PARAM_MWIDETAIL_EXECUTOR
 
 
-
 ### -field RIL_PARAM_MWIDETAIL_REFNUM
-
 
 
 ### -field RIL_PARAM_MWIDETAIL_NUMDETAILITEMS
 
 
-
 ### -field RIL_PARAM_MWIDETAIL_DETAILITEMS
 
 
-
 ### -field RIL_PARAM_MWIDETAIL_ALL
-
 

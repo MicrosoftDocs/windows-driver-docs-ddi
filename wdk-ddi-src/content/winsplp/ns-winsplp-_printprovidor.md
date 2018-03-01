@@ -1,14 +1,14 @@
 ---
 UID: NS:winsplp._PRINTPROVIDOR
-title: _PRINTPROVIDOR
+title: "_PRINTPROVIDOR"
 author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\printprovidor.htm
 old-project: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], PRINTPROVIDOR, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, _PRINTPROVIDOR, print.printprovidor, LPPRINTPROVIDOR structure pointer [Print Devices], *LPPRINTPROVIDOR, winsplp/LPPRINTPROVIDOR
+ms.date: 2/23/2018
+ms.keywords: "*LPPRINTPROVIDOR, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	winsplp.h
-apiname: 
+api_name:
 -	PRINTPROVIDOR
 product: Windows
 targetos: Windows
@@ -481,6 +481,7 @@ typedef struct _PRINTPROVIDOR {
 ### -field fpOpenPrinter
 
 (Required.) Pointer to the provider's <b>OpenPrinter</b> function, which is described in the Microsoft Windows SDK documentation. However, at the provider level, this function must supply one of the DWORD return values listed in the following table.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -498,7 +499,8 @@ typedef struct _PRINTPROVIDOR {
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified printer. The function must call <b>SetLastError</b> and specify ERROR_INVALID_NAME.</td>
 </tr>
-</table> 
+</table>
+ 
 
 The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTER_STOP_ROUTING. If the provider returns ROUTER_SUCCESS, it must also return a unique handle. (For more information, see Introduction to Print Providers.) The router first attempts to call the provider's OpenPrinterEx function. If that function is not supported, the router calls OpenPrinter.
 
@@ -686,6 +688,7 @@ Obsolete. Must be <b>NULL</b>.
 ### -field fpEnumMonitors
 
 (Optional. Can be <b>NULL</b>.) Pointer to the provider's <b>EnumMonitors</b> function, which is described in the Windows SDK documentation. However, at the provider level this function must supply one of the DWORD return values listed in the following table.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -703,7 +706,8 @@ Obsolete. Must be <b>NULL</b>.
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified server.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fpEnumPorts
@@ -725,7 +729,8 @@ Obsolete. Must be <b>NULL</b>.
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified server.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fpAddPort
@@ -795,7 +800,7 @@ Not used. Must be <b>NULL</b>.
 
 ### -field fpFindFirstPrinterChangeNotification
 
-(Optional. Can be <b>NULL</b>.) Pointer to the provider's <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a> function (described in the Windows SDK documentation).
+(Optional. Can be <b>NULL</b>.) Pointer to the provider's <b>FindFirstPrinterChangeNotification</b> function (described in the Windows SDK documentation).
 
 
 ### -field fpFindClosePrinterChangeNotification
@@ -815,7 +820,7 @@ For internal use only. Must be <b>NULL</b>.
 
 ### -field fpRefreshPrinterChangeNotification
 
-(Optional. Can be <b>NULL</b>.) Pointer to the provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a> function.
+(Optional. Can be <b>NULL</b>.) Pointer to the provider's <b>RefreshPrinterChangeNotification</b> function.
 
 
 ### -field fpOpenPrinterEx
@@ -915,7 +920,7 @@ For internal use only. Must be <b>NULL</b>.
 
 ### -field fpXcvData
 
-(Optional. Can be <b>NULL</b>.) Pointer to the provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function.
+(Optional. Can be <b>NULL</b>.) Pointer to the provider's <b>XcvData</b> function.
 
 
 ### -field fpAddPrinterDriverEx
@@ -1029,28 +1034,41 @@ For internal use only. Must be <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Function pointers are listed in the order they are specified within the PRINTPROVIDOR structure. To see function descriptions grouped by related capabilities, see <a href="https://msdn.microsoft.com/4fae4b69-ed4b-47b6-b6e8-41733aed51a5">Functions Defined by Print Providers</a>.
 
 
 
-## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
-<a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PRINTPROVIDOR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20PRINTPROVIDOR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

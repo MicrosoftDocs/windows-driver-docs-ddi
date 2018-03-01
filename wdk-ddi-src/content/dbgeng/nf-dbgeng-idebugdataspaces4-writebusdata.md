@@ -7,8 +7,8 @@ old-location: debugger\writebusdata.htm
 old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: WriteBusData method [Windows Debugging], IDebugDataSpaces interface, WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces3::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces4::WriteBusData, debugger.writebusdata, dbgeng/IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, dbgeng/IDebugDataSpaces2::WriteBusData, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces::WriteBusData
+ms.date: 2/23/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3::WriteBusData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4::WriteBusData, IDebugDataSpaces::WriteBusData, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, WriteBusData method [Windows Debugging], WriteBusData method [Windows Debugging], IDebugDataSpaces interface, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, WriteBusData,IDebugDataSpaces4.WriteBusData, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, debugger.writebusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces.WriteBusData
 -	IDebugDataSpaces2.WriteBusData
 -	IDebugDataSpaces3.WriteBusData
 -	IDebugDataSpaces4.WriteBusData
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::WriteBusData method
@@ -114,7 +114,9 @@ Receives the number of bytes written to the bus.  If <i>BytesWritten</i> is <b>N
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,15 +133,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
 
 The nature of the data read from the bus is system, bus, and slot dependent.
+
 
 

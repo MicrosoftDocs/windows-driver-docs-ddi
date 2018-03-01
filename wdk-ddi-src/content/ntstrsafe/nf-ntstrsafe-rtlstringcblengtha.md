@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcblength.htm
 old-project: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, RtlStringCbLengthW, kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthW, RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthA, RtlStringCbLength, RtlStringCbLengthW function [Kernel-Mode Driver Architecture]
+ms.date: 2/24/2018
+ms.keywords: RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+api_name:
 -	RtlStringCbLengthW
 -	RtlStringCbLengthA
 -	RtlStringCbLengthW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbLengthA function
@@ -92,6 +92,7 @@ TBD
 
 
 
+
 #### - pcb [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in bytes, of the string that is contained in the buffer. The length does not include the string's terminating null character.
@@ -100,7 +101,9 @@ If the caller supplies a non-<b>NULL</b> address pointer, the function loads the
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,16 +131,20 @@ This <i>error</i> status means the value in <i>psz</i> is <b>NULL</b>, <i>cbMax<
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCbLengthW</b> and <b>RtlStringCbLengthA</b> should be used instead of <b>strlen</b>. Use these functions to ensure that a string is not larger than a given length, in bytes. If that condition is met, <b>RtlStringCbLengthW</b> and <b>RtlStringCbLengthA</b> return the current length of the string in bytes, not including those bytes used for the terminating null character.
 
 Use <b>RtlStringCbLengthW</b> to handle Unicode strings and <b>RtlStringCbLengthA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -172,9 +179,11 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
+
 
 
 
@@ -182,9 +191,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchlengthw.md">RtlStringCchLength</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbLengthW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbLengthW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

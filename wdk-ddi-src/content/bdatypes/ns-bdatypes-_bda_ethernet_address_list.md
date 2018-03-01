@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS_LIST
-title: _BDA_ETHERNET_ADDRESS_LIST
+title: "_BDA_ETHERNET_ADDRESS_LIST"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_ethernet_address_list.htm
 old-project: stream
 ms.assetid: 2985A0EC-4B5F-43FA-A2E9-487877A3C9A0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: *PBDA_ETHERNET_ADDRESS_LIST, bdatypes/PBDA_ETHERNET_ADDRESS_LIST, PBDA_ETHERNET_ADDRESS_LIST structure pointer [Streaming Media Devices], stream.bda_ethernet_address_list, _BDA_ETHERNET_ADDRESS_LIST, PBDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST structure [Streaming Media Devices], BDA_ETHERNET_ADDRESS_LIST, bdatypes/BDA_ETHERNET_ADDRESS_LIST
+ms.date: 2/23/2018
+ms.keywords: "*PBDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST, BDA_ETHERNET_ADDRESS_LIST structure [Streaming Media Devices], PBDA_ETHERNET_ADDRESS_LIST, PBDA_ETHERNET_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_ETHERNET_ADDRESS_LIST, bdatypes/BDA_ETHERNET_ADDRESS_LIST, bdatypes/PBDA_ETHERNET_ADDRESS_LIST, stream.bda_ethernet_address_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Bdatypes.h
-apiname: 
+api_name:
 -	BDA_ETHERNET_ADDRESS_LIST
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef struct _BDA_ETHERNET_ADDRESS_LIST {
 ### -field ulcAddresses
 
 
-
 ### -field rgAddressl
-
 

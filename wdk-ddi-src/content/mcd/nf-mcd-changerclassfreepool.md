@@ -7,8 +7,8 @@ old-location: storage\changerclassfreepool.htm
 old-project: storage
 ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mcd/ChangerClassFreePool, storage.changerclassfreepool, chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices]
+ms.date: 2/24/2018
+ms.keywords: ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices], chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, mcd/ChangerClassFreePool, storage.changerclassfreepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+api_name:
 -	ChangerClassFreePool
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ Pointer to the block of memory to be freed.
 ## -returns
 
 
+
 None
+
 
 
 
@@ -84,9 +86,11 @@ None
 
 <a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassFreePool routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassFreePool routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

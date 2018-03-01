@@ -7,8 +7,8 @@ old-location: wdf\wdfobjectcontextgetobject.htm
 old-project: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfObjectContextGetObject, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, PFN_WDFOBJECTCONTEXTGETOBJECT, WdfObjectContextGetObject, WdfObjectContextGetObject method
+ms.date: 2/20/2018
+ms.keywords: DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, WdfObjectContextGetObject, WdfObjectContextGetObject method, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+api_name:
 -	WdfObjectContextGetObject
 product: Windows
 targetos: Windows
@@ -81,14 +81,35 @@ A pointer to object context space. The driver can obtain this pointer by calling
 ## -returns
 
 
+
 <b>WdfObjectContextGetObject</b> returns a handle to a framework object. 
+
 
 
 
 ## -remarks
 
 
+
 For more information about object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>. 
+
+
+#### Examples
+
+The following code example obtains a handle to the framework object that a specified context space belongs to.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFDEVICE  device;
+
+device = WdfObjectContextGetObject(DeviceContext);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -96,9 +117,11 @@ For more information about object context space, see <a href="https://docs.micro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfObjectContextGetObject method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfObjectContextGetObject method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

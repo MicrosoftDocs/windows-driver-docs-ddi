@@ -7,8 +7,8 @@ old-location: debugger\attachkernelwide.htm
 old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient5::AttachKernelWide, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, debugger.attachkernelwide, AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5 interface [Windows Debugging], AttachKernelWide method
+ms.date: 2/23/2018
+ms.keywords: AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide,IDebugClient5.AttachKernelWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugClient5.AttachKernelWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AttachKernelWide method
@@ -71,6 +71,7 @@ HRESULT AttachKernelWide(
 ### -param Flags [in]
 
 Specifies the flags that control how the debugger attaches to the kernel target.  The possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +97,8 @@ Attach to a kernel by using an eXDI driver.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ConnectOptions [in, optional]
@@ -106,20 +108,24 @@ Specifies the connection settings for communicating with the computer running th
 
 
 
-##### - ConnectOptions.DEBUG_ATTACH_EXDI_DRIVER
 
-eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
-
-
-##### - ConnectOptions.DEBUG_ATTACH_KERNEL_CONNECTION
+#### DEBUG_ATTACH_KERNEL_CONNECTION
 
 <i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.  
+
+
+
+#### DEBUG_ATTACH_EXDI_DRIVER
+
+eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,30 +142,44 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>    The engine doesn't completely attach to the kernel until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  Only after the kernel has generated an event -- for example, the initial breakpoint -- does it become available in the debugger session.</div><div> </div>For more information about connecting to live kernel-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552005">Live Kernel-Mode Targets</a>.
+
+<div class="alert"><b>Note</b>    The engine doesn't completely attach to the kernel until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  Only after the kernel has generated an event -- for example, the initial breakpoint -- does it become available in the debugger session.</div>
+<div> </div>
+For more information about connecting to live kernel-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552005">Live Kernel-Mode Targets</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::AttachKernelWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::AttachKernelWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

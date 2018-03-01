@@ -7,8 +7,8 @@ old-location: stream\ksquality.htm
 old-project: stream
 ms.assetid: 36caaea9-2354-4ed8-9649-5eb102def8d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSQUALITY, ks/PKSQUALITY, KSQUALITY structure [Streaming Media Devices], PKSQUALITY structure pointer [Streaming Media Devices], ks/KSQUALITY, stream.ksquality, PKSQUALITY, ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, *PKSQUALITY
+ms.date: 2/23/2018
+ms.keywords: "*PKSQUALITY, KSQUALITY, KSQUALITY structure [Streaming Media Devices], PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/KSQUALITY, ks/PKSQUALITY, stream.ksquality"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSQUALITY
 product: Windows
 targetos: Windows
-req.typenames: *PKSQUALITY, KSQUALITY
+req.typenames: KSQUALITY, *PKSQUALITY
 ---
 
 # KSQUALITY structure

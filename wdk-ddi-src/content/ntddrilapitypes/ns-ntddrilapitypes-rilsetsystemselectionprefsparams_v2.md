@@ -7,8 +7,8 @@ old-location: netvista\rilsetsystemselectionprefsparams_v2.htm
 old-project: netvista
 ms.assetid: a480f376-c797-4cb8-99b1-bd7f3a3a2656
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILSETSYSTEMSELECTIONPREFSPARAMS, netvista.rilsetsystemselectionprefsparams_v2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v2, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILSETSYSTEMSELECTIONPREFSPARAMS_V2
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS
+req.typenames: RILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS
 ---
 
 # RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure
@@ -71,7 +71,5 @@ typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V2 {
 ### -field dwFlags
 
 
-
 ### -field rilSystemSelectionPrefs
-
 

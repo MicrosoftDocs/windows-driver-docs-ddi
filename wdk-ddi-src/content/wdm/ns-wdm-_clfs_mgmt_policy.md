@@ -1,14 +1,14 @@
 ---
 UID: NS:wdm._CLFS_MGMT_POLICY
-title: _CLFS_MGMT_POLICY
+title: "_CLFS_MGMT_POLICY"
 author: windows-driver-content
 description: The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log.
 old-location: kernel\clfs_mgmt_policy.htm
 old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: CLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], kernel.clfs_mgmt_policy, PCLFS_MGMT_POLICY, _CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_MGMT_POLICY
+ms.date: 2/24/2018
+ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wdm.h
-apiname: 
+api_name:
 -	CLFS_MGMT_POLICY
 product: Windows
 targetos: Windows
@@ -105,6 +105,26 @@ typedef struct _CLFS_MGMT_POLICY {
 ## -struct-fields
 
 
+
+
+### -field Version
+
+The version of the <b>CLFS_MGMT_POLICY</b> structure. Set this to <b>CLFS_MGMT_POLICY_VERSION</b>.
+
+
+### -field LengthInBytes
+
+The length of the <b>CLFS_MGMT_POLICY</b> structure.
+
+
+### -field PolicyFlags
+
+The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. The only flag that has been implemented for this release is <b>LOG_POLICY_OVERWRITE</b>, which indicates that when the policy is installed, it will replace the policy of the same type, if such a policy already exists.
+
+
+### -field PolicyType
+
+A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
 
 
 ### -field PolicyParameters
@@ -232,27 +252,8 @@ The length, in bytes, of the <b>ExtensionString</b> member.
 A wide-character string that contains the extension to the file name for each container in the log. Container file names are built using the format [prefix][suffix][.extension]. An extension is optional. The default extension is the empty string.
 
 
-### -field Version
-
-The version of the <b>CLFS_MGMT_POLICY</b> structure. Set this to <b>CLFS_MGMT_POLICY_VERSION</b>.
-
-
-### -field LengthInBytes
-
-The length of the <b>CLFS_MGMT_POLICY</b> structure.
-
-
-### -field PolicyFlags
-
-The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. The only flag that has been implemented for this release is <b>LOG_POLICY_OVERWRITE</b>, which indicates that when the policy is installed, it will replace the policy of the same type, if such a policy already exists.
-
-
-### -field PolicyType
-
-A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
-
-
 ## -remarks
+
 
 
 The way a <b>CLFS_MGMT_POLICY</b> structure is interpreted depends on the type of policy that the structure holds.
@@ -265,19 +266,28 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
 
 <a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
 
- 
+
+
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

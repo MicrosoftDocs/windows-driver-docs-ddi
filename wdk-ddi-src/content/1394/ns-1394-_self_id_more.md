@@ -1,14 +1,14 @@
 ---
 UID: NS:1394._SELF_ID_MORE
-title: _SELF_ID_MORE
+title: "_SELF_ID_MORE"
 author: windows-driver-content
 description: The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
 old-location: ieee\self_id_more.htm
 old-project: IEEE
 ms.assetid: d3c164a6-4830-4f1f-9fa5-5cd61e796e31
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PSELF_ID_MORE structure pointer [Buses], _SELF_ID_MORE, 1394/SELF_ID_MORE, 1394/PSELF_ID_MORE, SELF_ID_MORE structure [Buses], *PSELF_ID_MORE, IEEE.self_id_more, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, PSELF_ID_MORE, SELF_ID_MORE
+ms.date: 2/15/2018
+ms.keywords: "*PSELF_ID_MORE, 1394/PSELF_ID_MORE, 1394/SELF_ID_MORE, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, IEEE.self_id_more, PSELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses], SELF_ID_MORE, SELF_ID_MORE structure [Buses], _SELF_ID_MORE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	1394.h
-apiname: 
+api_name:
 -	SELF_ID_MORE
 product: Windows
 targetos: Windows
@@ -239,7 +239,9 @@ This member contains bits 6-7 of byte 3 of the self ID packet.
 ## -remarks
 
 
+
 This structure corresponds to self ID packet 1, as described in the <i>P1394a</i> specification. Note that type 2 self ID packets are identical to type 1 packets, except that the last five fields are replaced by a reserved area. The SELF_ID_MORE structure can be used to access all of the significant information in both type 1 and type 2 self ID packets. 
+
 
 
 
@@ -247,9 +249,11 @@ This structure corresponds to self ID packet 1, as described in the <i>P1394a</i
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID_MORE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID_MORE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

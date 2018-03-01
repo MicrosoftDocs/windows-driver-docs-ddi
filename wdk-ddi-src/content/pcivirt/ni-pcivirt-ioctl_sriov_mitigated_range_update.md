@@ -7,8 +7,8 @@ old-location: pci\ioctl-sriov-mitigated-range-update.htm
 old-project: PCI
 ms.assetid: f49e6d9e-0b62-4742-9868-1717f8482d9a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.ioctl-sriov-mitigated-range-update, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
+ms.date: 2/24/2018
+ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Pcivirt.h
-apiname: 
+api_name:
 -	IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_MITIGATED_RANGE_UPDATE IOCTL
@@ -70,35 +70,45 @@ A pointer to a <a href="https://msdn.microsoft.com/ae4936ac-9794-4854-81ec-2139b
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +118,7 @@ A pointer to a <a href="https://msdn.microsoft.com/ae4936ac-9794-4854-81ec-2139b
 
 
 ## -remarks
+
 
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
@@ -120,5 +131,6 @@ a particular VF.  When the VF completes the request, the PF completes the <b>IOC
 maps by sending <a href="https://msdn.microsoft.com/68fd97a5-b7ea-43c0-96ed-b64445fd21dd">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a> and
 <a href="https://msdn.microsoft.com/58b6e53d-be7a-4563-a27d-db216a12d60d">IOCTL_SRIOV_QUERY_MITIGATED_RANGES</a> requests.  The stack may additionally  call any
 user mode device simulation for additional ranges to mitigate. The <b>IOCTL_SRIOV_MITIGATED_RANGE_UPDATE</b> request is sent for each active virtual function.
+
 
 

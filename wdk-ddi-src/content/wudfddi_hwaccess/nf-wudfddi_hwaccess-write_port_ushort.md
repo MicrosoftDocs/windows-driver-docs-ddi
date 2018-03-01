@@ -7,8 +7,8 @@ old-location: wdf\write_port_ushort.htm
 old-project: wdf
 ms.assetid: 5AA1C8E1-A73B-47D1-A866-9F190CFD4597
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WRITE_PORT_USHORT function, umdf.write_port_ushort, wudfddi_hwaccess/WRITE_PORT_USHORT, WRITE_PORT_USHORT, wdf.write_port_ushort
+ms.date: 2/20/2018
+ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT function, umdf.write_port_ushort, wdf.write_port_ushort, wudfddi_hwaccess/WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Wudfddi_hwaccess.h
-apiname: 
+api_name:
 -	WRITE_PORT_USHORT
 product: Windows
 targetos: Windows
@@ -91,13 +91,17 @@ Specifies a USHORT value to be written to the port.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:wwan._WWAN_USSD_SESSION_STATE
-title: _WWAN_USSD_SESSION_STATE
+title: "_WWAN_USSD_SESSION_STATE"
 author: windows-driver-content
 description: The WWAN_USSD_SESSION_STATE enumeration lists the different types of USSD session states.
 old-location: netvista\wwan_ussd_session_state.htm
 old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanUssdSessionStateExisting, _WWAN_USSD_SESSION_STATE, WwanUssdSessionStateExisting, netvista.wwan_ussd_session_state, *PWWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew, WWAN_USSD_SESSION_STATE, wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanUssdSessionStateExisting, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	wwan.h
-apiname: 
+api_name:
 -	WWAN_USSD_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE
+req.typenames: WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,8 @@ The USSD string is not the first message of a USSD session.
 ## -remarks
 
 
+
 Miniport drivers use the WWAN_USSD_SESSION_STATE enumeration to indicate whether a USSD string is the first message of a USSD session. Miniport drivers must use <i>WwanUssdSessionStateNew</i> for the first message of a network-initiated USSD session. Miniport drivers should use <i>WwanUssdSessionStateExisting</i> in all other cases.
+
 
 

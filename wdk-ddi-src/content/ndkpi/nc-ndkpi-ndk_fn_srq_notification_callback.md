@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_srq_notification_callback.htm
 old-project: netvista
 ms.assetid: 3063F991-DDC5-4E52-979B-6CFCD11A604C
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndk_fn_srq_notification_callback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], NdkSrqNotificationCallback, NDK_FN_SRQ_NOTIFICATION_CALLBACK, NDK_FN_SRQ_NOTIFICATION_CALLBACK, ndkpi/NdkSrqNotificationCallback
+ms.date: 2/16/2018
+ms.keywords: NDK_FN_SRQ_NOTIFICATION_CALLBACK, NdkSrqNotificationCallback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqNotificationCallback, netvista.ndk_fn_srq_notification_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	ndkpi.h
-apiname: 
+api_name:
 -	NdkSrqNotificationCallback
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_SRQ_NOTIFICATION_CALLBACK callback
@@ -82,6 +82,7 @@ Indicates if a fatal SRQ error occurred. The following status codes are defined:
 
 
 
+
 <table>
 <tr>
 <th>Term</th>
@@ -108,19 +109,26 @@ A catastrophic error occurred on the SRQ. The SRQ is unusable. All of the associ
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div><div> </div>An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>)  functions.
+
+<div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div>
+<div> </div>
+An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>)  functions.
+
 
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtloplockbreaktonone.htm
 old-project: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtloplockbreaktonone, fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, FsRtlOplockBreakToNone function [Installable File System Drivers], ntifs/FsRtlOplockBreakToNone, FsRtlOplockBreakToNone
+ms.date: 2/16/2018
+ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntifs.h
-apiname: 
+api_name:
 -	FsRtlOplockBreakToNone
 product: Windows
 targetos: Windows

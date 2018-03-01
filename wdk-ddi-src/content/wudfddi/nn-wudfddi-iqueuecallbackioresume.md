@@ -7,8 +7,8 @@ old-location: wdf\iqueuecallbackioresume.htm
 old-project: wdf
 ms.assetid: 3f27f104-7a06-4f81-9605-2a47c7de7e01
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iqueuecallbackioresume, IQueueCallbackIoResume interface, IQueueCallbackIoResume interface, described, IQueueCallbackIoResume, wudfddi/IQueueCallbackIoResume, UMDFQueueObjectRef_3ee832e4-15ba-4c39-bb77-38ebbc91983d.xml, umdf.iqueuecallbackioresume
+ms.date: 2/20/2018
+ms.keywords: IQueueCallbackIoResume, IQueueCallbackIoResume interface, IQueueCallbackIoResume interface, described, UMDFQueueObjectRef_3ee832e4-15ba-4c39-bb77-38ebbc91983d.xml, umdf.iqueuecallbackioresume, wdf.iqueuecallbackioresume, wudfddi/IQueueCallbackIoResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wudfddi.h
-apiname: 
+api_name:
 -	IQueueCallbackIoResume
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -56,6 +56,13 @@ The <b>IQueueCallbackIoResume</b> interface contains a method that resumes the p
 
 A driver registers the <b>IQueueCallbackIoResume</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackIoResume</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackIoResume</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -74,7 +81,5 @@ The <a href="https://msdn.microsoft.com/d34f6e2c-4227-41bb-a1c0-f6206daa700b">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/d34f6e2c-4227-41bb-a1c0-f6206daa700b">OnIoResume</a> method resumes the processing of the specified I/O request from the specified queue. 
-
- 
+</table> 
 

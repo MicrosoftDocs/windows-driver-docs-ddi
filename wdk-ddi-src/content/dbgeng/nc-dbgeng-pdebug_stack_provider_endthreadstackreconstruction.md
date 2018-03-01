@@ -7,8 +7,8 @@ old-location: debugger\endthreadstackreconstruction.htm
 old-project: debugger
 ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.endthreadstackreconstruction, EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], EndThreadStackReconstruction, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction
+ms.date: 2/23/2018
+ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	EndThreadStackReconstruction
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback
@@ -81,16 +81,22 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
 
 
 
+
+
 ## -returns
+
 
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
 
 
+
 <i>EndThreadStackReconstruction</i> is called <b>PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION</b> in the Dbgeng.h header file.
+
 
 

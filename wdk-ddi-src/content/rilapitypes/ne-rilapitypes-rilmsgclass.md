@@ -7,8 +7,8 @@ old-location: netvista\rilmsgclass_2.htm
 old-project: netvista
 ms.assetid: 95818f9a-9053-4fb3-8bcb-6e318ed6bae5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_ALL, RILMSGCLASS, RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_OUTGOING, rilapitypes/RIL_MSGCLASS_INCOMING, rilapitypes/RILMSGCLASS, RIL_MSGCLASS_ALL, netvista.rilmsgclass_2, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGCLASS_OUTGOING
+ms.date: 2/16/2018
+ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_OUTGOING, netvista.rilmsgclass_2, rilapitypes/RILMSGCLASS, rilapitypes/RIL_MSGCLASS_ALL, rilapitypes/RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILMSGCLASS
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGCLASS {
 ### -field RIL_MSGCLASS_NONE
 
 
-
 ### -field RIL_MSGCLASS_INCOMING
-
 
 
 ### -field RIL_MSGCLASS_OUTGOING
 
 
-
 ### -field RIL_MSGCLASS_BROADCAST
 
 
-
 ### -field RIL_MSGCLASS_ALL
-
 

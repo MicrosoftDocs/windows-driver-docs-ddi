@@ -1,21 +1,21 @@
 ---
 UID: NS:windot11._DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
-title: _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
+title: "_DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
 author: windows-driver-content
 description: The DOT11_POWER_MGMT_AUTO_MODE_ENABLED structure describes to a device whether to automatically manage its power saving mode.
 old-location: netvista\dot11_power_mgmt_auto_mode_enabled_info.htm
 old-project: netvista
 ms.assetid: 9C75544F-A14C-4741-91FC-434AE1872A6E
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, netvista.dot11_power_mgmt_auto_mode_enabled_info, _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, windot11/PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, *PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, netvista.dot11_power_mgmt_auto_mode_enabled_info, windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, windot11/PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	Windot11.h
-apiname: 
+api_name:
 -	DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO {
 ### -field Header
 
 The type, revision, and size of the DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -89,7 +90,8 @@ The type, revision, and size of the DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO stru
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_POWER_MGMT_AUTO_MODE_ENABLE_INFO_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bEnabled
@@ -100,6 +102,8 @@ Windows sets this member to TRUE to indicate to the device to automatically mana
 ## -remarks
 
 
+
 When Windows sets the device to auto power saving mode, devices must remain in this mode until Windows issues another request with <b>bEnabled</b> set to FALSE. In auto power saving mode, Windows may issue a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a><i>set</i> request that hardware can use as a hint to adjust its power management.
+
 
 

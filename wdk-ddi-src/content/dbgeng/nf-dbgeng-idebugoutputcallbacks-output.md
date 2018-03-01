@@ -7,8 +7,8 @@ old-location: debugger\idebugoutputcallbacks_output.htm
 old-project: debugger
 ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacks interface, ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, debugger.idebugoutputcallbacks_output, IDebugOutputCallbacks::Output, dbgeng/IDebugOutputCallbacks::Output, Output, IDebugOutputCallbacks interface [Windows Debugging], Output method, IDebugOutputCallbacks
+ms.date: 2/23/2018
+ms.keywords: ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], Output method, IDebugOutputCallbacks::Output, Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacks interface, Output,IDebugOutputCallbacks.Output, dbgeng/IDebugOutputCallbacks::Output, debugger.idebugoutputcallbacks_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugOutputCallbacks.Output
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputCallbacks::Output method
@@ -81,15 +81,19 @@ Specifies the output that is being sent.
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
+
 
 
 
 ## -remarks
 
 
+
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
 For more information about debugger engine output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

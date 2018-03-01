@@ -7,8 +7,8 @@ old-location: stream\kspriority.htm
 old-project: stream
 ms.assetid: 3bbef5f6-f859-4528-b044-baf8f99c2c2f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSPRIORITY, *PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], ks/PKSPRIORITY, ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, PKSPRIORITY structure pointer [Streaming Media Devices], stream.kspriority, ks/KSPRIORITY
+ms.date: 2/23/2018
+ms.keywords: "*PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], PKSPRIORITY, PKSPRIORITY structure pointer [Streaming Media Devices], ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, ks/KSPRIORITY, ks/PKSPRIORITY, stream.kspriority"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	KSPRIORITY
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ typedef struct {
 ### -field PriorityClass
 
 Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is least priority and 0xFFFFFFFF is the highest priority. Zero is reserved for future use. When setting a class value, 0xFFFFFFFF is used to indicate exclusive access to the resources consumed by the pin. Possible values are listed in the following table.
+
 <table>
 <tr>
 <th>PriorityClass</th>
@@ -116,7 +117,8 @@ Specifies the highest priority, which implies exclusive access to resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PrioritySubClass
@@ -127,21 +129,27 @@ Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is the least priority w
 ## -remarks
 
 
+
 The KSPRIORITY.PrioritySubClass member allows a client to set exclusive use of resources consumed by a pin and also to prioritize the use of those resources by the client's pins within that exclusive class. The initial priority of a pin is set by the connection request typically performed through <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>, and is usually KSPRIORITY_NORMAL, with a subclass priority of 1. A pin uses these priorities as parameters when allocating shared resources from any component managing resources. Resource allocation occurs when formats are set on pins.
 
 If the removal of resources by a higher priority client causes the filter pin to fail, the client must be notified through the KSEVENT_CONNECTION_PRIORITY event (assuming that the client had registered for event notification of this type).
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+## -see-also
 
 <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPRIORITY structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPRIORITY structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

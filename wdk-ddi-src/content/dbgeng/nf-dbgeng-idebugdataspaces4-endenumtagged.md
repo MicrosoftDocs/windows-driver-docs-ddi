@@ -7,8 +7,8 @@ old-location: debugger\endenumtagged.htm
 old-project: debugger
 ms.assetid: 6a456b8c-aec6-443d-8db4-21e7715ab818
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces4::EndEnumTagged, EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging], IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, IDebugDataSpaces4, IDebugDataSpaces4::EndEnumTagged, EndEnumTagged, debugger.endenumtagged, IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::EndEnumTagged
+ms.date: 2/23/2018
+ms.keywords: EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, EndEnumTagged,IDebugDataSpaces4.EndEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, debugger.endenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	dbgeng.h
-apiname: 
+api_name:
 -	IDebugDataSpaces3.EndEnumTagged
 -	IDebugDataSpaces4.EndEnumTagged
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::EndEnumTagged method
@@ -76,7 +76,9 @@ Specifies the handle identifying the enumeration.  This is the handle returned b
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +95,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After a handle has been passed to this method it is no longer valid and must not be used again.
+
 
 

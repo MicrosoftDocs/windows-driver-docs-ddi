@@ -7,8 +7,8 @@ old-location: netvista\protocolsetoptions.htm
 old-project: netvista
 ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.protocolsetoptions, SetOptions callback function [Network Drivers Starting with Windows Vista], SetOptions, SET_OPTIONS, SET_OPTIONS, ndis/SetOptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
+ms.date: 2/16/2018
+ms.keywords: SET_OPTIONS, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	Ndis.h
-apiname: 
+api_name:
 -	SetOptions
 product: Windows
 targetos: Windows
@@ -75,10 +75,10 @@ NDIS_STATUS SetOptions(
 
 ### -param NdisDriverHandle [in]
 
-A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> for miniport drivers, <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> for protocol drivers, and <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><b>
-     NdisFRegisterFilterDriver</b></mshelp:link> for filter drivers).
+A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+     NdisFRegisterFilterDriver</a> for filter drivers).
 
 
 ### -param DriverContext [in]
@@ -90,7 +90,9 @@ The handle that the driver passed to
 ## -returns
 
 
+
 <i>XxxSetOptions</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ The driver's attempt to register options failed. Usually, such an error status i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>XxxSetOptions</i> is an optional function. NDIS calls 
@@ -157,39 +162,39 @@ The driver's attempt to register options failed. Usually, such an error status i
 Miniport drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+       NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+       NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_generic_characteristics" tabindex="0"><b>
-      NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>(see 
-      <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-      documentation</mshelp:link>)
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics.md">
+      NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>(see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+      documentation</a>)
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_tcp_characteristics" tabindex="0"><b>
-      NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>(see 
-      <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-      documentation</mshelp:link>)
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics.md">
+      NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>(see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+      documentation</a>)
 
 </dd>
 </dl>
@@ -198,22 +203,22 @@ Miniport drivers can apply to the optional services defined in the following cha
 Protocol drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-       NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+       NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 </dd>
@@ -245,7 +250,9 @@ Miniport and filter drivers' <i>XxxDriverUnload</i> should undo all the operatio
 
 NDIS calls 
     <i>XxxSetOptions</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>XxxSetOptions</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>XxxSetOptions</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 In the Ndis.h header file, the SET_OPTIONS callback function is further defined as follows:<pre class="syntax" xml:space="preserve"><code>typedef SET_OPTIONS (*SET_OPTIONS_HANDLER);
 typedef SET_OPTIONS (MINIPORT_SET_OPTIONS);
@@ -253,6 +260,7 @@ typedef SET_OPTIONS (PROTOCOL_SET_OPTIONS);
 typedef SET_OPTIONS (FILTER_SET_OPTIONS);</code></pre>This enables all NDIS drivers to implement their XxxSetOptions callback functions with the same syntax. Miniport drivers use the <b>MINIPORT_SET_OPTIONS</b> type, protocol drivers use the <b>PROTOCOL_SET_OPTIONS</b> type, and filter drivers use the <b>FILTER_SET_OPTIONS</b> type.
 
 For example, to define a <i>MiniportSetOptions</i> function that is named "MySetOptions", use the <b>MINIPORT_SET_OPTIONS</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -262,7 +270,9 @@ For example, to define a <i>MiniportSetOptions</i> function that is named "MySet
 <pre>MINIPORT_SET_OPTIONS MySetOptions;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -278,34 +288,50 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>SET_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>SET_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>SET_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>SET_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20SET_OPTIONS callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20SET_OPTIONS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\addflags.htm
 old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], AddFlags method, debugger.addflags, IDebugBreakpoint2, IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, AddFlags method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::AddFlags, IDebugBreakpoint2::AddFlags, AddFlags method [Windows Debugging], AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags
+ms.date: 2/23/2018
+ms.keywords: AddFlags method [Windows Debugging], AddFlags method [Windows Debugging], IDebugBreakpoint interface, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags,IDebugBreakpoint2.AddFlags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint interface [Windows Debugging], AddFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2::AddFlags, IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint::AddFlags, debugger.addflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	Dbgeng.h
-apiname: 
+api_name:
 -	IDebugBreakpoint.AddFlags
 -	IDebugBreakpoint2.AddFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::AddFlags method
@@ -76,6 +76,7 @@ Additional flags to add to the breakpoint.  <i>Flags</i> is a bit field that is 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,15 +93,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

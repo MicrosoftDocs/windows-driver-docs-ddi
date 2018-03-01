@@ -7,8 +7,8 @@ old-location: netvista\riluicccardinfo.htm
 old-project: netvista
 ms.assetid: 761f1ab6-75e6-4c40-b79c-01f2e92df495
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCCARDINFO, ntddrilapitypes/RILUICCCARDINFO, netvista.riluicccardinfo, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], *LPRILUICCCARDINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILUICCCARDINFO, RILUICCCARDINFO, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], netvista.riluicccardinfo, ntddrilapitypes/RILUICCCARDINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	ntddrilapitypes.h
-apiname: 
+api_name:
 -	RILUICCCARDINFO
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef struct _RILUICCCARDINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field fIsVirtualCard
 
 
-
 ### -field IccId
-
 
 
 ### -field dwNumApps
 
 
-
 ### -field AppInfo
-
 

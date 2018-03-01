@@ -7,8 +7,8 @@ old-location: netvista\rildisplayinfoparammask_2.htm
 old-project: netvista
 ms.assetid: d8bd093d-ad95-488e-a057-b96fecf58bbb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILDISPLAYINFOPARAMMASK, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_MESSAGESIZE, netvista.rildisplayinfoparammask_2, rilapitypes/RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_MESSAGE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RILDISPLAYINFOPARAMMASK, RIL_PARAM_DISPLAY_ALL, rilapitypes/RIL_PARAM_DISPLAY_TYPE, rilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_TYPE, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask_2, rilapitypes/RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_ALL, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapitypes.h
-apiname: 
+api_name:
 -	RILDISPLAYINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILDISPLAYINFOPARAMMASK {
 ### -field RIL_PARAM_DISPLAY_EXECUTOR
 
 
-
 ### -field RIL_PARAM_DISPLAY_TYPE
-
 
 
 ### -field RIL_PARAM_DISPLAY_TAG
 
 
-
 ### -field RIL_PARAM_DISPLAY_MESSAGESIZE
-
 
 
 ### -field RIL_PARAM_DISPLAY_MESSAGE
 
 
-
 ### -field RIL_PARAM_DISPLAY_ALL
-
 

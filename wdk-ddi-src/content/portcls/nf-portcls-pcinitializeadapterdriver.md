@@ -7,8 +7,8 @@ old-location: audio\pcinitializeadapterdriver.htm
 old-project: audio
 ms.assetid: c9d019da-a05b-4c60-99e9-06b8537fa78e
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PcInitializeAdapterDriver function [Audio Devices], PcInitializeAdapterDriver, portcls/PcInitializeAdapterDriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, audio.pcinitializeadapterdriver
+ms.date: 2/22/2018
+ms.keywords: PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, portcls/PcInitializeAdapterDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+api_name:
 -	PcInitializeAdapterDriver
 product: Windows
 targetos: Windows
@@ -72,17 +72,18 @@ NTSTATUS PcInitializeAdapterDriver(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object, which is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function.
+Pointer to the driver object, which is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function.
 
 
 ### -param RegistryPathName [in]
 
-Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function.
+Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function.
 
 
 ### -param AddDevice [in]
 
 Pointer to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function. This is a pointer of type PDRIVER_ADD_DEVICE, which is defined in ntddk.h to be:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -101,16 +102,20 @@ Pointer to the adapter's <a href="https://msdn.microsoft.com/library/windows/har
 ## -returns
 
 
+
 <b>PcInitializeAdapterDriver</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler supplied in the call to this function should call <a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>. For more information, see <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>.
 
 The <b>PcInitializeAdapterDriver</b> function loads pointers to handlers for the following IRPs into the driver object:
+
 <ul>
 <li>
 IRP_MJ_CLOSE
@@ -156,27 +161,39 @@ IRP_MJ_SYSTEM_CONTROL
 IRP_MJ_WRITE
 
 </li>
-</ul>PortCls uses its own internal handlers for the CREATE, PNP, POWER, and SYSTEM_CONTROL IRPs above. It uses the default KS handlers for the other seven IRPs.
+</ul>
+PortCls uses its own internal handlers for the CREATE, PNP, POWER, and SYSTEM_CONTROL IRPs above. It uses the default KS handlers for the other seven IRPs.
 
 An adapter driver that overwrites one or more of the pointers above with a pointer to its own IRP handler can call <a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a> from within its handler routine in order to forward the IRP to PortCls. For a code example, see the SB16 sample audio driver in the Microsoft Windows Driver Kit (WDK).
 
 
 
-## -see-also
 
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
+
+
 <a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcInitializeAdapterDriver function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcInitializeAdapterDriver function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

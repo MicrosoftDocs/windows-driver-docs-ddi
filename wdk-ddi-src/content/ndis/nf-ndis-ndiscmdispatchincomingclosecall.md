@@ -7,8 +7,8 @@ old-location: netvista\ndiscmdispatchincomingclosecall.htm
 old-project: netvista
 ms.assetid: f0f1221d-3d95-4d4c-acd0-6bcd653241c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], netvista.ndiscmdispatchincomingclosecall, ndis/NdisCmDispatchIncomingCloseCall, condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, NdisCmDispatchIncomingCloseCall
+ms.date: 2/16/2018
+ms.keywords: NdisCmDispatchIncomingCloseCall, NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, ndis/NdisCmDispatchIncomingCloseCall, netvista.ndiscmdispatchincomingclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	LibDef
-apilocation: 
+api_location:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+api_name:
 -	NdisCmDispatchIncomingCloseCall
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmDispatchIncomingCloseCall function
@@ -101,11 +101,14 @@ Specifies the size in bytes of the buffer, zero if
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In the course of normal network operations, a stand-alone CM calls 
@@ -116,11 +119,12 @@ In the course of normal network operations, a stand-alone CM calls
 
 However, a call manager also can call 
     <b>NdisCmDispatchIncomingCloseCall</b> if either of the following occurs:
+
 <ul>
 <li>
 The call manager has notified a client of an incoming call offer. When the CM's 
-      <mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-      ProtocolCmIncomingCallComplete</i></mshelp:link> function is called with the client's acceptance, it validates the
+      <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+      ProtocolCmIncomingCallComplete</a> function is called with the client's acceptance, it validates the
       input call parameters, which that client has modified. 
       <i>ProtocolCmIncomingCallComplete</i> determines that the client is proposing unsupportable call
       parameters for the connection, so it calls 
@@ -135,45 +139,61 @@ Abormal network conditions force the call manager to tear down active calls. For
       transfers on such a broken connection.
 
 </li>
-</ul>After tearing down any call, the original creator of the VC is responsible for calling 
+</ul>
+After tearing down any call, the original creator of the VC is responsible for calling 
     <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> after releasing any
     additional resources it had associated with the VC.
 
 A call to 
     <b>NdisCmDispatchIncomingCloseCall</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclincomingclosecall" tabindex="0"><i>
-    ProtocolClIncomingCloseCall</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    ProtocolClIncomingCloseCall</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmDispatchIncomingCloseCall</b>. Connection-oriented miniport drivers that provide call-management
     support call 
-    <mshelp:link keywords="netvista.ndismcmdispatchincomingcall" tabindex="0"><b>
-    NdisMCmDispatchIncomingCall</b></mshelp:link> instead.
+    <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
+    NdisMCmDispatchIncomingCall</a> instead.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
-   NdisCmDispatchIncomingDropParty</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+   NdisMCmDispatchIncomingCloseCall</a>
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
 
- 
+
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+   NdisCmDispatchIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmDispatchIncomingCloseCall function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCmDispatchIncomingCloseCall function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

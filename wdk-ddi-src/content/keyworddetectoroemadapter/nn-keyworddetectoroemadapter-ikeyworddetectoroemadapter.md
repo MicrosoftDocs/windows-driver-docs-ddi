@@ -7,8 +7,8 @@ old-location: audio\ikeyworddetectoroemadapter.htm
 old-project: audio
 ms.assetid: FB243792-C0B0-4BCA-B4C4-B6E17FDB615C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.ikeyworddetectoroemadapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], described, IKeywordDetectorOemAdapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
+ms.date: 2/22/2018
+ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], described, audio.ikeyworddetectoroemadapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	keyworddetectoroemadapter.h
-apiname: 
+api_name:
 -	IKeywordDetectorOemAdapter
 product: Windows
 targetos: Windows

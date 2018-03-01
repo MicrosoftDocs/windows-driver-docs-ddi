@@ -7,8 +7,8 @@ old-location: netvista\ril_readphonebookentries.htm
 old-project: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_readphonebookentries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], RIL_ReadPhonebookEntries, rilapi/RIL_ReadPhonebookEntries
+ms.date: 2/16/2018
+ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	rilapi.h
-apiname: 
+api_name:
 -	RIL_ReadPhonebookEntries
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_ReadPhonebookEntries(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwStoreLocation
-
 
 
 ### -param dwStartIndex
 
 
-
 ### -param dwEndIndex
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

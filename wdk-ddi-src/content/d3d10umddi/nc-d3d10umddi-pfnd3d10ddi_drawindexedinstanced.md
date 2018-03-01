@@ -7,8 +7,8 @@ old-location: display\drawindexedinstanced.htm
 old-project: display
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.drawindexedinstanced, DrawIndexedInstanced callback function [Display Devices], DrawIndexedInstanced, PFND3D10DDI_DRAWINDEXEDINSTANCED, PFND3D10DDI_DRAWINDEXEDINSTANCED, d3d10umddi/DrawIndexedInstanced, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml
+ms.date: 2/24/2018
+ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	d3d10umddi.h
-apiname: 
+api_name:
 -	DrawIndexedInstanced
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_DRAWINDEXEDINSTANCED callback
@@ -78,8 +78,9 @@ VOID APIENTRY DrawIndexedInstanced(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param UINT
+
+
 
 
 
@@ -89,20 +90,14 @@ VOID APIENTRY DrawIndexedInstanced(
 ### -param INT
 
 
+#### - BaseVertexLocation [in]
+
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+
 
 #### - IndexCountPerInstance [in]
 
 The number of indexes per instance of the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - StartInstanceLocation [in]
-
-The first instance of the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 #### - InstanceCount [in]
@@ -115,12 +110,18 @@ The number of instances of the index buffer that indexes are read from to draw t
 The first index in the index buffer that indexes are read from to draw the primitives. 
 
 
-#### - BaseVertexLocation [in]
+#### - StartInstanceLocation [in]
 
-The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+The first instance of the index buffer that indexes are read from to draw the primitives. 
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
 
 
 ## -returns
+
 
 
 None
@@ -131,22 +132,29 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>DrawIndexedInstanced</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
- 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_DRAWINDEXEDINSTANCED callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_DRAWINDEXEDINSTANCED callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

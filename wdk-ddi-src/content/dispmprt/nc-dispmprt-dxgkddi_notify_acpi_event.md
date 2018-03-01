@@ -7,8 +7,8 @@ old-location: display\dxgkddinotifyacpievent.htm
 old-project: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkddinotifyacpievent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], DxgkDdiNotifyAcpiEvent, DXGKDDI_NOTIFY_ACPI_EVENT, DXGKDDI_NOTIFY_ACPI_EVENT, dispmprt/DxgkDdiNotifyAcpiEvent, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml
+ms.date: 2/24/2018
+ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	UserDefined
-apilocation: 
+api_location:
 -	dispmprt.h
-apiname: 
+api_name:
 -	DxgkDdiNotifyAcpiEvent
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ A <a href="..\dispmprt\ne-dispmprt-_dxgk_event_type.md">DXGK_EVENT_TYPE</a> enum
 ### -param Event [in]
 
 The event number. The following table lists the possible event numbers for each of the event types.
+
 <table>
 <tr>
 <th>Event type</th>
@@ -135,12 +136,14 @@ Defined in <i>Dispmprt.h</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Argument [in]
 
 A pointer to an argument that depends on the event. For most events, this will be <b>NULL</b>. The following table shows the event arguments, which are ULONG values, for specified event numbers that are available.
+
 <table>
 <tr>
 <th>Event number</th>
@@ -170,12 +173,14 @@ PO_CB_LID_SWITCH_STATE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param AcpiFlags [out]
 
 A pointer to a value that indicates the type of request that the display miniport driver should make to the operating system. The following table shows the values that can be specified.
+
 <table>
 <tr>
 <th>Value</th>
@@ -201,7 +206,8 @@ The display miniport driver makes a request to the operating system to poll the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This parameter is ignored if this function returns an error or if the display adapter loses power. 
 
@@ -209,11 +215,14 @@ This parameter is ignored if this function returns an error or if the display ad
 ## -returns
 
 
+
 <i>DxgkDdiNotifyAcpiEvent</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiNotifyAcpiEvent</i> is an optional display miniport driver function.
@@ -222,13 +231,16 @@ This parameter is ignored if this function returns an error or if the display ad
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_eval_acpi_method.md">DxgkCbEvalAcpiMethod</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_NOTIFY_ACPI_EVENT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_NOTIFY_ACPI_EVENT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

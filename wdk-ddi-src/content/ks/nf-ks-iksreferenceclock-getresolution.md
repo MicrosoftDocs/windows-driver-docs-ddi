@@ -7,8 +7,8 @@ old-location: stream\iksreferenceclock_getresolution.htm
 old-project: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, GetResolution, GetResolution method [Streaming Media Devices], stream.iksreferenceclock_getresolution, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, GetResolution method [Streaming Media Devices], IKsReferenceClock interface
+ms.date: 2/23/2018
+ms.keywords: GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices], IKsReferenceClock interface, GetResolution,IKsReferenceClock.GetResolution, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	ks.h
-apiname: 
+api_name:
 -	IKsReferenceClock.GetResolution
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Specifies granularity and notification error of the clock in a <a href="..\ks\ns
 ## -returns
 
 
+
 The <b>IKsReferenceClock::GetResolution</b> method returns STATUS_SUCCESS or the error code that the relevant clock returned from its <b>GetResolution</b> property. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>. May return STATUS_DEVICE_NOT_READY if no clock is assigned.
 
 
 
+
 ## -remarks
+
 
 
 This method retrieves the underlying clock's resolution property, which specifies the clock's increment granularity and notification error in 100-nanosecond units. The finest granularity is one unit; less granular increments contain larger numbers.
@@ -92,13 +95,16 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetResolution method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsReferenceClock::GetResolution method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

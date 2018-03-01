@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-title: _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
+title: "_D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
 author: windows-driver-content
 description: A structure that holds information to query the physical adapter PNP key.
 old-location: display\d3dkmt_query_physical_adapter_pnp_key.htm
 old-project: display
 ms.assetid: 58E5D200-56C3-48BA-A7C9-C9DC01592554
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_query_physical_adapter_pnp_key, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
+ms.date: 2/24/2018
+ms.keywords: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, display.d3dkmt_query_physical_adapter_pnp_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	d3dkmthk.h
-apiname: 
+api_name:
 -	D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 product: Windows
 targetos: Windows

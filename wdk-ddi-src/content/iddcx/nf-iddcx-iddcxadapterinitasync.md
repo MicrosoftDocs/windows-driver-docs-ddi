@@ -7,8 +7,8 @@ old-location: display\iddcxadapterinitasync.htm
 old-project: display
 ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, IddCxAdapterInitAsync, iddcx/IddCxAdapterInitAsync
+ms.date: 2/24/2018
+ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _Must_inspect_result_
-topictype: 
+req.irql: "_Must_inspect_result_"
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	HeaderDef
-apilocation: 
+api_location:
 -	iddcx.h
-apiname: 
+api_name:
 -	IddCxAdapterInitAsync
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Output arguments to the function
 
 
 
+
 (NTSTATUS) The method returns S_OK if the operation succeeds. Otherwise, this method returns an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

@@ -7,8 +7,8 @@ old-location: image\iwiaimagefilter_filterpreviewimage.htm
 old-project: image
 ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, FilterPreviewImage method [Imaging Devices], FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, IWiaImageFilter, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage, FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface
+ms.date: 2/23/2018
+ms.keywords: FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, FilterPreviewImage,IWiaImageFilter.FilterPreviewImage, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	COM
-apilocation: 
+api_location:
 -	wia_lh.h
-apiname: 
+api_name:
 -	IWiaImageFilter.FilterPreviewImage
 product: Windows
 targetos: Windows
@@ -95,15 +95,19 @@ Pointer to the IStream preview image.
 ## -returns
 
 
+
 Returns S_OK on success, or a standard COM error code on failure.
+
 
 
 
 ## -remarks
 
 
+
 This method cannot be invoked directly by the application.
 
 The <b>IStream </b>and <b>IWiaPreview</b> interfaces are described in the Microsoft Windows SDK documentation.
+
 
 

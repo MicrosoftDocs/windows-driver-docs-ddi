@@ -7,8 +7,8 @@ old-location: kernel\psterminatesystemthread.htm
 old-project: kernel
 ms.assetid: 04f9f699-0ca1-4b22-b66f-04fcf53935c4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], kernel.psterminatesystemthread, PsTerminateSystemThread, k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml
+ms.date: 2/24/2018
+ms.keywords: PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml, kernel.psterminatesystemthread, wdm/PsTerminateSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype: 
+api_type:
 -	DllExport
-apilocation: 
+api_location:
 -	NtosKrnl.exe
-apiname: 
+api_name:
 -	PsTerminateSystemThread
 product: Windows
 targetos: Windows
@@ -76,14 +76,18 @@ Specifies the status of the terminating system thread.
 ## -returns
 
 
+
 <b>PsTerminateSystemThread</b> does not return if it successfully terminates the calling thread. If the routine cannot terminate the thread (for example, if the thread is not a system thread), the routine returns an error NTSTATUS value. 
+
 
 
 
 ## -remarks
 
 
+
 A system thread calls <b>PsTerminateSystemThread</b> to terminate itself. A driver that creates its own threads must ensure that each such thread terminates. The driver must not terminate any threads that the system or other drivers created. 
+
 
 
 
@@ -91,9 +95,11 @@ A system thread calls <b>PsTerminateSystemThread</b> to terminate itself. A driv
 
 <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsTerminateSystemThread routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsTerminateSystemThread routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 
