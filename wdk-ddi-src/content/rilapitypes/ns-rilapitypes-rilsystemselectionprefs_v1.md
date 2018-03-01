@@ -7,7 +7,7 @@ old-location: netvista\rilsystemselectionprefs_v1_2.htm
 old-project: netvista
 ms.assetid: 19af0039-a2dd-49a4-ad93-1858288d00cd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1_2, rilapitypes/RILSYSTEMSELECTIONPREFS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

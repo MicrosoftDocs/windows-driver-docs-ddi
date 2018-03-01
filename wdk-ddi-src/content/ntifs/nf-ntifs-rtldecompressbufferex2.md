@@ -274,7 +274,7 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 
 
@@ -282,11 +282,11 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 
 

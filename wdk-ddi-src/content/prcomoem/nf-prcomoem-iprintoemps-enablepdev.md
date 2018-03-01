@@ -7,7 +7,7 @@ old-location: print\iprintoemps_enablepdev.htm
 old-project: print
 ms.assetid: f284e89f-463e-4d04-8018-5ce02786d921
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EnablePDEV method [Print Devices], EnablePDEV method [Print Devices], IPrintOemPS interface, EnablePDEV,IPrintOemPS.EnablePDEV, IPrintOemPS, IPrintOemPS interface [Print Devices], EnablePDEV method, IPrintOemPS::EnablePDEV, prcomoem/IPrintOemPS::EnablePDEV, print.iprintoemps_enablepdev, print_unidrv-pscript_rendering_0dc37946-9232-422e-99f0-df1776c3f0c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

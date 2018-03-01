@@ -7,7 +7,7 @@ old-location: print\iprintoemprintticketprovider_interface.htm
 old-project: print
 ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

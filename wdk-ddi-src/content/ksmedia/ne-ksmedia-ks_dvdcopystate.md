@@ -98,11 +98,11 @@ Indicates that the copyright protection sequence is complete.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_ks_dvdcopy_set_copy_state.md">KS_DVDCOPY_SET_COPY_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a>
 
 
 

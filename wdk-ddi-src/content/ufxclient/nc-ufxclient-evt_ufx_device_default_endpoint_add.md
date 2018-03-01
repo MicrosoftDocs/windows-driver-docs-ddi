@@ -83,9 +83,9 @@ typedef EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD;
 
 
 
-#### - EndpointInit [in, out]
+#### - UfxDevice [in]
 
-A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
 #### - MaxPacketSize [in]
@@ -93,9 +93,9 @@ A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint de
 The default maximum packet size that can be sent from or to this endpoint.
 
 
-#### - UfxDevice [in]
+#### - EndpointInit [in, out]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wdf\iwdffile2.htm
 old-project: wdf
 ms.assetid: 49a3defc-d86c-4d70-8c1c-a5abbadda013
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFFile2, IWDFFile2 interface, IWDFFile2 interface, described, UMDFFileObjectRef_991af5dd-c654-4afe-9072-0efeb7ab4d57.xml, umdf.iwdffile2, wdf.iwdffile2, wudfddi/IWDFFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices

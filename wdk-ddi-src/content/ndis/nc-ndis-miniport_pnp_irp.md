@@ -7,7 +7,7 @@ old-location: netvista\miniportstartdevice.htm
 old-project: netvista
 ms.assetid: ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -350,51 +350,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
-
-
-
 <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-
-
-<b>MiniportStartDevice</b>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 
@@ -406,9 +368,47 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
- 
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
+
+<b>MiniportStartDevice</b>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_PNP_IRP callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_PNP_IRP callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

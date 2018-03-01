@@ -7,7 +7,7 @@ old-location: netvista\rilsupsvcinfo_2.htm
 old-project: netvista
 ms.assetid: b3b86cf8-0e0c-4ed1-9d8c-6f2fef00b9cd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo_2, rilapitypes/RILSUPSVCINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

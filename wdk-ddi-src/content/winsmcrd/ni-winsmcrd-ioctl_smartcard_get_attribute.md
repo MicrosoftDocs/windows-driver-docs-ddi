@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_SMARTCARD_GET_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -162,11 +162,11 @@ The driver must support CancelIo on this pended IOCTL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 

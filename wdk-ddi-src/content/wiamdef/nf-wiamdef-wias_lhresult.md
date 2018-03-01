@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
+The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 
 ## -syntax
@@ -102,26 +102,26 @@ if (hr != S_OK)
 </td>
 </tr>
 </table></span></div>
-The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
+The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 

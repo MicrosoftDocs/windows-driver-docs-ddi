@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsettransactionquota.htm
 old-project: netvista
 ms.assetid: C88F03BE-96D3-46A7-8269-1ECBFA539111
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: VmbChannelSetTransactionQuota, VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsettransactionquota, vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices

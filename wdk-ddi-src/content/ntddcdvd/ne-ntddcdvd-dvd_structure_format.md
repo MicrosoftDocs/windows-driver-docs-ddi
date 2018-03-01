@@ -7,7 +7,7 @@ old-location: storage\dvd_structure_format.htm
 old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, DvdCopyrightDescriptor, DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DvdMaxDescriptor, DvdPhysicalDescriptor, PDVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DVD_STRUCTURE_FORMAT, ntddcdvd/DvdBCADescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DvdMaxDescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, storage.dvd_structure_format, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,17 +104,17 @@ Indicates that caller is requesting a DVD max descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
- 
+<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_STRUCTURE_FORMAT enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_STRUCTURE_FORMAT enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

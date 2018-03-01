@@ -68,7 +68,7 @@ USHORT READ_REGISTER_USHORT(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register address, which must be a mapped range in memory space. 
 

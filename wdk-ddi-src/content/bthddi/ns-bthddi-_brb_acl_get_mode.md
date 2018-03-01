@@ -105,11 +105,11 @@ To get the current ACL connection state for a remote device, profile drivers sho
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_acl_mode.md">ACL_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
 
 
 

@@ -121,7 +121,7 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
@@ -133,7 +133,7 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
 
 

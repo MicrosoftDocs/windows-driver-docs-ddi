@@ -7,7 +7,7 @@ old-location: wdf\wdf_request_type.htm
 old-project: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, WDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, WdfRequestTypeCleanup, WdfRequestTypeClose, WdfRequestTypeCreate, WdfRequestTypeCreateMailSlot, WdfRequestTypeCreateNamedPipe, WdfRequestTypeDeviceChange, WdfRequestTypeDeviceControl, WdfRequestTypeDeviceControlInternal, WdfRequestTypeDirectoryControl, WdfRequestTypeFileSystemControl, WdfRequestTypeFlushBuffers, WdfRequestTypeLockControl, WdfRequestTypeMax, WdfRequestTypeNoFormat, WdfRequestTypeOther, WdfRequestTypePnp, WdfRequestTypePower, WdfRequestTypeQueryEA, WdfRequestTypeQueryInformation, WdfRequestTypeQueryQuota, WdfRequestTypeQuerySecurity, WdfRequestTypeQueryVolumeInformation, WdfRequestTypeRead, WdfRequestTypeSetEA, WdfRequestTypeSetInformation, WdfRequestTypeSetQuota, WdfRequestTypeSetSecurity, WdfRequestTypeSetVolumeInformation, WdfRequestTypeShutdown, WdfRequestTypeSystemControl, WdfRequestTypeUsb, WdfRequestTypeWrite, _WDF_REQUEST_TYPE, kmdf.wdf_request_type, wdf.wdf_request_type, wdfrequest/WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeCreate, wdfrequest/WdfRequestTypeCreateMailSlot, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeFileSystemControl, wdfrequest/WdfRequestTypeFlushBuffers, wdfrequest/WdfRequestTypeLockControl, wdfrequest/WdfRequestTypeMax, wdfrequest/WdfRequestTypeNoFormat, wdfrequest/WdfRequestTypeOther, wdfrequest/WdfRequestTypePnp, wdfrequest/WdfRequestTypePower, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeRead, wdfrequest/WdfRequestTypeSetEA, wdfrequest/WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeUsb, wdfrequest/WdfRequestTypeWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -276,7 +276,7 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
 
 
 
@@ -284,17 +284,17 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
+
+
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -86,11 +86,6 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
 
 
-#### - DataLinkLayerActive
-
-A single bit that indicates that the data link control and management state machine is in the data link active state.
-
-
 #### - LinkSpeed
 
 The negotiated link speed of the PCIe link.  Possible values are:
@@ -114,11 +109,6 @@ The negotiated link speed of the PCIe link.  Possible values are:
 </tr>
 </table>
  
-
-
-#### - LinkTraining
-
-A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
 
 
 #### - LinkWidth
@@ -166,9 +156,14 @@ The negotiated link width (number of lanes) of the PCIe link. Possible values ar
  
 
 
-#### - Rsvd
+#### - Undefined
 
-Reserved.
+Reserved. Device drivers and other system software should ignore any value read from this bit.
+
+
+#### - LinkTraining
+
+A single bit that indicates that the link is in the configuration or recovery state, or that a 1 was written to the retrain link bit of the PCIe link control register and the training has not yet begun. This member is not applicable to endpoint devices and upstream ports of switches.
 
 
 #### - SlotClockConfig
@@ -176,9 +171,14 @@ Reserved.
 A single bit that indicates that the component uses the same physical reference clock that the hardware platform provides on the PCIe slot connector. If this bit is clear, the component uses an independent clock irrespective of the presence of a reference clock on the PCIe slot connector.
 
 
-#### - Undefined
+#### - DataLinkLayerActive
 
-Reserved. Device drivers and other system software should ignore any value read from this bit.
+A single bit that indicates that the data link control and management state machine is in the data link active state.
+
+
+#### - Rsvd
+
+Reserved.
 
 
 ## -remarks

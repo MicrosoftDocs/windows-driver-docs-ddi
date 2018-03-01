@@ -96,11 +96,11 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INS
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
-
-
-
 <a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
+
+
+
+<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
 
 
 

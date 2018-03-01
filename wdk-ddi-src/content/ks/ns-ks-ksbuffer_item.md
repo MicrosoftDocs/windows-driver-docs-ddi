@@ -89,11 +89,11 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
-
-
-
 <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
+
+
+
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 

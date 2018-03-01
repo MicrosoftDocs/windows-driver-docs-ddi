@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_texcube_rendertargetview.htm
 old-project: display
 ms.assetid: cffd2c5d-847b-4ecd-b99d-5916e7b5bbd0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ae4aad64-f7e2-4c42-9abc-0f241842170a.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, display.d3d10ddiarg_texcube_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,11 +86,11 @@ typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
 
 
 
@@ -102,5 +102,5 @@ typedef struct D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

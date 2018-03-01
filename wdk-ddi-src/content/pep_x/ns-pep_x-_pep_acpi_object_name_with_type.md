@@ -89,15 +89,15 @@ The <b>Objects</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_enumerate_
 
 ## -see-also
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_enumerate_device_namespace.md">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
+
+
+
+<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
 
 
 

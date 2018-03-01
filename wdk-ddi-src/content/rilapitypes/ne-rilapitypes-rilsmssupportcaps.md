@@ -7,7 +7,7 @@ old-location: netvista\rilsmssupportcaps_2.htm
 old-project: netvista
 ms.assetid: 38dac27d-1415-44bb-8dd6-2a6b6bd2a774
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps_2, rilapitypes/RILSMSSUPPORTCAPS, rilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, rilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -94,11 +94,11 @@ For a description of the filter control mutex, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-
-
-
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 
 

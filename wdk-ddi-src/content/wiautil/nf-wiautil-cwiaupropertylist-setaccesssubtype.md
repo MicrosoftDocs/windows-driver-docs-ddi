@@ -107,11 +107,11 @@ A property's access and subtype are set originally in a call to the <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
 
 

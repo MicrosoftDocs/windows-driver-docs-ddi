@@ -159,11 +159,11 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
 
 
 

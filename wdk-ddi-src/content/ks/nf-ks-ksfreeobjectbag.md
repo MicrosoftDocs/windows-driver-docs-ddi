@@ -95,11 +95,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
-
-
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
 
 
@@ -107,11 +103,15 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
+
+
 <a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 
 

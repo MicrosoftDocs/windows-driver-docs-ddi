@@ -7,7 +7,7 @@ old-location: wdf\wdfdevicesetpnpcapabilities.htm
 old-project: wdf
 ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, kmdf.wdfdevicesetpnpcapabilities, wdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,10 +162,6 @@ WdfDeviceSetPnpCapabilities(
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_pnp_capabilities_init.md">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
 
 
@@ -174,9 +170,13 @@ WdfDeviceSetPnpCapabilities(
 
 
 
- 
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceSetPnpCapabilities method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceSetPnpCapabilities method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

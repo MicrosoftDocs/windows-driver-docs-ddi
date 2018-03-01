@@ -126,15 +126,7 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
@@ -146,11 +138,19 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacetech.htm
 old-project: display
 ms.assetid: 06d6b4db-293d-409e-a725-bb86bc6b3d11
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXVA_DeinterlaceTech, DXVA_DeinterlaceTech enumeration [Display Devices], DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech_BOBVerticalStretch, DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA_DeinterlaceTech_EdgeFiltering, DXVA_DeinterlaceTech_FieldAdaptive, DXVA_DeinterlaceTech_MedianFiltering, DXVA_DeinterlaceTech_MotionVectorSteered, DXVA_DeinterlaceTech_PixelAdaptive, DXVA_DeinterlaceTech_Unknown, _DXVA_DeinterlaceTech, display.dxva_deinterlacetech, dxva/DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_BOBLineReplicate, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, dxva/DXVA_DeinterlaceTech_EdgeFiltering, dxva/DXVA_DeinterlaceTech_FieldAdaptive, dxva/DXVA_DeinterlaceTech_MedianFiltering, dxva/DXVA_DeinterlaceTech_MotionVectorSteered, dxva/DXVA_DeinterlaceTech_PixelAdaptive, dxva/DXVA_DeinterlaceTech_Unknown, dxvaref_ce829a5b-1e09-43e6-b90c-f7501476f280.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,5 +130,5 @@ Identifies objects within a sequence of video fields. The missing pixels are rec
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceTech enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceTech enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

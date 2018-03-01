@@ -7,7 +7,7 @@ old-location: netvista\ndis_offload_parameters.htm
 old-project: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -610,78 +610,6 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
 
 
 
-#### - EncapsulatedPacketTaskOffload
-
-A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
-
-<div class="alert"><b>Note</b>  For receive side offloads such as VMQ and RSS, there are other set OIDs that the protocol driver sends down to enable and configure the offload parameters (for example, queues, hash, and indirection table). The <b>EncapsulatedPacketTaskOffload</b> member is supplemental to those OIDs and instructs the NIC to also do these offloads for encapsulated packets.</div>
-<div> </div>
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_NO_CHANGE"></a><a id="ndis_offload_set_no_change"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_NO_CHANGE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-The NVGRE task offload state is unchanged.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_ON"></a><a id="ndis_offload_set_on"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_ON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Enables NVGRE task offloads.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_OFF"></a><a id="ndis_offload_set_off"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_OFF</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Disables NVGRE task offloads.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - EncapsulationTypes
-
-This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_TYPE_GRE_MAC"></a><a id="ndis_encapsulation_type_gre_mac"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_TYPE_GRE_MAC</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies GRE MAC  encapsulation (NVGRE).
-
-</td>
-</tr>
-</table>
- 
-
-
 #### - RscIPv4
 
 Indicates Receive Segment Coalescing state for IPv4.
@@ -768,6 +696,78 @@ The RSC state is disabled.
  
 
 
+#### - EncapsulatedPacketTaskOffload
+
+A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
+
+<div class="alert"><b>Note</b>  For receive side offloads such as VMQ and RSS, there are other set OIDs that the protocol driver sends down to enable and configure the offload parameters (for example, queues, hash, and indirection table). The <b>EncapsulatedPacketTaskOffload</b> member is supplemental to those OIDs and instructs the NIC to also do these offloads for encapsulated packets.</div>
+<div> </div>
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_NO_CHANGE"></a><a id="ndis_offload_set_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_NO_CHANGE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The NVGRE task offload state is unchanged.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_ON"></a><a id="ndis_offload_set_on"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_ON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Enables NVGRE task offloads.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_OFF"></a><a id="ndis_offload_set_off"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_OFF</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Disables NVGRE task offloads.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - EncapsulationTypes
+
+This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_ENCAPSULATION_TYPE_GRE_MAC"></a><a id="ndis_encapsulation_type_gre_mac"></a><dl>
+<dt><b>NDIS_ENCAPSULATION_TYPE_GRE_MAC</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies GRE MAC  encapsulation (NVGRE).
+
+</td>
+</tr>
+</table>
+ 
+
+
 ## -remarks
 
 
@@ -807,18 +807,18 @@ The preceding members can have one of the following values:
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_PARAMETERS structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

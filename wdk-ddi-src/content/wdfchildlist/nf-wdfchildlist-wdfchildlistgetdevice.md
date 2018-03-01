@@ -7,7 +7,7 @@ old-location: wdf\wdfchildlistgetdevice.htm
 old-project: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

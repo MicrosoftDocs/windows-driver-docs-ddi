@@ -213,11 +213,15 @@ Reserved for exclusive use by the operating system.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 
@@ -229,11 +233,7 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
 
 
@@ -241,11 +241,11 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
 
 

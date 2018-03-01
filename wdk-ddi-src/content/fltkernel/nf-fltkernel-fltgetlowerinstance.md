@@ -131,15 +131,11 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetbottominstance.md">FltGetBottomInstance</a>
 
 
 
@@ -147,7 +143,11 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetbottominstance.md">FltGetBottomInstance</a>
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
 
 
 

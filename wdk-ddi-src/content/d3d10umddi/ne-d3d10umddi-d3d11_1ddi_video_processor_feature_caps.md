@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_feature_caps.htm
 old-project: display
 ms.assetid: 994f8de8-bb2f-441d-af45-87b9e600ed64
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, d3d10umddi/, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_STREAM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LEGACY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_ASPECT_RATIO, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO, display.d3d11_1ddi_video_processor_feature_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,8 +149,6 @@ Supported starting with Windows 10.
 
 
 
-
-
 #### - D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE
 
 Indicates that the hardware can benefit from a hint as to whether a shader might be used to read the output of  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>.  This should only be set by hardware that support multi-plane overlays.
@@ -158,7 +156,17 @@ Indicates that the hardware can benefit from a hint as to whether a shader might
 Supported starting with Windows 10.
 
 
+
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction.md">VideoProcessorSetOutputConstriction</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreammirror.md">VideoProcessorSetStreamMirror</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamlumakey.md">VideoProcessorSetStreamLumaKey</a>
 
@@ -172,21 +180,13 @@ Supported starting with Windows 10.
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction.md">VideoProcessorSetOutputConstriction</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreammirror.md">VideoProcessorSetStreamMirror</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

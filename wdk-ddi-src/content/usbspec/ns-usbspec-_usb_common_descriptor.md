@@ -81,11 +81,11 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md">USBD_ParseDescriptors</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md">USBD_ParseDescriptors</a>
 
 
 

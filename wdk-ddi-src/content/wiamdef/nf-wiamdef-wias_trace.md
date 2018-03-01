@@ -113,15 +113,15 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
 
 
 

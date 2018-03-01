@@ -7,7 +7,7 @@ old-location: display\videodecodersubmitbuffers.htm
 old-project: display
 ms.assetid: fc1644d8-9058-4100-8e3e-f4727af89773
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, d3d10umddi/pfnVideoDecoderSubmitBuffers, display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,11 @@ HRESULT APIENTRY* pfnVideoDecoderSubmitBuffers(
 
 
 
-#### - BufferCount [in]
+#### - hDevice [in]
 
-The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
+A handle to the display device (graphics context).
+
+
 
 
 #### - hDecoder [in]
@@ -105,11 +107,9 @@ A handle to the video decoder object that was created through a call to the <a h
 
 
 
-#### - hDevice [in]
+#### - BufferCount [in]
 
-A handle to the display device (graphics context).
-
-
+The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
 
 
 #### - pBufferDesc [in]
@@ -191,11 +191,11 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
 
 
@@ -211,5 +211,5 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

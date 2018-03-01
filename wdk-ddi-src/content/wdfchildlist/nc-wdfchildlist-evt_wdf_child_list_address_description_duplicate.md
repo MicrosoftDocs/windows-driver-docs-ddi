@@ -7,7 +7,7 @@ old-location: wdf\evtchildlistaddressdescriptionduplicate.htm
 old-project: wdf
 ms.assetid: 3b99401c-5a36-4ccd-b3a4-c5687310c29b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_5ade5582-8a35-49cb-a291-e6d972822138.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE, EvtChildListAddressDescriptionDuplicate, EvtChildListAddressDescriptionDuplicate callback function, kmdf.evtchildlistaddressdescriptionduplicate, wdf.evtchildlistaddressdescriptionduplicate, wdfchildlist/EvtChildListAddressDescriptionDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,7 +135,7 @@ The framework can use <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 <ol>
 <li>
-Allocate additional memory, typically by calling <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>.
+Allocate additional memory, typically by calling <a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>.
 
 </li>
 <li>
@@ -199,6 +199,26 @@ The <b>EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE</b> function type is def
 
 ## -see-also
 
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md">EvtChildListAddressDescriptionCleanup</a>
+
+
+
+<a href="..\smcnt\nf-smcnt-exallocatepool.md">ExAllocatePool</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 
@@ -211,29 +231,9 @@ The <b>EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE</b> function type is def
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
-
-
-
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup.md">EvtChildListAddressDescriptionCleanup</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

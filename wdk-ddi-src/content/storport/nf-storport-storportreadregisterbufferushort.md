@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterbufferushort.htm
 old-project: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,18 +106,28 @@ Pointer to the hardware device extension.
 Pointer to the register where the data is to be read. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>.
+For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
+<a href="..\srb\nf-srb-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
 
 
 
@@ -139,5 +139,5 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadregisterb
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReadRegisterBufferUshort routine%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

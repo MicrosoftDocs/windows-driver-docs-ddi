@@ -125,19 +125,19 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
 
 
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 

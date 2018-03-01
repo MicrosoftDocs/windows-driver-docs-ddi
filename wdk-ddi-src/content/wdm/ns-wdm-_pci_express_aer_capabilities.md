@@ -86,14 +86,9 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
 
 
-#### - ECRCCheckCapable
+#### - FirstErrorPointer
 
-A single bit that indicates that the device is capable of checking ECRC.
-
-
-#### - ECRCCheckEnable
-
-A single bit that indicates that ECRC checking is enabled.
+The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
 
 #### - ECRCGenerationCapable
@@ -106,9 +101,14 @@ A single bit that indicates that the device is capable of generating end-to-end 
 A single bit that indicates that ECRC generation is enabled.
 
 
-#### - FirstErrorPointer
+#### - ECRCCheckCapable
 
-The bit position of the first error that was reported in the PCIe uncorrectable error status register.
+A single bit that indicates that the device is capable of checking ECRC.
+
+
+#### - ECRCCheckEnable
+
+A single bit that indicates that ECRC checking is enabled.
 
 
 #### - Reserved

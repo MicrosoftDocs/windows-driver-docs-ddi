@@ -7,7 +7,7 @@ old-location: netvista\rilgetphonebookoptionsparams_2.htm
 old-project: netvista
 ms.assetid: ca82e408-6b22-4b0b-ac44-0650d3890674
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams_2, rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

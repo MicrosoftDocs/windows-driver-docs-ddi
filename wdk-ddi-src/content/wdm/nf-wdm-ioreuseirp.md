@@ -110,7 +110,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -118,11 +118,11 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
 
 
 

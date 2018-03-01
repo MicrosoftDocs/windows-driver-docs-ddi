@@ -80,11 +80,11 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
 
 
 

@@ -133,19 +133,7 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
@@ -153,11 +141,23 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 
 

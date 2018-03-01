@@ -92,15 +92,15 @@ This function is an inline call to <a href="..\ks\nf-ks-ksacquirecontrol.md">KsA
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
 
 
 

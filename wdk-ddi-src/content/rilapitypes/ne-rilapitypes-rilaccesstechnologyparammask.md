@@ -7,7 +7,7 @@ old-location: netvista\rilaccesstechnologyparammask_2.htm
 old-project: netvista
 ms.assetid: 9acb41d8-502f-404e-a03f-d222eff6d0ad
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ACCTECH_ALL, RIL_PARAM_ACCTECH_SYSTEMKIND, netvista.rilaccesstechnologyparammask_2, rilapitypes/RILACCESSTECHNOLOGYPARAMMASK, rilapitypes/RIL_PARAM_ACCTECH_ALL, rilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices

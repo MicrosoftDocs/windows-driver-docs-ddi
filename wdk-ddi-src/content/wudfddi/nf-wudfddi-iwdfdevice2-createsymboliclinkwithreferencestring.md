@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
 old-project: wdf
 ms.assetid: bce932a6-2f73-4d0e-8616-45fd41abb776
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString,IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2, IWDFDevice2 interface, CreateSymbolicLinkWithReferenceString method, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -201,17 +201,17 @@ The following code example creates a symbolic name string, obtains the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557023">IWDFDevice::CreateSymbolicLink</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateSymbolicLinkWithReferenceString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateSymbolicLinkWithReferenceString method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -99,14 +99,14 @@ HRESULT drvDeviceCommand(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plCommand [in]
@@ -114,14 +114,14 @@ Pointer to a WIA item context.
 Points to a WIA command GUID. 
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppWiaDrvItem [out, optional]
 
 Points to a memory location that can receive a pointer to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>. See Remarks.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -158,11 +158,11 @@ The WIA service does not write any properties before calling this method. If the
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

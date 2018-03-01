@@ -7,7 +7,7 @@ old-location: audio\setdmaenginestate.htm
 old-project: audio
 ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: PSET_DMA_ENGINE_STATE, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,10 +61,10 @@ The function pointer type for a <i>SetDmaEngineState</i> routine is defined as f
 PSET_DMA_ENGINE_STATE SetDmaEngineState;
 
 NTSTATUS SetDmaEngineState(
-  _In_ PVOID                context,
+  _In_ PVOID                _context,
   _In_ HDAUDIO_STREAM_STATE streamState,
-  _In_ ULONG                numberOfHandles,
-  _In_ PHANDLE              handles
+  _In_ ULONG                NumberOfHandles,
+  _In_ PHANDLE              Handles
 )
 { ... }
 ````
@@ -83,26 +83,14 @@ Specifies the context value from the <b>Context</b> member of the <a href="..\hd
 ### -param StreamState
 
 
-### -param NumberOfHandles
-
-
-### -param Handles
-
-
-
-
-
-
-
-
-#### - handles [in]
-
-Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
-
-
-#### - numberOfHandles [in]
+### -param NumberOfHandles [in]
 
 Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
+
+
+### -param Handles [in]
+
+Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 
 #### - streamState [in]
@@ -219,14 +207,6 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
@@ -243,9 +223,17 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 
 
- 
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PSET_DMA_ENGINE_STATE callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PSET_DMA_ENGINE_STATE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

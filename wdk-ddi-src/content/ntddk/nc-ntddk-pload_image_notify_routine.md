@@ -122,11 +122,11 @@ When the main executable image for a newly created process is loaded, the load-i
 
 
 
-<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
 
 
 

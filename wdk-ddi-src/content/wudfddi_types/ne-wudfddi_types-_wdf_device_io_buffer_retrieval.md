@@ -7,7 +7,7 @@ old-location: wdf\wdf_device_io_buffer_retrieval.htm
 old-project: wdf
 ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, WdfDeviceIoBufferRetrievalCopyImmediately, WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalMaximum, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, umdf.wdf_device_io_buffer_retrieval, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wdf.wdf_device_io_buffer_retrieval, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,5 +138,5 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

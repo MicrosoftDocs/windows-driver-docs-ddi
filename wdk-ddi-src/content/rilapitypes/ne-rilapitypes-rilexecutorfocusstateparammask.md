@@ -7,7 +7,7 @@ old-location: netvista\rilexecutorfocusstateparammask_2.htm
 old-project: netvista
 ms.assetid: 3c5d14cf-bfbc-439c-9ade-1a672f0b3fca
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, netvista.rilexecutorfocusstateparammask_2, rilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

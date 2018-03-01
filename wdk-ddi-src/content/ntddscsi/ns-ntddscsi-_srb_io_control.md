@@ -7,7 +7,7 @@ old-location: storage\srb_io_control.htm
 old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PSRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], _SRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, ntddscsi/SRB_IO_CONTROL, storage.srb_io_control, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,17 +112,17 @@ This structure is used by applications to send requests directly to an applicati
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 SCSI Port I/O Control Codes
 
 
 
- 
+<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRB_IO_CONTROL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRB_IO_CONTROL structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

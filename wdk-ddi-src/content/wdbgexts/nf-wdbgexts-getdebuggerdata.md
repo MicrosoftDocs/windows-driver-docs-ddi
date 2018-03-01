@@ -7,7 +7,7 @@ old-location: debugger\getdebuggerdata.htm
 old-project: debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,6 +89,11 @@ TBD
 
 
 
+#### - Tag
+
+This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)
+
+
 #### - Buf
 
 Points to the debugger data block.
@@ -97,9 +102,4 @@ Points to the debugger data block.
 #### - Size
 
 Specifies the size of the data block, including the header.
-
-
-#### - Tag
-
-This should be set equal to KDBG_TAG. (This value is specified in wdbgexts.h.)
 

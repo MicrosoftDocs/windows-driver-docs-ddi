@@ -7,7 +7,7 @@ old-location: netvista\rilemergencynumberparammask_2.htm
 old-project: netvista
 ms.assetid: a59daf60-43d9-4fe4-af72-dc031f259133
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILEMERGENCYNUMBERPARAMMASK, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_NUMBER, RIL_PARAM_ENUM_UICC, netvista.rilemergencynumberparammask_2, rilapitypes/RILEMERGENCYNUMBERPARAMMASK, rilapitypes/RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_CATEGORY, rilapitypes/RIL_PARAM_ENUM_NUMBER, rilapitypes/RIL_PARAM_ENUM_UICC
 ms.prod: windows-hardware
 ms.technology: windows-devices

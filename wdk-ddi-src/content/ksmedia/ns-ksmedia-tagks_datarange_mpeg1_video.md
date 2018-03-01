@@ -110,15 +110,15 @@ Specifies the details of the video stream.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_mpeg1videoinfo.md">KS_MPEG1VIDEOINFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

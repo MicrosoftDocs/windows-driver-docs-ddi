@@ -76,7 +76,7 @@ PVOID LookasideListAllocateEx(
 
 ### -param PoolType [in]
 
-Specifies the type of storage to allocate for the new lookaside-list entry. The caller sets this parameter to a valid <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value, and possibly bitwise ORs this value with one of the following flag bits:
+Specifies the type of storage to allocate for the new lookaside-list entry. The caller sets this parameter to a valid <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value, and possibly bitwise ORs this value with one of the following flag bits:
 
 <ul>
 <li>POOL_RAISE_IF_ALLOCATION_FAILURE</li>
@@ -178,23 +178,23 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
 

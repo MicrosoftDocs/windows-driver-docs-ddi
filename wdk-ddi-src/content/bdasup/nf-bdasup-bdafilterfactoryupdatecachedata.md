@@ -108,6 +108,10 @@ The <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNo
 
 ## -see-also
 
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
@@ -117,10 +121,6 @@ The <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNo
 
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 
 

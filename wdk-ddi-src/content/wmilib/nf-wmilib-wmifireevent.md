@@ -128,11 +128,11 @@ For more information about event tracing, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 
 

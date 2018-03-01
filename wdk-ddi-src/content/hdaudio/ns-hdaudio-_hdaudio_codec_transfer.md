@@ -7,7 +7,7 @@ old-location: audio\hdaudio_codec_transfer.htm
 old-project: audio
 ms.assetid: ee73c5d2-9c4d-4d6f-b792-7966964fedf7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: "*PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER structure [Audio Devices], PHDAUDIO_CODEC_TRANSFER, PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], _HDAUDIO_CODEC_TRANSFER, aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml, audio.hdaudio_codec_transfer, hdaudio/HDAUDIO_CODEC_TRANSFER, hdaudio/PHDAUDIO_CODEC_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,7 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
 
 
 
@@ -107,7 +107,7 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
 
 
 
@@ -115,5 +115,5 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_CODEC_TRANSFER structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_CODEC_TRANSFER structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

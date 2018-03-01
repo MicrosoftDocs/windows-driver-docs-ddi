@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenprotectedsessionfromnthandle.htm
 old-project: display
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

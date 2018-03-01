@@ -124,7 +124,7 @@ The behavior of <b>ExAcquireSharedWaitForExclusive</b> is identical to that of <
 
 If the caller specifies <b>TRUE</b> for the <i>Wait</i> parameter, the caller blocks until another thread frees the resource on behalf of the caller, using <a href="https://msdn.microsoft.com/library/windows/hardware/ff545577">ExReleaseResourceForThread</a>. Driver writers must be careful to ensure that another thread actually releases the resource; otherwise the caller is deadlocked. <b>ExAcquireResourceSharedLite</b> does not have this property, so drivers should use that routine unless they require the particular behavior of <b>ExAcquireSharedWaitForExclusive</b>.
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
 
 
 
@@ -132,10 +132,6 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
 
 
 
@@ -152,6 +148,10 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 <a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
 
 
 

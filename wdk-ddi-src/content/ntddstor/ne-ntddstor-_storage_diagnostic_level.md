@@ -7,7 +7,7 @@ old-location: storage\storage_diagnostic_level.htm
 old-project: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level"
 ms.prod: windows-hardware
 ms.technology: windows-devices

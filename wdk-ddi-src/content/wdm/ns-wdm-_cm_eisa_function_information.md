@@ -241,15 +241,15 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
 
 <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 

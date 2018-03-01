@@ -7,7 +7,7 @@ old-location: netvista\rilunsolicitedssinfo_v2_2.htm
 old-project: netvista
 ms.assetid: 1c59c4fa-610e-4200-a94a-2c28754dfe43
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v2_2, rilapitypes/RILUNSOLICITEDSSINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

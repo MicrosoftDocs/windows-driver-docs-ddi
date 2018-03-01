@@ -7,7 +7,7 @@ old-location: audio\iminiportwavecyclic_newstream.htm
 old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], NewStream method, IMiniportWaveCyclic::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveCyclic interface, NewStream,IMiniportWaveCyclic.NewStream, audio.iminiportwavecyclic_newstream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, portcls/IMiniportWaveCyclic::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration.
 
 
 ### -param Pin [in]
@@ -162,19 +162,15 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
 
 
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -186,7 +182,11 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
 
@@ -194,5 +194,5 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclic::NewStream method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclic::NewStream method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

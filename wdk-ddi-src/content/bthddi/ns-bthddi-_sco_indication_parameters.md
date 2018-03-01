@@ -161,11 +161,11 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
 
 

@@ -253,6 +253,14 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+
+
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
@@ -261,11 +269,7 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+<a href="..\ntifs\nf-ntifs-iogetdeviceattachmentbaseref.md">IoGetDeviceAttachmentBaseRef</a>
 
 
 
@@ -273,11 +277,7 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iogetdeviceattachmentbaseref.md">IoGetDeviceAttachmentBaseRef</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
 
 

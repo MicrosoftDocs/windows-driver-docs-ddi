@@ -131,7 +131,11 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
+<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 
@@ -139,19 +143,15 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
 
 

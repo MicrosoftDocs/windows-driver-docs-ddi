@@ -160,7 +160,7 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
 
 
 
@@ -172,7 +172,7 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 
 
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

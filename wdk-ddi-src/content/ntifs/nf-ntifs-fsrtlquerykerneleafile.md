@@ -203,11 +203,11 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
 
 
 

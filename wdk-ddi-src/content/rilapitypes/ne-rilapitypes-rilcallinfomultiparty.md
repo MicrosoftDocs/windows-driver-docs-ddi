@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfomultiparty_2.htm
 old-project: netvista
 ms.assetid: 31e3f763-bdf8-403a-bea2-5329db1c5ea7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MAX, RIL_CALL_MULTIPARTY, netvista.rilcallinfomultiparty_2, rilapitypes/RILCALLINFOMULTIPARTY, rilapitypes/RIL_CALL_MAX, rilapitypes/RIL_CALL_MULTIPARTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

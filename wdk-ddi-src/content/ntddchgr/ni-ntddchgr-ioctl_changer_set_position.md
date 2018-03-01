@@ -7,7 +7,7 @@ old-location: storage\ioctl_changer_set_position.htm
 old-project: storage
 ms.assetid: cd4f5872-d2cb-42ee-b78c-6b7d48d41e34
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control code [Storage Devices], k307_f4580e0a-0f44-4c7f-9d89-81fe6db548c6.xml, ntddchgr/IOCTL_CHANGER_SET_POSITION, storage.ioctl_changer_set_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,17 +111,17 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_SET_POSITION). The 
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
 
 
 
- 
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_SET_POSITION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CHANGER_SET_POSITION control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

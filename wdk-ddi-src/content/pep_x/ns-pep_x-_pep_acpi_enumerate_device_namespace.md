@@ -126,15 +126,15 @@ If the input value specified in the <b>TotalBufferSize</b> member is less than t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
 
 
 

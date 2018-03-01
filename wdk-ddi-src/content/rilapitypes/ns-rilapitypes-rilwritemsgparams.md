@@ -7,7 +7,7 @@ old-location: netvista\rilwritemsgparams_2.htm
 old-project: netvista
 ms.assetid: 7221efdc-1751-4539-9dc1-5ba3cd40c5ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams_2, rilapitypes/RILWRITEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

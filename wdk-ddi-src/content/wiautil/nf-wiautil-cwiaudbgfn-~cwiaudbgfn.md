@@ -79,11 +79,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540348">CWiauDbgFn::CWiauDbgFn</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaudbgfn.md">CWiauDbgFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540348">CWiauDbgFn::CWiauDbgFn</a>
 
 
 

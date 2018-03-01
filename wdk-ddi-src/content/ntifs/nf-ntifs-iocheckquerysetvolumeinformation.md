@@ -49,7 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
+The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. See <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
 
 
 ## -syntax

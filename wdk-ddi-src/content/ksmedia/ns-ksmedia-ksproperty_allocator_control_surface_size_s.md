@@ -80,11 +80,11 @@ Specifies the height of the overlay surface
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564278">KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
 
 
 

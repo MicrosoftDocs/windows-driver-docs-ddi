@@ -7,7 +7,7 @@ old-location: audio\freedmabufferwithnotification.htm
 old-project: audio
 ms.assetid: 98fc6201-d9b4-4c85-b624-011f360df068
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: FreeDmaBufferWithNotification, FreeDmaBufferWithNotification callback function [Audio Devices], PFREE_DMA_BUFFER_WITH_NOTIFICATION, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml, audio.freedmabufferwithnotification, hdaudio/FreeDmaBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,10 +61,10 @@ The function pointer type for a FreeDmaBufferWithNotification routine is defined
 PFREE_DMA_BUFFER_WITH_NOTIFICATION FreeDmaBufferWithNotification;
 
 NTSTATUS FreeDmaBufferWithNotification(
-  _In_ PVOID  context,
-  _In_ HANDLE handle,
-  _In_ PMDL   bufferMdl,
-  _In_ SIZE_T bufferSize
+  _In_ PVOID  _context,
+  _In_ HANDLE Handle,
+  _In_ PMDL   BufferMdl,
+  _In_ SIZE_T BufferSize
 )
 { ... }
 ````
@@ -80,34 +80,19 @@ NTSTATUS FreeDmaBufferWithNotification(
 Specifies the context value from the Context member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
-### -param Handle
+### -param Handle [in]
+
+Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-### -param BufferMdl
-
-
-### -param BufferSize
-
-
-
-
-
-
-
-
-#### - bufferMdl [in]
+### -param BufferMdl [in]
 
 A pointer to the buffer MDL. This value was obtained from a previous call to AllocateDmaBufferWithNotification.
 
 
-#### - bufferSize [in]
+### -param BufferSize [in]
 
 The size of the buffer to be freed. This value was obtained from a previous call to AllocateDmaBufferWithNotification.
-
-
-#### - handle [in]
-
-Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
 ## -returns
@@ -173,11 +158,11 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
 
 
 
@@ -193,5 +178,5 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\clear.htm
 old-project: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,14 +90,14 @@ __checkReturn HRESULT APIENTRY Clear(
 ### -param UINT
 
 
-#### - NumRect [in]
-
- The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
-
-
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
+
+
+#### - NumRect [in]
+
+ The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
 
 
 #### - pRect [in]
@@ -143,6 +143,10 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
@@ -151,13 +155,9 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CLEAR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CLEAR callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

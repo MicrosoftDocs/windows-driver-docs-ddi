@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RtlCmEncodeMemIoResource</b> routine updates a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
+The <b>RtlCmEncodeMemIoResource</b> routine updates a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
 
 
 ## -syntax
@@ -73,7 +73,7 @@ NTSTATUS RtlCmEncodeMemIoResource(
 
 ### -param Descriptor [in]
 
-A pointer to the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to update. 
+A pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to update. 
 
 
 ### -param Type [in]
@@ -190,11 +190,11 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

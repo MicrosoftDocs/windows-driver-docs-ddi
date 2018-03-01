@@ -180,15 +180,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_cls_log_information_class.md">CLFS_LOG_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 
@@ -196,11 +192,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
+
+
+
+<a href="..\wdm\ne-wdm-_cls_log_information_class.md">CLFS_LOG_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\ns-wdm-_clfs_stream_id_information.md">CLFS_STREAM_ID_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 

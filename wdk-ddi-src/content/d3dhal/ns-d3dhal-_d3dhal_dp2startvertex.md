@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2startvertex.htm
 old-project: display
 ms.assetid: 302ed135-9fde-4101-876f-1f70bed501b0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPD3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX structure [Display Devices], LPD3DHAL_DP2STARTVERTEX, LPD3DHAL_DP2STARTVERTEX structure pointer [Display Devices], _D3DHAL_DP2STARTVERTEX, d3dhal/D3DHAL_DP2STARTVERTEX, d3dhal/LPD3DHAL_DP2STARTVERTEX, d3dstrct_1dafced6-8893-45ac-b5a2-8735fe3dbd6a.xml, display.d3dhal_dp2startvertex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,6 +107,18 @@ The first vertex of such primitives is located (<b>wVStart</b> + <b>dwVertexOffs
 
 ## -see-also
 
+D3DDP2OP_INDEXEDTRIANGLESTRIP
+
+
+
+D3DDP2OP_INDEXEDLINESTRIP
+
+
+
+D3DDP2OP_INDEXEDTRIANGLEFAN
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
@@ -119,19 +131,7 @@ D3DDP2OP_INDEXEDLINELIST2
 
 
 
-D3DDP2OP_INDEXEDLINESTRIP
-
-
-
-D3DDP2OP_INDEXEDTRIANGLESTRIP
-
-
-
 D3DDP2OP_INDEXEDTRIANGLELIST2
-
-
-
-D3DDP2OP_INDEXEDTRIANGLEFAN
 
 
 
@@ -143,5 +143,5 @@ D3DDP2OP_INDEXEDTRIANGLEFAN
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2STARTVERTEX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2STARTVERTEX structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

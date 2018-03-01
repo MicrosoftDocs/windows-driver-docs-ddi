@@ -104,15 +104,15 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
+
+
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 
 <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
-
-
-
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 

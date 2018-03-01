@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice2_createremotetarget.htm
 old-project: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: CreateRemoteTarget method, CreateRemoteTarget method, IWDFDevice2 interface, CreateRemoteTarget,IWDFDevice2.CreateRemoteTarget, IWDFDevice2, IWDFDevice2 interface, CreateRemoteTarget method, IWDFDevice2::CreateRemoteTarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, umdf.iwdfdevice2_createremotetarget, wdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,7 +149,7 @@ For code examples that use <b>CreateRemoteTarget</b>, see the code examples at <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 
@@ -157,7 +157,7 @@ For code examples that use <b>CreateRemoteTarget</b>, see the code examples at <
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 
@@ -165,5 +165,5 @@ For code examples that use <b>CreateRemoteTarget</b>, see the code examples at <
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateRemoteTarget method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::CreateRemoteTarget method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

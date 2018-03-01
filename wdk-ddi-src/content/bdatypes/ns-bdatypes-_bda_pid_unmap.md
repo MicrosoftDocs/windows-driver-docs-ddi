@@ -80,7 +80,7 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 
@@ -92,7 +92,7 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 

@@ -97,16 +97,76 @@ typedef union _WHEA_XPF_CACHE_CHECK {
 A ULONGLONG representation of the contents of the WHEA_XPF_CACHE_CHECK union.
 
 
-#### - Level
+#### - TransactionTypeValid
 
-The level of the cache where the error occurred.
+A single bit that indicates that the <b>TransactionType</b> member contains valid data.
 
-This member contains valid data only if the <b>LevelValid</b> bit is set.
+
+#### - OperationValid
+
+A single bit that indicates that the <b>Operation</b> member contains valid data.
 
 
 #### - LevelValid
 
 A single bit that indicates that the <b>Level</b> member contains valid data.
+
+
+#### - ProcessorContextCorruptValid
+
+A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+
+
+#### - UncorrectedValid
+
+A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
+
+
+#### - PreciseIPValid
+
+A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+
+
+#### - RestartableIPValid
+
+A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+
+
+#### - OverflowValid
+
+A single bit that indicates that the <b>Overflow</b> member contains valid data.
+
+
+#### - ReservedValid
+
+Reserved for system use.
+
+
+#### - TransactionType
+
+The type of transaction that was in progress when the error occurred. Possible values are:
+
+
+
+
+
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
+
+A processor instruction transaction.
+
+
+
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
+
+A data access transaction.
+
+
+
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
+
+This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
 
 
 #### - Operation
@@ -172,33 +232,11 @@ A snoop operation.
 This member contains valid data only if the <b>OperationValid</b> bit is set.
 
 
-#### - OperationValid
+#### - Level
 
-A single bit that indicates that the <b>Operation</b> member contains valid data.
+The level of the cache where the error occurred.
 
-
-#### - Overflow
-
-A single bit that indicates that an error overflow occurred.
-
-This member contains valid data only if the <b>OverflowValid</b> bit is set.
-
-
-#### - OverflowValid
-
-A single bit that indicates that the <b>Overflow</b> member contains valid data.
-
-
-#### - PreciseIP
-
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_CACHE_CHECK union is directly associated with the error.
-
-This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
-
-
-#### - PreciseIPValid
-
-A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+This member contains valid data only if the <b>LevelValid</b> bit is set.
 
 
 #### - ProcessorContextCorrupt
@@ -208,19 +246,18 @@ A single bit that indicates that the processor context might have been corrupted
 This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
 
 
-#### - ProcessorContextCorruptValid
+#### - Uncorrected
 
-A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+A single bit that indicates that the error has not been corrected.
 
-
-#### - Reserved
-
-Reserved for system use.
+This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
 
 
-#### - ReservedValid
+#### - PreciseIP
 
-Reserved for system use.
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_CACHE_CHECK union is directly associated with the error.
+
+This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
 
 
 #### - RestartableIP
@@ -230,53 +267,16 @@ A single bit that indicates that program execution can be restarted reliably at 
 This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
 
-#### - RestartableIPValid
+#### - Overflow
 
-A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+A single bit that indicates that an error overflow occurred.
 
-
-#### - TransactionType
-
-The type of transaction that was in progress when the error occurred. Possible values are:
+This member contains valid data only if the <b>OverflowValid</b> bit is set.
 
 
+#### - Reserved
 
-
-
-#### XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
-
-A processor instruction transaction.
-
-
-
-#### XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
-
-A data access transaction.
-
-
-
-#### XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
-
-A generic transaction.
-
-This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
-
-
-#### - TransactionTypeValid
-
-A single bit that indicates that the <b>TransactionType</b> member contains valid data.
-
-
-#### - Uncorrected
-
-A single bit that indicates that the error has not been corrected.
-
-This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
-
-
-#### - UncorrectedValid
-
-A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
+Reserved for system use.
 
 
 ## -remarks

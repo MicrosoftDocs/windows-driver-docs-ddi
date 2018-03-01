@@ -114,11 +114,7 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
@@ -126,15 +122,15 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 
 
@@ -143,6 +139,10 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
 
 

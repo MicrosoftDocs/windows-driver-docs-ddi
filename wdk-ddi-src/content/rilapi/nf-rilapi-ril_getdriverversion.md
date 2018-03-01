@@ -7,7 +7,7 @@ old-location: netvista\ril_getdriverversion.htm
 old-project: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

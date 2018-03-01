@@ -316,11 +316,11 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 
 
-<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
-
-
-
 <a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
 
 
 

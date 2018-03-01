@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a> macro be used instead.
+The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a> macro be used instead.
 
 The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
@@ -91,9 +91,9 @@ TBD
 
 
 
-####### - format_string, ...
+#### - pIWiaLog
 
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 #### - lResId
@@ -101,9 +101,9 @@ Specifies a variable argument list, which starts with an ANSI format string that
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
-#### - pIWiaLog
+####### - format_string, ...
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 ## -remarks
@@ -123,26 +123,26 @@ The following is an example of how the macro can be used:
 </td>
 </tr>
 </table></span></div>
-The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic log file. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a> macro be used instead. 
+The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a> macro be used instead. 
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 

@@ -119,7 +119,7 @@ You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
+<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
 
 
 
@@ -127,7 +127,7 @@ You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater th
 
 
 
-<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+<a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
 
 
 

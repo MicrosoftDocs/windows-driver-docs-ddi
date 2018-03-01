@@ -166,19 +166,19 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
-
-
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
 
 
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
+
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 

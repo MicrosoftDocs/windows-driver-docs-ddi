@@ -7,7 +7,7 @@ old-location: netvista\rilradioconfigurations_2.htm
 old-project: netvista
 ms.assetid: fdd53162-b884-4360-b80a-14225abc1185
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfigurations_2, rilapitypes/RILRADIOCONFIGURATIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wdf\wdfusbtargetdeviceallocandquerystring.htm
 old-project: wdf
 ms.assetid: a9dea258-601b-4ff7-b03b-b3f22d86f314
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, kmdf.wdfusbtargetdeviceallocandquerystring, wdf.wdfusbtargetdeviceallocandquerystring, wdfusb/WdfUsbTargetDeviceAllocAndQueryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -226,14 +226,6 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
@@ -242,13 +234,21 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
 
 
 
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md">WdfUsbTargetDeviceQueryString</a>
 
 
 
- 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceAllocAndQueryString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceAllocAndQueryString method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

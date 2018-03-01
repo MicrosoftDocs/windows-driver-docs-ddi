@@ -7,7 +7,7 @@ old-location: netvista\riluiccatrinfo_2.htm
 old-project: netvista
 ms.assetid: d7deda33-b68a-4413-a7fc-2988e97906e1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo_2, rilapitypes/RILUICCATRINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

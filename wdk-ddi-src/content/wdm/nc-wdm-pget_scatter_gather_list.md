@@ -192,11 +192,23 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
 
 
 
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
@@ -205,18 +217,6 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
 
 
 

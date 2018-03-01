@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - pContextDestructor
-
-An associated context destructor.
-
-
 #### - pMidAtlas
 
 The MID_ATLAS structure to be freed.
+
+
+#### - pContextDestructor
+
+An associated context destructor.
 
 
 ## -returns
@@ -112,6 +112,14 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
+<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
+
+
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
@@ -120,15 +128,7 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
 
 
 

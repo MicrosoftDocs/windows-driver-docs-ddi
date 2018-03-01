@@ -7,7 +7,7 @@ old-location: display\createpixelshader_d3d10_.htm
 old-project: display
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3D10DDI_CREATEPIXELSHADER, UserModeDisplayDriverDx10_Functions_23347d7f-4550-4b9e-a64a-8fcb9b1573c6.xml, d3d10umddi/CreatePixelShader, display.createpixelshader_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,9 +100,9 @@ VOID APIENTRY CreatePixelShader(
  A handle to the display device (graphics context).
 
 
-#### - hRTShader [in]
+#### - pCode [in]
 
- A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
+ An array of CONST UINT tokens that make up the shader code. The first token in the shader code stream is always the version token. The next token in the stream is the length token that determines the end of the shader code stream. For more information about the format of Direct3D version 10 shader code, see the comments inside the <i>D3d10tokenizedprogramformat.hpp</i> header file that is included with the WDK.
 
 
 #### - hShader [in]
@@ -110,9 +110,9 @@ VOID APIENTRY CreatePixelShader(
  A handle to the driver's private data for the pixel shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object. 
 
 
-#### - pCode [in]
+#### - hRTShader [in]
 
- An array of CONST UINT tokens that make up the shader code. The first token in the shader code stream is always the version token. The next token in the stream is the length token that determines the end of the shader code stream. For more information about the format of Direct3D version 10 shader code, see the comments inside the <i>D3d10tokenizedprogramformat.hpp</i> header file that is included with the WDK.
+ A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 #### - pSignatures [in]
@@ -142,7 +142,15 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a>
 
 
 
@@ -154,17 +162,9 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CREATEPIXELSHADER callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CREATEPIXELSHADER callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

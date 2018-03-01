@@ -7,7 +7,7 @@ old-location: print\iprintoemui_upgradeprinter.htm
 old-project: print
 ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], UpgradePrinter method, IPrintOemUI::UpgradePrinter, UpgradePrinter method [Print Devices], UpgradePrinter method [Print Devices], IPrintOemUI interface, UpgradePrinter,IPrintOemUI.UpgradePrinter, prcomoem/IPrintOemUI::UpgradePrinter, print.iprintoemui_upgradeprinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

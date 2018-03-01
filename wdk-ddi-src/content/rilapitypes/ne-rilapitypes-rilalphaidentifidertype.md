@@ -7,7 +7,7 @@ old-location: netvista\rilalphaidentifidertype_2.htm
 old-project: netvista
 ms.assetid: 25e65540-b221-453a-95ff-ec2b96857475
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILALPHAIDENTIFIDERTYPE, RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ALPHAIDENTIFIERTYPE_MAX, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RIL_ALPHAIDENTIFIERTYPE_PRESENT, netvista.rilalphaidentifidertype_2, rilapitypes/RILALPHAIDENTIFIDERTYPE, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

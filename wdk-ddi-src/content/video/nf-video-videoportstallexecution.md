@@ -7,7 +7,7 @@ old-location: display\videoportstallexecution.htm
 old-project: display
 ms.assetid: 70b406f8-d9ac-4882-89bc-e257cbe06921
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution, video/VideoPortStallExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,7 +97,11 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
+
+
+
+<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
 
 
 
@@ -105,11 +109,7 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
 
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-
-
-
-<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 
@@ -121,5 +121,5 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStallExecution function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortStallExecution function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

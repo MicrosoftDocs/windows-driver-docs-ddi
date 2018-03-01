@@ -7,7 +7,7 @@ old-location: netvista\rilgetcallwaitingsettingsparams.htm
 old-project: netvista
 ms.assetid: b257ef88-a474-4443-8fbf-91759066a536
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallwaitingsettingsparams, ntddrilapitypes/RILGETCALLWAITINGSETTINGSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

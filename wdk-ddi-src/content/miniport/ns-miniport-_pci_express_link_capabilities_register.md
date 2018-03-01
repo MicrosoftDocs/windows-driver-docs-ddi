@@ -89,6 +89,72 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
+#### - MaximumLinkSpeed
+
+The maximum link speed of the PCIe link. The only valid value is:
+
+
+
+
+
+#### 1
+
+2.5 gigabits per second
+
+All other values are reserved.
+
+
+#### - MaximumLinkWidth
+
+The maximum link width (number of lanes) implemented by the component. Possible values are:
+
+
+
+
+
+#### 1
+
+x1 (1 lane)
+
+
+
+#### 2
+
+x2 (2 lanes)
+
+
+
+#### 4
+
+x4 (4 lanes)
+
+
+
+#### 8
+
+x8 (8 lanes)
+
+
+
+#### 12
+
+x12 (12 lanes)
+
+
+
+#### 16
+
+x16 (16 lanes)
+
+
+
+#### 32
+
+x32 (32 lanes)
+
+All other values are reserved.
+
+
 #### - ActiveStatePMSupport
 
 The level of active state power management supported on the PCIe link. Possible values are:
@@ -108,16 +174,6 @@ L0s is supported.
 L0s and L1 are supported.
 
 All other values are reserved.
-
-
-#### - ClockPowerManagement
-
-A single bit that indicates that the component supports clock power management.
-
-
-#### - DataLinkLayerActiveReportingCapable
-
-A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 #### - L0sExitLatency
@@ -232,75 +288,19 @@ More than 64 microseconds
 This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
-#### - MaximumLinkSpeed
+#### - ClockPowerManagement
 
-The maximum link speed of the PCIe link. The only valid value is:
-
-
+A single bit that indicates that the component supports clock power management.
 
 
+#### - SurpriseDownErrorReportingCapable
 
-#### 1
-
-2.5 gigabits per second
-
-All other values are reserved.
+A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
 
-#### - MaximumLinkWidth
+#### - DataLinkLayerActiveReportingCapable
 
-The maximum link width (number of lanes) implemented by the component. Possible values are:
-
-
-
-
-
-#### 1
-
-x1 (1 lane)
-
-
-
-#### 2
-
-x2 (2 lanes)
-
-
-
-#### 4
-
-x4 (4 lanes)
-
-
-
-#### 8
-
-x8 (8 lanes)
-
-
-
-#### 12
-
-x12 (12 lanes)
-
-
-
-#### 16
-
-x16 (16 lanes)
-
-
-
-#### 32
-
-x32 (32 lanes)
-
-All other values are reserved.
-
-
-#### - PortNumber
-
-The PCIe port number for the PCIe link.
+A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 #### - Rsvd
@@ -308,9 +308,9 @@ The PCIe port number for the PCIe link.
 Reserved.
 
 
-#### - SurpriseDownErrorReportingCapable
+#### - PortNumber
 
-A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+The PCIe port number for the PCIe link.
 
 
 ## -remarks

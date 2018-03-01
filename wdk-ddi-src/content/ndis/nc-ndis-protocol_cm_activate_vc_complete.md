@@ -7,7 +7,7 @@ old-location: netvista\protocolcmactivatevccomplete.htm
 old-project: netvista
 ms.assetid: 6ec9e73e-8abd-4d27-b598-6176f2125348
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: PROTOCOL_CM_ACTIVATE_VC_COMPLETE, ProtocolCmActivateVcComplete, ProtocolCmActivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2a632e5a-975c-44a2-8b30-088c128561c2.xml, ndis/ProtocolCmActivateVcComplete, netvista.protocolcmactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,10 +181,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 
@@ -193,9 +189,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_ACTIVATE_VC_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_ACTIVATE_VC_COMPLETE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

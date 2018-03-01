@@ -203,11 +203,9 @@ Reserved and should not be used by the minidriver.
 Reserved and should not be used by the minidriver.
 
 
-#### - FrameCompletionNumber
+#### - lSurfacePitch
 
-An identifying sequence number for the frame in the completed queue. This number is used to verify proper frame order. When this value is 0, the frame was cancelled.
-
-This member is available starting with Windows 8.1.
+Contains surface pitch a.k.a stride
 
 
 #### - Reserved1
@@ -215,9 +213,11 @@ This member is available starting with Windows 8.1.
 Reserved and should not be used by the minidriver.
 
 
-#### - lSurfacePitch
+#### - FrameCompletionNumber
 
-Contains surface pitch a.k.a stride
+An identifying sequence number for the frame in the completed queue. This number is used to verify proper frame order. When this value is 0, the frame was cancelled.
+
+This member is available starting with Windows 8.1.
 
 
 ## -remarks

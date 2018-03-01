@@ -7,7 +7,7 @@ old-location: wdf\wdfioqueueretrievefoundrequest.htm
 old-project: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,7 +171,7 @@ For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 
 
@@ -179,7 +179,7 @@ For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href=
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>
 
 
 
@@ -187,5 +187,5 @@ For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueRetrieveFoundRequest method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueRetrieveFoundRequest method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

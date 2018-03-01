@@ -93,6 +93,16 @@ Whether this interrupt is a primary interrupt or a secondary interrupt. This bit
 Reserved for future use.
 
 
+##### - ( unnamed struct ).SecondaryInterrupt
+
+Whether this interrupt is a primary interrupt or a secondary interrupt. This bitfield is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see <a href="https://msdn.microsoft.com/731B0E36-4480-4B69-931E-1F7B40B18911">Primary and Secondary Interrupts</a>.
+
+
+##### - ( unnamed struct ).Reserved
+
+Reserved for future use.
+
+
 ## -remarks
 
 

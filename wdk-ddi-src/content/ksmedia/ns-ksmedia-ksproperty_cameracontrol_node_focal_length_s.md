@@ -105,15 +105,15 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_focal_length_s.md">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 

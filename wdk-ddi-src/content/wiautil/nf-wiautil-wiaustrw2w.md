@@ -100,11 +100,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
 
 
 

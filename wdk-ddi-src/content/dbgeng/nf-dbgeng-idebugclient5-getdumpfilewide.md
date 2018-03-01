@@ -7,7 +7,7 @@ old-location: debugger\getdumpfilewide.htm
 old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, GetDumpFileWide,IDebugClient5.GetDumpFileWide, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient4::GetDumpFileWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,11 +142,11 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 
 
@@ -154,17 +154,17 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::GetDumpFileWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::GetDumpFileWide method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

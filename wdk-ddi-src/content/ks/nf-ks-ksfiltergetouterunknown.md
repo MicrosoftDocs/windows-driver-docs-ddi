@@ -92,11 +92,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
-
-
-
-<b>KsRegisterAggregatedClientUnknown</b>
+<a href="..\ks\nf-ks-kspinregisteraggregatedclientunknown.md">KsPinRegisterAggregatedClientUnknown</a>
 
 
 
@@ -104,7 +100,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<a href="..\ks\nf-ks-kspinregisteraggregatedclientunknown.md">KsPinRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 
@@ -112,7 +108,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+<b>KsRegisterAggregatedClientUnknown</b>
+
+
+
+<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
 
 
 

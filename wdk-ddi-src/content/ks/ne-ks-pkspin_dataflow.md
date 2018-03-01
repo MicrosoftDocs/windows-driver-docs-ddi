@@ -80,7 +80,7 @@ Indicates that the pin factory instantiates data source pins. Such pins can only
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
 
 
 
@@ -88,7 +88,7 @@ Indicates that the pin factory instantiates data source pins. Such pins can only
 
 
 
-<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

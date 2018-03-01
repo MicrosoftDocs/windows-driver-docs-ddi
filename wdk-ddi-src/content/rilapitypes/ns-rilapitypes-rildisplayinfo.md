@@ -7,7 +7,7 @@ old-location: netvista\rildisplayinfo_2.htm
 old-project: netvista
 ms.assetid: f24d8122-ea07-477f-9cf9-4767cc0fbf86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], netvista.rildisplayinfo_2, rilapitypes/RILDISPLAYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

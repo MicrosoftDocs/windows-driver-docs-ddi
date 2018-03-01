@@ -7,7 +7,7 @@ old-location: netvista\ndismsetupdmatransfer.htm
 old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,34 +107,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-A pointer to the buffer descriptor mapping the range of host memory from which or into which the
-     data will be transferred.
-
-
-#### - Length [in]
-
-The number of bytes of data to be transferred. The range specified by 
-     <i>Offset</i> and 
-     <i>Length</i> must be a proper subrange of that specified at 
-     <i>Buffer</i> .
-
-
-#### - MiniportDmaHandle [in]
-
-The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
-     during initialization.
-
-
-#### - Offset [in]
-
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
-
-
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the request,
@@ -158,6 +130,34 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        designated by 
        <i>MiniportDmaHandle</i> is currently in use transferring data or because the given 
        <i>Length</i> is invalid.
+
+
+#### - MiniportDmaHandle [in]
+
+The DMA handle returned by the 
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     during initialization.
+
+
+#### - Buffer [in]
+
+A pointer to the buffer descriptor mapping the range of host memory from which or into which the
+     data will be transferred.
+
+
+#### - Offset [in]
+
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
+
+
+#### - Length [in]
+
+The number of bytes of data to be transferred. The range specified by 
+     <i>Offset</i> and 
+     <i>Length</i> must be a proper subrange of that specified at 
+     <i>Buffer</i> .
 
 
 #### - WriteToDevice [in]
@@ -208,6 +208,10 @@ When the transfer is complete, the miniport driver must call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 
@@ -216,13 +220,9 @@ When the transfer is complete, the miniport driver must call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetupDmaTransfer macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSetupDmaTransfer macro%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

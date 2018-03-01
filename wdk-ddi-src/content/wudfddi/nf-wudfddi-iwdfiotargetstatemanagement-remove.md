@@ -7,7 +7,7 @@ old-location: wdf\iwdfiotargetstatemanagement_remove.htm
 old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove, Remove method, Remove method, IWDFIoTargetStateManagement interface, Remove,IWDFIoTargetStateManagement.Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, umdf.iwdfiotargetstatemanagement_remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,5 +103,5 @@ Although the <b>Remove</b> method is available, drivers do not need to call it. 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoTargetStateManagement::Remove method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoTargetStateManagement::Remove method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

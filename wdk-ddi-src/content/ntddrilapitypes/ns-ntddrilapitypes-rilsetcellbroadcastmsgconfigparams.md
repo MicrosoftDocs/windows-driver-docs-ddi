@@ -7,7 +7,7 @@ old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 old-project: netvista
 ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

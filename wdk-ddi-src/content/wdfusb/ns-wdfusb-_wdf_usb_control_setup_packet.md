@@ -7,7 +7,7 @@ old-location: wdf\wdf_usb_control_setup_packet.htm
 old-project: wdf
 ms.assetid: f50ee559-3df7-4e15-b5a6-d6b85277c461
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_USB_CONTROL_SETUP_PACKET, DFUsbRef_d563752f-cbb6-4b63-9322-2bb0dc96d855.xml, PWDF_USB_CONTROL_SETUP_PACKET, PWDF_USB_CONTROL_SETUP_PACKET union pointer, WDF_USB_CONTROL_SETUP_PACKET, WDF_USB_CONTROL_SETUP_PACKET union, _WDF_USB_CONTROL_SETUP_PACKET, kmdf.wdf_usb_control_setup_packet, wdf.wdf_usb_control_setup_packet, wdfusb/PWDF_USB_CONTROL_SETUP_PACKET, wdfusb/WDF_USB_CONTROL_SETUP_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -249,7 +249,7 @@ To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should
 
 ## -see-also
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
 
 
 
@@ -257,11 +257,7 @@ To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
 
 
 
@@ -269,9 +265,13 @@ To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should
 
 
 
- 
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTROL_SETUP_PACKET union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTROL_SETUP_PACKET union%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

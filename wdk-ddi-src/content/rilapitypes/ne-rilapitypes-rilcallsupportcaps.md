@@ -7,7 +7,7 @@ old-location: netvista\rilcallsupportcaps_2.htm
 old-project: netvista
 ms.assetid: f51ab865-8862-4ed2-830e-ecbef4c9c74e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCALLSUPPORTCAPS, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_CD, RIL_CAPS_CALLSUPPORT_CNAP, RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_EMLPP, RIL_CAPS_CALLSUPPORT_FM, RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, netvista.rilcallsupportcaps_2, rilapitypes/RILCALLSUPPORTCAPS, rilapitypes/RIL_CAPS_CALLSUPPORT_ALL, rilapitypes/RIL_CAPS_CALLSUPPORT_CD, rilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, rilapitypes/RIL_CAPS_CALLSUPPORT_CUG, rilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, rilapitypes/RIL_CAPS_CALLSUPPORT_FM, rilapitypes/RIL_CAPS_CALLSUPPORT_MSP, rilapitypes/RIL_CAPS_CALLSUPPORT_USS, rilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2
 ms.prod: windows-hardware
 ms.technology: windows-devices

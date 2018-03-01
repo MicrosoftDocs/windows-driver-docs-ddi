@@ -73,37 +73,37 @@ HRESULT Get(
 
 
 
-### -param PropSet [in]
+#### - PropSet [in]
 
 GUID that identifies the property set.
 
 
-### -param Id [in]
+#### - Id [in]
 
 Identifier of the property within the property set. 
 
 
-### -param InstanceData [in]
+#### - InstanceData [in]
 
 Pointer to instance data for the property. 
 
 
-### -param InstanceLength [in]
+#### - InstanceLength [in]
 
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-### -param PropertyData [out]
+#### - PropertyData [out]
 
 Pointer to a buffer that receives the value of the property. 
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
-### -param BytesReturned [out]
+#### - BytesReturned [out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
 

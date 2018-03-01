@@ -100,11 +100,11 @@ Callers of <b>RtlNumberGenericTableElements</b> must be running at IRQL &lt; DIS
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 
 

@@ -97,19 +97,19 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-crypto-session-transform-decrypt-header-output-ar
 old-project: display
 ms.assetid: 15f4ea26-3a76-4c81-82cc-1abd5f95c63e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-decrypt-header-output-arguments-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

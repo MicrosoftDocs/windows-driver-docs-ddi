@@ -292,11 +292,7 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -304,7 +300,11 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
 
 
@@ -312,7 +312,7 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

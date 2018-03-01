@@ -75,7 +75,7 @@ NTSTATUS IoReportResourceForDetection(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object that was input to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+Pointer to the driver object that was input to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 
 ### -param DriverList [in, optional]
@@ -157,11 +157,11 @@ If a driver supports only PnP hardware, it does no detection and therefore does 
 
 If a PnP driver supports legacy hardware, however, it must call <b>IoReportResourceForDetection</b> to claim hardware resources before it attempts to detect the device.
 
-Callers of this routine specify a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> in either a <i>DeviceList</i> or a <i>DriverList</i> that is allocated from paged memory and that consists of raw, untranslated resources. The caller is responsible for freeing the memory. 
+Callers of this routine specify a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> in either a <i>DeviceList</i> or a <i>DriverList</i> that is allocated from paged memory and that consists of raw, untranslated resources. The caller is responsible for freeing the memory. 
 
 A driver that can control more than one legacy card at the same time should claim the resources for each device against the device object for the respective device (using the <i>DeviceObject</i>, <i>DeviceList</i>, and <i>DeviceListSize</i> parameters). Such a driver must not claim these resources against their driver object.
 
-A <b>CM_RESOURCE_LIST</b> contains two variable-sized arrays. Each array has a default size of one. If either array has more than one element, the caller must allocate memory dynamically to contain the additional elements. Only one <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> can be part of each <a href="..\wudfwdm\ns-wudfwdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a> in the list, except for the last full resource descriptor in the <b>CM_RESOURCE_LIST</b>, which can have additional partial resource descriptors in its array.
+A <b>CM_RESOURCE_LIST</b> contains two variable-sized arrays. Each array has a default size of one. If either array has more than one element, the caller must allocate memory dynamically to contain the additional elements. Only one <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> can be part of each <a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a> in the list, except for the last full resource descriptor in the <b>CM_RESOURCE_LIST</b>, which can have additional partial resource descriptors in its array.
 
 <b>IoReportResourceForDetection</b>, with the help of the PnP manager, determines whether the resources being requested conflict with resources that have already been claimed.
 
@@ -184,11 +184,11 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 

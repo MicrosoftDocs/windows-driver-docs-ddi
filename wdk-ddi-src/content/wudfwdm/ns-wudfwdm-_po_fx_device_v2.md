@@ -134,7 +134,7 @@ The number of elements in the <b>Components</b> array. Additionally, this member
 
 ### -field Components
 
-This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
+This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
 
 
 ## -remarks
@@ -152,11 +152,7 @@ A device driver is not required to implement all six callback routines. The driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
 
 
@@ -164,19 +160,19 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
 
 
 
@@ -184,11 +180,15 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
 
 

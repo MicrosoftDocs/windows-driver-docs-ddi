@@ -89,34 +89,9 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure.
 
 
-#### - AdvisoryNonFatalError
-
-A single bit that indicates that the reporting of advisory non-fatal errors is masked.
-
-
-#### - BadDLLP
-
-A single bit that indicates that the reporting of bad data link layer packets (DLLPs) is masked.
-
-
-#### - BadTLP
-
-A single bit that indicates that the reporting of bad transaction layer packets (TLPs) is masked.
-
-
 #### - ReceiverError
 
 A single bit that indicates that the reporting of receiver errors is masked.
-
-
-#### - ReplayNumRollover
-
-A single bit that indicates that the reporting of rollovers of the counter that counts the number of times the retry buffer has been re-transmitted is masked.
-
-
-#### - ReplayTimerTimeout
-
-A single bit that indicates that the reporting of timeouts of the replay timer is masked.
 
 
 #### - Reserved1
@@ -124,9 +99,34 @@ A single bit that indicates that the reporting of timeouts of the replay timer i
 Reserved.
 
 
+#### - BadTLP
+
+A single bit that indicates that the reporting of bad transaction layer packets (TLPs) is masked.
+
+
+#### - BadDLLP
+
+A single bit that indicates that the reporting of bad data link layer packets (DLLPs) is masked.
+
+
+#### - ReplayNumRollover
+
+A single bit that indicates that the reporting of rollovers of the counter that counts the number of times the retry buffer has been re-transmitted is masked.
+
+
 #### - Reserved2
 
 Reserved.
+
+
+#### - ReplayTimerTimeout
+
+A single bit that indicates that the reporting of timeouts of the replay timer is masked.
+
+
+#### - AdvisoryNonFatalError
+
+A single bit that indicates that the reporting of advisory non-fatal errors is masked.
 
 
 #### - Reserved3

@@ -127,7 +127,7 @@ The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
 
 
@@ -139,7 +139,7 @@ The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or 
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
 

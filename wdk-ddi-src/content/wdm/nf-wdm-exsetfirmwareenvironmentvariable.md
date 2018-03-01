@@ -179,11 +179,11 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 
 
-<a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
-
-
-
 <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
+
+
+
+<a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a>
 
 
 

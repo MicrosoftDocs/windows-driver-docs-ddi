@@ -144,7 +144,7 @@ In addition, the caller can set one (but not both) of the following optional fla
 
 
 
-A driver must call this routine during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MmMapIoSpaceEx</b> maps the physical address returned in the resource list to a logical address through which the driver can access device registers.
+A driver must call this routine during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MmMapIoSpaceEx</b> maps the physical address returned in the resource list to a logical address through which the driver can access device registers.
 
 For example, drivers of PIO devices that allocate long-term I/O buffers can call this routine to make such buffers accessible or to make device memory accessible.
 
@@ -155,7 +155,7 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 
 
@@ -163,11 +163,11 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
+<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 
 
 

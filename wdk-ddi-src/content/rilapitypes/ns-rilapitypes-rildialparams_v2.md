@@ -7,7 +7,7 @@ old-location: netvista\rildialparams_v2_2.htm
 old-project: netvista
 ms.assetid: ca42a4c3-1589-4434-8d76-59f877e1e664
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2_2, rilapitypes/RILDIALPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

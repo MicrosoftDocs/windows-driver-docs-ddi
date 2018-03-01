@@ -94,14 +94,9 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+#### - TargetAbortOnSplitCompletion
 
-A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that the reporting of internal bridge errors is masked.
+A single bit that indicates that the reporting of target aborts on split completion is masked.
 
 
 #### - MasterAbortOnSplitCompletion
@@ -109,9 +104,9 @@ A single bit that indicates that the reporting of internal bridge errors is mask
 A single bit that indicates that the reporting of master aborts on split completion is masked.
 
 
-#### - PERRAsserted
+#### - ReceivedTargetAbort
 
-A single bit that indicates that the reporting of PERR# assertions is masked.
+A single bit that indicates that the reporting of target aborts is masked.
 
 
 #### - ReceivedMasterAbort
@@ -119,44 +114,14 @@ A single bit that indicates that the reporting of PERR# assertions is masked.
 A single bit that indicates that the reporting of master aborts is masked.
 
 
-#### - ReceivedTargetAbort
-
-A single bit that indicates that the reporting of target aborts is masked.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+#### - UnexpectedSplitCompletionError
 
-A single bit that indicates that the reporting of SERR# assertions is masked.
-
-
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that the reporting of target aborts on split completion is masked.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that the reporting of uncorrectable address errors is masked.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that the reporting of uncorrectable attribute errors is masked.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that the reporting of uncorrectable data errors is masked.
+A single bit that indicates that the reporting of unexpected split completion errors is masked.
 
 
 #### - UncorrectableSplitCompletion
@@ -164,9 +129,44 @@ A single bit that indicates that the reporting of uncorrectable data errors is m
 A single bit that indicates that the reporting of uncorrectable split completion message data errors is masked.
 
 
-#### - UnexpectedSplitCompletionError
+#### - UncorrectableDataError
 
-A single bit that indicates that the reporting of unexpected split completion errors is masked.
+A single bit that indicates that the reporting of uncorrectable data errors is masked.
+
+
+#### - UncorrectableAttributeError
+
+A single bit that indicates that the reporting of uncorrectable attribute errors is masked.
+
+
+#### - UncorrectableAddressError
+
+A single bit that indicates that the reporting of uncorrectable address errors is masked.
+
+
+#### - DelayedTransactionDiscardTimerExpired
+
+A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
+
+
+#### - PERRAsserted
+
+A single bit that indicates that the reporting of PERR# assertions is masked.
+
+
+#### - SERRAsserted
+
+A single bit that indicates that the reporting of SERR# assertions is masked.
+
+
+#### - InternalBridgeError
+
+A single bit that indicates that the reporting of internal bridge errors is masked.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

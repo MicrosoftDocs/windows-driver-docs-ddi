@@ -102,7 +102,7 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
 
 
@@ -110,7 +110,7 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
 
 
 
@@ -118,11 +118,7 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
 
 
 
@@ -130,7 +126,11 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
 
 
 

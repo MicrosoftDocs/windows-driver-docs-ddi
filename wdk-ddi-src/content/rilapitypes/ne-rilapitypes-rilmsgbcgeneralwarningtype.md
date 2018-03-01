@@ -7,7 +7,7 @@ old-location: netvista\rilmsgbcgeneralwarningtype_2.htm
 old-project: netvista
 ms.assetid: 0e556cab-87af-4b3d-8c8c-d0815323a002
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILMSGBCGENERALWARNINGTYPE, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_MAX, RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_TSUNAMI, netvista.rilmsgbcgeneralwarningtype_2, rilapitypes/RILMSGBCGENERALWARNINGTYPE, rilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, rilapitypes/RIL_WARNINGTYPE_MAX, rilapitypes/RIL_WARNINGTYPE_OTHER, rilapitypes/RIL_WARNINGTYPE_RESERVED, rilapitypes/RIL_WARNINGTYPE_TEST, rilapitypes/RIL_WARNINGTYPE_TSUNAMI
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\notifyfn0.htm
 old-project: netvista
 ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -221,15 +221,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
 
 
@@ -237,11 +229,19 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
 
 
@@ -249,5 +249,5 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT_NOTIFY_FN0 callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT_NOTIFY_FN0 callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

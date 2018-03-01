@@ -7,7 +7,7 @@ old-location: netvista\rilgetpreferredoperatorlistparams_2.htm
 old-project: netvista
 ms.assetid: bca0f1a1-2951-40c3-85b4-6009176ea574
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetpreferredoperatorlistparams_2, rilapitypes/RILGETPREFERREDOPERATORLISTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

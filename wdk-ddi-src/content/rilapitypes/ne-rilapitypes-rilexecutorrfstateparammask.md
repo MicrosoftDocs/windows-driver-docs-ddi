@@ -7,7 +7,7 @@ old-location: netvista\rilexecutorrfstateparammask_2.htm
 old-project: netvista
 ms.assetid: 310cd96f-ad99-4fdb-b49c-e4fee749ff78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask_2, rilapitypes/RILEXECUTORRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_GERFS_ALL, rilapitypes/RIL_PARAM_GERFS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

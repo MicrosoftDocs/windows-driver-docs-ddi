@@ -125,39 +125,7 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_work_device_idle.md">PEP_WORK_DEVICE_IDLE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_work_complete_idle_state.md">PEP_WORK_COMPLETE_IDLE_STATE</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_work_device_power.md">PEP_WORK_DEVICE_POWER</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_work_power_control.md">PEP_WORK_POWER_CONTROL</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_work_active_complete.md">PEP_WORK_ACTIVE_COMPLETE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_work.md">PEP_WORK</a>
-
-
-
 <a href="..\pepfx\ne-pepfx-_pep_work_type.md">PEP_WORK_TYPE</a>
-
-
-
-<a href="..\pep_x\ns-pep_x-_pep_work_idle_state.md">PEP_WORK_IDLE_STATE</a>
 
 
 
@@ -165,7 +133,39 @@ The <b>WorkInformation</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work.md
 
 
 
+<a href="..\pepfx\ns-pepfx-_pep_work_complete_idle_state.md">PEP_WORK_COMPLETE_IDLE_STATE</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_device_idle.md">PEP_WORK_DEVICE_IDLE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_work_complete_perf_state.md">PEP_WORK_COMPLETE_PERF_STATE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_power_control.md">PEP_WORK_POWER_CONTROL</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work.md">PEP_WORK</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_idle_state.md">PEP_WORK_IDLE_STATE</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_device_power.md">PEP_WORK_DEVICE_POWER</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_active_complete.md">PEP_WORK_ACTIVE_COMPLETE</a>
 
 
 

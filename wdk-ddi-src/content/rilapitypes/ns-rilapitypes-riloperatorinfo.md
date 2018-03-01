@@ -7,7 +7,7 @@ old-location: netvista\riloperatorinfo_2.htm
 old-project: netvista
 ms.assetid: cf189a5a-8281-4d9a-bad8-a25a1294aec9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILOPERATORINFO, RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], netvista.riloperatorinfo_2, rilapitypes/RILOPERATORINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

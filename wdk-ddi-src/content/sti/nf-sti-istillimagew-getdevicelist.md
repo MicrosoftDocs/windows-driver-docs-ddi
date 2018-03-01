@@ -115,11 +115,11 @@ When the caller has finished using the array of STI_DEVICE_INFORMATION structure
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543782">IStillImage::GetDeviceInfo</a>
+
+
+
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 

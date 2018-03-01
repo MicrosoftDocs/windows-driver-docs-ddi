@@ -7,7 +7,7 @@ old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
 old-project: display
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners
 ms.prod: windows-hardware
 ms.technology: windows-devices

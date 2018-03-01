@@ -310,14 +310,14 @@ The <b>Guid</b> member points to a GUID in memory, rather than containing the GU
 Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID. 
 
 
-#### - CountLost
-
-Reserved
-
-
 #### - HistoricalContext
 
 This member stores the handle to the event tracing session. 
+
+
+#### - CountLost
+
+Reserved
 
 
 #### - KernelHandle
@@ -341,18 +341,6 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
 
@@ -361,7 +349,7 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 
 
@@ -369,15 +357,27 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_method_item.md">WNODE_METHOD_ITEM</a>
 
 
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
 
 
 

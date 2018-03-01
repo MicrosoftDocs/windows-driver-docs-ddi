@@ -88,11 +88,11 @@ Highest-level drivers can call this routine, particularly file systems attemptin
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

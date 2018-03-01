@@ -7,7 +7,7 @@ old-location: audio\pfndrmforwardcontenttointerface.htm
 old-project: audio
 ms.assetid: DFD077B7-307B-439B-828D-DC225FC5AAA0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], PFNDRMFORWARDCONTENTTOINTERFACE, audio.pfndrmforwardcontenttointerface, drmk/DRMForwardContentToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

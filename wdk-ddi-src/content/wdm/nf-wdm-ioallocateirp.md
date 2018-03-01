@@ -105,7 +105,27 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -117,27 +137,7 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 
 
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-
-
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 

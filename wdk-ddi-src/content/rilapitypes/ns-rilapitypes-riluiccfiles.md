@@ -7,7 +7,7 @@ old-location: netvista\riluiccfiles_2.htm
 old-project: netvista
 ms.assetid: 282cd191-03c5-4599-9a61-e84221ef9143
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles_2, rilapitypes/RILUICCFILES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

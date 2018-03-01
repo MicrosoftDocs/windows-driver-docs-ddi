@@ -103,11 +103,11 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
 
 
 

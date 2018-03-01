@@ -7,7 +7,7 @@ old-location: storage\hba_sendscsiinquiry.htm
 old-project: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: HBA_SendScsiInquiry, HBA_SendScsiInquiry routine [Storage Devices], fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, hbaapi/HBA_SendScsiInquiry, storage.hba_sendscsiinquiry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,24 +120,24 @@ Pointer to a buffer that receives the SCSI sense data.
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
 
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. 
-
-
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
 
 
-#### - pRespBufferSize [in]
-
-Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
-
-
 #### - portWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
+
+#### - fcLUN [in]
+
+Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. 
+
+
+#### - pRespBufferSize [in]
+
+Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
 
 
 ## -returns
@@ -226,5 +226,5 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendScsiInquiry routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendScsiInquiry routine%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

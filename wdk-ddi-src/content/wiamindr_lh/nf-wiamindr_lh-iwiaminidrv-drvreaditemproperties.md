@@ -99,6 +99,11 @@ HRESULT drvReadItemProperties(
 
 
 
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
+
+
 #### - lFlags [in]
 
 Is reserved. Set to zero.
@@ -112,11 +117,6 @@ Indicates the number of items in the <i>pPropSpec</i> array.
 #### - pPropSpec [in]
 
 Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
-
-
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -146,23 +146,7 @@ In this method, the minidriver should read the requested properties from the dev
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
 
 
 
@@ -174,11 +158,27 @@ In this method, the minidriver should read the requested properties from the dev
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
 
 
 

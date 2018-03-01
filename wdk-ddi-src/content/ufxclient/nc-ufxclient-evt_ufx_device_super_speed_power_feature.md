@@ -83,6 +83,11 @@ typedef EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE PFN_UFX_DEVICE_SUPER_SPEED_POWE
 
 
 
+#### - UfxDevice [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+
+
 #### - Feature [in]
 
 Feature selector for the power feature that is set or cleared, as defined in section 9.4 of the USB 3.0 Specification.  The feature selector can be one of these values: 
@@ -98,11 +103,6 @@ Feature selector for the power feature that is set or cleared, as defined in sec
 If TRUE, set the feature.
 
 If FALSE, clear the feature.
-
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_set_hotplug_info.htm
 old-project: storage
 ms.assetid: 5badc919-8663-4905-aaec-70f6b51ab2f1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control code [Storage Devices], k307_f6fb6bb6-0058-4fa6-9d4f-2f964b1ef646.xml, ntddstor/IOCTL_STORAGE_SET_HOTPLUG_INFO, storage.ioctl_storage_set_hotplug_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,17 +110,17 @@ The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INFO_LEN
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
-
-
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_hotplug_info.md">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
- 
+<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_SET_HOTPLUG_INFO control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_SET_HOTPLUG_INFO control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\evtinterruptisr.htm
 old-project: wdf
 ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,15 +165,11 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 
 
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
+
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptwdmgetinterrupt.md">WdfInterruptWdmGetInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
 
 
 
@@ -185,7 +181,11 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+<a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
 
 
 
@@ -193,5 +193,5 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_INTERRUPT_ISR callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_INTERRUPT_ISR callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

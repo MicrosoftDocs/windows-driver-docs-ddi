@@ -7,7 +7,7 @@ old-location: print\iprintcoreui2_enumfeatures.htm
 old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreUI2 interface, EnumFeatures,IPrintCoreUI2.EnumFeatures, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2::EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,5 +195,5 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::EnumFeatures method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreUI2::EnumFeatures method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

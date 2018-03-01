@@ -81,7 +81,7 @@ A pointer to the device object of the caller (a <a href="..\wdm\ns-wdm-_device_o
 
 ### -param Context [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to a <a href="..\ntpoapi\ns-ntpoapi-_counted_reason_context.md">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ## -returns
@@ -142,11 +142,11 @@ When the power request object is no longer needed, the caller must delete the ob
 
 
 
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
-
-
-
 <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 

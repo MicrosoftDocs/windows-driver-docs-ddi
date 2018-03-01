@@ -7,7 +7,7 @@ old-location: wdf\wdf_query_interface_config.htm
 old-project: wdf
 ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, WDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, _WDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, wdf.wdf_query_interface_config, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,18 +156,6 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
-
-
-
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
 
@@ -176,7 +164,11 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -184,9 +176,17 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
- 
+<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_QUERY_INTERFACE_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_QUERY_INTERFACE_CONFIG structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

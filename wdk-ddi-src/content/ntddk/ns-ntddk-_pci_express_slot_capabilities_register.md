@@ -96,24 +96,9 @@ A ULONG representation of the contents of the PCI_EXPRESS_SLOT_CAPABILITIES_REGI
 A single bit that indicates that an attention button exists for the slot.
 
 
-#### - AttentionIndicatorPresent
+#### - PowerControllerPresent
 
-A single bit that indicates that an attention indicator exists for the slot.
-
-
-#### - ElectromechanicalLockPresent
-
-A single bit that indicates that an electromechanical interlock exists for the slot.
-
-
-#### - HotPlugCapable
-
-A single bit that indicates that the slot is capable of supporting hot-plug operations.
-
-
-#### - HotPlugSurprise
-
-A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
+A single bit that indicates that a software programmable power controller exists for the slot or for the adapter that is plugged into the slot.
 
 
 #### - MRLSensorPresent
@@ -121,24 +106,24 @@ A single bit that indicates that an adapter that is present in the slot can be r
 A single bit that indicates that a manually operated retention latch (MRL) sensor exists for the slot.
 
 
-#### - NoCommandCompletedSupport
+#### - AttentionIndicatorPresent
 
-A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
-
-
-#### - PhysicalSlotNumber
-
-The physical slot number in the system chassis that is attached to this port. This value is zero for ports that are connected to devices that are either integrated on the system board or integrated within the same physical component as the switch device or root port.
-
-
-#### - PowerControllerPresent
-
-A single bit that indicates that a software programmable power controller exists for the slot or for the adapter that is plugged into the slot.
+A single bit that indicates that an attention indicator exists for the slot.
 
 
 #### - PowerIndicatorPresent
 
 A single bit that indicates that a power indicator exists for the slot.
+
+
+#### - HotPlugSurprise
+
+A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
+
+
+#### - HotPlugCapable
+
+A single bit that indicates that the slot is capable of supporting hot-plug operations.
 
 
 #### - SlotPowerLimit
@@ -175,6 +160,41 @@ Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
 #### 3
 
 Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
+
+
+##### - SlotPowerLimitScale.0
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 1.0.
+
+
+##### - SlotPowerLimitScale.1
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.1.
+
+
+##### - SlotPowerLimitScale.2
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
+
+
+##### - SlotPowerLimitScale.3
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
+
+
+#### - ElectromechanicalLockPresent
+
+A single bit that indicates that an electromechanical interlock exists for the slot.
+
+
+#### - NoCommandCompletedSupport
+
+A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
+
+
+#### - PhysicalSlotNumber
+
+The physical slot number in the system chassis that is attached to this port. This value is zero for ports that are connected to devices that are either integrated on the system board or integrated within the same physical component as the switch device or root port.
 
 
 ## -remarks

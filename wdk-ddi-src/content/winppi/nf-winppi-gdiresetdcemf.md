@@ -7,7 +7,7 @@ old-location: print\gdiresetdcemf.htm
 old-project: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, winppi/GdiResetDCEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 -	GdiResetDCEMF
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
+req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.
 ---
 

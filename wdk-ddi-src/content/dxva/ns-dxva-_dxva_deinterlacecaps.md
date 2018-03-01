@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacecaps.htm
 old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], LPDXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], _DXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, dxva/DXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,17 +127,17 @@ The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> memb
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
 
 
 
- 
+<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceCaps structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceCaps structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

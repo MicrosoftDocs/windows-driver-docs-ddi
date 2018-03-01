@@ -101,11 +101,11 @@ Note that if the call to <b>MmMapLockedPages</b> or <b>MmMapLockedPagesSpecifyCa
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
 

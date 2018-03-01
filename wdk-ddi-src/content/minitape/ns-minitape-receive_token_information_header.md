@@ -7,7 +7,7 @@ old-location: storage\receive_token_information_header.htm
 old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], SERVICE_ACTION_POPULATE_TOKEN, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_GIBIBYTES, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -361,7 +361,7 @@ Sense data returned for the copy operation.
 
 
 
-If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
+If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\minitape\ns-minitape-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
@@ -370,7 +370,7 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+<a href="..\minitape\ns-minitape-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
 
 
 
@@ -378,5 +378,5 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

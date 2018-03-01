@@ -7,7 +7,7 @@ old-location: display\video_share_memory.htm
 old-project: display
 ms.assetid: 2339da67-78cd-49d4-a70c-fd774706fe3f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, _VIDEO_SHARE_MEMORY, display.video_share_memory, ntddvdeo/PVIDEO_SHARE_MEMORY, ntddvdeo/VIDEO_SHARE_MEMORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,7 +103,7 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
@@ -111,7 +111,7 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
 
 
@@ -119,5 +119,5 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_SHARE_MEMORY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_SHARE_MEMORY structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

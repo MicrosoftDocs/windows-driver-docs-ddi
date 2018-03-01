@@ -7,7 +7,7 @@ old-location: netvista\rilcallaudiomediastate.htm
 old-project: netvista
 ms.assetid: f8e65085-6837-4d49-a39e-784942ee39a4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallaudiomediastate, ntddrilapitypes/RILCALLAUDIOMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

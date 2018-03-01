@@ -7,7 +7,7 @@ old-location: display\d3dkmt_adaptertype.htm
 old-project: display
 ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 ms.prod: windows-hardware
 ms.technology: windows-devices

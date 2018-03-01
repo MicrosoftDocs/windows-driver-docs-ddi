@@ -100,11 +100,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
-
-
-
 <a href="..\hidsdi\ns-hidsdi-_hidd_attributes.md">HIDD_ATTRIBUTES</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
 
 
 

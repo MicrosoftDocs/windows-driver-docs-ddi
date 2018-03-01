@@ -80,15 +80,15 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+
+
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
-
-
-
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
 
 
 

@@ -112,7 +112,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>

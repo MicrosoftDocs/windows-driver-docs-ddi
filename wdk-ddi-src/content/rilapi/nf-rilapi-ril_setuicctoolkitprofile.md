@@ -7,7 +7,7 @@ old-location: netvista\ril_setuicctoolkitprofile.htm
 old-project: netvista
 ms.assetid: 123bf713-d238-491a-bc53-1f35dbb34feb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile, rilapi/RIL_SetUiccToolkitProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

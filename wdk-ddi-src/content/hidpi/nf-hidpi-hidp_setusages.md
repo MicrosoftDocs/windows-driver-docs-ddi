@@ -222,15 +222,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
 
 
@@ -238,11 +234,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
 
 

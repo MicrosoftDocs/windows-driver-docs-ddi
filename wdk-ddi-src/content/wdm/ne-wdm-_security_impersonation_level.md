@@ -109,6 +109,18 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+
+
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+
+
 <a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
 
 
@@ -117,23 +129,7 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-
-
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
 
 
@@ -141,11 +137,15 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 
 
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
 <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
 
 

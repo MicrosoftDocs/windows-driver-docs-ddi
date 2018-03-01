@@ -7,7 +7,7 @@ old-location: audio\iminiportwavecyclicstream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition,IMiniportWaveCyclicStream.NormalizePhysicalPosition, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

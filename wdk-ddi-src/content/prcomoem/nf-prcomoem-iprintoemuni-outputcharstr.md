@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_outputcharstr.htm
 old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr,IPrintOemUni.OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -106,19 +106,11 @@ The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It cal
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
 
 
 
@@ -127,6 +119,14 @@ The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It cal
 
 
 <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
 
 
 

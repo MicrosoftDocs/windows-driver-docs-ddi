@@ -132,7 +132,7 @@ The
 
 <b>SdpConvertTreeToStream</b> allocates the necessary memory to store the stream version of the SDP
     record. When the memory is no longer needed, the caller is responsible for freeing the memory using the 
-    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine.
+    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> driver support routine.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
@@ -146,11 +146,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
+
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

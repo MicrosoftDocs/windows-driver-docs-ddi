@@ -116,15 +116,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186843">PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186843">PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\storage_physical_adapter_data.htm
 old-project: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,14 +134,9 @@ Indicates the specification of the storage adapter, of type <a href="..\ntddstor
 
 
 
-#### - ExpandedConnector
+#### - Vendor[8]
 
-Specifies if the storage adapter includes an expanded connector.
-
-
-#### - FirmwareRevision[16]
-
-The revision number of the storage adapter.
+The vendor name of the storage adapter.
 
 
 #### - Model[40]
@@ -149,9 +144,19 @@ The revision number of the storage adapter.
 The model name of the storage adapter.
 
 
+#### - FirmwareRevision[16]
+
+The revision number of the storage adapter.
+
+
 #### - PhysicalLocation[32]
 
 This member is reserved for future use.
+
+
+#### - ExpandedConnector
+
+Specifies if the storage adapter includes an expanded connector.
 
 
 #### - Reserved0[3]
@@ -162,9 +167,4 @@ Specifies if the storage adapter is reserved.
 #### - Reserved1[3]
 
 Specifies if the storage adapter is reserved.
-
-
-#### - Vendor[8]
-
-The vendor name of the storage adapter.
 

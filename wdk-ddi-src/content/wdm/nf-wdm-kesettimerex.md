@@ -145,6 +145,22 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
@@ -154,22 +170,6 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 

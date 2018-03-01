@@ -108,7 +108,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
 
 
 
@@ -120,7 +120,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 
 
 
@@ -128,7 +128,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

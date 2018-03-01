@@ -101,7 +101,15 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
 
 
@@ -109,15 +117,7 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
 
 

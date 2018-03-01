@@ -178,7 +178,7 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
 
 
@@ -194,7 +194,7 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
 
 
 

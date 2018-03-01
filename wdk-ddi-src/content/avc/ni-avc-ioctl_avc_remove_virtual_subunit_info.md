@@ -189,7 +189,11 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
@@ -197,11 +201,7 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 

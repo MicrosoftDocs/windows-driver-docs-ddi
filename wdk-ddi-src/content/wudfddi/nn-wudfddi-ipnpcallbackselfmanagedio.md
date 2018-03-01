@@ -7,7 +7,7 @@ old-location: wdf\ipnpcallbackselfmanagedio.htm
 old-project: wdf
 ms.assetid: 34971df0-4abc-41a1-8d2f-6e36df1daf20
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface, described, UMDFDeviceObjectRef_0f139c45-68eb-4429-ac90-675d7eddea5a.xml, umdf.ipnpcallbackselfmanagedio, wdf.ipnpcallbackselfmanagedio, wudfddi/IPnpCallbackSelfManagedIo
 ms.prod: windows-hardware
 ms.technology: windows-devices

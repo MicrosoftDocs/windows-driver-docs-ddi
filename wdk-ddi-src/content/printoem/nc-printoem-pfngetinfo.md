@@ -7,7 +7,7 @@ old-location: print\unifontobj_getinfo.htm
 old-project: print
 ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: PFNGETINFO, UNIFONTOBJ_GetInfo, UNIFONTOBJ_GetInfo routine [Print Devices], print.unifontobj_getinfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml, printoem/UNIFONTOBJ_GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,9 @@ BOOL APIENTRY UNIFONTOBJ_GetInfo(
 
 
 
-#### - dwDataSize
+#### - pUFObj
 
-Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
+Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
 #### - dwInfoID
@@ -190,9 +190,9 @@ UFO_GETINFO_STDVARIABLE
 For a summary of structure contents, see the following <b>Remarks</b> section.
 
 
-#### - pUFObj
+#### - dwDataSize
 
-Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
+Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
 
 
 #### - pcbNeeded

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_buildpagingbuffer.htm
 old-project: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -696,9 +696,9 @@ This member is reserved and should not be used.
 
 
 
-#### - CopyPageTableEntries
+#### - TransferVirtual
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
 
 
 #### - FillVirtual
@@ -706,19 +706,19 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
 
 
+#### - UpdatePageTable
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+
+
 #### - FlushTlb
 
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
 
 
-#### - NotifyResidency
+#### - CopyPageTableEntries
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
-
-
-#### - TransferVirtual
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
 
 
 #### - UpdateContextAllocation
@@ -726,9 +726,9 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">D
 A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
 
 
-#### - UpdatePageTable
+#### - NotifyResidency
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
 
 
 ## -remarks
@@ -746,7 +746,23 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
 
 
 
@@ -754,7 +770,11 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
 
 
 
@@ -762,7 +782,27 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
 
 
 
@@ -774,53 +814,13 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_BUILDPAGINGBUFFER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_BUILDPAGINGBUFFER structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

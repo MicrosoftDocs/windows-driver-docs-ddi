@@ -7,7 +7,7 @@ old-location: netvista\wdi_ethertype_encapsulation_entry.htm
 old-project: netvista
 ms.assetid: 49FE4EC0-B735-48C0-B26E-E165CA840D12
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, PWDI_ETHERTYPE_ENCAPSULATION_ENTRY structure pointer [Device and Driver Installation], WDI_ETHERTYPE_ENCAPSULATION_ENTRY, WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure [Device and Driver Installation], _WDI_ETHERTYPE_ENCAPSULATION_ENTRY, netvista.wdi_ethertype_encapsulation_entry, netvista.wifi_ethertype_encapsulation_entry, wditypes/PWDI_ETHERTYPE_ENCAPSULATION_ENTRY, wditypes/WDI_ETHERTYPE_ENCAPSULATION_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

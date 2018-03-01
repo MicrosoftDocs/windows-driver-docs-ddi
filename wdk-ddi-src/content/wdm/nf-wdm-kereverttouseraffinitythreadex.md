@@ -113,15 +113,15 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
 <a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 
 
 

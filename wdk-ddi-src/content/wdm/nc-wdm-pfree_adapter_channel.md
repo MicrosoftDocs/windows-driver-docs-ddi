@@ -103,7 +103,19 @@ After a driver has transferred all the data and called <a href="..\wdm\nc-wdm-pf
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
 
 
 
@@ -115,19 +127,7 @@ After a driver has transferred all the data and called <a href="..\wdm\nc-wdm-pf
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 

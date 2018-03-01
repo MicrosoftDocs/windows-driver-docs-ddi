@@ -100,11 +100,11 @@ The <b>ExInitializeSetTimerParameters</b> routine sets the <b>NoWakeTolerance</b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
-
-
-
 <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
 
 
 

@@ -121,7 +121,7 @@ BdCbInitializeImage
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
+<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
 
 
 
@@ -129,7 +129,7 @@ BdCbInitializeImage
 
 
 
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
 
 
 

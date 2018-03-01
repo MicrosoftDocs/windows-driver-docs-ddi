@@ -7,7 +7,7 @@ old-location: netvista\wskreceive.htm
 old-project: netvista
 ms.assetid: 7fe65842-8ddb-4aca-931f-03b35dd2b039
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: PFN_WSK_RECEIVE, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -331,28 +331,8 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
@@ -360,9 +340,29 @@ If the
 
 
 
- 
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -183,15 +183,7 @@ The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the 
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_get_operation_status_callback.md">PFLT_GET_OPERATION_STATUS_CALLBACK</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
 
 
@@ -200,6 +192,14 @@ The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the 
 
 
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_get_operation_status_callback.md">PFLT_GET_OPERATION_STATUS_CALLBACK</a>
 
 
 

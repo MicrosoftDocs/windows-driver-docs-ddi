@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediaaudioflags.htm
 old-project: netvista
 ms.assetid: 457d0bee-4746-424d-bd22-4e968048bdb9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, netvista.rilcallmediaaudioflags, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

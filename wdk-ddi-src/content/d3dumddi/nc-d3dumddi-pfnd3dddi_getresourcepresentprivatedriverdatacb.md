@@ -7,7 +7,7 @@ old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 old-project: display
 ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -80,7 +80,7 @@ Handle to the file object. This handle is created by a successful call to <a hre
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
+Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
 
 
 ### -param FileInformation [in]
@@ -242,23 +242,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
 
 
 
@@ -266,15 +250,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\ntifs\ns-ntifs-_file_completion_information.md">FILE_COMPLETION_INFORMATION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_valid_data_length_information.md">FILE_VALID_DATA_LENGTH_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
 
 
 
@@ -282,7 +262,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -294,15 +290,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_completion_information.md">FILE_COMPLETION_INFORMATION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
+<a href="..\ntddk\ns-ntddk-_file_valid_data_length_information.md">FILE_VALID_DATA_LENGTH_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
 
 
 

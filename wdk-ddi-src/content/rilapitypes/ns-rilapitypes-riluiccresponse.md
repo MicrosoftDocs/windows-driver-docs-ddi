@@ -7,7 +7,7 @@ old-location: netvista\riluiccresponse_2.htm
 old-project: netvista
 ms.assetid: c3d3481e-a0db-492d-8fc3-6bdcfa26f4c4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse_2, rilapitypes/RILUICCRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

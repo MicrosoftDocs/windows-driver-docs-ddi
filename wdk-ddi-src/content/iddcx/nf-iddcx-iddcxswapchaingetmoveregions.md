@@ -7,7 +7,7 @@ old-location: display\iddcxswapchaingetmoveregions.htm
 old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices

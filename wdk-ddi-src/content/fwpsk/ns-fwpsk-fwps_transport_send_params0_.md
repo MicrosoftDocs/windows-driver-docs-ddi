@@ -7,7 +7,7 @@ old-location: netvista\fwps_transport_send_params0.htm
 old-project: netvista
 ms.assetid: 32320f33-2fa8-410b-9aa8-312c2e0da693
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS0, FWPS_TRANSPORT_SEND_PARAMS0 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS0_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS0, netvista.fwps_transport_send_params0, wfp_ref_3_struct_3_fwps_P-Z_31508fdc-7a5c-4b77-9f71-3fe5d8b99c69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,6 +152,15 @@ The length, in bytes, of the
 
 ## -see-also
 
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
+
 <a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params1_.md">FWPS_TRANSPORT_SEND_PARAMS1</a>
 
 
@@ -160,7 +169,7 @@ The length, in bytes, of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 
 
@@ -169,18 +178,9 @@ The length, in bytes, of the
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_TRANSPORT_SEND_PARAMS0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_TRANSPORT_SEND_PARAMS0 structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

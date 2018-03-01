@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmamsgprivacy_2.htm
 old-project: netvista
 ms.assetid: 1a143103-a952-410c-a143-153685f022dd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILMSGCDMAMSGPRIVACY, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_RESTRICTED, RIL_MSGPRIVACYCLASS_SECRET, netvista.rilmsgcdmamsgprivacy_2, rilapitypes/RILMSGCDMAMSGPRIVACY, rilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, rilapitypes/RIL_MSGPRIVACYCLASS_MAX, rilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, rilapitypes/RIL_MSGPRIVACYCLASS_SECRET
 ms.prod: windows-hardware
 ms.technology: windows-devices

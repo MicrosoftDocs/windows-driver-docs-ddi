@@ -93,11 +93,11 @@ Streaming error notifications can be generated against the Quality Management si
 
 
 
-<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561671">KSDEGRADE</a>
+
+
+
+<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
 
 
 

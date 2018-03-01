@@ -99,19 +99,19 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
 
 
 
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 

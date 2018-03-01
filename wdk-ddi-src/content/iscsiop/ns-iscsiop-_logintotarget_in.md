@@ -7,7 +7,7 @@ old-location: storage\logintotarget_in.htm
 old-project: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PLoginToTarget_IN, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], _LoginToTarget_IN, iscsiop/LoginToTarget_IN, iscsiop/PLoginToTarget_IN, storage.logintotarget_in, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -167,19 +167,15 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_logintotarget_out.md">LoginToTarget_OUT</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
 
 
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_logintotarget_out.md">LoginToTarget_OUT</a>
 
 
 
@@ -191,7 +187,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
@@ -207,5 +207,5 @@ You must implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20LoginToTarget_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20LoginToTarget_IN structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

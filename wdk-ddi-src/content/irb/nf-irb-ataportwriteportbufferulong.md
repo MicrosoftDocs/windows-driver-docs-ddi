@@ -7,7 +7,7 @@ old-location: storage\ataportwriteportbufferulong.htm
 old-project: storage
 ms.assetid: 0ee4ef0a-1b6e-4e94-8a3d-ed5215dc5f31
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: AtaPortWritePortBufferUlong, AtaPortWritePortBufferUlong routine [Storage Devices], atartns_877f49af-a38e-4468-896a-0e79a4e9effa.xml, irb/AtaPortWritePortBufferUlong, storage.ataportwriteportbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,11 +98,11 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteportbufferuchar.md">AtaPortWritePortBufferUchar</a>
-
-
-
 <a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
+
+
+
+<a href="..\irb\nf-irb-ataportwriteportbufferuchar.md">AtaPortWritePortBufferUchar</a>
 
 
 
@@ -114,5 +114,5 @@ None
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortWritePortBufferUlong routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortWritePortBufferUlong routine%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -96,11 +96,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentoplock.md">
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcurrentoplock.md">FltCurrentOplock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
 

@@ -107,6 +107,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+
+
+
 <a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>
 
 
@@ -116,10 +120,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 <a href="..\wdm\nf-wdm-exdeletepagedlookasidelist.md">ExDeletePagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 

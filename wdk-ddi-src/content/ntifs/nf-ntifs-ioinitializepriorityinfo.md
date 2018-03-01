@@ -92,11 +92,11 @@ The <b>IoInitializePriorityInfo</b> routine is used to initialize the IO_PRIORIT
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>
 
 
 

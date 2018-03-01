@@ -7,7 +7,7 @@ old-location: netvista\rilimsnwenabledflags_2.htm
 old-project: netvista
 ms.assetid: 3295b0f0-a498-47fb-9744-06ea74626bb5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_VOICE, netvista.rilimsnwenabledflags_2, rilapitypes/RILIMSNWENABLEDFLAGS, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

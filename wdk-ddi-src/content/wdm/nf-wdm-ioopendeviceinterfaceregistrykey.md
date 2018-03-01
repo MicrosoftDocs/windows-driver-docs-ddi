@@ -150,15 +150,7 @@ Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PAS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -167,6 +159,14 @@ Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PAS
 
 
 <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

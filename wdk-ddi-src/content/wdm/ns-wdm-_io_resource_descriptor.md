@@ -210,12 +210,12 @@ Not used.
 
 ### -field Type
 
-Identifies the resource type. For a list of valid values, see the <b>Type</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
+Identifies the resource type. For a list of valid values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
 
 
 ### -field ShareDisposition
 
-Indicates whether the described resource can be shared. For a list of valid values, see the <b>ShareDisposition</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
+Indicates whether the described resource can be shared. For a list of valid values, see the <b>ShareDisposition</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. 
 
 
 ### -field Spare1
@@ -293,7 +293,7 @@ The interrupt is capable of waking the operating system from a low-power idle st
 </table>
  
 
-For a list of valid flags for other resource types, see the description of the <b>Flags</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+For a list of valid flags for other resource types, see the description of the <b>Flags</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ### -field Spare2
@@ -758,9 +758,40 @@ The lower 32 bits of the 64-bit connection ID.
 The upper 32 bits of the 64-bit connection ID.
 
 
+##### - u.port
+
+Specifies a range of I/O port addresses, using the following members.
+
+Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+
+##### port.Length
+
+The length, in bytes, of the range of assignable I/O port addresses.
+
+
+
+##### port.Alignment
+
+The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>. 
+
+
+
+##### port.MinimumAddress
+
+The minimum bus-relative I/O port address that can be assigned to the device.
+
+
+
+##### port.MaximumAddress
+
+The maximum bus-relative I/O port address that can be assigned to the device.
+
+
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -772,7 +803,7 @@ The upper 32 bits of the 64-bit connection ID.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
 
 
 

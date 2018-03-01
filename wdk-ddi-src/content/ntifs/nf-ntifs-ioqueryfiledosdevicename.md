@@ -89,7 +89,7 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 </td>
 </tr>
 </table></span></div>
-<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.</div>
+<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>.</div>
 <div> </div>
 
 ## -returns

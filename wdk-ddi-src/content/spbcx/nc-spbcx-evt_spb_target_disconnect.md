@@ -150,7 +150,15 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -158,15 +166,7 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

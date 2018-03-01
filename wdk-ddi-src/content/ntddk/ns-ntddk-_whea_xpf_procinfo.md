@@ -193,6 +193,10 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
 
 
@@ -210,10 +214,6 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo_validbits.md">WHEA_XPF_PROCINFO_VALIDBITS</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 
 

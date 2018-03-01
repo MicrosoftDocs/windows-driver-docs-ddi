@@ -103,37 +103,54 @@ typedef union _WHEA_XPF_BUS_CHECK {
 A ULONGLONG representation of the contents of the WHEA_XPF_BUS_CHECK union.
 
 
-#### - AddressSpace
+#### - TransactionTypeValid
 
-The type of address space that was associated with the transaction that caused the error. Possible values are:
-
-
+A single bit that indicates that the <b>TransactionType</b> member contains valid data.
 
 
+#### - OperationValid
 
-#### XPF_BUS_CHECK_ADDRESS_MEMORY
-
-Memory address space.
-
+A single bit that indicates that the <b>Operation</b> member contains valid data.
 
 
-#### XPF_BUS_CHECK_ADDRESS_RESERVED
+#### - LevelValid
 
-Reserved.
-
-
-
-#### XPF_BUS_CHECK_ADDRESS_IO
-
-I/O address space.
+A single bit that indicates that the <b>Level</b> member contains valid data.
 
 
+#### - ProcessorContextCorruptValid
 
-#### XPF_BUS_CHECK_ADDRESS_OTHER
+A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
 
-An unclassified type of address space.
 
-This member contains valid data only if the <b>AddressSpaceValid</b> bit is set.
+#### - UncorrectedValid
+
+A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
+
+
+#### - PreciseIPValid
+
+A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+
+
+#### - RestartableIPValid
+
+A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+
+
+#### - OverflowValid
+
+A single bit that indicates that the <b>Overflow</b> member contains valid data.
+
+
+#### - ParticipationValid
+
+A single bit that indicates that the <b>Participation</b> member contains valid data.
+
+
+#### - TimeoutValid
+
+A single bit that indicates that the <b>Timeout</b> member contains valid data.
 
 
 #### - AddressSpaceValid
@@ -141,16 +158,36 @@ This member contains valid data only if the <b>AddressSpaceValid</b> bit is set.
 A single bit that indicates that the <b>AddressSpace</b> member contains valid data.
 
 
-#### - Level
+#### - ReservedValid
 
-The level of the bus hierarchy where the error occurred.
-
-This member contains valid data only if the <b>LevelValid</b> bit is set.
+Reserved for system use.
 
 
-#### - LevelValid
+#### - TransactionType
 
-A single bit that indicates that the <b>Level</b> member contains valid data.
+The type of transaction that was in progress when the error occurred. Possible values are:
+
+
+
+
+
+#### XPF_BUS_CHECK_TRANSACTIONTYPE_INSTRUCTION
+
+A processor instruction transaction.
+
+
+
+#### XPF_BUS_CHECK_TRANSACTIONTYPE_DATAACCESS
+
+A data access transaction.
+
+
+
+#### XPF_BUS_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
+
+This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
 
 
 #### - Operation
@@ -204,9 +241,39 @@ An instruction prefetch operation.
 This member contains valid data only if the <b>OperationValid</b> bit is set.
 
 
-#### - OperationValid
+#### - Level
 
-A single bit that indicates that the <b>Operation</b> member contains valid data.
+The level of the bus hierarchy where the error occurred.
+
+This member contains valid data only if the <b>LevelValid</b> bit is set.
+
+
+#### - ProcessorContextCorrupt
+
+A single bit that indicates that the processor context might have been corrupted.
+
+This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
+
+
+#### - Uncorrected
+
+A single bit that indicates that the error has not been corrected.
+
+This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
+
+
+#### - PreciseIP
+
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_BUS_CHECK union is directly associated with the error.
+
+This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
+
+
+#### - RestartableIP
+
+A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_BUS_CHECK structure.
+
+This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
 
 #### - Overflow
@@ -214,11 +281,6 @@ A single bit that indicates that the <b>Operation</b> member contains valid data
 A single bit that indicates that an error overflow occurred.
 
 This member contains valid data only if the <b>OverflowValid</b> bit is set.
-
-
-#### - OverflowValid
-
-A single bit that indicates that the <b>Overflow</b> member contains valid data.
 
 
 #### - Participation
@@ -254,57 +316,6 @@ A generic value for this member if none of the other values are applicable.
 This member contains valid data only if the <b>ParticipationValid</b> bit is set.
 
 
-#### - ParticipationValid
-
-A single bit that indicates that the <b>Participation</b> member contains valid data.
-
-
-#### - PreciseIP
-
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_BUS_CHECK union is directly associated with the error.
-
-This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
-
-
-#### - PreciseIPValid
-
-A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
-
-
-#### - ProcessorContextCorrupt
-
-A single bit that indicates that the processor context might have been corrupted.
-
-This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
-
-
-#### - ProcessorContextCorruptValid
-
-A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - ReservedValid
-
-Reserved for system use.
-
-
-#### - RestartableIP
-
-A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_BUS_CHECK structure.
-
-This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
-
-
-#### - RestartableIPValid
-
-A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
-
-
 #### - Timeout
 
 A single bit that indicates that a timeout occurred.
@@ -312,53 +323,42 @@ A single bit that indicates that a timeout occurred.
 This member contains valid data only if the <b>TimeoutValid</b> bit is set.
 
 
-#### - TimeoutValid
+#### - AddressSpace
 
-A single bit that indicates that the <b>Timeout</b> member contains valid data.
-
-
-#### - TransactionType
-
-The type of transaction that was in progress when the error occurred. Possible values are:
+The type of address space that was associated with the transaction that caused the error. Possible values are:
 
 
 
 
 
-#### XPF_BUS_CHECK_TRANSACTIONTYPE_INSTRUCTION
+#### XPF_BUS_CHECK_ADDRESS_MEMORY
 
-A processor instruction transaction.
-
-
-
-#### XPF_BUS_CHECK_TRANSACTIONTYPE_DATAACCESS
-
-A data access transaction.
+Memory address space.
 
 
 
-#### XPF_BUS_CHECK_TRANSACTIONTYPE_GENERIC
+#### XPF_BUS_CHECK_ADDRESS_RESERVED
 
-A generic transaction.
-
-This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
+Reserved.
 
 
-#### - TransactionTypeValid
 
-A single bit that indicates that the <b>TransactionType</b> member contains valid data.
+#### XPF_BUS_CHECK_ADDRESS_IO
 
-
-#### - Uncorrected
-
-A single bit that indicates that the error has not been corrected.
-
-This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
+I/O address space.
 
 
-#### - UncorrectedValid
 
-A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
+#### XPF_BUS_CHECK_ADDRESS_OTHER
+
+An unclassified type of address space.
+
+This member contains valid data only if the <b>AddressSpaceValid</b> bit is set.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

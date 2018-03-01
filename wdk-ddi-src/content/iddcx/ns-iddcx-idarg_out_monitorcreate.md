@@ -7,7 +7,7 @@ old-location: display\idarg_out_monitorcreate.htm
 old-project: display
 ms.assetid: 713cd675-56a8-42d8-ac75-4af227c55dec
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

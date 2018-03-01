@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediaid.htm
 old-project: netvista
 ms.assetid: de55805d-d5fe-47ea-832d-536d8a7ee257
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid, ntddrilapitypes/RILCALLMEDIAID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

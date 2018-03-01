@@ -7,7 +7,7 @@ old-location: audio\allocatecontiguousdmabuffer.htm
 old-project: audio
 ms.assetid: 4538ce8e-fccd-4862-b226-a99fe578a5fd
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: AllocateContiguousDmaBuffer, AllocateContiguousDmaBuffer callback function [Audio Devices], PALLOCATE_CONTIGUOUS_DMA_BUFFER, aud-prop2_c9f2fa85-0967-4793-9092-9f95986c2126.xml, audio.allocatecontiguousdmabuffer, hdaudio/AllocateContiguousDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,11 +61,11 @@ The function pointer type for an <code>AllocateContiguousDmaBuffer</code> routin
 PALLOCATE_CONTIGUOUS_DMA_BUFFER AllocateContiguousDmaBuffer;
 
 NTSTATUS AllocateContiguousDmaBuffer(
-  _In_  PVOID                      context,
-  _In_  HANDLE                     handle,
-        ULONG                      requestedBufferSize,
-  _Out_ PVOID                      *dataBuffer,
-  _Out_ PHDAUDIO_BUFFER_DESCRIPTOR *bdl
+  _In_  PVOID                      _context,
+  _In_  HANDLE                     Handle,
+        ULONG                      RequestedBufferSize,
+  _Out_ PVOID                      *DataBuffer,
+  _Out_ PHDAUDIO_BUFFER_DESCRIPTOR *BdlBuffer
 )
 { ... }
 ````
@@ -81,42 +81,24 @@ NTSTATUS AllocateContiguousDmaBuffer(
 Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 
-### -param Handle
-
-
-### -param RequestedBufferSize
-
-
-### -param *DataBuffer
-
-
-### -param *BdlBuffer
-
-
-
-
-
-
-
-
-#### - bdl [out]
-
-Retrieves the buffer descriptor list (BDL). This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the BDL. The BDL allocation size is exactly one memory page and the BDL begins on a page boundary.
-
-
-#### - dataBuffer [out]
-
-Retrieves the data buffer. This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the data buffer.
-
-
-#### - handle [in]
+### -param Handle [in]
 
 Handle identifying the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-#### - requestedBufferSize
+### -param RequestedBufferSize
 
 Specifies the requested buffer size in bytes.
+
+
+### -param *DataBuffer [out]
+
+Retrieves the data buffer. This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the data buffer.
+
+
+### -param *BdlBuffer [out]
+
+Retrieves the buffer descriptor list (BDL). This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the BDL. The BDL allocation size is exactly one memory page and the BDL begins on a page boundary.
 
 
 ## -returns
@@ -237,23 +219,7 @@ The stream is in a state other than reset.
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
@@ -261,17 +227,33 @@ The stream is in a state other than reset.
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
 
 
- 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_CONTIGUOUS_DMA_BUFFER callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_CONTIGUOUS_DMA_BUFFER callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

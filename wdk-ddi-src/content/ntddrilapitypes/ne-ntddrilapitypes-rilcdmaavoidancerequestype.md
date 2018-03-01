@@ -7,7 +7,7 @@ old-location: netvista\rilcdmaavoidancerequestype.htm
 old-project: netvista
 ms.assetid: 8c0c641e-6aee-44ef-85a4-6f58ba67f6b3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCDMAAVOIDANCEREQUESTYPE, RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype, ntddrilapitypes/RILCDMAAVOIDANCEREQUESTYPE, ntddrilapitypes/RIL_AVOID_SYS_CLR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

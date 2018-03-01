@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_challenge.htm
 old-project: netvista
 ms.assetid: A31B9E91-B5F9-4EF3-AD9E-A5E26CBD4B35
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_CHALLENGE, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_CHALLENGE, netvista.wwan_auth_challenge, wwan/PWWAN_AUTH_CHALLENGE, wwan/WWAN_AUTH_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,14 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
 
 
@@ -111,17 +119,9 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_AUTH_CHALLENGE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_AUTH_CHALLENGE structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

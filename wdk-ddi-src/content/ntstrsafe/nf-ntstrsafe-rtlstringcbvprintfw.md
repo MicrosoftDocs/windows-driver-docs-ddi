@@ -237,11 +237,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
 
 
 

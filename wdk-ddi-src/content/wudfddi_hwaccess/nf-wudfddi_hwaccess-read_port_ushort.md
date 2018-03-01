@@ -7,7 +7,7 @@ old-location: wdf\read_port_ushort.htm
 old-project: wdf
 ms.assetid: 522C2745-A758-4C58-9891-BD2A70DBE498
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: READ_PORT_USHORT, READ_PORT_USHORT function, umdf.read_port_ushort, wdf.read_port_ushort, wudfddi_hwaccess/READ_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

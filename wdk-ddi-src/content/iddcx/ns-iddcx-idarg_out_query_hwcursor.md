@@ -7,7 +7,7 @@ old-location: display\idarg_out_query_hwcursor.htm
 old-project: display
 ms.assetid: 813d6aa6-0442-4f30-9fd6-b3aec2e0e11d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], display.idarg_out_query_hwcursor, iddcx/IDARG_OUT_QUERY_HWCURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

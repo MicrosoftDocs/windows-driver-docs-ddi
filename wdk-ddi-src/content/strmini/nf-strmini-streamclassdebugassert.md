@@ -112,11 +112,11 @@ When running a checked version of the class driver, asserts are recognized, and 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
-
-
-
 <a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
 
 
 

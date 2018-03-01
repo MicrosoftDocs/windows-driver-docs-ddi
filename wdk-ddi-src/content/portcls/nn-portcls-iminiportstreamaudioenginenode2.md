@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode2.htm
 old-project: audio
 ms.assetid: 38888C17-31FC-47F4-A49B-A46A9DF962AF
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices], described, audio.iminiportstreamaudioenginenode2, portcls/IMiniportStreamAudioEngineNode2
 ms.prod: windows-hardware
 ms.technology: windows-devices

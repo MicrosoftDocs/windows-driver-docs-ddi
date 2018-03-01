@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createheapandresource_0030.htm
 old-project: display
 ms.assetid: A6D597AA-C72A-46A5-91E8-22B225B380F2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D12DDI_CREATEHEAPANDRESOURCE_0030, PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEHEAPANDRESOURCE_0030, display.pfnd3d12ddi_createheapandresource_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,19 +100,34 @@ HRESULT  APIENTRY* PFND3D12DDI_CREATEHEAPANDRESOURCE_0030(
 
 
 
-#### - d3d12ddi_clear_values [in, optional]
-
-Used to clear the values of the resource.
-
-
 #### - d3d12ddi_hdevice
 
 The device being operated on.
 
 
+#### - d3d12ddiarg_createheap_0001 [in, optional]
+
+Arguments used to create a heap.
+
+
 #### - d3d12ddi_hheap
 
 Used to create a heap.
+
+
+#### - d3d12ddi_hrtresource
+
+Used to create a resource.
+
+
+#### - d3d12ddiarg_createresource_0003 [in, optional]
+
+Arguments used to create a resource.
+
+
+#### - d3d12ddi_clear_values [in, optional]
+
+Used to clear the values of the resource.
 
 
 #### - d3d12ddi_hprotectedresourcesession_0030
@@ -123,21 +138,6 @@ The protected resource session.
 #### - d3d12ddi_hresource
 
 The hardware resource.
-
-
-#### - d3d12ddi_hrtresource
-
-Used to create a resource.
-
-
-#### - d3d12ddiarg_createheap_0001 [in, optional]
-
-Arguments used to create a heap.
-
-
-#### - d3d12ddiarg_createresource_0003 [in, optional]
-
-Arguments used to create a resource.
 
 
 ## -returns

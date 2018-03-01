@@ -103,11 +103,11 @@ When the caller has finished using the STI_DEVICE_INFORMATION structure referenc
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a>
+
+
+
+<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 

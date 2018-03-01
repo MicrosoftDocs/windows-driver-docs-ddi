@@ -7,7 +7,7 @@ old-location: netvista\rilremotepartyinfovalue_2.htm
 old-project: netvista
 ms.assetid: bdea158f-6ee5-4e59-be50-efd8027a8645
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILREMOTEPARTYINFOVALUE, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_MAX, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_WITHHELD, netvista.rilremotepartyinfovalue_2, rilapitypes/RILREMOTEPARTYINFOVALUE, rilapitypes/RIL_REMOTEPARTYINFO_MAX, rilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, rilapitypes/RIL_REMOTEPARTYINFO_WITHHELD
 ms.prod: windows-hardware
 ms.technology: windows-devices

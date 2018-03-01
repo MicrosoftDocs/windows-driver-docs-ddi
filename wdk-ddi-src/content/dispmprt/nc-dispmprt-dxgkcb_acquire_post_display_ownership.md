@@ -7,7 +7,7 @@ old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 old-project: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,15 +142,11 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
 
 
@@ -158,7 +154,11 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 
 
@@ -170,5 +170,5 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

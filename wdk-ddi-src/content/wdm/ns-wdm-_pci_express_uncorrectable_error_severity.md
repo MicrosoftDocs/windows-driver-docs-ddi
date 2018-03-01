@@ -95,44 +95,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
 
 
-#### - CompleterAbort
+#### - Undefined
 
-A single bit that indicates that a reported completer abort is a fatal error.
-
-
-#### - CompletionTimeout
-
-A single bit that indicates that a reported completion timeout is a fatal error.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a reported data link protocol error is a fatal error.
-
-
-#### - ECRCError
-
-A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a reported flow control protocol error is a fatal error.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that a reported receiver overflow is a fatal error.
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
 
 
 #### - Reserved1
@@ -140,14 +105,9 @@ A single bit that indicates that a reported receiver overflow is a fatal error.
 Reserved.
 
 
-#### - Reserved2
+#### - DataLinkProtocolError
 
-Reserved.
-
-
-#### - Reserved3
-
-Reserved.
+A single bit that indicates that a reported data link protocol error is a fatal error.
 
 
 #### - SurpriseDownError
@@ -155,9 +115,29 @@ Reserved.
 A single bit that indicates that a reported surprise down error is a fatal error.
 
 
-#### - Undefined
+#### - Reserved2
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
+Reserved.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
+
+
+#### - FlowControlProtocolError
+
+A single bit that indicates that a reported flow control protocol error is a fatal error.
+
+
+#### - CompletionTimeout
+
+A single bit that indicates that a reported completion timeout is a fatal error.
+
+
+#### - CompleterAbort
+
+A single bit that indicates that a reported completer abort is a fatal error.
 
 
 #### - UnexpectedCompletion
@@ -165,9 +145,29 @@ A single bit that contains an undefined value. In versions of the <i>PCIe Specif
 A single bit that indicates that a reported unexpected completion is a fatal error.
 
 
+#### - ReceiverOverflow
+
+A single bit that indicates that a reported receiver overflow is a fatal error.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
+
+
+#### - ECRCError
+
+A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
+
+
 #### - UnsupportedRequestError
 
 A single bit that indicates that a reported unsupported request error is a fatal error.
+
+
+#### - Reserved3
+
+Reserved.
 
 
 ## -remarks

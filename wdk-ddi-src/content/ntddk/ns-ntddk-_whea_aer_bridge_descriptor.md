@@ -239,11 +239,11 @@ A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
 
 
 

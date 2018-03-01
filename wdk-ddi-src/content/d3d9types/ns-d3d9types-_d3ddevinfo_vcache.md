@@ -7,7 +7,7 @@ old-location: display\d3ddevinfo_vcache.htm
 old-project: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,7 +147,7 @@ When the driver completes a vertex-cache query, the driver sets the total size o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 
 
@@ -155,15 +155,7 @@ When the driver completes a vertex-cache query, the driver sets the total size o
 
 
 
-D3DDP2OP_CREATEQUERY
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
 
 
 
@@ -175,9 +167,17 @@ D3DDP2OP_ISSUEQUERY
 
 
 
- 
+D3DDP2OP_CREATEQUERY
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDEVINFO_VCACHE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDEVINFO_VCACHE structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

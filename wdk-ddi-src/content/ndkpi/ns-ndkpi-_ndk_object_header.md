@@ -7,7 +7,7 @@ old-location: netvista\ndk_object_header.htm
 old-project: netvista
 ms.assetid: 12E3ED4A-F078-4489-BC84-69EE735CAEF8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, netvista.ndk_object_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -117,14 +117,6 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
 
 
@@ -137,23 +129,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
-
-
-
-<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
@@ -161,19 +137,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
 
 
 
@@ -181,7 +145,43 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
+
+<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 
 
@@ -189,5 +189,5 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OBJECT_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OBJECT_HEADER structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

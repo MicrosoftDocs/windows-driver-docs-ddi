@@ -7,7 +7,7 @@ old-location: display\d3dkmtreservegpuvirtualaddress.htm
 old-project: display
 ms.assetid: 2F8B689C-162C-4C1B-BD45-A154079334D0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

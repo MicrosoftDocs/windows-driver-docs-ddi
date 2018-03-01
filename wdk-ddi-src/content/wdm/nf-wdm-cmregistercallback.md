@@ -113,11 +113,11 @@ For more information about <b>CmRegisterCallback</b> and filtering registry oper
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
 
 
 

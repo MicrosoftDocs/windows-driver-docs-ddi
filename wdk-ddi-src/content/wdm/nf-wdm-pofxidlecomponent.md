@@ -77,7 +77,7 @@ A handle that represents the registration of the device with the power managemen
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Flags [in]
@@ -125,7 +125,11 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -133,11 +137,7 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
 
 
 

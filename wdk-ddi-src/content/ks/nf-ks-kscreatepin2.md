@@ -124,7 +124,7 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin2</b> cre
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -132,7 +132,7 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin2</b> cre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

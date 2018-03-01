@@ -116,7 +116,11 @@ If <b>Type</b> is <b>PepAcpiExtendedMemory</b> or <b>PepAcpiExtendedIo</b>, this
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 
 
@@ -128,7 +132,7 @@ If <b>Type</b> is <b>PepAcpiExtendedMemory</b> or <b>PepAcpiExtendedIo</b>, this
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_i2c_resource.md">PEP_ACPI_SPB_I2C_RESOURCE</a>
 
 
 
@@ -136,15 +140,11 @@ If <b>Type</b> is <b>PepAcpiExtendedMemory</b> or <b>PepAcpiExtendedIo</b>, this
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_i2c_resource.md">PEP_ACPI_SPB_I2C_RESOURCE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
 
 
 

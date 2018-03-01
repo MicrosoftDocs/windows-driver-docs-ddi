@@ -108,9 +108,14 @@ TBD
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeCountFromStartingLbn [out, optional]
+#### - OpaqueMcb [in]
 
-Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
+Pointer to an initialized MCB structure. 
+
+
+#### - LargeVbn [in]
+
+Pointer to the requested VBN.
 
 
 #### - LargeLbn [out, optional]
@@ -128,14 +133,9 @@ Pointer to a variable that receives the number of sectors that follow <i>LargeVb
 Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeVbn [in]
+#### - LargeCountFromStartingLbn [out, optional]
 
-Pointer to the requested VBN.
-
-
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure. 
+Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
 
 
 ## -returns
@@ -174,6 +174,10 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md">FsRtlInitializeLargeMcb</a>
 
 
@@ -182,11 +186,7 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
 
 
@@ -194,7 +194,7 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
 
 
 
@@ -202,11 +202,11 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
 
 
 

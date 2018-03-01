@@ -277,7 +277,7 @@ This routine will return both legacy filter driver information and minifilter dr
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
 
 
@@ -285,7 +285,7 @@ This routine will return both legacy filter driver information and minifilter dr
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 
 

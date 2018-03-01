@@ -287,15 +287,15 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
