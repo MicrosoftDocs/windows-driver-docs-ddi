@@ -52,7 +52,7 @@ Represents a single network packet.
 ## -struct-fields
 
 ### -field FragmentOffset
-The offset, in bytes, to the next available [NET_PACKET_FRAGMENT](ns-netpacket-_net_packet_fragment.md) structure in this packet's payload. See the **LastFragmentOfFrame** member of the **NET_PACKET_FRAGMENT** structure to determine if this packet is associated with additional fragments.
+The offset, in bytes, to the first [NET_PACKET_FRAGMENT](ns-netpacket-_net_packet_fragment.md) fragment structure in this packet's payload. This offset is from the beginning of the fragment ring buffer to the first fragment that belongs to this packet. See the **LastFragmentOfFrame** member of the **NET_PACKET_FRAGMENT** structure to determine if this packet is associated with additional fragments.
 
 ### -field FragmentValid
 Describes whether this packet has at least one valid [NET_PACKET_FRAGMENT](ns-netpacket-_net_packet_fragment.md) structure attached to it. Use the **NET_PACKET_GET_FRAGMENT_VALID** macro to determine if a **NET_PACKET** is empty (has no fragment buffers attached).

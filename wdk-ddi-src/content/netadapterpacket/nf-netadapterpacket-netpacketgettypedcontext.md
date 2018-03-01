@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.21
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib: NetAdapterCxStub.lib
 req.dll:
@@ -54,6 +54,9 @@ Client drivers should not call this function directly. Instead, use [NET_PACKET_
 
 ## -parameters
 
+### -param Descriptor
+Reserved.
+
 ### -param NetPacket
 Reserved.
 
@@ -66,7 +69,7 @@ Returns a pointer to the packet's context space.
 
 ## -remarks
 
-The minimum NetAdapterCx version for **NetPacketGetTypedContext** is 1.1.
+The minimum NetAdapterCx version for **NetPacketGetTypedContext** is 1.2.
 
 ## -see-also
 

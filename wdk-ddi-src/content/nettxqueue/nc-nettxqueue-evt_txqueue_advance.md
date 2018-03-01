@@ -99,26 +99,26 @@ The following example retrieves incoming transmit packets from the queue and imm
 VOID
 EvtTxQueueAdvance(NETTXQUEUE TxQueue)
 {
-    NET_RING_BUFFER *ringBuffer = NetTxQueueGetRingBuffer(TxQueue);
+    PCNET_DATAPATH_DESCRIPTOR descriptor = NetTxQueueGetDatapathDescriptor(TxQueue);
     NET_PACKET *netPacket;
 
     // Retrieve pointer to packet at the NextIndex value of the ring buffer
 
-    while ((netPacket = NetRingBufferGetNextPacket(ringBuffer)) != nullptr)
+    while ((netPacket = NetRingBufferGetNextPacket(descriptor)) != nullptr)
     {
 
         // Transmit the data
-
-        netPacket->Data.Completed = TRUE;
+        NET_PACKET_FRAGMENT* fragment = NET_PACKET_GET_FRAGMENT(netPacket, descriptor, 0);
+        fragment->Completed = TRUE;
 
         // Increment NextIndex
 
-        NetRingBufferAdvanceNextPacket(ringBuffer);
+        NetRingBufferAdvanceNextPacket(descriptor);
     }
 
-    NetRingBufferReturnCompletedPackets(ringBuffer);
+    NetRingBufferReturnCompletedPackets(descriptor);
 ```
 
 ## -see-also
 
-[NetTxQueueGetRingBuffer](nf-nettxqueue-nettxqueuegetringbuffer.md)
+[NetTxQueueGetDatapathDescriptor](nf-nettxqueue-nettxqueuegetdatapathdescriptor.md)

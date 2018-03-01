@@ -90,15 +90,15 @@ The minimum NetAdapterCx version for *EVT_RXQUEUE_CANCEL* is 1.0.
 
 ### Example
 
-In its *EVT_RXQUEUE_CANCEL* callback function, the client must complete any outstanding receive packets. If the client does not return all packets, the operating system does not delete the queue, and NetAdapterCx stops calling the client's callbacks for the queue. To return packets, the client advances the ring buffer's **BeginIndex** and **NextIndex** indices to **EndIndex**.
+In your *EVT_RXQUEUE_CANCEL* callback function, you must complete any outstanding receive packets. If you do not return all packets, the operating system does not delete the queue, and NetAdapterCx stops calling your callbacks for the queue. To return packets, call the [NetRingBufferReturnAllPackets](../netadapterpacket/nf-netadapterpacket-netringbufferreturnallpackets.md) method.
 
 ```c++
 VOID
 EvtRxQueueCancel(NETRXQUEUE RxQueue)
 {
-    NET_RING_BUFFER *ringBuffer = NetRxQueueGetRingBuffer(RxQueue);
+    PCNET_DATAPATH_DESCRIPTOR descriptor = NetRxQueueGetDatapathDescriptor(RxQueue);
 
-    ringBuffer->BeginIndex = ringBuffer->NextIndex = ringBuffer->EndIndex;
+    NetRingBufferReturnAllPackets(descriptor);
 }
 ```
 
