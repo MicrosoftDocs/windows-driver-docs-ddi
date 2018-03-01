@@ -94,7 +94,7 @@ In this callback, the client driver might call [NetRxQueueInitGetQueueId](../net
 
 Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
 
-To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetRingBuffer](../netrxqueue/nf-netrxqueue-netrxqueuegetringbuffer.md).
+To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md), then use the [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by that method to call [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
 
 The minimum NetAdapterCx version for *EvtNetAdapterCreateRxQueue* is 1.0.
 

@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.23
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -52,10 +52,11 @@ req.product: Windows 10 or later.
 
 The **NetPacketGetContextFromToken** method retrieves a [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md) context based on a NET_PACKET_CONTEXT_TOKEN.
 
-> [!WARNING]
-> This method is reserved for NetAdapterCx. Client drivers must not call this method directly. Instead, they should call an accessor method created by a call to [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](nf-netadapterpacket-net_packet_declare_context_type_with_name.md).
+Client drivers should not call this method directly. Instead, they should call an accessor method created by a call to [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](nf-netadapterpacket-net_packet_declare_context_type_with_name.md).
 
 ## -parameters
+
+### -param Descriptor
 
 ### -param NetPacket
 Reserved.
@@ -67,6 +68,6 @@ Reserved.
 This function returns a pointer to a NET_PACKET context.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetPacketGetContextFromToken** is 1.1.
+The minimum NetAdapterCx version for **NetPacketGetContextFromToken** is 1.2.
 
 ## -see-also

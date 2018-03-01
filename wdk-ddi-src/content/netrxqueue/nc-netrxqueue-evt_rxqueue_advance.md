@@ -92,42 +92,44 @@ The minimum NetAdapterCx version for *EVT_RXQUEUE_ADVANCE* is 1.0.
 
 In this callback function, the client driver typically performs the following steps:
 
-1. Call [NetRxQueueGetRingBuffer](nf-netrxqueue-netrxqueuegetringbuffer.md) to retrieve the ring buffer handle associated with the receive queue.
-2. Program packets returned by the OS to hardware. The window includes packets starting from **NextIndex** up until **EndIndex**.
-	3. Iterate until **NextIndex** matches **EndIndex**, or the hardware stops accepting new descriptors.
-	4. Call [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) to retrieve the packet at **NextIndex**.
-	5. Free any resources associated with the packet that may have been allocated the last time the descriptor was handed to the OS.
-	6. Program the packet to the associated hardware receive queue.
-	7. Call [NetRingBufferIncrementIndex](../netringbuffer/nf-netringbuffer-netringbufferincrementindex.md) to advance **NextIndex**. This routine handles ring buffer wrap around.
+1. Call [NetRxQueueGetDatapathDescriptor](nf-netrxqueue-netrxqueuegetdatapathdescriptor.md) to retrieve the datapath descriptor associated with the receive queue.
+2. Use the receive queue's datapath descriptor retrieve the packet ring buffer by calling [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
+3. Program packets returned by the OS to hardware. The window includes packets starting from **NextIndex** up until **EndIndex**.
+	1. Iterate until **NextIndex** matches **EndIndex**, or the hardware stops accepting new descriptors.
+	2. Call [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) to retrieve the packet at **NextIndex**.
+	3. Free any resources associated with the packet that may have been allocated the last time the descriptor was handed to the OS.
+	4. Program the packet to the associated hardware receive queue.
+	5. Call [NetRingBufferIncrementIndex](../netringbuffer/nf-netringbuffer-netringbufferincrementindex.md) to advance **NextIndex**. This routine handles ring buffer wrap around.
 
-	```c++
+	```C++
 	VOID
 	EvtRxQueueAdvance(NETRXQUEUE RxQueue)
 	{
-		// optional: retrieve queue's WDF context
+		// Optional: retrieve the queue's WDF context
 		MY_RX_QUEUE_CONTEXT *rxContext = GetRxQueueContext(RxQueue);
 
-		// tip: store a reference to RingBuffer in the receive context to reduce
-		// calls out of driver.
-		NET_RING_BUFFER *ringBuffer = NetRxQueueGetRingBuffer(RxQueue);
+		// Tip: store a reference to the datapath descriptor in the receive context to reduce
+		// calls out of the driver
+		PCNET_DATAPATH_DESCRIPTOR descriptor = NetRxQueueGetDatapathDescriptor(RxQueue);
+		NET_RING_BUFFER* ringBuffer = NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER(descriptor);
 
-		// move returned packet descriptors back to the hardware queue
+		// Move returned packet descriptors back to the hardware queue
 		while (ringBuffer->NextIndex != ringBuffer->EndIndex)
 		{
-			NET_PACKET *netPacket =
-				NetRingBufferGetPacketAtIndex(ringBuffer, ringBuffer->NextIndex);
+			NET_PACKET* netPacket =
+				NetRingBufferGetPacketAtIndex(descriptor, ringBuffer->NextIndex);
 
-			// optional: retrieve queue's packet context
-			MY_RX_PACKET_CONTEXT *packetContext = GetRxPacketContext(netPacket);
+			// Optional: retrieve the queue's packet context
+			MY_RX_PACKET_CONTEXT* packetContext = GetRxPacketContext(netPacket);
 
-			// free resources associated with the packet
+			// Free resources associated with the packet
 			...
 
 			// program netPacket to hardware
 			...
 
-			// return the packet to the available descriptor queue
-			RingBuffer->NextIndex =
+			// Return the packet to the available descriptor queue
+			ringBuffer->NextIndex =
 				NetRingBufferIncrementIndex(ringBuffer, ringBuffer->NextIndex);
 		}
 
@@ -141,7 +143,7 @@ In this callback function, the client driver typically performs the following st
 	while (ringBuffer->BeginIndex != ringBuffer->NextIndex)
 		{
 			NET_PACKET *netPacket =
-				NetRingBufferGetPacketAtIndex(ringBuffer, ringBuffer->BeginIndex);
+				NetRingBufferGetPacketAtIndex(descriptor, ringBuffer->BeginIndex);
 
 			// optional: retrieve queue's packet context
 			MY_RX_PACKET_CONTEXT *packetContext = GetRxPacketContext(netPacket);
@@ -155,14 +157,15 @@ In this callback function, the client driver typically performs the following st
 			//
 			// The Completed flag is not used by the OS, so the device is free to
 			// use this flag.
-			if (!netPacket->Data.Completed)
+			NET_PACKET_FRAGMENT* fragment = NET_PACKET_GET_FRAGMENT(netPacket, descriptor, 0);
+			if (!fragment->Completed)
 				break;
 
-			RingBuffer->BeginIndex =
-				NetRingBufferIncrementIndex(RingBuffer, RingBuffer->BeginIndex);
+			ringBuffer->BeginIndex =
+				NetRingBufferIncrementIndex(ringBuffer, ringBuffer->BeginIndex);
 		}
 	```
 
 ## -see-also
 
-[NetRxQueueGetRingBuffer](nf-netrxqueue-netrxqueuegetringbuffer.md)
+[NetRxQueueGetDatapathDescriptor](nf-netrxqueue-netrxqueuegetdatapathdescriptor.md)
