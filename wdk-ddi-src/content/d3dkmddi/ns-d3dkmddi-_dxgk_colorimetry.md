@@ -77,34 +77,33 @@ typedef struct _DXGK_COLORIMETRY {
 
 ### -field RedPoint
 
-Override for display red point.  Note, each dimension is a 10-bit value stored in the least significant bits.
-Zero indicates no override.
+Override for chromaticity coordinates of the red color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
 
 
 ### -field GreenPoint
 
-Override for display green point. Note, each dimension is a 10-bit value stored in the least significant bits.
+Override for chromaticity coordinates of the green color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
 
 
 ### -field BluePoint
 
-Override for display blue point. Note, each dimension is a 10-bit value stored in the least significant bits.
+Override for chromaticity coordinates of the blue color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
 
 
 ### -field WhitePoint
 
-Override for display white point. Note, each dimension is a 10-bit value stored in the least significant bits.
+Override for chromaticity coordinates of the white point in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
 
 
 ### -field MinLuminance
 
-Override for the minimum luminance value supported by the display measured in one ten thousandth of a nit.  Only valid if MaxLuminance is non-zero.  Zero is a valid value.
+Override for the minimum luminance value supported by the display measured in one ten thousandth of a nit.  Only valid if MaxLuminance is non-zero.  Zero is a valid override value.
 
 
 ### -field MaxLuminance
 
 Override for the maximum luminance value supported by the display measured in one ten thousandth of a nit.  This luminance level is expected to be supported for only a relatively small area in any given frame.  
-Zero indicates no override of MaxLuminance, MaxFullFrameLuminance or MinLuminance.
+Zero indicates no override of MaxLuminance, MaxFullFrameLuminance and MinLuminance.
 
 
 
