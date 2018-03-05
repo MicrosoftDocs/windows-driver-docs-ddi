@@ -88,12 +88,6 @@ The **NET_PACKET** structure can be an element in a [NET_RING_BUFFER](../netring
 
 You can optionally use [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) or [NetRingBufferGetNextPacket](../netadapterpacket/nf-netadapterpacket-netringbuffergetnextpacket.md) to obtain a **NET_PACKET** from a ring buffer.
 
-In NetAdapterCx 1.2, several members of this structure were removed, added, or modified. 
-  
-- The **Data** member was replaced with the **FragmentOffset** member to determine the first fragment in this **NET_PACKET**.
-- The **NET_PACKET_CHECKSUM** member was removed as this information has now been moved to the new [NET_PACKET_ADVANCED_OFFLOAD](ns-netpacket-_net_packet_advanced_offload.md) structure.
-- The **Reserved2** and **Reserved3** members have been replaced with the **Reserved4** member.
-
 The minimum NetAdapterCx version for **NET_PACKET** is 1.2.
 
 ## -see-also

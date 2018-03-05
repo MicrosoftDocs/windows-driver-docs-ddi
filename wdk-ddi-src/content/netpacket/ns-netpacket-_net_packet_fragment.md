@@ -127,12 +127,6 @@ While each fragment is a virtually contiguous buffer of memory, a packet that co
 
 The client driver should not unlink, append, or rearrange **NET_PACKET_FRAGMENT** structures within a [NET_PACKET](ns-netpacket-_net_packet.md) structure.
 
-In NetAdapterCx 1.2, several members of this structure changed. 
-
-- The **LastPacketOfChain** member was removed.
-- The **NetFragment_Reserved** member was removed.
-- The **RxBufferReturnContext** member was added.
-
 The minimum NetAdapterCx version for **NET_PACKET_FRAGMENT** is 1.2.
 
 ## -see-also

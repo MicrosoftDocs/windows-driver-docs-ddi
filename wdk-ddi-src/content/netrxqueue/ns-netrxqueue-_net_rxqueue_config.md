@@ -68,10 +68,6 @@ Call [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md) to init
 
 The **NET_RXQUEUE_CONFIG** structure is an input parameter to [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md). The client must use [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md) to initialize this structure before calling **NetRxQueueCreate**.
 
-In NetAdapterCx 1.1, the **ContextTypeInfo** member from version 1.0 was replaced with the **RingBufferNumberOfElementsHint** member.
-
-In NetAdapterCx 1.2, the **AllocationSize**, **AlignmentRequirement**, and **RingBufferNumberOfElementsHint** members were removed. To specify these requirements for Rx queues, the client driver now sets them as part of the [NET_ADAPTER_RX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md) structure that is initialized as part of the *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md) callback function.
-
 The minimum NetAdapterCx version for **NET_RXQUEUE_CONFIG** is 1.1.
 
 ## -see-also

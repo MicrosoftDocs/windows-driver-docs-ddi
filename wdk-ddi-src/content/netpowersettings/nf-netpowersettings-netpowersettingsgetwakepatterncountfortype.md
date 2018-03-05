@@ -68,8 +68,6 @@ The client driver must only call **NetPowerSettingsGetWakePatternCountForType** 
 
 To determine if a specific wake pattern is enabled, call [NetPowerSettingsIsWakePatternEnabled](nf-netpowersettings-netpowersettingsiswakepatternenabled.md).
 
-In NetAdapterCx version 1.1, the IRQL of this method was changed from DISPATCH_LEVEL to PASSIVE_LEVEL.
-
 The minimum NetAdapterCx version for **NetPowerSettingsGetWakePatternCountForType** is 1.1.
 
 ## -see-also

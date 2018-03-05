@@ -68,10 +68,6 @@ Call [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md) to init
 
 The **NET_TXQUEUE_CONFIG** structure is an input parameter to [NetTxQueueCreate](nf-nettxqueue-nettxqueuecreate.md). The client must use [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md) to initialize this structure before calling **NetTxQueueCreate**.
 
-In NetAdapterCx 1.1, the **ContextTypeInfo** member from version 1.0 was replaced with the **RingBufferNumberOfElementsHint** member.
-
-In NetAdapterCx 1.2, the **RingBufferNumberOfElementsHint** member was removed. To specify this requirements for Tx queues, the client driver now sets it as part of the [NET_ADAPTER_TX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_tx_capabilities.md) structure that is initialized as part of the *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md) callback function.
-
 The minimum NetAdapterCx version for **NET_TXQUEUE_CONFIG** is 1.1.
 
 ## -see-also
