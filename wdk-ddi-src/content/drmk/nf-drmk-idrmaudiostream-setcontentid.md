@@ -7,7 +7,7 @@ old-location: audio\idrmaudiostream_setcontentid.htm
 old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IDrmAudioStream, IDrmAudioStream interface [Audio Devices], SetContentId method, IDrmAudioStream::SetContentId, SetContentId method [Audio Devices], SetContentId method [Audio Devices], IDrmAudioStream interface, SetContentId,IDrmAudioStream.SetContentId, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, drmk/IDrmAudioStream::SetContentId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,23 +104,11 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
@@ -128,13 +116,25 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
+<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 
- 
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IDrmAudioStream::SetContentId method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IDrmAudioStream::SetContentId method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

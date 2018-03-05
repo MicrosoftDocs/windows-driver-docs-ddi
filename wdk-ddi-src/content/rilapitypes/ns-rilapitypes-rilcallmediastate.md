@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediastate_2.htm
 old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate_2, rilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,32 +97,32 @@ typedef struct _RILCALLMEDIASTATE {
 ### -field RILCALLMEDIASTATEUNION
 
 
-#### - RIL_CALLMEDIATYPE_AUDIO
-
-
-#### - RIL_CALLMEDIATYPE_CUSTOM
-
-
-#### - RIL_CALLMEDIATYPE_UNKNOWN
-
-
-#### - RIL_CALLMEDIATYPE_VIDEO
-
-
-#### - case
-
-
-#### - dwCustomStateSpecific
-
-
-#### - pad
+#### - switch_is
 
 
 #### - stAudioState
 
 
+#### - case
+
+
+#### - RIL_CALLMEDIATYPE_AUDIO
+
+
 #### - stVideoState
 
 
-#### - switch_is
+#### - RIL_CALLMEDIATYPE_VIDEO
+
+
+#### - dwCustomStateSpecific
+
+
+#### - RIL_CALLMEDIATYPE_CUSTOM
+
+
+#### - pad
+
+
+#### - RIL_CALLMEDIATYPE_UNKNOWN
 

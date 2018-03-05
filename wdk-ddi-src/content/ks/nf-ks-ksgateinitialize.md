@@ -114,7 +114,7 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 
@@ -122,7 +122,7 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 
 
 

@@ -155,27 +155,15 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 ## -see-also
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
-
-
-
 <a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 
 <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
-
-
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
 
 
 
@@ -187,11 +175,23 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
+
+
+
 <a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a>
 
 
 
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
 
 
 
@@ -199,7 +199,7 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
 
 
 

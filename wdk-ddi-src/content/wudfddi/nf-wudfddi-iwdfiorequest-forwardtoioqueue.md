@@ -7,7 +7,7 @@ old-location: wdf\iwdfiorequest_forwardtoioqueue.htm
 old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: ForwardToIoQueue method, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue,IWDFIoRequest.ForwardToIoQueue, IWDFIoRequest, IWDFIoRequest interface, ForwardToIoQueue method, IWDFIoRequest::ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,6 +129,18 @@ The following code example shows how to forward a request to another queue if th
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
@@ -137,21 +149,9 @@ The following code example shows how to forward a request to another queue if th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::ForwardToIoQueue method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::ForwardToIoQueue method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

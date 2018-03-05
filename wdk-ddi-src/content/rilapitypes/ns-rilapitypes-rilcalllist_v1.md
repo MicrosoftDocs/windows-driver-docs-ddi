@@ -7,7 +7,7 @@ old-location: netvista\rilcalllist_v1_2.htm
 old-project: netvista
 ms.assetid: bdca275c-c728-4be4-bb57-cfa61cddff61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLLIST_V1, RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v1_2, rilapitypes/RILCALLLIST_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

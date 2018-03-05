@@ -101,7 +101,7 @@ Opaque member. Reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.TargetSystemState
 
-The target system power state of the previous <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> that the driver received. This member is set to a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
+The target system power state of the previous <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system power IRP</a> that the driver received. This member is set to a <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EffectiveSystemState
@@ -147,11 +147,11 @@ The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This 
 
 ## -see-also
 
+<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 

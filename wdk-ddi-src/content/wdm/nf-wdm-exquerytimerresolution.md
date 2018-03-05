@@ -108,11 +108,11 @@ When your driver calls a routine such as <a href="..\wdm\nf-wdm-kesettimerex.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
 
 
 

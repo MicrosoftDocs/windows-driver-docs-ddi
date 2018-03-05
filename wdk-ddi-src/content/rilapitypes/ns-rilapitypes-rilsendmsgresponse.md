@@ -7,7 +7,7 @@ old-location: netvista\rilsendmsgresponse_2.htm
 old-project: netvista
 ms.assetid: 46fd1e3e-38de-460e-8bb8-ff7db2a16e1a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse_2, rilapitypes/RILSENDMSGRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

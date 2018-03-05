@@ -7,7 +7,7 @@ old-location: netvista\rilradiopresence_2.htm
 old-project: netvista
 ms.assetid: 0fd02d1a-e6c4-418d-b890-9b60f4f0c1ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILRADIOPRESENCE, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOPRESENCE_MAX, RIL_RADIOPRESENCE_PRESENT, netvista.rilradiopresence_2, rilapitypes/RILRADIOPRESENCE, rilapitypes/RIL_RADIOPRESENCE_MAX, rilapitypes/RIL_RADIOPRESENCE_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

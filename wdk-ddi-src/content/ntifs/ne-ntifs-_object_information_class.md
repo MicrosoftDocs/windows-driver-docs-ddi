@@ -80,11 +80,11 @@ A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 

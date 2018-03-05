@@ -7,7 +7,7 @@ old-location: storage\msiscsi_lunmappinginformation.htm
 old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], _MSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,11 +107,7 @@ You must implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
 
 
 
@@ -119,17 +115,21 @@ You must implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_LUNMappingInformation structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_LUNMappingInformation structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

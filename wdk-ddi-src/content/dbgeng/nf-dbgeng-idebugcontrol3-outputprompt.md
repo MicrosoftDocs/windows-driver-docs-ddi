@@ -7,7 +7,7 @@ old-location: debugger\outputprompt.htm
 old-project: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl2 interface [Windows Debugging], OutputPrompt method, IDebugControl2::OutputPrompt, IDebugControl3, IDebugControl3 interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging], IDebugControl interface, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt method [Windows Debugging], IDebugControl3 interface, OutputPrompt,IDebugControl3.OutputPrompt, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -314,7 +314,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
 
 
@@ -322,7 +322,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -330,21 +330,21 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputPrompt method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputPrompt method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

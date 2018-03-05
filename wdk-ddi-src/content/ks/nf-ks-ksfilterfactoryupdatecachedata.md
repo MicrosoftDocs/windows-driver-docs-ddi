@@ -111,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
 
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 

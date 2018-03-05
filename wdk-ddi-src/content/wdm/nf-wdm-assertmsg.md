@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Expression
-
-Specifies any logical expression.
-
-
 #### - Message
 
 Specifies the null-delimited string to be displayed by the debugger.
+
+
+#### - Expression
+
+Specifies any logical expression.
 
 
 ## -remarks

@@ -99,11 +99,11 @@ For example, if driver A has an import table through which it calls one or more 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmisdriversuspectforverifier.md">MmIsDriverSuspectForVerifier</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmisdriversuspectforverifier.md">MmIsDriverSuspectForVerifier</a>
 
 
 

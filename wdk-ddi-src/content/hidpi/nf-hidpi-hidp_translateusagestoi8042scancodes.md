@@ -293,11 +293,11 @@ For information about the mapping between HID usages and PS/2 keyboard scan code
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
 
 
 

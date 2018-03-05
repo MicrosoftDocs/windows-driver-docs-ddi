@@ -120,11 +120,11 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 ## -see-also
 
-<a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543916">IWiaImageFilter::InitializeFilter</a>
+
+
+
+<a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a>
 
 
 

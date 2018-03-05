@@ -155,6 +155,10 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
+<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 
@@ -163,15 +167,11 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
 
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
 
 

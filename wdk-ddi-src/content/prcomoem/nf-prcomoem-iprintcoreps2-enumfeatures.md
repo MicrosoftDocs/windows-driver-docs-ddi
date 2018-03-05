@@ -7,7 +7,7 @@ old-location: print\iprintcoreps2_enumfeatures.htm
 old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCorePS2 interface, EnumFeatures,IPrintCorePS2.EnumFeatures, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumFeatures method, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -179,10 +179,6 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
@@ -191,9 +187,13 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 
 
- 
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumFeatures method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumFeatures method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

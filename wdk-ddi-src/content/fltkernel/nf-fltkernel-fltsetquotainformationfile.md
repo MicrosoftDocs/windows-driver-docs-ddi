@@ -120,15 +120,15 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltqueryquotainformationfile.md">FltQueryQuotaInformationFile</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
 
 
 

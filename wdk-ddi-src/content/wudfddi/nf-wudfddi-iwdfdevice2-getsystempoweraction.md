@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice2_getsystempoweraction.htm
 old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: GetSystemPowerAction method, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction,IWDFDevice2.GetSystemPowerAction, IWDFDevice2, IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ POWER_ACTION GetSystemPowerAction();
 
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="..\wdm\ne-wdm-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 
@@ -148,5 +148,5 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::GetSystemPowerAction method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::GetSystemPowerAction method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_is_writable.htm
 old-project: storage
 ms.assetid: 073dd5d4-d6b9-42c8-adb2-1d6c53f2a352
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control code [Storage Devices], k307_b5d259a8-bf23-4475-98ce-69c87b3de52c.xml, ntdddisk/IOCTL_DISK_IS_WRITABLE, storage.ioctl_disk_is_writable
 ms.prod: windows-hardware
 ms.technology: windows-devices

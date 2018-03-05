@@ -7,7 +7,7 @@ old-location: netvista\rilcardappadded_2.htm
 old-project: netvista
 ms.assetid: 8e4eed61-bd57-4731-9178-7f8d33fbd240
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded_2, rilapitypes/RILCARDAPPADDED"
 ms.prod: windows-hardware
 ms.technology: windows-devices

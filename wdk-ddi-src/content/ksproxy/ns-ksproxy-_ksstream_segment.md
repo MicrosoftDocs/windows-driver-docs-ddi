@@ -124,11 +124,11 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 
 
@@ -136,7 +136,7 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
 
 

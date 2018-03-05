@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackiocanceledonqueue_oniocanceledonqueue.htm
 old-project: wdf
 ms.assetid: 901ff312-d1bb-46bf-b8e6-6abc47fa3c7f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IQueueCallbackIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, OnIoCanceledOnQueue method, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue,IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,17 +115,17 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

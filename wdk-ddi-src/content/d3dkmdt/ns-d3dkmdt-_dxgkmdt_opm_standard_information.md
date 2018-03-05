@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_standard_information.htm
 old-project: display
 ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,27 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
@@ -156,19 +176,7 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
-
-
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
 
 
 
@@ -176,17 +184,9 @@ Reserved. Must be set to zero.
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_STANDARD_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_STANDARD_INFORMATION structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

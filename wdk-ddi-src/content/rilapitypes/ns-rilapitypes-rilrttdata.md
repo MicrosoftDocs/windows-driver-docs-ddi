@@ -7,7 +7,7 @@ old-location: netvista\rilrttdata_2.htm
 old-project: netvista
 ms.assetid: f481a7e7-ef54-4219-a819-5bb102aecaf6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILRTTDATA, RILRTTDATA, RILRTTDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrttdata_2, rilapitypes/RILRTTDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

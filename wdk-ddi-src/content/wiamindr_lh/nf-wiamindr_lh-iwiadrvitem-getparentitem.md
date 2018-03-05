@@ -100,7 +100,7 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
 
 
 
@@ -108,7 +108,7 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 

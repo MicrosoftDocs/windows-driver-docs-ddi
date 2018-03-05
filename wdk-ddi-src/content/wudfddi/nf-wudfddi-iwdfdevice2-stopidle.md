@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice2_stopidle.htm
 old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFDevice2, IWDFDevice2 interface, StopIdle method, IWDFDevice2::StopIdle, StopIdle method, StopIdle method, IWDFDevice2 interface, StopIdle,IWDFDevice2.StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -182,17 +182,17 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::StopIdle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::StopIdle method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

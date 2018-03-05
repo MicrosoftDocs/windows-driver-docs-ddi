@@ -7,7 +7,7 @@ old-location: display\agpreservephysical.htm
 old-project: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -160,7 +160,7 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 
@@ -168,7 +168,7 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
 
 
 
@@ -176,5 +176,5 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RESERVE_PHYSICAL callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PAGP_RESERVE_PHYSICAL callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

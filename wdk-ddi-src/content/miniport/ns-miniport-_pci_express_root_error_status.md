@@ -88,24 +88,9 @@ typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_STATUS structure.
 
 
-#### - AdvancedErrorInterruptMessageNumber
-
-The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
-
-
 #### - CorrectableErrorReceived
 
 A single bit that indicates that a correctable error message has been received.
-
-
-#### - FatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-#### - FirstUncorrectableFatal
-
-A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
 
 
 #### - MultipleCorrectableErrorsReceived
@@ -113,12 +98,27 @@ A single bit that indicates that the first uncorrectable error message that was 
 A single bit that indicates that multiple correctable error messages have been received.
 
 
+#### - UncorrectableErrorReceived
+
+A single bit that indicates that an uncorrectable error message has been received.
+
+
 #### - MultipleUncorrectableErrorsReceived
 
 A single bit that indicates that multiple uncorrectable error messages have been received.
 
 
+#### - FirstUncorrectableFatal
+
+A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
+
+
 #### - NonFatalErrorMessagesReceived
+
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+
+
+#### - FatalErrorMessagesReceived
 
 A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
@@ -128,9 +128,9 @@ A single bit that indicates that one or more non-fatal uncorrectable error messa
 Reserved.
 
 
-#### - UncorrectableErrorReceived
+#### - AdvancedErrorInterruptMessageNumber
 
-A single bit that indicates that an uncorrectable error message has been received.
+The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
 
 
 ## -remarks

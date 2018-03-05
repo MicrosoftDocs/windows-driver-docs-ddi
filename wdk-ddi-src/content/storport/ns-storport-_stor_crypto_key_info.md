@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_key_info.htm
 old-project: storage
 ms.assetid: 4C936B29-1C88-432C-938B-A78BFDDC57E4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], STOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO structure [Storage Devices], _STOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, storport/PSTOR_CRYPTO_KEY_INFO, storport/STOR_CRYPTO_KEY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

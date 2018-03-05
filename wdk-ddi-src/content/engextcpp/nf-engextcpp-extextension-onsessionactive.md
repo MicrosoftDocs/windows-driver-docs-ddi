@@ -7,8 +7,8 @@ old-location: debugger\onsessionactive.htm
 old-project: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, OnSessionActive method [Windows Debugging], OnSessionActive, ExtExtension, ExtExtension class [Windows Debugging], OnSessionActive method, ExtExtension::OnSessionActive, debugger.onsessionactive, OnSessionActive method [Windows Debugging], ExtExtension class
+ms.date: 2/26/2018
+ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension, ExtExtension class [Windows Debugging], OnSessionActive method, ExtExtension::OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging], ExtExtension class, OnSessionActive,ExtExtension.OnSessionActive, debugger.onsessionactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Engextcpp.hpp
-apiname:
+api_name:
 -	ExtExtension.OnSessionActive
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Set to zero. (Reserved for future use).
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The session might not be accessible.
@@ -92,21 +95,32 @@ If a target is suspended, <a href="..\engextcpp\nf-engextcpp-extextension-onsess
 
 
 
+
 ## -see-also
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 <a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
 
- 
+
+
+<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.OnSessionActive method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.OnSessionActive method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -100,7 +100,11 @@ The <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORM
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
@@ -108,11 +112,7 @@ The <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORM
 
 
 
-<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

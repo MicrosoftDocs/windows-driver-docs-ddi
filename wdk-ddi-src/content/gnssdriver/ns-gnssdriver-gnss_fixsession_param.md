@@ -140,21 +140,6 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
 
-#### - ContinuousParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
-
-
-#### - DistanceParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
-
-
-#### - LkgFixParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
-
-
 #### - Reserved[9]
 
 Reserved for future use.
@@ -163,6 +148,21 @@ Reserved for future use.
 #### - SingleShotParam
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+
+
+#### - DistanceParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+
+
+#### - ContinuousParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+
+
+#### - LkgFixParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
 
 
 #### - Unused[512]

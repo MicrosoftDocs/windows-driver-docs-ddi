@@ -102,23 +102,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamhandlecontexts.md">FltSupportsStreamHandleContexts</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -126,7 +110,23 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamhandlecontexts.md">FltSupportsStreamHandleContexts</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 

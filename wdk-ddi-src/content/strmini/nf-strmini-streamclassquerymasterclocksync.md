@@ -104,10 +104,6 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
-
-
-
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
@@ -117,6 +113,10 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 
 <a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
 
 

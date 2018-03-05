@@ -7,7 +7,7 @@ old-location: netvista\riluicccommand_2.htm
 old-project: netvista
 ms.assetid: 13861810-91a6-4027-81a0-297b049e3ee4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand_2, rilapitypes/RILUICCCOMMAND, rilapitypes/RIL_UICCCMD_MAX, rilapitypes/RIL_UICCCMD_READRECORD, rilapitypes/RIL_UICCCMD_UPDATEBINARY, rilapitypes/RIL_UICCCMD_UPDATERECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices

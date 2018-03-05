@@ -107,15 +107,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
 
 
 
 <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 

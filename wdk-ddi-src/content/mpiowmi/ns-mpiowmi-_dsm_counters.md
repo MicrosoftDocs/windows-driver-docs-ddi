@@ -7,7 +7,7 @@ old-location: storage\dsm_counters.htm
 old-project: storage
 ms.assetid: 3202aec4-d95e-4162-86a1-17595ed2a5b5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDSM_COUNTERS, DSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], PDSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], _DSM_COUNTERS, mpiowmi/DSM_COUNTERS, mpiowmi/PDSM_COUNTERS, storage.dsm_counters, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

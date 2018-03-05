@@ -83,11 +83,6 @@ typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_STATUS_REGISTER structure.
 
 
-#### - PMEPending
-
-A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
-
-
 #### - PMERequestorId
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXPRESS_PME_REQUESTOR_ID</a> structure that describes the power management event (PME) requester identifier of the last PME requester.
@@ -96,6 +91,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537471">PCI_EXP
 #### - PMEStatus
 
 A single bit that indicates that a power management event (PME) was asserted by the requester identified by the <b>PMERequestorId</b> member.
+
+
+#### - PMEPending
+
+A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
 
 
 #### - Rsvd

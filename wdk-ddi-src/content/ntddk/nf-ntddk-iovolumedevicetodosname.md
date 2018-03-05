@@ -121,7 +121,7 @@ The routine failed to allocate resources required for this operation.
 
 
 
-<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine to free the buffer.
+<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine to free the buffer.
 
 Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled before calling this routine. The <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a> routine can be used to verify that APCs are not disabled.
 
@@ -130,15 +130,15 @@ Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

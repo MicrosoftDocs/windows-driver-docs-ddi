@@ -7,7 +7,7 @@ old-location: netvista\rilerrordetails_2.htm
 old-project: netvista
 ms.assetid: decfcafa-fe8b-44f6-913b-c04cf3b320a3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails_2, rilapitypes/RILERRORDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -146,19 +146,19 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 

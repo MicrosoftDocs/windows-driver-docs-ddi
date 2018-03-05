@@ -132,15 +132,15 @@ If the <i>Parameters-</i>&gt;<b>Version</b> value obtained from <b>IoConnectInte
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
 
 
 

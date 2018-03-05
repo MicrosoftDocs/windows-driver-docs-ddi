@@ -100,15 +100,15 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-dbgbreakpointwithstatus.md">DbgBreakPointWithStatus</a>
+
+
+
 <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548063">KdBreakPoint</a>
-
-
-
-<a href="..\wdm\nf-wdm-dbgbreakpointwithstatus.md">DbgBreakPointWithStatus</a>
 
 
 

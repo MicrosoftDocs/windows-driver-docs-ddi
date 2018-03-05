@@ -136,7 +136,7 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 ## -see-also
 
-<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
 
 
 
@@ -144,7 +144,7 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
+<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
 
 
 

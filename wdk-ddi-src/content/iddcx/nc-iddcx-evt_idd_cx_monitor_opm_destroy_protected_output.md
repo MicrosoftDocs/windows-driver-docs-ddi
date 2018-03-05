@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_destroy_protected_output.htm
 old-project: display
 ms.assetid: 86bd815f-b413-4680-9679-8778a47a0e27
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, EvtIddCxMonitorOpmDestroyProtectedOutput, EvtIddCxMonitorOpmDestroyProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_destroy_protected_output, iddcx/EvtIddCxMonitorOpmDestroyProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,18 +2,18 @@
 UID: NE:rilapitypes.RILIMSIPARAMMASK
 title: RILIMSIPARAMMASK
 author: windows-driver-content
-description: This enumeration describes the RILIMSIPARAMMASK.
-old-location: netvista\rilimsiparammask.htm
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\rilimsiparammask_2.htm
 old-project: netvista
-ms.assetid: 8fe1ecda-4b2f-4a6f-b02c-7e50630614eb
+ms.assetid: 69516b0b-d563-4a88-b083-a1a5a4e0ef16
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILIMSIPARAMMASK, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_IMSI, RIL_PARAM_IMSI_MCC, RIL_PARAM_IMSI_MNC, netvista.rilimsiparammask, rilapitypes/RILIMSIPARAMMASK, rilapitypes/RIL_PARAM_IMSI_ALL, rilapitypes/RIL_PARAM_IMSI_IMSI, rilapitypes/RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC
+ms.date: 2/26/2018
+ms.keywords: RILIMSIPARAMMASK, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_MCC, RIL_PARAM_IMSI_MNC, netvista.rilimsiparammask_2, rilapitypes/RILIMSIPARAMMASK, rilapitypes/RIL_PARAM_IMSI_ALL, rilapitypes/RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h, Ntddrilapitypes.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,22 +50,18 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILIMSIPARAMMASK.
-
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
 ## -syntax
 
 
 ````
-enum RILIMSIPARAMMASK {
-  RIL_PARAM_IMSI_IMSI  = 0x00000001, 
-  RIL_PARAM_IMSI_MCC   = 0x00000002, 
-  RIL_PARAM_IMSI_MNC   = 0x00000004, 
-  RIL_PARAM_IMSI_ALL   = 0x00000007 
-
-};
+typedef enum _RILIMSIPARAMMASK { 
+  RIL_PARAM_IMSI_MCC,
+  RIL_PARAM_IMSI_MNC,
+  RIL_PARAM_IMSI_ALL
+} RILIMSIPARAMMASK;
 ````
 
 
@@ -84,17 +80,4 @@ enum RILIMSIPARAMMASK {
 
 
 ### -field RIL_PARAM_IMSI_ALL
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILIMSIPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

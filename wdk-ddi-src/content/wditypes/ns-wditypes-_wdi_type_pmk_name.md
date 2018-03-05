@@ -7,7 +7,7 @@ old-location: netvista\wdi_type_pmk_name.htm
 old-project: netvista
 ms.assetid: 71020A3E-0839-4D73-B1B7-8A979BD0F5E0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, netvista.wdi_type_pmk_name, wditypes/PWDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

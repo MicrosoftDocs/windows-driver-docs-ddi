@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_media_key_block_size.htm
 old-project: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, storage.ioctl_aacs_read_media_key_block_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,14 +120,14 @@ Failure of one of the copy protection mechanisms.
 The authentication process has failed.
 
 
-#### -STATUS_CSS_KEY_NOT_ESTABLISHED or STG_E_CSS_KEY_NOT_ESTABLISHED
-
-The AGID for AACS has not been established.
-
-
 #### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
 
 No AACS protection exists for this media.
+
+
+#### -STATUS_CSS_KEY_NOT_ESTABLISHED or STG_E_CSS_KEY_NOT_ESTABLISHED
+
+The AGID for AACS has not been established.
 
 
 ## -remarks

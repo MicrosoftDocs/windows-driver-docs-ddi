@@ -199,11 +199,7 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 
@@ -211,15 +207,19 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 

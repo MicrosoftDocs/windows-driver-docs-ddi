@@ -141,11 +141,11 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
@@ -153,11 +153,11 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 

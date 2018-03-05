@@ -7,7 +7,7 @@ old-location: wdf\wdf_request_type__umdf_.htm
 old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, WdfRequestCleanup, WdfRequestClose, WdfRequestCreate, WdfRequestDeviceIoControl, WdfRequestFlushBuffers, WdfRequestInternalIoctl, WdfRequestMaximum, WdfRequestOther, WdfRequestQueryInformation, WdfRequestRead, WdfRequestSetInformation, WdfRequestTypeNoFormat, WdfRequestUndefined, WdfRequestUsb, WdfRequestWrite, _WDF_REQUEST_TYPE, umdf.wdf_request_type__umdf_, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wdf.wdf_request_type__umdf_, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestClose, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestFlushBuffers, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestMaximum, wudfddi_types/WdfRequestOther, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestUsb, wudfddi_types/WdfRequestWrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,10 +173,6 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
@@ -185,7 +181,7 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
 
 
@@ -193,17 +189,21 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

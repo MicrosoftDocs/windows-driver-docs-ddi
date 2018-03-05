@@ -69,7 +69,7 @@ typedef struct _PEP_PPM_ENTER_SYSTEM_STATE {
 
 ### -field TargetState
 
-On input, a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
+On input, a <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
 
 
 ## -remarks

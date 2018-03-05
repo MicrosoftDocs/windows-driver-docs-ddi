@@ -111,15 +111,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_prepare_device.md">PEP_ACPI_PREPARE_DEVICE</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 

@@ -214,16 +214,16 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 

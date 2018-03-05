@@ -83,24 +83,24 @@ typedef union _WHEA_ERROR_RECORD_HEADER_VALIDBITS {
 A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
 
 
-#### - PartitionId
-
-A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
-
-
 #### - PlatformId
 
 A single bit that indicates that the <b>PlatformId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - Timestamp
 
 A single bit that indicates that the <b>Timestamp</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+
+
+#### - PartitionId
+
+A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

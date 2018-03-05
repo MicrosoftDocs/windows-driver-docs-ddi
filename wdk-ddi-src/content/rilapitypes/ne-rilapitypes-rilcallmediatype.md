@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediatype_2.htm
 old-project: netvista
 ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype_2, rilapitypes/RILCALLMEDIATYPE, rilapitypes/RIL_CALLMEDIATYPE_AUDIO, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices

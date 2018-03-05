@@ -7,7 +7,7 @@ old-location: print\_cpsuicallback.htm
 old-project: print
 ms.assetid: 7d0f1609-5a24-4d38-9e9e-0c8e2de679a2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "_CPSUICALLBACK, _CPSUICALLBACK callback function [Print Devices], compstui/_CPSUICALLBACK, cpsuifnc_a5a532ac-20be-43d5-a9fb-40b918f44d51.xml, print._cpsuicallback"
 ms.prod: windows-hardware
 ms.technology: windows-devices

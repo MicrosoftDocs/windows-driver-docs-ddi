@@ -88,14 +88,14 @@ typedef union _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS {
 A ULONGLONG representation of the contents of the WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union.
 
 
-#### - AerInfo
+#### - PortType
 
-A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>PortType</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
-#### - BridgeControlStatus
+#### - Version
 
-A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
 #### - CommandStatus
@@ -113,24 +113,24 @@ A single bit that indicates that the <b>DeviceId</b> member of the WHEA_PCIEXPRE
 A single bit that indicates that the <b>DeviceSerialNumber</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
+#### - BridgeControlStatus
+
+A single bit that indicates that the <b>BridgeControlStatus</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+
+
 #### - ExpressCapability
 
 A single bit that indicates that the <b>ExpressCapability</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
-#### - PortType
+#### - AerInfo
 
-A single bit that indicates that the <b>PortType</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>AerInfo</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
 #### - Reserved
 
 Reserved for system use.
-
-
-#### - Version
-
-A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRESS_ERROR_SECTION structure contains valid data.
 
 
 ## -remarks

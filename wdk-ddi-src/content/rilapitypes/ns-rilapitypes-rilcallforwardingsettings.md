@@ -7,7 +7,7 @@ old-location: netvista\rilcallforwardingsettings_2.htm
 old-project: netvista
 ms.assetid: 8dacbef8-f037-4298-8a3b-cce7cf843fcf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettings_2, rilapitypes/RILCALLFORWARDINGSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

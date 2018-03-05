@@ -101,11 +101,11 @@ The minidriver should return a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
 
 

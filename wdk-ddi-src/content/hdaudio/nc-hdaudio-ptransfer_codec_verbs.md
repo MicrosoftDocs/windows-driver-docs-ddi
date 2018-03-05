@@ -7,7 +7,7 @@ old-location: audio\transfercodecverbs.htm
 old-project: audio
 ms.assetid: 0ba92f5c-c4a3-48de-b8af-9c444b2e65b5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: PTRANSFER_CODEC_VERBS, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,11 +61,11 @@ The function pointer type for a <i>TransferCodecVerbs</i> routine is defined as 
 PTRANSFER_CODEC_VERBS TransferCodecVerbs;
 
 NTSTATUS TransferCodecVerbs(
-  _In_    PVOID                               context,
-  _In_    ULONG                               count,
-  _Inout_ PHDAUDIO_CODEC_TRANSFER             codecTransfer,
-  _In_    PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback,
-  _In_    PVOID                               callbackContext
+  _In_    PVOID                               _context,
+  _In_    ULONG                               Count,
+  _Inout_ PHDAUDIO_CODEC_TRANSFER             CodecTransfer,
+  _In_    PHDAUDIO_TRANSFER_COMPLETE_CALLBACK Callback,
+  _In_    PVOID                               CallbackContext
 )
 { ... }
 ````
@@ -81,13 +81,19 @@ NTSTATUS TransferCodecVerbs(
 Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a><u>,</u> or <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 
-### -param Count
+### -param Count [in]
+
+Specifies the number of elements in the <i>codecTransfer</i> array.
 
 
-### -param CodecTransfer
+### -param CodecTransfer [in, out]
+
+Pointer to an array of <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a> structures. Each array element is a structure that contains storage for both an output command from the caller and the corresponding input response from the codec.
 
 
-### -param Callback
+### -param Callback [in]
+
+Function pointer to a callback routine. This parameter is a function pointer of type HDAUDIO_TRANSFER_COMPLETE_CALLBACK. The parameter can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ### -param Context
@@ -99,24 +105,9 @@ Specifies the context value from the <b>Context</b> member of the <a href="..\hd
 
 
 
-#### - callback [in]
-
-Function pointer to a callback routine. This parameter is a function pointer of type HDAUDIO_TRANSFER_COMPLETE_CALLBACK. The parameter can be specified as <b>NULL</b>. For more information, see the following Remarks section.
-
-
-#### - callbackContext [in]
+#### - CallbackContext [in]
 
 A context value for the callback routine. The caller casts the context value to type PVOID. After completing the commands asynchronously, the HD Audio bus driver passes the context value to the callback routine as a call parameter.
-
-
-#### - codecTransfer [in, out]
-
-Pointer to an array of <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a> structures. Each array element is a structure that contains storage for both an output command from the caller and the corresponding input response from the codec.
-
-
-#### - count [in]
-
-Specifies the number of elements in the <i>codecTransfer</i> array.
 
 
 ## -returns
@@ -214,17 +205,17 @@ The caller must allocate the <i>codecTransfer</i> array from the nonpaged pool.
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
- 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PTRANSFER_CODEC_VERBS callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PTRANSFER_CODEC_VERBS callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

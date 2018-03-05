@@ -125,7 +125,15 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
 
 
@@ -133,15 +141,7 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
 
 

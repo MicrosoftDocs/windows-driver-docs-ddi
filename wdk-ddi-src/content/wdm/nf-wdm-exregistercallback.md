@@ -156,6 +156,14 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
 
 
@@ -165,14 +173,6 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
 
 

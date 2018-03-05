@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a> macro be used instead.
+The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro be used instead.
 
 The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 
@@ -95,6 +95,16 @@ TBD
 
 
 
+
+
+#### - pIWiaLog
+
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+
+
+#### - ResourceID
+
+Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
 #### - DetailLevel
@@ -160,19 +170,9 @@ User-defined log levels.
  
 
 
-#### - ResourceID
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
 #### - format_string
 
 Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
-
-
-#### - pIWiaLog
-
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 ## -remarks
@@ -192,26 +192,26 @@ The following is an example of how the macro can be used:
 </td>
 </tr>
 </table></span></div>
-The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic Log file. It is recommended that the <a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a> macro be used instead. 
+The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic Log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro be used instead. 
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lwarning.md">WIAS_LWARNING</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
 
 
 

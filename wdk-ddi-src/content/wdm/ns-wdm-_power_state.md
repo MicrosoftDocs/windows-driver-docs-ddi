@@ -71,7 +71,7 @@ typedef union _POWER_STATE {
 
 ### -field SystemState
 
-A system power state value of type <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>. 
+A system power state value of type <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>. 
 
 
 ### -field DeviceState
@@ -83,7 +83,7 @@ A device power state value of type <a href="..\wudfddi\ne-wudfddi-_device_power_
 
 
 
-The <b>POWER_STATE</b> union is used in conjunction with the <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> and <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>.
+The <b>POWER_STATE</b> union is used in conjunction with the <a href="..\ntpoapi\ne-ntpoapi-_power_state_type.md">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> and <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>.
 
 For more information about power management, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>.
 
@@ -92,23 +92,23 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
-
-
-
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-
-
-
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 
-<a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
-
-
-
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
+
+<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
+
+
+
+<a href="..\ntpoapi\ne-ntpoapi-_power_state_type.md">POWER_STATE_TYPE</a>
+
+
+
+<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 

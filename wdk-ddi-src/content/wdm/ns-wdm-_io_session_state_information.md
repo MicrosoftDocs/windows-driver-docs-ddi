@@ -112,11 +112,11 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+
+
+<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
 
 
 

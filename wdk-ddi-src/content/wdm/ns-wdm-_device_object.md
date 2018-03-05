@@ -112,7 +112,7 @@ Used by the I/O manager to track the number of open handles for the device that 
 
 ### -field DriverObject
 
-A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
+A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
 
 
 ### -field _DRIVER_OBJECT
@@ -436,6 +436,18 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
@@ -444,19 +456,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 

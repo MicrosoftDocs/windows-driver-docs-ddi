@@ -107,12 +107,6 @@ Specifies the average time per frame in 100-nanosecond units.
 Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
-#### - TrueColorInfo
-
-
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
-
-
 #### - bmiColors
 
 Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
@@ -121,6 +115,12 @@ Array of KS_RGBQUAD structures that specifies the video's color palette. Each st
 #### - dwBitMasks
 
 Array of DWORD values that specify true-color bitmasks.
+
+
+#### - TrueColorInfo
+
+
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
 
 ## -remarks
@@ -140,15 +140,15 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
 
 
 

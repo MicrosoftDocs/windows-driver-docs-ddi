@@ -119,7 +119,7 @@ The value of <i>Size</i> is less than the size, in bytes, of a <b>BOOTDISK_INFOR
 </dl>
 </td>
 <td width="60%">
-The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 </td>
 </tr>
@@ -152,11 +152,11 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 
 

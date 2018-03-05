@@ -99,7 +99,7 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 
 
@@ -107,11 +107,11 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 
 
@@ -119,7 +119,7 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 
 

@@ -95,19 +95,19 @@ Minidrivers rarely call this function directly. Those that do must manually perf
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactorygetfirstchildfilter.md">KsFilterFactoryGetFirstChildFilter</a>
+<a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
 
 
 
 <a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterfactorygetfirstchildfilter.md">KsFilterFactoryGetFirstChildFilter</a>
 
 
 

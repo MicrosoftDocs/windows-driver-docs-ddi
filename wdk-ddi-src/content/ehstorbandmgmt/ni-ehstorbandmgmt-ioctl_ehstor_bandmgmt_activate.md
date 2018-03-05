@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
 old-project: storage
 ms.assetid: 10C3077A-1A6A-4AA1-BC9B-829353A8A895
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,9 +102,9 @@ Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_K
 
 
 
-#### -AuthKeyOffset
+#### -StructSize
 
-The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
+The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
 
 
 #### -Flags
@@ -128,9 +128,9 @@ A bitmask of activation flags. This is a bitwise OR value of the following.
  
 
 
-#### -Key
+#### -AuthKeyOffset
 
-A variable length byte array that contains the key data.
+The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
 
 
 #### -KeySize
@@ -138,9 +138,9 @@ A variable length byte array that contains the key data.
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-#### -StructSize
+#### -Key
 
-The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
+A variable length byte array that contains the key data.
 
 
 ### -input-buffer-length
@@ -241,17 +241,17 @@ enabled. A REG_DWORD value of 0 allows security activation on the storage device
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
 
 
 
- 
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

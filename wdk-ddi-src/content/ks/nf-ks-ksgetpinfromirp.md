@@ -93,15 +93,7 @@ Currently, IRPs associated with topology nodes cannot be queried for associated 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
-
-
-
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 
 
@@ -109,11 +101,19 @@ Currently, IRPs associated with topology nodes cannot be queried for associated 
 
 
 
+<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
+
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 
 

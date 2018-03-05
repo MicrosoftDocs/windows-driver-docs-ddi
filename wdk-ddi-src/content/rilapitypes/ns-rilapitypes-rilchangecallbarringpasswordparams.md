@@ -7,7 +7,7 @@ old-location: netvista\rilchangecallbarringpasswordparams_2.htm
 old-project: netvista
 ms.assetid: 1a9dda19-329b-4046-bba1-1bbedf37fa31
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangecallbarringpasswordparams_2, rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: audio\pcmethod_request.htm
 old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], _PCMETHOD_REQUEST, audio.pcmethod_request, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,5 +159,5 @@ The WDM audio subsystem does not currently support method requests.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCMETHOD_REQUEST structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCMETHOD_REQUEST structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

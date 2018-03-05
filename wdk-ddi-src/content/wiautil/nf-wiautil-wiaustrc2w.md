@@ -96,11 +96,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
 
 

@@ -81,7 +81,7 @@ Indicates if this device is in use.
 
 ### -param EdgeLevel [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
 ### -param InterruptLevel [in]

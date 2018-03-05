@@ -110,11 +110,11 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
-
-
-
 <a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
 
 
 

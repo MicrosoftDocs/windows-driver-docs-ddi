@@ -80,7 +80,7 @@ Specifies the number of buffers that follow this header.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -88,7 +88,7 @@ Specifies the number of buffers that follow this header.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

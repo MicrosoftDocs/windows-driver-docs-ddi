@@ -82,6 +82,11 @@ typedef EVT_UFX_DEVICE_TEST_MODE_SET PFN_UFX_DEVICE_TEST_MODE_SET;
 
 
 
+#### - UfxDevice [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+
+
 #### - TestMode [in]
 
 Test mode selector value as defined by the USB 2.0 Specification.  These values are defined in usbfnbase.h
@@ -97,11 +102,6 @@ Test mode selector value as defined by the USB 2.0 Specification.  These values 
 <li>USB_TEST_MODE_TEST_FORCE_ENABLE   0x05
 </li>
 </ul>
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
-
 
 ## -returns
 

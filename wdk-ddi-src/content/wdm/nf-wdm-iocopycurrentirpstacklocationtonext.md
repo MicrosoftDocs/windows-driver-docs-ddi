@@ -97,19 +97,19 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 

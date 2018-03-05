@@ -7,7 +7,7 @@ old-location: netvista\rilsenduicctoolkitenvelopeparams_2.htm
 old-project: netvista
 ms.assetid: 17bf24fe-bee5-4e08-8e3f-b9d4a03e147e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitenvelopeparams_2, rilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ril_getexecutorfocus.htm
 old-project: netvista
 ms.assetid: ee510d9f-cfe5-4cfa-98c4-15024208aa5c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_GetExecutorFocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorfocus, rilapi/RIL_GetExecutorFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

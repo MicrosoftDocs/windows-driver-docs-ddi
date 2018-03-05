@@ -141,10 +141,6 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
 
@@ -154,6 +150,10 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 
 <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

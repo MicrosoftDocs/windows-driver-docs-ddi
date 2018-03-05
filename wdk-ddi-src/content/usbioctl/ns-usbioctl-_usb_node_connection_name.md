@@ -87,11 +87,11 @@ A Unicode symbolic link for the downstream hub that is attached to the port that
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
 
 
 

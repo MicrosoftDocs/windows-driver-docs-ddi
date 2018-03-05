@@ -101,11 +101,11 @@ A device determines when event notifications are generated using the <a href="..
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
 
 

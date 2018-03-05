@@ -106,6 +106,11 @@ Specifies the particular device on a multifunction adapter at the given slot tha
 
 
 
+##### - u.AsULONG
+
+Specifies the logical slot number of the device being configured.
+
+
 ## -remarks
 
 
@@ -119,19 +124,15 @@ For example, a driver might search for devices it supports on all PCI buses in t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
 
@@ -139,7 +140,11 @@ For example, a driver might search for devices it supports on all PCI buses in t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 

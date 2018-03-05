@@ -7,7 +7,7 @@ old-location: display\setresourceminlod.htm
 old-project: display
 ms.assetid: a54b2fa7-c0c2-42b7-ae89-7984282d4af4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D11DDI_SETRESOURCEMINLOD, SetResourceMinLOD, SetResourceMinLOD callback function [Display Devices], UserModeDisplayDriverDx11_Functions_3c56a9a6-a13e-4377-a997-e84af3ff12ef.xml, d3d10umddi/SetResourceMinLOD, display.setresourceminlod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,11 +87,6 @@ VOID APIENTRY SetResourceMinLOD(
 
 
 
-#### - MinLOD [in]
-
- A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -100,6 +95,11 @@ VOID APIENTRY SetResourceMinLOD(
 #### - hResource [in]
 
  A handle to the driver's private data for the resource. 
+
+
+#### - MinLOD [in]
+
+ A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
 
 
 ## -returns
@@ -138,5 +138,5 @@ The Direct3D runtime calls the driver's <i>SetResourceMinLOD</i> function to set
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11DDI_SETRESOURCEMINLOD callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11DDI_SETRESOURCEMINLOD callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

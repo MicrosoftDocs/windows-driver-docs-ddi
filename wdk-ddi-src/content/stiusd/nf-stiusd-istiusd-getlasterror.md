@@ -84,11 +84,11 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543747">IStiDevice::GetLastError</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 

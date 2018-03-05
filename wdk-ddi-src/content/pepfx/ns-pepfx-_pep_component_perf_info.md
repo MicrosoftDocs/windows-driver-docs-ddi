@@ -91,15 +91,15 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 

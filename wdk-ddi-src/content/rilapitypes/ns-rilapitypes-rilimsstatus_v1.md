@@ -7,7 +7,7 @@ old-location: netvista\rilimsstatus_v1_2.htm
 old-project: netvista
 ms.assetid: e2abab6d-d9c5-4342-8436-fd05a2a298ef
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILIMSSTATUS_V1, RILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v1_2, rilapitypes/RILIMSSTATUS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

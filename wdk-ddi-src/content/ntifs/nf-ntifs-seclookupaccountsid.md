@@ -98,6 +98,11 @@ TBD
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 
 
+#### - DomainSize [out]
+
+A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
+
+
 #### - DomainBuffer [out, optional]
 
 A pointer to an optional variable to the buffer that receives the name of the domain as a Unicode string where the account name is found. For computers that are not joined to a domain, this buffer receives the computer name. If this parameter is <b>NULL</b>, the function returns the required buffer size in the <i>DomainSize</i> variable. 
@@ -105,11 +110,6 @@ A pointer to an optional variable to the buffer that receives the name of the do
 On Windows Server 2003, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
 
 On Windows XP, the domain name returned for most accounts in the security database of the local computer is the name of the computer as of the last start of the system (backslashes are excluded). If the name of the computer changes, the old name continues to be returned as the domain name until the system is restarted.
-
-
-#### - DomainSize [out]
-
-A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
 
 
 ## -returns
@@ -225,15 +225,15 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

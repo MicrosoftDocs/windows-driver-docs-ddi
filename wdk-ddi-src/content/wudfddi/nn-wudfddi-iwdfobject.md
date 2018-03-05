@@ -7,7 +7,7 @@ old-location: wdf\iwdfobject.htm
 old-project: wdf
 ms.assetid: d2668856-a25d-4329-b230-f36992f8f9a4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFObject, IWDFObject interface, IWDFObject interface, described, UMDFBaseObjectRef_b2026a30-0f91-4793-8622-093ca142f794.xml, umdf.iwdfobject, wdf.iwdfobject, wudfddi/IWDFObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

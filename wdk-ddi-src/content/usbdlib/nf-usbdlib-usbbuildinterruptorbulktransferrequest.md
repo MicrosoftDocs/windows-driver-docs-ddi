@@ -131,7 +131,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 
@@ -139,7 +139,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

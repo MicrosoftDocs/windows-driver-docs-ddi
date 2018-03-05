@@ -7,7 +7,7 @@ old-location: print\iprintoemuimxdc_adjustimagecompression.htm
 old-project: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: AdjustImageCompression method [Print Devices], AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, AdjustImageCompression,IPrintOemUIMXDC.AdjustImageCompression, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print.iprintoemuimxdc_adjustimagecompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

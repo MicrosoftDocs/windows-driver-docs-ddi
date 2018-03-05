@@ -109,11 +109,11 @@ If <b>ObGetObjectSecurity</b> returns STATUS_SUCCESS, the caller must save the v
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
 
 
 

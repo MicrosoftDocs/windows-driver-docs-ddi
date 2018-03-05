@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_setprotectedresourcesession_0030_.htm
 old-project: display
 ms.assetid: 1AF1FA8A-3A7E-4277-B6BE-C41A5C4416B6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_setprotectedresourcesession_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices

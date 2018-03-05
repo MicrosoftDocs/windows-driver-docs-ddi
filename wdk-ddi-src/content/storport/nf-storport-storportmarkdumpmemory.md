@@ -7,7 +7,7 @@ old-location: storage\storportmarkdumpmemory.htm
 old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,7 +152,7 @@ An invalid flag value was specified in the <i>Flags</i> parameter.
 
 
 
-The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driver in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routines.
+The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driver in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routines.
 
 If <i>Length</i> = 0, the entire section containing <i>Address</i> is marked.
 

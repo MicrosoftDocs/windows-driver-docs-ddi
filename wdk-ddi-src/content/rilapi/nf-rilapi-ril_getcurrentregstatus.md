@@ -7,7 +7,7 @@ old-location: netvista\ril_getcurrentregstatus.htm
 old-project: netvista
 ms.assetid: 4a605fb6-484a-442f-9bf4-673f00a64a36
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_GetCurrentRegStatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcurrentregstatus, rilapi/RIL_GetCurrentRegStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

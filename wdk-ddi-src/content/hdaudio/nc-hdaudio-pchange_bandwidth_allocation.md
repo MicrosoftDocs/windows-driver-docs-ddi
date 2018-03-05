@@ -7,7 +7,7 @@ old-location: audio\changebandwidthallocation.htm
 old-project: audio
 ms.assetid: 4dcf8fb6-71f5-4e11-a92a-0292c2a1515c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,10 +61,10 @@ The function pointer type for a <code>ChangeBandwidthAllocation</code> routine i
 PCHANGE_BANDWIDTH_ALLOCATION ChangeBandwidthAllocation;
 
 NTSTATUS ChangeBandwidthAllocation(
-  _In_  PVOID                     context,
-  _In_  HANDLE                    handle,
-  _In_  PHDAUDIO_STREAM_FORMAT    streamFormat,
-  _Out_ PHDAUDIO_CONVERTER_FORMAT converterFormat
+  _In_  PVOID                     _context,
+  _In_  HANDLE                    Handle,
+  _In_  PHDAUDIO_STREAM_FORMAT    StreamFormat,
+  _Out_ PHDAUDIO_CONVERTER_FORMAT ConverterFormat
 )
 { ... }
 ````
@@ -80,34 +80,19 @@ NTSTATUS ChangeBandwidthAllocation(
 Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 
-### -param Handle
-
-
-### -param StreamFormat
-
-
-### -param ConverterFormat
-
-
-
-
-
-
-
-
-#### - converterFormat [out]
-
-Retrieves the converter format. This parameter points to a caller-allocated structure of type <a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a> into which the routine writes the encoded format. For more information, see the following Remarks section.
-
-
-#### - handle [in]
+### -param Handle [in]
 
 Handle identifying the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-#### - streamFormat [in]
+### -param StreamFormat [in]
 
 Specifies the requested stream format. This parameter points to a caller-allocated structure of type <a href="..\hdaudio\ns-hdaudio-_hdaudio_stream_format.md">HDAUDIO_STREAM_FORMAT</a> that specifies a data format for the stream.
+
+
+### -param ConverterFormat [out]
+
+Retrieves the converter format. This parameter points to a caller-allocated structure of type <a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a> into which the routine writes the encoded format. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -222,19 +207,15 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
 
 
@@ -246,7 +227,11 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_converter_format.md">HDAUDIO_CONVERTER_FORMAT</a>
 
 
 
@@ -254,11 +239,11 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -266,5 +251,5 @@ In Windows Vista and later, a wave miniport driver calls this routine during exe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCHANGE_BANDWIDTH_ALLOCATION callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCHANGE_BANDWIDTH_ALLOCATION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

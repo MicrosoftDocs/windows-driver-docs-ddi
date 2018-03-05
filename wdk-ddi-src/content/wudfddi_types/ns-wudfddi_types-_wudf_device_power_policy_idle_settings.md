@@ -7,7 +7,7 @@ old-location: wdf\wudf_device_power_policy_idle_settings.htm
 old-project: wdf
 ms.assetid: E6EF8852-E39C-491B-9430-0308CA6276C0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, umdf.wudf_device_power_policy_idle_settings, wdf.wudf_device_power_policy_idle_settings, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -214,17 +214,17 @@ To initialize its <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your 
 
 ## -see-also
 
-<a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
 
- 
+<a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -189,7 +189,15 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
+<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
 
@@ -201,11 +209,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
+<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
 
 
 
@@ -213,11 +217,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
-
-
-
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreateallocation2.htm
 old-project: display
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

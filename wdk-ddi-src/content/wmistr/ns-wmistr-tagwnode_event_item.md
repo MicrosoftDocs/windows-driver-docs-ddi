@@ -90,6 +90,26 @@ For best performance, events should be small in size. However, if the amount of 
 
 ## -see-also
 
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 
@@ -98,27 +118,7 @@ For best performance, events should be small in size. However, if the amount of 
 
 
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
 
 

@@ -89,11 +89,7 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
@@ -101,11 +97,15 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 

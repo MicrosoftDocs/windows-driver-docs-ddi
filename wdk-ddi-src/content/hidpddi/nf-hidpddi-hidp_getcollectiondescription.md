@@ -86,7 +86,7 @@ The length of the report descriptor array.
 
 ### -param PoolType [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array element of <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
+A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array element of <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
 
 ### -param DeviceDescription [out]

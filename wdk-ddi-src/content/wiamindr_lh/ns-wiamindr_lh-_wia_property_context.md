@@ -98,7 +98,23 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
 
 
@@ -106,7 +122,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
 
 
 
@@ -118,23 +134,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiassetpropchanged.md">wiasSetPropChanged</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasupdatevalidformat.md">wiasUpdateValidFormat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
 
 

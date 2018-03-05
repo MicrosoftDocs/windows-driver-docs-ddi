@@ -107,11 +107,11 @@ For USB devices, better performance can be achieved if read requests are aligned
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543760">IStiDevice::RawReadData</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 

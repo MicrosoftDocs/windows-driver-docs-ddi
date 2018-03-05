@@ -121,7 +121,7 @@ In addition, the caller can set one (but not both) of the following optional fla
 </tr>
 <tr>
 <td>PAGE_NOCACHE</td>
-<td>Allocate non-cached memory. This flag bit is similar in effect to calling <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a> with <i>CacheType</i> set to <b>MmNonCached</b>.</td>
+<td>Allocate non-cached memory. This flag bit is similar in effect to calling <a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a> with <i>CacheType</i> set to <b>MmNonCached</b>.</td>
 </tr>
 <tr>
 <td>PAGE_WRITECOMBINE</td>
@@ -157,11 +157,11 @@ A kernel-mode device driver calls this routine  to allocate a contiguous block o
 
 Drivers must not access memory beyond the requested allocation size. For example, developers should not assume that their drivers can safely use memory between the end of their requested allocation and the next page boundary.
 
-Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousNodeMemory</b> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
+Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls <b>MmAllocateContiguousNodeMemory</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
 
-Memory allocated by <b>MmAllocateContiguousNodeMemory</b> must be freed when the memory is no longer needed. Call the <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousNodeMemory</b>.
+Memory allocated by <b>MmAllocateContiguousNodeMemory</b> must be freed when the memory is no longer needed. Call the <a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousNodeMemory</b>.
 
-<b>MmAllocateContiguousNodeMemory</b> is similar to the <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a> routine. Unlike <b>MmAllocateContiguousMemorySpecifyCacheNode</b>, <b>MmAllocateContiguousNodeMemory</b> can be used to allocate no-execute (NX) memory. As a best practice, a driver should allocate NX memory unless the driver explicitly requires the ability to execute instructions in the allocated memory. By allocating NX memory, a driver improves security by preventing malicious software from executing instructions in this memory. Memory allocated by the <a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>, <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>, and <b>MmAllocateContiguousMemorySpecifyCacheNode</b> routines is always executable.
+<b>MmAllocateContiguousNodeMemory</b> is similar to the <a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a> routine. Unlike <b>MmAllocateContiguousMemorySpecifyCacheNode</b>, <b>MmAllocateContiguousNodeMemory</b> can be used to allocate no-execute (NX) memory. As a best practice, a driver should allocate NX memory unless the driver explicitly requires the ability to execute instructions in the allocated memory. By allocating NX memory, a driver improves security by preventing malicious software from executing instructions in this memory. Memory allocated by the <a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>, <a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>, and <b>MmAllocateContiguousMemorySpecifyCacheNode</b> routines is always executable.
 
 If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
 
@@ -172,23 +172,23 @@ If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
 
 

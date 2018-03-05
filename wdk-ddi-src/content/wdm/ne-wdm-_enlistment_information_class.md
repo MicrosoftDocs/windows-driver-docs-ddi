@@ -87,15 +87,15 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
+
+
+
+<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
 
 
 

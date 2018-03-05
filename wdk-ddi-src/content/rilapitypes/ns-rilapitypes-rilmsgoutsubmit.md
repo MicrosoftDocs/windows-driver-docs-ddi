@@ -7,7 +7,7 @@ old-location: netvista\rilmsgoutsubmit_2.htm
 old-project: netvista
 ms.assetid: 1e310fc1-383c-4dbc-9c72-3eb8aa8db285
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit_2, rilapitypes/RILMSGOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

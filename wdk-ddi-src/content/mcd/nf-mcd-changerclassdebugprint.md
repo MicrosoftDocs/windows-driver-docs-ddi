@@ -7,7 +7,7 @@ old-location: storage\changerclassdebugprint.htm
 old-project: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices

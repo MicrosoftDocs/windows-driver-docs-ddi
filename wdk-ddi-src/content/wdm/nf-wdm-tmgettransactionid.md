@@ -101,7 +101,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 
 
@@ -109,7 +109,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 
 

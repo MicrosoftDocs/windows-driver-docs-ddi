@@ -7,7 +7,7 @@ old-location: storage\hwstorinitialize.htm
 old-project: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,6 +166,10 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
+
+
+
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
 
 
@@ -178,13 +182,9 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 
 
-<a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_INITIALIZE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_INITIALIZE routine%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

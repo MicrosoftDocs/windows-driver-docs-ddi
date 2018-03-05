@@ -109,7 +109,11 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 
 
@@ -117,11 +121,7 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 
 

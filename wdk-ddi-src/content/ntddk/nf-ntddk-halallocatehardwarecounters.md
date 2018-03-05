@@ -159,11 +159,11 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
+<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a>
-
-
-
-<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 

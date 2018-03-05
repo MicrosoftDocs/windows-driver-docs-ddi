@@ -88,11 +88,11 @@ If you are writing a driver for a device connected to a serial port, you might w
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 

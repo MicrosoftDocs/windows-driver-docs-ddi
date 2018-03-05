@@ -7,7 +7,7 @@ old-location: print\iprintoemuni3_interface.htm
 old-project: print
 ms.assetid: cf5705fb-8420-4eec-99d4-d56f192da581
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUni3, IPrintOemUni3 interface [Print Devices], IPrintOemUni3 interface [Print Devices], described, prcomoem/IPrintOemUni3, print.iprintoemuni3_interface, print_unidrv-pscript_rendering_631f975d-1d52-4db8-8e90-71cdb99f4ef1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -180,7 +180,7 @@ To unregister itself, a minifilter driver calls <a href="..\fltkernel\nf-fltkern
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
@@ -188,7 +188,7 @@ To unregister itself, a minifilter driver calls <a href="..\fltkernel\nf-fltkern
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
 
 
 

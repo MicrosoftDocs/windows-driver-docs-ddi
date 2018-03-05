@@ -223,6 +223,16 @@ Indicates when 1 that the device has received a split completion error message. 
 
 
 
+##### - Command.AsUSHORT
+
+Reports the data in the device's command register in the form of a unsigned long integer.
+
+
+##### - Status.AsULONG
+
+Reports the data in the device's status register in the form of a unsigned long integer.
+
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>

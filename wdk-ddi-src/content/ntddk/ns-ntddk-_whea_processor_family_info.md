@@ -88,24 +88,19 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
-#### - ExtendedFamily
+#### - Stepping
 
-The extended processor family identifier.
-
-
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - Family
-
-The processor family identifier.
+The stepping of the processor.
 
 
 #### - Model
 
 The processor model identifier.
+
+
+#### - Family
+
+The processor family identifier.
 
 
 #### - ProcessorType
@@ -118,6 +113,16 @@ The processor type identifier.
 Reserved for system use.
 
 
+#### - ExtendedModel
+
+The extended processor model identifier.
+
+
+#### - ExtendedFamily
+
+The extended processor family identifier.
+
+
 #### - Reserved2
 
 Reserved for system use.
@@ -126,11 +131,6 @@ Reserved for system use.
 #### - Reserved3
 
 Reserved for system use.
-
-
-#### - Stepping
-
-The stepping of the processor.
 
 
 ## -remarks

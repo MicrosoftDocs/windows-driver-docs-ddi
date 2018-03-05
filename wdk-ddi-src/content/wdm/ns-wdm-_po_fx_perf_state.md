@@ -71,7 +71,7 @@ typedef struct _PO_FX_PERF_STATE {
 
 ### -field Value
 
-The value of this performance state. The units are specified by the <b>Unit</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> that contains this performance state. For example, if <b>Value</b> is 100000000 and the <b>Unit</b> member of the  <b>PO_FX_COMPONENT_PERF_SET</b> is <b>PoFxPerfStateUnitFrequency</b>, this performance state represents 100 MHz.
+The value of this performance state. The units are specified by the <b>Unit</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> that contains this performance state. For example, if <b>Value</b> is 100000000 and the <b>Unit</b> member of the  <b>PO_FX_COMPONENT_PERF_SET</b> is <b>PoFxPerfStateUnitFrequency</b>, this performance state represents 100 MHz.
 
 
 ### -field Context
@@ -85,14 +85,14 @@ A pointer to additional context for the performance state that cannot be present
 
 
 
-The <b>States</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> structure contains an array of <b>PO_FX_PERF_STATE</b> elements. 
+The <b>States</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> structure contains an array of <b>PO_FX_PERF_STATE</b> elements. 
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
 
 
@@ -104,7 +104,7 @@ The <b>States</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+<a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
 
 
 

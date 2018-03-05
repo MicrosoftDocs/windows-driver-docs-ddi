@@ -93,11 +93,11 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543736">IStiDevice::Diagnostic</a>
+
+
+
+<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 

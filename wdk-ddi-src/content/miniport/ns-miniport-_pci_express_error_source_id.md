@@ -85,9 +85,9 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
 A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
 
 
-#### - CorrectableSourceIdBus
+#### - CorrectableSourceIdFun
 
-The bus number of the requester that reported the first correctable error.
+The function number of the requester that reported the first correctable error.
 
 
 #### - CorrectableSourceIdDev
@@ -95,14 +95,14 @@ The bus number of the requester that reported the first correctable error.
 The device number of the requester that reported the first correctable error.
 
 
-#### - CorrectableSourceIdFun
+#### - CorrectableSourceIdBus
 
-The function number of the requester that reported the first correctable error.
+The bus number of the requester that reported the first correctable error.
 
 
-#### - UncorrectableSourceIdBus
+#### - UncorrectableSourceIdFun
 
-The bus number of the requester that reported the first uncorrectable error.
+The function number of the requester that reported the first uncorrectable error.
 
 
 #### - UncorrectableSourceIdDev
@@ -110,9 +110,9 @@ The bus number of the requester that reported the first uncorrectable error.
 The device number of the requester that reported the first uncorrectable error.
 
 
-#### - UncorrectableSourceIdFun
+#### - UncorrectableSourceIdBus
 
-The function number of the requester that reported the first uncorrectable error.
+The bus number of the requester that reported the first uncorrectable error.
 
 
 ## -remarks

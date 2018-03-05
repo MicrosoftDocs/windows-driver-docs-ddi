@@ -83,11 +83,11 @@ Use the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> f
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
 
 
 

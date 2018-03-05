@@ -104,6 +104,16 @@ Returns the PEP parking preference for each processor.
 The Processors array is guaranteed to contain the processors in increasing order by processor index.
 
 
+##### - Processors.On input
+
+Each array element indicates the parking preferences for a particular processor.
+
+
+##### - Processors.On output
+
+Returns the PEP parking preference for each processor.
+
+
 ## -remarks
 
 

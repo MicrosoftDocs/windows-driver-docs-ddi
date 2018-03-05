@@ -183,11 +183,11 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
 
 
 
@@ -195,7 +195,7 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
 
 
 

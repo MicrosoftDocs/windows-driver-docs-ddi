@@ -7,7 +7,7 @@ old-location: debugger\appendsourcepath.htm
 old-project: debugger
 ms.assetid: b82c2206-b81d-4ebf-a8fd-c08d7f57ffc9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: AppendSourcePath method [Windows Debugging], AppendSourcePath method [Windows Debugging], IDebugSymbols interface, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, AppendSourcePath,IDebugSymbols2.AppendSourcePath, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols2::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols3::AppendSourcePath, IDebugSymbols::AppendSourcePath, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, dbgeng/IDebugSymbols2::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, dbgeng/IDebugSymbols::AppendSourcePath, debugger.appendsourcepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,14 +119,6 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
@@ -139,9 +131,17 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::AppendSourcePath method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::AppendSourcePath method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

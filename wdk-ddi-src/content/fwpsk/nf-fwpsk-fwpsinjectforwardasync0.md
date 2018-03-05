@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjectforwardasync0.htm
 old-project: netvista
 ms.assetid: b7cb70c6-c672-4a29-983c-c73767af72ea
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectForwardAsync0, netvista.fwpsinjectforwardasync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -275,16 +275,11 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 
 
@@ -293,16 +288,12 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
    FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -310,9 +301,18 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
- 
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectForwardAsync0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectForwardAsync0 function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

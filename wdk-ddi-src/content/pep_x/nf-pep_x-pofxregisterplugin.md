@@ -146,15 +146,15 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 

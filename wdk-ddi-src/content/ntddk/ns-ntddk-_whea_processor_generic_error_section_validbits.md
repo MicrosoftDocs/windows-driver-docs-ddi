@@ -93,29 +93,9 @@ typedef union _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union.
 
 
-#### - CPUBrandString
+#### - ProcessorType
 
-A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - CPUVersion
-
-A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - ErrorType
-
-A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - Flags
-
-A single bit that indicates that the <b>Flags</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - InstructionPointer
-
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - InstructionSet
@@ -123,9 +103,9 @@ A single bit that indicates that the <b>InstructionPointer</b> member of the WHE
 A single bit that indicates that the <b>InstructionSet</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - Level
+#### - ErrorType
 
-A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - Operation
@@ -133,14 +113,34 @@ A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_G
 A single bit that indicates that the <b>Operation</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
+#### - Flags
+
+A single bit that indicates that the <b>Flags</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - Level
+
+A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - CPUVersion
+
+A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - CPUBrandString
+
+A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
 #### - ProcessorId
 
 A single bit that indicates that the <b>ProcessorId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - ProcessorType
+#### - TargetAddress
 
-A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>TargetAddress</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - RequesterId
@@ -148,19 +148,19 @@ A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PRO
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - ResponderId
 
 A single bit that indicates that the <b>ResponderId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - TargetAddress
+#### - InstructionPointer
 
-A single bit that indicates that the <b>TargetAddress</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

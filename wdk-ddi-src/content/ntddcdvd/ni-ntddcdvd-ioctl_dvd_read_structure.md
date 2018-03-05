@@ -7,7 +7,7 @@ old-location: storage\ioctl_dvd_read_structure.htm
 old-project: storage
 ms.assetid: 64cf4d53-5d03-43bc-b295-37ecf67b4d2a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,15 +110,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
-
-
-
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_layer_descriptor.md">DVD_LAYER_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_bca_descriptor.md">DVD_BCA_DESCRIPTOR</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copyright_descriptor.md">DVD_COPYRIGHT_DESCRIPTOR</a>
 
 
 
@@ -126,7 +122,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copyright_descriptor.md">DVD_COPYRIGHT_DESCRIPTOR</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_bca_descriptor.md">DVD_BCA_DESCRIPTOR</a>
 
 
 
@@ -138,5 +138,5 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DVD_READ_STRUCTURE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DVD_READ_STRUCTURE control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

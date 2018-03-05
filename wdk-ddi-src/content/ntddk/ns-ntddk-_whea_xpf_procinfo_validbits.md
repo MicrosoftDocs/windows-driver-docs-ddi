@@ -90,9 +90,9 @@ A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS un
 A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - InstructionPointer
+#### - TargetId
 
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
 #### - RequesterId
@@ -100,19 +100,19 @@ A single bit that indicates that the <b>InstructionPointer</b> member of the WHE
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - ResponderId
 
 A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - TargetId
+#### - InstructionPointer
 
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

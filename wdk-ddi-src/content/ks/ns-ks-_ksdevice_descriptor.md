@@ -164,11 +164,11 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
 <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
@@ -176,11 +176,11 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 
 
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\rilalphaidentifier_2.htm
 old-project: netvista
 ms.assetid: 40656b8d-3921-420e-9577-12ba272aa72c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifier_2, rilapitypes/RILALPHAIDENTIFIER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

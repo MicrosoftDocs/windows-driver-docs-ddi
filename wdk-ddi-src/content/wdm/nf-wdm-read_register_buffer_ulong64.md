@@ -7,7 +7,7 @@ old-location: wdf\read_register_buffer_ulong64.htm
 old-project: wdf
 ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices

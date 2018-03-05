@@ -93,11 +93,11 @@ Your driver must call <b>ExInitializeDeleteTimerParameters</b> to initialize an 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
-
-
-
 <a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
 
 
 

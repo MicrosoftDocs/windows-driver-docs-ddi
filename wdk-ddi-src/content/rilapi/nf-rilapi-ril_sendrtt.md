@@ -7,7 +7,7 @@ old-location: netvista\ril_sendrtt.htm
 old-project: netvista
 ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
 ms.prod: windows-hardware
 ms.technology: windows-devices

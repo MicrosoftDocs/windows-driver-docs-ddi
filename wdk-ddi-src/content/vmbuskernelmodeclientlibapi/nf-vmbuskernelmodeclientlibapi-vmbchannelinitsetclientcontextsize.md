@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetclientcontextsize.htm
 old-project: netvista
 ms.assetid: 6AABB3EB-F61A-40DA-BA9F-2AB91FC4B89E
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: VmbChannelInitSetClientContextSize, VmbChannelInitSetClientContextSize function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetclientcontextsize, vmbuskernelmodeclientlibapi/VmbChannelInitSetClientContextSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

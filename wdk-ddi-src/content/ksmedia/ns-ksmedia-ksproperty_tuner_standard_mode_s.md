@@ -80,7 +80,7 @@ A Boolean value that indicates whether the tuning device can automatically detec
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565909">KSPROPERTY_TUNER_STANDARD_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -88,7 +88,7 @@ A Boolean value that indicates whether the tuning device can automatically detec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565909">KSPROPERTY_TUNER_STANDARD_MODE</a>
 
 
 

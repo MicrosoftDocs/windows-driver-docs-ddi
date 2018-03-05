@@ -83,6 +83,13 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56426
 Specifies the pin type ID.
 
 
+#### - Reserved
+
+Reserved. Should be set to zero.
+
+Reserved. Should be set to zero.
+
+
 #### - Flags
 
 Pin flags. This is set to either 0 or the following.
@@ -104,13 +111,6 @@ The client is aware of attributes and handles attribute ranges.
 </tr>
 </table>
  
-
-
-#### - Reserved
-
-Reserved. Should be set to zero.
-
-Reserved. Should be set to zero.
 
 
 ## -see-also

@@ -92,11 +92,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md"
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 
 
@@ -104,7 +100,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md"
 
 
 
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+<a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

@@ -211,6 +211,11 @@ Provides information about the contents of this structure. For information about
 Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are valid.
 
 
+#### - Version
+
+Drivers can use this member to store version information. This information is not interpreted by the event logger.
+
+
 #### - Guid
 
 The GUID that identifies the data block for the event. 
@@ -224,11 +229,6 @@ If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> p
 #### - ProcessorTime
 
 Reserved for internal use.
-
-
-#### - Version
-
-Drivers can use this member to store version information. This information is not interpreted by the event logger.
 
 
 ## -remarks
@@ -246,15 +246,15 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
 
 
 

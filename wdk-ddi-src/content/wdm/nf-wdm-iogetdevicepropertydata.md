@@ -180,15 +180,15 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
 
 
 <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 

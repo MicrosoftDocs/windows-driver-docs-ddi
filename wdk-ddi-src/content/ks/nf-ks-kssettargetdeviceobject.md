@@ -101,19 +101,19 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
-
-
-
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
-
-
-
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
 <a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
 
 
 

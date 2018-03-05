@@ -115,11 +115,11 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 
 
-<a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
-
-
-
 <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
+
+
+
+<a href="..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md">ClfsLogUnpinnedCallback</a>
 
 
 

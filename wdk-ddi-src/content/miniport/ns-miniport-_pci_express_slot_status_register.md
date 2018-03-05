@@ -94,24 +94,24 @@ A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER 
 A single bit that indicates that the attention button for the slot is being pressed.
 
 
-#### - CommandCompleted
+#### - PowerFaultDetected
 
-A single bit that indicates that a command has been completed by the slot's hot-plug controller.
-
-
-#### - DataLinkStateChanged
-
-A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
-
-
-#### - ElectromechanicalLockEngaged
-
-A single bit that indicates if the slot's electromechanical interlock is engaged.
+A single bit that indicates that a power fault at the slot has been detected.
 
 
 #### - MRLSensorChanged
 
 A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
+
+
+#### - PresenceDetectChanged
+
+A single bit that indicates that the card presence detection state for the slot has changed.
+
+
+#### - CommandCompleted
+
+A single bit that indicates that a command has been completed by the slot's hot-plug controller.
 
 
 #### - MRLSensorState
@@ -133,16 +133,6 @@ The MRL is closed.
 The MRL is open.
 
 
-#### - PowerFaultDetected
-
-A single bit that indicates that a power fault at the slot has been detected.
-
-
-#### - PresenceDetectChanged
-
-A single bit that indicates that the card presence detection state for the slot has changed.
-
-
 #### - PresenceDetectState
 
 The slot's card presence detection state. Possible values are:
@@ -160,6 +150,16 @@ The slot is empty.
 #### CardPresent
 
 A card is present in the slot.
+
+
+#### - ElectromechanicalLockEngaged
+
+A single bit that indicates if the slot's electromechanical interlock is engaged.
+
+
+#### - DataLinkStateChanged
+
+A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
 
 
 #### - Rsvd

@@ -111,11 +111,11 @@ If a <b>NULL</b> pointer is passed as the <i>pWorkItem</i> parameter, this routi
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
-
-
-
 <a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
+
+
+
+<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
 
 
 

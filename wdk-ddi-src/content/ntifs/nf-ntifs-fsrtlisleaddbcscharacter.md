@@ -94,15 +94,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards.md">FsRtlDoesDbcsContainWildCards</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
 
 
 

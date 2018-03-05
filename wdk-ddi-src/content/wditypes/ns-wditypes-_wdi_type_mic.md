@@ -7,7 +7,7 @@ old-location: netvista\wdi_type_mic.htm
 old-project: netvista
 ms.assetid: A21EEC35-98F2-4B68-A851-1C45D7F55194
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDI_TYPE_MIC, PWDI_TYPE_MIC, PWDI_TYPE_MIC structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_MIC, WDI_TYPE_MIC structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_MIC, netvista.wdi_type_mic, wditypes/PWDI_TYPE_MIC, wditypes/WDI_TYPE_MIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

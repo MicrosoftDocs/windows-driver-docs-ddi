@@ -7,7 +7,7 @@ old-location: netvista\rilsetsystemselectionprefsparams_v2_2.htm
 old-project: netvista
 ms.assetid: d6284633-1f56-412c-a97a-b6c740129cce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v2_2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

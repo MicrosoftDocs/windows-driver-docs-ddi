@@ -119,14 +119,14 @@ The required response time, in seconds.
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
 
 
-#### - CpNiInfo
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_cp_ni_info.md">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
-
-
 #### - SuplNiInfo
 
 The <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_ni_info.md">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
+
+
+#### - CpNiInfo
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_cp_ni_info.md">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
 
 
 #### - V2UplNiInfo

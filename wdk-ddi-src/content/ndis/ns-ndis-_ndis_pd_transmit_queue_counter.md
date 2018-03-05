@@ -7,7 +7,7 @@ old-location: netvista\ndis_pd_transmit_queue_counter.htm
 old-project: netvista
 ms.assetid: 944E824D-8092-4165-97A6-A35858EA0CEB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: NDIS_PD_TRANSMIT_QUEUE_COUNTER, NDIS_PD_TRANSMIT_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_TRANSMIT_QUEUE_COUNTER, PNDIS_PD_TRANSMIT_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_TRANSMIT_QUEUE_COUNTER, ndis/NDIS_PD_TRANSMIT_QUEUE_COUNTER, ndis/PNDIS_PD_TRANSMIT_QUEUE_COUNTER, netvista.ndis_pd_transmit_queue_counter
 ms.prod: windows-hardware
 ms.technology: windows-devices

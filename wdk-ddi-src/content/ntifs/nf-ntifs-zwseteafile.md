@@ -77,7 +77,7 @@ The handle for the file on which the operation is to be performed.
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation.
+A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation.
 
 
 ### -param Buffer [in]
@@ -120,11 +120,11 @@ The EaList parameter is not formatted correctly. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
 
 
 

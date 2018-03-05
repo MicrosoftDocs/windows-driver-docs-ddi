@@ -116,11 +116,7 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
-
-
-
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 
@@ -128,7 +124,11 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
+
+<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
 
 

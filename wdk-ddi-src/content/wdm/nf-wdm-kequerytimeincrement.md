@@ -92,7 +92,7 @@ At startup time, the operating system determines the time increment to use for t
 
 
 
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
 
 
 

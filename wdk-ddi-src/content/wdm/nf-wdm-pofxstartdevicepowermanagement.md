@@ -97,7 +97,7 @@ If the driver requires a component to be in the active condition immediately aft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
 
 
@@ -109,7 +109,7 @@ If the driver requires a component to be in the active condition immediately aft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 

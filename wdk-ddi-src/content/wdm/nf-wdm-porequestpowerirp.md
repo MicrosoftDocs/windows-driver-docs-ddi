@@ -85,9 +85,9 @@ Specifies one of the following minor power IRP codes: <a href="https://msdn.micr
 
 ### -param PowerState [in]
 
-Specifies a <a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a> value to pass in the IRP. For <b>IRP_MN_SET_POWER</b> and <b>IRP_MN_QUERY_POWER</b>, specify the requested new <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a>. Possible values are <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> values.
+Specifies a <a href="..\ntpoapi\ns-ntpoapi-_power_state.md">POWER_STATE</a> value to pass in the IRP. For <b>IRP_MN_SET_POWER</b> and <b>IRP_MN_QUERY_POWER</b>, specify the requested new <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a>. Possible values are <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> values.
 
-For <b>IRP_MN_WAIT_WAKE</b>, specify the lowest (least-powered) <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a> from which the device should be allowed to wake the system. Possible values are <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> values.
+For <b>IRP_MN_WAIT_WAKE</b>, specify the lowest (least-powered) <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a> from which the device should be allowed to wake the system. Possible values are <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> values.
 
 
 ### -param CompletionFunction [in, optional]
@@ -176,27 +176,7 @@ Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961906">PowerCompletion</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551644">IRP_MN_POWER_SEQUENCE</a>
 
 
 
@@ -204,11 +184,31 @@ Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP
 
 
 
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff961906">PowerCompletion</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551644">IRP_MN_POWER_SEQUENCE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

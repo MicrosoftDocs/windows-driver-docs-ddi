@@ -94,11 +94,11 @@ The unnamed union in this structure contains a <b>DMA_TRANSFER_INFO_<i>XXX</i></
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_transfer_info_v1.md">DMA_TRANSFER_INFO_V1</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
 
 
 

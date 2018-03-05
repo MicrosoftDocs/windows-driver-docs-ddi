@@ -226,8 +226,8 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
-   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
@@ -235,12 +235,12 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
 
 
 

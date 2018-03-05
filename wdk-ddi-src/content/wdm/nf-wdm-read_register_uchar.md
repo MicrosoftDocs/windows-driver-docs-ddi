@@ -68,7 +68,7 @@ UCHAR READ_REGISTER_UCHAR(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register address, which must be a mapped range in memory space. 
 

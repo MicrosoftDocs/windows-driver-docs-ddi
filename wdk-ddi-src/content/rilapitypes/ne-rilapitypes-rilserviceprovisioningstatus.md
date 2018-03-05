@@ -7,7 +7,7 @@ old-location: netvista\rilserviceprovisioningstatus_2.htm
 old-project: netvista
 ms.assetid: 044d89f7-6167-4e85-b4b4-d706a1499480
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_TEMPMODERESTRICTED, netvista.rilserviceprovisioningstatus_2, rilapitypes/RILSERVICEPROVISIONINGSTATUS, rilapitypes/RIL_SVCPROV_MAX, rilapitypes/RIL_SVCPROV_NOTPROVISIONED, rilapitypes/RIL_SVCPROV_PROVISIONED, rilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -81,15 +81,15 @@ An <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPL
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPLICATE_HANDLE_INFORMATION</a>
 
 
 
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a>
 
 
 

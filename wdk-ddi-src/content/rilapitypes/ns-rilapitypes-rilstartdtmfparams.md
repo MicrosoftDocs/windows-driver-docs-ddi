@@ -7,7 +7,7 @@ old-location: netvista\rilstartdtmfparams_2.htm
 old-project: netvista
 ms.assetid: 51f6ea96-412a-429f-993b-de31f77f4d30
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams_2, rilapitypes/RILSTARTDTMFPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

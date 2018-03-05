@@ -110,11 +110,7 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 
@@ -126,7 +122,11 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
+<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 

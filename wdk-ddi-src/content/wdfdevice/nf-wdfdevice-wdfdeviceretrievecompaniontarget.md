@@ -7,7 +7,7 @@ old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 old-project: wdf
 ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

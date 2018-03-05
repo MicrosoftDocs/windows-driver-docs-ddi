@@ -103,15 +103,15 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">B
 
 
 
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
 <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

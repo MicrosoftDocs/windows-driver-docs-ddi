@@ -7,7 +7,7 @@ old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
 old-project: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle,IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,7 +96,7 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 
@@ -104,7 +104,7 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
@@ -112,5 +112,5 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetWinUsbHandle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetWinUsbHandle method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

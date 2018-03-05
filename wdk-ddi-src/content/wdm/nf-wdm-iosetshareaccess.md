@@ -123,14 +123,6 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
 
@@ -139,7 +131,15 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
 
 
@@ -151,7 +151,7 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

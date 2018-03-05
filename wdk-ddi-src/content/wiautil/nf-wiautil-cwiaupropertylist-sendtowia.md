@@ -93,11 +93,11 @@ The <b>CWiauPropertyList::SendToWia</b> method should be called only after all p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
 
 
 

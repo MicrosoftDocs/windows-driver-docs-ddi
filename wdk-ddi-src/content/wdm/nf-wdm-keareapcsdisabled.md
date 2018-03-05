@@ -88,15 +88,15 @@ A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to det
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+
+
+
 <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
-
-
-
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 
 

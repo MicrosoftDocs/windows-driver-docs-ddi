@@ -109,19 +109,19 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
-
-
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
 
 
 
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 

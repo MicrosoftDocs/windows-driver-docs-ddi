@@ -150,6 +150,11 @@ A PCIe endpoint device that is integrated into the root complex.
 A PCIe root complex event collector.
 
 
+#### - SlotImplemented
+
+A single bit that indicates that the PCIe link associated with this port is connected to a physical PCIe slot. This member is valid only if the <b>DeviceType</b> member is set to <b>PciExpressRootPort</b> or <b>PciExpressDownstreamSwitchPort</b>.
+
+
 #### - InterruptMessageNumber
 
 The MSI or MSI-X vector that is used for interrupt messages that are generated in association with the status bits in either the slot status register or the root status register of the PCIe capability structure.
@@ -158,11 +163,6 @@ The MSI or MSI-X vector that is used for interrupt messages that are generated i
 #### - Rsvd
 
 Reserved.
-
-
-#### - SlotImplemented
-
-A single bit that indicates that the PCIe link associated with this port is connected to a physical PCIe slot. This member is valid only if the <b>DeviceType</b> member is set to <b>PciExpressRootPort</b> or <b>PciExpressDownstreamSwitchPort</b>.
 
 
 ## -remarks

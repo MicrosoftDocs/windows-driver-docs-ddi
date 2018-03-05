@@ -142,11 +142,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 
 
@@ -154,19 +150,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
 
 
 
@@ -174,7 +158,23 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
 
 

@@ -105,15 +105,7 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
@@ -121,11 +113,19 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 

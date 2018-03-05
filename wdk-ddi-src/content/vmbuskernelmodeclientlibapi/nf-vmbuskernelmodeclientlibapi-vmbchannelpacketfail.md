@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketfail.htm
 old-project: netvista
 ms.assetid: 177B4509-A0EC-4F71-AF21-916A7A5F06DB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: VmbChannelPacketFail, VmbChannelPacketFail function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketfail, vmbuskernelmodeclientlibapi/VmbChannelPacketFail
 ms.prod: windows-hardware
 ms.technology: windows-devices

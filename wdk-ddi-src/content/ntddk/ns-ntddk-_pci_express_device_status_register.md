@@ -86,19 +86,9 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_DEVICE_STATUS_REGISTER structure.
 
 
-#### - AuxPowerDetected
-
-A single bit that indicates that AUX power has been detected.
-
-
 #### - CorrectableErrorDetected
 
 A single bit that indicates that a correctable error has been detected.
-
-
-#### - FatalErrorDetected
-
-A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
 #### - NonFatalErrorDetected
@@ -106,9 +96,19 @@ A single bit that indicates that a non-fatal uncorrectable error has been detect
 A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
-#### - Rsvd
+#### - FatalErrorDetected
 
-Reserved.
+A single bit that indicates that a non-fatal uncorrectable error has been detected.
+
+
+#### - UnsupportedRequestDetected
+
+A single bit that indicates that an unsupported request has been detected.
+
+
+#### - AuxPowerDetected
+
+A single bit that indicates that AUX power has been detected.
 
 
 #### - TransactionsPending
@@ -116,9 +116,9 @@ Reserved.
 A single bit that indicates that the device has issued non-posted requests that have not been completed. The device clears this bit when all outstanding non-posted requests have completed or have been terminated by the completion timeout mechanism.
 
 
-#### - UnsupportedRequestDetected
+#### - Rsvd
 
-A single bit that indicates that an unsupported request has been detected.
+Reserved.
 
 
 ## -remarks

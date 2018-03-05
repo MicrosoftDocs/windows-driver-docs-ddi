@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_processor_size_data_0032.htm
 old-project: display
 ms.assetid: B5A0E067-E91B-4B35-A355-36E15665CF43
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, display.d3d12ddi_video_processor_size_data_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

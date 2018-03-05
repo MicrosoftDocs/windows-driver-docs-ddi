@@ -101,15 +101,11 @@ After events have been added to the event list, these events can be generated as
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
 
 
@@ -117,7 +113,11 @@ After events have been added to the event list, these events can be generated as
 
 
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 

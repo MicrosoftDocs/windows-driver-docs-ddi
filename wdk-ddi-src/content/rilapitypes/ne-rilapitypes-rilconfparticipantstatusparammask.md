@@ -7,7 +7,7 @@ old-location: netvista\rilconfparticipantstatusparammask_2.htm
 old-project: netvista
 ms.assetid: 1194f333-7422-4dc2-9110-3fca067430a8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCONFPARTICIPANTSTATUSPARAMMASK, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_ID, RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_SIPSTATUS, netvista.rilconfparticipantstatusparammask_2, rilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, rilapitypes/RIL_PARAM_CPS_ADDRESS, rilapitypes/RIL_PARAM_CPS_ALL, rilapitypes/RIL_PARAM_CPS_CALLTRANSFER, rilapitypes/RIL_PARAM_CPS_ID, rilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, rilapitypes/RIL_PARAM_CPS_SIPSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices

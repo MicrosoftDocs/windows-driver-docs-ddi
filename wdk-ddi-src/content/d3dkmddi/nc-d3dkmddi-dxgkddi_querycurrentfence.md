@@ -7,7 +7,7 @@ old-location: display\dxgkddiquerycurrentfence.htm
 old-project: display
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,15 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
@@ -155,17 +163,9 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERYCURRENTFENCE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERYCURRENTFENCE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

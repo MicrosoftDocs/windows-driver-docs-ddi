@@ -7,7 +7,7 @@ old-location: netvista\rilgetdeviceinfoparams_2.htm
 old-project: netvista
 ms.assetid: f5cbf775-4d6e-462a-9707-11a311a729ef
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams_2, rilapitypes/RILGETDEVICEINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

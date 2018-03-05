@@ -107,11 +107,11 @@ The <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransacti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=139790">FSCTL_TXFS_CREATE_MINIVERSION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 

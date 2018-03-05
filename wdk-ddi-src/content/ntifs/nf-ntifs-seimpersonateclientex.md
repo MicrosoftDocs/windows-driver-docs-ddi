@@ -149,10 +149,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
 
@@ -162,6 +158,10 @@ For more information about security and access control, see the documentation on
 
 
 <a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
 
 
 

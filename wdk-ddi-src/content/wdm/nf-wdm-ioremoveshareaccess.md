@@ -107,11 +107,11 @@ Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL an
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
 
 

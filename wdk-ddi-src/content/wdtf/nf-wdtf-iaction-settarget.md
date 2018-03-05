@@ -100,15 +100,11 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
@@ -117,6 +113,10 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
+
+
+
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
 
 
 

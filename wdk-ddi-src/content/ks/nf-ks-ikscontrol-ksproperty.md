@@ -116,11 +116,11 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 

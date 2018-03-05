@@ -7,7 +7,7 @@ old-location: display\dxgkddiquerydevicedescriptor.htm
 old-project: display
 ms.assetid: 0dfcc012-9fff-40b6-b71f-da2ca229896c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml, DxgkDdiQueryDeviceDescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], display.dxgkddiquerydevicedescriptor, dispmprt/DxgkDdiQueryDeviceDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -167,11 +167,11 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_device_descriptor.md">DXGK_DEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 
@@ -179,7 +179,7 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 
@@ -187,5 +187,5 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

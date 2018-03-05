@@ -100,19 +100,19 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsecondssince1980totime.md">RtlSecondsSince1980ToTime</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtltimetosecondssince1970.md">RtlTimeToSecondsSince1970</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsecondssince1980totime.md">RtlSecondsSince1980ToTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
 
 
 

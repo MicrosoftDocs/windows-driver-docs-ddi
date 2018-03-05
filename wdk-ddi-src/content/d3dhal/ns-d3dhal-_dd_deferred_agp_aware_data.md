@@ -7,7 +7,7 @@ old-location: display\dd_deferred_agp_aware_data.htm
 old-project: display
 ms.assetid: df36008a-2ee4-4e3e-8bad-7da1f27a695d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DD_DEFERRED_AGP_AWARE_DATA, DD_DEFERRED_AGP_AWARE_DATA structure [Display Devices], _DD_DEFERRED_AGP_AWARE_DATA, d3dhal/DD_DEFERRED_AGP_AWARE_DATA, d3dstrct_f07b3180-3442-4c3f-974b-eaf58a3a03df.xml, display.dd_deferred_agp_aware_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,5 +99,5 @@ Whenever a display device is created, the driver receives a <b>GetDriverInfo2</b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_DEFERRED_AGP_AWARE_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_DEFERRED_AGP_AWARE_DATA structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -101,6 +101,16 @@ TBD
 
 
 
+#### - InitializedAttributes [out]
+
+Specifies the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure to initialize.
+
+
+#### - ObjectName [in]
+
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
+
+
 #### - Attributes [in]
 
 Specifies one or more of the following flags:
@@ -150,16 +160,6 @@ Specifies that the handle can only be accessed in kernel mode.
 The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.
 
 
-#### - InitializedAttributes [out]
-
-Specifies the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure to initialize.
-
-
-#### - ObjectName [in]
-
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
-
-
 #### - RootDirectory [in]
 
 A handle to the root object directory for the path name specified in the <i>ObjectName</i> parameter. If <i>ObjectName</i> is a fully qualified object name, <i>RootDirectory</i> is <b>NULL</b>. Use <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a> to obtain a handle to an object directory.
@@ -185,23 +185,7 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -209,27 +193,11 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 
-<a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
@@ -237,7 +205,39 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 
+<a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 

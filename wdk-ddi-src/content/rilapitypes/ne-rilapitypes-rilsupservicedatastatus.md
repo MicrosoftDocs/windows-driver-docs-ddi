@@ -7,7 +7,7 @@ old-location: netvista\rilsupservicedatastatus_2.htm
 old-project: netvista
 ms.assetid: 9879db5b-25c1-451c-bb50-37e85cf1f5e5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILSUPSERVICEDATASTATUS, RILSUPSERVICEDATASTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCDATASTATUS_ERROR, RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, RIL_SUPSVCDATASTATUS_MAX, RIL_SUPSVCDATASTATUS_TIMEOUT, netvista.rilsupservicedatastatus_2, rilapitypes/RILSUPSERVICEDATASTATUS, rilapitypes/RIL_SUPSVCDATASTATUS_ERROR, rilapitypes/RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED, rilapitypes/RIL_SUPSVCDATASTATUS_MAX, rilapitypes/RIL_SUPSVCDATASTATUS_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices

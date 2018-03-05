@@ -107,11 +107,11 @@ For more information about <b>IoReportInterruptInactive</b>, see <a href="https:
 
 
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
 
 

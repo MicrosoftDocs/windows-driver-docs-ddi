@@ -66,14 +66,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Irp-&gt;UserBuffer</b> points to a <a href="..\vhf\ns-vhf-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
+<b>Irp-&gt;UserBuffer</b> points to a <a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
 
 
-
-
-#### -ReportID
-
-Specifies the report ID for a top-level collection .
 
 
 #### -reportBuffer
@@ -86,9 +81,14 @@ Pointer to a requester-allocated input buffer that contains a feature report.
 Specifies the size, in bytes, of the input buffer.
 
 
+#### -ReportID
+
+Specifies the report ID for a top-level collection .
+
+
 ### -input-buffer-length
 
- The size of a <a href="..\vhf\ns-vhf-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure.
+ The size of a <a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure.
 
 
 ### -output-buffer
@@ -140,19 +140,7 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 ## -see-also
 
-<a href="..\vhf\ns-vhf-_hid_xfer_packet.md">HID_XFER_PACKET</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
 
 
 
@@ -160,11 +148,11 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 
-<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
+<a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
 
 
@@ -173,6 +161,18 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 

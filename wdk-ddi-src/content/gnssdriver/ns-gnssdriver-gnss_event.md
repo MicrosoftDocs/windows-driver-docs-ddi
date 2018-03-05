@@ -114,29 +114,9 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
 
 
 
-#### - AgnssRequest
+#### - Unused[512]
 
-This structure is filled if EventType is GNSS_Require_Agnss.
-
-
-#### - BreadcrumbAlertData
-
-This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
-
-
-#### - CustomData[ANYSIZE_ARRAY]
-
-Custom data field.
-
-
-#### - DriverRequestData
-
-This structure is filled if EventType is GNSS_Event_DriverRequest.
-
-
-#### - ErrorInformation
-
-This structure is filled if EventType is GNSS_Error.
+Padding buffer.
 
 
 #### - FixData
@@ -144,14 +124,9 @@ This structure is filled if EventType is GNSS_Error.
 This structure is filled if EventType is GNSS_Fix_Available.
 
 
-#### - GeofenceAlertData
+#### - AgnssRequest
 
-This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
-
-
-#### - GeofencesTrackingStatus
-
-This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
+This structure is filled if EventType is GNSS_Require_Agnss.
 
 
 #### - NiRequest
@@ -159,14 +134,39 @@ This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
 This structure is filled if EventType is GNSS_Event_Ni.
 
 
+#### - ErrorInformation
+
+This structure is filled if EventType is GNSS_Error.
+
+
 #### - NmeaData
 
 This structure is filled if EventType is GNSS_Event_NmeaData.
 
 
-#### - Unused[512]
+#### - GeofenceAlertData
 
-Padding buffer.
+This structure is filled if EventType is GNSS_Event_GeofenceAlertData.
+
+
+#### - BreadcrumbAlertData
+
+This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
+
+
+#### - GeofencesTrackingStatus
+
+This structure is filled if EventType is GNSS_Event_GeofencesTrackingStatus.
+
+
+#### - DriverRequestData
+
+This structure is filled if EventType is GNSS_Event_DriverRequest.
+
+
+#### - CustomData[ANYSIZE_ARRAY]
+
+Custom data field.
 
 
 ## -remarks

@@ -115,15 +115,15 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

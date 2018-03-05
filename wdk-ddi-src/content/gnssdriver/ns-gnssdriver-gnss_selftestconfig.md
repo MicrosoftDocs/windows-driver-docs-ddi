@@ -104,12 +104,12 @@ The length of the buffer for passing in any additional information about the sel
 
 
 
-#### - InBuffer[ANYSIZE_ARRAY]
-
-The buffer that will contain the additional information about the self-test.
-
-
 #### - Unused[512]
 
 Padding buffer.
+
+
+#### - InBuffer[ANYSIZE_ARRAY]
+
+The buffer that will contain the additional information about the self-test.
 
