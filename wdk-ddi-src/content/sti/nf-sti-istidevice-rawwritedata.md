@@ -109,11 +109,11 @@ A call to <b>IStiDevice::RawWriteData</b> must be preceded by a call to <a href=
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
+
+
+
+<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
 
 
 

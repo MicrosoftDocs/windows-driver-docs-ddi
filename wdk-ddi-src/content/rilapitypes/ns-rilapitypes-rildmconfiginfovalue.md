@@ -7,7 +7,7 @@ old-location: netvista\rildmconfiginfovalue_2.htm
 old-project: netvista
 ms.assetid: 6b917b11-a2f2-4b8b-9964-2d7b4a6a1871
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue_2, rilapitypes/RILDMCONFIGINFOVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

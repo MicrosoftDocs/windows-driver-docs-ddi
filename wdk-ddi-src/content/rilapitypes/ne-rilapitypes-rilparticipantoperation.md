@@ -7,7 +7,7 @@ old-location: netvista\rilparticipantoperation_2.htm
 old-project: netvista
 ms.assetid: 74386760-95c8-4c69-99bf-542e7c58b8c8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation_2, rilapitypes/RILPARTICIPANTOPERATION, rilapitypes/RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_REMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices

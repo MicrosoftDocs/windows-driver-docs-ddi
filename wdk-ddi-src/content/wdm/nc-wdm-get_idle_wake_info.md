@@ -80,7 +80,7 @@ A pointer to interface-specific context information. The caller sets this parame
 
 ### -param SystemPowerState [in]
 
-System power state. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
+System power state. Set this parameter to one of the following <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
 
 <ul>
 <li><b>PowerSystemWorking</b></li>
@@ -160,14 +160,6 @@ An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert t
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
-
-
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
-
-
-
 <a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a>
 
 
@@ -176,7 +168,15 @@ An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert t
 
 
 
+<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
+
+
+
+<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 

@@ -123,15 +123,15 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
 
 
 
 <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
 
 
 

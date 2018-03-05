@@ -7,7 +7,7 @@ old-location: netvista\rilpsmediaconfiguration_2.htm
 old-project: netvista
 ms.assetid: eb4500cb-de96-4fbe-971c-d7badc6993af
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfiguration_2, rilapitypes/RILPSMEDIACONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

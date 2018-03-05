@@ -91,7 +91,7 @@ Pointer to a buffer that can be used by the HID source driver for servicing the 
 
 ### -param HidTransferPacket [in]
 
-A pointer to a <a href="..\vhf\ns-vhf-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure. Contains information about a HID Report and is used by the HID source driver and the HID class/mini driver pair for I/O requests to get or set a report.
+A pointer to a <a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a> structure. Contains information about a HID Report and is used by the HID source driver and the HID class/mini driver pair for I/O requests to get or set a report.
 
 
 ## -returns

@@ -84,11 +84,11 @@ If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinFileObject</b> returns a p
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
 
 

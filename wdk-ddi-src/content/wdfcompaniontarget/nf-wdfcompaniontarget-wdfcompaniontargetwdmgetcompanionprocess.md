@@ -7,7 +7,7 @@ old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 old-project: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -165,6 +165,46 @@ Indicates that the device can assert the PME signal from D3.
 
 
 
+##### - Support.Rsvd2
+
+Reserved. 
+
+
+##### - Support.D1
+
+Reserved. 
+
+
+##### - Support.D2
+
+Reserved. 
+
+
+##### - Support.PMED0
+
+Indicates that the device can assert the PME signal from D0. 
+
+
+##### - Support.PMED1
+
+Indicates that the device can assert the PME signal from D1. 
+
+
+##### - Support.PMED2
+
+Indicates that the device can assert the PME signal from D2. 
+
+
+##### - Support.PMED3Hot
+
+Indicates that the device can assert the PME signal from D3. 
+
+
+##### - Support.PMED3Cold
+
+Indicates that the device can assert the PME signal from D3. 
+
+
 ## -remarks
 
 

@@ -95,11 +95,11 @@ The KSPROPERTY_VIDEODECODER_STATUS_S structure retrieves information about the v
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566060">KSPROPERTY_VIDEODECODER_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566060">KSPROPERTY_VIDEODECODER_STATUS</a>
 
 
 

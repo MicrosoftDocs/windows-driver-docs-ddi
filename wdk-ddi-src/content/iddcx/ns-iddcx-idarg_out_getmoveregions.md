@@ -7,7 +7,7 @@ old-location: display\idarg_out_getmoveregions.htm
 old-project: display
 ms.assetid: b95b2da7-8078-4e71-91db-a1b399bc44a2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -105,15 +105,15 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
 
 
 
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 
 

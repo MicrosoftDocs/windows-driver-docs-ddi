@@ -213,7 +213,7 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
@@ -221,7 +221,7 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
 
 

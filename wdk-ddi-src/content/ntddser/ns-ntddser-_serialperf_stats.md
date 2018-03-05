@@ -115,11 +115,11 @@ To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntdd
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
 
 

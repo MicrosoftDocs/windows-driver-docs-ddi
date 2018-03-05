@@ -7,7 +7,7 @@ old-location: netvista\rilimsfailureparammask_2.htm
 old-project: netvista
 ms.assetid: 07d651cd-b890-49cf-a543-2fc2fbf52412
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILIMSFAILUREPARAMMASK, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_ERRORCODE, RIL_PARAM_IMSFAILURE_ERRORSTRING, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_MESSAGETYPE, netvista.rilimsfailureparammask_2, rilapitypes/RILIMSFAILUREPARAMMASK, rilapitypes/RIL_PARAM_IMSFAILURE_ALL, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

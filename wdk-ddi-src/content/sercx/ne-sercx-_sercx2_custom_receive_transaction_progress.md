@@ -77,14 +77,14 @@ typedef enum _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS {
 
 
 
-#### - SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
-
-Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
-
-
 #### - SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
 
 No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
+
+
+#### - SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
+
+Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 
 ## -remarks

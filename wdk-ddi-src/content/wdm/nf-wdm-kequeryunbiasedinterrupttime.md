@@ -98,7 +98,7 @@ In Windows 2000 and later versions of the Windows operating system, the <a href=
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="..\wdm\nf-wdm-kequeryinterrupttimeprecise.md">KeQueryInterruptTimePrecise</a>
 
 
 
@@ -106,11 +106,11 @@ In Windows 2000 and later versions of the Windows operating system, the <a href=
 
 
 
-<a href="..\wdm\nf-wdm-kequeryinterrupttimeprecise.md">KeQueryInterruptTimePrecise</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 

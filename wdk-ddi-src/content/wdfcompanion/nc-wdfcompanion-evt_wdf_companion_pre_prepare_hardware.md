@@ -7,7 +7,7 @@ old-location: wdf\evt_wdf_companion_pre_prepare_hardware.htm
 old-project: wdf
 ms.assetid: 36076a28-d3f7-4463-b538-59794a18c4f9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function, wdf.evt_wdf_companion_pre_prepare_hardware, wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices

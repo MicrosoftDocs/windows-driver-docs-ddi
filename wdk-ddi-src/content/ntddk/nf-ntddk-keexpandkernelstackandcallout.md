@@ -108,11 +108,11 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552036">KeExpandKernelStackAndCalloutEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 
 

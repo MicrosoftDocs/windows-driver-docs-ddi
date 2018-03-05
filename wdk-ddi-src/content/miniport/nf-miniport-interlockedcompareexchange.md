@@ -91,14 +91,14 @@ TBD
 
 
 
-#### - Comparand [in]
-
-Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
-
-
 #### - Exchange [in]
 
 Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
+
+
+#### - Comparand [in]
+
+Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
 
 
 ## -returns
@@ -127,11 +127,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
 
 
 
@@ -139,15 +139,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
-
-
-
-<a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
+<a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
 
 
 

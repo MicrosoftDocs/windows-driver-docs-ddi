@@ -7,7 +7,7 @@ old-location: print\iprintoemps_disablepdev.htm
 old-project: print
 ms.assetid: 131a3113-1d65-44e7-8752-bf4cdc20129d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DisablePDEV method [Print Devices], DisablePDEV method [Print Devices], IPrintOemPS interface, DisablePDEV,IPrintOemPS.DisablePDEV, IPrintOemPS, IPrintOemPS interface [Print Devices], DisablePDEV method, IPrintOemPS::DisablePDEV, prcomoem/IPrintOemPS::DisablePDEV, print.iprintoemps_disablepdev, print_unidrv-pscript_rendering_7adde157-af87-49c1-80b0-e419c84a12a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

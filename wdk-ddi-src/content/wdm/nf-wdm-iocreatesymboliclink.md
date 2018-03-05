@@ -101,10 +101,6 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
@@ -114,6 +110,10 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 <a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
 
 
 

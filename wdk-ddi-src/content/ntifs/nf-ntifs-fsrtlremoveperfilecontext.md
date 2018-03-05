@@ -128,7 +128,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
 
 
 
@@ -136,7 +136,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 
 

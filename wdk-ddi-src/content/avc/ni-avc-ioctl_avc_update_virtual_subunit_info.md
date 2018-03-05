@@ -189,15 +189,15 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
 <a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
 <a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
-
-
-
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
 
 
 

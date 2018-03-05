@@ -175,11 +175,11 @@ To set a log handle for a file, use <a href="..\ntifs\nf-ntifs-ccsetloghandlefor
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-scale-support-0032.htm
 old-project: display
 ms.assetid: 630ee3fe-f97a-4e82-83d7-4efd05bc5d6e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D12DDI_VIDEO_SCALE_SUPPORT_0032, D3D12DDI_VIDEO_SCALE_SUPPORT_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0032, display.d3d12ddi-video-scale-support-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

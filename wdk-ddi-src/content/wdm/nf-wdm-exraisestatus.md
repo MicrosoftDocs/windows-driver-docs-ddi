@@ -93,10 +93,6 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
-
-
-
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 
@@ -106,6 +102,10 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
 
 
 

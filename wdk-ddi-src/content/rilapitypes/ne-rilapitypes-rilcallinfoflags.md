@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfoflags_2.htm
 old-project: netvista
 ms.assetid: 7b701e86-ee0b-4a46-a6bf-4a4fe18c371f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags_2, rilapitypes/RILCALLINFOFLAGS, rilapitypes/RILCALLINFO_FLAG_ALIENCALL, rilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

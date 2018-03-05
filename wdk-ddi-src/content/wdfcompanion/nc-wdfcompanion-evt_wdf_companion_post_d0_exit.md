@@ -7,7 +7,7 @@ old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 old-project: wdf
 ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT callback function, wdf.evt_wdf_companion_post_d0_exit, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

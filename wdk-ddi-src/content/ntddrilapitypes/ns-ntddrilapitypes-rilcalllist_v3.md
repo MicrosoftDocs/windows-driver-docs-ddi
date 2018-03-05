@@ -7,7 +7,7 @@ old-location: netvista\rilcalllist_v3.htm
 old-project: netvista
 ms.assetid: d602f68a-8fe9-45f4-a54a-abc652578e9c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLLIST, *LPRILCALLLIST_V3, RILCALLLIST, RILCALLLIST_V3, RILCALLLIST_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v3, ntddrilapitypes/RILCALLLIST_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices

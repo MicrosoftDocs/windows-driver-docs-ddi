@@ -117,14 +117,14 @@ The <b>Status</b> member is set to STATUS_SUCCESS on success or an appropriate N
 
 
 
-#### -STATUS_FILE_LOCK_CONFLICT
-
-A file lock conflict was encountered. This error can be returned by the filter manager.
-
-
 #### -STATUS_VOLUME_DISMOUNTED
 
 The volume was dismounted.
+
+
+#### -STATUS_FILE_LOCK_CONFLICT
+
+A file lock conflict was encountered. This error can be returned by the filter manager.
 
 
 ## -remarks

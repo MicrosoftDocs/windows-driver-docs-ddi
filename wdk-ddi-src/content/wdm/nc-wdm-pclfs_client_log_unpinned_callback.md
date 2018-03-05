@@ -105,11 +105,11 @@ The <i>ClfsLogGrowthCompleteCallback</i> function is called before the <i>ClfsLo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a>
-
-
-
 <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsmgmthandlelogfilefull.md">ClfsMgmtHandleLogFileFull</a>
 
 
 

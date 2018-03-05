@@ -98,15 +98,15 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+
+
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 

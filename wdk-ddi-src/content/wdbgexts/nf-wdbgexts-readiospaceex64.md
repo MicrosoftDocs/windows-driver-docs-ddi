@@ -7,7 +7,7 @@ old-location: debugger\readiospaceex64.htm
 old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices

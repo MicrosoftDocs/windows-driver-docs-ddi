@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_send_opc_information.htm
 old-project: storage
 ms.assetid: 77289AB6-7733-4DA1-B4E9-585AA73D137C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,6 +116,11 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
+#### -STATUS_SUCCESS
+
+The request completed successfully.
+
+
 #### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
@@ -124,11 +129,6 @@ The input buffer length is smaller than required.
 #### -STATUS_INVALID_PARAMETER
 
 The request type is not <b>SimpleOpcInfo</b>.
-
-
-#### -STATUS_SUCCESS
-
-The request completed successfully.
 
 
 ## -remarks
@@ -146,11 +146,11 @@ On failures, this IOCTL returns standard errors, such as STATUS_DEVICE_NOT_READY
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
 
 
 
@@ -162,5 +162,5 @@ On failures, this IOCTL returns standard errors, such as STATUS_DEVICE_NOT_READY
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_SEND_OPC_INFORMATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_SEND_OPC_INFORMATION control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

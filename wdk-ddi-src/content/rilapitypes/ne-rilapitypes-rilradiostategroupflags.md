@@ -7,7 +7,7 @@ old-location: netvista\rilradiostategroupflags_2.htm
 old-project: netvista
 ms.assetid: 6374a39f-44c4-4b76-a61d-d2bd22281571
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILRADIOSTATEGROUPFLAGS, RILRADIOSTATEGROUPFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS, netvista.rilradiostategroupflags_2, rilapitypes/RILRADIOSTATEGROUPFLAGS, rilapitypes/RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

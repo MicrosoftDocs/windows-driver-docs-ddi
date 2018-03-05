@@ -70,7 +70,7 @@ VOID MmResetDriverPaging(
 
 ### -param AddressWithinSection [in]
 
-A pointer to a virtual address in the driver (for example, the address of the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine).
+A pointer to a virtual address in the driver (for example, the address of the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine).
 
 
 ## -returns
@@ -103,6 +103,10 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 
 
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
@@ -112,10 +116,6 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
 
 

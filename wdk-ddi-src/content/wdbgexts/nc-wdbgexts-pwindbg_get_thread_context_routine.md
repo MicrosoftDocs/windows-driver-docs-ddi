@@ -7,7 +7,7 @@ old-location: debugger\getcontext.htm
 old-project: debugger
 ms.assetid: 706e05ae-9507-4414-b02c-52016e7bbbd9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

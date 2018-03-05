@@ -95,9 +95,9 @@ TBD
 
 
 
-#### - fmt [in]
+#### - prefix [in]
 
-Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
+Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
 
 
 #### - fname [in]
@@ -105,14 +105,14 @@ Pointer to a string that controls how an item or items in a variable argument li
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgHelper</b> is inserted.
 
 
+#### - fmt [in]
+
+Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
+
+
 #### - marker
 
 Marks the beginning of a variable argument list.
-
-
-#### - prefix [in]
-
-Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
 
 
 ## -remarks
@@ -126,11 +126,11 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
 
@@ -142,7 +142,7 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
 

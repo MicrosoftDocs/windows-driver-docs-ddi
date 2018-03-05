@@ -85,7 +85,7 @@ If a driver handles WMI requests on behalf of another driver, as a class driver 
 
 ### -field RegistryPath
 
-Indicates the offset in bytes from the beginning of this structure to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. The string must be aligned on a USHORT boundary. This member should be set only in response to a WMI registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath</b> set to WMIREGISTER).
+Indicates the offset in bytes from the beginning of this structure to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. The string must be aligned on a USHORT boundary. This member should be set only in response to a WMI registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath</b> set to WMIREGISTER).
 
 
 ### -field MofResourceName
@@ -118,7 +118,11 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
 
 
 
@@ -126,11 +130,7 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 
 

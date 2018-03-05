@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_stream_open_params.htm
 old-project: audio
 ms.assetid: B7FFCD5B-ED00-4B56-806F-61AB43481578
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, audio.usbsidebandaudio_stream_open_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

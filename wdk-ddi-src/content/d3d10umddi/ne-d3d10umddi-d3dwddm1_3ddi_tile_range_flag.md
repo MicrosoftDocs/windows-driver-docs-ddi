@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_tile_range_flag.htm
 old-project: display
 ms.assetid: 7D8B55F1-00BD-414B-9E78-DABCEBEF949F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3DWDDM1_3DDI_TILE_RANGE_FLAG, D3DWDDM1_3DDI_TILE_RANGE_FLAG enumeration [Display Devices], D3DWDDM_1_3DDI_TILE_RANGE_NULL, D3DWDDM_1_3DDI_TILE_RANGE_REUSE_SINGLE_TILE, D3DWDDM_1_3DDI_TILE_RANGE_SKIP, d3d10umddi/D3DWDDM1_3DDI_TILE_RANGE_FLAG, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_NULL, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_REUSE_SINGLE_TILE, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_SKIP, display.d3dwddm1_3ddi_tile_range_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices

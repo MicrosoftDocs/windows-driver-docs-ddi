@@ -110,7 +110,7 @@ For more information about how this enumeration type is used, see <a href="https
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 
@@ -118,7 +118,7 @@ For more information about how this enumeration type is used, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\ipartbase_geturi.htm
 old-project: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetUri method [Print Devices], GetUri method [Print Devices], IPartBase interface, GetUri,IPartBase.GetUri, IPartBase, IPartBase interface [Print Devices], GetUri method, IPartBase::GetUri, filterpipeline/IPartBase::GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, print.ipartbase_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices

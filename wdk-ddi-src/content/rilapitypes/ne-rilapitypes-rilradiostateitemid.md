@@ -7,7 +7,7 @@ old-location: netvista\rilradiostateitemid_2.htm
 old-project: netvista
 ms.assetid: 55c75583-945d-45f5-ac69-b6019b82aead
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid_2, rilapitypes/RILRADIOSTATEITEMID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -88,7 +88,11 @@ Drivers can use this routine to wait until all currently-queued DPCs are run. No
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 
@@ -96,11 +100,7 @@ Drivers can use this routine to wait until all currently-queued DPCs are run. No
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 
 

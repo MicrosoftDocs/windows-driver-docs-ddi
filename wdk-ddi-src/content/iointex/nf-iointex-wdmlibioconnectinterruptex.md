@@ -167,7 +167,7 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
+<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
 
 
 
@@ -179,7 +179,7 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 
 
-<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
 
 
 

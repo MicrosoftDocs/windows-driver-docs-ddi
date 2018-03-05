@@ -7,7 +7,7 @@ old-location: wdf\wdfdeviceinitassignsddlstring.htm
 old-project: wdf
 ms.assetid: 6f7d2511-5a9b-476e-a771-a528c2bead10
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, WdfDeviceInitAssignSDDLString, WdfDeviceInitAssignSDDLString method, kmdf.wdfdeviceinitassignsddlstring, wdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString
 ms.prod: windows-hardware
 ms.technology: windows-devices

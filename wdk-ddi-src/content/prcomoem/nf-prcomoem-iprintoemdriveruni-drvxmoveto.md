@@ -7,7 +7,7 @@ old-location: print\iprintoemdriveruni_drvxmoveto.htm
 old-project: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvXMoveTo method [Print Devices], DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, DrvXMoveTo,IPrintOemDriverUni.DrvXMoveTo, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method, IPrintOemDriverUni::DrvXMoveTo, prcomoem/IPrintOemDriverUni::DrvXMoveTo, print.iprintoemdriveruni_drvxmoveto, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

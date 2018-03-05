@@ -102,6 +102,10 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 
@@ -111,10 +115,6 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 <a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

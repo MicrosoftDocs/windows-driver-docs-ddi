@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-command-list-funcs-video-decode-0032.htm
 old-project: display
 ms.assetid: 5e49e21c-57b8-4864-b4e5-a9baa8df129d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, display.d3d12ddi-command-list-funcs-video-decode-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

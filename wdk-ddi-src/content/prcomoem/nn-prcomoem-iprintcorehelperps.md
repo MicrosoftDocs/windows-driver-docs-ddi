@@ -7,7 +7,7 @@ old-location: print\iprintcorehelperps_interface.htm
 old-project: print
 ms.assetid: 2be594f1-1eb1-42e0-a345-ee7edf4d96dd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], IPrintCoreHelperPS interface [Print Devices], described, prcomoem/IPrintCoreHelperPS, print.iprintcorehelperps_interface, print_unidrv-pscript_allplugins_793ff9db-3ae7-4c10-a84e-bc974a72529e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

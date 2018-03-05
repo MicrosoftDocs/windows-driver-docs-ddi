@@ -93,11 +93,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_v2.md">PEP_PROCESSOR_IDLE_STATE_V2</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_v2.md">PEP_PROCESSOR_IDLE_STATE_V2</a>
 
 
 

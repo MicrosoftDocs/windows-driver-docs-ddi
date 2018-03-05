@@ -142,11 +142,11 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">I
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

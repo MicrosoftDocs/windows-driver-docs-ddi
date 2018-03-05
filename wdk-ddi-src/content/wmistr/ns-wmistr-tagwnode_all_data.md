@@ -156,7 +156,7 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 
@@ -164,7 +164,7 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 

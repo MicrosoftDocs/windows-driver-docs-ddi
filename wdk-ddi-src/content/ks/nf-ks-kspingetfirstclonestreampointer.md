@@ -93,11 +93,11 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetnextclone.md">KsStreamPointerGetNextClone</a>
-
-
-
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointergetnextclone.md">KsStreamPointerGetNextClone</a>
 
 
 

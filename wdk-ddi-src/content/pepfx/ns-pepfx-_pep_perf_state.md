@@ -84,14 +84,14 @@ A pointer to PEP-defined context data. The PEP uses this context to contain addi
 
 The <b>Discrete.States</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a pointer to an array of <b>PEP_PERF_STATE</b> structures. The <b>Unit</b> member of the <b>PEP_COMPONENT_PERF_SET</b> structure specifies the units in which the <b>Value</b> member in each array element is expressed. Component performance can be expressed in hertz (frequency) or in bits per second (bandwidth). For example, if <b>Value</b> = 100,000,000 and <b>Unit</b> = <b>PepPerfStateUnitFrequency</b>, this performance state represents a frequency of 100 megahertz.
 
-Device drivers use the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a> structure, which is similar to the <b>PEP_PERF_STATE</b> structure.
+Device drivers use the <a href="..\wdm\ns-wdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a> structure, which is similar to the <b>PEP_PERF_STATE</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a>
+<a href="..\wdm\ns-wdm-_po_fx_perf_state.md">PO_FX_PERF_STATE</a>
 
 
 

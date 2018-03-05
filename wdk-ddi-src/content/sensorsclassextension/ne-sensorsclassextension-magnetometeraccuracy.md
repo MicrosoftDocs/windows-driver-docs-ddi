@@ -85,16 +85,6 @@ typedef enum _MagnetometerAccuracy {
 
 
 
-#### - Approximate
-
-          The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
-
-
-#### - High
-
-          The actual and reported values are accurate. No additional calibration is needed.
-
-
 #### - Unknown
 
 The accuracy is currently not available, typically because the driver can't report it.
@@ -103,6 +93,16 @@ The accuracy is currently not available, typically because the driver can't repo
 #### - Unreliable
 
 The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
+
+
+#### - Approximate
+
+          The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
+
+
+#### - High
+
+          The actual and reported values are accurate. No additional calibration is needed.
 
 
 ## -remarks

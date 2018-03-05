@@ -130,11 +130,11 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
-
-
-
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_wire_format_and_preference.htm
 old-project: display
 ms.assetid: 24CC6A10-6462-4681-B340-E887B679F456
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices], PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,11 +80,6 @@ typedef union _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE {
 UINT used to operate on the combined bit-fields.
 
 
-#### - Intensity
-
-UINT describing supported/requested pixel encoding using intensity only.
-
-
 #### - Preference
 
 Functions as it has in previous releases, but using only 2 bits.
@@ -95,9 +90,9 @@ Functions as it has in previous releases, but using only 2 bits.
 UINT describing supported/requested pixel encoding using RGB sample format.
 
 
-#### - YCbCr420
+#### - YCbCr444
 
-UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample format.
+UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample format.
 
 
 #### - YCbCr422
@@ -105,9 +100,14 @@ UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample form
 UINT describing supported/requested pixel encoding using YcbCr 4:2:2 sample format.
 
 
-#### - YCbCr444
+#### - YCbCr420
 
-UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample format.
+UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample format.
+
+
+#### - Intensity
+
+UINT describing supported/requested pixel encoding using intensity only.
 
 
 ## -remarks

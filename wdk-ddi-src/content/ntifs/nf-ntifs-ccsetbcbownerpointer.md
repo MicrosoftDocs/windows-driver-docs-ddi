@@ -102,15 +102,15 @@ BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned b
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
 <a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
 
 
 

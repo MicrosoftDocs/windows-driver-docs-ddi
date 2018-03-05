@@ -94,14 +94,9 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+#### - TargetAbortOnSplitCompletion
 
-A single bit that indicates that the delayed transaction discard timer has expired.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that an internal bridge error has occurred.
+A single bit that indicates that a target abort on split completion has occurred.
 
 
 #### - MasterAbortOnSplitCompletion
@@ -109,9 +104,9 @@ A single bit that indicates that an internal bridge error has occurred.
 A single bit that indicates that a master abort on split completion has occurred.
 
 
-#### - PERRAsserted
+#### - ReceivedTargetAbort
 
-A single bit that indicates that a PERR# assertion was detected.
+A single bit that indicates that a target abort has been received.
 
 
 #### - ReceivedMasterAbort
@@ -119,44 +114,14 @@ A single bit that indicates that a PERR# assertion was detected.
 A single bit that indicates that a master abort has been received.
 
 
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a target abort has been received.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+#### - UnexpectedSplitCompletionError
 
-A single bit that indicates that a SERR# assertion was detected.
-
-
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that a target abort on split completion has occurred.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that an uncorrectable address error has occurred.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that an uncorrectable attribute error has occurred.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that an uncorrectable data error has occurred.
+A single bit that indicates that an unexpected split completion error has occurred.
 
 
 #### - UncorrectableSplitCompletion
@@ -164,9 +129,44 @@ A single bit that indicates that an uncorrectable data error has occurred.
 A single bit that indicates that an uncorrectable split completion message data error has occurred.
 
 
-#### - UnexpectedSplitCompletionError
+#### - UncorrectableDataError
 
-A single bit that indicates that an unexpected split completion error has occurred.
+A single bit that indicates that an uncorrectable data error has occurred.
+
+
+#### - UncorrectableAttributeError
+
+A single bit that indicates that an uncorrectable attribute error has occurred.
+
+
+#### - UncorrectableAddressError
+
+A single bit that indicates that an uncorrectable address error has occurred.
+
+
+#### - DelayedTransactionDiscardTimerExpired
+
+A single bit that indicates that the delayed transaction discard timer has expired.
+
+
+#### - PERRAsserted
+
+A single bit that indicates that a PERR# assertion was detected.
+
+
+#### - SERRAsserted
+
+A single bit that indicates that a SERR# assertion was detected.
+
+
+#### - InternalBridgeError
+
+A single bit that indicates that an internal bridge error has occurred.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

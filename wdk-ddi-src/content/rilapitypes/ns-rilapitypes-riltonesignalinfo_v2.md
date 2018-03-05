@@ -7,7 +7,7 @@ old-location: netvista\riltonesignalinfo_v2_2.htm
 old-project: netvista
 ms.assetid: 44508316-ff5c-48b0-9cdf-2d1aefa382c5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO, RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2_2, rilapitypes/RILTONESIGNALINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

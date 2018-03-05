@@ -111,15 +111,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
 
 
@@ -127,7 +119,15 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
+<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 
@@ -135,15 +135,15 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 

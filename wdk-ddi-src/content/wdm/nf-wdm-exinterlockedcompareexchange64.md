@@ -113,15 +113,15 @@ Callers of <b>ExInterlockedCompareExchange64</b> can be running at any IRQL. The
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
-
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
 <a href="..\wdm\nf-wdm-interlockedexchangeadd.md">InterlockedExchangeAdd</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
 
 
 

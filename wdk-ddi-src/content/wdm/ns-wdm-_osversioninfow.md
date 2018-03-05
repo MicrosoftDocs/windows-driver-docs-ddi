@@ -114,15 +114,15 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
-
-
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 

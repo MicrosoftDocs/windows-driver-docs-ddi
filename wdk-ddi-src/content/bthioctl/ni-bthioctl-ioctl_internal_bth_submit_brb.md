@@ -512,15 +512,15 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
 
 
 

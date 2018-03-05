@@ -7,7 +7,7 @@ old-location: audio\imusictechnology.htm
 old-project: audio
 ms.assetid: e42380f8-8e82-4c98-88e9-9e44f5091a85
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices], described, audio.imusictechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml, portcls/IMusicTechnology
 ms.prod: windows-hardware
 ms.technology: windows-devices

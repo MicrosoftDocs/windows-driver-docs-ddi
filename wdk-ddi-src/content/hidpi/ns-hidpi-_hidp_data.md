@@ -82,14 +82,14 @@ Specifies the data index of a control.
 Reserved for internal system use only.
 
 
-#### - On
-
-Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
-
-
 #### - RawValue
 
 Contains the binary data extracted from a report if the control is a value.
+
+
+#### - On
+
+Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
 
 
 ## -remarks

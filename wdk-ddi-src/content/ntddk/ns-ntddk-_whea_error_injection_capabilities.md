@@ -97,19 +97,79 @@ typedef union _WHEA_ERROR_INJECTION_CAPABILITIES {
 A ULONG representation of the contents of the WHEA_ERROR_INJECTION_CAPABILITIES union.
 
 
+#### - ProcessorCorrectable
+
+A single bit that indicates that a correctable processor error can be injected into the hardware platform.
+
+
+#### - ProcessorUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal processor error can be injected into the hardware platform.
+
+
+#### - ProcessorUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal processor error can be injected into the hardware platform.
+
+
+#### - MemoryCorrectable
+
+A single bit that indicates that a correctable memory error can be injected into the hardware platform.
+
+
+#### - MemoryUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal memory error can be injected into the hardware platform.
+
+
+#### - MemoryUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal memory error can be injected into the hardware platform.
+
+
+#### - PCIExpressCorrectable
+
+A single bit that indicates that a correctable PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+#### - PCIExpressUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+#### - PCIExpressUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+#### - PlatformCorrectable
+
+A single bit that indicates that a correctable platform error can be injected into the hardware platform.
+
+
+#### - PlatformUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal platform error can be injected into the hardware platform.
+
+
+#### - PlatformUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal platform error can be injected into the hardware platform.
+
+
 #### - IA64Corrected
 
 A single bit that indicates that a corrected IA64 error can be injected into the hardware platform.
 
 
-#### - IA64Fatal
-
-A single bit that indicates that a fatal IA64 error can be injected into the hardware platform.
-
-
 #### - IA64Recoverable
 
 A single bit that indicates that a recoverable IA64 error can be injected into the hardware platform.
+
+
+#### - IA64Fatal
+
+A single bit that indicates that a fatal IA64 error can be injected into the hardware platform.
 
 
 #### - IA64RecoverableCache
@@ -120,66 +180,6 @@ A single bit that indicates that a recoverable IA64 cache error can be injected 
 #### - IA64RecoverableRegFile
 
 A single bit that indicates that a recoverable IA64 register file error can be injected into the hardware platform.
-
-
-#### - MemoryCorrectable
-
-A single bit that indicates that a correctable memory error can be injected into the hardware platform.
-
-
-#### - MemoryUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal memory error can be injected into the hardware platform.
-
-
-#### - MemoryUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal memory error can be injected into the hardware platform.
-
-
-#### - PCIExpressCorrectable
-
-A single bit that indicates that a correctable PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PCIExpressUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PCIExpressUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PlatformCorrectable
-
-A single bit that indicates that a correctable platform error can be injected into the hardware platform.
-
-
-#### - PlatformUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal platform error can be injected into the hardware platform.
-
-
-#### - PlatformUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal platform error can be injected into the hardware platform.
-
-
-#### - ProcessorCorrectable
-
-A single bit that indicates that a correctable processor error can be injected into the hardware platform.
-
-
-#### - ProcessorUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal processor error can be injected into the hardware platform.
-
-
-#### - ProcessorUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal processor error can be injected into the hardware platform.
 
 
 #### - Reserved
@@ -198,7 +198,7 @@ A user-mode WHEA management application calls the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
 
 
 
@@ -206,7 +206,7 @@ A user-mode WHEA management application calls the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
 
 
 

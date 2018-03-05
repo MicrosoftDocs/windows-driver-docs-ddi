@@ -115,14 +115,14 @@ typedef struct _CIP_DATA_FORMAT_VER2 {
 
 
 
-#### - Frame
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
-
-
 #### - hConnect
 
 A handle to a connection.
+
+
+#### - Frame
+
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
 
 
 ## -see-also

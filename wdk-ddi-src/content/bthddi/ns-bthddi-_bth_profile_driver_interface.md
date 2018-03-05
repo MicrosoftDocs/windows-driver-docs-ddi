@@ -132,7 +132,11 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
 
 
 
@@ -144,11 +148,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
-
-
-
-<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_free_brb.md">BthFreeBrb</a>
 
 
 

@@ -96,6 +96,31 @@ A USHORT representation of the contents of the PCI_EXPRESS_SLOT_CONTROL_REGISTER
 A single bit that indicates that the attention button for the slot is enabled to generate events.
 
 
+#### - PowerFaultDetectEnable
+
+A single bit that indicates that power fault detection for the slot is enabled to generate events.
+
+
+#### - MRLSensorEnable
+
+A single bit that indicates that the manually operated retention latch (MRL) sensor for the slot is enabled to generate events.
+
+
+#### - PresenceDetectEnable
+
+A single bit that indicates that card presence detection for the slot is enabled to generate events.
+
+
+#### - CommandCompletedEnable
+
+A single bit that indicates that notification is enabled for the slot when an issued command is completed by the hot-plug controller.
+
+
+#### - HotPlugInterruptEnable
+
+A single bit that indicates that interrupts for the slot are enabled for hot-plug events.
+
+
 #### - AttentionIndicatorControl
 
 The state of the slot's attention indicator. Possible values are:
@@ -119,55 +144,6 @@ The indicator is blinking.
 #### IndicatorOff
 
 The indicator is off.
-
-
-#### - CommandCompletedEnable
-
-A single bit that indicates that notification is enabled for the slot when an issued command is completed by the hot-plug controller.
-
-
-#### - DataLinkStateChangeEnable
-
-A single bit that indicates that notification is enabled for the slot for changes to the data link layer active bit of the link status register of the PCIe capability structure.
-
-
-#### - ElectromechanicalLockControl
-
-This member always contains zero.
-
-
-#### - HotPlugInterruptEnable
-
-A single bit that indicates that interrupts for the slot are enabled for hot-plug events.
-
-
-#### - MRLSensorEnable
-
-A single bit that indicates that the manually operated retention latch (MRL) sensor for the slot is enabled to generate events.
-
-
-#### - PowerControllerControl
-
-The state of the slot's power controller. Possible values are:
-
-
-
-
-
-#### PowerOn
-
-The power is on.
-
-
-
-#### PowerOff
-
-The power is off.
-
-
-#### - PowerFaultDetectEnable
-
-A single bit that indicates that power fault detection for the slot is enabled to generate events.
 
 
 #### - PowerIndicatorControl
@@ -195,9 +171,33 @@ The indicator is blinking.
 The indicator is off.
 
 
-#### - PresenceDetectEnable
+#### - PowerControllerControl
 
-A single bit that indicates that card presence detection for the slot is enabled to generate events.
+The state of the slot's power controller. Possible values are:
+
+
+
+
+
+#### PowerOn
+
+The power is on.
+
+
+
+#### PowerOff
+
+The power is off.
+
+
+#### - ElectromechanicalLockControl
+
+This member always contains zero.
+
+
+#### - DataLinkStateChangeEnable
+
+A single bit that indicates that notification is enabled for the slot for changes to the data link layer active bit of the link status register of the PCIe capability structure.
 
 
 #### - Rsvd

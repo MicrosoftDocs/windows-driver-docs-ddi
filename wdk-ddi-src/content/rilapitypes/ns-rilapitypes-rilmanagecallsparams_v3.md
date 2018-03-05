@@ -7,7 +7,7 @@ old-location: netvista\rilmanagecallsparams_v3_2.htm
 old-project: netvista
 ms.assetid: 2e7b862f-2c0b-48fa-ae3f-b4832c17b2ee
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v3_2, rilapitypes/RILMANAGECALLSPARAMS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices

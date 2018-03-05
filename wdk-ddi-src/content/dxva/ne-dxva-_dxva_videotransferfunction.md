@@ -7,7 +7,7 @@ old-location: display\dxva_videotransferfunction.htm
 old-project: display
 ms.assetid: 2ed04fd0-685d-4b5a-a23f-337a14506f8b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXVA_VideoTransFuncMask, DXVA_VideoTransFuncShift, DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_20, DXVA_VideoTransFunc_22, DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFunc_22_709, DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransFunc_28, DXVA_VideoTransFunc_Unknown, DXVA_VideoTransferFunction, DXVA_VideoTransferFunction enumeration [Display Devices], _DXVA_VideoTransferFunction, display.dxva_videotransferfunction, dxva/DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_10, dxva/DXVA_VideoTransFunc_18, dxva/DXVA_VideoTransFunc_20, dxva/DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_22_240M, dxva/DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransFunc_22_8bit_sRGB, dxva/DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFunc_Unknown, dxva/DXVA_VideoTransferFunction, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -171,5 +171,5 @@ DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoTransferFunction enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoTransferFunction enumeration%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\rilsetdmprofileconfiginfoparams_2.htm
 old-project: netvista
 ms.assetid: 99513338-a908-4ff7-8fd6-f4224fbdc04f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetdmprofileconfiginfoparams_2, rilapitypes/RILSETDMPROFILECONFIGINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

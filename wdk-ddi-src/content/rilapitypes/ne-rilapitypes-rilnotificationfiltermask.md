@@ -7,7 +7,7 @@ old-location: netvista\rilnotificationfiltermask_2.htm
 old-project: netvista
 ms.assetid: 00d083af-f2c1-4ad5-803a-5981ed70035f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask_2, rilapitypes/RILNOTIFICATIONFILTERMASK, rilapitypes/RIL_NFS_ALL, rilapitypes/RIL_NFS_LOCATIONUPDATE, rilapitypes/RIL_NFS_REGSTATUS_RATKIND, rilapitypes/RIL_NFS_SIGNALQUALITY
 ms.prod: windows-hardware
 ms.technology: windows-devices

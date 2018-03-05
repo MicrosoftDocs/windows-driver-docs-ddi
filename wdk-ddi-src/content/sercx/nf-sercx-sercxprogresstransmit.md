@@ -156,15 +156,15 @@ If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work 
 
 ## -see-also
 
-<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
 
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
 
 

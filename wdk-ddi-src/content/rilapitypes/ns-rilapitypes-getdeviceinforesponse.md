@@ -7,7 +7,7 @@ old-location: netvista\getdeviceinforesponse_2.htm
 old-project: netvista
 ms.assetid: 318927ab-6134-4a01-bf9c-a85619d2bbdf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse_2, rilapitypes/GETDEVICEINFORESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -113,10 +113,6 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 
 
@@ -126,6 +122,10 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 

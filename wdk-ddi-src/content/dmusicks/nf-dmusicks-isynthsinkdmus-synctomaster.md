@@ -7,7 +7,7 @@ old-location: audio\isynthsinkdmus_synctomaster.htm
 old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], SyncToMaster method [Audio Devices], ISynthSinkDMus interface, SyncToMaster,ISynthSinkDMus.SyncToMaster, audio.isynthsinkdmus_synctomaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ The <code>SyncToMaster</code> method allows synchronization to the master clock 
 
 ````
 NTSTATUS SyncToMaster(
-  [in] REFERENCE_TIME rtTime,
+  [in] REFERENCE_TIME rfTime,
   [in] BOOL           fStart
 );
 ````
@@ -68,19 +68,14 @@ NTSTATUS SyncToMaster(
 
 
 
-### -param rfTime
+### -param rfTime [in]
 
-
+Specifies the reference time from the master clock. Reference time is measured in 100-nanosecond units.
 
 
 ### -param fStart [in]
 
 Specifies whether the sample clock is to be reset to zero with this reference time. If <b>TRUE</b>, the sample clock must be reset to zero at time <i>rtTime</i>. If <b>FALSE</b>, the sample clock is not reset.
-
-
-#### - rtTime [in]
-
-Specifies the reference time from the master clock. Reference time is measured in 100-nanosecond units.
 
 
 ## -returns
@@ -117,5 +112,5 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20ISynthSinkDMus::SyncToMaster method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20ISynthSinkDMus::SyncToMaster method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

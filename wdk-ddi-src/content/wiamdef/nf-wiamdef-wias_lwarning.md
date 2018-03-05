@@ -91,9 +91,9 @@ TBD
 
 
 
-####### - format_string, ...
+#### - pIWiaLog
 
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 #### - lResId
@@ -101,9 +101,9 @@ Specifies a variable argument list, which starts with an ANSI format string that
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
-#### - pIWiaLog
+####### - format_string, ...
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 ## -remarks
@@ -130,15 +130,15 @@ Please note that it does not write to the new log file used in Windows Vista and
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
 
 
 
