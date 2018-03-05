@@ -7,7 +7,7 @@ old-location: netvista\rilmessageinfo_2.htm
 old-project: netvista
 ms.assetid: db7b8526-e70a-4589-a128-58641c865d58
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo_2, rilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

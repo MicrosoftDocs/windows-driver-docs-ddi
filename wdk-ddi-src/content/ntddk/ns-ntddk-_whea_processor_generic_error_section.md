@@ -461,15 +461,15 @@ The
 
 
 
+<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
 
 
 

@@ -103,27 +103,27 @@ Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailLis
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 

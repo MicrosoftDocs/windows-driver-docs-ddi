@@ -80,11 +80,11 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
 
 
 

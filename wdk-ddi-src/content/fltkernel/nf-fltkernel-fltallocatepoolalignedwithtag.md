@@ -88,7 +88,7 @@ Type of pool to allocate. One of the following:
 
 <b>PagedPoolCacheAligned</b>
 
-See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a description of the available pool memory types. 
+See <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> for a description of the available pool memory types. 
 
 
 ### -param NumberOfBytes [in]
@@ -131,10 +131,6 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
@@ -144,6 +140,10 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
 
 
 

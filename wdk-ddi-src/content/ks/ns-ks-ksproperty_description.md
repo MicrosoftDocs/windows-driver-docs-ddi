@@ -117,15 +117,15 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
 
 
 
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 

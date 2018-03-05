@@ -170,11 +170,11 @@ Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 

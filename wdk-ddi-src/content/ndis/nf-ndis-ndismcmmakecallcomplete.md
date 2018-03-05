@@ -7,7 +7,7 @@ old-location: netvista\ndismcmmakecallcomplete.htm
 old-project: netvista
 ms.assetid: b518f36e-5937-4a74-a1d4-9e1709750843
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,6 +101,31 @@ TBD
 
 
 
+#### - Status [in]
+
+Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
+     any caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
+
+
+#### - NdisVcHandle [in]
+
+Specifies the handle to the client-created VC, which the MCM driver obtained as an input parameter
+     to its 
+     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function and,
+     more recently, from the 
+     <i>CallMgrVcContext</i> passed to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
+
+
+#### - NdisPartyHandle [in, optional]
+
+Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
+     driver obtained as an input parameter to its 
+     <i>ProtocolCmMakeCall</i> function. If the given 
+     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
+
+
 #### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
@@ -116,31 +141,6 @@ Pointer to a structure of type
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
      parameters set up for this connection if 
      <i>Status</i> is NDIS_STATUS_SUCCESS.
-
-
-#### - NdisPartyHandle [in, optional]
-
-Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
-     driver obtained as an input parameter to its 
-     <i>ProtocolCmMakeCall</i> function. If the given 
-     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
-
-
-#### - NdisVcHandle [in]
-
-Specifies the handle to the client-created VC, which the MCM driver obtained as an input parameter
-     to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function and,
-     more recently, from the 
-     <i>CallMgrVcContext</i> passed to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
-
-
-#### - Status [in]
-
-Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
-     any caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -203,23 +203,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 
 
@@ -232,9 +216,25 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmMakeCallComplete macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmMakeCallComplete macro%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

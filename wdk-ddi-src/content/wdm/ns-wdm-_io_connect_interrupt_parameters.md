@@ -229,7 +229,7 @@ Either a pointer to a spin lock to serve as the interrupt spin lock for the set 
 
 #### SynchronizeIrql
 
-Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the maximum IRQL of the set of interrupts. The IRQL for an interrupt is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Otherwise, the <b>Irql</b> and <b>SynchronizeIrql</b> values are identical.
+Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the maximum IRQL of the set of interrupts. The IRQL for an interrupt is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Otherwise, the <b>Irql</b> and <b>SynchronizeIrql</b> values are identical.
 
 
 
@@ -253,13 +253,13 @@ Specifies the interrupt vector passed in the <b>CmResourceTypeInterrupt</b> reso
 
 #### Irql
 
-Specifies the DIRQL passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Starting with Windows 8, a driver can register an ISR that runs at passive level by setting <b>Irql</b> and <b>SynchronizeIrql</b> to PASSIVE_LEVEL, and setting <b>SpinLock</b> to <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698277">Using Passive-Level Interrupt Service Routines</a>.
+Specifies the DIRQL passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Starting with Windows 8, a driver can register an ISR that runs at passive level by setting <b>Irql</b> and <b>SynchronizeIrql</b> to PASSIVE_LEVEL, and setting <b>SpinLock</b> to <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698277">Using Passive-Level Interrupt Service Routines</a>.
 
 
 
 #### InterruptMode
 
-Specifies a <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that determines whether the interrupt is level-triggered (<b>InterruptMode</b> = <b>LevelSensitive</b>) or edge-triggered (<b>InterruptMode</b> = <b>Latched</b>). For shared interrupt lines from a PCI bus, specify <b>LevelSensitive</b>. For PCI message-signaled interrupts, specify <b>Latched</b>.
+Specifies a <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that determines whether the interrupt is level-triggered (<b>InterruptMode</b> = <b>LevelSensitive</b>) or edge-triggered (<b>InterruptMode</b> = <b>Latched</b>). For shared interrupt lines from a PCI bus, specify <b>LevelSensitive</b>. For PCI message-signaled interrupts, specify <b>Latched</b>.
 
 
 
@@ -406,6 +406,8 @@ The <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> rou
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-the-connect-message-based-version-of-ioconnectinterruptex">Using the CONNECT_MESSAGE_BASED Version of IoConnectInterruptEx</a>
+  
 
 
 

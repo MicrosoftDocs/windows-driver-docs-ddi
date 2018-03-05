@@ -90,11 +90,11 @@ The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a h
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
+<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
 
 
 

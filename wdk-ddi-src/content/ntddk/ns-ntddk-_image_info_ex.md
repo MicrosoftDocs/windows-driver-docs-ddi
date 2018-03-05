@@ -106,11 +106,11 @@ If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure i
 
 
 
-<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
 
 
 

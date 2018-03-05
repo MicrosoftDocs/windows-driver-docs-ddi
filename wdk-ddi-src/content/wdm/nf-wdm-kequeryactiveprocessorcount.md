@@ -94,7 +94,7 @@ Callers must also be aware that the value returned by <b>KeQueryActiveProcessorC
 
 If necessary, register for notification of changes to the number of processors by calling the <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a> routine.
 
-To query just the affinity mask without getting the number of active processors, use <a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>.
+To query just the affinity mask without getting the number of active processors, use <a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>.
 
 Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine, which specifies a processor group, instead of <b>KeQueryActiveProcessorCount</b>, which does not. However, the implementation of <b>KeQueryActiveProcessorCount</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeQueryActiveProcessorCount</b> returns the number of active logical processors in group 0, and writes an affinity mask to *<i>ActiveProcessors</i> that specifies the set of active logical processors in group 0. 
 
@@ -104,11 +104,11 @@ If a group contains <i>n</i> logical processors, the processors are numbered fro
 
 For example, if a KAFFINITY value identifies the active processors in a group, the mask bit for a processor is one if the processor is active, and is zero if the processor is not active.
 
-The number of bits in the affinity mask determines the maximum number of logical processors in a group. For a 64-bit version of Windows, the maximum number of processors per group is 64. For a 32-bit version of Windows, the maximum number of processors per group is 32. Call the <a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a> routine to obtain the maximum number of processors per group. This number depends on the hardware configuration of the multiprocessor system, but can never exceed the fixed 64-processor and 32-processor limits that are set by the 64-bit and 32-bit versions of Windows, respectively.
+The number of bits in the affinity mask determines the maximum number of logical processors in a group. For a 64-bit version of Windows, the maximum number of processors per group is 64. For a 32-bit version of Windows, the maximum number of processors per group is 32. Call the <a href="..\ntddk\nf-ntddk-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a> routine to obtain the maximum number of processors per group. This number depends on the hardware configuration of the multiprocessor system, but can never exceed the fixed 64-processor and 32-processor limits that are set by the 64-bit and 32-bit versions of Windows, respectively.
 
-The <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure contains an affinity mask and a group number. The group number identifies the group to which the affinity mask applies.
+The <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure contains an affinity mask and a group number. The group number identifies the group to which the affinity mask applies.
 
-Kernel routines that use the KAFFINITY type include <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>, <b>KeQueryActiveProcessorCount</b>, and <a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>. 
+Kernel routines that use the KAFFINITY type include <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>, <b>KeQueryActiveProcessorCount</b>, and <a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>. 
 
 
 
@@ -119,7 +119,7 @@ Kernel routines that use the KAFFINITY type include <a href="..\wdm\nf-wdm-iocon
 
 
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
+<a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
 
 
 

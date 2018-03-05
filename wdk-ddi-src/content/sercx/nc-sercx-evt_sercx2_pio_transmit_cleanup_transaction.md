@@ -137,15 +137,15 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type is defined 
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2piotransmitcleanuptransactioncomplete.md">SerCx2PioTransmitCleanupTransactionComplete</a>
 
 
 

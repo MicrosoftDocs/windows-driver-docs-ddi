@@ -7,7 +7,7 @@ old-location: debugger\getexpression.htm
 old-project: debugger
 ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices

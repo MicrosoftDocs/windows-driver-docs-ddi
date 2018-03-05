@@ -80,11 +80,11 @@ On output, an array of <a href="https://msdn.microsoft.com/46231ac0-2c34-4154-8b
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_query_capabilities.md">PEP_PPM_QUERY_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_query_capabilities.md">PEP_PPM_QUERY_CAPABILITIES</a>
 
 
 

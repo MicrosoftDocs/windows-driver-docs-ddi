@@ -135,11 +135,11 @@ A FILTER_VOLUME_STANDARD_INFORMATION structure can be allocated from paged or no
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
 
 
 

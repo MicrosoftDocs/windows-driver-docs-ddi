@@ -93,6 +93,10 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
 
@@ -102,10 +106,6 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
 
 

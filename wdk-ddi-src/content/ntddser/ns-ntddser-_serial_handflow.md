@@ -189,11 +189,11 @@ SerCx2 and SerCx support only subsets of the flags that are defined for the <b>C
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
 
 
 

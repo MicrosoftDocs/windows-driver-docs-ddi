@@ -7,7 +7,7 @@ old-location: audio\allocatedmabufferwithnotification.htm
 old-project: audio
 ms.assetid: c74b5969-35d4-45db-b631-31e00572107d
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,14 @@ The function pointer type for an <code>AllocateDmaBufferWithNotification</code> 
 PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION AllocateDmaBufferWithNotification;
 
 NTSTATUS AllocateDmaBufferWithNotification(
-  _In_  PVOID   context,
-  _In_  HANDLE  handle,
-  _In_  ULONG   notificationCount,
-  _In_  SIZE_T  requestedBufferSize,
-  _Out_ PMDL    *bufferMdl,
-  _Out_ PSIZE_T allocatedBufferSize,
-  _Out_ PUCHAR  streamID,
-  _Out_ PULONG  fifoSize
+  _In_  PVOID   _context,
+  _In_  HANDLE  Handle,
+  _In_  ULONG   NotificationCount,
+  _In_  SIZE_T  RequestedBufferSize,
+  _Out_ PMDL    *BufferMdl,
+  _Out_ PSIZE_T AllocatedBufferSize,
+  _Out_ PUCHAR  StreamId,
+  _Out_ PULONG  FifoSize
 )
 { ... }
 ````
@@ -84,69 +84,42 @@ NTSTATUS AllocateDmaBufferWithNotification(
 Specifies the context value from the Context member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
-### -param Handle
+### -param Handle [in]
+
+A handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-### -param NotificationCount
+### -param NotificationCount [in]
+
+Specifies the number of notifications that are needed, based on DMA progression through the audio buffer.  Currently, a value of 1 or 2 is supported.  When the value is 1, any registered notification events are signaled each time the cyclic audio buffer is completed and DMA wraps back to the beginning.  When the value is 2, any registered notification events are notified as DMA passes the midpoint of the audio buffer as well as at the end (or the wraparound point).
 
 
-### -param RequestedBufferSize
+### -param RequestedBufferSize [in]
+
+Specifies the requested buffer size, in bytes.
 
 
-### -param *BufferMdl
+### -param *BufferMdl [out]
+
+Retrieves the physical memory pages that contain the allocated buffer. This parameter points to a caller-allocated variable that is a pointer to a memory descriptor list (PMDL). This routine writes a pointer that describes the memory descriptor list buffer, to the PMDL variable.
 
 
-### -param AllocatedBufferSize
+### -param AllocatedBufferSize [out]
+
+Retrieves the allocated buffer size, in bytes. This parameter points to a caller-allocated SIZE_T variable into which the routine writes the size of the allocated buffer.
 
 
 ### -param OffsetFromFirstPage
 
 
-### -param StreamId
-
-
-### -param FifoSize
-
-
-
-
-
-
-
-
-#### - allocatedBufferSize [out]
-
-Retrieves the allocated buffer size, in bytes. This parameter points to a caller-allocated SIZE_T variable into which the routine writes the size of the allocated buffer.
-
-
-#### - bufferMdl [out]
-
-Retrieves the physical memory pages that contain the allocated buffer. This parameter points to a caller-allocated variable that is a pointer to a memory descriptor list (PMDL). This routine writes a pointer that describes the memory descriptor list buffer, to the PMDL variable.
-
-
-#### - fifoSize [out]
-
-Retrieves the DMA engine's FIFO size, in bytes. This parameter points to a caller-allocated ULONG variable into which the routine writes the FIFO size.
-
-
-#### - handle [in]
-
-A handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
-
-
-#### - notificationCount [in]
-
-Specifies the number of notifications that are needed, based on DMA progression through the audio buffer.  Currently, a value of 1 or 2 is supported.  When the value is 1, any registered notification events are signaled each time the cyclic audio buffer is completed and DMA wraps back to the beginning.  When the value is 2, any registered notification events are notified as DMA passes the midpoint of the audio buffer as well as at the end (or the wraparound point).
-
-
-#### - requestedBufferSize [in]
-
-Specifies the requested buffer size, in bytes.
-
-
-#### - streamID [out]
+### -param StreamId [out]
 
 Retrieves the stream identifier. This parameter points to a caller-allocated UCHAR variable into which the routine writes the stream identifier that the routine assigns to the stream.
+
+
+### -param FifoSize [out]
+
+Retrieves the DMA engine's FIFO size, in bytes. This parameter points to a caller-allocated ULONG variable into which the routine writes the FIFO size.
 
 
 ## -returns
@@ -257,11 +230,7 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
@@ -269,7 +238,11 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -277,7 +250,7 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -285,5 +258,5 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

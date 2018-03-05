@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookadditionalnumberparammask_2.htm
 old-project: netvista
 ms.assetid: 8814beb2-9e53-4cc1-920d-96141551ede1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, rilapitypes/RIL_PARAM_PBAN_ALL, rilapitypes/RIL_PARAM_PBAN_NUMID
 ms.prod: windows-hardware
 ms.technology: windows-devices

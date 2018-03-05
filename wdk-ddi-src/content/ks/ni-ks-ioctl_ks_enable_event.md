@@ -119,11 +119,27 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+
+
+
 <a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
 
 
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
@@ -132,22 +148,6 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\rilsendmsgackparams_v1_2.htm
 old-project: netvista
 ms.assetid: 6e1f0283-76de-4c21-8205-cab83250dfae
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v1_2, rilapitypes/RILSENDMSGACKPARAMS_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices

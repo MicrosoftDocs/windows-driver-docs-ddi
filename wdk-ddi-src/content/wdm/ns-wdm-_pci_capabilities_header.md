@@ -268,11 +268,11 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
 
 
 

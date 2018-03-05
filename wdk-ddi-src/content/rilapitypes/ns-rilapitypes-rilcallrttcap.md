@@ -7,7 +7,7 @@ old-location: netvista\rilcallrttcap_2.htm
 old-project: netvista
 ms.assetid: e1652bc1-e15d-4018-8f4c-2514958ffd27
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILCALLRTTCAP, RILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], netvista.rilcallrttcap_2, rilapitypes/RILCALLRTTCAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

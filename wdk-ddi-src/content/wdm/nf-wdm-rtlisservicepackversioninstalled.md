@@ -294,11 +294,11 @@ The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Wi
 
 
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
-
-
 <a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 

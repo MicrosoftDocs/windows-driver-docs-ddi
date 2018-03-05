@@ -2,18 +2,18 @@
 UID: NE:rilapitypes.RILIMSSERVICE
 title: RILIMSSERVICE
 author: windows-driver-content
-description: The RILIMSSERVICE enumeration has the following values.
-old-location: netvista\rilimsservice.htm
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\rilimsservice_2.htm
 old-project: netvista
-ms.assetid: 11d009d7-5a97-46a8-b1d6-f1906127bf3a
+ms.assetid: 9cac61e7-8260-49ef-881d-6430acb622a8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILIMSSERVICE, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, netvista.rilimsservice, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_SMS, rilapitypes/RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
+ms.date: 2/26/2018
+ms.keywords: RILIMSSERVICE, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_E_VOICE, RIL_IMS_SERVICE_RCS, RIL_IMS_SERVICE_SUPSVC, RIL_IMS_SERVICE_USSD, RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, netvista.rilimsservice_2, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_E_VOICE, rilapitypes/RIL_IMS_SERVICE_RCS, rilapitypes/RIL_IMS_SERVICE_SUPSVC, rilapitypes/RIL_IMS_SERVICE_USSD, rilapitypes/RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h, Ntddrilapitypes.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,21 +50,23 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>The RILIMSSERVICE enumeration has the following values.
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
 ## -syntax
 
 
 ````
-enum RILIMSSERVICE  {
-  RIL_IMS_SERVICE_SMS     = 0x00000001, 
-  RIL_IMS_SERVICE_VOICE   = 0x00000002, 
-  RIL_IMS_SERVICE_VIDEO   = 0x00000004, 
-  RIL_IMS_SERVICE_CUSTOM  = 0x00000008, 
-  RIL_IMS_SERVICE_ALL     = 0x0000000F  
-
-};
+typedef enum _RILIMSSERVICE { 
+  RIL_IMS_SERVICE_VOICE,
+  RIL_IMS_SERVICE_VIDEO,
+  RIL_IMS_SERVICE_CUSTOM,
+  RIL_IMS_SERVICE_SUPSVC,
+  RIL_IMS_SERVICE_RCS,
+  RIL_IMS_SERVICE_USSD,
+  RIL_IMS_SERVICE_E_VOICE,
+  RIL_IMS_SERVICE_ALL
+} RILIMSSERVICE;
 ````
 
 
@@ -98,17 +100,4 @@ enum RILIMSSERVICE  {
 
 
 ### -field RIL_IMS_SERVICE_ALL
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
-
-
-
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILIMSSERVICE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\settextfiltersize.htm
 old-project: display
 ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,9 @@ VOID APIENTRY SetTextFilterSize(
 
 
 
-#### - Height [in]
+#### - hDevice [in]
 
- The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
+ A handle to the display device (graphics context).
 
 
 #### - Width [in]
@@ -94,9 +94,9 @@ VOID APIENTRY SetTextFilterSize(
  The width of the monochrome convolution filter. The width can be from 1 to 7 texels.
 
 
-#### - hDevice [in]
+#### - Height [in]
 
- A handle to the display device (graphics context).
+ The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
 
 
 ## -returns
@@ -141,5 +141,5 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETTEXTFILTERSIZE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_SETTEXTFILTERSIZE callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

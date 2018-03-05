@@ -70,12 +70,12 @@ The <b>WRITE_PORT_ULONG</b> routine writes a ULONG value to the specified port a
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a ULONG value to be written to the port. 
 

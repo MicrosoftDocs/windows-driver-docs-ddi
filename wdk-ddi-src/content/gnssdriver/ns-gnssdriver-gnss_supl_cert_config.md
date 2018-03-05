@@ -148,9 +148,9 @@ The size of the certificate in bytes.
 
 
 
-#### - CertData[ANYSIZE_ARRAY]
+#### - SuplCertName[MAX_PATH]
 
-The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
+String containing the certificate name.
 
 
 #### - IsRoot
@@ -160,12 +160,12 @@ Specify whether the certificate is a root certificate.
 Multiple root certificates can be configured since some mobile operator require this functionality. An IHV supporting SUPL should have support for multiple certificates.
 
 
-#### - SuplCertName[MAX_PATH]
-
-String containing the certificate name.
-
-
 #### - Unused[512]
 
 Padding buffer.
+
+
+#### - CertData[ANYSIZE_ARRAY]
+
+The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 

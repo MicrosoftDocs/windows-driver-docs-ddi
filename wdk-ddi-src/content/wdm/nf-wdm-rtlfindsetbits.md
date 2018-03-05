@@ -107,15 +107,11 @@ Callers of <b>RtlFindSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
@@ -123,15 +119,19 @@ Callers of <b>RtlFindSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the 
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
 
 
 

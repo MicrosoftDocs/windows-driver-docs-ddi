@@ -95,14 +95,14 @@ A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXD
 A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - IoNumber
-
-A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
-
-
 #### - MemoryNumber
 
 A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - IoNumber
+
+A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
 #### - RegisterDataPairs

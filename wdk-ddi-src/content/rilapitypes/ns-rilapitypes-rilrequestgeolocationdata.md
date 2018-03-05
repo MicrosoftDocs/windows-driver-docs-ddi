@@ -7,7 +7,7 @@ old-location: netvista\rilrequestgeolocationdata_2.htm
 old-project: netvista
 ms.assetid: 2d447c49-08ac-43c2-9f70-557494e82cfc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata_2, rilapitypes/RILREQUESTGEOLOCATIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

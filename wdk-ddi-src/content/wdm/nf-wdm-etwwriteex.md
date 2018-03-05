@@ -141,11 +141,11 @@ You can call <b>EtwWriteEx</b> at any IRQL. However, when IRQL is greater than A
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
-
-
-
 <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
 
 
 

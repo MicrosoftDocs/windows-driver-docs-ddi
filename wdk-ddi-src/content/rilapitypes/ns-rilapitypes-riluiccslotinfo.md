@@ -7,7 +7,7 @@ old-location: netvista\riluiccslotinfo_2.htm
 old-project: netvista
 ms.assetid: 5fd25815-40b1-4fba-a7e8-fed24d731ab0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo_2, rilapitypes/RILUICCSLOTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

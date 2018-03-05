@@ -69,12 +69,12 @@ VOID WRITE_REGISTER_UCHAR(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a byte to be written to the register. 
 

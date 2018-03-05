@@ -348,11 +348,11 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: print\iprintoemui2_hidestandardui.htm
 old-project: print
 ms.assetid: 144618d0-0d77-487c-a074-8bd9f6030de2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: HideStandardUI method [Print Devices], HideStandardUI method [Print Devices], IPrintOemUI2 interface, HideStandardUI,IPrintOemUI2.HideStandardUI, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], HideStandardUI method, IPrintOemUI2::HideStandardUI, prcomoem/IPrintOemUI2::HideStandardUI, print.iprintoemui2_hidestandardui, print_unidrv-pscript_ui_27b169d4-4e08-496c-b9d1-1b73dc27995b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,11 +195,11 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
 
 
 
@@ -211,5 +211,5 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI2::HideStandardUI method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI2::HideStandardUI method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\rilsendmsgresponseparammask_2.htm
 old-project: netvista
 ms.assetid: 09711824-5a7a-4f24-bfe4-b7b146de7bee
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_ALL, RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_GWLRELAYCODE, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, RIL_PARAM_MSGRES_MSGID, netvista.rilsendmsgresponseparammask_2, rilapitypes/RILSENDMSGRESPONSEPARAMMASK, rilapitypes/RIL_PARAM_MSGRES_ALL, rilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, rilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, rilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, rilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, rilapitypes/RIL_PARAM_MSGRES_MSGID
 ms.prod: windows-hardware
 ms.technology: windows-devices

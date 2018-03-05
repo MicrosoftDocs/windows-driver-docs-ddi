@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_media_id.htm
 old-project: storage
 ms.assetid: e56f6af5-0391-4044-b6b3-efb27b511db6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_ID, IOCTL_AACS_READ_MEDIA_ID control code [Storage Devices], k307_1f0ffe88-e59a-44e5-bec0-247d38478be8.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_ID, storage.ioctl_aacs_read_media_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

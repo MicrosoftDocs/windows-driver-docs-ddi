@@ -223,7 +223,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
@@ -235,11 +235,11 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

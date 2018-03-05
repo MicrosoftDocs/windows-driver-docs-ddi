@@ -7,7 +7,7 @@ old-location: netvista\rilequipmentstate_2.htm
 old-project: netvista
 ms.assetid: fd3af191-aae8-4afa-b737-8c51029df0e4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate_2, rilapitypes/RILEQUIPMENTSTATE, rilapitypes/RIL_EQSTATE_FULL, rilapitypes/RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_SHUTDOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

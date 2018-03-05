@@ -180,7 +180,15 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a>
 
 
 
@@ -188,15 +196,7 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/605E2353-8C82-4005-BB72-4CB44146A253">SpbControllerSetIoOther</a>
-
-
-
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a>
 
 
 

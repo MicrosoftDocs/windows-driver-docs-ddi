@@ -7,7 +7,7 @@ old-location: debugger\debugcommandexception.htm
 old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 ms.prod: windows-hardware
 ms.technology: windows-devices

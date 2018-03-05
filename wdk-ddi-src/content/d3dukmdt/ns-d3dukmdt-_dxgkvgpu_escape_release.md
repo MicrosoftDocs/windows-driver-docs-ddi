@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_release.htm
 old-project: display
 ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release
 ms.prod: windows-hardware
 ms.technology: windows-devices

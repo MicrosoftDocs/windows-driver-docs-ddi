@@ -103,11 +103,11 @@ This value can then be used in subsequent <i>avcstrm.sys</i> operations by placi
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
 
 
 

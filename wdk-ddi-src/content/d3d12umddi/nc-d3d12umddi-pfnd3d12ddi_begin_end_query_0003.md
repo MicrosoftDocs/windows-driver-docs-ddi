@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_begin_end_query_0003.htm
 old-project: display
 ms.assetid: 9EBF7E0C-BF6D-4E99-B289-8C6581A2DEA5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D12DDI_BEGIN_END_QUERY_0003, d3d12umddi/pfnBeginQuery, display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery, pfnBeginQuery callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,16 +91,6 @@ VOID  APIENTRY* pfnBeginQuery(
 
 
 
-#### - QueryType
-
-The type of query.
-
-
-#### - StartElement
-
-The value of the start element.
-
-
 #### - hCommandList
 
 The handle of a command list for which to query. 
@@ -109,6 +99,16 @@ The handle of a command list for which to query.
 #### - hQueryHeap
 
 The handle of a query heap, which represents an array of query results.
+
+
+#### - QueryType
+
+The type of query.
+
+
+#### - StartElement
+
+The value of the start element.
 
 
 ## -returns

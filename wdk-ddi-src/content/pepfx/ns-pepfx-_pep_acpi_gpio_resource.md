@@ -92,7 +92,7 @@ A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAG
 
 ### -field InterruptType
 
-A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
 ### -field InterruptPolarity
@@ -152,7 +152,7 @@ The size of the <b>VendorData</b> buffer.
 
 ## -see-also
 
-<a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -160,11 +160,7 @@ The size of the <b>VendorData</b> buffer.
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
+<a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a>
 
 
 
@@ -173,6 +169,10 @@ The size of the <b>VendorData</b> buffer.
 
 
 <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
+
+
+<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
 
 

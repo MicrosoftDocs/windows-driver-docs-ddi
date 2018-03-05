@@ -7,7 +7,7 @@ old-location: netvista\rilexchangeuiccapduparams_2.htm
 old-project: netvista
 ms.assetid: 0bbdfb04-70a9-4ded-9947-6f082940cfa0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams_2, rilapitypes/RILEXCHANGEUICCAPDUPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

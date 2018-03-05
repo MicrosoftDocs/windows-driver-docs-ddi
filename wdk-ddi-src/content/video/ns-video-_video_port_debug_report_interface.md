@@ -7,7 +7,7 @@ old-location: display\video_port_debug_report_interface.htm
 old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,11 +100,6 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
-#### - DbgReportComplete
-
-The DbgReportComplete function closes an error report and frees any resources associated with the report.
-
-
 #### - DbgReportCreate
 
 The DbgReportCreate function creates an initial error report.
@@ -113,6 +108,11 @@ The DbgReportCreate function creates an initial error report.
 #### - DbgReportSecondaryData
 
 The DbgReportSecondaryData function appends data to an initial error report that was previously created by DbgReportCreate.
+
+
+#### - DbgReportComplete
+
+The DbgReportComplete function closes an error report and frees any resources associated with the report.
 
 
 ## -remarks
@@ -327,6 +327,14 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
@@ -339,17 +347,9 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
-
-
-
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_DEBUG_REPORT_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_DEBUG_REPORT_INTERFACE structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

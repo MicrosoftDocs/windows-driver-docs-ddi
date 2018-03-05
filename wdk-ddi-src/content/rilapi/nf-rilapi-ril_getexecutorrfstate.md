@@ -7,7 +7,7 @@ old-location: netvista\ril_getexecutorrfstate.htm
 old-project: netvista
 ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorrfstate, rilapi/RIL_GetExecutorRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices

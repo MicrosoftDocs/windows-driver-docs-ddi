@@ -7,7 +7,7 @@ old-location: wdf\read_register_ulong.htm
 old-project: wdf
 ms.assetid: F10D3091-BA9D-47FF-A457-380D86D9F205
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG function, umdf.read_register_ulong, wdf.read_register_ulong, wudfddi_hwaccess/READ_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices

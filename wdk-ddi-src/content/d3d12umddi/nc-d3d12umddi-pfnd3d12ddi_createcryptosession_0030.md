@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createcryptosession_0030.htm
 old-project: display
 ms.assetid: 3AA323B1-C4A3-4630-A664-69FB3E5C6456
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D12DDI_CREATECRYPTOSESSION_0030, PFND3D12DDI_CREATECRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATECRYPTOSESSION_0030, display.pfnd3d12ddi_createcryptosession_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -94,7 +94,7 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 
 
@@ -102,7 +102,7 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
 
 

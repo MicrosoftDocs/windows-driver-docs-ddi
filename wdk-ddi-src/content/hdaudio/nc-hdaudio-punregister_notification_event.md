@@ -7,7 +7,7 @@ old-location: audio\unregisternotificationevent.htm
 old-project: audio
 ms.assetid: 525e2dd9-68e1-468d-895e-d9f57372d619
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ The function pointer type for an <i>UnregisterNotificationEvent</i> routine is d
 PUNREGISTER_NOTIFICATION_EVENT UnregisterNotificationEvent;
 
 typedef NTSTATUS UnregisterNotificationEvent(
-  _In_ PVOID   context,
-  _In_ HANDLE  handle,
-  _In_ PKEVENT notificationEvent
+  _In_ PVOID   _context,
+  _In_ HANDLE  Handle,
+  _In_ PKEVENT NotificationEvent
 )
 { ... }
 ````
@@ -79,24 +79,12 @@ typedef NTSTATUS UnregisterNotificationEvent(
 Specifies the context value from the Context member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
-### -param Handle
-
-
-### -param NotificationEvent
-
-
-
-
-
-
-
-
-#### - handle [in]
+### -param Handle [in]
 
 Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
-#### - notificationEvent [in]
+### -param NotificationEvent [in]
 
 A pointer to a kernel event that was previously registered for DMA progress notification with a call to <a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>.
 
@@ -112,15 +100,15 @@ A pointer to a kernel event that was previously registered for DMA progress noti
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pregister_notification_event.md">RegisterNotificationEvent</a>
 
 
 
@@ -132,5 +120,5 @@ A pointer to a kernel event that was previously registered for DMA progress noti
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PUNREGISTER_NOTIFICATION_EVENT callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PUNREGISTER_NOTIFICATION_EVENT callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

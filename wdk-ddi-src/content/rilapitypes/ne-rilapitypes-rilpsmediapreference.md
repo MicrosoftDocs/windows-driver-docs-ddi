@@ -7,7 +7,7 @@ old-location: netvista\rilpsmediapreference_2.htm
 old-project: netvista
 ms.assetid: 607c00a2-6f7e-4a68-87da-f54b8dd73b88
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILPSMEDIAPREFERENCE, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], RIL_PSMPREF_CELLONLY, RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_WIFIPREFERRED, netvista.rilpsmediapreference_2, rilapitypes/RILPSMEDIAPREFERENCE, rilapitypes/RIL_PSMPREF_CELLONLY, rilapitypes/RIL_PSMPREF_CELLPREFERRED, rilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, rilapitypes/RIL_PSMPREF_WIFIONLY, rilapitypes/RIL_PSMPREF_WIFIPREFERRED
 ms.prod: windows-hardware
 ms.technology: windows-devices

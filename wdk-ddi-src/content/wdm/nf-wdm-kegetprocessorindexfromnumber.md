@@ -70,7 +70,7 @@ ULONG KeGetProcessorIndexFromNumber(
 
 ### -param ProcNumber [in]
 
-A pointer to a caller-allocated <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
+A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
 <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
+
+
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 

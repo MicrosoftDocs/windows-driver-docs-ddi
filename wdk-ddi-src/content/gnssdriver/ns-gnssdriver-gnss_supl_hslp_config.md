@@ -104,14 +104,14 @@ Reserved for future use.
 
 
 
-#### - SuplHslpFromImsi[MAX_SERVER_URL_NAME]
-
-This is the SUPL server address as derived from IMSI.
-
-
 #### - SuplHslp[MAX_SERVER_URL_NAME]
 
 This is the SUPL server address with TCP port. The server address will be a FQDN as indicated in the OMA SUPL specs.
+
+
+#### - SuplHslpFromImsi[MAX_SERVER_URL_NAME]
+
+This is the SUPL server address as derived from IMSI.
 
 
 #### - Unused[512]

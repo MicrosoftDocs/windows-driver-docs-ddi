@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnreleasefrequenc
 old-project: display
 ms.assetid: 54e3d08b-5f0d-4d98-9b93-e2aec96d3362
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO, VidPnFunctions_3fa4c08c-827e-43ac-bcf2-68293d94cb79.xml, d3dkmddi/pfnReleaseFrequencyRangeInfo, display.dxgk_monitorfrequencyrangeset_interface_pfnreleasefrequencyrangeinfo, pfnReleaseFrequencyRangeInfo, pfnReleaseFrequencyRangeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

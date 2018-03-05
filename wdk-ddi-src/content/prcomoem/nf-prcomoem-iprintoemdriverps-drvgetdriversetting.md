@@ -7,7 +7,7 @@ old-location: print\iprintoemdriverps_drvgetdriversetting.htm
 old-project: print
 ms.assetid: c3e9775b-a5ab-42e4-a889-a746a7243b37
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintOemDriverPS interface, DrvGetDriverSetting,IPrintOemDriverPS.DrvGetDriverSetting, IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverPS::DrvGetDriverSetting, prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, print.iprintoemdriverps_drvgetdriversetting, print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

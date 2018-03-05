@@ -147,7 +147,7 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
 
 
 
@@ -155,7 +155,7 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
 
 
 

@@ -195,11 +195,7 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
 
 
 
@@ -207,7 +203,11 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 
 
-<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 

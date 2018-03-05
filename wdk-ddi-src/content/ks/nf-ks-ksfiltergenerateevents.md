@@ -163,6 +163,10 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
@@ -172,10 +176,6 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
-
-
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 

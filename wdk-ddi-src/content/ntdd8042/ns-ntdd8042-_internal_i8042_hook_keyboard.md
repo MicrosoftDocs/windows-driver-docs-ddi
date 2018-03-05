@@ -117,15 +117,11 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="https://msdn.microsoft.com/1ea0ce84-f3e3-48af-8015-66fc35c17129">KbFilter_InitializationRoutine</a>
 
 
 
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
-
-
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md">PI8042_QUEUE_PACKET</a>
 
 
 
@@ -137,7 +133,11 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
-<a href="https://msdn.microsoft.com/1ea0ce84-f3e3-48af-8015-66fc35c17129">KbFilter_InitializationRoutine</a>
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md">PI8042_QUEUE_PACKET</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 

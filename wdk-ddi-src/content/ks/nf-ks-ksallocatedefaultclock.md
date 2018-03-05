@@ -95,11 +95,11 @@ When the clock is no longer needed, the driver must call <a href="..\ks\nf-ks-ks
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
-
-
-
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+
+
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 

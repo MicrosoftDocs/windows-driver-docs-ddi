@@ -173,6 +173,34 @@ The minimum value in the range of performance values for this P-state set. This 
 The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
 
 
+##### - ( unnamed union ).Discrete
+
+[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeDiscrete</b>.
+
+
+
+##### Discrete.Count
+
+The number of discrete performance values in this P-state set.
+
+
+##### - ( unnamed union ).Range
+
+[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeRange</b>.
+
+
+
+##### Range.Minimum
+
+The minimum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
+
+
+
+##### Range.Maximum
+
+The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
+
+
 ## -remarks
 
 
@@ -192,11 +220,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 

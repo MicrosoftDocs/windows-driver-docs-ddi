@@ -82,9 +82,9 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
 A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
 
 
-#### - BusNumber
+#### - FunctionNumber
 
-The bus number of the requester.
+The function number of the requester.
 
 
 #### - DeviceNumber
@@ -92,9 +92,9 @@ The bus number of the requester.
 The device number of the requester.
 
 
-#### - FunctionNumber
+#### - BusNumber
 
-The function number of the requester.
+The bus number of the requester.
 
 
 ## -remarks

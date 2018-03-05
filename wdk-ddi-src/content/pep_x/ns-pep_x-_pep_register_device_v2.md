@@ -109,15 +109,15 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_device_acceptance_type.md">PEP_DEVICE_ACCEPTANCE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 
@@ -125,7 +125,7 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+<a href="..\pepfx\ne-pepfx-_pep_device_acceptance_type.md">PEP_DEVICE_ACCEPTANCE_TYPE</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_power_component_type.htm
 old-project: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, display.dxgk_power_component_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

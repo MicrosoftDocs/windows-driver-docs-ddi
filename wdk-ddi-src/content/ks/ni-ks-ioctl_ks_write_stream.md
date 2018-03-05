@@ -111,11 +111,11 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_read_stream.md">IOCTL_KS_READ_STREAM</a>
-
-
-
 <a href="..\ks\nf-ks-ksprobestreamirp.md">KsProbeStreamIrp</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_read_stream.md">IOCTL_KS_READ_STREAM</a>
 
 
 

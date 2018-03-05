@@ -113,11 +113,11 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_write_output.md">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsctl_offload_write_output.md">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
 
 
 

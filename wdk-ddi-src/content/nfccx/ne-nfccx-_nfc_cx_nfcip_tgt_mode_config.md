@@ -91,10 +91,13 @@ typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG {
 
 
 
-#### - NFC_CX_NFCIP_DEFAULT
-
-
 #### - NFC_CX_NFCIP_NFC_A
+
+
+#### - NFC_CX_NFCIP_NFC_F_212
+
+
+#### - NFC_CX_NFCIP_NFC_F_424
 
 
 #### - NFC_CX_NFCIP_NFC_ACTIVE
@@ -109,19 +112,16 @@ typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG {
 #### - NFC_CX_NFCIP_NFC_ACTIVE_F_424
 
 
-#### - NFC_CX_NFCIP_NFC_F_212
-
-
-#### - NFC_CX_NFCIP_NFC_F_424
+#### - NFC_CX_NFCIP_DEFAULT
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

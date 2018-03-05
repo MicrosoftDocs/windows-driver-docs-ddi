@@ -92,11 +92,11 @@ Size of the <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
 
 

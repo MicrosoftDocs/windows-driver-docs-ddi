@@ -7,7 +7,7 @@ old-location: debugger\endsession.htm
 old-project: debugger
 ms.assetid: 521a0e4a-99c6-4ad4-886d-3fff9855e1fd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EndSession method [Windows Debugging], EndSession method [Windows Debugging], IDebugClient interface, EndSession method [Windows Debugging], IDebugClient2 interface, EndSession method [Windows Debugging], IDebugClient3 interface, EndSession method [Windows Debugging], IDebugClient4 interface, EndSession method [Windows Debugging], IDebugClient5 interface, EndSession,IDebugClient4.EndSession, IDebugClient interface [Windows Debugging], EndSession method, IDebugClient2 interface [Windows Debugging], EndSession method, IDebugClient2::EndSession, IDebugClient3 interface [Windows Debugging], EndSession method, IDebugClient3::EndSession, IDebugClient4, IDebugClient4 interface [Windows Debugging], EndSession method, IDebugClient4::EndSession, IDebugClient5 interface [Windows Debugging], EndSession method, IDebugClient5::EndSession, IDebugClient::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, dbgeng/IDebugClient2::EndSession, dbgeng/IDebugClient3::EndSession, dbgeng/IDebugClient4::EndSession, dbgeng/IDebugClient5::EndSession, dbgeng/IDebugClient::EndSession, debugger.endsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

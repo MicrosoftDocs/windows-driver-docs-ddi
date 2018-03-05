@@ -89,34 +89,9 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
 
 
-#### - AdvisoryNonFatalError
-
-A single bit that indicates that an advisory non-fatal error has occurred.
-
-
-#### - BadDLLP
-
-A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
-
-
-#### - BadTLP
-
-A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
-
-
 #### - ReceiverError
 
 A single bit that indicates that a receiver error has occurred.
-
-
-#### - ReplayNumRollover
-
-A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
-
-
-#### - ReplayTimerTimeout
-
-A single bit that indicates that the replay timer has timed out.
 
 
 #### - Reserved1
@@ -124,9 +99,34 @@ A single bit that indicates that the replay timer has timed out.
 Reserved.
 
 
+#### - BadTLP
+
+A single bit that indicates that a bad transaction layer packet (TLP) error has occurred.
+
+
+#### - BadDLLP
+
+A single bit that indicates that a bad data link layer packet (DLLP) error has occurred.
+
+
+#### - ReplayNumRollover
+
+A single bit that indicates that the counter that counts the number of times the retry buffer has been re-transmitted has rolled over.
+
+
 #### - Reserved2
 
 Reserved.
+
+
+#### - ReplayTimerTimeout
+
+A single bit that indicates that the replay timer has timed out.
+
+
+#### - AdvisoryNonFatalError
+
+A single bit that indicates that an advisory non-fatal error has occurred.
 
 
 #### - Reserved3

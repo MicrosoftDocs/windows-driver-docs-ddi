@@ -7,7 +7,7 @@ old-location: audio\ksdataformat_waveformatex.htm
 old-project: audio
 ms.assetid: b4c0cca8-6277-4458-b1f1-894848987074
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, audio.ksdataformat_waveformatex, ksmedia/KSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,15 +91,15 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536764">IMiniport::DataRangeIntersection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 
@@ -111,5 +111,5 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATAFORMAT_WAVEFORMATEX structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATAFORMAT_WAVEFORMATEX structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

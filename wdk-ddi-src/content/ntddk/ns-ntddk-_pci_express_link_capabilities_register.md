@@ -89,6 +89,112 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
+#### - MaximumLinkSpeed
+
+The maximum link speed of the PCIe link. The only valid value is:
+
+
+
+
+
+#### 1
+
+2.5 gigabits per second
+
+All other values are reserved.
+
+
+##### - MaximumLinkSpeed.1
+
+2.5 gigabits per second
+
+
+#### - MaximumLinkWidth
+
+The maximum link width (number of lanes) implemented by the component. Possible values are:
+
+
+
+
+
+#### 1
+
+x1 (1 lane)
+
+
+
+#### 2
+
+x2 (2 lanes)
+
+
+
+#### 4
+
+x4 (4 lanes)
+
+
+
+#### 8
+
+x8 (8 lanes)
+
+
+
+#### 12
+
+x12 (12 lanes)
+
+
+
+#### 16
+
+x16 (16 lanes)
+
+
+
+#### 32
+
+x32 (32 lanes)
+
+All other values are reserved.
+
+
+##### - MaximumLinkWidth.1
+
+x1 (1 lane)
+
+
+##### - MaximumLinkWidth.2
+
+x2 (2 lanes)
+
+
+##### - MaximumLinkWidth.4
+
+x4 (4 lanes)
+
+
+##### - MaximumLinkWidth.8
+
+x8 (8 lanes)
+
+
+##### - MaximumLinkWidth.12
+
+x12 (12 lanes)
+
+
+##### - MaximumLinkWidth.16
+
+x16 (16 lanes)
+
+
+##### - MaximumLinkWidth.32
+
+x32 (32 lanes)
+
+
 #### - ActiveStatePMSupport
 
 The level of active state power management supported on the PCIe link. Possible values are:
@@ -110,14 +216,14 @@ L0s and L1 are supported.
 All other values are reserved.
 
 
-#### - ClockPowerManagement
+##### - ActiveStatePMSupport.L0sEntrySupport
 
-A single bit that indicates that the component supports clock power management.
+L0s is supported.
 
 
-#### - DataLinkLayerActiveReportingCapable
+##### - ActiveStatePMSupport.L0sAndL1EntrySupport
 
-A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
+L0s and L1 are supported.
 
 
 #### - L0sExitLatency
@@ -171,6 +277,46 @@ Less than 64 nanoseconds
 
 
 #### L0s_Above4us
+
+More than 4 microseconds
+
+
+##### - L0sExitLatency.L0s_Below64ns
+
+Less than 64 nanoseconds
+
+
+##### - L0sExitLatency.L0s_64ns_128ns
+
+64 nanoseconds to 128 nanoseconds
+
+
+##### - L0sExitLatency.L0s_128ns_256ns
+
+128 nanoseconds to 256 nanoseconds
+
+
+##### - L0sExitLatency.L0s_256ns_512ns
+
+256 nanoseconds to 512 nanoseconds
+
+
+##### - L0sExitLatency.L0s_512ns_1us
+
+512 nanoseconds to 1 microsecond
+
+
+##### - L0sExitLatency.L0s_1us_2us
+
+1 microsecond to 2 microseconds
+
+
+##### - L0sExitLatency.L0s_2us_4us
+
+2 microseconds to 4 microseconds
+
+
+##### - L0sExitLatency.L0s_Above4us
 
 More than 4 microseconds
 
@@ -232,75 +378,59 @@ More than 64 microseconds
 This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
-#### - MaximumLinkSpeed
+##### - L1ExitLatency.L1_Below1us
 
-The maximum link speed of the PCIe link. The only valid value is:
-
-
+Less than 1 microsecond
 
 
+##### - L1ExitLatency.L1_1us_2us
 
-#### 1
-
-2.5 gigabits per second
-
-All other values are reserved.
+1 microsecond to 2 microseconds
 
 
-#### - MaximumLinkWidth
+##### - L1ExitLatency.L1_2us_4us
 
-The maximum link width (number of lanes) implemented by the component. Possible values are:
-
-
+2 microseconds to 4 microseconds
 
 
+##### - L1ExitLatency.L1_4us_8us
 
-#### 1
-
-x1 (1 lane)
-
+4 microseconds to 8 microseconds
 
 
-#### 2
+##### - L1ExitLatency.L1_8us_16us
 
-x2 (2 lanes)
-
-
-
-#### 4
-
-x4 (4 lanes)
+8 microseconds to 16 microseconds
 
 
+##### - L1ExitLatency.L1_16us_32us
 
-#### 8
-
-x8 (8 lanes)
-
+16 microseconds to 32 microseconds
 
 
-#### 12
+##### - L1ExitLatency.L1_32us_64us
 
-x12 (12 lanes)
-
-
-
-#### 16
-
-x16 (16 lanes)
+32 microseconds to 64 microseconds
 
 
+##### - L1ExitLatency.L1_Above64us
 
-#### 32
-
-x32 (32 lanes)
-
-All other values are reserved.
+More than 64 microseconds
 
 
-#### - PortNumber
+#### - ClockPowerManagement
 
-The PCIe port number for the PCIe link.
+A single bit that indicates that the component supports clock power management.
+
+
+#### - SurpriseDownErrorReportingCapable
+
+A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+
+
+#### - DataLinkLayerActiveReportingCapable
+
+A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 #### - Rsvd
@@ -308,9 +438,9 @@ The PCIe port number for the PCIe link.
 Reserved.
 
 
-#### - SurpriseDownErrorReportingCapable
+#### - PortNumber
 
-A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+The PCIe port number for the PCIe link.
 
 
 ## -remarks

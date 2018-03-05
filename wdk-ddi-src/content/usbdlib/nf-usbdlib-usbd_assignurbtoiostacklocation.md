@@ -119,11 +119,11 @@ For a code example, see <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450899">How to Submit an URB</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450899">How to Submit an URB</a>
 
 
 

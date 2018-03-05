@@ -96,11 +96,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-
-
-
 <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+
+
+
+<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
 
 

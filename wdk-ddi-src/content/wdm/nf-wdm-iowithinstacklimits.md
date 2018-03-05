@@ -105,11 +105,11 @@ The <b>IoWithinStackLimits</b> routine considers all possible stack segments and
 
 
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

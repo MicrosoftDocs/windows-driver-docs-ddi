@@ -125,11 +125,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -137,7 +137,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

@@ -107,11 +107,11 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
 
 
 

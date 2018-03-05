@@ -138,35 +138,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
 
 
 
@@ -174,11 +146,39 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
 
 
 

@@ -443,11 +443,11 @@ The process has multiple threads, and the application provides its own mechanism
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
 
 
 

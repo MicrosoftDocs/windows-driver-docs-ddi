@@ -7,7 +7,7 @@ old-location: display\iddcx_feature_implementation.htm
 old-project: display
 ms.assetid: 7bed6940-3f69-4cc0-b746-98cd7441f4b8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IDDCX_FEATURE_IMPLEMENTATION, IDDCX_FEATURE_IMPLEMENTATION enumeration [Display Devices], IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, display.iddcx_feature_implementation, iddcx/IDDCX_FEATURE_IMPLEMENTATION, iddcx/IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_NONE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -81,14 +81,14 @@ typedef union _WHEA_REVISION {
 A USHORT representation of the contents of the WHEA_REVISION union.
 
 
-#### - MajorRevision
-
-The major revision number.
-
-
 #### - MinorRevision
 
 The minor revision number.
+
+
+#### - MajorRevision
+
+The major revision number.
 
 
 ## -remarks

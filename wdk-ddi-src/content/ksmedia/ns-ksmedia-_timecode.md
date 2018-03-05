@@ -77,9 +77,9 @@ typedef union _timecode {
 Specifies the timecode as a quad-word.
 
 
-#### - dwFrames
+#### - wFrameRate
 
-Specifies a timecode value as a binary frame count.
+Specifies the frame rate.
 
 
 #### - wFrameFract
@@ -87,9 +87,9 @@ Specifies a timecode value as a binary frame count.
 Specifies the fractional frame. The full-scale frame is 0x1000.
 
 
-#### - wFrameRate
+#### - dwFrames
 
-Specifies the frame rate.
+Specifies a timecode value as a binary frame count.
 
 
 ## -remarks

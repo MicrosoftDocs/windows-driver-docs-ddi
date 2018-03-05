@@ -93,11 +93,11 @@ System time is a count of 100-nanosecond intervals since January 1, 1601. System
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
 
 
 
@@ -105,7 +105,7 @@ System time is a count of 100-nanosecond intervals since January 1, 1601. System
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 

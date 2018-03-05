@@ -7,7 +7,7 @@ old-location: storage\hba_fcpbindingentry2.htm
 old-project: storage
 ms.assetid: e2e7353d-2c83-4704-bec4-9485ab3c7706
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PHBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], hbaapi/HBA_FCPBindingEntry2, hbaapi/PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2, structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,11 +169,15 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
 
 
 
@@ -185,21 +189,17 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
 
 
- 
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FCPBindingEntry2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FCPBindingEntry2 structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

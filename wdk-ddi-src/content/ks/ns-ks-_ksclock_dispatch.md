@@ -150,19 +150,7 @@ The function should be prototyped as follows:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 
@@ -170,7 +158,19 @@ The function should be prototyped as follows:
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 
 

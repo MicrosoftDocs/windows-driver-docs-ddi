@@ -132,7 +132,7 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
@@ -140,7 +140,7 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

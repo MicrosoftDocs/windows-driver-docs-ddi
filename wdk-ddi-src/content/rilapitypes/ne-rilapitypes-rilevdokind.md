@@ -7,7 +7,7 @@ old-location: netvista\rilevdokind_2.htm
 old-project: netvista
 ms.assetid: df59e0f7-6e78-4098-9a2a-9a3143d66152
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind_2, rilapitypes/RILEVDOKIND, rilapitypes/RIL_EVDOKIND_MAX, rilapitypes/RIL_EVDOKIND_REVA, rilapitypes/RIL_EVDOKIND_REVB
 ms.prod: windows-hardware
 ms.technology: windows-devices

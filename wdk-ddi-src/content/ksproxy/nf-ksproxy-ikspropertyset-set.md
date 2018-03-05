@@ -72,32 +72,32 @@ HRESULT Set(
 
 
 
-### -param PropSet [in]
+#### - PropSet [in]
 
 GUID that identifies the property set.
 
 
-### -param Id [in]
+#### - Id [in]
 
 Identifier of the property within the property set. 
 
 
-### -param InstanceData [in]
+#### - InstanceData [in]
 
 Pointer to instance data for the property. 
 
 
-### -param InstanceLength [in]
+#### - InstanceLength [in]
 
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-### -param PropertyData [in]
+#### - PropertyData [in]
 
 Pointer to a buffer that contains the value of the property to set. 
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
 

@@ -7,7 +7,7 @@ old-location: print\drvxmoveto.htm
 old-project: print
 ms.assetid: 20bebaea-a542-4cdd-8661-4c452a50efe5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvXMoveTo, DrvXMoveTo callback function [Print Devices], PFN_DrvXMoveTo, print.drvxmoveto, print_obsoletefunctions_a9d1de5a-71ef-4533-ab48-5e56a113dfb9.xml, printoem/DrvXMoveTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: audio\iportwavertstream.htm
 old-project: audio
 ms.assetid: ca5039ff-d34a-4a61-b288-64f0c1f31b91
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices], described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

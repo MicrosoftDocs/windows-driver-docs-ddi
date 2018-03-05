@@ -104,11 +104,7 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
-<a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
+<a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
 
 
@@ -116,7 +112,11 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-<a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
+<a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 

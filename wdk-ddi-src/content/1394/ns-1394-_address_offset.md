@@ -84,11 +84,11 @@ Specifies the low order offset for a IEEE 1394 address.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537155">GET_LOCAL_HOST_INFO6</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537155">GET_LOCAL_HOST_INFO6</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_spb_interface.htm
 old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -266,7 +266,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
+A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
 
 
 
@@ -336,7 +336,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
+A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
 
 
 ### -field SpbResourceIoControl
@@ -403,16 +403,12 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
 
 
 
@@ -428,9 +424,13 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439861">SpbResourceIoControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_SPB_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_SPB_INTERFACE structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

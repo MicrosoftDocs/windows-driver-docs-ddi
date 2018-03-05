@@ -7,7 +7,7 @@ old-location: netvista\ril_setradioconfiguration.htm
 old-project: netvista
 ms.assetid: b48ba9fe-3b7c-4ca8-8dcb-1e2a586353b9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: RIL_SetRadioConfiguration, RIL_SetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setradioconfiguration, rilapi/RIL_SetRadioConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

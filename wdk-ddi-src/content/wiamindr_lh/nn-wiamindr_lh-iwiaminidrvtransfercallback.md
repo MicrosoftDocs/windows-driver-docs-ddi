@@ -95,7 +95,7 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 
-<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
+<a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
 
 
 
@@ -103,7 +103,7 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 
-<a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
+<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
 
 
 

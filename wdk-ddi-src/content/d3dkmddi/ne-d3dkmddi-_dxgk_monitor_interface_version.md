@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_version.htm
 old-project: display
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION_V2, DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, _DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, display.dxgk_monitor_interface_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

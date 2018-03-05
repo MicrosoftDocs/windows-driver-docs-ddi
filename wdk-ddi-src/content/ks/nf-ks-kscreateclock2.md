@@ -106,11 +106,11 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateCloc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-
-
-
 <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
+
+
+
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
 
 

@@ -114,13 +114,6 @@ Size of the configuration data being sent to the driver.
 
 
 
-#### - CommandData[ANYSIZE_ARRAY]
-
-Data associated with the specific command type.
-
-The driver must cast this buffer to the appropriate data type depending on the specific command.
-
-
 #### - CommandFlag
 
 Bitmask indicating certain aspects of the command.
@@ -131,4 +124,11 @@ The flags are defined by the GNSS_DRIVERCOMMAND_FLAG_* macro.
 #### - Unused[512]
 
 Padding buffer.
+
+
+#### - CommandData[ANYSIZE_ARRAY]
+
+Data associated with the specific command type.
+
+The driver must cast this buffer to the appropriate data type depending on the specific command.
 

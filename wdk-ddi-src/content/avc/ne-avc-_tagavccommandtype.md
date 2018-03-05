@@ -98,7 +98,7 @@ Specifies a general inquiry command type. This permits a controller to query a t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
@@ -106,7 +106,7 @@ Specifies a general inquiry command type. This permits a controller to query a t
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
 
 
 

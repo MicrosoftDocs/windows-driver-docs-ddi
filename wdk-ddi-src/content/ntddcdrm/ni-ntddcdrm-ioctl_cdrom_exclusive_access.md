@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_exclusive_access.htm
 old-project: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,55 +142,15 @@ If the request fails, the <b>Status</b> field might be set to one of the followi
 
 
 
-#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
+#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
 
-The device is already locked for exclusive access. 
+The input buffer was too small. 
 
 
 #### -STATUS_BUFFER_TOO_SMALL (Windows error code: ERROR_INSUFFICIENT_BUFFER)
 
 The output buffer was too small for a <b>ExclusiveAccessQueryState</b> request. 
 
-
-#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
-
-The input buffer was too small. 
-
-
-#### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
-
-The CD-ROM class driver returns this status code when one of the following two errors occurs:
-
-<ul>
-<li>
-The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
-
-</li>
-<li>
-The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device that is not in exclusive mode. 
-
-</li>
-</ul>
-
-#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
-
-The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
-
-
-#### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
-
-The CD-ROM class driver returns this status code when one of the following two errors occurs:
-
-<ul>
-<li>
-The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
-
-</li>
-<li>
-The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device, even though the caller does not have exclusive access to the device. 
-
-</li>
-</ul>
 
 #### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
 
@@ -207,9 +167,49 @@ The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\n
 </li>
 </ul>
 
+#### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
+
+The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
+<ul>
+<li>
+The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
+
+</li>
+<li>
+The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device that is not in exclusive mode. 
+
+</li>
+</ul>
+
+#### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
+
+The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
+<ul>
+<li>
+The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
+
+</li>
+<li>
+The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device, even though the caller does not have exclusive access to the device. 
+
+</li>
+</ul>
+
+#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
+
+The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
+
+
+#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
+
+The device is already locked for exclusive access. 
+
+
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
 
 
 
@@ -217,21 +217,21 @@ The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\n
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
- 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+
+
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_EXCLUSIVE_ACCESS control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_EXCLUSIVE_ACCESS control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

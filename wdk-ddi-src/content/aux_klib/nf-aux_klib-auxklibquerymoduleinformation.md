@@ -193,15 +193,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 
 <a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a>
-
-
-
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 
@@ -210,6 +206,10 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: audio\ipowernotify.htm
 old-project: audio
 ms.assetid: f4856f40-b462-4e69-9324-a2cc837b2893
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 2/26/2018
 ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices], described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

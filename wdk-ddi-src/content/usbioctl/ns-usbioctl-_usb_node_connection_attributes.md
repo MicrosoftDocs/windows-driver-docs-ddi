@@ -93,15 +93,15 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
 
 
 

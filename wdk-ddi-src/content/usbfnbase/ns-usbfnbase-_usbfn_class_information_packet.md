@@ -103,14 +103,14 @@ Determines whether the driver has published a device interface is GUID.
 A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 
 
-#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
-
-A string from which the driver can derive the device interface GUID.
-
-
 #### - InterfaceName[MAX_INTERFACE_NAME_LENGTH]
 
 A string that contains the interface name.
+
+
+#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
+
+A string from which the driver can derive the device interface GUID.
 
 
 ## -see-also
@@ -119,11 +119,11 @@ A string that contains the interface name.
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatesymboliclink.md">WdfDeviceCreateSymbolicLink</a>
-
-
-
 <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatesymboliclink.md">WdfDeviceCreateSymbolicLink</a>
 
 
 

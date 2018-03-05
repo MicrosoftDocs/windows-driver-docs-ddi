@@ -110,11 +110,11 @@ Connections between AVStream pins are performed using this type of handshake.
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 
 

@@ -80,7 +80,7 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
 
 
 
@@ -88,7 +88,7 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 

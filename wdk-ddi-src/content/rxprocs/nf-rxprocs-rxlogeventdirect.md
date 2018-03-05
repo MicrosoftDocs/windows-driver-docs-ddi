@@ -123,15 +123,15 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+
+
+
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 

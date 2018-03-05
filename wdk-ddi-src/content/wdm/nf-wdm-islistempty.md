@@ -97,19 +97,19 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 
 

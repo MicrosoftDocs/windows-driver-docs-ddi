@@ -108,11 +108,11 @@ For more information about generic access rights, see the reference page for <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlmapgenericmask.md">RtlMapGenericMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

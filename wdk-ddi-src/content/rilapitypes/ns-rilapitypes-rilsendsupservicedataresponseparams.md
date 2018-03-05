@@ -7,7 +7,7 @@ old-location: netvista\rilsendsupservicedataresponseparams_2.htm
 old-project: netvista
 ms.assetid: 2b5ac749-9097-43bf-a0e6-a18374f15a86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataresponseparams_2, rilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

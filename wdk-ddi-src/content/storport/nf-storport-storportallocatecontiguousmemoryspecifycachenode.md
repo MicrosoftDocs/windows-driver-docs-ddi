@@ -7,7 +7,7 @@ old-location: storage\storportallocatecontiguousmemoryspecifycachenode.htm
 old-project: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

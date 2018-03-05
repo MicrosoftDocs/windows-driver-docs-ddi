@@ -132,15 +132,15 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

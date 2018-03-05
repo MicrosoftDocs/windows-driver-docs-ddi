@@ -95,11 +95,11 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
 
 
 

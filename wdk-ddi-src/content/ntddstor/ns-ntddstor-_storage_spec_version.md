@@ -7,7 +7,7 @@ old-location: storage\storage_spec_version.htm
 old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], _STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices

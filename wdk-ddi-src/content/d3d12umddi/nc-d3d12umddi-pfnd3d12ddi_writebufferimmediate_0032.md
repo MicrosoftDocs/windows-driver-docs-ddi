@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_writebufferimmediate_0032.htm
 old-project: display
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 2/26/2018
 ms.keywords: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, display.pfnd3d12ddi_writebufferimmediate_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

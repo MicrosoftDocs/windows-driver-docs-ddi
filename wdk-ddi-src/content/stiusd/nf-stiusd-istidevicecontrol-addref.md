@@ -90,11 +90,11 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
-
-
-
 <a href="..\stiusd\nn-stiusd-istidevicecontrol.md">IStiDeviceControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
 
 
 

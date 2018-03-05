@@ -113,16 +113,9 @@ Size of the injection data.
 
 
 
-#### - BlobData
+#### - Unused[512]
 
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
-
-
-#### - Position
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+Padding buffer.
 
 
 #### - Time
@@ -131,7 +124,14 @@ Size of the injection data.
 <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
-#### - Unused[512]
+#### - Position
 
-Padding buffer.
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+
+
+#### - BlobData
+
+
+<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
