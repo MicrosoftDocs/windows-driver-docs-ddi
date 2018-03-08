@@ -2,10 +2,10 @@
 UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 title: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 author: windows-driver-content
-description: 
+description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents all entries in the receive side scaling (RSS) indirection table.
 ms.assetid: 62dc57e0-7c2d-415a-8ab9-3fc973b5be87
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 03/07/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -38,15 +38,29 @@ targetos: Windows
 # _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure
 
 ## -description
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1803.
 
+The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** structure represents all entries in the receive side scaling (RSS) indirection table. 
 
 ## -struct-fields
 
 ### -field Count
+The number of entries in the indirection table.
  
 ### -field Entries
- 
+An array of [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md) structures, each representing an entry in the indirection table.
 
 ## -remarks
+NIC client drivers typically access this structure within the *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* callback function while moving indirection table entries to another processor.
+
+The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** is 1.2.
 
 ## -see-also
+*[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)*
+
+[NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md)
+
+[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)

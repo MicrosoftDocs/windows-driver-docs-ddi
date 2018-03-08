@@ -9,7 +9,7 @@ ms.date: 03/06/2018
 ms.topic: function
 ms.keywords: NetAdapterGetReceiveScalingHashSecretKey
 req.header: netreceivescaling.h
-req.include-header: netadaptercx.h
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -61,3 +61,5 @@ Returns a pointer to a [NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY](ns-netrecei
 The minimum NetAdapterCx version for **NetAdapterGetReceiveScalingHashSecretKey** is 1.2.
 
 ## -see-also
+
+[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)
