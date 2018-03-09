@@ -48,7 +48,7 @@ The NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure contains secret key da
 ## -struct-fields
 
 ### -field Count
-The number of ???
+The size, in bytes, of the secret key.
 
 ### -field Key
 The secret key. This member is 40 bytes (320 bits) for the **NetAdapterReceiveScalingHashTypeToeplitz** hash function.

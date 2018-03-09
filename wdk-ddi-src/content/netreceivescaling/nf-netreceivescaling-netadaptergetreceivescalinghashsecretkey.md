@@ -58,8 +58,11 @@ The **NETADAPTER** object the client driver obtained in a previous call to [NetA
 Returns a pointer to a [NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY](ns-netreceivescaling-_net_adapter_receive_scaling_hash_secret_key.md) structure that contains the hash secret key.
 
 ## -remarks
+Client drivers typically call this method from their *[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)* callback function when enabling RSS on the NIC.
+
 The minimum NetAdapterCx version for **NetAdapterGetReceiveScalingHashSecretKey** is 1.2.
 
 ## -see-also
+*[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)*
 
 [NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)

@@ -81,13 +81,13 @@ Returns STATUS_SUCCESS if the move operations were successful. Otherwise, return
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** from their *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function.
 
-The minimum NetAdapterCx version for **EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES** is 1.2.
+The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingSetIndirectionEntries* is 1.2.
 
 ### Example
 
 NetAdapterCx invokes a client driver's *EvtNetAdapterReceiveScalingSetIndirectionEntries* callback when it needs to rebalance processor workloads for RSS. In this callback, you typically compute a new processor number based on each entry's receive queue ID, then set the new result to your hardware's RSS indirection table. You can retrieve the receive queue ID from the queue's context space. 
 
-In this example, the **NETADAPTER** stores a copy of its indirection table in its context space, as well as an address to a struct containing the NIC's control registers. This struct then contains the hardware's indirection table. Details such as how to calculate the new processor number and the size of the hardware indirection table are based on the design of the NIC and how many RSS queues it has.
+go to index, change it to the queue we said to change it to. Can fail individual index entries. entries each have the rx queue id. it could be that drivers might assign their own IDs to each queue. 
 
 ```C++
 NTSTATUS
@@ -96,33 +96,7 @@ MyEvtAdapterReceiveScalingSetIndirectionEntries(
 	_In_	NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES*	indirectionEntries
 )
 {
-	// Get the adapter context
-	PMY_ADAPTER_CONTEXT adapterContext = MyAdapterGetContext(netAdapter);
-
-	// Loop over each indirection table entry
-	for(size_t i = 0; i < indirectionEntries->Count; i++)
-	{
-		// Get the receive queue ID and indirection table hash index for this entry
-		const ULONG queueId = MyGetRxQueueContext(indirectionEntries->Entries[i].Queue)->QueueId;
-		const UINT32 index = indirectionEntries->Entries[i].Index;
-
-		// Calculate new processor for this entry based on the queue ID and current index
-		const size_t bit0 = index >> ...
-		const size_t bit1 = bit0 + ...
-
-		// Update the adapter's indirection table
-		adapterContext->IndirectionTable[bit0] = queueId & 1 ? ...
-		
-		adapterContext->IndirectionTable[bit1] = queueId & 2 ? ...
-	}
-
-	// Update the hardware indirection table
-	for(size_t i = 0; i < ARRAYSIZE(adapterContext->CtrlRegsAddress->IndirectionTable); i++)
-	{
-		adapterContext->CtrlRegsAddress->IndirectionTable[i] = adapterContext->IndirectionTable[i];
-	}
-
-	return STATUS_SUCCESS;
+	
 }
 ```
 
