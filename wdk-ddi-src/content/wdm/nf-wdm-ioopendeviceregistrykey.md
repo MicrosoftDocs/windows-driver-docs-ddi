@@ -108,7 +108,7 @@ Open a key relative to the current hardware profile for device or driver informa
 Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the access the caller needs to the key. See the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine for a description of each KEY_<i>XXX</i> access right.
 
 
-### -param DevInstRegKey [out]
+### -param DeviceRegKey [out]
 
 Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry key. 
 
