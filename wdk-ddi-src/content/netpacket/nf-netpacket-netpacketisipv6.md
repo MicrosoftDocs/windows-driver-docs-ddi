@@ -2,22 +2,22 @@
 UID: NF:netpacket.NetPacketIsIpv6
 title: NetPacketIsIpv6 function
 author: windows-driver-content
-description: TBD
+description: The NetPacketIsIpv6 method determines if a NET_PACKET is an IPv6 packet. This method is reserved for system use. Do not call this method from your code.
 ms.assetid: dfb23a00-13fb-4c66-a950-8ec080dee7a5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 03/12/2018
 ms.topic: function
 ms.keywords: NetPacketIsIpv6
 req.header: netpacket.h
-req.include-header:
-req.target-type:
+req.include-header: netadaptercx.h
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:NtosKrnl.exe
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -42,16 +42,25 @@ targetos: Windows
 
 
 ## -description
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1803.
 
-TBD
+The NetPacketIsIpv6 method determines if a [NET_PACKET](ns-netpacket-_net_packet.md) is an IPv6 packet. 
+
+>[!WARNING]
+> This method is reserved for system use. Do not call this method from your code.
 
 ## -parameters
 
 ### -param packet
-TBD
+A pointer to the [NET_PACKET](ns-netpacket-_net_packet.md).
 
 ## -returns
-This function returns BOOLEAN.
+Returns **TRUE** if the packet is an IPv6 packet; false otherwise.
+
 ## -remarks
+The minimum NetAdapterCx version for **NetPacketIsIpv6** is 1.2.
 
 ## -see-also

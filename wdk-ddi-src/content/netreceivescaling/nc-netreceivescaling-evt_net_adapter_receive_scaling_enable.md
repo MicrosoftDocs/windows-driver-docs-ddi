@@ -80,10 +80,64 @@ Register your implementation of this callback function by setting the appropriat
 The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingEnable* is 1.2.
 
 ### Example
+In this callback, NIC client drivers get what information they need to turn RSS on for their NIC, such as the protocol types, hash function type, and hash secret key. Clients can use any of these helper methods to get the information they need:
 
-configure things you need for RSS and turn it on. Need info like protocl types, hash type, secret key, then set the bit to turn it on.
+- [NetAdapterGetReceiveScalingProtocoltypes](nf-netreceivescaling-netadaptergetreceivescalingprotocoltypes.md)
+- [NetAdapterGetReceiveScalingHashType](nf-netreceivescaling-netadaptergetreceivescalinghashtype.md)
+- [NetAdapterGetReceiveScalingHashSecretKey](nf-netreceivescaling-netadaptergetreceivescalinghashsecretkey.md)
 
-Say that you shouldn't clear your indirection table or reset your indirection table from your enable callback. The framework will set your initial indirection table state. Also in disable.
+Then, clients turn RSS on with the supplied information by setting the appropriate control bits in hardware. In this example, the client gets protocol types before enabling RSS.
+
+> [!IMPORTANT]
+> Client drivers should **not** clear or reset their indirection table from their *EvtNetAdapterReceiveScalingEnable* callback. The framework will set the driver's initial indirection table state.
+
+```C++
+NTSTATUS
+MyEvtNetAdapterReceiveScalingEnable(
+	_In_ NETADAPTER Adapter
+)
+{
+	NTSTATUS status = STATUS_SUCCESS;
+
+	const NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE protocolTypes = NetAdapterGetReceiveScalingProtocolTypes(Adapter);
+
+	UINT32 controlBitsEnable = MY_RSS_MULTI_CPU_ENABLE | MY_RSS_HASH_BITS_ENABLE;
+
+	// Set the appropriate control bits
+
+	if(protocolTypes & NetAdapterReceiveScalingProtocolTypeIPv4)
+	{
+		controlBitsEnable |= MY_RSS_IPV4_ENABLE;
+
+		if (protocolTypes & NetAdapterReceiveScalingProtocolTypeTcp)
+        {
+            controlBitsEnable |= MY_RSS_IPV4_TCP_ENABLE;
+        }
+	}
+
+	// Repeat for IPv6
+	...
+
+	// Set the bits in hardware
+	if(!MyHardwareRssSetControl(controlBitsEnable))
+	{
+		WdfDeviceSetFailed(Adapter->WdfDevice, WdfDeviceFailedAttemptRestart);
+        return STATUS_UNSUCCESSFUL;
+	}
+
+	// Perform other tasks like restarting the Rx queue
+
+	return STATUS_SUCCESS;
+}
+```
 
 ## -see-also
+[NetAdapterGetReceiveScalingProtocoltypes](nf-netreceivescaling-netadaptergetreceivescalingprotocoltypes.md)
+
+[NetAdapterGetReceiveScalingHashType](nf-netreceivescaling-netadaptergetreceivescalinghashtype.md)
+
+[NetAdapterGetReceiveScalingHashSecretKey](nf-netreceivescaling-netadaptergetreceivescalinghashsecretkey.md)
+
+*[EvtNetAdapterReceiveScalingDisable](nc-netreceivescaling-evt_net_adapter_receive_scaling_disable.md)*
+
 [NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)

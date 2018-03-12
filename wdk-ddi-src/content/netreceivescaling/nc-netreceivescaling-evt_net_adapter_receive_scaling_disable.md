@@ -59,7 +59,7 @@ EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE EvtNetAdapterReceiveScalingDisable;
 
 VOID EvtNetAdapterReceiveScalingDisable 
 (
-	NETADAPTER Adapter
+	_In_ NETADAPTER Adapter
 )
 {...}
 
@@ -81,6 +81,26 @@ The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingDisable* is 1.2
 
 ### Example
 
+In this callback, client drivers disable RSS on the NIC.
 
+> [!IMPORTANT]
+> Client drivers should **not** clear or reset their indirection table from their *EvtNetAdapterReceiveScalingDisable* callback. The framework will set the driver's initial indirection table state.
+
+```C++
+VOID
+MyEvtNetAdapterReceiveScalingDisable(
+	_In_ NETADAPTER Adapter
+)
+{
+	if(!MyHardwareRssSetControl(MY_RSS_MULTI_CPU_DISABLE))
+	{
+		WdfDeviceSetFailed(Adapter->WdfDevice, WdfDeviceFailedAttemptRestart);
+	}
+}
+```
 
 ## -see-also
+
+*[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)*
+
+[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)

@@ -43,12 +43,12 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1803.
 
-The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure represents a single entry in the receive side scaling (RSS) indirection table. 
+The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure represents a move operation for a single entry in the receive side scaling (RSS) indirection table. 
 
 ## -struct-fields
 
 ### -field Queue
-The receive queue object for this entry.
+The new receive queue for the entry.
 
 ### -field Status
 An NTSTATUS value that indicates the status of the move operation for this entry.
@@ -57,9 +57,7 @@ An NTSTATUS value that indicates the status of the move operation for this entry
 The hash index in the indirection table for this entry.
 
 ## -remarks
-Each **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure is contained within a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md).
-
-NIC client drivers typically access this structure within the *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* callback function while moving indirection table entries to another processor.
+Each **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure is contained within a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md) structure.
 
 The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** is 1.2.
 

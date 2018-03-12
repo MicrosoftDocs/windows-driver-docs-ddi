@@ -2,23 +2,23 @@
 UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
 title: EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
 author: windows-driver-content
-description: 
+description: The EvtNetAdapterReceiveScalingSetHashSecretKey callback function is implemented by the client driver to set the hash secret key for the network interface controller (NIC).
 ms.assetid: 9144fad7-c6d6-4d67-9ad7-45e9a0cf31f6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 03/12/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: netreceivescaling.h
 req.include-header:
-req.target-type:
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -59,8 +59,8 @@ EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY EvtNetAdapterReceiveScalingS
 
 NTSTATUS EvtNetAdapterReceiveScalingSetHashSecretKey 
 (
-	NETADAPTER Adapter
-	PCNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY HashSecretKey
+	_In_	NETADAPTER 										Adapter,
+	_In_	PCNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY	HashSecretKey
 )
 {...}
 
@@ -85,6 +85,25 @@ The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingSetHashSecretKe
 
 ### Example
 
+In this callback, NIC client drivers program the supplied hash secret key to their hardware for use in verifying RSS hash calculations.
+
+```C++
+NTSTATUS
+MyEvtNetAdapterReceiveScalingSetHashSecretKey(
+	_In_	NETADAPTER 										Adapter,
+	_In_	PCNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY	HashSecretKey	
+)
+{
+	const UINT32* key = (const UINT32*)HashSecretKey->Key;
+	if(!MyHardwareRssSetHashSecretKey)
+	{
+		WdfDeviceSetFailed(Adapter->WdfDevice, WdfDeviceFailedAttemptRestart);
+		return STATUS_UNSUCCESSFUL;
+	}
+
+	return STATUS_SUCCESS;
+}
+```
 
 ## -see-also
 [NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY](ns-netreceivescaling-_net_adapter_receive_scaling_hash_secret_key.md)

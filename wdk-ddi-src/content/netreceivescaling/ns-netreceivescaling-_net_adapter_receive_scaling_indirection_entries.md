@@ -2,7 +2,7 @@
 UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 title: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 author: windows-driver-content
-description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents all entries in the receive side scaling (RSS) indirection table.
+description: The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table. 
 ms.assetid: 62dc57e0-7c2d-415a-8ab9-3fc973b5be87
 ms.author: windowsdriverdev
 ms.date: 03/07/2018
@@ -43,7 +43,7 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1803.
 
-The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** structure represents all entries in the receive side scaling (RSS) indirection table. 
+The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table. 
 
 ## -struct-fields
 
@@ -51,10 +51,10 @@ The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** structure represents all
 The number of entries in the indirection table.
  
 ### -field Entries
-An array of [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md) structures, each representing an entry in the indirection table.
+An array of [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md) structures, each representing a move for an entry in the indirection table.
 
 ## -remarks
-NIC client drivers typically access this structure within the *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* callback function while moving indirection table entries to another processor.
+NetAdapterCx passes this structure as input to a NIC client driver's *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* event callback function.
 
 The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** is 1.2.
 
