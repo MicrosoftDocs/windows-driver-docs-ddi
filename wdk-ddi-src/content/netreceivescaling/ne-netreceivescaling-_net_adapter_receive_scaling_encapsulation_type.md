@@ -62,6 +62,6 @@ The **ReceiveScalingEncapsulationTypes** member of the [NET_ADAPTER_RECEIVE_SCAL
 The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE** is 1.2.
 
 ## -see-also
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)
+[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
 
 [Hyper-V Network Virtualization Technical Details in Windows Server 2016](https://docs.microsoft.com/windows-server/networking/sdn/technologies/hyper-v-network-virtualization/hyperv-network-virtualization-technical-details-windows-server)

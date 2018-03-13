@@ -83,4 +83,4 @@ The minimum NetAdapterCx version for *EvtNetAdapterCreateRssqueueGroup* is 1.2.
 
 ## -see-also
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling)
+[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
