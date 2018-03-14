@@ -63,7 +63,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [wwan.h](..\wwan\index.md)
  * [xfilter.h](..\xfilter\index.md)
 
-For the programming guide, see [Networking drivers for Windows Vista and later](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/netvista).
+For the programming guide, see [Networking drivers for Windows Vista and later](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/).
 
 This section lists functions, callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 

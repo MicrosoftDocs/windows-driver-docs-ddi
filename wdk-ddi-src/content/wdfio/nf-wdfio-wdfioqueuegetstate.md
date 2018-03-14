@@ -94,7 +94,7 @@ A pointer to a location that receives the number of I/O requests that have been 
 
 
 
-<b>WdfIoQueueGetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
+<b>WdfIoQueueGetState</b> returns a <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 

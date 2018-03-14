@@ -103,7 +103,7 @@ Your driver has not called <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfi
 
 </li>
 <li>
-Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestTypeCreate</a>.
+Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WdfRequestTypeCreate</a>.
 
 </li>
 </ul>

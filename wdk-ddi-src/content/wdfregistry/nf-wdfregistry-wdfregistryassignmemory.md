@@ -99,7 +99,7 @@ A handle to a framework memory object. This object represents a buffer that cont
 
 ### -param MemoryOffsets [in, optional]
 
-A pointer to a driver-supplied <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that identifies a subsection of the buffer that <i>Memory</i> specifies. This parameter is optional and can be <b>NULL</b>.
+A pointer to a driver-supplied <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that identifies a subsection of the buffer that <i>Memory</i> specifies. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The driver did not open the registry key with KEY_SET_VALUE access.
 </dl>
 </td>
 <td width="60%">
-The contents of the <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that the <i>MemoryOffsets</i> parameter specified were invalid.
+The contents of the <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that the <i>MemoryOffsets</i> parameter specified were invalid.
 
 </td>
 </tr>

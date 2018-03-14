@@ -100,9 +100,9 @@ The size of a <b>BTHHFP_DESCRIPTOR2</b> structure and referenced data.
 
 ### -status-block
 
-If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer. Note this can be larger than the size of the <b>BTHHFP_DESCRIPTOR2</b> structure, as the output buffer may contain other data referenced by the <b>BTHHFP_DESCRIPTOR2</b> structure.
+If the routine succeeds, then *Status* is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer. Note this can be larger than the size of the <b>BTHHFP_DESCRIPTOR2</b> structure, as the output buffer may contain other data referenced by the <b>BTHHFP_DESCRIPTOR2</b> structure.
 
-If Status is set to STATUS_BUFFER_TOO_SMALL, then <i>Information</i> is the size of the buffer that the caller should allocate for this request.
+If *Status* is set to STATUS_BUFFER_TOO_SMALL, then <i>Information</i> is the size of the buffer that the caller should allocate for this request.
 
 
 ## -remarks
@@ -111,7 +111,7 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then <i>Information</i> is the size
 
 The audio driver sends this request to obtain information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
 
-The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and the <i>Information</i> parameter will  contain the required buffer size. The audio driver then allocates the necessary storage and sends the request again. Typically an audio driver will keep a pointer to this storage location in its device context for reference during later activity.
+The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with *Status* STATUS_BUFFER_TOO_SMALL and the <i>Information</i> parameter will  contain the required buffer size. The audio driver then allocates the necessary storage and sends the request again. Typically an audio driver will keep a pointer to this storage location in its device context for reference during later activity.
 
 
 

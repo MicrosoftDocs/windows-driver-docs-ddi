@@ -78,7 +78,7 @@ A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request
 
 ### -param Flags [in]
 
-A bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags. 
+A bitwise OR of <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags. 
 
 
 ## -returns

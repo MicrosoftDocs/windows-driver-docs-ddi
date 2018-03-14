@@ -81,7 +81,7 @@ A handle to a local or remote I/O target object that was obtained from a previou
 
 ### -param Action [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the I/O target, if the target has not completed the requests.
+A <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the I/O target, if the target has not completed the requests.
 
 
 ## -returns

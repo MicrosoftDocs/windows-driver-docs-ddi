@@ -91,14 +91,14 @@ The interrupt signal is active when it is low.
 
 
 
-The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 

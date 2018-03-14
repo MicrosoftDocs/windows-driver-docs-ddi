@@ -115,7 +115,7 @@ The IRP minor function code, if any, that is associated with the I/O request. So
 
 ### -field Type
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
+A <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
 
 
 ### -field Parameters

@@ -77,7 +77,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> str
 
 ### -param RegistryPathName
 
-TBD
+A pointer to a Unicode string containing the registry path string passed into the minidriver's **DriverEntry** function by the operating system.
 
 
 ### -param Descriptor [in, optional]

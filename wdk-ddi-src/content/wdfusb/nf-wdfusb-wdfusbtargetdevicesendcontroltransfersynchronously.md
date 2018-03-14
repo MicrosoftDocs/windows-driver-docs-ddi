@@ -223,9 +223,9 @@ The following techniques are available:
 
 <ul>
 <li>
-Supply a local buffer
+Supply non-pageable resident buffers, e.g. non-paged pool 
 
-Because <b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> handles I/O requests synchronously, the driver can create request buffers that are local to the calling routine, as shown in the following code example.
+**Note:** Kernel stack is not guaranteed to be resident.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
