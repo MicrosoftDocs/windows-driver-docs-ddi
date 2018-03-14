@@ -95,15 +95,15 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
 <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
 
 
 
@@ -111,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -135,11 +135,11 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a>
 
 
 

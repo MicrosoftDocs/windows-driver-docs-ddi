@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -79,16 +79,16 @@ HRESULT CreatePrintAsyncNotifyRegistration(
 
 
 
-#### - pType [in]
-
-
 #### - filter [in]
+
+
+#### - pCallback [in]
 
 
 #### - pStyle [in]
 
 
-#### - pCallback [in]
+#### - pType [in]
 
 
 #### - ppRegistration [out]

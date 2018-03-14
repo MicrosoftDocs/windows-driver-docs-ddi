@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSYSTEMSELECTIONPREFS_V2
 title: RILSYSTEMSELECTIONPREFS_V2
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemselectionprefs_v2_2.htm
+old-location: netvista\rilsystemselectionprefs_v2.htm
 old-project: netvista
-ms.assetid: d5866096-9df6-4453-96ab-8abd16707afc
+ms.assetid: 0734fac3-9327-4765-a50b-57be45ce2817
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v2_2, rilapitypes/RILSYSTEMSELECTIONPREFS_V2"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v2, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMSELECTIONPREFS_V2
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -66,7 +66,7 @@ typedef struct _RILSYSTEMSELECTIONPREFS_V2 {
   RILOPERATORNAMES                    plmnInfo;
   RILSYSTEMSELECTIONPREFSROAMINGMODE  dwRoamingMode;
   DWORD                               dwAcquisitionOrderSize;
-  DWORD [MAXLENGTH_ACQUISITIONORDER]  AcquisitionOrder;
+  DWORD [16]                          AcquisitionOrder;
 } RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2;
 ````
 

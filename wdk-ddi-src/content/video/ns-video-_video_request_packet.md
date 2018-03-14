@@ -105,7 +105,7 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 
 
@@ -113,7 +113,7 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 

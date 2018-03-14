@@ -95,15 +95,15 @@ You must implement this class.
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563057">MSiSCSI_InitiatorSessionInfo WMI Class</a>
 
 
 
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILOPENUICCLOGICALCHANNELPARAMS
 title: RILOPENUICCLOGICALCHANNELPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilopenuicclogicalchannelparams_2.htm
+old-location: netvista\rilopenuicclogicalchannelparams.htm
 old-project: netvista
-ms.assetid: 067d33bf-33d5-49b7-9923-8c893d0b9184
+ms.assetid: 4bc3a16b-dc9e-4c15-9083-75ac4608def5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelparams_2, rilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelparams, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILOPENUICCLOGICALCHANNELPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,11 +58,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILOPENUICCLOGICALCHANNELPARAMS {
-  DWORD                  dwSlotIndex;
-  DWORD                  dwChannelGroup;
-  DWORD                  dwAppIdLength;
-  BYTE [MAXLENGTH_APPID] bAppId;
-  DWORD                  dwSelectP2Arg;
+  DWORD     dwSlotIndex;
+  DWORD     dwChannelGroup;
+  DWORD     dwAppIdLength;
+  BYTE [32] bAppId;
+  DWORD     dwSelectP2Arg;
 } RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS;
 ````
 

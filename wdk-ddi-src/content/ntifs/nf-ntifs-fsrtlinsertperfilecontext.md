@@ -146,11 +146,11 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
 
 
 

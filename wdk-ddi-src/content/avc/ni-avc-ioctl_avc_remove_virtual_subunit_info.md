@@ -46,11 +46,6 @@ req.typenames: AVC_FUNCTION
 # IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -189,7 +184,7 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 
@@ -197,11 +192,11 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
 <a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
-
-
-
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 

@@ -74,7 +74,7 @@ The version of the WOF driver. This value includes the major and minor version n
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
+<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
 
 
 
@@ -82,7 +82,7 @@ The version of the WOF driver. This value includes the major and minor version n
 
 
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
 
 
 

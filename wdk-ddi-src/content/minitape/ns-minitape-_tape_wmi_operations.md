@@ -105,7 +105,7 @@ Indicates the size in bytes of the buffer in which the tape minidriver returns t
 
 ### -field DataBuffer
 
-Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\minitape\ne-minitape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
+Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
 
 
 ## -see-also
@@ -114,7 +114,7 @@ Pointer to a buffer in which the tape minidriver returns the results of the oper
 
 
 
-<a href="..\minitape\ne-minitape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
+<a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
 
 
 

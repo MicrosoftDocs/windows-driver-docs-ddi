@@ -110,10 +110,10 @@ typedef struct _KSEVENT_ENTRY {
 ### -field Flags
 
 
-#### - DpcItem
-
-
 #### - BufferItem
+
+
+#### - DpcItem
 
 
 ## -remarks

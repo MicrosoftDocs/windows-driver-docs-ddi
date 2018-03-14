@@ -87,15 +87,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
 
 

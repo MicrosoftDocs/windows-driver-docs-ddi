@@ -98,18 +98,18 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadregisterbufferuchar.md">StorPortReadRegisterBufferUchar</a>
+
+
+
+<a href="..\storport\nf-storport-scsiportreadregisteruchar.md">ScsiPortReadRegisterUchar</a>
 
 
 

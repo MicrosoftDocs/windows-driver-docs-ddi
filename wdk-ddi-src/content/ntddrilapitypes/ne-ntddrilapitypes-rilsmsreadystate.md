@@ -7,13 +7,13 @@ old-location: netvista\rilsmsreadystate.htm
 old-project: netvista
 ms.assetid: f37b1e31-d0fa-4b0a-bab6-131b3bf1bdcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate, ntddrilapitypes/RILSMSREADYSTATE, ntddrilapitypes/RIL_SMSREADYSTATE_ALL, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_UICCREADY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

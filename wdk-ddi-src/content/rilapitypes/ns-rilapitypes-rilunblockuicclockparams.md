@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUNBLOCKUICCLOCKPARAMS
 title: RILUNBLOCKUICCLOCKPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilunblockuicclockparams_2.htm
+old-location: netvista\rilunblockuicclockparams.htm
 old-project: netvista
-ms.assetid: 7b5245e9-7f25-4697-932a-d7d1416e921c
+ms.assetid: 48d1deeb-8862-4e01-aa22-119a53aa4aba
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams_2, rilapitypes/RILUNBLOCKUICCLOCKPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams, ntddrilapitypes/RILUNBLOCKUICCLOCKPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUNBLOCKUICCLOCKPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,8 +58,8 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILUNBLOCKUICCLOCKPARAMS {
-  RILUICCLOCKCREDENTIAL     lockCredential;
-  char [MAXLENGTH_PASSWORD] szNewPassword;
+  RILUICCLOCKCREDENTIAL  lockCredential;
+  char [256]             szNewPassword;
 } RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS;
 ````
 

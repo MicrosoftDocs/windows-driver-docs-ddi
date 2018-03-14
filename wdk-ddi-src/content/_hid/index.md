@@ -23,6 +23,7 @@ To develop Human Interface Devices (HID), you need these headers:
  * [hidsdi.h](..\hidsdi\index.md)
  * [kbdmou.h](..\kbdmou\index.md)
  * [ntdd8042.h](..\ntdd8042\index.md)
+ * [sffprtcl.h](..\sffprtcl\index.md)
  * [vhf.h](..\vhf\index.md)
 
 For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid).

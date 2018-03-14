@@ -7,13 +7,13 @@ old-location: netvista\rilradiostateitem.htm
 old-project: netvista
 ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -100,20 +100,20 @@ typedef struct _RILRADIOSTATEITEM {
 ### -field wszItemValueOptions
 
 
+#### - byteArray
+
+
+#### - intArray
+
+
 #### - intVal
+
+
+#### - uintArray
 
 
 #### - uintVal
 
 
 #### - wszVal
-
-
-#### - intArray
-
-
-#### - uintArray
-
-
-#### - byteArray
 

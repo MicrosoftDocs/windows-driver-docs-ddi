@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_GET_CHILD_STATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -170,11 +165,11 @@ The video miniport driver sets the <b>Information</b> member of the <a href="..\
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

@@ -89,7 +89,7 @@ This structure holds data for the feature named "Profile List" by the <i>MMC-3 <
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list_ex.md">FEATURE_DATA_PROFILE_LIST_EX</a>
+<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
 
 
 
@@ -97,7 +97,7 @@ This structure holds data for the feature named "Profile List" by the <i>MMC-3 <
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list_ex.md">FEATURE_DATA_PROFILE_LIST_EX</a>
 
 
 

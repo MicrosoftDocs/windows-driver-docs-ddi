@@ -98,11 +98,11 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
-
-
-
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 
 

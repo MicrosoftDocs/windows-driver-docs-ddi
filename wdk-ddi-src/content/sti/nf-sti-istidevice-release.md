@@ -7,7 +7,7 @@ old-location: image\istidevice_release.htm
 old-project: image
 ms.assetid: cff05099-cf27-4cc6-a820-1d8a5c3ef88e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], Release method, IStiDevice::Release, Release method [Imaging Devices], Release method [Imaging Devices], IStiDevice interface, Release,IStiDevice.Release, image.istidevice_release, sti/IStiDevice::Release, stifnc_70352bce-ba09-45c1-97a8-add180942d05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

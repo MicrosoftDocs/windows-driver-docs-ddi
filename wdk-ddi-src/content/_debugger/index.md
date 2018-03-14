@@ -20,6 +20,7 @@ To develop Debugger, you need these headers:
  * [engextcpp.h](..\engextcpp\index.md)
  * [engextcpp.hpp](..\engextcpp\index.md)
  * [extsfns.h](..\extsfns\index.md)
+ * [ksdebug.h](..\ksdebug\index.md)
  * [wdbgexts.h](..\wdbgexts\index.md)
 
 For the programming guide, see [Debugger](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger).

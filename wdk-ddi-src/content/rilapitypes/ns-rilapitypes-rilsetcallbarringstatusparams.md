@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETCALLBARRINGSTATUSPARAMS
 title: RILSETCALLBARRINGSTATUSPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetcallbarringstatusparams_2.htm
+old-location: netvista\rilsetcallbarringstatusparams.htm
 old-project: netvista
-ms.assetid: 6116e564-93e6-45ba-8759-aab7d82783b2
+ms.assetid: 1e524d3d-d9dc-4d95-ad13-258cd51bc532
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallbarringstatusparams_2, rilapitypes/RILSETCALLBARRINGSTATUSPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallbarringstatusparams, ntddrilapitypes/RILSETCALLBARRINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETCALLBARRINGSTATUSPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -63,7 +63,7 @@ typedef struct _RILSETCALLBARRINGSTATUSPARAMS {
   BOOL                              fAllClasses;
   DWORD                             dwInfoClasses;
   BOOL                              fPassword;
-  char [MAXLENGTH_PASSWORD]         szPassword;
+  char [256]                        szPassword;
   RILCALLBARRINGSTATUSPARAMSSTATUS  dwStatus;
 } RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS;
 ````

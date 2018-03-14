@@ -17,18 +17,21 @@ Overview of the Windows kernel technology.
 To develop Windows kernel, you need these headers:
 
  * [aux_klib.h](..\aux_klib\index.md)
+ * [buffring.h](..\buffring\index.md)
  * [hwnclx.h](..\hwnclx\index.md)
  * [ioaccess.h](..\ioaccess\index.md)
  * [iointex.h](..\iointex\index.md)
  * [ntddk.h](..\ntddk\index.md)
  * [ntddsfio.h](..\ntddsfio\index.md)
  * [ntddsysenv.h](..\ntddsysenv\index.md)
+ * [ntimage.h](..\ntimage\index.md)
  * [ntintsafe.h](..\ntintsafe\index.md)
  * [ntnls.h](..\ntnls\index.md)
  * [ntpoapi.h](..\ntpoapi\index.md)
  * [ntstrsafe.h](..\ntstrsafe\index.md)
  * [pcivirt.h](..\pcivirt\index.md)
  * [pep_x.h](..\pep_x\index.md)
+ * [pepevents.h](..\pepevents\index.md)
  * [pepfx.h](..\pepfx\index.md)
  * [poclass.h](..\poclass\index.md)
  * [procgrp.h](..\procgrp\index.md)
@@ -1183,6 +1186,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [TmRollbackTransaction function](..\wdm\nf-wdm-tmrollbacktransaction.md) | The TmRollbackTransaction routine initiates a rollback operation for a specified transaction. |
 | [TmSinglePhaseReject function](..\wdm\nf-wdm-tmsinglephasereject.md) | The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment. |
 | [VslCreateSecureSection function](..\wdm\nf-wdm-vslcreatesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
+| [VslDeleteSecureSection function](..\wdm\nf-wdm-vsldeletesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
 | [WRITE_PORT_BUFFER_UCHAR function](..\wdm\nf-wdm-write_port_buffer_uchar.md) | The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port. |
 | [WRITE_PORT_BUFFER_ULONG function](..\wdm\nf-wdm-write_port_buffer_ulong.md) | The WRITE_PORT_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified port address. |
 | [WRITE_PORT_BUFFER_USHORT function](..\wdm\nf-wdm-write_port_buffer_ushort.md) | The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address. |

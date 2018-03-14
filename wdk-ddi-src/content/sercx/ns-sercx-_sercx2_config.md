@@ -144,35 +144,7 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_fileopen.md">EvtSerCx2FileOpen</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a>
 
 
 
@@ -180,7 +152,31 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitmask</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_fileopen.md">EvtSerCx2FileOpen</a>
 
 
 
@@ -188,7 +184,11 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a>
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
 
 

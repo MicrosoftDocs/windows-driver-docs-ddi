@@ -7,7 +7,7 @@ old-location: image\istidevice_lockdevice.htm
 old-project: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], LockDevice method, IStiDevice::LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices], IStiDevice interface, LockDevice,IStiDevice.LockDevice, image.istidevice_lockdevice, sti/IStiDevice::LockDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

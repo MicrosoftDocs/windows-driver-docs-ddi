@@ -123,11 +123,11 @@ You can call <b>EtwWriteTransfer</b> at any IRQL. However, when IRQL is greater 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
-
-
-
 <a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
 
 
 

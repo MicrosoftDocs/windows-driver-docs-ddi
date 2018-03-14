@@ -80,12 +80,17 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 [in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
 
 
-#### - FirstElement
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementOffset
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
+
+
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
@@ -95,22 +100,17 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 [in] The number of elements in the buffer. 
 
 
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
 
 
 

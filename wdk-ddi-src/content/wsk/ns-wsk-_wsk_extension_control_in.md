@@ -7,7 +7,7 @@ old-location: netvista\wsk_extension_control_in.htm
 old-project: netvista
 ms.assetid: d04f4c24-15a5-490a-aada-af1050f727d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, wsk/PWSK_EXTENSION_CONTROL_IN, wsk/WSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
 
 
 
@@ -117,7 +117,7 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
+<a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
 
 
 
@@ -125,5 +125,5 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_EXTENSION_CONTROL_IN structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_EXTENSION_CONTROL_IN structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

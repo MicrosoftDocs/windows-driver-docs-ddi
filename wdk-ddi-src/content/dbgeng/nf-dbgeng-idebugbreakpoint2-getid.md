@@ -7,7 +7,7 @@ old-location: debugger\getid.htm
 old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId method [Windows Debugging], GetId method [Windows Debugging], IDebugBreakpoint interface, GetId method [Windows Debugging], IDebugBreakpoint2 interface, GetId,IDebugBreakpoint2.GetId, IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetId method, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

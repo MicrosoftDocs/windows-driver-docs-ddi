@@ -130,11 +130,11 @@ For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the 
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
-
-
-
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
+
+
+
+<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
 
 
 

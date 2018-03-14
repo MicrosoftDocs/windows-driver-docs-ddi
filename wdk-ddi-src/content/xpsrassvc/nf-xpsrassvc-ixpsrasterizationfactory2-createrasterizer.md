@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -164,6 +164,12 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 
 
+#### - **ppIXpsRasterizer [out, optional]
+
+This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+
+
+
 #### - *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
@@ -177,12 +183,6 @@ Dots per inch which is applied to x dimension of the rasterized output bitmap. T
 #### - dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
-
-
-#### - **ppIXpsRasterizer [out, optional]
-
-This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
-
 
 
 ## -returns

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILACCESSTECHNOLOGY
 title: RILACCESSTECHNOLOGY
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilaccesstechnology_2.htm
+old-location: netvista\rilaccesstechnology.htm
 old-project: netvista
-ms.assetid: e0bcbc0c-8783-43b2-a4af-3dad4aaff142
+ms.assetid: 28363041-4adc-4348-a1a5-2b9c11750286
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology_2, rilapitypes/RILACCESSTECHNOLOGY"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology, ntddrilapitypes/RILACCESSTECHNOLOGY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILACCESSTECHNOLOGY
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -98,11 +98,11 @@ typedef struct _RILACCESSTECHNOLOGY {
 #### - dwGsmKind
 
 
-#### - dwUmtsKind
+#### - dwLteKind
 
 
 #### - dwTdscdmaKind
 
 
-#### - dwLteKind
+#### - dwUmtsKind
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -98,7 +98,11 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -106,7 +110,7 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 
 
@@ -114,11 +118,7 @@ This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">
 
 
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
-
-
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 
 

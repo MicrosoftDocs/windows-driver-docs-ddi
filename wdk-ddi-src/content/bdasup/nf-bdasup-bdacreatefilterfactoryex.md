@@ -133,23 +133,7 @@ A BDA minidriver calls <b>BdaCreateFilterFactoryEx</b> rather than the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
-
-
-
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 
 
@@ -161,11 +145,27 @@ A BDA minidriver calls <b>BdaCreateFilterFactoryEx</b> rather than the <a href="
 
 
 
+<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 

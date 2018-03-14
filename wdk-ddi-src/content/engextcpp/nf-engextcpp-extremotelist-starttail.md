@@ -7,7 +7,7 @@ old-location: debugger\extremotelist_starttail.htm
 old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, ExtRemoteList::StartTail, StartTail method [Windows Debugging], StartTail method [Windows Debugging], ExtRemoteList class, StartTail,ExtRemoteList.StartTail, debugger.extremotelist_starttail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

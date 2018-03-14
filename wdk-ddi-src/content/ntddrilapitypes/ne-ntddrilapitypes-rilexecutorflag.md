@@ -7,13 +7,13 @@ old-location: netvista\rilexecutorflag.htm
 old-project: netvista
 ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag, ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

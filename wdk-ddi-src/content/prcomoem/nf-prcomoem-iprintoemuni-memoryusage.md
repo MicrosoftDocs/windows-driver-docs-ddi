@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -168,7 +168,7 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -176,11 +176,11 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

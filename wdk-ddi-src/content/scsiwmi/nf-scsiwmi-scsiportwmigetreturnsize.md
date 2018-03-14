@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: scsiwmi.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -88,11 +88,11 @@ A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value 
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
-
-
-
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 

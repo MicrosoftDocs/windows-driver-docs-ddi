@@ -46,11 +46,6 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 # IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -516,11 +511,11 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

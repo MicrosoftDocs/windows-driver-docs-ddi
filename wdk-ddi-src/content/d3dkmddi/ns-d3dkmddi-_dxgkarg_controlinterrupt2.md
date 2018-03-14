@@ -75,14 +75,14 @@ typedef struct _DXGKARG_CONTROLINTERRUPT2 {
 
 
 
-#### - InterruptState
-
-Indicates whether  interrupts are enabled for the driver.
-
-
 #### - CrtcVsyncState
 
 Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
+
+
+#### - InterruptState
+
+Indicates whether  interrupts are enabled for the driver.
 
 
 ## -see-also

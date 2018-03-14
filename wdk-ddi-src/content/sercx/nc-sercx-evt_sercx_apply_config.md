@@ -254,11 +254,11 @@ The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
 
 
 

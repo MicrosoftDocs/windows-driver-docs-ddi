@@ -150,11 +150,11 @@ The <b>pBufferDesc</b> member points to an array of one or more <a href="..\d3d1
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1.md">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1.md">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>
 
 
 

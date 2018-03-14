@@ -112,12 +112,12 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the <a href="..\minitape\ns-minitape-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
+The length, in bytes, for all  of the <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
 
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of <a href="..\minitape\ns-minitape-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
+An array of <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
 
 
 ## -remarks
@@ -131,11 +131,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+<a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
 
 
-<a href="..\minitape\ns-minitape-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+<a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
 
 
 

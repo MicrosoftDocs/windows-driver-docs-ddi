@@ -426,15 +426,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 
 
@@ -442,19 +434,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -462,11 +442,35 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
 
 
 
@@ -478,11 +482,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
 
 
 

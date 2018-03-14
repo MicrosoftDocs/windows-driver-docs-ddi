@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<DISPATCH_LEVEL"
 topic_type:
@@ -109,6 +109,10 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
 
@@ -118,10 +122,6 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 
 

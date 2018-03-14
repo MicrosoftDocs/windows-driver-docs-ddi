@@ -120,11 +120,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a>
 
 
 

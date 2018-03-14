@@ -214,11 +214,11 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
 
 
 

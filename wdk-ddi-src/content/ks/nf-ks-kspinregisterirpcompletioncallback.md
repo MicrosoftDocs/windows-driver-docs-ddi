@@ -105,15 +105,15 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
 
 
 
 <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

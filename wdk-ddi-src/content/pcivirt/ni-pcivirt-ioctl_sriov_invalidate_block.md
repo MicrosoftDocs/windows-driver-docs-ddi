@@ -46,11 +46,6 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 # IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 

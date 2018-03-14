@@ -112,14 +112,6 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
@@ -129,6 +121,14 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 
 <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 

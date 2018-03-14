@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILREADMSGPARAMS
 title: RILREADMSGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilreadmsgparams_2.htm
+old-location: netvista\rilreadmsgparams.htm
 old-project: netvista
-ms.assetid: 2b8ee9c8-3945-4350-84dd-4709f162c381
+ms.assetid: feeabcd2-659f-4a87-abdd-cfbf89589c48
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadmsgparams_2, rilapitypes/RILREADMSGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadmsgparams, ntddrilapitypes/RILREADMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREADMSGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

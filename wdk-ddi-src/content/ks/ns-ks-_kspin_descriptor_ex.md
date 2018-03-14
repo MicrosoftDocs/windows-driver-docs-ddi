@@ -262,11 +262,7 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -274,7 +270,11 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 

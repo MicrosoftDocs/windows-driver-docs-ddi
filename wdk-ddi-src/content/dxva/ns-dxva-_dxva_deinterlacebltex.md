@@ -135,19 +135,19 @@ When a single frame is being created from one field in a sample, as defined in t
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
-
-
-
-<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 
 <a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+
+
+
+<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_dial_v1.htm
 old-project: netvista
 ms.assetid: 8d4967fc-bcb7-4770-92a8-aac9ef13085b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_Dial_V1, RIL_Dial_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_dial_v1, rilapi/RIL_Dial_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

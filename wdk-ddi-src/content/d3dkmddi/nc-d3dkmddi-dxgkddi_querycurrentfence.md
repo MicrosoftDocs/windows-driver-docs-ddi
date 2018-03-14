@@ -143,11 +143,11 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querycurrentfence.md">DXGKARG_QUERYCURRENTFENCE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -155,11 +155,11 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querycurrentfence.md">DXGKARG_QUERYCURRENTFENCE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
 
 

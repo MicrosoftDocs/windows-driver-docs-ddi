@@ -98,15 +98,11 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetswappedbuffermdladdress.md">FltGetSwappedBufferMdlAddress</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
@@ -114,7 +110,11 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetswappedbuffermdladdress.md">FltGetSwappedBufferMdlAddress</a>
 
 
 

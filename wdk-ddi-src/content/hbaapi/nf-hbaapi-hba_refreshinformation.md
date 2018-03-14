@@ -90,11 +90,11 @@ None
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_refreshadapterconfiguration.md">HBA_RefreshAdapterConfiguration</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_refreshadapterconfiguration.md">HBA_RefreshAdapterConfiguration</a>
 
 
 

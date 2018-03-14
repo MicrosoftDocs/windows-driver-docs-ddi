@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILEXECUTORFOCUSSTATE
 title: RILEXECUTORFOCUSSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilexecutorfocusstate_2.htm
+old-location: netvista\rilexecutorfocusstate.htm
 old-project: netvista
-ms.assetid: d462092c-e40f-4685-974e-3fb31cbafa62
+ms.assetid: 74fc88c0-3edf-4831-a03b-4ace6ca2ec04
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorfocusstate_2, rilapitypes/RILEXECUTORFOCUSSTATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorfocusstate, ntddrilapitypes/RILEXECUTORFOCUSSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEXECUTORFOCUSSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,10 +58,10 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILEXECUTORFOCUSSTATE {
-  DWORD                   cbSize;
-  DWORD                   dwParams;
-  DWORD                   dwNumberOfExecutors;
-  BOOL [MAXNUM_EXECUTORS] fFocusStates;
+  DWORD    cbSize;
+  DWORD    dwParams;
+  DWORD    dwNumberOfExecutors;
+  BOOL [2] fFocusStates;
 } RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE;
 ````
 

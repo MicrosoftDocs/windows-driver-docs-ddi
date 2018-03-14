@@ -13,12 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, PCI, Driver test tools, Installable file system, Benchmark, Windows Driver Framework, Battery. For more information, see
+This header is used by Windows kernel, Installable file system, Driver test tools, PCI, Windows Driver Framework, Benchmark, Battery. For more information, see
 - [Windows kernel](../_kernel/index.md)
-- [PCI](../_PCI/index.md)
-- [Driver test tools](../_devtest/index.md)
 - [Installable file system](../_ifsk/index.md)
-- [Benchmark](../_Benchmark/index.md)
+- [Driver test tools](../_devtest/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
 - [Battery](../_battery/index.md)
 
@@ -708,6 +706,7 @@ Wdm.h contain these programming interfaces:
 | [TmRollbackTransaction function](nf-wdm-tmrollbacktransaction.md) | The TmRollbackTransaction routine initiates a rollback operation for a specified transaction. |
 | [TmSinglePhaseReject function](nf-wdm-tmsinglephasereject.md) | The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment. |
 | [VslCreateSecureSection function](nf-wdm-vslcreatesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
+| [VslDeleteSecureSection function](nf-wdm-vsldeletesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
 | [WRITE_PORT_BUFFER_UCHAR function](nf-wdm-write_port_buffer_uchar.md) | The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port. |
 | [WRITE_PORT_BUFFER_ULONG function](nf-wdm-write_port_buffer_ulong.md) | The WRITE_PORT_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified port address. |
 | [WRITE_PORT_BUFFER_USHORT function](nf-wdm-write_port_buffer_ushort.md) | The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address. |

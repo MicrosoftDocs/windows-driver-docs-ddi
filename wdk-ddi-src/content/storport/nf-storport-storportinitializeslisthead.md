@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -142,7 +142,11 @@ When memory for the list head is freed, any deallocation code must account for t
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 
@@ -150,11 +154,7 @@ When memory for the list head is freed, any deallocation code must account for t
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
 
 
 

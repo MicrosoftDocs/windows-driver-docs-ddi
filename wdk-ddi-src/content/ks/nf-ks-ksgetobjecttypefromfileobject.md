@@ -88,7 +88,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 
 
-<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
+<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
 
 
 
@@ -96,7 +96,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
+<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
 
 
 

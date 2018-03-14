@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -127,11 +127,11 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
-
-
-
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
 
 

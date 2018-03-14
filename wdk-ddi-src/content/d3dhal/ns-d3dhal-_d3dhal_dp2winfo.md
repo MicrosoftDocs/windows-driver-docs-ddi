@@ -93,7 +93,7 @@ Video adapters that do not support this feature should ignore and skip over thes
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_WINFO
 
 
 
@@ -101,7 +101,7 @@ Video adapters that do not support this feature should ignore and skip over thes
 
 
 
-D3DDP2OP_WINFO
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

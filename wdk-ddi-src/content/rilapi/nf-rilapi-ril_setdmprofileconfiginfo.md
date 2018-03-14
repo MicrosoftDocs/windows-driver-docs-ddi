@@ -7,7 +7,7 @@ old-location: netvista\ril_setdmprofileconfiginfo.htm
 old-project: netvista
 ms.assetid: 4d2ab950-a045-4b5a-be9b-0b80c442e63d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_setdmprofileconfiginfo, rilapi/RIL_SetDMProfileConfigInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

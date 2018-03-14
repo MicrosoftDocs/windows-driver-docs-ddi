@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -154,7 +154,7 @@ The work item was successfully queued.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 
@@ -162,7 +162,7 @@ The work item was successfully queued.
 
 
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
 
 

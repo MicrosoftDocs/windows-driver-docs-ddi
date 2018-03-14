@@ -102,15 +102,11 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
 
 
 
@@ -119,6 +115,10 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 
 <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
 
 
 

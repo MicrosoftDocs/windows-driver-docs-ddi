@@ -16,6 +16,8 @@ Overview of the Windows Driver Framework technology.
 
 To develop Windows Driver Framework, you need these headers:
 
+ * [wdf.h](..\wdf\index.md)
+ * [wdfassert.h](..\wdfassert\index.md)
  * [wdfchildlist.h](..\wdfchildlist\index.md)
  * [wdfcollection.h](..\wdfcollection\index.md)
  * [wdfcommonbuffer.h](..\wdfcommonbuffer\index.md)
@@ -30,6 +32,7 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfdriver.h](..\wdfdriver\index.md)
  * [wdffdo.h](..\wdffdo\index.md)
  * [wdffileobject.h](..\wdffileobject\index.md)
+ * [wdffuncenum.h](..\wdffuncenum\index.md)
  * [wdfhwaccess.h](..\wdfhwaccess\index.md)
  * [wdfinstaller.h](..\wdfinstaller\index.md)
  * [wdfinterrupt.h](..\wdfinterrupt\index.md)

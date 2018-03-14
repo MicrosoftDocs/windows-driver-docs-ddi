@@ -113,7 +113,7 @@ A vendor-supplied miniport driver that supports the channel interface must imple
 
 <ol>
 <li>
-While in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
+While in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
 
 </li>
 <li>
@@ -130,11 +130,11 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
+
+
+
+<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
 
 
 

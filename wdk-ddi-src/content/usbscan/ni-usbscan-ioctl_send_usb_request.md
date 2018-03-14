@@ -7,7 +7,7 @@ old-location: image\ioctl_send_usb_request.htm
 old-project: image
 ms.assetid: 27e22a21-cd89-43e8-8ce1-448c0f4c4d78
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_SEND_USB_REQUEST, IOCTL_SEND_USB_REQUEST control code [Imaging Devices], image.ioctl_send_usb_request, stifnc_2532cbfa-8373-4666-8a87-fac7923513bd.xml, usbscan/IOCTL_SEND_USB_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,11 +46,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_SEND_USB_REQUEST IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

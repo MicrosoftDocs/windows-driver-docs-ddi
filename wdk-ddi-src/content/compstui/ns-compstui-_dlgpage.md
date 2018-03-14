@@ -49,7 +49,7 @@ req.typenames: DLGPAGE, *PDLGPAGE
 ## -description
 
 
-The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function. The structure's address is included in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
+The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function. The structure's address is included in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
 
 
 ## -syntax

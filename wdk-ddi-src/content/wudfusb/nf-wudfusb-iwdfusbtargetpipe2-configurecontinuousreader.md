@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfusb.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -261,15 +261,15 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 
@@ -277,11 +277,11 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
 
 
@@ -289,7 +289,7 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
 
 

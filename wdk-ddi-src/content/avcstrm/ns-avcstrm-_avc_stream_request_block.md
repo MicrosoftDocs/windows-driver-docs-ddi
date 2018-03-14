@@ -198,15 +198,7 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
-
-
-
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_buffer_struct.md">AVCSTRM_BUFFER_STRUCT</a>
 
 
 
@@ -214,27 +206,7 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
 <a href="..\avcstrm\ns-avcstrm-_avcstrm_open_struct.md">AVCSTRM_OPEN_STRUCT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
 
 
 
@@ -242,11 +214,39 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_avcstrm_buffer_struct.md">AVCSTRM_BUFFER_STRUCT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
 
 
 

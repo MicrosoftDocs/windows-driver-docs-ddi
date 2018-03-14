@@ -17,6 +17,7 @@ Overview of the Serports technology.
 To develop Serports, you need these headers:
 
  * [sercx.h](..\sercx\index.md)
+ * [sercxfuncenum.h](..\sercxfuncenum\index.md)
 
 
 

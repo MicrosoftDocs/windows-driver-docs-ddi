@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by Storage, Windows kernel. For more information, see
-- [Storage](../_storage/index.md)
+This header is used by Windows kernel, Storage. For more information, see
 - [Windows kernel](../_kernel/index.md)
+- [Storage](../_storage/index.md)
 
 Storport.h contain these programming interfaces:
 

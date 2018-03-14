@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSYSTEMSELECTIONPREFS_V1
 title: RILSYSTEMSELECTIONPREFS_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemselectionprefs_v1_2.htm
+old-location: netvista\rilsystemselectionprefs_v1.htm
 old-project: netvista
-ms.assetid: 19af0039-a2dd-49a4-ad93-1858288d00cd
+ms.assetid: a2ba47e6-9dec-46b4-ac8b-a863345f228f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1_2, rilapitypes/RILSYSTEMSELECTIONPREFS_V1"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMSELECTIONPREFS_V1
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

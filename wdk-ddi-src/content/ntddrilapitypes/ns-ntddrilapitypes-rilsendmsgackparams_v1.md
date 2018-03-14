@@ -7,13 +7,13 @@ old-location: netvista\rilsendmsgackparams_v1.htm
 old-project: netvista
 ms.assetid: 96f1e6c2-f2cc-44f0-af9c-4a17ab22bdf4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v1, ntddrilapitypes/RILSENDMSGACKPARAMS_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

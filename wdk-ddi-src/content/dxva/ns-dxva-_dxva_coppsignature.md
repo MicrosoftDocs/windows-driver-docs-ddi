@@ -103,11 +103,11 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539646">COPPKeyExchange</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539646">COPPKeyExchange</a>
 
 
 

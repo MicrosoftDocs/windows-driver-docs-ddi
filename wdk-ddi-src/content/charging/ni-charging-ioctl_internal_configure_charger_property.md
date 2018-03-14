@@ -46,11 +46,6 @@ req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 # IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

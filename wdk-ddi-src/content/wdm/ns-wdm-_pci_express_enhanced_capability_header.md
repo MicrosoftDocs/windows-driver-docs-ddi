@@ -147,56 +147,6 @@ The version of the extended capability structure. This member should be set to o
 The offset in PCIe device configuration space to the next PCIe capability structure in the linked list of capabilities. If this is the last PCIe capability structure in the list, this member is set to zero.
 
 
-##### - CapabilityID.PCI_EXPRESS_ADVANCED_ERROR_REPORTING_CAP_ID
-
-Advanced error reporting capability
-
-
-##### - CapabilityID.PCI_EXPRESS_VIRTUAL_CHANNEL_CAP_ID
-
-Virtual channel capability
-
-
-##### - CapabilityID.PCI_EXPRESS_DEVICE_SERIAL_NUMBER_CAP_ID
-
-Device serial number capability
-
-
-##### - CapabilityID.PCI_EXPRESS_POWER_BUDGETING_CAP_ID
-
-Power budgeting capability
-
-
-##### - CapabilityID.PCI_EXPRESS_RC_LINK_DECLARATION_CAP_ID
-
-Root complex link declaration capability
-
-
-##### - CapabilityID.PCI_EXPRESS_RC_INTERNAL_LINK_CONTROL_CAP_ID
-
-Root complex internal link control capability
-
-
-##### - CapabilityID.PCI_EXPRESS_RC_EVENT_COLLECTOR_ENDPOINT_ASSOCIATION_CAP_ID
-
-Root complex event collector endpoint association capability
-
-
-##### - CapabilityID.PCI_EXPRESS_MFVC_CAP_ID
-
-Multi-function virtual channel capability
-
-
-##### - CapabilityID.PCI_EXPRESS_VC_AND_MFVC_CAP_ID
-
-Virtual channel and multi-function virtual channel capability
-
-
-##### - CapabilityID.PCI_EXPRESS_RCRB_HEADER_CAP_ID
-
-Root complex register block header capability
-
-
 ## -remarks
 
 
@@ -210,15 +160,15 @@ A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every e
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

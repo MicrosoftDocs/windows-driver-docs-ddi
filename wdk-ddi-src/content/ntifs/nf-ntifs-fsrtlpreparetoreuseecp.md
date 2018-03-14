@@ -96,14 +96,6 @@ Within a file system minifilter driver, use <a href="..\fltkernel\nf-fltkernel-f
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveextracreateparameter.md">FsRtlRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlisecpacknowledged.md">FsRtlIsEcpAcknowledged</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltpreparetoreuseecp.md">FltPrepareToReuseEcp</a>
 
 
@@ -112,7 +104,15 @@ Within a file system minifilter driver, use <a href="..\fltkernel\nf-fltkernel-f
 
 
 
+<a href="..\ntifs\nf-ntifs-fsrtlisecpacknowledged.md">FsRtlIsEcpAcknowledged</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveextracreateparameter.md">FsRtlRemoveExtraCreateParameter</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILNITZINFO_V1
 title: RILNITZINFO_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilnitzinfo_v1_2.htm
+old-location: netvista\rilnitzinfo_v1.htm
 old-project: netvista
-ms.assetid: ded74c48-b9a8-4ee4-8df9-3dc99892d41d
+ms.assetid: 88664809-b5ce-466a-894b-529443cb1b0e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILNITZINFO_V1, RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1_2, rilapitypes/RILNITZINFO_V1"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILNITZINFO_V1, RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1, ntddrilapitypes/RILNITZINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILNITZINFO_V1
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -7,7 +7,7 @@ old-location: debugger\setoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 2226804c-dbdd-4855-9ba5-7c1959941e59
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugClient interface [Windows Debugging], SetOutputCallbacks method, IDebugClient2, IDebugClient2 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient2::SetOutputCallbacks, IDebugClient3 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient3::SetOutputCallbacks, IDebugClient4 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient4::SetOutputCallbacks, IDebugClient5 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient5::SetOutputCallbacks, IDebugClient::SetOutputCallbacks, IDebugClient_b1da4bc1-b368-475e-bd13-021358f9d234.xml, SetOutputCallbacks method [Windows Debugging], SetOutputCallbacks method [Windows Debugging], IDebugClient interface, SetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, SetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, SetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, SetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, SetOutputCallbacks,IDebugClient2.SetOutputCallbacks, dbgeng/IDebugClient2::SetOutputCallbacks, dbgeng/IDebugClient3::SetOutputCallbacks, dbgeng/IDebugClient4::SetOutputCallbacks, dbgeng/IDebugClient5::SetOutputCallbacks, dbgeng/IDebugClient::SetOutputCallbacks, debugger.setoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -119,19 +119,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -143,7 +139,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 
@@ -151,5 +151,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetOutputCallbacks method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetOutputCallbacks method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

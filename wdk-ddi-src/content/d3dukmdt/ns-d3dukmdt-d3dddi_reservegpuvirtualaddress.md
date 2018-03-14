@@ -126,14 +126,14 @@ Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 [out] The reserved virtual address.
 
 
-#### - hPagingQueue
+#### - DriverProtection
 
-Paging queue to synchronize the operation on.
+Specifies the driver-specific protection
 
 
-#### - hAdapter
+#### - PagingFenceValue
 
-DirectX graphics adapter handle. 
+Paging fence identifier for synchronization
 
 
 #### - ReservationType
@@ -146,24 +146,24 @@ Specifies the virtual address reservation type.
 This member is reserved and should be set to zero.
 
 
-#### - DriverProtection
-
-Specifies the driver-specific protection
-
-
 #### - Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
 #### - Reserved2
 
 This member is reserved and should be set to zero.
+
+
+#### - hAdapter
+
+DirectX graphics adapter handle. 
+
+
+#### - hPagingQueue
+
+Paging queue to synchronize the operation on.
 
 
 ## -see-also

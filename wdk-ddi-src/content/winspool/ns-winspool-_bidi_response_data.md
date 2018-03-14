@@ -104,11 +104,11 @@ When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
-
-
-
 <a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
 
 
 

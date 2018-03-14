@@ -140,6 +140,10 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
+
+
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
@@ -149,10 +153,6 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
 
 
 

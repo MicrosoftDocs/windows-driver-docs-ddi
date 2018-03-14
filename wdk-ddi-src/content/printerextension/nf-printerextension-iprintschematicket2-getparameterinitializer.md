@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -98,11 +98,11 @@ The <b>GetParameterInitializer</b> method returns an <b>HRESULT</b> value. If th
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
 
 
 

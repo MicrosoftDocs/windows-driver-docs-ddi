@@ -98,6 +98,10 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a>
 
 
@@ -107,10 +111,6 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a>
 
 
 

@@ -1983,6 +1983,7 @@
 ### [TmRollbackTransaction function](../wdm/nf-wdm-tmrollbacktransaction.md)
 ### [TmSinglePhaseReject function](../wdm/nf-wdm-tmsinglephasereject.md)
 ### [VslCreateSecureSection function](../wdm/nf-wdm-vslcreatesecuresection.md)
+### [VslDeleteSecureSection function](../wdm/nf-wdm-vsldeletesecuresection.md)
 ### [WRITE_PORT_BUFFER_UCHAR function](../wdm/nf-wdm-write_port_buffer_uchar.md)
 ### [WRITE_PORT_BUFFER_ULONG function](../wdm/nf-wdm-write_port_buffer_ulong.md)
 ### [WRITE_PORT_BUFFER_USHORT function](../wdm/nf-wdm-write_port_buffer_ushort.md)

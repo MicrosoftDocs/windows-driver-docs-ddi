@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -108,7 +108,7 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
 
 
@@ -116,11 +116,11 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 
 
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
 
 

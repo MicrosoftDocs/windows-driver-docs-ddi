@@ -87,11 +87,11 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 ## -see-also
 
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-
-
-
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 
 
 
@@ -99,11 +99,11 @@ Specifies the particular EDID segment. Currently, this member is meaningful only
 
 
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
 <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 
 
 

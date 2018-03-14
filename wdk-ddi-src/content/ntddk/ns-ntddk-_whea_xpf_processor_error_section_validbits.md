@@ -84,9 +84,9 @@ typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
 A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union.
 
 
-#### - LocalAPICId
+#### - ContextInfoCount
 
-A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
+The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
 #### - CpuId
@@ -94,14 +94,14 @@ A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_P
 A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
 
 
+#### - LocalAPICId
+
+A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
+
+
 #### - ProcInfoCount
 
 The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
-
-
-#### - ContextInfoCount
-
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
 #### - Reserved
@@ -120,7 +120,7 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a hr
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
+<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
@@ -128,7 +128,7 @@ A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a hr
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
+<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
 
 

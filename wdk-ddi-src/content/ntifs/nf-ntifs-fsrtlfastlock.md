@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -136,6 +136,26 @@ TBD
 
 
 
+#### - AlreadySynchronized [in]
+
+This parameter is obsolete, but is retained for compatibility with legacy drivers.
+
+
+#### - Context [in]
+
+Optional pointer to a context to use when releasing the byte-range lock. 
+
+
+#### - ExclusiveLock [in]
+
+Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
+
+
+#### - FailImmediately [in]
+
+Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
+
+
 #### - FileLock [in]
 
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
@@ -151,6 +171,16 @@ Pointer to the file object for the open file. The file object must have been cre
 Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
 
 
+#### - Iosb [out]
+
+Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
+
+
+#### - Key [in]
+
+The key to be assigned to the byte-range lock.
+
+
 #### - Length [in]
 
 Pointer to a variable that specifies the length in bytes of the range to be locked.
@@ -159,36 +189,6 @@ Pointer to a variable that specifies the length in bytes of the range to be lock
 #### - ProcessId [in]
 
 Pointer to the process ID for the process requesting the byte-range lock.
-
-
-#### - Key [in]
-
-The key to be assigned to the byte-range lock.
-
-
-#### - FailImmediately [in]
-
-Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
-
-
-#### - ExclusiveLock [in]
-
-Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
-
-
-#### - Iosb [out]
-
-Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
-
-
-#### - Context [in]
-
-Optional pointer to a context to use when releasing the byte-range lock. 
-
-
-#### - AlreadySynchronized [in]
-
-This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 
 ## -remarks

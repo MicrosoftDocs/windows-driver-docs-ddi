@@ -83,11 +83,11 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
 
 
 

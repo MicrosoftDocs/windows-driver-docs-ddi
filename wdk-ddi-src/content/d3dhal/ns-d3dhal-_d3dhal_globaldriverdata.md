@@ -113,10 +113,6 @@ The driver is responsible for allocating space for and setting all members of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
 
 
@@ -126,6 +122,10 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
 

@@ -109,11 +109,11 @@ See also <a href="https://msdn.microsoft.com/ba1c525b-26b0-4778-b58b-f4169cfb972
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
-
-
-
 <a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
+
+
+
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 

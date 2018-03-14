@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -139,11 +139,7 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
-
-
-
-<b>RxAcquireSharedFcbResourceInMRx</b>
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
@@ -151,7 +147,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
+
+
+
+<b>RxAcquireSharedFcbResourceInMRx</b>
 
 
 

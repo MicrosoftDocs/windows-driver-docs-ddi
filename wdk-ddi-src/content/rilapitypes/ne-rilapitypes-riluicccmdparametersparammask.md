@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILUICCCMDPARAMETERSPARAMMASK
 title: RILUICCCMDPARAMETERSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluicccmdparametersparammask_2.htm
+old-location: netvista\riluicccmdparametersparammask.htm
 old-project: netvista
-ms.assetid: 56b6b8e6-529d-4480-bce8-ae94d09d1643
+ms.assetid: 721ce7c3-070d-4486-aba8-9a6874721015
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILUICCCMDPARAMETERSPARAMMASK, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_PARAM2, RIL_PARAM_SCP_PARAM3, netvista.riluicccmdparametersparammask_2, rilapitypes/RILUICCCMDPARAMETERSPARAMMASK, rilapitypes/RIL_PARAM_SCP_ALL, rilapitypes/RIL_PARAM_SCP_PARAM1, rilapitypes/RIL_PARAM_SCP_PARAM2, rilapitypes/RIL_PARAM_SCP_PARAM3
+ms.date: 2/27/2018
+ms.keywords: RILUICCCMDPARAMETERSPARAMMASK, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_PARAM2, RIL_PARAM_SCP_PARAM3, netvista.riluicccmdparametersparammask, ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_ALL, ntddrilapitypes/RIL_PARAM_SCP_PARAM1, ntddrilapitypes/RIL_PARAM_SCP_PARAM2, ntddrilapitypes/RIL_PARAM_SCP_PARAM3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCCMDPARAMETERSPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

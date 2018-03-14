@@ -83,11 +83,11 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
 
 
 

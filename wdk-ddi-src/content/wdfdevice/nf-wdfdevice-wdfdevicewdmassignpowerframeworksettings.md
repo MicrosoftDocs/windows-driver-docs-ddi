@@ -188,11 +188,11 @@ status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &amp;poFxSettings);</p
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
+
+
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
-
-
-
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
 
 
 
@@ -200,7 +200,7 @@ status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &amp;poFxSettings);</p
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_power_framework_settings_init.md">WDF_POWER_FRAMEWORK_SETTINGS_INIT</a>
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
 
 
 

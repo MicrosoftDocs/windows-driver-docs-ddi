@@ -7,7 +7,7 @@ old-location: netvista\ril_deletephonebookentry.htm
 old-project: netvista
 ms.assetid: 110c542a-c98a-450d-b943-d8449dcac668
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_DeletePhonebookEntry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_deletephonebookentry, rilapi/RIL_DeletePhonebookEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

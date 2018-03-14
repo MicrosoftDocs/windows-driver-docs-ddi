@@ -7,7 +7,7 @@ old-location: image\istillimage_registerlaunchapplication.htm
 old-project: image
 ms.assetid: b76f2f3d-46ff-4a85-b3b2-1924946fa45d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], RegisterLaunchApplication method, IStillImageW::RegisterLaunchApplication, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices], IStillImageW interface, RegisterLaunchApplication,IStillImageW.RegisterLaunchApplication, image.istillimage_registerlaunchapplication, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

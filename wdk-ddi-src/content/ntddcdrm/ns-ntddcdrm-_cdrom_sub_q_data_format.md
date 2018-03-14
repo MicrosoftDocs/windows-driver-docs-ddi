@@ -113,7 +113,7 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
 
 
 
@@ -121,7 +121,7 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
 
 
 

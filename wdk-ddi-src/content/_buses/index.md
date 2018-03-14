@@ -16,6 +16,11 @@ Overview of the Buses technology.
 
 To develop Buses, you need these headers:
 
+ * [hubbusif.h](..\hubbusif\index.md)
+ * [kusbfnclasslib.h](..\kusbfnclasslib\index.md)
+ * [ucmcx.h](..\ucmcx\index.md)
+ * [ucmfuncenum.h](..\ucmfuncenum\index.md)
+ * [ucmglobals.h](..\ucmglobals\index.md)
  * [ucmmanager.h](..\ucmmanager\index.md)
  * [ucmtcpcidevice.h](..\ucmtcpcidevice\index.md)
  * [ucmtcpciglobals.h](..\ucmtcpciglobals\index.md)
@@ -26,6 +31,8 @@ To develop Buses, you need these headers:
  * [ucxcontroller.h](..\ucxcontroller\index.md)
  * [ucxendpoint.h](..\ucxendpoint\index.md)
  * [ucxusbdevice.h](..\ucxusbdevice\index.md)
+ * [udecxfuncenum.h](..\udecxfuncenum\index.md)
+ * [udecxtypes.h](..\udecxtypes\index.md)
  * [udecxurb.h](..\udecxurb\index.md)
  * [udecxusbdevice.h](..\udecxusbdevice\index.md)
  * [udecxusbendpoint.h](..\udecxusbendpoint\index.md)
@@ -33,7 +40,10 @@ To develop Buses, you need these headers:
  * [ufxbase.h](..\ufxbase\index.md)
  * [ufxclient.h](..\ufxclient\index.md)
  * [ufxproprietarycharger.h](..\ufxproprietarycharger\index.md)
+ * [urscx.h](..\urscx\index.md)
  * [ursdevice.h](..\ursdevice\index.md)
+ * [ursfuncenum.h](..\ursfuncenum\index.md)
+ * [ursglobals.h](..\ursglobals\index.md)
  * [urstypes.h](..\urstypes\index.md)
  * [usb.h](..\usb\index.md)
  * [usbbusif.h](..\usbbusif\index.md)
@@ -42,6 +52,7 @@ To develop Buses, you need these headers:
  * [usbfnbase.h](..\usbfnbase\index.md)
  * [usbfnioctl.h](..\usbfnioctl\index.md)
  * [usbioctl.h](..\usbioctl\index.md)
+ * [usbiodef.h](..\usbiodef\index.md)
  * [usbspec.h](..\usbspec\index.md)
 
 

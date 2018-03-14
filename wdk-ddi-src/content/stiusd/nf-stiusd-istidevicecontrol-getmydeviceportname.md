@@ -7,7 +7,7 @@ old-location: image\istidevicecontrol_getmydeviceportname.htm
 old-project: image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, GetMyDevicePortName,IStiDeviceControl.GetMyDevicePortName, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, stiusd/IStiDeviceControl::GetMyDevicePortName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

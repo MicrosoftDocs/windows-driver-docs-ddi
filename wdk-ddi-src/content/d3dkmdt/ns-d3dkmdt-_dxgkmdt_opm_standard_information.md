@@ -144,31 +144,7 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
 
 
 
@@ -176,11 +152,35 @@ Reserved. Must be set to zero.
 
 
 
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_bus_type_and_implementation.md">DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION</a>
 
 
 
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkdt_opm_dvi_characteristics.md">DXGKDT_OPM_DVI_CHARACTERISTICS</a>
 
 
 

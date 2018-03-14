@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILIMSSSTATUSPARAMMASK
 title: RILIMSSSTATUSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimssstatusparammask_2.htm
+old-location: netvista\rilimssstatusparammask.htm
 old-project: netvista
-ms.assetid: 0d5896e8-b85e-407c-8b3e-cc8ad95c2ab1
+ms.assetid: bc31d252-eb1d-492c-ae2b-c6c7a8509685
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILIMSSSTATUSPARAMMASK, RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask_2, rilapitypes/RILIMSSSTATUSPARAMMASK, rilapitypes/RIL_PARAM_IMSSTATUS_ALL, rilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, rilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, rilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, rilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, rilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE
+ms.date: 2/27/2018
+ms.keywords: RILIMSSSTATUSPARAMMASK, RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask, ntddrilapitypes/RILIMSSSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_IMSSTATUS_ALL, ntddrilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, ntddrilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSSSTATUSPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

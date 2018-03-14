@@ -99,7 +99,7 @@ The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
+<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
@@ -107,7 +107,7 @@ The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="..\ntddstor\ns-ntddstor-_device_dsm_offload_write_parameters.md">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
 
 
 

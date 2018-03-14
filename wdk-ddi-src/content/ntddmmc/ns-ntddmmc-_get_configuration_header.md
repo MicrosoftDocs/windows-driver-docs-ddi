@@ -92,7 +92,7 @@ Contains the feature data, beginning with the <a href="..\ntddmmc\ns-ntddmmc-_fe
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
 
 
 
@@ -104,7 +104,7 @@ Contains the feature data, beginning with the <a href="..\ntddmmc\ns-ntddmmc-_fe
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 

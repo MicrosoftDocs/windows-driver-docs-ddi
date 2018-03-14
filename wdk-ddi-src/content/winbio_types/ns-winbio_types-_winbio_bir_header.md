@@ -179,11 +179,11 @@ You can find more information about the fields of the standard biometric header 
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
-
-
-
 <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
+
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLMEDIAOFFERANSWERSET
 title: RILCALLMEDIAOFFERANSWERSET
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediaofferanswerset_2.htm
+old-location: netvista\rilcallmediaofferanswerset.htm
 old-project: netvista
-ms.assetid: 272e2bf5-9d84-407d-9126-41bcb4f43d91
+ms.assetid: 5d2f913e-10a3-4e96-a12f-5c4ea1dc061f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset_2, rilapitypes/RILCALLMEDIAOFFERANSWERSET"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset, ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERANSWERSET
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,10 +58,10 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILCALLMEDIAOFFERANSWERSET {
-  DWORD                                       cbSize;
-  RILCALLMEDIAOFFERANSWERTYPE                 dwType;
-  DWORD                                       dwNumberOfItems;
-  RILCALLMEDIAOFFERANSWER [MAXNUM_CALL_MEDIA] stOfferAnswer;
+  DWORD                        cbSize;
+  RILCALLMEDIAOFFERANSWERTYPE  dwType;
+  DWORD                        dwNumberOfItems;
+  RILCALLMEDIAOFFERANSWER [4]  stOfferAnswer;
 } RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET;
 ````
 

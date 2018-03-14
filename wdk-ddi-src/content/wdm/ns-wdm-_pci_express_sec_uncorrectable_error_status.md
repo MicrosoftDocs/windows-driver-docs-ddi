@@ -95,69 +95,9 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that a target abort on split completion has occurred.
-
-
-#### - MasterAbortOnSplitCompletion
-
-A single bit that indicates that a master abort on split completion has occurred.
-
-
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a target abort has been received.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that a master abort has been received.
-
-
-#### - RsvdZ
-
-Reserved for system use.
-
-
-#### - UnexpectedSplitCompletionError
-
-A single bit that indicates that an unexpected split completion error has occurred.
-
-
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that an uncorrectable split completion message data error has occurred.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that an uncorrectable data error has occurred.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that an uncorrectable attribute error has occurred.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that an uncorrectable address error has occurred.
-
-
 #### - DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that the delayed transaction discard timer has expired.
-
-
-#### - PERRAsserted
-
-A single bit that indicates that a PERR# assertion was detected.
-
-
-#### - SERRAsserted
-
-A single bit that indicates that a SERR# assertion was detected.
 
 
 #### - InternalBridgeError
@@ -165,9 +105,69 @@ A single bit that indicates that a SERR# assertion was detected.
 A single bit that indicates that an internal bridge error has occurred.
 
 
+#### - MasterAbortOnSplitCompletion
+
+A single bit that indicates that a master abort on split completion has occurred.
+
+
+#### - PERRAsserted
+
+A single bit that indicates that a PERR# assertion was detected.
+
+
+#### - ReceivedMasterAbort
+
+A single bit that indicates that a master abort has been received.
+
+
+#### - ReceivedTargetAbort
+
+A single bit that indicates that a target abort has been received.
+
+
 #### - Reserved
 
 Reserved for system use.
+
+
+#### - RsvdZ
+
+Reserved for system use.
+
+
+#### - SERRAsserted
+
+A single bit that indicates that a SERR# assertion was detected.
+
+
+#### - TargetAbortOnSplitCompletion
+
+A single bit that indicates that a target abort on split completion has occurred.
+
+
+#### - UncorrectableAddressError
+
+A single bit that indicates that an uncorrectable address error has occurred.
+
+
+#### - UncorrectableAttributeError
+
+A single bit that indicates that an uncorrectable attribute error has occurred.
+
+
+#### - UncorrectableDataError
+
+A single bit that indicates that an uncorrectable data error has occurred.
+
+
+#### - UncorrectableSplitCompletion
+
+A single bit that indicates that an uncorrectable split completion message data error has occurred.
+
+
+#### - UnexpectedSplitCompletionError
+
+A single bit that indicates that an unexpected split completion error has occurred.
 
 
 ## -remarks

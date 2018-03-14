@@ -175,11 +175,6 @@ Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
 Reserved. Do not use.
@@ -203,11 +198,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -215,7 +206,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
 
 
 

@@ -24,6 +24,8 @@ To develop Audio, you need these headers:
  * [keyworddetectoroemadapter.h](..\keyworddetectoroemadapter\index.md)
  * [ksmedia.h](..\ksmedia\index.md)
  * [portcls.h](..\portcls\index.md)
+ * [punknown.h](..\punknown\index.md)
+ * [unknown.h](..\unknown\index.md)
  * [usbsidebandaudio.h](..\usbsidebandaudio\index.md)
 
 For the programming guide, see [Audio](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio).

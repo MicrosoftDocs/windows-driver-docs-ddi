@@ -102,15 +102,15 @@ Microsoft supplies both libraries, so currently they return the same information
 
 ## -see-also
 
+<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_getwrapperlibraryattributes.md">HBA_GetWrapperLibraryAttributes</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
 
 
 

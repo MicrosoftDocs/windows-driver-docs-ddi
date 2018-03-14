@@ -49,7 +49,7 @@ req.typenames: D3DKMT_CREATEKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a> function creates. 
+The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex.md">D3DKMTCreateKeyedMutex</a> function creates. 
 
 
 ## -syntax
@@ -86,7 +86,7 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex.md">D3DKMTCreateKeyedMutex</a>
 
 
 

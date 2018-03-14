@@ -315,6 +315,14 @@ The type of BRB is specified in the
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
@@ -323,15 +331,7 @@ The type of BRB is specified in the
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

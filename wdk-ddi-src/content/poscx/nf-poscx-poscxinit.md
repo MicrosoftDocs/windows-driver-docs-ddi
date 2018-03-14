@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -92,11 +92,11 @@ An appropriate NTSTATUS error code that indicates success or failure of the init
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>
-
-
-
 <a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTES</a>
+
+
+
+<a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>
 
 
 

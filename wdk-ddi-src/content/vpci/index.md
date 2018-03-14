@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, PCI. For more information, see
-- [Windows kernel](../_kernel/index.md)
+This header is used by PCI, Windows kernel. For more information, see
 - [PCI](../_PCI/index.md)
+- [Windows kernel](../_kernel/index.md)
 
 Vpci.h contain these programming interfaces:
 

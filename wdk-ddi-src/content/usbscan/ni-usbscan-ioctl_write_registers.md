@@ -7,7 +7,7 @@ old-location: image\ioctl_write_registers.htm
 old-project: image
 ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,11 +46,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_WRITE_REGISTERS IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

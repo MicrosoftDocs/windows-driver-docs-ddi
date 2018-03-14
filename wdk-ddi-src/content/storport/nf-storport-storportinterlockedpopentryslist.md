@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -150,7 +150,7 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
 
 
@@ -158,11 +158,11 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 
 
+<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+
+
+
 <a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
-
-
-
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
 
 

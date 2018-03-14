@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -660,11 +660,11 @@ The <b>DrvDocumentEvent</b> function executes in the context of the user-mode ca
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
-
-
-
 <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
 
 
 

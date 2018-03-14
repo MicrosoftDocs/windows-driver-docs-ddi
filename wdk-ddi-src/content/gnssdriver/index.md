@@ -13,8 +13,8 @@ ms.topic: portal
 
 
 
-This header is used by Sensors. For more information, see
-- [Sensors](../_sensors/index.md)
+This header is used by gnss. For more information, see
+- [gnss](../_gnss/index.md)
 
 Gnssdriver.h contain these programming interfaces:
 

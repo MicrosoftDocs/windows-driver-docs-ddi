@@ -120,11 +120,11 @@ BRB_L2CA_PING is primarily used for debugging.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536617">BRB_L2CA_PING</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

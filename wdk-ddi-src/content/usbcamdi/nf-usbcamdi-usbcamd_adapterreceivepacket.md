@@ -114,11 +114,11 @@ This function can also be used by the minidriver to retrieve the device context 
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a>
-
-
-
 <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
+
+
+
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a>
 
 
 

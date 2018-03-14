@@ -120,11 +120,11 @@ The values in the <i>TargetId</i> and <i>Lun</i> parameters specify the device t
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
-
-
-
 <a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a>
+
+
+
+<a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
 
 
 

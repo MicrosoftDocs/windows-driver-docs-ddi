@@ -86,15 +86,15 @@ typedef struct _D3DKMT_WORKINGSETINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetflags.md">D3DKMT_WORKINGSETFLAGS</a>
 
 
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
 
 

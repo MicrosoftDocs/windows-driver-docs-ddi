@@ -107,14 +107,14 @@ Indicates, when <b>TRUE</b>, that the partition information has changed. When <b
 
 
 
-#### - Mbr
-
-Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_MBR.
-
-
 #### - Gpt
 
 Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_GPT.
+
+
+#### - Mbr
+
+Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_MBR.
 
 
 ## -remarks
@@ -128,11 +128,11 @@ This is the extended version of the partition information structure, PARTITION_I
 
 ## -see-also
 
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
-
-
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
 
 
 
@@ -140,7 +140,7 @@ This is the extended version of the partition information structure, PARTITION_I
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
 
 
 

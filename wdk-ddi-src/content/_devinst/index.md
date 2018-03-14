@@ -17,5 +17,6 @@ Overview of the Devinst technology.
 To develop Devinst, you need these headers:
 
  * [avc.h](..\avc\index.md)
+ * [devpropdef.h](..\devpropdef\index.md)
 
 

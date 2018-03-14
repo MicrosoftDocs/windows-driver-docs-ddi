@@ -120,11 +120,11 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
 
 
 

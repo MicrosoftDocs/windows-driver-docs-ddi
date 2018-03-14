@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Networking drivers for Windows Vista and later. For more information, see
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
+This header is used by NetAdapterCx client drivers. For more information, see
+- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
 
-Netreceivescaling.h contain these programming interfaces:
+Netreceivescaling.h contains these programming interfaces:
 
 
 ## Functions

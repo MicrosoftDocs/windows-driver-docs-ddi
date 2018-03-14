@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -80,22 +80,22 @@ HRESULT CreatePrintAsyncNotifyChannel(
 
 
 
-#### - uL [in]
-
-
-#### - pType [in]
-
-
 #### - filter [in]
-
-
-#### - style [in]
 
 
 #### - pCallback [in]
 
 
+#### - pType [in]
+
+
 #### - ppChannel [out]
+
+
+#### - style [in]
+
+
+#### - uL [in]
 
 
 ## -returns

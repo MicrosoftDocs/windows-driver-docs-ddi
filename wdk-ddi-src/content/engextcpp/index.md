@@ -71,6 +71,7 @@ Engextcpp.h contain these programming interfaces:
 | [ExtExtension::OnSessionInactive method](nf-engextcpp-extextension-onsessioninactive.md) | The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive. |
 | [ExtExtension::SetArg method](nf-engextcpp-extextension-setarg.md) | The SetArg method sets a named argument for the current extension command. |
 | [ExtExtension::SetArgStr method](nf-engextcpp-extextension-setargstr.md) | The SetArgStr method sets a named string argument for the current expression command. |
+| [ExtExtension::SetArgU64 method](nf-engextcpp-extextension-setargu64.md) | The SetArgU64 method sets a named expression argument for the current expression command. |
 | [ExtExtension::SetUnnamedArg method](nf-engextcpp-extextension-setunnamedarg.md) | The SetUnnamedArg method sets an unnamed argument for the current extension command. |
 | [ExtExtension::SetUnnamedArgStr method](nf-engextcpp-extextension-setunnamedargstr.md) | The SetUnnamedArgStr method sets an unnamed string argument for the current extension command. |
 | [ExtExtension::SetUnnamedArgU64 method](nf-engextcpp-extextension-setunnamedargu64.md) | The SetUnnamedArgU64 method sets the value of an unnamed expression argument for the current extension command. |

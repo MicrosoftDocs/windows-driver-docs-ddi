@@ -106,10 +106,6 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2C
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
 
 
@@ -119,6 +115,10 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2C
 
 
 <a href="..\sercx\nf-sercx-sercx2_custom_transmit_transaction_config_init.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_start.md">EvtSerCx2CustomTransmitTransactionStart</a>
 
 
 

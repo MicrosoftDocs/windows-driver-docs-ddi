@@ -116,11 +116,11 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -128,7 +128,7 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 
 

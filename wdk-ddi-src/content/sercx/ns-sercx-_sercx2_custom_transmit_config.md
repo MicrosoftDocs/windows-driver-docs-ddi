@@ -118,7 +118,11 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
 
 
 
@@ -126,11 +130,7 @@ The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransm
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 

@@ -118,11 +118,11 @@ The miniport driver should call <b>AtaPortReleaseQueueTag</b> to free allocated 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
-
-
-
 <a href="..\irb\nf-irb-ataportinitializequeuetag.md">AtaPortInitializeQueueTag</a>
+
+
+
+<a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
 
 
 

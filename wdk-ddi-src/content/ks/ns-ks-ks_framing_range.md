@@ -99,11 +99,11 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 
 
-<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
-
-
-
 <a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
 
 

@@ -127,7 +127,11 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
 
 
 
@@ -135,11 +139,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
 

@@ -110,11 +110,11 @@ The Microsoft Direct3D runtime calls the user-mode display driver's <i>SetStream
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -146,15 +146,15 @@ The <code>IPrintOemUI::DevMode</code> method must perform the operation indicate
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
 
 
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
 
 
 

@@ -144,11 +144,11 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 
@@ -164,11 +164,11 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 

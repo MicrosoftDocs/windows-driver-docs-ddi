@@ -46,11 +46,6 @@ req.typenames: PDO_TYPE
 # IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -93,14 +88,14 @@ The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>E
 
 
 
-#### -StructSize
-
-The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
-
-
 #### -BytesPerSector
 
 The size, in bytes, of a sector on the underlying storage device.
+
+
+#### -StructSize
+
+The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
 
 
 ### -output-buffer-length

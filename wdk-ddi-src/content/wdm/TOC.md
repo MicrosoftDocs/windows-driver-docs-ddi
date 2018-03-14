@@ -879,6 +879,7 @@
 ### [vDbgPrintEx function](../wdm/nf-wdm-vdbgprintex.md)
 ### [vDbgPrintExWithPrefix function](../wdm/nf-wdm-vdbgprintexwithprefix.md)
 ### [VslCreateSecureSection function](../wdm/nf-wdm-vslcreatesecuresection.md)
+### [VslDeleteSecureSection function](../wdm/nf-wdm-vsldeletesecuresection.md)
 ### [WmiQueryTraceInformation function](../wdm/nf-wdm-wmiquerytraceinformation.md)
 ### [WmiTraceMessage function](../wdm/nf-wdm-wmitracemessage.md)
 ### [WmiTraceMessageVa function](../wdm/nf-wdm-wmitracemessageva.md)

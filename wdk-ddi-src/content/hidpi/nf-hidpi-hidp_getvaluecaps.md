@@ -145,7 +145,15 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetButtonCaps</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 
@@ -153,15 +161,7 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetButtonCaps</a>
-
-
-
-<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 
 

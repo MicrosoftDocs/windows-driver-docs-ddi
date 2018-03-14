@@ -13,13 +13,12 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, PCI, Windows Hardware Error Architecture (WHEA), Installable file system, Storage, Driver test tools. For more information, see
-- [Windows kernel](../_kernel/index.md)
-- [PCI](../_PCI/index.md)
-- [Windows Hardware Error Architecture (WHEA)](../_whea/index.md)
+This header is used by Windows Hardware Error Architecture (WHEA), Installable file system, Windows kernel, PCI, Driver test tools, Storage. For more information, see
+
 - [Installable file system](../_ifsk/index.md)
-- [Storage](../_storage/index.md)
+- [Windows kernel](../_kernel/index.md)
 - [Driver test tools](../_devtest/index.md)
+- [Storage](../_storage/index.md)
 
 Ntddk.h contain these programming interfaces:
 

@@ -16,6 +16,7 @@ Overview of the Streaming media devices technology.
 
 To develop Streaming media devices, you need these headers:
 
+ * [amtvuids.h](..\amtvuids\index.md)
  * [avcstrm.h](..\avcstrm\index.md)
  * [bdamedia.h](..\bdamedia\index.md)
  * [bdasup.h](..\bdasup\index.md)
@@ -27,6 +28,7 @@ To develop Streaming media devices, you need these headers:
  * [ksproxy.h](..\ksproxy\index.md)
  * [lamp.h](..\lamp\index.md)
  * [msviddrv.h](..\msviddrv\index.md)
+ * [stdunk.h](..\stdunk\index.md)
  * [strmini.h](..\strmini\index.md)
  * [swenum.h](..\swenum\index.md)
  * [usbcamdi.h](..\usbcamdi\index.md)

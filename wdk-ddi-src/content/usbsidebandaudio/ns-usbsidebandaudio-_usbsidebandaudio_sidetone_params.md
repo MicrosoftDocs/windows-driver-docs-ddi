@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_sidetone_params.htm
 old-project: audio
 ms.assetid: FE97B772-CD08-4F76-88DA-05F24881D062
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_PARAMS, audio.usbsidebandaudio_sidetone_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

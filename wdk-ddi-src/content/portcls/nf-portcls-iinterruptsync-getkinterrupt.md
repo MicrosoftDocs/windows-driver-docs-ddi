@@ -7,7 +7,7 @@ old-location: audio\iinterruptsync_getkinterrupt.htm
 old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt,IInterruptSync.GetKInterrupt, IInterruptSync, IInterruptSync interface [Audio Devices], GetKInterrupt method, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -94,6 +94,10 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
 
 
@@ -102,13 +106,9 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IInterruptSync::GetKInterrupt method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IInterruptSync::GetKInterrupt method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

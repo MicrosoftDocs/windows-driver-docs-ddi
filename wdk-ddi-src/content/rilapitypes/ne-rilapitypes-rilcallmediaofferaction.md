@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMEDIAOFFERACTION
 title: RILCALLMEDIAOFFERACTION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediaofferaction_2.htm
+old-location: netvista\rilcallmediaofferaction.htm
 old-project: netvista
-ms.assetid: 2acfaeab-c196-46a9-87a4-c44306b46ad1
+ms.assetid: 0a2ac234-633d-4ebc-9e13-05a12534f93a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLMEDIAOFFERACTION, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERACTION_ACCEPT, RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_MAX, RIL_CALLMEDIAOFFERACTION_REJECT, netvista.rilcallmediaofferaction_2, rilapitypes/RILCALLMEDIAOFFERACTION, rilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, rilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, rilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, rilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, rilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, rilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT
+ms.date: 2/27/2018
+ms.keywords: RILCALLMEDIAOFFERACTION, RILCALLMEDIAOFFERACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERACTION_ACCEPT, RIL_CALLMEDIAOFFERACTION_ASK, RIL_CALLMEDIAOFFERACTION_CANCEL, RIL_CALLMEDIAOFFERACTION_ERROR, RIL_CALLMEDIAOFFERACTION_MAX, RIL_CALLMEDIAOFFERACTION_REJECT, netvista.rilcallmediaofferaction, ntddrilapitypes/RILCALLMEDIAOFFERACTION, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ACCEPT, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ASK, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_CANCEL, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_ERROR, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERACTION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

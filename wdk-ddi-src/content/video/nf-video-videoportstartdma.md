@@ -185,7 +185,7 @@ It is possible that not all of the requested data has been transferred, since th
 
 
 
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
 
 
@@ -193,7 +193,7 @@ It is possible that not all of the requested data has been transferred, since th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 
 

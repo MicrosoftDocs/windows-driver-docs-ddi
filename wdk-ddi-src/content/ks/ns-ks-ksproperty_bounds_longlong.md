@@ -86,24 +86,24 @@ typedef union {
 
 
 
-#### - SignedMinimum
-
-Specifies a minimum bound as a signed 64-bit value.
-
-
 #### - SignedMaximum
 
 Specifies a maximum bound as a signed 64-bit value.
 
 
-#### - UnsignedMinimum
+#### - SignedMinimum
 
-Specifies a minimum bound as an unsigned 64-bit value.
+Specifies a minimum bound as a signed 64-bit value.
 
 
 #### - UnsignedMaximum
 
 Specifies a maximum bound as an unsigned 64-bit value.
+
+
+#### - UnsignedMinimum
+
+Specifies a minimum bound as an unsigned 64-bit value.
 
 
 ## -remarks

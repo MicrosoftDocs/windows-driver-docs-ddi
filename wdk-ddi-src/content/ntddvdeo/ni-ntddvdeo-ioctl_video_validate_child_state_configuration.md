@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -138,11 +133,11 @@ The miniport driver stores NO_ERROR in <b>Status</b> if it has successfully hand
 
 
 
-<a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
 
 
 

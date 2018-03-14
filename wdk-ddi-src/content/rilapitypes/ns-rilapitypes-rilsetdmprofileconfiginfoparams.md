@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETDMPROFILECONFIGINFOPARAMS
 title: RILSETDMPROFILECONFIGINFOPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetdmprofileconfiginfoparams_2.htm
+old-location: netvista\rilsetdmprofileconfiginfoparams.htm
 old-project: netvista
-ms.assetid: 99513338-a908-4ff7-8fd6-f4224fbdc04f
+ms.assetid: d485f00e-5fa6-4a01-83fe-78e59a8d8fcb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetdmprofileconfiginfoparams_2, rilapitypes/RILSETDMPROFILECONFIGINFOPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetdmprofileconfiginfoparams, ntddrilapitypes/RILSETDMPROFILECONFIGINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETDMPROFILECONFIGINFOPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -424,21 +424,6 @@ Points to a render state array that the driver should update when it parses rend
 ##### 
 
 
-#### - lpDDVertex
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
-
-
-#### - lpVertices
-
-Points to a user-mode memory block containing vertex data when the D3DHALDP2_USERMEMVERTICES flag is set in <b>dwFlags</b>.
-
-
-#### - dwVertexSize
-
-Specifies the size of each vertex, in bytes. This member forms a union with <b>ddrval</b>.
-
-
 #### - ddrval
 
 Specifies the location where the driver writes the return value of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
@@ -472,6 +457,21 @@ The driver requires the Direct3D runtime to parse the execute buffer.
  
 
 
+#### - dwVertexSize
+
+Specifies the size of each vertex, in bytes. This member forms a union with <b>ddrval</b>.
+
+
+#### - lpDDVertex
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
+
+
+#### - lpVertices
+
+Points to a user-mode memory block containing vertex data when the D3DHALDP2_USERMEMVERTICES flag is set in <b>dwFlags</b>.
+
+
 ## -remarks
 
 
@@ -485,10 +485,6 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
 
 
@@ -497,11 +493,15 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
 <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

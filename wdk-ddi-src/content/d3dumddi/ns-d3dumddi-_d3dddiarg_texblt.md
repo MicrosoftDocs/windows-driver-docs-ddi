@@ -98,11 +98,11 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
 
 
 

@@ -86,7 +86,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
+<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
 
 
@@ -94,7 +94,7 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
 
 

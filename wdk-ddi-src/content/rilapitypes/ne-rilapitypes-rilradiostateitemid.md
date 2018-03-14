@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRADIOSTATEITEMID
 title: RILRADIOSTATEITEMID
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostateitemid_2.htm
+old-location: netvista\rilradiostateitemid.htm
 old-project: netvista
-ms.assetid: 55c75583-945d-45f5-ac69-b6019b82aead
+ms.assetid: 2aec37af-fd7d-44c6-a728-889dd75012cb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid_2, rilapitypes/RILRADIOSTATEITEMID
+ms.date: 2/27/2018
+ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid, ntddrilapitypes/RILRADIOSTATEITEMID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEITEMID
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

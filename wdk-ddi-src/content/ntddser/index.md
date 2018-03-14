@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by serports, Parallel Ports. For more information, see
-- [serports](../_serports/index.md)
+This header is used by Parallel Ports, serports. For more information, see
 - [Parallel Ports](../_parports/index.md)
+- [serports](../_serports/index.md)
 
 This section describes the I/O requests that are supported by the serial framework extension (SerCx) starting with Windows 8, and supported by the system-supplied Serial.sys driver starting with Windows 2000. For more information about SerCx and Serial.sys, see Serial Controller Drivers Overview.
 

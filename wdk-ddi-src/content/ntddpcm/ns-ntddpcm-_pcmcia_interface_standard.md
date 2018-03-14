@@ -86,12 +86,12 @@ Indicates the version of the returned interface.
 
 ### -field InterfaceReference
 
-Pointer to the <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> implementation. 
+Pointer to the <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> implementation. 
 
 
 ### -field InterfaceDereference
 
-Pointer to the <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> implementation. 
+Pointer to the <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> implementation. 
 
 
 ### -field Context
@@ -120,11 +120,11 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtfpnpaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

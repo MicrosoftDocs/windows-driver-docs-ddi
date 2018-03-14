@@ -82,7 +82,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus data to be set. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus data to be set. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]
@@ -140,7 +140,11 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 
 
-<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
@@ -148,15 +152,11 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 
 
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
+<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
 
 
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-
-
-
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 

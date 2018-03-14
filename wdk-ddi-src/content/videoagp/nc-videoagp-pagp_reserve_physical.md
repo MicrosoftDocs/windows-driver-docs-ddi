@@ -160,11 +160,11 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-
-
 <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 

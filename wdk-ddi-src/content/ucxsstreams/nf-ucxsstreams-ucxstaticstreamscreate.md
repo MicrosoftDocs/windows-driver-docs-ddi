@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -93,16 +93,16 @@ TBD
 
 
 
+#### - SStreams [out]
+
+A pointer to a variable that receives a handle to the new stream object.
+
+
 #### - SStreamsInit [out]
 
 A pointer to a <b>UCXSSTREAMS_INIT</b> structure that describes various configuration
         operations for creating the stream object. The driver specifies function pointers to its callback functions in this structure.
     This structure is managed by UCX.
-
-
-#### - SStreams [out]
-
-A pointer to a variable that receives a handle to the new stream object.
 
 
 ## -returns

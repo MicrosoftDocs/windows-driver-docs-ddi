@@ -140,7 +140,7 @@ To be valid, the quota buffer must meet all of these conditions.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
 
@@ -148,7 +148,7 @@ To be valid, the quota buffer must meet all of these conditions.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
 
 
