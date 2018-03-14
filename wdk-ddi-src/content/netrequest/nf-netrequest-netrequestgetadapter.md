@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.25
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib:
 req.dll:
 req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance:
