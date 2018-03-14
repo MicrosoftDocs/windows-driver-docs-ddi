@@ -2,7 +2,7 @@
 UID: NA:prdrvcom
 ms.assetid: 6d969209-8a48-364c-a65e-9376eb7fc29c
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by print, Display. For more information, see
-- [print](../_print/index.md)
+This header is used by Display, print. For more information, see
 - [Display](../_display/index.md)
+- [print](../_print/index.md)
 
 Prdrvcom.h contain these programming interfaces:
 

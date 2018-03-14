@@ -2,7 +2,7 @@
 UID: NA:smcnt
 ms.assetid: f0458d39-14d8-3d3d-9c48-866fa482bc98
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by Smart Card Reader Devices, Windows kernel. For more information, see
-- [Smart Card Reader Devices](../_smartcrd/index.md)
+This header is used by Windows kernel, Smart Card Reader Devices. For more information, see
 - [Windows kernel](../_kernel/index.md)
+- [Smart Card Reader Devices](../_smartcrd/index.md)
 
 Smcnt.h contain these programming interfaces:
 

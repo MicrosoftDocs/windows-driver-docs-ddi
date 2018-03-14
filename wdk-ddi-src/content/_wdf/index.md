@@ -2,7 +2,7 @@
 UID: TP:wdf
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,8 +16,6 @@ Overview of the Windows Driver Framework technology.
 
 To develop Windows Driver Framework, you need these headers:
 
- * [miniport.h](..\miniport\index.md)
- * [ntpoapi.h](..\ntpoapi\index.md)
  * [wdfchildlist.h](..\wdfchildlist\index.md)
  * [wdfcollection.h](..\wdfcollection\index.md)
  * [wdfcommonbuffer.h](..\wdfcommonbuffer\index.md)
@@ -53,7 +51,6 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfverifier.h](..\wdfverifier\index.md)
  * [wdfwmi.h](..\wdfwmi\index.md)
  * [wdfworkitem.h](..\wdfworkitem\index.md)
- * [wdm.h](..\wdm\index.md)
  * [wudfddi.h](..\wudfddi\index.md)
  * [wudfddi_hwaccess.h](..\wudfddi_hwaccess\index.md)
  * [wudfddi_types.h](..\wudfddi_types\index.md)

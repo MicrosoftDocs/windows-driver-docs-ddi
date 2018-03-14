@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,10 +16,10 @@ Overview of the Networking drivers for Windows Vista and later technology.
 
 To develop Networking drivers for Windows Vista and later, you need these headers:
 
+ * [arrayofelements.hpp](..\arrayofelements\index.md)
  * [dot11wdi.h](..\dot11wdi\index.md)
  * [fwpmk.h](..\fwpmk\index.md)
  * [fwpsk.h](..\fwpsk\index.md)
- * [igpupvdev.h](..\igpupvdev\index.md)
  * [knetpwrdepbroker.h](..\knetpwrdepbroker\index.md)
  * [ndis.h](..\ndis\index.md)
  * [ndischimney.h](..\ndischimney\index.md)
@@ -27,15 +27,25 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [ndiswwan.h](..\ndiswwan\index.md)
  * [ndkpi.h](..\ndkpi\index.md)
  * [netadapter.h](..\netadapter\index.md)
+ * [netadaptercxtypes.h](..\netadaptercxtypes\index.md)
+ * [netadapterpacket.h](..\netadapterpacket\index.md)
+ * [netconfiguration.h](..\netconfiguration\index.md)
+ * [netdatapathdescriptor.h](..\netdatapathdescriptor\index.md)
  * [netdma.h](..\netdma\index.md)
  * [netioddk.h](..\netioddk\index.md)
+ * [netpacket.h](..\netpacket\index.md)
  * [netpnp.h](..\netpnp\index.md)
+ * [netpowersettings.h](..\netpowersettings\index.md)
+ * [netreceivescaling.h](..\netreceivescaling\index.md)
+ * [netrequest.h](..\netrequest\index.md)
+ * [netrequestqueue.h](..\netrequestqueue\index.md)
+ * [netrxqueue.h](..\netrxqueue\index.md)
+ * [nettxqueue.h](..\nettxqueue\index.md)
  * [ntddndis.h](..\ntddndis\index.md)
  * [ntddrilapitypes.h](..\ntddrilapitypes\index.md)
  * [oemrilapitypes.h](..\oemrilapitypes\index.md)
  * [rilapi.h](..\rilapi\index.md)
  * [rilapitypes.h](..\rilapitypes\index.md)
- * [video.h](..\video\index.md)
  * [vmbuskernelmodeclientlibapi.h](..\vmbuskernelmodeclientlibapi\index.md)
  * [wditypes.hpp](..\wditypes\index.md)
  * [windot11.h](..\windot11\index.md)
@@ -46,7 +56,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [wsk.h](..\wsk\index.md)
  * [wwan.h](..\wwan\index.md)
 
-For the programming guide, see [Networking drivers for Windows Vista and later](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/).
+For the programming guide, see [Networking drivers for Windows Vista and later](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/netvista).
 
 This section lists functions, callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 

@@ -2,7 +2,7 @@
 UID: NA:rxtimer
 ms.assetid: 2ab3b1c1-221c-37dd-9599-6b8c422b887b
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

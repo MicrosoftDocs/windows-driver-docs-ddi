@@ -2,7 +2,7 @@
 UID: NA:ucxcontroller
 ms.assetid: d18ef805-5f96-362a-9074-e90dea9d6c26
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:compstui
 ms.assetid: b7caed49-be56-3b9d-90b7-dce65c62402e
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

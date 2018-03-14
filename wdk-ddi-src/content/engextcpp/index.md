@@ -2,7 +2,7 @@
 UID: NA:engextcpp
 ms.assetid: 4849a6b1-830f-3826-8f7f-f7451944fa5f
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,15 +55,22 @@ Engextcpp.h contain these programming interfaces:
 | [ExtDeclBuffer::operator= method](nf-engextcpp-extdeclbuffer-operator=.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
 | [ExtDeleteHolder::Set method](nf-engextcpp-extdeleteholder-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
 | [ExtDeleteHolder::operator= method](nf-engextcpp-extdeleteholder-operator=.md) | The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
+| [ExtExtension::GetArgStr method](nf-engextcpp-extextension-getargstr.md) | The GetArgStr method returns a named string argument from the command line used to invoke the current extension command. |
+| [ExtExtension::GetArgU64 method](nf-engextcpp-extextension-getargu64.md) | The GetArgU64 method returns the value of a named expression argument from the command line used to invoke the current extension command. |
 | [ExtExtension::GetNumUnnamedArgs method](nf-engextcpp-extextension-getnumunnamedargs.md) | The GetNumUnnamedArgs method returns the number of unnamed arguments in the command line used to invoke the current extension command. |
 | [ExtExtension::GetRawArgStr method](nf-engextcpp-extextension-getrawargstr.md) | The GetRawArgStr method returns a string that represents the arguments passed to the extension command. |
 | [ExtExtension::GetUnnamedArgStr method](nf-engextcpp-extextension-getunnamedargstr.md) | The GetUnnamedArgStr method returns an unnamed string argument from the command line used to invoke the current extension command. |
 | [ExtExtension::GetUnnamedArgU64 method](nf-engextcpp-extextension-getunnamedargu64.md) | The GetUnnamedArgU64 method returns the value of an unnamed expression argument from the command line used to invoke the current extension command. |
+| [ExtExtension::HasArg method](nf-engextcpp-extextension-hasarg.md) | The HasArg method indicates whether a specified named argument is present in the command line used to invoke the current extension command. |
+| [ExtExtension::HasCharArg method](nf-engextcpp-extextension-haschararg.md) | The HasCharArg method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command. |
 | [ExtExtension::HasUnnamedArg method](nf-engextcpp-extextension-hasunnamedarg.md) | The HasUnnamedArg method indicates whether a specified unnamed argument is present in the command line used to invoke the current extension command. |
+| [ExtExtension::Initialize method](nf-engextcpp-extextension-initialize.md) | The Initialize method is called by the engine to initialize an EngExtCpp extension library after loading it. |
 | [ExtExtension::OnSessionAccessible method](nf-engextcpp-extextension-onsessionaccessible.md) | The OnSessionAccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible. |
 | [ExtExtension::OnSessionActive method](nf-engextcpp-extextension-onsessionactive.md) | The OnSessionActive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active. |
 | [ExtExtension::OnSessionInaccessible method](nf-engextcpp-extextension-onsessioninaccessible.md) | The OnSessionInaccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inaccessible. |
 | [ExtExtension::OnSessionInactive method](nf-engextcpp-extextension-onsessioninactive.md) | The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive. |
+| [ExtExtension::SetArg method](nf-engextcpp-extextension-setarg.md) | The SetArg method sets a named argument for the current extension command. |
+| [ExtExtension::SetArgStr method](nf-engextcpp-extextension-setargstr.md) | The SetArgStr method sets a named string argument for the current expression command. |
 | [ExtExtension::SetUnnamedArg method](nf-engextcpp-extextension-setunnamedarg.md) | The SetUnnamedArg method sets an unnamed argument for the current extension command. |
 | [ExtExtension::SetUnnamedArgStr method](nf-engextcpp-extextension-setunnamedargstr.md) | The SetUnnamedArgStr method sets an unnamed string argument for the current extension command. |
 | [ExtExtension::SetUnnamedArgU64 method](nf-engextcpp-extextension-setunnamedargu64.md) | The SetUnnamedArgU64 method sets the value of an unnamed expression argument for the current extension command. |
@@ -119,7 +126,7 @@ Engextcpp.h contain these programming interfaces:
 | [ExtRemoteList::StartTail method](nf-engextcpp-extremotelist-starttail.md) | The StartTail method initializes the list for iterating backward, starting at the head. |
 | [ExtRemoteTyped::ArrayElement method](nf-engextcpp-extremotetyped-arrayelement.md) | The ArrayElement method returns the typed data in the specified array element of the typed data represented by the ExtRemoteTyped object. |
 | [ExtRemoteTyped::Clear method](nf-engextcpp-extremotetyped-clear.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::Copy method](nf-engextcpp-extremotetyped-copy.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
+| [ExtRemoteTyped::Copy method](nf-engextcpp-extremotetyped-copy.md) | The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object. |
 | [ExtRemoteTyped::Dereference method](nf-engextcpp-extremotetyped-dereference.md) | The Dereference method returns the typed data that is pointed to by the typed data represented by this object. |
 | [ExtRemoteTyped::ErtIoctl method](nf-engextcpp-extremotetyped-ertioctl.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
 | [ExtRemoteTyped::Eval method](nf-engextcpp-extremotetyped-eval.md) | The Eval method returns typed data that is the result of evaluating an expression. |
@@ -137,11 +144,11 @@ Engextcpp.h contain these programming interfaces:
 | [ExtRemoteTyped::OutTypeDefinition method](nf-engextcpp-extremotetyped-outtypedefinition.md) | The OutTypeDefinition method prints the type of the typed data represented by this object. |
 | [ExtRemoteTyped::OutTypeName method](nf-engextcpp-extremotetyped-outtypename.md) | The OutTypeName method prints the type name of the typed data represented by this object. |
 | [ExtRemoteTyped::Release method](nf-engextcpp-extremotetyped-release.md) | The Release method releases any resources held by this object. |
-| [ExtRemoteTyped::Set method](nf-engextcpp-extremotetyped-set.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
+| [ExtRemoteTyped::Set method](nf-engextcpp-extremotetyped-set.md) | The Set method sets the typed data represented by the ExtRemoteTyped object. |
 | [ExtRemoteTyped::SetPrint method](nf-engextcpp-extremotetyped-setprint.md) | The SetPrint method sets the typed data represented by the ExtRemoteTyped object by formatting an expression and then evaluating that expression. |
 | [ExtRemoteTyped::operator* method](nf-engextcpp-extremotetyped-operator.md) | The operator* overloaded operator returns the typed data that is pointed to by the typed data represented by this object. |
 | [ExtRemoteTyped::operator= method](nf-engextcpp-extremotetyped-operator=.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
-| [ExtRemoteTyped::operator[] method](nf-engextcpp-extremotetyped-operator[].md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
+| [ExtRemoteTyped::operator[] method](nf-engextcpp-extremotetyped-operator[].md) | The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object. |
 | [ExtRemoteTyped::~ExtRemoteTyped method](nf-engextcpp-extremotetyped-~extremotetyped.md) | The ExtRemoteTyped class provides the ability to manipulate typed data on the target. |
 | [ExtRemoteTypedList::ExtRemoteTypedList method](nf-engextcpp-extremotetypedlist-extremotetypedlist.md) | The ExtRemoteTypedList class extends the ExtRemoteList class. The ExtRemoteTypedList class adds type information allowing each item in the list to be represented by an instance of the ExtRemoteTyped class. |
 | [ExtRemoteTypedList::GetTypedNode method](nf-engextcpp-extremotetypedlist-gettypednode.md) | The GetTypedNode method returns the current list item. |

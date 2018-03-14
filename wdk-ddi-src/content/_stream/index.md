@@ -2,7 +2,7 @@
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,7 +16,6 @@ Overview of the Streaming media devices technology.
 
 To develop Streaming media devices, you need these headers:
 
- * [avc.h](..\avc\index.md)
  * [avcstrm.h](..\avcstrm\index.md)
  * [bdamedia.h](..\bdamedia\index.md)
  * [bdasup.h](..\bdasup\index.md)
@@ -25,7 +24,6 @@ To develop Streaming media devices, you need these headers:
  * [kcom.h](..\kcom\index.md)
  * [ks.h](..\ks\index.md)
  * [ksi.h](..\ksi\index.md)
- * [ksmedia.h](..\ksmedia\index.md)
  * [ksproxy.h](..\ksproxy\index.md)
  * [lamp.h](..\lamp\index.md)
  * [msviddrv.h](..\msviddrv\index.md)

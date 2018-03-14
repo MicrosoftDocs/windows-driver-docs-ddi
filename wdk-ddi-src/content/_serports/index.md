@@ -2,7 +2,7 @@
 UID: TP:serports
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,7 +16,6 @@ Overview of the Serports technology.
 
 To develop Serports, you need these headers:
 
- * [ntddser.h](..\ntddser\index.md)
  * [sercx.h](..\sercx\index.md)
 
 

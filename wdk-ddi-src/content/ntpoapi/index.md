@@ -2,7 +2,7 @@
 UID: NA:ntpoapi
 ms.assetid: 05cffe50-bcb4-3779-8086-d9ec44f199f9
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, Battery, Windows Driver Framework. For more information, see
+This header is used by Windows kernel, Windows Driver Framework, Battery. For more information, see
 - [Windows kernel](../_kernel/index.md)
-- [Battery](../_battery/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
+- [Battery](../_battery/index.md)
 
 Ntpoapi.h contain these programming interfaces:
 

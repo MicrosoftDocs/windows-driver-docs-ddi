@@ -2,7 +2,7 @@
 UID: TP:smartcrd
 ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -14,11 +14,7 @@ ms.topic: portal
 
 Overview of the Smart Card Reader Devices technology.
 
-To develop Smart Card Reader Devices, you need these headers:
-
- * [smclib.h](..\smclib\index.md)
- * [smcnt.h](..\smcnt\index.md)
- * [winsmcrd.h](..\winsmcrd\index.md)
+The Smart Card Reader Devices technology is not associated with any headers.
 
 For the programming guide, see [Smart Card Reader Devices](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/smartcrd).
 

@@ -2,7 +2,7 @@
 UID: NA:miniport
 ms.assetid: a0a0b4a0-7bc0-3610-8f94-30f1e1e1cc06
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, PCI, Windows Driver Framework, Display. For more information, see
+This header is used by Windows Driver Framework, Windows kernel, PCI, Display. For more information, see
+- [Windows Driver Framework](../_wdf/index.md)
 - [Windows kernel](../_kernel/index.md)
 - [PCI](../_PCI/index.md)
-- [Windows Driver Framework](../_wdf/index.md)
 - [Display](../_display/index.md)
 
 Miniport.h contain these programming interfaces:

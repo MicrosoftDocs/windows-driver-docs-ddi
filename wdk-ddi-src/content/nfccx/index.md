@@ -2,7 +2,7 @@
 UID: NA:nfccx
 ms.assetid: e31e267f-9d28-39c5-9b01-ccb44c235455
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
