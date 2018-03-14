@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -169,11 +169,11 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
+
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
 
 

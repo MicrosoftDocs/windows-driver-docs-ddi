@@ -186,11 +186,11 @@ Example_EvtDeviceResourceRequirementsQuery(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
-
-
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistinsertioreslist.md">WdfIoResourceRequirementsListInsertIoResList</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
 
 
 

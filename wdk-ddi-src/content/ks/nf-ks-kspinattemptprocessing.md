@@ -106,11 +106,7 @@ The processing dispatch occurs either synchronously or asynchronously, and <i>on
 
 ## -see-also
 
-<b>KSGATE</b>
-
-
-
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
 
 
@@ -118,7 +114,11 @@ The processing dispatch occurs either synchronously or asynchronously, and <i>on
 
 
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+
+
+
+<b>KSGATE</b>
 
 
 

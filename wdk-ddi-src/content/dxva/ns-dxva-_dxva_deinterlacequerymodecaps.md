@@ -95,11 +95,11 @@ The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_deinterlacequeryavailablemodes.md">DXVA_DeinterlaceQueryAvailableModes</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 

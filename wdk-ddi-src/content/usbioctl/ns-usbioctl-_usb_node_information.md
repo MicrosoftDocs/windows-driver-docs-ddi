@@ -109,7 +109,7 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -117,7 +117,7 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
 
 
 

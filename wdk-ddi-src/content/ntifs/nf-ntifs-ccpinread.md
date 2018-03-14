@@ -184,15 +184,7 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
@@ -200,11 +192,19 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 

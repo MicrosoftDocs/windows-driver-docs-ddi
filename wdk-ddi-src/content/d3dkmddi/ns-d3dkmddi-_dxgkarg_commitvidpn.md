@@ -107,11 +107,11 @@ The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
 
 
 

@@ -96,9 +96,9 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param SIZE_T
 
 
-#### - PowerControlCode [in]
+#### - BytesReturned [out, optional]
 
-A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
 
 
 #### - InBuffer [in, optional]
@@ -121,9 +121,9 @@ An optional pointer to an output buffer.
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
 
-#### - BytesReturned [out, optional]
+#### - PowerControlCode [in]
 
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
 
 ## -returns
@@ -199,15 +199,15 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
-
-
-
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 

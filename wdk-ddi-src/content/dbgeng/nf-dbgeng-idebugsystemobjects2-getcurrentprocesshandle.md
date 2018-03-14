@@ -7,7 +7,7 @@ old-location: debugger\getcurrentprocesshandle2.htm
 old-project: debugger
 ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetCurrentProcessHandle method [Windows Debugging], GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessHandle,IDebugSystemObjects2.GetCurrentProcessHandle, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, debugger.getcurrentprocesshandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

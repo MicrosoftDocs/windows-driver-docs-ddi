@@ -163,7 +163,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
-<b>WdfWaitLockAcquire</b> calls <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
+<b>WdfWaitLockAcquire</b> calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
 
 If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not zero, <b>WdfWaitLockAcquire</b> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -202,11 +202,11 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);</pre>
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
+
+
+
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 

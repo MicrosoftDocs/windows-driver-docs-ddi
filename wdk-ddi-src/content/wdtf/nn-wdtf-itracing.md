@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WDTF.tlb
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -90,11 +90,11 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 ## -see-also
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
+
+
+
+<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 

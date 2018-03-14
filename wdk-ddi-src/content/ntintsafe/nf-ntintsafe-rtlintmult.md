@@ -7,7 +7,7 @@ old-location: kernel\rtlintmult.htm
 old-project: kernel
 ms.assetid: 5417D6B1-0523-4C01-9C07-571D096E10F3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlIntMult, RtlIntMult function [Kernel-Mode Driver Architecture], kernel.rtlintmult, ntintsafe/RtlIntMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

@@ -120,7 +120,7 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 
 
 
@@ -132,11 +132,11 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-
-
 <a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
 
 

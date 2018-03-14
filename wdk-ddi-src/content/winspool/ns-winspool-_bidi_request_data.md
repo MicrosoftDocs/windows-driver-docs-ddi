@@ -87,11 +87,11 @@ Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> struct
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
-
-
-
 <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
+
+
+
+<a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
 
 
 

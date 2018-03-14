@@ -179,15 +179,15 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
 
 
 
 <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 

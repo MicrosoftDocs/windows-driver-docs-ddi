@@ -7,13 +7,13 @@ old-location: netvista\rilunsolicitedssinfo_v1.htm
 old-project: netvista
 ms.assetid: c9681207-6cdd-40b6-8878-7ea37f383e4f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v1, ntddrilapitypes/RILUNSOLICITEDSSINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

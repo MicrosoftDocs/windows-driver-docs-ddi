@@ -46,11 +46,6 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 # IOCTL_CHANGER_REINITIALIZE_TRANSPORT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

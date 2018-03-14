@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
@@ -116,18 +106,28 @@ Pointer to the buffer containing the data to be written.
 Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written. 
 
 
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Contains the address of the port to be written to. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
+<a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
 
 
 

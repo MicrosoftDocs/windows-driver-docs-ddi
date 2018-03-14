@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -90,11 +90,11 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 

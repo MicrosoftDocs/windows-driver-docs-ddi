@@ -2,7 +2,7 @@
 UID: TP:dtf
 ms.assetid: d5452dd2-c8e3-30e9-8760-2f451dbe92d2
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,7 +23,6 @@ To develop Dtf, you need these headers:
  * [wdtfedtaction.h](..\wdtfedtaction\index.md)
  * [wdtfinterfaces.h](..\wdtfinterfaces\index.md)
  * [wdtfpnpaction.h](..\wdtfpnpaction\index.md)
- * [wdtfsimulatedbatterysystemaction.h](..\wdtfsimulatedbatterysystemaction\index.md)
  * [wdtfsystemaction.h](..\wdtfsystemaction\index.md)
 
 
@@ -59,7 +58,6 @@ To develop Dtf, you need these headers:
 | [IWDTFSimpleIOEx2 interface](..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md) | Defines operations for a simple synchronous I/O functionality test. |
 | [IWDTFSimpleIOStressAction2 interface](..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md) | Defines operations for a simple asynchronous I/O functionality test. |
 | [IWDTFSimpleIOStressActions2 interface](..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressactions2.md) | Defines operations for a collection of simple asynchronous I/O functionality tests. |
-| [IWDTFSimulatedBatterySystemAction interface](..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md) | IWDTFSimulatedBatterySystemAction Interface |
 | [IWDTFStrings2 interface](..\wdtf\nn-wdtf-iwdtfstrings2.md) | Defines operations and properties for a collection of strings. |
 | [IWDTFSystemAction2 interface](..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md) | Defines operations and properties that support driver testing. |
 | [IWDTFSystemDepot2 interface](..\wdtf\nn-wdtf-iwdtfsystemdepot2.md) | Defines operations and properties for the SystemDepot - the object that represents the local computer. |
@@ -191,13 +189,6 @@ To develop Dtf, you need these headers:
 | [IWDTFSimpleIOStressAction2::Stop method](..\wdtfinterfaces\nf-wdtfinterfaces-iwdtfsimpleiostressaction2-stop.md) | Stops the device. |
 | [IWDTFSimpleIOStressAction2::StopAsync method](..\wdtfinterfaces\nf-wdtfinterfaces-iwdtfsimpleiostressaction2-stopasync.md) | Asynchronously signals the stop event to occur. |
 | [IWDTFSimpleIOStressAction2::WaitAsyncCompletion method](..\wdtfinterfaces\nf-wdtfinterfaces-iwdtfsimpleiostressaction2-waitasynccompletion.md) | Waits for the completion of any of the asynchronous events. |
-| [IWDTFSimulatedBatterySystemAction::DisableRealBatteries method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-disablerealbatteries.md) | Disables real batteries if they are present in the system. |
-| [IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-disablesimulatedbattery.md) | Disables the simulated battery. |
-| [IWDTFSimulatedBatterySystemAction::EnableRealBatteries method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-enablerealbatteries.md) | Enables real batteries if they are present in the system. |
-| [IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-enablesimulatedbattery.md) | Enables the simulated battery. |
-| [IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-setsimulatedbatterychargepercentage.md) | Sets the charge percentage reported to the OS by the simulated battery. |
-| [IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-setsimulatedbatterytoac.md) | Sets the simulated battery status to AC power. |
-| [IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC method](..\wdtfsimulatedbatterysystemaction\nf-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction-setsimulatedbatterytodc.md) | Sets the simulated battery status to DC power. |
 | [IWDTFStrings2::Add method](..\wdtf\nf-wdtf-iwdtfstrings2-add.md) | Adds a single string to the collection. |
 | [IWDTFStrings2::Remove method](..\wdtf\nf-wdtf-iwdtfstrings2-remove.md) | Removes a string from the collection. |
 | [IWDTFStrings2::get_Count method](..\wdtf\nf-wdtf-iwdtfstrings2-get_count.md) | Gets the number of devices that are currently provided by the DeviceDepot. |

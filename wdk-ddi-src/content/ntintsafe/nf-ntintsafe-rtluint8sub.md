@@ -7,7 +7,7 @@ old-location: kernel\rtluint8sub.htm
 old-project: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtluint8sub, ntintsafe/RtlUInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

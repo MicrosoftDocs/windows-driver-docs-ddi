@@ -46,11 +46,6 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 # IOCTL_DVD_READ_STRUCTURE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -110,15 +105,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_layer_descriptor.md">DVD_LAYER_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copyright_descriptor.md">DVD_COPYRIGHT_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_manufacturer_descriptor.md">DVD_MANUFACTURER_DESCRIPTOR</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_layer_descriptor.md">DVD_LAYER_DESCRIPTOR</a>
 
 
 
@@ -127,6 +118,10 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_bca_descriptor.md">DVD_BCA_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_manufacturer_descriptor.md">DVD_MANUFACTURER_DESCRIPTOR</a>
 
 
 

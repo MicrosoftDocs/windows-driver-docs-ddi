@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -157,19 +157,11 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
-
-
-
-<a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
-
-
-
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+
+
+
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 
 
@@ -177,11 +169,19 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
+
+
+
 <a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+<a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
 
 

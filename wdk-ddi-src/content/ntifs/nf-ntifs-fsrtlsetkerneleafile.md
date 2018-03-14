@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -184,15 +184,15 @@ You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlquerykerneleafile.md">FsRtlQueryKernelEaFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
 
 
 

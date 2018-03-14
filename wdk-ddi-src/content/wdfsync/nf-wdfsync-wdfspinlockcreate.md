@@ -135,15 +135,15 @@ status = WdfSpinLockCreate(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550040">WdfSpinLockAcquire</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550044">WdfSpinLockRelease</a>
 
 
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550040">WdfSpinLockAcquire</a>
 
 
 

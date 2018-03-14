@@ -96,12 +96,12 @@ typedef struct _STORAGE_REQUEST_BLOCK {
 
 ### -field Length
 
-Specifies the size of the SRB header for compatibility with the <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. This is equal to the offset of the <b>Signature</b> member of this structure.
+Specifies the size of the SRB header for compatibility with the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. This is equal to the offset of the <b>Signature</b> member of this structure.
 
 
 ### -field Function
 
-Set to <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b> to indicate that this is an extended SRB. Unlike in <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>, the SRB function identifier is in the <b>SrbFunction</b> member instead.
+Set to <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b> to indicate that this is an extended SRB. Unlike in <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>, the SRB function identifier is in the <b>SrbFunction</b> member instead.
 
 
 ### -field SrbStatus
@@ -325,12 +325,12 @@ Specifies the operation to be performed, which can be one of these values:
 
 A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
-<a href="..\minitape\ns-minitape-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="..\storport\ns-storport-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
 <b>Cdb</b>
-<a href="..\minitape\ns-minitape-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
+<a href="..\storport\ns-storport-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 <b>Cdb</b>
 
 
@@ -416,7 +416,7 @@ Releases the port driver's queue for a logical unit that was previously locked w
 
 #### SRB_FUNCTION_DUMP_POINTERS (0x26)
 
-A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the <b>MINIPORT_DUMP_POINTERS</b> structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of its <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> to receive a request with this function.
+A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the <b>MINIPORT_DUMP_POINTERS</b> structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> to receive a request with this function.
 
 
 
@@ -529,13 +529,13 @@ This flag is irrelevant to miniport drivers.
 
 #### SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 
 #### SRB_FLAGS_SGLIST_FROM_POOL
 
-This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 
@@ -600,12 +600,12 @@ Used by the Storport driver, instead of <b>SrbStatus</b>, to report the status o
 
 ### -field ZeroGuard1
 
-A guard area to protect against drivers that interpret this structure as <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
+A guard area to protect against drivers that interpret this structure as <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
 ### -field AddressOffset
 
-The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
+The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
 
 
 ### -field NumSrbExData
@@ -625,7 +625,7 @@ Points to the data buffer. Miniport drivers should not use this value as a data 
 
 ### -field ZeroGuard2
 
-A guard area to protect against drivers that interpret this structure as <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
+A guard area to protect against drivers that interpret this structure as <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
 ### -field OriginalRequest
@@ -645,7 +645,7 @@ Points to a port driver context data for this request. This member is irrelevant
 
 ### -field MiniportContext
 
-Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in  <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>. The memory at <b>MiniportContext</b> is not initialized by the operating system-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorportGetPhysicalAddress</a> with the <b>MiniportContext</b> pointer.
+Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in  <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>. The memory at <b>MiniportContext</b> is not initialized by the operating system-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorportGetPhysicalAddress</a> with the <b>MiniportContext</b> pointer.
 
 
 ### -field NextSrb
@@ -667,22 +667,22 @@ An array of offsets specifying the location of extended data blocks for the SRB.
 
 
 
-Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure will continue.
+Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure will continue.
 
-If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\minitape\ns-minitape-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
+If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\storport\ns-storport-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
 
-The target device address for the SRB is in a <a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
+The target device address for the SRB is in a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 

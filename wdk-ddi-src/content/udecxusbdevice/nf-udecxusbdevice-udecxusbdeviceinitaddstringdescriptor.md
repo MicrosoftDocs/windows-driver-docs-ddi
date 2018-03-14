@@ -110,7 +110,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
 
 
 
@@ -118,7 +118,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

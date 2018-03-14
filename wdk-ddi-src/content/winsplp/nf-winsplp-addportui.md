@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -177,19 +177,19 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
 
 
 

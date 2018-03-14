@@ -7,7 +7,7 @@ old-location: kernel\_image_policy_entry.htm
 old-project: kernel
 ms.assetid: ea400bef-5c69-4f75-b96e-aae12292fd5a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

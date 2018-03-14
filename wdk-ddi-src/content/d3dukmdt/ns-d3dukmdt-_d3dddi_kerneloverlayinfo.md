@@ -102,11 +102,11 @@ typedef struct _D3DDDI_KERNELOVERLAYINFO {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
 
 
 

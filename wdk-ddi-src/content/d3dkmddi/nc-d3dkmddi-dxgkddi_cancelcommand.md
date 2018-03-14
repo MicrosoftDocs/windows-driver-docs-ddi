@@ -109,15 +109,15 @@ If the driver returns an error code, the DirectX graphics kernel subsystem  caus
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_cancelcommand.md">DXGKARG_CANCELCOMMAND</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

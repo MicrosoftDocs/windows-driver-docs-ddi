@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WDTF.tlb
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

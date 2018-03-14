@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMAMSGSTATUSTYPE
 title: RILMSGCDMAMSGSTATUSTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmamsgstatustype_2.htm
+old-location: netvista\rilmsgcdmamsgstatustype.htm
 old-project: netvista
-ms.assetid: 315ca5af-103e-4c00-8dd7-10aa21bfa8a2
+ms.assetid: 60365fd7-3897-4948-a251-098e5a91c959
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_USERACK, netvista.rilmsgcdmamsgstatustype_2, rilapitypes/RILMSGCDMAMSGSTATUSTYPE, rilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, rilapitypes/RIL_MSGSTATUSTYPE_MAX, rilapitypes/RIL_MSGSTATUSTYPE_READACK, rilapitypes/RIL_MSGSTATUSTYPE_USERACK
+ms.date: 2/27/2018
+ms.keywords: RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_USERACK, netvista.rilmsgcdmamsgstatustype, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGSTATUSTYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

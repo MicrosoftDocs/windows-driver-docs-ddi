@@ -253,7 +253,7 @@ This information can be queried in either of the following ways:
 <ul>
 <li>
 Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-       <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing 
+       <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing 
        <b>FileFsAttributeInformation</b> as the value of 
        <i>FileInformationClass</i> and passing a caller-allocated, 
        <b>FILE_FS_ATTRIBUTE_INFORMATION</b>-structured 
@@ -277,7 +277,7 @@ No specific access rights are required to query this information. Thus this info
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to 
      <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-     <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at 
+     <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at 
      least <code>sizeof(FILE_FS_ATTRIBUTE_INFORMATION)</code>.
 
 This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
@@ -287,7 +287,11 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
@@ -295,11 +299,7 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 

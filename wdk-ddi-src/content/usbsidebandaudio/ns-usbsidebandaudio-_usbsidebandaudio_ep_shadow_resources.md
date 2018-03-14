@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_ep_shadow_resources.htm
 old-project: audio
 ms.assetid: 56159F97-82CD-4F0A-ADF0-228E876A0266
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES structure pointer [Audio Devices], USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES structure [Audio Devices], _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, audio.usbsidebandaudio_ep_shadow_resources, usbsidebandaudio/PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, usbsidebandaudio/USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

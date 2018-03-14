@@ -46,11 +46,6 @@ req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 # IOCTL_GET_TUPLE_DATA IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -115,7 +110,7 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551769">IRP_MN_WRITE_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
 
 
 
@@ -123,7 +118,7 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551769">IRP_MN_WRITE_CONFIG</a>
 
 
 

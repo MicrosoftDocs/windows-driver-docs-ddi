@@ -98,9 +98,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - pCreateData [in]
+#### - hRTView [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
+A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - hView [in]
@@ -108,9 +108,9 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideopro
 A handle to the driver's private data for the video processor output view. For more information, see the Remarks section.
 
 
-#### - hRTView [in]
+#### - pCreateData [in]
 
-A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
 
 
 ## -returns
@@ -177,11 +177,11 @@ When the runtime  calls <i>CreateVideoProcessorOutputView</i>, it passes the han
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
 
 
 

@@ -124,10 +124,6 @@ The <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a
 
 ## -see-also
 
-<a href="..\winspool\ne-winspool-bidi_type.md">BIDI_TYPE</a>
-
-
-
 <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a>
 
 
@@ -137,6 +133,10 @@ The <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a
 
 
 <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
+
+
+
+<a href="..\winspool\ne-winspool-bidi_type.md">BIDI_TYPE</a>
 
 
 

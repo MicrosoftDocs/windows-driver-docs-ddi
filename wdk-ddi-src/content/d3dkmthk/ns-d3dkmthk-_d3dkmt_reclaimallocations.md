@@ -49,7 +49,7 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS
 ## -description
 
 
-Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_reclaimallocations.md">D3DKMTReclaimAllocations</a> function.
+Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a> function.
 
 
 ## -syntax
@@ -106,7 +106,7 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_reclaimallocations.md">D3DKMTReclaimAllocations</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a>
 
 
 

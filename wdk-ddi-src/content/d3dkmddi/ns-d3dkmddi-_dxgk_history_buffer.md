@@ -95,11 +95,11 @@ The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
 
 
 

@@ -148,11 +148,11 @@ The following code example purges an I/O queue and does not call a callback func
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
-
-
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
 
 

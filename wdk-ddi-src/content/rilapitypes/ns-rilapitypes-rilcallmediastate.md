@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLMEDIASTATE
 title: RILCALLMEDIASTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediastate_2.htm
+old-location: netvista\rilcallmediastate.htm
 old-project: netvista
-ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
+ms.assetid: 1fe4b90e-f89a-4ccc-bc92-b6f2edfb0b98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate_2, rilapitypes/RILCALLMEDIASTATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate, ntddrilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIASTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -62,20 +62,10 @@ typedef struct _RILCALLMEDIASTATE {
   RILCALLMEDIATYPE         dwCallMediaType;
   NULL                     RILCALLMEDIASTATEUNION;
   RILCALLMEDIASTATEUNION   mediaStateUnion;
-  NULL                     switch_is;
-  NULL                     dwCallMediaType;
   RILCALLAUDIOMEDIASTATE   stAudioState;
-  NULL                     case;
-  NULL                     RIL_CALLMEDIATYPE_AUDIO;
   RILCALLVIDEOMEDIASTATE   stVideoState;
-  NULL                     case;
-  NULL                     RIL_CALLMEDIATYPE_VIDEO;
   RILCALLCUSTOMMEDIASTATE  dwCustomStateSpecific;
-  NULL                     case;
-  NULL                     RIL_CALLMEDIATYPE_CUSTOM;
   DWORD [16]               pad;
-  NULL                     case;
-  NULL                     RIL_CALLMEDIATYPE_UNKNOWN;
 } RILCALLMEDIASTATE, RILCALLMEDIASTATE;
 ````
 
@@ -97,32 +87,14 @@ typedef struct _RILCALLMEDIASTATE {
 ### -field RILCALLMEDIASTATEUNION
 
 
-#### - switch_is
-
-
-#### - stAudioState
-
-
-#### - case
-
-
-#### - RIL_CALLMEDIATYPE_AUDIO
-
-
-#### - stVideoState
-
-
-#### - RIL_CALLMEDIATYPE_VIDEO
-
-
 #### - dwCustomStateSpecific
-
-
-#### - RIL_CALLMEDIATYPE_CUSTOM
 
 
 #### - pad
 
 
-#### - RIL_CALLMEDIATYPE_UNKNOWN
+#### - stAudioState
+
+
+#### - stVideoState
 

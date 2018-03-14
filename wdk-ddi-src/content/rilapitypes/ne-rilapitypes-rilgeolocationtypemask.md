@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILGEOLOCATIONTYPEMASK
 title: RILGEOLOCATIONTYPEMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgeolocationtypemask_2.htm
+old-location: netvista\rilgeolocationtypemask.htm
 old-project: netvista
-ms.assetid: ffbd2c6d-537a-44f7-a071-21c073d96264
+ms.assetid: 8d1f6570-adc1-4389-b20b-7c7e05f1c9bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILGEOLOCATIONTYPEMASK, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask_2, rilapitypes/RILGEOLOCATIONTYPEMASK, rilapitypes/RIL_GEOLOCATION_ALL, rilapitypes/RIL_GEOLOCATION_CIVIC, rilapitypes/RIL_GEOLOCATION_LATLONG
+ms.date: 2/27/2018
+ms.keywords: RILGEOLOCATIONTYPEMASK, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_ALL, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RIL_GEOLOCATION_LATLONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGEOLOCATIONTYPEMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

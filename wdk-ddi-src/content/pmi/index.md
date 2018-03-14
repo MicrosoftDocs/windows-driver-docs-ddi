@@ -2,7 +2,7 @@
 UID: NA:pmi
 ms.assetid: d1e1b40a-26b6-3527-9981-b4f25be1e45f
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

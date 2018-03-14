@@ -439,11 +439,11 @@ The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 
 

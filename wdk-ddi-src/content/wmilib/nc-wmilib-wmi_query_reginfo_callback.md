@@ -7,7 +7,7 @@ old-location: kernel\dpwmiqueryreginfo.htm
 old-project: kernel
 ms.assetid: 6e450788-445f-4d0a-b99b-913100a54259
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], WMI_QUERY_REGINFO_CALLBACK, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml, kernel.dpwmiqueryreginfo, wmilib/DpWmiQueryReginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,12 +126,12 @@ Requests WMI to remove support for the blocks. This flag is valid only in respon
 
 ### -param InstanceName [out]
 
-A pointer to a single counted Unicode string that serves as the base name for all instances of all blocks to be registered by the driver. WMI frees the string with <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. If WMIREG_FLAG_INSTANCE_BASENAME is clear, <i>InstanceName</i> is ignored.
+A pointer to a single counted Unicode string that serves as the base name for all instances of all blocks to be registered by the driver. WMI frees the string with <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. If WMIREG_FLAG_INSTANCE_BASENAME is clear, <i>InstanceName</i> is ignored.
 
 
 ### -param *RegistryPath [out]
 
-A pointer to a pointer to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. 
+A pointer to a pointer to a counted Unicode string that specifies the registry path passed to the driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. 
 
 
 ### -param MofResourceName [out]
@@ -176,15 +176,7 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
-
-
-<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 
 
@@ -192,7 +184,15 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
 
 
 
@@ -200,5 +200,5 @@ For more information about implementing this routine, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_QUERY_REGINFO_CALLBACK callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMI_QUERY_REGINFO_CALLBACK callback function%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

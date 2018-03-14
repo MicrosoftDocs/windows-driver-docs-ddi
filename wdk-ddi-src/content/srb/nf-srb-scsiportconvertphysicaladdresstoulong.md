@@ -85,11 +85,11 @@ Specifies a value of type SCSI_PHYSICAL_ADDRESS.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
+
+<a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
 
 
 

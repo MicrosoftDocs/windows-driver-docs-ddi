@@ -117,11 +117,7 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
-
-
-
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
@@ -133,11 +129,15 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
-
-
-
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+
+
+<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
 
 

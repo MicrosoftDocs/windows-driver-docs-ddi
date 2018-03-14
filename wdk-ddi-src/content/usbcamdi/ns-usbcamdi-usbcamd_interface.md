@@ -117,7 +117,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568182">SRB_INITIALIZATION_COMPLETE</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -125,11 +125,11 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568182">SRB_INITIALIZATION_COMPLETE</a>
 
 
 
@@ -137,7 +137,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
 
 
 
@@ -145,7 +145,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 # IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

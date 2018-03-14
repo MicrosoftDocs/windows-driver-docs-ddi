@@ -100,7 +100,7 @@ The interrupt level associated with the message.
 
 ### -field InterruptMode
 
-A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
+A value of type <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 
 
 ## -remarks

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -125,11 +125,11 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC</a>
 
 
 

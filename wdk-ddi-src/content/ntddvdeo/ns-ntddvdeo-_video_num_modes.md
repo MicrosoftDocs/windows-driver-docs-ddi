@@ -89,11 +89,11 @@ The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a hre
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_num_avail_modes.md">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
-
-
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_num_avail_modes.md">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
 
 
 

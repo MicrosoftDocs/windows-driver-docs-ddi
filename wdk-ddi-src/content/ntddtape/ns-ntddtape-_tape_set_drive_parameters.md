@@ -107,11 +107,11 @@ The miniclass driver can ignore parameters its device does not support. The call
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_drive_params.md">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
+
+
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_drive_params.md">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
 
 
 

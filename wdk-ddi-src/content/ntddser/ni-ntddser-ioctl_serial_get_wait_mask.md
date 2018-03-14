@@ -46,11 +46,6 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_SERIAL_GET_WAIT_MASK IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -246,7 +241,7 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
 
 
@@ -254,7 +249,7 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
 
 
 
@@ -262,7 +257,7 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
 
 

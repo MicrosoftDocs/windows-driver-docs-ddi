@@ -83,14 +83,14 @@ VOID APIENTRY IaSetTopology(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - PrimitiveTopology [in]
 
  A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_primitive_topology.md">D3D10_DDI_PRIMITIVE_TOPOLOGY</a>-typed value that indicates the primitive topology to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns
@@ -115,11 +115,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_primitive_topology.md">D3D10_DDI_PRIMITIVE_TOPOLOGY</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_primitive_topology.md">D3D10_DDI_PRIMITIVE_TOPOLOGY</a>
 
 
 

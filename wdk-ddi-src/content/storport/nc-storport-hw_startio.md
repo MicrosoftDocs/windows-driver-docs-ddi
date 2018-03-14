@@ -161,7 +161,7 @@ Because a new SRB is issued, the miniport must make sure that it never issues SR
 </table>
  
 
-The name <b>HwStorStartIo</b> is a placeholder to describe the miniport routine set in the <b>HwStartIo</b> member of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. This structure is passed in the <i>HwInitializationData</i> parameter of <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The actual prototype of this routine is defined in Storport.h as follows:
+The name <b>HwStorStartIo</b> is a placeholder to describe the miniport routine set in the <b>HwStartIo</b> member of <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. This structure is passed in the <i>HwInitializationData</i> parameter of <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The actual prototype of this routine is defined in Storport.h as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -178,7 +178,7 @@ BOOLEAN
 </td>
 </tr>
 </table></span></div>
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 
 #### Examples
@@ -225,7 +225,7 @@ The <b>HW_STARTIO</b> function type is defined in the Storport.h header file. To
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -233,11 +233,11 @@ The <b>HW_STARTIO</b> function type is defined in the Storport.h header file. To
 
 
 
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
+
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

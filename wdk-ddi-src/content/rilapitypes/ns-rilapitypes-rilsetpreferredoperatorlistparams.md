@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETPREFERREDOPERATORLISTPARAMS
 title: RILSETPREFERREDOPERATORLISTPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetpreferredoperatorlistparams_2.htm
+old-location: netvista\rilsetpreferredoperatorlistparams.htm
 old-project: netvista
-ms.assetid: ff498364-f9ea-437f-904b-170ba0df7826
+ms.assetid: cec1db47-640c-467a-ba7d-270659ebbba2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetpreferredoperatorlistparams_2, rilapitypes/RILSETPREFERREDOPERATORLISTPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetpreferredoperatorlistparams, ntddrilapitypes/RILSETPREFERREDOPERATORLISTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETPREFERREDOPERATORLISTPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

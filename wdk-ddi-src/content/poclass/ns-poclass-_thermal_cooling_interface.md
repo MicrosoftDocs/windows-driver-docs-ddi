@@ -7,7 +7,7 @@ old-location: kernel\thermal_cooling_interface.htm
 old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,12 +91,12 @@ A pointer to interface-specific context information. During a callback to any of
 
 ### -field InterfaceReference
 
- A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+ A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field Flags
@@ -137,11 +137,23 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
 <a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
@@ -153,25 +165,13 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20THERMAL_COOLING_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20THERMAL_COOLING_INTERFACE structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

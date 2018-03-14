@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_VPCI_WRITE_BLOCK IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -148,7 +143,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 
@@ -186,7 +181,7 @@ The address of the event object that was initialized in the call to the <a href=
 <tr>
 <td><b>UserIosb</b></td>
 <td>
-The address of a caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
+The address of a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
 
 </td>
 </tr>
@@ -272,7 +267,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
  
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
-      When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.:
+      When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.:
 
 <table>
 <tr>
@@ -315,7 +310,7 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member was set to a valu
  
 
 If the request completed successfully, the 
-      <b>Information</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes written. Otherwise, the 
+      <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes written. Otherwise, the 
       <b>Information</b> member is set to zero.
 
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to write the data to the specified VF configuration block.
@@ -351,23 +346,7 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
-<a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -375,11 +354,27 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
+<a href="..\vpci\ns-vpci-_vpci_write_block_input.md">VPCI_WRITE_BLOCK_INPUT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

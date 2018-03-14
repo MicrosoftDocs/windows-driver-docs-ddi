@@ -46,11 +46,6 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 # IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -146,14 +141,14 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_INVALID_PARAMETER
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_MOUSE structure.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -see-also

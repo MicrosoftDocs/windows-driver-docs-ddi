@@ -117,11 +117,6 @@ Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
 Reserved. Do not use.
@@ -175,7 +170,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
 
 
 
@@ -191,11 +186,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 

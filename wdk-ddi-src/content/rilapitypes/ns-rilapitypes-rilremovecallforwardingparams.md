@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILREMOVECALLFORWARDINGPARAMS
 title: RILREMOVECALLFORWARDINGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilremovecallforwardingparams_2.htm
+old-location: netvista\rilremovecallforwardingparams.htm
 old-project: netvista
-ms.assetid: 5bdd8542-e1ef-42ac-99d7-c004039d2f33
+ms.assetid: f6eaaa56-8444-496b-8b14-63bb2368d6ba
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilremovecallforwardingparams_2, rilapitypes/RILREMOVECALLFORWARDINGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilremovecallforwardingparams, ntddrilapitypes/RILREMOVECALLFORWARDINGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREMOVECALLFORWARDINGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

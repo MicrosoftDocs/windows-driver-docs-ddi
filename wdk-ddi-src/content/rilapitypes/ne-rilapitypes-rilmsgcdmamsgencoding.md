@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMAMSGENCODING
 title: RILMSGCDMAMSGENCODING
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmamsgencoding_2.htm
+old-location: netvista\rilmsgcdmamsgencoding.htm
 old-project: netvista
-ms.assetid: 85586f69-09c3-4ebe-ad90-eb1b18e9d552
+ms.assetid: d0bc5fa4-d08d-484c-b6e0-35c7f1d144c3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCDMAMSGENCODING, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_7BITASCII, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_IA5, RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, RIL_MSGCODING_LATIN, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_MAX, RIL_MSGCODING_OCTET, RIL_MSGCODING_UNICODE, netvista.rilmsgcdmamsgencoding_2, rilapitypes/RILMSGCDMAMSGENCODING, rilapitypes/RIL_MSGCODING_7BITASCII, rilapitypes/RIL_MSGCODING_7BITGSM, rilapitypes/RIL_MSGCODING_8BITGSM, rilapitypes/RIL_MSGCODING_IA5, rilapitypes/RIL_MSGCODING_JIS, rilapitypes/RIL_MSGCODING_KOREAN, rilapitypes/RIL_MSGCODING_LATIN, rilapitypes/RIL_MSGCODING_LATIN_HEBREW, rilapitypes/RIL_MSGCODING_MAX, rilapitypes/RIL_MSGCODING_OCTET, rilapitypes/RIL_MSGCODING_UNICODE
+ms.date: 2/27/2018
+ms.keywords: RILMSGCDMAMSGENCODING, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_7BITASCII, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_IA5, RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, RIL_MSGCODING_LATIN, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_MAX, RIL_MSGCODING_OCTET, RIL_MSGCODING_UNICODE, netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_7BITASCII, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_UNICODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGENCODING
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

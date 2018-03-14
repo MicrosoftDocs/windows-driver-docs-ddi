@@ -140,7 +140,7 @@ When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umdd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
 
 
 
@@ -148,7 +148,7 @@ When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umdd
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
 
 
 

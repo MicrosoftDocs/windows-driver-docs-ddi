@@ -470,19 +470,19 @@ if (matchedRequest != NULL) {
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
 
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 
 

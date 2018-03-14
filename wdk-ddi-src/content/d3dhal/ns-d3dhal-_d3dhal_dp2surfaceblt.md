@@ -129,7 +129,7 @@ D3DDP2OP_BLT
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_SURFACEBLT
 
 
 
@@ -137,7 +137,7 @@ D3DDP2OP_BLT
 
 
 
-D3DDP2OP_SURFACEBLT
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

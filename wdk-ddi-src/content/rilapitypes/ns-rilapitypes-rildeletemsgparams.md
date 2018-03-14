@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILDELETEMSGPARAMS
 title: RILDELETEMSGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildeletemsgparams_2.htm
+old-location: netvista\rildeletemsgparams.htm
 old-project: netvista
-ms.assetid: 793e9724-fff0-4bdc-a8ed-1e62fa54b4df
+ms.assetid: e87104d2-96e4-4840-8609-8a75247a039a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams_2, rilapitypes/RILDELETEMSGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams, ntddrilapitypes/RILDELETEMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDELETEMSGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

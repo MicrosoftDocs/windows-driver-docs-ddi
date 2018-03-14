@@ -100,7 +100,7 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
 
 
 
@@ -108,7 +108,7 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
 
 
 
@@ -116,7 +116,7 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
+<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
 
 
 

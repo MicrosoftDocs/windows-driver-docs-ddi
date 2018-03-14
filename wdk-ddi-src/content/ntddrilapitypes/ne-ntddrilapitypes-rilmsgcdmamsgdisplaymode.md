@@ -7,13 +7,13 @@ old-location: netvista\rilmsgcdmamsgdisplaymode.htm
 old-project: netvista
 ms.assetid: ee75cf74-def7-4705-ae61-c2472bd4446e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

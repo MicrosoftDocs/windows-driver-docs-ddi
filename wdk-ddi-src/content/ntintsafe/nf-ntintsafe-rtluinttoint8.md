@@ -7,7 +7,7 @@ old-location: kernel\rtluinttoint8.htm
 old-project: kernel
 ms.assetid: 8E9CA6F9-D0F1-4315-8A1B-CFA46B8458D7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlUIntToInt8, RtlUIntToInt8 function [Kernel-Mode Driver Architecture], kernel.rtluinttoint8, ntintsafe/RtlUIntToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

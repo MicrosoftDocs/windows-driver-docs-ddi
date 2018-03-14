@@ -73,14 +73,14 @@ typedef struct _AV_PCR {
 
 
 
-#### - oPCR
-
-Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
-
-
 #### - iPCR
 
 Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537348">IPCR</a> structure that contains initialization values for an input plug.
+
+
+#### - oPCR
+
+Contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537441">OPCR</a> structure that contains initialization values for an output plug. 
 
 
 #### - ulongData

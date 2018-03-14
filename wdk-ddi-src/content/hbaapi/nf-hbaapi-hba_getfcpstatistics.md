@@ -173,10 +173,6 @@ Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
@@ -186,6 +182,10 @@ Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
 
 
 

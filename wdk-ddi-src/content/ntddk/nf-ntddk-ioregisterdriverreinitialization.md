@@ -7,7 +7,7 @@ old-location: kernel\ioregisterdriverreinitialization.htm
 old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ VOID IoRegisterDriverReinitialization(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
+Pointer to the driver object that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
 
 
 ### -param DriverReinitializationRoutine [in]
@@ -112,17 +112,17 @@ Usually, a driver with a <i>Reinitialize</i> routine is a higher-level driver th
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 
 
- 
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDriverReinitialization routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDriverReinitialization routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

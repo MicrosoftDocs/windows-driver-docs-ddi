@@ -123,15 +123,15 @@ This structure is available in Windows XP and later.
 
 
 
+<a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
+
+
+
 <a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
 
 
 
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
-
-
-
-<a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
 
 
 

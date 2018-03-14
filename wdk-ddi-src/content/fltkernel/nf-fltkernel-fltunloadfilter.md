@@ -126,7 +126,7 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -134,7 +134,7 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
 
 
 

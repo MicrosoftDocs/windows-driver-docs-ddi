@@ -1046,10 +1046,6 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
 
 
@@ -1058,11 +1054,15 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
 
 

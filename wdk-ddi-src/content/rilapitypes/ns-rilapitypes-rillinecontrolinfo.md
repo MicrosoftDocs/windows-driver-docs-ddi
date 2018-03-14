@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILLINECONTROLINFO
 title: RILLINECONTROLINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rillinecontrolinfo_2.htm
+old-location: netvista\rillinecontrolinfo.htm
 old-project: netvista
-ms.assetid: 490ef6ed-c5df-450f-acd1-36091ac8999e
+ms.assetid: 4a3bcbda-58e8-4b40-bcc2-fe7b1e624973
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo_2, rilapitypes/RILLINECONTROLINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo, ntddrilapitypes/RILLINECONTROLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILLINECONTROLINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -91,11 +91,11 @@ This function returns <b>TRUE</b> if the file or directory is a partial placehol
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfilehandle.md">RtlIsPartialPlaceholderFileHandle</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
 
 
 

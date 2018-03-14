@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
-
-Pointer to the register where the data is to be read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -116,18 +106,28 @@ Pointer to the buffer that receives the data that is read.
 Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
 
 
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Register [in]
+
+Pointer to the register where the data is to be read. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
+For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+<a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
 
 
 

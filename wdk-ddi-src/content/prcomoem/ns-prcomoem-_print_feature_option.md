@@ -90,15 +90,7 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
 
 
 
@@ -106,7 +98,15 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552947">IPrintCoreHelperUni::WhyConstrained</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
 
 
 

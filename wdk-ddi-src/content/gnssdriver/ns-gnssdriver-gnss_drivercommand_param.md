@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DRIVERCOMMAND_PARAM
 title: GNSS_DRIVERCOMMAND_PARAM
 author: windows-driver-content
 description: This structure is used to send a command to the GNSS driver.
-old-location: sensors\gnss_drivercommand_param.htm
-old-project: sensors
+old-location: gnss\gnss_drivercommand_param.htm
+old-project: gnss
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, sensors.gnss_drivercommand_param"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,13 @@ Size of the configuration data being sent to the driver.
 
 
 
+#### - CommandData[ANYSIZE_ARRAY]
+
+Data associated with the specific command type.
+
+The driver must cast this buffer to the appropriate data type depending on the specific command.
+
+
 #### - CommandFlag
 
 Bitmask indicating certain aspects of the command.
@@ -124,11 +131,4 @@ The flags are defined by the GNSS_DRIVERCOMMAND_FLAG_* macro.
 #### - Unused[512]
 
 Padding buffer.
-
-
-#### - CommandData[ANYSIZE_ARRAY]
-
-Data associated with the specific command type.
-
-The driver must cast this buffer to the appropriate data type depending on the specific command.
 

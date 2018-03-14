@@ -168,19 +168,19 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessbltflags.md">DXVADDI_VIDEOPROCESSBLTFLAGS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
 
 
 
@@ -192,7 +192,7 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
 
 
 

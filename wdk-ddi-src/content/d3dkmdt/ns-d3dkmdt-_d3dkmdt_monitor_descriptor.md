@@ -98,15 +98,15 @@ A value of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_ori
 
 ## -see-also
 
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_descriptor_type.md">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568427">Monitor Descriptor Set Interface</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
 
 
 

@@ -206,11 +206,11 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
 
 
 

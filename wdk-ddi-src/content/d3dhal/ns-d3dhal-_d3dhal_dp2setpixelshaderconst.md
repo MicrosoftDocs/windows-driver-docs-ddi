@@ -99,7 +99,7 @@ The runtime validates that the specified register range lies within the legal ra
 
 
 
-D3DDP2OP_SETPIXELSHADERCONST
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
 
 
 
@@ -107,7 +107,7 @@ D3DDP2OP_SETPIXELSHADERCONST
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+D3DDP2OP_SETPIXELSHADERCONST
 
 
 

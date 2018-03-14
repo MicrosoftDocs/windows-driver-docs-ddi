@@ -148,11 +148,11 @@ A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt fil
 
 
 
-<a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
 
 
 

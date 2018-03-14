@@ -184,7 +184,7 @@ Releases the port driver's queue for a logical unit that was previously locked w
 
 #### SRB_FUNCTION_DUMP_POINTERS (0x26)
 
-A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the <b>MINIPORT_DUMP_POINTERS</b> structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of its <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> to receive a request with this function.
+A request with this function is sent to a Storport miniport driver that is used to control the disk that holds the crash dump data. The request collects information needed from the miniport driver to support crash dump and hibernation. See the <b>MINIPORT_DUMP_POINTERS</b> structure. A physical miniport driver must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> to receive a request with this function.
 
 
 
@@ -480,13 +480,13 @@ Is irrelevant to miniport drivers.
 
 #### SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-Is irrelevant to miniport drivers and is obsolete to current Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+Is irrelevant to miniport drivers and is obsolete to current Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 
 #### SRB_FLAGS_SGLIST_FROM_POOL
 
-Is irrelevant to miniport drivers. To a Windows class driver, this indicates that memory for a scatter/gather list was allocated from nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+Is irrelevant to miniport drivers. To a Windows class driver, this indicates that memory for a scatter/gather list was allocated from nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 
@@ -532,11 +532,6 @@ Points to the request-sense buffer. A miniport driver is not required to provide
 Indicates the SCSI_REQUEST_BLOCK to which this request applies. Only a small subset of requests use a second SRB, for example SRB_FUNCTION_ABORT_COMMAND.
 
 
-### -field _SCSI_REQUEST_BLOCK
-
- 
-
-
 ### -field OriginalRequest
 
 Points to the IRP for this request. This member is irrelevant to miniport drivers
@@ -562,11 +557,6 @@ Specifies the SCSI-2 or later command descriptor block to be sent to the target 
 Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
 
 
-#### - QueueSortKey
-
-Specifies the offset from the start of the media or zero, depending on the type of the target device. 
-
-
 #### - LinkTimeoutValue
 
 
@@ -576,6 +566,11 @@ Specifies the offset from the start of the media or zero, depending on the type 
 
 
 #### 
+
+
+#### - QueueSortKey
+
+Specifies the offset from the start of the media or zero, depending on the type of the target device. 
 
 
 ## -remarks
@@ -613,35 +608,11 @@ The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI minipo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a>
+<a href="..\storport\ns-storport-_scsi_wmi_request_block.md">SCSI_WMI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetsrb.md">ScsiPortGetSrb</a>
-
-
-
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_wmi_request_block.md">SCSI_WMI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
@@ -649,7 +620,31 @@ The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI minipo
 
 
 
+<a href="..\srb\nf-srb-scsiportgetsrb.md">ScsiPortGetSrb</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
 
 
 

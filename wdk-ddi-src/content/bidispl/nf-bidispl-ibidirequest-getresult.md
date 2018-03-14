@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -137,7 +137,7 @@ Note that the return value indicates whether the method was successful. It does 
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -145,7 +145,7 @@ Note that the return value indicates whether the method was successful. It does 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

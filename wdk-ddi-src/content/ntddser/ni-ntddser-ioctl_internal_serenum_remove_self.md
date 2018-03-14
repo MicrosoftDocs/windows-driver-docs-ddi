@@ -46,11 +46,6 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -110,12 +105,12 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_DELETE_PENDING
 
 The device is in the process of being removed.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 

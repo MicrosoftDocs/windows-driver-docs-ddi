@@ -240,11 +240,11 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-
-
 <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 

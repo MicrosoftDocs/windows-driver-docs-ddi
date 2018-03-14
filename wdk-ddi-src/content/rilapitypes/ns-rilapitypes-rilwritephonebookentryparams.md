@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILWRITEPHONEBOOKENTRYPARAMS
 title: RILWRITEPHONEBOOKENTRYPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilwritephonebookentryparams_2.htm
+old-location: netvista\rilwritephonebookentryparams.htm
 old-project: netvista
-ms.assetid: ae92f321-d6dc-4e48-8107-1a6fbd3bb15a
+ms.assetid: 56d13074-4d7e-474e-8c4a-d319f38ecc97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritephonebookentryparams_2, rilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritephonebookentryparams, ntddrilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILWRITEPHONEBOOKENTRYPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

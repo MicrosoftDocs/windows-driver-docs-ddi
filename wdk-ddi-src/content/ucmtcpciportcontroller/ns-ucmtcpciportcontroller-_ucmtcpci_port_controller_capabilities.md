@@ -119,11 +119,11 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES {
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
-
-
-
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
+
+
+
+<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
 
 
 

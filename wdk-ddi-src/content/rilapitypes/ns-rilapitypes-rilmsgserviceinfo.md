@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGSERVICEINFO
 title: RILMSGSERVICEINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgserviceinfo_2.htm
+old-location: netvista\rilmsgserviceinfo.htm
 old-project: netvista
-ms.assetid: a6d5bc57-dd0e-4a75-af48-470b65e70a7d
+ms.assetid: 21b1c6ef-b8f3-4230-bc3f-7ac19c6cb2d1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmsgserviceinfo_2, rilapitypes/RILMSGSERVICEINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmsgserviceinfo, ntddrilapitypes/RILMSGSERVICEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGSERVICEINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

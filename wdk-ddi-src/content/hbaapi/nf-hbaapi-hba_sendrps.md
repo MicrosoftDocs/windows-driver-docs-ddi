@@ -116,14 +116,9 @@ TBD
 
 
 
-#### - hbaPortWWN [in]
+#### - RspBufferSize [in, out]
 
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the local port through which the RPS request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - agent_wwn [in]
-
-Contains, when non-<b>NULL</b>, a 64-bit WWN that uniquely identifies the port to query for the status of the port referenced by <i>object_wwn. </i>If this member is <b>NULL</b>, it is ignored, and the domain controller identified by <i>agent_domain </i>is queried. 
+On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. A buffer size of 56 bytes is sufficient for the largest response. 
 
 
 #### - agent_domain [in]
@@ -131,9 +126,14 @@ Contains, when non-<b>NULL</b>, a 64-bit WWN that uniquely identifies the port t
 Contains the domain number for the domain controller to query for the status of the port referenced by <i>object_wwn. </i>If <i>agent_wwn </i>is non-<b>NULL</b>, this member is ignored.
 
 
-#### - object_wwn [in]
+#### - agent_wwn [in]
 
-Contains a 64-bit WWN that uniquely identifies the port for which status information is retrieved. If this member is <b>NULL</b>, it is ignored, and status information is retrieved for the port identified by <i>object_port_number</i>. 
+Contains, when non-<b>NULL</b>, a 64-bit WWN that uniquely identifies the port to query for the status of the port referenced by <i>object_wwn. </i>If this member is <b>NULL</b>, it is ignored, and the domain controller identified by <i>agent_domain </i>is queried. 
+
+
+#### - hbaPortWWN [in]
+
+Contains a 64-bit worldwide name (WWN) that uniquely identifies the local port through which the RPS request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
 #### - object_port_number [in]
@@ -141,9 +141,9 @@ Contains a 64-bit WWN that uniquely identifies the port for which status informa
 Contains the relative port number of the port for which status information is retrieved. The meaning of the relative port number is defined by the hardware vendor that contains the port, and it is the responsibility of the software that receives the status query to interpret this number. If <i>object_wwn </i>is non-<b>NULL</b>, this member is ignored.
 
 
-#### - RspBufferSize [in, out]
+#### - object_wwn [in]
 
-On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. A buffer size of 56 bytes is sufficient for the largest response. 
+Contains a 64-bit WWN that uniquely identifies the port for which status information is retrieved. If this member is <b>NULL</b>, it is ignored, and status information is retrieved for the port identified by <i>object_port_number</i>. 
 
 
 ## -returns
@@ -209,11 +209,11 @@ Returned if an unspecified error occurred that prevented the execution of the RP
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

@@ -80,11 +80,11 @@ Specifies the AV/C connection information.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
 <a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

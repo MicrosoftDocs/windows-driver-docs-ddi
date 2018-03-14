@@ -46,11 +46,6 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_DELETE_DRIVE_LAYOUT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

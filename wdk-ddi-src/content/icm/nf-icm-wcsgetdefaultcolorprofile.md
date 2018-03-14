@@ -128,15 +128,15 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
-
-
-
 <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 
 
 <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
+
+<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 

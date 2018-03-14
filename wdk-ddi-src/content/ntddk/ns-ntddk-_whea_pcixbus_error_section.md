@@ -290,19 +290,19 @@ The WHEA_PCIXBUS_ERROR_SECTION structure describes the error data that is contai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section_validbits.md">WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section_validbits.md">WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS</a>
 
 
 

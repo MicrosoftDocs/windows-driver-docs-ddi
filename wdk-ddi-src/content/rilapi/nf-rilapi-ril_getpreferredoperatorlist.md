@@ -7,7 +7,7 @@ old-location: netvista\ril_getpreferredoperatorlist.htm
 old-project: netvista
 ms.assetid: bee76337-8349-4e61-9b0c-e525ed001850
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetPreferredOperatorList, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getpreferredoperatorlist, rilapi/RIL_GetPreferredOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

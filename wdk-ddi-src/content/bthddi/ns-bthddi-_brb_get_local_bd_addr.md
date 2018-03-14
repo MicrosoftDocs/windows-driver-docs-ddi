@@ -96,11 +96,11 @@ Only a single local radio is supported by the Bluetooth driver stack.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536611">BRB_HCI_GET_LOCAL_BD_ADDR</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

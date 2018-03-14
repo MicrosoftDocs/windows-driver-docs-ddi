@@ -49,7 +49,7 @@ req.typenames: D3DKMT_OFFERALLOCATIONS
 ## -description
 
 
-Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_offerallocations.md">D3DKMTOfferAllocations</a>  function.
+Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>  function.
 
 
 ## -syntax
@@ -109,11 +109,11 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
+
+
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
-
-
-
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_offerallocations.md">D3DKMTOfferAllocations</a>
 
 
 

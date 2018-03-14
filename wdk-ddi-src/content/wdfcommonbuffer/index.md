@@ -2,7 +2,7 @@
 UID: NA:wdfcommonbuffer
 ms.assetid: ebfd5e90-5f7e-327a-ba92-728bb7bc3661
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

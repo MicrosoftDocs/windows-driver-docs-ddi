@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMESSAGEFLAGS
 title: RILMESSAGEFLAGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmessageflags_2.htm
+old-location: netvista\rilmessageflags.htm
 old-project: netvista
-ms.assetid: 49f8bd1b-5c8a-47d3-a5d5-817216562559
+ms.assetid: 82f36886-20bf-4981-b0f0-3871a87b6c4e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMESSAGEFLAGS, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_ALL, RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RIL_MSGFLAG_REJECTDUPS, RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, netvista.rilmessageflags_2, rilapitypes/RILMESSAGEFLAGS, rilapitypes/RIL_MSGFLAG_ALL, rilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND, rilapitypes/RIL_MSGFLAG_HEADER, rilapitypes/RIL_MSGFLAG_MORETOSEND, rilapitypes/RIL_MSGFLAG_REJECTDUPS, rilapitypes/RIL_MSGFLAG_REPLYPATH, rilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, rilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED
+ms.date: 2/27/2018
+ms.keywords: RILMESSAGEFLAGS, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_ALL, RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RIL_MSGFLAG_REJECTDUPS, RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, netvista.rilmessageflags, ntddrilapitypes/RILMESSAGEFLAGS, ntddrilapitypes/RIL_MSGFLAG_ALL, ntddrilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND, ntddrilapitypes/RIL_MSGFLAG_HEADER, ntddrilapitypes/RIL_MSGFLAG_MORETOSEND, ntddrilapitypes/RIL_MSGFLAG_REJECTDUPS, ntddrilapitypes/RIL_MSGFLAG_REPLYPATH, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEFLAGS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

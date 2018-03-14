@@ -83,6 +83,11 @@ typedef union _USB_PROTOCOLS {
 A bitmask that indicates the USB signaling protocols that are supported by the port.
 
 
+#### - ReservedMBZ
+
+Reserved. Do not use.
+
+
 #### - Usb110
 
 If <b>TRUE</b>, the port supports the protocols that are defined in the USB 1.1 Specification. This indicates that the port supports full-speed and low-speed operations.  <b>Usb110</b> is always TRUE for high-speed ports because those ports support full-speed and low-speed operations through split transactions and transaction translators.
@@ -96,11 +101,6 @@ If <b>TRUE</b>, the port supports the protocols that are defined USB 2.0 Specifi
 #### - Usb300
 
 If <b>TRUE</b>, the port supports the protocols that are defined USB 3.0 Specification. This indicates that the port supports SuperSpeed operations.
-
-
-#### - ReservedMBZ
-
-Reserved. Do not use.
 
 
 ## -see-also

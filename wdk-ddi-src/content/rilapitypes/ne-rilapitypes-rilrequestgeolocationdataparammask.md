@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILREQUESTGEOLOCATIONDATAPARAMMASK
 title: RILREQUESTGEOLOCATIONDATAPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilrequestgeolocationdataparammask_2.htm
+old-location: netvista\rilrequestgeolocationdataparammask.htm
 old-project: netvista
-ms.assetid: b81cbf26-7164-4082-a505-2a849ec3d1ea
+ms.assetid: 86b89336-56f9-4665-a0d3-37dc6ec6c377
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILREQUESTGEOLOCATIONDATAPARAMMASK, RILREQUESTGEOLOCATIONDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_REQUESTGEOLOCATIONDATA_ALL, RIL_PARAM_REQUESTGEOLOCATIONDATA_EXECUTOR, RIL_PARAM_REQUESTGEOLOCATIONDATA_MASK, RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTACCCURACY, RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTINFORMATION, RIL_PARAM_REQUESTGEOLOCATIONDATA_SIZE, netvista.rilrequestgeolocationdataparammask_2, rilapitypes/RILREQUESTGEOLOCATIONDATAPARAMMASK, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_ALL, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_EXECUTOR, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_MASK, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTACCCURACY, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTINFORMATION, rilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_SIZE
+ms.date: 2/27/2018
+ms.keywords: RILREQUESTGEOLOCATIONDATAPARAMMASK, RILREQUESTGEOLOCATIONDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_REQUESTGEOLOCATIONDATA_ALL, RIL_PARAM_REQUESTGEOLOCATIONDATA_EXECUTOR, RIL_PARAM_REQUESTGEOLOCATIONDATA_MASK, RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTACCCURACY, RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTINFORMATION, RIL_PARAM_REQUESTGEOLOCATIONDATA_SIZE, netvista.rilrequestgeolocationdataparammask, ntddrilapitypes/RILREQUESTGEOLOCATIONDATAPARAMMASK, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_ALL, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_EXECUTOR, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_MASK, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTACCCURACY, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_REQUESTINFORMATION, ntddrilapitypes/RIL_PARAM_REQUESTGEOLOCATIONDATA_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREQUESTGEOLOCATIONDATAPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

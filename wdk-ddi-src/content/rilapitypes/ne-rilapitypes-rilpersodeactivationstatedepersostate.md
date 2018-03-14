@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 title: RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilpersodeactivationstatedepersostate_2.htm
+old-location: netvista\rilpersodeactivationstatedepersostate.htm
 old-project: netvista
-ms.assetid: e01aa9fb-a35e-41d4-994b-8a166372caaf
+ms.assetid: 81147a47-b5aa-4f00-812d-2c6cf9d5ab8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, netvista.rilpersodeactivationstatedepersostate_2, rilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, rilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, rilapitypes/RIL_DEPERSOSTATE_MAX, rilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, rilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED
+ms.date: 2/27/2018
+ms.keywords: RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, netvista.rilpersodeactivationstatedepersostate, ntddrilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, ntddrilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, ntddrilapitypes/RIL_DEPERSOSTATE_MAX, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, ntddrilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -135,15 +135,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
@@ -151,7 +143,15 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>
 
 
 

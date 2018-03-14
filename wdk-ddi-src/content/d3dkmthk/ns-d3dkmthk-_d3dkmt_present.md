@@ -224,27 +224,23 @@ Supported starting with Windows 8.
 
 
 
-#### - hDevice
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
-
-
 #### - hContext
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
 
 
+#### - hDevice
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
+
+
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
 
 
 
@@ -252,7 +248,11 @@ Supported starting with Windows 8.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

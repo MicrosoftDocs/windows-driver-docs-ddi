@@ -46,11 +46,6 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_SERIAL_GET_STATS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -109,11 +104,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 

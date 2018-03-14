@@ -252,15 +252,15 @@ Miniport drivers should use <b>VideoPortMapMemory</b> to manage video adapters t
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+
+
+
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
-
-
-
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 
 

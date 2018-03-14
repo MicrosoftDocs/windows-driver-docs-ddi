@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -145,7 +145,7 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -153,7 +153,7 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
 
 

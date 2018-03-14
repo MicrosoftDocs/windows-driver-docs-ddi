@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -169,7 +169,7 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
@@ -177,7 +177,7 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 

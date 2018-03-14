@@ -268,11 +268,11 @@ When <b>FilterType</b> is <b>QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS</b>, the <b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_query_file_layout_output.md">QUERY_FILE_LAYOUT_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a>
 
 
 

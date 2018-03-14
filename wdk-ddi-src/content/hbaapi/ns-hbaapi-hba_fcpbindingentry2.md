@@ -169,15 +169,15 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 
 <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 
 
@@ -193,7 +193,7 @@ This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbi
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
 
 
 

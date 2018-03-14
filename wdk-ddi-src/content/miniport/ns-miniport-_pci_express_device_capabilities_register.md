@@ -90,52 +90,14 @@ typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure.
 
 
-#### - MaxPayloadSizeSupported
+#### - CapturedSlotPowerLimit
 
-The maximum payload size that is supported by the device. Possible values are:
-
-
+The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>CapturedSlotPowerLimitScale</b> member to compute the power in watts.
 
 
+#### - CapturedSlotPowerLimitScale
 
-#### MaxPayload128Bytes
-
-128 byte maximum payload size
-
-
-
-#### MaxPayload256Bytes
-
-256 byte maximum payload size
-
-
-
-#### MaxPayload512Bytes
-
-512 byte maximum payload size
-
-
-
-#### MaxPayload1024Bytes
-
-1024 byte maximum payload size
-
-
-
-#### MaxPayload2048Bytes
-
-2048 byte maximum payload size
-
-
-
-#### MaxPayload4096Bytes
-
-4096 byte maximum payload size
-
-
-#### - PhantomFunctionsSupported
-
-A value that indicates the support of unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. Possible values are:
+The scale used for the value contained in the <b>CapturedSlotPowerLimit</b> member to compute the maximum power, in watts, that can be supplied by the slot. Possible values are:
 
 
 
@@ -143,25 +105,25 @@ A value that indicates the support of unused function numbers (phantom functions
 
 #### 0
 
-No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
 
 
 
 #### 1
 
-The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
 
 
 
 #### 2
 
-The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
 
 
 
 #### 3
 
-All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 
 #### - ExtendedTagSupported
@@ -279,9 +241,78 @@ The maximum acceptable total latency that the device can withstand due to a tran
 No limit
 
 
-#### - Undefined
+#### - MaxPayloadSizeSupported
 
-Reserved.
+The maximum payload size that is supported by the device. Possible values are:
+
+
+
+
+
+#### MaxPayload128Bytes
+
+128 byte maximum payload size
+
+
+
+#### MaxPayload256Bytes
+
+256 byte maximum payload size
+
+
+
+#### MaxPayload512Bytes
+
+512 byte maximum payload size
+
+
+
+#### MaxPayload1024Bytes
+
+1024 byte maximum payload size
+
+
+
+#### MaxPayload2048Bytes
+
+2048 byte maximum payload size
+
+
+
+#### MaxPayload4096Bytes
+
+4096 byte maximum payload size
+
+
+#### - PhantomFunctionsSupported
+
+A value that indicates the support of unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. Possible values are:
+
+
+
+
+
+#### 0
+
+No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
+
+
+
+#### 1
+
+The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
+
+
+
+#### 2
+
+The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+
+
+
+#### 3
+
+All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
 #### - RoleBasedErrorReporting
@@ -294,43 +325,12 @@ A single bit that indicates that the device implements role-based error reportin
 Reserved.
 
 
-#### - CapturedSlotPowerLimit
-
-The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>CapturedSlotPowerLimitScale</b> member to compute the power in watts.
-
-
-#### - CapturedSlotPowerLimitScale
-
-The scale used for the value contained in the <b>CapturedSlotPowerLimit</b> member to compute the maximum power, in watts, that can be supplied by the slot. Possible values are:
-
-
-
-
-
-#### 0
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
-
-
-
-#### 1
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
-
-
-
-#### 2
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
-
-
-
-#### 3
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
-
-
 #### - Rsvd2
+
+Reserved.
+
+
+#### - Undefined
 
 Reserved.
 

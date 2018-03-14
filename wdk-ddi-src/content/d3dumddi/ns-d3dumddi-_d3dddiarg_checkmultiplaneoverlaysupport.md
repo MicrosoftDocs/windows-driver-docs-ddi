@@ -93,11 +93,11 @@ typedef struct _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780232">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780232">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a>
 
 
 

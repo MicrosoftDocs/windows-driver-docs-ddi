@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:

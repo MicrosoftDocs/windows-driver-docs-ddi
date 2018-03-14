@@ -46,11 +46,6 @@ req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 # IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

@@ -93,7 +93,7 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
 
 
 
@@ -101,7 +101,7 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
 
 
 
@@ -109,7 +109,7 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541522">FilterVolumeFindClose</a>
 
 
 

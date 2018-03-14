@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -123,11 +123,11 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 

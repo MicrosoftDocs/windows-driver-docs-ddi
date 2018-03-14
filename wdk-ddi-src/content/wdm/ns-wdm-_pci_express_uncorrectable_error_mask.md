@@ -95,39 +95,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that the reporting of data link protocol errors is masked.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that the reporting of surprise down errors is masked.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that the reporting of flow control protocol errors is masked.
+A single bit that indicates that the reporting of completer aborts is masked.
 
 
 #### - CompletionTimeout
@@ -135,24 +105,9 @@ A single bit that indicates that the reporting of flow control protocol errors i
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that the reporting of completer aborts is masked.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that the reporting of unexpected completions is masked.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the reporting of receiver overflows is masked.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
 #### - ECRCError
@@ -160,14 +115,59 @@ A single bit that indicates that the reporting of malformed transaction layer pa
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that the reporting of unsupported request errors is masked.
+A single bit that indicates that the reporting of flow control protocol errors is masked.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that the reporting of receiver overflows is masked.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that the reporting of surprise down errors is masked.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that the reporting of unexpected completions is masked.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that the reporting of unsupported request errors is masked.
 
 
 ## -remarks
@@ -183,15 +183,15 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

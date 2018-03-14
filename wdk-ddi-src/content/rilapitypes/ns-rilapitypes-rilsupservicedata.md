@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSUPSERVICEDATA
 title: RILSUPSERVICEDATA
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsupservicedata_2.htm
+old-location: netvista\rilsupservicedata.htm
 old-project: netvista
-ms.assetid: e9faa47e-56f7-464b-ad6a-fbb543ca9d1d
+ms.assetid: 1cb4afae-75ad-4c9b-8b21-f9aade2c5fd8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata_2, rilapitypes/RILSUPSERVICEDATA"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata, ntddrilapitypes/RILSUPSERVICEDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUPSERVICEDATA
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

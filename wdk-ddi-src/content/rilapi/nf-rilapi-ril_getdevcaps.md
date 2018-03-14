@@ -7,7 +7,7 @@ old-location: netvista\ril_getdevcaps.htm
 old-project: netvista
 ms.assetid: eb239b03-7e46-4091-adff-86ed95a06704
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], netvista.ril_getdevcaps, rilapi/RIL_GetDevCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

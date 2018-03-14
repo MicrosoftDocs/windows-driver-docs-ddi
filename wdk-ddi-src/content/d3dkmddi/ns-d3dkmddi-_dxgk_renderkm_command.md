@@ -158,6 +158,30 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
 
@@ -166,31 +190,7 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_cleartypeblend.md">DXGK_GDIARG_CLEARTYPEBLEND</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
 
 
 

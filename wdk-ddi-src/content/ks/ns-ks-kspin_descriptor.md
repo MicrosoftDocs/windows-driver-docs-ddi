@@ -167,7 +167,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 
@@ -175,7 +175,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

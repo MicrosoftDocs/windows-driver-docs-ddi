@@ -46,11 +46,6 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 # IOCTL_TAPE_WRITE_MARKS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,7 +62,7 @@ Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 
 ### -input-buffer
 
-The <a href="..\minitape\ns-minitape-_tape_write_marks.md">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
+The <a href="..\ntddtape\ns-ntddtape-_tape_write_marks.md">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -120,7 +115,7 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 
 
-<a href="..\minitape\ns-minitape-_tape_write_marks.md">TAPE_WRITE_MARKS</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_write_marks.md">TAPE_WRITE_MARKS</a>
 
 
 

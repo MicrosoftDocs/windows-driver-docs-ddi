@@ -94,69 +94,9 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that a reported target abort on split completion is a fatal error.
-
-
-#### - MasterAbortOnSplitCompletion
-
-A single bit that indicates that a reported master abort on split completion is a fatal error.
-
-
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a reported target abort is a fatal error.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that a reported master abort is a fatal error.
-
-
-#### - RsvdZ
-
-Reserved for system use.
-
-
-#### - UnexpectedSplitCompletionError
-
-A single bit that indicates that a reported unexpected split completion error is a fatal error.
-
-
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that a reported uncorrectable data error is a fatal error.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that a reported uncorrectable address error is a fatal error.
-
-
 #### - DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
-
-
-#### - PERRAsserted
-
-A single bit that indicates that a reported PERR# assertion is a fatal error.
-
-
-#### - SERRAsserted
-
-A single bit that indicates that a reported SERR# assertion is a fatal error.
 
 
 #### - InternalBridgeError
@@ -164,9 +104,69 @@ A single bit that indicates that a reported SERR# assertion is a fatal error.
 A single bit that indicates that a reported internal bridge error is a fatal error.
 
 
+#### - MasterAbortOnSplitCompletion
+
+A single bit that indicates that a reported master abort on split completion is a fatal error.
+
+
+#### - PERRAsserted
+
+A single bit that indicates that a reported PERR# assertion is a fatal error.
+
+
+#### - ReceivedMasterAbort
+
+A single bit that indicates that a reported master abort is a fatal error.
+
+
+#### - ReceivedTargetAbort
+
+A single bit that indicates that a reported target abort is a fatal error.
+
+
 #### - Reserved
 
 Reserved for system use.
+
+
+#### - RsvdZ
+
+Reserved for system use.
+
+
+#### - SERRAsserted
+
+A single bit that indicates that a reported SERR# assertion is a fatal error.
+
+
+#### - TargetAbortOnSplitCompletion
+
+A single bit that indicates that a reported target abort on split completion is a fatal error.
+
+
+#### - UncorrectableAddressError
+
+A single bit that indicates that a reported uncorrectable address error is a fatal error.
+
+
+#### - UncorrectableAttributeError
+
+A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
+
+
+#### - UncorrectableDataError
+
+A single bit that indicates that a reported uncorrectable data error is a fatal error.
+
+
+#### - UncorrectableSplitCompletion
+
+A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
+
+
+#### - UnexpectedSplitCompletionError
+
+A single bit that indicates that a reported unexpected split completion error is a fatal error.
 
 
 ## -remarks

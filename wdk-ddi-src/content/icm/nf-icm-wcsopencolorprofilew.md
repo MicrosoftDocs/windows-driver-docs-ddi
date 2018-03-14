@@ -167,11 +167,6 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
-#### - pDMPProfile [in]
-
-A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
-
-
 #### - dwDesiredAccess [in]
 
 A flag value that specifies how to access the given color profile. This parameter must take one of the following values:
@@ -191,49 +186,9 @@ Specifies that the color profile will be opened for read-only access.
 Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
 
 
-##### - dwDesiredAccess.PROFILE_READ
+#### - pDMPProfile [in]
 
-Specifies that the color profile will be opened for read-only access.
-
-
-##### - dwDesiredAccess.PROFILE_READWRITE
-
-Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
-
-
-##### - dwShareMode.FILE_SHARE_READ
-
-Specifies that other open operations can be performed on the profile for read access.
-
-
-##### - dwShareMode.FILE_SHARE_WRITE
-
-Specifies that other open operations can be performed on the profile for write access. This flag value is ignored when a WCS profile is opened.
-
-
-##### - dwCreationMode.CREATE_NEW
-
-Specifies that a new profile is to be created. The function fails if the profile already exists.
-
-
-##### - dwCreationMode.CREATE_ALWAYS
-
-Specifies that a new profile is to be created. If a profile already exists, it is overwritten.
-
-
-##### - dwCreationMode.OPEN_EXISTING
-
-Specifies that the profile is to be opened. The function fails if the profile does not exist.
-
-
-##### - dwCreationMode.OPEN_ALWAYS
-
-Specifies that the profile is to be opened if an International Color Consortium (ICC) file exists. If an ICC profile does not exist, WCS creates a new ICC profile. The function will fail for WCS profiles if this flag is set and a WCS profile does not exist.
-
-
-##### - dwCreationMode.TRUNCATE_EXISTING
-
-Specifies that the profile is to be opened and truncated to zero bytes. The function fails if the profile does not exist.
+A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
 
 
 ## -remarks

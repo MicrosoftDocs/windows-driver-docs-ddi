@@ -80,14 +80,14 @@ typedef struct _DD_GETD3DQUERYDATA {
 Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
-#### - dwQueryIndex
-
-Specifies the index of the query type to return.
-
-
 #### - QueryType
 
 Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
+
+
+#### - dwQueryIndex
+
+Specifies the index of the query type to return.
 
 
 ## -remarks
@@ -105,10 +105,6 @@ For more information about D3DQUERYTYPE, see the DirectX SDK documentation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
 
 
@@ -118,6 +114,10 @@ D3DDP2OP_CREATEQUERY
 
 
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 # IOCTL_CDROM_GET_CONFIGURATION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -116,11 +111,11 @@ The <b>Information</b> field is set to the number of bytes that are returned. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
 
 
 

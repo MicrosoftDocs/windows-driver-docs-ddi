@@ -107,15 +107,15 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 

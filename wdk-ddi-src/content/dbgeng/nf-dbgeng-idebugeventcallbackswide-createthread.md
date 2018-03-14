@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_createthread.htm
 old-project: debugger
 ms.assetid: d845777c-1bc9-4ab3-9bfc-211f2231971e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: CreateThread method [Windows Debugging], CreateThread method [Windows Debugging], IDebugEventCallbacksWide interface, CreateThread,IDebugEventCallbacksWide.CreateThread, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], CreateThread method, IDebugEventCallbacksWide::CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, debugger.idebugeventcallbackswide_createthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

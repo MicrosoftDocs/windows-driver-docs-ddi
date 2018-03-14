@@ -101,15 +101,15 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552855">Direc
 
 ## -see-also
 
+D3DDP2OP_CREATEVERTEXSHADER
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
 
 
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-D3DDP2OP_CREATEVERTEXSHADER
 
 
 

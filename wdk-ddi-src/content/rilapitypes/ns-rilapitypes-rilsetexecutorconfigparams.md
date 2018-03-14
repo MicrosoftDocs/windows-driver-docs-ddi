@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETEXECUTORCONFIGPARAMS
 title: RILSETEXECUTORCONFIGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetexecutorconfigparams_2.htm
+old-location: netvista\rilsetexecutorconfigparams.htm
 old-project: netvista
-ms.assetid: b8dcfd30-e7fc-45ab-b407-a0719f624c8e
+ms.assetid: de392c8c-3153-48e8-85ad-dc1a5ed2812c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorconfigparams_2, rilapitypes/RILSETEXECUTORCONFIGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorconfigparams, ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETEXECUTORCONFIGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

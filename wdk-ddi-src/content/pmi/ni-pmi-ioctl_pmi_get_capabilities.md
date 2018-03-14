@@ -46,11 +46,6 @@ req.typenames: PMI_MEASUREMENT_UNIT
 # IOCTL_PMI_GET_CAPABILITIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -109,11 +104,6 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The WDM driver that supports the PMI interface has completed the IOCTL request successfully. 
-
-
 #### -STATUS_BUFFER_TOO_SMALL
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure and its variable-length data. 
@@ -122,6 +112,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="
 #### -STATUS_INVALID_PARAMETER
 
 The initiator-allocated input buffer contains an invalid <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a> value.
+
+
+#### -STATUS_SUCCESS
+
+The WDM driver that supports the PMI interface has completed the IOCTL request successfully. 
 
 
 ## -remarks
@@ -167,6 +162,18 @@ A <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIE
 
 ## -see-also
 
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+
+
+
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
@@ -175,19 +182,7 @@ A <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIE
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

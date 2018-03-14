@@ -126,7 +126,7 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
 
 
 
@@ -134,7 +134,7 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
 
 
 

@@ -134,7 +134,7 @@ status = WdfDeviceStopIdle(Device, TRUE);</pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932460">WdfDeviceStopIdleWithTag</a>
 
 
 
@@ -142,11 +142,11 @@ status = WdfDeviceStopIdle(Device, TRUE);</pre>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceresumeidle.md">WdfDeviceResumeIdle</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932460">WdfDeviceStopIdleWithTag</a>
 
 
 

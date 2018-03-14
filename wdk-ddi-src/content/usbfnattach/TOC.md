@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Usbfnattach.h](index.md)
 ### [USBFN_GET_ATTACH_ACTION callback](../usbfnattach/nc-usbfnattach-usbfn_get_attach_action.md)
 ### [USBFN_GET_ATTACH_ACTION_ABORT callback](../usbfnattach/nc-usbfnattach-usbfn_get_attach_action_abort.md)

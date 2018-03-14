@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGDCSPARAMMASK
 title: RILMSGDCSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgdcsparammask_2.htm
+old-location: netvista\rilmsgdcsparammask.htm
 old-project: netvista
-ms.assetid: 58ec244c-ccd5-480d-8185-2c62273aeb1f
+ms.assetid: 2cd5afcd-1d69-475f-95ea-165a405d8ee8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_FLAGS, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_MSGCLASS, netvista.rilmsgdcsparammask_2, rilapitypes/RILMSGDCSPARAMMASK, rilapitypes/RIL_PARAM_MDCS_ALL, rilapitypes/RIL_PARAM_MDCS_ALPHABET, rilapitypes/RIL_PARAM_MDCS_FLAGS, rilapitypes/RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_LANGUAGE, rilapitypes/RIL_PARAM_MDCS_MSGCLASS
+ms.date: 2/27/2018
+ms.keywords: RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_FLAGS, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_MSGCLASS, netvista.rilmsgdcsparammask, ntddrilapitypes/RILMSGDCSPARAMMASK, ntddrilapitypes/RIL_PARAM_MDCS_ALL, ntddrilapitypes/RIL_PARAM_MDCS_ALPHABET, ntddrilapitypes/RIL_PARAM_MDCS_FLAGS, ntddrilapitypes/RIL_PARAM_MDCS_INDICATION, ntddrilapitypes/RIL_PARAM_MDCS_LANGUAGE, ntddrilapitypes/RIL_PARAM_MDCS_MSGCLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

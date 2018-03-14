@@ -87,7 +87,7 @@ Specifies the diagnostic page being sent or requested based on the value. For a 
 ### -field SubEnclosureId
 
 Specifies the sub enclosure to which the application client is
-sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\scsi\ns-scsi-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
+sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
 

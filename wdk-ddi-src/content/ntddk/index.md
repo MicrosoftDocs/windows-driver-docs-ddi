@@ -2,7 +2,7 @@
 UID: NA:ntddk
 ms.assetid: 8dc3fa19-767c-3b6c-bd75-864cd70d19d4
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,13 +13,13 @@ ms.topic: portal
 
 
 
-This header is used by Installable file system, Windows kernel, Windows Hardware Error Architecture (WHEA), PCI, Storage, Driver test tools. For more information, see
+This header is used by Windows Hardware Error Architecture (WHEA), Installable file system, Windows kernel, PCI, Driver test tools, Storage. For more information, see
+- [Windows Hardware Error Architecture (WHEA)](../_whea/index.md)
 - [Installable file system](../_ifsk/index.md)
 - [Windows kernel](../_kernel/index.md)
-- [Windows Hardware Error Architecture (WHEA)](../_whea/index.md)
 - [PCI](../_PCI/index.md)
-- [Storage](../_storage/index.md)
 - [Driver test tools](../_devtest/index.md)
+- [Storage](../_storage/index.md)
 
 Ntddk.h contain these programming interfaces:
 

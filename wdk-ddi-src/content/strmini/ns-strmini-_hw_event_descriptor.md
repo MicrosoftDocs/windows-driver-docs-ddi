@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-When the class driver calls one of the minidriver's <a href="..\strmini\nc-strmini-phw_event_routine.md">StrMiniEvent</a> routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled. 
+When the class driver calls one of the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568457">StrMiniEvent</a> routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled. 
 
 
 ## -syntax
@@ -105,7 +105,7 @@ For device events, this specifies the index of the event set within the <b>Devic
 
 ### -field HwInstanceExtension
 
-Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
+Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
 
 
@@ -113,11 +113,6 @@ Pointer to the minidriver's instance extension. The minidriver may use this buff
 ### -field Reserved
 
 Reserved for system use. Do not use.
-
-
-#### - StreamObject
-
-Points to the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
 
 
 #### - DeviceExtension
@@ -128,4 +123,9 @@ Points to the minidriver's device extension.
 #### - Reserved[2]
 
 Reserved for system use. Do not use.
+
+
+#### - StreamObject
+
+Points to the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
 

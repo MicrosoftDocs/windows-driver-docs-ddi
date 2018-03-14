@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILPSMEDIACONFIGURATION
 title: RILPSMEDIACONFIGURATION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilpsmediaconfiguration_2.htm
+old-location: netvista\rilpsmediaconfiguration.htm
 old-project: netvista
-ms.assetid: eb4500cb-de96-4fbe-971c-d7badc6993af
+ms.assetid: 579a0943-0577-4dde-82d9-4794537e58f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfiguration_2, rilapitypes/RILPSMEDIACONFIGURATION"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfiguration, ntddrilapitypes/RILPSMEDIACONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPSMEDIACONFIGURATION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

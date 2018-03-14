@@ -7,13 +7,13 @@ old-location: netvista\rilgsmkind.htm
 old-project: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

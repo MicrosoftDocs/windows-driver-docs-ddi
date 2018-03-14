@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -100,11 +100,11 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
-
-
-
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 

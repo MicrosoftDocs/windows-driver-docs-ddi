@@ -115,7 +115,7 @@ The registry tree from which <b>VideoPortGetDeviceData</b> retrieves configurati
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -123,7 +123,7 @@ The registry tree from which <b>VideoPortGetDeviceData</b> retrieves configurati
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 

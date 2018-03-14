@@ -80,11 +80,11 @@ typedef struct _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_private_data.md">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
 
 
 

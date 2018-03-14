@@ -206,15 +206,15 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
 
 
 

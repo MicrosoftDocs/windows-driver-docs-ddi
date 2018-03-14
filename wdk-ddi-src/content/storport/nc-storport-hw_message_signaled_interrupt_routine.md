@@ -175,15 +175,15 @@ The <b>HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE</b> function type is defined in the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
-
-
-
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
 <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a>
+
+
+
+<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
 
 
 

@@ -97,11 +97,11 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 

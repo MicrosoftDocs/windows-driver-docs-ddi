@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -100,7 +100,7 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
 
 
 
@@ -108,15 +108,15 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getdescription.htm
 old-project: debugger
 ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetDescription method [Windows Debugging], GetDescription method [Windows Debugging], IDebugRegisters interface, GetDescription method [Windows Debugging], IDebugRegisters2 interface, GetDescription,IDebugRegisters2.GetDescription, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescription method, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

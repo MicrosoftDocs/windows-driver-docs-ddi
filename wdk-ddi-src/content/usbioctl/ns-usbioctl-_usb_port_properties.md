@@ -80,14 +80,14 @@ typedef union _USB_PORT_PROPERTIES {
 A bitmask that indicates the properties and capabilities of the port.
 
 
-#### - PortIsUserConnectable
-
-If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
-
-
 #### - PortIsDebugCapable
 
 If <b>TRUE</b>, the port supports debugging over a USB connection.
+
+
+#### - PortIsUserConnectable
+
+If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
 
 
 #### - ReservedMBZ
@@ -97,11 +97,11 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 
 

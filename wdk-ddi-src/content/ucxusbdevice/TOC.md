@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Ucxusbdevice.h](index.md)
 ### [EVT_UCX_USBDEVICE_ADDRESS callback](../ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_address.md)
 ### [EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback](../ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_default_endpoint_add.md)

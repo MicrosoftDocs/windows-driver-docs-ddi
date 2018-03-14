@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -144,7 +144,11 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -152,11 +156,7 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
-<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 
 

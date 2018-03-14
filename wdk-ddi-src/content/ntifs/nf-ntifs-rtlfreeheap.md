@@ -125,7 +125,7 @@ A pointer to the memory block to free. This pointer is returned by <a href="..\n
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
 
 
 
@@ -133,7 +133,7 @@ A pointer to the memory block to free. This pointer is returned by <a href="..\n
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
 
 
 

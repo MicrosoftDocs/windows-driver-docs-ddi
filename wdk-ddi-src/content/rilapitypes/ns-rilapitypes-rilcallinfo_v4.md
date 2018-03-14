@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLINFO_V4
 title: RILCALLINFO_V4
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallinfo_v4_2.htm
+old-location: netvista\rilcallinfo_v4.htm
 old-project: netvista
-ms.assetid: c369a79d-2f54-4a00-9442-0d96c714d726
+ms.assetid: 456597d1-e24c-414c-b099-509078cafdc1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLINFO_V4, RILCALLINFO_V4, RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v4_2, rilapitypes/RILCALLINFO_V4"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLINFO_V4, RILCALLINFO_V4, RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v4, ntddrilapitypes/RILCALLINFO_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V4
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -68,7 +68,7 @@ typedef struct _RILCALLINFO_V4 {
   RILCALLINFOMULTIPARTY           dwMultiparty;
   RILADDRESS                      raAddress;
   RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [MAXLENGTH_DESCRIPTION]   wszDescription;
+  WCHAR [256]                     wszDescription;
   RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
   RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
   DWORD                           dwFlags;

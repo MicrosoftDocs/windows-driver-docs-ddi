@@ -120,7 +120,7 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
 
 
@@ -128,7 +128,7 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
 
 
 

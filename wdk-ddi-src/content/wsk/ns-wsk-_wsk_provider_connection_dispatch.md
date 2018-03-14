@@ -7,7 +7,7 @@ old-location: netvista\wsk_provider_connection_dispatch.htm
 old-project: netvista
 ms.assetid: 70a86809-07f2-4723-9e50-4dbdd31ff900
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PWSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CONNECTION_DISPATCH, netvista.wsk_provider_connection_dispatch, wsk/PWSK_PROVIDER_CONNECTION_DISPATCH, wsk/WSK_PROVIDER_CONNECTION_DISPATCH, wskref_b6ef1db8-e10d-44bd-a3df-9dee672b2b9e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -196,31 +196,6 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
@@ -229,7 +204,35 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
 
 
 
@@ -241,23 +244,20 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 
 
@@ -269,5 +269,5 @@ The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_CONNECTION_DISPATCH structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_CONNECTION_DISPATCH structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

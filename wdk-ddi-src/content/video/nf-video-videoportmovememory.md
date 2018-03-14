@@ -117,11 +117,11 @@ Callers of <b>VideoPortMoveMemory</b> can be running at any IRQL if both memory 
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-
-
 <a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 

@@ -124,11 +124,11 @@ Indicates the size of each partition, in bytes.
 
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a>
+
+
+
+<a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
 
 
 

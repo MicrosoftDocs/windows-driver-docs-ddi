@@ -88,9 +88,19 @@ typedef union _WHEA_TIMESTAMP {
 A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
-#### - Seconds
+#### - Century
 
-The number of seconds past the minute.
+The century.
+
+
+#### - Day
+
+The day of the month.
+
+
+#### - Hours
+
+The hour in the day.
 
 
 #### - Minutes
@@ -98,9 +108,9 @@ The number of seconds past the minute.
 The number of minutes past the hour.
 
 
-#### - Hours
+#### - Month
 
-The hour in the day.
+The month of the year.
 
 
 #### - Precise
@@ -115,24 +125,14 @@ If this member is set to 1, the timestamp correlates precisely to the time of th
 Reserved for system use.
 
 
-#### - Day
+#### - Seconds
 
-The day of the month.
-
-
-#### - Month
-
-The month of the year.
+The number of seconds past the minute.
 
 
 #### - Year
 
 The year within the century.
-
-
-#### - Century
-
-The century.
 
 
 ## -remarks

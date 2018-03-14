@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILGSMKIND
 title: RILGSMKIND
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgsmkind_2.htm
+old-location: netvista\rilgsmkind.htm
 old-project: netvista
-ms.assetid: ec02cb5a-78e4-411b-945c-2ded798720e6
+ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind_2, rilapitypes/RILGSMKIND, rilapitypes/RIL_GSMKIND_EDGE, rilapitypes/RIL_GSMKIND_GPRS, rilapitypes/RIL_GSMKIND_MAX
+ms.date: 2/27/2018
+ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGSMKIND
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

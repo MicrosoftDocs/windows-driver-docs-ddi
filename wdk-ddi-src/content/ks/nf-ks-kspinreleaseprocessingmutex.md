@@ -93,11 +93,11 @@ Minidrivers that must suspend processing for a long time should not use this mut
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

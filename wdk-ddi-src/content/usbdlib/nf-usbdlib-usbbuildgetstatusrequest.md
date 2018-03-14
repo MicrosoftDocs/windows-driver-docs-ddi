@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: usbdlib.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -132,7 +132,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -140,7 +140,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
 
 
 

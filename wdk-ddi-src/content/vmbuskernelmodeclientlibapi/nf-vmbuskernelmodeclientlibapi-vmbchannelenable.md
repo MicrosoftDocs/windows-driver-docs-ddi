@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelenable.htm
 old-project: netvista
 ms.assetid: A0256B3F-C35C-45AB-A825-0A82189F08DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], netvista.vmbchannelenable, vmbuskernelmodeclientlibapi/VmbChannelEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -89,11 +89,7 @@ A pointer to the DXVADDI_DECODEINPUT structure is specified in the <b>pInfo</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferinfo.md">DXVADDI_DECODEBUFFERINFO</a>
 
 
 
@@ -105,7 +101,11 @@ A pointer to the DXVADDI_DECODEINPUT structure is specified in the <b>pInfo</b> 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferinfo.md">DXVADDI_DECODEBUFFERINFO</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 

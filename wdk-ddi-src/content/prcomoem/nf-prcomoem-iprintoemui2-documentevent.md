@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -603,15 +603,7 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
 
 
 
@@ -619,7 +611,15 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 
 
+<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+
+
+
 <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
 
 
 

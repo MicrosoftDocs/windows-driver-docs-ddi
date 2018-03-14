@@ -83,7 +83,7 @@ The data containing a token created as the offload read ROD.
 
 
 
-The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure is included with a <a href="..\minitape\ns-minitape-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>structure  as a response to a POPULATE TOKEN command. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure follows the <b>SenseData</b> member of <b>RECEIVE_TOKEN_INFORMATION_HEADER</b>.
+The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure is included with a <a href="..\storport\ns-storport-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>structure  as a response to a POPULATE TOKEN command. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure follows the <b>SenseData</b> member of <b>RECEIVE_TOKEN_INFORMATION_HEADER</b>.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
@@ -92,11 +92,11 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+<a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
 
 
-<a href="..\minitape\ns-minitape-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>
+<a href="..\storport\ns-storport-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>
 
 
 

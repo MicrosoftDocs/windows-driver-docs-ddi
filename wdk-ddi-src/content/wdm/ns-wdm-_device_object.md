@@ -7,7 +7,7 @@ old-location: kernel\device_object.htm
 old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,12 +112,7 @@ Used by the I/O manager to track the number of open handles for the device that 
 
 ### -field DriverObject
 
-A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
-
-
-### -field _DRIVER_OBJECT
-
- 
+A pointer to the driver object (<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>), that represents the loaded image of the driver that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines. This member is set by the I/O manager upon a successful call to <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>. This is a read-only member.
 
 
 ### -field NextDevice
@@ -134,19 +129,9 @@ A driver that recreates its device objects dynamically also uses this member. Th
 A pointer to the attached device object. If there is no attached device object, this member is <b>NULL</b>. The device object that is pointed to by the <b>AttachedDevice</b> member typically is the device object of a filter driver, which intercepts I/O requests originally targeted to the device represent by the device object. For more information, see the <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548298">IoAttachDeviceByPointer</a> topics. This is an opaque member.
 
 
-### -field _DEVICE_OBJECT
-
- 
-
-
 ### -field CurrentIrp
 
 A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a> and <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
-
-
-### -field _IRP
-
- 
 
 
 ### -field Timer
@@ -403,11 +388,6 @@ Reserved for system use. This is an opaque member.
 A pointer to a device object extension that is used by the I/O manager and PnP manager to store information about the state of the device. This is an opaque member.
 
 
-### -field _DEVOBJ_EXTENSION
-
- 
-
-
 ### -field Reserved
 
 Reserved for system use. This is an opaque member.
@@ -436,7 +416,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
@@ -444,7 +424,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
 
 
@@ -452,17 +432,17 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_OBJECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_OBJECT structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

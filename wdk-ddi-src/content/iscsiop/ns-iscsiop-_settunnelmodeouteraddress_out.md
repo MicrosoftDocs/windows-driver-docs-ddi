@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
 
 
 

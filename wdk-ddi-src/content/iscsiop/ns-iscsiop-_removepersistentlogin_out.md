@@ -83,15 +83,15 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_in.md">RemovePersistentLogin_IN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 

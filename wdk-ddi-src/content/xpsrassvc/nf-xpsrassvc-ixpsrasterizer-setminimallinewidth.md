@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -93,6 +93,14 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
+<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
 
@@ -102,14 +110,6 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 

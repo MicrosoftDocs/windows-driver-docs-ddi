@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -121,19 +121,19 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">,</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
 <a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">,</a>
 
 
 

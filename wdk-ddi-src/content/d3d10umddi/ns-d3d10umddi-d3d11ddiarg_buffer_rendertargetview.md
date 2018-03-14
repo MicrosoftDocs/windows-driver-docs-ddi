@@ -76,12 +76,17 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 
-#### - FirstElement
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementOffset
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
+
+
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
@@ -89,11 +94,6 @@ typedef struct D3D11DDIARG_BUFFER_RENDERTARGETVIEW {
 #### - NumElements
 
 [in] The number of elements in the buffer. 
-
-
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
 
 
 ## -see-also

@@ -101,15 +101,15 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 
 <a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

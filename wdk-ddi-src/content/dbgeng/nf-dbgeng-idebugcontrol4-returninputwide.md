@@ -7,7 +7,7 @@ old-location: debugger\returninputwide.htm
 old-project: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], ReturnInputWide method, IDebugControl4::ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging], IDebugControl4 interface, ReturnInputWide,IDebugControl4.ReturnInputWide, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
