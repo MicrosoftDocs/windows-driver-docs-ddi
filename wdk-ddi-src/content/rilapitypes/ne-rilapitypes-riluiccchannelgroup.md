@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILUICCCHANNELGROUP
 title: RILUICCCHANNELGROUP
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccchannelgroup_2.htm
+old-location: netvista\riluiccchannelgroup.htm
 old-project: netvista
-ms.assetid: cbb5fbb1-7042-45fe-81eb-2fca0f413572
+ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup_2, rilapitypes/RILUICCCHANNELGROUP
+ms.date: 2/27/2018
+ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCCHANNELGROUP
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

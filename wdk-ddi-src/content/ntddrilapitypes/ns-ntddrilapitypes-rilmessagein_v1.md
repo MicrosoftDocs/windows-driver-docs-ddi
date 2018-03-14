@@ -7,13 +7,13 @@ old-location: netvista\rilmessagein_v1.htm
 old-project: netvista
 ms.assetid: c9de99e4-556c-4b3b-a442-53fc52553d3d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILMESSAGEIN_V1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v1, ntddrilapitypes/RILMESSAGEIN_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

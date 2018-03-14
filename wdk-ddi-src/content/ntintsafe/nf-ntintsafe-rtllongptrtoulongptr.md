@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrtoulongptr.htm
 old-project: kernel
 ms.assetid: 9171C016-D54C-4BF4-BBD7-00D39C062929
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlLongPtrToULongPtr, RtlLongPtrToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoulongptr, ntintsafe/RtlLongPtrToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

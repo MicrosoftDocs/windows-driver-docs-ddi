@@ -108,15 +108,15 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlgenerate8dot3name.md">RtlGenerate8dot3Name</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 

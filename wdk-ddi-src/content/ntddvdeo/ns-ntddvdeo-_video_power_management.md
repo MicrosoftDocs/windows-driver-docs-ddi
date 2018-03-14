@@ -131,11 +131,11 @@ A driver will always enter all other power states from the <b>VideoPowerOn</b> s
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
 
 
 

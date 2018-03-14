@@ -81,14 +81,14 @@ typedef union _WHEA_REVISION {
 A USHORT representation of the contents of the WHEA_REVISION union.
 
 
-#### - MinorRevision
-
-The minor revision number.
-
-
 #### - MajorRevision
 
 The major revision number.
+
+
+#### - MinorRevision
+
+The minor revision number.
 
 
 ## -remarks
@@ -102,11 +102,11 @@ A WHEA_REVISION union is contained within the <a href="..\ntddk\ns-ntddk-_whea_e
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 

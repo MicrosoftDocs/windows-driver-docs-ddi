@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -119,7 +119,7 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 
@@ -127,11 +127,11 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
@@ -139,7 +139,7 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 

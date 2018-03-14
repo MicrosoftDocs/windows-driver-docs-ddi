@@ -94,11 +94,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
 
 

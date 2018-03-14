@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -194,11 +194,11 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
-
-
-
 <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizationfactory.md">IXpsRasterizationFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
 
 

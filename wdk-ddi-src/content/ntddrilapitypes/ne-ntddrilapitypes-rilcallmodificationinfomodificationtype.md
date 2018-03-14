@@ -7,13 +7,13 @@ old-location: netvista\rilcallmodificationinfomodificationtype.htm
 old-project: netvista
 ms.assetid: 37b18047-7818-4e57-b25a-3c958106e215
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMODIFICATIONTYPE_BLOCKED, RIL_CALLMODIFICATIONTYPE_MAX, RIL_CALLMODIFICATIONTYPE_MODIFIED, netvista.rilcallmodificationinfomodificationtype, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

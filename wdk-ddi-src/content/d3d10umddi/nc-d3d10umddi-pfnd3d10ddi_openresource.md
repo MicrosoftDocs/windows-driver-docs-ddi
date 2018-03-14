@@ -96,9 +96,9 @@ VOID APIENTRY OpenResource(
  A handle to the display device (graphics context).
 
 
-#### - pOpenResource [in]
+#### - hRTResource [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to open a shared resource. 
+ A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 #### - hResource [in]
@@ -106,9 +106,9 @@ VOID APIENTRY OpenResource(
  A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateopenedresourcesize.md">CalcPrivateOpenedResourceSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object. 
 
 
-#### - hRTResource [in]
+#### - pOpenResource [in]
 
- A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to open a shared resource. 
 
 
 ## -returns
@@ -133,7 +133,19 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateopenedresourcesize.md">CalcPrivateOpenedResourceSize</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openresource.md">D3D10DDIARG_OPENRESOURCE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
@@ -142,18 +154,6 @@ The driver might run out of memory. Therefore, the driver can pass E_OUTOFMEMORY
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateopenedresourcesize.md">CalcPrivateOpenedResourceSize</a>
 
 
 

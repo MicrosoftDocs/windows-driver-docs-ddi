@@ -80,11 +80,11 @@ Specifies the details of the analog video stream.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-tagks_analogvideoinfo.md">KS_ANALOGVIDEOINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 

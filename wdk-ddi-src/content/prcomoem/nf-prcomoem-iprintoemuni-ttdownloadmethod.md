@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -202,15 +202,11 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
 
 
 
@@ -218,7 +214,11 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 

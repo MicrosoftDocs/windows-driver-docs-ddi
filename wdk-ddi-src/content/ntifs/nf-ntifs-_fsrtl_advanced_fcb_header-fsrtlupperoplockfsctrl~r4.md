@@ -228,11 +228,11 @@ An oplock acknowledgement
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckupperoplock~r5.md">FsRtlCheckUpperOplock</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckupperoplock~r5.md">FsRtlCheckUpperOplock</a>
 
 
 

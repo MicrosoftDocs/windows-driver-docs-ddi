@@ -95,15 +95,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 
 <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
 
 
 

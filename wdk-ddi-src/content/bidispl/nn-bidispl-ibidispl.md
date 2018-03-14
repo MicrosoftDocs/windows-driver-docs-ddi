@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -108,15 +108,15 @@ Unbinds a printer.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
 <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiSpl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 

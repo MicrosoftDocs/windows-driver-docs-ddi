@@ -129,11 +129,11 @@ When creating a single frame from one field in a sample, as defined in the <a hr
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
-
-
-
 <a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
 
 
 

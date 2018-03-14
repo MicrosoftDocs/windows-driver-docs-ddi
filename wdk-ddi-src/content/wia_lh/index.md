@@ -2,7 +2,7 @@
 UID: NA:wia_lh
 ms.assetid: 99eafa9d-3584-3ffa-9589-0fb46987965a
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

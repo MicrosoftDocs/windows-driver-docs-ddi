@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_exitprocess.htm
 old-project: debugger
 ms.assetid: 050b747e-5570-4e25-81e4-eccdde4f6995
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging], IDebugEventCallbacks interface, ExitProcess,IDebugEventCallbacks.ExitProcess, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, IDebugEventCallbacks::ExitProcess, dbgeng/IDebugEventCallbacks::ExitProcess, debugger.idebugeventcallbacks_exitprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

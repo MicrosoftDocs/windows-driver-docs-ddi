@@ -111,7 +111,7 @@ Call <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyA
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -119,7 +119,7 @@ Call <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyA
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 

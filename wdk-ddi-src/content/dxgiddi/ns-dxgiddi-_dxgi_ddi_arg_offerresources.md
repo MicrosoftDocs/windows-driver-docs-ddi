@@ -98,7 +98,7 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
 
 
 
@@ -106,7 +106,7 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

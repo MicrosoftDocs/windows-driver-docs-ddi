@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,7 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="..\ntddk\nf-ntddk-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
+The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>.
 
 
 ## -syntax

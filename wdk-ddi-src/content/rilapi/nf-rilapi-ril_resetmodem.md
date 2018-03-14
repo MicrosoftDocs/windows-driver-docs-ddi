@@ -7,7 +7,7 @@ old-location: netvista\ril_resetmodem.htm
 old-project: netvista
 ms.assetid: 7cb249d3-b39f-4b6b-8023-bb0c0ef8f9e1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_ResetModem, RIL_ResetModem method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem, rilapi/RIL_ResetModem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

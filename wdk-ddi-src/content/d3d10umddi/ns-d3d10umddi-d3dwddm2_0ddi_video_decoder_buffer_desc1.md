@@ -123,11 +123,11 @@ The number of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_s
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
 
 
 

@@ -316,11 +316,11 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
 
 
 

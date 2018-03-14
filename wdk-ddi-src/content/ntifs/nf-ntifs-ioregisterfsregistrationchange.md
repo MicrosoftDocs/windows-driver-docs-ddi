@@ -144,7 +144,7 @@ In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a hr
 
 
 
-<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
 
@@ -152,7 +152,7 @@ In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a hr
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 
 

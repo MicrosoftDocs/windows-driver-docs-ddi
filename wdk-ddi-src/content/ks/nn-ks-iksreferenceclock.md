@@ -179,11 +179,11 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
 

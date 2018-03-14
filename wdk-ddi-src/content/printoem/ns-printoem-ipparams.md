@@ -99,11 +99,11 @@ Specifies whether a blank band was drawn in the source bitmap supplied to <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
 
 

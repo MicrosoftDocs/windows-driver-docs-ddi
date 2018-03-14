@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLHANDOVERSTATE
 title: RILCALLHANDOVERSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallhandoverstate_2.htm
+old-location: netvista\rilcallhandoverstate.htm
 old-project: netvista
-ms.assetid: 21558cd6-f200-4867-920f-8aaadc9839f8
+ms.assetid: 1c9fb343-32f1-444e-9328-097da72cd006
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate_2, rilapitypes/RILCALLHANDOVERSTATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLHANDOVERSTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

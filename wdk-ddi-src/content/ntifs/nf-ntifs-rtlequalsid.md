@@ -99,7 +99,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
 
 
@@ -107,11 +107,11 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
 
 

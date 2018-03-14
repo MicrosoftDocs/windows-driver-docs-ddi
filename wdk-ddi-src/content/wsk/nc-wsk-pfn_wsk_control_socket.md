@@ -7,7 +7,7 @@ old-location: netvista\wskcontrolsocket.htm
 old-project: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: PFN_WSK_CONTROL_SOCKET, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -361,25 +361,7 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
@@ -395,9 +377,27 @@ Callers of the
 
 
 
- 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CONTROL_SOCKET callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CONTROL_SOCKET callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

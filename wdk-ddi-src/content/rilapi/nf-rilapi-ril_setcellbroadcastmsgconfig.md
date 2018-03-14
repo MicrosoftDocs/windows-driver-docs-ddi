@@ -7,7 +7,7 @@ old-location: netvista\ril_setcellbroadcastmsgconfig.htm
 old-project: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setcellbroadcastmsgconfig, rilapi/RIL_SetCellBroadcastMsgConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

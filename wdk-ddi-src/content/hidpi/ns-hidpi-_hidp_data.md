@@ -82,14 +82,14 @@ Specifies the data index of a control.
 Reserved for internal system use only.
 
 
-#### - RawValue
-
-Contains the binary data extracted from a report if the control is a value.
-
-
 #### - On
 
 Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
+
+
+#### - RawValue
+
+Contains the binary data extracted from a report if the control is a value.
 
 
 ## -remarks
@@ -103,11 +103,11 @@ See <a href="https://msdn.microsoft.com/d26d169f-4116-4d81-94c7-63c92d22877d">Ex
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
 
 
 

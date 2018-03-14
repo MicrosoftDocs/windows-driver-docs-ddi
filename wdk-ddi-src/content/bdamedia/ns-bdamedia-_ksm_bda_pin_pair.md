@@ -102,11 +102,11 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
 <a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 

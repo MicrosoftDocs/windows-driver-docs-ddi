@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -113,7 +113,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcom
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 
@@ -129,7 +129,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcom
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 
 

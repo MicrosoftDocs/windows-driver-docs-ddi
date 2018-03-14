@@ -7,7 +7,7 @@ old-location: kernel\keregisterprocessorchangecallback.htm
 old-project: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -155,7 +155,7 @@ If an error occurs while the device driver processes the first callback for one 
 
 If the device driver indicates an error when the first callback for one of the existing active processors in the hardware partition is processed, the callback function is not called for any more of the existing active processors. Instead, the callback function is immediately called a second time for each active processor for which the callback was called the first time, excluding the active processor for which the callback indicated the error. For these callbacks, the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddFailureNotify</b>.
 
-A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> routine from within its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. If the call to the <b>KeRegisterProcessorChangeCallback</b> routine returns <b>NULL</b>, the device driver's <b>DriverEntry</b> routine should return an NTSTATUS code that describes the error condition.
+A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> routine from within its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. If the call to the <b>KeRegisterProcessorChangeCallback</b> routine returns <b>NULL</b>, the device driver's <b>DriverEntry</b> routine should return an NTSTATUS code that describes the error condition.
 
 <div class="alert"><b>Note</b>    A device driver can use the context that is passed in the <i>CallbackContext</i> parameter to the <b>KeRegisterProcessorChangeCallback</b> routine as a place where the callback function can store the NTSTATUS code that describes the error condition. This NTSTATUS code can then be used as the return value for the device driver's <b>DriverEntry</b> routine.</div>
 <div> </div>
@@ -180,5 +180,5 @@ A callback function that has been registered for notification of processor chang
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRegisterProcessorChangeCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRegisterProcessorChangeCallback routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

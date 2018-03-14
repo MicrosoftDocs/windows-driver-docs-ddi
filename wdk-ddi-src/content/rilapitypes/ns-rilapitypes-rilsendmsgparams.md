@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDMSGPARAMS
 title: RILSENDMSGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendmsgparams_2.htm
+old-location: netvista\rilsendmsgparams.htm
 old-project: netvista
-ms.assetid: db2eeb43-710a-4be6-8d9f-49809ff70057
+ms.assetid: de1049a8-e089-4d15-baca-2c760f895894
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSENDMSGPARAMS, RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgparams_2, rilapitypes/RILSENDMSGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSENDMSGPARAMS, RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgparams, ntddrilapitypes/RILSENDMSGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

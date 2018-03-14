@@ -96,11 +96,11 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
 
 
 

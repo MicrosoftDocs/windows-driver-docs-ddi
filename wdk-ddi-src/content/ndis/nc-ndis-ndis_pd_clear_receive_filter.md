@@ -7,7 +7,7 @@ old-location: netvista\ndispdclearreceivefilter.htm
 old-project: netvista
 ms.assetid: C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: NDIS_PD_CLEAR_RECEIVE_FILTER, NdisPDClearReceiveFilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDClearReceiveFilter, netvista.ndispdclearreceivefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

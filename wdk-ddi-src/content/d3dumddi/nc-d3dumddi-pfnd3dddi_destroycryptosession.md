@@ -132,11 +132,11 @@ The encryption session is successfully destroyed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a>
 
 
 

@@ -143,11 +143,11 @@ This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_li
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 

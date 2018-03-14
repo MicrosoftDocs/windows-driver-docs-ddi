@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverSetupDeviceAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriversetupdeviceaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

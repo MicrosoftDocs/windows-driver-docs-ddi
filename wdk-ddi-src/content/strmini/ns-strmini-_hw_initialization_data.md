@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each SCSI miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
+Each SCSI miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -195,24 +195,31 @@ Specifies the type of I/O bus to which the HBA is connected, which can be one of
 If this is set to <b>PCIBus</b>, the miniport driver must supply values for the <b>VendorIdLength</b>, <b>VendorId</b>, <b>DeviceIdLength</b>, and <b>DeviceId</b> members, described later.
 
 
-#### - HwInitialize
+#### - AutoRequestSense
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_initialize.md">PHW_INITIALIZE</a>. 
-
-
-#### - HwStartIo
-
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_startio.md">PHW_STARTIO</a>.
+Indicates, when <b>TRUE</b>, that the HBA can perform a request-sense operation without requiring an explicit request to do so. When <b>FALSE</b>, the HBA requires an explicit request before it can perform a request-sense operation. Only miniport drivers driving HBAs with built-in firmware to perform request-sense operations should set this member to <b>TRUE</b>.
 
 
-#### - HwFindAdapter
+#### - DeviceId
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_find_adapter.md">PHW_FIND_ADAPTER</a>.
+Pointer to an ASCII byte string identifying the HBA model(s) supported by the miniport driver. This member is irrelevant for Plug and Play drivers.
+
+If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, a device ID is a USHORT value assigned by the manufacturer of the HBA. The miniport driver must convert any PCI device ID value(s) for the HBA(s) it can support into <b>DeviceId</b> byte string(s), as for the <b>VendorId</b> member. For example, if a miniport driver can support HBAs with the PCI device IDs 8040 and 8050, it might set <b>DeviceId</b> with a pointer to the byte string ('8', '0').
 
 
-#### - HwResetBus
+#### - DeviceIdLength
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_reset_bus.md">PHW_RESET_BUS</a>. 
+Specifies the size in bytes of the <b>DeviceId</b> string, described next.
+
+
+#### - HwAdapterControl
+
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_control.md">HwScsiAdapterControl</a> routine, which is a required entry point for all PnP miniport drivers. Set this to <b>NULL</b> if the miniport driver does not support Plug and Play.
+
+
+#### - HwAdapterState
+
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a> routine, which is a required entry point for miniport drivers of HBAs with BIOSs that are linked with an operating system-dependent, x86-platform-only port driver that must switch between x86 protected and real processor modes. If the miniport driver needs no <i>HwScsiAdapterState</i> routine, set this member to <b>NULL</b>. A miniport driver for an HBA that has a BIOS must have a HwScsiAdapterState routine in order to be compatible with the x86-only port driver and portable to an x86-only operating system environment. The prototype for this routine is <a href="..\srb\nc-srb-phw_adapter_state.md">PHW_ADAPTER_STATE</a>. 
 
 
 #### - HwDmaStarted
@@ -220,9 +227,54 @@ Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsi
 Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a> routine if its HBA uses system DMA, that is, a system DMA controller. Set this to <b>NULL</b> if the HBA is a bus master or uses PIO. The prototype for this routine is <a href="..\srb\nc-srb-phw_dma_started.md">PHW_DMA_STARTED</a>. 
 
 
-#### - HwAdapterState
+#### - HwFindAdapter
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a> routine, which is a required entry point for miniport drivers of HBAs with BIOSs that are linked with an operating system-dependent, x86-platform-only port driver that must switch between x86 protected and real processor modes. If the miniport driver needs no <i>HwScsiAdapterState</i> routine, set this member to <b>NULL</b>. A miniport driver for an HBA that has a BIOS must have a HwScsiAdapterState routine in order to be compatible with the x86-only port driver and portable to an x86-only operating system environment. The prototype for this routine is <a href="..\srb\nc-srb-phw_adapter_state.md">PHW_ADAPTER_STATE</a>. 
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_find_adapter.md">PHW_FIND_ADAPTER</a>.
+
+
+#### - HwInitialize
+
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_initialize.md">PHW_INITIALIZE</a>. 
+
+
+#### - HwResetBus
+
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_reset_bus.md">PHW_RESET_BUS</a>. 
+
+
+#### - HwStartIo
+
+Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_startio.md">PHW_STARTIO</a>.
+
+
+#### - MapBuffers
+
+Indicates, when <b>TRUE</b>, that all data buffer addresses must be mapped to virtual addresses for access by the miniport driver. When <b>FALSE</b>, data buffer addresses do not have to be mapped to virtual addresses.
+
+
+#### - MultipleRequestPerLu
+
+Indicates, when <b>TRUE</b>, that the miniport driver can queue multiple requests per logical unit, in particular, within the HBA. When <b>FALSE</b>, the miniport driver cannot queue multiple requests per logical unit. Note that an HBA must support auto request sense for its miniport driver to enable this functionality. If a miniport driver sets this member to <b>TRUE</b>, it must use each SRB <b>QueueTag</b> member for requests of this type, but the SRB_FLAGS_QUEUE_ACTION_ENABLE is not set in the <b>SrbFlags</b> member of the SCSI_REQUEST_BLOCK structure.
+
+
+#### - NeedPhysicalAddresses
+
+Indicates, when <b>TRUE</b>, that the miniport driver needs to translate its device, any per-LU, and any per-SRB extension addresses, as well as SRB buffer addresses, to physical addresses, as required by the HBA. When <b>FALSE</b>, none of these addresses have to be translated to physical addresses.
+
+
+#### - NumberOfAccessRanges
+
+Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses. A typical HBA uses two ranges, one for its I/O ports and another for its device memory range.
+
+
+#### - ReceiveEvent
+
+Indicates, when <b>TRUE</b>, that the miniport driver drives an HBA that can support the receive-event SRB for SCSI asynchronous events. When <b>FALSE</b>, the HBA cannot support the receive-event SRB for SCSI asynchronous events.
+
+
+#### - ReservedUshort
+
+Reserved for system use and is not available for use by miniport drivers.
 
 
 #### - SpecificLuExtensionSize
@@ -235,44 +287,9 @@ Specifies the size in bytes required by the miniport driver for its per-logical-
 Specifies the size in bytes required by the miniport driver for its per-request storage, if any. A miniport driver can use SRB extensions as storage for driver-determined, request-specific information, such as data necessary to process a particular request. The OS-specific port driver does not initialize SRB extensions, but sets a pointer to this storage in each SRB it sends to the miniport driver. An SRB extension can be safely accessed by the HBA hardware. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>.
 
 
-#### - NumberOfAccessRanges
-
-Specifies how many access ranges the adapter uses. Each is a range either of memory addresses or I/O port addresses. A typical HBA uses two ranges, one for its I/O ports and another for its device memory range.
-
-
-#### - MapBuffers
-
-Indicates, when <b>TRUE</b>, that all data buffer addresses must be mapped to virtual addresses for access by the miniport driver. When <b>FALSE</b>, data buffer addresses do not have to be mapped to virtual addresses.
-
-
-#### - NeedPhysicalAddresses
-
-Indicates, when <b>TRUE</b>, that the miniport driver needs to translate its device, any per-LU, and any per-SRB extension addresses, as well as SRB buffer addresses, to physical addresses, as required by the HBA. When <b>FALSE</b>, none of these addresses have to be translated to physical addresses.
-
-
 #### - TaggedQueuing
 
 Indicates, when <b>TRUE</b>, that miniport driver can support SCSI tagged queuing. When <b>FALSE</b>, the miniport driver cannot support SCSI-tagged queuing.
-
-
-#### - AutoRequestSense
-
-Indicates, when <b>TRUE</b>, that the HBA can perform a request-sense operation without requiring an explicit request to do so. When <b>FALSE</b>, the HBA requires an explicit request before it can perform a request-sense operation. Only miniport drivers driving HBAs with built-in firmware to perform request-sense operations should set this member to <b>TRUE</b>.
-
-
-#### - MultipleRequestPerLu
-
-Indicates, when <b>TRUE</b>, that the miniport driver can queue multiple requests per logical unit, in particular, within the HBA. When <b>FALSE</b>, the miniport driver cannot queue multiple requests per logical unit. Note that an HBA must support auto request sense for its miniport driver to enable this functionality. If a miniport driver sets this member to <b>TRUE</b>, it must use each SRB <b>QueueTag</b> member for requests of this type, but the SRB_FLAGS_QUEUE_ACTION_ENABLE is not set in the <b>SrbFlags</b> member of the SCSI_REQUEST_BLOCK structure.
-
-
-#### - ReceiveEvent
-
-Indicates, when <b>TRUE</b>, that the miniport driver drives an HBA that can support the receive-event SRB for SCSI asynchronous events. When <b>FALSE</b>, the HBA cannot support the receive-event SRB for SCSI asynchronous events.
-
-
-#### - VendorIdLength
-
-Specifies the size in bytes of the <b>VendorId</b> string, described next.
 
 
 #### - VendorId
@@ -282,26 +299,9 @@ Pointer to an ASCII byte string identifying the manufacturer of the HBA. This me
 If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, the vendor ID is a USHORT value allocated by the PCI SIG, which must be converted into a byte string by the miniport driver. For example, if the assigned PCI vendor ID value is 1001, the miniport driver-supplied <b>VendorId</b> string would be ('1', '0', '0', '1').
 
 
-#### - ReservedUshort
+#### - VendorIdLength
 
-Reserved for system use and is not available for use by miniport drivers.
-
-
-#### - DeviceIdLength
-
-Specifies the size in bytes of the <b>DeviceId</b> string, described next.
-
-
-#### - DeviceId
-
-Pointer to an ASCII byte string identifying the HBA model(s) supported by the miniport driver. This member is irrelevant for Plug and Play drivers.
-
-If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, a device ID is a USHORT value assigned by the manufacturer of the HBA. The miniport driver must convert any PCI device ID value(s) for the HBA(s) it can support into <b>DeviceId</b> byte string(s), as for the <b>VendorId</b> member. For example, if a miniport driver can support HBAs with the PCI device IDs 8040 and 8050, it might set <b>DeviceId</b> with a pointer to the byte string ('8', '0').
-
-
-#### - HwAdapterControl
-
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_control.md">HwScsiAdapterControl</a> routine, which is a required entry point for all PnP miniport drivers. Set this to <b>NULL</b> if the miniport driver does not support Plug and Play.
+Specifies the size in bytes of the <b>VendorId</b> string, described next.
 
 
 ## -remarks
@@ -319,15 +319,15 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
+
+
+
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-
-
-
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
 
 
 

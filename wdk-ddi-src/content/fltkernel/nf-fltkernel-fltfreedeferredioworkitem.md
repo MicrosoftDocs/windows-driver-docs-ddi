@@ -95,11 +95,11 @@ The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reser
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
 
 
 

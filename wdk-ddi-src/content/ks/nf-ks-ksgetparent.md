@@ -97,11 +97,23 @@ Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> mus
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
 
 
 
 <a href="..\ks\nf-ks-ksfilterfactorygetparentdevice.md">KsFilterFactoryGetParentDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
@@ -110,18 +122,6 @@ Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> mus
 
 
 <a href="..\ks\nf-ks-kspingetparentfilter.md">KsPinGetParentFilter</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
 
 
 

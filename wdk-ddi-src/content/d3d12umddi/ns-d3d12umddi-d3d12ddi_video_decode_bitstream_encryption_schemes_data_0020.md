@@ -92,11 +92,11 @@ A pointer to a list of supported encryption schemes.  The calling application al
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md">pfnGetBitstreamEncryptionSchemeCount</a>
-
-
-
 <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
+
+
+
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md">pfnGetBitstreamEncryptionSchemeCount</a>
 
 
 

@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Urstypes.h](index.md)
 ### [_URS_HARDWARE_EVENT enumeration](../urstypes/ne-urstypes-_urs_hardware_event.md)
 ### [_URS_HOST_INTERFACE_TYPE enumeration](../urstypes/ne-urstypes-_urs_host_interface_type.md)

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCBMSGCONFIG
 title: RILCBMSGCONFIG
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcbmsgconfig_2.htm
+old-location: netvista\rilcbmsgconfig.htm
 old-project: netvista
-ms.assetid: 7cdab678-5c83-4590-b911-5961db89e7ce
+ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig_2, rilapitypes/RILCBMSGCONFIG"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCBMSGCONFIG
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,12 +58,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILCBMSGCONFIG {
-  DWORD                                   cbSize;
-  DWORD                                   dwParams;
-  DWORD                                   dwGWLConfigInfoSize;
-  RILCBGWLCONFIGINFO [RIL_CB_CONFIG_MAX]  GWLConfigInfo;
-  DWORD                                   dwCDMAConfigInfoSize;
-  RILCBCDMACONFIGINFO [RIL_CB_CONFIG_MAX] CDMAConfigInfo;
+  DWORD                    cbSize;
+  DWORD                    dwParams;
+  DWORD                    dwGWLConfigInfoSize;
+  RILCBGWLCONFIGINFO [50]  GWLConfigInfo;
+  DWORD                    dwCDMAConfigInfoSize;
+  RILCBCDMACONFIGINFO [50] CDMAConfigInfo;
 } RILCBMSGCONFIG, RILCBMSGCONFIG;
 ````
 

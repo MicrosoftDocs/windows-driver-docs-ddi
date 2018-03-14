@@ -113,11 +113,11 @@ If the driver sets <i>Latency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (defin
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
@@ -125,7 +125,7 @@ If the driver sets <i>Latency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (defin
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGINDELIVER
 title: RILMSGINDELIVER
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgindeliver_2.htm
+old-location: netvista\rilmsgindeliver.htm
 old-project: netvista
-ms.assetid: 1565ee10-044f-4557-8a49-777eae7c44e3
+ms.assetid: a4bfdc26-46a9-404e-9cd0-10dabba01dc2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILMSGINDELIVER, RILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgindeliver_2, rilapitypes/RILMSGINDELIVER"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILMSGINDELIVER, RILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgindeliver, ntddrilapitypes/RILMSGINDELIVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGINDELIVER
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,15 +58,15 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILMSGINDELIVER {
-  RILADDRESS           raOrigAddress;
-  RILMSGPROTOCOLID     dwProtocolID;
-  RILMSGDCS            rmdDataCoding;
-  RILSYSTEMTIME        stSCReceiveTime;
-  DWORD                dwMsgID;
-  DWORD                cbHdrLength;
-  DWORD                cchMsgLength;
-  BYTE [MAXLENGTH_HDR] rgbHdr;
-  BYTE [MAXLENGTH_MSG] rgbMsg;
+  RILADDRESS        raOrigAddress;
+  RILMSGPROTOCOLID  dwProtocolID;
+  RILMSGDCS         rmdDataCoding;
+  RILSYSTEMTIME     stSCReceiveTime;
+  DWORD             dwMsgID;
+  DWORD             cbHdrLength;
+  DWORD             cchMsgLength;
+  BYTE [256]        rgbHdr;
+  BYTE [512]        rgbMsg;
 } RILMSGINDELIVER, RILMSGINDELIVER;
 ````
 

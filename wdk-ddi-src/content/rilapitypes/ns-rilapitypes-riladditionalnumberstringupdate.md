@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILADDITIONALNUMBERSTRINGUPDATE
 title: RILADDITIONALNUMBERSTRINGUPDATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riladditionalnumberstringupdate_2.htm
+old-location: netvista\riladditionalnumberstringupdate.htm
 old-project: netvista
-ms.assetid: b2675395-08b6-44e6-8052-1fdd7b693c31
+ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate_2, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILADDITIONALNUMBERSTRINGUPDATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,11 +58,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
-  DWORD                           cbSize;
-  HUICCAPP                        hUiccApp;
-  RILPHONEBOOKANSOPERATION        dwOpType;
-  DWORD                           dwNumId;
-  WCHAR [MAXLENGTH_PHONEBOOKTEXT] wszText;
+  DWORD                     cbSize;
+  HUICCAPP                  hUiccApp;
+  RILPHONEBOOKANSOPERATION  dwOpType;
+  DWORD                     dwNumId;
+  WCHAR [256]               wszText;
 } RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE;
 ````
 

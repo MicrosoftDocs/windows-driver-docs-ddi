@@ -46,11 +46,6 @@ req.typenames: PosPropertyId
 # IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

@@ -389,7 +389,11 @@ This structure is available in Windows Vista.
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 
@@ -397,15 +401,11 @@ This structure is available in Windows Vista.
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
 
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 

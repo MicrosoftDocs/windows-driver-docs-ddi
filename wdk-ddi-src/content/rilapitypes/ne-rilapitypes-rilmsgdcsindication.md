@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGDCSINDICATION
 title: RILMSGDCSINDICATION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgdcsindication_2.htm
+old-location: netvista\rilmsgdcsindication.htm
 old-project: netvista
-ms.assetid: 292f54d6-0555-47d0-97b9-b76e9e08bf78
+ms.assetid: 709980c8-e13f-48a7-9af7-26f0bb79e699
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication_2, rilapitypes/RILMSGDCSINDICATION, rilapitypes/RIL_DCSINDICATION_EMAIL, rilapitypes/RIL_DCSINDICATION_FAX, rilapitypes/RIL_DCSINDICATION_MAX, rilapitypes/RIL_DCSINDICATION_OTHER
+ms.date: 2/27/2018
+ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication, ntddrilapitypes/RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSINDICATION
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

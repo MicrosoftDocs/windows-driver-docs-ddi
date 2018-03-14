@@ -174,11 +174,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 

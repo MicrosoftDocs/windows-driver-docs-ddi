@@ -7,7 +7,7 @@ old-location: kernel\getscattergatherlistex.htm
 old-project: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -264,7 +264,7 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -272,39 +272,7 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -312,13 +280,45 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
+
+
+
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterListControl</a>
 
 
 
- 
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PGET_SCATTER_GATHER_LIST_EX callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PGET_SCATTER_GATHER_LIST_EX callback function%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

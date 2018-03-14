@@ -88,12 +88,12 @@ The number of sectors in the area for which the binding nonce is retrieved. To r
 The starting logical block address of the area for which the binding nonce is retrieved. To request the nonce for a file, the caller of <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a> or <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a> must set this member to MAXULONGLONG.
 
 
+#### - ForceStructureLengthToMatch64bit
+
+
 #### - Handle
 
 The file handle. Callers of IOCTL_AACS_READ_BINDING_NONCE that use file system support can set this member to a file handle. If the caller does not use file system support, this member must have a value of INVALID_HANDLE_VALUE.
-
-
-#### - ForceStructureLengthToMatch64bit
 
 
 ## -remarks
@@ -107,15 +107,15 @@ Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioct
 
 ## -see-also
 
+<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>
+
+
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a>
 
 
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
-
-
-
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>
 
 
 

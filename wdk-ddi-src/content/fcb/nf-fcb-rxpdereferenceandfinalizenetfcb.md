@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -117,7 +117,7 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
 
 
@@ -125,7 +125,7 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 
 

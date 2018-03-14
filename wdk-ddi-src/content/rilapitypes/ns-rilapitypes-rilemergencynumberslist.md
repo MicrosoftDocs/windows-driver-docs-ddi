@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILEMERGENCYNUMBERSLIST
 title: RILEMERGENCYNUMBERSLIST
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilemergencynumberslist_2.htm
+old-location: netvista\rilemergencynumberslist.htm
 old-project: netvista
-ms.assetid: 06816431-a6fc-4c24-a31d-c486a4ba667f
+ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist_2, rilapitypes/RILEMERGENCYNUMBERSLIST"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEMERGENCYNUMBERSLIST
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

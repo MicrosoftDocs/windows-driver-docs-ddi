@@ -89,7 +89,7 @@ When switching between programmable shaders, any constant register that has a va
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -97,7 +97,7 @@ When switching between programmable shaders, any constant register that has a va
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlintptrtoint.htm
 old-project: kernel
 ms.assetid: 96D932C6-B969-4C91-B4B1-6FEC7D4AD250
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlIntPtrToInt, RtlIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoint, ntintsafe/RtlIntPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

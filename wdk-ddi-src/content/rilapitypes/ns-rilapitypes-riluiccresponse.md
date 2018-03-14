@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCRESPONSE
 title: RILUICCRESPONSE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccresponse_2.htm
+old-location: netvista\riluiccresponse.htm
 old-project: netvista
-ms.assetid: c3d3481e-a0db-492d-8fc3-6bdcfa26f4c4
+ms.assetid: c584e508-b0f1-4809-808e-089e9a7fbcf9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse_2, rilapitypes/RILUICCRESPONSE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse, ntddrilapitypes/RILUICCRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCRESPONSE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

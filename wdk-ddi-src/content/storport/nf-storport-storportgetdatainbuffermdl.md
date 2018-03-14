@@ -127,11 +127,11 @@ The pointer value in <i>Mdl</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+
+
+
+<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\idebugfaentrytags.htm
 old-project: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: extsfns.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_BANDMGMT_ACTIVATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -102,9 +97,9 @@ Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_K
 
 
 
-#### -StructSize
+#### -AuthKeyOffset
 
-The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
+The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
 
 
 #### -Flags
@@ -128,9 +123,9 @@ A bitmask of activation flags. This is a bitwise OR value of the following.
  
 
 
-#### -AuthKeyOffset
+#### -Key
 
-The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
+A variable length byte array that contains the key data.
 
 
 #### -KeySize
@@ -138,9 +133,9 @@ The offset from the beginning of the system buffer to the location of an <b>AUTH
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-#### -Key
+#### -StructSize
 
-A variable length byte array that contains the key data.
+The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
 
 
 ### -input-buffer-length
@@ -241,11 +236,11 @@ enabled. A REG_DWORD value of 0 allows security activation on the storage device
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
 
 
 

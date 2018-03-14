@@ -168,11 +168,11 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
 
 
 

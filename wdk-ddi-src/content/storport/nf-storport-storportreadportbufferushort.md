@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Pointer to the address from which to read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -116,11 +106,21 @@ Pointer to the buffer that receives the data that is read.
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
 
 
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Pointer to the address from which to read. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
+For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md
 
 
 
-<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 

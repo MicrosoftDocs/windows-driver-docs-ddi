@@ -76,20 +76,20 @@ typedef struct D3D10DDIARG_BUFFER_RENDERTARGETVIEW {
 
 
 
-#### - FirstElement
-
-
 #### - ElementOffset
 
 [in] The offset (that is, the number of elements) between the beginning of the buffer and the first element that is to be used in the view, starting at 0. 
 
 
-#### - NumElements
-
-
 #### - ElementWidth
 
 [in] The number of elements in the view. 
+
+
+#### - FirstElement
+
+
+#### - NumElements
 
 
 ## -see-also

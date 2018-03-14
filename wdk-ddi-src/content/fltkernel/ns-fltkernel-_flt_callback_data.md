@@ -244,17 +244,12 @@ Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT
 
 ### -field IoStatus
 
-An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_PREOP_COMPLETE or in a postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager. 
+An <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_PREOP_COMPLETE or in a postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager. 
 
 
 ### -field TagData
 
 Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a> structure that contains reparse point data for the I/O operation. This pointer is valid only in the post-create path. Thus only a minifilter's postoperation callback routine can change the value of this member. A minifilter's post-create callback routine can change this member to point to a different FLT_TAG_DATA_BUFFER structure. However, if it changes the member to point to a different structure, it must first free the existing structure to prevent a pool memory leak. 
-
-
-### -field _FLT_TAG_DATA_BUFFER
-
- 
 
 
 ### -field QueueLinks
@@ -296,23 +291,11 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
 
 
@@ -320,15 +303,59 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544663">FLT_IS_SYSTEM_BUFFER</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
 
 
 
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
@@ -340,47 +367,15 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544663">FLT_IS_SYSTEM_BUFFER</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
 
 
 

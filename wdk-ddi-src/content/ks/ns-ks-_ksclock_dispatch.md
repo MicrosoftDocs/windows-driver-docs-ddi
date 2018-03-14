@@ -150,11 +150,11 @@ The function should be prototyped as follows:
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 
 
@@ -162,7 +162,7 @@ The function should be prototyped as follows:
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 
 

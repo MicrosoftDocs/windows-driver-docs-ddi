@@ -7,7 +7,7 @@ old-location: netvista\fwps_stream_callout_io_packet0.htm
 old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_CALLOUT_IO_PACKET0_, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, netvista.fwps_stream_callout_io_packet0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -200,15 +200,11 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
-
-
-
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -216,9 +212,13 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 
 
- 
+<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_STREAM_CALLOUT_IO_PACKET0 structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_STREAM_CALLOUT_IO_PACKET0 structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

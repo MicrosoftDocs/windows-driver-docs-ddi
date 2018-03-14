@@ -118,15 +118,7 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
 
 
 
@@ -134,11 +126,7 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
 
 
 
@@ -146,7 +134,19 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
 
 
 

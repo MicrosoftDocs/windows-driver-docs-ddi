@@ -171,7 +171,7 @@ The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function a
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 
@@ -179,7 +179,7 @@ The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function a
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
 
 
 

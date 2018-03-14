@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -95,14 +95,14 @@ TBD
  A handle that identifies the graphics adapter. 
 
 
-#### - puEntries [in, out]
-
-A pointer to a variable that, on input, contains the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array should return and, on output, the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array actually returns. 
-
-
 #### - pSupportedDDIInterfaceVersions [out, optional]
 
  A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
+
+
+#### - puEntries [in, out]
+
+A pointer to a variable that, on input, contains the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array should return and, on output, the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array actually returns. 
 
 
 ## -returns
@@ -155,7 +155,7 @@ When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umdd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
 
 
 
@@ -163,7 +163,7 @@ When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umdd
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
 
 
 

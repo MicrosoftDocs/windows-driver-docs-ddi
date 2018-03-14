@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -106,7 +106,7 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 
 
@@ -114,11 +114,11 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
 
 
@@ -130,11 +130,11 @@ A network mini-redirector calls <b>RxNameCacheCreateEntry</b> to allocate and in
 
 
 
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+
+
+
 <a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 
 

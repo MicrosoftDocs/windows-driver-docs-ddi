@@ -200,11 +200,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycopytobuffer.md">WdfMemoryCopyToBuffer</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 

@@ -124,22 +124,22 @@ A variable length array containing the CDB buffer.
 
 
 
-For CDB data sizes less than 32 bytes, the <a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a> structure, and possibly the <a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a> structure, may be used instead. The maximum CDB data allowed in the <b>Cdb</b> array is SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MAX - SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MIN + 1. The length specified in <b>CdbLength</b> must be less than or equal to this value.
+For CDB data sizes less than 32 bytes, the <a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a> structure, and possibly the <a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a> structure, may be used instead. The maximum CDB data allowed in the <b>Cdb</b> array is SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MAX - SRBEX_DATA_SCSI_CDB_VAR_LENGTH_MIN + 1. The length specified in <b>CdbLength</b> must be less than or equal to this value.
 
 
 
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

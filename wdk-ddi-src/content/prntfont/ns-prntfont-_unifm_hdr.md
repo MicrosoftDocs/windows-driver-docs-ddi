@@ -193,19 +193,11 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 
 
@@ -213,7 +205,15 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
 
 
 

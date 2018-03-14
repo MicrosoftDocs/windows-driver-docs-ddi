@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRESETMODEMCONFIGVALUE
 title: RILRESETMODEMCONFIGVALUE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilresetmodemconfigvalue_2.htm
+old-location: netvista\rilresetmodemconfigvalue.htm
 old-project: netvista
-ms.assetid: 8749345c-a1a6-43f6-8cb7-f69a6734839f
+ms.assetid: 48068d1d-3fe7-4bd6-8c91-094e4187ca1f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue_2, rilapitypes/RILRESETMODEMCONFIGVALUE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue, ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMCONFIGVALUE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,21 +58,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILRESETMODEMCONFIGVALUE {
-  DWORD                                    cbSize;
-  DWORD                                    dwType;
-  NULL                                     RILRESETMODEMCONFIGVALUEUNION;
-  RILRESETMODEMCONFIGVALUEUNION            configValueUnion;
-  NULL                                     switch_is;
-  NULL                                     dwType;
-  BOOL                                     fValue;
-  NULL                                     case;
-  NULL                                     RIL_RMCV_TYPE_BOOLEAN;
-  DWORD                                    dwValue;
-  NULL                                     case;
-  NULL                                     RIL_RMCV_TYPE_DWORD;
-  WCHAR [MAXLENGTH_RESETMODEMCONFIGSTRING] wszValue;
-  NULL                                     case;
-  NULL                                     RIL_RMCV_TYPE_STRING;
+  DWORD                          cbSize;
+  DWORD                          dwType;
+  NULL                           RILRESETMODEMCONFIGVALUEUNION;
+  RILRESETMODEMCONFIGVALUEUNION  configValueUnion;
+  BOOL                           fValue;
+  DWORD                          dwValue;
+  WCHAR [256]                    wszValue;
 } RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE;
 ````
 
@@ -94,26 +86,11 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 ### -field RILRESETMODEMCONFIGVALUEUNION
 
 
-#### - switch_is
+#### - dwValue
 
 
 #### - fValue
 
 
-#### - case
-
-
-#### - RIL_RMCV_TYPE_BOOLEAN
-
-
-#### - dwValue
-
-
-#### - RIL_RMCV_TYPE_DWORD
-
-
 #### - wszValue
-
-
-#### - RIL_RMCV_TYPE_STRING
 

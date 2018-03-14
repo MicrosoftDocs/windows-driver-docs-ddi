@@ -7,7 +7,7 @@ old-location: kernel\ob_operation_registration.htm
 old-project: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,15 +125,7 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
-
-
-
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 
@@ -141,9 +133,17 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 
 
- 
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_OPERATION_REGISTRATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_OPERATION_REGISTRATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

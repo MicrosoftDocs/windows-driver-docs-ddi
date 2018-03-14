@@ -120,14 +120,14 @@ Control TDR.
 
 
 
-#### - PreemptionControl
-
-Enable or disable preemption.
-
-
 #### - EnableContextDelay
 
 Enable or disable context delay.
+
+
+#### - PreemptionControl
+
+Enable or disable preemption.
 
 
 #### - SuspendScheduler
@@ -135,14 +135,14 @@ Enable or disable context delay.
 Suspend or resume scheduler (obsolete).
 
 
-#### - TdrControl
-
-Control TDR.
-
-
 #### - SuspendTime
 
 Time period to suspend.
+
+
+#### - TdrControl
+
+Control TDR.
 
 
 ## -see-also
@@ -151,11 +151,11 @@ Time period to suspend.
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
 
 

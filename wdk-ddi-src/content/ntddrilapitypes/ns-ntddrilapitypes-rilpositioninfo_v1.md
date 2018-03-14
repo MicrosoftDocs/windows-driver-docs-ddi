@@ -7,13 +7,13 @@ old-location: netvista\rilpositioninfo_v1_2.htm
 old-project: netvista
 ms.assetid: ff622111-e4c3-47eb-9509-dbe86d0d5acf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILPOSITIONINFO_V1, RILPOSITIONINFO_V1, RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v1_2, ntddrilapitypes/RILPOSITIONINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

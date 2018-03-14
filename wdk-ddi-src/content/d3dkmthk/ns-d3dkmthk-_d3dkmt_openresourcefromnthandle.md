@@ -164,15 +164,15 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
 
 
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_opennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
 
 
 

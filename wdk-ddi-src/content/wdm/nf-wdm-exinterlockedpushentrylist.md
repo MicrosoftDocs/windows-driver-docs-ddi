@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedpushentrylist.htm
 old-project: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,7 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedPushEntryList</b> performs the same operation as <a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
+<b>ExInterlockedPushEntryList</b> performs the same operation as <a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
 For more information about using this routine to implement a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
@@ -109,15 +109,11 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
 
 
 
@@ -125,7 +121,7 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 
 
@@ -133,9 +129,13 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
- 
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPushEntryList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExInterlockedPushEntryList routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

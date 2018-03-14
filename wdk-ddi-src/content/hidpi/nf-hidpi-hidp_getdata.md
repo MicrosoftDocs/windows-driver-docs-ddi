@@ -100,7 +100,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -201,7 +201,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
 
 
@@ -209,11 +209,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
 
 

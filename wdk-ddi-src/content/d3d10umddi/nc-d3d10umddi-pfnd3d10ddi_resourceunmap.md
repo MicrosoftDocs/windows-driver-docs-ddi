@@ -87,6 +87,11 @@ VOID APIENTRY ResourceUnmap(
 
 
 
+#### - Subresource [in]
+
+ An index that indicates the subresource to unmap. 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -95,11 +100,6 @@ VOID APIENTRY ResourceUnmap(
 #### - hResource [in]
 
  A handle to the resource to unmap.
-
-
-#### - Subresource [in]
-
- An index that indicates the subresource to unmap. 
 
 
 ## -returns

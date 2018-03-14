@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRADIOCONFIGURATIONS
 title: RILRADIOCONFIGURATIONS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradioconfigurations_2.htm
+old-location: netvista\rilradioconfigurations.htm
 old-project: netvista
-ms.assetid: fdd53162-b884-4360-b80a-14225abc1185
+ms.assetid: 28908305-69aa-4bf0-98a1-6cee4aa1c349
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfigurations_2, rilapitypes/RILRADIOCONFIGURATIONS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfigurations, ntddrilapitypes/RILRADIOCONFIGURATIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOCONFIGURATIONS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

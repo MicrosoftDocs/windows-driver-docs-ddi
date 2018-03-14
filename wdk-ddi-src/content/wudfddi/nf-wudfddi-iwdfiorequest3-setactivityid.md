@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -115,11 +115,11 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
+
+<a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
 
 
 

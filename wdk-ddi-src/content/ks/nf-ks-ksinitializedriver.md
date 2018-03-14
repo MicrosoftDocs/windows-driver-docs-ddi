@@ -110,11 +110,7 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558721">DriverEntry of AVStream</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -122,11 +118,15 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558721">DriverEntry of AVStream</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 
@@ -134,11 +134,11 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 

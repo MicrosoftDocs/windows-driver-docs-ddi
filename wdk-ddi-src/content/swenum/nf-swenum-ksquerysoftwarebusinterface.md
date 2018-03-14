@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 
 ## -syntax
@@ -101,15 +101,15 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 ## -see-also
 
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
+
+
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
 
 
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-
-
-
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
 
 

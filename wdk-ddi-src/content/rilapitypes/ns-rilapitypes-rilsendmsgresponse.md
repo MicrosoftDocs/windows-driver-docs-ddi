@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDMSGRESPONSE
 title: RILSENDMSGRESPONSE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendmsgresponse_2.htm
+old-location: netvista\rilsendmsgresponse.htm
 old-project: netvista
-ms.assetid: 46fd1e3e-38de-460e-8bb8-ff7db2a16e1a
+ms.assetid: 64ff0ba7-726e-49ee-bb7c-338b77458fc1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse_2, rilapitypes/RILSENDMSGRESPONSE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse, ntddrilapitypes/RILSENDMSGRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGRESPONSE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

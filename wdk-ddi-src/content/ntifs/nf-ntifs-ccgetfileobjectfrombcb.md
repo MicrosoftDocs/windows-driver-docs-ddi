@@ -96,15 +96,15 @@ The file object pointer is guaranteed to remain valid as long as the BCB exists.
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 

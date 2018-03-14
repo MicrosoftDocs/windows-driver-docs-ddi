@@ -149,15 +149,15 @@ WdfDeviceInitSetIoTypeEx(DeviceInit, &amp;ioConfig);
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestackiotype.md">WdfDeviceGetDeviceStackIoType</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
 
 
 

@@ -269,11 +269,7 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 
@@ -285,11 +281,15 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
 
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -176,7 +176,7 @@ The sequence of operation is as follows:
 
 <ol>
 <li>
-The <b>CommonPropertySheetUI</b> function calls the <i>pfnPropSheetUI</i> callback so the callback can describe the pages to be added by calling CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function.
+The <b>CommonPropertySheetUI</b> function calls the <i>pfnPropSheetUI</i> callback so the callback can describe the pages to be added by calling CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
 
 </li>
 <li>

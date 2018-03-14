@@ -152,15 +152,15 @@ Whether to enable automatic processing features on the video processor.
 
 ## -see-also
 
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
+
+
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
-
-
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
-
-
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
 
 
 
@@ -168,7 +168,7 @@ Whether to enable automatic processing features on the video processor.
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
 
 
 
@@ -176,11 +176,11 @@ Whether to enable automatic processing features on the video processor.
 
 
 
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
+
+
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a>
-
-
-
-<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
 
 
 

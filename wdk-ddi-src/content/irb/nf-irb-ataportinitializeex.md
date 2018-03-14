@@ -130,11 +130,11 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
+
+
+
+<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
 
 
 
@@ -142,7 +142,7 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
-<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 

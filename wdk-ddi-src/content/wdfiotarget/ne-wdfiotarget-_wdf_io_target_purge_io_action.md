@@ -104,11 +104,11 @@ If your driver specifies the <b>WdfIoTargetPurgeIoAndWait</b> flag, the driver m
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
 
 
 

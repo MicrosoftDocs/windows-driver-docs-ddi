@@ -7,7 +7,7 @@ old-location: kernel\csqcompletecanceledirp.htm
 old-project: kernel
 ms.assetid: ed2f8529-dfc7-4db5-b90c-c0bf8840dc70
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,35 +150,7 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -194,7 +166,11 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
 
 
 
@@ -202,9 +178,33 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 
- 
+<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_CSQ_COMPLETE_CANCELED_IRP routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_CSQ_COMPLETE_CANCELED_IRP routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

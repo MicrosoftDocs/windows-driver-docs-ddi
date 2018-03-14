@@ -135,23 +135,23 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetvirtualaddress.md">ScsiPortGetVirtualAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
 
 

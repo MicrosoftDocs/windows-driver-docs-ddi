@@ -95,15 +95,15 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
 
 
 

@@ -2,7 +2,7 @@
 UID: NA:iscsifnd
 ms.assetid: 62424815-b11c-3693-9aa3-e63ce262de2b
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

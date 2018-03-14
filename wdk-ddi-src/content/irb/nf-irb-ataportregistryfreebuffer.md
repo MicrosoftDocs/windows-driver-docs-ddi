@@ -107,11 +107,11 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 

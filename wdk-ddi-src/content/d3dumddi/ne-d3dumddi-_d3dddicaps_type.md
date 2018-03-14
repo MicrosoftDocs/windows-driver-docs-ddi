@@ -451,27 +451,7 @@ For information on how to specify <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_ge
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddraw_mode_specific_caps.md">DDRAW_MODE_SPECIFIC_CAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_group_caps_input.md">D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_group_caps.md">D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_ddi_shader_min_precision_support_data.md">D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA</a>
 
 
 
@@ -479,7 +459,11 @@ For information on how to specify <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_ge
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_filter.md">DXVAHDDDI_FILTER</a>
+<a href="..\d3dumddi\ns-d3dumddi-_ddicheckoverlaysupportinput.md">DDICHECKOVERLAYSUPPORTINPUT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
 
 
 
@@ -491,15 +475,7 @@ For information on how to specify <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_ge
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_ddicheckoverlaysupportinput.md">DDICHECKOVERLAYSUPPORTINPUT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
 
 
 
@@ -507,19 +483,7 @@ For information on how to specify <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_ge
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddicontentprotectioncaps.md">DDICONTENTPROTECTIONCAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_ddi_shader_min_precision_support_data.md">D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_architecture_info.md">D3DDDICAPS_ARCHITECTURE_INFO</a>
+<a href="..\d3dumddi\ns-d3dumddi-_ddraw_mode_specific_caps.md">DDRAW_MODE_SPECIFIC_CAPS</a>
 
 
 
@@ -527,7 +491,43 @@ For information on how to specify <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_ge
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
+<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_group_caps.md">D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-d3dddicaps_architecture_info.md">D3DDDICAPS_ARCHITECTURE_INFO</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_filter.md">DXVAHDDDI_FILTER</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_group_caps_input.md">D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_ddicontentprotectioncaps.md">DDICONTENTPROTECTIONCAPS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>
 
 
 

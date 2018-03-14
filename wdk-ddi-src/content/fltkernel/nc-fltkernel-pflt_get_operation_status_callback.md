@@ -120,7 +120,7 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
@@ -128,7 +128,7 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+<a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>
 
 
 

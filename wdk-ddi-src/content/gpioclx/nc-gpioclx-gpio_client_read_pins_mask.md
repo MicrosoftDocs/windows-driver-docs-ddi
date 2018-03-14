@@ -149,19 +149,19 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
 
 
 

@@ -223,11 +223,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -239,7 +235,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

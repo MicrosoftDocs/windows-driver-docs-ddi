@@ -176,15 +176,11 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
+<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
@@ -193,6 +189,10 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
 
 
 

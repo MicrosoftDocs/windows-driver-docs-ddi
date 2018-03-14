@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -92,11 +92,11 @@ If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients shoul
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559831">IKsDataTypeHandler::KsPrepareIoOperation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
 
 
 

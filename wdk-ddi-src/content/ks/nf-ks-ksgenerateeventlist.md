@@ -117,15 +117,15 @@ This function can be called at any IRQL level if the locking mechanism permits i
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-
-
-
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 
 

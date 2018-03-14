@@ -99,11 +99,11 @@ typedef struct _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_check_multiplaneoverlaysupport_plane_info.md">DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/9062BB6D-7B52-42B0-83D9-A101299C0B12">pfnCheckMultiPlaneOverlaySupport (DXGI)</a>
 
 
 
@@ -111,7 +111,7 @@ typedef struct _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 
 
-<a href="https://msdn.microsoft.com/9062BB6D-7B52-42B0-83D9-A101299C0B12">pfnCheckMultiPlaneOverlaySupport (DXGI)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

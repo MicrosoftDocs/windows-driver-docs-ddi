@@ -119,11 +119,11 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 
 
-<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
-
-
-
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
+<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
 
 
 

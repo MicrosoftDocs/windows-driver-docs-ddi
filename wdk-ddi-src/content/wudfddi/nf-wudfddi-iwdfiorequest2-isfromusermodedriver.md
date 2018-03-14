@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -98,15 +98,15 @@ For a code example that uses <b>IsFromUserModeDriver</b>, see the example at <a 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisfromusermodedriver.md">WdfRequestIsFromUserModeDriver</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -81,10 +81,10 @@ HRESULT AsyncCloseChannel(
 
 
 
-#### - pObject [in]
-
-
 #### - pCookie [in]
+
+
+#### - pObject [in]
 
 
 ## -returns

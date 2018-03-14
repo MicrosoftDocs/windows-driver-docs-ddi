@@ -80,7 +80,7 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
 
 
 

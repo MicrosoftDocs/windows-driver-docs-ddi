@@ -104,11 +104,11 @@ Register your implementation of this callback function by setting the appropriat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
-
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
 
 

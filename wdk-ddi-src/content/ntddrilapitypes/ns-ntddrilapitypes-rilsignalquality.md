@@ -7,13 +7,13 @@ old-location: netvista\rilsignalquality.htm
 old-project: netvista
 ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

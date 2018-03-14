@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -110,11 +110,7 @@ A pointer to the device offset that is used for the read. This parameter is opti
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 
@@ -122,11 +118,15 @@ A pointer to the device offset that is used for the read. This parameter is opti
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

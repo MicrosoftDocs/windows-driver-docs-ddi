@@ -131,11 +131,11 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
 
 
 

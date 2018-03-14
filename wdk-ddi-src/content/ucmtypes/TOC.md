@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Ucmtypes.h](index.md)
 ### [_UCM_CHARGING_STATE enumeration](../ucmtypes/ne-ucmtypes-_ucm_charging_state.md)
 ### [_UCM_PD_CONN_STATE enumeration](../ucmtypes/ne-ucmtypes-_ucm_pd_conn_state.md)

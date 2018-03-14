@@ -108,11 +108,11 @@ The spooler's <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md
 
 
 
-<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
-
-
-
 <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
 
 
 

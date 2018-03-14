@@ -7,13 +7,13 @@ old-location: netvista\rilhideidsettings.htm
 old-project: netvista
 ms.assetid: 11ca7db9-8e84-4d55-9ea9-7e2ecfa563e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings, ntddrilapitypes/RILHIDEIDSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

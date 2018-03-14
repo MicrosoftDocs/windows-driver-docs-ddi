@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGMWIDETAIL
 title: RILMSGMWIDETAIL
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgmwidetail_2.htm
+old-location: netvista\rilmsgmwidetail.htm
 old-project: netvista
-ms.assetid: 58b0c3bc-f63a-4db7-a5e1-767f12b7655a
+ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail_2, rilapitypes/RILMSGMWIDETAIL"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, ntddrilapitypes/RILMSGMWIDETAIL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGMWIDETAIL
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,13 +58,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILMSGMWIDETAIL {
-  RILMSGMWITYPE                dwMwiType;
-  RILMSGMWIPRIORITY            dwMwiPriority;
-  RILADDRESS                   raToAddress;
-  RILADDRESS                   raFromAddress;
-  RILSYSTEMTIME                stDateSent;
-  WCHAR [MAXLENGTH_MWISUBJECT] wszSubject;
-  WCHAR [MAXLENGTH_ADDRESS]    wszMessageId;
+  RILMSGMWITYPE      dwMwiType;
+  RILMSGMWIPRIORITY  dwMwiPriority;
+  RILADDRESS         raToAddress;
+  RILADDRESS         raFromAddress;
+  RILSYSTEMTIME      stDateSent;
+  WCHAR [256]        wszSubject;
+  WCHAR [256]        wszMessageId;
 } RILMSGMWIDETAIL, RILMSGMWIDETAIL;
 ````
 

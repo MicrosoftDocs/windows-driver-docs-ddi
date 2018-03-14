@@ -102,11 +102,11 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetqueuedlimit.md">D3DKMTSetQueuedLimit</a>
-
-
-
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetqueuedlimit.md">D3DKMTSetQueuedLimit</a>
 
 
 

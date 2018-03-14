@@ -89,11 +89,11 @@ The flags indicate the type of units for the interval. The interval can be speci
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
 
 
 

@@ -92,11 +92,11 @@ typedef struct D3D10_DDI_DEPTH_STENCILOP_DESC {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
-
-
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 

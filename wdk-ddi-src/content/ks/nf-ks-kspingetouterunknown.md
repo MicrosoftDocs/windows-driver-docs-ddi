@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -96,19 +96,19 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
-
-
-
 <a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
 
 
 
 <a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
 
 
 

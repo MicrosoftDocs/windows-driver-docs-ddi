@@ -95,11 +95,15 @@ When the D3DDDICAPS_GETVIDEOPROCESSORRTFORMATCOUNT, D3DDDICAPS_GETVIDEOPROCESSOR
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessorcaps.md">DXVADDI_VIDEOPROCESSORCAPS</a>
+
+
+
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
@@ -107,11 +111,7 @@ When the D3DDDICAPS_GETVIDEOPROCESSORRTFORMATCOUNT, D3DDDICAPS_GETVIDEOPROCESSOR
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessorcaps.md">DXVADDI_VIDEOPROCESSORCAPS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 

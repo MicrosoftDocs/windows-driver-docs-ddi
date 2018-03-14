@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -179,11 +179,7 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
-
-
-<a href="https://msdn.microsoft.com/5C587AF2-C51E-4728-A214-7FC1F8A6E445">V4 Printer Driver Localization</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
 
 
 
@@ -191,11 +187,15 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
 <a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
+<a href="https://msdn.microsoft.com/5C587AF2-C51E-4728-A214-7FC1F8A6E445">V4 Printer Driver Localization</a>
 
 
 

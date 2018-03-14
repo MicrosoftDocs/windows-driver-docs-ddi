@@ -114,11 +114,11 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 
 
-<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
 
 
 

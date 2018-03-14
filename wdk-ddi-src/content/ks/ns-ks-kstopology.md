@@ -127,11 +127,7 @@ A stream class minidriver creates and passes this structure as part of its <a hr
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
-
-
-
-<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
 
 
 
@@ -139,7 +135,11 @@ A stream class minidriver creates and passes this structure as part of its <a hr
 
 
 
-<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
+<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
 
 
 

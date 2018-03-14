@@ -46,11 +46,6 @@ req.typenames: PMI_MEASUREMENT_UNIT
 # IOCTL_PMI_GET_MEASUREMENT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -109,14 +104,14 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
-
-
 #### -STATUS_BUFFER_TOO_SMALL
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a> structure.
+
+
+#### -STATUS_SUCCESS
+
+The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 
 
 ## -remarks
@@ -134,6 +129,10 @@ The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement dat
 
 
 
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
@@ -147,10 +146,6 @@ The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement dat
 
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

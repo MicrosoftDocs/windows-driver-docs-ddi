@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -152,19 +152,19 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
-
-
-
 <a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
+
+
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 

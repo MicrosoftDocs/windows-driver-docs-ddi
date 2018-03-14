@@ -46,11 +46,6 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 # IOCTL_MPIO_PASS_THROUGH_PATH_EX IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -139,11 +134,11 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_ex.md">MPIO_PASS_THROUGH_PATH_EX</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
 
 
 

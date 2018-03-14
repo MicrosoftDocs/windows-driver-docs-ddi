@@ -84,11 +84,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -96,7 +96,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

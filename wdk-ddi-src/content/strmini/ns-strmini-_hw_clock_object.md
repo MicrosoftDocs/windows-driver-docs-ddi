@@ -72,7 +72,7 @@ typedef struct _HW_CLOCK_OBJECT {
 
 ### -field HwClockFunction
 
-Pointer to the stream's <a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a> routine.
+Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a> routine.
 
 
 ### -field ClockSupportFlags
@@ -105,11 +105,11 @@ Reserved for system use. Do not use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
+
+
+
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-
-
-<a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
 
 
 

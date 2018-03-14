@@ -49,7 +49,7 @@ req.typenames: D3DKMT_CHECKSHAREDRESOURCEACCESS
 ## -description
 
 
-The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource. 
+The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource. 
 
 
 ## -syntax
@@ -80,7 +80,7 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a>
 
 
 

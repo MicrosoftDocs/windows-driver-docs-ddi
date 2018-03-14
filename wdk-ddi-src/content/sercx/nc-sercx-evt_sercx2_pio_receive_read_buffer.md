@@ -164,15 +164,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_enable_ready_notification.md">EvtSerCx2PioReceiveEnableReadyNotification</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
 
 
 
@@ -181,6 +173,14 @@ The <b>EVT_SERCX2_PIO_RECEIVE_READ_BUFFER</b> function type is defined in the Se
 
 
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_initialize_transaction.md">EvtSerCx2PioReceiveInitializeTransaction</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_enable_ready_notification.md">EvtSerCx2PioReceiveEnableReadyNotification</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
 
 
 

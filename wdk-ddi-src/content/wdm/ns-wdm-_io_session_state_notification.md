@@ -7,7 +7,7 @@ old-location: kernel\io_session_state_notification.htm
 old-project: kernel
 ms.assetid: 19ff9c3a-d416-4468-b5a5-e2e6e896802a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_ALL_EVENTS, IO_SESSION_STATE_CONNECT_EVENT, IO_SESSION_STATE_CREATION_EVENT, IO_SESSION_STATE_DISCONNECT_EVENT, IO_SESSION_STATE_LOGOFF_EVENT, IO_SESSION_STATE_LOGON_EVENT, IO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], IO_SESSION_STATE_TERMINATION_EVENT, IO_SESSION_STATE_VALID_EVENT_MASK, PIO_SESSION_STATE_NOTIFICATION, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, wdm/IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -212,7 +212,7 @@ To determine whether a device object is a per-session device object, a driver ca
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -220,7 +220,7 @@ To determine whether a device object is a per-session device object, a driver ca
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>
 
 
 
@@ -228,11 +228,11 @@ To determine whether a device object is a per-session device object, a driver ca
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>
+<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
 
 
 
@@ -240,5 +240,5 @@ To determine whether a device object is a per-session device object, a driver ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE_NOTIFICATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE_NOTIFICATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

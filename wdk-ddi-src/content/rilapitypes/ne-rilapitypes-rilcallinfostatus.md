@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLINFOSTATUS
 title: RILCALLINFOSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallinfostatus_2.htm
+old-location: netvista\rilcallinfostatus.htm
 old-project: netvista
-ms.assetid: 16ecddf7-6c79-4e95-957d-19f27c3e3cf5
+ms.assetid: 0f5806e8-a7be-4703-8847-abea2d0cb2e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, netvista.rilcallinfostatus_2, rilapitypes/RILCALLINFOSTATUS, rilapitypes/RIL_CPISTAT_CONNECTED, rilapitypes/RIL_CPISTAT_DISCONNECTED, rilapitypes/RIL_CPISTAT_HANDOVER, rilapitypes/RIL_CPISTAT_MAX, rilapitypes/RIL_CPISTAT_MEDIA, rilapitypes/RIL_CPISTAT_NEW_INCOMING, rilapitypes/RIL_CPISTAT_NEW_OUTGOING, rilapitypes/RIL_CPISTAT_ONHOLD
+ms.date: 2/27/2018
+ms.keywords: RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, netvista.rilcallinfostatus, ntddrilapitypes/RILCALLINFOSTATUS, ntddrilapitypes/RIL_CPISTAT_CONNECTED, ntddrilapitypes/RIL_CPISTAT_DISCONNECTED, ntddrilapitypes/RIL_CPISTAT_HANDOVER, ntddrilapitypes/RIL_CPISTAT_MAX, ntddrilapitypes/RIL_CPISTAT_MEDIA, ntddrilapitypes/RIL_CPISTAT_NEW_INCOMING, ntddrilapitypes/RIL_CPISTAT_NEW_OUTGOING, ntddrilapitypes/RIL_CPISTAT_ONHOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLINFOSTATUS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

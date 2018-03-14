@@ -74,11 +74,11 @@ Specifies the disk signature value, which uniquely identifies the disk.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
 
 

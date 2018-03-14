@@ -129,18 +129,6 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-
-
-
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
-
-
-
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
 
 
@@ -149,7 +137,19 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 
 
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
+
+
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+
+
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 

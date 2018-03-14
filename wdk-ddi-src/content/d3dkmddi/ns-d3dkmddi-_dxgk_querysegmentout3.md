@@ -115,15 +115,15 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor3.md">DXGK_SEGMENTDESCRIPTOR3</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 

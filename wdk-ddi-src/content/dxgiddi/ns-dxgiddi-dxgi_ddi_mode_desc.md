@@ -114,19 +114,19 @@ typedef struct DXGI_DDI_MODE_DESC {
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_rational.md">DXGI_DDI_RATIONAL</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
-
-
-
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scaling.md">DXGI_DDI_MODE_SCALING</a>
 
 
 
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_rational.md">DXGI_DDI_RATIONAL</a>
+
+
+
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_scanline_order.md">DXGI_DDI_MODE_SCANLINE_ORDER</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
 
 
 

@@ -100,7 +100,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -251,15 +251,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
 
 
 
@@ -267,7 +259,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
 
 
 
@@ -275,11 +267,19 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
+<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
 
 
 

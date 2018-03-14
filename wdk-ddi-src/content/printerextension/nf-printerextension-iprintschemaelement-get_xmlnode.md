@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -84,15 +84,11 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
-
-
-<a href="https://msdn.microsoft.com/B9A0C9EC-6C37-4C42-A10A-8CEE028C5998">IPrintSchemaTicket::NotifyXmlChanged</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
 
 
 
@@ -100,7 +96,11 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms760248(v=vs.85).aspx">IXMLDOMElement</a>
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
+<a href="https://msdn.microsoft.com/B9A0C9EC-6C37-4C42-A10A-8CEE028C5998">IPrintSchemaTicket::NotifyXmlChanged</a>
 
 
 

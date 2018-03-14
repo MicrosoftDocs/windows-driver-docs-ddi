@@ -7,13 +7,13 @@ old-location: netvista\rilmessagestoragefull.htm
 old-project: netvista
 ms.assetid: 3369feeb-cbb9-4938-8dfd-0160ba4fefdf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], netvista.rilmessagestoragefull, ntddrilapitypes/RILMESSAGESTORAGEFULL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

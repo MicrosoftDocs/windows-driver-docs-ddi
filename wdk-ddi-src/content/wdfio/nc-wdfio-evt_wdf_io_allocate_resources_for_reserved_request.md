@@ -167,11 +167,11 @@ The <b>EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST</b> function type is d
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md">WdfRequestIsReserved</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md">WdfRequestIsReserved</a>
 
 
 

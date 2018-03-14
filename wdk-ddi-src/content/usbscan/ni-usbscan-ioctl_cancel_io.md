@@ -7,7 +7,7 @@ old-location: image\ioctl_cancel_io.htm
 old-project: image
 ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,11 +46,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_CANCEL_IO IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -83,7 +83,7 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
@@ -91,7 +91,7 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
 
 
 

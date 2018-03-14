@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtinstallpolicy.htm
 old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -230,5 +230,5 @@ The log policy that is installed applies to the physical log, even if the <i>Log
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtInstallPolicy routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtInstallPolicy routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

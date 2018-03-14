@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -96,7 +96,11 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
-<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 
@@ -104,15 +108,11 @@ A pointer to the RX_CONTEXT structure for this request.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
 
 
 
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

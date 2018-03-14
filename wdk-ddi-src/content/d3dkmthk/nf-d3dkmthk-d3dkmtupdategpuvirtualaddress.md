@@ -146,11 +146,11 @@ Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queu
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md">D3DKMT_UPDATEGPUVIRTUALADDRESS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>
 
 
 

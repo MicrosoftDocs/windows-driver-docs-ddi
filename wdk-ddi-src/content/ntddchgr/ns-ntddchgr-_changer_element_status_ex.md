@@ -269,11 +269,15 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
@@ -282,10 +286,6 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

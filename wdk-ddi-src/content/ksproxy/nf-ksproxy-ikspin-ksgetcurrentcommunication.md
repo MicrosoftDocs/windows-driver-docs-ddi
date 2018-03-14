@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -164,11 +164,11 @@ The current communication direction, interface, and medium of a pin are a subset
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
 
 
 

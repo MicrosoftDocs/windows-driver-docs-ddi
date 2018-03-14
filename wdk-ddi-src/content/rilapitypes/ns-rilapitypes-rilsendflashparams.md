@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDFLASHPARAMS
 title: RILSENDFLASHPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendflashparams_2.htm
+old-location: netvista\rilsendflashparams.htm
 old-project: netvista
-ms.assetid: 2279c1f2-382f-4cae-a881-997f0bed7b6d
+ms.assetid: e45b8f47-4e46-4265-9c56-055e753eb6e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendflashparams_2, rilapitypes/RILSENDFLASHPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendflashparams, ntddrilapitypes/RILSENDFLASHPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDFLASHPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

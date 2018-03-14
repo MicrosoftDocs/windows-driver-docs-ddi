@@ -169,11 +169,11 @@ CreateandSubmitURBExit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
 
 
 

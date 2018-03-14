@@ -102,7 +102,7 @@ The returned value is a pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> s
 
 After the USB driver stack completes the select-configuration request, you can inspect the  <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structures.  The <b>Pipes</b> member of <b>USBD_INTERFACE_INFORMATION</b> points to an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The USB bus driver fills the array of <b>USBD_PIPE_INFORMATION</b> structures with information about the  pipes associated with the endpoints of the interface. The client driver can obtain pipe handles from the <code>Pipes[i].PipeHandle</code> and use them to send I/O requests to specific pipes. 
 
-After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
+After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL &lt; DISPATCH_LEVEL.
 
@@ -115,15 +115,15 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
 
 
 <a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 

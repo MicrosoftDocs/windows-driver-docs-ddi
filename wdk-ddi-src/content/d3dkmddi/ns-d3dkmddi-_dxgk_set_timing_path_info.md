@@ -187,6 +187,18 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
+#### - DiagnosticInfo
+
+Set of information filled out by the driver for each path to describe any side-effects of the timing change.
+In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
+
+
+
+#### - InputFlags
+
+A set of flags specifying what the OS wants the driver to do.
+
+
 #### - OutputColorSpace
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
@@ -207,19 +219,7 @@ Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, o
 
 
 
-#### - InputFlags
-
-A set of flags specifying what the OS wants the driver to do.
-
-
 #### - OutputFlags
 
 A set of flags specifying outcomes the OS needs to be aware of relating to this path.
-
-
-#### - DiagnosticInfo
-
-Set of information filled out by the driver for each path to describe any side-effects of the timing change.
-In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
-
 

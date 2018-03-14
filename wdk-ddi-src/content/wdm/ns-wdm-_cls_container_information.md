@@ -7,7 +7,7 @@ old-location: kernel\clfs_container_information.htm
 old-project: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_CONTAINER_INFORMATION, kernel.clfs_container_information, kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, wdm/CLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, wdm/PCLS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -214,15 +214,11 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
 
 
 
@@ -230,9 +226,13 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 
 
- 
+<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_CONTAINER_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLS_CONTAINER_INFORMATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

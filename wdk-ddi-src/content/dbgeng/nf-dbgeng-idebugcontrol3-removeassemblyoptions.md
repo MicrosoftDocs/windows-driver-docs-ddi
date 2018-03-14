@@ -7,7 +7,7 @@ old-location: debugger\removeassemblyoptions.htm
 old-project: debugger
 ms.assetid: 0352b418-26ee-4f35-a171-1b456a115014
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], RemoveAssemblyOptions method, IDebugControl3::RemoveAssemblyOptions, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions method [Windows Debugging], RemoveAssemblyOptions method [Windows Debugging], IDebugControl3 interface, RemoveAssemblyOptions,IDebugControl3.RemoveAssemblyOptions, dbgeng/IDebugControl3::RemoveAssemblyOptions, debugger.removeassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -123,23 +123,7 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -147,7 +131,15 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 
 
@@ -155,9 +147,17 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3::RemoveAssemblyOptions method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3::RemoveAssemblyOptions method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

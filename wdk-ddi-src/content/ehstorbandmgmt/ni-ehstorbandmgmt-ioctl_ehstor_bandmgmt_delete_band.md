@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_BANDMGMT_DELETE_BAND IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -166,11 +161,11 @@ The <b>IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</b> will not delete the global band. A 
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_delete_band_parameters.md">DELETE_BAND_PARAMETERS</a>
+
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 

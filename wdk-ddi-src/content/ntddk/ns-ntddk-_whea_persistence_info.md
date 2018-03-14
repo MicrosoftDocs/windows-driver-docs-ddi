@@ -85,21 +85,6 @@ typedef union _WHEA_PERSISTENCE_INFO {
 A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
 
 
-#### - Signature
-
-The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
-
-
-#### - Length
-
-The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
-
-
-#### - Identifier
-
-An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
-
-
 #### - Attributes
 
 Attribute flags that describe the error record. No attributes are currently defined.
@@ -110,9 +95,24 @@ Attribute flags that describe the error record. No attributes are currently defi
 A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
 
 
+#### - Identifier
+
+An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
+
+
+#### - Length
+
+The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
+
+
 #### - Reserved
 
 Reserved for system use. This member must be zero.
+
+
+#### - Signature
+
+The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
 
 
 ## -remarks

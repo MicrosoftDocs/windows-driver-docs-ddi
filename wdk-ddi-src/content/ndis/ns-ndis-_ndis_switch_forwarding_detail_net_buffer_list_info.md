@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_forwarding_detail_net_buffer_list_info.htm
 old-project: netvista
 ms.assetid: 6377CC08-A261-465A-AA04-0BE31EEACF01
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,21 +93,11 @@ The complete 64-bit <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> va
 
 
 
-#### - NumAvailableDestinations
+#### - IsPacketDataSafe
 
-A value that specifies the number of unused extensible switch destination ports elements within an <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. For more information, see the Remarks section.
+If this member is set to <b>TRUE</b>, all of the packet data comes from trusted
+    host memory. 
 
-
-#### - SourcePortId
-
-The identifier of the source extensible switch port from which the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> originated. 
-
-
-#### - SourceNicIndex
-
-A UINT32 value that specifies the index of the source network adapter that is connected to the extensible switch port specified by the <b>SourcePortId</b> member.
-
-For more information on this index value, see <a href="https://msdn.microsoft.com/969333DA-0282-474B-8D56-72CD623C5329">Network Adapter Index Values</a>.
 
 
 #### - NativeForwardingRequired
@@ -119,6 +109,11 @@ This flag must not be written to by any extension.<div class="alert"><b>Note</b>
 
 
 
+#### - NumAvailableDestinations
+
+A value that specifies the number of unused extensible switch destination ports elements within an <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. For more information, see the Remarks section.
+
+
 #### - Reserved1
 
 This member is reserved for future use by NDIS.
@@ -126,11 +121,9 @@ This member is reserved for future use by NDIS.
 This member is reserved for future use by NDIS.
 
 
-#### - IsPacketDataSafe
+#### - Reserved2
 
-If this member is set to <b>TRUE</b>, all of the packet data comes from trusted
-    host memory. 
-
+This member is reserved for future use by NDIS.
 
 
 #### - SafePacketDataSize
@@ -144,9 +137,16 @@ For more information, see the Remarks section.
 <div class="alert"><b>Note</b>  This member is valid only if the <b>IsPacketDataSafe</b> member is set to <b>FALSE</b>.</div>
 <div> </div>
 
-#### - Reserved2
+#### - SourceNicIndex
 
-This member is reserved for future use by NDIS.
+A UINT32 value that specifies the index of the source network adapter that is connected to the extensible switch port specified by the <b>SourcePortId</b> member.
+
+For more information on this index value, see <a href="https://msdn.microsoft.com/969333DA-0282-474B-8D56-72CD623C5329">Network Adapter Index Values</a>.
+
+
+#### - SourcePortId
+
+The identifier of the source extensible switch port from which the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> originated. 
 
 
 ## -remarks
@@ -184,11 +184,11 @@ For more information on how to duplicate packets in the extensible switch interf
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>
+<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
 
 
 
@@ -196,19 +196,15 @@ For more information on how to duplicate packets in the extensible switch interf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598259">NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>
 
 
 
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
+<a href="https://msdn.microsoft.com/14A78DB2-6643-471D-97B9-4D8524EC3E73">Forwarding Packets to Physical Network Adapters</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -220,7 +216,11 @@ For more information on how to duplicate packets in the extensible switch interf
 
 
 
-<a href="https://msdn.microsoft.com/14A78DB2-6643-471D-97B9-4D8524EC3E73">Forwarding Packets to Physical Network Adapters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598259">NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
 
 
 
@@ -232,5 +232,5 @@ For more information on how to duplicate packets in the extensible switch interf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

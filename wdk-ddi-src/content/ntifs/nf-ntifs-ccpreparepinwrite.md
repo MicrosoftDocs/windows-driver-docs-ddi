@@ -202,15 +202,11 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 
@@ -222,7 +218,11 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 

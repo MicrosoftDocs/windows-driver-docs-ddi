@@ -7,7 +7,7 @@ old-location: netvista\wskreceivefromevent.htm
 old-project: netvista
 ms.assetid: 1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -264,11 +264,7 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
 
 
@@ -276,15 +272,11 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
 
 
@@ -292,9 +284,17 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
- 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM_EVENT callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE_FROM_EVENT callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

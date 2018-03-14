@@ -98,14 +98,6 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
 
 
@@ -115,6 +107,14 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 
 

@@ -101,11 +101,11 @@ This structure holds data for the feature named "S.M.A.R.T." by the <i>SCSI Mult
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 

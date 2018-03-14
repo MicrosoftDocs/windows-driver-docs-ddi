@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -118,11 +113,11 @@ If the miniport driver returns an address range or ranges, it sets the <b>Inform
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_public_access_ranges.md">VIDEO_PUBLIC_ACCESS_RANGES</a>
-
-
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_public_access_ranges.md">VIDEO_PUBLIC_ACCESS_RANGES</a>
 
 
 

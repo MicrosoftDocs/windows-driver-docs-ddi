@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -141,7 +141,7 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
@@ -149,7 +149,7 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557021">IWDFDevice::CreateRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
 
 
 
@@ -157,7 +157,7 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
 
 
 
@@ -165,11 +165,11 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557021">IWDFDevice::CreateRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 

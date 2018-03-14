@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -94,11 +94,11 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
 

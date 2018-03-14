@@ -7,7 +7,7 @@ old-location: kernel\rtllongtoushort.htm
 old-project: kernel
 ms.assetid: A6D3E5D2-EB53-4F1D-B4E4-9E2D8D845E80
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlLongToUShort, RtlLongToUShort function [Kernel-Mode Driver Architecture], kernel.rtllongtoushort, ntintsafe/RtlLongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

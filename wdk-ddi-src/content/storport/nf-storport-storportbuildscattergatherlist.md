@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -267,7 +267,7 @@ The miniport driver must call <a href="..\storport\nf-storport-storportputscatte
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
+<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
 
 
 
@@ -275,7 +275,7 @@ The miniport driver must call <a href="..\storport\nf-storport-storportputscatte
 
 
 
-<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
+<a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
 
 
 

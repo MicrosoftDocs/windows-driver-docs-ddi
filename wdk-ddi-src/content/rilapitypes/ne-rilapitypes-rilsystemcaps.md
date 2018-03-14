@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSYSTEMCAPS
 title: RILSYSTEMCAPS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemcaps_2.htm
+old-location: netvista\rilsystemcaps.htm
 old-project: netvista
-ms.assetid: d8148f94-d3f0-4578-83a3-024e64c9258b
+ms.assetid: ed0ecb71-22b4-4387-8d5a-4d6fd2c7047e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps_2, rilapitypes/RILSYSTEMCAPS, rilapitypes/RIL_SYSTEMCAPS_ALL, rilapitypes/RIL_SYSTEMCAPS_VOICEDATA
+ms.date: 2/27/2018
+ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps, ntddrilapitypes/RILSYSTEMCAPS, ntddrilapitypes/RIL_SYSTEMCAPS_ALL, ntddrilapitypes/RIL_SYSTEMCAPS_VOICEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMCAPS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -172,11 +172,11 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

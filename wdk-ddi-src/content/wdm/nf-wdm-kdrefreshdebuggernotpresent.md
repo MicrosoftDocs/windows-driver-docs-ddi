@@ -116,11 +116,11 @@ else
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541860">Determining if a Debugger is Attached</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548118">KD_DEBUGGER_ENABLED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541860">Determining if a Debugger is Attached</a>
 
 
 

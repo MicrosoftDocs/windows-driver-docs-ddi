@@ -7,7 +7,7 @@ old-location: debugger\removeflags.htm
 old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, RemoveFlags,IDebugBreakpoint2.RemoveFlags, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

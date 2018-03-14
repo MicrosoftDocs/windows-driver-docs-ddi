@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -136,11 +136,11 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
 
 

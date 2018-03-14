@@ -49,7 +49,7 @@ req.typenames: D3DKMT_ACQUIREKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex object that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
+Describes a keyed mutex object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
 
 
 ## -syntax
@@ -104,7 +104,7 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a>
 
 
 

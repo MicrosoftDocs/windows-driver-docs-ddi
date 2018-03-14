@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -94,11 +94,11 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559742">IKsClockPropertySet::KsGetPhysicalTime</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559742">IKsClockPropertySet::KsGetPhysicalTime</a>
 
 
 

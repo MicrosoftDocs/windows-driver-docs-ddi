@@ -89,15 +89,7 @@ You must initiate this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
 
 
@@ -105,7 +97,15 @@ You must initiate this method if the initiator supports IKE.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
 
 
 

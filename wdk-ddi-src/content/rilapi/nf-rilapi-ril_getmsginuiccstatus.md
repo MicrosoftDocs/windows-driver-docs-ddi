@@ -7,7 +7,7 @@ old-location: netvista\ril_getmsginuiccstatus.htm
 old-project: netvista
 ms.assetid: 9cf60a9b-cb1e-46a5-b8d8-c7fc2c6f2cf3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getmsginuiccstatus, rilapi/RIL_GetMsgInUiccStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

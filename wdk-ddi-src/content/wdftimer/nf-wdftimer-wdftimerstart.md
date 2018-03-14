@@ -156,15 +156,15 @@ inTimerQueue = WdfTimerStart(
 
 ## -see-also
 
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
 
 
 
 <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
-
-
-
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
 
 

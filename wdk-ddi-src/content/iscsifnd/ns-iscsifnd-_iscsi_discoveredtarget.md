@@ -101,7 +101,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
 
 
 
@@ -109,7 +109,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
 
 
 

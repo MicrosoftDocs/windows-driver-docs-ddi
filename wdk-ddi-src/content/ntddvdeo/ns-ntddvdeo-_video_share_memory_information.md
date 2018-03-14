@@ -145,11 +145,11 @@ If <b>NULL</b>, the miniport driver determines the address of a frame buffer to 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
 
 
 

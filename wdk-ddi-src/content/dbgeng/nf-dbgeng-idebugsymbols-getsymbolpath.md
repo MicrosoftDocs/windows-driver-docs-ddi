@@ -7,7 +7,7 @@ old-location: debugger\getsymbolpath.htm
 old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging], IDebugSymbols interface, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath,IDebugSymbols.GetSymbolPath, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -140,7 +140,7 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
 
 
@@ -148,17 +148,17 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolPath method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolPath method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

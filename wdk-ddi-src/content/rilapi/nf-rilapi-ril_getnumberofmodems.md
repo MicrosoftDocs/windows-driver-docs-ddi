@@ -7,7 +7,7 @@ old-location: netvista\ril_getnumberofmodems.htm
 old-project: netvista
 ms.assetid: 81747f24-d1ed-412a-b0ae-95b737059b0d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetNumberOfModems, RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], netvista.ril_getnumberofmodems, rilapi/RIL_GetNumberOfModems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

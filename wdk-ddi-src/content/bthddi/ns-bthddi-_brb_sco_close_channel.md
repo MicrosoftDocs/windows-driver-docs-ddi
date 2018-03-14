@@ -103,11 +103,11 @@ A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initia
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

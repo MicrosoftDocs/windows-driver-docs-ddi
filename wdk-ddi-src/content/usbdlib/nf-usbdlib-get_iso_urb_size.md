@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: usbdlib.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -84,11 +84,7 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -96,7 +92,11 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 

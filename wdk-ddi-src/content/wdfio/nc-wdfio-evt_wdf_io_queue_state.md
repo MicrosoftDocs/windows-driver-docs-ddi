@@ -145,7 +145,7 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -157,7 +157,7 @@ The <b>EVT_WDF_IO_QUEUE_STATE</b> function type is defined in the Wdfio.h header
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
 
 

@@ -113,11 +113,6 @@ Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
  
@@ -179,11 +174,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

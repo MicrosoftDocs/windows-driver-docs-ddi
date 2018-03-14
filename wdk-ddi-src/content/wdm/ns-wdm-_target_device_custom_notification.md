@@ -7,7 +7,7 @@ old-location: kernel\target_device_custom_notification.htm
 old-project: kernel
 ms.assetid: fa6530a4-13b7-472b-a571-682323edc64e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_CUSTOM_NOTIFICATION, kernel.target_device_custom_notification, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION, wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,7 @@ This structure accommodates both a variable-length binary data buffer and a vari
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
 
 
 
@@ -124,7 +124,7 @@ This structure accommodates both a variable-length binary data buffer and a vari
 
 
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 
@@ -132,5 +132,5 @@ This structure accommodates both a variable-length binary data buffer and a vari
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TARGET_DEVICE_CUSTOM_NOTIFICATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TARGET_DEVICE_CUSTOM_NOTIFICATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

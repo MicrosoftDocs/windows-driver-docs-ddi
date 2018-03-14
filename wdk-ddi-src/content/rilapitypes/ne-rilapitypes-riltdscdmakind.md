@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILTDSCDMAKIND
 title: RILTDSCDMAKIND
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riltdscdmakind_2.htm
+old-location: netvista\riltdscdmakind.htm
 old-project: netvista
-ms.assetid: ff6c4459-dd3e-43f6-aa41-a2e82221394e
+ms.assetid: 61b5d7f8-bd45-448b-b7a1-3e52909a63cb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILTDSCDMAKIND, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista], RIL_TDSCDMAKIND_DC_HSPAPLUS, RIL_TDSCDMAKIND_HSDPA, RIL_TDSCDMAKIND_HSPAPLUS, RIL_TDSCDMAKIND_HSUPA, RIL_TDSCDMAKIND_MAX, netvista.riltdscdmakind_2, rilapitypes/RILTDSCDMAKIND, rilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, rilapitypes/RIL_TDSCDMAKIND_HSDPA, rilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, rilapitypes/RIL_TDSCDMAKIND_HSUPA, rilapitypes/RIL_TDSCDMAKIND_MAX
+ms.date: 2/27/2018
+ms.keywords: RILTDSCDMAKIND, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista], RIL_TDSCDMAKIND_DC_HSPAPLUS, RIL_TDSCDMAKIND_HSDPA, RIL_TDSCDMAKIND_HSPAPLUS, RIL_TDSCDMAKIND_HSUPA, RIL_TDSCDMAKIND_MAX, netvista.riltdscdmakind, ntddrilapitypes/RILTDSCDMAKIND, ntddrilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, ntddrilapitypes/RIL_TDSCDMAKIND_HSDPA, ntddrilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, ntddrilapitypes/RIL_TDSCDMAKIND_HSUPA, ntddrilapitypes/RIL_TDSCDMAKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILTDSCDMAKIND
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -115,7 +115,11 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 
 
@@ -123,11 +127,7 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
 
 

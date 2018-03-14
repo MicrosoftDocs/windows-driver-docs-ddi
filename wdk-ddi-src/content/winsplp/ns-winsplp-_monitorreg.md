@@ -302,11 +302,11 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
 
 
 

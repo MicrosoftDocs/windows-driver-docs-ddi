@@ -94,7 +94,7 @@ A function that is called when the item is removed from the object bag or when t
 </td>
 </tr>
 </table></span></div>
-If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
+If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
 
 
 ## -returns
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
@@ -127,15 +127,11 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
 
 
 
@@ -143,7 +139,11 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
 
 

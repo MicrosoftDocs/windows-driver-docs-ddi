@@ -133,11 +133,11 @@ Any ED_Xxx or DEV_PORT_Xxx tokens are defined in <i>xprtdefs.h</i> in the Micros
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagdevcaps.md">DEVCAPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagdevcaps.md">DEVCAPS</a>
 
 
 

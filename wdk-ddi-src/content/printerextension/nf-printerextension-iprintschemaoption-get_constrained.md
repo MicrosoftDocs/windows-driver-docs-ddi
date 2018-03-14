@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -71,11 +71,11 @@ HRESULT get_Constrained(
 
 ## -see-also
 
-<a href="..\printerextension\ne-printerextension-tagprintschemaconstrainedsetting.md">PrintSchemaConstrainedSetting</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
+
+<a href="..\printerextension\ne-printerextension-tagprintschemaconstrainedsetting.md">PrintSchemaConstrainedSetting</a>
 
 
 

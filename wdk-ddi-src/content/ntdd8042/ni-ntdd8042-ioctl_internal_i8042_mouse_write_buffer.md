@@ -46,11 +46,6 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 # IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -112,11 +107,6 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_DEVICE_NOT_READY
 
 The mouse interrupt is not initialized.
@@ -130,4 +120,9 @@ The input parameters are not valid.
 #### -STATUS_IO_TIMEOUT
 
 The request timed out.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 

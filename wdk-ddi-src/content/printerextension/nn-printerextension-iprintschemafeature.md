@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -164,7 +164,7 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3BD7B8D6-B06F-492F-A73E-DA0799387B2A">IPrintSchemaTicket::GetFeatureByKeyName</a>
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
 
 
@@ -172,7 +172,7 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+<a href="https://msdn.microsoft.com/3BD7B8D6-B06F-492F-A73E-DA0799387B2A">IPrintSchemaTicket::GetFeatureByKeyName</a>
 
 
 

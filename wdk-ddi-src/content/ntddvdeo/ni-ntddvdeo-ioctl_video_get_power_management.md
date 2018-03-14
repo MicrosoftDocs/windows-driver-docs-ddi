@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_GET_POWER_MANAGEMENT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

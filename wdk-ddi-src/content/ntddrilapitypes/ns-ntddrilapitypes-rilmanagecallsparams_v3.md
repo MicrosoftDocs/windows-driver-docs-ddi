@@ -7,13 +7,13 @@ old-location: netvista\rilmanagecallsparams_v3.htm
 old-project: netvista
 ms.assetid: a398086b-827e-4684-a79c-db849926b3c3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v3, ntddrilapitypes/RILMANAGECALLSPARAMS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

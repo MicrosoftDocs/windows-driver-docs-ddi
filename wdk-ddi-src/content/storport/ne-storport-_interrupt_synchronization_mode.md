@@ -96,7 +96,7 @@ Miniport drivers define the HBA's interrupt synchronization mode by assigning on
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+<a href="..\storport\nc-storport-hw_message_signaled_interrupt_routine.md">HwMSInterruptRoutine</a>
 
 
 
@@ -104,11 +104,11 @@ Miniport drivers define the HBA's interrupt synchronization mode by assigning on
 
 
 
+<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
+
 <a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
-
-
-
-<a href="..\storport\nc-storport-hw_message_signaled_interrupt_routine.md">HwMSInterruptRoutine</a>
 
 
 

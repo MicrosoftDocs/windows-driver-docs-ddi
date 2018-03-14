@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdm.h
+req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
@@ -84,11 +84,11 @@ Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

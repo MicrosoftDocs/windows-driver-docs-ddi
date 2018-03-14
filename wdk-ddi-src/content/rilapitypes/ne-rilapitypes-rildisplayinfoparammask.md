@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILDISPLAYINFOPARAMMASK
 title: RILDISPLAYINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildisplayinfoparammask_2.htm
+old-location: netvista\rildisplayinfoparammask.htm
 old-project: netvista
-ms.assetid: d8bd093d-ad95-488e-a057-b96fecf58bbb
+ms.assetid: deb9da97-7a61-4642-bebd-ab0e4082b410
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask_2, rilapitypes/RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_ALL, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_TYPE
+ms.date: 2/27/2018
+ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask, ntddrilapitypes/RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_ALL, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGE, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, ntddrilapitypes/RIL_PARAM_DISPLAY_TAG, ntddrilapitypes/RIL_PARAM_DISPLAY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDISPLAYINFOPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

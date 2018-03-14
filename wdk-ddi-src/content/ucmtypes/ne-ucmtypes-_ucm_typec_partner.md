@@ -97,19 +97,24 @@ typedef enum _UCM_TYPEC_PARTNER {
 
 
 
-#### - UcmTypeCPartnerStateInvalid
+#### - UcmTypeCPartnerStateAudioAccessory
 
-The partner port state is invalid.
+The partner is used as an audio accessory.
 
 
-#### - UcmTypeCPartnerStateUfp
+#### - UcmTypeCPartnerStateDebugAccessory
 
-The partner is an Upstream Facing Port (UFP).
+The partner is a debug accessory.
 
 
 #### - UcmTypeCPartnerStateDfp
 
 The partner is a Downstream Facing Port (DFP).
+
+
+#### - UcmTypeCPartnerStateInvalid
+
+The partner port state is invalid.
 
 
 #### - UcmTypeCPartnerStatePoweredCableNoUfp
@@ -122,23 +127,18 @@ The partner is a powered cable that requires VConn, that currently does not have
 The partner is a powered and upstream facing.
 
 
-#### - UcmTypeCPartnerStateAudioAccessory
+#### - UcmTypeCPartnerStateUfp
 
-The partner is used as an audio accessory.
-
-
-#### - UcmTypeCPartnerStateDebugAccessory
-
-The partner is a debug accessory.
+The partner is an Upstream Facing Port (UFP).
 
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
+
+
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 
 

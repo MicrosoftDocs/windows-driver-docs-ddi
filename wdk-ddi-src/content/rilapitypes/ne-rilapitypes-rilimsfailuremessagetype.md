@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILIMSFAILUREMESSAGETYPE
 title: RILIMSFAILUREMESSAGETYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimsfailuremessagetype_2.htm
+old-location: netvista\rilimsfailuremessagetype.htm
 old-project: netvista
-ms.assetid: 9a29cc8c-7e46-4b7f-a428-d2f174945654
+ms.assetid: e40241e6-90ee-4bbb-8fde-f52ffd838c1f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILIMSFAILUREMESSAGETYPE, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_MAX, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, netvista.rilimsfailuremessagetype_2, rilapitypes/RILIMSFAILUREMESSAGETYPE, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE
+ms.date: 2/27/2018
+ms.keywords: RILIMSFAILUREMESSAGETYPE, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_MAX, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, netvista.rilimsfailuremessagetype, ntddrilapitypes/RILIMSFAILUREMESSAGETYPE, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSFAILUREMESSAGETYPE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

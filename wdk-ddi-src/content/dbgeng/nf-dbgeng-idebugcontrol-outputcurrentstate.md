@@ -7,7 +7,7 @@ old-location: debugger\outputcurrentstate.htm
 old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, IDebugControl3::OutputCurrentState, IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, OutputCurrentState method [Windows Debugging], OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, OutputCurrentState,IDebugControl.OutputCurrentState, dbgeng/IDebugControl2::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, debugger.outputcurrentstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

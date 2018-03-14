@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dsound.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -110,9 +110,14 @@ HRESULT Get(
 
 
 
-#### - PropSet [in]
+#### - BytesReturned [out]
 
-GUID that identifies the property set.
+Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
+
+
+#### - DataLength [in]
+
+Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
 #### - Id [in]
@@ -130,19 +135,14 @@ Pointer to instance data for the property.
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
+#### - PropSet [in]
+
+GUID that identifies the property set.
+
+
 #### - PropertyData [out]
 
 Pointer to a buffer that receives the value of the property. 
-
-
-#### - DataLength [in]
-
-Size, in bytes, of the buffer at <i>PropertyData</i>. 
-
-
-#### - BytesReturned [out]
-
-Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
 
 
 ## -returns

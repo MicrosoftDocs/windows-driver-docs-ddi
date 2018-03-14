@@ -156,7 +156,7 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -168,7 +168,7 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
 
 
 
@@ -176,11 +176,11 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
 
 
 

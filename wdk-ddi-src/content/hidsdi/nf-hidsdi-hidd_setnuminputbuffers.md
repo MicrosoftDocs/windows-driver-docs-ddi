@@ -102,11 +102,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getnuminputbuffers.md">HidD_GetNumInputBuffers</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
 
 
 

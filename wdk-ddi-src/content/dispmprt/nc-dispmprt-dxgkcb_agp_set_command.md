@@ -181,6 +181,10 @@ None.
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
 
 
@@ -190,10 +194,6 @@ None.
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
 
 
 

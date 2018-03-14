@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSMSREADYSTATUS
 title: RILSMSREADYSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsmsreadystatus_2.htm
+old-location: netvista\rilsmsreadystatus.htm
 old-project: netvista
-ms.assetid: a7039749-3f7d-4eca-919c-db27f9e62bf2
+ms.assetid: 0f2d6a06-18af-4e7a-9f88-c81d98575f56
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus_2, rilapitypes/RILSMSREADYSTATUS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus, ntddrilapitypes/RILSMSREADYSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSMSREADYSTATUS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

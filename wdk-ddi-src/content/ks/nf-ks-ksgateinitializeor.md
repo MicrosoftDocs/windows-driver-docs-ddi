@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -100,7 +100,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
@@ -116,7 +116,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

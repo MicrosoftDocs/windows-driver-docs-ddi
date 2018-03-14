@@ -114,11 +114,11 @@ For a code example that uses <b>WdfIoResourceListGetDescriptor</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -86,14 +86,14 @@ TBD
 
 
 
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS structure.
-
-
 #### - pContextPointer
 
 A pointer that will hold the context for this MID on exit.
+
+
+#### - pMidAtlas
+
+A pointer to the MID_ATLAS structure.
 
 
 ## -returns
@@ -120,19 +120,19 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 
+<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+
+
+
 <a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 
 

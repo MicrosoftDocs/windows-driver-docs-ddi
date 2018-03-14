@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -135,15 +135,15 @@ This routine must be called before committing the device (returning from <a href
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
+
+
+
 <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
 
 
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
 
 
 

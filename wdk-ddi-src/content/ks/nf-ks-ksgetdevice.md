@@ -95,23 +95,7 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
-
-
-
-<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
 
@@ -119,7 +103,23 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
 
 
 

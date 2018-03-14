@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -204,14 +204,6 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
@@ -220,7 +212,15 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
+<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
 

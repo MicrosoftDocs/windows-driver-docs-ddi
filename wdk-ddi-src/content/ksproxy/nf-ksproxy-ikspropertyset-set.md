@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -72,32 +72,32 @@ HRESULT Set(
 
 
 
-#### - PropSet [in]
+### -param PropSet [in]
 
 GUID that identifies the property set.
 
 
-#### - Id [in]
+### -param Id [in]
 
 Identifier of the property within the property set. 
 
 
-#### - InstanceData [in]
+### -param InstanceData [in]
 
 Pointer to instance data for the property. 
 
 
-#### - InstanceLength [in]
+### -param InstanceLength [in]
 
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-#### - PropertyData [in]
+### -param PropertyData [in]
 
 Pointer to a buffer that contains the value of the property to set. 
 
 
-#### - DataLength [in]
+### -param DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
 

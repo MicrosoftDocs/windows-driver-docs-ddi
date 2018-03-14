@@ -7,7 +7,7 @@ old-location: kernel\kesettargetprocessordpcex.htm
 old-project: kernel
 ms.assetid: a21f3304-9181-4027-9a7e-d590037b4b0f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, kernel.kesettargetprocessordpcex, wdm/KeSetTargetProcessorDpcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,7 +76,7 @@ A pointer to the caller's <a href="https://msdn.microsoft.com/ae8758f5-0e23-4db2
 
 ### -param ProcNumber [in]
 
-A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the target processor on which the DPC will be queued and executed. This structure specifies a group and a processor within this group.
+A pointer to a caller-allocated <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the target processor on which the DPC will be queued and executed. This structure specifies a group and a processor within this group.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Each processor in a multiprocessor system has its own DPC queue. <b>KeSetTargetP
 
 <b>KeSetTargetProcessorDpcEx</b> can specify the target processor for both ordinary DPCs and <a href="https://msdn.microsoft.com/library/windows/hardware/ff564621">threaded DPCs</a>. An ordinary DPC cannot be preempted by even a high-priority thread, but a threaded DPC can be preempted by time-critical threads that have sufficiently high priorities.
 
-A related routine, <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>, specifies a target processor for a DPC, but this routine, unlike <b>KeSetTargetProcessorDpcEx</b>, does not specify a group for the target processor. Starting with Windows 7, <b>KeSetTargetProcessorDpc</b> assumes that the target processor belongs to group 0. This behavior ensures that existing drivers that call <b>KeSetTargetProcessorDpc</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeSetTargetProcessorDpcEx</b> instead of <b>KeSetTargetProcessorDpc</b>.
+A related routine, <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>, specifies a target processor for a DPC, but this routine, unlike <b>KeSetTargetProcessorDpcEx</b>, does not specify a group for the target processor. Starting with Windows 7, <b>KeSetTargetProcessorDpc</b> assumes that the target processor belongs to group 0. This behavior ensures that existing drivers that call <b>KeSetTargetProcessorDpc</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeSetTargetProcessorDpcEx</b> instead of <b>KeSetTargetProcessorDpc</b>.
 
 A call to <b>KeSetTargetProcessorDpcEx</b> that occurs after a DPC object has been queued has no effect on the selection of a processor for the DPC routine to run on. To control the selection of the target processor, a <b>KeSetTargetProcessorDpcEx</b> call must occur before the call to <b>KeInsertQueueDpc</b> or <b>IoRequestDpc</b> that queues the DPC object.
 
@@ -126,7 +126,11 @@ For more information about DPC queues, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+
+
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 
@@ -134,15 +138,7 @@ For more information about DPC queues, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
-
-
-
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
@@ -150,9 +146,13 @@ For more information about DPC queues, see <a href="https://msdn.microsoft.com/l
 
 
 
- 
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetTargetProcessorDpcEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetTargetProcessorDpcEx routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

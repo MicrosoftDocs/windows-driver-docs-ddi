@@ -7,7 +7,7 @@ old-location: kernel\iogetbootdiskinformation.htm
 old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ The value of <i>Size</i> is less than the size, in bytes, of a <b>BOOTDISK_INFOR
 </dl>
 </td>
 <td width="60%">
-The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+The driver called the routine after the system has already booted. Only boot and system drivers can call <b>IoGetBootDiskInformation</b>, and then only in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
+<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 
 
@@ -152,17 +152,17 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 
 
+<a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
+
+
+
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

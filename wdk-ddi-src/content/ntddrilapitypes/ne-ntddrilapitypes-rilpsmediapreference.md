@@ -7,13 +7,13 @@ old-location: netvista\rilpsmediapreference.htm
 old-project: netvista
 ms.assetid: a7fbef54-78c1-4696-8b0a-8c98d250f899
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILPSMEDIAPREFERENCE, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], RIL_PSMPREF_CELLONLY, RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_WIFIPREFERRED, netvista.rilpsmediapreference, ntddrilapitypes/RILPSMEDIAPREFERENCE, ntddrilapitypes/RIL_PSMPREF_CELLONLY, ntddrilapitypes/RIL_PSMPREF_CELLPREFERRED, ntddrilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, ntddrilapitypes/RIL_PSMPREF_WIFIONLY, ntddrilapitypes/RIL_PSMPREF_WIFIPREFERRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

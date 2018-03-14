@@ -7,7 +7,7 @@ old-location: audio\allocatedmabufferwithnotification.htm
 old-project: audio
 ms.assetid: c74b5969-35d4-45db-b631-31e00572107d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -242,7 +242,7 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 
 
@@ -250,7 +250,7 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -258,5 +258,5 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

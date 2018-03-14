@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtouint16.htm
 old-project: kernel
 ms.assetid: 405FB676-64FD-43DE-BCD9-233C8B43D851
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlUIntPtrToUInt16, RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint16, ntintsafe/RtlUIntPtrToUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

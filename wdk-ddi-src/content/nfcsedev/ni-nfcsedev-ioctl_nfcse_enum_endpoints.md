@@ -46,11 +46,6 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 # IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

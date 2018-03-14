@@ -113,11 +113,11 @@ The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVE
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
-
-
-
 <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 

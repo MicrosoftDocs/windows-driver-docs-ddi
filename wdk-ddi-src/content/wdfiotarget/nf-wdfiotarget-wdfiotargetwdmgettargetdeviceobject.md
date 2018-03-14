@@ -131,11 +131,7 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfileobject.md">WdfIoTargetWdmGetTargetFileObject</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -143,7 +139,11 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfileobject.md">WdfIoTargetWdmGetTargetFileObject</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
 
 
 

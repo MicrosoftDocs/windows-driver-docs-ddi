@@ -7,13 +7,13 @@ old-location: netvista\rilphonebookinfoparammask.htm
 old-project: netvista
 ms.assetid: 1aab5008-eb27-4f48-9d87-74959f932883
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILPHONEBOOKINFOPARAMMASK, RILPHONEBOOKINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBI_ADDRESSLENGTH, RIL_PARAM_PBI_ALL, RIL_PARAM_PBI_MAXAASTEXTLENGTH, RIL_PARAM_PBI_MAXANR, RIL_PARAM_PBI_MAXANRLENGTH, RIL_PARAM_PBI_MAXEMAILLENGTH, RIL_PARAM_PBI_MAXEMAILS, RIL_PARAM_PBI_MAXGASLENGTH, RIL_PARAM_PBI_MAXGROUPS, RIL_PARAM_PBI_MAXSNELENGTH, RIL_PARAM_PBI_TEXTLENGTH, RIL_PARAM_PBI_TOTAL, RIL_PARAM_PBI_TOTALAAS, RIL_PARAM_PBI_TOTALGAS, RIL_PARAM_PBI_USEDAAS, RIL_PARAM_PBI_USEDGAS, netvista.rilphonebookinfoparammask, ntddrilapitypes/RILPHONEBOOKINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_PBI_ADDRESSLENGTH, ntddrilapitypes/RIL_PARAM_PBI_ALL, ntddrilapitypes/RIL_PARAM_PBI_MAXAASTEXTLENGTH, ntddrilapitypes/RIL_PARAM_PBI_MAXANR, ntddrilapitypes/RIL_PARAM_PBI_MAXANRLENGTH, ntddrilapitypes/RIL_PARAM_PBI_MAXEMAILLENGTH, ntddrilapitypes/RIL_PARAM_PBI_MAXEMAILS, ntddrilapitypes/RIL_PARAM_PBI_MAXGASLENGTH, ntddrilapitypes/RIL_PARAM_PBI_MAXGROUPS, ntddrilapitypes/RIL_PARAM_PBI_MAXSNELENGTH, ntddrilapitypes/RIL_PARAM_PBI_TEXTLENGTH, ntddrilapitypes/RIL_PARAM_PBI_TOTAL, ntddrilapitypes/RIL_PARAM_PBI_TOTALAAS, ntddrilapitypes/RIL_PARAM_PBI_TOTALGAS, ntddrilapitypes/RIL_PARAM_PBI_USEDAAS, ntddrilapitypes/RIL_PARAM_PBI_USEDGAS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

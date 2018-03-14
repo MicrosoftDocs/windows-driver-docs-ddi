@@ -115,15 +115,15 @@ If zero, the refresh rate should be the default rate based on the current mode.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
 
 
 

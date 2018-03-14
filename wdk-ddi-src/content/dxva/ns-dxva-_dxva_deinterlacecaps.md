@@ -127,11 +127,11 @@ The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> memb
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
 
 
 

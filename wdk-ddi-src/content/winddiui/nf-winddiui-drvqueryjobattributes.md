@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -171,7 +171,7 @@ The ATTRIBUTE_INFO_4 structure is defined for Windows Vista.
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 
@@ -179,11 +179,11 @@ The ATTRIBUTE_INFO_4 structure is defined for Windows Vista.
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
 

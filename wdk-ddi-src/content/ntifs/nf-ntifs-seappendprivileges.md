@@ -128,11 +128,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 
@@ -144,11 +144,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+
+
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 
 

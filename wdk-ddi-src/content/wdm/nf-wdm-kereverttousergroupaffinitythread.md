@@ -7,7 +7,7 @@ old-location: kernel\kereverttousergroupaffinitythread.htm
 old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,7 @@ VOID KeRevertToUserGroupAffinityThread(
 
 ### -param PreviousAffinity [in]
 
-A pointer to the group affinity to restore. This parameter points to a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
+A pointer to the group affinity to restore. This parameter points to a <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
 
 
 ## -returns
@@ -123,21 +123,21 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
-
-
-
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 
- 
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRevertToUserGroupAffinityThread routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRevertToUserGroupAffinityThread routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

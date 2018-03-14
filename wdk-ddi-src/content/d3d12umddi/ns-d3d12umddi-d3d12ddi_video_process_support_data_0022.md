@@ -158,11 +158,7 @@ The list of filter range values.  The order of the range values should be specif
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a>
 
 
 
@@ -170,15 +166,7 @@ The list of filter range values.  The order of the range values should be specif
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
-
-
-
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_field_type_0020.md">D3D12DDI_VIDEO_FIELD_TYPE</a>
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a>
 
 
 
@@ -186,11 +174,23 @@ The list of filter range values.  The order of the range values should be specif
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a>
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+
+
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_field_type_0020.md">D3D12DDI_VIDEO_FIELD_TYPE</a>
+
+
+
+<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
 
 
 

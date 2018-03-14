@@ -106,11 +106,15 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_kmddod_initialization_data.md">KMDDOD_INITIALIZATION_DATA</a>
-
-
-
-<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
 
 
 
@@ -118,11 +122,7 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
 
 
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGDCSMSGCLASS
 title: RILMSGDCSMSGCLASS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgdcsmsgclass_2.htm
+old-location: netvista\rilmsgdcsmsgclass.htm
 old-project: netvista
-ms.assetid: 67064f7c-4d2a-4d2f-8393-fb85d5139bca
+ms.assetid: 3190aa21-201a-40d1-b894-dd393e413826
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGDCSMSGCLASS, RILMSGDCSMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSMSGCLASS_1, RIL_DCSMSGCLASS_2, RIL_DCSMSGCLASS_3, RIL_DCSMSGCLASS_MAX, netvista.rilmsgdcsmsgclass_2, rilapitypes/RILMSGDCSMSGCLASS, rilapitypes/RIL_DCSMSGCLASS_1, rilapitypes/RIL_DCSMSGCLASS_2, rilapitypes/RIL_DCSMSGCLASS_3, rilapitypes/RIL_DCSMSGCLASS_MAX
+ms.date: 2/27/2018
+ms.keywords: RILMSGDCSMSGCLASS, RILMSGDCSMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSMSGCLASS_1, RIL_DCSMSGCLASS_2, RIL_DCSMSGCLASS_3, RIL_DCSMSGCLASS_MAX, netvista.rilmsgdcsmsgclass, ntddrilapitypes/RILMSGDCSMSGCLASS, ntddrilapitypes/RIL_DCSMSGCLASS_1, ntddrilapitypes/RIL_DCSMSGCLASS_2, ntddrilapitypes/RIL_DCSMSGCLASS_3, ntddrilapitypes/RIL_DCSMSGCLASS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSMSGCLASS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

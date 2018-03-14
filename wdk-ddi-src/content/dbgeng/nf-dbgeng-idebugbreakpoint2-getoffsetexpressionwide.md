@@ -7,7 +7,7 @@ old-location: debugger\getoffsetexpressionwide.htm
 old-project: debugger
 ms.assetid: bd4b32b1-e8ba-485f-bfb6-15c8c44926af
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpressionWide,IDebugBreakpoint2.GetOffsetExpressionWide, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, IDebugBreakpoint2::GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

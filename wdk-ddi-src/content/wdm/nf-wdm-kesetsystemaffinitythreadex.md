@@ -7,7 +7,7 @@ old-location: kernel\kesetsystemaffinitythreadex.htm
 old-project: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 
@@ -127,7 +127,7 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
 
 
 
@@ -139,5 +139,5 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetSystemAffinityThreadEx routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetSystemAffinityThreadEx routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

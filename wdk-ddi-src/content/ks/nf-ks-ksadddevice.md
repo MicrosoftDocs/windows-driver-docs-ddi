@@ -103,11 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -115,7 +111,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
 
 
@@ -123,11 +127,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

@@ -7,13 +7,13 @@ old-location: netvista\rilinfoclass.htm
 old-project: netvista
 ms.assetid: 2e4bd8bd-ce7e-4eb4-ac0d-68fb8890eb26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILINFOCLASS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATA, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_FAX, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_SMS, RIL_INFOCLASS_VOICE, netvista.rilinfoclass, ntddrilapitypes/RILINFOCLASS, ntddrilapitypes/RIL_INFOCLASS_ALL, ntddrilapitypes/RIL_INFOCLASS_DATA, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, ntddrilapitypes/RIL_INFOCLASS_FAX, ntddrilapitypes/RIL_INFOCLASS_PACKETACCESS, ntddrilapitypes/RIL_INFOCLASS_PADACCESS, ntddrilapitypes/RIL_INFOCLASS_SMS, ntddrilapitypes/RIL_INFOCLASS_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

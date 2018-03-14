@@ -167,11 +167,11 @@ The source rectangle specified by the members <b>SrcLeft</b>, <b>SrcTop</b>, <b>
 
 ## -see-also
 
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+
+
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 
@@ -179,7 +179,7 @@ The source rectangle specified by the members <b>SrcLeft</b>, <b>SrcTop</b>, <b>
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

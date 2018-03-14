@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGPPCAUSE
 title: RILGPPCAUSE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgppcause_2.htm
+old-location: netvista\rilgppcause.htm
 old-project: netvista
-ms.assetid: 33e54af8-4ff1-44e2-926f-8f045e15b000
+ms.assetid: 4072183a-36b5-4a77-a1a5-95b97950b01a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILGPPCAUSE, RILGPPCAUSE, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgppcause_2, rilapitypes/RILGPPCAUSE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILGPPCAUSE, RILGPPCAUSE, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgppcause, ntddrilapitypes/RILGPPCAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGPPCAUSE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

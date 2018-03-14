@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILNOTIFICATIONFILTERMASK
 title: RILNOTIFICATIONFILTERMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilnotificationfiltermask_2.htm
+old-location: netvista\rilnotificationfiltermask.htm
 old-project: netvista
-ms.assetid: 00d083af-f2c1-4ad5-803a-5981ed70035f
+ms.assetid: 5dc72657-00ae-4fde-b9a7-a63616d934c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask_2, rilapitypes/RILNOTIFICATIONFILTERMASK, rilapitypes/RIL_NFS_ALL, rilapitypes/RIL_NFS_LOCATIONUPDATE, rilapitypes/RIL_NFS_REGSTATUS_RATKIND, rilapitypes/RIL_NFS_SIGNALQUALITY
+ms.date: 2/27/2018
+ms.keywords: RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RIL_NFS_ALL, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_SIGNALQUALITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILNOTIFICATIONFILTERMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

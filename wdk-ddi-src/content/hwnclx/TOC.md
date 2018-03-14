@@ -1,4 +1,4 @@
-# [Hardware Notifications](../_gpiobtn/index.md)
+# [Windows kernel](../_kernel/index.md)
 ## [Hwnclx.h](index.md)
 ### [HWN_CLIENT_GET_STATE callback](../hwnclx/nc-hwnclx-hwn_client_get_state.md)
 ### [HWN_CLIENT_INITIALIZE_DEVICE callback](../hwnclx/nc-hwnclx-hwn_client_initialize_device.md)

@@ -108,10 +108,6 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
 
 
@@ -121,6 +117,10 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 

@@ -110,7 +110,7 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_mpeg1videoinfo.md">KS_MPEG1VIDEOINFO</a>
 
 
 
@@ -118,7 +118,7 @@ Specifies the details of the video stream.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpeg1videoinfo.md">KS_MPEG1VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
