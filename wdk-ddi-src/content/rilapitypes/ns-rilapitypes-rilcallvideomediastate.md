@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLVIDEOMEDIASTATE
 title: RILCALLVIDEOMEDIASTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallvideomediastate_2.htm
+old-location: netvista\rilcallvideomediastate.htm
 old-project: netvista
-ms.assetid: f4d72de5-4e42-4229-b33e-8a0391f2f6cf
+ms.assetid: f40b9989-a911-4b89-a5a3-dda9a225b576
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate_2, rilapitypes/RILCALLVIDEOMEDIASTATE"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate, ntddrilapitypes/RILCALLVIDEOMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLVIDEOMEDIASTATE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

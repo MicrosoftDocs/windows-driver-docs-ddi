@@ -237,11 +237,7 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
 
 
@@ -249,7 +245,11 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 
 

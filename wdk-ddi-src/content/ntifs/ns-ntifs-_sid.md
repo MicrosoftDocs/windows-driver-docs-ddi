@@ -86,35 +86,7 @@ typedef struct _SID {
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 
 
@@ -122,11 +94,39 @@ typedef struct _SID {
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
 
 
 
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
 
 

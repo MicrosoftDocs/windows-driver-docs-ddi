@@ -211,27 +211,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
-
-
-
-<a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a>
-
-
-
 <a href="..\hidpi\ns-hidpi-_usage_and_page.md">USAGE_AND_PAGE</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
 
 
@@ -243,7 +227,23 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagesex.md">HidP_GetUsagesEx</a>
 
 
 

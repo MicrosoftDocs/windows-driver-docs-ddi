@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -71,11 +71,11 @@ HRESULT get_ThisSystem(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 

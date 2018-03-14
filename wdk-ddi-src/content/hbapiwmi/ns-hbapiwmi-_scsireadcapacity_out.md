@@ -113,11 +113,11 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 

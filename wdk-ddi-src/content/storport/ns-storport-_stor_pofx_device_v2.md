@@ -163,17 +163,17 @@ The timeout value in <b>UnitMinIdleTimeoutInMS</b>  or <b>AdapterIdleTimeoutInMS
 
 ### -field Components
 
-This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
-
-
-#### - UnitMinIdleTimeoutInMS
-
-The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
+This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
 
 #### - AdapterIdleTimeoutInMS
 
 The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
+
+
+#### - UnitMinIdleTimeoutInMS
+
+The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
 ## -remarks
@@ -191,14 +191,6 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
-
-
-
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
-
-
-
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
@@ -208,6 +200,14 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+
+
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
 
 

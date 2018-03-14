@@ -93,11 +93,11 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 

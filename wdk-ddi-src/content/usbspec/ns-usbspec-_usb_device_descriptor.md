@@ -168,11 +168,11 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
 
 

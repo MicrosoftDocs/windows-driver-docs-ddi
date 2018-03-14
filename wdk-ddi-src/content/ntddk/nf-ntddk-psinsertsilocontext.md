@@ -7,7 +7,7 @@ old-location: kernel\psinsertsilocontext.htm
 old-project: kernel
 ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: PsInsertSiloContext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertsilocontext, ntddk/PsInsertSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

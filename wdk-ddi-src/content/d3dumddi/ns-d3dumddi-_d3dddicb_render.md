@@ -249,6 +249,10 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
 
 
@@ -258,10 +262,6 @@ This member is available beginning with Windows 7.
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 
 

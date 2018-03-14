@@ -98,15 +98,15 @@ Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.m
 
 ## -see-also
 
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
-
-
-
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 

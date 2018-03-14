@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSUPSERVICEDATAPARAMMASK
 title: RILSUPSERVICEDATAPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsupservicedataparammask_2.htm
+old-location: netvista\rilsupservicedataparammask.htm
 old-project: netvista
-ms.assetid: 65901068-d45e-4c3a-b1ee-340427506c7f
+ms.assetid: 2b0ff5a7-02b3-4a22-98da-d13825bc2f45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSUPSERVICEDATAPARAMMASK, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_STATUS, RIL_PARAM_SSDI_VENDOR_ERROR, netvista.rilsupservicedataparammask_2, rilapitypes/RILSUPSERVICEDATAPARAMMASK, rilapitypes/RIL_PARAM_SSDI_ALL, rilapitypes/RIL_PARAM_SSDI_CC_ERROR, rilapitypes/RIL_PARAM_SSDI_DATA, rilapitypes/RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_SS_ERROR, rilapitypes/RIL_PARAM_SSDI_STATUS, rilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR
+ms.date: 2/27/2018
+ms.keywords: RILSUPSERVICEDATAPARAMMASK, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_STATUS, RIL_PARAM_SSDI_VENDOR_ERROR, netvista.rilsupservicedataparammask, ntddrilapitypes/RILSUPSERVICEDATAPARAMMASK, ntddrilapitypes/RIL_PARAM_SSDI_ALL, ntddrilapitypes/RIL_PARAM_SSDI_CC_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_DATA, ntddrilapitypes/RIL_PARAM_SSDI_DATASIZE, ntddrilapitypes/RIL_PARAM_SSDI_SS_ERROR, ntddrilapitypes/RIL_PARAM_SSDI_STATUS, ntddrilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUPSERVICEDATAPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

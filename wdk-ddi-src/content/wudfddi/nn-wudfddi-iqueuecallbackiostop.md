@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:

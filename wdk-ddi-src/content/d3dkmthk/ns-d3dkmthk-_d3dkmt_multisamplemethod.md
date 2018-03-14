@@ -95,11 +95,11 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -147,11 +147,11 @@ CMyDevice::OnCleanup(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -253,6 +253,14 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553069">IPrintCoreUI2::GetOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
@@ -262,14 +270,6 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553069">IPrintCoreUI2::GetOptions</a>
 
 
 

@@ -132,15 +132,7 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
@@ -148,11 +140,7 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
 
 
@@ -160,7 +148,19 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
 
 
 

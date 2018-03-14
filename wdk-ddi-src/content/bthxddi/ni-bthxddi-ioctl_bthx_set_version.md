@@ -46,11 +46,6 @@ req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 # IOCTL_BTHX_SET_VERSION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

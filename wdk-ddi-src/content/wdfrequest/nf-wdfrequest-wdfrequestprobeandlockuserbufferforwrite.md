@@ -200,7 +200,7 @@ For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, se
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
 
 
 
@@ -208,7 +208,7 @@ For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, se
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 
 

@@ -114,15 +114,7 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
@@ -130,7 +122,15 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+
+
+
+<a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>
 
 
 

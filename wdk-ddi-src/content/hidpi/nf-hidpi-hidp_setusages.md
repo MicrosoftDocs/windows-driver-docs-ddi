@@ -112,7 +112,7 @@ Pointer to a report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidclass\nc-hidclass-phidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -222,19 +222,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_unsetusages.md">HidP_UnsetUsages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
 
 
 
@@ -243,6 +235,14 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
 
 

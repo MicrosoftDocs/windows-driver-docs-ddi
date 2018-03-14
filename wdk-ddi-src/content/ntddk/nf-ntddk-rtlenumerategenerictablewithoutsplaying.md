@@ -127,11 +127,11 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 
 
@@ -139,7 +139,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 
 

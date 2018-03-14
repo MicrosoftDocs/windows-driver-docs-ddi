@@ -105,22 +105,7 @@ Indicates the size in bytes of the buffer in which the tape minidriver returns t
 
 ### -field DataBuffer
 
-Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\minitape\ne-minitape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
-
-
-##### - Method.TAPE_CHECK_FOR_DRIVE_PROBLEM
-
-If the tape drive supports commands to return specific device errors, such as tape alerts, the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine should execute the TAPE_QUERY_DEVICE_ERROR_DATA method Otherwise, it should execute the TAPE_QUERY_IO_ERROR_DATA method.
-
-
-##### - Method.TAPE_QUERY_DEVICE_ERROR_DATA
-
-Returns specific device errors, such as tape alerts. Not all tape drives support this method.
-
-
-##### - Method.TAPE_QUERY_IO_ERROR_DATA
-
-Returns general I/O error data, such as read/write errors, based on the I/O error count. All tape drives support this method.
+Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
 
 
 ## -see-also
@@ -129,7 +114,7 @@ Returns general I/O error data, such as read/write errors, based on the I/O erro
 
 
 
-<a href="..\minitape\ne-minitape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
+<a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
 
 
 

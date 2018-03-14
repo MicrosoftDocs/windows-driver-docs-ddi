@@ -7,7 +7,7 @@ old-location: netvista\ril_getradioconfiguration.htm
 old-project: netvista
 ms.assetid: 8e450e58-41e0-4df2-83d9-8975d437cdcb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

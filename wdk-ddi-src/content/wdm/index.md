@@ -2,7 +2,7 @@
 UID: NA:wdm
 ms.assetid: 8462c1fe-6be6-3c3a-88f8-fb7aba330515
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,13 +13,13 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, Installable file system, PCI, Driver test tools, Benchmark, Windows Driver Framework, Battery. For more information, see
+This header is used by Windows kernel, Installable file system, Driver test tools, PCI, Windows Driver Framework, Benchmark, Battery. For more information, see
 - [Windows kernel](../_kernel/index.md)
 - [Installable file system](../_ifsk/index.md)
-- [PCI](../_PCI/index.md)
 - [Driver test tools](../_devtest/index.md)
-- [Benchmark](../_Benchmark/index.md)
+- [PCI](../_PCI/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
+- [Benchmark](../_Benchmark/index.md)
 - [Battery](../_battery/index.md)
 
 Wdm.h contain these programming interfaces:
@@ -708,6 +708,7 @@ Wdm.h contain these programming interfaces:
 | [TmRollbackTransaction function](nf-wdm-tmrollbacktransaction.md) | The TmRollbackTransaction routine initiates a rollback operation for a specified transaction. |
 | [TmSinglePhaseReject function](nf-wdm-tmsinglephasereject.md) | The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment. |
 | [VslCreateSecureSection function](nf-wdm-vslcreatesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
+| [VslDeleteSecureSection function](nf-wdm-vsldeletesecuresection.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
 | [WRITE_PORT_BUFFER_UCHAR function](nf-wdm-write_port_buffer_uchar.md) | The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port. |
 | [WRITE_PORT_BUFFER_ULONG function](nf-wdm-write_port_buffer_ulong.md) | The WRITE_PORT_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified port address. |
 | [WRITE_PORT_BUFFER_USHORT function](nf-wdm-write_port_buffer_ushort.md) | The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address. |

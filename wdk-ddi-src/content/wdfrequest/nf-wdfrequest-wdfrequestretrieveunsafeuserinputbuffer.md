@@ -188,7 +188,7 @@ For a code example that uses <b>WdfRequestRetrieveUnsafeUserInputBuffer</b>, see
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
 
 
 
@@ -196,7 +196,7 @@ For a code example that uses <b>WdfRequestRetrieveUnsafeUserInputBuffer</b>, see
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
 
 
 

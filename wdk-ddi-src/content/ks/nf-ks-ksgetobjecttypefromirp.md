@@ -84,10 +84,6 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
 
@@ -97,6 +93,10 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 
 <a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

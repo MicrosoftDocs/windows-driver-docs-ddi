@@ -80,14 +80,14 @@ SIZE_T APIENTRY* PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (
 
 
 
-#### - hDevice
-
-The device being processed.
-
-
 #### - d3d12ddiarg_create_pipeline_state_0033 [in]
 
 Used to create a pipeline state.
+
+
+#### - hDevice
+
+The device being processed.
 
 
 ## -returns

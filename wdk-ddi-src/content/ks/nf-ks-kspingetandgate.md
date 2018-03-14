@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetandgate.md">KsFilterGetAndGate</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

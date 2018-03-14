@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_DELETE_GEOFENCE
 title: IOCTL_GNSS_DELETE_GEOFENCE
 author: windows-driver-content
 description: The IOCTL_GNSS_DELETE_GEOFENCE control code is used by the GNSS adapter to delete a previously created geofence.
-old-location: sensors\ioctl_gnss_delete_geofence.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_delete_geofence.htm
+old-project: gnss
 ms.assetid: BF50E28A-56CF-4718-93BB-CCC3DFE84072
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE, sensors.ioctl_gnss_delete_geofence
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -45,11 +45,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 
 # IOCTL_GNSS_DELETE_GEOFENCE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -142,7 +137,7 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -154,13 +149,11 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_DELETE_GEOFENCE control code%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

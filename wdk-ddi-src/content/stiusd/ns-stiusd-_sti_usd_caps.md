@@ -7,7 +7,7 @@ old-location: image\sti_usd_caps.htm
 old-project: image
 ms.assetid: 24dda069-5f93-469d-8ce3-87b488019b88
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PSTI_USD_CAPS, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], _STI_USD_CAPS, image.sti_usd_caps, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, stiusd/STI_USD_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -147,11 +147,11 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
 
 
 

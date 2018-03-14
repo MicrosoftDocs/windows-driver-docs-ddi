@@ -112,7 +112,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
@@ -120,7 +120,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
 
 

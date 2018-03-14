@@ -7,7 +7,7 @@ old-location: audio\iportclsruntimepower.htm
 old-project: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices], described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices

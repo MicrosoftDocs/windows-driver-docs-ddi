@@ -7,7 +7,7 @@ old-location: netvista\ril_enumerateslots.htm
 old-project: netvista
 ms.assetid: 58df87d5-1e7b-4ec8-8e88-631bbd78757a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_EnumerateSlots, RIL_EnumerateSlots method [Network Drivers Starting with Windows Vista], netvista.ril_enumerateslots, rilapi/RIL_EnumerateSlots
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

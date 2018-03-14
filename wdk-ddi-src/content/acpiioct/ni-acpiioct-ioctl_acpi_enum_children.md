@@ -46,11 +46,6 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 # IOCTL_ACPI_ENUM_CHILDREN IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -112,7 +107,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>
@@ -168,7 +163,7 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_input_buffer.md">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 
@@ -176,7 +171,7 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_input_buffer.md">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a>
 
 
 

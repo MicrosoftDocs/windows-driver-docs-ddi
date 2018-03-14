@@ -135,23 +135,19 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
 
 
 
@@ -163,7 +159,11 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 

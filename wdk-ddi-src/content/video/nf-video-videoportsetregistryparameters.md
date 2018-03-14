@@ -121,11 +121,11 @@ In a checked build of any version of the operating system, a value name that beg
 
 ## -see-also
 
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-
-
-
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
 
 
 
@@ -133,7 +133,7 @@ In a checked build of any version of the operating system, a value name that beg
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames:
 # IOCTL_KS_RESET_STATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -124,11 +119,11 @@ When the reset state is terminated, the pin can again accept new data and pass d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
-
-
-
 <a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a>
+
+
+
+<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
 
 
 

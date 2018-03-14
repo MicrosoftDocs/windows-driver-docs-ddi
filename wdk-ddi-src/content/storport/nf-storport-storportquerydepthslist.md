@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -146,19 +146,19 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
-
-
-
 <a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 

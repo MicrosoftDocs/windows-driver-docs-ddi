@@ -98,11 +98,11 @@ Because this structure might become larger in future operating system versions, 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554182">IPrintOemUI::PrinterEvent</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
 
 
 

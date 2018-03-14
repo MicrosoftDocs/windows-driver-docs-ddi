@@ -2,7 +2,7 @@
 UID: NA:iointex
 ms.assetid: dc0c0187-51c0-3402-8643-c7e2175b1b69
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

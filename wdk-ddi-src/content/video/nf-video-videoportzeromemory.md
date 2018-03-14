@@ -105,11 +105,7 @@ Callers of <b>VideoPortZeroMemory</b> can be running at any IRQL if the memory p
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
@@ -117,19 +113,23 @@ Callers of <b>VideoPortZeroMemory</b> can be running at any IRQL if the memory p
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
 <a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\readio.htm
 old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadIo method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces2::ReadIo, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces4::ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging], IDebugDataSpaces interface, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, ReadIo,IDebugDataSpaces2.ReadIo, dbgeng/IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces3::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, debugger.readio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

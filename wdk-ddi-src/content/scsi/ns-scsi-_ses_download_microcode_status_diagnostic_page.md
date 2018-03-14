@@ -82,7 +82,7 @@ Indicates the diagnostic page being sent or requested. . The value of this is 0x
 
 Indicates the number of download microcode status
 descriptors in <i>Descriptors</i>, not including the primary <a href="https://msdn.microsoft.com/af686e7a-9426-4151-8ac4-d95ae1689b4c">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>. This value shall
-be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="..\scsi\ns-scsi-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
+be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
 
 
 ### -field PageLength

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLINFOFLAGS
 title: RILCALLINFOFLAGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallinfoflags_2.htm
+old-location: netvista\rilcallinfoflags.htm
 old-project: netvista
-ms.assetid: 7b701e86-ee0b-4a46-a6bf-4a4fe18c371f
+ms.assetid: c4edec8f-a001-491b-a3e6-03d19ac94f18
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags_2, rilapitypes/RILCALLINFOFLAGS, rilapitypes/RILCALLINFO_FLAG_ALIENCALL, rilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
+ms.date: 2/27/2018
+ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, ntddrilapitypes/RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLINFOFLAGS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

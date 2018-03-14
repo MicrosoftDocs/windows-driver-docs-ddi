@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -115,11 +110,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_power_cap.md">STORAGE_DEVICE_POWER_CAP</a>
-
-
-
 <a href="..\ntddstor\ne-ntddstor-_storage_device_power_cap_units.md">STORAGE_DEVICE_POWER_CAP_UNITS</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_power_cap.md">STORAGE_DEVICE_POWER_CAP</a>
 
 
 

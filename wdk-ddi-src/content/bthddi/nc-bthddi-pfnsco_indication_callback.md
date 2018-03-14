@@ -154,6 +154,14 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+
+
 <a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
 
 
@@ -162,15 +170,7 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 
 
-<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
 
 

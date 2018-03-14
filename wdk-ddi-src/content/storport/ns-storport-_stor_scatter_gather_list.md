@@ -96,11 +96,11 @@ Miniport drivers that work with the Storport driver call the Storport support ro
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetscattergatherlist.md">StorPortGetScatterGatherList</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
 
 
 

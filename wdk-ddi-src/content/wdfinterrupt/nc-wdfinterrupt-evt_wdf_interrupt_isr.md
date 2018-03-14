@@ -161,6 +161,10 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 ## -see-also
 
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+
+
+
 <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
 
 
@@ -169,15 +173,11 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptwdmgetinterrupt.md">WdfInterruptWdmGetInterrupt</a>
-
-
-
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetdevice.md">WdfInterruptGetDevice</a>
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptwdmgetinterrupt.md">WdfInterruptWdmGetInterrupt</a>
 
 
 
@@ -185,7 +185,7 @@ The <b>EVT_WDF_INTERRUPT_ISR</b> function type is defined in the Wdfinterrupt.h 
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
 
 

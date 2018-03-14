@@ -7,13 +7,13 @@ old-location: netvista\rilgpprejectcause.htm
 old-project: netvista
 ms.assetid: 3008a69e-25d8-4e54-afb3-317a8ca82d34
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpprejectcause, ntddrilapitypes/RILGPPREJECTCAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

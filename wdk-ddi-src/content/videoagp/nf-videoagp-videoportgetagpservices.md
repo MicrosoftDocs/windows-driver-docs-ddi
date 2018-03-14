@@ -113,19 +113,19 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
-
-
-
 <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+
+
+
+<b>AgpReleasePhysical</b>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 
 
@@ -137,15 +137,15 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
-
-
-
 <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
 
 
 
-<b>AgpReleasePhysical</b>
+<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 

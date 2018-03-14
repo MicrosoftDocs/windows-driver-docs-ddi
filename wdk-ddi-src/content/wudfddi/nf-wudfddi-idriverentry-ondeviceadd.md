@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -107,11 +107,11 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
 
 
@@ -127,7 +127,7 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 

@@ -565,15 +565,7 @@ For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE struc
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidmm_escape.md">D3DKMT_VIDMM_ESCAPE</a>
-
-
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
-
-
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md">D3DKMT_TDRDBGCTRLTYPE</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md">D3DKMT_DEBUG_SNAPSHOT_ESCAPE</a>
 
 
 
@@ -581,7 +573,7 @@ For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE struc
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md">D3DKMT_DEBUG_SNAPSHOT_ESCAPE</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
 
 
@@ -590,6 +582,14 @@ For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE struc
 
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_device_escape.md">D3DKMT_DEVICE_ESCAPE</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidmm_escape.md">D3DKMT_VIDMM_ESCAPE</a>
+
+
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md">D3DKMT_TDRDBGCTRLTYPE</a>
 
 
 

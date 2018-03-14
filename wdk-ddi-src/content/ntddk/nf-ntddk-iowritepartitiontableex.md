@@ -160,11 +160,11 @@ In order tot create or delete partitions a full description of the system must b
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 

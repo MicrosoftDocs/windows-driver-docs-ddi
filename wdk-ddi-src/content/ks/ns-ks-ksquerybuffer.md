@@ -157,11 +157,11 @@ life is good.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
+
+<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
 
 
 

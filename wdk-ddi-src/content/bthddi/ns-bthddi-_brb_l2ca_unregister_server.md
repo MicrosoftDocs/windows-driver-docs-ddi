@@ -111,15 +111,15 @@ To unregister itself as a L2CAP server, a profile driver should
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

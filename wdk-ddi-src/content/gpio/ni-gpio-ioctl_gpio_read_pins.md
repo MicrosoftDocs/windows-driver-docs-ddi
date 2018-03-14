@@ -46,11 +46,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 # IOCTL_GPIO_READ_PINS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -128,7 +123,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
@@ -136,7 +131,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request t
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 

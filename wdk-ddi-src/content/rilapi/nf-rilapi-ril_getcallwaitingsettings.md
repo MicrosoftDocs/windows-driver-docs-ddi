@@ -7,7 +7,7 @@ old-location: netvista\ril_getcallwaitingsettings.htm
 old-project: netvista
 ms.assetid: 5506dd53-ac15-44c6-aded-a71451a1c15d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetCallWaitingSettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallwaitingsettings, rilapi/RIL_GetCallWaitingSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

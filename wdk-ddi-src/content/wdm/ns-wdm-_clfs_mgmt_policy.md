@@ -7,7 +7,7 @@ old-location: kernel\clfs_mgmt_policy.htm
 old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -269,6 +269,14 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
 
 
@@ -277,17 +285,9 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
-
-
-
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

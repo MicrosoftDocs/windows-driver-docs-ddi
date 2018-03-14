@@ -89,7 +89,7 @@ A <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVI
 
 ### -param PoolType [in]
 
-A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed enumerator value that specifies the type of memory to be allocated.
+A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-typed enumerator value that specifies the type of memory to be allocated.
 
 
 ### -param PropertyMemoryAttributes [in, optional]

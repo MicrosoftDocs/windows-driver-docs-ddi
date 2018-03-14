@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -123,11 +123,11 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 

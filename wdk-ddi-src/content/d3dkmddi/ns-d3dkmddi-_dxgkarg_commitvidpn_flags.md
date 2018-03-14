@@ -121,11 +121,11 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttoulonglong.htm
 old-project: kernel
 ms.assetid: DC25A607-F329-44F2-8D26-A6F7E3050A33
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlShortToULongLong, RtlShortToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulonglong, ntintsafe/RtlShortToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

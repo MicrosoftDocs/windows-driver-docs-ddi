@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjecttransportsendasync0.htm
 old-project: netvista
 ms.assetid: 1298a825-16c4-49ab-b038-19247975ea46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: FwpsInjectTransportSendAsync0, FwpsInjectTransportSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync0, netvista.fwpsinjecttransportsendasync0, wfp_ref_2_funct_3_fwps_I_76082863-1d74-4916-9766-c65b745dca60.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -337,37 +337,8 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
    FwpsAllocateCloneNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">FwpsInjectTransportSendAsync1</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params0_.md">FWPS_TRANSPORT_SEND_PARAMS0</a>
 
 
 
@@ -375,7 +346,12 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 
@@ -384,8 +360,23 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">FwpsInjectTransportSendAsync1</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params0_.md">FWPS_TRANSPORT_SEND_PARAMS0</a>
 
 
 
@@ -397,9 +388,18 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
- 
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectTransportSendAsync0 function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectTransportSendAsync0 function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

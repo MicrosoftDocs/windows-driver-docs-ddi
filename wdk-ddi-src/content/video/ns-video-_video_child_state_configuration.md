@@ -102,6 +102,10 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
+
+
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
 
@@ -111,10 +115,6 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-
-
-<a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
 
 
 

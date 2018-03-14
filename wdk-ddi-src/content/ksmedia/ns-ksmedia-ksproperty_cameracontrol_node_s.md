@@ -197,11 +197,11 @@ See related information about the <a href="https://msdn.microsoft.com/84b5302d-c
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
 
 
 

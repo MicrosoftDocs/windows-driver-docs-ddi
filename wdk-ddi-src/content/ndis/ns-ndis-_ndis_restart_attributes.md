@@ -7,7 +7,7 @@ old-location: netvista\ndis_restart_attributes.htm
 old-project: netvista
 ms.assetid: 1f9f4b91-bd1f-4daa-ac98-6372bf55c2ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_RESTART_ATTRIBUTES, NDIS_RESTART_ATTRIBUTES, NDIS_RESTART_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_RESTART_ATTRIBUTES, PNDIS_RESTART_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RESTART_ATTRIBUTES, miniport_structures_ref_64cf43cc-1d89-4de3-9e8e-77d590d44d3c.xml, ndis/NDIS_RESTART_ATTRIBUTES, ndis/PNDIS_RESTART_ATTRIBUTES, netvista.ndis_restart_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,7 +134,7 @@ When it restarts a protocol binding, NDIS provides a pointer to an NDIS_RESTART_
     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
     NET_PNP_EVENT_NOTIFICATION</a> structure, that NDIS passes to 
     <i>ProtocolNetPnPEvent</i>, contains a 
-    <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The NET_PNP_EVENT
+    <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NET_PNP_EVENT</a> structure. The NET_PNP_EVENT
     structure specifies 
     <b>NetEventRestart</b> in the 
     <b>NetEvent</b> member and a pointer to the NDIS_PROTOCOL_RESTART_PARAMETERS structure in the 
@@ -155,13 +155,21 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
    NDIS_RESTART_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
-   NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 
@@ -170,12 +178,13 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
+   NDIS_FILTER_RESTART_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
-   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+   NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 
@@ -183,16 +192,7 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
 
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
-   NDIS_FILTER_RESTART_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
@@ -200,5 +200,5 @@ If the restart attributes pointer is not <b>NULL</b>, the linked list of NDIS_RE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RESTART_ATTRIBUTES structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RESTART_ATTRIBUTES structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

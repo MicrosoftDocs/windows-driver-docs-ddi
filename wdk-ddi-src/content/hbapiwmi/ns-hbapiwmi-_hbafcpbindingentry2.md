@@ -170,11 +170,11 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 
 

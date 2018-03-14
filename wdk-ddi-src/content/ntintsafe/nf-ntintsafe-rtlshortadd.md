@@ -7,7 +7,7 @@ old-location: kernel\rtlshortadd.htm
 old-project: kernel
 ms.assetid: 6CCBDECB-D52A-409D-91CA-6635E6D02545
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlShortAdd, RtlShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlshortadd, ntintsafe/RtlShortAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

@@ -183,15 +183,15 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
 
 

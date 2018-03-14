@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILPHONEBOOKADDITIONALNUMBERSTRING
 title: RILPHONEBOOKADDITIONALNUMBERSTRING
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookadditionalnumberstring_2.htm
+old-location: netvista\rilphonebookadditionalnumberstring.htm
 old-project: netvista
-ms.assetid: 06bd4e24-2859-4170-a02f-f97007b666e7
+ms.assetid: 1d201c4d-606d-4461-ad3d-df48d3455724
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring_2, rilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKADDITIONALNUMBERSTRING
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,9 +58,9 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILPHONEBOOKADDITIONALNUMBERSTRING {
-  DWORD                           cbSize;
-  DWORD                           dwNumId;
-  WCHAR [MAXLENGTH_PHONEBOOKTEXT] wszText;
+  DWORD       cbSize;
+  DWORD       dwNumId;
+  WCHAR [256] wszText;
 } RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING;
 ````
 

@@ -97,11 +97,11 @@ You can use <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a> to de
 
 
 
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -109,7 +109,7 @@ You can use <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a> to de
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_MAP_VIDEO_MEMORY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -120,11 +115,11 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
 <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
 
 
@@ -132,7 +127,7 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 

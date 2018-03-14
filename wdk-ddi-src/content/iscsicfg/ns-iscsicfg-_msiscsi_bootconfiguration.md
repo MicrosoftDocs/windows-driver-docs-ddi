@@ -137,19 +137,19 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
 
 

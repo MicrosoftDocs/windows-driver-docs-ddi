@@ -117,11 +117,11 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 

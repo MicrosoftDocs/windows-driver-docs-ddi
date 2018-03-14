@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMATELESERVICE
 title: RILMSGCDMATELESERVICE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmateleservice_2.htm
+old-location: netvista\rilmsgcdmateleservice.htm
 old-project: netvista
-ms.assetid: 35d3e419-ad21-403d-8590-f49cf6fd3b25
+ms.assetid: 01c45c31-2cae-4f9f-a3dc-4a164a3df670
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCDMATELESERVICE, RILMSGCDMATELESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGTELESERVICE_BROADCAST, RIL_MSGTELESERVICE_BROADCAST_OLD, RIL_MSGTELESERVICE_MESSAGING, RIL_MSGTELESERVICE_MESSAGING_OLD, RIL_MSGTELESERVICE_PAGING, RIL_MSGTELESERVICE_SELFREG, RIL_MSGTELESERVICE_SELFREG_OLD, RIL_MSGTELESERVICE_VOICEMAIL_MWI, RIL_MSGTELESERVICE_VOICEMAIL_OLD, RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, RIL_MSGTELESERVICE_WAP, RIL_MSGTELESERVICE_WAP_CT_MMS, RIL_MSGTELESERVICE_WAP_CT_OMA, RIL_MSGTELESERVICE_WAP_OLD, RIL_MSGTELESERVICE_WEMT, netvista.rilmsgcdmateleservice_2, rilapitypes/RILMSGCDMATELESERVICE, rilapitypes/RIL_MSGTELESERVICE_BROADCAST, rilapitypes/RIL_MSGTELESERVICE_BROADCAST_OLD, rilapitypes/RIL_MSGTELESERVICE_MESSAGING, rilapitypes/RIL_MSGTELESERVICE_MESSAGING_OLD, rilapitypes/RIL_MSGTELESERVICE_PAGING, rilapitypes/RIL_MSGTELESERVICE_SELFREG, rilapitypes/RIL_MSGTELESERVICE_SELFREG_OLD, rilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_MWI, rilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_OLD, rilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, rilapitypes/RIL_MSGTELESERVICE_WAP, rilapitypes/RIL_MSGTELESERVICE_WAP_CT_MMS, rilapitypes/RIL_MSGTELESERVICE_WAP_CT_OMA, rilapitypes/RIL_MSGTELESERVICE_WAP_OLD, rilapitypes/RIL_MSGTELESERVICE_WEMT
+ms.date: 2/27/2018
+ms.keywords: RILMSGCDMATELESERVICE, RILMSGCDMATELESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGTELESERVICE_BROADCAST, RIL_MSGTELESERVICE_BROADCAST_OLD, RIL_MSGTELESERVICE_MESSAGING, RIL_MSGTELESERVICE_MESSAGING_OLD, RIL_MSGTELESERVICE_PAGING, RIL_MSGTELESERVICE_SELFREG, RIL_MSGTELESERVICE_SELFREG_OLD, RIL_MSGTELESERVICE_VOICEMAIL_MWI, RIL_MSGTELESERVICE_VOICEMAIL_OLD, RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, RIL_MSGTELESERVICE_WAP, RIL_MSGTELESERVICE_WAP_CT_MMS, RIL_MSGTELESERVICE_WAP_CT_OMA, RIL_MSGTELESERVICE_WAP_OLD, RIL_MSGTELESERVICE_WEMT, netvista.rilmsgcdmateleservice, ntddrilapitypes/RILMSGCDMATELESERVICE, ntddrilapitypes/RIL_MSGTELESERVICE_BROADCAST, ntddrilapitypes/RIL_MSGTELESERVICE_BROADCAST_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_MESSAGING, ntddrilapitypes/RIL_MSGTELESERVICE_MESSAGING_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_PAGING, ntddrilapitypes/RIL_MSGTELESERVICE_SELFREG, ntddrilapitypes/RIL_MSGTELESERVICE_SELFREG_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_MWI, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_VOICEMAIL_VMN_95, ntddrilapitypes/RIL_MSGTELESERVICE_WAP, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_CT_MMS, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_CT_OMA, ntddrilapitypes/RIL_MSGTELESERVICE_WAP_OLD, ntddrilapitypes/RIL_MSGTELESERVICE_WEMT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMATELESERVICE
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -178,11 +178,11 @@ The following code example deletes a framework object and its child objects.
 
 ## -see-also
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a>
+
+
+
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
 
 
 

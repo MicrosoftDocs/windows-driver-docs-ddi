@@ -93,11 +93,11 @@ To handle D3DGDI2_TYPE_GETD3DQUERYCOUNT, the driver must store the number of que
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
 D3DDP2OP_CREATEQUERY
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
 
 
 
@@ -105,7 +105,7 @@ D3DDP2OP_CREATEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 

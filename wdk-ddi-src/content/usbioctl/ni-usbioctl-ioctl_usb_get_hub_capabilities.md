@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_HUB_CAPABILITIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -115,11 +110,11 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities.md">USB_HUB_CAPABILITIES</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 # IOCTL_SRIOV_ATTACH IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -219,7 +214,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -227,11 +222,11 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

@@ -139,7 +139,7 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -147,11 +147,11 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
 
 
 

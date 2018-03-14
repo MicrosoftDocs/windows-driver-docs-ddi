@@ -95,15 +95,15 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
+
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
 <a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_out.md">SetTunnelModeOuterAddress_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
 
 
 

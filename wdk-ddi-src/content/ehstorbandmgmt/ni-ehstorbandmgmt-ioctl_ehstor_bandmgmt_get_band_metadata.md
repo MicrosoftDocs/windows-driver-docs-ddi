@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -148,7 +143,7 @@ Authentication for this IOCTL is unnecessary and an authentication key is not in
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">CREATE_BAND_PARAMETERS</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
 
 
 
@@ -156,7 +151,7 @@ Authentication for this IOCTL is unnecessary and an authentication key is not in
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">CREATE_BAND_PARAMETERS</a>
 
 
 

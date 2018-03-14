@@ -7,13 +7,13 @@ old-location: netvista\rilerrordetails.htm
 old-project: netvista
 ms.assetid: 9c9aaece-5c16-40c4-a039-5e32541500f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, ntddrilapitypes/RILERRORDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

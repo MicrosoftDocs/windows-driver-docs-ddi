@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -84,11 +84,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
 
 
 

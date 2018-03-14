@@ -175,15 +175,15 @@ The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_create
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentbankpreference.md">DXGK_SEGMENTBANKPREFERENCE</a>
 
 
 

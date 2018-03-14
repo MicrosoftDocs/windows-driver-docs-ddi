@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -142,15 +142,7 @@ The following code example sets up a request so that the framework can cancel it
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 
 
@@ -158,7 +150,11 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
 
 
@@ -170,11 +166,15 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 

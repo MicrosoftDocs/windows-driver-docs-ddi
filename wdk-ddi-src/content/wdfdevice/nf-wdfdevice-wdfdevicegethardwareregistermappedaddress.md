@@ -110,11 +110,11 @@ If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
-
-
-
 <a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
 
 
 

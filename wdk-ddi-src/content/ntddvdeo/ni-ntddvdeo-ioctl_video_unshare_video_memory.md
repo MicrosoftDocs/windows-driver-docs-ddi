@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -118,7 +113,7 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 
 
@@ -126,7 +121,7 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 
 
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
 
 
 

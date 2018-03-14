@@ -204,14 +204,14 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
-#### - hDevice
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
-
-
 #### - hContext
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context that the command buffer is rendered to.
+
+
+#### - hDevice
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
 
 
 ## -see-also
@@ -220,11 +220,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
 
 
 

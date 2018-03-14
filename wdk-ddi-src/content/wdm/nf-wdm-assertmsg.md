@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdm.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Message
-
-Specifies the null-delimited string to be displayed by the debugger.
-
-
 #### - Expression
 
 Specifies any logical expression.
+
+
+#### - Message
+
+Specifies the null-delimited string to be displayed by the debugger.
 
 
 ## -remarks

@@ -112,7 +112,7 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+pool tag
 
 
 
@@ -120,7 +120,7 @@ Profile drivers obtain a pointer to the
 
 
 
-pool tag
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

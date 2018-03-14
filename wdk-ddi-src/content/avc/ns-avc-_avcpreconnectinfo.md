@@ -115,11 +115,11 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+
+
+
+<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
 
 
 

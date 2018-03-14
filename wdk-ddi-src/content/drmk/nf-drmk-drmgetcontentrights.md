@@ -7,7 +7,7 @@ old-location: audio\drmgetcontentrights.htm
 old-project: audio
 ms.assetid: 706a5749-e288-4275-84fc-e500a848d541
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: DrmGetContentRights, DrmGetContentRights function [Audio Devices], aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, audio.drmgetcontentrights, drmk/DrmGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,31 +103,11 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536588">IDrmPort::GetContentRights</a>
-
-
-
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
@@ -139,9 +119,29 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
- 
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536588">IDrmPort::GetContentRights</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmGetContentRights function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmGetContentRights function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

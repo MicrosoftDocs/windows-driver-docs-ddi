@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -113,11 +113,11 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 ## -see-also
 
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
 
 
 
@@ -125,11 +125,11 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 
 
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 

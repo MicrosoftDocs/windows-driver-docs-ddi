@@ -103,7 +103,11 @@ Note that this is only an attempt at processing; calling this function does not 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
+
+
+
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
 
 
@@ -111,11 +115,7 @@ Note that this is only an attempt at processing; calling this function does not 
 
 
 
-<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
-
-
-
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 

@@ -46,11 +46,6 @@ req.typenames:
 # IOCTL_KS_HANDSHAKE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -120,15 +115,15 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 
 
 <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+
+
+
+<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
 
 

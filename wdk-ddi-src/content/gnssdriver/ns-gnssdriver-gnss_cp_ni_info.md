@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_CP_NI_INFO
 title: GNSS_CP_NI_INFO
 author: windows-driver-content
 description: This structure contains CP NI information.
-old-location: sensors\gnss_cp_ni_info.htm
-old-project: sensors
+old-location: gnss\gnss_cp_ni_info.htm
+old-project: gnss
 ms.assetid: FC05C59C-F8B5-4573-A1F0-722A25BDA151
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], gnssdriver/GNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO, sensors.gnss_cp_ni_info"
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], gnss.gnss_cp_ni_info, gnssdriver/GNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,16 +92,16 @@ Version number.
 
 
 
-#### - RequestorId[MAX_PATH]
-
-Requestor ID.
-
-This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
-
-
 #### - NotificationText[MAX_PATH]
 
 Name of the client that requests the location of the device.
 
 This will be displayed on the notification dialog to the user. The GNSS Driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
+
+
+#### - RequestorId[MAX_PATH]
+
+Requestor ID.
+
+This will be displayed on the notification dialog to the user. The GNSS driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
 

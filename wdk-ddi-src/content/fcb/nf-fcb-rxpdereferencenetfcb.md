@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -96,7 +96,7 @@ On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if th
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
 
 
@@ -104,7 +104,7 @@ On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if th
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 
 

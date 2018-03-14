@@ -95,39 +95,9 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - Undefined
+#### - CompleterAbort
 
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a data link protocol error has occurred.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a surprise down error has occurred.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a flow control protocol error has occurred.
+A single bit that indicates that a completer abort has occurred.
 
 
 #### - CompletionTimeout
@@ -135,24 +105,9 @@ A single bit that indicates that a flow control protocol error has occurred.
 A single bit that indicates that a completion timeout has occurred.
 
 
-#### - CompleterAbort
+#### - DataLinkProtocolError
 
-A single bit that indicates that a completer abort has occurred.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that an unexpected completion has occurred.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the receiver has overflowed.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+A single bit that indicates that a data link protocol error has occurred.
 
 
 #### - ECRCError
@@ -160,14 +115,59 @@ A single bit that indicates that a malformed transaction layer packet (TLP) has 
 A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
 
 
-#### - UnsupportedRequestError
+#### - FlowControlProtocolError
 
-A single bit that indicates that an unsupported request error has occurred.
+A single bit that indicates that a flow control protocol error has occurred.
+
+
+#### - MalformedTLP
+
+A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+
+
+#### - PoisonedTLP
+
+A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
+
+
+#### - ReceiverOverflow
+
+A single bit that indicates that the receiver has overflowed.
+
+
+#### - Reserved1
+
+Reserved.
+
+
+#### - Reserved2
+
+Reserved.
 
 
 #### - Reserved3
 
 Reserved.
+
+
+#### - SurpriseDownError
+
+A single bit that indicates that a surprise down error has occurred.
+
+
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that an unexpected completion has occurred.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that an unsupported request error has occurred.
 
 
 ## -remarks
@@ -183,15 +183,15 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

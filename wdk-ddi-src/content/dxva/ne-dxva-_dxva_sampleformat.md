@@ -126,15 +126,15 @@ Specifies that the sample contains a video substream.
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
 
 
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
 
 
 

@@ -100,11 +100,11 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

@@ -175,11 +175,11 @@ DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a 
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
 
 
 

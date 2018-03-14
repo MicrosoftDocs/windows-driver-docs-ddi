@@ -177,11 +177,11 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
 <a href="..\ntddk\nc-ntddk-pshed_pi_finalize_error_record.md">FinalizeErrorRecord</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
 
 
 
@@ -189,7 +189,7 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
 
 
 
@@ -197,7 +197,7 @@ The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

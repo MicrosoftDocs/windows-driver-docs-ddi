@@ -2,7 +2,7 @@
 UID: NA:wdfcompaniontarget
 ms.assetid: 1b9244b9-b343-3a04-bd61-91ac23ea3ef8
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

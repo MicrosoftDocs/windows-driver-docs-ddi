@@ -140,11 +140,11 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
 
 

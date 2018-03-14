@@ -121,11 +121,11 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
 
 
 

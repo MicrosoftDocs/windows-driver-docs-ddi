@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFInterfaces.Interop.dll
 req.type-library: 
-req.lib: wdtfinterfaces.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

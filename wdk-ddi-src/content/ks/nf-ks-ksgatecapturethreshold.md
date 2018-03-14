@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -96,23 +96,7 @@ The call is made using interlocked functions and is thus synchronous with respec
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
 
 
 
@@ -120,15 +104,11 @@ The call is made using interlocked functions and is thus synchronous with respec
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="..\ks\nf-ks-ksgategetstateunsafe.md">KsGateGetStateUnsafe</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
 
 
 
@@ -136,15 +116,35 @@ The call is made using interlocked functions and is thus synchronous with respec
 
 
 
-<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
 
-<a href="..\ks\nf-ks-ksgategetstateunsafe.md">KsGateGetStateUnsafe</a>
+<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
 
 
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
 
 
 

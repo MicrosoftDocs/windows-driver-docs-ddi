@@ -98,11 +98,11 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
 
 
 

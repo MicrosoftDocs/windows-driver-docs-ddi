@@ -111,19 +111,15 @@ D3DDP2OP_INDEXEDTRIANGLESTRIP
 
 
 
-D3DDP2OP_INDEXEDLINESTRIP
-
-
-
 D3DDP2OP_INDEXEDTRIANGLEFAN
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -135,7 +131,11 @@ D3DDP2OP_INDEXEDTRIANGLELIST2
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+D3DDP2OP_INDEXEDLINESTRIP
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

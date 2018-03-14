@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -290,11 +290,11 @@ For more information about halftoning, see <a href="https://msdn.microsoft.com/c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
 <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
 
 

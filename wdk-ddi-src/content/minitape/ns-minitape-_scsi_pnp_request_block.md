@@ -49,7 +49,7 @@ req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 ## -description
 
 
-The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
+The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -99,7 +99,7 @@ The operation to perform. For the <b>SCSI_PNP_REQUEST_BLOCK</b> structure, this 
 
 ### -field SrbStatus
 
-The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
+The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
 
 
 ### -field PnPSubFunction
@@ -242,11 +242,6 @@ Miniport driver should ignore this member.
 Miniport driver should ignore this member. 
 
 
-### -field _SCSI_REQUEST_BLOCK
-
- 
-
-
 ### -field OriginalRequest
 
 Miniport driver should ignore this member. 
@@ -254,7 +249,7 @@ Miniport driver should ignore this member.
 
 ### -field SrbExtension
 
-A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
+A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
 
 
 ### -field SrbPnPFlags
@@ -285,7 +280,7 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -293,7 +288,7 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 
 

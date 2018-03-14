@@ -99,6 +99,10 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">B
 
 ## -see-also
 
+<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
 
 
@@ -107,15 +111,11 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">B
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
 <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 

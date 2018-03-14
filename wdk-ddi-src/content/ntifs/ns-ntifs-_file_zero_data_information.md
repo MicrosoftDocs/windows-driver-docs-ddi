@@ -85,11 +85,11 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 

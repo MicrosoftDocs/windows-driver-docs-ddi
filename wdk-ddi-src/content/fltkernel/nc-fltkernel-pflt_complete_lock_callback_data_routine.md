@@ -111,7 +111,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
 
 
 
@@ -123,7 +123,11 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
 
 
 
@@ -131,7 +135,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatefilelock.md">FltAllocateFileLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
 
 
 
@@ -139,11 +143,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
 
 
 

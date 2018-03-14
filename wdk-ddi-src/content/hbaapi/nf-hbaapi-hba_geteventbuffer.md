@@ -130,15 +130,15 @@ Returned if an unspecified error occurred that prevented the retrieval of the ev
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 

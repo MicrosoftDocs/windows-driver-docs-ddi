@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -168,7 +168,7 @@ CUmdfHidDevice::PrepareReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
@@ -176,7 +176,7 @@ CUmdfHidDevice::PrepareReader(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 
@@ -184,15 +184,15 @@ CUmdfHidDevice::PrepareReader(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
 
 

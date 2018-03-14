@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -199,15 +199,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -215,7 +207,15 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+
+
+
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
 
 

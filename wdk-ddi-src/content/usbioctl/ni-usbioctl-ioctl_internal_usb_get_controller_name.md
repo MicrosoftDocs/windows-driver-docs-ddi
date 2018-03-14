@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

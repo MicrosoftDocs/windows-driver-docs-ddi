@@ -7,7 +7,7 @@ old-location: kernel\io_session_state.htm
 old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PIO_SESSION_STATE, IO_SESSION_STATE, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateConnected, IoSessionStateCreated, IoSessionStateDisconnected, IoSessionStateDisconnectedLoggedOn, IoSessionStateInitialized, IoSessionStateLoggedOff, IoSessionStateLoggedOn, IoSessionStateMax, IoSessionStateTerminated, PIO_SESSION_STATE, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE, kernel.io_session_state, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/IO_SESSION_STATE, wdm/IoSessionStateConnected, wdm/IoSessionStateCreated, wdm/IoSessionStateDisconnected, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateInitialized, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateLoggedOn, wdm/IoSessionStateMax, wdm/IoSessionStateTerminated, wdm/PIO_SESSION_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -157,17 +157,17 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 
 
-<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
 
 
- 
+<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE enumeration%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

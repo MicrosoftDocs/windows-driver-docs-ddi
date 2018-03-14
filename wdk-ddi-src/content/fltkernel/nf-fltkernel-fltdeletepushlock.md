@@ -105,11 +105,7 @@ To initialize a push lock, call <a href="..\fltkernel\nf-fltkernel-fltinitialize
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
 
 
 
@@ -117,7 +113,11 @@ To initialize a push lock, call <a href="..\fltkernel\nf-fltkernel-fltinitialize
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
+<a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
 
 
 

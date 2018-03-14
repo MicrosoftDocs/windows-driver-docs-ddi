@@ -135,15 +135,15 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
 
 
 

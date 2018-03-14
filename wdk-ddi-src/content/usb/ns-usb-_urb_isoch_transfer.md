@@ -155,11 +155,6 @@ A pointer to an MDL that describes a resident buffer is <b>NULL</b> if a buffer 
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
 Reserved. Do not use.
@@ -297,15 +292,7 @@ Treat other members that are part of this structure but not described here as op
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
 
 
@@ -317,7 +304,15 @@ Treat other members that are part of this structure but not described here as op
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
 
 

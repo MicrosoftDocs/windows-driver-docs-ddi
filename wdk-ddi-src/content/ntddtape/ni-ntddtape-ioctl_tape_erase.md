@@ -46,11 +46,6 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 # IOCTL_TAPE_ERASE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,7 +62,7 @@ Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, 
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="..\minitape\ns-minitape-_tape_erase.md">TAPE_ERASE</a>. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="..\ntddtape\ns-ntddtape-_tape_erase.md">TAPE_ERASE</a>. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -112,7 +107,7 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
+<a href="..\ntddtape\ns-ntddtape-_tape_erase.md">TAPE_ERASE</a>
 
 
 
@@ -120,7 +115,7 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 
-<a href="..\minitape\ns-minitape-_tape_erase.md">TAPE_ERASE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
 
 
 

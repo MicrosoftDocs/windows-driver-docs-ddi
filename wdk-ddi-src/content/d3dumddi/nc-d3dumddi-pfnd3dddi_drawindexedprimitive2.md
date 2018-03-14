@@ -91,19 +91,14 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 ### -param UINT
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
-
-
 #### - dwIndicesSize [in]
 
  The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
 
 
-#### - pIndexBuffer [in]
+#### - pData [in]
 
- A pointer to a buffer of index data to be drawn.
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
 
 
 #### - pFlagBuffer [in, optional]
@@ -111,6 +106,11 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
  A pointer to a 32-bit value that contains triangle-edge flags, which are used only during line-fill mode. The first three bits (0/1/2) of the 32-bit value specify how the three edges of the corresponding triangle are rendered. If a bit is set to 1, its associated triangle edge is rendered; otherwise, the edge is not rendered.
 
 If the pointer is <b>NULL</b>, the user-mode display driver should use its fast path to draw primitives. 
+
+
+#### - pIndexBuffer [in]
+
+ A pointer to a buffer of index data to be drawn.
 
 
 ## -returns
@@ -135,7 +135,7 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
 
 
 
@@ -143,7 +143,7 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
 
 
 

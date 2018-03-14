@@ -7,7 +7,7 @@ old-location: audio\iportclsstreamresourcemanager.htm
 old-project: audio
 ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

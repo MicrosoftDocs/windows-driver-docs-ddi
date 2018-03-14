@@ -92,15 +92,15 @@ The file object is returned with a reference.  The caller is responsible for cal
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
 <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
 
 
 

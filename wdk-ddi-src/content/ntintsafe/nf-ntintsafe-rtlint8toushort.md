@@ -7,7 +7,7 @@ old-location: kernel\rtlint8toushort.htm
 old-project: kernel
 ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlInt8ToUShort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], kernel.rtlint8toushort, ntintsafe/RtlInt8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

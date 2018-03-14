@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRADIOSTATEGROUP
 title: RILRADIOSTATEGROUP
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostategroup_2.htm
+old-location: netvista\rilradiostategroup.htm
 old-project: netvista
-ms.assetid: ce8cf743-4386-4afb-87d3-93f9a83bd632
+ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup_2, rilapitypes/RILRADIOSTATEGROUP"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEGROUP
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -58,10 +58,10 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ````
 typedef struct _RILRADIOSTATEGROUP {
-  DWORD                            dwGroupId;
-  DWORD                            dwGroupType;
-  DWORD                            dwGroupFlags;
-  WCHAR [MAXLENGTH_RADIOGROUPTEXT] wszGroupText;
+  DWORD      dwGroupId;
+  DWORD      dwGroupType;
+  DWORD      dwGroupFlags;
+  WCHAR [32] wszGroupText;
 } RILRADIOSTATEGROUP, RILRADIOSTATEGROUP;
 ````
 

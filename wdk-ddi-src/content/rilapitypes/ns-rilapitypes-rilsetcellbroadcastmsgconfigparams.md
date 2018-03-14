@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETCELLBROADCASTMSGCONFIGPARAMS
 title: RILSETCELLBROADCASTMSGCONFIGPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetcellbroadcastmsgconfigparams_2.htm
+old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 old-project: netvista
-ms.assetid: 978d3efa-23bb-4fa8-b879-9714813880be
+ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams_2, rilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETCELLBROADCASTMSGCONFIGPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

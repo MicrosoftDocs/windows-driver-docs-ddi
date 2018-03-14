@@ -109,19 +109,19 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 
 
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 

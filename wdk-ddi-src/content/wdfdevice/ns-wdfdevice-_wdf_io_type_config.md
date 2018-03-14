@@ -124,15 +124,15 @@ If you are writing a driver using UMDF version 1.<i>x</i>, your driver calls <a 
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md">WDF_IO_TYPE_CONFIG_INIT</a>
 
 
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
 
 

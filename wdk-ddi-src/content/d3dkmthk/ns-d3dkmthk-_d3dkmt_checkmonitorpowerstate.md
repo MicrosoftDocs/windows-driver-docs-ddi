@@ -80,7 +80,7 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
 
 
 

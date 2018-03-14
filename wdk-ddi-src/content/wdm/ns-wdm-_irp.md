@@ -7,7 +7,7 @@ old-location: kernel\irp.htm
 old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -236,7 +236,7 @@ If the driver is using direct I/O, the buffer's purpose is determined by the IRP
 
 ### -field IoStatus
 
-Contains the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
+Contains the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
 
 
 ### -field RequestorMode
@@ -358,11 +358,6 @@ A pointer to the caller's thread control block (TCB). For requests that originat
  
 
 
-### -field Tail.Overlay._IO_STACK_LOCATION
-
- 
-
-
 ### -field Tail.Overlay.PacketType
 
  
@@ -404,23 +399,7 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -428,9 +407,25 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 
- 
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRP structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

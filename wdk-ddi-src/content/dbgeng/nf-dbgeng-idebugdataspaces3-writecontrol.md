@@ -7,7 +7,7 @@ old-location: debugger\writecontrol.htm
 old-project: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteControl method, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, IDebugDataSpaces2::WriteControl, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, IDebugDataSpaces3::WriteControl, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces4::WriteControl, IDebugDataSpaces::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, WriteControl method [Windows Debugging], WriteControl method [Windows Debugging], IDebugDataSpaces interface, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, WriteControl,IDebugDataSpaces3.WriteControl, dbgeng/IDebugDataSpaces2::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, dbgeng/IDebugDataSpaces::WriteControl, debugger.writecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

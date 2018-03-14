@@ -176,23 +176,11 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-
-
-
-<a href="..\sercx\ne-sercx-_sercx2_transaction_type.md">SERCX2_TRANSACTION_TYPE</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
 <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
-
-
-
-<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">SERCX2_CUSTOM_TRANSMIT_CONFIG</a>
 
 
 
@@ -204,11 +192,23 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type
 
 
 
+<a href="..\sercx\ne-sercx-_sercx2_transaction_type.md">SERCX2_TRANSACTION_TYPE</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">SERCX2_CUSTOM_TRANSMIT_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
 
 
 

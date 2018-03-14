@@ -100,11 +100,7 @@ The target of an ECP uses <a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltlInsertExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -112,7 +108,11 @@ The target of an ECP uses <a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.m
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltlInsertExtraCreateParameter</a>
 
 
 
@@ -120,7 +120,7 @@ The target of an ECP uses <a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
 

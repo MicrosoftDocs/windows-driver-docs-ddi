@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMESSAGEINFO
 title: RILMESSAGEINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmessageinfo_2.htm
+old-location: netvista\rilmessageinfo.htm
 old-project: netvista
-ms.assetid: db7b8526-e70a-4589-a128-58641c865d58
+ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo_2, rilapitypes/RILMESSAGEINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

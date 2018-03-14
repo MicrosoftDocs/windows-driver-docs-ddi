@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -118,19 +118,19 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-
-
-
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 

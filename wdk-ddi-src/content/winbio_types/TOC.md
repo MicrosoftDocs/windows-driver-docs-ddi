@@ -1,4 +1,4 @@
-# [Biometric](../_biometric/index.md)
+# [biometrics](../_biometrics/index.md)
 ## [Winbio_Types.h](index.md)
 ### [_WINBIO_BIR structure](../winbio_types/ns-winbio_types-_winbio_bir.md)
 ### [_WINBIO_BIR_DATA structure](../winbio_types/ns-winbio_types-_winbio_bir_data.md)

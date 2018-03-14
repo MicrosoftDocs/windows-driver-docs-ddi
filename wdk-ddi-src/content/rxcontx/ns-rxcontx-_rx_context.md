@@ -861,24 +861,24 @@ A set of options set by RDBSS and passed to low I/O operations sent to the netwo
 A pointer to a LOWIO_CONTEXT structure passed to the network mini-redirector. <b>LowIoContext</b> is a member of unnamed structure used for low I/O requests sent to the network mini-redirector.
 
 
-#### - IoStatusBlock
-
-The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
-
-
 #### - ForceLonglongAligmentDummyField
 
 A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
 
 
-#### - MRxContext
-
-A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
-
-
 #### - FsdUid
 
 The effective user ID if <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a> was called using a user-mode process thread. This member is not used by RDBSS.
+
+
+#### - IoStatusBlock
+
+The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
+
+
+#### - MRxContext
+
+A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
 
 
 ## -remarks
@@ -900,87 +900,7 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a>
-
-
-
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
 
 
 
@@ -988,7 +908,11 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a>
 
 
 
@@ -1000,7 +924,35 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a>
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
 
 
 
@@ -1008,7 +960,55 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
+
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

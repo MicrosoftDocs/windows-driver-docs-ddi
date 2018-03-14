@@ -114,11 +114,11 @@ If your driver provides an <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
 
 
 

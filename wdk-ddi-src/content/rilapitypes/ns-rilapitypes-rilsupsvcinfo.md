@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSUPSVCINFO
 title: RILSUPSVCINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsupsvcinfo_2.htm
+old-location: netvista\rilsupsvcinfo.htm
 old-project: netvista
-ms.assetid: b3b86cf8-0e0c-4ed1-9d8c-6f2fef00b9cd
+ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo_2, rilapitypes/RILSUPSVCINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUPSVCINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax
@@ -69,8 +69,8 @@ typedef struct _RILSUPSVCINFO {
   RILSUPSVCTYPE                    dwSupSvcType;
   DWORD                            dwInfoClasses;
   RILALPHAIDENTIFIER               aiIdentifier;
-  char [MAXLENGTH_PASSWORD]        szCallBarringPassword;
-  char [MAXLENGTH_PASSWORD]        szNewCallBarringPassword;
+  char [256]                       szCallBarringPassword;
+  char [256]                       szNewCallBarringPassword;
   RILCALLFORWARDINGSETTINGS        callForwardSettings;
   RILCALLERIDSETTINGS              callerIdSettings;
   RILDIALEDIDSETTINGS              dialedIdSettings;

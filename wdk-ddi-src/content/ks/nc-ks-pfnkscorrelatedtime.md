@@ -103,6 +103,10 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
 
@@ -112,10 +116,6 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 

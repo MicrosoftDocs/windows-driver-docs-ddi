@@ -169,7 +169,7 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-st_parameter_data.md">ST_PARAMETER_DATA</a>
+<a href="..\storport\ns-storport-st_parameter_data.md">ST_PARAMETER_DATA</a>
 
 
 

@@ -49,7 +49,7 @@ req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ## -description
 
 
-The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function.
+The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function.
 
 
 ## -syntax

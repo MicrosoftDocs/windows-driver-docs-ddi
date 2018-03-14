@@ -7,7 +7,7 @@ old-location: kernel\io_resource_requirements_list.htm
 old-project: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_REQUIREMENTS_LIST, kernel.io_resource_requirements_list, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, wdm/IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</
 
 ### -field InterfaceType
 
-Specifies an interface type. This must be one of the types defined by <a href="..\miniport\ne-miniport-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies an interface type. This must be one of the types defined by <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 
 ### -field BusNumber
@@ -186,7 +186,7 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
 
 
 
@@ -194,17 +194,17 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_RESOURCE_REQUIREMENTS_LIST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_RESOURCE_REQUIREMENTS_LIST structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

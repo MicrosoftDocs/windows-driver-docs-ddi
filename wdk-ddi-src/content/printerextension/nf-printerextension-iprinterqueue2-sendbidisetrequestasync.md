@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -98,15 +98,15 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
 
 
 
 <a href="..\printerextension\nn-printerextension-iprinterbidisetrequestcallback.md">IPrinterBidiSetRequestCallback</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
 
 

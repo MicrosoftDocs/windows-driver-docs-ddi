@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGETIMSPARAMS
 title: RILGETIMSPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgetimsparams_2.htm
+old-location: netvista\rilgetimsparams.htm
 old-project: netvista
-ms.assetid: fc2b7e6f-3646-40a6-bdad-a1bbb94adf09
+ms.assetid: 4e8f01af-9279-483a-90f9-d0391122ba5b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetimsparams_2, rilapitypes/RILGETIMSPARAMS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetimsparams, ntddrilapitypes/RILGETIMSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGETIMSPARAMS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

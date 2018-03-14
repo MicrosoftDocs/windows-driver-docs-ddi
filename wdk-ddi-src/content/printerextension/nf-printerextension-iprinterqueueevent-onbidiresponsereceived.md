@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -99,11 +99,11 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
 
 

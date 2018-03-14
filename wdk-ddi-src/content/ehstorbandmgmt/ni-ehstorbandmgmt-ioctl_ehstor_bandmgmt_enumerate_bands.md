@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -156,11 +151,11 @@ A driver or application can query for the necessary output buffer size by settin
 
 ## -see-also
 
-<b>ENUMERATE_BANDS_PARAMETERS</b>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a>
+
+
+
+<b>ENUMERATE_BANDS_PARAMETERS</b>
 
 
 

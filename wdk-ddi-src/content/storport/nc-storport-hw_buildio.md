@@ -95,7 +95,7 @@ A pointer to the SCSI request block (SRB) to be processed.
 
 
 
-The name <b>HwStorBuildIo</b> is just a placeholder for the miniport function that is pointed to by the <b>HwBuildIo</b> member in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The actual prototype of this routine is defined in Storport.h as follows:
+The name <b>HwStorBuildIo</b> is just a placeholder for the miniport function that is pointed to by the <b>HwBuildIo</b> member in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The actual prototype of this routine is defined in Storport.h as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -267,7 +267,7 @@ Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
 </table>
  
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 For more information about what you can and cannot do safely in this miniport driver routine, see <a href="https://msdn.microsoft.com/6b18e3ff-30dd-414b-99b5-4bb914660a67">Unsynchronized HwStorBuildIo Routine</a>. 
 
@@ -315,15 +315,11 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
@@ -331,7 +327,11 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
-<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
+<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
@@ -339,7 +339,7 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
 
 
 

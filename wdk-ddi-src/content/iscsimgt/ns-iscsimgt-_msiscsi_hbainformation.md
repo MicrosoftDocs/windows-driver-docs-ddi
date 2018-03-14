@@ -319,15 +319,15 @@ You must implement this class.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
 
 
 

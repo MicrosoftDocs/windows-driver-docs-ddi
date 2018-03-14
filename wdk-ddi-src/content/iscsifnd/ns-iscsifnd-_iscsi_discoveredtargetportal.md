@@ -95,15 +95,15 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
 
 

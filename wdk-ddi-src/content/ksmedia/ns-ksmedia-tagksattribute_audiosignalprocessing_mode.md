@@ -7,7 +7,7 @@ old-location: audio\ksattribute_audiosignalprocessing_mode.htm
 old-project: audio
 ms.assetid: A7EE4FC5-420A-419A-98D1-3411C29F1990
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure [Audio Devices], PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure pointer [Audio Devices], audio.ksattribute_audiosignalprocessing_mode, ksmedia/KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, ksmedia/PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -89,11 +89,11 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
 
 
 

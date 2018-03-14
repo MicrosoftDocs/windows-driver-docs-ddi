@@ -215,6 +215,10 @@ The following code example shows how to evaluate an ACPI method.
 
 ## -see-also
 
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a>
 
 
@@ -224,10 +228,6 @@ The following code example shows how to evaluate an ACPI method.
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 

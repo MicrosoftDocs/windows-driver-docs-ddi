@@ -89,15 +89,15 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 ## -see-also
 
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
 
 
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
-
-
-
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
 
 
 

@@ -7,13 +7,13 @@ old-location: netvista\riloperatorinfoparammask.htm
 old-project: netvista
 ms.assetid: 5ea7bf77-2069-4335-862e-7f805f3a7491
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

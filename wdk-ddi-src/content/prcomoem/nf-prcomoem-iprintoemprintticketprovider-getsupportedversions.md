@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -109,11 +109,11 @@ The plug-in is responsible for allocating the array memory that is pointed to by
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
 
 
 

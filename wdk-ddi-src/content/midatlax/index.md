@@ -2,7 +2,7 @@
 UID: NA:midatlax
 ms.assetid: e8c80790-7ec0-3fdc-83c7-699e2f78cdb7
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

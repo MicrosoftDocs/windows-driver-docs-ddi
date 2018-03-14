@@ -85,24 +85,9 @@ typedef union _WHEA_GENERIC_ERROR_BLOCKSTATUS {
 A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
 
 
-#### - UncorrectableError
-
-The generic error status block is reporting uncorrectable error data.
-
-
 #### - CorrectableError
 
 The generic error status block is reporting correctable error data.
-
-
-#### - MultipleUncorrectableErrors
-
-The generic error status block is reporting multiple uncorrectable errors.
-
-
-#### - MultipleCorrectableErrors
-
-The generic error status block is reporting multiple correctable errors.
 
 
 #### - ErrorDataEntryCount
@@ -110,9 +95,24 @@ The generic error status block is reporting multiple correctable errors.
 The number of <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
 
 
+#### - MultipleCorrectableErrors
+
+The generic error status block is reporting multiple correctable errors.
+
+
+#### - MultipleUncorrectableErrors
+
+The generic error status block is reporting multiple uncorrectable errors.
+
+
 #### - Reserved
 
 Reserved for system use.
+
+
+#### - UncorrectableError
+
+The generic error status block is reporting uncorrectable error data.
 
 
 ## -remarks

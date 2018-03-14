@@ -101,11 +101,11 @@ To get the current ACL connection state for a remote device, profile drivers sho
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_acl_mode.md">ACL_MODE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

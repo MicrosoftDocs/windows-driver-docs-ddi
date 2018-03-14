@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMESSAGEIN_V1
 title: RILMESSAGEIN_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmessagein_v1_2.htm
+old-location: netvista\rilmessagein_v1.htm
 old-project: netvista
-ms.assetid: 2b47523f-6938-4071-a0aa-91cdf05faed7
+ms.assetid: c9de99e4-556c-4b3b-a442-53fc52553d3d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMESSAGEIN_V1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v1_2, rilapitypes/RILMESSAGEIN_V1
+ms.date: 2/27/2018
+ms.keywords: RILMESSAGEIN_V1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v1, ntddrilapitypes/RILMESSAGEIN_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEIN_V1
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

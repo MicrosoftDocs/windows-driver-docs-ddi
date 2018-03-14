@@ -123,11 +123,11 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md">PI8042_QUEUE_PACKET</a>
-
-
-
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md">PI8042_QUEUE_PACKET</a>
 
 
 

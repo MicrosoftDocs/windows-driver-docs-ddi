@@ -46,11 +46,6 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 # IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -120,14 +115,14 @@ Failure of one of the copy protection mechanisms.
 The authentication process has failed.
 
 
-#### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
-
-No AACS protection exists for this media.
-
-
 #### -STATUS_CSS_KEY_NOT_ESTABLISHED or STG_E_CSS_KEY_NOT_ESTABLISHED
 
 The AGID for AACS has not been established.
+
+
+#### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
+
+No AACS protection exists for this media.
 
 
 ## -remarks

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -78,7 +78,7 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> str
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
 
 
 
@@ -86,7 +86,7 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> str
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
 

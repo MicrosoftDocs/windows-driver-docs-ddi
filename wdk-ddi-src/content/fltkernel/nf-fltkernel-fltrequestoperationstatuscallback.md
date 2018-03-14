@@ -179,11 +179,15 @@ The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
@@ -195,15 +199,11 @@ The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the 
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-
-
 <a href="..\fltkernel\nc-fltkernel-pflt_get_operation_status_callback.md">PFLT_GET_OPERATION_STATUS_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 

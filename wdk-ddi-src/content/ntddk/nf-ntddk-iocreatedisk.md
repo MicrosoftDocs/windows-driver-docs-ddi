@@ -98,11 +98,11 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
 
 

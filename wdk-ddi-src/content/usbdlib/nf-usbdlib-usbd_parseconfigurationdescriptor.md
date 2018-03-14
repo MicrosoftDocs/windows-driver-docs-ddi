@@ -97,11 +97,11 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
 
 
 

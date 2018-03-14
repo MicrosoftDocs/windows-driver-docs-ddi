@@ -103,11 +103,11 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

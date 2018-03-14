@@ -313,15 +313,7 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
-
-
-
 <a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
@@ -329,11 +321,19 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
 <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 

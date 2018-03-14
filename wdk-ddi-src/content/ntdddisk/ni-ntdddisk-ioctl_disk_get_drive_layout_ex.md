@@ -46,11 +46,6 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -112,7 +107,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
 
 
 
@@ -120,7 +115,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
 
 
 

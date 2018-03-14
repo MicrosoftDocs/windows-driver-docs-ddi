@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCARDAPPADDED
 title: RILCARDAPPADDED
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcardappadded_2.htm
+old-location: netvista\rilcardappadded.htm
 old-project: netvista
-ms.assetid: 8e4eed61-bd57-4731-9178-7f8d33fbd240
+ms.assetid: f0488502-8c0c-4e2d-81d0-98b206c74d78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded_2, rilapitypes/RILCARDAPPADDED"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded, ntddrilapitypes/RILCARDAPPADDED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCARDAPPADDED
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

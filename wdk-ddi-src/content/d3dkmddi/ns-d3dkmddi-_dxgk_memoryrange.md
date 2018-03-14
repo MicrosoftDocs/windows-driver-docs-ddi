@@ -87,11 +87,11 @@ The number of byte in the range. The value must be multiple of the segment page 
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentmemorystate.md">DXGK_QUERYSEGMENTMEMORYSTATE</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentmemorystate.md">DXGK_QUERYSEGMENTMEMORYSTATE</a>
 
 
 

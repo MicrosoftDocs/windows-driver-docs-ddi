@@ -7,7 +7,7 @@ old-location: kernel\seaccesscheck.htm
 old-project: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: SeAccessCheck, SeAccessCheck routine [Kernel-Mode Driver Architecture], k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, kernel.seaccesscheck, wdm/SeAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,31 +152,7 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
-
-
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
-
-
-
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
 
 
 
@@ -184,9 +160,33 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 
 
- 
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
+
+
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeAccessCheck routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeAccessCheck routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

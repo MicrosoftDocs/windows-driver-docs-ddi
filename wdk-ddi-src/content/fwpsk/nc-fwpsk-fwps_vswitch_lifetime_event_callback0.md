@@ -7,7 +7,7 @@ old-location: netvista\fwps_vswitch_lifetime_event_callback0.htm
 old-project: netvista
 ms.assetid: 6A2058FB-AE3D-48F0-B1D9-3B8894A5419E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,7 +178,43 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 ## -see-also
 
+<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 
@@ -186,7 +222,7 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
 
 
 
@@ -198,45 +234,9 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

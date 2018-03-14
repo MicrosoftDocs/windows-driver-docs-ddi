@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -236,15 +236,15 @@ Exit:
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
 
 
 

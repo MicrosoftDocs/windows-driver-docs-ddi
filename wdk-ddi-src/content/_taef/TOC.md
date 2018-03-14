@@ -1,0 +1,6 @@
+# [taef](index.md)
+## [Wexlogtrace.h](../wexlogtrace/index.md)
+### [operator= function](../wexlogtrace/nf-wexlogtrace-operator=.md)
+## [Wextestclass.h](../wextestclass/index.md)
+### [operator= function](../wextestclass/nf-wextestclass-fixtureinvokefunctor-operator=.md)
+### [operator= function](../wextestclass/nf-wextestclass-testinvokefunctor-operator=.md)

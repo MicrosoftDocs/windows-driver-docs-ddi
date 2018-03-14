@@ -104,15 +104,15 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 
 
+D3DDP2OP_RESPONSECONTINUE
+
+
+
 D3DDP2OP_RESPONSEQUERY
 
 
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-D3DDP2OP_RESPONSECONTINUE
 
 
 

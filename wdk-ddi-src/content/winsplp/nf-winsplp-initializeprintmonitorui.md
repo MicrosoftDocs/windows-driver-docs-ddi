@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -93,11 +93,11 @@ Port monitor UI DLLs are required to export an <b>InitializePrintMonitorUI</b> f
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor.md">InitializePrintMonitor</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor.md">InitializePrintMonitor</a>
 
 
 

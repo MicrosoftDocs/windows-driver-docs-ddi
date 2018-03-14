@@ -2,7 +2,7 @@
 UID: NA:gnssdriver
 ms.assetid: fbc6c86b-073e-3c33-b4cc-a132e4143deb
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,8 +13,8 @@ ms.topic: portal
 
 
 
-This header is used by Sensors. For more information, see
-- [Sensors](../_sensors/index.md)
+This header is used by gnss. For more information, see
+- [gnss](../_gnss/index.md)
 
 Gnssdriver.h contain these programming interfaces:
 

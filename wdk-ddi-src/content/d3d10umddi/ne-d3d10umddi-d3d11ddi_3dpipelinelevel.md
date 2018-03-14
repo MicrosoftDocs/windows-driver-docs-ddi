@@ -169,6 +169,10 @@ For more information about the Direct3D version 11 pipelines, see <a href="https
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
 
 
@@ -178,10 +182,6 @@ For more information about the Direct3D version 11 pipelines, see <a href="https
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
 
 
 

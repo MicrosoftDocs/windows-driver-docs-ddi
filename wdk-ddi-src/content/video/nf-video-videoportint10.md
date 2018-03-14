@@ -103,7 +103,7 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
@@ -111,7 +111,7 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
 
 
 

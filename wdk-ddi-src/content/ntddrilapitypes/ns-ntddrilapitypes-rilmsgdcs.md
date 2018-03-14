@@ -7,13 +7,13 @@ old-location: netvista\rilmsgdcs.htm
 old-project: netvista
 ms.assetid: b9d37683-fd3d-42fd-9ec2-128b76325868
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILMSGDCS, RILMSGDCS, RILMSGDCS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgdcs, ntddrilapitypes/RILMSGDCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

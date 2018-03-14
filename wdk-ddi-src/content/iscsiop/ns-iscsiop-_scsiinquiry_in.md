@@ -105,7 +105,7 @@ You must implement this method.
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
+<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
 
 
 

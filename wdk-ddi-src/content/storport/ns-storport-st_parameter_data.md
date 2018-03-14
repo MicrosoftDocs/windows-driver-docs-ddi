@@ -90,7 +90,7 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-rt_parameter_data.md">RT_PARAMETER_DATA</a>
+<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
 
 
 

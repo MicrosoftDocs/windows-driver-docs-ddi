@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -96,15 +96,15 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 

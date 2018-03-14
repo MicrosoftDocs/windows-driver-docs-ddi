@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -140,11 +135,11 @@ Based on the <b>ActualLength</b> value, the caller can then allocate a buffer an
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 
 

@@ -2,7 +2,7 @@
 UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -32,12 +32,11 @@ To develop Display, you need these headers:
  * [dxgitype.h](..\dxgitype\index.md)
  * [dxva.h](..\dxva\index.md)
  * [iddcx.h](..\iddcx\index.md)
- * [ksmedia.h](..\ksmedia\index.md)
- * [miniport.h](..\miniport\index.md)
+ * [iddcxfuncenum.h](..\iddcxfuncenum\index.md)
+ * [igpupvdev.h](..\igpupvdev\index.md)
  * [netdispumdddi.h](..\netdispumdddi\index.md)
+ * [ntagp.h](..\ntagp\index.md)
  * [ntddvdeo.h](..\ntddvdeo\index.md)
- * [prdrvcom.h](..\prdrvcom\index.md)
- * [prntfont.h](..\prntfont\index.md)
  * [umdprovider.h](..\umdprovider\index.md)
  * [video.h](..\video\index.md)
  * [videoagp.h](..\videoagp\index.md)

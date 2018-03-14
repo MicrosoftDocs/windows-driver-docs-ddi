@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntddk.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section.
 topic_type:

@@ -103,11 +103,11 @@ The <b>gdi2</b> member of DD_DXVERSION is used by the runtime with type D3DGDI2_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 

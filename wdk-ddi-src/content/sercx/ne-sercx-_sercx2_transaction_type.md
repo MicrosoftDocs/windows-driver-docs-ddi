@@ -102,11 +102,11 @@ The <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.m
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -96,11 +96,6 @@ contains <b>VT_EMPTY</b>.
 The address of a variable that will receive the action.
 
 
-#### - ProgID [in]
-
-The WDTF ProgID of the requested interface.
-
-
 #### - MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
@@ -109,6 +104,11 @@ define additional targets to attach to the returned interface.
 This parameter is not 
 currently implemented. Set <i>MoreTargets</i> to a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
+
+
+#### - ProgID [in]
+
+The WDTF ProgID of the requested interface.
 
 
 ## -returns

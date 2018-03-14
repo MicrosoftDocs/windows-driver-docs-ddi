@@ -7,7 +7,7 @@ old-location: kernel\tminitializetransactionmanager_.htm
 old-project: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

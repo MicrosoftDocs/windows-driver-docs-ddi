@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_GET_HOTPLUG_INFO IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -110,11 +105,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(STORAGE_HOTPLUG_INFO). The 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
-
-
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
 
 
 

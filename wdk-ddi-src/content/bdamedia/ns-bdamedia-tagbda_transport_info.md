@@ -103,7 +103,7 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -111,7 +111,7 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtluinttoint.htm
 old-project: kernel
 ms.assetid: 5C595F39-3F47-4B4D-B6C6-6CBC5848AA4B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlUIntToInt, RtlUIntToInt function [Kernel-Mode Driver Architecture], kernel.rtluinttoint, ntintsafe/RtlUIntToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

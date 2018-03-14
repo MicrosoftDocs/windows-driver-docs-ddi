@@ -122,7 +122,7 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdcfrommemory.md">D3DKMTCreateDCFromMemory</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedcfrommemory.md">D3DKMTCreateDCFromMemory</a>
 
 
 

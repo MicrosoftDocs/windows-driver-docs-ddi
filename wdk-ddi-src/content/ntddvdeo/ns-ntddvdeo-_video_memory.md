@@ -89,7 +89,7 @@ For structures used in mapping into user-mode video memory, see <a href="..\ntdd
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
 
 
@@ -97,7 +97,7 @@ For structures used in mapping into user-mode video memory, see <a href="..\ntdd
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
 
 
 

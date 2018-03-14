@@ -7,7 +7,7 @@ old-location: audio\kstelephony_providerchange.htm
 old-project: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

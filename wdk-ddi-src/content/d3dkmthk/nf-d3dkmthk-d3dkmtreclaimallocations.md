@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -135,7 +135,7 @@ Parameters were validated and determined to be incorrect.
 
 
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_offerallocations.md">D3DKMTOfferAllocations</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\seteventfiltercommand.htm
 old-project: debugger
 ms.assetid: d68d0a98-ec93-4643-a6c1-eff9d5618e03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl interface [Windows Debugging], SetEventFilterCommand method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl2::SetEventFilterCommand, IDebugControl3 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl3::SetEventFilterCommand, IDebugControl::SetEventFilterCommand, IDebugControl_b0661dd4-9ecd-49ac-93e1-86d3c6c2c3f6.xml, SetEventFilterCommand method [Windows Debugging], SetEventFilterCommand method [Windows Debugging], IDebugControl interface, SetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, SetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, SetEventFilterCommand,IDebugControl2.SetEventFilterCommand, dbgeng/IDebugControl2::SetEventFilterCommand, dbgeng/IDebugControl3::SetEventFilterCommand, dbgeng/IDebugControl::SetEventFilterCommand, debugger.seteventfiltercommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -119,15 +119,11 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -143,9 +139,13 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetEventFilterCommand method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetEventFilterCommand method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -130,11 +125,11 @@ The <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_e
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 

@@ -159,7 +159,7 @@ The callback function has set the OPTIF_CHANGED flag in an <a href="..\compstui\
 
 Callback functions specified using the _CPSUICALLBACK function type are supplied by applications that use <a href="https://msdn.microsoft.com/7af3435a-19e0-40a1-9f94-319d9d323856">CPSUI</a> to manage property sheet pages. If one of these callback functions is associated with a property sheet page, CPSUI calls it when user activity (such as changing the page's control focus, modifying option values, or clicking on <b>OK</b>) is detected.
 
-A _CPSUICALLBACK-typed callback function is assigned to a property sheet page by including its address in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, which is passed to CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function when the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>.
+A _CPSUICALLBACK-typed callback function is assigned to a property sheet page by including its address in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, which is passed to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function when the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>.
 
 Additionally, callback functions can be assigned to extended push buttons through the use of <a href="..\compstui\ns-compstui-_extpush.md">EXTPUSH</a> structures.
 

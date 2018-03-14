@@ -83,14 +83,14 @@ VOID APIENTRY* pfnDestroyShaderCacheSession(
 
 
 
-#### - hDevice
-
-The handle of a device.
-
-
 #### - hCacheSession
 
 The handle of a cache session.
+
+
+#### - hDevice
+
+The handle of a device.
 
 
 ## -returns

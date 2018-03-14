@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSIGNALQUALITYPARAMMASK
 title: RILSIGNALQUALITYPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsignalqualityparammask_2.htm
+old-location: netvista\rilsignalqualityparammask.htm
 old-project: netvista
-ms.assetid: be6c46bb-9c14-4daf-b76a-679d71269965
+ms.assetid: cf6727dc-e6f3-418e-bee4-e372dcc29a66
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, netvista.rilsignalqualityparammask_2, rilapitypes/RILSIGNALQUALITYPARAMMASK, rilapitypes/RIL_PARAM_SQ_ALL, rilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, rilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RIL_PARAM_SQ_SNR, rilapitypes/RIL_PARAM_SQ_SYSTEMTYPE
+ms.date: 2/27/2018
+ms.keywords: RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, netvista.rilsignalqualityparammask, ntddrilapitypes/RILSIGNALQUALITYPARAMMASK, ntddrilapitypes/RIL_PARAM_SQ_ALL, ntddrilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, ntddrilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, ntddrilapitypes/RIL_PARAM_SQ_SNR, ntddrilapitypes/RIL_PARAM_SQ_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSIGNALQUALITYPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

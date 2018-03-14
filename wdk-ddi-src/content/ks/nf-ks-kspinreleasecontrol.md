@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -98,11 +98,11 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
-
-
-
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 

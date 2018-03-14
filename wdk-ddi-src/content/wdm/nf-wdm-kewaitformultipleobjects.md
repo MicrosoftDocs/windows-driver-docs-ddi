@@ -7,7 +7,7 @@ old-location: kernel\kewaitformultipleobjects.htm
 old-project: kernel
 ms.assetid: 2e533d7b-be70-4601-b9e1-4fe3ce51817f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, wdm/KeWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -221,19 +221,7 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -241,7 +229,19 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 
 
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -253,5 +253,5 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeWaitForMultipleObjects routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeWaitForMultipleObjects routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

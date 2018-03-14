@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -108,11 +108,11 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
 
 

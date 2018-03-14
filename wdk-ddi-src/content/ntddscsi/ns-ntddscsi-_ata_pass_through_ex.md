@@ -396,15 +396,15 @@ Reserved
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
-
-
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
 
 

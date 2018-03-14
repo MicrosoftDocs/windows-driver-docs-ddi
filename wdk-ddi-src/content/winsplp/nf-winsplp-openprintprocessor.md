@@ -102,7 +102,7 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+<a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
 
 
 
@@ -110,7 +110,7 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
-<a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
+<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
 
 
 

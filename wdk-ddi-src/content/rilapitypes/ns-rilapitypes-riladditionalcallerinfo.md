@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILADDITIONALCALLERINFO
 title: RILADDITIONALCALLERINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riladditionalcallerinfo_2.htm
+old-location: netvista\riladditionalcallerinfo.htm
 old-project: netvista
-ms.assetid: e29f6710-0ca1-4420-b0e7-957ba020254b
+ms.assetid: dd622ebc-beba-4c96-a0e8-97ad614e3937
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], netvista.riladditionalcallerinfo_2, rilapitypes/RILADDITIONALCALLERINFO"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], netvista.riladditionalcallerinfo, ntddrilapitypes/RILADDITIONALCALLERINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILADDITIONALCALLERINFO
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

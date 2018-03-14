@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 

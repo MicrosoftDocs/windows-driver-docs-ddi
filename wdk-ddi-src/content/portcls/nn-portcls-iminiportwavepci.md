@@ -7,7 +7,7 @@ old-location: audio\iminiportwavepci.htm
 old-project: audio
 ms.assetid: 74619f9b-cd67-47f2-8c67-6fb42b794b9a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IMiniportWavePci, IMiniportWavePci interface [Audio Devices], IMiniportWavePci interface [Audio Devices], described, audio.iminiportwavepci, audmp-routines_bd4a9d9c-d3eb-40bc-93d9-277abe4ee258.xml, portcls/IMiniportWavePci
 ms.prod: windows-hardware
 ms.technology: windows-devices

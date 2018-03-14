@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Usbspec.h](index.md)
 ### [_USB_DEVICE_SPEED enumeration](../usbspec/ne-usbspec-_usb_device_speed.md)
 ### [_USB_30_HUB_DESCRIPTOR structure](../usbspec/ns-usbspec-_usb_30_hub_descriptor.md)

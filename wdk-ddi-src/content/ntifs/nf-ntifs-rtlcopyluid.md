@@ -100,15 +100,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
 
 

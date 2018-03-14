@@ -2,7 +2,7 @@
 UID: NA:usbscan
 ms.assetid: 31ca997d-12f9-393e-bfce-cdcf84179963
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

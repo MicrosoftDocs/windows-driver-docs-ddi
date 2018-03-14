@@ -111,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -119,11 +119,11 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querydependentenginegroup.md">DXGKARG_QUERYDEPENDENTENGINEGROUP</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

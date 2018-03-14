@@ -116,7 +116,7 @@ The runtime parses the returned response buffer and updates its internal data st
 
 
 
-D3DDP2OP_RESPONSEQUERY
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
@@ -128,11 +128,7 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+D3DDP2OP_RESPONSEQUERY
 
 
 
@@ -140,7 +136,11 @@ D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

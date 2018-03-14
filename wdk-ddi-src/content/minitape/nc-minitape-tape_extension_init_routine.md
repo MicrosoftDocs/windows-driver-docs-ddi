@@ -115,11 +115,7 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
-<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
-
-
-
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
 
 
@@ -127,7 +123,11 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
 
 

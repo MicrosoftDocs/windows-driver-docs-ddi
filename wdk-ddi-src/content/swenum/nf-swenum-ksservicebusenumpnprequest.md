@@ -202,15 +202,15 @@ IRP_MN_QUERY_CAPABILITIES
 
 ## -see-also
 
+<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
+
+
+
 <a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
 
 
 
 <a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
-
-
-
-<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
 
 
 

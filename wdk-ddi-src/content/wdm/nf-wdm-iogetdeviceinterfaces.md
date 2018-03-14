@@ -7,7 +7,7 @@ old-location: kernel\iogetdeviceinterfaces.htm
 old-project: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,7 +110,7 @@ A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate di
 
 ### -param SymbolicLinkList [out]
 
-A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
+A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
 
 If no device interface instances match the search criteria, this routine returns STATUS_SUCCESS and the string contains a single NULL character.
 
@@ -172,15 +172,15 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -188,7 +188,7 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 
@@ -196,5 +196,5 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaces routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaces routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

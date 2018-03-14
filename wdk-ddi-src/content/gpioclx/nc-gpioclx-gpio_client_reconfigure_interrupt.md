@@ -143,19 +143,19 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698256">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439449">CONTROLLER_ATTRIBUTE_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698256">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
 
 
 

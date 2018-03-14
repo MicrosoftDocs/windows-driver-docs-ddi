@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLERIDSETTINGS
 title: RILCALLERIDSETTINGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalleridsettings_2.htm
+old-location: netvista\rilcalleridsettings.htm
 old-project: netvista
-ms.assetid: 129fcbf9-8162-494a-a571-5c604849d387
+ms.assetid: 3ba2cd72-4678-4ada-9777-12cbb6032628
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings_2, rilapitypes/RILCALLERIDSETTINGS"
+ms.date: 2/27/2018
+ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings, ntddrilapitypes/RILCALLERIDSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLERIDSETTINGS
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

@@ -7,7 +7,7 @@ old-location: netvista\ril_getcalllist.htm
 old-project: netvista
 ms.assetid: 7b2e0c82-c204-4d57-a2d2-066b8772ce13
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_GetCallList, RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

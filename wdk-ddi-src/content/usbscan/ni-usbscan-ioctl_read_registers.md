@@ -7,7 +7,7 @@ old-location: image\ioctl_read_registers.htm
 old-project: image
 ms.assetid: b54c9a15-0d48-4aff-98e5-1f0dfc070ed6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,11 +46,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_READ_REGISTERS IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

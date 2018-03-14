@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILERRORDETAILSPARAMMASK
 title: RILERRORDETAILSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilerrordetailsparammask_2.htm
+old-location: netvista\rilerrordetailsparammask.htm
 old-project: netvista
-ms.assetid: aa728681-fe86-40f1-853d-ad37abe924b3
+ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask_2, rilapitypes/RILERRORDETAILSPARAMMASK
+ms.date: 2/27/2018
+ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILERRORDETAILSPARAMMASK
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

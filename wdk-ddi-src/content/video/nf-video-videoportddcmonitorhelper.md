@@ -141,7 +141,7 @@ No EDID
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 
 
@@ -149,19 +149,19 @@ No EDID
 
 
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
-
-
-
 <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
-
-
-
 <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
 
 
 

@@ -93,11 +93,11 @@ Clients send an Advanced Access Content System (AACS) certificate with an <a hre
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_certificate.md">IOCTL_AACS_GET_CERTIFICATE</a>
+
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a>
 
 
 

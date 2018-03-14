@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_START_TRACKING_FOR_TIME_SYNC IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -127,7 +122,7 @@ The driver stack disables those interrupts when it receives and completes the <a
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -139,7 +134,7 @@ The driver stack disables those interrupts when it receives and completes the <a
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 

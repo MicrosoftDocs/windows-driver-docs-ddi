@@ -80,11 +80,11 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
 
 

@@ -86,11 +86,11 @@ The final frequency, in Hz, for a scan operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559566">EVENTSETID_TUNER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559566">EVENTSETID_TUNER</a>
 
 
 

@@ -114,11 +114,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 
 
@@ -131,10 +135,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 
 

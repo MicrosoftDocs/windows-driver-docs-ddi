@@ -7,13 +7,13 @@ old-location: netvista\rilimshandoverattempt.htm
 old-project: netvista
 ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

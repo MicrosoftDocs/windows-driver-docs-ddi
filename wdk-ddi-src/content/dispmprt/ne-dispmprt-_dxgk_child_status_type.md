@@ -110,11 +110,11 @@ The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
 
 
 

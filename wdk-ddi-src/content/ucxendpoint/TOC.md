@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Ucxendpoint.h](index.md)
 ### [EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback](../ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update.md)
 ### [EVT_UCX_ENDPOINT_ABORT callback](../ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_abort.md)

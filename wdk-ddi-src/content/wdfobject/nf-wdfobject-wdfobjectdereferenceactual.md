@@ -144,11 +144,11 @@ The following code example decrements an object's reference count and assigns a 
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
 
 
 

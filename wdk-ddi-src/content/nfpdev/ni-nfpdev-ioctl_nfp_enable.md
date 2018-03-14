@@ -46,11 +46,6 @@ req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_I
 # IOCTL_NFP_ENABLE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -116,7 +111,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 
@@ -146,7 +141,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_disable.md">IOCTL_NFP_DISABLE</a>
 
 
 
@@ -154,7 +149,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_disable.md">IOCTL_NFP_DISABLE</a>
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
 
 
 

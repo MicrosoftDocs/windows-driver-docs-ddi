@@ -98,6 +98,10 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 ## -see-also
 
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
 
 
@@ -106,19 +110,7 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
@@ -126,7 +118,15 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 

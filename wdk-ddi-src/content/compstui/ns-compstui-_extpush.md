@@ -198,13 +198,6 @@ DLGPROC-typed pointer to a dialog box procedure to process messages for the push
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
 
 
-#### - pfnCallBack
-
-Pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
-
-
 #### - DlgTemplateID
 
 DIALOG resource identifier, describing a dialog box template.
@@ -217,6 +210,13 @@ Not used if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
+
+
+#### - pfnCallBack
+
+Pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
+
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
 
 
 ## -remarks

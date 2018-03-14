@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMAMSGPRIORITY
 title: RILMSGCDMAMSGPRIORITY
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmamsgpriority_2.htm
+old-location: netvista\rilmsgcdmamsgpriority.htm
 old-project: netvista
-ms.assetid: 3fc5f220-09ae-4f8e-8616-549a5371e2f0
+ms.assetid: aec67cd5-9ac9-41da-b5e6-a4e416923afb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: RILMSGCDMAMSGPRIORITY, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_HIGH, RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_URGENT, netvista.rilmsgcdmamsgpriority_2, rilapitypes/RILMSGCDMAMSGPRIORITY, rilapitypes/RIL_MSGPRIORITY_EMERGENCY, rilapitypes/RIL_MSGPRIORITY_HIGH, rilapitypes/RIL_MSGPRIORITY_MAX, rilapitypes/RIL_MSGPRIORITY_URGENT
+ms.date: 2/27/2018
+ms.keywords: RILMSGCDMAMSGPRIORITY, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_HIGH, RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_URGENT, netvista.rilmsgcdmamsgpriority, ntddrilapitypes/RILMSGCDMAMSGPRIORITY, ntddrilapitypes/RIL_MSGPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGPRIORITY_HIGH, ntddrilapitypes/RIL_MSGPRIORITY_MAX, ntddrilapitypes/RIL_MSGPRIORITY_URGENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGPRIORITY
 product: Windows
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -syntax

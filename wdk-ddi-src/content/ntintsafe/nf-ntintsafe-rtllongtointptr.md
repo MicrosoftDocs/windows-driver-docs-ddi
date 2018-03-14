@@ -7,7 +7,7 @@ old-location: kernel\rtllongtointptr.htm
 old-project: kernel
 ms.assetid: E583418C-7A23-4F88-A3D2-E2BA11578079
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlLongToIntPtr, RtlLongToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtllongtointptr, ntintsafe/RtlLongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

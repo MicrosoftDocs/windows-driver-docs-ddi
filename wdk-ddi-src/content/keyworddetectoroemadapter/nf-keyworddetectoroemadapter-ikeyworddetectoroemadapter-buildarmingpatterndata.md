@@ -7,7 +7,7 @@ old-location: audio\ikeyworddetectoroemadapter_buildarmingpatterndata.htm
 old-project: audio
 ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, BuildArmingPatternData,IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: keyworddetectoroemadapter.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -57,7 +57,7 @@ The <b>BuildArmingPatternData</b> method is called by the operating system to bu
 
 ````
 HRESULT BuildArmingPatternData(
-  [in]  IStream                     *ModelData,
+  [in]  IStream                     *UserModelData,
   [in]  KEYWORDSELECTOR             *KeywordSelectors,
   [in]  ULONG                       NumKeywordSelectors,
   [out] SOUNDDETECTOR_PATTERNHEADER **ppPatternData = 0
@@ -70,9 +70,9 @@ HRESULT BuildArmingPatternData(
 
 
 
-### -param UserModelData
+### -param UserModelData [in]
 
-
+A pointer to <b>IStream</b> bound to model data for the <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> values in the <i>KeywordSelectors</i> parameter.
 
 
 ### -param KeywordSelectors [in]
@@ -88,11 +88,6 @@ The number of items in the <i>KeywordSelectors</i> array. Only one key word sele
 ### -param ppPatternData [out]
 
 The pattern data for the operating system to pass to the audio driver. The OEMDLL allocates the memory calling <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. The operating system will free the memory by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - ModelData [in]
-
-A pointer to <b>IStream</b> bound to model data for the <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> values in the <i>KeywordSelectors</i> parameter.
 
 
 ## -returns
@@ -167,11 +162,7 @@ The operating system may call this method at any time. The operating system may 
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
 
 
 
@@ -179,7 +170,11 @@ The operating system may call this method at any time. The operating system may 
 
 
 
-<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+
+
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
 
 
@@ -187,5 +182,5 @@ The operating system may call this method at any time. The operating system may 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::BuildArmingPatternData method%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::BuildArmingPatternData method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

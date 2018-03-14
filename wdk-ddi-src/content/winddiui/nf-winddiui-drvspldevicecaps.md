@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -105,11 +105,6 @@ TBD
 
 
 
-#### - pwDeviceName [in]
-
-Caller-supplied pointer to a Unicode string that contains the printer name.
-
-
 #### - DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
@@ -151,11 +146,6 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
  
 
 
-#### - pvOutput [out, optional]
-
-Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
-
-
 #### - cchBuf
 
 Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
@@ -164,6 +154,16 @@ Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput
 #### - pDM [in, optional]
 
 Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
+
+
+#### - pvOutput [out, optional]
+
+Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
+
+
+#### - pwDeviceName [in]
+
+Caller-supplied pointer to a Unicode string that contains the printer name.
 
 
 ## -returns

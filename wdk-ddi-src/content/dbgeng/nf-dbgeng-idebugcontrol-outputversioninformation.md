@@ -7,7 +7,7 @@ old-location: debugger\outputversioninformation.htm
 old-project: debugger
 ms.assetid: cbf688b4-a174-4ab0-af98-2c0db1b2ab3a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputVersionInformation method, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, IDebugControl2::OutputVersionInformation, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation method [Windows Debugging], OutputVersionInformation method [Windows Debugging], IDebugControl interface, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, OutputVersionInformation,IDebugControl.OutputVersionInformation, dbgeng/IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, dbgeng/IDebugControl::OutputVersionInformation, debugger.outputversioninformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

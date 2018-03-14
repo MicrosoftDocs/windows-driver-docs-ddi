@@ -102,11 +102,11 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_colorfillflags.md">D3DDDI_COLORFILLFLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 

@@ -95,15 +95,15 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 

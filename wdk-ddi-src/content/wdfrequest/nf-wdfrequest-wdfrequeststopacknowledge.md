@@ -214,7 +214,7 @@ MyEvtIoStop(
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 
 
@@ -222,7 +222,7 @@ MyEvtIoStop(
 
 
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
 
 
 

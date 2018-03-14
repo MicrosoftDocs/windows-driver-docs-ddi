@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -198,11 +198,11 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
-
-
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
 
 
 
