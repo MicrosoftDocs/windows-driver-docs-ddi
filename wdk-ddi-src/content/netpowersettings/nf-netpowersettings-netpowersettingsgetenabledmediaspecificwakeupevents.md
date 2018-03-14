@@ -65,8 +65,6 @@ For more information, see the **MediaSpecificWakeUpEvents** member of [NDIS_PM_P
 ## -remarks
 The client driver must only call **NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-In NetAdapterCx version 1.1, the IRQL of this method was changed from DISPATCH_LEVEL to PASSIVE_LEVEL.
-
 The minimum NetAdapterCx version for **NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents** is 1.1.
 
 ## -see-also

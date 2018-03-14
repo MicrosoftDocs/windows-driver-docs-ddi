@@ -25,7 +25,10 @@
 ### [ExtExtension::OnSessionInactive method](../engextcpp/nf-engextcpp-extextension-onsessioninactive.md)
 ### [ExtExtension::SetArg method](../engextcpp/nf-engextcpp-extextension-setarg.md)
 ### [ExtExtension::SetArgStr method](../engextcpp/nf-engextcpp-extextension-setargstr.md)
+<<<<<<< HEAD
+=======
 ### [ExtExtension::SetArgU64 method](../engextcpp/nf-engextcpp-extextension-setargu64.md)
+>>>>>>> master
 ### [ExtExtension::SetUnnamedArg method](../engextcpp/nf-engextcpp-extextension-setunnamedarg.md)
 ### [ExtExtension::SetUnnamedArgStr method](../engextcpp/nf-engextcpp-extextension-setunnamedargstr.md)
 ### [ExtExtension::SetUnnamedArgU64 method](../engextcpp/nf-engextcpp-extextension-setunnamedargu64.md)

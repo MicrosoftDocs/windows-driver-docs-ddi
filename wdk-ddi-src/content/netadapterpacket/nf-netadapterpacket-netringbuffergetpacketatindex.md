@@ -66,8 +66,6 @@ Returns a pointer to the net packet at the specified index value of the packet r
 ## -remarks
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
-In NetAdapterCx 1.2, this method was updated to take a [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) as a parameter.
-
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
 
 The minimum NetAdapterCx version for **NetRingBufferGetPacketAtIndex** is 1.2.

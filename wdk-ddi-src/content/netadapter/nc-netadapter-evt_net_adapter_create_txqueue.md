@@ -88,7 +88,7 @@ To register an EVT_NET_ADAPTER_CREATE_TXQUEUE callback function, the client driv
 
 The **NETTXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [WDFDEVICE_INIT](https://msdn.microsoft.com/library/windows/hardware/ff546951).
 
-In this callback, the client driver might call [NetTxQueueInitGetQueueId](../nettxqueue/nf-nettxqueue-nettxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
+In this callback, the client driver might call [NetTxQueueInitGetQueueId](../nettxqueue/nf-nettxqueue-nettxqueueinitgetqueueid.md) to retrieve the identifier of the transmit queue to set up.
 
 Next, the client calls [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) to allocate a queue. If [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) fails, the *EvtNetAdapterCreateTxQueue* callback function should return an error code.
 
@@ -97,7 +97,9 @@ To retrieve the ring buffer associated with a given queue, call [NetTxQueueGetDa
 The minimum NetAdapterCx version for *EvtNetAdapterCreateTxQueue* is 1.0.
 
 ### Example
-NetAdapterCx calls *EvtNetAdapterCreateTxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). To configure additional properties for its Tx queues, such as DMA, the client driver sets its Tx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
+NetAdapterCx calls *EvtNetAdapterCreateTxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
+
+To configure additional properties for its Tx queues, such as DMA, the client driver sets its Tx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
 
 This example transmit queue uses two driver-defined packet contexts - one called MY_TX_PACKET_CONTEXT, and a second called MY_TCB to assist with transmit operations. For more info about setting up this second example packet context and initializing it, see [NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE](../netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md).
 
@@ -111,6 +113,7 @@ EvtAdapterCreateTxQueue(
 {
     NTSTATUS status = STATUS_SUCCESS;
 
+    // Prepare the configuration structure
     NET_TXQUEUE_CONFIG txConfig;
     NET_TXQUEUE_CONFIG_INIT(
         &txConfig,
@@ -119,33 +122,57 @@ EvtAdapterCreateTxQueue(
         EvtTxQueueCancel);
 
     // Initialize the first default packet context
-
     NET_PACKET_CONTEXT_ATTRIBUTES myTxContextAttributes;
     NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&myTxContextAttributes, MY_DEFAULT_TX_PACKET_CONTEXT);
 
     // Add the first default packet context attributes to the queue
-
     status = NetTxQueueInitAddPacketContextAttributes(txQueueInit, &myTxContextAttributes);
 
     // Initialize a second custom packet context for a transmit control block
-
     NET_PACKET_CONTEXT_ATTRIBUTES tcbContextAttributes;
     NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&tcbContextAttributes, MY_TCB);
 
     // Add the second TCB packet context attributes to the queue
-
     status = NetTxQueueInitAddPacketContextAttributes(txQueueInit, &tcbContextAttributes);
 
-    // Create the transmit queue
+    // Get the queue ID
+    const ULONG queueId = NetTxQueueInitGetQueueId(txQueueInit);
 
+    // Create the transmit queue
+    NETTXQUEUE txQueue;
     status = NetTxQueueCreate(
         txQueueInit,
         &txAttributes,
         &txConfig,
-        &netAdapter->TxQueue);
+        &txQueue);
+
+    // Get the queue context for storing the queue ID and packet extension offset info
+    PMY_TX_QUEUE_CONTEXT queueContext = GetMyTxQueueContext(txQueue);
+
+    // Store the queue ID in the context
+    queueContext->QueueId = queueId;
+
+    // Query checksum packet extension offset and store it in the context
+    NET_PACKET_EXTENSION_QUERY extension;
+    NET_PACKET_EXTENSION_QUERY_INIT(
+        &extension,
+        NET_PACKET_EXTENSION_CHECKSUM_NAME,
+        NET_PACKET_EXTENSION_CHECKSUM_VERSION_1);
+
+    queueContext->ChecksumExtensionOffset = NetTxQueueGetPacketExtensionOffset(txQueue, &extension);
+
+    // Query Large Send Offload packet extension offset and store it in the context
+    NET_PACKET_EXTENSION_QUERY_INIT(
+        &extension,
+        NET_PACKET_EXTENSION_LSO_NAME,
+        NET_PACKET_EXTENSION_LSO_VERSION_1);
+    
+    queueContext->LsoExtensionOffset = NetTxQueueGetPacketExtensionOffset(txQueue, &extension);
 
     return status;
 }
 ```
+
+For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 
 ## -see-also

@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, PCI, Windows Driver Framework, Display. For more information, see
+This header is used by Windows Driver Framework, Windows kernel, PCI, Display. For more information, see
+- [Windows Driver Framework](../_wdf/index.md)
 - [Windows kernel](../_kernel/index.md)
 - [PCI](../_PCI/index.md)
-- [Windows Driver Framework](../_wdf/index.md)
 - [Display](../_display/index.md)
 
 Miniport.h contain these programming interfaces:

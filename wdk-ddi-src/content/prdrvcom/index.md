@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by print, Display. For more information, see
-- [print](../_print/index.md)
+This header is used by Display, print. For more information, see
 - [Display](../_display/index.md)
+- [print](../_print/index.md)
 
 Prdrvcom.h contain these programming interfaces:
 

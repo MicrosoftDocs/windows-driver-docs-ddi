@@ -66,8 +66,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
-In NetAdapterCx 1.0, this method was called **NetConfigurationQueryNetworkAddress**. It was renamed to **NetConfigurationQueryLinkLayerAddress** in NetAdapterCx 1.1.
-
 The minimum NetAdapterCx version for **NetConfigurationQueryLinkLayerAddress** is 1.1.
 
 ## -see-also

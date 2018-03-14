@@ -64,8 +64,6 @@ A handle to the driver's framework driver object, obtained from a previous call 
 ## -remarks
 The driver must have previously called [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-In NetAdapterCx version 1.1, the *Type* parameter from version 1.0 was removed.
-
 The minimum NetAdapterCx version for **NetAdapterDriverWdmGetHandle** is 1.1.
 
 ## -see-also

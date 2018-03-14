@@ -13,7 +13,25 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by NetAdapterCx client drivers. For more information, see
+- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
 
-Netpowersettings.h contain these programming interfaces:
+Netpowersettings.h contains these programming interfaces:
 
+
+## Functions
+
+| Title   | Description   |
+| ---- |:---- |
+| [NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents function](nf-netpowersettings-netpowersettingsgetenabledmediaspecificwakeupevents.md) | Retrieves flags that specify currently enabled media-specific wake-up events that a network adapter supports. |
+| [NetPowerSettingsGetEnabledProtocolOffloadFlags function](nf-netpowersettings-netpowersettingsgetenabledprotocoloffloadflags.md) | Retrieves flags that specify currently enabled low power protocol offloads that a network adapter supports. |
+| [NetPowerSettingsGetEnabledWakePatternFlags function](nf-netpowersettings-netpowersettingsgetenabledwakepatternflags.md) | Retrieves flags representing currently enabled wake pattern types that a network adapter supports. |
+| [NetPowerSettingsGetEnabledWakeUpFlags function](nf-netpowersettings-netpowersettingsgetenabledwakeupflags.md) | Retrieves flags that specify currently enabled media-independent wake-up events that a network adapter supports. |
+| [NetPowerSettingsGetProtocolOffload function](nf-netpowersettings-netpowersettingsgetprotocoloffload.md) | Retrieves a structure that specifies parameters for a low power protocol offload to a network adapter. |
+| [NetPowerSettingsGetProtocolOffloadCount function](nf-netpowersettings-netpowersettingsgetprotocoloffloadcount.md) | Retrieves the number of protocol offload structures associated with a NETPOWERSETTINGS object. |
+| [NetPowerSettingsGetProtocolOffloadCountForType function](nf-netpowersettings-netpowersettingsgetprotocoloffloadcountfortype.md) | Retrieves the number of protocol offload structures in the NETPOWERSETTINGS object for the particular offload type. |
+| [NetPowerSettingsGetWakePattern function](nf-netpowersettings-netpowersettingsgetwakepattern.md) | Retrieves the wake pattern structure at the specified index. |
+| [NetPowerSettingsGetWakePatternCount function](nf-netpowersettings-netpowersettingsgetwakepatterncount.md) | Retrieves the number of wake-on-LAN (WoL) patterns stored in a NETPOWERSETTINGS object. |
+| [NetPowerSettingsGetWakePatternCountForType function](nf-netpowersettings-netpowersettingsgetwakepatterncountfortype.md) | Retrieves the number of wake-on-LAN (WoL) patterns stored in the NETPOWERSETTINGS object for the specified wake pattern type. |
+| [NetPowerSettingsIsProtocolOffloadEnabled function](nf-netpowersettings-netpowersettingsisprotocoloffloadenabled.md) | Determines if a protocol offload is enabled. |
+| [NetPowerSettingsIsWakePatternEnabled function](nf-netpowersettings-netpowersettingsiswakepatternenabled.md) | Determines if a wake-on-LAN (WoL) pattern is enabled for a network adapter. |

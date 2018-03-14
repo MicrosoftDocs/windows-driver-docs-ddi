@@ -65,8 +65,6 @@ The client driver must only call **NetPowerSettingsGetProtocolOffloadCount** dur
 
 To determine if a specific protocol offload is enabled, call [NetPowerSettingsIsProtocolOffloadEnabled](nf-netpowersettings-netpowersettingsisprotocoloffloadenabled.md).
 
-In NetAdapterCx version 1.1, the IRQL of this method was changed from DISPATCH_LEVEL to PASSIVE_LEVEL.
-
 The minimum NetAdapterCx version for **NetPowerSettingsGetProtocolOffloadCount** is 1.1.
 
 ## -see-also

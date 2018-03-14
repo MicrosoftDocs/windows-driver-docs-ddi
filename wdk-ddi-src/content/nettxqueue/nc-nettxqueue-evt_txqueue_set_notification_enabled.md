@@ -88,8 +88,6 @@ Register this callback function in by setting the appropriate member of [NET_TX_
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.
 
-In NetAdapterCx 1.1, the return type of this method was changed from **NTSTATUS** in version 1.0 to **VOID**.
-
 The minimum NetAdapterCx version for *EVT_TXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
 
 ### Example

@@ -13,7 +13,14 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by NetAdapterCx client drivers. For more information, see
+- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
 
-Netadaptercxtypes.h contain these programming interfaces:
+Netadaptercxtypes.h contains these programming interfaces:
 
+
+## Structures
+
+| Title   | Description   |
+| ---- |:---- |
+| [_NET_DRIVER_GLOBALS structure](ns-netadaptercxtypes-_net_driver_globals.md) | Call NET_DRIVER_GLOBALS_INIT to initialize this structure. |
