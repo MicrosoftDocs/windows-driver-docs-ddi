@@ -95,7 +95,7 @@ The chromaticity coordinates of the white point in the CIE xy color space. Index
 
 ### -field MaxMasteringLuminance
 
-The maximum number of nits of the display used to master the content. Values are normalized to 10,000.
+The maximum number of nits of the display used to master the content. Values are in whole nits.
 
 
 ### -field MinMasteringLuminance
