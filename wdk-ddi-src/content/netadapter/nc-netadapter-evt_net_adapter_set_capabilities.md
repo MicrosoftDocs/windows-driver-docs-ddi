@@ -100,6 +100,7 @@ Optionally, the client can also call:
 
 - [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
 - [NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
+- [NetAdapterSetReceiveScalingCapabilities](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
 
 To set an attribute that does not have equivalent NetAdapter functionality, for example to report offload capabilities, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from *EvtNetAdapterSetCapabilities*. Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
 
