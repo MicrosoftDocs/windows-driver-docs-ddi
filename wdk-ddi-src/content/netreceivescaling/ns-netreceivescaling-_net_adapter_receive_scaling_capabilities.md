@@ -57,7 +57,7 @@ The number of hardware receive queues. This member must be a power of 2.
 The number of indirection table entries. This member must be a power of 2.
 
 ### -field UnhashedTarget
-The default destination for frame to which no hash is applied. The value of this member depends on the value of the **UnhashedTargetType** member:
+The default destination for frames to which no hash is applied. The value of this member depends on the value of the **UnhashedTargetType** member:
 
 - If **UnhashedTargetType** is set to **NetAdapterReceiveScalingUnhashedTargetTypeUnspecified**, **UnhashedTarget** is ignored.
 - If **UnhashedTargetType** is set to **NetAdapterReceiveScalingUnhashedTargetTypeHashIndex**, **UnhashedTarget** specifies a hash index in the indirection table.
