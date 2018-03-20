@@ -69,7 +69,7 @@ The preferred NUMA node to use when allocating memory. If this member is set to 
 ## -remarks
 Call [NET_ADAPTER_DMA_CAPABILITIES_INIT](nf-netadapter-net_adapter_dma_capabilities_init.md) to initialize this structure.
 
-This structure replaces the **NET_RX_QUEUE_DMA_ALLOCATOR_CONFIG** structure that Rx queues used in NetAdapterCx 1.1. The difference is that this structure can be used either in Rx queues, as a member of the [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure, or in Tx queues, as a member of the [NET_ADAPTER_TX_CAPABILITIES](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md) structure.
+This structure can be used either in Rx queues, as a member of the [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure, or in Tx queues, as a member of the [NET_ADAPTER_TX_CAPABILITIES](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md) structure.
 
 The minimum NetAdapterCx version for **NET_ADAPTER_DMA_CAPABILITIES** is 1.2.
 
