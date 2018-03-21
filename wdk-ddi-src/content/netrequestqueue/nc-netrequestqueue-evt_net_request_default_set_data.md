@@ -76,19 +76,19 @@ typedef EVT_NET_REQUEST_DEFAULT_SET_DATA *PFN_NET_REQUEST_DEFAULT_SET_DATA;
 
 ## -parameters
 
-### -param RequestQueue: 
+### -param RequestQueue 
 A handle to a net request queue object.
 
-### -param Request: 
+### -param Request 
 A handle to a net request object.
 
-### -param Oid: 
+### -param Oid 
 Specifies the object identifier of the requested operation. The value is an OID\_*XXX* code. 
 
-### -param InputBuffer: 
+### -param InputBuffer 
 A pointer to a caller-supplied buffer.
 
-### -param InputBufferLength: 
+### -param InputBufferLength 
 The size of the buffer pointed to by *InputBuffer*.
 
 ## -returns

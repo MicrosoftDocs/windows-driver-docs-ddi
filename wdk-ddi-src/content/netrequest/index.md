@@ -9,30 +9,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Netrequest.h header
-
-
+## -description
 
 This header is used by NetAdapterCx client drivers. For more information, see
 - [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
-
-Netrequest.h contains these programming interfaces:
-
-
-## Functions
-
-| Title   | Description   |
-| ---- |:---- |
-| [NetRequestCompleteWithoutInformation function](nf-netrequest-netrequestcompletewithoutinformation.md) | Completes a NETREQUEST and supplies a completion status. |
-| [NetRequestGetAdapter function](nf-netrequest-netrequestgetadapter.md) | The NetRequestGetAdapter method retrieves the NETADAPTER object associated with a NETREQUEST. This method is reserved for system use. Do not call this method from your code. |
-| [NetRequestGetId function](nf-netrequest-netrequestgetid.md) | Retrieves the NDIS_OID identifier associated with the specified network request object. |
-| [NetRequestGetPortNumber function](nf-netrequest-netrequestgetportnumber.md) | Retrieves the port number for the network request object. |
-| [NetRequestGetSwitchId function](nf-netrequest-netrequestgetswitchid.md) | Retrieves the switch identifier for the net request. |
-| [NetRequestGetType function](nf-netrequest-netrequestgettype.md) | Retrieves the request type in an OID request. |
-| [NetRequestGetVPortId function](nf-netrequest-netrequestgetvportid.md) | Retrieves the VPortId for the NETREQUEST. |
-| [NetRequestMethodComplete function](nf-netrequest-netrequestmethodcomplete.md) | Completes a method (OID) request. |
-| [NetRequestQueryDataComplete function](nf-netrequest-netrequestquerydatacomplete.md) | Completes a query data (OID) request. |
-| [NetRequestRetrieveInputOutputBuffer function](nf-netrequest-netrequestretrieveinputoutputbuffer.md) | Retrieves the input/output buffer associated with a NETREQUEST object. |
-| [NetRequestSetBytesNeeded function](nf-netrequest-netrequestsetbytesneeded.md) | Sets the number of bytes needed to read or write for a control request (OID). |
-| [NetRequestSetDataComplete function](nf-netrequest-netrequestsetdatacomplete.md) | Completes a set data (OID) request. |
-| [NetRequestWdmGetNdisOidRequest function](nf-netrequest-netrequestwdmgetndisoidrequest.md) | Retrieves the traditional WDM NDIS_OID_REQUEST structure for the NETREQUEST. |

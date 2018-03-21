@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_DRIVER_GLOBALS, NET_DRIVER_GLOBALS
+req.typenames: NET_DRIVER_GLOBALS, *PNET_DRIVER_GLOBALS
 topictype: 
 -	apiref
 apitype: 

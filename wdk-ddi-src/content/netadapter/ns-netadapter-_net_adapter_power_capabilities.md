@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_ADAPTER_POWER_CAPABILITIES, NET_ADAPTER_POWER_CAPABILITIES
+req.typenames: NET_ADAPTER_POWER_CAPABILITIES, *PNET_ADAPTER_POWER_CAPABILITIES
 topictype: 
 -	apiref
 apitype: 

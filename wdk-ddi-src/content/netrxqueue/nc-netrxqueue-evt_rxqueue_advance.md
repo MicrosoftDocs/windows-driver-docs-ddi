@@ -72,7 +72,7 @@ typedef EVT_RXQUEUE_ADVANCE *PFN_RXQUEUE_ADVANCE;
 
 ## -parameters
 
-### -param RxQueue: 
+### -param RxQueue 
 A handle to a net receive queue.
 
 ## -returns

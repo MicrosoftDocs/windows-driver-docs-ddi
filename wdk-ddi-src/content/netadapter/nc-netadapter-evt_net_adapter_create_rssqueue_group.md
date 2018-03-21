@@ -69,10 +69,10 @@ typedef EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP *PFN_NET_ADAPTER_CREATE_RSSQUEUE_G
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 Reserved.
 
-### -param RssQueueGroupInit: 
+### -param RssQueueGroupInit 
 Reserved.
 
 ## -returns

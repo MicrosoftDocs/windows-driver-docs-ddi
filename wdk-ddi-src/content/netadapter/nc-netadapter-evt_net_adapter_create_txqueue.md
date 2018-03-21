@@ -72,10 +72,10 @@ typedef EVT_NET_ADAPTER_CREATE_TXQUEUE *PFN_NET_ADAPTER_CREATE_TXQUEUE;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param TxQueueInit: 
+### -param TxQueueInit 
 A pointer to a NetAdapterCx-allocated **NETTXQUEUE_INIT** structure. For more information, see the Remarks section.
 
 ## -returns

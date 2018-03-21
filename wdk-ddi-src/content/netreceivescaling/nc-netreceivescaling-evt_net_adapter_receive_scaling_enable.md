@@ -68,7 +68,7 @@ typedef EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE *PFN_NET_ADAPTER_RECEIVE_SCALING_
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ## -returns

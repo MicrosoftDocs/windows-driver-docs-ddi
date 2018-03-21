@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_RXQUEUE_CONFIG, NET_RXQUEUE_CONFIG
+req.typenames: NET_RXQUEUE_CONFIG, *PNET_RXQUEUE_CONFIG
 topictype: 
 -	apiref
 apitype: 

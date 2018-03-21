@@ -76,19 +76,19 @@ typedef EVT_NET_REQUEST_DEFAULT_QUERY_DATA *PFN_NET_REQUEST_DEFAULT_QUERY_DATA;
 
 ## -parameters
 
-### -param RequestQueue: 
+### -param RequestQueue 
 A handle to a net request queue object.
 
-### -param Request: 
+### -param Request 
 A handle to a network request object.
 
-### -param Oid: 
+### -param Oid 
 The object identifier of the requested operation. The value is an OID_\*XXX* code.
 
-### -param OutputBuffer: 
+### -param OutputBuffer 
 A pointer to a caller-supplied buffer.
 
-### -param OutputBufferLength: 
+### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ## -returns

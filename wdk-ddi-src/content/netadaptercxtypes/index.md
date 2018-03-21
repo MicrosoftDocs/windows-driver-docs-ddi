@@ -9,18 +9,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Netadaptercxtypes.h header
-
-
+## -description
 
 This header is used by NetAdapterCx client drivers. For more information, see
 - [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
-
-Netadaptercxtypes.h contains these programming interfaces:
-
-
-## Structures
-
-| Title   | Description   |
-| ---- |:---- |
-| [_NET_DRIVER_GLOBALS structure](ns-netadaptercxtypes-_net_driver_globals.md) | Call NET_DRIVER_GLOBALS_INIT to initialize this structure. |

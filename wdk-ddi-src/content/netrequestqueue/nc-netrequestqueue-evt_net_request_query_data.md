@@ -75,16 +75,16 @@ typedef EVT_NET_REQUEST_QUERY_DATA *PFN_NET_REQUEST_QUERY_DATA;
 
 ## -parameters
 
-### -param RequestQueue: 
+### -param RequestQueue 
 A handle to a net request queue object.
 
-### -param Request: 
+### -param Request 
 A handle to a network request object.
 
-### -param OutputBuffer: 
+### -param OutputBuffer 
 A pointer to a caller-supplied buffer.
 
-### -param OutputBufferLength: 
+### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ## -returns
