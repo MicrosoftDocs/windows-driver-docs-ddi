@@ -71,13 +71,13 @@ typedef EVT_NET_ADAPTER_RETURN_RX_BUFFER *PFN_NET_ADAPTER_RETURN_RX_BUFFER;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param RxBufferVirtualAddress: 
+### -param RxBufferVirtualAddress 
 A pointer to the virtual address of the [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md) receive buffer. Cast this member to a **PNET_PACKET_FRAGMENT** to retrieve the fragment.
 
-### -param RxBufferReturnContext: 
+### -param RxBufferReturnContext 
 A pointer to a driver-allocated context space structure.
 
 ## -returns

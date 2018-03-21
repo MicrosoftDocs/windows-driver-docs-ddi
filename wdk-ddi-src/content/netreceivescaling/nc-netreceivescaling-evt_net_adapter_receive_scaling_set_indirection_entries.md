@@ -69,10 +69,10 @@ typedef EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES *PFN_NET_ADAPTER
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param IndirectionEntries: 
+### -param IndirectionEntries 
 A pointer to a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md) structure that represents the indirection table.
 
 ## -returns

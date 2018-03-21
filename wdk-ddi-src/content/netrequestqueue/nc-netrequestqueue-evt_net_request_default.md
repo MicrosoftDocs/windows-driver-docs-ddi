@@ -78,25 +78,25 @@ typedef EVT_NET_REQUEST_DEFAULT *PFN_NET_REQUEST_DEFAULT;
 
 ## -parameters
 
-### -param RequestQueue: 
+### -param RequestQueue 
 A handle to the net request queue object that is associated with the I/O request.
 
-### -param Request: 
+### -param Request 
 A handle to a network request object.
 
-### -param RequestType: 
+### -param RequestType 
 The request type as one of the [NDIS_REQUEST_TYPE](../ntddndis/ne-ntddndis-_ndis_request_type.md) enumeration values.
 
-### -param Oid: 
+### -param Oid 
 The object identifier of the requested operation. The value is an OID\_*XXX* code.
 
-### -param InputOutputBuffer: 
+### -param InputOutputBuffer 
 A pointer to a buffer into which the client driver or NetAdapterCx returns information for the specified request.
 
-### -param InputBufferLength: 
+### -param InputBufferLength 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-### -param OutputBufferLength: 
+### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ## -returns

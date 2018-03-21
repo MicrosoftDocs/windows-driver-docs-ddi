@@ -69,7 +69,7 @@ typedef EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY *PFN_NET_ADAPTER_REC
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param HashSecretKey: 

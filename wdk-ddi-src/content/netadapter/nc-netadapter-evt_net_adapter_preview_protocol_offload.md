@@ -75,16 +75,16 @@ typedef EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD *PFN_NET_ADAPTER_PREVIEW_PROTOC
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param ExistingPowerSettings: 
+### -param ExistingPowerSettings  
 A handle to the net power settings object.
 
 ### -param ProtocolOffloadType: 
 An [NDIS_PM_PROTOCOL_OFFLOAD_TYPE](../ntddndis/ne-ntddndis-_ndis_pm_protocol_offload_type.md) enumeration value that specifies the type of protocol offload.
 
-### -param ProtocolOffloadToBeAdded: 
+### -param ProtocolOffloadToBeAdded   
 A pointer to a structure of type [NDIS_PM_PROTOCOL_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) that specifies the protocol offload to accept or reject.
 
 ## -returns

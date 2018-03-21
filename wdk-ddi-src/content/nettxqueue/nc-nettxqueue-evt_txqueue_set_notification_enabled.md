@@ -73,10 +73,10 @@ typedef EVT_TXQUEUE_SET_NOTIFICATION_ENABLED *PFN_TXQUEUE_SET_NOTIFICATION_ENABL
 
 ## -parameters
 
-### -param TxQueue: 
+### -param TxQueue 
 A handle to a net transmit queue.
 
-### -param NotificationEnabled: 
+### -param NotificationEnabled 
 A value of **TRUE** requests that the client enable transmit queue notification. A value of **FALSE** requests that the client disable transmit queue notification.
 
 ## -returns

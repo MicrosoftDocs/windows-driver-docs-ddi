@@ -76,19 +76,19 @@ typedef EVT_NET_REQUEST_METHOD *PFN_NET_REQUEST_METHOD;
 
 ## -parameters
 
-### -param RequestQueue: 
+### -param RequestQueue 
 A handle to a net request queue object.
 
-### -param Request: 
+### -param Request 
 A handle to a network request object.
 
-### -param InputOutputBuffer: 
+### -param InputOutputBuffer 
 A pointer to a buffer into which the client driver or NetAdapterCx returns information for the specified request.
 
-### -param InputBufferLength: 
+### -param InputBufferLength 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-### -param OutputBufferLength: 
+### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ## -returns

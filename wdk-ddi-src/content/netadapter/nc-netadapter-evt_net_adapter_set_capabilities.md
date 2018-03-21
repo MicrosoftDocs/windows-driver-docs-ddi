@@ -72,7 +72,7 @@ typedef EVT_NET_ADAPTER_SET_CAPABILITIES *PFN_NET_ADAPTER_SET_CAPABILITIES;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 
