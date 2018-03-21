@@ -101,7 +101,8 @@ The location platform only sends an exit trigger to apps when the previous known
 
 The geofence state transition and the associated alerts are shown below. For simplicity, the hysteresis and geofence boundary conditions are implied.
 
-<img alt="GNSS Geofence state diagram" src="images/geofence_entry_exit_DRAFT.png"/>
+![GNSS geofence state diagram](images/geofence-entry-exit.png)
+
 The key aspects of this state diagram are:
 
 <ul>

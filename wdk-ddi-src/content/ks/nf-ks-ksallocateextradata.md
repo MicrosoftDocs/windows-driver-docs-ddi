@@ -100,7 +100,8 @@ The <b>KsAllocateExtraData</b> function returns STATUS_SUCCESS if successful, or
 
 When <b>KsAllocateExtraData</b> completes successfully, a pointer to a block of memory is returned that contains both the stream data headers from the IRP, specified at <i>Irp</i>, and padding between each header of size specified in <i>ExtraSize</i>. An example of such a resultant buffer is shown below:
 
-<img alt="Diagram illustrating a resultant buffer" src="images/ksexdata.png"/>
+![Diagram illustrating a resultant buffer](images/ksexdata.png)
+
 When the extra buffer is no longer needed, the memory should be freed using <b>ExFreePool</b>.
 
 
