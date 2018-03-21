@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_RXQUEUE_BUFFER_LAYOUT_HINT, NET_RXQUEUE_BUFFER_LAYOUT_HINT
+req.typenames: NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT
 topictype: 
 -	apiref
 apitype: 

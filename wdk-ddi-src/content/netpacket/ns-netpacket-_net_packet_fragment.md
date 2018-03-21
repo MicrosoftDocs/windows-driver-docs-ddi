@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: NET_PACKET_FRAGMENT
+req.typenames: NET_PACKET_FRAGMENT, *PNET_PACKET_FRAGMENT
 topictype: 
 -	apiref
 apitype: 
