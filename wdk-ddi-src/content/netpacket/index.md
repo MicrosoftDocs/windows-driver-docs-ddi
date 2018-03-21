@@ -9,11 +9,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Netpacket.h header
-
-
+## -description
 
 This header is used by NetAdapterCx client drivers. For more information, see
 - [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
-
-Netpacket.h contains these programming interfaces:

@@ -8,9 +8,3 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
-
-# Tlvgeneratorparser.h header
-
-
-
-This header is used by unknown technology.
