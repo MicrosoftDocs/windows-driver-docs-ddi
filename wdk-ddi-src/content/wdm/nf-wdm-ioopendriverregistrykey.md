@@ -1,0 +1,65 @@
+---
+UID: NF:wdm.IoOpenDriverRegistryKey
+title: IoOpenDriverRegistryKey function
+author: windows-driver-content
+description: Reserved.
+ms.assetid: 5166cf0f-81c2-4567-91a8-67ae6727fbdd
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: function
+ms.keywords: IoOpenDriverRegistryKey
+req.header: wdm.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:NtosKrnl.exe
+req.dll:
+req.irql: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topictype: 
+-	apiref
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	IoOpenDriverRegistryKey
+product: Windows
+targetos: Windows
+
+---
+
+# IoOpenDriverRegistryKey function
+
+
+## -description
+
+Reserved. Do not use.
+
+## -parameters
+
+### -param DriverObject
+TBD
+### -param RegKeyType
+TBD
+### -param DesiredAccess
+TBD
+### -param Flags
+TBD
+### -param DriverRegKey
+TBD
+
+## -returns
+This function returns NTKERNELAPI NTSTATUS.
+## -remarks
+
+## -see-also
