@@ -98,11 +98,12 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 
 ### -field KbCallbackSecondaryMultiPartDumpData
-
+Specifies that the callback is executed to get the amount of data the driver wants to store in the dump file. For more information about this type of callback, see <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>. This enumeration value is supported in Windows Server 2008 and later versions of Windows.
 
 ### -field KbCallbackRemovePages
 
 
+### -field KbCallbackTriageDumpData
 
 
 ## -see-also

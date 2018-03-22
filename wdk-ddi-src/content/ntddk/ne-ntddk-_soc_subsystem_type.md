@@ -81,22 +81,24 @@ typedef enum _SOC_SUBSYSTEM_TYPE {
 
 
 ### -field SOC_SUBSYS_WIRELESS_MODEM
-
+Wireless modem.
 
 ### -field SOC_SUBSYS_AUDIO_DSP
 
-Audio digital signal processor (DSP)
+Audio digital signal processor (DSP).
 
 
 ### -field SOC_SUBSYS_WIRELSS_CONNECTIVITY
 
-Wireless connectivity
+Wireless connectivity.
 
 
 ### -field SOC_SUBSYS_SENSORS
 
-Sensors
+Sensors.
 
+### -field SOC_SUBSYS_COMPUTE_DSP : 
+Compute digital signal processor (DSP).
 
 ### -field SOC_SUBSYS_VENDOR_DEFINED
 
@@ -105,5 +107,5 @@ Subsystem types in the range 0x10000 through 0x80000000 are reserved for indepen
 
 #### - SOC_SUBSYSTEM_WIRELESS_MODEM
 
-Wireless modem
+Wireless modem.
 
