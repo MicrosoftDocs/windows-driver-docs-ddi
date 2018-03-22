@@ -2,7 +2,7 @@
 UID: NF:netadapterpacket.NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
 title: NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro
 author: windows-driver-content
-description: The NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro creates an accessor method with a specified name for a client driver's object-specific context space. Starting in NetAdapterCx 1.1, a second accessor method is also created with the same name as the first, but with the string "FromToken" appended.
+description: The NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro creates an accessor method with a specified name for a client driver's object-specific context space, as well as a second accessor method with the same name as the first, but with the string "FromToken" appended.
 ms.assetid: 184fdd5f-0ba3-4c6b-9bf6-2782eee61f5c
 ms.author: windowsdriverdev
 ms.date: 02/07/2018
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 >
 > NetAdapterCx is preview only in Windows 10, version 1803.
 
-The **NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME** macro creates an accessor method with a specified name for a client driver's object-specific context space. Starting in NetAdapterCx 1.1, a second accessor method is also created with the same name as the first, but with the string "FromToken" appended.
+The **NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME** macro creates an accessor method with a specified name for a client driver's object-specific context space, as well as a second accessor method with the same name as the first, but with the string "FromToken" appended.
 
 ## -parameters
 
