@@ -1,6 +1,4 @@
 # [Networking drivers for Windows Vista and later](index.md)
-## [Arrayofelements.hpp](../arrayofelements/index.md)
-### [operator= function](../arrayofelements/nf-arrayofelements-arrayofelements-operator=.md)
 ## [Dot11Wdi.h](../dot11wdi/index.md)
 ### [MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback](../dot11wdi/nc-dot11wdi-miniport_wdi_adapter_hang_diagnose.md)
 ### [MINIPORT_WDI_ALLOCATE_ADAPTER callback](../dot11wdi/nc-dot11wdi-miniport_wdi_allocate_adapter.md)
