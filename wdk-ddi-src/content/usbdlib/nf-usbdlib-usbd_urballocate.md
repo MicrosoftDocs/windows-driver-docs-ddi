@@ -169,7 +169,7 @@ CreateandSubmitURBExit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 
