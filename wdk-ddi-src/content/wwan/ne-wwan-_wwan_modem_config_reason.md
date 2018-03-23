@@ -60,7 +60,6 @@ The <b>WWAN_MODEM_CONFIG_REASON</b> enumeration lists definitions for reasons wh
 typedef enum _WWAN_MODEM_CONFIG_REASON { 
   WwanModemConfigReasonNone               = 0,
   WwanModemConfigReasonSIMDetected,
-  WwanModemConfigReasonSIMRemoved,
   WwanModemConfigReasonNOSIM,
   WwanModemConfigReasonIMSIReset,
   WwanModemConfigReasonActivationFailure,
@@ -85,11 +84,6 @@ Default value that can be used if other optional reasons are not supported.
 ### -field WwanModemConfigReasonSIMDetected
 
 Required. A SIM card was detected by a modem.
-
-
-### -field WwanModemConfigReasonSIMRemoved
-
-Optional. A SIM card was removed.
 
 
 ### -field WwanModemConfigReasonNOSIM

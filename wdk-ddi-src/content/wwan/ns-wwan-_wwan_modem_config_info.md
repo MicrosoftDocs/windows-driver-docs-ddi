@@ -60,24 +60,34 @@ The <b>WWAN_MODEM_CONFIG_INFO</b> structure represents the modem's configuration
 typedef struct _WWAN_MODEM_CONFIG_INFO {
   WWAN_MODEM_CONFIG_STATUS ConfigStatus;
   WWAN_MODEM_CONFIG_MODE   ConfigMode;
+  WWAN_MODEM_CONFIG_REASON ConfigReason;
+  WWAN_MODEM_CONFIG_ID     PreviousConfigID;
+  WWAN_MODEM_CONFIG_ID     CurrentConfigID;
+  DWORD                    IsCurrentConfigDefault;
 } WWAN_MODEM_CONFIG_INFO, *PWWAN_MODEM_CONFIG_INFO;
 ````
 
 
 ## -struct-fields
 
-
-
-
-### -field ConfigStatus
-
-A formatted <a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a> structure containing the modem's configuration (config) status.
-
-
 ### -field ConfigMode
 
 The modem's configuration mode. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_mode.md">WWAN_MODEM_CONFIG_MODE</a>.
-
+ 
+### -field ConfigState
+The modem's configuration state. For a list of defined values, see [WWAN_MODEM_CONFIG_STATE](ne-wwan-_wwan_modem_config_state.md).
+ 
+### -field ConfigReason
+The reason why the modem's configuration state change was triggered. For a list of defined values, see [WWAN_MODEM_CONFIG_REASON](ne-wwan-_wwan_modem_config_reason.md).
+ 
+### -field PreviousConfigID
+A [WWAN_MODEM_CONFIG_ID](ns-wwan-_wwan_modem_config_id.md) value that specifies the ID for the modem's previous configuration.
+ 
+### -field CurrentConfigID
+A [WWAN_MODEM_CONFIG_ID](ns-wwan-_wwan_modem_config_id.md) value that specifies the ID for the modem's current configuration.
+ 
+### -field IsCurrentConfigDefault
+A DWORD value indicating if the current configuration is the modem's default configuration.
 
 ## -see-also
 

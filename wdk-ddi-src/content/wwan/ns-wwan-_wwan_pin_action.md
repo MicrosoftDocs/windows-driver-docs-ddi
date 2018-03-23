@@ -63,6 +63,7 @@ typedef struct _WWAN_PIN_ACTION {
   WWAN_PIN_OPERATION PinOperation;
   WCHAR              Pin[WWAN_PIN_LEN];
   WCHAR              NewPin[WWAN_PIN_LEN];
+  BOOLEAN            RequestPinOperationPrompt;
 } WWAN_PIN_ACTION, *PWWAN_PIN_ACTION;
 ````
 
@@ -79,7 +80,7 @@ The type of the PIN on which to perform the action.
 
 ### -field PinOperation
 
-The action to perform with the PIN.
+The action to perform with the PIN. For more information, see [WWAN_PIN_OPERATION](ne-wwan-_wwan_pin_operation.md).
 
 
 ### -field Pin
@@ -97,6 +98,11 @@ A NULL-terminated string that represents the new PIN value to set when
      <b>WwanPinOperationEnter</b>, for 
      <b>PinType</b><b>WwanPinTypePuk1</b> or 
      <b>WwanPinTypePuk2</b>. This member is a numeric value.
+
+
+### -field RequestPinOperationPrompt
+
+A BOOLEAN value that indicates whether to display a prompt to request the PIN operation.
 
 
 ## -remarks
