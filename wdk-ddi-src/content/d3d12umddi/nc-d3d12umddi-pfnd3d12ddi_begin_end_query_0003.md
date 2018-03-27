@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,6 +75,7 @@ VOID  APIENTRY* pfnBeginQuery(
 
 ### -param D3D12DDI_HCOMMANDLIST
 
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param D3D12DDI_HQUERYHEAP
 
@@ -103,7 +104,7 @@ The value of the start element.
 
 #### - hCommandList
 
-The handle of a command list for which to query. 
+The handle of a command list for which to query.
 
 
 #### - hQueryHeap

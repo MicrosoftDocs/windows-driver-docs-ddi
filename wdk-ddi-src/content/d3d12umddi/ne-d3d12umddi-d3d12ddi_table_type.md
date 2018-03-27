@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -56,7 +56,7 @@ Command list and queue types to allow drivers to point to different implementati
 
 
 ````
-typedef enum D3D12DDI_TABLE_TYPE { 
+typedef enum D3D12DDI_TABLE_TYPE {
   D3D12DDI_TABLE_TYPE_DEVICE_CORE                               = 0,
   D3D12DDI_TABLE_TYPE_COMMAND_LIST_3D                           = 1,
   D3D12DDI_TABLE_TYPE_COMMAND_QUEUE_3D                          = 2,
@@ -161,3 +161,6 @@ Content protection callbacks.
 
 Device content protection streaming.
 
+### -field D3D12DDI_TABLE_TYPE_0033_METACOMMAND
+
+Meta-command.

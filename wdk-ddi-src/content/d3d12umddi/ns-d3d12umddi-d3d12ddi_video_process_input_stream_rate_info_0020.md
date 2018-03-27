@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -49,7 +49,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020
 ## -description
 
 
-Information for the input stream rate to use for video processing in a pattern, such as deinterlacing or frame-rate conversion. 
+Information for the input stream rate to use for video processing in a pattern, such as deinterlacing or frame-rate conversion.
 
 
 ## -syntax
@@ -76,7 +76,7 @@ The frame rate of the input video stream, as a <a href="https://msdn.microsoft.c
 
 ### -field OutputIndex
 
-The zero-based index of the output frame. 
+The zero-based index of the output frame.
 
 
 ### -field InputFrameOrField

@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -56,7 +56,7 @@ A hint for the graphics driver to optimize for different scenarios.
 
 
 ````
-typedef enum D3D12DDI_VIDEO_USAGE { 
+typedef enum D3D12DDI_VIDEO_USAGE {
   D3D12DDI_VIDEO_USAGE_NORMAL  = 0,
   D3D12DDI_VIDEO_USAGE_POWER   = 1,
   D3D12_VIDEO_USAGE_QUALITY    = 2

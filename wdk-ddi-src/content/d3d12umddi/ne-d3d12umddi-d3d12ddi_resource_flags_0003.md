@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -56,7 +56,7 @@ Specifies resource flag values.
 
 
 ````
-typedef enum D3D12DDI_RESOURCE_FLAGS_0003 { 
+typedef enum D3D12DDI_RESOURCE_FLAGS_0003 {
   D3D12DDI_RESOURCE_FLAG_0003_NONE                         = 0x0,
   D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET                = 0x1,
   D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL                = 0x2,
@@ -119,3 +119,14 @@ Content protection.
 
 Unordered access. This value is available as a resource flag for the fallback plans.
 
+### -field D3D12DDI_RESOURCE_FLAG_0041_ONLY_NON_RT_DS_TEXTURE_PLACEMENT
+
+Not currently used.
+
+### -field D3D12DDI_RESOURCE_FLAG_0041_ONLY_RT_DS_TEXTURE_PLACEMENT
+
+Not currently used.
+
+### -field D3D12DDI_RESOURCE_FLAG_0041_4MB_ALIGNED
+
+Not currently used.

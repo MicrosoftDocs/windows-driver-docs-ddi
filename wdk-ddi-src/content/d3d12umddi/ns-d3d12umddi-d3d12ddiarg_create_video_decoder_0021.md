@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -101,12 +101,12 @@ The maximum number of decode picture buffers this stream can have.
 
 ### -field FrameRate
 
-The frame rate of the input video stream.  
+The frame rate of the input video stream.
 
 
 ### -field BitRate
 
- 
+
 
 
 ### -field Usage
@@ -116,16 +116,16 @@ A hint for the intended usage for the decoder stream. For more information, see 
 
 #### - Bitrate
 
-The data compression rate, in bits per second, for the compressed video stream.  
+The data compression rate, in bits per second, for the compressed video stream.
 
 
 ## -remarks
 
 
 
-Drivers can use the <i>Bitrate</i> and <i>FrameRate</i> parameters to inform heuristics such as intermediate allocation sizes or performance optimizations.  
+Drivers can use the <i>Bitrate</i> and <i>FrameRate</i> parameters to inform heuristics such as intermediate allocation sizes or performance optimizations.
 
-Decoding a frame is allowed to fail if the <i>Bitrate</i> and <i>FrameRate</i> values are insufficient for the video stream.  If decode fails for this reason, the query <b>D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS</b> must return a status of <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>.    
+Decoding a frame is allowed to fail if the <i>Bitrate</i> and <i>FrameRate</i> values are insufficient for the video stream.  If decode fails for this reason, the query <b>D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS</b> must return a status of <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>.
 
 The <i>Bitrate</i> and <i>FrameRate</i> parameters may also be set to zero.  When these values are used, drivers must make worst case assumptions. They are not allowed to fail with <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>.
 

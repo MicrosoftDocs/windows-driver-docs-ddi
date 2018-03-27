@@ -17,18 +17,18 @@ req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -56,7 +56,7 @@ Describes the video capabilities to query.
 
 
 ````
-typedef enum D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY { 
+typedef enum D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY {
   D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_CAPS                    = 1,
   D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLING            = 2,
   D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_RECOMMEND_DECODER_DOWNSAMPLING  = 3
@@ -101,6 +101,9 @@ The input structure is of type <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0dd
 
 
 
+### -field D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM
+
+Query driver for decoder histogram support. The associated data structure is D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM.
 
 ## -see-also
 

@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -49,7 +49,7 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ## -description
 
 
-The <i>pfnDecodeFrame</i> callback function records a decode frame operation to the command list.  
+The <i>pfnDecodeFrame</i> callback function records a decode frame operation to the command list.
 
 
 ## -prototype
@@ -108,7 +108,7 @@ The input bitstream, parameters, reference frames, and other input parameters fo
 
 #### - pOutputStreamArguments
 
-The output surface and output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
+The output surface and output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure.
 
 
 ## -returns

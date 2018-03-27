@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -78,26 +78,27 @@ HRESULT  APIENTRY* PFND3D12DDI_CREATEHEAPANDRESOURCE_0030(
 
 ### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
-### -param *
+### -param D3D12DDIARG_CREATEHEAP_0001
 
+Arguments used to create a heap.
 
 ### -param D3D12DDI_HHEAP
 
+Used to create a heap.
 
 ### -param D3D12DDI_HRTRESOURCE
 
+Used to create a resource.
 
 ### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
 
+The protected resource session.
 
 ### -param D3D12DDI_HRESOURCE
 
-
-
-
-
-
+The hardware resource.
 
 
 #### - d3d12ddi_clear_values [in, optional]
@@ -108,31 +109,6 @@ Used to clear the values of the resource.
 #### - d3d12ddi_hdevice
 
 The device being operated on.
-
-
-#### - d3d12ddi_hheap
-
-Used to create a heap.
-
-
-#### - d3d12ddi_hprotectedresourcesession_0030
-
-The protected resource session.
-
-
-#### - d3d12ddi_hresource
-
-The hardware resource.
-
-
-#### - d3d12ddi_hrtresource
-
-Used to create a resource.
-
-
-#### - d3d12ddiarg_createheap_0001 [in, optional]
-
-Arguments used to create a heap.
 
 
 #### - d3d12ddiarg_createresource_0003 [in, optional]

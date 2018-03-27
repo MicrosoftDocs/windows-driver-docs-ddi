@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -87,7 +87,7 @@ The set of references to be able to perform processing. If stereo format is <b>D
 
 ### -field Transform
 
-Flip, rotation, scale and destination translation for the video input.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a> structure. 
+Flip, rotation, scale and destination translation for the video input.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a> structure.
 
 
 ### -field Flags
@@ -102,7 +102,7 @@ Frame rate and input and output indexes for frame rate conversion and deinterlac
 
 ### -field FieldType
 
-Frame format as progressive or interlaced for the input stream. 
+Frame format as progressive or interlaced for the input stream.
 
 
 ### -field DeinterlaceMode

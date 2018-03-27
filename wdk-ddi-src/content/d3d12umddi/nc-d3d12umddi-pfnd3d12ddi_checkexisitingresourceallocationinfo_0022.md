@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -74,6 +74,7 @@ VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
 
 ### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
 ### -param D3D12DDI_HRESOURCE
 
@@ -99,7 +100,7 @@ A resource handle.
 
 #### - pInfo [out]
 
-Information for resource allocation. 
+Information for resource allocation.
 
 
 ## -returns
@@ -115,7 +116,7 @@ This callback function does not return a value.
 
 
 
-This callback function is part of a two step process of resource creation. After the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout. 
+This callback function is part of a two step process of resource creation. After the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout.
 
 
 

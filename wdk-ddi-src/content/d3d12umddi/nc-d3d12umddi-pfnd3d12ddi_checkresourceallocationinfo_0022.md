@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,6 +77,7 @@ VOID APIENTRY* pfnCheckResourceAllocationInfo(
 
 ### -param D3D12DDI_HDEVICE
 
+A handle to the display device (graphics context).
 
 ### -param *
 
@@ -112,7 +113,7 @@ Resource optimization flags.
 
 #### - hDevice
 
-A device handle. 
+A device handle.
 
 
 #### - pInfo [out]
